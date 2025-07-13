@@ -95,3 +95,6 @@ Let me know if you'd like to include:
 
 You’re productionizing your ML—exactly how ML engineers grow.
 
+## The dataset for training in the directory named data.
+
+
