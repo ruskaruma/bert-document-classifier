@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">rabpro: global watershed boundaries, river elevation profiles, and catchment statistics</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2022-05-31">31 May 2022</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Jon</forename><surname>Schwe</surname></persname>
+<idno type="ORCID">0000-0001-6308-8976</idno>
+<affiliation key="aff0">
+<note type="raw_affiliation"> , of Earth and ,</note>
+<orgname type="department">of Earth</orgname>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Tal</forename><surname>Zussman</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> , of Earth and ,</note>
+<orgname type="department">of Earth</orgname>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Jemma</forename><surname>Stachelek</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> , of Earth and ,</note>
+<orgname type="department">of Earth</orgname>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Joel</forename><forename type="middle">C</forename><surname>Rowland</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> , of Earth and ,</note>
+<orgname type="department">of Earth</orgname>
+</affiliation>
+</author>
+<title level="a" type="main">rabpro: global watershed boundaries, river elevation profiles, and catchment statistics</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2022-05-31">31 May 2022</date>
+</imprint>
+</monogr>
+<idno type="MD5">F74842A6E26920C98C2DD8115C59B055</idno>
+<idno type="DOI">10.21105/joss.04237</idno>
+<note type="submission">Submitted: 28 February 2022</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-09-18T20:35+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>River and Basin Profiler (rabpro) is a Python package to delineate watersheds, extract river flowlines and elevation profiles, and compute watershed statistics for any location on the Earth's surface.</s><s>As fundamental hydrologically-relevant units of surface area, watersheds are areas of land that drain via aboveground pathways to the same location, or outlet.</s><s>Delineations of watershed boundaries are typically performed on digital elevation models (DEMs) that represent surface elevations as gridded rasters.</s><s>Depending on the resolution of the DEM and the size of the watershed, delineation may be very computationally expensive.</s><s>With this in mind, we designed rabpro to provide user-friendly workflows to manage the complexity and computational expense of watershed calculations given an arbitrary coordinate pair.</s><s>In addition to basic watershed delineation, rabpro will extract the elevation profile for a watershed's mainchannel flowline.</s><s>This enables the computation of river slope, which is a critical parameter in many hydrologic and geomorphologic models.</s><s>Finally, rabpro provides a user-friendly wrapper around Google Earth Engine's (GEE) Python API to enable cloud-computing of zonal watershed statistics and/or time-varying forcing data from hundreds of available datasets.</s><s>Altogether, rabpro provides the ability to automate or semi-automate complex watershed analysis workflows across broad spatial extents.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0"> <ref target="#b13" type="bibr">(Didan, 2015)</ref><p><s>, topo slope <ref target="#b2" type="bibr">(Amatulli et al., 2020)</ref>, precipitation (GPM, 2019), soil moisture <ref target="#b32" type="bibr">(ONeill et al., 2018), and</ref><ref type="bibr">temperature (Copernicus, 2017)</ref>.</s><s>(F, G) Basin-averaged time-series data fetched by rabpro for the temperature and precipitation datasets in (E).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Statement of Need<p><s>Watersheds play a central and vital role in many scientific, engineering, and environmental management applications (See <ref target="#b6" type="bibr">Brooks (2003)</ref> for a comprehensive overview).</s><s>While rabpro can benefit any watershed-based research or analysis, it was designed to satisfy the needs of data-driven rainfall-runoff models.</s><s>These models aim to predict streamflow (runoff) time series as a function of precipitation over upstream land area (i.e. the watershed).</s><s>In addition to watershed delineations and precipitation estimates, they typically require data on both timevarying parameters (or forcing data) like temperature, humidity, soil moisture, and vegetation as well as static watershed properties like topography, soil type, or land use/land cover <ref target="#b17" type="bibr">(Gauch et al., 2021;</ref><ref target="#b24" type="bibr">Kratzert et al., 2019</ref><ref target="#b25" type="bibr">Kratzert et al., , 2021;;</ref><ref target="#b31" type="bibr">Nearing et al., 2021)</ref>.</s><s>The rabpro API enables users to manage the complete data pipeline necessary to drive such a model starting from the initial watershed delineation through the calculation of static and time-varying parameters.</s><s>Some hydrologic and hydraulic models also require channel slope for routing streamflow <ref target="#b5" type="bibr">(Boyle et al., 2001;</ref><ref target="#b33" type="bibr">Piccolroaz et al., 2016;</ref><ref target="#b43" type="bibr">Wilson et al., 2008)</ref>, developing rating curves <ref target="#b10" type="bibr">(Colby, 1956;</ref><ref target="#b14" type="bibr">Fenton &amp; Keller, 2001)</ref>, or modeling local hydraulics <ref target="#b37" type="bibr">(Schwenk et al., 2017</ref><ref target="#b38" type="bibr">(Schwenk et al., , 2015;;</ref><ref target="#b36" type="bibr">Schwenk &amp; Foufoula-Georgiou, 2016)</ref>.</s></p><p><s>The need for watershed-based data analysis tools is exemplified by the growing collection of published datasets that provide watershed boundaries, forcing data, and/or watershed attributes in precomputed form, including CAMELS <ref target="#b0" type="bibr">(Addor et al., 2017)</ref>, CAMELS-CL, -AUS, and -BR <ref target="#b1" type="bibr">(Alvarez-Garreton et al., 2018;</ref><ref target="#b7" type="bibr">Chagas et al., 2020;</ref><ref target="#b16" type="bibr">Fowler et al., 2021)</ref>, Hysets <ref target="#b3" type="bibr">(Arsenault et al., 2020)</ref>, and HydroAtlas <ref target="#b28" type="bibr">(Linke et al., 2019)</ref>.</s><s>These datasets provide off-the-shelf options for building streamflow models, but they suffer from a degree of inflexibility.</s><s>For example, someone desiring to add a watershed attribute, to use a new remotely-sensed data product, or to update the forcing data time-series to include the most recently available data must go through the arduous process of sampling it themselves.</s><s>rabpro was designed to provide flexibility for both building a watershed dataset from scratch or appending to an existing one.</s></p><p><s>While we point to streamflow modeling as an example, many other applications exist.</s><s>rabpro is currently being used to contextualize streamflow trends, build a data-driven model of riverbank erosion, and generate forcing data for a mosquito population dynamics model.</s><s>rabpro's focus is primarily on watersheds, but some users may also find rabpro's Google Earth Engine wrapper convenient for sampling raster data over any geopolygon(s).</s><s>For example, Earth System Models commonly require sampling raster datasets over watersheds or other polygons for parameterizations and validations <ref target="#b8" type="bibr">(Chen et al., 2020;</ref><ref target="#b15" type="bibr">Fisher et al., 2019)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">State of the field<p><s>The importance of watersheds, availability of DEMs, and growing computational power has led to the development of many excellent open-source terrain (DEM) analysis packages that provide watershed delineation tools, including TauDEM <ref target="#b40" type="bibr">(Tarboton, 2005)</ref>, pysheds <ref target="#b4" type="bibr">(Bartos, 2020)</ref>, Whitebox Tools <ref target="#b27" type="bibr">(Lindsay, 2016)</ref>, SAGA <ref target="#b11" type="bibr">(Conrad et al., 2015)</ref>, among many others.</s><s>Computing statistics and forcing data from geospatial rasters also has a rich history of development, and Google Earth Engine <ref target="#b20" type="bibr">(Gorelick et al., 2017)</ref> has played an important role.</s><s>Almost a decade has passed since Google Earth Engine has been available to developers, and the community has in-turn developed open-source packages to interface with its Python API in user-friendlier ways, including gee_tools <ref target="#b34" type="bibr">(Principe, 2021)</ref>, geemap <ref target="#b44" type="bibr">(Wu, 2020)</ref>, eemont <ref target="#b30" type="bibr">(Montero, 2021)</ref>, and restee <ref target="#b29" type="bibr">(Markert, 2021)</ref>-each of which provides support for sampling zonal statistics and time series from geospatial polygons.</s><s>However, to our knowledge, rabpro is the only available package that provides efficient endto-end delineation and characterization of watershed basins at scale.</s><s>While a combination of the cited terrain analysis packages and GEE toolboxes can achieve rabpro's functionality, rabpro's blending of them enables simpler, less error-prone, and faster results.</s></p><p><s>One unique rabpro innovation is its automation of "hydrologically addressing" input coordinates.</s><s>DEM watershed delineations require that the outlet pixel be precisely specified; in many rabpro use cases, this is simply a (latitude, longitude) coordinate that may not align with the underlying DEM.</s><s>rabpro will attempt to "snap" the provided coordinate to a nearby flowline while minimizing the snapping distance and the difference in upstream drainage area (if provided by the user).</s><s>Another unique rabpro feature is the ability to optimize the watershed delineation method according to basin size such that pixel-based (from MERIT-Hydro <ref target="#b45" type="bibr">(Yamazaki et al., 2019)</ref>) delineations can be used for more accurate estimates and/or smaller basins, and coarser subbasin-based (from HydroBASINS <ref target="#b26" type="bibr">(Lehner &amp; Grill, 2014</ref>)) delineations can be used for rapid estimates of larger basins.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Functionality<p><s>rabpro executes watershed delineation based on either the MERIT-Hydro dataset, which provides a global, ~90 meter per pixel, hydrologically-processed DEM suite, or the HydroBASINS data product, which provides pre-delineated subbasins at approximately ~230 km^2 per subbasin.</s><s>Conceptually, basin delineation is identical for both.</s><s>The user-provided coordinate is hydrologically addressed by finding the downstream-most pixel (MERIT-Hydro) or subbasin (HydroBASINS).</s><s>The watershed is then delineated by finding all upstream pixels or subbasins that drain into the downstream pixel/subbasin and taking the union of these pixels/subbasins to form a single polygon.</s><s>A user must therefore download either the MERIT-Hydro tiles covering their study watershed or the appropriate HydroBASINS product; rabpro provides tooling to automate these downloads and create its expected data structure (See the Downloading data notebook).</s><s>rabpro does not currently provide support for custom watershed datasets similar to HydroBASINS due to attribute field and data structure requirements that must be consistent for generalizability.</s></p><p><s>There are three primary operations supported by rabpro: 1) basin delineation, 2) elevation profiling, and 3) subbasin (zonal) statistics.</s><s>If operating on a single coordinate pair, the cleanest workflow is to instantiate an object of the profiler class and call (in order) the delineate_basins(), elev_profile(), and basin_stats() methods (See the Basic Example notebook).</s><s>If operating on multiple coordinate pairs, the workflow is to loop through each coordinate pair while delineating each watershed (optionally calculating its elevation profile).</s><s>As the loop runs, the user collects each basin polygon in a list, concatenates the list, and directly calls basin_stats.compute()</s><s>on the resulting GeoDataFrame (See the Multiple Basins Example notebook).</s><s>More details on package functionality can be found in the documentation.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Dependencies<p><s>rabpro relies on functionality from the following Python packages: GDAL (GDAL/OGR contributors, 2020), NumPy <ref target="#b22" type="bibr">(Harris et al., 2020)</ref>, GeoPandas <ref target="#b23" type="bibr">(Jordahl et al., 2020)</ref>, Shapely <ref target="#b19" type="bibr">(Gillies &amp; others, 2007)</ref>, pyproj <ref target="#b39" type="bibr">(Snow et al., 2021</ref><ref type="bibr">), scikit-image (Van der Walt et al., 2014)</ref>, scipy <ref target="#b42" type="bibr">(Virtanen et al., 2020)</ref>, and earthengine-api <ref target="#b20" type="bibr">(Gorelick et al., 2017)</ref>.</s><s>Use of the watershed statistics methods requires a free Google Earth Engine account.</s><s>Required MERIT-Hydro and HydroBASINS data are freely available for download by visiting their websites or using rabpro's download scripts; MERIT-Hydro requires users to first register to receive a username and password for access to downloads.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 :<label>1</label><figdesc><div><p><s>Figure 1: The core functionality of rabpro demonstrated on the Sigatoka River.</s><s>(A) Study site with both MERIT and HydroBASINS delineations and river flowline extraction for a hypothetical gage station.</s><s>Bing VirtualEarth base image.</s><s>(B) MERIT-Hydro delineation with MERIT-Hydro flowlines underneath.</s><s>(C) HydroBASINS delineation with level-12 HydroBASINS polygons as white outlines.</s><s>(D) Extracted elevation profile with gage location denoted by white circle at Distance = 0. (E) Examples of time-averaged (where appropriate) basin characteristics retrieved by rabpro from Google Earth Engine.</s><s>Data sources are: population (CIESIN, 2017), NDVI<ref target="#b13" type="bibr">(Didan, 2015)</ref>, topo slope<ref target="#b2" type="bibr">(Amatulli et al., 2020</ref>), precipitation (GPM, 2019), soil moisture (ONeill et al., 2018), and temperature  (Copernicus, 2017).</s><s>(F, G) Basin-averaged time-series data fetched by rabpro for the temperature and precipitation datasets in (E).</s></p></div></figdesc><graphic coords="2,166.86,99.21,385.91,331.66" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 :<label>2</label><figdesc><div><p><s>Figure2: rabpro can return statistics for multiple polygons with a single call.</s><s>Here, dam-associated<ref target="#b35" type="bibr">(Prior et al., 2022)</ref> watersheds in Sri Lanka are delineated and zonal statistics are run for water occurrence, temperature, and precipitation.</s></p></div></figdesc><graphic coords="4,166.86,333.83,385.90,194.97" type="bitmap"></graphic></figure>
+<note n="7" place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>(73), 4237.</s><s>https://doi.org/10.21105/joss.04237.</s></p></note>
+<note place="foot" xml:id="foot_1" xmlns="http://www.tei-c.org/ns/1.0"><p><s><ref target="#b35" type="bibr">Schwenk et al. (2022)</ref>.</s><s>rabpro: global watershed boundaries, river elevation profiles, and catchment statistics.</s><s>Journal of Open Source Software, 7 (73), 4237.</s><s>https://doi.org/10.21105/joss.04237.</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgements<p><s>Jordan Muss, Joel Rowland, and Eiten Shelef envisioned and created a predecessor to rabpro and helped guide its early development.</s><s>rabpro was developed with support from the Laboratory Directed Research and Development program of Los Alamos National Laboratory (Project numbers 20210213ER, 20220697PRD1) and as part of the Interdisciplinary Research for Arctic Coastal Environments (InteRFACE) project through the Department of Energy, Office of Science, Biological and Environmental Research Earth and Environment Systems Sciences Division RGMA program, awarded under contract grant #9233218CNA000001 to Triad National Security, LLC ("Triad").</s><s>TZ was supported by funding from the Columbia Undergraduate Scholars Program Summer Enhancement Fellowship.</s></p></div>
+</div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">The CAMELS data set: Catchment attributes and meteorology for large-sample studies</title>
+<author>
+<persname><forename type="first">N</forename><surname>Addor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Newman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Mizukami</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Clark</surname></persname>
+</author>
+<idno type="DOI">10.5194/hess-21-5293-2017</idno>
+<ptr target="https://doi.org/10.5194/hess-21-5293-2017"></ptr>
+</analytic>
+<monogr>
+<title level="j">Hydrology and Earth System Sciences</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope unit="issue">10</biblscope>
+<biblscope from="5293" to="5313" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Addor, N., Newman, A. J., Mizukami, N., &amp; Clark, M. P. (2017). The CAMELS data set: Catchment attributes and meteorology for large-sample studies. Hydrology and Earth System Sciences, 21(10), 5293-5313. https://doi.org/10.5194/hess-21-5293-2017</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">The CAMELS-CL dataset: Catchment attributes and meteorology for large sample studies-Chile dataset</title>
+<author>
+<persname><forename type="first">C</forename><surname>Alvarez-Garreton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Mendoza</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Boisier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Addor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Galleguillos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Zambrano-Bigiarini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Lara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Puelma</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Cortes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Garreaud</surname></persname>
+</author>
+<idno type="DOI">10.5194/hess-22-5817-2018</idno>
+<ptr target="https://doi.org/10.5194/hess-22-5817-2018"></ptr>
+</analytic>
+<monogr>
+<title level="j">Hydrology and Earth System Sciences</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope from="5817" to="5846" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Alvarez-Garreton, C., Mendoza, P. A., Boisier, J. P., Addor, N., Galleguillos, M., Zambrano- Bigiarini, M., Lara, A., Puelma, C., Cortes, G., Garreaud, R., &amp; others. (2018). The CAMELS-CL dataset: Catchment attributes and meteorology for large sample studies-Chile dataset. Hydrology and Earth System Sciences, 22(11), 5817-5846. https://doi.org/10. 5194/hess-22-5817-2018</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Geomorpho90m, empirical evaluation and accuracy assessment of global high-resolution geomorphometric layers</title>
+<author>
+<persname><forename type="first">G</forename><surname>Amatulli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Mcinerney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Sethi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Strobl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Domisch</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41597-020-0479-6</idno>
+<ptr target="https://doi.org/10.1038/s41597-020-0479-6"></ptr>
+</analytic>
+<monogr>
+<title level="j">Scientific Data</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope unit="page">162</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Amatulli, G., McInerney, D., Sethi, T., Strobl, P., &amp; Domisch, S. (2020). Geomorpho90m, empirical evaluation and accuracy assessment of global high-resolution geomorphometric layers. Scientific Data, 7 (1), 162. https://doi.org/10.1038/s41597-020-0479-6</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds</title>
+<author>
+<persname><forename type="first">R</forename><surname>Arsenault</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Brissette</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-L</forename><surname>Martel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Troin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Lévesque</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Davidson-Chaput</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Gonzalez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ameli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Poulin</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41597-020-00583-2</idno>
+<ptr target="https://doi.org/10.1038/s41597-020-00583-2"></ptr>
+</analytic>
+<monogr>
+<title level="j">Scientific Data</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="1" to="12" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Arsenault, R., Brissette, F., Martel, J.-L., Troin, M., Lévesque, G., Davidson-Chaput, J., Gonzalez, M. C., Ameli, A., &amp; Poulin, A. (2020). A comprehensive, multisource database for hydrometeorological modeling of 14,425 North American watersheds. Scientific Data, 7 (1), 1-12. https://doi.org/10.1038/s41597-020-00583-2</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<monogr>
+<title level="m" type="main">Pysheds: Simple and fast watershed delineation in python</title>
+<author>
+<persname><forename type="first">M</forename><surname>Bartos</surname></persname>
+</author>
+<idno type="DOI">10.5281/zenodo.3822494</idno>
+<ptr target="https://doi.org/10.5281/zenodo.3822494"></ptr>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bartos, M. (2020). Pysheds: Simple and fast watershed delineation in python. https://doi. org/10.5281/zenodo.3822494</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Toward improved streamflow forecasts: Value of semidistributed modeling</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">P</forename><surname>Boyle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">V</forename><surname>Gupta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sorooshian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Koren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Smith</surname></persname>
+</author>
+<idno type="DOI">10.1029/2000WR000207</idno>
+<ptr target="https://doi.org/10.1029/2000WR000207"></ptr>
+</analytic>
+<monogr>
+<title level="j">Water Resources Research</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope from="2749" to="2759" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Boyle, D. P., Gupta, H. V., Sorooshian, S., Koren, V., Zhang, Z., &amp; Smith, M. (2001). Toward improved streamflow forecasts: Value of semidistributed modeling. Water Resources Research, 37 (11), 2749-2759. https://doi.org/10.1029/2000WR000207</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<monogr>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">N</forename><surname>Brooks</surname></persname>
+</author>
+<title level="m">Hydrology and the management of watersheds (3rd ed)</title>
+<imprint>
+<publisher>Iowa State Press</publisher>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brooks, K. N. (Ed.). (2003). Hydrology and the management of watersheds (3rd ed). Iowa State Press. ISBN: 978-0-8138-2985-2</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">CAMELS-BR: Hydrometeorological time series and landscape attributes for 897 catchments in Brazil</title>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">B</forename><surname>Chagas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">L</forename><surname>Chaffe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Addor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Fan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">S</forename><surname>Fleischmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">C</forename><surname>Paiva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">A</forename><surname>Siqueira</surname></persname>
+</author>
+<idno type="DOI">10.5194/essd-12-2075-2020</idno>
+<ptr target="https://doi.org/10.5194/essd-12-2075-2020"></ptr>
+</analytic>
+<monogr>
+<title level="j">Earth System Science Data</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="2075" to="2096" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chagas, V. B., Chaffe, P. L., Addor, N., Fan, F. M., Fleischmann, A. S., Paiva, R. C., &amp; Siqueira, V. A. (2020). CAMELS-BR: Hydrometeorological time series and landscape attributes for 897 catchments in Brazil. Earth System Science Data, 12(3), 2075-2096. https://doi.org/10.5194/essd-12-2075-2020</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Global land use for 2015-2100 at 0.05 resolution under diverse socioeconomic and climate scenarios</title>
+<author>
+<persname><forename type="first">M</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">R</forename><surname>Vernon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">T</forename><surname>Graham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Hejazi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Cheng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Calvin</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41597-020-00669-x</idno>
+<ptr target="https://doi.org/10.1038/s41597-020-00669-x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Scientific Data</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="1" to="11" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chen, M., Vernon, C. R., Graham, N. T., Hejazi, M., Huang, M., Cheng, Y., &amp; Calvin, K. (2020). Global land use for 2015-2100 at 0.05 resolution under diverse socioeconomic and climate scenarios. Scientific Data, 7 (1), 1-11. https://doi.org/10.1038/s41597-020-00669-x</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Gridded Population of the World, Version 4 (GPWv4)</title>
+<author>
+<persname><surname>Ciesin</surname></persname>
+</author>
+<idno type="DOI">10.7927/H49C6VHW</idno>
+<ptr target="https://doi.org/10.7927/H49C6VHW"></ptr>
+</analytic>
+<monogr>
+<title level="m">Socioeconomic Data; Applications Center (SEDAC)</title>
+<meeting><address><addrline>Palisades, NY</addrline></address></meeting>
+<imprint>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note>Population Density, Revision 11</note>
+<note type="raw_reference">CIESIN. (2017). Gridded Population of the World, Version 4 (GPWv4): Population Density, Revision 11. Palisades, NY: Socioeconomic Data; Applications Center (SEDAC). https: //doi.org/10.7927/H49C6VHW</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Relationship of sediment discharge to streamflow</title>
+<author>
+<persname><forename type="first">B</forename><surname>Colby</surname></persname>
+</author>
+<idno type="DOI">10.3133/ofr5627</idno>
+<ptr target="https://doi.org/10.3133/ofr5627"></ptr>
+</analytic>
+<monogr>
+<title level="j">US Dept. of the Interior</title>
+<imprint>
+<date type="published" when="1956">1956</date>
+<publisher>Geological Survey, Water Resources Division</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Colby, B. (1956). Relationship of sediment discharge to streamflow. US Dept. of the Interior, Geological Survey, Water Resources Division,. https://doi.org/10.3133/ofr5627</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">System for Automated Geoscientific Analyses (SAGA) v. 2.1.4</title>
+<author>
+<persname><forename type="first">O</forename><surname>Conrad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Bechtel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bock</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Dietrich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Fischer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Gerlitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wehberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Wichmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Böhner</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmd-8-1991-2015</idno>
+<ptr target="https://doi.org/10.5194/gmd-8-1991-2015"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geoscientific Model Development</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope unit="issue">7</biblscope>
+<biblscope from="1991" to="2007" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Conrad, O., Bechtel, B., Bock, M., Dietrich, H., Fischer, E., Gerlitz, L., Wehberg, J., Wichmann, V., &amp; Böhner, J. (2015). System for Automated Geoscientific Analyses (SAGA) v. 2.1.4. Geoscientific Model Development, 8(7), 1991-2007. https://doi.org/10.5194/ gmd-8-1991-2015</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<monogr>
+<ptr target="https://cds.climate.copernicus.eu/cdsapp#!/home"></ptr>
+<title level="m">ERA5: Fifth generation of ECMWF atmospheric reanalyses of the global climate</title>
+<imprint>
+<publisher>Copernicus</publisher>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note>Copernicus Climate Change Service Climate Data Store (CDS</note>
+<note type="raw_reference">Copernicus. (2017). ERA5: Fifth generation of ECMWF atmospheric reanalyses of the global climate . Copernicus Climate Change Service Climate Data Store (CDS). https: //cds.climate.copernicus.eu/cdsapp#!/home</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">MOD13A2 MODIS/Terra Vegetation Indices 16-Day L3 Global 1km SIN Grid V006</title>
+<author>
+<persname><forename type="first">K</forename><surname>Didan</surname></persname>
+</author>
+<idno type="DOI">10.5067/MODIS/MOD13A2.006</idno>
+<ptr target="https://doi.org/10.5067/MODIS/MOD13A2.006"></ptr>
+</analytic>
+<monogr>
+<title level="j">NASA EOSDIS Land Processes DAAC</title>
+<imprint>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Didan, K. (2015). MOD13A2 MODIS/Terra Vegetation Indices 16-Day L3 Global 1km SIN Grid V006. NASA EOSDIS Land Processes DAAC. https://doi.org/10.5067/MODIS/ MOD13A2.006</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">The calculation of streamflow from measurements of stage</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Fenton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Keller</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Cooperative Research Centre for Catchment Hydrology</title>
+<imprint>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fenton, J. D., &amp; Keller, R. J. (2001). The calculation of streamflow from measurements of stage. Cooperative Research Centre for Catchment Hydrology.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Parametric controls on vegetation responses to biogeochemical forcing in the CLM5</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Fisher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">R</forename><surname>Wieder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">M</forename><surname>Sanderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">D</forename><surname>Koven</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">W</forename><surname>Oleson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Xu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Fisher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Shi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">P</forename><surname>Walker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Lawrence</surname></persname>
+</author>
+<idno type="DOI">10.1029/2019MS001609</idno>
+<ptr target="https://doi.org/10.1029/2019MS001609"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Advances in Modeling Earth Systems</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope unit="issue">9</biblscope>
+<biblscope from="2879" to="2895" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fisher, R. A., Wieder, W. R., Sanderson, B. M., Koven, C. D., Oleson, K. W., Xu, C., Fisher, J. B., Shi, M., Walker, A. P., &amp; Lawrence, D. M. (2019). Parametric controls on vegetation responses to biogeochemical forcing in the CLM5. Journal of Advances in Modeling Earth Systems, 11(9), 2879-2895. https://doi.org/10.1029/2019MS001609</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">CAMELS-AUS: Hydrometeorological time series and landscape attributes for 222 catchments in Australia</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Fowler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Acharya</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Addor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Chou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Peel</surname></persname>
+</author>
+<idno type="DOI">10.5194/essd-13-3847-2021</idno>
+<ptr target="https://doi.org/10.5194/essd-13-3847-2021"></ptr>
+</analytic>
+<monogr>
+<title level="j">Earth System Science Data</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope from="3847" to="3867" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fowler, K. J., Acharya, S. C., Addor, N., Chou, C., &amp; Peel, M. C. (2021). CAMELS- AUS: Hydrometeorological time series and landscape attributes for 222 catchments in Australia. Earth System Science Data, 13(8), 3847-3867. https://doi.org/10.5194/ essd-13-3847-2021</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Rainfall-runoff prediction at multiple timescales with a single Long Short-Term Memory network</title>
+<author>
+<persname><forename type="first">M</forename><surname>Gauch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Kratzert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Klotz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Nearing</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Lin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hochreiter</surname></persname>
+</author>
+<idno type="DOI">10.5194/hess-25-2045-2021</idno>
+<ptr target="https://doi.org/10.5194/hess-25-2045-2021"></ptr>
+</analytic>
+<monogr>
+<title level="j">Hydrology and Earth System Sciences</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="2045" to="2062" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gauch, M., Kratzert, F., Klotz, D., Nearing, G., Lin, J., &amp; Hochreiter, S. (2021). Rain- fall-runoff prediction at multiple timescales with a single Long Short-Term Memory net- work. Hydrology and Earth System Sciences, 25(4), 2045-2062. https://doi.org/10.5194/ hess-25-2045-2021</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">GDAL/OGR Geospatial Data Abstraction software Library</title>
+<ptr target="https://gdal.org"></ptr>
+</analytic>
+<monogr>
+<title level="m">Open Source Geospatial Foundation</title>
+<imprint>
+<publisher>GDAL/OGR contributors</publisher>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">GDAL/OGR contributors. (2020). GDAL/OGR Geospatial Data Abstraction software Library. Open Source Geospatial Foundation. https://gdal.org</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<monogr>
+<author>
+<persname><forename type="first">S</forename><surname>Gillies</surname></persname>
+</author>
+<ptr target="https://github.com/Toblerity/Shapely"></ptr>
+<title level="m">Shapely: Manipulation and analysis of geometric objects</title>
+<imprint>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note>toblerity.org</note>
+<note type="raw_reference">Gillies, S., &amp; others. (2007). Shapely: Manipulation and analysis of geometric objects. toblerity.org. https://github.com/Toblerity/Shapely</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Google Earth Engine: Planetary-scale geospatial analysis for everyone</title>
+<author>
+<persname><forename type="first">N</forename><surname>Gorelick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Hancher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Dixon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ilyushchenko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Thau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Moore</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.rse.2017.06.031</idno>
+<ptr target="https://doi.org/10.1016/j.rse.2017.06.031"></ptr>
+</analytic>
+<monogr>
+<title level="j">Remote Sensing of Environment</title>
+<imprint>
+<biblscope unit="volume">202</biblscope>
+<biblscope from="18" to="27" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., &amp; Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. Remote Sensing of Environment, 202, 18-27. https://doi.org/10.1016/j.rse.2017.06.031</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<monogr>
+<title level="m" type="main">GPM IMERG Final Precipitation L3 Half Hourly 0</title>
+<author>
+<persname><forename type="first">N</forename><surname>Gpm</surname></persname>
+</author>
+<idno type="DOI">10.5067/GPM/IMERG/3B-HH/06</idno>
+<idno>degree x 0.1 degree V06</idno>
+<ptr target="https://doi.org/10.5067/GPM/IMERG/3B-HH/06"></ptr>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+<respstmt>
+<orgname>NASA Goddard Earth Sciences Data; Information Services Center</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">GPM, N. (2019). GPM IMERG Final Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V06. NASA Goddard Earth Sciences Data; Information Services Center. https://doi.org/ 10.5067/GPM/IMERG/3B-HH/06</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Array programming with NumPy</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">R</forename><surname>Harris</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Millman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Walt</surname></persname>
+</author>
+<author>
+<persname><surname>Van Der</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Gommers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Virtanen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Cournapeau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Wieser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Taylor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Berg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">J</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kern</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Picus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hoyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">H</forename><surname>Kerkwijk</surname></persname>
+</author>
+<author>
+<persname><surname>Van</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Brett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Haldane</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">F</forename><surname>Río</surname></persname>
+</author>
+<author>
+<persname><surname>Del</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Wiebe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Peterson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">E</forename><surname>Oliphant</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41586-020-2649-2</idno>
+<ptr target="https://doi.org/10.1038/s41586-020-2649-2"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">585</biblscope>
+<biblscope unit="issue">7825</biblscope>
+<biblscope from="357" to="362" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Harris, C. R., Millman, K. J., Walt, S. J. van der, Gommers, R., Virtanen, P., Cournapeau, D., Wieser, E., Taylor, J., Berg, S., Smith, N. J., Kern, R., Picus, M., Hoyer, S., Kerkwijk, M. H. van, Brett, M., Haldane, A., Río, J. F. del, Wiebe, M., Peterson, P., … Oliphant, T. E. (2020). Array programming with NumPy. Nature, 585(7825), 357-362. https: //doi.org/10.1038/s41586-020-2649-2</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<monogr>
+<title level="m" type="main">Geopandas/geopandas: v0.8.1</title>
+<author>
+<persname><forename type="first">K</forename><surname>Jordahl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">V</forename><surname>Bossche</surname></persname>
+</author>
+<author>
+<persname><surname>Den</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Fleischmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wasserman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Mcbride</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Gerard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Tratner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Perry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">G</forename><surname>Badaracco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Farmer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Hjelle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Snow</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Cochran</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Gillies</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Culbertson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bartos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Eubank</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bilogur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Leblanc</surname></persname>
+</author>
+<idno type="DOI">10.5281/zenodo.3946761</idno>
+<ptr target="https://doi.org/10.5281/zenodo.3946761"></ptr>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jordahl, K., Bossche, J. V. den, Fleischmann, M., Wasserman, J., McBride, J., Gerard, J., Tratner, J., Perry, M., Badaracco, A. G., Farmer, C., Hjelle, G. A., Snow, A. D., Cochran, M., Gillies, S., Culbertson, L., Bartos, M., Eubank, N., maxalbert, Bilogur, A., … Leblanc, F. (2020). Geopandas/geopandas: v0.8.1. Zenodo. https://doi.org/10.5281/zenodo.3946761</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Toward improved predictions in ungauged basins: Exploiting the power of machine learning</title>
+<author>
+<persname><forename type="first">F</forename><surname>Kratzert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Klotz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Herrnegger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">K</forename><surname>Sampson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hochreiter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">S</forename><surname>Nearing</surname></persname>
+</author>
+<idno type="DOI">10.1029/2019WR026065</idno>
+<ptr target="https://doi.org/10.1029/2019WR026065"></ptr>
+</analytic>
+<monogr>
+<title level="j">Water Resources Research</title>
+<imprint>
+<biblscope unit="volume">55</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope from="11344" to="11354" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kratzert, F., Klotz, D., Herrnegger, M., Sampson, A. K., Hochreiter, S., &amp; Nearing, G. S. (2019). Toward improved predictions in ungauged basins: Exploiting the power of machine learning. Water Resources Research, 55(12), 11344-11354. https://doi.org/10.1029/ 2019WR026065</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">A note on leveraging synergy in multiple meteorological data sets with deep learning for rainfall-runoff modeling</title>
+<author>
+<persname><forename type="first">F</forename><surname>Kratzert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Klotz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hochreiter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">S</forename><surname>Nearing</surname></persname>
+</author>
+<idno type="DOI">10.5194/hess-25-2685-2021</idno>
+<ptr target="https://doi.org/10.5194/hess-25-2685-2021"></ptr>
+</analytic>
+<monogr>
+<title level="j">Hydrology and Earth System Sciences</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="2685" to="2703" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kratzert, F., Klotz, D., Hochreiter, S., &amp; Nearing, G. S. (2021). A note on leveraging synergy in multiple meteorological data sets with deep learning for rainfall-runoff model- ing. Hydrology and Earth System Sciences, 25(5), 2685-2703. https://doi.org/10.5194/ hess-25-2685-2021</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<monogr>
+<title level="m" type="main">HydroBASINS: Global watershed boundaries and sub-basin delineations derived from HydroSHEDS data at 15 second resolution-Technical documentation version 1</title>
+<author>
+<persname><forename type="first">B</forename><surname>Lehner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Grill</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="report_type">Technical {Report}</note>
+<note type="raw_reference">Lehner, B., &amp; Grill, G. (2014). HydroBASINS: Global watershed boundaries and sub-basin delineations derived from HydroSHEDS data at 15 second resolution-Technical docu- mentation version 1. c [Technical {Report}].</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Whitebox GAT: A case study in geomorphometric analysis</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Lindsay</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.cageo.2016.07.003</idno>
+<ptr target="https://doi.org/10.1016/j.cageo.2016.07.003"></ptr>
+</analytic>
+<monogr>
+<title level="j">Computers &amp; Geosciences</title>
+<imprint>
+<biblscope unit="volume">95</biblscope>
+<biblscope from="75" to="84" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lindsay, J. B. (2016). Whitebox GAT: A case study in geomorphometric analysis. Computers &amp; Geosciences, 95, 75-84. https://doi.org/10.1016/j.cageo.2016.07.003</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Global hydro-environmental subbasin and river reach characteristics at high spatial resolution</title>
+<author>
+<persname><forename type="first">S</forename><surname>Linke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Lehner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Ouellet Dallaire</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Ariwi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Grill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Anand</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Beames</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Burchard-Levine</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Maxwell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Moidu</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41597-019-0300-6</idno>
+<ptr target="https://doi.org/10.1038/s41597-019-0300-6"></ptr>
+</analytic>
+<monogr>
+<title level="j">Scientific Data</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="1" to="15" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Linke, S., Lehner, B., Ouellet Dallaire, C., Ariwi, J., Grill, G., Anand, M., Beames, P., Burchard- Levine, V., Maxwell, S., Moidu, H., &amp; others. (2019). Global hydro-environmental sub- basin and river reach characteristics at high spatial resolution. Scientific Data, 6(1), 1-15. https://doi.org/10.1038/s41597-019-0300-6</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<monogr>
+<author>
+<persname><forename type="first">K</forename><surname>Markert</surname></persname>
+</author>
+<ptr target="https://github.com/KMarkert/restee"></ptr>
+<title level="m">Restee. GitHub</title>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Markert, K. (2021). Restee. GitHub. https://github.com/KMarkert/restee</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Eemont: A Python package that extends Google Earth Engine</title>
+<author>
+<persname><forename type="first">D</forename><surname>Montero</surname></persname>
+</author>
+<idno type="DOI">10.21105/joss.03168</idno>
+<ptr target="https://doi.org/10.21105/joss.03168"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Open Source Software</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="issue">62</biblscope>
+<biblscope unit="page">3168</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Montero, D. (2021). Eemont: A Python package that extends Google Earth Engine. Journal of Open Source Software, 6(62), 3168. https://doi.org/10.21105/joss.03168</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Data assimilation and autoregression for using near-real-time streamflow observations in long short-term memory networks</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">S</forename><surname>Nearing</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Klotz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">K</forename><surname>Sampson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Kratzert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Gauch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Frame</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Shalev</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Nevo</surname></persname>
+</author>
+<idno type="DOI">10.5194/hess-2021-515</idno>
+<ptr target="https://doi.org/10.5194/hess-2021-515"></ptr>
+</analytic>
+<monogr>
+<title level="j">Hydrology and Earth System Sciences Discussions</title>
+<imprint>
+<biblscope from="1" to="25" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nearing, G. S., Klotz, D., Sampson, A. K., Kratzert, F., Gauch, M., Frame, J. M., Shalev, G., &amp; Nevo, S. (2021). Data assimilation and autoregression for using near-real-time streamflow observations in long short-term memory networks. Hydrology and Earth System Sciences Discussions, 1-25. https://doi.org/10.5194/hess-2021-515</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">SMAP L3 Radiometer Global Daily 36 km EASE-Grid Soil Moisture, Version 5</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">E</forename><surname>Oneill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Chan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">G</forename><surname>Njoku</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Jackson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Bindlish</surname></persname>
+</author>
+<idno type="DOI">10.5067/ZX7YX2Y2LHEB</idno>
+<ptr target="https://doi.org/10.5067/ZX7YX2Y2LHEB"></ptr>
+</analytic>
+<monogr>
+<title level="j">NASA National Snow; Ice Data Center DAAC</title>
+<imprint>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">ONeill, P. E., Chan, S., Njoku, E. G., Jackson, T., &amp; Bindlish, R. (2018). SMAP L3 Radiometer Global Daily 36 km EASE-Grid Soil Moisture, Version 5. NASA National Snow; Ice Data Center DAAC. https://doi.org/10.5067/ZX7YX2Y2LHEB</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">HYPERstream: A multi-scale framework for streamflow routing in large-scale hydrological model</title>
+<author>
+<persname><forename type="first">S</forename><surname>Piccolroaz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Di Lazzaro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Zarlenga</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Majone</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bellin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Fiori</surname></persname>
+</author>
+<idno type="DOI">10.5194/hess-20-2047-2016</idno>
+<ptr target="https://doi.org/10.5194/hess-20-2047-2016"></ptr>
+</analytic>
+<monogr>
+<title level="j">Hydrology and Earth System Sciences</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="2047" to="2061" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Piccolroaz, S., Di Lazzaro, M., Zarlenga, A., Majone, B., Bellin, A., &amp; Fiori, A. (2016). HYPERstream: A multi-scale framework for streamflow routing in large-scale hydrological model. Hydrology and Earth System Sciences, 20(5), 2047-2061. https://doi.org/10. 5194/hess-20-2047-2016</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<monogr>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">E</forename><surname>Principe</surname></persname>
+</author>
+<ptr target="https://github.com/gee-community/gee_tools"></ptr>
+<title level="m">Gee_tools. GitHub</title>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Principe, R. E. (2021). Gee_tools. GitHub. https://github.com/gee-community/gee_tools</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">VotE-Dams: A compilation of global dams' locations and attributes (v1)</title>
+<author>
+<persname><forename type="first">E</forename><surname>Prior</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Schwenk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Rowland</surname></persname>
+</author>
+<idno type="DOI">10.15485/1843541</idno>
+<ptr target="https://doi.org/10.15485/1843541"></ptr>
+</analytic>
+<monogr>
+<title level="m">Environmental System Science Data Infrastructure for a Virtual Ecosystem</title>
+<imprint>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Prior, E., Schwenk, J., &amp; Rowland, J. (2022). VotE-Dams: A compilation of global dams' locations and attributes (v1). Environmental System Science Data Infrastructure for a Virtual Ecosystem. https://doi.org/10.15485/1843541</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Meander cutoffs nonlocally accelerate upstream and downstream migration and channel widening</title>
+<author>
+<persname><forename type="first">J</forename><surname>Schwenk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Foufoula-Georgiou</surname></persname>
+</author>
+<idno type="DOI">10.1002/2016GL071670</idno>
+<ptr target="https://doi.org/10.1002/2016GL071670"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope unit="issue">24</biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schwenk, J., &amp; Foufoula-Georgiou, E. (2016). Meander cutoffs nonlocally accelerate upstream and downstream migration and channel widening. Geophysical Research Letters, 43(24). https://doi.org/10.1002/2016GL071670</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">High spatiotemporal resolution of river planform dynamics from Landsat: The RivMAP toolbox and results from the Ucayali River: Annual Planform Morphodynamics, Ucayali</title>
+<author>
+<persname><forename type="first">J</forename><surname>Schwenk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Khandelwal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Fratkin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Kumar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Foufoula-Georgiou</surname></persname>
+</author>
+<idno type="DOI">10.1002/2016EA000196</idno>
+<ptr target="https://doi.org/10.1002/2016EA000196"></ptr>
+</analytic>
+<monogr>
+<title level="j">Earth and Space Science</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="46" to="75" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schwenk, J., Khandelwal, A., Fratkin, M., Kumar, V., &amp; Foufoula-Georgiou, E. (2017). High spatiotemporal resolution of river planform dynamics from Landsat: The RivMAP toolbox and results from the Ucayali River: Annual Planform Morphodynamics, Ucayali. Earth and Space Science, 4(2), 46-75. https://doi.org/10.1002/2016EA000196</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">The life of a meander bend: Connecting shape and dynamics via analysis of a numerical model</title>
+<author>
+<persname><forename type="first">J</forename><surname>Schwenk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Lanzoni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Foufoula-Georgiou</surname></persname>
+</author>
+<idno type="DOI">10.1002/2014JF003252</idno>
+<ptr target="https://doi.org/10.1002/2014JF003252"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Earth Surface</title>
+<imprint>
+<biblscope unit="volume">120</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="690" to="710" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schwenk, J., Lanzoni, S., &amp; Foufoula-Georgiou, E. (2015). The life of a meander bend: Connecting shape and dynamics via analysis of a numerical model. Journal of Geophysical Research: Earth Surface, 120(4), 690-710. https://doi.org/10.1002/2014JF003252</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<monogr>
+<title level="m" type="main">pyproj4/pyproj: 3.3.0 Release</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Snow</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Whitaker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Cochran</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Van Den Bossche</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Mayo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Miara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>De Kloe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Karney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Couwenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Lostis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Dearing</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Ouzounoudis</surname></persname>
+</author>
+<author>
+<persname><surname>Filipe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Jurd</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Gohlke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Hoese</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Itkin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>May</surname></persname>
+</author>
+<author>
+<persname><forename type="first">…</forename><surname>Heitor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Da Costa</surname></persname>
+</author>
+<idno type="DOI">10.5281/ZENODO.2592232</idno>
+<ptr target="https://doi.org/10.5281/ZENODO.2592232"></ptr>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Snow, A. D., Whitaker, J., Cochran, M., Van Den Bossche, J., Mayo, C., Miara, I., De Kloe, J., Karney, C., Couwenberg, B., Lostis, G., Dearing, J., Ouzounoudis, G., Filipe, Jurd, B., Gohlke, C., Hoese, D., Itkin, M., May, R., Heitor, … Da Costa, M. A. (2021). pyproj4/pyproj: 3.3.0 Release. Zenodo. https://doi.org/10.5281/ZENODO.2592232</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<monogr>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">G</forename><surname>Tarboton</surname></persname>
+</author>
+<title level="m">Terrain analysis using digital elevation models (TauDEM)</title>
+<meeting><address><addrline>Logan</addrline></address></meeting>
+<imprint>
+<date type="published" when="2005">2005. 3012. 2018</date>
+</imprint>
+<respstmt>
+<orgname>Utah State University</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">Tarboton, D. G. (2005). Terrain analysis using digital elevation models (TauDEM). Utah State University, Logan, 3012, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Scikit-image: Image processing in Python</title>
+<author>
+<persname><forename type="first">S</forename><surname>Van Der Walt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Schönberger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Nunez-Iglesias</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Boulogne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Warner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Yager</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Gouillart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Yu</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">PeerJ</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="page">453</biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Van der Walt, S., Schönberger, J. L., Nunez-Iglesias, J., Boulogne, F., Warner, J. D., Yager, N., Gouillart, E., &amp; Yu, T. (2014). Scikit-image: Image processing in Python. PeerJ, 2, e453.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python</title>
+<author>
+<persname><forename type="first">P</forename><surname>Virtanen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Gommers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">E</forename><surname>Oliphant</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Haberland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Reddy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Cournapeau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Burovski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Peterson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Weckesser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Bright</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Walt</surname></persname>
+</author>
+<author>
+<persname><surname>Van Der</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Brett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Millman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Mayorov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R J</forename><surname>Nelson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kern</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Larson</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41592-019-0686-2</idno>
+<ptr target="https://doi.org/10.1038/s41592-019-0686-2"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature Methods</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope from="261" to="272" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note>SciPy 1.0 Contributors</note>
+<note type="raw_reference">Virtanen, P., Gommers, R., Oliphant, T. E., Haberland, M., Reddy, T., Cournapeau, D., Burovski, E., Peterson, P., Weckesser, W., Bright, J., Walt, S. J. van der, Brett, M., Wilson, J., Millman, K. J., Mayorov, N., Nelson, A. R. J., Jones, E., Kern, R., Larson, E., … SciPy 1.0 Contributors. (2020). SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. Nature Methods, 17, 261-272. https://doi.org/10.1038/s41592-019-0686-2</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Water in the Landscape: A Review of Contemporary Flow Routing Algorithms</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Aggett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Yongxin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">S</forename><surname>Lam</surname></persname>
+</author>
+<idno type="DOI">10.1007/978-3-540-77800-4_12</idno>
+<ptr target="https://doi.org/10.1007/978-3-540-77800-4_12"></ptr>
+</analytic>
+<monogr>
+<title level="m">Advances in Digital Terrain Analysis</title>
+<editor>
+<persname><forename type="first">Q</forename><surname>Zhou</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">B</forename><surname>Lees</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">G</forename><surname>Tang</surname></persname>
+</editor>
+<meeting><address><addrline>Berlin Heidelberg</addrline></address></meeting>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="2008">2008</date>
+<biblscope from="213" to="236" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Wilson, J. P., Aggett, G., Yongxin, D., &amp; Lam, C. S. (2008). Water in the Landscape: A Review of Contemporary Flow Routing Algorithms. In Q. Zhou, B. Lees, &amp; G. Tang (Eds.), Advances in Digital Terrain Analysis (pp. 213-236). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-540-77800-4_12</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Geemap: A Python package for interactive mapping with Google Earth Engine</title>
+<author>
+<persname><forename type="first">Q</forename><surname>Wu</surname></persname>
+</author>
+<idno type="DOI">10.21105/joss.02305</idno>
+<ptr target="https://doi.org/10.21105/joss.02305"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Open Source Software</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="issue">51</biblscope>
+<biblscope unit="page">2305</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wu, Q. (2020). Geemap: A Python package for interactive mapping with Google Earth Engine. Journal of Open Source Software, 5(51), 2305. https://doi.org/10.21105/joss.02305</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">MERIT Hydro: A high-resolution global hydrography map based on latest topography dataset</title>
+<author>
+<persname><forename type="first">D</forename><surname>Yamazaki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Ikeshima</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Sosa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">D</forename><surname>Bates</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">H</forename><surname>Allen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">M</forename><surname>Pavelsky</surname></persname>
+</author>
+<idno type="DOI">10.1029/2019WR024873</idno>
+<ptr target="https://doi.org/10.1029/"></ptr>
+</analytic>
+<monogr>
+<title level="j">Water Resources Research</title>
+<imprint>
+<biblscope unit="volume">55</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="5053" to="5073" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Yamazaki, D., Ikeshima, D., Sosa, J., Bates, P. D., Allen, G. H., &amp; Pavelsky, T. M. (2019). MERIT Hydro: A high-resolution global hydrography map based on latest topogra- phy dataset. Water Resources Research, 55(6), 5053-5073. https://doi.org/10.1029/</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

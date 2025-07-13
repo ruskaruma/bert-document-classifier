@@ -1,0 +1,2053 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Deep learning for crack detection on masonry façades using limited data and transfer learning</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date>23 June 2023 2352</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">Stamos</forename><surname>Katsigiannis</surname></persname>
+<email>stamos.katsigiannis@durham.ac.uk</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Durham University, UK</note>
+<orgname type="institution">Durham University</orgname>
+<address>
+<country key="GB">UK</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Saleh</forename><surname>Seyedzadeh</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> University of Edinburgh, UK</note>
+<orgname type="institution">University of Edinburgh</orgname>
+<address>
+<country key="GB">UK</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Andrew</forename><surname>Agapiou</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> University of Strathclyde, UK</note>
+<orgname type="institution">University of Strathclyde</orgname>
+<address>
+<country key="GB">UK</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Naeem</forename><surname>Ramzan</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> University of the West of Scotland, UK</note>
+<orgname type="institution">University of the West of Scotland</orgname>
+<address>
+<country key="GB">UK</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Deep learning for crack detection on masonry façades using limited data and transfer learning</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published">23 June 2023 2352</date>
+</imprint>
+</monogr>
+<idno type="MD5">521A855ACA67C02A39061076CEDA6670</idno>
+<idno type="DOI">10.1016/j.jobe.2023.107105</idno>
+<note type="submission">Received 24 March 2023; Received in revised form 8 June 2023; Accepted 13 June 2023</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-11-18T05:59+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>Crack detection Brickwork masonry Deep learning Convolutional neural networks Transfer learning</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Crack detection in masonry façades is a crucial task for ensuring the safety and longevity of buildings.</s><s>However, traditional methods are often time-consuming, expensive, and labourintensive.</s><s>In recent years, deep learning techniques have been applied to detect cracks in masonry images, but these models often require large amounts of annotated data to achieve high accuracy, which can be difficult to obtain.</s><s>In this article, we propose a deep learning approach for crack detection on brickwork masonry façades using transfer learning with limited annotated data.</s><s>Our approach uses a pre-trained deep convolutional neural network model as a feature extractor, which is then optimised specifically for crack detection.</s><s>To evaluate the effectiveness of our proposed method, we created and curated a dataset of 700 brickwork masonry façade images, and used 500 images for training, 100 for validation, and the remaining 100 images for testing.</s><s>Results showed that our approach is very effective in detecting cracks, achieving an accuracy and F1-score of up to 100% when following end-to-end training of the neural network, thus being a promising solution for building inspection and maintenance, particularly in situations where annotated data is limited.</s><s>Moreover, the transfer learning approach can be easily adapted to different types of masonry façades, making it a versatile tool for building inspection and maintenance.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>A large number of historical and other existing buildings include brickwork masonry in façades, or in the internal walls in buildings with concrete structure.</s><s>Cracks in brick masonry are a common problem that can have significant structural and aesthetic implications, being the main issue with the walls that makes structures prone to water damage and mould <ref target="#b0" type="bibr">[1,</ref><ref target="#b1" type="bibr">2]</ref>.</s><s>Non-destructive techniques (NDT), including acoustic emission <ref target="#b2" type="bibr">[3]</ref>, thermographic inspection <ref target="#b3" type="bibr">[4]</ref> and visual inspection by trained personnel <ref target="#b4" type="bibr">[5]</ref> have been commonly used for inspection of brick masonry buildings.</s><s>Manual inspection is typically carried out from the ground, which hinders accruing consistent inspection reports from different personnel <ref target="#b5" type="bibr">[6]</ref>.</s><s>Photogrammetry has also been a solution to help inspectors in making better decisions, as photogrammetry algorithms can be used to transform ground or aerial images to digital maps and 3D models <ref target="#b6" type="bibr">[7]</ref>.</s><s>However, capturing photos from the ground can result in issues such as lower quality of images for higher building levels and difficulties in the localisation of the captured images.</s></p><p><s>The emergence of commercially available ''low-cost'' unmanned aerial vehicles (UAVs) offered a solution to these issues by allowing the acquisition of high-quality images and structured point cloud data.</s><s>Nevertheless, despite having easier access to higher quality images for inspecting brickwork masonry, manual inspection of massive image collections is labour intensive and prone to human errors.</s><s>Hence, machine vision, specifically machine learning-based image processing, has been deployed for the identification of damages in structures <ref target="#b8" type="bibr">[8]</ref>.</s><s>The majority of the recent works on crack detection has been focused on concrete surfaces and pavements <ref target="#b8" type="bibr">[8,</ref><ref target="#b9" type="bibr">9]</ref>.</s><s>However, due to the lack of an appropriate image dataset, machine learning techniques have not been deployed to identify cracks in brickwork façades.</s></p><p><s>In this work, we address this research gap and data unavailability by creating and curating a new image dataset for brickwork crack detection and by training and validating various deep learning models for the task of classifying brickwork images as cracked or normal.</s><s>To this end, images from external brickwork masonry were acquired from a historical building and were combined with images acquired from various online sources.</s><s>Then, transfer learning was used in order to fine tune widely used pre-trained convolutional neural network (CNN) models for the task at hand, thus further addressing the issue of limited data availability.</s><s>Experimental results demonstrated the suitability of the proposed approach, achieving a maximum classification accuracy of 100% depending on the base CNN model used and the training strategy.</s></p><p><s>The main contributions of this work can be summarised as follows: (i) the curation and public release <ref target="#foot_0" type="foot">1</ref> of an image dataset for crack detection on brickwork masonry façades, (ii) a comparative study of various widely used pre-trained CNN models that were fine-tuned for detecting cracks in masonry façades using transfer learning, (iii) an evaluation of various training strategies, including end-to-end training vs. fine tuning only the final classification layers, and using data augmentation techniques to increase the number of training samples vs. using only the original images for training, and (iv) a detailed experimental evaluation and ablation study of the examined CNN-based crack detection models.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Background<p><s>Crack detection in construction is a critical issue that has received significant attention from researchers in recent years <ref target="#b10" type="bibr">[10,</ref><ref target="#b11" type="bibr">11]</ref>.</s><s>The objective of crack detection is to identify and locate cracks in structures and infrastructure, which can lead to the failure of the structure if not addressed.</s><s>The research in this field has focused on developing new and innovative methods for detecting cracks in a fast, accurate, and non-destructive manner.</s></p><p><s>Early research on utilising computer vision for monitoring purposes focused on crack detection and was based on heuristic algorithms.</s><s>Abdel-Qader et al. <ref target="#b12" type="bibr">[12]</ref> proposed an edge-detection method for crack identification in bridges comparing different algorithms, including fast Haar transform, fast Fourier transform, Sobel, and Canny edge detectors.</s><s>This technique applies different filters to extract the edge figure from the façade images.</s><s>Yu et al. <ref target="#b13" type="bibr">[13]</ref> proposed a semi-automatic method based on graph-based search and utilised Sobel edge detection to extract crack properties.</s><s>Li et al. <ref target="#b14" type="bibr">[14]</ref> utilised a wavelet-based algorithm to remove images' noise and a Chan-Vese model for crack segmentation.</s><s>Nishikawa et al. <ref target="#b15" type="bibr">[15]</ref> improved crack segmentation using a genetic algorithm to filter out the images' noise and unwanted subjects, whereas a morphology-based image detector for crack detection was proposed to inspect buried sewers <ref target="#b16" type="bibr">[16]</ref>.</s><s>Later, Sinha et al. <ref target="#b17" type="bibr">[17]</ref> used a two-step method using statistical filters to extract crack features locally and identify crack segments using cleaning and linking.</s><s>Several heuristic methods were also proposed for the identification of other damages.</s><s>These works include detecting spalling using segmentation <ref target="#b18" type="bibr">[18]</ref>, steel cracks with region localisation <ref target="#b19" type="bibr">[19]</ref>, and steel corrosion using the wavelet-based algorithm <ref target="#b20" type="bibr">[20]</ref>.</s></p><p><s>The majority of recent automated damage detection techniques involve a machine learning method, particularly an artificial neural network (ANN) <ref target="#b21" type="bibr">[21]</ref>, to train a model using historical data.</s><s>Deep learning algorithms such as convolutional neural networks (CNN) for classification, object detection, and segmentation have noticeably enhanced image-based damage identification accuracy.</s><s>Although these techniques require a sufficiently large dataset to create a reliable prediction model, they provide a much better automation level.</s><s>Few studies focusing on building inspection utilised techniques other than CNN.</s><s>Chang et al. <ref target="#b22" type="bibr">[22]</ref> applied feedforward NN to find damage on high rise buildings, localise it, and estimate the intensity for further analysis.</s><s>Jahanshahi and Masri <ref target="#b23" type="bibr">[23]</ref> used a support vector machine for concrete crack detection with measurements based on morphological features.</s></p><p><s>Kim et al. <ref target="#b24" type="bibr">[24]</ref> presented a framework for cracks and other patterns classification using CNN architectures, namely AlexNet for cracks and GoogleNet for spalling.</s><s>Atha and Jahanshahi <ref target="#b25" type="bibr">[25]</ref> also compared different deep architectures for corrosion detection.</s><s>Cha et al. <ref target="#b26" type="bibr">[26]</ref> used CNN object detection to locate the concrete cracks using bounding boxes.</s><s>The model was trained on low-resolution images and tested over high-resolution images captured by a handheld camera.</s><s>Yeum et al. <ref target="#b27" type="bibr">[27]</ref> proposed a region-based CNN (R-CNN) for post-event building assessment and used a huge structural image dataset to train classification and object detection models.</s><s>Cha et al. <ref target="#b28" type="bibr">[28]</ref> investigated the use of a faster R-CNN to recognise multiple damages (i.e.</s><s>cracks and different levels of corrosion and delamination) and proposed a technique to localise damages.</s><s>Zhang et al. <ref target="#b29" type="bibr">[29]</ref> introduced CrackNet, a deep CNN architecture for the semantic segmentation of cracks.</s><s>In crack semantic segmentation, each pixel of the acquired image is classified into the crack or non-crack classes resulting in the identification of the damage's shape.</s><s>Dung and Anh <ref target="#b30" type="bibr">[30]</ref> further explored crack semantic segmentation to determine path and density, whereas Mei and Gul <ref target="#b31" type="bibr">[31]</ref> proposed a generative adversarial network and connectivity map to extract pavement cracks at the pixel level of images acquired using a GoPro camera.</s></p><p><s>Several works developed open datasets for the application of damage detection using machine learning techniques regarding building inspection.</s><s>Maguire et al. <ref target="#b32" type="bibr">[32]</ref> created a concrete crack image dataset that included 56,000 images classified as crack or non-crack, whereas Xu et al. <ref target="#b33" type="bibr">[33]</ref> developed a dataset of 6069 bridge crack images.</s><s>Although there has been much research work on using ML-based damage detection, most works have used limited data for training the models and have not provided public access to the generated datasets.</s></p><p><s>The literature suggests that deep learning-based methods have demonstrated good results in crack detection on masonry façades.</s><s>However, the performance of these models largely depends on the availability of training data.</s><s>Limited availability of annotated data is a common problem in many real-world applications, including crack detection on masonry façades.</s><s>When a reasonably large dataset is not available, it is possible to fine-tune a pre-trained network with a smaller image dataset to train an accurate model <ref target="#b34" type="bibr">[34]</ref>, an approach called ''transfer learning''.</s><s>Transfer learning allows the use of pre-trained models on related tasks to improve the performance of the task at hand, e.g.</s><s>fine-tuning a model pre-trained for classifying natural images for detecting cracks in masonry.</s><s>This approach has been applied to several tasks in computer vision, including image classification, object detection, and semantic segmentation <ref target="#b35" type="bibr">[35]</ref>.</s></p><p><s>In recent years, transfer learning has been used for the inspection of building façades, with the goal of detecting anomalies in the brickwork <ref target="#b36" type="bibr">[36]</ref>.</s><s>In addition, Gopalakrishan et al. <ref target="#b37" type="bibr">[37]</ref> deployed a pre-trained network to develop a classifier for identifying cracks in asphalt and concrete surfaces, whereas Zhang et al. <ref target="#b38" type="bibr">[38]</ref> developed a framework for adopting transfer learning and CNN for classifying pavement images into the ''crack'', ''repaired crack'', and ''background'' classes.</s><s>Dais et al. <ref target="#b39" type="bibr">[39]</ref> used deep learning to train a model for crack detection on images from masonry walls, achieving a 95.3% accuracy and on pixel level with 79.6% F1-score.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Material and methods<p><s>To address the problem of automated detection of cracks in brickwork masonry, we first created and curated a dataset containing images of brickwork with and without cracks.</s><s>Then, we examined the use of deep learning approaches for identifying ''crack'' and ''no-crack'' brickwork images by employing pre-trained convolutional neural networks that were fine-tuned on our brickwork dataset.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">The Brickwork Cracks Dataset<p><s>The proposed Brickwork Cracks Dataset was created in order to facilitate the use of transfer learning for the creation and training of machine learning models for the task of classifying brickwork images as belonging to one of the ''crack'' or ''non-crack'' classes.</s><s>One of the key challenges in using transfer learning for brickwork crack detection is the creation of a suitable dataset.</s><s>A large and diverse dataset is essential to train deep learning models effectively, and this is particularly important in transfer learning, where the pre-trained model must be adapted to the task at hand.</s><s>To this end, two sources were used to create the proposed dataset:</s></p><p><s>(a) A database of images taken from the external façade of the Architecture School of the University of Strathclyde, Glasgow, that includes various images of the brick masonry walls of regular pattern (ignoring rubble masonry).</s><s>The images were acquired during the development of a smart mobile application for ''Building Façade Defect Inspection'' based on the integration of methodologies and tools, including virtual reality, digital photogrammetry and mobile app technologies to collect real-time data that support automated decision making <ref target="#b40" type="bibr">[40]</ref>.</s><s>The database included masonry walls with cracks, with windows and doors, with varied in colour masonry units, as well as with varied illumination and capture-angle.</s></p><p><s>(b) Various online sources, including online image databases, brick manufacturer websites, and academic publications.</s><s>The images were screened for quality, and those that were deemed suitable for the task were included in the proposed dataset.</s></p><p><s>The images were then annotated to indicate the presence of cracks in the brickwork.</s><s>This was achieved using a custom-built annotation tool, which allowed the annotators to draw bounding boxes around the cracks and label them as either horizontal, vertical, or diagonal.</s><s>The manual labelling process was time-consuming and required a high level of expertise, making it a challenge to scale the process to larger datasets.</s><s>Labelling is a critical step in the process because it helps the machine learning algorithm learn what to look for and what to ignore.</s><s>In addition to the bounding boxes referring to cracks in the brickwork, bounding boxes for brickwork without damage were also annotated by the experts.</s><s>The image regions denoted by the annotated bounding boxes were stored as separate images and rescaled to 227 × 227 pixels for consistency.</s><s>This process led to 350 images for the ''crack'' class and 350 images for the ''non-crack'' class, for a total of 700 images for the proposed dataset.</s><s>The dataset is perfectly balanced across the two classes (50% ''crack'' -50% ''non-crack''), making it ideal for the training of machine learning models.</s><s>Some examples of images from the proposed dataset are shown in Fig. <ref target="#fig_0" type="figure">1</ref>.</s></p><p><s>Furthermore, in order to provide a fair performance evaluation and avoid over-fitting the machine learning models during training, stratified sampling was used to randomly divide the dataset into a training, a validation, and a test set, containing 500 (approx.</s><s>71.4%), 100 (approx.</s><s>14.3%), and 100 (approx.</s><s>14.3%) images respectively, with all the sets having a perfect balance between the ''crack'' (50%) and ''non-crack'' (50%) classes.</s><s>All the examined machine learning models in this work were trained using images only from the training set, with the validation set used to select the best performing models, and the ''unseen'' test set only used to report the final performance of the models.</s></p><p><s>The proposed dataset will be released publicly <ref target="#b41" type="bibr">[41]</ref> in order to guarantee the replicability of our study and to facilitate further research in the field.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data augmentation<p><s>The lack of sufficiently large datasets has been one of the main obstacles in applying deep learning approaches in various image classification problems.</s><s>Depending on the application, the acquisition of additional data can be arduous and expensive, in terms of time and required resources, or even outright impossible due to the rarity of the conditions needed for acquiring them.</s><s>To address the issue of data scarcity in image classification applications where few data samples are available, data augmentation has been proposed and proven to be very effective <ref target="#b42" type="bibr">[42]</ref>.</s><s>Data augmentation is the process of artificially creating new data out of the existing ones by applying various operations on them.</s><s>It has been widely used by researchers in image processing as it can improve the performance of deep learning models, assist in avoiding over-fitting, and allow the expansion of limited datasets in order to exploit the capabilities and benefits of ''big data'' <ref target="#b43" type="bibr">[43]</ref>.</s></p><p><s>Given the limited amount of images (700) in our brickwork cracks dataset, we opted to also examine the use of data augmentation in this work in order to increase the amount of available data, thus allowing the use of more complex deep learning image classification models, while avoiding over-fitting.</s><s>To this end, each image in the dataset was used as the source for additional images created at each iteration of the training procedure, by randomly flipping them horizontally, randomly flipping them vertically, randomly shifting the brightness between 0.3 and 1.0, and randomly rotating them between 0 • and 45 • .</s><s>It must also be noted that the pixel values of all images were rescaled by a factor of 1∕255 before being used with the machine learning models and that all the experiments in this work were conducted with and without data augmentation in order to compare the respective performance.</s><s>The Keras <ref target="#b44" type="bibr">[44]</ref> ImageDataGenerator class was used for the creation of the augmented images and all random values for the augmentation operations were generated using a uniform probability distribution.</s><s>Furthermore, it must also be highlighted that the creation and use of additional (augmented) images was performed for training the machine learning models, using only the images in the training set as the source.</s><s>Consequently, any reported results on the test data refer to original images only.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Classification using deep convolutional neural networks<p><s>Given the relatively small number of images in the proposed dataset, transfer learning was selected as the optimal strategy for the training of machine learning models for the task of distinguishing images as belonging to the ''crack'' or ''non-crack'' classes.</s><s>To this end, our approach is based on well-established deep learning architectures that have been trained using a sufficiently large image dataset and have been shown to be efficient feature extractors for image classification tasks.</s><s>We selected six CNN architectures that have been previously trained on the ImageNet <ref target="#b45" type="bibr">[45]</ref> dataset, which contains 1000 image classes, spread across 1.4 million Fig. <ref type="figure">2</ref>. Overview of the proposed method.</s><s>This approach was followed for all the examined CNN models, except for VGG16 and VGG19 that use a flatten layer and three dense layers after the pre-trained convolutional base, two of size 4096 using a ReLU activation function, followed by one of size 2. The architecture of the base CNN differs according to the architecture of the selected pre-trained model.</s></p><p><s>images.</s><s>The selected architectures were VGG16 <ref target="#b46" type="bibr">[46]</ref>, VGG19 <ref target="#b46" type="bibr">[46]</ref>, MobileNetV2 <ref target="#b47" type="bibr">[47]</ref>, InceptionResNetV2 <ref target="#b48" type="bibr">[48]</ref>, InceptionV3 <ref target="#b49" type="bibr">[49]</ref>,</s></p><p><s>and Xception <ref target="#b50" type="bibr">[50]</ref>.</s><s>To fine-tune the pre-trained models for classifying between brickwork images with cracks and without cracks, the output of the pre-trained convolutional base of the models was first passed to a 2D global average pooling layer, followed by a fully-connected (dense) output layer with 2 neurons, as many as the number of classes in our task.</s><s>Furthermore, a softmax activation function was used in the output layer.</s><s>It must be noted that the VGG16 and VGG19 models use a flatten layer and three fully-connected layers in their output <ref target="#b46" type="bibr">[46]</ref>, two of size 4096 using a ReLU activation function, followed by one of size 2 that uses a softmax activation function.</s><s>Despite the other architectures using a single fully-connected layer after the convolutional base, we opted to follow the original design for VGG16 and VGG19 to ensure a fair experimental comparison.</s><s>An overview of the described neural network architecture is provided in Fig. <ref type="figure">2</ref>, whereas an overview of the total number of parameters for each model is provided in Table <ref target="#tab_0" type="table">1</ref>.</s></p><p><s>To train the models, we used Cross-Entropy as the loss function, defined as:</s></p><formula xml:id="formula_0">𝐿 𝐶𝐸 = - 𝑀 ∑ 𝑐=1 𝑦 𝑜,𝑐 log(𝑝 𝑜,𝑐 )<label>(1)</label></formula><p><s>where  is the class,  is the number of classes (2 in this work),  , 's value is 1 if observation  belongs to class , otherwise it is 0, and  , is the predicted probability that  belongs to class .</s><s>Furthermore, a batch size of 32 was selected for the training and the Adam optimiser was used with a learning rate of 10 -5 , whereas training for each model stopped after 20 epochs with no improvement in validation accuracy.</s><s>All experiments were implemented using the Python programming language and the Keras and Tensorflow frameworks <ref target="#b51" type="bibr">[51]</ref>.</s><s>Four different strategies were examined and evaluated for the training of the proposed models:</s></p><p><s>1. Models were trained end-to-end and data augmentation was used to increase the number of training images.</s><s>2. Models were trained end-to-end without any data augmentation.</s></p><p><s>3. The weights of the convolutional base of the models were frozen and only the additional fully-connected layers were trained.</s><s>Data augmentation was used to increase the number of training images.</s><s>4. The weights of the convolutional base of the models were frozen and only the additional fully-connected layers were trained.</s></p><p><s>No data augmentation used.</s></p><p><s>It must be noted that to freeze the weights of the convolutional base of the models in the respective strategies, the ''trainable'' parameter of the Keras implementation of the models was set to ''false'' for all the layers included in the convolutional base.</s><s>This led to the weights of the respective layers not being updated during back-propagation.</s></p><p><s>During end-to-end training, the pre-trained convolutional base of the network is fine-tuned to the downstream task, in addition to training the final classification layer(s).</s><s>As a result, the fine-tuned convolutional base becomes an image feature extractor that is optimised for distinguishing between brickwork images with and without cracks.</s><s>Contrary to end-to-end training, when the convolutional base's weights are frozen, then the convolutional base acts as a generic image feature extractor, having the benefit of not requiring any additional training, thus leading to lower training time as only the final classification layer(s) needs to be trained.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results<p><s>The performance of the six deep convolutional neural network architectures for the four examined training strategies was evaluated by performing supervised classification experiments on the proposed dataset.</s><s>All models were trained on the training dataset, and at each epoch, performance was measured for the validation set.</s><s>The model from the epoch that provided the best performance on the validation set was then selected as the best model for each experiment and its performance was then evaluated on the unseen test set.</s><s>Consequently, all the performance metrics reported in this section refer to the performance on the unseen test set, in order to provide a fair experimental comparison.</s><s>The computed performance metrics were the classification accuracy, F1-score, precision, recall, and Jaccard index <ref target="#b52" type="bibr">[52]</ref>.</s><s>Furthermore, since the F1-score, precision, and recall depend on which class is considered as positive, their reported scores in this work are the average scores between the two examined classes (''crack'' and ''non-crack'').</s></p><p><s>Results for the four training strategies using all the examined models are reported in Tables 2 to 5 in terms of the accuracy, F1-score, precision, recall, and Jaccard index metrics, while confusion matrices for the test set are provided in Figs. <ref target="#fig_5" type="figure">3 to 6</ref>.</s><s>The maximum classification performance reached 100% in terms of all the examined metrics for the end-to-end training strategy using the MobileNetV2 <ref target="#b47" type="bibr">[47]</ref> and InceptionResNetV2 <ref target="#b48" type="bibr">[48]</ref> models with data augmentation, and the Xception <ref target="#b50" type="bibr">[50]</ref> model without data augmentation.</s><s>The strategy of freezing the weights of the convolutional base of the models underperformed significantly, achieving a maximum F1-score of 91.99% using the VGG16 model with data augmentation, and a maximum F1-score of 92.99% with the VGG19 model without data augmentation.</s><s>Based on these results, it is evident that the end-to-end training strategy provides superior performance for the task of detecting cracks in brickwork images using the examined CNN-based models.</s></p><p><s>Table <ref target="#tab_1" type="table">2</ref> reports results for end-to-end training using data augmentation.</s><s>Both MobileNetV2 <ref target="#b47" type="bibr">[47]</ref> and InceptionResNetV2 <ref target="#b48" type="bibr">[48]</ref> achieved perfect classification results, having an accuracy and F1-score of 100%, while the F1-scores for the other compared models ranged between 97%-99%.</s><s>Results for the end-to-end strategy without using data augmentation are reported in Table <ref target="#tab_2" type="table">3</ref>.</s><s>In this case, the Xception <ref target="#b50" type="bibr">[50]</ref> model achieved perfect classification performance, having an accuracy and F1-score of 100%, while the F1-scores for the other compared models ranged between 96%-99%.</s><s>Performance was significantly worse when the weights of the convolutional base were frozen (not fine-tuned) and only the additional fully-connected layers were trained.</s><s>In the case of the      frozen convolutional base with data augmentation, VGG16 <ref target="#b46" type="bibr">[46]</ref> achieved the best performance, reaching an accuracy of 92% and an F1-score of 91.99%, whereas the other models performed considerably worse, achieving F1-scores ranging between 67.16%-84.93%,</s><s>as shown in Table <ref target="#tab_3" type="table">4</ref>. Performance was marginally better in the case of frozen convolutional base without data augmentation, with VGG19 <ref target="#b46" type="bibr">[46]</ref> and VGG16 <ref target="#b46" type="bibr">[46]</ref> achieving accuracies of 93% and 92%, and F1-scores of 92.99% and 92%, respectively, whereas the F1-scores for the other models ranged between 78.52%-83.94%,</s><s>as shown in Table <ref target="#tab_4" type="table">5</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion<p><s>As shown in Section 4, our experimental results were inconclusive regarding to which model is the most suitable for the task of cracks detection in brickwork images, as all of the MobileNetV2 <ref target="#b47" type="bibr">[47]</ref> (with data augmentation), InceptionResNetV2 <ref target="#b48" type="bibr">[48]</ref> (with data augmentation), and Xception <ref target="#b50" type="bibr">[50]</ref> (without data augmentation) models achieved a perfect classification performance when using end-to-end training.</s><s>Nevertheless, as can be seen in Table <ref target="#tab_0" type="table">1</ref>, these three models differ significantly in terms of their size, with the MobileNetV2-based model having 2.26 million parameters, the Xception-based model 20.87 million parameters, and the InceptionResNetV2-based model 54.34 million parameters.</s><s>In addition, many of the examined models across the different training strategies achieved similar performance among each other.</s><s>However it is evident from Fig. <ref target="#fig_6" type="figure">7</ref> that equally good classification performance can be achieved using models with less parameters.</s><s>Training plots for the best performing models are provided in Fig. <ref target="#fig_7" type="figure">8</ref> for the end-to-end training strategy, and in Fig. <ref target="#fig_8" type="figure">9</ref> for the strategy of freezing the weights of the convolutional base.</s><s>It must be noted that the number of training epochs varies across the models, as training was stopped after 20 consecutive epochs without any improvement in the validation accuracy.</s></p><p><s>Considering the computational cost for performing the inference using these models and the desired ability to deploy the developed model on handheld devices (e.g.</s><s>mobile phones, tablets) for conducting inspections on brickwork, it is evident that the MobileNetV2-based model, created using end-to-end training with data augmentation, can be considered as the most appropriate model for the task at hand, as it can achieve the best performance, and its size makes it suitable for devices with low computational capabilities.</s><s>It can be argued however that the smaller size of the model may affect negatively its ability to generalise to new brickwork images.</s><s>For our experimental evaluation, all results were reported for a completely ''unseen'' subset of the proposed dataset, in order to ensure a fair performance comparison that would provide a good estimate of the ability of each model to generalise to new input images.</s></p><p><s>Despite their popularity, deep learning-based image classification models have long been considered as ''black-box'' models due to their lack of interpretability or explainability, i.e. the ability to explain the reasons that led a trained machine learning model to a specific prediction <ref target="#b53" type="bibr">[53]</ref>.</s><s>This lack of explainability has been shown to be a significant obstacle to the real-world adoption of deep learning models for image classification within various fields.</s><s>The inability to explain or justify a trained model's predictions constitutes a serious obstacle to establishing trust to the model, especially in applications and professions were a chain of liability must be established.</s><s>To this end, we evaluated the interpretability of the MobileNetV2-based model by using the Gradient-weighted Class Activation Mapping (Grad-CAM) <ref target="#b54" type="bibr">[54]</ref> method, which is a localisation technique that is used to generate class-related visual explanations from a trained CNN-based network.</s><s>Grad-CAM was used in order to examine the regions of the brickwork images that are taken into consideration by the MobileNetV2-based model in order to assign an image to the ''crack'' class.</s><s>To this end, Grad-CAM heat maps depicting the class activation for the ''crack'' class using the last convolutional layer of the network were created for the images in the examined dataset.</s><s>Fig. <ref target="#fig_0" type="figure">10</ref> depicts the Grad-CAM heat maps for 12 images of the ''crack'' class, overlaid on the original images.</s><s>From these images, it is evident that the MobileNetV2-based model indeed relies on the regions of the images that contain cracks in the brickwork in order to make its prediction, indicating that it can be reliably used for the task at hand.</s><s>The real-world deployment of the proposed methodology for crack detection in brickwork masonry could benefit significantly by the inclusion of such heat maps in the output of the used models.</s><s>Building professionals would be able to visually verify the used model's predictions by inspecting the produced heat maps and cross-referencing them to the model's predictions, thus enabling them to build trust towards the system.</s></p><p><s>Regarding the examined training strategies, it is evident from Tables 2, 3, 4, and 5 that the end-to-end training strategy performs significantly better compared to keeping the weights of the convolutional base frozen and training only the final fully-connected layers.</s><s>The brickwork images used in this work exhibit considerable differences in terms of texture, structure, and colour, compared to the generic images contained in the ImageNet <ref target="#b45" type="bibr">[45,</ref><ref target="#b55" type="bibr">55]</ref> dataset that was used to pre-train the examined CNN models.</s><s>As a result, despite the convolutional base of the pre-trained models being very efficient feature extractors for generic images, fine-tuning is required to adapt the computed features to the downstream task, i.e. classifying brickwork images as cracked or not cracked.</s></p><p><s>The field of image classification using deep neural networks has advanced significantly in recent years.</s><s>Various methods that outperform CNNs on standard image classification benchmarks, such as ImageNet <ref target="#b45" type="bibr">[45,</ref><ref target="#b55" type="bibr">55]</ref>, CIFAR <ref target="#b56" type="bibr">[56]</ref>, JFT <ref target="#b57" type="bibr">[57]</ref>, and others, have been recently proposed and are mainly based on the transformer <ref target="#b58" type="bibr">[58]</ref> architecture.</s><s>Architectures like the Vision Transformer (ViT) <ref target="#b59" type="bibr">[59]</ref>, the Image Enhanced Vision Transformer (IEViT) <ref target="#b60" type="bibr">[60]</ref>, the Swin Transformer <ref target="#b61" type="bibr">[61]</ref>, and others <ref target="#b62" type="bibr">[62]</ref><ref target="#b63" type="bibr">[63]</ref><ref target="#b64" type="bibr">[64]</ref><ref target="#b65" type="bibr">[65]</ref> have demonstrated impressive performance in image classification and object detection tasks, but come at a cost of increased computational complexity and the requirement for considerably large training datasets in order to train well-performing models.</s><s>In this work we opted to not evaluate the performance of transformer-based models given that there was no room for improving the best classification performance achieved using the examined CNN models (accuracy and F1-score of 100%).</s><s>Furthermore, the increased computational complexity of transformer-based models would complicate the deployment of the trained models on handheld devices with low computational capabilities, while the small size of the available brickwork dataset would potentially hinder our ability to train them efficiently.</s></p><p><s>Considering our experimental results, it is evident that the proposed approach achieved impressive performance for the task of crack detection in brickwork masonry.</s><s>We hypothesise that the reason for such performance lies in the use of a sufficiently diverse dataset that included brickwork masonry that varied in colour, illumination, and capture angle; the focus on a very specific brickwork deformation, i.e. cracks, ignoring other potential deformations, e.g.</s><s>spalling; and focusing only on detecting cracks without examining their severity, thus simplifying the problem.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusion<p><s>The objective of this study was to propose and evaluate a deep learning approach for automating the detection of cracks in brickwork masonry using imaging techniques.</s><s>The main challenge was the unavailability of suitable data, which we addressed by creating and curating a comprehensive dataset consisting of brickwork images with and without cracks.</s><s>This dataset has been made publicly available to facilitate further research in this field.</s></p><p><s>To develop our approach, we used transfer learning to fine-tune popular pre-trained convolutional neural networks.</s><s>We trained the models on the curated dataset and performed supervised classification experiments.</s><s>Results showed that the proposed approach can efficiently detect cracks in brickwork masonry, achieving a 100% accuracy and F1-score using the MobileNetV2, InceptionresNetV2, and Xception-based models.</s><s>This performance was achieved using an end-to-end training strategy and data augmentation for the first two models, whereas no data augmentation was used for the latter.</s><s>However, the MobileNetV2-based model can be considered as the most suitable for this task due to its small size, making it ideal for use on handheld mobile devices and UAVs.</s><s>We also compared the performance of end-to-end training with that of training only the final classification layers while keeping the weights of the convolutional base frozen.</s><s>The former approach consistently outperformed the latter, achieving a maximum F1-score of 100% compared to 92.99%.</s><s>These findings demonstrate the effectiveness of our proposed approach for detecting cracks in brickwork masonry using deep learning techniques.</s></p><p><s>Our future work will focus on integrating the proposed models into real-world systems for detecting cracks in brickwork masonry.</s><s>These systems will utilise camera-equipped handheld devices, such as mobile phones and tablets, as well as commercial UAVs.</s><s>By deploying these methods in the field, we can evaluate their performance, reliability, and generalisation ability for building</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Fig. 1 .<label>1</label><figdesc><div><p><s>Fig. 1.</s><s>Sample images from the proposed dataset for the ''non-crack'' (left) and the ''crack'' (right) classes.</s></p></div></figdesc><graphic coords="4,84.33,53.03,375.69,275.95" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">S<label></label><figdesc><div><p><s>.Katsigiannis et al.</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Fig. 3 .<label>3</label><figdesc><div><p><s>Fig. 3. Confusion matrices for end-to-end training using data augmentation.</s></p></div></figdesc></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Fig. 4 .<label>4</label><figdesc><div><p><s>Fig. 4. Confusion matrices for end-to-end training without using data augmentation.</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Fig. 5 .<label>5</label><figdesc><div><p><s>Fig. 5. Confusion matrices for when the weights of the convolutional base are kept frozen and data augmentation is used.</s></p></div></figdesc></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0">Fig. 6 .<label>6</label><figdesc><div><p><s>Fig.6.</s><s>Confusion matrices for when the weights of the convolutional base are kept frozen and data augmentation is not used.</s></p></div></figdesc></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0">Fig. 7 .<label>7</label><figdesc><div><p><s>Fig. 7. F1-score achieved by each model versus its number of parameters.</s><s>MobileNetV2 using end-to-end training and data augmentation (shown in red) achieved the best performance (F1-score = 100%) for the lowest number of parameters.</s></p></div></figdesc></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0">Fig. 8 .<label>8</label><figdesc><div><p><s>Fig. 8. Training plots for the best performing models using the end-to-end training strategy, with data augmentation (MobileNetV2) and without data augmentation (Xception).</s></p></div></figdesc></figure>
+<figure xml:id="fig_8" xmlns="http://www.tei-c.org/ns/1.0">Fig. 9 .<label>9</label><figdesc><div><p><s>Fig. 9.Training plots for the best performing models using the strategy of freezing the weights of the convolutional base, with data augmentation (VGG16) and without data augmentation (VGG19).</s></p></div></figdesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="11,83.00,53.03,378.25,265.39" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1<label>1</label><figdesc><div><p><s>Number of parameters (in millions) of the examined models.</s></p></div></figdesc><table><row><cell>Base model</cell></row></table></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">Table 2<label>2</label><figdesc><div><p><s>Classification results for end-to-end training using data augmentation.</s></p></div></figdesc><table><row><cell>Base model</cell><cell>Accuracy</cell><cell>F1-score</cell><cell>Precision</cell><cell>Recall</cell><cell>Jaccard</cell></row><row><cell>VGG16</cell><cell>0.9700</cell><cell>0.9700</cell><cell>0.9702</cell><cell>0.9700</cell><cell>0.9417</cell></row><row><cell>VGG19</cell><cell>0.9900</cell><cell>0.9900</cell><cell>0.9902</cell><cell>0.9900</cell><cell>0.9802</cell></row><row><cell>MobileNetV2</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>1</cell></row><row><cell>InceptionResNetV2</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>1</cell></row><row><cell>InceptionV3</cell><cell>0.9900</cell><cell>0.9900</cell><cell>0.9902</cell><cell>0.9900</cell><cell>0.9802</cell></row><row><cell>Xception</cell><cell>0.9700</cell><cell>0.9700</cell><cell>0.9717</cell><cell>0.9700</cell><cell>0.9417</cell></row></table></figure>
+<figure type="table" xml:id="tab_2" xmlns="http://www.tei-c.org/ns/1.0">Table 3<label>3</label><figdesc><div><p><s>Classification results for end-to-end training without using data augmentation.</s></p></div></figdesc><table><row><cell>Base model</cell><cell>Accuracy</cell><cell>F1-score</cell><cell>Precision</cell><cell>Recall</cell><cell>Jaccard</cell></row><row><cell>VGG16</cell><cell>0.9900</cell><cell>0.9900</cell><cell>0.9902</cell><cell>0.9900</cell><cell>0.9802</cell></row><row><cell>VGG19</cell><cell>0.9900</cell><cell>0.9900</cell><cell>0.9902</cell><cell>0.9900</cell><cell>0.9802</cell></row><row><cell>MobileNetV2</cell><cell>0.9600</cell><cell>0.9600</cell><cell>0.9607</cell><cell>0.9600</cell><cell>0.923</cell></row><row><cell>InceptionResNetV2</cell><cell>0.9800</cell><cell>0.9800</cell><cell>0.9808</cell><cell>0.9800</cell><cell>0.9608</cell></row><row><cell>InceptionV3</cell><cell>0.9900</cell><cell>0.9900</cell><cell>0.9902</cell><cell>0.9900</cell><cell>0.9802</cell></row><row><cell>Xception</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>1</cell><cell>1</cell></row></table></figure>
+<figure type="table" xml:id="tab_3" xmlns="http://www.tei-c.org/ns/1.0">Table 4<label>4</label><figdesc><div><p><s>Classification results when the weights of the convolutional base are kept frozen and data augmentation is used.</s></p></div></figdesc><table><row><cell>Base model</cell><cell>Accuracy</cell><cell>F1-score</cell><cell>Precision</cell><cell>Recall</cell><cell>Jaccard</cell></row><row><cell>VGG16</cell><cell>0.9200</cell><cell>0.9199</cell><cell>0.9227</cell><cell>0.9200</cell><cell>0.8516</cell></row><row><cell>VGG19</cell><cell>0.8500</cell><cell>0.8493</cell><cell>0.857</cell><cell>0.8500</cell><cell>0.7382</cell></row><row><cell>MobileNetV2</cell><cell>0.6800</cell><cell>0.6716</cell><cell>0.7005</cell><cell>0.6800</cell><cell>0.5079</cell></row><row><cell>InceptionResNetV2</cell><cell>0.8300</cell><cell>0.8298</cell><cell>0.8312</cell><cell>0.8300</cell><cell>0.7092</cell></row><row><cell>InceptionV3</cell><cell>0.7600</cell><cell>0.7478</cell><cell>0.8224</cell><cell>0.7600</cell><cell>0.6003</cell></row><row><cell>Xception</cell><cell>0.7400</cell><cell>0.7292</cell><cell>0.7857</cell><cell>0.7400</cell><cell>0.5766</cell></row></table></figure>
+<figure type="table" xml:id="tab_4" xmlns="http://www.tei-c.org/ns/1.0">Table 5<label>5</label><figdesc><div><p><s>Classification results when the weights of the convolutional base are kept frozen and data augmentation is not used.</s></p></div></figdesc><table><row><cell>Base model</cell><cell>Accuracy</cell><cell>F1-score</cell><cell>Precision</cell><cell>Recall</cell><cell>Jaccard</cell></row><row><cell>VGG16</cell><cell>0.9200</cell><cell>0.9200</cell><cell>0.9200</cell><cell>0.9200</cell><cell>0.8519</cell></row><row><cell>VGG19</cell><cell>0.9300</cell><cell>0.9299</cell><cell>0.9316</cell><cell>0.9300</cell><cell>0.8691</cell></row><row><cell>MobileNetV2</cell><cell>0.8100</cell><cell>0.8098</cell><cell>0.8111</cell><cell>0.8100</cell><cell>0.6805</cell></row><row><cell>InceptionResNetV2</cell><cell>0.8100</cell><cell>0.8095</cell><cell>0.8131</cell><cell>0.8100</cell><cell>0.6801</cell></row><row><cell>InceptionV3</cell><cell>0.8400</cell><cell>0.8394</cell><cell>0.8450</cell><cell>0.8400</cell><cell>0.7234</cell></row><row><cell>Xception</cell><cell>0.7900</cell><cell>0.7852</cell><cell>0.8187</cell><cell>0.7900</cell><cell>0.6475</cell></row></table></figure>
+<note n="1" place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Dataset download link: https://doi.org/10.5281/zenodo.8014150.</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgments<p><s>This research was funded under the Built Environment -Smart Transformation's (formerly the Construction Scotland Innovation Centre) I-CON programme.</s></p></div>
+</div>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0">Data availability<p><s>A link to download the data has been added to the manuscript.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>S. <ref type="bibr">Katsigiannis et</ref>  inspections.</s><s>It is important to note that the proposed methods can currently only detect the presence of cracks in brickwork masonry.</s><s>Therefore, we plan to expand the dataset and explore deep learning approaches to assess the severity of detected cracks.</s><s>This will help us to improve the accuracy and practicality of our models for real-world applications.</s></p><note type="other">al.</note></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Declaration of competing interest<p><s>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Reliability-based assessment of masonry arch bridges</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Casas</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.conbuildmat.2010.10.011</idno>
+<ptr target="http://dx.doi.org/10.1016/j.conbuildmat.2010.10.011"></ptr>
+</analytic>
+<monogr>
+<title level="j">Constr. Build. Mater</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="1621" to="1631" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J.R. Casas, Reliability-based assessment of masonry arch bridges, Constr. Build. Mater. 25 (4) (2011) 1621-1631, http://dx.doi.org/10.1016/j.conbuildmat. 2010.10.011.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">An experimental study on the mechanical properties of solid clay brick masonry with traditional mortars</title>
+<author>
+<persname><forename type="first">A</forename><surname>Soleymani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Najafgholipour</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Johari</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jobe.2022.105057</idno>
+<ptr target="http://dx.doi.org/10.1016/j.jobe.2022.105057"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Build. Eng</title>
+<imprint>
+<biblscope unit="volume">58</biblscope>
+<biblscope unit="page">105057</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Soleymani, M.A. Najafgholipour, A. Johari, An experimental study on the mechanical properties of solid clay brick masonry with traditional mortars, J. Build. Eng. 58 (2022) 105057, http://dx.doi.org/10.1016/j.jobe.2022.105057.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Crack classification in concrete based on acoustic emission</title>
+<author>
+<persname><forename type="first">K</forename><surname>Ohno</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ohtsu</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.conbuildmat.2010.05.004</idno>
+<ptr target="http://dx.doi.org/10.1016/j.conbuildmat.2010.05.004"></ptr>
+</analytic>
+<monogr>
+<title level="j">Constr. Build. Mater</title>
+<imprint>
+<biblscope unit="volume">24</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope from="2339" to="2346" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Ohno, M. Ohtsu, Crack classification in concrete based on acoustic emission, Constr. Build. Mater. 24 (12) (2010) 2339-2346, http://dx.doi.org/10. 1016/j.conbuildmat.2010.05.004.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Infrared thermographic inspection of murals and characterization of degradation in historic monuments</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">Z</forename><surname>Kordatos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Exarchos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Stavrakos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Moropoulou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">E</forename><surname>Matikas</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.conbuildmat.2012.06.062</idno>
+<ptr target="http://dx.doi.org/10.1016/j.conbuildmat.2012.06.062"></ptr>
+</analytic>
+<monogr>
+<title level="j">Constr. Build. Mater</title>
+<imprint>
+<biblscope unit="volume">48</biblscope>
+<biblscope from="1261" to="1265" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">E.Z. Kordatos, D.A. Exarchos, C. Stavrakos, A. Moropoulou, T.E. Matikas, Infrared thermographic inspection of murals and characterization of degradation in historic monuments, Constr. Build. Mater. 48 (2013) 1261-1265, http://dx.doi.org/10.1016/j.conbuildmat.2012.06.062.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Assessment of masonry arch railway bridges using non-destructive in-situ testing methods</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Orbán</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Gutermann</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.engstruct.2009.04.008</idno>
+<ptr target="http://dx.doi.org/10.1016/j.engstruct.2009.04.008"></ptr>
+</analytic>
+<monogr>
+<title level="j">Eng. Struct</title>
+<imprint>
+<biblscope unit="volume">31</biblscope>
+<biblscope unit="issue">10</biblscope>
+<biblscope from="2287" to="2298" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Z. Orbán, M. Gutermann, Assessment of masonry arch railway bridges using non-destructive in-situ testing methods, Eng. Struct. 31 (10) (2009) 2287-2298, http://dx.doi.org/10.1016/j.engstruct.2009.04.008.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Reliability of crack detection methods for baseline condition assessments</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">F</forename><surname>Laefer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Gannon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Deely</surname></persname>
+</author>
+<idno type="DOI">10.1061/(asce)1076-0342(2010)16:2(129)</idno>
+<ptr target="http://dx.doi.org/10.1061/(asce)1076-0342(2010)16:2(129)"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Infrastr. Syst</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="129" to="137" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">D.F. Laefer, J. Gannon, E. Deely, Reliability of crack detection methods for baseline condition assessments, J. Infrastr. Syst. 16 (2) (2010) 129-137, http://dx.doi.org/10.1061/(asce)1076-0342(2010)16:2(129).</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Structural state estimation of earthquake-damaged building structures by using UAV photogrammetry and point cloud segmentation</title>
+<author>
+<persname><forename type="first">R</forename><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Shan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Zhu</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.measurement.2022.111858</idno>
+<ptr target="http://dx.doi.org/10.1016/j.measurement.2022.111858"></ptr>
+</analytic>
+<monogr>
+<title level="j">Measurement</title>
+<imprint>
+<biblscope unit="volume">202</biblscope>
+<biblscope unit="page">111858</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">R. Yu, P. Li, J. Shan, H. Zhu, Structural state estimation of earthquake-damaged building structures by using UAV photogrammetry and point cloud segmentation, Measurement 202 (2022) 111858, http://dx.doi.org/10.1016/j.measurement.2022.111858.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<monogr>
+<title></title>
+<author>
+<persname><forename type="first">S</forename><surname>Katsigiannis</surname></persname>
+</author>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">S. Katsigiannis et al.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Data-driven structural health monitoring and damage detection through deep learning: State-ofthe-art review</title>
+<author>
+<persname><forename type="first">M</forename><surname>Azimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Eslamlou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Pekcan</surname></persname>
+</author>
+<idno type="DOI">10.3390/s20102778</idno>
+<ptr target="http://dx.doi.org/10.3390/s20102778"></ptr>
+</analytic>
+<monogr>
+<title level="j">Sensors (Switzerland)</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope unit="issue">10</biblscope>
+<biblscope unit="page">2778</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Azimi, A.D. Eslamlou, G. Pekcan, Data-driven structural health monitoring and damage detection through deep learning: State-ofthe-art review, Sensors (Switzerland) 20 (10) (2020) 2778, http://dx.doi.org/10.3390/s20102778.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Machine learning for crack detection: Review and model performance comparison</title>
+<author>
+<persname><forename type="first">Y.-A</forename><surname>Hsieh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><forename type="middle">J</forename><surname>Tsai</surname></persname>
+</author>
+<idno type="DOI">10.1061/(asce)cp.1943-5487.0000918</idno>
+<ptr target="http://dx.doi.org/10.1061/(asce)cp.1943-5487.0000918"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Comput. Civ. Eng</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope unit="page">4020038</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y.-A. Hsieh, Y.J. Tsai, Machine learning for crack detection: Review and model performance comparison, J. Comput. Civ. Eng. 34 (5) (2020) 04020038, http://dx.doi.org/10.1061/(asce)cp.1943-5487.0000918.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Automated crack segmentation in close-range building façade inspection images using deep learning techniques</title>
+<author>
+<persname><forename type="first">K</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Reichard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Xu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Akanmu</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jobe.2021.102913</idno>
+<ptr target="http://dx.doi.org/10.1016/j.jobe.2021.102913"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Build. Eng</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope unit="page">102913</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Chen, G. Reichard, X. Xu, A. Akanmu, Automated crack segmentation in close-range building façade inspection images using deep learning techniques, J. Build. Eng. 43 (2021) 102913, http://dx.doi.org/10.1016/j.jobe.2021.102913.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Vision-based concrete crack detection using a hybrid framework considering noise effect</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Samali</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Rashidi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Mohammadi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">N</forename><surname>Nguyen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Zhang</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jobe.2022.105246</idno>
+<ptr target="http://dx.doi.org/10.1016/j.jobe.2022.105246"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Build. Eng</title>
+<imprint>
+<biblscope unit="volume">61</biblscope>
+<biblscope unit="page">105246</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y. Yu, B. Samali, M. Rashidi, M. Mohammadi, T.N. Nguyen, G. Zhang, Vision-based concrete crack detection using a hybrid framework considering noise effect, J. Build. Eng. 61 (2022) 105246, http://dx.doi.org/10.1016/j.jobe.2022.105246.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Analysis of edge-detection techniques for crack identification in bridges</title>
+<author>
+<persname><forename type="first">I</forename><surname>Abdel-Qader</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Abudayyeh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">E</forename><surname>Kelly</surname></persname>
+</author>
+<idno type="DOI">10.1061/(asce)0887-3801(2003)17:4(255)</idno>
+<ptr target="http://dx.doi.org/10.1061/(asce)0887-3801(2003)17:4(255)"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Comput. Civ. Eng</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="255" to="263" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">I. Abdel-Qader, O. Abudayyeh, M.E. Kelly, Analysis of edge-detection techniques for crack identification in bridges, J. Comput. Civ. Eng. 17 (4) (2003) 255-263, http://dx.doi.org/10.1061/(asce)0887-3801(2003)17:4(255).</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Auto inspection system using a mobile robot for detecting concrete cracks in a tunnel</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">N</forename><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">H</forename><surname>Jang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">S</forename><surname>Han</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.autcon.2006.05.003</idno>
+<ptr target="http://dx.doi.org/10.1016/j.autcon.2006.05.003"></ptr>
+</analytic>
+<monogr>
+<title level="j">Autom. Constr</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="255" to="261" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S.N. Yu, J.H. Jang, C.S. Han, Auto inspection system using a mobile robot for detecting concrete cracks in a tunnel, Autom. Constr. 16 (3) (2007) 255-261, http://dx.doi.org/10.1016/j.autcon.2006.05.003.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Long-distance precision inspection method for bridge cracks with image processing</title>
+<author>
+<persname><forename type="first">G</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>He</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Ju</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Du</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.autcon.2013.10.021</idno>
+<ptr target="http://dx.doi.org/10.1016/j.autcon.2013.10.021"></ptr>
+</analytic>
+<monogr>
+<title level="j">Autom. Constr</title>
+<imprint>
+<biblscope unit="volume">41</biblscope>
+<biblscope from="83" to="95" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">G. Li, S. He, Y. Ju, K. Du, Long-distance precision inspection method for bridge cracks with image processing, Autom. Constr. 41 (2014) 83-95, http://dx.doi.org/10.1016/j.autcon.2013.10.021.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Concrete crack detection by multiple sequential image filtering</title>
+<author>
+<persname><forename type="first">T</forename><surname>Nishikawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Yoshida</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Sugiyama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Fujino</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1467-8667.2011.00716.x</idno>
+<ptr target="http://dx.doi.org/10.1111/j.1467-8667.2011.00716.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput.-Aided Civ. Infrastruct. Eng</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="29" to="47" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Nishikawa, J. Yoshida, T. Sugiyama, Y. Fujino, Concrete crack detection by multiple sequential image filtering, Comput.-Aided Civ. Infrastruct. Eng. 27 (1) (2012) 29-47, http://dx.doi.org/10.1111/j.1467-8667.2011.00716.x.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Segmentation of pipe images for crack detection in buried sewers</title>
+<author>
+<persname><forename type="first">S</forename><surname>Iyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">K</forename><surname>Sinha</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1467-8667.2006.00445.x</idno>
+<ptr target="http://dx.doi.org/10.1111/j.1467-8667.2006.00445.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput.-Aided Civ. Infrastruct. Eng</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="395" to="410" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S. Iyer, S.K. Sinha, Segmentation of pipe images for crack detection in buried sewers, Comput.-Aided Civ. Infrastruct. Eng. 21 (6) (2006) 395-410, http://dx.doi.org/10.1111/j.1467-8667.2006.00445.x.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Automated detection of cracks in buried concrete pipe images</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">K</forename><surname>Sinha</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">W</forename><surname>Fieguth</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.autcon.2005.02.006</idno>
+<ptr target="http://dx.doi.org/10.1016/j.autcon.2005.02.006"></ptr>
+</analytic>
+<monogr>
+<title level="j">Autom. Constr</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="58" to="72" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S.K. Sinha, P.W. Fieguth, Automated detection of cracks in buried concrete pipe images, Autom. Constr. 15 (1) (2006) 58-72, http://dx.doi.org/10.1016/ j.autcon.2005.02.006.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Automated damage index estimation of reinforced concrete columns for post-earthquake evaluations</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">G</forename><surname>Paal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-S</forename><surname>Jeon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Brilakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Desroches</surname></persname>
+</author>
+<idno type="DOI">10.1061/(asce)st.1943-541x.0001200</idno>
+<ptr target="http://dx.doi.org/10.1061/(asce)st.1943-541x.0001200"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Struct. Eng</title>
+<imprint>
+<biblscope unit="volume">141</biblscope>
+<biblscope unit="issue">9</biblscope>
+<biblscope unit="page">4014228</biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S.G. Paal, J.-S. Jeon, I. Brilakis, R. DesRoches, Automated damage index estimation of reinforced concrete columns for post-earthquake evaluations, J. Struct. Eng. 141 (9) (2015) 04014228, http://dx.doi.org/10.1061/(asce)st.1943-541x.0001200.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Vision-based automated crack detection for bridge inspection</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Yeum</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Dyke</surname></persname>
+</author>
+<idno type="DOI">10.1111/mice.12141</idno>
+<ptr target="http://dx.doi.org/10.1111/mice.12141"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput.-Aided Civ. Infrastruct. Eng</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope unit="issue">10</biblscope>
+<biblscope from="759" to="770" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">C.M. Yeum, S.J. Dyke, Vision-based automated crack detection for bridge inspection, Comput.-Aided Civ. Infrastruct. Eng. 30 (10) (2015) 759-770, http://dx.doi.org/10.1111/mice.12141.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Parametric performance evaluation of wavelet-based corrosion detection algorithms for condition assessment of civil infrastructure systems</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Jahanshahi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">F</forename><surname>Masri</surname></persname>
+</author>
+<idno type="DOI">10.1061/(asce)cp.1943-5487.0000225</idno>
+<ptr target="http://dx.doi.org/10.1061/(asce)cp.1943-5487.0000225"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Comput. Civ. Eng</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="345" to="357" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M.R. Jahanshahi, S.F. Masri, Parametric performance evaluation of wavelet-based corrosion detection algorithms for condition assessment of civil infrastructure systems, J. Comput. Civ. Eng. 27 (4) (2013) 345-357, http://dx.doi.org/10.1061/(asce)cp.1943-5487.0000225.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Machine learning for estimation of building energy consumption and performance: a review</title>
+<author>
+<persname><forename type="first">S</forename><surname>Seyedzadeh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">P</forename><surname>Rahimian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Glesk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Roper</surname></persname>
+</author>
+<idno type="DOI">10.1186/s40327-018-0064-7</idno>
+<ptr target="http://dx.doi.org/10.1186/s40327-018-0064-7"></ptr>
+</analytic>
+<monogr>
+<title level="j">Vis. Eng</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope unit="page">5</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S. Seyedzadeh, F.P. Rahimian, I. Glesk, M. Roper, Machine learning for estimation of building energy consumption and performance: a review, Vis. Eng. 6 (1) (2018) 5, http://dx.doi.org/10.1186/s40327-018-0064-7.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Applications of neural network models for structural health monitoring based on derived modal properties</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Chang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">K</forename><surname>Lin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">W</forename><surname>Chang</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.measurement.2018.07.051</idno>
+<ptr target="http://dx.doi.org/10.1016/j.measurement.2018.07.051"></ptr>
+</analytic>
+<monogr>
+<title level="j">Measurement</title>
+<imprint>
+<biblscope unit="volume">129</biblscope>
+<biblscope from="457" to="470" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">C.M. Chang, T.K. Lin, C.W. Chang, Applications of neural network models for structural health monitoring based on derived modal properties, Measurement 129 (2018) 457-470, http://dx.doi.org/10.1016/j.measurement.2018.07.051.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">A new methodology for non-contact accurate crack width measurement through photogrammetry for automated structural safety evaluation</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Jahanshahi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">F</forename><surname>Masri</surname></persname>
+</author>
+<idno type="DOI">10.1088/0964-1726/22/3/035019</idno>
+<ptr target="http://dx.doi.org/10.1088/0964-1726/22/3/035019"></ptr>
+</analytic>
+<monogr>
+<title level="j">Smart Mater. Struct</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope unit="page">35019</biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M.R. Jahanshahi, S.F. Masri, A new methodology for non-contact accurate crack width measurement through photogrammetry for automated structural safety evaluation, Smart Mater. Struct. 22 (3) (2013) 35019, http://dx.doi.org/10.1088/0964-1726/22/3/035019.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Crack and noncrack classification from concrete surface images using machine learning</title>
+<author>
+<persname><forename type="first">H</forename><surname>Kim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Ahn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Shin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">H</forename><surname>Sim</surname></persname>
+</author>
+<idno type="DOI">10.1177/1475921718768747</idno>
+<ptr target="http://dx.doi.org/10.1177/1475921718768747"></ptr>
+</analytic>
+<monogr>
+<title level="j">Struct. Health Monit</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="725" to="738" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">H. Kim, E. Ahn, M. Shin, S.H. Sim, Crack and noncrack classification from concrete surface images using machine learning, Struct. Health Monit. 18 (3) (2019) 725-738, http://dx.doi.org/10.1177/1475921718768747.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Evaluation of deep learning approaches based on convolutional neural networks for corrosion detection</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Atha</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Jahanshahi</surname></persname>
+</author>
+<idno type="DOI">10.1177/1475921717737051</idno>
+<ptr target="http://dx.doi.org/10.1177/1475921717737051"></ptr>
+</analytic>
+<monogr>
+<title level="j">Struct. Health Monit</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="1110" to="1128" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">D.J. Atha, M.R. Jahanshahi, Evaluation of deep learning approaches based on convolutional neural networks for corrosion detection, Struct. Health Monit. 17 (5) (2018) 1110-1128, http://dx.doi.org/10.1177/1475921717737051.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Deep learning-based crack damage detection using convolutional neural networks</title>
+<author>
+<persname><forename type="first">Y</forename><forename type="middle">J</forename><surname>Cha</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Choi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Büyüköztürk</surname></persname>
+</author>
+<idno type="DOI">10.1111/mice.12263</idno>
+<ptr target="http://dx.doi.org/10.1111/mice.12263"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput.-Aided Civ. Infrastruct. Eng</title>
+<imprint>
+<biblscope unit="volume">32</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="361" to="378" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y.J. Cha, W. Choi, O. Büyüköztürk, Deep learning-based crack damage detection using convolutional neural networks, Comput.-Aided Civ. Infrastruct. Eng. 32 (5) (2017) 361-378, http://dx.doi.org/10.1111/mice.12263.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Visual data classification in post-event building reconnaissance</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Yeum</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Dyke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Ramirez</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.engstruct.2017.10.057</idno>
+<ptr target="http://dx.doi.org/10.1016/j.engstruct.2017.10.057"></ptr>
+</analytic>
+<monogr>
+<title level="j">Eng. Struct</title>
+<imprint>
+<biblscope unit="volume">155</biblscope>
+<biblscope from="16" to="24" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">C.M. Yeum, S.J. Dyke, J. Ramirez, Visual data classification in post-event building reconnaissance, Eng. Struct. 155 (2018) 16-24, http://dx.doi.org/10. 1016/j.engstruct.2017.10.057.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Autonomous structural visual Inspection Using Region-based deep learning for detecting multiple damage types</title>
+<author>
+<persname><forename type="first">Y</forename><forename type="middle">J</forename><surname>Cha</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Choi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Suh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Mahmoudkhani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Büyüköztürk</surname></persname>
+</author>
+<idno type="DOI">10.1111/mice.12334</idno>
+<ptr target="http://dx.doi.org/10.1111/mice.12334"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput.-Aided Civ. Infrastruct. Eng</title>
+<imprint>
+<biblscope unit="volume">33</biblscope>
+<biblscope unit="issue">9</biblscope>
+<biblscope from="731" to="747" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y.J. Cha, W. Choi, G. Suh, S. Mahmoudkhani, O. Büyüköztürk, Autonomous structural visual Inspection Using Region-based deep learning for detecting multiple damage types, Comput.-Aided Civ. Infrastruct. Eng. 33 (9) (2018) 731-747, http://dx.doi.org/10.1111/mice.12334.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Automated pixel-level pavement crack detection on 3D asphalt surfaces with a recurrent neural network</title>
+<author>
+<persname><forename type="first">A</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">C</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Fei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">Q</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Qiu</surname></persname>
+</author>
+<idno type="DOI">10.1111/mice.12409</idno>
+<ptr target="http://dx.doi.org/10.1111/mice.12409"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput.-Aided Civ. Infrastruct. Eng</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="213" to="229" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Zhang, K.C. Wang, Y. Fei, Y. Liu, C. Chen, G. Yang, J.Q. Li, E. Yang, S. Qiu, Automated pixel-level pavement crack detection on 3D asphalt surfaces with a recurrent neural network, Comput.-Aided Civ. Infrastruct. Eng. 34 (3) (2019) 213-229, http://dx.doi.org/10.1111/mice.12409.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Autonomous concrete crack detection using deep fully convolutional neural network</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">V</forename><surname>Dung</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">D</forename><surname>Anh</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.autcon.2018.11.028</idno>
+<ptr target="http://dx.doi.org/10.1016/j.autcon.2018.11.028"></ptr>
+</analytic>
+<monogr>
+<title level="j">Autom. Constr</title>
+<imprint>
+<biblscope unit="volume">99</biblscope>
+<biblscope from="52" to="58" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">C.V. Dung, L.D. Anh, Autonomous concrete crack detection using deep fully convolutional neural network, Autom. Constr. 99 (2019) 52-58, http: //dx.doi.org/10.1016/j.autcon.2018.11.028.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">A cost effective solution for pavement crack inspection using cameras and deep neural networks</title>
+<author>
+<persname><forename type="first">Q</forename><surname>Mei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Gül</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.conbuildmat.2020.119397</idno>
+<ptr target="http://dx.doi.org/10.1016/j.conbuildmat.2020.119397"></ptr>
+</analytic>
+<monogr>
+<title level="j">Constr. Build. Mater</title>
+<imprint>
+<biblscope unit="volume">256</biblscope>
+<biblscope unit="page">119397</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Q. Mei, M. Gül, A cost effective solution for pavement crack inspection using cameras and deep neural networks, Constr. Build. Mater. 256 (2020) 119397, http://dx.doi.org/10.1016/j.conbuildmat.2020.119397.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<monogr>
+<title level="m" type="main">SDNET2018: A concrete crack image dataset for machine learning applications</title>
+<author>
+<persname><forename type="first">M</forename><surname>Maguire</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Dorafshan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Thomas</surname></persname>
+</author>
+<idno type="DOI">10.15142/T3TD19</idno>
+<ptr target="http://dx.doi.org/10.15142/T3TD19"></ptr>
+<imprint>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Maguire, S. Dorafshan, R.J. Thomas, SDNET2018: A concrete crack image dataset for machine learning applications, 2018, http://dx.doi.org/10.15142/ T3TD19.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Automatic bridge crack detection using a convolutional neural network</title>
+<author>
+<persname><forename type="first">H</forename><surname>Xu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Su</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Cai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Cui</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Chen</surname></persname>
+</author>
+<idno type="DOI">10.3390/app9142867</idno>
+<ptr target="http://dx.doi.org/10.3390/app9142867"></ptr>
+</analytic>
+<monogr>
+<title level="j">Appl. Sci</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="issue">14</biblscope>
+<biblscope unit="page">2867</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">H. Xu, X. Su, Y. Wang, H. Cai, K. Cui, X. Chen, Automatic bridge crack detection using a convolutional neural network, Appl. Sci. 9 (14) (2019) 2867, http://dx.doi.org/10.3390/app9142867.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">A study on CNN transfer learning for image classification</title>
+<author>
+<persname><forename type="first">M</forename><surname>Hussain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Bird</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Faria</surname></persname>
+</author>
+<idno type="DOI">10.1007/978-3-319-97982-3_16</idno>
+<ptr target="http://dx.doi.org/10.1007/978-3-319-97982-3_16"></ptr>
+</analytic>
+<monogr>
+<title level="m">Advances in Intelligent Systems and Computing</title>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="2019">2019</date>
+<biblscope unit="volume">840</biblscope>
+<biblscope from="191" to="202" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Hussain, J.J. Bird, D.R. Faria, A study on CNN transfer learning for image classification, in: Advances in Intelligent Systems and Computing, Vol. 840, Springer, 2019, pp. 191-202, http://dx.doi.org/10.1007/978-3-319-97982-3_16.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">A decade survey of transfer learning (2010-2020</title>
+<author>
+<persname><forename type="first">S</forename><surname>Niu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Song</surname></persname>
+</author>
+<idno type="DOI">10.1109/TAI.2021.3054609</idno>
+<ptr target="http://dx.doi.org/10.1109/TAI.2021.3054609"></ptr>
+</analytic>
+<monogr>
+<title level="j">IEEE Trans. Artif. Intell</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="151" to="166" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S. Niu, Y. Liu, J. Wang, H. Song, A decade survey of transfer learning (2010-2020), IEEE Trans. Artif. Intell. 1 (2) (2020) 151-166, http://dx.doi.org/10. 1109/TAI.2021.3054609.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Automatic pixel-level crack segmentation in images using fully convolutional neural network based on residual blocks and pixel local weights</title>
+<author>
+<persname><forename type="first">R</forename><surname>Ali</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">H</forename><surname>Chuah</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">S A</forename><surname>Talip</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Mokhtar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Shoaib</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.engappai.2021.104391</idno>
+<ptr target="http://dx.doi.org/10.1016/j.engappai.2021.104391"></ptr>
+</analytic>
+<monogr>
+<title level="j">Eng. Appl. Artif. Intell</title>
+<imprint>
+<biblscope unit="volume">104</biblscope>
+<biblscope unit="page">104391</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">R. Ali, J.H. Chuah, M.S.A. Talip, N. Mokhtar, M.A. Shoaib, Automatic pixel-level crack segmentation in images using fully convolutional neural network based on residual blocks and pixel local weights, Eng. Appl. Artif. Intell. 104 (2021) 104391, http://dx.doi.org/10.1016/j.engappai.2021.104391.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Deep convolutional neural networks with transfer learning for computer vision-based data-driven pavement distress detection</title>
+<author>
+<persname><forename type="first">K</forename><surname>Gopalakrishnan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">K</forename><surname>Khaitan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Choudhary</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename></persname>
+</author>
+<idno type="DOI">10.1016/j.conbuildmat.2017.09.110</idno>
+<ptr target="http://dx.doi.org/10.1016/j.conbuildmat.2017.09.110"></ptr>
+</analytic>
+<monogr>
+<title level="j">Constr. Build. Mater</title>
+<imprint>
+<biblscope unit="volume">157</biblscope>
+<biblscope from="322" to="330" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Gopalakrishnan, S.K. Khaitan, A. Choudhary, A. Agrawal, Deep convolutional neural networks with transfer learning for computer vision-based data-driven pavement distress detection, Constr. Build. Mater. 157 (2017) 322-330, http://dx.doi.org/10.1016/j.conbuildmat.2017.09.110.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Unified approach to pavement crack and sealed crack detection using preclassification based on transfer learning</title>
+<author>
+<persname><forename type="first">K</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">D</forename><surname>Cheng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Zhang</surname></persname>
+</author>
+<idno type="DOI">10.1061/(asce)cp.1943-5487.0000736</idno>
+<ptr target="http://dx.doi.org/10.1061/(asce)cp.1943-5487.0000736"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Comput. Civ. Eng</title>
+<imprint>
+<biblscope unit="volume">32</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope unit="page">4018001</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Zhang, H.D. Cheng, B. Zhang, Unified approach to pavement crack and sealed crack detection using preclassification based on transfer learning, J. Comput. Civ. Eng. 32 (2) (2018) 04018001, http://dx.doi.org/10.1061/(asce)cp.1943-5487.0000736.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Automatic crack classification and segmentation on masonry surfaces using convolutional neural networks and transfer learning</title>
+<author>
+<persname><forename type="first">D</forename><surname>Dais</surname></persname>
+</author>
+<author>
+<persname><forename type="first">İ</forename><forename type="middle">E</forename><surname>Bal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Smyrou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Sarhosis</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.autcon.2021.103606</idno>
+<ptr target="http://dx.doi.org/10.1016/j.autcon.2021.103606"></ptr>
+</analytic>
+<monogr>
+<title level="j">Autom. Constr</title>
+<imprint>
+<biblscope unit="volume">125</biblscope>
+<biblscope unit="page">103606</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">D. Dais, İ.E. Bal, E. Smyrou, V. Sarhosis, Automatic crack classification and segmentation on masonry surfaces using convolutional neural networks and transfer learning, Autom. Constr. 125 (2021) 103606, http://dx.doi.org/10.1016/j.autcon.2021.103606.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">The development of a smart mobile app for building façade defects inspections</title>
+<author>
+<persname><forename type="first">A</forename><surname>Agapiou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Adair</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Meyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Skene</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Valkov</surname></persname>
+</author>
+<idno type="DOI">10.17265/1934-7359/2022.03.004</idno>
+<ptr target="http://dx.doi.org/10.17265/1934-7359/2022.03.004"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Civ. Eng. Archit</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope from="150" to="171" unit="page"></biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Agapiou, K. Adair, D. Meyer, E. Skene, M. Smith, N. Valkov, The development of a smart mobile app for building façade defects inspections, J. Civ. Eng. Archit. 16 (2022) 150-171, http://dx.doi.org/10.17265/1934-7359/2022.03.004.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<monogr>
+<author>
+<persname><forename type="first">S</forename><surname>Katsigiannis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Seyedzadeh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Agapiou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Ramzan</surname></persname>
+</author>
+<idno type="DOI">10.5281/zenodo.8014150</idno>
+<ptr target="http://dx.doi.org/10.5281/zenodo.8014150"></ptr>
+<title level="m">Brickwork cracks dataset</title>
+<imprint>
+<date type="published" when="2023">2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S. Katsigiannis, S. Seyedzadeh, A. Agapiou, N. Ramzan, Brickwork cracks dataset, 2023, http://dx.doi.org/10.5281/zenodo.8014150.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<monogr>
+<title level="m" type="main">The effectiveness of data augmentation in image classification using deep learning</title>
+<author>
+<persname><forename type="first">L</forename><surname>Perez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wang</surname></persname>
+</author>
+<idno type="arXiv">arXiv:1712.04621</idno>
+<imprint>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="report_type">arXiv preprint</note>
+<note type="raw_reference">L. Perez, J. Wang, The effectiveness of data augmentation in image classification using deep learning, 2017, arXiv preprint, arXiv:1712.04621.</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">A survey on image data augmentation for deep learning</title>
+<author>
+<persname><forename type="first">C</forename><surname>Shorten</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">M</forename><surname>Khoshgoftaar</surname></persname>
+</author>
+<idno type="DOI">10.1186/s40537-019-0197-0</idno>
+<ptr target="http://dx.doi.org/10.1186/s40537-019-0197-0"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Big Data</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="issue">60</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">C. Shorten, T.M. Khoshgoftaar, A survey on image data augmentation for deep learning, J. Big Data 6 (60) (2019) http://dx.doi.org/10.1186/s40537-019- 0197-0.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<monogr>
+<title></title>
+<author>
+<persname><forename type="first">F</forename><surname>Chollet</surname></persname>
+</author>
+<ptr target="https://keras.io"></ptr>
+<imprint>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">F. Chollet, et al., Keras, 2015, https://keras.io.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">ImageNet large scale visual recognition challenge</title>
+<author>
+<persname><forename type="first">O</forename><surname>Russakovsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Deng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Su</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Krause</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Satheesh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ma</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Karpathy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Khosla</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bernstein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Berg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Fei-Fei</surname></persname>
+</author>
+<idno type="DOI">10.1007/s11263-015-0816-y</idno>
+<ptr target="http://dx.doi.org/10.1007/s11263-015-0816-y"></ptr>
+</analytic>
+<monogr>
+<title level="j">Int. J. Comput. Vis</title>
+<imprint>
+<biblscope unit="volume">115</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="211" to="252" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein, A.C. Berg, L. Fei-Fei, ImageNet large scale visual recognition challenge, Int. J. Comput. Vis. 115 (3) (2015) 211-252, http://dx.doi.org/10.1007/s11263-015-0816-y.</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Very deep convolutional networks for large-scale image recognition</title>
+<author>
+<persname><forename type="first">K</forename><surname>Simonyan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Zisserman</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">International Conference on Learning Representations</title>
+<imprint>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Simonyan, A. Zisserman, Very deep convolutional networks for large-scale image recognition, in: International Conference on Learning Representations, 2015.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">MobileNetV2: Inverted residuals and linear bottlenecks</title>
+<author>
+<persname><forename type="first">M</forename><surname>Sandler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Howard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Zhu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Zhmoginov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L.-C</forename><surname>Chen</surname></persname>
+</author>
+<idno type="DOI">10.1109/CVPR.2018.00474</idno>
+<ptr target="http://dx.doi.org/10.1109/CVPR.2018.00474"></ptr>
+</analytic>
+<monogr>
+<title level="m">Proc. IEEE conf. on computer vision and pattern recognition</title>
+<meeting>IEEE conf. on computer vision and pattern recognition</meeting>
+<imprint>
+<publisher>CVPR</publisher>
+<date type="published" when="2018">2018</date>
+<biblscope from="4510" to="4520" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Sandler, A. Howard, M. Zhu, A. Zhmoginov, L.-C. Chen, MobileNetV2: Inverted residuals and linear bottlenecks, in: Proc. IEEE conf. on computer vision and pattern recognition, CVPR, 2018, pp. 4510-4520, http://dx.doi.org/10.1109/CVPR.2018.00474.</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Inception-v4, inception-ResNet and the impact of residual connections on learning</title>
+<author>
+<persname><forename type="first">C</forename><surname>Szegedy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ioffe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Vanhoucke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Alemi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Proc. 31st AAAI conf. on artificial intelligence</title>
+<meeting>31st AAAI conf. on artificial intelligence</meeting>
+<imprint>
+<date type="published" when="2017">2017</date>
+<biblscope from="4278" to="4284" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">C. Szegedy, S. Ioffe, V. Vanhoucke, A.A. Alemi, Inception-v4, inception-ResNet and the impact of residual connections on learning, in: Proc. 31st AAAI conf. on artificial intelligence, 2017, pp. 4278-4284.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Rethinking the inception architecture for computer vision</title>
+<author>
+<persname><forename type="first">C</forename><surname>Szegedy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Vanhoucke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ioffe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Shlens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Wojna</surname></persname>
+</author>
+<idno type="DOI">10.1109/CVPR.2016.308</idno>
+<ptr target="http://dx.doi.org/10.1109/CVPR.2016.308"></ptr>
+</analytic>
+<monogr>
+<title level="m">Proc. IEEE conf. on computer vision and pattern recognition</title>
+<meeting>IEEE conf. on computer vision and pattern recognition</meeting>
+<imprint>
+<publisher>CVPR</publisher>
+<date type="published" when="2016">2016</date>
+<biblscope from="2818" to="2826" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">C. Szegedy, V. Vanhoucke, S. Ioffe, J. Shlens, Z. Wojna, Rethinking the inception architecture for computer vision, in: Proc. IEEE conf. on computer vision and pattern recognition, CVPR, 2016, pp. 2818-2826, http://dx.doi.org/10.1109/CVPR.2016.308.</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">Xception: Deep learning with depthwise separable convolutions</title>
+<author>
+<persname><forename type="first">F</forename><surname>Chollet</surname></persname>
+</author>
+<idno type="DOI">10.1109/CVPR.2017.195</idno>
+<ptr target="http://dx.doi.org/10.1109/CVPR.2017.195"></ptr>
+</analytic>
+<monogr>
+<title level="m">Proc. IEEE conf. on computer vision and pattern recognition</title>
+<meeting>IEEE conf. on computer vision and pattern recognition</meeting>
+<imprint>
+<publisher>CVPR</publisher>
+<date type="published" when="2017">2017</date>
+<biblscope from="1251" to="1258" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">F. Chollet, Xception: Deep learning with depthwise separable convolutions, in: Proc. IEEE conf. on computer vision and pattern recognition, CVPR, 2017, pp. 1251-1258, http://dx.doi.org/10.1109/CVPR.2017.195.</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<monogr>
+<title level="m" type="main">TensorFlow: Large-scale machine learning on heterogeneous systems</title>
+<author>
+<persname><forename type="first">M</forename><surname>Abadi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Agarwal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Barham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Brevdo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Citro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">S</forename><surname>Corrado</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Davis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Dean</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Devin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ghemawat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Goodfellow</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Harp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Irving</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Isard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Jia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Jozefowicz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Kaiser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kudlur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Levenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Mané</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Monga</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Moore</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Murray</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Olah</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Schuster</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Shlens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Steiner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Sutskever</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Talwar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Tucker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Vanhoucke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Vasudevan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Viégas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Vinyals</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Warden</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Wattenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Wicke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Zheng</surname></persname>
+</author>
+<ptr target="https://www.tensorflow.org/.Softwareavailablefromtensorflow.org"></ptr>
+<imprint>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Abadi, A. Agarwal, P. Barham, E. Brevdo, Z. Chen, C. Citro, G.S. Corrado, A. Davis, J. Dean, M. Devin, S. Ghemawat, I. Goodfellow, A. Harp, G. Irving, M. Isard, Y. Jia, R. Jozefowicz, L. Kaiser, M. Kudlur, J. Levenberg, D. Mané, R. Monga, S. Moore, D. Murray, C. Olah, M. Schuster, J. Shlens, B. Steiner, I. Sutskever, K. Talwar, P. Tucker, V. Vanhoucke, V. Vasudevan, F. Viégas, O. Vinyals, P. Warden, M. Wattenberg, M. Wicke, Y. Yu, X. Zheng, TensorFlow: Large-scale machine learning on heterogeneous systems, 2015, URL https://www.tensorflow.org/. Software available from tensorflow.org.</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">Evaluation: from precision, recall and F-measure to ROC, informedness, markedness and correlation</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Powers</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Mach. Learn. Technol</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="37" to="63" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">D.M. Powers, Evaluation: from precision, recall and F-measure to ROC, informedness, markedness and correlation, J. Mach. Learn. Technol. 2 (1) (2011) 37-63.</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">Does explainable machine learning uncover the black box in vision applications?</title>
+<author>
+<persname><forename type="first">M</forename><surname>Narwaria</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.imavis.2021.104353</idno>
+<ptr target="http://dx.doi.org/10.1016/j.imavis.2021.104353"></ptr>
+</analytic>
+<monogr>
+<title level="j">Image Vis. Comput</title>
+<imprint>
+<biblscope unit="volume">118</biblscope>
+<biblscope unit="page">104353</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Narwaria, Does explainable machine learning uncover the black box in vision applications? Image Vis. Comput. 118 (2022) 104353, http://dx.doi.org/ 10.1016/j.imavis.2021.104353.</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">Grad-CAM: Visual explanations from deep networks via gradient-based localization</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Selvaraju</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Cogswell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Das</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Vedantam</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Parikh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Batra</surname></persname>
+</author>
+<idno type="DOI">10.1109/ICCV.2017.74</idno>
+<ptr target="http://dx.doi.org/10.1109/ICCV.2017.74"></ptr>
+</analytic>
+<monogr>
+<title level="m">2017 IEEE International Conference on Computer Vision, ICCV</title>
+<imprint>
+<date type="published" when="2017">2017</date>
+<biblscope from="618" to="626" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">R.R. Selvaraju, M. Cogswell, A. Das, R. Vedantam, D. Parikh, D. Batra, Grad-CAM: Visual explanations from deep networks via gradient-based localization, in: 2017 IEEE International Conference on Computer Vision, ICCV, 2017, pp. 618-626, http://dx.doi.org/10.1109/ICCV.2017.74.</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">Imagenet: A large-scale hierarchical image database</title>
+<author>
+<persname><forename type="first">J</forename><surname>Deng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Dong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Socher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L.-J</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Fei-Fei</surname></persname>
+</author>
+<idno type="DOI">10.1109/CVPR.2009.5206848</idno>
+<ptr target="http://dx.doi.org/10.1109/CVPR.2009.5206848"></ptr>
+</analytic>
+<monogr>
+<title level="m">IEEE Conference on Computer Vision and Pattern Recognition</title>
+<imprint>
+<publisher>CVPR</publisher>
+<date type="published" when="2009">2009. 2009</date>
+<biblscope from="248" to="255" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, L. Fei-Fei, Imagenet: A large-scale hierarchical image database, in: 2009 IEEE Conference on Computer Vision and Pattern Recognition, CVPR, 2009, pp. 248-255, http://dx.doi.org/10.1109/CVPR.2009.5206848.</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">Learning Multiple Layers of Features from Tiny Images</title>
+<author>
+<persname><forename type="first">A</forename><surname>Krizhevsky</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Tech. Rep</title>
+<imprint>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Krizhevsky, Learning Multiple Layers of Features from Tiny Images, Tech. Rep., 2009.</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">Revisiting unreasonable effectiveness of data in deep learning era</title>
+<author>
+<persname><forename type="first">C</forename><surname>Sun</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Shrivastava</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Singh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gupta</surname></persname>
+</author>
+<idno type="DOI">10.1109/ICCV.2017.97</idno>
+<ptr target="http://dx.doi.org/10.1109/ICCV.2017.97"></ptr>
+</analytic>
+<monogr>
+<title level="m">2017 IEEE International Conference on Computer Vision, ICCV</title>
+<imprint>
+<date type="published" when="2017">2017</date>
+<biblscope from="843" to="852" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">C. Sun, A. Shrivastava, S. Singh, A. Gupta, Revisiting unreasonable effectiveness of data in deep learning era, in: 2017 IEEE International Conference on Computer Vision, ICCV, 2017, pp. 843-852, http://dx.doi.org/10.1109/ICCV.2017.97.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Attention is all you need</title>
+<author>
+<persname><forename type="first">A</forename><surname>Vaswani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Shazeer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Parmar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Uszkoreit</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">N</forename><surname>Gomez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Ł</forename><surname>Kaiser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Polosukhin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="s">Advances in Neural Information Processing Systems</title>
+<editor>
+<persname><forename type="first">I</forename><surname>Guyon</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">U</forename><forename type="middle">V</forename><surname>Luxburg</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">S</forename><surname>Bengio</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">H</forename><surname>Wallach</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">R</forename><surname>Fergus</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">S</forename><surname>Vishwanathan</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">R</forename><surname>Garnett</surname></persname>
+</editor>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope from="6000" to="6010" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A.N. Gomez, Ł. Kaiser, I. Polosukhin, Attention is all you need, in: I. Guyon, U.V. Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, R. Garnett (Eds.), Advances in Neural Information Processing Systems, Vol. 30, 2017, pp. 6000-6010.</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<monogr>
+<title level="m" type="main">An image is worth 16 × 16 words: Transformers for image recognition at scale</title>
+<author>
+<persname><forename type="first">A</forename><surname>Dosovitskiy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Beyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kolesnikov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Weissenborn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Zhai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Unterthiner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Dehghani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Minderer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Heigold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Gelly</surname></persname>
+</author>
+<idno type="DOI">10.48550/arXiv.2010.11929</idno>
+<idno type="arXiv">arXiv:2010.11929</idno>
+<ptr target="http://dx.doi.org/10.48550/arXiv.2010.11929"></ptr>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="report_type">arXiv preprint</note>
+<note type="raw_reference">A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai, T. Unterthiner, M. Dehghani, M. Minderer, G. Heigold, S. Gelly, et al., An image is worth 16 × 16 words: Transformers for image recognition at scale, 2020, http://dx.doi.org/10.48550/arXiv.2010.11929, arXiv preprint, arXiv:2010.11929.</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">IEViT: An enhanced vision transformer architecture for chest X-ray image classification</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">I</forename><surname>Okolo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Katsigiannis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Ramzan</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.cmpb.2022.107141</idno>
+<ptr target="http://dx.doi.org/10.1016/j.cmpb.2022.107141"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput. Methods Programs Biomed</title>
+<imprint>
+<biblscope unit="volume">226</biblscope>
+<biblscope unit="page">107141</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">G.I. Okolo, S. Katsigiannis, N. Ramzan, IEViT: An enhanced vision transformer architecture for chest X-ray image classification, Comput. Methods Programs Biomed. 226 (2022) 107141, http://dx.doi.org/10.1016/j.cmpb.2022.107141.</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<analytic>
+<title level="a" type="main">Swin transformer: Hierarchical vision transformer using shifted windows</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Lin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Cao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Hu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Wei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Lin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Guo</surname></persname>
+</author>
+<idno type="DOI">10.1109/ICCV48922.2021.00986</idno>
+<ptr target="http://dx.doi.org/10.1109/ICCV48922.2021.00986"></ptr>
+</analytic>
+<monogr>
+<title level="m">IEEE/CVF International Conference on Computer Vision, ICCV</title>
+<imprint>
+<date type="published" when="2021">2021. 2021</date>
+<biblscope from="9992" to="10002" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Z. Liu, Y. Lin, Y. Cao, H. Hu, Y. Wei, Z. Zhang, S. Lin, B. Guo, Swin transformer: Hierarchical vision transformer using shifted windows, in: 2021 IEEE/CVF International Conference on Computer Vision, ICCV, 2021, pp. 9992-10002, http://dx.doi.org/10.1109/ICCV48922.2021.00986.</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">Training data-efficient image transformers &amp; distillation through attention</title>
+<author>
+<persname><forename type="first">H</forename><surname>Touvron</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Cord</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Douze</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Massa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Sablayrolles</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Jégou</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">International Conference on Machine Learning</title>
+<imprint>
+<publisher>PMLR</publisher>
+<date type="published" when="2021">2021</date>
+<biblscope from="10347" to="10357" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">H. Touvron, M. Cord, M. Douze, F. Massa, A. Sablayrolles, H. Jégou, Training data-efficient image transformers &amp; distillation through attention, in: International Conference on Machine Learning, PMLR, 2021, pp. 10347-10357.</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">Tokens-to-token ViT: Training vision transformers from scratch on ImageNet</title>
+<author>
+<persname><forename type="first">L</forename><surname>Yuan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Shi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z.-H</forename><surname>Jiang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">E</forename><surname>Tay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Feng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Yan</surname></persname>
+</author>
+<idno type="DOI">10.1109/ICCV48922.2021.00060</idno>
+<ptr target="http://dx.doi.org/10.1109/ICCV48922.2021.00060"></ptr>
+</analytic>
+<monogr>
+<title level="m">Proc. IEEE/CVF International Conference on Computer Vision, ICCV</title>
+<meeting>IEEE/CVF International Conference on Computer Vision, ICCV</meeting>
+<imprint>
+<date type="published" when="2021">2021</date>
+<biblscope from="558" to="567" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">L. Yuan, Y. Chen, T. Wang, W. Yu, Y. Shi, Z.-H. Jiang, F.E. Tay, J. Feng, S. Yan, Tokens-to-token ViT: Training vision transformers from scratch on ImageNet, in: Proc. IEEE/CVF International Conference on Computer Vision, ICCV, 2021, pp. 558-567, http://dx.doi.org/10.1109/ICCV48922.2021.00060.</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<analytic>
+<title level="a" type="main">Crossvit: Cross-attention multi-scale vision transformer for image classification</title>
+<author>
+<persname><forename type="first">C.-F</forename><forename type="middle">R</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Q</forename><surname>Fan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Panda</surname></persname>
+</author>
+<idno type="DOI">10.1109/ICCV48922.2021.00041</idno>
+<ptr target="http://dx.doi.org/10.1109/ICCV48922.2021.00041"></ptr>
+</analytic>
+<monogr>
+<title level="m">Proc. IEEE/CVF International Conference on Computer Vision, ICCV</title>
+<meeting>IEEE/CVF International Conference on Computer Vision, ICCV</meeting>
+<imprint>
+<date type="published" when="2021">2021</date>
+<biblscope from="357" to="366" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">C.-F.R. Chen, Q. Fan, R. Panda, Crossvit: Cross-attention multi-scale vision transformer for image classification, in: Proc. IEEE/CVF International Conference on Computer Vision, ICCV, 2021, pp. 357-366, http://dx.doi.org/10.1109/ICCV48922.2021.00041.</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<analytic>
+<title level="a" type="main">Pyramid vision transformer: A versatile backbone for dense prediction without convolutions</title>
+<author>
+<persname><forename type="first">W</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Xie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D.-P</forename><surname>Fan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Song</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Liang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Lu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Luo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Shao</surname></persname>
+</author>
+<idno type="DOI">10.1109/ICCV48922.2021.00061</idno>
+<ptr target="http://dx.doi.org/10.1109/ICCV48922.2021.00061"></ptr>
+</analytic>
+<monogr>
+<title level="m">Proc. IEEE/CVF International Conference on Computer Vision, ICCV</title>
+<meeting>IEEE/CVF International Conference on Computer Vision, ICCV</meeting>
+<imprint>
+<date type="published" when="2021">2021</date>
+<biblscope from="568" to="578" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">W. Wang, E. Xie, X. Li, D.-P. Fan, K. Song, D. Liang, T. Lu, P. Luo, L. Shao, Pyramid vision transformer: A versatile backbone for dense prediction without convolutions, in: Proc. IEEE/CVF International Conference on Computer Vision, ICCV, 2021, pp. 568-578, http://dx.doi.org/10.1109/ICCV48922.2021. 00061.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

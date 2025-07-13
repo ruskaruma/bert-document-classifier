@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><component xmlns="http://www.wiley.com/namespaces/wiley" xmlns:wiley="http://www.wiley.com/namespaces/wiley/wiley" type="serialArticle" version="2.0" xml:id="jane12382" xml:lang="en">
+<header>
+<publicationMeta level="product">
+<doi origin="wiley" registered="yes">10.1111/(ISSN)1365-2656</doi>
+<issn type="print">0021-8790</issn>
+<issn type="electronic">1365-2656</issn>
+<idGroup>
+<id type="product" value="JANE"/>
+</idGroup>
+<titleGroup>
+<title sort="JOURNAL OF ANIMAL ECOLOGY" type="main">Journal of Animal Ecology</title>
+<title type="short">J Anim Ecol</title>
+</titleGroup>
+</publicationMeta>
+<publicationMeta level="part" position="40"><doi origin="wiley">10.1111/jane.2015.84.issue-4</doi>
+<copyright ownership="thirdParty"><i>Journal of Animal Ecology</i> © 2015 British Ecological Society</copyright><numberingGroup><numbering type="journalVolume" number="84">84</numbering><numbering type="journalIssue">4</numbering></numberingGroup>
+<coverDate startDate="2015-07">July 2015</coverDate>
+</publicationMeta>
+<publicationMeta level="unit" position="20" status="forIssue" type="article">
+<doi>10.1111/1365-2656.12382</doi>
+<idGroup>
+<id type="unit" value="JANE12382"/>
+</idGroup>
+<countGroup>
+<count number="6" type="pageTotal"/>
+</countGroup>
+<titleGroup>
+<title type="articleCategory">‘How to…’ Paper</title>
+<title type="tocHeading1">‘How to…’</title>
+</titleGroup>
+<copyright ownership="thirdParty">© 2015 The Authors. Journal of Animal Ecology © 2015 British Ecological Society</copyright>
+<eventGroup><event date="2014-10-10" type="manuscriptReceived"/><event date="2015-04-03" type="manuscriptAccepted"/><event agent="SPS" date="2015-05-02" type="xmlCreated"/><event type="publishedOnlineEarlyUnpaginated" date="2015-06-12"/><event type="firstOnline" date="2015-06-12"/><event type="publishedOnlineFinalForm" date="2015-06-23"/><event type="xmlConverted" agent="Converter:WML3G_To_WML3G version:5.1.9 mode:FullText,remove_FC,strip-out-mathml" date="2017-09-04"/></eventGroup>
+<numberingGroup><numbering type="pageFirst">892</numbering><numbering type="pageLast">897</numbering></numberingGroup>
+<correspondenceTo>Correspondence author. E‐mail: <email>gr41@st-andrews.ac.uk</email></correspondenceTo>
+<linkGroup>
+<link type="toTypesetVersion" href="file:1365-2656.12382.pdf"/>
+</linkGroup>
+</publicationMeta>
+<contentMeta>
+<titleGroup>
+<title type="main">On the variety of methods for calculating confidence intervals by bootstrapping</title>
+<title type="shortAuthors">M.‐T. Puth, M. Neuhäuser &amp; G. D. Ruxton</title>
+</titleGroup>
+<creators>
+<creator affiliationRef="#jane12382-aff-0001" creatorRole="author" xml:id="jane12382-cr-0001">
+<personName><givenNames>Marie‐Therese</givenNames> <familyName>Puth</familyName></personName>
+</creator>
+<creator affiliationRef="#jane12382-aff-0001" creatorRole="author" xml:id="jane12382-cr-0002">
+<personName><givenNames>Markus</givenNames> <familyName>Neuhäuser</familyName></personName>
+</creator>
+<creator affiliationRef="#jane12382-aff-0002" corresponding="yes" creatorRole="author" xml:id="jane12382-cr-0003">
+<personName><givenNames>Graeme D.</givenNames> <familyName>Ruxton</familyName></personName>
+</creator>
+<creator creatorRole="editor" xml:id="jane12382-cr-0004">
+<personName><givenNames>Dylan</givenNames> <familyName>Childs</familyName></personName>
+</creator>
+</creators>
+<affiliationGroup>
+<affiliation countryCode="DE" type="organization" xml:id="jane12382-aff-0001"><orgDiv>Fachbereich Mathematik und Technik</orgDiv> <orgDiv>RheinAhrCampus</orgDiv> <orgName>Koblenz University of Applied Sciences</orgName> <address><street>Joseph‐Rovan‐Allee 2</street> <postCode>53424</postCode> <city>Remagen</city> <country>Germany</country></address></affiliation>
+<affiliation countryCode="GB" type="organization" xml:id="jane12382-aff-0002"><orgDiv>School of Biology</orgDiv> <orgName>University of St Andrews</orgName> <address><city>St Andrews</city> <countryPart>Fife</countryPart> <postCode>KY16 9TH</postCode> <country>UK</country></address></affiliation>
+</affiliationGroup>
+<keywordGroup type="author">
+<keyword xml:id="jane12382-kwd-0001">parameter estimation</keyword>
+<keyword xml:id="jane12382-kwd-0002">randomization</keyword>
+<keyword xml:id="jane12382-kwd-0003">resampling</keyword>
+<keyword xml:id="jane12382-kwd-0004">statistics</keyword>
+</keywordGroup>
+<supportingInformation>
+<supportingInfoItem>
+<mediaResource alt="supporting" mimeType="text/plain" href="suppl/jane12382-sup-0001-AppendixS1.txt"/>
+<caption><b>Appendix S1.</b> Comparison of different bootstrap methods.</caption>
+</supportingInfoItem>
+</supportingInformation>
+<abstractGroup>
+<abstract type="main" xml:id="jane12382-abs-0001">
+<title type="main">Summary</title>
+<p>
+<list formatted="paragraph" style="1" xml:id="jane12382-list-0001">
+
+<listItem>Researchers often want to place a confidence interval around estimated parameter values calculated from a sample. This is commonly implemented by bootstrapping. There are several different frequently used bootstrapping methods for this purpose.</listItem>
+
+<listItem>Here we demonstrate that authors of recent papers frequently do not specify the method they have used and that different methods can produce markedly different confidence intervals for the same sample and parameter estimate.</listItem>
+
+<listItem>We encourage authors to be more explicit about the method they use (and number of bootstrap resamples used).</listItem>
+
+<listItem>We recommend the bias corrected and accelerated method as giving generally good performance; although researchers should be warned that coverage of bootstrap confidence intervals is characteristically less than the specified nominal level, and confidence interval evaluation by any method can be unreliable for small samples in some situations.</listItem>
+</list>
+</p>
+</abstract>
+<abstract type="graphical" xml:id="jane12382-abs-0002">
+<p>Many scientists use bootstrapping as a method to generate confidence intervals around statistics that they calculate. But several different bootstrapping methods are available. The authors highlight that they can give quite different results, and offer advice on which to chose and how best to implement them.<blockFixed type="graphic" xml:id="jane12382-blkfxd-0001">
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:00218790:jane12382:jane12382-toc-0001"/>
+<mediaResource alt="image" href="graphic/jane12382-toc-0001-m.png" mimeType="image/png" rendition="webHiRes"/>
+
+</mediaResourceGroup>
+</blockFixed>
+</p>
+</abstract>
+</abstractGroup>
+</contentMeta>
+</header>
+<body sectionsNumbered="no" xml:id="jane12382-body-0001">
+<section xml:id="jane12382-sec-0001">
+<title type="main">Introduction</title>
+<p>It is increasingly common for researchers to offer estimates of (population) parameter values (e.g. mean, effect size, correlation coefficient, etc.) instead of (or as well as) the <i>P</i>‐values associated with testing of null hypotheses. Evaluation of a sample from the population of interest does not allow us to estimate a population parameter with certainty; rather, it is common to produce a confidence interval in which we aim to enclose the true (population) value on a specified fraction of occasions. For the frequently used 95% confidence interval, the calculated interval is intended to enclose the true value for 95% of samples. Researchers often use <i>bootstrapping</i> as a very general means of generating a confidence interval for many commonly used statistics. The essence of bootstrapping is the drawing of pseudo‐samples (hereafter called bootstraps) either from the original sample itself (nonparametric bootstrapping) or from a model fitted to the original sample (parametric bootstrapping). The first of these is more commonly used and will be the focus of this paper. Nonparametric bootstrapping makes no assumptions about the nature of the underlying population, and the only information used is the original sample itself. Bootstrapping is a popular method of producing confidence intervals because of its generality: the same method can be used for a very broad range of statistics. Although computationally demanding, various methods have been made available through commonly used statistical software. This means that for almost any situation in animal ecology where you can calculate some statistic, bootstrapping can be used to generate a confidence interval around the point value. Further, the calculation of this can be done with minimal extra effort in commonly used statistical computing software packages.</p>
+<p>There are other methods available for calculation of confidence intervals for various parameters. However, almost all alternatives to bootstrapping require assumptions to be made about properties of the underlying distribution from which the sample is drawn. These assumptions are not always made explicit to the reader and may not always be easy to evaluate on the basis of the sample or of other biological knowledge of the system. These methods are also often specific to a particular type of parameter, whereas a bootstrapping technique will work in essentially the same way when applied to different parameters. Finally, especially for uncommon parameters, there may be no available alternatives to general methods such as bootstrapping.</p>
+<p>Here we briefly describe a diversity of the different alternative bootstrapping methods easily available to researchers, offer some tentative suggestions on which to use, and encourage researchers to provide more detail on the method they use when reporting results. A survey of the recent literature suggests that such specification is not a widely adopted practice, although it is necessary in order for methodology to be reproducible. We illustrate our results with comparison of the performance of different techniques in a simulation study involving estimation of strength of association.</p>
+</section>
+<section xml:id="jane12382-sec-0002">
+<title type="main">Different methods of bootstrapping to obtain confidence intervals</title>
+<p>Philosophically, given its definition above, the confidence interval should best be constructed by taking many samples of the underlying population. However, often only a single sample is available to us. The essence of nonparametric bootstrapping is that in the absence of any other information about a population, the distribution of values found in a random sample from the population is the best guide to the distribution of values in the population. Therefore to approximate repeated sampling from the population, it is justifiable to resample the sample (with replacement). There are a number of different ways that bootstrapping can be used to obtain the confidence interval for a population parameter, and some of the most popular of these will be described below in the context of two commonly used <sc>r</sc> packages devoted to bootstrapping: <i>bootstrap</i> and <i>boot</i>.</p>
+<p>The <sc>r</sc> package <i>bootstrap</i> offers four different methods taken from Efron &amp; Tibshirani (<link href="#jane12382-bib-0010"/>): the <i>BCa</i> method, parametric and nonparametric versions of the <i>ABC</i> method, and the <i>studentized</i> method. The <i>boot.ci</i> function of the <sc>r</sc> package <i>boot</i> offers five methods: as well as the <i>studentized</i> and <i>BCa</i> methods described above, it offers the <i>first‐order normal approximation</i>,<i> basic</i> and <i>percentile</i> methods. The implementation of all of these methods is explained fully in Chapter 5 of Davison &amp; Hinkley (<link href="#jane12382-bib-0008"/>). From our survey of the literature, another method that seems to commonly be used, but which is not available in either of our focal <sc>r</sc> packages, is <i>bias‐corrected</i> (<i>BC</i>) percentile confidence limits. Our literature survey suggested that users used the statistical package <sc>stata</sc> to access this method. For each of these methods, we describe the underlying rationale behind them, in order of increasing complexity. In each case, we will assume that we want to estimate some population parameter θ, and the estimator of this parameter based on the original sample is <inlineGraphic href="graphic/jane12382-math-0001.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0001"/>. Under standard bootstrapping, <i>B</i> bootstrap samples are generated and an estimate of the population parameter is calculated for each; these estimates are denoted <inlineGraphic href="graphic/jane12382-math-0002.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0002"/>.</p>
+<section xml:id="jane12382-sec-0003">
+<title type="main">Percentile method</title>
+<p>If the bootstrap estimates <inlineGraphic href="graphic/jane12382-math-0003.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0003"/> are ordered, then the two values that contain the central 100 (1 − α)% of these estimates are used as the limits of the 100 (1 − α)% confidence interval for the population parameter of interest (commonly α = 0·05 is used). This method depends upon the fact that the empirical distribution function based on the bootstraps converges to the true distribution function asymptotically in sample size, and the empirical quantiles have a law of large numbers.</p>
+</section>
+<section xml:id="jane12382-sec-0004">
+<title type="main">Basic method</title>
+<p>For each <inlineGraphic href="graphic/jane12382-math-0004.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0004"/>, an error <i>e</i><sub><i>i</i></sub> is calculated as <inlineGraphic href="graphic/jane12382-math-0005.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0005"/>. It is these <i>e</i><sub><i>i</i></sub> that are then ordered, and we identify the lower and upper limits <i>e</i><sub><i>l</i></sub> and <i>e</i><sub><i>u</i></sub> that enclose the central 100 (1 − α)% of these errors. The 100 (1 − α)% confidence interval for the population parameter is then [<inlineGraphic href="graphic/jane12382-math-0006.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0006"/>]. This method is based on the assumption that the bootstrap distribution of errors is a good approximation for the real distribution of sampling errors.</p>
+</section>
+<section xml:id="jane12382-sec-0005">
+<title type="main">First‐order normal approximation</title>
+<p>For this method, if <inlineGraphic href="graphic/jane12382-math-0007.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0007"/> is the standard deviation of the <i>B</i> bootstrap samples and <inlineGraphic href="graphic/jane12382-math-0008.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0008"/> is the mean, then the 100 (1 − α)% confidence interval is given by <displayedItem numbered="no" type="mathematics" xml:id="jane12382-disp-0001"><mediaResource href="graphic/jane12382-math-0009.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0009"/></displayedItem>where <i>z</i><sub>α/2</sub> is the <i>z</i>‐score for a given level of significance α, if α = 0·05 then <i>z</i><sub>α/2</sub> = 1·96.</p>
+<p>This method takes advantage of the observation that bootstraps often approximate a normal distribution.</p>
+</section>
+<section xml:id="jane12382-sec-0006">
+<title type="main">Studentized method</title>
+<p>Here we work with the <i>t</i>‐distribution as a so‐called pivot function, rather than the raw bootstraps directly. Specifically we first estimate the standard deviation (<inlineGraphic href="graphic/jane12382-math-0010.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0010"/>) for each bootstrap <i>i</i>. This can be calculated in the conventional way if the parameter of interest is a mean; otherwise, alternative equations or procedures are required (see Efron &amp; Tibshirani <link href="#jane12382-bib-0010"/> for details). For example, where the parameter of interest is a correlation coefficient, we can use: <displayedItem numbered="no" type="mathematics" xml:id="jane12382-disp-0002"><mediaResource href="graphic/jane12382-math-0011.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0011"/></displayedItem> and we then calculate a <i>t</i> value for that bootstrap: <displayedItem numbered="no" type="mathematics" xml:id="jane12382-disp-0003"><mediaResource href="graphic/jane12382-math-0012.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0012"/></displayedItem> We then order these <inlineGraphic href="graphic/jane12382-math-0013.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0013"/> and find the lower and upper values (<inlineGraphic href="graphic/jane12382-math-0014.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0014"/> and <inlineGraphic href="graphic/jane12382-math-0015.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0015"/>) that enclose the central 100 (1 − α)% of these <i>t</i> values. The limits of the 100 (1 − α)% confidence interval for the population parameter of interest are then [<inlineGraphic href="graphic/jane12382-math-0016.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0016"/>], where <inlineGraphic href="graphic/jane12382-math-0017.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0017"/> is the standard deviation of the original sample, calculated in the same way as for the bootstraps. The key attraction of this approach is that the statistic that is bootstrapped is pivotal (i.e. it does not depend on any nuisance parameters). This means that it is possible to make exact probability statements about this statistic, which by a ‘pivoting’ procedure can be converted to an exact confidence interval for the statistic of interest. Thus, this method should theoretically produce more precise confidence intervals than any of the forgoing.</p>
+</section>
+<section xml:id="jane12382-sec-0007">
+<title type="main">Bias‐corrected (BC) percentile confidence limits</title>
+<p>The percentile method could be improved if any bias that arises because the true parameter value is not the median of the distribution of bootstrap estimates could be estimated and corrected for. Essentially, this revised method is based on the assumption that there is a monotonic increasing transformation <i>f</i>() of the estimator <inlineGraphic href="graphic/jane12382-math-0018.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0018"/> such that the transformed values <i>f</i>(<inlineGraphic href="graphic/jane12382-math-0019.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0019"/>) are normally distributed with mean <i>f</i>(θ) − <i>z</i><sub><i>o</i></sub> and standard deviation one. The central challenge of implementing this method is to provide an estimator for <i>z</i><sub><i>o</i></sub>.</p>
+</section>
+<section xml:id="jane12382-sec-0008">
+<title type="main">Accelerated bias‐corrected percentile limits (BCa)</title>
+<p>This method is based on the assumption that a transformation <i>f</i>() of the estimator <inlineGraphic href="graphic/jane12382-math-0020.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0020"/> exists such that <i>f</i>(<inlineGraphic href="graphic/jane12382-math-0021.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0021"/>) has a normal distribution with mean <i>f</i>(θ) − <i>z</i><sub><i>o</i></sub> (1 + <i>af</i> (θ)) and standard deviation 1 + <i>af</i> (θ), where <i>z</i><sub><i>o</i></sub> and <i>a</i> are constants that we must estimate to use this function. This method seeks to correct for skewness as well as bias in the bootstrap distribution.</p>
+</section>
+<section xml:id="jane12382-sec-0009">
+<title type="main">ABC methods</title>
+<p>These were developed as approximations to the BCa method that require much less computational effort. Increasing availability of computing power reduces concerns about computational effort, and so we do not explore these methods in detail. Further details of these methods can be found in Efron &amp; Tibshirani (<link href="#jane12382-bib-0010"/>) or Manly (<link href="#jane12382-bib-0013"/>).</p>
+<p>This is by no means an exhaustive list of possible methods for calculating confidence intervals by bootstrapping. For instance, Chernick &amp; LaBudde (<link href="#jane12382-bib-0006"/>) describe further methods called <i>iterated bootstrap</i> and <i>tilted bootstrap</i>. Manly (<link href="#jane12382-bib-0013"/>) provides references to the literature on a number of other methods. However, as a generality, the methods described above are certainly the easiest to implement, and also those most widely used.</p>
+</section>
+</section>
+<section xml:id="jane12382-sec-0010">
+<title type="main">Survey of usage of this technique in the literature</title>
+<p>In order to survey the use of bootstrap methods to calculate confidence intervals, we examined 132 recent papers (spanning the publication dates October 2010–September 2014) from the journals <i>Journal of Animal Ecology</i>,<i> Ecology</i> and <i>Behavioural Ecology</i> (chosen because they allow searching of the full text of papers for key terms) that use bootstrapping to generate confidence intervals. We found papers by using the search term ‘bootstrap* AND confidence interval*’. Twenty‐seven papers (20% of our survey) used the <i>percentile</i> method; 21 (16%) used <i>BC,</i> and 7 (5%) used <i>BCa</i>. None of these papers offered an explanation for why the authors chose to use a particular method. In the remaining 77 (58%) of papers, the method used was not stated and could not be inferred from information provided in the manuscript. Of these 132 papers, 51 used bootstrapping to generate a confidence interval for a measure of or difference in central tendency (e.g. mean or median), 19 for a measure of dispersion (e.g. variance of interquartile range), 27 for a measure of association (e.g. correlation coefficient, gradient of a line), and 35 for more complex composite parameters (e.g. species diversity index).</p>
+</section>
+<section xml:id="jane12382-sec-0011">
+<title type="main">An example to compare the different techniques</title>
+<p>As an example comparison of the different methods, we evaluate the different methods in terms of the actual frequency of occasions in which calculated 95% confidence intervals include the true population value of correlation coefficient for 10 000 bivariate random samples on the basis of 10 000 bootstraps in each case. For each random sample, we generate two samples (denoted by <i>U</i><sub>1</sub> and <i>U</i><sub>2</sub>) from populations that are Normal with mean zero and standard deviation one, with the population value of the Pearson product–moment correlation coefficient between them specified by a parameter ρ. We chose a sample size of 20 since Taborsky (<link href="#jane12382-bib-0016"/>) found that that the average sample size per treatment in laboratory experiments in the study of behaviour was approximately 18, and the mean sample size per treatment in our sample of papers describe above was 23. For comparison, we repeated our analyses with sample sizes of 10 and 100. Pearson's correlation coefficient was chosen for illustrative purposes only, and we are not seeking to make any inferences about the properties of that measure in particular. For bivariate normal data, there is a commonly used (non‐bootstrapping) method for calculating confidence intervals (Fisher's transformation, which is used by the most popular <sc>r</sc> function for measuring association <i>cor.test</i>), and we can use this as a comparator for the different bootstrapping methods. In our sample of 132 papers, correlation coefficients were the subject of confidence interval construction by bootstrapping in 21 (16%) of them, so it is also an example that seems relevant to current research practice in our field.</p>
+<p>We generate samples of bivariate data (<i>U</i><sub><i>1</i></sub>, <i>U</i><sub><i>2</i></sub>) with specified (population level) correlation ρ using the method of Berry &amp; Mielke (<link href="#jane12382-bib-0002"/>): specifically <displayedItem numbered="no" type="mathematics" xml:id="jane12382-disp-0004"><mediaResource href="graphic/jane12382-math-0022.png" alt="urn:x-wiley:00218790:media:jane12382:jane12382-math-0022"/></displayedItem>where <i>X</i> and <i>Y</i> are independent identically distributed univariate random variables drawn from N(0,1), and ρ is the specified (population) correlation coefficient. We performed this for ρ<i> </i>= 0·0, 0·2 and 0·7 (Code valuable through Dryad – see Puth 2015). Figure <link href="#jane12382-fig-0001"/> provides example confidence intervals for the correlation coefficient calculated for the same sample of twenty pairs of values by the six different methods and the fractions of confidence intervals from 10 000 replicate samples that included the specified population value ρ. We obtained confidence intervals by the following six methods: BCa, BC, basic method, percentile method, normal approximation and studentized method.</p>
+<figure xml:id="jane12382-fig-0001">
+<mediaResourceGroup>
+<mediaResource alt="image" href="urn:x-wiley:00218790:media:jane12382:jane12382-fig-0001"/>
+<mediaResource alt="image" href="graphic/jane12382-fig-0001-m.png" mimeType="image/png" rendition="webHiRes"/>
+
+
+</mediaResourceGroup>
+<caption>Bootstrap estimates of the confidence intervals for the Pearson correlation coefficient between two samples of size <i>n </i>= 10, 20 and 100, drawn from a population with fixed correlation coefficient ρ. For each of three values of ρ (0·0, 0·2 or 0·7), we first drew a single sample of twenty pairs of values then calculated and plotted the estimated correlation coefficient and the 95% confidence interval based on that single sample, using six different bootstrap methods. We then drew 10 000 replicate samples and calculated 95% confidence intervals for each by all six methods (<i><fc>BC</fc></i>: bias corrected; <i><fc>BC</fc>a</i>: bias corrected and accelerated, <i><fc>P</fc>erc</i>: percentile method, <i><fc>S</fc>tud</i>: studentized method, <i><fc>N</fc>orm</i>: normal method and <i><fc>B</fc>asic</i>: basic method). For each method and value of ρ<i>,</i> we quote the fraction of these confidence intervals that enclosed the true population value (ρ) to the left of the associated single‐sample example confidence interval. We also include for comparison confidence intervals calculated by the non‐bootstrapping method of Fisher's transformation, which is the method used by the most popular <sc>r</sc> function for measuring association (<i>cor.test</i>). The code used is provided as an electronic supplement.</caption>
+</figure>
+<p>We first focus on the middle row of Fig. <link href="#jane12382-fig-0001"/> for sample sizes of 20. This shows that for our example case with a small sample size, all of the bootstrap techniques excepted <i>studentized</i> are liberal (producing confidence intervals that are on average too narrow to maintain the specified 95% nominal level of coverage); however, this effect is relatively minor for the BCa and BC methods. Our example also illustrates that for a single sample, the six methods can produce confidence intervals that are quite different from each other: both in size and level of asymmetry about the point estimate from that sample. All these effects can also be seen on the top row for sample sizes of ten. It is not surprising that the smaller samples size leads to generally larger confidence intervals, but notice that the confidence interval for the studentized method is now very strongly conservative (the confidence interval is much too large). Indeed, this confidence interval (and those for the normal and basic methods) can extend beyond the range of values that are possible for Pearson's correlation coefficient [−1, 1]. Finally turning to the bottom row (<i>n</i> = 100), the same effects can still be seen; all methods tend to be liberal, although this effect is now relatively minor, as are differences between methods.</p>
+</section>
+<section xml:id="jane12382-sec-0012">
+<title type="main">Discussion</title>
+<p>Our example shows that for the same sample, the six different methods for calculating confidence intervals can produce very substantially different confidence intervals. Hence, we would strongly recommend that when researchers present such confidence intervals obtained by bootstrapping, they explicitly state the method used. Our survey of the literature suggests that this is not common practice currently. Researchers should also state the number of bootstrap samples used in their calculations. We generally use 10 000. Our previous research on randomization techniques more generally suggests that authors often do not specify the number of bootstrap samples used, and amongst those that do, practice can be quite varied. Specifically in a sample of 20 recent papers using randomization techniques, we found seven used 10 000, six used 1000, one each used 500, 250 and 100, and for four papers insufficient information was given to determine the number used (Ruxton &amp; Neuhäuser <link href="#jane12382-bib-0015"/>). Further discussion of selection of an appropriate number of bootstraps for calculating confidence intervals can be found on pp. 101–103 of Manly (<link href="#jane12382-bib-0013"/>) and pp. 50–53 of Efron &amp; Tibshirani (<link href="#jane12382-bib-0010"/>).</p>
+<p>In our example, almost all the confidence intervals had coverage that was lower than the specified nominal 95%; this is a general trait of bootstrap confidence intervals from relatively small sample sizes (Chernick &amp; LaBudde <link href="#jane12382-bib-0005"/>), and researchers should also bear this in mind when interpreting calculated confidence intervals. Carpenter &amp; Bithell (<link href="#jane12382-bib-0500"/>) emphasize that this problem may be more acute for 99% confidence intervals; hence, we would caution against using 99% confidence intervals calculated by bootstrapping unless the sample size is substantial (<i>n </i>= 50 as a minimum).</p>
+<p>As regards which method to adopt, it is impossible to identify a method that gives best performance in all situations, but we recommend BCa as the method that we choose by default. BCa was specifically designed to give reasonable performance across a broader range of situations than BC but to give similar performance where BC does relatively well (Efron &amp; Tibshirani <link href="#jane12382-bib-0010"/>) and thus can be favoured over BC for this reason. Efron (<link href="#jane12382-bib-0504"/>) argues that BCa should be favoured over the studentized methods because both have good accuracy (differences from nominal coverage shrinking to zero quickly with increasing sample size) but BCa tends to have shorter interval lengths. In our example summarized in Fig. <link href="#jane12382-fig-0001"/>, the studentized method can provide coverage that is higher than the desired 0·95 and the confidence intervals can be very long. [DiCiccio &amp; Efron (<link href="#jane12382-bib-0009"/>) warn that the ‘<i>bootstrap‐t algorithm can be numerically unstable, resulting in very long confidence intervals</i>’, see p. 199.] Karavarsamis <i>et al</i>. (<link href="#jane12382-bib-0012"/>) compare the basic, normal, studentized and percentile methods for the generation of confidence intervals for estimation of site occupancy and species detection probabilities in species monitoring studies. They found that the studentized method offered the most consistent performance. Inspection of their data shows that this method, as expected from our discussion above, consistently and often substantially produced coverage higher than the desired 0·95. Carpenter &amp; Bithell (<link href="#jane12382-bib-0500"/>) provide more extensive guidance on how to select the most appropriate method, but they highlight BCa as the most consistently effective technique. BCa is also the method recommended by Crawley (<link href="#jane12382-bib-0007"/>).</p>
+<p>Regarding software implementation, we would caution against selecting the ‘all’ option in the <sc>r</sc> function <i>boot.ci</i> which calculates and presents the confidence interval by all five methods available in that package. Such an approach risks (even unconsciously) selecting the confidence interval that fits the researcher's expectation.</p>
+<p>It should be remembered that for small sample sizes, sometimes none of the methods work well. For example, Manly (<link href="#jane12382-bib-0013"/>) demonstrated this for estimation of the variance for samples of size 20 drawn from an exponential distribution, and this is true generally for estimation of higher moments from small samples drawn from very skewed distributions. It is difficult to offer clear guidance on precisely when confidence intervals based on bootstrap resamples become unreliable in this way, but in truth this is not an especial weakness of bootstrapping. For such heavily skewed distributions, small samples can often be quite unrepresentative of the underlying population and any methodology will then struggle to accurately characterize the population based on a single small sample. Statistics textbooks often suggest that <i>n </i>&gt; 30 is sufficient for the mean to have a reasonably normal sampling distribution. Other statistics, such as the correlation coefficient used in our example, may require larger sample sizes, but few, if any, require smaller. Chernick &amp; LaBudde (<link href="#jane12382-bib-0006"/>) warn about the potential for unreliability of bootstrapping methods when sample sizes are less than <i>n </i>= 20. Figure <link href="#jane12382-fig-0001"/> also presents an alternative non‐bootstrapping method especially designed for calculating the confidence interval for the product–moment correlation coefficient. For our example, this Fisher method (Fisher <link href="#jane12382-bib-0011"/>; also the method implemented by the most commonly used <sc>r</sc> function for calculating correlation coefficients <i>cor.test</i>) provides coverage that is closer to the nominal level that any of the bootstrapping methods considered. This occurs because our simulated data are drawn from a bivariate normal distribution; for other distributions, bootstrapping might well be superior to the Fisher method. It should also be remembered that even for large sample sizes, there are some statistics for which bootstrapping does not provide a reliable way of estimating a confidence interval. Andrews (<link href="#jane12382-bib-0001"/>) provides a list of examples. These generally have in common estimation of a value that is on or near the boundary of allowed values, for example a situation where the true value of the statistic concerned is zero or very close to zero, but negative values are impossible. If estimating confidence intervals in such a situation, or if estimated bootstrap intervals appear odd, then Andrews (<link href="#jane12382-bib-0001"/>) offers advice on alternative techniques.</p>
+</section>
+<section type="acknowledgments" xml:id="jane12382-sec-0013">
+<title type="main">Acknowledgement</title>
+<p>We thank Matthew Spencer and another anonymous reviewer for very helpful comments.</p>
+</section>
+<section type="acknowledgments" xml:id="jane12382-sec-0014">
+<title type="main">Data accessibility</title>
+<p>The <sc>r</sc> code used to generate our results is available from the Dryad Digital Repository <url href="http://dx.doi.org/10.5061/dryad.r390f">http://dx.doi.org/10.5061/dryad.r390f</url> (Puth, Neuhäuser &amp; Ruxton <link href="#jane12382-bib-0014"/>).</p>
+</section>
+<bibliography cited="yes" style="nameDate" xml:id="jane12382-bibl-0001">
+<title type="main">References</title>
+<bib xml:id="jane12382-bib-0001">
+<citation type="journal" xml:id="jane12382-cit-0001"><author><familyName>Andrews</familyName>, <givenNames>D.W.K.</givenNames></author> (<pubYear year="2000">2000</pubYear>) <articleTitle>Inconsistency of the bootstrap when a parameter is on the boundary of the parameter space</articleTitle>. <journalTitle>Econometrica</journalTitle>, <vol>68</vol>, <pageFirst>399</pageFirst>–<pageLast>405</pageLast>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0002">
+<citation type="journal" xml:id="jane12382-cit-0002"><author><familyName>Berry</familyName>, <givenNames>K.</givenNames></author> &amp; <author><familyName>Mielke</familyName>, <givenNames>P.</givenNames></author> (<pubYear year="2000">2000</pubYear>) <articleTitle>A Monte Carlo investigation of the Fisher Z transformation for normal and nonnormal distributions</articleTitle>. <journalTitle>Psychological Reports</journalTitle>, <vol>87</vol>, <pageFirst>1101</pageFirst>–<pageLast>1114</pageLast>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0500">
+<citation type="journal" xml:id="jane12382-cit-0500"><author><familyName>Carpenter</familyName>, <givenNames>J.</givenNames></author> &amp; <author><familyName>Bithell</familyName>, <givenNames>J.</givenNames></author> (<pubYear year="2000">2000</pubYear>) <articleTitle>Bootstrap confidence intervals: when, which, what? A practical guide for medical statisticians</articleTitle>. <journalTitle>Statistics in Medicine</journalTitle>, <vol>19</vol>, <pageFirst>1141</pageFirst>–<pageLast>1164</pageLast>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0005">
+<citation type="journal" xml:id="jane12382-cit-0005"><author><familyName>Chernick</familyName>, <givenNames>M.R.</givenNames></author> &amp; <author><familyName>LaBudde</familyName>, <givenNames>L.A.</givenNames></author> (<pubYear year="2010">2010</pubYear>) <articleTitle>Revisiting qualms about bootstrap confidence intervals</articleTitle>. <journalTitle>American Journal of Mathematical and Management Sciences</journalTitle>, <vol>29</vol>, <pageFirst>437</pageFirst>–<pageLast>456</pageLast>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0006">
+<citation type="book" xml:id="jane12382-cit-0006"><author><familyName>Chernick</familyName>, <givenNames>M.R.</givenNames></author> &amp; <author><familyName>LaBudde</familyName>, <givenNames>L.A.</givenNames></author> (<pubYear year="2011">2011</pubYear>) <bookTitle>Bootstrap Methods with Applications to R</bookTitle>. <publisherName>Wiley</publisherName>, <publisherLoc>New York</publisherLoc>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0007">
+<citation type="book" xml:id="jane12382-cit-0007"><author><familyName>Crawley</familyName>, <givenNames>M.J.</givenNames></author> (<pubYear year="2007">2007</pubYear>) <bookTitle>The R Book</bookTitle>. <publisherName>Wiley</publisherName>, <publisherLoc>New York</publisherLoc>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0008">
+<citation type="book" xml:id="jane12382-cit-0008"><author><familyName>Davison</familyName>, <givenNames>A.C.</givenNames></author> &amp; <author><familyName>Hinkley</familyName>, <givenNames>D.V.</givenNames></author> (<pubYear year="1997">1997</pubYear>) <bookTitle>Bootstrap Methods and Their Application</bookTitle>. <publisherName>Cambridge University Press</publisherName>, <publisherLoc>Cambridge</publisherLoc>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0009">
+<citation type="journal" xml:id="jane12382-cit-0009"><author><familyName>DiCiccio</familyName>, <givenNames>T.J.</givenNames></author> &amp; <author><familyName>Efron</familyName>, <givenNames>B.</givenNames></author> (<pubYear year="1996">1996</pubYear>) <articleTitle>Bootstrap confidence intervals (with discussion)</articleTitle>. <journalTitle>Statistical Science</journalTitle>, <vol>11</vol>, <pageFirst>189</pageFirst>–<pageLast>228</pageLast>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0504">
+<citation type="journal" xml:id="jane12382-cit-0504"><author><familyName>Efron</familyName>, <givenNames>B.</givenNames></author> (<pubYear year="1987">1987</pubYear>) <articleTitle>Better bootstrapping confidence intervals (with discussion)</articleTitle>. <journalTitle>Journal of the American Statistical Society</journalTitle>, <vol>82</vol>, <pageFirst>171</pageFirst>–<pageLast>200</pageLast>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0010">
+<citation type="book" xml:id="jane12382-cit-0010"><author><familyName>Efron</familyName>, <givenNames>B.</givenNames></author> &amp; <author><familyName>Tibshirani</familyName>, <givenNames>R.J.</givenNames></author> (<pubYear year="1993">1993</pubYear>) <bookTitle>An Introduction to the Bootstrap</bookTitle>. <publisherName>Chapman &amp; Hall</publisherName>, <publisherLoc>New York</publisherLoc>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0011">
+<citation type="journal" xml:id="jane12382-cit-0011"><author><familyName>Fisher</familyName>, <givenNames>R.A.</givenNames></author> (<pubYear year="1921">1921</pubYear>) <articleTitle>On the probable error of a coefficient of correlation deduced from a small sample</articleTitle>. <journalTitle>Metron</journalTitle>, <vol>1</vol>, <pageFirst>3</pageFirst>–<pageLast>32</pageLast>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0012">
+<citation type="journal" xml:id="jane12382-cit-0012"><author><familyName>Karavarsamis</familyName>, <givenNames>N.</givenNames></author>, <author><familyName>Robinson</familyName>, <givenNames>A.P.</givenNames></author>, <author><familyName>Hepworth</familyName>, <givenNames>G.</givenNames></author>, <author><familyName>Hamilton</familyName>, <givenNames>A.J.</givenNames></author> &amp; <author><familyName>Heard</familyName>, <givenNames>G.W.</givenNames></author> (<pubYear year="2013">2013</pubYear>) <articleTitle>Comparison of four bootstrap‐based interval estimators of species occupancy and detection probabilities</articleTitle>. <journalTitle>Australian &amp; New Zealand Journal of Statistics</journalTitle>, <vol>55</vol>, <pageFirst>235</pageFirst>–<pageLast>252</pageLast>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0013">
+<citation type="book" xml:id="jane12382-cit-0013"><author><familyName>Manly</familyName>, <givenNames>B.F.J.</givenNames></author> (<pubYear year="2007">2007</pubYear>) <bookTitle>Randomisation, Bootstrap and Monte Carlo Methods in Biology</bookTitle>, <edition number="3">3rd edn</edition>. <publisherName>Chapman &amp; Hall</publisherName>, <publisherLoc>New York</publisherLoc>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0014">
+<citation type="journal" xml:id="jane12382-cit-0014"><author><familyName>Puth</familyName>, <givenNames>M.‐T.</givenNames></author>, <author><familyName>Neuhäuser</familyName>, <givenNames>M.</givenNames></author> &amp; <author><familyName>Ruxton</familyName>, <givenNames>G.D.</givenNames></author> (<pubYear year="2015">2015</pubYear>) <articleTitle>Data from: On the variety of methods for calculating confidence intervals by bootstrapping</articleTitle>. <journalTitle>Dryad Digital Repository</journalTitle>, doi:<accessionId ref="info:doi/10.5061/dryad.r390f">10.5061/dryad.r390f</accessionId>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0015">
+<citation type="journal" xml:id="jane12382-cit-0015"><author><familyName>Ruxton</familyName>, <givenNames>G.D.</givenNames></author> &amp; <author><familyName>Neuhäuser</familyName>, <givenNames>M.</givenNames></author> (<pubYear year="2013">2013</pubYear>) <articleTitle>Improving the reporting of <i>P</i>‐values by randomisation methods</articleTitle>. <journalTitle>Methods in Ecology &amp; Evolution</journalTitle>, <vol>4</vol>, <pageFirst>1033</pageFirst>–<pageLast>1036</pageLast>.</citation>
+</bib>
+<bib xml:id="jane12382-bib-0016">
+<citation type="journal" xml:id="jane12382-cit-0016"><author><familyName>Taborsky</familyName>, <givenNames>M.</givenNames></author> (<pubYear year="2010">2010</pubYear>) <articleTitle>Sample size in the study of behaviour</articleTitle>. <journalTitle>Ethology</journalTitle>, <vol>116</vol>, <pageFirst>185</pageFirst>–<pageLast>202</pageLast>.</citation>
+</bib>
+</bibliography>
+</body>
+</component>

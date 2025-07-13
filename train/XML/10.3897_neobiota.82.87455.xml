@@ -1,0 +1,2349 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Genetic analyses reveal a complex introduction history of the globally invasive tree Acacia longifolia</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2023-02-21">21 February 2023</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">Sara</forename><surname>Vicente</surname></persname>
+<email>sarafvicente@gmail.com</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Centro de Estudos do Ambiente e do Mar (CESAM), Faculdade de Ciências da Universidade de Lisboa, Campo Grande 1749-016, Lisboa, Portugal</note>
+<orgname key="dep1" type="department">Centro de Estudos do Ambiente e do Mar (CESAM)</orgname>
+<orgname key="dep2" type="department">Faculdade de Ciências da</orgname>
+<orgname type="institution">Universidade de Lisboa</orgname>
+<address>
+<addrline>Campo Grande 1749-016</addrline>
+<settlement>Lisboa</settlement>
+<country key="PT">Portugal</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Centre for Ecology, Evolution and Environmental Changes (cE3c) &amp; CHANGE -Global Change and Sustainability Institute, Faculdade de Ciências da Universidade de Lisboa, Campo Grande 1749-016, Lisboa, Portugal</note>
+<orgname type="department">Faculdade de Ciências da</orgname>
+<orgname type="laboratory">Centre for Ecology, Evolution and Environmental Changes (cE3c) &amp; CHANGE -Global Change and Sustainability Institute</orgname>
+<orgname type="institution">Universidade de Lisboa</orgname>
+<address>
+<addrline>Campo Grande 1749-016</addrline>
+<settlement>Lisboa</settlement>
+<country key="PT">Portugal</country>
+</address>
+</affiliation>
+<affiliation key="aff2">
+<note type="raw_affiliation"> School of Natural Sciences, Macquarie University, Sydney, NSW, Australia</note>
+<orgname type="department">School of Natural Sciences</orgname>
+<orgname type="institution">Macquarie University</orgname>
+<address>
+<settlement>Sydney</settlement>
+<region>NSW</region>
+<country key="AU">Australia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Helena</forename><surname>Trindade</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Centre for Ecology, Evolution and Environmental Changes (cE3c) &amp; CHANGE -Global Change and Sustainability Institute, Faculdade de Ciências da Universidade de Lisboa, Campo Grande 1749-016, Lisboa, Portugal</note>
+<orgname type="department">Faculdade de Ciências da</orgname>
+<orgname type="laboratory">Centre for Ecology, Evolution and Environmental Changes (cE3c) &amp; CHANGE -Global Change and Sustainability Institute</orgname>
+<orgname type="institution">Universidade de Lisboa</orgname>
+<address>
+<addrline>Campo Grande 1749-016</addrline>
+<settlement>Lisboa</settlement>
+<country key="PT">Portugal</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Cristina</forename><surname>Máguas</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Centre for Ecology, Evolution and Environmental Changes (cE3c) &amp; CHANGE -Global Change and Sustainability Institute, Faculdade de Ciências da Universidade de Lisboa, Campo Grande 1749-016, Lisboa, Portugal</note>
+<orgname type="department">Faculdade de Ciências da</orgname>
+<orgname type="laboratory">Centre for Ecology, Evolution and Environmental Changes (cE3c) &amp; CHANGE -Global Change and Sustainability Institute</orgname>
+<orgname type="institution">Universidade de Lisboa</orgname>
+<address>
+<addrline>Campo Grande 1749-016</addrline>
+<settlement>Lisboa</settlement>
+<country key="PT">Portugal</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Johannes</forename><forename type="middle">J</forename><surname>Le Roux</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> School of Natural Sciences, Macquarie University, Sydney, NSW, Australia</note>
+<orgname type="department">School of Natural Sciences</orgname>
+<orgname type="institution">Macquarie University</orgname>
+<address>
+<settlement>Sydney</settlement>
+<region>NSW</region>
+<country key="AU">Australia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Robert</forename><surname>Colautti</surname></persname>
+</author>
+<title level="a" type="main">Genetic analyses reveal a complex introduction history of the globally invasive tree Acacia longifolia</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2023-02-21">21 February 2023</date>
+</imprint>
+</monogr>
+<idno type="MD5">95A90CF3A771508C39971D6151F557A0</idno>
+<idno type="DOI">10.3897/neobiota.82.87455</idno>
+<note type="submission">Received 6 June 2022 | Accepted 4 January 2023 |</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-08-14T21:43+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>Australian acacias</term>
+<term>genetic diversity</term>
+<term>haplotypes</term>
+<term>introduction history</term>
+<term>microsatellite markers</term>
+<term>multiple introductions</term>
+<term>population structure</term>
+<term>propagule pressure</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Acacia longifolia (Sydney golden wattle) is considered one of the most problematic plant invaders in Mediterranean-type ecosystems.</s><s>In this study, we investigate the species' invasion history by comparing the genetic diversity and structure of native (Australia) and several invasive range (Brazil, Portugal, South Africa, Spain, and Uruguay) populations and by modelling different introduction scenarios using these data.</s><s>We sampled 272 A. longifolia individuals -126 from different invasive ranges and 146 from the native range -from 41 populations.</s><s>We genotyped all individuals at four chloroplast and 12 nuclear microsatellite markers.</s><s>From these data we calculated diversity metrics, identified chloroplast haplotypes, and estimated population genetic structure based on Bayesian assignment tests.</s><s>We used Approximate Bayesian Computation (ABC) models to infer the likely introduction history into each invaded country.</s><s>In Australia, population genetic structure of A. longifolia appears to be strongly shaped by the Bass Strait and we identified two genetic clusters largely corresponding to mainland Australian and Tasmanian populations.</s><s>We found invasive populations to represent a mixture of these clusters.</s><s>Similar levels of genetic diversity were present in native and invasive ranges, indicating that invasive populations did not go through a genetic bottleneck.</s><s>Bayesian assignment tests and chloroplast haplotype frequencies further suggested a secondary introduction event between South Africa and Portugal.</s><s>However, ABC analyses could not confidently identify the native source(s) of invasive populations in these two countries, probably due to the known high propagule pressure that accompanied these introductions.</s><s>ABC analyses identified Tasmania as the likely source of invasive populations in Brazil and Uruguay.</s><s>A definitive native source for Spanish populations could also not be identified.</s><s>This study shows that tracing the introduction history of</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Australian acacias (genus Acacia Mill.) are considered some of the world's most problematic plant invaders <ref type="bibr">(Richardson et al. 2011)</ref>.</s><s>At least 25 species are known to be invasive <ref target="#b63" type="bibr">(Richardson et al. 2015;</ref><ref target="#b44" type="bibr">Magona et al. 2018)</ref> and are amongst some of the best studied taxa in invasion biology <ref type="bibr">(Richardson et al. 2011</ref>).</s><s>Acacia species have been introduced worldwide for several purposes, such as land reclamation, tannin production and as ornamental plants <ref target="#b23" type="bibr">(Griffin et al. 2011</ref>).</s><s>These introductions frequently involved high propagule pressure (i.e., the number and size of introduction events), exemplified by invasive populations that often have high levels of genetic diversity and that experience no molecular inbreeding <ref target="#b73" type="bibr">(Vicente et al. 2021)</ref>.</s></p><p><s>Knowledge of the introduction history of invasive species may aid their management, such as biological control <ref target="#b31" type="bibr">(Jourdan et al. 2019)</ref>.</s><s>For example, the earleaf acacia, Acacia auriculiformis, is considered highly invasive in Florida, USA <ref target="#b36" type="bibr">(Kull et al. 2008;</ref><ref target="#b61" type="bibr">Richardson and Rejmánek 2011;</ref><ref target="#b49" type="bibr">McCulloch et al. 2021)</ref>.</s><s>In its native range, the species shows deep phylogenomic divergence between northern Queensland and the Northern Territory in Australia, and Papua New Guinea <ref target="#b49" type="bibr">(McCulloch et al. 2021)</ref>.</s><s>This deep genetic divergence is mirrored in populations of some herbivorous insects feeding on A. auriculiformis, such as the specialist leaf-feeding beetle, Calomela intemerata <ref target="#b51" type="bibr">(Nawaz et al. 2021)</ref>.</s><s>This holds important implications for the utility of this insect as a potential biocontrol agent for A. auriculiformis.</s><s>For example, genomic analyses identified the Northern Territory as the source of invasive populations of the wattle in Florida <ref target="#b49" type="bibr">(McCulloch et al. 2021</ref>) and, therefore, Calomela intemerata from this part of Australia may be particularly well-suited for biocontrol release in this invaded region.</s></p><p><s>Molecular studies have been instrumental in disentangling the introduction histories of invasive species (Le Roux 2021).</s><s>For example, genetic studies allow researchers to trace the routes of, and estimate the propagule pressure that founded, invasions <ref target="#b74" type="bibr">(Wardill et al. 2005;</ref><ref target="#b59" type="bibr">Pyšek et al. 2013)</ref>.</s><s>Invasive Australian acacias have been particularly well-studied in this regard (e.g., <ref target="#b67" type="bibr">Thompson et al. 2012</ref><ref target="#b68" type="bibr">Thompson et al. , 2015;;</ref><ref target="#b39" type="bibr">Le Roux et al. 2013;</ref><ref target="#b52" type="bibr">Ndlovu et al. 2013;</ref><ref target="#b71" type="bibr">Vicente et al. 2018;</ref><ref target="#b28" type="bibr">Hirsch et al. 2019</ref><ref target="#b29" type="bibr">Hirsch et al. , 2021))</ref>.</s><s>For instance, the Acacia saligna species complex (also known as Coojong) comprises three distinct genetic lineages (ssp.</s><s>lindleyi, ssp.</s><s>stolonifera, and ssp.</s><s>salinga and pruinescens; <ref target="#b50" type="bibr">Millar et al. 2011)</ref> with different distributions in Australia <ref target="#b66" type="bibr">(Thompson et al. 2011)</ref>.</s><s>This species was introduced into South Africa in 1833 <ref target="#b57" type="bibr">(Poynton 2009)</ref>, Portugal in 1869 <ref target="#b68" type="bibr">(Thompson et al. 2015)</ref>, Libya and Ethiopia in 1870 <ref target="#b23" type="bibr">(Griffin et al. 2011</ref><ref type="bibr">), and Israel in 1920</ref><ref target="#b37" type="bibr">(Kull et al. 2011)</ref>.</s><s>It was also introduced into countries such as Italy and the USA (California), where introduction dates are unknown <ref target="#b68" type="bibr">(Thompson et al. 2015)</ref>.</s><s>Using genetic data, <ref target="#b67" type="bibr">Thompson et al. (2012</ref><ref target="#b68" type="bibr">Thompson et al. ( , 2015) )</ref> found that all lineages have been introduced outside Australia and that extensive admixture is occurring in some invaded ranges.</s><s>However, in South Africa a novel genetic lineage (which likely originated from an introgressive hybridisation event) was identified <ref target="#b67" type="bibr">(Thompson et al. 2012)</ref>.</s><s>This lineage was subsequently identified in Italy and Portugal <ref target="#b68" type="bibr">(Thompson et al. 2015)</ref>.</s><s>Acacia pycnantha, also known as the Golden wattle, is a species native to eastern and southern Australian that has two recognised ecotypes, the so-called wetland and dryland forms <ref target="#b52" type="bibr">(Ndlovu et al. 2013</ref>).</s><s>This species was introduced into South Africa in 1865 and again in 1890 and is now considered highly invasive in the country <ref target="#b57" type="bibr">(Poynton 2009)</ref>.</s><s>The species also has invasive populations in Portugal and Western Australia <ref target="#b61" type="bibr">(Richardson and Rejmánek 2011;</ref><ref target="#b52" type="bibr">Ndlovu et al. 2013)</ref>.</s><s>In Australia, Le <ref target="#b39" type="bibr">Roux et al. (2013)</ref> identified admixture between the two ecotypes, probably because of the extensive movement of seeds/plants for restoration.</s><s>Invasive populations in South Africa have similar levels of genetic diversity and admixture to native range populations (Le <ref target="#b39" type="bibr">Roux et al. 2013)</ref>.</s></p><p><s>Acacia longifolia (Andrews) Willd. is native to south-eastern Australia and Tasmania, with two formally described subspecies: A. l. ssp.</s><s>longifolia and A. l. ssp.</s><s>sophorae (Flora of Australia Volume 11B, Mimosaceae, Acacia part 2 2001).</s><s>These subspecies are distinguished by phyllode shape, size and colour, and seed pod shape.</s><s>They also have slightly different, but mostly overlapping, distributions in Australia (Flora of Australia Volume 11B, Mimosaceae, Acacia part 2 2001).</s><s>This species has been introduced into several countries as an ornamental tree and for coastal dune stabilisation and is now considered one of the worst plant invaders in many Mediterranean regions.</s><s>Acacia longifolia was initially introduced into South Africa in 1827.</s><s>Subsequent introductions occurred in 1845 (from Australia) and between 1895 and 1908 (secondarily from Paris and California, and the Botanical Gardens of Adelaide; Poynton 2009).</s><s>In 1984, A. longifolia was considered the second most impactful invader of the country's hyperdiverse fynbos biome <ref target="#b43" type="bibr">(Macdonald and Jarman 1984;</ref><ref target="#b11" type="bibr">Dennill 1987</ref><ref type="bibr">). Between 1982</ref><ref type="bibr">and 1983</ref>, the Australian gall-forming wasp, Trichilogaster acaciaelongifoliae, was introduced from Australia to control the species <ref target="#b10" type="bibr">(Dennill 1985</ref><ref target="#b11" type="bibr">(Dennill , 1987;;</ref><ref target="#b53" type="bibr">Neser 1985)</ref>.</s><s>This biocontrol agent is considered highly successful (Janion-Scheepers and Griffiths 2020).</s></p><p><s>In Portugal, specimens of A. longifolia were recorded in the catalogue of the University of Coimbra's Botanical Gardens in 1878 <ref target="#b24" type="bibr">(Henriques 1879)</ref>.</s><s>However, the first official introduction record of the species into Portugal likely dates to 1897 <ref target="#b18" type="bibr">(Fernandes 2008;</ref><ref target="#b6" type="bibr">Carruthers et al. 2011;</ref><ref target="#b37" type="bibr">Kull et al. 2011)</ref>.</s><s>Irrespective of when the species was introduced, the origins of these introduction(s) remain unknown.</s><s>The species was used by forestry services in several coastal afforestation projects over the years.</s><s>A few examples are the dunes in São Jacinto <ref type="bibr">(1888</ref><ref type="bibr">-1929;</ref><ref target="#b46" type="bibr">Marchante 2011</ref><ref type="bibr">), Costa da Caparica (1906;</ref><ref target="#b42" type="bibr">Lourenço 2009</ref><ref type="bibr">), Quiaios-Mira (1924</ref><ref type="bibr">and 1948;</ref><ref target="#b60" type="bibr">Rei 1925;</ref><ref target="#b45" type="bibr">Marchante 2001</ref><ref type="bibr">, 2011), and Vila Nova de Milfontes [late 1960s/early 1970s;</ref><ref type="bibr">Miguel Prado, personal communication, but see Vicente (2016)</ref>; <ref target="#b71" type="bibr">Vicente et al. (2018)</ref>].</s><s>A molecular study including three invasive populations from Portugal found similar genetic diversity and very low differentiation among them, which led to the hypothesis that the introduction of the species into Portugal involved a single seed source that was used to establish nursery stock, and these plants were then disseminated for afforestation projects <ref target="#b71" type="bibr">(Vicente et al. 2018)</ref>.</s><s>However, the introduction records mentioned above suggest a more complex introduction history of the species into Portugal.</s><s>The invasion success of A. longifolia in Portugal has led to the biological control release of Trichilogaster acaciaelongifoliae, imported from South Africa <ref target="#b47" type="bibr">(Marchante et al. 2011)</ref>.</s><s>The wasp has successfully established along the Portuguese coast <ref target="#b41" type="bibr">(López-Núñez et al. 2021)</ref>.</s></p><p><s>In South America the introduction of A. longifolia occurred much more recently, in mid-20 th century, into southern Brazil (Rico-Arce 2007; Zenni and Ziller 2011), Uruguay <ref target="#b4" type="bibr">(Boelcke 1946;</ref><ref target="#b64" type="bibr">Rico-Arce 2007)</ref> and Argentina <ref target="#b4" type="bibr">(Boelcke 1946;</ref><ref target="#b7" type="bibr">Celsi 2016)</ref>.</s><s>In Uruguay the first record for this species dates to 1946 <ref target="#b4" type="bibr">(Boelcke 1946)</ref>, and in Brazil the first official record of the species is from 1979 in Santa Catarina <ref target="#b5" type="bibr">(Burkart 1979)</ref>.</s><s>There are also several observational records for the species in other states of Brazil, Argentina, and Uruguay (e.g., Base de dados de espécies exóticas invasoras do Brasil, http:// bd.institutohorus.org.br;</s><s>Tropicos.org,</s><s>http://www.tropicos.org/Name/13024183).</s><s>No biological control agents have been released into South America and no information is available on the origins of A. longifolia introductions to the continent.</s></p><p><s>Here we compare the population genetic diversity and structure of native and globally invasive populations of A. longifolia.</s><s>We also aim to infer the introduction histories of the species into Brazil, Portugal, South Africa, Spain, and Uruguay using Approximate Bayesian Computation (ABC) modelling.</s><s>Based on available historical records and the results from molecular studies of invasive acacias mentioned above, we hypothesised that the genetic diversity in invasive populations will be comparable to that of Australian populations, but with low population genetic structure.</s><s>Regarding introduction scenarios, we hypothesised that Portuguese A. longifolia populations originated from a single introduction event from Australia, whereas in South Africa, we expected our modelling results to support the known multiple and independent introductions of the species into the country <ref target="#b57" type="bibr">(Poynton 2009)</ref>.</s><s>We thus hypothesised that this invasion would be characterised by high levels of genetic admixture.</s><s>We had no clear prediction for the introduction history of A. longifolia in South America given the scarcity of historical information for the region.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Methods</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Collection of Plant Material and DNA Extraction<p><s>Phyllodes of Acacia longifolia were collected from individual plants in several invasive [Portugal, POR; Spain -Galicia, ESP; South Africa, RSA; Brazil, BRA <ref target="#b72" type="bibr">(Vicente et al. 2020)</ref>; and Uruguay, URU] and native (mainland southeast Australia, AUS; and Tasmania, TAS) range populations.</s><s>Within each country we sampled more than one popula-tion where possible (see Table <ref target="#tab_0" type="table">1</ref>).</s><s>In Portugal, individuals from Vila Nova de Milfontes (VNMF), Pinheiro da Cruz (PC) and two individuals from Osso da Baleia (included in the Mira population) were previously sampled by <ref target="#b71" type="bibr">Vicente et al. (2018)</ref>.</s><s>In Australia, additional material was obtained from seedlings grown from seeds acquired from local nurseries.</s><s>In total, 272 individuals were included in our analyses (Table <ref target="#tab_0" type="table">1</ref>, Fig. <ref target="#fig_0" type="figure">1A</ref>), 126 from invaded ranges (Table <ref target="#tab_0" type="table">1A</ref>, Fig. <ref target="#fig_0" type="figure">1B-D</ref>) and 146 from Australia (Table <ref target="#tab_0" type="table">1B</ref>, Fig. <ref target="#fig_1" type="figure">2</ref>).</s></p><p><s>DNA was extracted using the method of <ref target="#b12" type="bibr">Doyle and Doyle (1987)</ref>, as modified by <ref target="#b76" type="bibr">Weising et al. (1994)</ref> and adapted for A. longifolia by <ref target="#b71" type="bibr">Vicente et al. (2018)</ref>.</s><s>DNA was quantified using spectrophotometry.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Microsatellite amplification and genotyping<p><s>Ten chloroplast microsatellite loci (cpSSRs; ccmp1-10) described by <ref target="#b75" type="bibr">Weising and Gardner (1999)</ref> were tested for cross-amplification in A. longifolia (Suppl.</s><s>material 1: table <ref target="#tab_0" type="table">S1</ref>).</s><s>For these cross-amplification tests, we first used the PCR conditions described by <ref target="#b75" type="bibr">Weising and Gardner (1999)</ref> and, when needed, adjusted MgCl 2 concentrations between 1.5 mM to 2.5 mM and annealing temperatures between 50 °C to 52 °C to optimise amplifications of individual loci.</s><s>Loci were selected based on visualisation of PCR products on 2% agarose gels.</s><s>Four loci (ccmp3, 4, 5 and 7) consistently yielded high quality amplicons and were selected for amplification in all samples.</s><s>Details of PCR primers can be found in Suppl.</s><s>material 1: table <ref target="#tab_1" type="table">S2</ref>.</s><s>For cpSSRs each 15 μL reaction contained 20ng DNA, 2.5 mM MgCl 2 , 0.2 mM dNTP mix (Promega, USA), 0.5 μM fluorescently labelled (with either 6-FAM or HEX) forward primer and 0.5 μM reverse primer (STAB Vida, Portugal), 1 U of GoTaq Flexi DNA polymerase and 1× colourless GoTaq Flexi buffer (Promega, USA).</s><s>The following thermal cycle was used: initial denaturation at 94 °C for 5 min, followed by 40 cycles of 1 min at 94 °C, 1 min at 52 °C and 1 min at 72 °C, with a final extension period of 8 min at 72 °C.</s><s>As a routine procedure, each reaction included a negative control that did not include DNA and at least 10% of repeated samples that were run in a 2% agarose gel to confirm amplification before fragment analysis.</s></p><p><s>We searched the literature for studies that have developed nuclear microsatellites (nSSRs) in Acacia species.</s><s>We also tested primers that we designed for A. cyclops <ref type="bibr">(unpublished data)</ref>.</s><s>This led to a total of 32 primer pairs that were screened for crossamplification in A. longifolia (Suppl.</s><s>material 1: table <ref target="#tab_0" type="table">S1</ref>).</s><s>For optimisation, MgCl 2 concentrations were varied between 1.5 mM and 2.5 mM, annealing temperature between 52 °C and 60 °C, extension times between 15s and 30s, and primer concentrations between 0.1 μM and 0.2 μM.</s><s>Loci were selected based on visualisation of PCR amplification products on 2% agarose gels.</s><s>Eleven nSSR loci were retained for amplification in our samples.</s><s>Primers for locus DCLOC <ref target="#b65" type="bibr">(Roberts et al. 2013)</ref> were previously optimised for analysis in A. longifolia by <ref target="#b71" type="bibr">Vicente et al. (2018)</ref> and were also included in this study.</s><s>Genotyping data for this locus for samples from Vila Nova de Milfontes (VNMF), Pinheiro da Cruz (PC) and two samples from Osso da Baleia (included in the Mira population) were obtained from <ref target="#b71" type="bibr">Vicente et al. (2018)</ref> and incorporated into  the dataset generated in this study.</s><s>Thus, in total, 12 nSSR loci were analysed in this study (see Suppl.</s><s>material 1: table S2 for further details).</s><s>PCRs of nSSR loci were performed in 15 μL reaction volumes, each containing 10 ng DNA, 1.5-2.5 mM of MgCl 2 depending on primers used (Suppl.</s><s>material 1: table <ref target="#tab_1" type="table">S2</ref>), 0.2 mM dNTP mix (Promega, USA), 0.2 μM primer forward labelled with a fluorescent dye (either 6-FAM, HEX or ATTO-550), 0.2 μM reverse primer (STAB Vida, Portugal), 1 U of GoTaq Flexi DNA polymerase and 1× colourless GoTaq Flexi buffer (Promega, USA).</s><s>The PCR cycle consisted of an initial denaturation at 95 °C for 5 min, followed by 40 cycles of 30 sec at 94 °C, 1 min at the annealing temperature optimised for each primer pair (Suppl.</s><s>material 1: table <ref target="#tab_1" type="table">S2</ref>), and 30 sec at 72 °C, with a final extension period of 7 min at 72 °C.</s><s>For the two primer pairs, Division/Bell and The/Wall, extension time was reduced to 15 s.</s><s>Positive and negative controls were included in each reaction, as explained above.</s><s>Fragments for all loci were separated on an Applied Biosystems 3100 Series System with the Dye Set DS-30 (internal standard ROX) by STAB Vida (Portugal) and scored using Peak Scanner in the ThermoFisher AppConnect online software portal (ThermoFisher Scientific, USA).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Population genetic diversity and structure<p><s>Haplotypes were identified based on the combination of alleles across all cpSSR loci/ individual (see Results section).</s><s>The number of different alleles (N a ), number of effective alleles (N e ), Shannon's Information Index (I), and haplotype diversity (h) were calculated using GenAlEx v6.5 <ref type="bibr">(Peakall and</ref><ref type="bibr">Smouse 2006, 2012)</ref>.</s><s>The Network v10.2 software (www.fluxus-engineering.com) was used to draw a median-joining (MJ; <ref target="#b2" type="bibr">Bandelt et al. 1999</ref>) haplotype network.</s></p><p><s>Micro-Checker v2.2 <ref target="#b69" type="bibr">(Van Oosterhout et al. 2004</ref>) was used to check for scoring errors and large allele dropouts in our nSSR genotype dataset.</s><s>This software was also used to generate a dataset that has been corrected for null alleles, using the Oosterhout algorithm with 95% confidence intervals <ref target="#b69" type="bibr">(Van Oosterhout et al. 2004)</ref>.</s><s>Expected heterozygosity (H E ), observed heterozygosity (H O ), allelic richness (A r ), and inbreeding coefficients (F IS ) were calculated for the corrected and uncorrected genotype datasets using the diveRsity R package <ref target="#b32" type="bibr">(Keenan et al. 2013</ref>).</s><s>These metrics were compared between datasets using the independent 2-group Mann-Whitney U test in R environment (R Core Team 2016) to check if the presence of null alleles affected our results.</s><s>The mean frequency of null alleles across all loci and populations was calculated with the FreeNA software <ref target="#b8" type="bibr">(Chapuis and Estoup 2007)</ref>, as well as the ENA-corrected (i.e., excluding null alleles; ENA method, Chapuis and Estoup 2007) and uncorrected global (i.e., at each locus and population) and pairwise population fixation indices (F ST ).</s><s>To further check for the effects of null alleles on our analyses, statistical differences between the ENA-corrected and uncorrected global and pairwise F ST values were tested using the independent 2-group Mann-Whitney U test in R environment (R Core Team 2016).</s><s>Since null alleles had an overall low mean frequency and did not significantly affect any of the calculated metrics (see Results), no correction for null alleles was applied and all further analyses were performed using the uncorrected nSSR genotype dataset.</s><s>Allele frequency departures from Hardy-Weinberg equilibrium (HWE) for all loci were tested using GenAlEx v6.5 <ref type="bibr">(Peakall and</ref><ref type="bibr">Smouse 2006, 2012)</ref>.</s></p><p><s>The four descriptive population diversity metrics mentioned above (H E , H O , A r , and F IS ) were compared among countries using a Kruskal-Wallis rank sum test in R environment (R Core Team 2016).</s><s>In this analysis, individuals from Spain were excluded as only two populations were sampled in this country.</s><s>Instead, the analysis was repeated by grouping the samples from Spain with the ones from Portugal (i.e., Iberian Peninsula; IBP).</s></p><p><s>Bayesian assignment tests were performed using the STRUCTURE v2.3.4 program <ref target="#b58" type="bibr">(Pritchard et al. 2000)</ref> to investigate the genetic structure of the native and invasive A. longifolia populations.</s><s>An admixture model with correlated allele frequencies was used to test for the number of genetic clusters (K), ranging from 1 to 15, with 100,000 burn-in iterations, 250,000 Markov Chain Monte Carlo repetitions (MCMC), and 15 iterations per K value.</s><s>We then performed a hierarchical analysis by removing samples belonging to the smallest genetic cluster identified by this analysis (13 samples belonging to Portugal and South Africa; see Results) to infer structure among the remaining populations.</s><s>We repeated this analysis with the same conditions as above, but with K ranging from 1 to 10.</s><s>For all STRUCTURE analyses the optimum number of genetic clusters was evaluated in STRUCTURE HARVESTER web v0.6.94 <ref target="#b14" type="bibr">(Earl and vonHoldt 2012</ref>) by applying the delta K method of <ref target="#b17" type="bibr">Evanno et al. (2005)</ref> and also analysing the likelihood distributions [LnP(K)].</s><s>Graphical visualisations of these results were obtained using the CLUMPAK server main pipeline <ref target="#b34" type="bibr">(Kopelman et al. 2015)</ref>.</s></p><p><s>To better understand population structure within the native range, we also ran a separate STRUCTURE analysis that included data from native range individuals only, with K ranging from 1 to 10, implementing an admixture model with correlated allele frequencies using 10,000 burn-in iterations, 50,000 MCMC repetitions, and 10 iterations per K value.</s><s>The optimum number of genetic clusters and the graphical visualisation of the results were obtained as described above.</s><s>This analysis identified K = 2 as the optimum number of genetic clusters, with one cluster predominantly corresponding to mainland Australia and the other predominantly to Tasmanian populations (see Results).</s><s>To check for population genetic substructure within these two identified clusters, ancestry coefficients for each individual were averaged by cluster over the 10 iterations for K = 2, and individuals having a minimum ancestry coefficient cut-off value of 0.7 for their corresponding cluster were selected for further clusterspecific (i.e., mainland Australia or Tasmania) analyses.</s><s>We used the same parameters described above to identify the optimum number of genetic clusters and to graphically visualise these.</s><s>We also tested for Isolation by Distance (IBD) by performing a Mantel test with 9,999 permutations using the ade4 R package <ref target="#b13" type="bibr">(Dray et al. 2022</ref>) by comparing the linearised pairwise F ST values matrix (i.e., F ST /1-F ST ) with the geographical distance matrix obtained with the Geographic Distance Matrix Generator v1.2.3 software <ref type="bibr">(Ersts 2022)</ref>.</s><s>We compared the mean pairwise F ST values among populations within mainland Australia, populations within Tasmania, and populations from mainland Australia vs Tasmania using a Kruskal-Wallis rank sum test followed by a post-hoc independent 2-group Mann-Whitney U test in R environment (R Core Team 2016).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Inference of invasion sources<p><s>Approximate Bayesian Computations (ABC) were performed in the DIYABC v2.1.0</s><s>software <ref target="#b9" type="bibr">(Cornuet et al. 2014)</ref> to test different invasion scenarios for each invaded country separately.</s><s>In these analyses, we took the two major genetic clusters in the native range identified by the STRUCTURE analysis (see Results) into consideration, i.e., populations from mainland Australia (AUS) and Tasmania (TAS), while invaded populations that were pooled by country.</s><s>All tested scenarios assumed that the AUS and TAS populations diverged from a native ancestral unsampled population, with the following variations: 1) the invasive population originated from the AUS populations; 2) the invasive population originated from the TAS populations; 3) the invasive population originated from an admixed unsampled population resulting from multiple introductions which originated from both AUS and TAS populations; 4) the invasive population originated from multiple introductions ("ghost" unsampled populations) originating from AUS populations; 5) the invasive population originated from multiple introductions ("ghost" unsampled populations) originating from TAS populations; and 6) the invasive population originated from an unknown native population which is related to the AUS and TAS genetic lineages (see Fig. <ref target="#fig_2" type="figure">3</ref>).</s><s>We ran 3 x 10 6 simulations for each scenario for each invaded country.</s><s>We did not consider any genetic bottlenecks in these scenarios, as we found no evidence for their existence (see Results section).</s><s>The summary statistics selected for the models were the following: mean number of alleles, mean genetic diversity, mean allele size variance, mean M index, fixation index (F ST ), mean index of classification, shared allele distance and δμ 2 genetic distance.</s><s>The description of the parameters, their prior distributions, and parameter rules are provided in Suppl.</s><s>material 1: tables S3-S5.</s><s>The priors for time of invasion (t INV ) varied between countries according to the latest year of sample collection and the year of first introduction reported in historical records and literature (see Introduction for details), assuming a generation time of 2-3 years <ref target="#b48" type="bibr">(Maslin and McDonald 2004;</ref><ref target="#b73" type="bibr">Vicente et al. 2021)</ref>.</s><s>For the purposes of this analysis, since there is no available information on a specific introduction year into Spain (Galicia), the year of introduction into Portugal was assumed to coincide with the introduction of A. longifolia into Spain (see Introduction for details).</s><s>This allowed an estimation of the maximum possible number of generations that A. longifolia has been present in each invaded country.</s><s>The posterior probabilities of each scenario were calculated using a logistic approach on the 1% simulated datasets that were closest to the observed dataset.</s><s>For the scenario(s) with the highest probability for each country, the posterior distribution of parameters was estimated using a logit transformation on the 1% simulated datasets that were closest to the observed dataset.</s><s>The precision of these parameters was assessed using the "bias and precision" option on 500 test datasets to estimate the relative median absolute deviation (RMedAD) and means of the median relative bias (MedRB).</s><s>The adequacy of the chosen scenario(s) was assessed using the "model checking" option by simulat- ing 1000 datasets using a logit transformation of parameters, with a different set of summary statistics to avoid overestimating the fit of the model.</s><s>The chosen statistics were the mean number of alleles, mean genetic diversity, mean allele size variance, and δμ 2 genetic distance.</s><s>Type I and Type II errors were also computed for the scenarios(s) with the highest posterior probability using the "confidence in scenario choice" option using a logistic regression and simulating 100 test datasets.</s></p><p><s>Due to the identification of a cluster connecting South Africa and Portugal (see Results section), we also tested 6 scenarios with data from these two countries, that correspond to scenarios 1, 2 and 6 described above with and without a bridgehead between South Africa and Portugal.</s><s>We ran simulations and "model checking" analyses as described above for non-bridgehead scenarios.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Dataset characteristics<p><s>We identified between two and three alleles per cpSSR locus (mean 2.5), ranging between 93-154 bp in size.</s><s>We identified between two and nine alleles per nSSR locus (mean 5.08), ranging between 81 bp to 328 bp in size.</s><s>Scoring errors due to stuttering were found for locus C51M0 (Mira population, POR; Table <ref target="#tab_0" type="table">1A</ref>) and locus AH3-1 (Seven Mile beach population, TAS; Table <ref target="#tab_0" type="table">1B</ref>).</s><s>All loci showed departures from Hardy-Weinberg equilibrium, and within populations some were monomorphic.</s><s>However, mean null allele frequency was low in our dataset (mean = 0.027; SD = 0.073) and ENA-corrected and uncorrected F ST values were not significantly different between null allele-corrected and uncorrected datasets for both global and pairwise estimates (Mann-Whitney U test p &gt; 0.5; Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_0" type="figure">S1</ref>).</s><s>Similarly, population diversity metrics (H E , H O , A r , and F IS ) were not significantly different between the corrected and uncorrected datasets (Mann-Whitney U test p &gt; 0.5; Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_1" type="figure">S2</ref>).</s><s>Therefore, null allele corrections were not considered in all further nSSR analyses.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Population genetic diversity and structure<p><s>Our cpSSR data identified eight unique haplotypes (hereafter haplotypes A-H; Fig. <ref target="#fig_3" type="figure">4A</ref>).</s><s>Haplotype E was the most dominant in invasive ranges, while haplotype D was the most frequent one in the native range.</s><s>Haplotypes B, C and G only occurred in the native range.</s><s>Portugal and South Africa shared one haplotype (A), and also had a unique haplotype each (F and H, respectively).</s><s>Our network analysis found that haplotypes B, D and E were closely related to most other haplotypes (Fig. <ref target="#fig_3" type="figure">4B</ref>).</s><s>The number of different alleles (N a ) ranged from 1 (BRA and ESP) to 2.25 (RSA; Table 2), while the number of effective alleles (N e ) ranged from 1 to 1.659 (similar to Na; Table <ref target="#tab_1" type="table">2</ref>).</s><s>In invaded countries, South African populations had the highest haplotype diversity (h = 0.407, Table <ref target="#tab_1" type="table">2</ref>), while Spanish and Brazilian populations had a single haplotype (Table <ref target="#tab_1" type="table">2</ref>).</s><s>Haplotype diversity in Australian populations ranged between 0.06 (TAS) to 0.186 (AUS; Table <ref target="#tab_1" type="table">2</ref>).</s><s>Haplotype B was only found in South Australia (SA; Beachport population, Table <ref target="#tab_0" type="table">1B</ref>) while haplotype G occurred only in Tasmania (TAS; St. Helens Conservation Area population, Table <ref target="#tab_0" type="table">1B</ref>).</s><s>Haplotype E was found in New South Wales (NSW; Clovelly and Torrington populations, Table <ref target="#tab_0" type="table">1B</ref>) and in one population in eastern Tasmania (St.</s><s>Helens Conservation Area population).</s><s>Haplotype C was predominantly restricted to mainland Australia, while haplotype D was widespread across the native range.</s></p><p><s>For invasive populations, and for nSSRs, mean expected heterozygosity (H E ) ranged from 0.29 (ESP) to 0.33 (POR), while mean observed heterozygosity (H O ) ranged from 0.33 (RSA) to 0.40 (BRA), mean allelic richness (A r ) ranged from 1.74 (ESP) to 1.97 (POR), and mean inbreeding coefficient (F IS ) ranged from -0.146 (RSA) to -0.317 (BRA; Table <ref target="#tab_2" type="table">3</ref>).</s><s>In the native range, mean H E ranged from 0.25 (AUS) to 0.27 (TAS), while mean H O ranged from 0.31 (TAS) to 0.32 (AUS), mean A r ranged from 1.73 (AUS) to 1.77 (TAS), and mean F IS ranged from -0.196 (TAS) to -0.303   (AUS; Table <ref target="#tab_2" type="table">3</ref>).</s><s>Diversity metric comparisons (excluding Spanish populations due to low population numbers) found similar levels of genetic diversity and lack of inbreeding between native and different invasive ranges (Kruskal-Wallis test p &gt; 0.05 for all diversity metrics; Fig. <ref target="#fig_4" type="figure">5</ref>).</s><s>Similar results were obtained when these analyses were repeated with individuals from Spain and Portugal lumped together as Iberian Peninsula (IBP; Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_2" type="figure">S3</ref>).</s></p><p><s>Our initial STRUCTURE analysis based on all nSSR data identified two genetic clusters (Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_3" type="figure">S4A,</ref><ref type="figure">B</ref>), one that included individuals from Portugal (Mira population) and South Africa (Clarkson and Sedgefield populations) and another that included all other populations (Fig. <ref target="#fig_5" type="figure">6A</ref>).</s><s>STRUCTURE analysis of the latter cluster (i.e., hierarchical analysis) revealed two further genetic subclusters (Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_3" type="figure">S4C,</ref><ref type="figure">D</ref>).</s><s>In this second analysis, native range populations separated in two genetic clusters roughly corresponding to those from mainland Australian (AUS) and Tasmania (TAS), while populations from the invaded ranges were admixtures of these two genetic clusters (Fig. <ref target="#fig_5" type="figure">6B</ref>, and see Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_4" type="figure">S5</ref> for bar plots of K = 3 -6).</s></p><p><s>Analysis of the native range-only data also identified two genetic clusters (Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_5" type="figure">S6</ref>), corresponding to mainland Australia and Tasmania (Fig. <ref target="#fig_6" type="figure">7A</ref>).</s><s>We     <ref target="#tab_0" type="table">1</ref>.</s></p><p><s>identified significant IBD (Mantel test r = 0.159, p = 0.04) and found pairwise fixation indices among populations within mainland Australia and within Tasmania to be significantly lower than the fixation indices among populations from mainland Australia and Tasmania (Fig. <ref target="#fig_7" type="figure">8</ref>, Kruskal-Wallis test χ 2 = 12.848, p = 0.002, followed by a post-hoc Mann-Whitney U test), further supporting the STRUCTURE assignment of individuals to two genetic clusters corresponding to mainland Australia and Tasmania.</s><s>However, higher values of K suggested that substructure existed within these two clusters (Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_6" type="figure">S7</ref>).</s><s>Hierarchical STRUCTURE analyses revealed four clusters within mainland Australia and two clusters within Tasmania (Fig. <ref target="#fig_6" type="figure">7B,</ref><ref type="figure">C</ref>, respectively; Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_7" type="figure">S8A</ref>, B and C, D, respectively).</s><s>Within mainland Australia, the population from Beachport appears to be distinct from all other populations (Fig. <ref target="#fig_6" type="figure">7B</ref>; it also has a unique cpSSR haplotype B, Fig. <ref target="#fig_3" type="figure">4</ref>), while all other populations show equal and symmetrical levels of admixture (i.e., being panmictic; also visible for other higher K values, Suppl.</s><s>material 1: fig.</s><s><ref type="figure">S9</ref>).</s><s>Within Tasmania, the Bridport, Three Sisters National Park, and Stanley populations seem to be genetically distinct from all other populations (Fig. <ref target="#fig_6" type="figure">7C</ref>), with the Three Sisters National Park population being the most distinct (Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_0" type="figure">S10</ref>, K = 6).</s><s>Bar plots for higher values of K are presented in the Suppl.</s><s>material 1 (Suppl.</s><s>material 1: figs S9, S10).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Inference of invasion sources<p><s>A similar introduction scenario was inferred for South Africa and Portugal, with the origin of invasive populations being an unknown population related to both the AUS and TAS genetic lineages (i.e., scenario 6, Fig. <ref target="#fig_2" type="figure">3</ref>).</s><s>This scenario had very high probability for both countries (p = 0.997, 95% CI = 0.995-0.998,</s><s>and p = 0.928, 95% CI = 0.906-0.95,</s><s>respectively; Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_0" type="figure">S11</ref>).</s><s>Similar introduction scenarios were identified for Brazil and Uruguay: single or multiple introductions from Tasmania, i.e., scenarios 2 and 5, respectively (Fig. <ref target="#fig_2" type="figure">3</ref>).</s><s>Statistical support for these scenarios was lower for Brazil (scenario 2: p = 0.417, 95% CI = 0.391-0.443;</s><s>scenario 5: p = 0.425, 95% CI = 0.399-0.451;</s><s>Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_0" type="figure">S11</ref>) and Uruguay (scenario 2: p = 0.403, 95% CI = 0.378-0.429;</s><s>scenario 5: p = 0.418, 95% CI = 0.392-0.444;</s><s>Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_0" type="figure">S11</ref>) compared with the support for the most likely scenarios for Portugal and South Africa.</s><s>Our ABC analysis for Spain was inconclusive, thus any discussion (see below) regarding these populations does not rely on this result.</s></p><p><s>Based on the scenarios with highest posterior probability for each invaded country, several parameters such as effective population size, time of events (e.g., introductions), admixture, and mutation rates were computed (Suppl.</s><s>material 1: table <ref target="#tab_2" type="table">S3</ref>).</s><s>The mean time since first introduction of A. longifolia into South Africa and Portugal was 53.4 and 34.1 generations, respectively (Suppl.</s><s>material 1: table <ref type="table">S4</ref>).</s><s>The mean time since first introduction ranged from 18.6 to 29.6 generations for Uruguay and from 13.8 to 16.3 generations for Brazil, depending on the scenario (2 or 5; Suppl.</s><s>material 1: table <ref type="table">S5</ref>).</s><s>Bias values (i.e., RMedAD and MedRB) indicated that our model estimates are plausible (Suppl.</s><s>material 1: tables S4, S5).</s><s>Low Type I and Type II errors were inferred for both the Portuguese and South African scenarios (ranging from 0.02 to 0.12; Suppl.</s><s>material 1: table <ref type="table">S6</ref>).</s><s>Conversely, the scenarios for Brazil and Uruguay showed higher Type I and Type II errors (ranging from 0.45 to 0.60; Suppl.</s><s>material 1: table <ref type="table">S6</ref>), but their posterior probabilities were low (compared with the scenario with highest probability for Portugal and South Africa).</s><s>Results for the adequacy of the scenarios (i.e., "model checking", Suppl.</s><s>material 1: table <ref type="table">S7</ref>) showed that all high posterior probability scenarios had a slight deviation between the observed and simulated mean allelic size variance statistic, and in some cases also the mean genetic distance, but overall indicate that these scenarios sufficiently explained the observed data.</s></p><p><s>Results from the bridgehead scenario analysis (Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_1" type="figure">S12</ref>) showed that scenario 5 had the highest posterior probability (p = 0.716, 95% CI = 0.617-0.818).</s><s>This scenario (Suppl.</s><s>material 1: fig.</s><s><ref target="#fig_2" type="figure">S13</ref>) represents independent introductions of A. longifolia into South Africa and Portugal from an unknown native source that is related to both the AUS and TAS genetic lineages, thus not supporting a bridgehead introduction event between these two countries.</s><s>The "model checking" analysis (Suppl.</s><s>material 1: table <ref type="table">S8</ref>) showed many deviations between the observed and simulated values of several summary statistics, indicating that this scenario does not explain our data better than those tested above.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion<p><s>Our results suggest a complex introduction history of A. longifolia around the world during the 19 th and 20 th centuries.</s><s>We found support for our initial hypothesis that invasive populations have high genetic diversity and low population structure.</s><s>This agrees with the known history of multiple introductions, often of large propagule sizes, of the species into many parts of the world <ref target="#b35" type="bibr">(Kull et al. 2007</ref><ref target="#b36" type="bibr">(Kull et al. , 2008</ref><ref target="#b37" type="bibr">(Kull et al. , 2011;;</ref><ref type="bibr">Carruthers et al. 2011)</ref>.</s><s>Multiple introductions, especially when originating from multiple sources, hamper inferences of the native sources of invasive populations, even when historical records are available.</s><s>For example, for Portugal, we were unable to identify the native source(s) of introduction and found evidence of multiple introductions, thus refuting the single introduction hypothesis from a previous study <ref target="#b71" type="bibr">(Vicente et al. 2018)</ref>.</s><s>Similarly, we were unable to draw any conclusions on the sources of invasive A. longifolia in Galicia (Spain), likely due to the low number of populations and individuals we sampled in the country.</s><s>Regarding South Africa, as expected, we were not able to identify the native source of the invasion.</s><s>On the other hand, we were able to identify Tasmania as the likely native source of invasive populations in South America.</s><s>Below we discuss how our limited sampling in Victoria and South Australia (one population in each state) and lack of samples from Queensland may have impacted our inferences of the introduction histories of A. longifolia to different parts of the world.</s></p><p><s>We identified population structure in Australian A. longifolia, with populations from mainland Australia and Tasmania corresponding to two distinct genetic clusters <ref type="bibr">(Figs 6,</ref><ref type="bibr">7A)</ref>.</s><s>Most invasive populations appeared to be admixtures between these two clusters, providing support for multiple introductions.</s><s>One possible explanation for the existence of the two genetic clusters in Australia is the Bass Strait that separates Tasmania from the mainland, and thus acts as a strong barrier to gene flow as has been observed for A. dealbata <ref target="#b26" type="bibr">(Hirsch et al. 2017</ref><ref target="#b27" type="bibr">(Hirsch et al. , 2018) )</ref> and other Australian natives such as Eucalyptus regnans <ref target="#b54" type="bibr">(Nevill et al. 2010)</ref> and Tasmannia lanceolata <ref target="#b77" type="bibr">(Worth et al. 2010)</ref>.</s><s>We also identified substructure within the mainland Australia and Tasmania clusters.</s><s>Within mainland Australia, the Beachport population is genetically distinct from all others (Fig. <ref target="#fig_6" type="figure">7B</ref>), and this result is also corroborated by the cpSSR data.</s><s>This population is from South Australia and corresponds to the most western sampling site in our analyses, and thus these results might be due to disjunct sampling.</s><s>Future work should include populations sampled throughout this state to fully understand the species' population structure in Australia.</s><s>Regarding the Tasmanian cluster, the Bridport, Three Sisters National Park, and Stanley populations were found to be genetically distinct from all others (Fig. <ref target="#fig_6" type="figure">7C</ref>).</s><s>Interestingly, these are the only three sampled Tasmanian populations in close proximity to the Bass Strait, and these results can possibly suggest some level of gene flow among these populations and those from mainland Australia close to the Bass Strait.</s><s>However, only one sampled population in mainland Australia is situated within this region (Curdievale, Victoria), thus further sampling is required to clarify these genetic relationships.</s></p><p><s>While we identified substructure within mainland Australia and Tasmania, we used the two overall genetic clusters as putative source areas in our ABC modelling for several reasons.</s><s>First, the overall clustering of Australian populations into two genetic clusters was well supported by our isolation by distance (IBD) analyses and regional comparisons of fixation indices (Fig. <ref target="#fig_7" type="figure">8</ref>).</s><s>Second, fine-scale source inferences using hierarchical clusters would be more affected by unsampled "ghost" populations (which we included in our modelling scenarios, Fig. <ref target="#fig_2" type="figure">3</ref>) than inferences based on broadscale regional genetic clusters.</s><s>Our limited sampling in several Australian states makes the issues associated with modelling fine-scale invasion sources even more problematic.</s><s>Lastly, co-evolutionary diversification between the host plants and prospective biocontrol agents is generally evident at broader, rather than narrow, geographic scales (e.g., <ref target="#b22" type="bibr">Goolsby et al. 2006</ref>).</s><s>The earleaf wattle example we discussed earlier provides a case in point (see Introduction).</s><s>Co-diversification between this wattle and its specialist leaffeeding beetle, Calomela intemerata, has been identified over broad geographic scales <ref target="#b51" type="bibr">(Nawaz et al. 2021)</ref>.</s><s>Therefore, knowledge of the broadscale native range source(s) of invasive populations can play an important role in matching potential biological control agent biotypes with invasive host plant lineages.</s></p><p><s>We also found evidence for a unique genetic cluster shared between Portugal and South Africa.</s><s>Invasive populations in these two countries also shared one cpSSR haplotype (Fig. <ref target="#fig_3" type="figure">4</ref>).</s><s>These findings suggest a possible secondary introduction event or bridgehead, likely from South Africa into Portugal based on historical occurrence records of the species in both countries <ref target="#b60" type="bibr">(Rei 1925;</ref><ref target="#b42" type="bibr">Lourenço 2009;</ref><ref target="#b57" type="bibr">Poynton 2009;</ref><ref target="#b46" type="bibr">Marchante 2011;</ref><ref target="#b70" type="bibr">Vicente 2016;</ref><ref target="#b71" type="bibr">Vicente et al. 2018)</ref>.</s><s>Our ABC modelling did not support this scenario and this aspect of the introduction history of A. longifolia warrants further investigation.</s><s>Overall, globally invasive populations do not appear to have gone through genetic bottlenecks upon introduction, a common feature of invasive acacia populations <ref target="#b73" type="bibr">(Vicente et al. 2021</ref>).</s></p><p><s>While we could not infer introduction histories for all invaded regions with high levels of confidence, we do provide evidence that these likely differed among different parts of the world.</s><s>For instance, we found higher cpSSR haplotype diversity in South Africa and Portugal compared with South America, probably because these two countries have been invaded for longer or, more likely, their introductions had much higher propagule pressure than to those into South America.</s><s>South Africa had the highest haplotype diversity (higher than in the native range populations we sampled), while Spain and Brazil had the lowest.</s><s>These findings agree with historical records indicating that wattle seeds, including those of A. longifolia, were often imported into South Africa from several locations, both from within and outside Australia <ref target="#b57" type="bibr">(Poynton 2009)</ref>.</s><s>Our finding that South African populations harbour genetic diversity levels similar to those in native range populations is therefore unsurprising.</s><s>Taken together, this corroborates our Approximate Bayesian Computation (ABC) modelling inferences, which failed to identify the native source of South African populations based on the scenarios we analysed.</s><s>Similar findings have been made for other invasive acacias with complicated introduction histories characterised by multiple introductions of high propagule sizes from diverse sources (e.g., A. dealbata; <ref target="#b28" type="bibr">Hirsch et al. 2019</ref><ref target="#b29" type="bibr">Hirsch et al. , 2021))</ref>.</s><s>In our case, it is also possible that the "ghost" sources of South African invasions are areas in Victoria, South Australia, or Queensland, from where we had limited or no samples, and this limitation may also be the reason for the identification of divergent chloroplast haplotypes in invaded areas (e.g., haplotypes A and H in South Africa, Fig. <ref target="#fig_3" type="figure">4</ref>).</s></p><p><s>The introduction history of A. longifolia in Portugal, as for South Africa, is likely characterised by multiple and genetically diverse introduction events.</s><s>Historical records indicate that various Acacia species were planted along the Portuguese coast at different times (e.g., <ref target="#b60" type="bibr">Rei 1925;</ref><ref target="#b42" type="bibr">Lourenço 2009;</ref><ref target="#b46" type="bibr">Marchante 2011;</ref><ref target="#b47" type="bibr">Marchante et al. 2011;</ref><ref target="#b70" type="bibr">Vicente 2016;</ref><ref target="#b71" type="bibr">Vicente et al. 2018)</ref>.</s><s>A previous genetic study hypothesised that the same seed allotment was used to establish nursery stock from which plants were sourced for plantings along the Portuguese coast <ref target="#b71" type="bibr">(Vicente et al. 2018</ref>).</s><s>Yet, genetic diversity of Portuguese populations is similar to that in South African and Australian populations, suggesting that multiple introductions from different origins likely established invasive populations in Portugal.</s><s>A similar introduction history was recently described for A. dealbata into Portugal <ref target="#b29" type="bibr">(Hirsch et al. 2021)</ref>.</s><s>Again, the sources of Portuguese A. longifolia invasions may include native range areas in Victoria, South Australia, or Queensland, from where we had limited or no samples.</s></p><p><s>For Brazil and Uruguay our ABC analyses indicated that the most likely origin of introduction is Tasmania, either as single or multiple introduction events.</s><s>Historical records from these countries are scarce but considering that the genetic diversity of these populations is similar to that found in South African, Portuguese and Australian populations, multiple introductions seem likely.</s><s>We could not conclusively infer the source(s) of Spanish A. longifolia populations, mostly likely because of the low number of plants we sampled in this country.</s><s>However, we speculate that these plants were introduced in similar fashion to that of Portugal.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusion<p><s>Our work shows that the origins of A. longifolia introductions around the world are hard to trace, likely because of the extensive historical efforts to introduce the species for dune 'restoration' and as an ornamental plant <ref target="#b37" type="bibr">(Kull et al. 2011)</ref>.</s><s>The similar levels of genetic diversity among native and invasive ranges are illustrative of this.</s><s>Multiple introduction events of large size (i.e., high propagule pressure) will not only help introduced population to overcome demographic and stochastic impacts associated with small populations sizes but will also provide high adaptive capacity, afforded by high genetic diversity, to these populations.</s><s>Our results showing extensive admixture between native range genetic clusters also suggest that exploration for new biocontrol agents can be done throughout the native range of A. longifolia as no 'pure' genetic lineages are invasive.</s><s>Moreover, the success of existing biocontrol agents such as Trichilogaster acaciaelongifoliae in places such as South Africa is likely to be replicated in other invaded regions.</s><s>'Piggy-backing' on the biocontrol programs of countries such as South Africa may substantially shorten the amount of time needed to implement programs in other parts of the world, as was the case for the introduction of T. acaciaelongifoliae into Portugal (e.g., <ref target="#b47" type="bibr">Marchante et al. 2011;</ref><ref target="#b41" type="bibr">López-Núñez et al. 2021)</ref>.</s></p><p><s>only.</s><s>Posterior probabilities of the six tested scenarios by invaded country.</s><s>Details of microsatellite primers tested for cross-amplification in Acacia longifolia.</s><s>Primers selected for cpSSRs and SSRs analyses and their corresponding repeat motifs, identified alleles, fluorescent dye labels used, PCR conditions (annealing temperature and concentration of magnesium chloride).</s><s>Descriptions of parameters included in the ABC analyses.</s><s>Prior and posterior values of parameters for Scenario 6 of ABC analyses, selected as the best scenario for Portugal (POR) and South Africa (RSA).</s></p><p><s>Prior and posterior values of parameters for A) Scenario 2 and B) Scenario 5 of ABC analyses, selected as the best scenarios for Brazil (BRA) and Uruguay (URU).</s><s>Type I and Type II errors for the chosen scenarios of each invaded country in ABC analyses.</s><s>Results of the "model checking" analysis for the best scenarios selected by country in ABC analyses.</s><s>Posterior probabilities of the six bridgehead tested scenarios between RSA and POR (600 000 simulations in total).</s><s>DIYABC drawing of scenario 5, which had the higher posterior probability of the six bridgehead tested scenarios between RSA and POR (p = 0.7161, 95% CI = 0.6165-0.8157).</s><s>Results of the "model checking" analysis for the best bridgehead scenarios selected (scenario 5) in ABC analyses.</s></p><p><s>Copyright notice: This dataset is made available under the Open Database License (http://opendatacommons.org/licenses/odbl/1.0/).</s><s>The Open Database License (ODbL) is a license agreement intended to allow users to freely share, modify, and use this Dataset while maintaining this same freedom for others, provided that the original source and author(s) are credited.</s><s>Link: https://doi.org/10.3897/neobiota.82.87455.suppl1</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>Map of the collection sites of Acacia longifolia.</s><s>Each dot represents the exact location of each collection site (see coordinates in Table 1) A all sampled countries/locations B Iberian Peninsula C South Africa D Brazil and Uruguay.</s><s>Map was drawn using the maptools R package (Lewin-Koh et al. 2011; R Core Team 2016).</s></p></div></figdesc><graphic coords="7,52.69,227.48,362.33,259.82" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 2. Maps of the native range distribution of Acacia longifolia.</s><s>Distributions of A. l. ssp.</s><s>longifolia and A. l. ssp.</s><s>sophorae are presented in blue and red, respectively, and the sample collection sites of this study are presented in orange.</s><s>Each orange dot represents the exact location of each collection site (see Table 1).</s><s>Maps were drawn using the maptools R package (Lewin-Koh et al. 2011; R Core Team 2016).</s><s>Geo-referenced occurrence records for each subspecies were obtained from the Atlas of Living Australia database (ALA 2021a, b) and the Global Biodiversity Information Facility (GBIF 2021a,b), with duplicates and erroneous records (i.e., records with coordinates that fell in the ocean or with no registered coordinates) manually removed in R statistical environment (R Core Team 2016) with the maptools, raster (Hijmans and van Etten 2010) and rgdal (Keitt et al. 2010) R packages.</s><s>NSW: New South Wales.</s><s>NT: Northern Territory.</s><s>QLD: Queensland.</s><s>SA: South Australia.</s><s>TAS: Tasmania.</s><s>VIC: Victoria.</s></p></div></figdesc><graphic coords="8,52.44,61.80,362.83,146.77" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure 3. Diagrams of the six tested scenarios for each invaded country via DIYABC analyses.</s><s>Asterisks represent merging and admixture of two populations.</s><s>The "native ancestral population" is an unsampled population genetically related to both the mainland south-eastern Australia (AUS) and Tasmania (TAS) clusters identified via STRUCTURE analyses.</s><s>"Ghost populations": unsampled populations.</s><s>INV: Invasive population.</s><s>See Materials and Methods for detailed descriptions of each scenario.</s><s>Parameter descriptions, prior and posterior values are provided in Suppl.</s><s>material 1: tables S3-S5.</s></p></div></figdesc><graphic coords="11,52.44,61.80,362.83,188.01" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4. Haplotypes based on chloroplast microsatellites A geographical distribution of the eight identified haplotypes (A-H).</s><s>The number of samples (n) is shown below pie charts B median-joining network analysis of eight chloroplast haplotypes.</s><s>The size of each circle is proportional to the frequency of each haplotype, and branch markings indicate mutational steps between haplotypes.</s></p></div></figdesc><graphic coords="13,52.69,62.05,362.33,143.19" type="bitmap"></graphic></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 5 .<label>5</label><figdesc><div><p><s>Figure 5. Comparisons of diversity metrics of Acacia longifolia between invaded countries and two native range genetic clusters A expected heterozygosity B observed heterozygosity C allelic richness D inbreeding coefficient.</s><s>The two native range clusters were identified via STRUCTURE analysis.</s><s>Kruskal-Wallis test results are shown on the upper right corner, with 5 degrees of freedom.</s><s>Spain was excluded from the analysis due to the low number of populations sampled.</s></p></div></figdesc><graphic coords="15,52.44,188.50,362.83,125.40" type="bitmap"></graphic></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0">Figure 6 .<label>6</label><figdesc><div><p><s>Figure6.</s><s>STRUCTURE bar plots (K = 2) in the invasive and native ranges of Acacia longifolia A bar plot for the complete dataset B bar plot for the hierarchical analysis of the blue cluster in A. Population names underneath the plots correspond to the codes provided in Table1.</s></p></div></figdesc><graphic coords="16,52.44,61.80,362.83,153.64" type="bitmap"></graphic></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0">Figure 7 .<label>7</label><figdesc><div><p><s>Figure 7. STRUCTURE bar plots for the identified optimum number of clusters in Acacia longifolia's native range A bar plot for the overall native range (K = 2) B bar plot for the mainland Australia cluster (K = 4) C bar plot for the Tasmania cluster (K = 2).</s><s>Population names underneath the plots correspond to the codes provided in Table1.</s></p></div></figdesc><graphic coords="16,52.44,277.09,362.83,221.86" type="bitmap"></graphic></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0">Figure 8 .<label>8</label><figdesc><div><p><s>Figure 8.</s><s>Comparison of pairwise fixation indices (F ST ) among Australian Acacia longifolia populations.</s><s>Comparisons were made among populations within mainland Australia (AUS vs AUS), populations within Tasmania (TAS vs TAS), and among population of mainland Australia vs Tasmania (AUS vs TAS).</s><s>Kruskal-Wallis test p &lt; 0.05, and letters show the result of the post-hoc Mann-Whitney U test.</s></p></div></figdesc><graphic coords="17,137.46,61.80,192.80,306.71" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>Number of samples (n), population code, latitude, and longitude of the collection sites.</s><s>A invasive range (Brazil, Portugal, South Africa, Spain, and Uruguay) B native range (mainland Australia and Tasmania).</s><s>Collection sites in mainland Australia in bold represent seedling samples obtained from nurseries.</s></p></div></figdesc><table><row><cell></cell><cell></cell><cell>1A</cell><cell></cell><cell></cell></row><row><cell>Collection Site</cell><cell>Code</cell><cell>N</cell><cell>Latitude / Longitude</cell><cell>Sampling year</cell></row><row><cell>Portugal</cell><cell>POR</cell><cell>38</cell><cell></cell><cell></cell></row><row><cell>Vila Nova de Milfontes</cell><cell>VNMF</cell><cell>5</cell><cell>37.685292, -8.791508</cell><cell></cell></row><row><cell>Vila Nova de Milfontes</cell><cell></cell><cell></cell><cell>37.675608, -8.766397</cell><cell></cell></row><row><cell>Vila Nova de Milfontes</cell><cell></cell><cell></cell><cell>37.511822, -8.440267</cell><cell></cell></row><row><cell>Pinheiro da Cruz</cell><cell>PC</cell><cell>6</cell><cell>38.250377, -8.752181</cell><cell></cell></row><row><cell>Osso da Baleia</cell><cell>Mira</cell><cell>7</cell><cell>40.000884, -8.901132</cell><cell></cell></row><row><cell>Mira</cell><cell></cell><cell></cell><cell>40.527170, -8.673730</cell><cell></cell></row><row><cell>Mira</cell><cell></cell><cell></cell><cell>40.450170, -8.768960</cell><cell></cell></row><row><cell>Mira</cell><cell></cell><cell></cell><cell>40.461380, -8.708500</cell><cell></cell></row><row><cell>Foz do Arelho</cell><cell>FA</cell><cell>6</cell><cell>39.429354, -9.223632</cell><cell></cell></row><row><cell>Monte Gordo</cell><cell>MG</cell><cell>6</cell><cell>37.183880, -7.448606</cell><cell></cell></row><row><cell>Moledo</cell><cell>Mol</cell><cell>8</cell><cell>41.866359, -8.855380</cell><cell></cell></row><row><cell>Spain (Galicia)</cell><cell>ESP</cell><cell>12</cell><cell></cell><cell></cell></row><row><cell>Muros</cell><cell>Muros</cell><cell>6</cell><cell>42.820272, -9.065278</cell><cell></cell></row><row><cell>San Vicente</cell><cell>SanVic</cell><cell>6</cell><cell>42.464995, -8.908974</cell><cell></cell></row><row><cell>South Africa</cell><cell>RSA</cell><cell>36</cell><cell></cell><cell></cell></row><row><cell>Stellenbosch</cell><cell>Stell</cell><cell>5</cell><cell>-33.947222, 18.834920</cell><cell></cell></row><row><cell>Grahamstown</cell><cell>Graham</cell><cell>6</cell><cell>-33.327920, 26.499520</cell><cell></cell></row><row><cell>Grahamstown</cell><cell></cell><cell></cell><cell>-33.321640, -33.32164</cell><cell></cell></row><row><cell>Clarkson</cell><cell>Clark</cell><cell>6</cell><cell>-34.071800, 24.404570</cell><cell></cell></row><row><cell>R102</cell><cell></cell><cell></cell><cell>-33.981450, 24.043820</cell><cell></cell></row><row><cell>Sedgefield</cell><cell>Sedge</cell><cell>8</cell><cell>-34.068380, 22.948030</cell><cell></cell></row><row><cell>Hermanus</cell><cell>Herm</cell><cell>5</cell><cell>-34.395970, 19.218410</cell><cell></cell></row><row><cell>Lasikisiki</cell><cell>Lasiki</cell><cell>6</cell><cell>-31.413750, 29.712980</cell><cell></cell></row><row><cell>Brazil</cell><cell>BRA</cell><cell>25</cell><cell></cell><cell></cell></row><row><cell>Tramandaí</cell><cell>Tram</cell><cell>5</cell><cell>-29.890618, -50.097749</cell><cell></cell></row><row><cell>Cassino Beach</cell><cell>Cass</cell><cell>5</cell><cell>-32.188509, -52.169312</cell><cell></cell></row><row><cell>Hermenegildo</cell><cell>Hmng</cell><cell>5</cell><cell>-33.639901, -53.420143</cell><cell></cell></row><row><cell>Lagoa do Peixe National Park</cell><cell>Peixe</cell><cell>5</cell><cell>-31.250075, -51.026285</cell><cell></cell></row><row><cell>Moçambique Beach</cell><cell>Moca</cell><cell>5</cell><cell>-27.486697, -48.393998</cell><cell></cell></row><row><cell>Uruguay</cell><cell>URU</cell><cell>15</cell><cell></cell><cell></cell></row><row><cell>Cabo Polonio</cell><cell>Polonio</cell><cell>5</cell><cell>-34.407141, -53.878037</cell><cell></cell></row><row><cell>Hotel Paque Oceánico Beach</cell><cell>Hotel</cell><cell>5</cell><cell>-33.908477, -53.512534</cell><cell></cell></row><row><cell>Brazil/Uruguay Frontier</cell><cell>Front</cell><cell>5</cell><cell>-33.728768, -53.468794</cell><cell></cell></row><row><cell></cell><cell></cell><cell>1B</cell><cell></cell><cell></cell></row><row><cell>Mainland Australia</cell><cell>AUS</cell><cell>76</cell><cell></cell><cell></cell></row><row><cell>Clovelly, NSW</cell><cell>Clov</cell><cell>8</cell><cell>-33.914732, 151.263171</cell><cell></cell></row><row><cell>Green Point, NSW</cell><cell>Green</cell><cell>8</cell><cell>-32.250278, 152.536667</cell><cell></cell></row><row><cell>Bilpin, NSW</cell><cell>Bilpin</cell><cell>6</cell><cell>-33.491667, 150.533333</cell><cell></cell></row><row><cell>Ulladulla, NSW</cell><cell>Ulladulla</cell><cell>8</cell><cell>-35.350000, 150.483333</cell><cell></cell></row><row><cell>Vaucluse, NSW</cell><cell>Vaucluse</cell><cell>8</cell><cell>-33.852778, 151.263889</cell><cell></cell></row><row><cell>Torrington, NSW</cell><cell>Torrington</cell><cell>6</cell><cell>-29.207500, 151.686389</cell><cell></cell></row><row><cell>Marulan, NSW</cell><cell>Marulan</cell><cell>8</cell><cell>-34.683333, 150.066667</cell><cell></cell></row><row><cell>Beachport, SA</cell><cell>Beachport</cell><cell>8</cell><cell>-37.516667, 140.083333</cell><cell></cell></row><row><cell>Curdievale, VIC</cell><cell>Curdievale</cell><cell>7</cell><cell>-38.508123, 142.899504</cell><cell></cell></row><row><cell>Bermagui, NSW</cell><cell>Bermagui</cell><cell>9</cell><cell>-36.443373, 150.061346</cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">Table 2 .<label>2</label><figdesc><div><p><s>Diversity metrics of all native and invasive Acacia longifolia populations for chloroplast microsatellites.</s><s>N a -Number of different alleles; N e -Number of effective alleles; h -Haplotype diversity.</s><s>Standard error (SE) is shown in parenthesis.</s></p></div></figdesc><table><row><cell>Range</cell><cell>Country</cell><cell>N a</cell><cell>N e</cell><cell>H</cell></row><row><cell>Invasive</cell><cell>POR</cell><cell>2.000 (0.408)</cell><cell>1.229 (0.119)</cell><cell>0.165 (0.074)</cell></row><row><cell>Invasive</cell><cell>ESP</cell><cell>1.000 (0.000)</cell><cell>1.000 (0.000)</cell><cell>0.000 (0.000)</cell></row><row><cell>Invasive</cell><cell>RSA</cell><cell>2.250 (0.250)</cell><cell>1.659 (0.049)</cell><cell>0.396 (0.018)</cell></row><row><cell>Invasive</cell><cell>BRA</cell><cell>1.000 (0.000)</cell><cell>1.000 (0.000)</cell><cell>0.000 (0.000)</cell></row><row><cell>Invasive</cell><cell>URU</cell><cell>1.250 (0.250)</cell><cell>1.036 (0.036)</cell><cell>0.031 (0.031)</cell></row><row><cell>Native</cell><cell>AUS</cell><cell>1.750 (0.479)</cell><cell>1.360 (0.287)</cell><cell>0.184 (0.129)</cell></row><row><cell>Native</cell><cell>TAS</cell><cell>1.750 (0.479)</cell><cell>1.073 (0.054)</cell><cell>0.059 (0.050)</cell></row></table></figure>
+<figure type="table" xml:id="tab_2" xmlns="http://www.tei-c.org/ns/1.0">Table 3 .<label>3</label><figdesc><div><p><s>Diversity metrics of all native and invasive populations of Acacia longifolia for nuclear microsatellites.</s><s>H E -Expected heterozygosity; H O -Observed heterozygosity; A r -Allelic richness; F IS -Inbreeding coefficient; SD -Standard deviation.</s></p></div></figdesc><table><row><cell>Range</cell><cell>Country</cell><cell>Population</cell><cell>H E</cell><cell>H O</cell><cell>A r</cell><cell>F IS</cell></row><row><cell>Invasive</cell><cell>POR</cell><cell>VNMF</cell><cell>0.29</cell><cell>0.35</cell><cell>1.84</cell><cell>-0.222</cell></row><row><cell>Invasive</cell><cell>POR</cell><cell>PC</cell><cell>0.29</cell><cell>0.42</cell><cell>1.75</cell><cell>-0.458</cell></row><row><cell>Invasive</cell><cell>POR</cell><cell>Mira</cell><cell>0.53</cell><cell>0.32</cell><cell>2.70</cell><cell>0.397</cell></row><row><cell>Invasive</cell><cell>POR</cell><cell>FA</cell><cell>0.28</cell><cell>0.36</cell><cell>1.75</cell><cell>-0.268</cell></row><row><cell>Invasive</cell><cell>POR</cell><cell>MG</cell><cell>0.26</cell><cell>0.33</cell><cell>1.75</cell><cell>-0.292</cell></row><row><cell>Invasive</cell><cell>POR</cell><cell>Mol</cell><cell>0.31</cell><cell>0.39</cell><cell>2.01</cell><cell>-0.247</cell></row><row><cell></cell><cell></cell><cell>Mean</cell><cell>0.33</cell><cell>0.36</cell><cell>1.97</cell><cell>-0.181</cell></row><row><cell></cell><cell></cell><cell>SD</cell><cell>0.10</cell><cell>0.04</cell><cell>0.37</cell><cell>0.294</cell></row><row><cell>Invasive</cell><cell>ESP</cell><cell>Muros</cell><cell>0.31</cell><cell>0.37</cell><cell>1.76</cell><cell>-0.176</cell></row><row><cell>Invasive</cell><cell>ESP</cell><cell>SanVic</cell><cell>0.27</cell><cell>0.32</cell><cell>1.72</cell><cell>-0.195</cell></row><row><cell></cell><cell></cell><cell>Mean</cell><cell>0.29</cell><cell>0.35</cell><cell>1.74</cell><cell>-0.185</cell></row><row><cell></cell><cell></cell><cell>SD</cell><cell>0.03</cell><cell>0.04</cell><cell>0.03</cell><cell>0.014</cell></row><row><cell>Invasive</cell><cell>RSA</cell><cell>Stell</cell><cell>0.24</cell><cell>0.37</cell><cell>1.59</cell><cell>-0.529</cell></row><row><cell>Invasive</cell><cell>RSA</cell><cell>Graham</cell><cell>0.31</cell><cell>0.38</cell><cell>1.86</cell><cell>-0.209</cell></row><row><cell>Invasive</cell><cell>RSA</cell><cell>Clark</cell><cell>0.45</cell><cell>0.40</cell><cell>2.37</cell><cell>0.112</cell></row><row><cell>Invasive</cell><cell>RSA</cell><cell>Sedge</cell><cell>0.22</cell><cell>0.31</cell><cell>1.51</cell><cell>-0.436</cell></row><row><cell>Invasive</cell><cell>RSA</cell><cell>Herm</cell><cell>0.23</cell><cell>0.20</cell><cell>1.55</cell><cell>0.126</cell></row><row><cell>Invasive</cell><cell>RSA</cell><cell>Lasiki</cell><cell>0.32</cell><cell>0.31</cell><cell>1.91</cell><cell>0.059</cell></row><row><cell></cell><cell></cell><cell>Mean</cell><cell>0.30</cell><cell>0.33</cell><cell>1.80</cell><cell>-0.146</cell></row><row><cell></cell><cell></cell><cell>SD</cell><cell>0.09</cell><cell>0.07</cell><cell>0.33</cell><cell>0.288</cell></row><row><cell>Invasive</cell><cell>BRA</cell><cell>Tram</cell><cell>0.33</cell><cell>0.35</cell><cell>1.95</cell><cell>-0.050</cell></row><row><cell>Invasive</cell><cell>BRA</cell><cell>Cass</cell><cell>0.32</cell><cell>0.42</cell><cell>2.01</cell><cell>-0.289</cell></row><row><cell>Invasive</cell><cell>BRA</cell><cell>Hmng</cell><cell>0.32</cell><cell>0.47</cell><cell>2.03</cell><cell>-0.443</cell></row><row><cell>Invasive</cell><cell>BRA</cell><cell>Peixe</cell><cell>0.31</cell><cell>0.40</cell><cell>1.83</cell><cell>-0.283</cell></row><row><cell>Invasive</cell><cell>BRA</cell><cell>Moca</cell><cell>0.24</cell><cell>0.37</cell><cell>1.60</cell><cell>-0.517</cell></row><row><cell></cell><cell></cell><cell>Mean</cell><cell>0.30</cell><cell>0.40</cell><cell>1.88</cell><cell>-0.317</cell></row><row><cell></cell><cell></cell><cell>SD</cell><cell>0.04</cell><cell>0.05</cell><cell>0.18</cell><cell>0.180</cell></row><row><cell>Invasive</cell><cell>URU</cell><cell>Polonio</cell><cell>0.33</cell><cell>0.38</cell><cell>1.98</cell><cell>-0.162</cell></row><row><cell>Invasive</cell><cell>URU</cell><cell>Hotel</cell><cell>0.29</cell><cell>0.35</cell><cell>1.73</cell><cell>-0.221</cell></row><row><cell>Invasive</cell><cell>URU</cell><cell>Front</cell><cell>0.28</cell><cell>0.38</cell><cell>1.76</cell><cell>-0.386</cell></row><row><cell></cell><cell></cell><cell>Mean</cell><cell>0.30</cell><cell>0.37</cell><cell>1.82</cell><cell>-0.256</cell></row><row><cell></cell><cell></cell><cell>SD</cell><cell>0.03</cell><cell>0.02</cell><cell>0.14</cell><cell>0.116</cell></row><row><cell>Native</cell><cell>AUS</cell><cell>Clov</cell><cell>0.31</cell><cell>0.38</cell><cell>1.85</cell><cell>-0.216</cell></row><row><cell>Native</cell><cell>AUS</cell><cell>Green</cell><cell>0.26</cell><cell>0.31</cell><cell>1.73</cell><cell>-0.179</cell></row><row><cell>Native</cell><cell>AUS</cell><cell>Bilpin</cell><cell>0.27</cell><cell>0.31</cell><cell>1.70</cell><cell>-0.133</cell></row><row><cell>Native</cell><cell>AUS</cell><cell>Ulladulla</cell><cell>0.21</cell><cell>0.33</cell><cell>1.60</cell><cell>-0.558</cell></row><row><cell>Native</cell><cell>AUS</cell><cell>Vaucluse</cell><cell>0.27</cell><cell>0.39</cell><cell>1.79</cell><cell>-0.441</cell></row><row><cell>Native</cell><cell>AUS</cell><cell>Torrington</cell><cell>0.12</cell><cell>0.18</cell><cell>1.29</cell><cell>-0.472</cell></row><row><cell>Native</cell><cell>AUS</cell><cell>Marulan</cell><cell>0.34</cell><cell>0.43</cell><cell>2.18</cell><cell>-0.247</cell></row><row><cell>Native</cell><cell>AUS</cell><cell>Beachport</cell><cell>0.21</cell><cell>0.25</cell><cell>1.57</cell><cell>-0.189</cell></row><row><cell>Native</cell><cell>AUS</cell><cell>Curdievale</cell><cell>0.30</cell><cell>0.37</cell><cell>1.82</cell><cell>-0.226</cell></row><row><cell>Native</cell><cell>AUS</cell><cell>Bermagui</cell><cell>0.26</cell><cell>0.33</cell><cell>1.88</cell><cell>-0.283</cell></row><row><cell></cell><cell></cell><cell>Mean</cell><cell>0.25</cell><cell>0.32</cell><cell>1.73</cell><cell>-0.303</cell></row><row><cell></cell><cell></cell><cell>SD</cell><cell>0.06</cell><cell>0.07</cell><cell>0.23</cell><cell>0.144</cell></row><row><cell>Native</cell><cell>TAS</cell><cell>Bridport</cell><cell>0.20</cell><cell>0.26</cell><cell>1.56</cell><cell>-0.342</cell></row><row><cell>Native</cell><cell>TAS</cell><cell>Helens</cell><cell>0.35</cell><cell>0.43</cell><cell>2.05</cell><cell>-0.256</cell></row><row><cell>Native</cell><cell>TAS</cell><cell>SMile</cell><cell>0.38</cell><cell>0.40</cell><cell>2.23</cell><cell>-0.068</cell></row></table></figure>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgements<p><s>The Authors wish to thank Micael Rodrigues (Portugal) for his help with the microsatellite analyses in the laboratory; Eric Norton (South Africa), João Meira-Neto (Brazil) and Joana Jesus (Portugal) for their help with sample collection in the field; and Miguel Prado (Portugal), Pablo Souza-Alonso (Spain), David M. Richardson (South Africa), David Eldridge (Australia, NSW), Catherine R. Dickson (Australia, TAS), Penelope P. Pascoe (Australia, TAS), Anna Povey (Australia, TAS) and Joe Quarmby (Australia, TAS) for collecting samples and sending them to us.</s><s>Lastly, thank you to Miguel Prado for also allowing us access to his properties in Vila Nova de Milfontes.</s></p><p><s>This research was funded by Fundação para a Ciência e a Tecnologia (FCT, Portugal), FCT/MCTES, through the financial support to CESAM (UIDP/50017/2020, UIDB/50017/2020 and LA/P/0094/2020) and the financial support to cE3c (UIDB/00329/2020).</s><s>SV worked under the following scholarships: PD/ BD/135536/2018 and COVID/BD/152524/2022 awarded by FCT, Portugal, and International Cotutelle Macquarie University Research Excellence Scholarship (iM-QRES Tuition -Cotutelle &amp; MQRES Stipend -Cotutelle).</s></p><p><s>All authors were involved in the research conceptualisation, data interpretation and in writing, reviewing, and editing the manuscript.</s><s>SV, CM and JLR collected the samples.</s><s>SV performed the laboratory work and data analysis.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">Supplementary material 1<p><s>Supplementary methodology details (primers, PCR conditions) and data analyses.</s><s>Authors: Sara Vicente, Helena Trindade, Cristina Máguas, Johannes J. <ref type="bibr">Le</ref> <ref type="figure"></ref>and<ref type="figure">C-D</ref>) further analysis of the largest cluster (indicated in blue in Fig. <ref type="figure">6A</ref> in the main text) identified in the analysis of the complete dataset (hierarchical analysis), respectively.</s><s>STRUCTURE bar plots for K = 3 -6 from the hierarchical analysis of the largest cluster from analysis of the complete dataset (indicated in blue in Fig. <ref type="figure">6A</ref> in the main text).</s><s>Results from the STRUCTURE HARVESTER analysis of the native range dataset.</s><s>STRUCTURE bar plots for K = 3 -6 from the analysis of the native range data only.</s><s>Likelihood distribution [LnP(K)] and Delta K plots <ref type="bibr">(Evanno method;</ref><ref target="#b17" type="bibr">Evanno et al. 2005)</ref> from STRUCTURE HARVESTER analysis for A-B) mainland Australia data, and C-D) Tasmania data, respectively.</s><s>STRUCTURE bar plots for K = 2 -6 (except K = 4) from the analysis of the mainland Australia data only.</s><s>STRUCTURE bar plots for K = 3 -6 from the analysis of the Tasmania data</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Supplementary material 2<p><s>Genotype data used in this study in GenAlEx format.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<monogr>
+<idno type="DOI">10.26197/ala.9380591e-6d29-44d1-9ffb-0d7d8df2be6a</idno>
+<ptr target="https://doi.org/10.26197/ala.9380591e-6d29-44d1-9ffb-0d7"></ptr>
+<title level="m">Acacia longifolia ssp. longifolia</title>
+<imprint>
+<publisher>ALA</publisher>
+<date type="published" when="2021-11">November. 2021. d8df2be6a</date>
+</imprint>
+</monogr>
+<note>Atlas of Living Australia</note>
+<note type="raw_reference">November] 2021a) Atlas of Living Australia. https://doi.org/10.26197/ ala.9380591e-6d29-44d1-9ffb-0d7d8df2be6a [Acacia longifolia ssp. longifolia] ALA (</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<monogr>
+<idno type="DOI">10.26197/ala.eff1cef9-0c2b-4eb0-b08f-f1496f3b5dec</idno>
+<ptr target="https://doi.org/10.26197/ala.eff1cef9-0c2b-4eb0-b08f-f1496f3b5"></ptr>
+<title level="m">Atlas of Living Australia</title>
+<imprint>
+<date type="published" when="2021-11">November. 2021b</date>
+</imprint>
+</monogr>
+<note>dec [Acacia longifolia ssp. sophorae</note>
+<note type="raw_reference">November] 2021b) Atlas of Living Australia. https://doi.org/10.26197/ala.eff1cef9- 0c2b-4eb0-b08f-f1496f3b5dec [Acacia longifolia ssp. sophorae]</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Median-joining networks for inferring intraspecific phylogenies</title>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">J</forename><surname>Bandelt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Forster</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Röhl</surname></persname>
+</author>
+<idno type="DOI">10.1093/oxfordjournals.molbev.a026036</idno>
+<ptr target="https://doi.org/10.1093/oxford-journals"></ptr>
+</analytic>
+<monogr>
+<title level="j">Molecular Biology and Evolution</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="37" to="48" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bandelt HJ, Forster P, Röhl A (1999) Median-joining networks for inferring intraspecific phy- logenies. Molecular Biology and Evolution 16(1): 37-48. https://doi.org/10.1093/oxford- journals.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<monogr>
+<title></title>
+<author>
+<persname><surname>Molbev</surname></persname>
+</author>
+<idno type="DOI">10.1093/oxfordjournals.molbev.a026036</idno>
+<idno>.a026036</idno>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">molbev.a026036</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Estudio morfológico de las semillas de Leguminosas Mimosoideas y Caesalpinioideas de interés agronómico en la Argentina</title>
+<author>
+<persname><forename type="first">O</forename><surname>Boelcke</surname></persname>
+</author>
+<ptr target="https://www.jstor.org/stable/23211629"></ptr>
+</analytic>
+<monogr>
+<title level="j">Darwiniana</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope from="240" to="322" unit="page"></biblscope>
+<date type="published" when="1946">1946</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Boelcke O (1946) Estudio morfológico de las semillas de Leguminosas Mimosoideas y Caesal- pinioideas de interés agronómico en la Argentina. Darwiniana 7: 240-322. https://www. jstor.org/stable/23211629</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Leguminosas, Mimosoideas. I Parte, Fascículo LEGU</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">E</forename><surname>Burkart</surname></persname>
+</author>
+<ptr target="https://hbriai.webnode.com.br/products/enciclopedia-flora-ilustrada-catarinense-fic/"></ptr>
+</analytic>
+<monogr>
+<title level="m">Flora Ilustrada Catarinense. Herbário "Barbosa Rodrigues</title>
+<editor>
+<persname><forename type="first">P</forename><forename type="middle">R</forename><surname>Reitz</surname></persname>
+</editor>
+<imprint>
+<date type="published" when="1979">1979</date>
+<biblscope unit="volume">Itajaí</biblscope>
+<biblscope unit="page">299</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Burkart AE (1979) Leguminosas, Mimosoideas. I Parte, Fascículo LEGU. In: Reitz PR (Ed.) Flora Ilustrada Catarinense. Herbário "Barbosa Rodrigues," Itajaí, 299 pp. https://hbriai. webnode.com.br/products/enciclopedia-flora-ilustrada-catarinense-fic/</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">A native at home and abroad: The history, politics, ethics and aesthetics of acacias</title>
+<author>
+<persname><forename type="first">J</forename><surname>Carruthers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Robin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Hattingh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Kull</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Rangan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">W</forename><surname>Van Wilgen</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1472-4642.2011.00779.x</idno>
+<ptr target="https://doi.org/10.1111/j.1472-4642.2011.00779.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Diversity &amp; Distributions</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="810" to="821" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Carruthers J, Robin L, Hattingh JP, Kull CA, Rangan H, van Wilgen BW (2011) A native at home and abroad: The history, politics, ethics and aesthetics of acacias. Diversity &amp; Distri- butions 17(5): 810-821. https://doi.org/10.1111/j.1472-4642.2011.00779.x</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">La vegetación de las dunas costeras pampeanas</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">E</forename><surname>Celsi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">La Costa Atlántica de Buenos Aires</title>
+<editor>
+<persname><forename type="first">J</forename><surname>Athor</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">C</forename><surname>Celsi</surname></persname>
+</editor>
+<meeting><address><addrline>Buenos Aires</addrline></address></meeting>
+<imprint>
+<publisher>Fundación de Historia Natural Félix de Azara</publisher>
+<date type="published" when="2016">2016</date>
+<biblscope from="116" to="138" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Celsi CE (2016) La vegetación de las dunas costeras pampeanas. In: Athor J, Celsi C (Eds) La Costa Atlántica de Buenos Aires. Naturaleza y Patrimonio Cultural. Fundación de Historia Natural Félix de Azara, Buenos Aires, 116-138.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Microsatellite null alleles and estimation of population differentiation</title>
+<author>
+<persname><forename type="first">M-P</forename><surname>Chapuis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Estoup</surname></persname>
+</author>
+<idno type="DOI">10.1093/molbev/msl191</idno>
+<ptr target="https://doi.org/10.1093/molbev/msl191"></ptr>
+</analytic>
+<monogr>
+<title level="j">Molecular Biology and Evolution</title>
+<imprint>
+<biblscope unit="volume">24</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="621" to="631" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chapuis M-P, Estoup A (2007) Microsatellite null alleles and estimation of population dif- ferentiation. Molecular Biology and Evolution 24(3): 621-631. https://doi.org/10.1093/ molbev/msl191</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">DIYABC v2.0: A software to make approximate Bayesian computation inferences about population history using single nucleotide polymorphism, DNA sequence and microsatellite data</title>
+<author>
+<persname><forename type="first">J-M</forename><surname>Cornuet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Pudlo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Veyssier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Dehne-Garcia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Gautier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Leblois</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J-M</forename><surname>Marin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Estoup</surname></persname>
+</author>
+<idno type="DOI">10.1093/bioinformatics/btt763</idno>
+<ptr target="https://doi.org/10.1093/bioinformatics/btt763"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bioinformatics</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope from="1187" to="1189" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+<pubplace>Oxford, England</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Cornuet J-M, Pudlo P, Veyssier J, Dehne-Garcia A, Gautier M, Leblois R, Marin J-M, Estoup A (2014) DIYABC v2.0: A software to make approximate Bayesian computation infer- ences about population history using single nucleotide polymorphism, DNA sequence and microsatellite data. Bioinformatics (Oxford, England) 30(8): 1187-1189. https://doi. org/10.1093/bioinformatics/btt763</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">The effect of the gall wasp Trichilogaster acaciaelongifoliae (Hymenoptera: Pteromalidae) on reproductive potential and vegetative growth of the weed Acacia longifolia</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">B</forename><surname>Dennill</surname></persname>
+</author>
+<idno type="DOI">10.1016/0167-8809(85)90084-2</idno>
+<ptr target="https://doi.org/10.1016/0167-8809(85)90084-2"></ptr>
+</analytic>
+<monogr>
+<title level="j">Agriculture, Ecosystems &amp; Environment</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope unit="issue">1-2</biblscope>
+<biblscope from="53" to="61" unit="page"></biblscope>
+<date type="published" when="1985">1985</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dennill GB (1985) The effect of the gall wasp Trichilogaster acaciaelongifoliae (Hymenoptera: Pteromalidae) on reproductive potential and vegetative growth of the weed Acacia longifolia. Agriculture, Ecosystems &amp; Environment 14(1-2): 53-61. https://doi.org/10.1016/0167- 8809(85)90084-2</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">The importance of understanding host plant phenology in the biological control of Acacia longifolia</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">B</forename><surname>Dennill</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1744-7348.1987.tb02023.x</idno>
+<ptr target="https://doi.org/10.1111/j.1744-7348.1987.tb02023.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Annals of Applied Biology</title>
+<imprint>
+<biblscope unit="volume">111</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="661" to="666" unit="page"></biblscope>
+<date type="published" when="1987">1987</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dennill GB (1987) The importance of understanding host plant phenology in the biologi- cal control of Acacia longifolia. Annals of Applied Biology 111(3): 661-666. https://doi. org/10.1111/j.1744-7348.1987.tb02023.x</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">A rapid DNA isolation procedure for small quantities of fresh leaf tissue</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Doyle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Doyle</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Phytochemical Bulletin</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope from="11" to="15" unit="page"></biblscope>
+<date type="published" when="1987">1987</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Doyle JJ, Doyle JL (1987) A rapid DNA isolation procedure for small quantities of fresh leaf tissue. Phytochemical Bulletin 19: 11-15.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<monogr>
+<title level="m" type="main">ade4: Analysis of Ecological Data: Exploratory and Euclidean Methods in Environmental Sciences</title>
+<author>
+<persname><forename type="first">S</forename><surname>Dray</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A-B</forename><surname>Dufour</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Thioulouse</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Jombart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Pavoine</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Lobry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ollier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Borcard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Legendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Bougeard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Siberchicot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Dray</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=ade4"></ptr>
+<imprint>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dray S, Dufour A-B, Thioulouse J, Jombart T, Pavoine S, Lobry JR, Ollier S, Borcard D, Legendre P, Bougeard S, Siberchicot A, Dray S (2022) ade4: Analysis of Ecological Data: Exploratory and Euclidean Methods in Environmental Sciences. https://CRAN.R-project.org/package=ade4</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">STRUCTURE HARVESTER: A website and program for visualizing STRUCTURE output and implementing the Evanno method</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Earl</surname></persname>
+</author>
+<idno type="DOI">10.1007/s12686-011-9548-7</idno>
+<ptr target="https://doi.org/10.1007/s12686-011-9548-7"></ptr>
+</analytic>
+<monogr>
+<title level="j">Conservation Genetics Resources</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="359" to="361" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Earl DA, vonHoldt BM (2012) STRUCTURE HARVESTER: A website and program for visualizing STRUCTURE output and implementing the Evanno method. Conservation Genetics Resources 4(2): 359-361. https://doi.org/10.1007/s12686-011-9548-7</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<monogr>
+<title></title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Ersts</surname></persname>
+</author>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">Ersts PJ (</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<monogr>
+<ptr target="http://biodiversityinformatics.amnh.org/open_source/gdmg"></ptr>
+<title level="m">Geographic Distance Matrix Generator (version 1.2.3</title>
+<imprint>
+<publisher>American Museum of Natural History, Center for Biodiversity and Conservation</publisher>
+</imprint>
+</monogr>
+<note>Internet</note>
+<note type="raw_reference">Internet] Geographic Distance Matrix Generator (version 1.2.3). American Museum of Natural History, Center for Biodiversity and Conservation. http://biodiversityinformatics.amnh.org/open_source/gdmg</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Detecting the number of clusters of individuals using the software structure: A simulation study</title>
+<author>
+<persname><forename type="first">G</forename><surname>Evanno</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Regnaut</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Goudet</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-294X.2005.02553.x</idno>
+<ptr target="https://doi.org/10.1111/j.1365-294X.2005.02553.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Molecular Ecology</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope from="2611" to="2620" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Evanno G, Regnaut S, Goudet J (2005) Detecting the number of clusters of individuals using the software structure: A simulation study. Molecular Ecology 14(8): 2611-2620. https:// doi.org/10.1111/j.1365-294X.2005.02553.x</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Recuperação ecológica de áreas invadidas por Acacia dealbata Link no Vale do Rio Gerês: um trabalho de sísifo?</title>
+<author>
+<persname><forename type="first">M</forename><surname>Fernandes</surname></persname>
+</author>
+<idno type="DOI">10.13140/RG.2.2.13940.40320</idno>
+<ptr target="https://doi.org/10.13140/RG.2.2.13940.40320"></ptr>
+</analytic>
+<monogr>
+<title level="s">Universidade de Trás-os-Montes e</title>
+<imprint>
+<date type="published" when="2008">2008</date>
+<pubplace>Alto Douro, Portugal</pubplace>
+</imprint>
+</monogr>
+<note type="report_type">MSc Thesis</note>
+<note type="raw_reference">Fernandes M (2008) Recuperação ecológica de áreas invadidas por Acacia dealbata Link no Vale do Rio Gerês: um trabalho de sísifo? MSc Thesis. Universidade de Trás-os-Montes e Alto Douro, Portugal. https://doi.org/10.13140/RG.2.2.13940.40320</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<monogr>
+<title level="m" type="main">Flora of Australia</title>
+<author>
+<persname><forename type="first">Australia</forename><surname>Flora</surname></persname>
+</author>
+<ptr target=".org"></ptr>
+<imprint>
+<date type="published" when="2001">2001</date>
+<publisher>GBIF</publisher>
+<biblscope unit="volume">11</biblscope>
+<pubplace>Melbourne</pubplace>
+</imprint>
+</monogr>
+<note>Acacia part 2</note>
+<note type="raw_reference">Flora of Australia (2001) Flora of Australia (Vol. 11B), Mimosaceae, Acacia part 2. ABRS/ CSIRO Publishing, Melbourne. GBIF.org (</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<monogr>
+<title level="m" type="main">GBIF Occurrence (Acacia longifolia ssp. longifolia)</title>
+<idno type="DOI">10.15468/dl.yu2xpv</idno>
+<ptr target="https://doi.org/10.15468/dl.yu2xpvGBIF.org"></ptr>
+<imprint>
+<date type="published" when="2021">November2021a</date>
+</imprint>
+</monogr>
+<note type="raw_reference">November2021a) GBIF Occurrence (Acacia longifolia ssp. longifolia). https:// doi.org/10.15468/dl.yu2xpv GBIF.org (</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<monogr>
+<title level="m" type="main">GBIF Occurrence (Acacia longifolia ssp. sophorae)</title>
+<idno type="DOI">10.15468/dl.yjd4cg</idno>
+<ptr target="https://doi.org/10.15468/dl.yjd4cg"></ptr>
+<imprint>
+<date type="published" when="2021">November2021b</date>
+</imprint>
+</monogr>
+<note type="raw_reference">November2021b) GBIF Occurrence (Acacia longifolia ssp. sophorae). https://doi. org/10.15468/dl.yjd4cg</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Matching the origin of an invasive weed for selection of a herbivore haplotype for a biological control programme</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Goolsby</surname></persname>
+</author>
+<author>
+<persname><forename type="first">De</forename><surname>Barro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Makinson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Pemberton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">W</forename><surname>Hartley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Frohlich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-294X.2005.02788.x</idno>
+<ptr target="https://doi.org/10.1111/j.1365-294X.2005.02788.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Molecular Ecology</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="287" to="297" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Goolsby JA, De Barro PJ, Makinson JR, Pemberton RW, Hartley DM, Frohlich DR (2006) Matching the origin of an invasive weed for selection of a herbivore haplotype for a bio- logical control programme. Molecular Ecology 15(1): 287-297. https://doi.org/10.1111/ j.1365-294X.2005.02788.x</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Global uses of Australian acacias -recent trends and future prospects</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Griffin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Midgley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Bush</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Cunningham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">T</forename><surname>Rinaudo</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1472-4642.2011.00814.x</idno>
+<ptr target="https://doi.org/10.1111/j.1472-4642.2011.00814.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Diversity &amp; Distributions</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="837" to="847" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Griffin AR, Midgley SJ, Bush D, Cunningham PJ, Rinaudo AT (2011) Global uses of Australi- an acacias -recent trends and future prospects. Diversity &amp; Distributions 17(5): 837-847. https://doi.org/10.1111/j.1472-4642.2011.00814.x</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<monogr>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Henriques</surname></persname>
+</author>
+<ptr target="http://hdl.han-dle.net/10316.2/22607"></ptr>
+<title level="m">Catalogo das plantas cultivadas no Jardim Botânico da Universidade de Coimbra no anno de 1878</title>
+<meeting><address><addrline>Coimbra</addrline></address></meeting>
+<imprint>
+<publisher>Imprensa da Universidade</publisher>
+<date type="published" when="1879">1879</date>
+<biblscope unit="volume">247</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Henriques JA (1879) Catalogo das plantas cultivadas no Jardim Botânico da Universidade de Coimbra no anno de 1878. Imprensa da Universidade, Coimbra, 247 pp. http://hdl.han- dle.net/10316.2/22607</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Raster: geographic analysis and modeling with raster data</title>
+<author>
+<persname><forename type="first">R</forename><surname>Hijmans</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Van Etten</surname></persname>
+</author>
+<ptr target="http://CRAN.R-project.org/package=raster"></ptr>
+</analytic>
+<monogr>
+<title level="m">R package version 2</title>
+<imprint>
+<date type="published" when="2010">2010</date>
+<biblscope from="1" to="66" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Hijmans R, van Etten J (2010) Raster: geographic analysis and modeling with raster data. R package version 2.1-66. http://CRAN.R-project.org/package=raster</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Unresolved native range taxonomy complicates inferences in invasion ecology: Acacia dealbata Link as an example</title>
+<author>
+<persname><forename type="first">H</forename><surname>Hirsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Gallien</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Fac</forename><surname>Impson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Kleinjan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename></persname>
+</author>
+<idno type="DOI">10.1007/s10530-017-1381-9</idno>
+<ptr target="https://doi.org/10.1007/s10530-017-1381-9"></ptr>
+</analytic>
+<monogr>
+<title level="j">Biological Invasions</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="1715" to="1722" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hirsch H, Gallien L, Impson FAC, Kleinjan C, Richardson DM, Le Roux JJ (2017) Unre- solved native range taxonomy complicates inferences in invasion ecology: Acacia dealbata Link as an example. Biological Invasions 19(6): 1715-1722. https://doi.org/10.1007/ s10530-017-1381-9</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Historical range contraction, and not taxonomy, explains the contemporary genetic structure of the Australian tree Acacia dealbata Link</title>
+<author>
+<persname><forename type="first">H</forename><surname>Hirsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Fac</forename><surname>Impson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Kleinjan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename></persname>
+</author>
+<idno type="DOI">10.1007/s11295-018-1262-0</idno>
+<ptr target="https://doi.org/10.1007/s11295-018-1262-0"></ptr>
+</analytic>
+<monogr>
+<title level="j">Tree Genetics &amp; Genomes</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="1" to="49" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hirsch H, Richardson DM, Impson FAC, Kleinjan C, Le Roux JJ (2018) Historical range contraction, and not taxonomy, explains the contemporary genetic structure of the Aus- tralian tree Acacia dealbata Link. Tree Genetics &amp; Genomes 14(4): 1-49. https://doi. org/10.1007/s11295-018-1262-0</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Ghosts from the past: Even comprehensive sampling of the native range may not be enough to unravel the introduction history of invasive species-the case of Acacia dealbata invasions in South Africa</title>
+<author>
+<persname><forename type="first">H</forename><surname>Hirsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Castillo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Fac</forename><surname>Impson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Kleinjan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename></persname>
+</author>
+<idno type="DOI">10.1002/ajb2.1244</idno>
+<ptr target="https://doi.org/10.1002/ajb2.1244"></ptr>
+</analytic>
+<monogr>
+<title level="j">American Journal of Botany</title>
+<imprint>
+<biblscope unit="volume">106</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="352" to="362" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hirsch H, Castillo ML, Impson FAC, Kleinjan C, Richardson DM, Le Roux JJ (2019) Ghosts from the past: Even comprehensive sampling of the native range may not be enough to unravel the introduction history of invasive species-the case of Acacia dealbata invasions in South Africa. American Journal of Botany 106(3): 352-362. https://doi.org/10.1002/ ajb2.1244</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Genetic analyses reveal complex introduction histories for the invasive tree Acacia dealbata Link around the world</title>
+<author>
+<persname><forename type="first">H</forename><surname>Hirsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Pauchard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename></persname>
+</author>
+<idno type="DOI">10.1111/ddi.13186</idno>
+<ptr target="https://doi.org/10.1111/ddi.13186"></ptr>
+</analytic>
+<monogr>
+<title level="j">Diversity &amp; Distributions</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="360" to="376" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hirsch H, Richardson DM, Pauchard A, Le Roux JJ (2021) Genetic analyses reveal complex in- troduction histories for the invasive tree Acacia dealbata Link around the world. Diversity &amp; Distributions 27(2): 360-376. https://doi.org/10.1111/ddi.13186</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Alien Terrestrial Invertebrates in South Africa</title>
+<author>
+<persname><forename type="first">C</forename><surname>Janion-Scheepers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">L</forename><surname>Griffiths</surname></persname>
+</author>
+<idno type="DOI">10.1007/978-3-030-32394-3_7</idno>
+<ptr target="https://doi.org/10.1007/978-3-030-32394-3_7"></ptr>
+</analytic>
+<monogr>
+<title level="m">Biological Invasions in South Africa</title>
+<editor>
+<persname><forename type="first">B</forename><forename type="middle">W</forename><surname>Van Wilgen</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">J</forename><surname>Measey</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Wilson</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">T</forename><forename type="middle">A</forename><surname>Zengeya</surname></persname>
+</editor>
+<meeting><address><addrline>New York</addrline></address></meeting>
+<imprint>
+<publisher>Springer International Publishing</publisher>
+<date type="published" when="2020">2020</date>
+<biblscope from="185" to="205" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Janion-Scheepers C, Griffiths CL (2020) Alien Terrestrial Invertebrates in South Africa. In: van Wilgen BW, Measey J, Richardson DM, Wilson JR, Zengeya TA (Eds) Biological Inva- sions in South Africa. Springer International Publishing, New York, 185-205. https://doi. org/10.1007/978-3-030-32394-3_7</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Sourcing effective biological control agents of conical snails, Cochlicella acuta, in Europe and north Africa for release in southern Australia</title>
+<author>
+<persname><forename type="first">M</forename><surname>Jourdan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Thomann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Kriticos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M-C</forename><surname>Bon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Sheppard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">H</forename><surname>Baker</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.biocontrol.2019.03.020</idno>
+<ptr target="https://doi.org/10.1016/j.biocontrol.2019.03.020"></ptr>
+</analytic>
+<monogr>
+<title level="j">Biological Control</title>
+<imprint>
+<biblscope unit="volume">134</biblscope>
+<biblscope from="1" to="14" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jourdan M, Thomann T, Kriticos DJ, Bon M-C, Sheppard A, Baker GH (2019) Sourcing effec- tive biological control agents of conical snails, Cochlicella acuta, in Europe and north Africa for release in southern Australia. Biological Control 134: 1-14. https://doi.org/10.1016/j. biocontrol.2019.03.020</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">diveRsity: An R package for the estimation and exploration of population genetics parameters and their associated errors</title>
+<author>
+<persname><forename type="first">K</forename><surname>Keenan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Mcginnity</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">F</forename><surname>Cross</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">W</forename><surname>Crozier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Prodöhl</surname></persname>
+</author>
+<idno type="DOI">10.1111/2041-210X.12067</idno>
+<ptr target="https://doi.org/10.1111/2041-210X.12067"></ptr>
+</analytic>
+<monogr>
+<title level="j">Methods in Ecology and Evolution</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope from="782" to="788" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Keenan K, McGinnity P, Cross TF, Crozier WW, Prodöhl PA (2013) diveRsity: An R package for the estimation and exploration of population genetics parameters and their associated errors. Methods in Ecology and Evolution 4(8): 782-788. https://doi.org/10.1111/2041- 210X.12067</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">rgdal: Bindings for the Geospatial Data Abstraction Library</title>
+<author>
+<persname><forename type="first">T</forename><surname>Keitt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Bivand</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Pebesma</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Rowlingson</surname></persname>
+</author>
+<ptr target="https://cran.r-project.org/web/packages/rgdal/rgdal.pdf"></ptr>
+</analytic>
+<monogr>
+<title level="m">R package version 0</title>
+<imprint>
+<date type="published" when="2010">2010</date>
+<biblscope from="8" to="13" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Keitt T, Bivand R, Pebesma E, Rowlingson B (2010) rgdal: Bindings for the Geospatial Data Abstraction Library. R package version 0.8-13. https://cran.r-project.org/web/packages/ rgdal/rgdal.pdf</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Clumpak: A program for identifying clustering modes and packaging population structure inferences across K</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">M</forename><surname>Kopelman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Mayzel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Jakobsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">A</forename><surname>Rosenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Mayrose</surname></persname>
+</author>
+<idno type="DOI">10.1111/1755-0998.12387</idno>
+<ptr target="https://doi.org/10.1111/1755-0998.12387"></ptr>
+</analytic>
+<monogr>
+<title level="j">Molecular Ecology Resources</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="1179" to="1191" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kopelman NM, Mayzel J, Jakobsson M, Rosenberg NA, Mayrose I (2015) Clumpak: A pro- gram for identifying clustering modes and packaging population structure inferences across K. Molecular Ecology Resources 15(5): 1179-1191. https://doi.org/10.1111/1755- 0998.12387</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Multifunctional, scrubby, and invasive forests?</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Kull</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Tassin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Rangan</surname></persname>
+</author>
+<idno type="DOI">10.1659/mrd.0864</idno>
+<ptr target="https://doi.org/10.1659/mrd.0864"></ptr>
+</analytic>
+<monogr>
+<title level="j">Mountain Research and Development</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="224" to="231" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kull CA, Tassin J, Rangan H (2007) Multifunctional, scrubby, and invasive forests? Mountain Research and Development 27(3): 224-231. https://doi.org/10.1659/mrd.0864</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Invasive Australian acacias on western Indian Ocean islands: A historical and ecological perspective</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Kull</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Tassin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Rambeloarisoa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J-M</forename><surname>Sarrailh</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-2028.2007.00892.x</idno>
+<ptr target="https://doi.org/10.1111/j.1365-2028.2007.00892.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">African Journal of Ecology</title>
+<imprint>
+<biblscope unit="volume">46</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="684" to="689" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kull CA, Tassin J, Rambeloarisoa G, Sarrailh J-M (2008) Invasive Australian acacias on western Indian Ocean islands: A historical and ecological perspective. African Journal of Ecology 46(4): 684-689. https://doi.org/10.1111/j.1365-2028.2007.00892.x</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Adoption, use and perception of Australian acacias around the world</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Kull</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Shackleton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Cunningham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Ducatillon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J-M</forename><surname>Dufour-Dror</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Esler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Friday</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Gouveia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Griffin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Marchante</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Midgley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Pauchard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Rangan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Rinaudo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Tassin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">S</forename><surname>Urgenson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Von</forename><surname>Maltitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">P</forename><surname>Zenni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">D</forename><surname>Zylstra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename></persname>
+</author>
+<idno type="DOI">10.1111/j.1472-4642.2011.00783.x</idno>
+<ptr target="https://doi.org/10.1111/j.1472-4642.2011.00783.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Diversity &amp; Distributions</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="822" to="836" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kull CA, Shackleton CM, Cunningham PJ, Ducatillon C, Dufour-Dror J-M, Esler KJ, Friday JB, Gouveia AC, Griffin AR, Marchante E, Midgley SJ, Pauchard A, Rangan H, Richardson DM, Rinaudo T, Tassin J, Urgenson LS, von Maltitz GP, Zenni RD, Zylstra MJ (2011) Adoption, use and perception of Australian acacias around the world. Diversity &amp; Distri- butions 17(5): 822-836. https://doi.org/10.1111/j.1472-4642.2011.00783.x</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Invasion genetics: molecular genetic insights into the spatial and temporal dynamics of biological invasions</title>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename></persname>
+</author>
+<idno type="DOI">10.1016/B978-0-12-818378-6.00007-3</idno>
+<ptr target="https://doi.org/10.1016/B978-0-12-818378-6.00007-3"></ptr>
+</analytic>
+<monogr>
+<title level="m">The Evolutionary Ecology of Invasive Species</title>
+<meeting><address><addrline>Cambridge</addrline></address></meeting>
+<imprint>
+<publisher>Academic Press</publisher>
+<date type="published" when="2021">2021</date>
+<biblscope from="159" to="188" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Le Roux J (2021) Invasion genetics: molecular genetic insights into the spatial and temporal dynamics of biological invasions. The Evolutionary Ecology of Invasive Species. Academic Press, Cambridge, 159-188. https://doi.org/10.1016/B978-0-12-818378-6.00007-3</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Human usage in the native range may determine future genetic structure of an invasion: Insights from Acacia pycnantha</title>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jru</forename><surname>Ndlovu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename></persname>
+</author>
+<idno type="DOI">10.1186/1472-6785-13-37</idno>
+<ptr target="https://doi.org/10.1186/1472-6785-13-37"></ptr>
+</analytic>
+<monogr>
+<title level="j">BMC Ecology</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="1" to="37" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Le Roux JJ, Richardson DM, Wilson JRU, Ndlovu J (2013) Human usage in the native range may determine future genetic structure of an invasion: Insights from Acacia pycnantha. BMC Ecology 13(1): 1-37. https://doi.org/10.1186/1472-6785-13-37</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">maptools: Tools for reading and handling spatial objects</title>
+<author>
+<persname><forename type="first">N</forename><surname>Lewin-Koh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Bivand</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Pebesma</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Archer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Baddeley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H-J</forename><surname>Bibiko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Dray</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Forrest</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Friendly</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Giraudoux</surname></persname>
+</author>
+<ptr target="http://maptools.r-forge.r-project.org/"></ptr>
+</analytic>
+<monogr>
+<title level="m">R package version 0</title>
+<imprint>
+<date type="published" when="2011">2011</date>
+<biblscope from="8" to="27" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Lewin-Koh N, Bivand R, Pebesma E, Archer E, Baddeley A, Bibiko H-J, Dray S, Forrest D, Friendly M, Giraudoux P (2011) maptools: Tools for reading and handling spatial objects. R package version 0.8-27. http://maptools.r-forge.r-project.org/</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Establishment, spread and early impacts of the first biocontrol agent against an invasive plant in continental Europe</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">A</forename><surname>López-Núñez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Marchante</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Heleno</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">N</forename><surname>Duarte</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Palhas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Impson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Freitas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Marchante</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jenvman.2021.112545</idno>
+<ptr target="https://doi.org/10.1016/j.jenvman.2021.112545"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Environmental Management</title>
+<imprint>
+<biblscope unit="volume">290</biblscope>
+<biblscope unit="page">112545</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">López-Núñez FA, Marchante E, Heleno R, Duarte LN, Palhas J, Impson F, Freitas H, March- ante H (2021) Establishment, spread and early impacts of the first biocontrol agent against an invasive plant in continental Europe. Journal of Environmental Management 290: e112545. https://doi.org/10.1016/j.jenvman.2021.112545</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<monogr>
+<title level="m" type="main">Avaliação de áreas invadidas por espécies de acacia na paisagem protegida da arriba fóssil da Costa de Caparica</title>
+<author>
+<persname><forename type="first">Dcgr</forename><surname>Lourenço</surname></persname>
+</author>
+<ptr target="https://run.unl.pt/handle/10362/6123"></ptr>
+<imprint>
+<date type="published" when="2009-07-14">2009. July 14, 2016</date>
+<pubplace>Portugal</pubplace>
+</imprint>
+<respstmt>
+<orgname>Universidade Nova de Lisboa</orgname>
+</respstmt>
+</monogr>
+<note type="report_type">MSc Thesis</note>
+<note type="raw_reference">Lourenço DCGR (2009) Avaliação de áreas invadidas por espécies de acacia na paisagem pro- tegida da arriba fóssil da Costa de Caparica. MSc Thesis. Universidade Nova de Lisboa, Portugal. https://run.unl.pt/handle/10362/6123 [Accessed July 14, 2016]</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<monogr>
+<title level="m" type="main">Invasive alien organisms in the terrestrial ecosystems of the fynbos biome, South Africa</title>
+<author>
+<persname><forename type="first">Iaw</forename><surname>Macdonald</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Jarman</surname></persname>
+</author>
+<imprint>
+<date type="published" when="1984">1984</date>
+<publisher>Council for Scientific and Industrial Research</publisher>
+<pubplace>New Delhi</pubplace>
+</imprint>
+<respstmt>
+<orgname>CSIR Foundation for Research Development</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">Macdonald IAW, Jarman ML (1984) Invasive alien organisms in the terrestrial ecosystems of the fynbos biome, South Africa (No. 85). CSIR Foundation for Research Development, Council for Scientific and Industrial Research, New Delhi.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Even well-studied groups of alien species might be poorly inventoried: Australian Acacia species in South Africa as a case study</title>
+<author>
+<persname><forename type="first">N</forename><surname>Magona</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Kritzinger-Klopper</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jru</forename></persname>
+</author>
+<idno type="DOI">10.3897/neobiota.39.23135</idno>
+<ptr target="https://doi.org/10.3897/neobio-ta.39.23135"></ptr>
+</analytic>
+<monogr>
+<title level="j">NeoBiota</title>
+<imprint>
+<biblscope unit="volume">39</biblscope>
+<biblscope from="1" to="29" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Magona N, Richardson DM, Le Roux JJ, Kritzinger-Klopper S, Wilson JRU (2018) Even well-studied groups of alien species might be poorly inventoried: Australian Acacia spe- cies in South Africa as a case study. NeoBiota 39: 1-29. https://doi.org/10.3897/neobio- ta.39.23135</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<monogr>
+<title level="m" type="main">Invasão dos ecossistemas dunares portugueses por Acacia: uma ameaça para a biodiversidade nativa</title>
+<author>
+<persname><forename type="first">H</forename><surname>Marchante</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2001">2001</date>
+<pubplace>Portugal</pubplace>
+</imprint>
+<respstmt>
+<orgname>Universidade de Coimbra</orgname>
+</respstmt>
+</monogr>
+<note type="report_type">MSc Thesis</note>
+<note type="raw_reference">Marchante H (2001) Invasão dos ecossistemas dunares portugueses por Acacia: uma ameaça para a biodiversidade nativa. MSc Thesis. Universidade de Coimbra, Portugal.</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<monogr>
+<title level="m" type="main">Invasion of portuguese dunes by Acacia longifolia: present status and perspective for the future</title>
+<author>
+<persname><forename type="first">H</forename><surname>Marchante</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2011">2011</date>
+<pubplace>Portugal</pubplace>
+</imprint>
+<respstmt>
+<orgname>Universidade de Coimbra</orgname>
+</respstmt>
+</monogr>
+<note type="report_type">PhD Thesis</note>
+<note type="raw_reference">Marchante H (2011) Invasion of portuguese dunes by Acacia longifolia: present status and per- spective for the future. PhD Thesis. Universidade de Coimbra, Portugal.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">Assessing the suitability and safety of a wellknown bud-galling wasp, Trichilogaster acaciaelongifoliae, for biological control of Acacia longifolia in Portugal</title>
+<author>
+<persname><forename type="first">H</forename><surname>Marchante</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Freitas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">H</forename><surname>Hoffmann</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.biocontrol.2010.11.001</idno>
+<ptr target="https://doi.org/10.1016/j.bio-control.2010.11.001"></ptr>
+</analytic>
+<monogr>
+<title level="j">Biological Control</title>
+<imprint>
+<biblscope unit="volume">56</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="193" to="201" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Marchante H, Freitas H, Hoffmann JH (2011) Assessing the suitability and safety of a well- known bud-galling wasp, Trichilogaster acaciaelongifoliae, for biological control of Acacia longifolia in Portugal. Biological Control 56(2): 193-201. https://doi.org/10.1016/j.bio- control.2010.11.001</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<monogr>
+<title level="m" type="main">AcaciaSearch: evaluation of Acacia as a woody crop option for southern Australia</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">R</forename><surname>Maslin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">W</forename><surname>Mcdonald</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2004">2004</date>
+<publisher>Rural Industries Research and Development Corporation</publisher>
+<pubplace>Canberra</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Maslin BR, McDonald MW (2004) AcaciaSearch: evaluation of Acacia as a woody crop option for southern Australia. Rural Industries Research and Development Corporation, Canberra.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Phylogenomics resolves the invasion history of Acacia auriculiformis in Florida</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Mcculloch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">T</forename><surname>Madeira</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Makinson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Dutoit</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Blair</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">H</forename><surname>Walter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Nawaz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">F</forename><surname>Purcell</surname></persname>
+</author>
+<idno type="DOI">10.1111/jbi.14013</idno>
+<ptr target="https://doi.org/10.1111/jbi.14013"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Biogeography</title>
+<imprint>
+<biblscope unit="volume">48</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="453" to="464" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McCulloch GA, Madeira PT, Makinson JR, Dutoit L, Blair Z, Walter GH, Nawaz M, Purcell MF (2021) Phylogenomics resolves the invasion history of Acacia auriculiformis in Florida. Journal of Biogeography 48(2): 453-464. https://doi.org/10.1111/jbi.14013</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">Defining entities in the Acacia saligna (Fabaceae) species complex using a population genetics approach</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Millar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Byrne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O'</forename><surname>Sullivan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename></persname>
+</author>
+<idno type="DOI">10.1071/BT10327</idno>
+<ptr target="https://doi.org/10.1071/BT10327"></ptr>
+</analytic>
+<monogr>
+<title level="j">Australian Journal of Botany</title>
+<imprint>
+<biblscope unit="volume">59</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="137" to="148" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Millar MA, Byrne M, O'Sullivan W (2011) Defining entities in the Acacia saligna (Fabaceae) species complex using a population genetics approach. Australian Journal of Botany 59(2): 137-148. https://doi.org/10.1071/BT10327</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">Native range surveys for host-specific Acacia auriculiformis biocontrol agents-A role for DNA barcoding</title>
+<author>
+<persname><forename type="first">M</forename><surname>Nawaz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Mcculloch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Brookes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Zonneveld</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">H</forename><surname>Walter</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.biocontrol.2021.104594</idno>
+<ptr target="https://doi.org/10.1016/j.biocontrol.2021.104594"></ptr>
+</analytic>
+<monogr>
+<title level="j">Biological Control</title>
+<imprint>
+<biblscope unit="volume">158</biblscope>
+<biblscope unit="page">104594</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nawaz M, McCulloch GA, Brookes DR, Zonneveld R, Walter GH (2021) Native range sur- veys for host-specific Acacia auriculiformis biocontrol agents-A role for DNA barcoding. Biological Control 158: e104594. https://doi.org/10.1016/j.biocontrol.2021.104594</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">Elucidating the native sources of an invasive tree species, Acacia pycnantha, reveals unexpected native range diversity and structure</title>
+<author>
+<persname><forename type="first">J</forename><surname>Ndlovu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jru</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O'</forename><surname>Leary</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename></persname>
+</author>
+<idno type="DOI">10.1093/aob/mct057</idno>
+<ptr target="https://doi.org/10.1093/aob/mct057"></ptr>
+</analytic>
+<monogr>
+<title level="j">Annals of Botany</title>
+<imprint>
+<biblscope unit="volume">111</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="895" to="904" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ndlovu J, Richardson DM, Wilson JRU, O'Leary M, Le Roux JJ (2013) Elucidating the native sources of an invasive tree species, Acacia pycnantha, reveals unexpected native range diversi- ty and structure. Annals of Botany 111(5): 895-904. https://doi.org/10.1093/aob/mct057</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">A most promising bud-galling wasp, Trichilogaster acaciaelongifoliae (Pteromalidae), established against Acacia longifolia in South Africa</title>
+<author>
+<persname><forename type="first">S</forename><surname>Neser</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Proceedings of the VI International Symposium of Biological Control of Weeds</title>
+<editor>
+<persname><forename type="first">E</forename><forename type="middle">S</forename><surname>Delfosse</surname></persname>
+</editor>
+<meeting>the VI International Symposium of Biological Control of Weeds<address><addrline>Canada</addrline></address></meeting>
+<imprint>
+<publisher>Agriculture and Agri-Food Canada</publisher>
+<date type="published" when="1985">1985</date>
+<biblscope unit="volume">19</biblscope>
+<biblscope from="797" to="803" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Neser S (1985) A most promising bud-galling wasp, Trichilogaster acaciaelongifoliae (Ptero- malidae), established against Acacia longifolia in South Africa. In: Delfosse ES (Ed.) Pro- ceedings of the VI International Symposium of Biological Control of Weeds (Vol. 19). Agriculture and Agri-Food Canada, Canada, 797-803.</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">Phylogeography of the world's tallest angiosperm, Eucalyptus regnans: Evidence for multiple isolated Quaternary refugia</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">G</forename><surname>Nevill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Bossinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">K</forename><surname>Ades</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-2699.2009.02193.x</idno>
+<ptr target="https://doi.org/10.1111/j.1365-2699.2009.02193.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Biogeography</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="179" to="192" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nevill PG, Bossinger G, Ades PK (2010) Phylogeography of the world's tallest angiosperm, Eucalyptus regnans: Evidence for multiple isolated Quaternary refugia. Journal of Biogeog- raphy 37(1): 179-192. https://doi.org/10.1111/j.1365-2699.2009.02193.x</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">GenAlEx 6: Genetic analysis in Excel. Population genetic software for teaching and research</title>
+<author>
+<persname><forename type="first">R</forename><surname>Peakall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1471-8286.2005.01155.x</idno>
+<ptr target="https://doi.org/10.1111/j.1471-8286.2005.01155.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Molecular Ecology Notes</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="288" to="295" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Peakall R, Smouse PE (2006) GenAlEx 6: Genetic analysis in Excel. Population genetic soft- ware for teaching and research. Molecular Ecology Notes 6(1): 288-295. https://doi. org/10.1111/j.1471-8286.2005.01155.x</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">GenAlEx 6.5: Genetic analysis in Excel. Population genetic software for teaching and research-an update</title>
+<author>
+<persname><forename type="first">R</forename><surname>Peakall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">E</forename><surname>Smouse</surname></persname>
+</author>
+<idno type="DOI">10.1093/bioinformatics/bts460</idno>
+<ptr target="https://doi.org/10.1093/bioinformatics/bts460"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bioinformatics</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope unit="issue">19</biblscope>
+<biblscope from="2537" to="2539" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+<pubplace>Oxford, England</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Peakall R, Smouse PE (2012) GenAlEx 6.5: Genetic analysis in Excel. Population genetic soft- ware for teaching and research-an update. Bioinformatics (Oxford, England) 28(19): 2537-2539. https://doi.org/10.1093/bioinformatics/bts460</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<monogr>
+<author>
+<persname><forename type="first">R</forename><surname>Poynton</surname></persname>
+</author>
+<title level="m">Tree planting in southern Africa, volume 3: Other genera</title>
+<meeting><address><addrline>Pretoria, South Africa</addrline></address></meeting>
+<imprint>
+<date type="published" when="2009">2009</date>
+</imprint>
+<respstmt>
+<orgname>Department of Agriculture, Forestry and Fisheries</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">Poynton R (2009) Tree planting in southern Africa, volume 3: Other genera. Department of Agriculture, Forestry and Fisheries, Pretoria, South Africa.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Inference of population structure using multilocus genotype data</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">K</forename><surname>Pritchard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Stephens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Donnelly</surname></persname>
+</author>
+<idno type="DOI">10.1093/genetics/155.2.945</idno>
+<ptr target="https://doi.org/10.1093/genetics/155.2.945"></ptr>
+</analytic>
+<monogr>
+<title level="j">Genetics</title>
+<imprint>
+<biblscope unit="volume">155</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="945" to="959" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pritchard JK, Stephens M, Donnelly P (2000) Inference of population structure using multilo- cus genotype data. Genetics 155(2): 945-959. https://doi.org/10.1093/genetics/155.2.945</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Hitting the right target: Taxonomic challenges for, and of, plant invasions</title>
+<author>
+<persname><forename type="first">P</forename><surname>Pyšek</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">E</forename><surname>Hulme</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">A</forename><surname>Meyerson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">F</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Boatwright</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">R</forename><surname>Crouch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Figueiredo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">C</forename><surname>Foxcroft</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Jarošík</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Suda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jru</forename><surname>Wilson</surname></persname>
+</author>
+<idno type="DOI">10.1093/aobpla/plt042</idno>
+<ptr target="https://www.r-project.org/"></ptr>
+</analytic>
+<monogr>
+<title level="m">A language and environment for statistical computing</title>
+<meeting><address><addrline>Vienna</addrline></address></meeting>
+<imprint>
+<date type="published" when="2013">2013. 2016</date>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="page">42</biblscope>
+</imprint>
+</monogr>
+<note>R Foundation for Statistical Computing</note>
+<note type="raw_reference">Pyšek P, Hulme PE, Meyerson LA, Smith GF, Boatwright JS, Crouch NR, Figueiredo E, Fox- croft LC, Jarošík V, Richardson DM, Suda J, Wilson JRU (2013) Hitting the right target: Taxonomic challenges for, and of, plant invasions. AoB Plants 5(0): plt042. https://doi. org/10.1093/aobpla/plt042 R Core Team (2016) R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna. https://www.r-project.org/</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<monogr>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Rei</surname></persname>
+</author>
+<title level="m">Arborização da Serra da Boa Viagem da Figueira da Foz (Subsídios para a sua história): 1911-1924</title>
+<meeting><address><addrline>Figueira da Foz</addrline></address></meeting>
+<imprint>
+<date type="published" when="1925">1925</date>
+</imprint>
+</monogr>
+<note>Tipografia Popular</note>
+<note type="raw_reference">Rei MA (1925) Arborização da Serra da Boa Viagem da Figueira da Foz (Subsídios para a sua história): 1911-1924. Tipografia Popular, Figueira da Foz.</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<analytic>
+<title level="a" type="main">Trees and shrubs as invasive alien species -a global review</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Rejmánek</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1472-4642.2011.00782.x</idno>
+<ptr target="https://doi.org/10.1111/j.1472-4642.2011.00782.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Diversity &amp; Distributions</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="788" to="809" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Richardson DM, Rejmánek M (2011) Trees and shrubs as invasive alien species -a global review. Di- versity &amp; Distributions 17(5): 788-809. https://doi.org/10.1111/j.1472-4642.2011.00782.x</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">Human-mediated introductions of Australian acacias -a global experiment in biogeography</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Carruthers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Hui</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Fac</forename><surname>Impson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">T</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Robertson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Rouget</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jru</forename></persname>
+</author>
+<idno type="DOI">10.1111/j.1472-4642.2011.00824.x</idno>
+<ptr target="https://doi.org/10.1111/j.1472-4642.2011.00824.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Diversity &amp; Distributions</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="771" to="787" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Richardson DM, Carruthers J, Hui C, Impson FAC, Miller JT, Robertson MP, Rouget M, Le Roux JJ, Wilson JRU (2011) Human-mediated introductions of Australian acacias -a global experiment in biogeography. Diversity &amp; Distributions 17(5): 771-787. https://doi. org/10.1111/j.1472-4642.2011.00824.x</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">Australian acacias as invasive species: Lessons to be learnt from regions with long planting histories</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename></persname>
+</author>
+<idno type="DOI">10.2989/20702620.2014.999305</idno>
+<ptr target="https://doi.org/10.2989/20702620.2014.999305"></ptr>
+</analytic>
+<monogr>
+<title level="j">Southern Forests</title>
+<imprint>
+<biblscope unit="volume">77</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="31" to="39" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Richardson DM, Le Roux JJ, Wilson JR (2015) Australian acacias as invasive species: Lessons to be learnt from regions with long planting histories. Southern Forests 77(1): 31-39. https://doi.org/10.2989/20702620.2014.999305</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<monogr>
+<title level="m" type="main">A checklist and synopsis of American species of Acacia (Leguminosae: Mimosoideae)</title>
+<author>
+<persname><forename type="first">Rico-Arce M</forename><surname>De</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename></persname>
+</author>
+<imprint>
+<date type="published" when="2007">2007</date>
+<publisher>CONABIO</publisher>
+<biblscope unit="page">220</biblscope>
+<pubplace>Mexico D. F.</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Rico-Arce M de L (2007) A checklist and synopsis of American species of Acacia (Leguminosae: Mimosoideae). CONABIO, Mexico D. F., 220 pp.</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<analytic>
+<title level="a" type="main">Microsatellite markers for vulnerable Australian aridzone Acacias</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">G</forename><surname>Roberts</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">N</forename><surname>Forrest</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Denham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Ayre</surname></persname>
+</author>
+<idno type="DOI">10.1007/s12686-012-9767-6</idno>
+<ptr target="https://doi.org/10.1007/s12686-012-9767-6"></ptr>
+</analytic>
+<monogr>
+<title level="j">Conservation Genetics Resources</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="199" to="201" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Roberts DG, Forrest CN, Denham AJ, Ayre DJ (2013) Microsatellite markers for vulnerable Australian aridzone Acacias. Conservation Genetics Resources 5(1): 199-201. https://doi. org/10.1007/s12686-012-9767-6</note>
+</biblstruct>
+<biblstruct xml:id="b66">
+<analytic>
+<title level="a" type="main">Predicting the subspecific identity of invasive species using distribution models: Acacia saligna as an example</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">D</forename><surname>Thompson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Robertson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">L</forename><surname>Webber</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jru</forename></persname>
+</author>
+<idno type="DOI">10.1111/j.1472-4642.2011.00820.x</idno>
+<ptr target="https://doi.org/10.1111/j.1472-4642.2011.00820.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Diversity &amp; Distributions</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="1001" to="1014" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thompson GD, Robertson MP, Webber BL, Richardson DM, Le Roux JJ, Wilson JRU (2011) Predicting the subspecific identity of invasive species using distribution models: Acacia saligna as an example. Diversity &amp; Distributions 17(5): 1001-1014. https://doi. org/10.1111/j.1472-4642.2011.00820.x</note>
+</biblstruct>
+<biblstruct xml:id="b67">
+<analytic>
+<title level="a" type="main">Cultivation shapes genetic novelty in a globally important invader</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">D</forename><surname>Thompson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">U</forename><surname>Bellstedt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Byrne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Millar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jru</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-294X.2012.05601.x</idno>
+<ptr target="https://doi.org/10.1111/j.1365-294X.2012.05601.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Molecular Ecology</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope unit="issue">13</biblscope>
+<biblscope from="3187" to="3199" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thompson GD, Bellstedt DU, Byrne M, Millar MA, Richardson DM, Wilson JRU, Le Roux JJ (2012) Cultivation shapes genetic novelty in a globally important invader. Molecular Ecology 21(13): 3187-3199. https://doi.org/10.1111/j.1365-294X.2012.05601.x</note>
+</biblstruct>
+<biblstruct xml:id="b68">
+<analytic>
+<title level="a" type="main">A tree well travelled: Global genetic structure of the invasive tree Acacia saligna</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">D</forename><surname>Thompson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">U</forename><surname>Bellstedt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jru</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename></persname>
+</author>
+<idno type="DOI">10.1111/jbi.12436</idno>
+<ptr target="https://doi.org/10.1111/jbi.12436"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Biogeography</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="305" to="314" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thompson GD, Bellstedt DU, Richardson DM, Wilson JRU, Le Roux JJ (2015) A tree well travelled: Global genetic structure of the invasive tree Acacia saligna. Journal of Biogeogra- phy 42(2): 305-314. https://doi.org/10.1111/jbi.12436</note>
+</biblstruct>
+<biblstruct xml:id="b69">
+<analytic>
+<title level="a" type="main">MICRO-CHECKER: Software for identifying and correcting genotyping errors in microsatellite data</title>
+<author>
+<persname><forename type="first">C</forename><surname>Van Oosterhout</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Hutchinson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Wills</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Shipley</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1471-8286.2004.00684.x</idno>
+<ptr target="https://doi.org/10.1111/j.1471-8286.2004.00684.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Molecular Ecology Notes</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="535" to="538" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Van Oosterhout C, Hutchinson W, Wills D, Shipley P (2004) MICRO-CHECKER: Software for identifying and correcting genotyping errors in microsatellite data. Molecular Ecology Notes 4(3): 535-538. https://doi.org/10.1111/j.1471-8286.2004.00684.x</note>
+</biblstruct>
+<biblstruct xml:id="b70">
+<monogr>
+<author>
+<persname><forename type="first">S</forename><surname>Vicente</surname></persname>
+</author>
+<ptr target="http://hdl.handle.net/10451/25957"></ptr>
+<title level="m">Assessment of genetic variability in the exotic invasive species Acacia longifolia using molecular markers</title>
+<meeting><address><addrline>Lisbon, Portugal</addrline></address></meeting>
+<imprint>
+<date type="published" when="2016">2016</date>
+</imprint>
+<respstmt>
+<orgname>University of</orgname>
+</respstmt>
+</monogr>
+<note type="report_type">MSc Thesis</note>
+<note type="raw_reference">Vicente S (2016) Assessment of genetic variability in the exotic invasive species Acacia longifolia using molecular markers. MSc Thesis. University of Lisbon, Portugal. http://hdl.handle. net/10451/25957</note>
+</biblstruct>
+<biblstruct xml:id="b71">
+<analytic>
+<title level="a" type="main">Genetic diversity and differentiation of invasive Acacia longifolia in Portugal</title>
+<author>
+<persname><forename type="first">S</forename><surname>Vicente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Máguas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Trindade</surname></persname>
+</author>
+<idno type="DOI">10.5194/we-18-91-2018</idno>
+<ptr target="https://doi.org/10.5194/we-18-91-2018"></ptr>
+</analytic>
+<monogr>
+<title level="j">Web Ecology</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="91" to="103" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vicente S, Máguas C, Trindade H (2018) Genetic diversity and differentiation of invasive Acacia longifolia in Portugal. Web Ecology 18(1): 91-103. https://doi.org/10.5194/we-18-91-2018</note>
+</biblstruct>
+<biblstruct xml:id="b72">
+<analytic>
+<title level="a" type="main">The distribution of the invasive Acacia longifolia shows an expansion towards southern latitudes in South America</title>
+<author>
+<persname><forename type="first">S</forename><surname>Vicente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Meira</forename><forename type="middle">-</forename><surname>Neto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Trindade</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Máguas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename></persname>
+</author>
+<idno type="DOI">10.3391/bir.2020.9.4.06</idno>
+<ptr target="https://doi.org/10.3391/bir.2020.9.4.06"></ptr>
+</analytic>
+<monogr>
+<title level="j">BioInvasions Records</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="723" to="729" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vicente S, Meira-Neto J, Trindade H, Máguas C (2020) The distribution of the invasive Acacia longifolia shows an expansion towards southern latitudes in South America. BioInvasions Records 9(4): 723-729. https://doi.org/10.3391/bir.2020.9.4.06</note>
+</biblstruct>
+<biblstruct xml:id="b73">
+<analytic>
+<title level="a" type="main">Highly diverse and highly successful: Invasive Australian acacias have not experienced genetic bottlenecks globally</title>
+<author>
+<persname><forename type="first">S</forename><surname>Vicente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Máguas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Trindade</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jru</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename></persname>
+</author>
+<idno type="DOI">10.1093/aob/mcab053</idno>
+<ptr target="https://doi.org/10.1093/aob/mcab053"></ptr>
+</analytic>
+<monogr>
+<title level="j">Annals of Botany</title>
+<imprint>
+<biblscope unit="volume">128</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="149" to="157" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vicente S, Máguas C, Richardson DM, Trindade H, Wilson JRU, Le Roux JJ (2021) Highly di- verse and highly successful: Invasive Australian acacias have not experienced genetic bottle- necks globally. Annals of Botany 128(2): 149-157. https://doi.org/10.1093/aob/mcab053</note>
+</biblstruct>
+<biblstruct xml:id="b74">
+<analytic>
+<title level="a" type="main">The importance of species identity in the biocontrol process: identifying the subspecies of Acacia nilotica (Leguminosae: Mimosoideae) by genetic distance and the implications for biological control</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Wardill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">C</forename><surname>Graham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Zalucki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">A</forename><surname>Palmer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Playford</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">D</forename><surname>Scott</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-2699.2005.01348.x</idno>
+<ptr target="https://doi.org/10.1111/j.1365-2699.2005.01348.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Biogeography</title>
+<imprint>
+<biblscope unit="volume">32</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope from="2145" to="2159" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wardill TJ, Graham GC, Zalucki M, Palmer WA, Playford J, Scott KD (2005) The impor- tance of species identity in the biocontrol process: identifying the subspecies of Acacia nilotica (Leguminosae: Mimosoideae) by genetic distance and the implications for biologi- cal control. Journal of Biogeography 32(12): 2145-2159. https://doi.org/10.1111/j.1365- 2699.2005.01348.x</note>
+</biblstruct>
+<biblstruct xml:id="b75">
+<analytic>
+<title level="a" type="main">A set of conserved PCR primers for the analysis of simple sequence repeat polymorphisms in chloroplast genomes of dicotyledonous angiosperms</title>
+<author>
+<persname><forename type="first">K</forename><surname>Weising</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">C</forename><surname>Gardner</surname></persname>
+</author>
+<idno type="DOI">10.1139/g98-104</idno>
+<ptr target="https://doi.org/10.1139/g98-104"></ptr>
+</analytic>
+<monogr>
+<title level="j">Genome</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="9" to="19" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Weising K, Gardner RC (1999) A set of conserved PCR primers for the analysis of simple sequence repeat polymorphisms in chloroplast genomes of dicotyledonous angiosperms. Genome 42(1): 9-19. https://doi.org/10.1139/g98-104</note>
+</biblstruct>
+<biblstruct xml:id="b76">
+<monogr>
+<title level="m" type="main">DNA Fingerprinting in Plants and Fungi</title>
+<author>
+<persname><forename type="first">K</forename><surname>Weising</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Nybom</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Pfenninger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Wolff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Meyer</surname></persname>
+</author>
+<imprint>
+<date type="published" when="1994">1994</date>
+<publisher>CRC Press</publisher>
+<biblscope unit="page">338</biblscope>
+<pubplace>Boca Raton</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Weising K, Nybom H, Pfenninger M, Wolff K, Meyer W (1994) DNA Fingerprinting in Plants and Fungi. CRC Press, Boca Raton, 338 pp.</note>
+</biblstruct>
+<biblstruct xml:id="b77">
+<analytic>
+<title level="a" type="main">Chloroplast evidence for geographic stasis of the Australian bird-dispersed shrub Tasmannia lanceolata (Winteraceae)</title>
+<author>
+<persname><forename type="first">Jrp</forename><surname>Worth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">J</forename><surname>Jordan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Marthick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">E</forename><surname>Mckinnon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">E</forename><surname>Vaillancourt</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-294X.2010.04725.x</idno>
+<ptr target="https://doi.org/10.1111/j.1365-294X.2010.04725.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Molecular Ecology</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope unit="issue">14</biblscope>
+<biblscope from="2949" to="2963" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Worth JRP, Jordan GJ, Marthick JR, Mckinnon GE, Vaillancourt RE (2010) Chloroplast evi- dence for geographic stasis of the Australian bird-dispersed shrub Tasmannia lanceolata (Winteraceae). Molecular Ecology 19(14): 2949-2963. https://doi.org/10.1111/j.1365- 294X.2010.04725.x</note>
+</biblstruct>
+<biblstruct xml:id="b78">
+<analytic>
+<title level="a" type="main">An overview of invasive plants in Brazil</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">D</forename><surname>Zenni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">R</forename><surname>Ziller</surname></persname>
+</author>
+<idno type="DOI">10.1590/S0100-84042011000300016</idno>
+<ptr target="https://doi.org/10.1590/S0100-84042011000300016"></ptr>
+</analytic>
+<monogr>
+<title level="j">Brazilian Journal of Botany</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="431" to="446" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zenni RD, Ziller SR (2011) An overview of invasive plants in Brazil. Brazilian Journal of Botany 34(3): 431-446. https://doi.org/10.1590/S0100-84042011000300016</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

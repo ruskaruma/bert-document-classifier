@@ -1,0 +1,1570 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Lagoon hydrodynamics of pearl farming atolls: the case of Raroia, Takapoto, Apataki and Takaroa (French Polynesia)</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Oriane</forename><surname>Bruyère</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> IRD, UMR 9220 ENTROPIE (IRD, Univ. La Réunion, IFREMER, Univ. Nouvelle-Calédonie, CNRS), BPA5, 98948 Nouméa, New Caledonia</note>
+<orgname key="lab1" type="laboratory">IRD</orgname>
+<orgname key="lab2" type="laboratory">UMR 9220 ENTROPIE (IRD</orgname>
+<orgname key="lab3" type="laboratory">IFREMER</orgname>
+<orgname key="instit1" type="institution">Univ. La Réunion</orgname>
+<orgname key="instit2" type="institution">Univ. Nouvelle-Calédonie</orgname>
+<orgname key="instit3" type="institution">CNRS)</orgname>
+<address>
+<addrline>BPA5</addrline>
+<postcode>98948</postcode>
+<settlement>Nouméa</settlement>
+<region>New Caledonia</region>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Romain</forename><surname>Le Gendre</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Ifremer, UMR 9220 ENTROPIE (IRD, Univ. Réunion, IFREMER, Univ. Nouvelle-Calédonie, CNRS), BP 32078, 98897 Nouméa CEDEX, New Caledonia</note>
+<orgname key="lab1" type="laboratory">Ifremer</orgname>
+<orgname key="lab2" type="laboratory">UMR 9220 ENTROPIE (IRD</orgname>
+<orgname key="lab3" type="laboratory">IFREMER</orgname>
+<orgname key="instit1" type="institution">Univ. Réunion</orgname>
+<orgname key="instit2" type="institution">Univ. Nouvelle-Calédonie</orgname>
+<orgname key="instit3" type="institution">CNRS)</orgname>
+<address>
+<addrline>BP 32078</addrline>
+<postcode>98897</postcode>
+<settlement>Nouméa CEDEX, New Caledonia</settlement>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Mathilde</forename><surname>Chauveau</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> IRD, UMR 9220 ENTROPIE (IRD, Univ. La Réunion, IFREMER, Univ. Nouvelle-Calédonie, CNRS), BPA5, 98948 Nouméa, New Caledonia</note>
+<orgname key="lab1" type="laboratory">IRD</orgname>
+<orgname key="lab2" type="laboratory">UMR 9220 ENTROPIE (IRD</orgname>
+<orgname key="lab3" type="laboratory">IFREMER</orgname>
+<orgname key="instit1" type="institution">Univ. La Réunion</orgname>
+<orgname key="instit2" type="institution">Univ. Nouvelle-Calédonie</orgname>
+<orgname key="instit3" type="institution">CNRS)</orgname>
+<address>
+<addrline>BPA5</addrline>
+<postcode>98948</postcode>
+<settlement>Nouméa</settlement>
+<region>New Caledonia</region>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Bertrand</forename><surname>Bourgeois</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> IRD, US 191 IMAGO (IRD. Nouvelle-Calédonie), BPA5, 98948 Nouméa, New Caledonia</note>
+<orgname type="department">IRD</orgname>
+<orgname type="institution">IMAGO (IRD. Nouvelle-Calédonie)</orgname>
+<address>
+<addrline>BPA5</addrline>
+<postcode>191, 98948</postcode>
+<settlement>Nouméa</settlement>
+<region>New Caledonia</region>
+<country>US</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">David</forename><surname>Varillon</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> IRD, US 191 IMAGO (IRD. Nouvelle-Calédonie), BPA5, 98948 Nouméa, New Caledonia</note>
+<orgname type="department">IRD</orgname>
+<orgname type="institution">IMAGO (IRD. Nouvelle-Calédonie)</orgname>
+<address>
+<addrline>BPA5</addrline>
+<postcode>191, 98948</postcode>
+<settlement>Nouméa</settlement>
+<region>New Caledonia</region>
+<country>US</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">John</forename><surname>Butscher</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> IRD, UMR 182 LOCEAN (IRD. Nouvelle-Calédonie), BPA5, 98948 Nouméa, New Caledonia</note>
+<orgname key="lab1" type="laboratory">IRD</orgname>
+<orgname key="lab2" type="laboratory">UMR 182 LOCEAN (IRD</orgname>
+<orgname type="institution">Nouvelle-Calédonie)</orgname>
+<address>
+<addrline>BPA5</addrline>
+<postcode>98948</postcode>
+<settlement>Nouméa</settlement>
+<region>New Caledonia</region>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Thomas</forename><surname>Trophime</surname></persname>
+<affiliation key="aff4">
+<note type="raw_affiliation"> Direction des Ressources Marines, BP 20, 98713 Papeete, French Polynesia</note>
+<orgname type="department">Direction des Ressources Marines</orgname>
+<address>
+<addrline>BP 20</addrline>
+<postcode>98713</postcode>
+<settlement>Papeete</settlement>
+<country key="PF">French Polynesia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Yann</forename><surname>Follin</surname></persname>
+<affiliation key="aff4">
+<note type="raw_affiliation"> Direction des Ressources Marines, BP 20, 98713 Papeete, French Polynesia</note>
+<orgname type="department">Direction des Ressources Marines</orgname>
+<address>
+<addrline>BP 20</addrline>
+<postcode>98713</postcode>
+<settlement>Papeete</settlement>
+<country key="PF">French Polynesia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Jérôme</forename><surname>Aucan</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> IRD, UMR 9220 ENTROPIE (IRD, Univ. La Réunion, IFREMER, Univ. Nouvelle-Calédonie, CNRS), BPA5, 98948 Nouméa, New Caledonia</note>
+<orgname key="lab1" type="laboratory">IRD</orgname>
+<orgname key="lab2" type="laboratory">UMR 9220 ENTROPIE (IRD</orgname>
+<orgname key="lab3" type="laboratory">IFREMER</orgname>
+<orgname key="instit1" type="institution">Univ. La Réunion</orgname>
+<orgname key="instit2" type="institution">Univ. Nouvelle-Calédonie</orgname>
+<orgname key="instit3" type="institution">CNRS)</orgname>
+<address>
+<addrline>BPA5</addrline>
+<postcode>98948</postcode>
+<settlement>Nouméa</settlement>
+<region>New Caledonia</region>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Vetea</forename><surname>Liao</surname></persname>
+<affiliation key="aff4">
+<note type="raw_affiliation"> Direction des Ressources Marines, BP 20, 98713 Papeete, French Polynesia</note>
+<orgname type="department">Direction des Ressources Marines</orgname>
+<address>
+<addrline>BP 20</addrline>
+<postcode>98713</postcode>
+<settlement>Papeete</settlement>
+<country key="PF">French Polynesia</country>
+</address>
+</affiliation>
+</author>
+<author role="corresp">
+<persname><forename type="first">Serge</forename><surname>Andréfouët</surname></persname>
+<email>serge.andrefouet@ird.fr</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> IRD, UMR 9220 ENTROPIE (IRD, Univ. La Réunion, IFREMER, Univ. Nouvelle-Calédonie, CNRS), BPA5, 98948 Nouméa, New Caledonia</note>
+<orgname key="lab1" type="laboratory">IRD</orgname>
+<orgname key="lab2" type="laboratory">UMR 9220 ENTROPIE (IRD</orgname>
+<orgname key="lab3" type="laboratory">IFREMER</orgname>
+<orgname key="instit1" type="institution">Univ. La Réunion</orgname>
+<orgname key="instit2" type="institution">Univ. Nouvelle-Calédonie</orgname>
+<orgname key="instit3" type="institution">CNRS)</orgname>
+<address>
+<addrline>BPA5</addrline>
+<postcode>98948</postcode>
+<settlement>Nouméa</settlement>
+<region>New Caledonia</region>
+</address>
+</affiliation>
+<affiliation key="aff5">
+<note type="raw_affiliation"> IRD, UMR-9220 ENTROPIE (Institut de Recherche pour le Développement, Université de la Réunion,</note>
+<orgname key="lab1" type="laboratory">IRD</orgname>
+<orgname key="lab2" type="laboratory">UMR-9220 ENTROPIE (Institut de Recherche pour le Développement</orgname>
+<orgname type="institution">Université de la Réunion</orgname>
+</affiliation>
+<affiliation key="aff6">
+<note type="raw_affiliation"> IFREMER, CNRS, Université de la Nouvelle-Calédonie), BP 49, 98725 Vairao, Tahiti, French Polynesia</note>
+<orgname type="laboratory">IFREMER</orgname>
+<orgname key="instit1" type="institution">CNRS</orgname>
+<orgname key="instit2" type="institution">Université de la Nouvelle-Calédonie)</orgname>
+<address>
+<addrline>BP 49</addrline>
+<postcode>98725</postcode>
+<settlement>Vairao, Tahiti</settlement>
+<country key="PF">French Polynesia</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Lagoon hydrodynamics of pearl farming atolls: the case of Raroia, Takapoto, Apataki and Takaroa (French Polynesia)</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">91B48DA54E1BA1A586ACD4E61F926999</idno>
+<idno type="DOI">10.5194/essd-2023-198</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-09-29T01:53+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Between 2018 and 2022, four pearl farming Tuamotu atolls of French Polynesia were monitored with autonomous oceanographic instruments to measure the hydrodynamics of atoll lagoons and the oceanlagoon water exchanges.</s><s>These surveys were conducted in the frame of ANR MANA (Management of Atolls) project and its extensions to additional sites.</s><s>The overarching goal was to improve knowledge on the processes influencing the spat collection of the pearl oyster Pinctada margaritifera, the oyster species used to produce black pearls.</s><s>These data sets are also critical for the calibration and validation of 3D high spatial resolution hydrodynamic models used to study the oyster larval dispersal within lagoons.</s><s>The observational strategies focused on the characterization of ocean/lagoon exchanges through passes and hoa (i.e., shallow reef flats), lagoon circulation, incident waves breaking on the forereef, water elevation inside lagoon as well as spatial temperature variability.</s><s>Chronologically, the investigated atolls were first Raroia Atoll with 9 months measurements between May 2018 and March 2019 during which the MALIS1 and MALIS2 cruises on-board the R/V ALIS took place.</s><s>It was followed by a 4-month deployment in Takapoto Atoll (November 2021 to March 2022).</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>This report focuses on hydrodynamic data collected between 2018 and 2022 on four pearl farming atolls of the Tuamotu Archipelago, in French Polynesia.</s><s>French Polynesia (FP) is a French overseas collectivity located in the Central Pacific <ref type="bibr">Ocean (134° to 155°W and 7° to 27°S)</ref>.</s><s>It consists of five archipelagos (Figure <ref target="#fig_0" type="figure">1</ref>) and 118 atolls and high islands spread on a vast 4.8 million km 2 Exclusive Economic Zone (EEZ) <ref target="#b2" type="bibr">(Andréfouët and Adjeroud, 2019)</ref>.</s><s>The Tuamotu and Gambier Archipelagoes include a total of 77 atolls and several high islands found in the lagoon of Gambier.</s><s>Five of the atolls are actually with dry or uplifted lagoons.</s><s>The other 72 atolls all have an intertidal/partly emerged rim which surrounds a lagoon.</s><s>Among the atolls with a deep (&gt;20m) lagoon, about 30 have been black pearl farming atolls since the beginning of this activity in the late 1980s, although only about 20 are currently active as in 2023.</s><s>Black pearl farming is the second source of French Polynesia income after tourism.</s><s>In 2021, it represented a 40million € value in exports.</s><s>This activity emerged as a major activity after nearly 60 years of trials and pioneer work.</s><s>Since the 1980s and especially the 1990s, the number of exploitations boomed, thanks to the presence of abundant oyster Pinctada margaritifera natural stocks.</s><s>This stock has allowed to efficiently collect spats in several lagoons and a sustained supply of oysters for pearl productions.</s><s>The activity thus includes oyster production (through spat collection) and pearl production.</s><s>In 2021, 8136 ha of lagoon concessions were devoted to these activities <ref type="bibr">(DRM, 2021)</ref>.</s><s>Four islands and atolls (Gambier, Marutea Sud, Ahe, and Arutua) represent half of the concessions but many atolls contribute to the activity (such as Apataki, Takapoto, Takaroa, Katiu, Kauehi, Raroia, etc.), although there are ups and downs.</s><s>For instance, Takaroa atoll lagoon suffered a major dystrophy event in 2014 <ref type="bibr">(Rodier et al., 2019)</ref>, resulting in a mass mortality of oysters and spats.</s><s>Since then, the activity is moribund in this lagoon, and has not yet revived as in 2023.</s><s>Overall in French Polynesia, the numbers of farmers have decreased the past years and now stabilized at around 600 farmers, with 340 of them producing pearls.</s><s>Since the first mortality events in Takapoto atoll in the 1980s, pearl faming lagoons have been the objects of numerous scientific investigations related to the biology and ecophysiology of P. margaritifera, the estimation of natural stocks, or the characterization of the planktonic trophic web and food sources for oysters, among many other topics <ref target="#b32" type="bibr">(Le Pennec, 2010;</ref><ref type="bibr">Andréfouët et al., 2012a</ref><ref target="#b10" type="bibr">Andréfouët et al., , 2022;;</ref><ref target="#b31" type="bibr">Gueguen et al., 2016)</ref>.</s><s>In the wake of the comparative TYPATOLL program <ref target="#b20" type="bibr">(Dufour and Harmelin-Vivien, 1997)</ref>, lagoon hydrodynamics became a focus during the Programme General Recherche sur la Nacre 2 (PGRN2) in the late 1990s, using a comparative approach between atoll lagoons but with limited field measurements <ref type="bibr">(Pagès et al., 2001;</ref><ref type="bibr">Andréfouët al., 2001a)</ref>.</s><s>models to address pearl farming questions <ref target="#b4" type="bibr">(Andréfouët et al., 2006)</ref>.</s><s>A high priority topic was to better understand spat collection variability, for which it was necessary to better characterize P. margaritifera larval dispersal phase in spat collection lagoons exposed to different oceanographic and atmospheric forcings.</s><s>Ahe became the first atoll investigated for 3D hydrodynamical modelling, with for the first time a large array of in situ measurements <ref target="#b22" type="bibr">(Dumas et al., 2012)</ref>.</s><s>Ahe had a one-year dedicated field program in <ref type="bibr">[2008]</ref><ref type="bibr">[2009]</ref> (see Le Gendre, 2020a for sampling strategy), followed by a dedicated oceanographic POLYPERL cruise in 2013 (https://doi.org/10.17600/13100050).</s><s>Ahe was followed by Takaroa but only with a short field expedition in 2009 (see <ref target="#b30" type="bibr">Le Gendre, 2020b</ref> for sampling strategy).</s><s>Results from Ahe model prove to be very useful to characterize larval dispersal variability <ref target="#b41" type="bibr">(Thomas et al., 2012;</ref><ref type="bibr">2014;</ref><ref type="bibr">2016)</ref>.</s><s>To build on these first results, the ANR-funded MANA (Management of Atolls) project was launched in 2017 <ref type="bibr">(Andréfouët et al., 2022a)</ref>.</s><s>The project ended in September 2022.</s><s>The project overarching goals were to provide new spatially explicit products useful for the management of geomorphologically diverse pearl farming atolls (namely Ahe, Takaroa, Raroia in French Polynesia and Manihiki in the Cook Islands).</s><s>Focus was still on understanding spat collection on different sites, but also provide guidelines for stock management and restocking <ref target="#b1" type="bibr">(André et al., 2022</ref><ref target="#b42" type="bibr">, Violette et al., 2023)</ref>.</s><s>Funds and instruments provided by the local Direction des Ressources Marines (DRM) in charge of the management of pearl farming lagoons expended the ANR-MANA project to two new sites (Gambier Islands and Takapoto Atoll).</s><s>Finally, the Commission Nationale de la Flotte Côtiere also supported the project with ship time (R/V ALIS) for 2 cruises in Raroia Atoll in 2018 and one cruise targeting in particular the Apataki and Takaroa Atolls in 2022 (respectively, https://doi.org/10.17600/18000582</s><s>and https://doi.org/10.17600/18001644).</s></p><p><s>This paper reports on the in situ data collected in the frame of the ANR-MANA project and its derivatives on Raroia Takapoto, Takaroa and Apataki atolls between 2018 and 2022 (Figure <ref target="#fig_2" type="figure">2</ref>).</s><s>It is organized as follow: Section 2 briefly presents the French Polynesia climate to draw the regional context, and the general sampling strategy applied to atolls during MANA project considering the typical geomorphology of atolls and their lagoons and the hydrodynamic processes at stake.</s><s>Then, the sampling strategy specific to the different study sites are developed in Section 3. Oceanographic instruments used during all surveys are detailed in Section 4 and data processing specificities are provided in Section 5. Examples of results are provided in section 6. Section 7 finally informs on data availability followed by Section 8 which concludes this paper.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">The French Polynesia atolls context: climate, geomorphology and hydrodynamic processes</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">French Polynesia climate<p><s>Due to the large latitudinal and longitudinal variations, there are local weather differences between French Polynesia archipelagoes, but overall, the French Polynesia climate has two seasons <ref target="#b27" type="bibr">(Laurent and Maamaatuaiahutapu, 2019)</ref>.</s><s>The wet and warm season ranges from November to April (Austral summer) with weak trade winds (northeast to southeast) and moderate waves including distant swells born in the northern hemisphere.</s><s>Then, a cooler and dryer season occur from May to October (Austral winter), with stronger trade winds and high energy distant swells from southern hemisphere.</s><s>The weather is influenced by the proximity of the South Pacific Convergence Zone (SPCZ) leading to higher rainfalls during December to March, albeit with significant spatial and interannual variations between archipelagoes <ref target="#b27" type="bibr">(Laurent and Maamaatuaiahutapu, 2019)</ref>.</s></p><p><s>The interannual El Niño-Southern Oscillation (ENSO) affects the French Polynesian climate and particularly precipitations and trade wind regimes.</s><s>ENSO influence the position of the SPCZ which lead to increased precipitations, higher occurrences of tropical cyclones and changes in wind regimes during the El Niño phase <ref target="#b28" type="bibr">(Laurent and Varney, 2014)</ref>.</s><s>Conversely, the La Niña phase exacerbates the main features of the neutral years, with lower precipitation and drought especially in the north (Marquesas Archipelago), and lower east to southeast trade winds overall.</s></p><p><s>The wind and wave regimes of French Polynesia with a focus on pearl farming sites was recently revisited at different temporal scales <ref target="#b23" type="bibr">(Dutheil et al., 2020;</ref><ref type="bibr">2021)</ref>.</s><s>The wave regime is much more spatially variable and atoll-dependent than the wind regime considering the shadowing effects on the propagation of wave trains created by the position of atolls relative to each other <ref type="bibr">(Andréfouët et al., 2012b</ref><ref type="bibr">(Andréfouët et al., , 2022a))</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Atoll geomorphology and hydrodynamic process: the clues for the MANA project field data collection strategy<p><s>During the MANA project and its extensions, a total of four atolls (Raroia, Takapoto, Apataki and Takaroa, Figure <ref target="#fig_2" type="figure">2</ref>, Table <ref target="#tab_0" type="table">1</ref>) have been instrumented with physical instruments to better understand the processes influencing Pinctada margaritifera spat collection variability, by helping the calibration and validation of 3D high spatial resolution hydrodynamical models and eventually improve the realism of existing models.</s><s>The deployments took place between 2018 and 2022, with an interruption due to the COVID pandemic (Figure <ref target="#fig_3" type="figure">3</ref>).</s><s>We describe in this section the general features encountered on all atolls and the principles used for the sampling strategy to capture the main hydrodynamic processes.</s><s>The Section 3 provides the sampling specifics per atoll.</s></p><p><s>High resolution bathymetry data were collected by private sub-contractors using a mono-beam (Takaroa) or multibeam (Takapoto, Raroia) sounders <ref target="#b11" type="bibr">(Andréfouët et al., 2020)</ref>.</s><s>Soundings were resampled and interpolated to achieve a 10m resolution bathymetric grid for Raroia and Takapoto and a 60m resolution grid for Takaroa Atoll, prior to the development of hydrodynamic models.</s><s>Conversely, the Apataki lagoon has not been entirely mapped yet as in 2023.</s><s>Extrinsic factors (such as the wind or wave regimes) and intrinsic factors (such as the degree of aperture) are both strong driver of the differences in hydrobiogeochemical functioning between atolls <ref target="#b21" type="bibr">(Dufour et al., 2001</ref><ref type="bibr">, Andréfouët al., 2001a)</ref>.</s><s>They both need to be taken into account when sampling atoll lagoons for their hydrodynamics as explained hereafter in generic terms.</s></p><p><s>Wind and wave influence the lagoon renewal and its circulation.</s><s>At archipelago-scale, the swell climate of any given atoll is highly dependent on its position relative to other atolls that can block the incoming swells <ref type="bibr">(Andréfouët et al., 2012b)</ref>.</s><s>For instance, the large Tuamotu atolls in the south of the archipelago (Rangiroa, Fakarava, Kaukura, etc.) block all incoming southern swells.</s><s>It is therefore necessary to measure incoming waves with pressure sensors on, if possible, all the sectors of exposition of the studied atoll.</s><s>Regional wave models are also useful to assess the conditions during a survey, and Wave Watch III model data have been used at high spatial resolution in some cases <ref type="bibr">(Andréfouët et al., 2012b;</ref><ref target="#b24" type="bibr">Dutheil et al., 2021;</ref><ref target="#b10" type="bibr">Andréfouët et al., 2022;</ref><ref type="bibr">Andréfouët et al., submitted)</ref>.</s><s>Wind data is generally not monitored during shore-based field campaigns as we relied on either nearby Météo-France weather station if possible (e.g., Takaroa, Gambier Islands) or ERA5 reanalysis data.</s><s>When on board the R/V ALIS, the ship weather station also records wind data.</s></p><p><s>Although all atolls can be different in terms of lagoon bathymetry <ref type="bibr">(Andréfouët el al., 2020)</ref>, size, and exposure to wind and waves, all atolls share common geomorphological features that play a role in the lagoon hydrodynamics.</s><s>Atoll landforms siting on the atoll rims are reef islands (locally named motu).</s></p><p><s>They result from the accumulation of carbonate sediments above antecedent (Holocene) conglomerate platforms <ref target="#b33" type="bibr">(Montaggioni et al., 2021)</ref>.</s><s>Rims can be vegetated or not <ref type="bibr">(Andréfouët et al., 2001b)</ref>.</s><s>Atoll rims can have 0, 1, 2 or 3 (at maximum) deep passages (or pass) and a number of (from a handful to several hundreds) shallow spillways (locally named hoa) along the atoll rim that connect the ocean to the lagoon.</s></p><p><s>In generic terms, water movements from the ocean to the lagoon through the pass and shallow hoa are controlled by tide and waves.</s><s>Note first that the tidal range in this region of the world is low (10 to 50cm maximum in the ocean from west Tuamotu to Gambier Archipelago) due to the presence of an amphidromic point west of Tuamotu <ref target="#b22" type="bibr">(Dumas et al., 2012;</ref><ref target="#b27" type="bibr">Laurent and Maamaatuaiahutapu, 2019)</ref>.</s><s>All the sites treated here are thus in a micro-tidal environment.</s><s>Incoming waves breaking on the atoll crest directly modulate the flows through the wave-exposed open spillways <ref target="#b37" type="bibr">(Tartinville et al., 1997;</ref><ref target="#b22" type="bibr">Dumas et al., 2012;</ref><ref target="#b24" type="bibr">Aucan et al., 2021;</ref><ref type="bibr">Andréfouët al., 2022b)</ref>.</s><s>Number and width of hoa are used to define the degree of aperture of an atoll, as a coarse proxy useful to characterize the water exchanges between ocean and lagoon and some biogeochemical variables <ref target="#b21" type="bibr">(Dufour et al., 2001)</ref>.</s></p><p><s>The degree of aperture of the atoll also influences the lag between oceanic and lagoonal tides.</s><s>Even atolls with wide deep passes experience a few hours shift in tidal lagoon signal compared to the ocean.</s><s>They are also subjected to a lagoon tidal amplitude lower than in the ocean <ref target="#b22" type="bibr">(Dumas et al., 2012;</ref><ref target="#b24" type="bibr">Aucan et al., 2021)</ref>.</s><s>These differences are also a factor that complicates the establishment of a common water level baseline between lagoon and ocean <ref target="#b19" type="bibr">(Callaghan et al., 2006)</ref>.</s><s>It is a problem specific to atolls with passes <ref target="#b24" type="bibr">(Aucan et al., 2021)</ref>.</s><s>Without the availability of appropriate differential sensors (see Sensor section hereafter), the water level baseline is therefore established around the average sea level measured in the lagoon or ocean <ref target="#b24" type="bibr">(Aucan et al., 2021)</ref>.</s></p><p><s>In the lagoon, even if current speeds are typically low <ref target="#b22" type="bibr">(Dumas et al., 2012)</ref>, internal circulation cells occur, that are highly dynamic and predominantly controlled by wind speed and direction, as shown for instance for Ahe <ref target="#b22" type="bibr">(Dumas et al., 2012)</ref> or Mururoa Atolls <ref target="#b37" type="bibr">(Tartinville et al., 1997)</ref>.</s><s>A large lagoon is potentially much more complex in term of numbers and dynamics of these hydrodynamic cells than the smaller atolls.</s><s>If there is a pass, its influence can generate locally strong currents; but it is nevertheless spatially limited due to the alternant incoming-outgoing tide-driven currents <ref target="#b22" type="bibr">(Dumas et al., 2012)</ref>.</s><s><ref type="bibr">(Thomas et al., 2010;</ref><ref target="#b31" type="bibr">Le Moullac et al., 2016;</ref><ref target="#b26" type="bibr">Latchere et al., 2018;</ref><ref type="bibr">Sangare et al., 2020)</ref>.</s><s>Temperature is monitored according to an array of temperature-measuring sensors deployed in the ocean, passes, hoa and lagoon.</s><s>In the lagoon, a systematic spatial coverage is sought as well as a 3D coverage by deploying sensors vertically at subsurface (approximately 2m), 10 meters and at last 40 meters depth.</s><s>This information is also useful to assess lagoon stratification during low wind periods.</s></p><p><s>To summarize, the MANA observational strategy objectives is integrative of all the aforementioned processes.</s><s>In situ instruments were thus deployed to capture:</s></p><p><s>-Sea level variations, tidal dynamics and surge (ocean, lagoon), using pressure sensors -Incoming incident waves on the different atoll sectors and wave (wind-induced) in the lagoon, using pressure sensors -Currents in hoa on different atoll sectors, using current meters or current profilers moored in hoa facing the pressure sensors that measure the incident waves -Currents in passes and inside the lagoon using current profilers -Water temperature variations in ocean and lagoon in different rim and lagoon sectors, using a variety of temperature-recording sensors (temperature-only, pressure or current-meter sensors)</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Study sites and sampling strategy<p><s>This paper presents data collected between 2018 and 2022 in four Tuamotu Archipelago atolls, chronologically Raroia, Takapoto, Apataki and Takaroa Atoll.</s><s>The following sections (Sect 3.1; 3.2; 3.3 and 3.4) present each atoll and the implemented observational strategy.</s><s>The length of data acquisition ranged between 3 to 9 months.</s><s>Raroia and Apataki deployments were organized in legs to achieve long deployment duration while allowing regular instrument maintenance (e.g., battery replacing, biofouling, offloaded data, check mooring component).</s><s>The beginning or end of a leg is thus generally synonymous of short data collection interruption for maintenance.</s><s>Long deployments were a combination of shore based and research vessel-based work.</s><s>Atolls were equipped with five different types of instruments namely ADCPs, Aquadopps, Marotte HS, RBRduet T.D and SBE56 measuring physical process such as current velocity, temperature and pressure.</s><s>Instrument configurations and specificities are presented hereafter in a dedicated Section (Section 4).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Raroia Atoll<p><s>Raroia is a large atoll (area 368 km 2 ) in the central Tuamotu region.</s><s>The atoll is oriented along the NE-SW direction (Figure <ref target="#fig_2" type="figure">2</ref>) and exposed to the east trade winds.</s><s>The lagoon is deep with an average depth of 32m.</s><s>It has a typical saucer-shaped geomorphology but with the presence of a very high number of pinnacles (&gt;1600) rising from the floor and distributed homogenously throughout the lagoon (Table <ref target="#tab_0" type="table">1</ref>).</s></p><p><s>Raroia was the subject of the most complex and intensive deployment.</s><s>The sampling strategy is summarized in Figure <ref target="#fig_7" type="figure">4</ref>.</s><s>The instruments moored in the lagoon, hoa, pass and oceanic sides of the atoll were either moored at the same location during the entire three legs, or their deployment was leg-dependent (see Table <ref target="#tab_2" type="table">A1</ref> in Appendix Section).</s><s>Three stations were positioned on the external reef slopes on the north-east (O2), south (O3), and north-west (O1) atoll side to measure offshore incident waves with pressure sensors.</s><s>These oceanic sensors were systematically paired with current meter (profilers or drag-tilt current meters) moored inside hoa directly facing the oceanic sensor's location.</s><s>Water level inside lagoon were recorded at five stations (L4, L5, L6, L7, L8) to deduce surge and tide signal using pressure sensors.</s><s>Those lagoonal pressure loggers were systematically associated with two temperature sensors moored on the sub-surface and around 20m depth.</s><s>These 3-sensor stations were replicated spatially to characterize the within-lagoon spatial heterogeneity.</s><s>Current profilers were anchored inside three hoa (western, eastern and southern) that faced the oceanic pressure sensors.</s><s>Inside the Garue Pass deep current profilers were moored to evaluate water fluxes lagoonward and oceanward as well as at the edge of the pass lagoonward to study the pass gyre (Pass2).</s><s>Finally, two additional loggers were positioned in the south lagoon to measure lagoon currents in the spat collection area (L7 and L8).</s><s>During the short leg, these 2 lagoon profilers were moved to the north lagoon, close to H1 and H2.</s><s>The Table <ref target="#tab_2" type="table">A1</ref> in Appendix Section refers to the exact period and location of mooring for each sensor.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Takapoto Atoll<p><s>Takapoto is a medium-size 78 km 2 northwestern Tuamotu atoll.</s><s>This atoll is distinct from the other studied atolls due to the absence of deep passes connecting the lagoon to the open ocean.</s><s>It is the most closed of all the study sites with only few several narrow hoa present on both the west and east flanks of the atoll.</s><s>The maximal and average lagoon depth are respectively 43m and 25m (Table <ref target="#tab_0" type="table">1</ref>).</s><s>Pinnacles can be found everywhere in the lagoon but their density is higher on the south-west region <ref type="bibr">(Andréfouët et al., 2020)</ref>.</s></p><p><s>This atoll was monitored over a 4-month period (November 2021 to March 2022).</s><s>Measurements focused on the entry of oceanic water via the few active hoa present in two regions namely Teavatika</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Apataki Atoll<p><s>Apataki Atoll is a Western Tuamotu atoll and is the largest instrumented atoll (678 km 2 ) of the MANA project, representing 8 times the area of Takapoto Atoll (Table <ref target="#tab_0" type="table">1</ref>).</s><s>The atoll rim is almost completely closed on the east and north sides.</s><s>directions).</s><s>Finally, the western rim is dominated by succession of wide reef flats, narrow hoa and motu.</s><s>Two deep passes both located on the west side and respectively named (Pakaka in the south and Tehere in the north) allow to connect oceanic and lagoonal systems.</s><s>As previously said, complete bathymetric coverage is not yet available for the lagoon and instrumented stations were selected and positioned using satellite imagery.</s><s>Pinnacles visible on satellite images are few (63, cf.</s><s>Table <ref target="#tab_0" type="table">1</ref>) and spread over the entire lagoon.</s></p><p><s>The resulting data set covers a 4-month period separated into 2 legs: Leg1 (April 2022 to July 2022) and Leg2 (July 2022).</s><s>Leg2 measurements were managed during the MALIS 3 oceanographic cruise with the R/V ALIS.</s><s>Lagoonal stations (L1, L2, L3, L6) with one RBRduet T.D and two SBE56 sensors follow the same strategy applied to Raroia and Takapoto (Figure <ref target="#fig_12" type="figure">6</ref>).</s><s>Pressure sensors moored on oceanic forereef were positioned on the south (O1 -O2) and east side (O3) to face hoa.</s><s>The facing southern hoa were instrumented with two current profilers (O1 paired with Aqua2 and O2 with Aqua1) in order to record oceanic fluxes crossing the reef.</s><s>Deep current profilers (P01, P02 and P03) were anchored inside or under the influence of the passes to evaluate current intensity and direction (Figure <ref target="#fig_12" type="figure">6</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Takaroa Atoll<p><s>Takaroa Atoll is located 10km eastward from Takapoto Atoll (Sect 3.3) in the Northwestern Tuamotu region (14.27°S</s><s>-145°W).</s><s>Its 86km 2 lagoon is characterized by a semi-closed continuous rim with small hoa on the southern region, and by a narrow deep pass (Teaunonae Pass) reaching 170m long and 20m depth (Figure <ref target="#fig_13" type="figure">7</ref>).</s><s>The lagoon has a depth average of 26m and a maximum depth of 47m (Table <ref target="#tab_0" type="table">1</ref>).</s></p><p><s>Pinnacles are abundant in the central deep lagoon area (Figure <ref target="#fig_13" type="figure">7</ref>).</s><s>This atoll has been previously studied in 2009 (see Le Gendre, 2020b for sampling strategy), but limited data could be collected.</s><s>During the MALIS 3 cruise in July-August 2022, the pass was instrumented to get additional measurement (3 months) of currents velocity and direction using one current profiler sensor moored at 18m depth.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Oceanographic instruments<p><s>Each sensor deployed in various atolls were autonomous and moored on the seabed by SCUBA with a suitable structure adapted to the station substrate (sand-rubble, rock-coralline, coral, pavement, etc.) to avoid displacements and ensure durability across the planned sampling period.</s><s>Figure <ref target="#fig_14" type="figure">8</ref> illustrates the main types of instruments and their installations.</s><s>A detailed summary (location, measured parameters, frequency, station depth, etc.) of all deployed instruments is available in Appendix section (Table <ref target="#tab_2" type="table">A1</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Compact Temperature and Pressure sensors<p><s>Two types of compact loggers have been used to monitor respectively temperature/pressure or temperature data.</s><s>First, RBRduet T.D is a data logger constructed by RBR Ltd (https://rbrglobal.com/products/compact-loggers/rbrduet-td/,</s><s>last access: 07 April 2023) recording temperature and pressure at high sampling frequency (continuous sampling were set at 1 Hz interval).</s><s>Those precise sensors were anchored between 8 to 12m deep on external reef slopes into differently exposed atoll sectors to provide sea-state parameters during post processing steps (waves and sea level).</s><s>RBRduet T.D loggers have also been deployed inside lagoons (6.7m to 13.5m deep) in order to measure tide and surge variations.</s></p><p><s>High precision temperature data were recorded with SBE56 sensors from SEABIRD Electronics Inc (https://www.seabird.com/sbe-56-temperature-sensor/product?id=54627897760, last access: 07 April 2023).</s><s>Depending on atolls deployments, loggers were set up with a sampled frequency of 10 seconds (Raroia) or 1 min (Takapoto and Apataki).</s></p><p><s>To evaluate the temperature stratification in the water column, two SBE56 were systematically moored on the same station at different depths (mostly around 2m and until 40m), plus the setting also included one of the aforementioned RBRduet T.D moored at 6-13 m between the SBE56.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Current profilers<p><s>Two kinds of current profilers were deployed in the passes or hoa to measure current velocity and estimate the water fluxes between ocean and lagoon.</s><s>ADCPs (Acoustic Doppler Current Profiler) were always bottom-mounted (upward-looking mode) to measure the water column until the sub surface.</s><s>The number of cells were specific to each instrument and depth of mooring.</s><s>ADCPs were set to sample in burst mode.</s></p><p><s>o ADCPs from Teledyne RD Instruments Inc. (TRD-I) measured current intensity and direction across the water column according to a pre-defined number of cells, as well as pressure and temperature related to the presence of a sensor in its transducer head (Figure <ref target="#fig_14" type="figure">8</ref>, right image).</s><s>The cell size was set to 50cm, 1m or 2m depending on the instrument configuration, and the number of cells was dependent of the station depth.</s><s>This instrument model was deployed inside the passes (Raroia, Apataki, Takaroa), in the lagoon close to the pass to characterize lagoon areas under the pass influence (Raroia, Apataki), or inside the lagoon away from the pass to characterize the lagoonal wind-induced circulation (Raroia).</s><s>For each deployment, instruments were set up with a 10-minute burst frequency except for two stations in Raroia (L7 and L8) where the sampling rate was 30 minutes.</s><s>For Raroia, two Sentinel V20 model and two Sentinel V50 of respectively 1000 KHz and 500 KHz working frequency (http://www.teledynemarine.com/workhorse-sentineladcp?ProductLineID=12, last access: 07 April 2023) were moored during the Leg2 and "shortleg".</s><s>For Apataki, two Sentinel V50 where deployed inside passes and one V20 upstream the southern pass.</s><s>Finally, for Takaroa, only one V20 was installed inside the pass.</s></p><p><s>o Aquadopp Profilers from Nortek are suitable instruments for shallow current measurements (Figure <ref target="#fig_14" type="figure">8</ref>, middle image).</s><s>As such, they were predominantly moored inside various hoa (station depth &lt; 3m).</s><s>This sensor measures pressure and 3D velocities which allow to deduce water elevation and vertical currents speed and direction.</s><s>In Raroia, two Aquadopp 2 MHz (https://www.nortekgroup.com/fr/products/aquadopp-profiler-2-mhz,</s><s>last access: 06 April 2023) were moored inside two different hoa with a 5-minute sampling rate with a cell size equal to 20 cm and 3 pings per ensemble.</s><s>Beam coordinate systems for Raroia deployments were set in Cartesian coordinates (XYZ).</s><s>Two stations in Takapoto and Apataki Atoll were also equipped with Aquadopps.</s><s>Cell size was also set to 20 cm but settings were adjusted with 18 pings at each 10minute frequency burst and beam coordinates were configurated to measure in Earth normal coordinates (ENU).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Drag-tilt current meters<p><s>Marotte HS are low-cost drag-tilt current meters manufactured by the Marine Geophysics Laboratory of James Cook University, Australia (https://www.marinegeophysics.com.au/current-meter, last access: 03 April 2023).</s><s>They measure temperature and velocities components (u,v) at the instrument level (Figure <ref target="#fig_14" type="figure">8</ref>, middle image).</s><s>Speed and direction parameters are deduced from the sensor accelerometer and magnetometer without considering the device orientation.</s><s>Sampling frequency was set to 10 seconds (Apataki) or 1 minute (Raroia).</s><s>Marotte HS were always moored in shallow locations (&lt; 2m depth).</s></p><p><s>During the Raroia legs, Marotte HS were paired with Aquadopp instruments (as showed in Figure <ref target="#fig_14" type="figure">8</ref>) in order to compare the measured velocity between sensors.</s><s>In Apataki, two Marotte sensors were moored on hoa along the western side during Leg 1 and 2. A number of these instruments were lost or failed in the course of the MANA deployments shown Figure <ref target="#fig_3" type="figure">3</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data Processing and quality control<p><s>The processing and protocols applied to the data sets presented herein are similar with <ref type="bibr">Bruyère et al. (2022)</ref> for the study of New Caledonia lagoons.</s><s>For each data logger types, after retrieving the data from the instruments with the manufacturer's software, data were post-processed using Python 3.7 routines.</s><s>Data were systematically converted in NetCDF format.</s><s>Each NetCDF file contains variables and related metadata information including global attributes.</s><s>Global attributes describe the data ensuring their reusability by giving geospatial position, temporal coverage, sampling frequency, depth, instrument serial number, investigator's name and any additional other useful comments for data users.</s><s>Depending on instruments, specific processing steps were performed (or not), namely:</s></p><p><s>o For RBRduet T.D, pressure data were corrected from a constant atmospheric pressure (101 325 bar) in order to avoid influence of weather conditions changes.</s><s>None vertical referencing by DGPS (Differential Global Positioning System) were achieved due to the vicinity of breaking waves in the case of forereef stations.</s><s>To deduce wave parameters (Significant wave height, Peak frequency and Mean wave period), data were filtered using the Fourier transform to acquire a pressure spectrum (in a range between 3-25 sec).</s><s>Then, the methods referenced in <ref target="#b14" type="bibr">Aucan et al., (2017)</ref> were applied using the linear wave theory with a homogenous cut-off frequency (set to 0.33) to filter high frequency spectrum.</s><s>To calculate water level, depth measurements were subtracted from the mean sea level (long-term depth-averaged of the temporal series).</s><s>As a result, two output files were created, one at one hour resolution containing waves parameters and another file at one minute frequency with temperature and water level.</s></p><p><s>o Current meter profilers (ADCPs and Aquadopps) do not provide reliable current measurements near the sea surface due to contamination of the Doppler velocity related to acoustic sidelobe reflections from the boundary.</s><s>To avoid contaminated cells, sea surface currents data were always removed from the processed files.</s><s>Vertical and temporal resolutions remain dependent on deployment settings.</s><s>No barometric correction was applied on depth but the mean depth of the entire time serie were subtracted to data to obtain water elevation.</s><s>For Raroia, Aquadopp's coordinate system was set to Cartesian coordinates, to be consistent with other measures, directions were recalculated in ENU coordinates using the heading orientation.</s><s>o Marotte HS data were averaged at 1 minute frequency to smooth the high frequency fluctuations.</s></p><p><s>The by-default direction convention (initially ClockWise (CW) from east) was changed to be congruent with other instruments and with the oceanographic current convention (CW from north).</s></p><p><s>o Finally, for SBE56 instruments no specific treatments were applied on temperature records, and final NetCDF files keep the raw frequency settings.</s></p><p><s>For all sensors, a visual check was performed with Ferret to exclude all out-of-water data in order to set the correct start and end of time series.</s><s>The screening step also helps to detect any remaining anomalous values (out of range values) from the processed files.</s><s>If any remaining anomaly is observed a specific comment in the NetCDF Global attributes is included.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Example of results<p><s>Examples of collected data sets on the different atolls are provided hereafter for each category of sensors and deployment.</s><s>They are by no means exhaustive (see Table <ref target="#tab_2" type="table">A1</ref> in Appendix Section).</s><s>No lagoon processes that require taking into account multiple data sets are interpreted here as this makes the object of dedicated publications <ref type="bibr">(Andréfouët et al. submitted; Le Gendre et al. in prep)</ref>, but some basic descriptive interpretations are provided here.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Temperature records<p><s>The Figure <ref target="#fig_16" type="figure">9</ref> illustrates temperature time series.</s><s>Figure <ref target="#fig_16" type="figure">9B</ref> shows the temperature differences between Raroia lagoon and the ocean, for stations O1 and L5 (Figure <ref target="#fig_7" type="figure">4</ref>).</s><s>The 9-month deployment in Raroia includes almost the entire 2018 winter season and the 2018-2019 summer season.</s><s>The example shows the passage from cool to warm season with August-September lows to the highest April values (approximately +4 degrees differences).</s><s>The sampling period shows that the variations are not continuously linear, with different rates of changes (between Leg 2 and Leg 3 for instance) and with episodes of trend inversion (as in mid-November 2018) (Figure <ref target="#fig_16" type="figure">9A</ref>).</s><s>Noteworthy are the differences between ocean and lagoon, with a lagoon cooler than the ocean during winter season, and the opposite in October, when lagoon became warmer than the ocean.</s><s>The oceanlagoon differences are less than 1 degree (-0.83°C to +0.42°C).</s><s>Inside the lagoon, (Figure <ref target="#fig_16" type="figure">9B</ref>), the surface-bottom delta for three stations shows that fluctuations are spatially synchronous, but can be of different amplitude.</s><s>High amplitudes reveal water column stratification more intense during Leg2 and Leg3.</s><s>Surface temperatures are generally higher than bottom temperature.</s><s>In some rare instances, the delta is negative as in three events in June 2018, September 2018 and February 2019 during which bottom temperature was +0.3°C warmer than the surface.</s><s>Interpretation of all these patterns require using wind data (not shown).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Current records<p><s>Figure <ref target="#fig_17" type="figure">10</ref> shows current intensities (m.s -1 ) and directions (degrees) distributed over the water column in the Takaroa pass.</s><s>The ADCP was moored by 17m depth (Table <ref target="#tab_2" type="table">A1</ref>).</s><s>Current directions (Figure <ref target="#fig_17" type="figure">10</ref>, middle window) inside the pass are vertically homogenous and follow the semi-diurnal tide cycles (ebb and flow) with a westward (red) orientation during ebb and eastward (blue) during flow which correspond to the channel orientation (see Figure <ref target="#fig_13" type="figure">7</ref>).</s><s>Changes in current direction are very abrupt when the tide changes, in a matter of minutes.</s><s>Current intensities (Figure <ref target="#fig_17" type="figure">10</ref>, first window) are also homogenous according to depth.</s><s>The weakest currents occur during slack water corresponding to high or low tide maximum.</s><s>Figure <ref target="#fig_17" type="figure">10</ref> (bottom panel) shows how current speed is related to spring tide with stronger outgoing current at that time.</s><s>During "normal" conditions (no meteorological or wave events), water exchanges between ocean and lagoon through the pass are mostly driven by tide but meteorological events can alter the rhythm if the lagoon fills up due to incoming swells for instance.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Sea state parameters<p><s>Wave parameters post-processed from pressure data measured by RBRduet T.D sensors deployed in Apataki Atoll are shown Figure <ref target="#fig_18" type="figure">11</ref>.</s><s>The contrast between wave impacts in the different sides of an atoll is demonstrated by station O01 where incident wave heights ranged between 0.8m and 2m, and up to 4m during the mega swell episode hitting French Polynesia mid-July 2022).</s><s>Conversely, the incident waves measured on the eastern station O03 never reach above 1m high (Figure <ref target="#fig_18" type="figure">11A</ref>).</s><s>Water elevation measured inside the lagoon (station L05) show the entry of oceanic waters especially during the mid-July 2022 mega-swell and the corresponding positive +50cm surge, as well as a strong distortion of the tide signal (Figure <ref target="#fig_18" type="figure">11B</ref> and Figure <ref target="#fig_18" type="figure">11C</ref>).</s><s>.17882/94147</s><s><ref target="#b6" type="bibr">(Andréfouët et al., 2023)</ref>, Takapoto: https://doi.org/10.17882/94032</s><s><ref type="bibr">(Bruyère et al., 2023b)</ref>, Apataki: https://doi.org/10.17882/94031</s><s><ref type="bibr">(Bruyère et al., 2023a)</ref>, Takaroa: https://doi.org/10.17882/94146</s><s><ref type="bibr">(Bruyère et al. (2023c)</ref>.</s><s>Those data sets have already been used for field investigations <ref type="bibr">(Andréfouët et al., submitted;</ref><ref target="#b24" type="bibr">Aucan et al., 2021)</ref>, and hydrodynamics models cal/val (e.g., <ref type="bibr">Le Gendre et al., in prep)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusions<p><s>The data sets presented in this paper come from five years of investigations conducted in four specific pearl farming atolls in the Tuamotu Archipelago (French Polynesia).</s><s>Another pearl farming site (Gambier) was not included here and will be presented in a separate publication as it was a lagoon with several high islands and the sampling strategy was different.</s><s>Combined, the four study sites represent the largest volume of oceanographic data collected for any atoll archipelago worldwide.</s><s>Those data inform on the inter-atoll and intra-lagoon differences due to the replication of field sites in most lagoons.</s><s>Intra lagoon and ocean-lagoon temperature, sea levels and hydrodynamics variables can be better understood with this existing data set.</s><s>More investigations can nevertheless be required in different configurations to continue representing the diversity of Tuamotu and Gambier pearl farming sites.</s><s>Besides pearl farming, the data provided here can also be useful for a variety of ecological, geomorphological, sedimentological and management applications.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Appendix</div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 :<label>1</label><figdesc><div><p><s>Figure 1: Map of French Polynesia Archipelagos and GEBCO bathymetry.</s><s>The instrumented atolls of Tuamotu Archipelago that are the focus of this study are colored in orange (Raroia, Takapoto, Apataki, Takaroa).80</s></p></div></figdesc><graphic coords="3,46.80,133.19,413.84,495.44" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/essd-2023-198</s><s>Preprint.</s><s>Discussion started: 7 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 :<label>2</label><figdesc><div><p><s>Figure 2: Bathymetry (described in Andréfouët et al., 2020) and motu (local names for reef islands) contours for (A) Takapoto Atoll, (B) Raroia Atoll, (C) Takaroa Atoll.</s><s>Depth color-scale is identical for the three atolls.</s><s>For Apataki Atoll (D), there are no complete lagoon bathymetry data available yet.</s><s>Background satellite images are from Sentinel-2, European Space Agency (ESA).</s></p></div></figdesc><graphic coords="6,53.52,133.19,488.12,504.79" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 :<label>3</label><figdesc><div><p><s>Figure 3: MANA project deployments between May 2018 and November 2022.</s><s>Gambier Islands are another site studied from mid-2019 to February 2020.</s><s>It is a group of high islands and data will be presented elsewhere because the sampling strategy obey to different criteria than atolls.</s></p></div></figdesc><graphic coords="7,75.24,133.19,444.80,265.54" type="bitmap"></graphic></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/essd-2023-198</s><s>Preprint.</s><s>Discussion started: 7 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/essd-2023-198</s><s>Preprint.</s><s>Discussion started: 7 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s><s>Temperature in the lagoon influences oyster development, survival at larval and adult stages, and the final pearl quality, plus other indirect factors such as plankton availability</s></p></div></figdesc></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>The 9-month physical observations started on middle of May 2019 and ended on late March 2020.</s><s>The deployments are organized in three legs (respectively between May-August 2018, August to December 2018 and January to March 2019) and one extra "shortleg" conducted during the MALIS2 cruise with a specific setting and deployment (Figure 2).</s><s>Surveys were in part conducted during the oceanographic campaigns MALIS 1 and MALIS 2 with the R/V ALIS.</s></p></div></figdesc></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 :<label>4</label><figdesc><div><p><s>Figure 4: Observational strategy applied during Raroia experiments.</s><s>ADCP: Acoustic Doppler Current Profiler.</s><s>Inner slope category is defined approximately between 0-15m depth.</s><s>Background map from the Millennium Coral Reef Mapping Project (Andréfouët and Bionaz, 2021).</s></p></div></figdesc><graphic coords="11,46.80,133.19,501.67,354.93" type="bitmap"></graphic></figure>
+<figure xml:id="fig_8" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/essd-2023-198</s><s>Preprint.</s><s>Discussion started: 7 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.(southest</s><s>region) and Takaï (northwest region) (Figure5).</s><s>Two stations with paired Aquadopp (in the deeper part of hoa) and RBRduet T.D (ocean side) were set in Teavatika (station O01 and Aqua2) and Takaï (station O03 and Aqua1) areas in order to measure breaking wave parameters and current velocity related to waves and tides.</s><s>Inside the lagoon, two additional stations in the middle and south lagoon were instrumented with one RBRduet T.D and two SBE56 (one in sub-surface and one below 30 meters) following the strategy applied for Raroia (see 3.1 Section).</s></p></div></figdesc></figure>
+<figure xml:id="fig_9" xmlns="http://www.tei-c.org/ns/1.0">Figure 5 :<label>5</label><figdesc><div><p><s>Figure 5: Location of deployed instruments in Takapoto Atoll.</s><s>Inner slope category is defined approximately between 0-15m depth.</s><s>Background map from the Millennium Coral Reef Mapping Project (Andréfouët and Bionaz, 2021).</s></p></div></figdesc><graphic coords="12,65.16,229.78,464.96,328.89" type="bitmap"></graphic></figure>
+<figure xml:id="fig_10" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>The southern region is a 18km long, wide open reef flat highly subjected to oceanic entries caused by distant swells (south-south-east are the dominant swell https://doi.org/10.5194/essd-2023-198</s><s>Preprint.</s><s>Discussion started: 7 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_11" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/essd-2023-198</s><s>Preprint.</s><s>Discussion started: 7 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_12" xmlns="http://www.tei-c.org/ns/1.0">Figure 6 :<label>6</label><figdesc><div><p><s>Figure 6: Sampling strategy adopted during Apataki surveys in 2022.</s><s>ADCP: Acoustic Doppler Current Profiler.</s><s>Inner slope 340</s></p></div></figdesc><graphic coords="14,127.31,133.19,343.65,485.84" type="bitmap"></graphic></figure>
+<figure xml:id="fig_13" xmlns="http://www.tei-c.org/ns/1.0">Figure 7 :<label>7</label><figdesc><div><p><s>Figure 7: Position of the single station P01 in Takaroa Atoll during MALIS 3 cruise.</s><s>ADCP: Acoustic Doppler Current Profiler.</s><s>Inner slope category is defined approximately between 0-15m depth.</s><s>Background map from the Millennium Coral Reef Mapping Project (Andréfouët and Bionaz, 2021).</s></p></div></figdesc><graphic coords="15,131.27,283.17,332.73,342.69" type="bitmap"></graphic></figure>
+<figure xml:id="fig_14" xmlns="http://www.tei-c.org/ns/1.0">Figure 8 :<label>8</label><figdesc><div><p><s>Figure 8: Images of moored structures and deployed instruments in Raroia atoll.</s><s>Left: PVC tube for RBRduet T.D or SBE56 sensors fixed on hard coralline bottom.</s><s>Middle: Aquadopp (on the forefront) and Marotte HS (at the back) moored on same station on pavement or coral head.</s><s>Right: ADCP Sentinel instrument moored at the bottom of a deep lagoon (photo: SA).</s></p></div></figdesc><graphic coords="16,46.80,255.58,501.67,174.10" type="bitmap"></graphic></figure>
+<figure xml:id="fig_15" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/essd-2023-198</s><s>Preprint.</s><s>Discussion started: 7 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_16" xmlns="http://www.tei-c.org/ns/1.0">Figure 9 :<label>9</label><figdesc><div><p><s>Figure 9: (A) Daily temperature time series of oceanic station O1 (9m depth) and lagoon station L5 (2m depth) at daily scale over the entire deployment period.</s><s>(B) Surfacebottom temperature differences at daily scale for L4, L5 and L6 lagoon stations.</s></p></div></figdesc><graphic coords="20,46.80,174.58,501.67,332.37" type="bitmap"></graphic></figure>
+<figure xml:id="fig_17" xmlns="http://www.tei-c.org/ns/1.0">Figure 10 :<label>10</label><figdesc><div><p><s>Figure 10: Fifteen days zoom of current speeds (upper), directions (middle) over water column and water elevation time serie (bottom window) measured with an ADCP Sentinel V20 moored into Teaunonae Pass station (P01) in Takaroa Atoll.</s><s>For direction interpretations, the oceanographic convention is employed (direction in which the current is propagated).</s></p></div></figdesc><graphic coords="21,46.80,324.57,501.67,316.17" type="bitmap"></graphic></figure>
+<figure xml:id="fig_18" xmlns="http://www.tei-c.org/ns/1.0">Figure 11 :<label>11</label><figdesc><div><p><s>Figure 11: (A): Significant wave height observed in station O01 (south side) and O03 (east coast) over the entire period of measure in Apataki Atoll.</s><s>(B): Surge elevation in oceanic station (O01) and inside lagoon (L05) during the wave event.</s><s>(C): Zoom of tidal signal recorded in oceanic station (O01) and inside lagoon (L02) during the period of mega-swell.</s></p></div></figdesc><graphic coords="22,46.80,283.17,501.67,342.09" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1 : Additional information about instrumented atolls (from Andréfouët et al. 2020).<label>1</label><figdesc></figdesc><table><row><cell>Atoll</cell><cell>Type</cell><cell>Perimeter (km)</cell><cell>Area (km 2 )</cell><cell>Mean depth (m)</cell><cell>Maximum depth (m)</cell><cell>Number of pinnacles</cell></row><row><cell>Raroia</cell><cell>Semi-open</cell><cell>93.70</cell><cell>367.95</cell><cell>32.2</cell><cell>68</cell><cell>1434</cell></row><row><cell cols="2">Takapoto Closed</cell><cell>49.50</cell><cell>78.64</cell><cell>24.8</cell><cell>43</cell><cell>194</cell></row><row><cell>Apataki</cell><cell>Semi-open</cell><cell>109.23</cell><cell>678.45</cell><cell>NA</cell><cell>NA</cell><cell>63</cell></row><row><cell cols="2">Takaroa Semi-closed</cell><cell>61.52</cell><cell>85.96</cell><cell>25.8</cell><cell>48</cell><cell>246</cell></row></table></figure>
+<figure type="table" xml:id="tab_2" xmlns="http://www.tei-c.org/ns/1.0">Table A1 : List of stations and instruments features (station position and depth, instrument type, raw and processed parameters, deployment date, sampling frequency and legs occurrence).<label>A1</label><figdesc><div><p><s>://doi.org/10.5194/essd-2023-198</s><s>Preprint.</s><s>Discussion started: 7 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s><s>https://doi.org/10.5194/essd-2023-198</s><s>Preprint.</s><s>Discussion started: 7 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc><table><row><cell>L7 L6 L2 L6</cell><cell>ADCP SentinelV50 SBE56 SBE56 SBE56</cell><cell>Current -temperature -pressure Temperature Temperature Temperature</cell><cell>142.50232 146,31887 145.22691 146,31774</cell><cell>16.11715 15,33591 14.656352 18/11/2021 02/03/2022 21/08/2018 29/09/2018 04/07/2022 05/07/2022 15,33471 04/07/2022 05/07/2022</cell><cell>30 min 1 min 1 min 1 min</cell><cell>27.2 30 2 4</cell><cell>Temperature -current speed &amp; direction -water level period -water level Temperature Temperature Temperature</cell><cell>2 2 1 2</cell></row><row><cell cols="2">Station Instrument L8 RBRduet T.D L8 SBE56 L8 SBE56 APATAKI O1 RBRduet T.D Aqua1 Aquadopp Nortek Aqua2 Aquadopp Nortek RAROIA H1 Aquadopp Nortek H1 Marotte HS L8 ADCP Sentinel V50 O2 RBRduet T.D P01 ADCP Sentinel V50 H1 ADCP Sentinel V50 H2 ADCP Sentinel V50 O1 RBRduet T.D O2 RBRduet T.D O3 RBRduet T.D JCU1 Marotte HS P02 ADCP Sentinel V20 JCU5 Marotte HS P03 ADCP Sentinel V50 TAKAROA H2 Aquadopp Workhorse H3 Marotte HS H3 Aquadopp Workhorse H5 Marotte HS L4 RBRduet T.D L4 SBE56 L4 SBE56 L5 RBRduet T.D L5 SBE56 L5 SBE56 L6 RBRduet T.D L6 SBE56 L6 SBE56 L7 RBRduet T.D L7 SBE56 L7 SBE56 L2 RBRduet T.D L6 RBRduet T.D L2 SBE56 L1 SBE56 L4 RBRduet T.D L1 RBRduet T.D L3 SBE56 L1 SBE56 L3 RBRduet T.D O03 RBRduet T.D L3 SBE56 O01 RBRduet T.D L5 RBRduet T.D TAKAPOTO Aqua1 Aquadopp Nortek Aqua2 Aquadopp Nortek L2 SBE56 L2 RBRduet T.D L2 SBE56 Pass2 ADCP Sentinel V20 L1 SBE56 L1 SBE56 O3 RBRduet T.D Pass ADCP Sentinel V20 L1 RBRduet T.D JCU7 Marotte HS P01 ADCP Sentinel V20</cell><cell>Raw parameters Temperature -pressure Temperature Temperature Temperature -pressure Current -pressure Current -pressure Current -pressure Current -temperature Current -temperature -pressure Temperature -pressure Current -temperature -pressure Current -temperature -pressure Current -temperature -pressure Temperature -pressure Temperature -pressure Temperature -pressure Current -temperature Current -temperature -pressure Current -temperature Current -temperature -pressure Current -pressure Current -temperature Current -pressure Current -temperature Temperature -pressure Temperature Temperature Temperature -pressure Temperature Temperature Temperature -pressure Temperature Temperature Temperature -pressure Temperature Temperature Temperature -pressure Temperature -pressure Temperature Temperature Temperature -pressure Temperature -pressure Temperature Temperature Temperature -pressure Temperature -pressure Temperature Temperature -pressure Temperature -pressure Current -pressure Current -pressure Temperature Temperature -pressure Temperature Current -temperature -pressure Temperature Temperature Temperature -pressure temperature -pressure Temperature -pressure Current -Current -temperature Current -temperature -pressure</cell><cell cols="4">Longitude (W) 142.411028 16.153079 27/05/2018 23/03/2019 1 Hz 8.2 Latitude (S) Date Start Date End Freq Depth (m) 142.410957 16.153191 28/05/2018 23/03/2019 10s 2 142.411200 16.152837 28/05/2018 23/03/2019 10s 19 146.39095 15.605983 21/04/2022 27/07/2022 1 Hz 11 146.335086 15.608373 21/04/2022 27/07/2022 10 2.4 min 146.390457 15.596022 23/04/2022 27/07/2022 10 3.3 min 142.433389 15.997081 30/11/2018 25/03/2019 5 min 2 142.433389 15.997081 25/05/2018 25/03/2019 1 min 1 142.41797 16.14340 21/08/2018 29/09/2018 30 min 30.7 146.330261 15.613003 21/04/2022 27/07/2022 1 Hz 12.1 146,416472 15,568417 02/07/2022 02/07/2022 10 min 27.6 142.43138 16.00012 01/12/2018 10/12/2018 10 min 28.7 142.36775 16.02864 01/12/2018 10/12/2018 10 min 29.8 142.436940 15.993521 26/05/2018 25/03/2019 1 Hz 8.8 142.341032 16.036994 26/05/2018 22/03/2019 1 Hz 11.7 146.448461 15.427796 21/04/2022 29/07/2022 1 Hz 7.8 146.441272 15.431240 22/04/2022 28/07/2022 146,401393 15,567935 02/07/2022 02/07/2022 10 min 21.3 1 min 2 146.420131 15.551322 22/04/2022 31/05/2022 1 1 146,40919 15,31504 05/07/2022 05/07/2022 10 min 30.5 min 142.345943 16.034883 02/05/2018 22/03/2019 5 min 1.2 142.479320 16.240945 27/05/2018 23/03/2019 1 min 2 142.479320 16.240945 27/05/2018 29/11/2018 5 min 1.9 142.38182 16.11527 31/05/2018 23/03/2019 1 min 2 142.364141 15.987224 25/05/2018 23/03/2019 1 Hz 8.5 142.364223 15.987153 25/05/2018 23/03/2019 10s 2 142.364048 15.987401 25/05/2018 23/03/2019 10s 20 142.418776 16.064754 25/05/2018 22/03/2019 1 Hz 8.4 142.418871 16.064706 25/05/2018 22/03/2019 10s 3 142.418481 16.064874 25/05/2018 22/03/2019 10s 18 142.469034 16.150707 27/05/2018 23/03/2019 1 Hz 8.4 142.468992 16.150752 28/05/2018 23/03/2019 10s 2 142.469120 16.150592 28/05/2018 23/03/2019 10s 19 142.502743 16.117741 27/05/2018 23/03/2019 1 Hz 6.7 142.502806 16.17779 28/05/2018 23/03/2019 10s 2 142.502613 16.117493 28/05/2018 23/03/2019 10s 19 145.22689 14.656434 18/11/2021 02/03/2022 1 Hz 9.5 146,31786 15,33485 04/07/2022 05/07/2022 1 Hz 11.1 145.22712 14.656898 18/11/2021 02/03/2022 1 min 31 145.20077 14.624549 18/11/2021 02/03/2022 1 min 5 146.430374 15.481611 23/04/2022 28/07/2022 1 Hz 9.1 145.2008 14.624614 18/11/2021 21/02/2022 1 Hz 10.6 146.370889 15.554061 23/04/2022 27/07/2022 min 3 1 145.20117 14.625101 18/11/2021 02/03/2022 1 min 37 146.37076 15.553979 23/04/2022 27/07/2022 1 Hz 10.7 145.21473 14.590963 13/11/2021 03/03/2022 1 Hz 10.9 146.369834 15.553718 23/04/2022 27/07/2022 min 27 1 145.19135 14.654374 13/11/2021 03/03/2022 1 Hz 12.3 146.268736 15.521516 22/04/2022 28/07/2022 1 Hz 10.7 145.21235 14.593897 12/11/2021 02/03/2022 145.19452 14.652203 12/11/2021 02/03/2022 146.326839 15.502305 22/04/2022 28/07/2022 min 3 1 min 1.6 10 146.326799 15.502053 22/04/2022 28/07/2022 1 Hz 13.5 min 1.4 10 146.326862 15.501658 22/04/2022 28/07/2022 min 32 1 142.44022 16.01851 23/08/2018 11/12/2018 10 min 20.2 146.292631 15.440699 22/04/2022 28/07/2022 min 37 1 146.292631 15.440699 22/04/2022 28/07/2022 min 2 1 142.479930 16.248699 26/05/2018 22/03/2019 1 Hz 10.3 142.45482 16.01760 22/08/2018 11/12/2018 10 min 17.3 146.292631 15.440699 22/04/2022 28/07/2022 1 Hz 12.1 146.441272 15.431240 22/04/2022 28/07/2022 1 min 2 -145.03939 -14.47516 20/07/2022 18/10/2022 10 min 17.6</cell><cell>Processed parameters Temperature -wave height &amp; period -water level Temperature Temperature Temperature -wave height &amp; period -water level Current speed &amp; direction -water level Temperature -Current speed &amp; direction -water level Current speed &amp; direction -water level Temperature -current speed &amp; direction -water level wave height &amp; period -water level Temperature -Temperature -current speed &amp; direction -water level Temperature -current speed &amp; direction Temperature -current speed &amp; direction -water level Temperature -current speed &amp; Temperature -wave height &amp; period -water level Temperature -wave height &amp; period -water level Temperature -wave height &amp; period -water level Temperature -Temperature -current speed &amp; direction -water level current speed &amp; direction Temperature -current speed &amp; Temperature -current speed &amp; direction -water level direction direction -water level Current speed &amp; direction -water level Temperature -current speed &amp; Current speed &amp; direction -water level current speed &amp; direction Temperature -wave height &amp; period -water level Temperature Temperature Temperature -wave height &amp; Temperature Temperature wave height &amp; Temperature Temperature wave height &amp; level Temperature Temperature Temperature -wave height &amp; period -water wave height &amp; Temperature Temperature -level period -water Temperature period -water wave height &amp; Temperature -level Temperature -wave height &amp; period -water Temperature level Temperature -level period -water Temperature period -water wave height &amp; Temperature -level Temperature -wave height &amp; period -water Temperature level Temperature -level period -water wave height &amp; period -water level period -water wave height &amp; Temperature -level level Temperature -Temperature direction -water level Current speed &amp; period -water wave height &amp; direction -water Temperature -Current speed &amp; Temperature Temperature -Temperature -current speed &amp; direction -water level Temperature Temperature direction wave height &amp; period -water level level level current speed &amp; direction -water period -water wave height &amp; Temperature -Temperature -current speed &amp; direction Temperature -Temperature -level current speed &amp; direction -water</cell><cell>Legs 1,2,3 1,2,3 1,2,3 1,2 1,2 1,2 3 2 1,2 2 1,2,3 shortleg shortleg 1,2, shortleg, 3 1,2,3 1,2 2 1,2 1,2 2 1,2,3 1,2 1,2,3 1,2,3 1,2,3 1,2,3 1,2,3 1,2,3 1 2 1,2,3 1 1,2,3 1 1,2 1,2,3 1 1,2 1,2,3 1 1,2 1,2,3 1 1,2 1,2,3 1,2 1 1,2,3 1,2 1 1,2 1 1,2 1,2 2 1,2 1,2,3 1,2,3 2 1,2 1,2 1</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>level</cell><cell></cell></row></table><note><p><s>https://doi.org/10.5194/essd-2023-198</s><s>Preprint.</s><s>Discussion started: 7 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s><s>https</s></p></note></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>https://doi.org/10.5194/essd-2023-198</s><s>Preprint.</s><s>Discussion started: 7 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgements<p><s>The authors acknowledge the Direction des Ressources Marines (DRM) of French Polynesia for their financial support and for providing oceanographic instruments.</s><s>The CNFC and the crew of the R/V ALIS captained by Jean-François Barazer (scientific cruises MALIS 1, MALIS 2 and MALIS 3) were instrumental for the success of the field operations.</s><s>The additional scientific staff that helped during one of the field operations described here include Joseph Campanozzi-Tarahu, Marcellino Raka, Tavi Tehei and Fabien Tertre (DRM), Magali Boussion (IRD), Benoit Beliaeff, Chloé Germain and Caline Basset (IFREMER).</s><s>We thank the mayors, Townhouse staff, boat drivers and local population of the different atolls for their support and welcome.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Financial support<p><s>This study was primarily funded by a grant ANR-16-CE32-0004 MANA (Management of Atolls project).</s><s>For Takapoto Atoll, surveys were also funded by the Direction des Ressources Marines (DRM) through grant 7518/VP/DRM to IRD.</s><s>Instruments were provided by the Direction des Ressources Marines, OTI project, Contrat de Projet France-French Polynesia, Program 123, Action 2, 2015-2020.</s><s>This work was made possible thanks to: the MALIS 1 and MALIS 2 oceanographic cruises in Raroia Atoll (https://doi.org/10.17600/18000582),</s><s>and the MALIS 3 cruise in Apataki and Takaroa Atoll (https://doi.org/10.17600/18001644),</s><s>all conducted on board R/V ALIS.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">Author contributions<p><s>SA is the PI of the MANA project.</s><s>SA, RLG, JA and VL raised funds.</s><s>SA, RLG, VL, JA designed and conducted the experiments.</s><s>SA, RLG, BB, DV, JB, TT, YF, JA; VL had repetitive implications in the field experiments.</s><s>OB, MC, RLG, JA, SA, TT, YF, VL organized, processed, checked, and archived the data sets.</s><s>OB and SA prepared the paper and designed the figures, with contributions from all coauthors.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Competing interests<p><s>The authors declare that they have no conflict of interest.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<monogr>
+<title></title>
+<idno type="DOI">10.5194/essd-2023-198Preprint</idno>
+<ptr target="https://doi.org/10.5194/essd-2023-198Preprint"></ptr>
+<imprint>
+<date type="published" when="2023-06-07">7 June 2023 c</date>
+</imprint>
+</monogr>
+<note>Author(s) 2023. CC BY 4.0 License</note>
+<note type="raw_reference">https://doi.org/10.5194/essd-2023-198 Preprint. Discussion started: 7 June 2023 c Author(s) 2023. CC BY 4.0 License. References</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">A systematic prioritization approach for identifying suitable pearl oyster restocking zones following a mass mortality event in Takaroa Atoll, French Polynesia</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">V</forename><surname>André</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Chinain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Gatti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Liao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Van Wynsberge</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Tedesco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.marpolbul.2022.113472</idno>
+<ptr target="https://doi.org/10.1016/j.marpolbul.2022.113472"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">176</biblscope>
+<biblscope unit="page">113472</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">André, L.V., Chinain, M., Gatti, C.M., Liao, V., Van Wynsberge, S., Tedesco, P., and Andréfouët, S.: A systematic prioritization approach for identifying suitable pearl oyster restocking zones following a mass mortality event in Takaroa Atoll, French Polynesia. Marine Pollution Bulletin., 176, 113472. https://doi.org/10.1016/j.marpolbul.2022.113472, 2022.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">French Polynesia</title>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Adjeroud</surname></persname>
+</author>
+<idno type="DOI">10.1016/B978-0-08-100853-9.00039-7</idno>
+<ptr target="https://doi.org/10.1016/B978-0-08-100853-9.00039-7"></ptr>
+</analytic>
+<monogr>
+<title level="m">World Seas: An Environmental Evaluation</title>
+<imprint>
+<publisher>Elsevier</publisher>
+<date type="published" when="2019">2019</date>
+<biblscope from="827" to="854" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Andréfouët, S. and Adjeroud, M.: French Polynesia. In World Seas: An Environmental Evaluation. Elsevier., pp. 827-854. https://doi.org/10.1016/B978-0-08-100853-9.00039-7, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Lessons from a global remote sensing mapping project. A review of the impact of the Millennium Coral Reef Mapping Project for science and management</title>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Bionaz</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.scitotenv.2021.145987</idno>
+<ptr target="https://doi.org/10.1016/j.scitotenv.2021.145987"></ptr>
+</analytic>
+<monogr>
+<title level="j">Science of The Total Environment</title>
+<imprint>
+<biblscope unit="volume">776</biblscope>
+<biblscope unit="page">145987</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Andréfouët, S. and Bionaz, O.: Lessons from a global remote sensing mapping project. A review of the impact of the Millennium Coral Reef Mapping Project for science and management. Science of The Total Environment., 776, 145987. https://doi.org/10.1016/j.scitotenv.2021.145987, 2021.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Review of solutions for 3D hydrodynamic modeling applied to aquaculture in South Pacific atoll lagoons</title>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ouillon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Brinkman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Falter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Douillet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Wolk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Buestel</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">52</biblscope>
+<biblscope unit="issue">10</biblscope>
+<biblscope from="1138" to="1155" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Andréfouët, S., Ouillon, S., Brinkman, R., Falter, J., Douillet, P., Wolk, F., and Buestel, D.: Review of solutions for 3D hydrodynamic modeling applied to aquaculture in South Pacific atoll lagoons. Marine Pollution Bulletin., 52(10), 1138-1155, 2006.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Island shadow effects and the wave climate of the Western Tuamotu Archipelago (French Polynesia) inferred from altimetry and numerical model data</title>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Ardhuin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Queffeulou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename></persname>
+</author>
+<idno type="DOI">10.1016/j.marpolbul.2012.05.042</idno>
+<ptr target="https://doi.org/10.1016/j.marpolbul.2012.05.042"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">65</biblscope>
+<biblscope from="415" to="424" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Andréfouët, S., Ardhuin, F., Queffeulou, P., and Le Gendre, R.: Island shadow effects and the wave climate of the Western Tuamotu Archipelago (French Polynesia) inferred from altimetry and numerical model data. Marine Pollution Bulletin., 65, 415-424. https://doi.org/10.1016/j.marpolbul.2012.05.042, 2012b.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Lagoon hydrodynamics of pearl farming atolls in French Polynesia: the case of Raroia Atoll (Tuamotu Archipelago)</title>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Bruyère</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Aucan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Liao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename></persname>
+</author>
+<idno type="DOI">10.17882/94147,2023</idno>
+<ptr target="https://doi.org/10.5194/essd-2023-198Preprint"></ptr>
+</analytic>
+<monogr>
+<title level="j">SEANOE</title>
+<imprint>
+<date type="published" when="2023-06-07">7 June 2023</date>
+</imprint>
+</monogr>
+<note>data set. c Author(s) 2023. CC BY 4.0 License</note>
+<note type="raw_reference">Andréfouët, S., Bruyère, O., Aucan, J., Liao, V., and Le Gendre, R.: Lagoon hydrodynamics of pearl farming atolls in French Polynesia: the case of Raroia Atoll (Tuamotu Archipelago), SEANOE [data set], https://doi.org/10.17882/94147, 2023. https://doi.org/10.5194/essd-2023-198 Preprint. Discussion started: 7 June 2023 c Author(s) 2023. CC BY 4.0 License.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Recent research for pearl oyster aquaculture management in French Polynesia</title>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Charpy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Lo-Yat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Lo</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.marpolbul.2012.06.021</idno>
+<ptr target="2012a"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">65</biblscope>
+<biblscope from="407" to="414" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Andréfouët, S., Charpy, L., Lo-Yat, A., and Lo, C.: Recent research for pearl oyster aquaculture management in French Polynesia. Marine Pollution Bulletin., 65, 407-414. https://doi.org/10.1016/j.marpolbul.2012.06.021, 2012a.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Water renewal time for classification of atoll lagoons in the Tuamotu Archipelago (French Polynesia)</title>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Pagès</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Tartinville</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00338-001-0190-9,2001a</idno>
+<ptr target="https://doi.org/10.1007/s00338-001-0190-9,2001a"></ptr>
+</analytic>
+<monogr>
+<title level="j">Coral Reefs</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="399" to="408" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Andréfouët, S., Pagès, J., and Tartinville, B.: Water renewal time for classification of atoll lagoons in the Tuamotu Archipelago (French Polynesia). Coral Reefs., 20, 399-408. https://doi.org/10.1007/s00338-001-0190-9, 2001a.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Typology of atoll rims in Tuamotu Archipelago (French Polynesia) at landscape scale using SPOT HRV images</title>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Claereboudt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Matsakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Pagès</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Dufour</surname></persname>
+</author>
+<idno type="DOI">10.1080/014311601300074522,2001b</idno>
+<ptr target="https://doi.org/10.1080/014311601300074522,2001b"></ptr>
+</analytic>
+<monogr>
+<title level="j">International Journal of Remote Sensing</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope from="987" to="1004" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Andréfouët, S., Claereboudt, M., Matsakis, P., Pagès, J., and Dufour, P.: Typology of atoll rims in Tuamotu Archipelago (French Polynesia) at landscape scale using SPOT HRV images. International Journal of Remote Sensing., 22, 987-1004. https://doi.org/10.1080/014311601300074522, 2001b.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Periodicity of wave-driven flows and lagoon water renewal for 74 Central Pacific Ocean atolls</title>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Desclaux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Buttin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Jullien</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Aucan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Le Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Liao</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.marpolbul.2022.113748</idno>
+<ptr target="https://doi.org/10.1016/j.marpolbul.2022.113748"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">179</biblscope>
+<biblscope unit="page">113748</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Andréfouët, S., Desclaux, T., Buttin, J., Jullien, S., Aucan, J., Le Gendre, R., and Liao, V.: Periodicity of wave-driven flows and lagoon water renewal for 74 Central Pacific Ocean atolls. Marine Pollution Bulletin., 179, 113748. https://doi.org/10.1016/j.marpolbul.2022.113748, 2022b.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">The lagoon geomorphology of pearl farming atolls in the Central Pacific Ocean revisited using detailed bathymetry data</title>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Genthon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Pelletier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Le Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Friot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Liao</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.marpolbul.2020.111580</idno>
+<ptr target="https://doi.org/10.1016/j.marpolbul.2020.111580"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">160</biblscope>
+<biblscope unit="page">111580</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Andréfouët, S., Genthon, P., Pelletier, B., Le Gendre, R., Friot, C., Smith, R., and Liao, V.: The lagoon geomorphology of pearl farming atolls in the Central Pacific Ocean revisited using detailed bathymetry data. Marine Pollution Bulletin., 160, 111580. https://doi.org/10.1016/j.marpolbul.2020.111580, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">The MANA (MANagement of Atolls, 2017-2022) project for pearl oyster aquaculture management in the Central Pacific Ocean using modelling approaches: Overview of first results</title>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Lo-Yat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Lefebvre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Bionaz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Liao</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.marpolbul.2022.113649,2022a</idno>
+<ptr target="https://doi.org/10.1016/j.marpolbul.2022.113649,2022a"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">178</biblscope>
+<biblscope unit="page">113649</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Andréfouët, S., Lo-Yat, A., Lefebvre, S., Bionaz, O., and Liao, V.: The MANA (MANagement of Atolls, 2017-2022) project for pearl oyster aquaculture management in the Central Pacific Ocean using modelling approaches: Overview of first results. Marine Pollution Bulletin., 178, 113649. https://doi.org/10.1016/j.marpolbul.2022.113649, 2022a.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Tide and wave driven flow across the rim reef of the atoll of Raroia (Tuamotu, French Polynesia)</title>
+<author>
+<persname><forename type="first">J</forename><surname>Aucan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Desclaux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Le Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Liao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.marpolbul.2021.112718,2021</idno>
+<ptr target="https://doi.org/10.1016/j.marpolbul.2021.112718,2021"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">171</biblscope>
+<biblscope unit="page">112718</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Aucan, J., Desclaux, T., Le Gendre, R., Liao, V., and Andréfouët, S.: Tide and wave driven flow across the rim reef of the atoll of Raroia (Tuamotu, French Polynesia). Marine Pollution Bulletin., 171, 112718. https://doi.org/10.1016/j.marpolbul.2021.112718, 2021</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Wave forcing and morphological changes of New Caledonia lagoon islets: Insights on their possible relations</title>
+<author>
+<persname><forename type="first">J</forename><surname>Aucan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Vendé-Leclerc</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Dumas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bricquir</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.crte.2017.09.003</idno>
+<ptr target="https://doi.org/10.1016/j.crte.2017.09.003"></ptr>
+</analytic>
+<monogr>
+<title level="j">C. R. Geosci</title>
+<imprint>
+<biblscope unit="volume">349</biblscope>
+<biblscope from="248" to="259" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Aucan, J., Vendé-Leclerc, M., Dumas, P., and Bricquir, M.: Wave forcing and morphological changes of New Caledonia lagoon islets: Insights on their possible relations, C. R. Geosci., 349, 248-259. https://doi.org/10.1016/j.crte.2017.09.003, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Hydrodynamic and hydrological processes within a variety of coral reef lagoons: field observations during six cyclonic seasons in New Caledonia</title>
+<author>
+<persname><forename type="first">O</forename><surname>Bruyère</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Soulard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Lemonnier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Laugier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Hubert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Petton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Desclaux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Van Wynsberge</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Le Tesson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Lefèvre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Dumas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-F</forename><surname>Kayara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Bourassin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Lalau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Antypas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Le Gendre</surname></persname>
+</author>
+<idno type="DOI">10.5194/essd-14-5439-2022,2022</idno>
+<ptr target="https://doi.org/10.5194/essd-14-5439-2022,2022"></ptr>
+</analytic>
+<monogr>
+<title level="j">Earth Syst. Sci. Data</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope from="5439" to="5462" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Bruyère, O., Soulard, B., Lemonnier, H., Laugier, T., Hubert, M., Petton, S., Desclaux, T., Van Wynsberge, S., Le Tesson, E., Lefèvre, J., Dumas, F., Kayara, J.-F., Bourassin, E., Lalau, N., Antypas, F., Le Gendre, R.: Hydrodynamic and hydrological processes within a variety of coral reef lagoons: field observations during six cyclonic seasons in New Caledonia. Earth Syst. Sci. Data., 14, 5439-5462. https://doi.org/10.5194/essd-14-5439-2022, 2022.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Lagoon hydrodynamics of pearl farming atolls in French Polynesia: the case of Apataki Atoll (Tuamotu Archipelago)</title>
+<author>
+<persname><forename type="first">O</forename><surname>Bruyère</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Le Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Liao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.17882/94031,2023a</idno>
+<ptr target="https://doi.org/10.5194/essd-2023-198Preprint"></ptr>
+</analytic>
+<monogr>
+<title level="j">SEANOE</title>
+<imprint>
+<date type="published" when="2023-06-07">7 June 2023</date>
+</imprint>
+</monogr>
+<note>data set. c Author(s) 2023. CC BY 4.0 License</note>
+<note type="raw_reference">Bruyère, O., Le Gendre, R., Liao, V., and Andréfouët, S.: Lagoon hydrodynamics of pearl farming atolls in French Polynesia: the case of Apataki Atoll (Tuamotu Archipelago), SEANOE [data set], https://doi.org/10.17882/94031, 2023a. https://doi.org/10.5194/essd-2023-198 Preprint. Discussion started: 7 June 2023 c Author(s) 2023. CC BY 4.0 License.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Lagoon hydrodynamics of pearl farming atolls in French Polynesia: the case of Takapoto Atoll (Tuamotu Archipelago)</title>
+<author>
+<persname><forename type="first">O</forename><surname>Bruyère</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Le Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Liao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.17882/94032,2023b</idno>
+<ptr target="https://doi.org/10.17882/94032,2023b"></ptr>
+</analytic>
+<monogr>
+<title level="j">SEANOE</title>
+<imprint></imprint>
+</monogr>
+<note>data set</note>
+<note type="raw_reference">Bruyère, O., Le Gendre, R., Liao, V., and Andréfouët, S.: Lagoon hydrodynamics of pearl farming atolls in French Polynesia: the case of Takapoto Atoll (Tuamotu Archipelago), SEANOE [data set], https://doi.org/10.17882/94032, 2023b.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Lagoon hydrodynamics of pearl farming atolls in French Polynesia: the case of Takaroa Atoll (Tuamotu Archipelago)</title>
+<author>
+<persname><forename type="first">O</forename><surname>Bruyère</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Le Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Liao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.17882/94146,2023c</idno>
+<ptr target="https://doi.org/10.17882/94146,2023c"></ptr>
+</analytic>
+<monogr>
+<title level="j">SEANOE</title>
+<imprint></imprint>
+</monogr>
+<note>data set</note>
+<note type="raw_reference">Bruyère, O., Le Gendre, R., Liao, V., and Andréfouët, S.: Lagoon hydrodynamics of pearl farming atolls in French Polynesia: the case of Takaroa Atoll (Tuamotu Archipelago), SEANOE [data set], https://doi.org/10.17882/94146, 2023c.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Atoll lagoon flushing forced by waves</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">P</forename><surname>Callaghan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Nielsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Cartwright</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Gourlay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">E</forename><surname>Baldock</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.coastaleng.2006.02.006</idno>
+<ptr target="https://doi.org/10.1016/j.coastaleng.2006.02.006"></ptr>
+</analytic>
+<monogr>
+<title level="j">Coastal Engineering</title>
+<imprint>
+<biblscope unit="volume">53</biblscope>
+<biblscope from="691" to="704" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Callaghan, D.P., Nielsen, P., Cartwright, N., Gourlay, M.R., and Baldock, T.E.: Atoll lagoon flushing forced by waves. Coastal Engineering., 53, 691-704. https://doi.org/10.1016/j.coastaleng.2006.02.006, 2006.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">A research program for a typology of atoll lagoons: strategy and first results</title>
+<author>
+<persname><forename type="first">P</forename><surname>Dufour</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Harmelin-Vivien</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Proc 8th Int Coral Reef Symp</title>
+<meeting>8th Int Coral Reef Symp</meeting>
+<imprint>
+<date type="published" when="1997">1997</date>
+<biblscope unit="volume">1</biblscope>
+<biblscope from="843" to="848" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Dufour, P. and Harmelin-Vivien, M.: A research program for a typology of atoll lagoons: strategy and first results. In Proc 8th Int Coral Reef Symp., Vol. 1, pp. 843-848. 1997.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Atoll morphometry controls lagoon nutrient regime</title>
+<author>
+<persname><forename type="first">P</forename><surname>Dufour</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Charpy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Garcia</surname></persname>
+</author>
+<idno type="DOI">10.4319/lo.2001.46.2.0456</idno>
+<ptr target="https://doi.org/10.4319/lo.2001.46.2.0456"></ptr>
+</analytic>
+<monogr>
+<title level="j">Limnology and Oceanography</title>
+<imprint>
+<biblscope unit="volume">46</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="456" to="461" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dufour, P., Andréfouët, S., Charpy, L., and Garcia, N.: Atoll morphometry controls lagoon nutrient regime. Limnology and Oceanography., 46(2), 456-461, https://doi.org/10.4319/lo.2001.46.2.0456, 2001.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Tidal flushing and wind driven circulation of Ahe atoll lagoon (Tuamotu Archipelago, French Polynesia) from in situ observations and numerical modelling</title>
+<author>
+<persname><forename type="first">F</forename><surname>Dumas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Le Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Thomas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.marpolbul.2012.05.041</idno>
+<ptr target="http://www.ressources-marines.gov.pf/wp-content/uploads/sites/24/2022/10/Bulletin-statistique-DRM-2021-light.pdf"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">65</biblscope>
+<biblscope from="425" to="440" unit="page"></biblscope>
+<date type="published" when="2012">2012. 2021. 2021</date>
+<publisher>Bulletin Statistique: Synthèse des données de la pêche professionnelle, de l'aquaculture et de la perliculture</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Dumas, F., Le Gendre, R., Thomas, Y., and Andréfouët, S.: Tidal flushing and wind driven circulation of Ahe atoll lagoon (Tuamotu Archipelago, French Polynesia) from in situ observations and numerical modelling. Marine Pollution Bulletin., 65, 425-440. https://doi.org/10.1016/j.marpolbul.2012.05.041, 2012. DRM (Direction des Ressources Marines).: Bulletin Statistique: Synthèse des données de la pêche professionnelle, de l'aquaculture et de la perliculture, Edition 2021, http://www.ressources- marines.gov.pf/wp-content/uploads/sites/24/2022/10/Bulletin-statistique-DRM-2021-light.pdf, 2021.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Characterization of south central Pacific Ocean wind regimes in present and future climate for pearl farming application</title>
+<author>
+<persname><forename type="first">C</forename><surname>Dutheil</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Jullien</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Le Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Aucan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Menkes</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.marpolbul.2020.111584</idno>
+<ptr target="https://doi.org/10.1016/j.marpolbul.2020.111584"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">160</biblscope>
+<biblscope unit="page">111584</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dutheil, C., Andréfouët, S., Jullien, S., Le Gendre, R., Aucan, J., and Menkes, C.: Characterization of south central Pacific Ocean wind regimes in present and future climate for pearl farming application. Marine Pollution Bulletin., 160, 111584. https://doi.org/10.1016/j.marpolbul.2020.111584, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">The wave regimes of the Central Pacific Ocean with a focus on pearl farming atolls</title>
+<author>
+<persname><forename type="first">C</forename><surname>Dutheil</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Jullien</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Aucan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Menkes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Le Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.marpolbul.2020.111751</idno>
+<ptr target="https://doi.org/10.1016/j.marpolbul.2020.111751"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">162</biblscope>
+<biblscope unit="page">111751</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dutheil, C., Jullien, S., Aucan, J., Menkes, C., Le Gendre, R., and Andréfouët, S.: The wave regimes of the Central Pacific Ocean with a focus on pearl farming atolls. Marine Pollution Bulletin., 162, 111751. https://doi.org/10.1016/j.marpolbul.2020.111751, 2021.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Integrated management of pearl culture in French Polynesia in the context of global change: Synopsis of existing results</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Gueguen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Gaertner-Mazouni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Lo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Moullac</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename></persname>
+</author>
+<idno type="DOI">10.1016/j.ecss.2016.07.010,2016</idno>
+<ptr target="https://doi.org/10.5194/essd-2023-198Preprint"></ptr>
+</analytic>
+<monogr>
+<title level="j">Estuarine, Coastal and Shelf Science</title>
+<imprint>
+<biblscope unit="volume">182</biblscope>
+<biblscope from="229" to="234" unit="page"></biblscope>
+<date type="published" when="2023-06-07">7 June 2023</date>
+</imprint>
+</monogr>
+<note>c Author(s) 2023. CC BY 4.0 License</note>
+<note type="raw_reference">Gueguen, Y., Gaertner-Mazouni, N., Lo, C., and Le Moullac, G.: Integrated management of pearl culture in French Polynesia in the context of global change: Synopsis of existing results. Estuarine, Coastal and Shelf Science., 182, 229-234. https://doi.org/10.1016/j.ecss.2016.07.010, 2016. https://doi.org/10.5194/essd-2023-198 Preprint. Discussion started: 7 June 2023 c Author(s) 2023. CC BY 4.0 License.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Influence of water temperature and food on the last stages of cultured pearl mineralization from the black-lip pearl oyster Pinctada margaritifera</title>
+<author>
+<persname><forename type="first">O</forename><surname>Latchere</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Mehn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Gaertner-Mazouni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Le Moullac</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Fievet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Belliard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Cabral</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Saulnier</surname></persname>
+</author>
+<idno type="DOI">10.1371/journal.pone.0193863</idno>
+<ptr target="https://doi.org/10.1371/journal.pone.0193863"></ptr>
+</analytic>
+<monogr>
+<title level="j">PLoS ONE</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope unit="page">193863</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Latchere, O., Mehn, V., Gaertner-Mazouni, N., Le Moullac, G., Fievet, J., Belliard, C., Cabral, P., Saulnier, D.: Influence of water temperature and food on the last stages of cultured pearl mineralization from the black-lip pearl oyster Pinctada margaritifera. PLoS ONE 13., e0193863. https://doi.org/10.1371/journal.pone.0193863, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Atlas climatologique de la Polynésie française, Météo France</title>
+<author>
+<persname><forename type="first">V</forename><surname>Laurent</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Maamaatuaiahutapu</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Faa'a-Tahiti</title>
+<imprint>
+<biblscope unit="volume">242</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Laurent, V. and Maamaatuaiahutapu, K.: Atlas climatologique de la Polynésie française, Météo France, Faa'a-Tahiti, 242 pp., 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<monogr>
+<author>
+<persname><forename type="first">V</forename><surname>Laurent</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Varney</surname></persname>
+</author>
+<title level="m">Historique des cyclones de Polynésie française de 1831 à 2010</title>
+<meeting><address><addrline>Papeete</addrline></address></meeting>
+<imprint>
+<publisher>Météo-France</publisher>
+<date type="published" when="2014">2014</date>
+<biblscope unit="volume">192</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Laurent, V. and Varney, P.: Historique des cyclones de Polynésie française de 1831 à 2010. Météo- France, Papeete, 192 pp., 2014.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Plan de pose des instruments : mesures de pression, houle, courant et température -Ahe</title>
+<author>
+<persname><forename type="first">Le</forename><surname>Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename></persname>
+</author>
+<idno type="DOI">10.12770/be239ab6-bd5b-4dfd-9d3c-51e6c3793810</idno>
+<ptr target="https://doi.org/10.12770/be239ab6-bd5b-4dfd-9d3c-51e6c3793810"></ptr>
+</analytic>
+<monogr>
+<title level="j">SEXTANT(IFREMER)</title>
+<imprint>
+<date type="published" when="2020">2020a</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Le Gendre, R.: Plan de pose des instruments : mesures de pression, houle, courant et température -Ahe. SEXTANT(IFREMER). https://doi.org/10.12770/be239ab6-bd5b-4dfd-9d3c-51e6c3793810, 2020a.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Plan de pose des instruments : mesures de pression, courant et température -Takaroa</title>
+<author>
+<persname><forename type="first">Le</forename><surname>Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename></persname>
+</author>
+<idno type="DOI">10.12770/ec81af02-e049-4f99-8cc6-748ee0550d32</idno>
+<ptr target="https://doi.org/10.12770/ec81af02-e049-4f99-8cc6-748ee0550d32"></ptr>
+</analytic>
+<monogr>
+<title level="j">SEXTANT(IFREMER)</title>
+<imprint>
+<date type="published" when="2020">2020b</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Le Gendre, R.: Plan de pose des instruments : mesures de pression, courant et température -Takaroa. SEXTANT(IFREMER). https://doi.org/10.12770/ec81af02-e049-4f99-8cc6-748ee0550d32, 2020b.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Pinctada margaritifera responses to temperature and pH: Acclimation capabilities and physiological limits</title>
+<author>
+<persname><forename type="first">Le</forename><surname>Moullac</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Soyez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Latchere</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Vidal-Dupiol</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Fremery</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Saulnier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Lo Yat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Belliard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Mazouni-Gaertner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Gueguen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename></persname>
+</author>
+<idno type="DOI">10.1016/j.ecss.2016.04.011</idno>
+<ptr target="https://doi.org/10.1016/j.ecss.2016.04.011"></ptr>
+</analytic>
+<monogr>
+<title level="j">Estuarine, Coastal and Shelf Science</title>
+<imprint>
+<biblscope unit="volume">182</biblscope>
+<biblscope from="261" to="269" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Le Moullac, G., Soyez, C., Latchere, O., Vidal-Dupiol, J., Fremery, J., Saulnier, D., Lo Yat, A., Belliard, C., Mazouni-Gaertner, N., Gueguen, Y. :Pinctada margaritifera responses to temperature and pH: Acclimation capabilities and physiological limits. Estuarine, Coastal and Shelf Science 182, 261- 269, https://doi.org/10.1016/j.ecss.2016.04.011, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<monogr>
+<title level="m" type="main">Huître perlière et perle de Tahiti. Faa'a</title>
+<author>
+<persname><forename type="first">Le</forename><surname>Pennec</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename></persname>
+</author>
+<imprint>
+<date type="published" when="2010">2010</date>
+<publisher>Punaauia-Tahiti</publisher>
+<biblscope unit="volume">203</biblscope>
+</imprint>
+<respstmt>
+<orgname>Université de la Polynésie française</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">Le Pennec, M.: Huître perlière et perle de Tahiti. Faa'a. Université de la Polynésie française, Punaauia- Tahiti, 203 pp., 2010.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Coral conglomerate platforms as foundations for low-lying, reef islands in the French Polynesia (central south Pacific): New insights into the timing and mode of formation</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">F</forename><surname>Montaggioni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Martin-Garin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Salvat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Aubanel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Pons-Branchu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Paterne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Richard</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.margeo.2021.106500</idno>
+<ptr target="https://doi.org/10.1016/j.margeo.2021.106500"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Geology</title>
+<imprint>
+<biblscope unit="volume">437</biblscope>
+<biblscope unit="page">106500</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Montaggioni, L.F., Martin-Garin, B., Salvat, B., Aubanel, A., Pons-Branchu, E., Paterne, M., Richard, M.: Coral conglomerate platforms as foundations for low-lying, reef islands in the French Polynesia (central south Pacific): New insights into the timing and mode of formation. Marine Geology., 437, 106500. https://doi.org/10.1016/j.margeo.2021.106500, 2021.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">A reconnaissance approach for hydrology of atoll lagoons</title>
+<author>
+<persname><forename type="first">J</forename><surname>Pagès</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00338-001-0192-7,2001</idno>
+<ptr target="https://doi.org/10.1007/s00338-001-0192-7,2001"></ptr>
+</analytic>
+<monogr>
+<title level="j">Coral Reefs</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="409" to="414" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Pagès, J. and Andréfouët, S.: A reconnaissance approach for hydrology of atoll lagoons. Coral Reefs., 20, 409-414, https://doi.org/10.1007/s00338-001-0192-7, 2001.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Diversity and toxic potential of algal bloom-forming species from Takaroa lagoon (Tuamotu, French Polynesia): a field and mesocosm study</title>
+<author>
+<persname><forename type="first">M</forename><surname>Rodier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Longo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Henry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ung</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Lo-Yat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Darius</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Viallon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Beker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Delesalle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Chinain</surname></persname>
+</author>
+<idno type="DOI">10.3354/ame01900,2019</idno>
+<ptr target="https://doi.org/10.3354/ame01900,2019"></ptr>
+</analytic>
+<monogr>
+<title level="j">Aquat. Microb. Ecol</title>
+<imprint>
+<biblscope unit="volume">83</biblscope>
+<biblscope from="15" to="34" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Rodier, M., Longo, S., Henry, K., Ung, A., Lo-Yat, A., Darius, H., Viallon, J., Beker, B., Delesalle, B., and Chinain, M.: Diversity and toxic potential of algal bloom-forming species from Takaroa lagoon (Tuamotu, French Polynesia): a field and mesocosm study. Aquat. Microb. Ecol., 83, 15-34. https://doi.org/10.3354/ame01900, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Impact of environmental variability on Pinctada margaritifera life-history traits: A full life cycle deb modeling approach</title>
+<author>
+<persname><forename type="first">N</forename><surname>Sangare</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Lo-Yat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">L</forename><surname>Moullac</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Pecquerie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Thomas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Lefebvre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L</forename><surname>Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Beliaeff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.ecolmodel.2020.109006,2020</idno>
+<ptr target="https://seanoe.org/"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ecological Modelling</title>
+<imprint>
+<biblscope unit="volume">423</biblscope>
+<biblscope unit="page">109006</biblscope>
+<date type="published" when="2023-04-16">7 June 2023 c. 16 April 2023</date>
+</imprint>
+</monogr>
+<note>Author(s) 2023. CC BY 4.0 License. Seanoe: Sea scientific open data publication</note>
+<note type="raw_reference">Sangare, N., Lo-Yat, A., Moullac, G.L., Pecquerie, L., Thomas, Y., Lefebvre, S., Gendre, R.L., Beliaeff, B., Andréfouët, S.: Impact of environmental variability on Pinctada margaritifera life-history traits: A full life cycle deb modeling approach. Ecological Modelling., 423, 109006. https://doi.org/10.1016/j.ecolmodel.2020.109006, 2020. https://doi.org/10.5194/essd-2023-198 Preprint. Discussion started: 7 June 2023 c Author(s) 2023. CC BY 4.0 License. Seanoe: Sea scientific open data publication, https://seanoe.org/, last access: 16 April 2023.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">The water residence time in the Mururoa atoll lagoon: Sensitivity analysis of a three-dimensional model</title>
+<author>
+<persname><forename type="first">B</forename><surname>Tartinville</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Deleersnijder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Rancher</surname></persname>
+</author>
+<idno type="DOI">10.1007/s003380050074</idno>
+<ptr target="https://doi.org/10.1007/s003380050074"></ptr>
+</analytic>
+<monogr>
+<title level="j">Coral-Reefs</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope from="193" to="203" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Tartinville, B., Deleersnijder, E., and Rancher, J.: The water residence time in the Mururoa atoll lagoon: Sensitivity analysis of a three-dimensional model. Coral-Reefs., 16, 193-203. https://doi.org/10.1007/s003380050074, 1997.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Spatial and temporal variability of the pico-and nanophytoplankton and bacterioplankton in a deep Polynesian atoll lagoon</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Thomas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Garen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Courties</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Charpy</surname></persname>
+</author>
+<idno type="DOI">10.3354/ame01384,2010</idno>
+<ptr target="https://doi.org/10.3354/ame01384,2010"></ptr>
+</analytic>
+<monogr>
+<title level="j">Aquat. Microb. Ecol</title>
+<imprint>
+<biblscope unit="volume">59</biblscope>
+<biblscope from="89" to="101" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Thomas, Y., Garen, P., Courties, C., Charpy, L.: Spatial and temporal variability of the pico-and nanophytoplankton and bacterioplankton in a deep Polynesian atoll lagoon. Aquat. Microb. Ecol., 59, 89-101. https://doi.org/10.3354/ame01384, 2010.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Larval Dispersal Modeling of Pearl Oyster Pinctada margaritifera following Realistic Environmental and Biological Forcing in Ahe Atoll Lagoon</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Thomas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Dumas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.1371/journal.pone.0095050</idno>
+<ptr target="https://doi.org/10.1371/journal.pone.0095050"></ptr>
+</analytic>
+<monogr>
+<title level="j">PLoS ONE</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="page">95050</biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thomas, Y., Dumas, F., and Andréfouët, S.: Larval Dispersal Modeling of Pearl Oyster Pinctada margaritifera following Realistic Environmental and Biological Forcing in Ahe Atoll Lagoon. PLoS ONE 9., e95050. https://doi.org/10.1371/journal.pone.0095050, 2014.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Larval connectivity of pearl oyster through biophysical modelling; evidence of food limitation and broodstock effect</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Thomas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Dumas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.ecss.2016.03.010</idno>
+<ptr target="https://doi.org/10.1016/j.ecss.2016.03.010"></ptr>
+</analytic>
+<monogr>
+<title level="j">Estuarine, Coastal and Shelf Science</title>
+<imprint>
+<biblscope unit="volume">182</biblscope>
+<biblscope from="283" to="293" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thomas, Y., Dumas, F., and Andréfouët, S.: Larval connectivity of pearl oyster through biophysical modelling; evidence of food limitation and broodstock effect. Estuarine, Coastal and Shelf Science., 182, 283-293. https://doi.org/10.1016/j.ecss.2016.03.010, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Bivalve larvae transport and connectivity within the Ahe atoll lagoon (Tuamotu Archipelago), with application to pearl oyster aquaculture management</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Thomas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Le Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Garen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Dumas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.marpolbul.2011.12.027</idno>
+<ptr target="https://doi.org/10.1016/j.marpolbul.2011.12.027"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">65</biblscope>
+<biblscope from="441" to="452" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thomas, Y., Le Gendre, R., Garen, P., Dumas, F., and Andréfouët, S.: Bivalve larvae transport and connectivity within the Ahe atoll lagoon (Tuamotu Archipelago), with application to pearl oyster aquaculture management. Marine Pollution Bulletin., 65, 441-452. https://doi.org/10.1016/j.marpolbul.2011.12.027, 2012.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">A multivariate approach to synthetize large amount of connectivity matrices for management decisions: Application to oyster population restocking in the pearl farming context of Tuamotu Archipelago semi-closed atolls</title>
+<author>
+<persname><forename type="first">C</forename><surname>Violette</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Le Gendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Chauveau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Andréfouët</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.marpolbul.2023.114748,2023</idno>
+<ptr target="https://doi.org/10.5194/essd-2023-198Preprint"></ptr>
+</analytic>
+<monogr>
+<title level="j">Marine Pollution Bulletin</title>
+<imprint>
+<biblscope unit="volume">189</biblscope>
+<biblscope unit="page">114748</biblscope>
+<date type="published" when="2023-06-07">7 June 2023 c</date>
+</imprint>
+</monogr>
+<note>Author(s) 2023. CC BY 4.0 License</note>
+<note type="raw_reference">Violette, C., Le Gendre, R., Chauveau, M., and Andréfouët, S.: A multivariate approach to synthetize large amount of connectivity matrices for management decisions: Application to oyster population restocking in the pearl farming context of Tuamotu Archipelago semi-closed atolls. Marine Pollution Bulletin., 189, 114748. https://doi.org/10.1016/j.marpolbul.2023.114748, 2023. https://doi.org/10.5194/essd-2023-198 Preprint. Discussion started: 7 June 2023 c Author(s) 2023. CC BY 4.0 License.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

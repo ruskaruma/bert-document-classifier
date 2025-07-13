@@ -1,0 +1,752 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7319170</article-id><article-id pub-id-type="doi">10.1002/ece3.6303</article-id><article-id pub-id-type="publisher-id">ECE36303</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Can polyploidy confer invasive plants with a wider climatic tolerance? A test using <italic>Solidago canadensis</italic>
+</article-title><alt-title alt-title-type="left-running-head">WAN et&#x000a0;al.</alt-title></title-group><contrib-group><contrib id="ece36303-cr-0001" contrib-type="author"><name><surname>Wan</surname><given-names>Jizhong</given-names></name><xref ref-type="aff" rid="ece36303-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece36303-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece36303-cr-0002" contrib-type="author"><name><surname>Oduor</surname><given-names>Ayub M. O.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6714-5253</contrib-id><xref ref-type="aff" rid="ece36303-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece36303-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ece36303-cr-0003" contrib-type="author"><name><surname>Pouteau</surname><given-names>Robin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3090-6551</contrib-id><xref ref-type="aff" rid="ece36303-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece36303-cr-0004" contrib-type="author"><name><surname>Wang</surname><given-names>Beilei</given-names></name><xref ref-type="aff" rid="ece36303-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece36303-cr-0005" contrib-type="author"><name><surname>Chen</surname><given-names>Luxi</given-names></name><xref ref-type="aff" rid="ece36303-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece36303-cr-0006" contrib-type="author"><name><surname>Yang</surname><given-names>Beifen</given-names></name><xref ref-type="aff" rid="ece36303-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece36303-cr-0007" contrib-type="author"><name><surname>Yu</surname><given-names>Feihai</given-names></name><xref ref-type="aff" rid="ece36303-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece36303-cr-0008" contrib-type="author" corresp="yes"><name><surname>Li</surname><given-names>Junmin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8244-0461</contrib-id><xref ref-type="aff" rid="ece36303-aff-0001">
+<sup>1</sup>
+</xref><address><email>lijmtzc@126.com</email></address></contrib></contrib-group><aff id="ece36303-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Zhejing Provincial Key Laboratory of Plant Evolutionary Ecology and Conservation</named-content>
+<institution>Taizhou University</institution>
+<city>Taizhou</city>
+<country country="CN">P.R. China</country>
+</aff><aff id="ece36303-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">State Key Laboratory of Plateau Ecology and Agriculture</named-content>
+<institution>Qinghai University</institution>
+<city>Xining</city>
+<country country="CN">P.R. China</country>
+</aff><aff id="ece36303-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Applied Biology</named-content>
+<institution>Technical University of Kenya</institution>
+<city>Nairobi</city>
+<country country="KE">Kenya</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Junmin Li, Zhejiang Provincial Key Laboratory of Plant Evolutionary Ecology and Conservation, Taizhou 318000, China.<break/>
+Email: <email>lijmtzc@126.com</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>26</day><month>5</month><year>2020</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2020</year></pub-date><volume>10</volume><issue>12</issue><issue-id pub-id-type="doi">10.1002/ece3.v10.12</issue-id><fpage>5617</fpage><lpage>5630</lpage><history><date date-type="received"><day>26</day><month>8</month><year>2019</year></date><date date-type="rev-recd"><day>25</day><month>3</month><year>2020</year></date><date date-type="accepted"><day>30</day><month>3</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2020 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ECE3-10-5617.pdf"/><abstract id="ece36303-abs-0001"><title>Abstract</title><p>Polyploidy can cause variation in plant functional traits and thereby generate individuals that can adapt to fluctuating environments and exploit new environments. However, few empirical studies have tested for an association between ploidy level and climatic tolerance of invasive cytotypes relative to conspecific native&#x02010;range cytotypes. Here, we used an invasive plant <italic>Solidago canadensis</italic> to test whether invasive populations had a higher proportion of polyploids, greater height and stem&#x02010;base diameter, and occupied a wider range of climatic conditions than conspecific native&#x02010;range populations. We also tested whether the invasive populations had overcome genetic founder effects. We sampled a total of 80 populations in parts of the invaded range in China and native range in North America for in situ measurements of plant height and stem&#x02010;base diameter in the field and for population genetic and cytotype analyses. To examine climatic correlates, we augmented our field&#x02010;sampled data with occurrence records obtained from Global Biodiversity Information Facility. All, except one, of the populations that we sampled in China occurred in a humid subtropical climate. In contrast, the North American populations occurred in humid continental, humid subtropical, and semi&#x02010;arid climatic zones. All populations of <italic>S. canadensis</italic> in China were purely hexaploid, while the North American populations were diploid, tetraploid, and hexaploid. The invasive hexaploids were significantly taller and had a&#x000a0;larger stem&#x02010;base diameter than native hexaploids. Native hexaploids were significantly taller and had larger stem&#x02010;base diameter than native diploids. Climatic correlate assessment found that invasive and native populations occupied different climatic envelopes, with invasive populations occurring in warmer and less seasonal climates than native populations. However, there was no significant correlation between ploidy level and climatic envelope of <italic>S. canadensis</italic>. Molecular phylogeography data suggest reduced genetic founder effects in the invaded range. Overall, these results suggest that polyploidy does not influence <italic>S. canadensis</italic> climatic tolerance.</p></abstract><abstract abstract-type="graphical" id="ece36303-abs-0002"><p>Climatic envelope assessment found that invasive and native populations occupied different climatic niches, with invasive populations preferring warmer and less seasonal climates than native populations. Molecular phylogeography data provide signatures of reduced genetic founder effects in the invaded range. Polyploidy does not influence <italic>Solidago canadensis</italic> climatic niche widths.
+<boxed-text position="anchor" content-type="graphic" id="ece36303-blkfxd-0001" orientation="portrait"><graphic xlink:href="ECE3-10-5617-g005.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group><kwd id="ece36303-kwd-0001">climatic envelope</kwd><kwd id="ece36303-kwd-0002">invasive plant</kwd><kwd id="ece36303-kwd-0003">plant functional trait variation</kwd><kwd id="ece36303-kwd-0004">polyploidy</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>Ten Thousand Talent Program of Zhejiang Province</funding-source></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>National Natural Science Foundation of China </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001809</institution-id></institution-wrap></funding-source><award-id>31270461</award-id></award-group><award-group id="funding-0003"><funding-source>National Key Research and Development Program</funding-source><award-id>2016YFC1201100</award-id></award-group></funding-group><counts><fig-count count="4"/><table-count count="3"/><page-count count="14"/><word-count count="10706"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.8.4 mode:remove_FC converted:26.06.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece36303-cit-1001">
+<string-name>
+<surname>Wan</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Oduor</surname>
+<given-names>AMO</given-names>
+</string-name>, <string-name>
+<surname>Pouteau</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Can polyploidy confer invasive plants with a wider climatic tolerance? A test using <italic>Solidago canadensis</italic>
+</article-title>. <source xml:lang="en">Ecol Evol</source>. <year>2020</year>;<volume>10</volume>:<fpage>5617</fpage>&#x02013;<lpage>5630</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.6303</pub-id>
+</mixed-citation>
+</p></notes></front><body id="ece36303-body-0001"><sec id="ece36303-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Invasions by exotic plant species pose substantial threats to native biodiversity and alter ecosystem processes across a broad range of environments (McGeoch et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0027" ref-type="ref">2010</xref>; Py&#x00161;ek et&#x000a0;al., <xref rid="ece36303-bib-0043" ref-type="ref">2012</xref>). To improve effectiveness of invasive plant management, it is necessary to understand the mechanisms that underpin invasive spread of exotic plants (Dawson, Burslem, &#x00026; Hulme,&#x000a0;<xref rid="ece36303-bib-0006" ref-type="ref">2009</xref>). Species with high variation in functional traits (morphological, physiological, and phenological) can adapt to different stress levels and increase the uptake of limiting resources across a broad range of climatic conditions (Nicotra et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0034" ref-type="ref">2010</xref>). Thus, plants that possess higher mean values of, and variation in, functional traits in the invaded ranges than in their native ranges may have an enhanced capacity to colonize a wide range of climatic conditions (Py&#x00161;ek et&#x000a0;al., <xref rid="ece36303-bib-0043" ref-type="ref">2012</xref>; Richardson &#x00026; Py&#x00161;ek,&#x000a0;<xref rid="ece36303-bib-0046" ref-type="ref">2006</xref>). Therefore, an understanding of the factors that determine variation in functional trait values in invasive plants is key to predicting invasion risks (Leffler, James, Monaco, &#x00026; Sheley,&#x000a0;<xref rid="ece36303-bib-0023" ref-type="ref">2014</xref>; te Beest, Esler, &#x00026; Richardson,&#x000a0;<xref rid="ece36303-bib-0058" ref-type="ref">2015</xref>).</p><p>Polyploidy (i.e., whole genome duplication) can cause variation in plant morphology, phenology, and physiology and thereby generate individuals that can adapt to fluctuating environments, exploit new environments, or outcompete progenitor diploids (te Beest et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0059" ref-type="ref">2012</xref>; Sim&#x000f3;n&#x02010;Porcar, Silva, Meeus, Higgins, &#x00026; Vallejo&#x02010;Mar&#x000ed;n, <xref rid="ece36303-bib-0052" ref-type="ref">2017</xref>; Soltis, Visger, &#x00026; Soltis,&#x000a0;<xref rid="ece36303-bib-0054" ref-type="ref">2014</xref>). Therefore, polyploidy may confer plants with novel features that allow them to invade new environments or expand their ecological ranges (Parisod, Holderegger, &#x00026; Brochmann,&#x000a0;<xref rid="ece36303-bib-0041" ref-type="ref">2010</xref>; Th&#x000e9;bault, Gillet, M&#x000fc;ller&#x02010;Sch&#x000e4;rer, &#x00026; Buttler,&#x000a0;<xref rid="ece36303-bib-0060" ref-type="ref">2011</xref>; te Beest et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0058" ref-type="ref">2015</xref>). Several studies have found invasive plant species to have higher ploidy levels in the introduced ranges than in their native ranges. For instance, this has been reported for invasions by <italic>Centaurea maculosa</italic> (Muller,&#x000a0;<xref rid="ece36303-bib-0032" ref-type="ref">1989</xref>; Treier et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0061" ref-type="ref">2009</xref>), <italic>Lythrum salicaria</italic> (Kubatova et al.,&#x000a0;<xref rid="ece36303-bib-0019" ref-type="ref">2008</xref>), and <italic>Centaurea stoebe</italic> in North America (Mr&#x000e1;z, Tarbush, &#x00026; M&#x000fc;ller&#x02010;Sch&#x000e4;rer,&#x000a0;<xref rid="ece36303-bib-0031" ref-type="ref">2014</xref>); <italic>Solidago gigantea</italic> (Schlaepfer, Edwards, &#x00026; Billeter,&#x000a0;<xref rid="ece36303-bib-0050" ref-type="ref">2010</xref>) and <italic>Senecio inaequidens</italic> in Europe (Monty, Maurice, &#x00026; Mahy,&#x000a0;<xref rid="ece36303-bib-0029" ref-type="ref">2010</xref>); <italic>Solidago canadensis</italic> in China (Li, Liu, Yan, &#x00026; Du,&#x000a0;<xref rid="ece36303-bib-0025" ref-type="ref">2017</xref>); and <italic>Lilium lancifolium</italic> in Europe and North America (Chung et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0005" ref-type="ref">2015</xref>). However, few empirical studies have tested for an association between variation in ploidy level and climatic tolerance of invasive plants in their introduced and native ranges (Broennimann, Mr&#x000e1;z, Petitpierre, Guisan, &#x00026; M&#x000fc;ller&#x02010;Sch&#x000e4;rer,&#x000a0;<xref rid="ece36303-bib-0004" ref-type="ref">2014</xref>; Treier et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0061" ref-type="ref">2009</xref>). A case study on <italic>C. maculosa</italic> found that invasive&#x02010;range tetraploid populations occupied a drier climate than conspecific native&#x02010;range tetraploid populations (Treier et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0061" ref-type="ref">2009</xref>). Nevertheless, later experimental results suggested that drought tolerance did not differ between <italic>C. maculosa</italic> cytotypes, but was instead correlated with original latitudinal clines within cytotypes (Mr&#x000e1;z et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0031" ref-type="ref">2014</xref>). The paucity of studies that integrate cytobiogeography with evaluation of climatic tolerance pre&#x02010;empts drawing a firm conclusion as to whether higher ploidy levels confer wider climatic tolerance.</p><p>It also remains unresolved whether a pronounced shift in cytotype distribution that has been reported in several invasive plant species is due to stochastic genetic founder events or adaptive evolutionary processes. Population genetic theory predicts that invasive species are likely to experience genetic founder effects, which may reduce their ability to adapt to novel environmental conditions (Dlugosch &#x00026; Parker,&#x000a0;<xref rid="ece36303-bib-0009" ref-type="ref">2008</xref>). Founder effects can cause a reduction in genetic diversity because the introduced populations are often a subset of the original, larger populations (Dlugosch &#x00026; Parker,&#x000a0;<xref rid="ece36303-bib-0009" ref-type="ref">2008</xref>). Nevertheless, studies have found evidence for local adaptation in several invasive species (Oduor, Leimu, &#x00026; Kleunen,&#x000a0;<xref rid="ece36303-bib-0037" ref-type="ref">2016</xref>), which implies that the species have overcome genetic founder effects. Invasive species may overcome (or at least minimize) founder effects through multiple introduction events (i.e., introductions of diverse genetic lineages from different source populations in the native range) or a single introduction event from a native&#x02010;range source population having high genetic variation (Genton, Shykoff, &#x00026; Giraud,&#x000a0;<xref rid="ece36303-bib-0014" ref-type="ref">2005</xref>; Le Roux et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0022" ref-type="ref">2011</xref>; Meyerson &#x00026; Cronin,&#x000a0;<xref rid="ece36303-bib-0028" ref-type="ref">2013</xref>; Oduor et al.,&#x000a0;<xref rid="ece36303-bib-0038" ref-type="ref">2015</xref>). However, few studies have used cytobiogeographical and molecular phylogeographical approaches to determine whether invasive cytotypes represent a full complement of genetic diversity that occurs in the native range.</p><p>Here, we used the invasive plant <italic>S. canadensis</italic> to test a prediction that polyploidy can enable invasive plant species to colonize a wider range of climatic conditions. Specifically, we combined a cytobiogeographical approach, estimates of functional traits and climatic correlates, and molecular phylogeography methods to test whether invasive populations of <italic>S. canadensis:</italic> 1) had a higher proportion of polyploids, 2) were larger, 3) had a wider climatic tolerance, and 4) had overcome founder effects, relative to native populations of <italic>S. canadensis</italic>.</p></sec><sec sec-type="materials-and-methods" id="ece36303-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="ece36303-sec-0003"><label>2.1</label><title>Study species</title><p>
+<italic>Solidago canadensis</italic> L. (Asteraceae) is a rhizomatous clonal perennial forb native to North America and has invaded China and other regions (Europe, Australia, New Zealand, and Japan) (Abhilasha, Quintana, Vivanco, &#x00026; Joshi,&#x000a0;<xref rid="ece36303-bib-0001" ref-type="ref">2008</xref>; Jin, Yuan, Gao, Oduor, &#x00026; Li,&#x000a0;<xref rid="ece36303-bib-0017" ref-type="ref">2020</xref>; Xu &#x00026; Qiang,&#x000a0;<xref rid="ece36303-bib-0065" ref-type="ref">2011</xref>). <italic>Solidago canadensis</italic> reproduces both clonally and sexually (Li et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0025" ref-type="ref">2017</xref>). The plant is self&#x02010;incompatible and produces small wind&#x02010;dispersed seeds for long&#x02010;distance dispersal (Li et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0025" ref-type="ref">2017</xref>). However, the plant can spread clonally at a local scale (Li et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0025" ref-type="ref">2017</xref>). In China, <italic>S. canadensis</italic> was first introduced to Zhejiang, Jiangsu, and Shanghai provinces in the early 1930s as an ornamental garden species (Xu et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0066" ref-type="ref">2012</xref>; Zhao et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0068" ref-type="ref">2015</xref>). It escaped from cultivation and experienced explosive spread across eastern China after 1980s, and is now distributed widely across eastern China where it abounds in disturbed habitats, including agricultural lands, roadsides, railways, and city suburbs (Dong, Yu, &#x00026; He,&#x000a0;<xref rid="ece36303-bib-0010" ref-type="ref">2015</xref>; Zhao et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0068" ref-type="ref">2015</xref>). The species has diploid, tetraploid, and hexaploid cytotypes in the native range, but only hexaploids have been found in China (Li et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0025" ref-type="ref">2017</xref>). Previous studies (Xu et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0066" ref-type="ref">2012</xref>; Zhao et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0068" ref-type="ref">2015</xref>) suggest that the Chinese populations were founded through multiple introduction events.</p></sec><sec id="ece36303-sec-0004"><label>2.2</label><title>Sampling and functional trait measurement</title><p>To identify occurrence locations of <italic>S. canadensis</italic> in China and North America, we conducted field surveys in summer and autumn for the period 2013&#x02013;2016. We sampled a total of 2,051 <italic>S. canadensis</italic> individuals in 19 native and 61 invasive populations. The number of individuals sampled per population ranged from five to 33. The native range in North America was represented by 577 individuals, while the invaded range in China was represented by 1,474 individuals (Appendix 1). Any two sample populations were at least 5&#x000a0;km apart. In each population, we sampled at random plants that occurred within a radius of 10&#x02013;20&#x000a0;m to minimize a potential bias due to environmental heterogeneity within a population (e.g., soil moisture and nutrients). To avoid sampling plants from the same genet within the same radius, we sampled plants that were at least two meters apart from each other. For each <italic>S</italic>. <italic>canadensis</italic> individual, we took in situ measurements of stem&#x02010;base diameter and plant height (in cm). These functional traits are generally linked to ecological strategy axes of plants. As a plant developmental stage (i.e., phenophase) can influence the values of these traits, we took measurements only from mature plants that had set seeds and were therefore presumably not undergoing further development in height and stem diameter. We omitted leaf measurements because an individual <italic>S. canadensis</italic> plant can have hundreds of leaves (especially in the non&#x02010;native range), and hence, finding the largest leaf for measurement can be extremely difficult. In the native range, the ecological niches of <italic>S. canadensis</italic> and those of its congeners <italic>S. gigantea</italic> and <italic>S. altissima</italic> overlap and the three species can coexist (Benelli et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0002" ref-type="ref">2019</xref>; Weber,&#x000a0;<xref rid="ece36303-bib-0063" ref-type="ref">1998</xref>). However, <italic>S. canadensis</italic> prefers loose and drier soils than the congeners, and hence, it occurs mostly near urban areas, roadsides, and railways, while the congeners occur mainly on riverside and embankments (Benelli et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0002" ref-type="ref">2019</xref>). Therefore, within a locality, we sampled only the preferred habitats of <italic>S. canadensis</italic> to avoid accidental sampling of the congeners. Moreover, we conducted a test of phylogenetic relatedness among the populations that we sampled in the field to determine whether they all belonged to <italic>S. canadensis</italic> (see the section on population genetics and phylogenetic analyses below). All the sampled populations in China occurred in a humid subtropical climate except one that occurred in a subtropical highland climate. In contrast, the North American populations were sampled from humid continental, humid subtropical, and semi&#x02010;arid climatic zones (K&#x000f6;ppen&#x02013;Geiger climate classification system) (Kottek, Grieser, Beck, Rudolf, &#x00026; Rube,&#x000a0;<xref rid="ece36303-bib-0018" ref-type="ref">2006</xref>).</p></sec><sec id="ece36303-sec-0005"><label>2.3</label><title>Determination of ploidy level</title><p>We took fresh leaf samples from the same <italic>S. canadensis</italic> individuals used for functional trait measurements described above. The leaf materials were held in self&#x02010;sealing plastic bags containing silica and transported to the laboratory for ploidy level determination. We applied a modified flow cytometry method by Suda and Tr&#x000e1;vn&#x000ed;&#x0010d;ek (<xref rid="ece36303-bib-0055" ref-type="ref">2006</xref>) in the determination of ploidy level. In brief, 20&#x000a0;mg of silica&#x02010;dried leaf tissue was chopped up with a razor blade in 1&#x000a0;ml of ice&#x02010;cold extraction buffer (20&#x000a0;mM MOPS, 45&#x000a0;mM MgCl<sub>2</sub>, 30&#x000a0;mM sodium citrate, 0.1% v/v Triton X&#x02010;100, 0.5% w/v polyvinylpyrrolidone) in a plastic Petri dish held on a chilled brick. A new razor blade was used for each leaf sample. The resultant fine slurry was filtered through a 600&#x02010;mesh nylon filter (Shanghai Aoran Hardware Market, Shanghai, China). The filtrate was held in a new 5&#x02010;ml centrifuge tube. The filtered slurry was then resuspended in a pre&#x02010;cooled 1&#x000a0;ml of extraction buffer in a Petri dish and then filtered again. The final filtrate was treated with 10&#x000a0;&#x003bc;L/ml of RNase A for 10&#x000a0;min at 4&#x000b0;C. Then, 200&#x000a0;&#x003bc;L/ml of a propidium iodide (PI) staining solution was added and incubated at 4&#x000b0;C for 30&#x000a0;min in darkness. The fluorescence strength of PI&#x02010;DNA conjugates was measured on Attune&#x000ae; NxT Acoustic Focusing Flow Cytometer (Thermo Fisher Scientific Inc. Waltham, MA, USA) using a 488&#x000a0;nm laser and 590/40 emission filter. Leaf of the hexaploid <italic>S. canadensis</italic> (confirmed by cytometry and karyotype analysis) collected in Taizhou City, Zhejiang Province, China, was used as an external reference.</p></sec><sec id="ece36303-sec-0006"><label>2.4</label><title>Statistical analyses</title><p>To test whether <italic>S. canadensis</italic> plants from the invaded range had significantly greater height and stem&#x02010;base diameter than <italic>S. canadensis</italic> plants from the native range, we fitted linear mixed&#x02010;effect models. In the models, a trait value was treated as a dependent variable, while <italic>S. canadensis</italic> range (invaded vs. native) was treated as a fixed&#x02010;effect independent variable. Population identity of <italic>S. canadensis</italic> was treated as a random&#x02010;effect factor and nested within range. To test whether polyploidy in general conferred higher mean trait values, we also fitted linear mixed&#x02010;effect models to test whether the functional trait values differed between hexaploid and diploid individuals in the native range. Because only hexaploids were found in the invaded range, this latter&#x000a0;test was not possible for invasive plants. In the test, ploidy level (polyploid vs. diploid) was treated as a fixed&#x02010;effect independent variable, while <italic>S. canadensis</italic> population identity was treated as a random&#x02010;effect independent variable. We did additional analyses to test for the potential confounding effect of climate on trait expression by comparing traits of invasive plants with those of native plants from the same climatic zone only. As nearly all invasive plants were sampled in a humid subtropical climate, we used a subset of plants from this climatic zone only. We did separate comparisons for groups of plants that occurred in populations with mixed&#x02010;ploidy and for groups of plants that occurred in populations with one ploidy type. Moreover, we compared traits of diploid plants with those of hexaploid plants that occurred in mixed&#x02010;ploidy populations only to exclude the potential confounding effect of pure and mixed&#x02010;ploidy populations occupying habitats with contrasting ecological conditions. In all the analyses, we fitted the models using maximum likelihood with the <italic>lme</italic> function in the <italic>nlme</italic> package (Pinheiro, Bates, DebRoy, &#x00026; Sarkar,&#x000a0;<xref rid="ece36303-bib-0042" ref-type="ref">2007</xref>) in <sc>r</sc> v 3.5.2 (R Core Team, <xref rid="ece36303-bib-0044" ref-type="ref">2018</xref>). We used likelihood ratio tests to assess the significance of each factor by comparing a model without the factor with a full model.</p></sec><sec id="ece36303-sec-0007"><label>2.5</label><title>Assessing climatic tolerance</title><p>We described the climatic space occupied by <italic>S. canadensis</italic> with 19 variables with a 30 arc&#x02010;sec resolution (~1&#x000a0;km) derived from the WorldClim database (Hijmans, Cameron, Parra, Jones, &#x00026; Jarvis,&#x000a0;<xref rid="ece36303-bib-0016" ref-type="ref">2005</xref>). After standardization of the climatic variables (mean equal to zero and standard deviation equal to 1), we reduced the dimensionality of the climatic hyperspace to two axes (PC1 and PC2) based on a PCA (Broennimann et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0003" ref-type="ref">2012</xref>). In addition to our 80 field&#x02010;sampled records of <italic>S. canadensis</italic> in China and North America, we collected information on occurrences of <italic>S. canadensis</italic> provided by the Global Biodiversity Information Facility (GBIF) database (<ext-link ext-link-type="uri" xlink:href="http://www.gbif.org/">http://www.gbif.org/</ext-link>) in order to assess more comprehensively the climatic tolerance of the species. We retained only the GBIF occurrence records in the native (United States, Canada, and Mexico) and invaded (Australia, New Zealand, Japan, and China) ranges where the species is most widespread. Occurrences flagged as invalid (e.g., in the oceans) or with doubtful coordinates were removed as well as those separated by less than 30 arc&#x02010;seconds to avoid pseudo&#x02010;replication. We then extracted values of PC1 and PC2 for each of the 2,214 retained occurrence locations (i.e., our 80 field&#x02010;sampled records and 2,134 GBIF records, which included 1,624 records in the native range and 510 records in the invaded range).</p><p>To test whether climatic space occupied by <italic>S. canadensis</italic> differed significantly between the invaded and native ranges, we calculated the kernel&#x02010;smoothed density of occurrence of the two ranges based on the density of the different combinations of climatic conditions available to each range (Broennimann et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0003" ref-type="ref">2012</xref>). The overlap between the climatic envelope of the two ranges was estimated with the Schoener's <italic>D</italic> metric, which ranges from 0 (no envelope overlap) to 1 (identical envelopes) (Schoener,&#x000a0;<xref rid="ece36303-bib-0051" ref-type="ref">1968</xref>). We then tested for envelope equivalency and the less restrictive hypothesis of envelope similarity (comparing the observed values of envelope overlap to the 95th percentile density of the simulated values) (Warren, Glor, &#x00026; Turelli,&#x000a0;<xref rid="ece36303-bib-0062" ref-type="ref">2008</xref>). To achieve this, the <italic>D</italic> value between the two ranges was compared to a null distribution of <italic>D</italic> values computed between simulated envelopes built through randomization procedures (10,000 randomly selected &#x0201c;background&#x0201d; points generated 100 times). This was computed with the <sc>r</sc> package &#x0201c;ecospat&#x0201d; (Di Cola et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0008" ref-type="ref">2017</xref>). As a <italic>D</italic> value does not allow a determination of whether an absence of envelope overlap results from the lack of overlap for one or two PCA axes, we used the function &#x0201c;niceOverPlot&#x0201d; implemented in R for easier interpretation. To test whether <italic>S. canadensis</italic> inhabited a wider range of climatic conditions in its invaded range than in the native range, we performed an <italic>F&#x02010;</italic>test of equality of variances (homoscedasticity) along the two PCA axes. We also used the same method to compare the climatic zones occupied by diploid and hexaploid populations of <italic>S. canadensis</italic> in its native range. Finally, we compared <italic>D</italic> values and envelope equivalencies and similarities between the following groups of <italic>S. canadensis</italic> populations: 1) North American versus Chinese populations that we had sampled in the field and with the same ploidy level, 2) North American versus Chinese populations that we had sampled in the field and without controlling for variation in ploidy level, 3) a global data set (i.e., the 80 populations that we had sampled in the field and GBIF records) of North America and Mexico grouped together versus China, and 4) a global data set of North America and Mexico grouped together versus all occurrence records in Australia, New Zealand, Japan, and China. Comparisons 1 and 2 tested the potential effect of variation in ploidy, while comparisons 3 and 4 tested whether our sampling was representative of the invaded and native ranges. For comparisons 3 and 4, it was not possible to control for variation in ploidy level because information on ploidy level was missing in the GBIF database.</p></sec><sec id="ece36303-sec-0008"><label>2.6</label><title>Population genetic and phylogenetic analyses</title><sec id="ece36303-sec-0009"><label>2.6.1</label><title>DNA extraction, PCR, and sequencing</title><p>To estimate gene flow in <italic>S. canadensis</italic> from North America to China and phylogenetic relationships among the 80 invasive and native populations that we sampled in the field, we sequenced two chloroplast spacer regions (<italic>psbA&#x02010;trnH</italic> and <italic>trnL&#x02010;F</italic>) using four universal primer pairs (Appendix 2) (de Andrade et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0007" ref-type="ref">2010</xref>). We sequenced 8&#x02013;14 individuals per population. The primers were synthesized by Sangon Biotechnology Company (Shanghai, China). The PCR mix with a total volume of 20&#x000a0;&#x003bc;l comprised: 1&#x000a0;&#x000d7;&#x000a0;PCR buffer, 2.5&#x000a0;mM Mg<sup>2+</sup>, 4&#x000a0;ng template DNA, 0.15&#x000a0;&#x003bc;M each for forward and reverse primer, 0.3&#x000a0;mM 4&#x000a0;&#x000d7;&#x000a0;dNTP mixture, and 1.5 U Taq polymerase (Promega Cooperation, Madison, Wisconsin, USA). PCR amplifications were performed in a PTC 220 Thermal Cycler (Bio&#x02010;Rad Laboratories, Hercules, California, USA) as follows: denaturation at 95&#x000b0;C for 5&#x000a0;min, followed by 40 cycles of 45&#x000a0;s at 94&#x000b0;C, 45&#x000a0;s at 57&#x000b0;C, 90&#x000a0;s at 72&#x000b0;C, with a final elongation of 20&#x000a0;min at 72&#x000b0;C. PCR products were then sequenced using ABI autosequencer by Sangon Biotechnology Company (Shanghai, China). All the 536 sequences were aligned using MEGA v 10.0.5 software (Kumar, Stecher, Li, Knyaz, &#x00026; Tamura,&#x000a0;<xref rid="ece36303-bib-0020" ref-type="ref">2018</xref>) and then trimmed to 782&#x000a0;bp, which included insertions and deletions.</p></sec><sec id="ece36303-sec-0010"><label>2.6.2</label><title>Population genetic diversity and structure analyses</title><p>To test whether patterns of genetic diversity differed between <italic>S. canadensis</italic> populations in the invaded (China) and native (North America) ranges, we used sequences of the chloroplast spacer regions (<italic>psbA&#x02010;trnH</italic> and <italic>trnL&#x02010;F</italic>) to estimate the number of polymorphic sites, the total number of haplotypes, haplotypic diversity (<italic>H<sub>d</sub></italic>), and nucleotide diversity (<italic>n</italic>) using ARLEQUIN v 3.5.2.2 (Excoffier &#x00026; Lischer,&#x000a0;<xref rid="ece36303-bib-0011" ref-type="ref">2010</xref>). These diversity indices were computed for each population separately. We then fitted linear mixed&#x02010;effect models (in <sc>r</sc> v 3.5.2) to test whether <italic>S. canadensis</italic> populations from the invaded range differed significantly in mean values of the diversity indices from <italic>S. canadensis</italic> populations in the native range. In the models, the diversity indices were treated as dependent variables, while <italic>S. canadensis</italic> range (invaded vs. native) was treated as a fixed&#x02010;effect independent variable. Population identity of <italic>S. canadensis</italic> was treated as a random&#x02010;effect independent variable and nested within range.</p><p>To test whether <italic>S. canadensis</italic> populations in the invaded range had a different genetic structure than <italic>S. canadensis</italic> populations in the native range, we used the same sequences above to perform hierarchical analysis of molecular variance (AMOVA) (Excoffier, Smouse, &#x00026; Quattro,&#x000a0;<xref rid="ece36303-bib-0012" ref-type="ref">1992</xref>). The AMOVA was performed using the global data set to compare genetic structuring between invaded and native ranges, and hierarchically for the invaded and native ranges separately using individual populations. The hierarchical AMOVA divides the total genetic variance into components due to interindividual differences within a population and interpopulation differences within a range. Genetic differentiation between ranges and among populations within ranges was compared by the fixation index (F<sub>ST</sub>) and tested by AMOVA in ARLEQUIN v 3.5.2.2 (Excoffier &#x00026; Lischer,&#x000a0;<xref rid="ece36303-bib-0011" ref-type="ref">2010</xref>). Significance of genetic differentiation was tested by 1,000 random permutations. The minority cytotype exclusion hypothesis predicts that there could be a restricted gene flow between polyploid and progenitor diploid populations (Levin,&#x000a0;<xref rid="ece36303-bib-0024" ref-type="ref">1975</xref>), which could influence genetic structure of populations that contain different cytotypes. Therefore, we also performed AMOVA based only on purely hexaploid populations that occurred in the invaded range and mixed&#x02010;ploidy populations in the native range that contained at least one hexaploid cytotype.</p></sec><sec id="ece36303-sec-0011"><label>2.6.3</label><title>Testing for population demographic expansion</title><p>Changes in demographic history can influence the frequency of alleles, the distribution of mutations, and the coalescent times of gene copies (Zhang, Edwards, Kang, &#x00026; Fuller,&#x000a0;<xref rid="ece36303-bib-0067" ref-type="ref">2012</xref>). Hence, we inferred the effects of past demographic expansion on the current genetic variation in invaded and native ranges using Tajima's D and Fu's <italic>F<sub>S</sub></italic> neutrality tests (Fu,&#x000a0;<xref rid="ece36303-bib-0013" ref-type="ref">1997</xref>; Tajima,&#x000a0;<xref rid="ece36303-bib-0056" ref-type="ref">1989</xref>) and pairwise mismatch distributions between haplotypes (Rogers &#x00026; Harpending,&#x000a0;<xref rid="ece36303-bib-0047" ref-type="ref">1992</xref>). The neutrality tests were performed with DnaSP v. 6 (Rozas et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0049" ref-type="ref">2017</xref>), while the mismatch distribution analyses, which test patterns of nucleotide variation against a null model expected under a sudden population expansion, were implemented in ARLEQUIN v 3.5.2.2 (Excoffier &#x00026; Lischer,&#x000a0;<xref rid="ece36303-bib-0011" ref-type="ref">2010</xref>) using 10,000 bootstrap replicates. In the neutrality tests, examination of deviation from neutrality was based on 1,000 coalescent simulations. Nonstatistical difference from zero rejects the null hypothesis of neutral evolution. Significant negative values of Tajima's D and Fu's <italic>F<sub>S</sub></italic> indicate an excess of young or rare alleles in the genealogy, which suggest recent population expansion or purifying selection (Fu,&#x000a0;<xref rid="ece36303-bib-0013" ref-type="ref">1997</xref>; Tajima,&#x000a0;<xref rid="ece36303-bib-0056" ref-type="ref">1989</xref>). On the other hand, significant positive values indicate processes such as recent population bottlenecks or balancing selection (Fu,&#x000a0;<xref rid="ece36303-bib-0013" ref-type="ref">1997</xref>; Tajima,&#x000a0;<xref rid="ece36303-bib-0056" ref-type="ref">1989</xref>). A mismatch distribution analysis calculates various population parameters, such as the raggedness index (r), with significantly ragged populations having stable demographic histories and non&#x02010;significantly ragged populations having sudden population growth (Rogers &#x00026; Harpending,&#x000a0;<xref rid="ece36303-bib-0047" ref-type="ref">1992</xref>). For data distributed according to a sudden population expansion model (i.e., non&#x02010;significant r indices), the mismatch distribution analysis computes parameters of demographic expansion such as moment estimators of time to the expansion (Tau&#x000a0;=&#x000a0;2Tu), effective population size before expansion (Theta0, &#x003b8;0), and effective population size after expansion (Theta1, &#x003b8;1) between the observed and expected mismatches (Rogers &#x00026; Harpending,&#x000a0;<xref rid="ece36303-bib-0047" ref-type="ref">1992</xref>). Departure from a model of sudden expansion was tested for each population by summing the squared differences (SSD) between observed and estimated mismatch distribution. To further infer the demographic history of <italic>S. canadensis</italic>, we determined genealogical relationships among haplotypes using the statistical parsimony algorithm implemented in ARLEQUIN v 3.5.2.2 (Excoffier &#x00026; Lischer,&#x000a0;<xref rid="ece36303-bib-0011" ref-type="ref">2010</xref>). A star&#x02010;shaped genealogy indicates a lack of (or limited) geographic structure and suggests a signature of rapid population expansion (Slatkin &#x00026; Hudson,&#x000a0;<xref rid="ece36303-bib-0053" ref-type="ref">1991</xref>). Genealogical relationships among the haplotypes were inferred using a combined data set of invasive and native haplotypes and separately for the two sets of haplotypes.</p></sec><sec id="ece36303-sec-0012"><label>2.6.4</label><title>Analysis of phylogenetic relatedness</title><p>To test whether all the 80 populations of <italic>S. canadensis</italic> that we sampled in the invaded and native ranges belonged to the same species&#x000a0;(i.e., <italic>S. canadensis</italic>), we performed analyses of phylogenetic relatedness using sequences of 34 haplotypes that were&#x000a0;derived from 536 individual sequences of the two chloroplast spacer regions (<italic>psbA&#x02010;trnH</italic> and <italic>trnL&#x02010;F</italic>). We applied three methods, namely the Maximum Parsimony, Maximum Likelihood, and Neighbor&#x02010;Joining. We performed Maximum Parsimony analyses with all characters equally weighted and gaps treated as missing data. For the Maximum Likelihood analyses, maximum likelihood trees were generated using the <italic>Jukes&#x02013;Cantor</italic> model, the <italic>Gamma distributed with the Invariant Sites (G&#x000a0;+&#x000a0;I)</italic> option for the rates among sites, and <italic>use all the sites</italic> option for the <italic>Gaps/Missing Data Treatment</italic>. For the Neighbor&#x02010;Joining analysis, we applied the default settings. After 1,000 rapid bootstrap search step, bootstrap values of each node were visualized. As outgroups, we used sequences of the two chloroplast spacer regions (<italic>psbA&#x02010;trnH</italic> and <italic>trnL&#x02010;F</italic>) for <italic>S. canadensis</italic> seeds that we obtained from the Germplasm Resources Information Network of the United States Department of Agriculture (accession number W6 52,837) and a congener <italic>S. decurrens</italic>. The congener was collected from Kuocangshan Mountain in Linhai City, Zhejiang Province, China, and identified by Prof. Ming Jiang in Taizhou University, China. All phylogenetic analyses were performed with MEGA v 10.0.5 (Kumar et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0020" ref-type="ref">2018</xref>). Sequences of the 34 haplotypes and the two outgroups have been submitted to the National Center for Biotechnology Information (NCBI) database (accession numbers: MN107084&#x02013;MN107151, MN335287&#x02013;MN335290).</p></sec></sec></sec><sec sec-type="results" id="ece36303-sec-0013"><label>3</label><title>RESULTS</title><sec id="ece36303-sec-0014"><label>3.1</label><title>Cytobiogeography of <italic>S. canadensis</italic>
+</title><p>Among all the 80 <italic>S. canadensis</italic> populations that we sampled in China and North America, all invasive populations had hexaploid individuals (Figure&#x000a0;<xref rid="ece36303-fig-0001" ref-type="fig">1</xref> and Appendix 1). In contrast, in the native range, nine populations had a mixture of diploid and hexaploid individuals, eight populations were purely hexaploid, and three populations were purely diploid (Figure&#x000a0;<xref rid="ece36303-fig-0001" ref-type="fig">1</xref> and Appendix 1). Only one individual <italic>S. canadensis</italic> plant (from Bend City population in Oregon State, USA) was tetraploid (Appendix 1). In total, the invasive populations had 1, 474 hexaploid individuals, while the native populations had 414 hexaploid individuals (Appendix 1). There were 162 diploid individuals in the native range (Appendix 1).</p><fig fig-type="FIGURE" xml:lang="en" id="ece36303-fig-0001" orientation="portrait" position="float"><label>FIGURE 1</label><caption><p>A map of the sampled populations of <italic>Solidago canadensis</italic> in parts of its native range in North America (a) and invaded range in China (b). Shown are the distribution of different cytotypes within the populations: Diploids are blue, hexaploids are red, while populations that exhibited mixed&#x02010;ploidy are represented by black</p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-10-5617-g001"/></fig></sec><sec id="ece36303-sec-0015"><label>3.2</label><title>Functional traits</title><p>Invasive hexaploids were significantly taller and had a greater stem&#x02010;base diameter than native hexaploids (Figure&#x000a0;<xref rid="ece36303-fig-0002" ref-type="fig">2a&#x000a0;&#x00026;&#x000a0;b</xref>). Similar results were found when invasive hexaploids were compared with native hexaploids from the same climatic zone (i.e., humid subtropical) (Appendix 3a &#x00026; b). Native hexaploids had greater mean values of the two traits than native diploids (Figure&#x000a0;<xref rid="ece36303-fig-0002" ref-type="fig">2c&#x000a0;&#x00026;&#x000a0;d</xref>). Similar results were found when native hexaploids from mixed&#x02010;ploidy populations were compared with native diploids from mixed&#x02010;ploidy populations (Appendix 3c&#x000a0;&#x00026;&#x000a0;d).</p><fig fig-type="FIGURE" xml:lang="en" id="ece36303-fig-0002" orientation="portrait" position="float"><label>FIGURE 2</label><caption><p>Mean (&#x000b1;1SE) height and stem&#x02010;base diameter of <italic>Solidago canadensis</italic> plants. Shown are comparisons between invasive hexaploids and native hexaploids (a &#x00026; b), and between native diploids and native hexaploids (c &#x00026; d)</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-10-5617-g002"/></fig></sec><sec id="ece36303-sec-0016"><label>3.3</label><title>Climatic envelopes of <italic>S. canadensis</italic>
+</title><p>The PCA revealed two principal components that cumulatively explained 74% of variation in the climatic data (Figure&#x000a0;<xref rid="ece36303-fig-0003" ref-type="fig">3</xref>). The first principal component (PC1) explained 44% of the variation and reflected a precipitation gradient, while the second component (PC2) explained 30% of the variation and was correlated strongly with temperature variables (Figure&#x000a0;<xref rid="ece36303-fig-0003" ref-type="fig">3</xref>). Independent of the ploidy level and the different sets of occurrence locations that we used in the analysis (our 80 field&#x02010;sampled populations versus 2,134 GBIF occurrence records), the climatic space occupied by invasive and native populations of <italic>S. canadensis</italic> was neither significantly equivalent (<italic>p</italic>&#x000a0;=&#x000a0;1.00) nor similar (<italic>p</italic>&#x000a0;&#x0003e;&#x000a0;0.14) (Table&#x000a0;<xref rid="ece36303-tbl-0001" ref-type="table">1</xref>). In all cases, climatic envelopes clearly differentiated along the temperature gradient (PC2), with invasive populations preferring warmer and less seasonal climates (Figure&#x000a0;<xref rid="ece36303-fig-0003" ref-type="fig">3</xref>). The invasive populations exhibited a contraction in climatic tolerance (i.e., the ratio of the climate inhabited by native populations to that by invasive populations was significantly greater than one) (Table&#x000a0;<xref rid="ece36303-tbl-0001" ref-type="table">1</xref>). However, the invasive hexaploids and native hexaploids inhabited similar climates (<italic>p</italic>&#x000a0;=&#x000a0;0.92 along PC1 and <italic>p</italic>&#x000a0;=&#x000a0;0.46 along PC2) (Table&#x000a0;<xref rid="ece36303-tbl-0001" ref-type="table">1</xref>). An analysis of a pooled data set of the 80 populations that we surveyed in China and North America did not find a significant difference in the climatic conditions among the populations (<italic>p</italic>&#x000a0;=&#x000a0;0.74 along PC1 and <italic>p</italic>&#x000a0;=&#x000a0;0.75 along PC2) (Table&#x000a0;<xref rid="ece36303-tbl-0001" ref-type="table">1</xref>). In addition, diploid and hexaploid native populations occurred in similar climatic conditions (<italic>D</italic>&#x000a0;=&#x000a0;0.78; equivalency test; <italic>p</italic>&#x000a0;=&#x000a0;0.02; Appendix 4).</p><fig fig-type="FIGURE" xml:lang="en" id="ece36303-fig-0003" orientation="portrait" position="float"><label>FIGURE 3</label><caption><p>A correlation circle indicating the contribution of original climatic variables to axis1 (vertical) and axis2 (horizontal) of the principal component analysis. For variable abbreviations, see Hijmans et&#x000a0;al.&#x000a0;(<xref rid="ece36303-bib-0016" ref-type="ref">2005</xref>). Blue triangles represent invasive populations of <italic>S. canadensis</italic> from China, while red circles represent <italic>S. canadensis</italic> populations from the native range in North America</p></caption><graphic id="nlm-graphic-7" xlink:href="ECE3-10-5617-g003"/></fig><table-wrap id="ece36303-tbl-0001" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 1</label><caption><p>Results of climatic envelope analysis for invasive and native populations of <italic>Solidago canadensis</italic>. The comparison &#x0201c;<italic>Invasive </italic>versus<italic> native hexaploids</italic>&#x0201d; compares Chinese hexaploid with&#x000a0;North American hexaploid populations; &#x0201c;<italic>Among samples</italic>&#x0201d; compares variation among our field&#x02010;sampled populations in China and North America pooled together (80 populations); &#x0201c;<italic>China </italic>versus<italic> Native&#x000a0;range</italic>&#x0201d; compares occurrences in China with North America and Mexico (our field&#x02010;sampled sites and GBIF records); &#x0201c;<italic>Entire invaded range </italic>versus<italic> Native&#x000a0;range</italic>&#x0201d; compares occurrences in entire invaded range in China, Australia, New Zealand, and Japan with North America and Mexico (our field&#x02010;sampled sites and GBIF records). The last three comparisons did not control for a variation in ploidy level. The column &#x0201c;<italic>D</italic>&#x0201d; refers to the value of the Schoener's <italic>D</italic> metric, &#x0201c;<italic>Equivalency</italic>&#x0201d; to the <italic>P</italic> value of the equivalency test, &#x0201c;<italic>Similarity</italic>&#x0201d; to the <italic>P</italic> value of the similarity test, and &#x0201c;<italic>Breadth ratio</italic>&#x0201d; to the ratio between the environmental tolerance of native populations to that of invasive populations along the axes PC1 and PC2 (when a significant difference in environmental tolerance was found). For the breadth ratios, <italic>n.s.</italic> means that the ratio is non&#x02010;statistically different (<italic>p&#x000a0;&#x0003e;&#x000a0;0</italic>.05) from one</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Comparison</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>D</italic>
+</th><th align="left" valign="top" rowspan="1" colspan="1">Equivalency</th><th align="left" valign="top" rowspan="1" colspan="1">Similarity</th><th align="left" valign="top" rowspan="1" colspan="1">Breadth ratio PC1</th><th align="left" valign="top" rowspan="1" colspan="1">Breadth ratio PC2</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Invasive versus native hexaploids</td><td align="left" rowspan="1" colspan="1">0.07</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">0.22</td><td align="left" rowspan="1" colspan="1">
+<italic>n</italic>.s.</td><td align="left" rowspan="1" colspan="1">
+<italic>n</italic>.s.</td></tr><tr><td align="left" rowspan="1" colspan="1">Among samples</td><td align="left" rowspan="1" colspan="1">0.08</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">0.27</td><td align="left" rowspan="1" colspan="1">
+<italic>n</italic>.s.</td><td align="left" rowspan="1" colspan="1">
+<italic>n</italic>.s.</td></tr><tr><td align="left" rowspan="1" colspan="1">China versus Native&#x000a0;range</td><td align="left" rowspan="1" colspan="1">0.14</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">0.30</td><td align="left" rowspan="1" colspan="1">6.5</td><td align="left" rowspan="1" colspan="1">3.7</td></tr><tr><td align="left" rowspan="1" colspan="1">Entire invaded range versus Native&#x000a0;range</td><td align="left" rowspan="1" colspan="1">0.20</td><td align="left" rowspan="1" colspan="1">1.00</td><td align="left" rowspan="1" colspan="1">0.14</td><td align="left" rowspan="1" colspan="1">3.6</td><td align="left" rowspan="1" colspan="1">1.5</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="ece36303-sec-0017"><label>3.4</label><title>Correlations between plant traits and bioclimatic variables</title><p>Stem&#x02010;base diameter had significant positive correlations with five (annual mean temperature, mean diurnal range, precipitation of the driest quarter, precipitation of the warmest quarter, and precipitation of the coldest quarter) and significant negative correlations with another five (isothermality, maximum temperature of warmest month, annual precipitation, precipitation of driest month, and precipitation of wettest quarter) bioclimatic variables (Appendix 5). On the other hand, plant height had significant positive correlations with six (annual mean temperature, mean diurnal range, temperature seasonality, mean temperature of coldest quarter, precipitation seasonality, and precipitation of coldest quarter) and significant negative correlations with four (isothermality, minimum temperature of coldest month, mean temperature of warmest quarter, and precipitation of wettest quarter) bioclimatic variables (Appendix 5).</p></sec><sec id="ece36303-sec-0018"><label>3.5</label><title>Genetic diversity of <italic>S. canadensis</italic> in the invaded and native ranges</title><p>We found a total of 34 haplotypes from 536 sequences (289 sequences for invasive populations vs. 247 sequences for native populations) based on the two chloroplast spacer regions (<italic>psbA&#x02010;trnH</italic> and <italic>trnL&#x02010;F</italic>) (Appendix 6). The native range harbored 32 of the haplotypes, while the invaded range harbored five of the haplotypes. Haplotype H1 was the most abundant and widely distributed as it occurred in all the invasive populations and in 75% of the native populations (Appendix 6). Two other haplotypes (H9 and H11) occurred in both invaded and native ranges. The rest of the haplotypes were private, as they occurred exclusively in the invaded (H32 and H34) and native (H2&#x02010;H8, H10, H12&#x02010;H31, and H33) ranges (Appendix 6). A geographic structure in the distribution of the haplotypes is also reflected in the haplotype network, which did not have a perfect star&#x02010;like pattern in the analysis using a combined data set of invasive and native haplotypes (Appendix 7) and separate analyses for the two sets of haplotypes (results not shown). The invasive populations had a significantly lower mean number of polymorphic sites and haplotypes per population than native populations (Table&#x000a0;<xref rid="ece36303-tbl-0002" ref-type="table">2</xref>). However, mean haplotypic and nucleotide diversities were similar between the invaded and native populations (Table&#x000a0;<xref rid="ece36303-tbl-0002" ref-type="table">2</xref>).</p><table-wrap id="ece36303-tbl-0002" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 2</label><caption><p>Results of linear mixed&#x02010;effect models to test whether mean population genetic diversity indices (number of polymorphic sites, mean number of haplotypes per population, haplotypic diversity&#x000a0;(<italic>Hd</italic>), and nucleotide diversity&#x000a0;(<italic>n</italic>)) differed significantly between invasive and native populations of <italic>Solidago canadensis</italic>. The indices are based on sequences of two&#x000a0;chloroplast spacer regions (<italic>psbA&#x02010;trnH</italic> and <italic>trnL&#x02010;F</italic>; <italic>n</italic>&#x000a0;=&#x000a0;289 individuals for invasive populations&#x000a0;versus <italic>n</italic>&#x000a0;=&#x000a0;247 individuals for native&#x02010;range populations). <italic>SD</italic>&#x000a0;=&#x000a0;standard deviation</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Diversity index</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Invaded range</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Native range</th><th align="left" rowspan="2" valign="bottom" colspan="1">
+<italic>P</italic>
+</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Mean</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>SD</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">Mean</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic>SD</italic>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Number of polymorphic sites</td><td align="char" char="." rowspan="1" colspan="1">11.22</td><td align="char" char="." rowspan="1" colspan="1">1.05</td><td align="char" char="." rowspan="1" colspan="1">11.58</td><td align="left" rowspan="1" colspan="1">1.017</td><td align="left" rowspan="1" colspan="1">
+<bold>0.047</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Mean number of haplotypes per population</td><td align="char" char="." rowspan="1" colspan="1">1.54</td><td align="char" char="." rowspan="1" colspan="1">0.56</td><td align="char" char="." rowspan="1" colspan="1">3.62</td><td align="left" rowspan="1" colspan="1">1.203</td><td align="left" rowspan="1" colspan="1">
+<bold>0.038</bold>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">Haplotypic diversity (<italic>Hd</italic>)</td><td align="char" char="." rowspan="1" colspan="1">0.18</td><td align="char" char="." rowspan="1" colspan="1">0.06</td><td align="char" char="." rowspan="1" colspan="1">0.55</td><td align="left" rowspan="1" colspan="1">0.12</td><td align="left" rowspan="1" colspan="1">0.072</td></tr><tr><td align="left" rowspan="1" colspan="1">Nucleotide diversity (&#x003c0;)</td><td align="char" char="." rowspan="1" colspan="1">0.028</td><td align="char" char="." rowspan="1" colspan="1">0.015</td><td align="char" char="." rowspan="1" colspan="1">0.029</td><td align="left" rowspan="1" colspan="1">0.015</td><td align="left" rowspan="1" colspan="1">0.250</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="ece36303-sec-0019"><label>3.6</label><title>Genetic structure and phylogenetic relatedness</title><p>We detected significant genetic structures at all hierarchical levels (Table&#x000a0;<xref rid="ece36303-tbl-0003" ref-type="table">3</xref>). There was a low (7.27%) but significant genetic differentiation between invasive populations in China and native populations in North America (Table&#x000a0;<xref rid="ece36303-tbl-0003" ref-type="table">3</xref>). There was also a significant genetic variation among all the invasive and native populations combined (40.46%), although most of the genetic variation occurred within populations (52.27%) (Table&#x000a0;<xref rid="ece36303-tbl-0003" ref-type="table">3</xref>). Within each range, genetic divergence among populations was higher in North America (<italic>F</italic>
+<sub>ST</sub>&#x000a0;=&#x000a0;0.523) than in China (<italic>F</italic>
+<sub>ST</sub>&#x000a0;=&#x000a0;0.329) (Table&#x000a0;<xref rid="ece36303-tbl-0003" ref-type="table">3</xref>). Nonetheless, the invasive populations exhibited higher within&#x02010;population genetic variation (67.10%) than the native populations (47.68%) (Table&#x000a0;<xref rid="ece36303-tbl-0003" ref-type="table">3</xref>). An additional AMOVA based only on purely hexaploid populations that occurred in the invaded range and mixed&#x02010;ploidy populations in the native range that contained at least one hexaploid cytotype produced similar results (Appendix 8). A phylogenetic tree of the 34 haplotypes generated using the Maximum Likelihood, Maximum Parsimony, and Neighbor&#x02010;Joining methods revealed that clade formation received only a weak bootstrap support (Appendices 9&#x02013;11). The hypothesis of recent population demographic expansions or purifying selection among the invasive populations was supported by Fu's <italic>F<sub>S</sub></italic> test statistic (Fu's <italic>F<sub>S</sub></italic>&#x000a0;=&#x000a0;&#x02212;4.905; <italic>p</italic>&#x000a0;=&#x000a0;0.007), while Tajima's D test statistic did not provide support (Tajima's D&#x000a0;=&#x000a0;&#x02212;1.46; <italic>p</italic>&#x000a0;&#x0003e;&#x000a0;0.1). However, for the native populations, both test statistics supported the hypothesis (Tajima's D&#x000a0;=&#x000a0;&#x02212;2.43; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0.01 and Fu's <italic>F<sub>S</sub></italic>&#x000a0;=&#x000a0;&#x02212;8.34; <italic>p</italic>&#x000a0;&#x0003c;&#x000a0;0.001). However, results of mismatch distribution analyses did not support the hypothesis of demographic expansion in the native populations (raggedness index&#x000a0;=&#x000a0;0.072; <italic>p</italic>&#x000a0;=&#x000a0;0.000 and SSD&#x000a0;=&#x000a0;0.047; <italic>p</italic>&#x000a0;=&#x000a0;0.010). A mismatch distribution is not shown for invasive populations because the least&#x02010;square procedure to fit expected&#x02010;to&#x02010;observed distributions did not converge after 2 000 steps.</p><table-wrap id="ece36303-tbl-0003" xml:lang="en" content-type="TABLE" orientation="portrait" position="float"><label>TABLE 3</label><caption><p>Results of a&#x000a0;hierarchical analysis of molecular variance (AMOVA) based on two&#x000a0;chloroplast spacer regions <italic>(psbA&#x02010;trnH and trnL&#x02010;F)</italic> testing for genetic variation among and within 80 populations of <italic>Solidago canadensis</italic> in the invaded (<italic>n</italic>&#x000a0;=&#x000a0;289 individuals) and native (<italic>n</italic>&#x000a0;=&#x000a0;247 individuals) ranges. The F<sub>ST</sub> values are global.</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Source of variation</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>df</italic>
+</th><th align="left" valign="top" rowspan="1" colspan="1">Sum of squares</th><th align="left" valign="top" rowspan="1" colspan="1">Variance components</th><th align="left" valign="top" rowspan="1" colspan="1">Percentage of variation</th><th align="left" valign="top" rowspan="1" colspan="1">
+<italic>P</italic>
+</th></tr></thead><tbody><tr><td align="left" colspan="6" rowspan="1">(a) Global data set (invaded versus native range)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Between ranges</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;1</td><td align="char" char="." rowspan="1" colspan="1">435.260</td><td align="char" char="." rowspan="1" colspan="1">1.280</td><td align="char" char="." rowspan="1" colspan="1">7.27</td><td align="left" rowspan="1" colspan="1">0.001</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Among populations</td><td align="char" char="." rowspan="1" colspan="1"><?oxy_insert_start?><?oxy_insert_end?>43</td><td align="char" char="." rowspan="1" colspan="1">4,039.738</td><td align="char" char="." rowspan="1" colspan="1">7.117</td><td align="char" char="." rowspan="1" colspan="1">40.46</td><td align="left" rowspan="1" colspan="1">0.001</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Within populations</td><td align="char" char="." rowspan="1" colspan="1">494</td><td align="char" char="." rowspan="1" colspan="1">4,515.257</td><td align="char" char="." rowspan="1" colspan="1">9.196</td><td align="char" char="." rowspan="1" colspan="1">52.27</td><td align="left" rowspan="1" colspan="1">0.001</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Total</td><td align="char" char="." rowspan="1" colspan="1">535</td><td align="char" char="." rowspan="1" colspan="1">8,990.255</td><td align="char" char="." rowspan="1" colspan="1">17.593</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>
+<sub>ST</sub>&#x000a0;=&#x000a0;0.447</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" colspan="6" rowspan="1">(b) Invaded range</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Among populations</td><td align="char" char="." rowspan="1" colspan="1"><?oxy_insert_start?><?oxy_insert_end?>23</td><td align="char" char="." rowspan="1" colspan="1">1,437.976</td><td align="char" char="." rowspan="1" colspan="1">4.442</td><td align="char" char="." rowspan="1" colspan="1">32.90</td><td align="left" rowspan="1" colspan="1">0.001</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Within populations</td><td align="char" char="." rowspan="1" colspan="1">265</td><td align="char" char="." rowspan="1" colspan="1">2,400.716</td><td align="char" char="." rowspan="1" colspan="1">9.059</td><td align="char" char="." rowspan="1" colspan="1">67.10</td><td align="left" rowspan="1" colspan="1">0.001</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Total</td><td align="char" char="." rowspan="1" colspan="1">288</td><td align="char" char="." rowspan="1" colspan="1">3,838.692</td><td align="char" char="." rowspan="1" colspan="1">13.501</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>
+<sub>ST</sub>&#x000a0;=&#x000a0;0.329</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" colspan="6" rowspan="1">(c) Native range</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Among populations</td><td align="char" char="." rowspan="1" colspan="1"><?oxy_insert_start?><?oxy_insert_end?>20</td><td align="char" char="." rowspan="1" colspan="1">2,601.763</td><td align="char" char="." rowspan="1" colspan="1">10.266</td><td align="char" char="." rowspan="1" colspan="1">52.32</td><td align="left" rowspan="1" colspan="1">0.001</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Within populations</td><td align="char" char="." rowspan="1" colspan="1">226</td><td align="char" char="." rowspan="1" colspan="1">2,114.541</td><td align="char" char="." rowspan="1" colspan="1">9.356</td><td align="char" char="." rowspan="1" colspan="1">47.68</td><td align="left" rowspan="1" colspan="1">0.001</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">Total</td><td align="char" char="." rowspan="1" colspan="1">246</td><td align="char" char="." rowspan="1" colspan="1">4,716.304</td><td align="char" char="." rowspan="1" colspan="1">19.622</td><td align="char" char="." rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<italic>F</italic>
+<sub>ST</sub>&#x000a0;=&#x000a0;0.523</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td><td align="left" rowspan="1" colspan="1">&#x000a0;</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec></sec><sec sec-type="discussion" id="ece36303-sec-0020"><label>4</label><title>DISCUSSION</title><p>The present study used <italic>S. canadensis</italic> to test whether invasive populations had a higher proportion of polyploids, were significantly larger, and occupied a wider range of climatic conditions than conspecific native&#x02010;range populations. Because biogeographic differences between invasive and native populations in cytotype frequency and functional traits could be due to stochastic founder events, the study also tested whether the invasive populations had overcome (or minimized) founder effects. We found that all invasive <italic>S. canadensis</italic> populations sampled in China were purely hexaploid, while the native populations sampled in North America were diploid, tetraploid, and hexaploid. The invasive hexaploids were significantly taller and had&#x000a0;a&#x000a0; larger stem&#x02010;base diameter than native hexaploids. Within the native range, hexaploid <italic>S. canadensis</italic> plants were significantly taller and had a&#x000a0;larger stem&#x02010;base diameter than conspecific diploids. Climatic envelope assessment found that invasive and native populations occupied different climatic conditions, with invasive populations occurring in warmer and less seasonal climates than native populations. However, there was no significant correlation between ploidy level and the climatic envelope of <italic>S. canadensis</italic>, at least along the two axes of the PCA that cumulatively explained 74% of variation in climate. Our results are robust to a sampling bias because two comparisons involving a global data set of <italic>S. canadensis</italic> occurrence records versus a part of invaded range in China and the global data set versus the entire invaded range produced similar results (Table&#x000a0;<xref rid="ece36303-tbl-0001" ref-type="table">1</xref> and Figure&#x000a0;<xref rid="ece36303-fig-0004" ref-type="fig">4</xref>). Molecular phylogeography data provide signatures of reduced genetic founder effects in the invaded range, likely as a result of multiple introduction events. Taken together, these results suggest that ploidy level does not influence climatic space of <italic>S. canadensis</italic> and that other factors may determine its invasiveness in China.</p><fig fig-type="FIGURE" xml:lang="en" id="ece36303-fig-0004" orientation="portrait" position="float"><label>FIGURE 4</label><caption><p>Climatic envelopes of <italic>Solidago canadensis</italic> in its native (orange) and invaded (blue) ranges. The following comparisons were made: (a) invasive hexaploid versus native hexaploid populations; (b) all invasive versus native populations that we sampled in the field without controlling for variation in ploidy; (c) all occurrences in North America and Mexico (our field&#x02010;sampled sites and GBIF records) versus China; (d) all occurrences in North America and Mexico versus entire invaded range in China, Australia, New Zealand, and Japan. Histograms on top and on the right side of each figure give the standardized density distribution along the first (PC1) and second (PC2) principal components, respectively</p></caption><graphic id="nlm-graphic-9" xlink:href="ECE3-10-5617-g004"/></fig><sec id="ece36303-sec-0021"><label>4.1</label><title>Cytobiogeography and functional trait differences</title><p>The present findings that invasive <italic>S. canadensis</italic> populations in China were comprised only of hexaploid individuals, while native populations in North America were diploid, tetraploid, and hexaploid, could be explained by three nonmutually exclusive hypotheses. First, it is plausible that only hexaploid plants were able to adapt to new conditions after introduction and compete with native species, while other cytotypes failed. Second, because <italic>S. canadensis</italic> was introduced to China as an ornamental garden plant (Xu et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0066" ref-type="ref">2012</xref>; Zhao et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0068" ref-type="ref">2015</xref>), it is possible gardeners preferentially introduced hexaploids that had some unique desirable traits like larger sizes. Third, because invasive plant introductions are often stochastic events, strong founder events may have caused a loss of cytotype diversity in the invaded range (Mr&#x000e1;z et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0031" ref-type="ref">2014</xref>). This may occur particularly when there is a spatial separation of the different cytotypes in the native range, which increases the chance that only a subset of the cytotypic diversity is introduced (Kubatova et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0019" ref-type="ref">2008</xref>; Lafuma, Balkwill, Imbert, Verlaque, &#x00026; Maurice,&#x000a0;<xref rid="ece36303-bib-0021" ref-type="ref">2003</xref>). However, the second and third scenarios seem less plausible because our molecular phylogeography data (Tables&#x000a0;<xref rid="ece36303-tbl-0002" ref-type="table">2</xref>, <xref rid="ece36303-tbl-0003" ref-type="table">3</xref> and Appendix 8) and previous studies (Xu et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0066" ref-type="ref">2012</xref>; Zhao et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0068" ref-type="ref">2015</xref>) suggest that the Chinese populations have minimized founder effects through multiple introductions.</p><p>The present finding that invasive <italic>S. canadensis</italic> hexaploids had greater height and stem&#x02010;base diameter than native hexaploids (Figure&#x000a0;<xref rid="ece36303-fig-0002" ref-type="fig">2</xref>) and that the two traits were significantly correlated with various bioclimatic factors negatively and positively (Appendix 5) suggests that divergence in the trait means could be the outcome of differential natural selection imposed by the climatic factors. Evolution of increased sizes has been associated with invasiveness of several plant species (e.g., Oduor et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0039" ref-type="ref">2013</xref>; Whitney &#x00026; Gabler,&#x000a0;<xref rid="ece36303-bib-0064" ref-type="ref">2008</xref>; Oduor, Stift, &#x00026; van Kleunen, <xref rid="ece36303-bib-0038" ref-type="ref">2015a</xref>; Oduor, van Kleunen, &#x00026; Stift, <xref rid="ece36303-bib-0040" ref-type="ref">2017</xref>&#x000a0;). Other studies that compared traits of invasive polyploids and conspecific native&#x02010;range polyploids in common&#x02010;garden settings produced mixed results. For instance, the invasive <italic>Oxalis pes&#x02010;caprae</italic> tetraploids produced more aboveground biomass and offspring bulbs than native <italic>O. pes&#x02010;caprae</italic> tetraploids (Tavares et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0057" ref-type="ref">2019</xref>). Within <italic>S. gigantea</italic>, invasive tetraploids produced more biomass than native&#x02010;range hexaploids (Nagy et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0033" ref-type="ref">2018</xref>). In contrast, invasive tetraploid <italic>C. stoebe</italic> had similar length and number of florets, length of capitula and longest branch, leaf weight and leaf area as conspecific native tetraploids (Mr&#x000e1;z, <xref rid="ece36303-bib-0030" ref-type="ref">2011</xref>). In <italic>Vicia cracca</italic>, invasive tetraploids had greater seedling height and aboveground biomass than native tetraploids; however, the two groups of plants produced similar numbers of seeds and branches (L&#x000ed;blov&#x000e1;, Eli&#x000e1;&#x00161;ov&#x000e1;, &#x00026; M&#x000fc;nzbergov&#x000e1;, <xref rid="ece36303-bib-0026" ref-type="ref">2017</xref>). Biogeographical comparisons of traits that use small and nonrepresentative subsets of populations may not give a complete picture of the ecological and evolutionary processes that cause trait divergence between invaded and native ranges (Rosche et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0048" ref-type="ref">2019</xref>). Moreover, comparisons of plant traits between ranges through in situ field measurements can give different results from common&#x02010;garden experiments (Rosche et&#x000a0;al.,&#x000a0;<xref rid="ece36303-bib-0048" ref-type="ref">2019</xref>). Therefore, more comprehensive studies that span the entire invaded and native ranges of <italic>S. canadensis</italic> and combine manipulative common&#x02010;garden experiments with cytobiogeography and molecular phylogeography are required to more rigorously test whether divergence in ploidy levels and functional traits between ranges could be due to natural selection.</p></sec><sec id="ece36303-sec-0022"><label>4.2</label><title>No correlation between ploidy level&#x000a0;and climatic envelope of <italic>S. canadensis</italic>
+</title><p>The invasive <italic>S. canadensis</italic> populations occupied a novel climatic envelope (i.e., there was no significant envelope overlap with native <italic>S. canadensis</italic>) and exhibited a contraction in climatic tolerance (i.e., occurred in warmer and less seasonal climates) relative to native <italic>S. canadensis</italic> populations independent of variation in ploidy level (Table&#x000a0;<xref rid="ece36303-tbl-0001" ref-type="table">1</xref>; Figures&#x000a0;<xref rid="ece36303-fig-0003" ref-type="fig">3 </xref>and<xref rid="ece36303-fig-0004" ref-type="fig"> 4</xref>). Within the native range, diploid and hexaploid <italic>S. canadensis</italic> populations occurred in similar climatic conditions. While our sampling of <italic>S. canadensis</italic> cytotype distribution was limited to only parts of the invaded (China) and native (North America) ranges, with the invaded range dominated by one climatic zone, the present results suggest that polyploidy does not influence <italic>S. canadensis</italic> climatic tolerance. Future studies that cover the entire climatic ranges of the species are required to validate our findings.</p></sec><sec id="ece36303-sec-0023"><label>4.3</label><title>Population demographic expansions in both ranges</title><p>Results of Tajima's D and Fu's <italic>F<sub>S</sub></italic> neutrality tests suggest that either purifying selection acted on the <italic>S. canadensis</italic> populations or the populations experienced recent demographic expansions. However, because the two chloroplast spacer regions (<italic>psbA&#x02010;trnH</italic> and <italic>trnL&#x02010;F</italic>) are non&#x02010;coding loci and are thus unlikely to be under selection, these results more likely indicate population demographic expansions. Although the Fu's <italic>F<sub>S</sub></italic> neutrality test was significant for invasive populations, while Tajima's&#x000a0;<italic>D</italic> was not, it has been shown that Fu's&#x000a0;<italic>F<sub>S</sub></italic>&#x000a0;test is more powerful than Tajima's&#x000a0;<italic>D</italic> (Ramos&#x02010;Onsins &#x00026; Rozas,&#x000a0;<xref rid="ece36303-bib-0045" ref-type="ref">2002</xref>). This suggests that population demographic expansion occurred in the invaded range as well.</p></sec><sec id="ece36303-sec-0024"><label>4.4</label><title>Signatures of reduced genetic founder effects in the invaded range</title><p>The finding that invasive populations had significantly lower mean number of polymorphic sites and haplotypes than native populations (Table&#x000a0;<xref rid="ece36303-tbl-0002" ref-type="table">2</xref>), and the AMOVA results showing genetic differentiation between invaded and native ranges (Tables&#x000a0;<xref rid="ece36303-tbl-0003" ref-type="table">3</xref>; Appendix 8) suggest some degree of founder effect in the invaded range. Nevertheless, it is likely that the founder effect is not strong, likely as a result of multiple introduction events. Multiple introductions from distinct genetic sources may help to overcome founder effects (Novak &#x00026; Mack,&#x000a0;<xref rid="ece36303-bib-0035" ref-type="ref">1993</xref>). There are four lines of evidence supporting the likely scenario of multiple introduction events. First, there were similar levels of nucleotide and haplotypic diversities between the invaded and native ranges (Table&#x000a0;<xref rid="ece36303-tbl-0002" ref-type="table">2</xref>). Second, the AMOVA results showing that a larger percentage of the total variance in the invaded range is harbored within populations compared to the lower percent of total variance harbored within populations in the native range suggest that populations are more clearly differentiated in the native range than in the invaded range (Table&#x000a0;<xref rid="ece36303-tbl-0003" ref-type="table">3</xref>). It is likely that multiple introduction episodes from different populations in the native range converted the high level of among&#x02010;population genetic variation in the native range to high within&#x02010;population genetic variation in the introduced range. Third, there was a novel co&#x02010;occurrence of two haplotypes H9 and H11 in invasive populations in Taizhou that otherwise occurred in allopatric native&#x02010;range populations in Massachusetts, Iowa, Illinois, Michigan, New Jersey, Wisconsin, and Rhode Island (Appendix 6 and Appendix 7). Thus, it is possible that pervasive movement of genetic materials in the invaded range following introduction from multiple sources contributed to a reduction in population differentiation and genetic bottleneck. Fourth, demographic expansions that we found to have occurred in the invaded range could also have contributed to a reduction in genetic founder effects. Demographic and range expansion are expected to generate an excess of recent, and thus rare, mutations. As <italic>S. canadensis</italic> has been present in China for at least 80&#x000a0;years, it is plausible that over multiple generations, mutations increased genetic diversity in the invaded range.</p></sec><sec id="ece36303-sec-0025"><label>4.5</label><title>All sampled populations belonged to <italic>S. canadensis</italic>
+</title><p>Although the ecological envelope of <italic>S. canadensis</italic> can overlap with that of its congeners like <italic>S. gigantea</italic> and <italic>S. altissima</italic> in the native range, our analysis of phylogenetic relatedness among the study populations did not reveal any clear pattern of clade formation (i.e., all populations were monophyletic; Appendices 9&#x02013;11). Thus, it is highly likely that the invasive and native populations that we sampled in the field all belonged to <italic>S. canadensis</italic>.</p></sec></sec><sec sec-type="conclusions" id="ece36303-sec-0026"><label>5</label><title>CONCLUSION</title><p>Our results suggest that polyploidy does not influence climatic tolerance of <italic>S. canadensis</italic> in its invaded and native ranges. While a caveat exists for our study because our sampling of <italic>S. canadensis</italic> cytobiogeography did not cover its entire invaded and native ranges, the results instead indicate that unknown genetic and environmental factors may influence <italic>S. canadensis</italic> climatic tolerance. Our results provide a useful first step to comprehensively test whether polyploidy influences climatic envelope of <italic>S. canadensis</italic>. For <italic>S. canadensis</italic>, effects of polyploidy at molecular and nuclear levels have not been investigated and would be a first step in determining how genetic changes scale up to physiological processes and ultimately biogeographic distribution patterns. Therefore, future mechanistic studies should couple cytobiogeographical and molecular phylogeography approaches with functional genomic approaches that document gene expression patterns under different ecological conditions. In addition, experimental studies such as multisite common&#x02010;garden and reciprocal transplants in both invaded and native ranges will be required.</p></sec><sec sec-type="COI-statement" id="ece36303-sec-0028"><title>CONFLICT OF INTEREST</title><p>The authors declare that there is no conflict of interest.</p></sec><sec id="ece36303-sec-0029"><title>AUTHOR CONTRIBUTION</title><p>
+<bold>Jizhong Wan:</bold> Conceptualization (equal); Data curation (equal); Formal analysis (equal); Methodology (equal); Software (equal); Writing&#x02010;original draft (equal); Writing&#x02010;review &#x00026; editing (supporting). <bold>Ayub M. O. Oduor:</bold> Conceptualization (equal); Data curation (equal); Formal analysis (equal); Methodology (equal); Software (equal); Validation (equal); Writing&#x02010;review &#x00026; editing (lead). <bold>Robin Pouteau:</bold> Conceptualization (supporting); Data curation (equal); Formal analysis (equal); Methodology (equal); Software (equal); Validation (equal); Writing&#x02010;review &#x00026; editing (equal). <bold>Beilei Wang:</bold> Data curation (supporting); Formal analysis (supporting); Investigation (supporting); Methodology (supporting). <bold>Luxi Chen:</bold> Data curation (equal); Investigation (equal). <bold>Beifen Yang:</bold> Data curation (equal); Investigation (equal). <bold>Feihai Yu:</bold> Conceptualization (supporting); Writing&#x02010;review &#x00026; editing (supporting). <bold>Junmin Li:</bold> Conceptualization (lead); Funding acquisition (lead); Investigation (lead); Methodology (lead); Project administration (lead); Validation (lead); Writing&#x02010;original draft (lead); Writing&#x02010;review &#x00026; editing (lead).</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ece36303-sup-0001"><caption><p>Appendix S1&#x02010;S11</p></caption><media xlink:href="ECE3-10-5617-s001.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece36303-sec-0027"><title>ACKNOWLEDGMENT</title><p>We thank three anonymous reviewers and the associate editor for constructive comments on previous versions of the manuscript. We are grateful to the following people for their kind help with field sampling of <italic>S. canadensis</italic>: Jianqing Ding, Zhengsheng He, Hongli Li, Jiang Wang, Tong Chen, Saichun Tang, Song Gao, Weihang Ding, Leshan Du, Wei Zuo, and Wanlu Shao. This work was supported financially by the Ten Thousand Talent Program of Zhejiang Province, National Key Research and Development Program (2016YFC1201100), and the National Natural Science Foundation of China (No. 31270461).</p></ack><sec sec-type="data-availability" id="ece36303-sec-0031"><title>DATA AVAILABILITY STATEMENT</title><p>DNA sequences have been deposited in the National Center for Biotechnology Information (NCBI) database (accession numbers: MN107084&#x02013;MN107151, MN335287&#x02013;MN335290). The data that support the findings of this study have been deposited in Dryad with doi:<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5061/dryad.37pvmcvgb" specific-use="dataset is-supplemented-by">https://doi.org/10.5061/dryad.37pvmcvgb</ext-link>.</p></sec><ref-list content-type="cited-references" id="ece36303-bibl-0001"><title>REFERENCES</title><ref id="ece36303-bib-0001"><mixed-citation publication-type="journal" id="ece36303-cit-0001">
+<string-name>
+<surname>Abhilasha</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Quintana</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Vivanco</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Joshi</surname>, <given-names>J.</given-names>
+</string-name> (<year>2008</year>). <article-title>Do allelopathic compounds in invasive <italic>Solidago canadensis</italic> s.l. restrain the native European flora?</article-title>
+<source xml:lang="en">Journal of Ecology</source>, <volume>96</volume>, <fpage>993</fpage>&#x02013;<lpage>1001</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2745.2008.01413.x</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0002"><mixed-citation publication-type="journal" id="ece36303-cit-0002">
+<string-name>
+<surname>Benelli</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Pavela</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Cianfaglione</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Nagy</surname>, <given-names>D. U.</given-names>
+</string-name>, <string-name>
+<surname>Canale</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Maggi</surname>, <given-names>F.</given-names>
+</string-name> (<year>2019</year>). <article-title>Evaluation of two invasive plant invaders in Europe (<italic>Solidago canadensis</italic> and <italic>Solidago gigantea</italic>) as possible sources of botanical insecticides</article-title>. <source xml:lang="en">Journal of Pest Science</source>, <volume>92</volume>, <fpage>805</fpage>&#x02013;<lpage>821</lpage>. <pub-id pub-id-type="doi">10.1007/s10340-018-1034-5</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0003"><mixed-citation publication-type="journal" id="ece36303-cit-0003">
+<string-name>
+<surname>Broennimann</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Fitzpatrick</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name>
+<surname>Pearman</surname>, <given-names>P. B.</given-names>
+</string-name>, <string-name>
+<surname>Petitpierre</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Pellissier</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Yoccoz</surname>, <given-names>N. G.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Guisan</surname>, <given-names>A.</given-names>
+</string-name> (<year>2012</year>). <article-title>Measuring ecological niche overlap from occurrence and spatial environmental data</article-title>. <source xml:lang="en">Global Ecology and Biogeography</source>, <volume>21</volume>, <fpage>481</fpage>&#x02013;<lpage>497</lpage>. <pub-id pub-id-type="doi">10.1111/j.1466-8238.2011.00698.x</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0004"><mixed-citation publication-type="journal" id="ece36303-cit-0004">
+<string-name>
+<surname>Broennimann</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Mr&#x000e1;z</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Petitpierre</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Guisan</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>M&#x000fc;ller&#x02010;Sch&#x000e4;rer</surname>, <given-names>H.</given-names>
+</string-name> (<year>2014</year>). <article-title>Contrasting spatio&#x02010;temporal climatic niche dynamics during the eastern and western invasions of spotted knapweed in North America</article-title>. <source xml:lang="en">Journal of Biogeography</source>, <volume>41</volume>, <fpage>1126</fpage>&#x02013;<lpage>1136</lpage>. <pub-id pub-id-type="doi">10.1111/jbi.12274</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0005"><mixed-citation publication-type="journal" id="ece36303-cit-0005">
+<string-name>
+<surname>Chung</surname>, <given-names>M. Y.</given-names>
+</string-name>, <string-name>
+<surname>L&#x000f3;pez&#x02010;Pujol</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Chung</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>K. J.</given-names>
+</string-name>, <string-name>
+<surname>Park</surname>, <given-names>S. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Chung</surname>, <given-names>M. G.</given-names>
+</string-name> (<year>2015</year>). <article-title>Polyploidy in <italic>Lilium lancifolium</italic>: Evidence of autotriploidy and no niche divergence between diploid and triploid cytotypes in their native ranges. Flora: Morphology</article-title>. <source xml:lang="en">Distribution, Functional Ecology of Plants</source>, <volume>213</volume>, <fpage>57</fpage>&#x02013;<lpage>68</lpage>. <pub-id pub-id-type="doi">10.1016/j.flora.2015.04.002</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0006"><mixed-citation publication-type="journal" id="ece36303-cit-0006">
+<string-name>
+<surname>Dawson</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Burslem</surname>, <given-names>D. F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hulme</surname>, <given-names>P. E.</given-names>
+</string-name> (<year>2009</year>). <article-title>Factors explaining alien plant invasion success in a tropical ecosystem differ at each stage of invasion</article-title>. <source xml:lang="en">Journal of Ecology</source>, <volume>97</volume>, <fpage>657</fpage>&#x02013;<lpage>665</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2745.2009.01519.x</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0007"><mixed-citation publication-type="journal" id="ece36303-cit-0007">
+<string-name>
+<surname>de Andrade</surname>, <given-names>M. J. G.</given-names>
+</string-name>, <string-name>
+<surname>Giulietti</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Rapini</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>de Queiroz</surname>, <given-names>L. P.</given-names>
+</string-name>, <string-name>
+<surname>de Souza Concei&#x000e7;&#x000e3;o</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>de Almeida</surname>, <given-names>P. R. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van den Berg</surname>, <given-names>C.</given-names>
+</string-name> (<year>2010</year>). <article-title>A comprehensive phylogenetic analysis of eriocaulaceae: Evidence from nuclear (ITS) and plastid (psbA&#x02010;trnH and trnL&#x02010;F) DNA sequences</article-title>. <source xml:lang="en">Taxon</source>, <volume>59</volume>, <fpage>379</fpage>&#x02013;<lpage>388</lpage>.</mixed-citation></ref><ref id="ece36303-bib-0008"><mixed-citation publication-type="journal" id="ece36303-cit-0008">
+<string-name>
+<surname>Di Cola</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Broennimann</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Petitpierre</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Breiner</surname>, <given-names>F. T.</given-names>
+</string-name>, <string-name>
+<surname>D&#x02019;Amen</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Randin</surname>, <given-names>C.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Guisan</surname>, <given-names>A.</given-names>
+</string-name> (<year>2017</year>). <article-title>ecospat: An R package to support spatial analyses and modeling of species niches and distributions</article-title>. <source xml:lang="en">Ecography</source>, <volume>40</volume>, <fpage>774</fpage>&#x02013;<lpage>787</lpage>. <pub-id pub-id-type="doi">10.1111/ecog.02671</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0009"><mixed-citation publication-type="journal" id="ece36303-cit-0009">
+<string-name>
+<surname>Dlugosch</surname>, <given-names>K. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Parker</surname>, <given-names>I. M.</given-names>
+</string-name> (<year>2008</year>). <article-title>Founding events in species invasions: Genetic variation, adaptive evolution, and the role of multiple introductions</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>17</volume>, <fpage>431</fpage>&#x02013;<lpage>449</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-294X.2007.03538.x</pub-id>
+<pub-id pub-id-type="pmid">17908213</pub-id></mixed-citation></ref><ref id="ece36303-bib-0010"><mixed-citation publication-type="journal" id="ece36303-cit-0010">
+<string-name>
+<surname>Dong</surname>, <given-names>L.&#x02010;J.</given-names>
+</string-name>, <string-name>
+<surname>Yu</surname>, <given-names>H.&#x02010;W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>He</surname>, <given-names>W.&#x02010;M.</given-names>
+</string-name> (<year>2015</year>). <article-title>What determines positive, neutral, and negative impacts of <italic>Solidago canadensis</italic> invasion on native plant species richness?</article-title>
+<source xml:lang="en">Scientific Reports</source>, <volume>5</volume>, <fpage>16804</fpage>.<pub-id pub-id-type="pmid">26573017</pub-id></mixed-citation></ref><ref id="ece36303-bib-0011"><mixed-citation publication-type="journal" id="ece36303-cit-0011">
+<string-name>
+<surname>Excoffier</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lischer</surname>, <given-names>H.</given-names>
+</string-name> (<year>2010</year>). <article-title>Arlequin suite ver 3.5: A new series of programs to perform population genetics analyses under Linux and Windows</article-title>. <source xml:lang="en">Molecular Ecology Resources</source>, <volume>10</volume>, <fpage>564</fpage>&#x02013;<lpage>567</lpage>. <pub-id pub-id-type="doi">10.1111/j.1755-0998.2010.02847.x</pub-id>
+<pub-id pub-id-type="pmid">21565059</pub-id></mixed-citation></ref><ref id="ece36303-bib-0012"><mixed-citation publication-type="journal" id="ece36303-cit-0012">
+<string-name>
+<surname>Excoffier</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Smouse</surname>, <given-names>P. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Quattro</surname>, <given-names>J. M.</given-names>
+</string-name> (<year>1992</year>). <article-title>Analysis of molecular variance inferred from metric distances among DNA haplotypes: Application to human mitochondrial DNA restriction data</article-title>. <source xml:lang="en">Genetics</source>, <volume>131</volume>, <fpage>479</fpage>&#x02013;<lpage>491</lpage>.<pub-id pub-id-type="pmid">1644282</pub-id></mixed-citation></ref><ref id="ece36303-bib-0013"><mixed-citation publication-type="journal" id="ece36303-cit-0013">
+<string-name>
+<surname>Fu</surname>, <given-names>Y. X.</given-names>
+</string-name> (<year>1997</year>). <article-title>Statistical tests of neutrality of mutations against population growth, hitchhiking and background selection</article-title>. <source xml:lang="en">Genetics</source>, <volume>147</volume>, <fpage>915</fpage>&#x02013;<lpage>925</lpage>.<pub-id pub-id-type="pmid">9335623</pub-id></mixed-citation></ref><ref id="ece36303-bib-0014"><mixed-citation publication-type="journal" id="ece36303-cit-0014">
+<string-name>
+<surname>Genton</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name>
+<surname>Shykoff</surname>, <given-names>J. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Giraud</surname>, <given-names>T.</given-names>
+</string-name> (<year>2005</year>). <article-title>High genetic diversity in French invasive populations of common ragweed, <italic>Ambrosia artemisiifolia</italic>, as a result of multiple sources of introduction</article-title>. <source xml:lang="en">Molecular Ecology</source>, <volume>14</volume>, <fpage>4275</fpage>&#x02013;<lpage>4285</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-294X.2005.02750.x</pub-id>
+<pub-id pub-id-type="pmid">16313592</pub-id></mixed-citation></ref><ref id="ece36303-bib-0016"><mixed-citation publication-type="journal" id="ece36303-cit-0016">
+<string-name>
+<surname>Hijmans</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name>
+<surname>Cameron</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name>
+<surname>Parra</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>, <given-names>P. G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jarvis</surname>, <given-names>A.</given-names>
+</string-name> (<year>2005</year>). <article-title>Very high resolution interpolated climate surfaces for global land areas</article-title>. <source xml:lang="en">International Journal of Climatology</source>, <volume>25</volume>, <fpage>1965</fpage>&#x02013;<lpage>1978</lpage>. <pub-id pub-id-type="doi">10.1002/joc.1276</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0017"><mixed-citation publication-type="journal" id="ece36303-cit-0017">
+<string-name>
+<surname>Jin</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Yuan</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Gao</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Oduor</surname>, <given-names>A. M. O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Li</surname>, <given-names>J.</given-names>
+</string-name> (<year>2020</year>). <article-title>The invasive plant <italic>Solidago canadensis</italic> exhibits partial local adaptation to low salinity at germination but not at later life&#x02010;history stages</article-title>. <source xml:lang="en">American Journal of Botany</source>, <volume>107</volume>, <fpage>1</fpage>&#x02013;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1002/ajb2.1456</pub-id>
+<pub-id pub-id-type="pmid">31944259</pub-id></mixed-citation></ref><ref id="ece36303-bib-0018"><mixed-citation publication-type="journal" id="ece36303-cit-0018">
+<string-name>
+<surname>Kottek</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Grieser</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Beck</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Rudolf</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rube</surname>, <given-names>F.</given-names>
+</string-name> (<year>2006</year>). <article-title>World Map of the K&#x000f6;ppen&#x02010;Geiger climate classification updated</article-title>. <source xml:lang="en">Meteorologische Zeitschrift</source>, <volume>15</volume>, <fpage>259</fpage>&#x02013;<lpage>263</lpage>. <pub-id pub-id-type="doi">10.1127/0941-2948/2006/0130</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0019"><mixed-citation publication-type="journal" id="ece36303-cit-0019">
+<string-name>
+<surname>Kubatova</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Travnicek</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Bastlova</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Curn</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Jarol&#x000ed;mov&#x000e1;</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Suda</surname>, J.</string-name> (<year>2008</year>). <article-title>DNA ploidy level variation in native and invasive populations of <italic>Lythrum salicaria</italic> at a large geographical scale</article-title>. <source xml:lang="en">Journal of Biogeography</source>, <volume>35</volume>, <fpage>167</fpage>&#x02013;<lpage>176</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2699.2007.01781.x</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0020"><mixed-citation publication-type="journal" id="ece36303-cit-0020">
+<string-name>
+<surname>Kumar</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Stecher</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Knyaz</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Tamura</surname>, <given-names>K.</given-names>
+</string-name> (<year>2018</year>). <article-title>MEGA X: Molecular evolutionary genetics analysis across computing platforms</article-title>. <source xml:lang="en">Molecular Biology and Evolution</source>, <volume>35</volume>, <fpage>1547</fpage>&#x02013;<lpage>1549</lpage>. <pub-id pub-id-type="doi">10.1093/molbev/msy096</pub-id>
+<pub-id pub-id-type="pmid">29722887</pub-id></mixed-citation></ref><ref id="ece36303-bib-0021"><mixed-citation publication-type="journal" id="ece36303-cit-0021">
+<string-name>
+<surname>Lafuma</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Balkwill</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Imbert</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Verlaque</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Maurice</surname>, <given-names>S.</given-names>
+</string-name> (<year>2003</year>). <article-title>Ploidy level and origin of the European invasive weed Senecio inaequidens (Asteraceae)</article-title>. <source xml:lang="en">Plant Systematics and Evolution</source>, <volume>243</volume>, <fpage>59</fpage>&#x02013;<lpage>72</lpage>. <pub-id pub-id-type="doi">10.1007/s00606-003-0075-0</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0022"><mixed-citation publication-type="journal" id="ece36303-cit-0022">
+<string-name>
+<surname>Le Roux</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name>
+<surname>Brown</surname>, <given-names>G. K.</given-names>
+</string-name>, <string-name>
+<surname>Byrne</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ndlovu</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Richardson</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Thompson</surname>, <given-names>G. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wilson</surname>, <given-names>J. R. U.</given-names>
+</string-name> (<year>2011</year>). <article-title>Phylogeographic consequences of different introduction histories of invasive Australian <italic>Acacia</italic> species and <italic>Paraserianthes lophantha</italic> (Fabaceae) in South Africa</article-title>. <source xml:lang="en">Diversity and Distributions</source>, <volume>17</volume>, <fpage>861</fpage>&#x02013;<lpage>871</lpage>. <pub-id pub-id-type="doi">10.1111/j.1472-4642.2011.00784.x</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0023"><mixed-citation publication-type="journal" id="ece36303-cit-0023">
+<string-name>
+<surname>Leffler</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name>
+<surname>James</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name>
+<surname>Monaco</surname>, <given-names>T. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sheley</surname>, <given-names>R. L.</given-names>
+</string-name> (<year>2014</year>). <article-title>A new perspective on trait differences between native and invasive exotic plants</article-title>. <source xml:lang="en">Ecology</source>, <volume>95</volume>, <fpage>298</fpage>&#x02013;<lpage>305</lpage>. <pub-id pub-id-type="doi">10.1890/13-0102.1</pub-id>
+<pub-id pub-id-type="pmid">24669724</pub-id></mixed-citation></ref><ref id="ece36303-bib-0024"><mixed-citation publication-type="journal" id="ece36303-cit-0024">
+<string-name>
+<surname>Levin</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>1975</year>). <article-title>Minority cytotype exclusion in local plant populations</article-title>. <source xml:lang="en">Taxon</source>, <volume>24</volume>, <fpage>35</fpage>&#x02013;<lpage>43</lpage>. <pub-id pub-id-type="doi">10.2307/1218997</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0025"><mixed-citation publication-type="journal" id="ece36303-cit-0025">
+<string-name>
+<surname>Li</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Yan</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Du</surname>, <given-names>L.</given-names>
+</string-name> (<year>2017</year>). <article-title>No evidence for local adaptation to salt stress in the existing populations of invasive <italic>Solidago canadensis</italic> in China</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>12</volume>, <fpage>1</fpage>&#x02013;<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1371/journal.pone.0175252</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0026"><mixed-citation publication-type="journal" id="ece36303-cit-0026">
+<string-name>
+<surname>L&#x000ed;blov&#x000e1;</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Eli&#x000e1;&#x00161;ov&#x000e1;</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>M&#x000fc;nzbergov&#x000e1;</surname>, <given-names>Z.</given-names>
+</string-name> (<year>2017</year>). <article-title>Divergent adaptations in different parts of introduced range in tetraploid <italic>Vicia cracca</italic>
+</article-title>. <source xml:lang="en">Flora</source>, <volume>234</volume>, <fpage>245</fpage>&#x02013;<lpage>255</lpage>. <pub-id pub-id-type="doi">10.1016/j.flora.2017.07.010</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0027"><mixed-citation publication-type="journal" id="ece36303-cit-0027">
+<string-name>
+<surname>McGeoch</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Butchart</surname>, <given-names>S. H. M.</given-names>
+</string-name>, <string-name>
+<surname>Spear</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Marais</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Leynhans</surname>, <given-names>E. J.</given-names>
+</string-name>, <string-name>
+<surname>Symes</surname>, <given-names>A.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Hoffmann</surname>, <given-names>M.</given-names>
+</string-name> (<year>2010</year>). <article-title>Global indicators of biological invasion: Species numbers, biodiversity impact and policy responses</article-title>. <source xml:lang="en">Diversity and Distributions</source>, <volume>16</volume>, <fpage>95</fpage>&#x02013;<lpage>108</lpage>. <pub-id pub-id-type="doi">10.1111/j.1472-4642.2009.00633.x</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0028"><mixed-citation publication-type="journal" id="ece36303-cit-0028">
+<string-name>
+<surname>Meyerson</surname>, <given-names>L. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cronin</surname>, <given-names>J. T.</given-names>
+</string-name> (<year>2013</year>). <article-title>Evidence for multiple introductions of Phragmites australis to North America: Detection of a new non&#x02010;native haplotype</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>15</volume>, <fpage>2605</fpage>&#x02013;<lpage>2608</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-013-0491-2</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0029"><mixed-citation publication-type="journal" id="ece36303-cit-0029">
+<string-name>
+<surname>Monty</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Maurice</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mahy</surname>, <given-names>G.</given-names>
+</string-name> (<year>2010</year>). <article-title>Phenotypic traits variation among native diploid, native tetraploid and invasive tetraploid <italic>Senecio inaequidens</italic> DC. (Asteraceae)</article-title>. <source xml:lang="en">Biotechnology, Agronomy, Society and Environment</source>, <volume>14</volume>, <fpage>627</fpage>&#x02013;<lpage>632</lpage>.</mixed-citation></ref><ref id="ece36303-bib-0030"><mixed-citation publication-type="journal" id="ece36303-cit-0030">
+<string-name>
+<surname>Mr&#x000e1;z</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Bourchie</surname>, <given-names>R. S.</given-names>
+</string-name>, <string-name>
+<surname>Treier</surname>, <given-names>U. A.</given-names>
+</string-name>, <string-name>
+<surname>Schaffner</surname>, <given-names>U.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>M&#x000fc;ller&#x02010;Sch&#x000e4;rer</surname>, <given-names>H.</given-names>
+</string-name> (<year>2011</year>). <article-title>Polyploidy in phenotypic space and invasion context: A morphometric study of <italic>Centaurea stoebe</italic> S.L</article-title>. <source xml:lang="en">International Journal of Plant Sciences</source>, <volume>172</volume>, <fpage>386</fpage>&#x02013;<lpage>402</lpage>. <pub-id pub-id-type="doi">10.1086/658151</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0031"><mixed-citation publication-type="journal" id="ece36303-cit-0031">
+<string-name>
+<surname>Mr&#x000e1;z</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Tarbush</surname>, <given-names>E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>M&#x000fc;ller&#x02010;Sch&#x000e4;rer</surname>, <given-names>H.</given-names>
+</string-name> (<year>2014</year>). <article-title>Drought tolerance and plasticity in the invasive knapweed <italic>Centaurea stoebe</italic> s.l. (Asteraceae): Effect of populations stronger than those of cytotype and range</article-title>. <source xml:lang="en">Annals of Botany</source>, <volume>114</volume>, <fpage>289</fpage>&#x02013;<lpage>299</lpage>. <pub-id pub-id-type="doi">10.1093/aob/mcu105</pub-id>
+<pub-id pub-id-type="pmid">24918204</pub-id></mixed-citation></ref><ref id="ece36303-bib-0032"><mixed-citation publication-type="journal" id="ece36303-cit-0032">
+<string-name>
+<surname>Muller</surname>, <given-names>H.</given-names>
+</string-name> (<year>1989</year>). <article-title>Growth pattern of diploid and tetraploid spotted knapweed, <italic>Centaurea maculosa</italic> Lam. (Compositae), and effects of the root mining moth <italic>Agapeta zoegana</italic> (L.) (Lep.: Cochylidae)</article-title>. <source xml:lang="en">Weed Research</source>, <volume>29</volume>, <fpage>103</fpage>&#x02013;<lpage>111</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-3180.1989.tb00847.x</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0033"><mixed-citation publication-type="journal" id="ece36303-cit-0033">
+<string-name>
+<surname>Nagy</surname>, <given-names>D. U.</given-names>
+</string-name>, <string-name>
+<surname>Stranczinger</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Godi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Weisz</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Rosche</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Suda</surname>, <given-names>J.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Pal</surname>, <given-names>R. W.</given-names>
+</string-name> (<year>2018</year>). <article-title>Does higher ploidy level increase the risk of invasion? A case study with two geo&#x02010;cytotypes of <italic>Solidago gigante</italic>a Aiton(Asteraceae)</article-title>. <source xml:lang="en">Journal of Plant Ecology</source>, <volume>11</volume>, <fpage>317</fpage>&#x02013;<lpage>327</lpage>. <pub-id pub-id-type="doi">10.1093/jpe/rtx005</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0034"><mixed-citation publication-type="journal" id="ece36303-cit-0034">
+<string-name>
+<surname>Nicotra</surname>, <given-names>A. B.</given-names>
+</string-name>, <string-name>
+<surname>Atkin</surname>, <given-names>O. K.</given-names>
+</string-name>, <string-name>
+<surname>Bonser</surname>, <given-names>S. P.</given-names>
+</string-name>, <string-name>
+<surname>Davidson</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Finnegan</surname>, <given-names>E. J.</given-names>
+</string-name>, <string-name>
+<surname>Mathesius</surname>, <given-names>U.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>van Kleunen</surname>, <given-names>M.</given-names>
+</string-name> (<year>2010</year>). <article-title>Plant phenotypic plasticity in a changing climate</article-title>. <source xml:lang="en">Trends in Plant Science</source>, <volume>15</volume>, <fpage>684</fpage>&#x02013;<lpage>692</lpage>. <pub-id pub-id-type="doi">10.1016/j.tplants.2010.09.008</pub-id>
+<pub-id pub-id-type="pmid">20970368</pub-id></mixed-citation></ref><ref id="ece36303-bib-0035"><mixed-citation publication-type="journal" id="ece36303-cit-0035">
+<string-name>
+<surname>Novak</surname>, <given-names>S. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mack</surname>, <given-names>R. N.</given-names>
+</string-name> (<year>1993</year>). <article-title>Genetic variation in <italic>Bromus tectorum</italic> introduced populations</article-title>. <source xml:lang="en">Heredity</source>, <volume>71</volume>, <fpage>167</fpage>&#x02013;<lpage>176</lpage>.</mixed-citation></ref><ref id="ece36303-bib-0036"><mixed-citation publication-type="journal" id="ece36303-cit-0036">
+<string-name>
+<surname>Oduor</surname>, <given-names>A. M. O.</given-names>
+</string-name>, <string-name>
+<surname>G&#x000f3;mez</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Herrador</surname>, <given-names>M. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Perfectti</surname>, <given-names>F.</given-names>
+</string-name> (<year>2015</year>). <article-title>Invasion of <italic>Brassica nigra</italic> in North America: Distributions and origins of chloroplast DNA haplotypes suggest multiple introductions</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>17</volume>, <fpage>2447</fpage>&#x02013;<lpage>2459</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-015-0888-1</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0037"><mixed-citation publication-type="journal" id="ece36303-cit-0037">
+<string-name>
+<surname>Oduor</surname>, <given-names>A. M. O.</given-names>
+</string-name>, <string-name>
+<surname>Leimu</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van Kleunen</surname>, <given-names>M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Invasive plant species are locally adapted just as frequently and at least as strongly as native plant species</article-title>. <source xml:lang="en">Journal of Ecology</source>, <volume>104</volume>, <fpage>957</fpage>&#x02013;<lpage>968</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2745.12578</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0038"><mixed-citation publication-type="journal" id="ece36303-cit-0038">
+<string-name>
+<surname>Oduor</surname>, <given-names>A. M. O.</given-names>
+</string-name>, <string-name>
+<surname>Stift</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>van Kleunen</surname>, <given-names>M.</given-names>
+</string-name> (<year>2015</year>). <article-title>The interaction between root herbivory and competitive ability of native and invasive&#x02010;range populations of <italic>Brassica nigra</italic>
+</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>10</volume>(<issue>10</issue>), <fpage>e0141857</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0141857</pub-id>
+<pub-id pub-id-type="pmid">26517125</pub-id></mixed-citation></ref><ref id="ece36303-bib-0039"><mixed-citation publication-type="journal" id="ece36303-cit-0039">
+<string-name>
+<surname>Oduor</surname>, <given-names>A. M. O.</given-names>
+</string-name>, <string-name>
+<surname>Strauss</surname>, <given-names>S. Y.</given-names>
+</string-name>, <string-name>
+<surname>Garc&#x000ed;a</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Cascales</surname>, <given-names>M. B.</given-names>
+</string-name>, <string-name>
+<surname>G&#x000f3;mez</surname>, <given-names>J. M.</given-names>
+</string-name> (<year>2013</year>). <article-title>Herbivores mediate different competitive and facilitative responses of native and invader populations of <italic>Brassica nigr</italic>a</article-title>. <source xml:lang="en">Ecology</source>, <volume>94</volume>, <fpage>2288</fpage>&#x02013;<lpage>2298</lpage>.<pub-id pub-id-type="pmid">24358714</pub-id></mixed-citation></ref><ref id="ece36303-bib-0040"><mixed-citation publication-type="journal" id="ece36303-cit-0040">
+<string-name>
+<surname>Oduor</surname>, <given-names>A. M. O.</given-names>
+</string-name>, <string-name>
+<surname>van Kleunen</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Stift</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>). <article-title>In the presence of specialist root and shoot herbivory, invasive&#x02010;range <italic>Brassica nigra</italic> populations have stronger competitive effects than native&#x02010;range populations</article-title>. <source xml:lang="en">Journal of Ecology</source>, <volume>105</volume>, <fpage>1679</fpage>&#x02013;<lpage>1686</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2745.12779</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0041"><mixed-citation publication-type="journal" id="ece36303-cit-0041">
+<string-name>
+<surname>Parisod</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Holderegger</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Brochmann</surname>, <given-names>C.</given-names>
+</string-name> (<year>2010</year>). <article-title>Evolutionary consequences of autopolyploidy</article-title>. <source xml:lang="en">New Phytologist</source>, <volume>186</volume>, <fpage>5</fpage>&#x02013;<lpage>17</lpage>. <pub-id pub-id-type="doi">10.1111/j.1469-8137.2009.03142.x</pub-id>
+<pub-id pub-id-type="pmid">20070540</pub-id></mixed-citation></ref><ref id="ece36303-bib-0042"><mixed-citation publication-type="miscellaneous" id="ece36303-cit-0042">
+<string-name>
+<surname>Pinheiro</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Bates</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>DebRoy</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sarkar</surname>, <given-names>D.</given-names>
+</string-name> (<year>2007</year>). <article-title>nlme: Linear and nonlinear mixed effects models</article-title>. The R Development Core Team.</mixed-citation></ref><ref id="ece36303-bib-0043"><mixed-citation publication-type="journal" id="ece36303-cit-0043">
+<string-name>
+<surname>Py&#x00161;ek</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Danihelka</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>S&#x000e1;dlo</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Chrtek</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Chytr&#x000fd;</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Jaro&#x00161;&#x000ed;k</surname>, <given-names>V.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Tich&#x000fd;</surname>, <given-names>L.</given-names>
+</string-name> (<year>2012</year>). <article-title>Catalogue of alien plants of the Czech Republic (2nd edition): checklist update, taxonomic diversity and invasion patterns</article-title>. <source xml:lang="en">Preslia</source>, <volume>84</volume>, <fpage>155</fpage>&#x02013;<lpage>255</lpage>.</mixed-citation></ref><ref id="ece36303-bib-0044"><mixed-citation publication-type="book" id="ece36303-cit-0044">
+<collab collab-type="authors">R Core Team</collab>
+. (<year>2018</year>). <source xml:lang="en">R: A language and environment for statistical computing</source>. <publisher-loc>Vienna, Austria</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>.</mixed-citation></ref><ref id="ece36303-bib-0045"><mixed-citation publication-type="journal" id="ece36303-cit-0045">
+<string-name>
+<surname>Ramos&#x02010;Onsins</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rozas</surname>, <given-names>J.</given-names>
+</string-name> (<year>2002</year>). <article-title>Statistical properties of new neutrality tests against population growth</article-title>. <source xml:lang="en">Molecular Biology and Evolution</source>, <volume>19</volume>, <fpage>2092</fpage>&#x02013;<lpage>2100</lpage>. <pub-id pub-id-type="doi">10.1093/oxfordjournals.molbev.a004034</pub-id>
+<pub-id pub-id-type="pmid">12446801</pub-id></mixed-citation></ref><ref id="ece36303-bib-0046"><mixed-citation publication-type="journal" id="ece36303-cit-0046">
+<string-name>
+<surname>Richardson</surname>, <given-names>D. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Py&#x00161;ek</surname>, <given-names>P.</given-names>
+</string-name> (<year>2006</year>). <article-title>Plant invasions: Merging the concepts of species invasiveness and community invasibility</article-title>. <source xml:lang="en">Progress in Physical Geography</source>, <volume>30</volume>, <fpage>409</fpage>&#x02013;<lpage>431</lpage>. <pub-id pub-id-type="doi">10.1191/0309133306pp490pr</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0047"><mixed-citation publication-type="journal" id="ece36303-cit-0047">
+<string-name>
+<surname>Rogers</surname>, <given-names>A. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Harpending</surname>, <given-names>H.</given-names>
+</string-name> (<year>1992</year>). <article-title>Population growth makes waves in the distribution of pairwise genetic differences</article-title>. <source xml:lang="en">Molecular Biology and Evolution</source>, <volume>9</volume>, <fpage>552</fpage>&#x02013;<lpage>569</lpage>.<pub-id pub-id-type="pmid">1316531</pub-id></mixed-citation></ref><ref id="ece36303-bib-0048"><mixed-citation publication-type="journal" id="ece36303-cit-0048">
+<string-name>
+<surname>Rosche</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Hensen</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Schaar</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Zehra</surname>, <given-names>U.</given-names>
+</string-name>, <string-name>
+<surname>Jasieniuk</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Callaway</surname>, <given-names>R. M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Shah</surname>, <given-names>M. A.</given-names>
+</string-name> (<year>2019</year>). <article-title>Climate outweighs native vs. nonnative range&#x02010;effects for genetics and common garden performance of a cosmopolitan weed</article-title>. <source xml:lang="en">Ecological Monographs</source>, <volume>89</volume>, <elocation-id>e01386</elocation-id>
+<pub-id pub-id-type="doi">10.1002/ecm.1386</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0049"><mixed-citation publication-type="journal" id="ece36303-cit-0049">
+<string-name>
+<surname>Rozas</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Ferrer&#x02010;Mata</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>S&#x000e1;nchez&#x02010;DelBarrio</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Guirao&#x02010;Rico</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Librado</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Ramos&#x02010;Onsins</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>S&#x000e1;nchez&#x02010;Gracia</surname>, <given-names>A.</given-names>
+</string-name> (<year>2017</year>). <article-title>DnaSP 6: DNA sequence polymorphism analysis of large data sets</article-title>. <source xml:lang="en">Molecular Biology and Evolution</source>, <volume>34</volume>, <fpage>3299</fpage>&#x02013;<lpage>3302</lpage>. <pub-id pub-id-type="doi">10.1093/molbev/msx248</pub-id>
+<pub-id pub-id-type="pmid">29029172</pub-id></mixed-citation></ref><ref id="ece36303-bib-0050"><mixed-citation publication-type="journal" id="ece36303-cit-0050">
+<string-name>
+<surname>Schlaepfer</surname>, <given-names>D. R.</given-names>
+</string-name>, <string-name>
+<surname>Edwards</surname>, <given-names>P. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Billeter</surname>, <given-names>R.</given-names>
+</string-name> (<year>2010</year>). <article-title>Why only tetraploid <italic>Solidago gigantea</italic> (Asteraceae) became invasive: A common garden comparison of ploidy levels</article-title>. <source xml:lang="en">Oecologia</source>, <volume>163</volume>, <fpage>661</fpage>&#x02013;<lpage>673</lpage>. <pub-id pub-id-type="doi">10.1007/s00442-010-1595-3</pub-id>
+<pub-id pub-id-type="pmid">20238128</pub-id></mixed-citation></ref><ref id="ece36303-bib-0051"><mixed-citation publication-type="journal" id="ece36303-cit-0051">
+<string-name>
+<surname>Schoener</surname>, <given-names>T. W.</given-names>
+</string-name> (<year>1968</year>). <article-title>Anolis lizards in Bimini: Resource partitioning in a complex fauna</article-title>. <source xml:lang="en">Ecology</source>, <volume>49</volume>, <fpage>704</fpage>&#x02013;<lpage>726</lpage>.</mixed-citation></ref><ref id="ece36303-bib-0052"><mixed-citation publication-type="journal" id="ece36303-cit-0052">
+<string-name>
+<surname>Sim&#x000f3;n&#x02010;Porcar</surname>, <given-names>V. I.</given-names>
+</string-name>, <string-name>
+<surname>Silva</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Meeus</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Higgins</surname>, <given-names>J. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Vallejo&#x02010;Mar&#x000ed;n</surname>, <given-names>M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Recent autopolyploidization in a naturalized population of <italic>Mimulus guttatus</italic> (Phrymaceae)</article-title>. <source xml:lang="en">Botanical Journal of the Linnean Society</source>, <volume>185</volume>, <fpage>189</fpage>&#x02013;<lpage>207</lpage>. <pub-id pub-id-type="doi">10.1093/botlinnean/box052</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0053"><mixed-citation publication-type="journal" id="ece36303-cit-0053">
+<string-name>
+<surname>Slatkin</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hudson</surname>, <given-names>R.</given-names>
+</string-name> (<year>1991</year>). <article-title>Pairwise comparisons of mitochondrial DNA sequences in stable and exponentially growing populations</article-title>. <source xml:lang="en">Genetics</source>, <volume>129</volume>, <fpage>555</fpage>&#x02013;<lpage>562</lpage>.<pub-id pub-id-type="pmid">1743491</pub-id></mixed-citation></ref><ref id="ece36303-bib-0054"><mixed-citation publication-type="journal" id="ece36303-cit-0054">
+<string-name>
+<surname>Soltis</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Visger</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Soltis</surname>, <given-names>P.</given-names>
+</string-name> (<year>2014</year>). <article-title>The polyploidy revolution then&#x02026;and now: Stebbins revisited</article-title>. <source xml:lang="en">American Journal of Botany</source>, <volume>101</volume>, <fpage>1057</fpage>&#x02013;<lpage>1078</lpage>. <pub-id pub-id-type="doi">10.3732/ajb.1400178</pub-id>
+<pub-id pub-id-type="pmid">25049267</pub-id></mixed-citation></ref><ref id="ece36303-bib-0055"><mixed-citation publication-type="journal" id="ece36303-cit-0055">
+<string-name>
+<surname>Suda</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Tr&#x000e1;vn&#x000ed;&#x0010d;ek</surname>, <given-names>P.</given-names>
+</string-name> (<year>2006</year>). <article-title>Reliable DNA ploidy determination in dehydrated tissues of vascular plants by DAPI flow cytometry&#x02014;new prospects for plant research</article-title>. <source xml:lang="en">Cytometry</source>, <volume>69A</volume>, <fpage>273</fpage>&#x02013;<lpage>280</lpage>. <pub-id pub-id-type="doi">10.1002/cyto.a.20253</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0056"><mixed-citation publication-type="journal" id="ece36303-cit-0056">
+<string-name>
+<surname>Tajima</surname>, <given-names>F.</given-names>
+</string-name> (<year>1989</year>). <article-title>Statistical method for testing the neutral mutation hypothesis by DNA polymorphism</article-title>. <source xml:lang="en">Genetics</source>, <volume>123</volume>, <fpage>585</fpage>&#x02013;<lpage>595</lpage>.<pub-id pub-id-type="pmid">2513255</pub-id></mixed-citation></ref><ref id="ece36303-bib-0057"><mixed-citation publication-type="journal" id="ece36303-cit-0057">
+<string-name>
+<surname>Tavares</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Loureiro</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Martins</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Castro</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Roiloa</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Castro</surname>, <given-names>S.</given-names>
+</string-name> (<year>2019</year>). <article-title>Genetically based phenotypic differentiation between native and introduced tetraploids of <italic>Oxalis pes&#x02010;caprae</italic>
+</article-title>. <source xml:lang="en">Biological Invasions</source>, <volume>21</volume>, <fpage>229</fpage>&#x02013;<lpage>243</lpage>. <pub-id pub-id-type="doi">10.1007/s10530-018-1820-2</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0058"><mixed-citation publication-type="journal" id="ece36303-cit-0058">
+<string-name>
+<surname>te Beest</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Esler</surname>, <given-names>K. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Richardson</surname>, <given-names>D. M.</given-names>
+</string-name> (<year>2015</year>). <article-title>Linking functional traits to impacts of invasive plant species: A case study</article-title>. <source xml:lang="en">Plant Ecology</source>, <volume>216</volume>, <fpage>293</fpage>&#x02013;<lpage>305</lpage>. <pub-id pub-id-type="doi">10.1007/s11258-014-0437-5</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0059"><mixed-citation publication-type="journal" id="ece36303-cit-0059">
+<string-name>
+<surname>te Beest</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Le Roux</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name>
+<surname>Richardson</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Brysting</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name>
+<surname>Suda</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Kube&#x00161;ov&#x000e1;</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Py&#x00161;ek</surname>, <given-names>P.</given-names>
+</string-name> (<year>2012</year>). <article-title>The more the better? The role of polyploidy in facilitating plant invasions</article-title>. <source xml:lang="en">Annals of Botany</source>, <volume>109</volume>, <fpage>19</fpage>&#x02013;<lpage>45</lpage>. <pub-id pub-id-type="doi">10.1093/aob/mcr277</pub-id>
+<pub-id pub-id-type="pmid">22040744</pub-id></mixed-citation></ref><ref id="ece36303-bib-0060"><mixed-citation publication-type="journal" id="ece36303-cit-0060">
+<string-name>
+<surname>Th&#x000e9;bault</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Gillet</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>M&#x000fc;ller&#x02010;Sch&#x000e4;rer</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Buttler</surname>, <given-names>A.</given-names>
+</string-name> (<year>2011</year>). <article-title>Polyploidy and invasion success: Trait trade&#x02010;offs in native and introduced cytotypes of two Asteraceae species</article-title>. <source xml:lang="en">Plant Ecology</source>, <volume>212</volume>, <fpage>315</fpage>&#x02013;<lpage>325</lpage>. <pub-id pub-id-type="doi">10.1007/s11258-010-9824-8</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0061"><mixed-citation publication-type="journal" id="ece36303-cit-0061">
+<string-name>
+<surname>Treier</surname>, <given-names>U. A.</given-names>
+</string-name>, <string-name>
+<surname>Broennimann</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Normand</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Guisan</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Schaffner</surname>, <given-names>U.</given-names>
+</string-name>, <string-name>
+<surname>Steinger</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>M&#x000fc;ller&#x02010;Sch&#x000e4;rer</surname>, <given-names>H.</given-names>
+</string-name> (<year>2009</year>). <article-title>Shift in cytotype frequency and niche space in the invasive plant <italic>Centaurea maculosa</italic>
+</article-title>. <source xml:lang="en">Ecology</source>, <volume>90</volume>, <fpage>1366</fpage>&#x02013;<lpage>1377</lpage>.<pub-id pub-id-type="pmid">19537556</pub-id></mixed-citation></ref><ref id="ece36303-bib-0062"><mixed-citation publication-type="journal" id="ece36303-cit-0062">
+<string-name>
+<surname>Warren</surname>, <given-names>D. L.</given-names>
+</string-name>, <string-name>
+<surname>Glor</surname>, <given-names>R. R. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Turelli</surname>, <given-names>M.</given-names>
+</string-name> (<year>2008</year>). <article-title>Environmental niche equivalency versus conservatism: Quantitative approaches to niche evolution</article-title>. <source xml:lang="en">Evolution</source>, <volume>62</volume>, <fpage>2868</fpage>&#x02013;<lpage>2883</lpage>. <pub-id pub-id-type="doi">10.1111/j.1558-5646.2008.00482.x</pub-id>
+<pub-id pub-id-type="pmid">18752605</pub-id></mixed-citation></ref><ref id="ece36303-bib-0063"><mixed-citation publication-type="journal" id="ece36303-cit-0063">
+<string-name>
+<surname>Weber</surname>, <given-names>E.</given-names>
+</string-name> (<year>1998</year>). <article-title>The dynamics of plant invasions: A case study of three exotic goldenrod species (<italic>Solidago L.</italic>) in Europe</article-title>. <source xml:lang="en">Journal of Biogeography</source>, <volume>25</volume>, <fpage>147</fpage>&#x02013;<lpage>154</lpage>. <pub-id pub-id-type="doi">10.1046/j.1365-2699.1998.251119.x</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0064"><mixed-citation publication-type="journal" id="ece36303-cit-0064">
+<string-name>
+<surname>Whitney</surname>, <given-names>K. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gabler</surname>, <given-names>C. A.</given-names>
+</string-name> (<year>2008</year>). <article-title>Rapid evolution in introduced species, &#x02018;invasive traits&#x02019; and recipient communities: Challenges for predicting invasive potential</article-title>. <source xml:lang="en">Diversity and Distributions</source>, <volume>14</volume>, <fpage>569</fpage>&#x02013;<lpage>580</lpage>. <pub-id pub-id-type="doi">10.1111/j.1472-4642.2008.00473.x</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0065"><mixed-citation publication-type="book" id="ece36303-cit-0065">
+<string-name>
+<surname>Xu</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Qiang</surname>, <given-names>S.</given-names>
+</string-name> (<year>2011</year>). <source xml:lang="en">China&#x02019;s invasive alien species</source>. <publisher-loc>Beijing</publisher-loc>: <publisher-name>Science Press</publisher-name>.</mixed-citation></ref><ref id="ece36303-bib-0066"><mixed-citation publication-type="journal" id="ece36303-cit-0066">
+<string-name>
+<surname>Xu</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Qiang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Genovesi</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Ding</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Wu</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Meng</surname>, <given-names>L.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Pysek</surname>, <given-names>P.</given-names>
+</string-name> (<year>2012</year>). <article-title>An inventory of invasive alien species in China</article-title>. <source xml:lang="en">NeoBiota</source>, <volume>15</volume>, <fpage>1</fpage>&#x02013;<lpage>26</lpage>. <pub-id pub-id-type="doi">10.3897/neobiota.15.3575</pub-id>
+</mixed-citation></ref><ref id="ece36303-bib-0067"><mixed-citation publication-type="journal" id="ece36303-cit-0067">
+<string-name>
+<surname>Zhang</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Edwards</surname>, <given-names>O. R.</given-names>
+</string-name>, <string-name>
+<surname>Kang</surname>, <given-names>L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Fuller</surname>, <given-names>S. J.</given-names>
+</string-name> (<year>2012</year>). <article-title>Russian wheat aphids (<italic>Diuraphis noxia</italic>) in China: Native range expansion or recent introduction?</article-title>
+<source xml:lang="en">Molecular Ecology</source>, <volume>21</volume>, <fpage>2130</fpage>&#x02013;<lpage>2144</lpage>.<pub-id pub-id-type="pmid">22417053</pub-id></mixed-citation></ref><ref id="ece36303-bib-0068"><mixed-citation publication-type="journal" id="ece36303-cit-0068">
+<string-name>
+<surname>Zhao</surname>, <given-names>S. Y.</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>, <given-names>S. G.</given-names>
+</string-name>, <string-name>
+<surname>Dai</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Gituru</surname>, <given-names>R. W.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>J. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wang</surname>, <given-names>Q. F.</given-names>
+</string-name> (<year>2015</year>). <article-title>Genetic variation and structure in native and invasive <italic>Solidago canadensis</italic> populations</article-title>. <source xml:lang="en">Weed Research</source>, <volume>55</volume>, <fpage>163</fpage>&#x02013;<lpage>172</lpage>.</mixed-citation></ref></ref-list></back></article>

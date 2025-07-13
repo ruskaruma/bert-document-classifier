@@ -1,0 +1,2477 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Are eastern and western monarch butterflies distinct populations? A review of evidence for ecological, phenotypic, and genetic differentiation and implications for conservation</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Micah</forename><forename type="middle">G</forename><surname>Freedman</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Department of Ecology &amp; Evolution; University of Chicago; Chicago, IL, USA</note>
+<orgname type="department">Department of Ecology &amp; Evolution</orgname>
+<orgname type="institution">University of Chicago</orgname>
+<address>
+<settlement>Chicago</settlement>
+<region>IL</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Center for Population Biology; University of California, Davis; Davis, CA, USA</note>
+<orgname type="department">Center for Population Biology</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<settlement>Davis, Davis</settlement>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Jacobus</forename><forename type="middle">C</forename><surname>De Roode</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> Department of Biology; Emory University; Atlanta, GA, USA</note>
+<orgname type="department">Department of Biology</orgname>
+<orgname type="institution">Emory University</orgname>
+<address>
+<settlement>Atlanta</settlement>
+<region>GA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Matthew</forename><forename type="middle">L</forename><surname>Forister</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> Department of Biology; University of Nevada, Reno; Reno, NV, USA</note>
+<orgname type="department">Department of Biology</orgname>
+<orgname type="institution">University of Nevada</orgname>
+<address>
+<settlement>Reno, Reno</settlement>
+<region>NV</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Marcus</forename><forename type="middle">R</forename><surname>Kronforst</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Department of Ecology &amp; Evolution; University of Chicago; Chicago, IL, USA</note>
+<orgname type="department">Department of Ecology &amp; Evolution</orgname>
+<orgname type="institution">University of Chicago</orgname>
+<address>
+<settlement>Chicago</settlement>
+<region>IL</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Amanda</forename><forename type="middle">A</forename><surname>Pierce</surname></persname>
+<affiliation key="aff4">
+<note type="raw_affiliation"> United States Environmental Protection Agency (EPA); Washington, D.C., USA</note>
+<orgname type="institution">United States Environmental Protection Agency (EPA)</orgname>
+<address>
+<settlement>Washington</settlement>
+<region>D.C</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Cheryl</forename><forename type="middle">B</forename><surname>Schultz</surname></persname>
+<affiliation key="aff5">
+<note type="raw_affiliation"> School of Biological Sciences; Washington State University; Vancouver, WA, USA</note>
+<orgname type="department">School of Biological Sciences</orgname>
+<orgname type="institution">Washington State University</orgname>
+<address>
+<settlement>Vancouver</settlement>
+<region>WA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Orley</forename><forename type="middle">R</forename><surname>Taylor</surname></persname>
+<affiliation key="aff6">
+<note type="raw_affiliation"> Department of Ecology and Evolutionary Biology; University of Kansas; Lawrence, KS, USA</note>
+<orgname type="department">Department of Ecology and Evolutionary Biology</orgname>
+<orgname type="institution">University of Kansas</orgname>
+<address>
+<settlement>Lawrence</settlement>
+<region>KS</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Elizabeth</forename><forename type="middle">E</forename><surname>Crone</surname></persname>
+<affiliation key="aff7">
+<note type="raw_affiliation"> Department of Biology; Tufts University; Medford, MA, USA</note>
+<orgname type="department">Department of Biology</orgname>
+<orgname type="institution">Tufts University</orgname>
+<address>
+<settlement>Medford</settlement>
+<region>MA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Are eastern and western monarch butterflies distinct populations? A review of evidence for ecological, phenotypic, and genetic differentiation and implications for conservation</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">04810FB8FB3A6C758B10D7BA58B807F8</idno>
+<idno type="DOI">10.20944/preprints202009.0353.v1</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-08-28T15:37+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>conservation</term>
+<term>monarch butterfly</term>
+<term>migration</term>
+<term>population ecology</term>
+<term>population genetics</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Monarch butterflies are a species of conservation priority due to declining overwintering populations in both eastern and western North America.</s><s>Declines in western overwintering monarchs-more than 99% since monitoring began-are especially acute.</s><s>However, the degree to which the western monarch is a distinct biological entity is uncertain.</s><s>In this review, we focus on phenotypic and genetic differentiation between eastern and western monarchs, with the goal of informing researchers and policy-makers who are interested in monarch conservation.</s><s>Eastern and western monarchs occupy distinct environments and show some evidence for phenotypic differentiation-particularly for migration-associated traits-though population genetic and genomic studies suggest that they are genetically indistinguishable from one another.</s><s>We suggest future studies that could improve our understanding of differences between eastern and western monarchs.</s><s>We also discuss the concept of adaptive capacity in eastern and western monarchs as well as non-migratory populations outside of the monarch's primary North American range.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>The North American monarch butterfly (Danaus plexippus plexippus) is an iconic species known for its distinctive coloration, association with milkweed host plants, and continent-scale seasonal migration <ref target="#b31" type="bibr">(Gustafsson et al. 2015)</ref>.</s><s>Over the past two decades, monarchs have become the focus of intense conservation attention, including a petition to the United States Fish and Wildlife Service (USFWS) to have them listed as threatened under the U.S. Endangered Species Act (ESA) (Monarch ESA Petition).</s><s>Under the ESA, specific populations of vertebrates are eligible for separate listings, as is the case for populations of grizzly bears (USFWS ECOS: Grizzly Bear), gray wolves (USFWS ECOS: Gray Wolf), and particular salmon runs (USFWS ECOS: Chinook Salmon).</s><s>For Eastern and western North American monarchs are geographically separated by the Rocky Mountains and occupy distinct biotic and abiotic environments.</s><s>These different environments have the potential to exert divergent selection pressures and drive phenotypic differentiation.</s><s>Studies have used measurements from both wild-caught and common garden reared monarchs to test for phenotypic differentiation between eastern and western monarchs.</s><s>We focus on four primary ecological factors-though there may be others-that are strong candidates to drive                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         phenotypic differentiation between eastern and western monarchs: host plant associations, thermal environments, interactions with natural enemies, and migratory behavior.</s></p><formula xml:id="formula_0">• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • •• • • • • • • • • •• • • • • • • • •• • • • • • • • • •• • • • • • •• •• • • • • • • • • • • • • • • • • • • • • • • •• • • • • •• • •• • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • •• • • • • • • • • • • •• • • • • • •• • • • • •• •• • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • ••• • • • • •• • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • •• • • • • • • • • • • • • • • • • • • • • • • •• • • • •• •• • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • •• • • • •• • • • • • • • • •• • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •</formula><formula xml:id="formula_1">• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • •• • • •• • • • • • • • • • • •• • •• • •• • • • •• • •• •• •• • • • •• • • •• • • • •• •• • • • • •• •• •• • • • • • • • • • • • • • • • • •• • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • •• • •• • • • •• • • •• •• • • •• • • • •• • • • • • •• •• • • •• • • •• •• •• •• • • •• • •• • • • • • • •• •• • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• •• • • • •• •• • • • •• • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• •• • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • -</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Host plant associations<p><s>Monarchs encounter more than 100 native species of milkweed (Apocynaceae: Asclepiadoideae) host plants throughout their North American range <ref target="#b88" type="bibr">(Woodson 1954</ref>) and have been documented using more than 40 of these species as larval hosts <ref target="#b44" type="bibr">(Malcolm and Brower 1986</ref>; Borders and Lee-Mäder 2018).</s><s>Eastern and western milkweed assemblages differ greatly: the eastern species perceived to be of greatest importance to monarchs (Asclepias syriaca, A. viridis, A. incarnata) are confined entirely to the east, and the primary western hosts (A.</s><s>speciosa, A. fascicularis) are either partly or entirely restricted to the west.</s><s>This divergence in larval host plant assemblages has the potential to contribute to adaptive differentiation in eastern and western monarchs.</s><s>Two studies to date have tested for patterns of local adaptation to host plant assemblages, both using common garden experiments (Table <ref type="table">1</ref>).</s><s>Neither study found strong evidence for local adaptation to host plant assemblages, as measured by host plant by population interactions <ref target="#b39" type="bibr">(Ladner and Altizer 2005)</ref> or sympatric/allopatric contrasts <ref target="#b28" type="bibr">(Freedman et al. 2020)</ref>.</s></p><p><s>Future studies of host plant adaptation in eastern and western monarchs would benefit from focusing on milkweed species whose phenology makes them importa nt for monarchs, such as spring-emerging species like A. asperula and A. viridis (eastern) and A. californica and A. cordifolia (western).</s><s>Although these species may not be as abundant as A. syriaca or A. speciosa, they are primary hosts during a critical demographic window (spring return migration) and could Table 1: Summary of common garden experiments that have tested for local adaptation to host plant assemblages in eastern and western monarchs.</s><s>The column for strength of local adaptation reports the metric used for assessing local adaptation and corresponding p-value.</s><s>mean temperatures but lower diurnal fluctuations and lesser temperature extremes than eastern overwintering sites in Mexico <ref target="#b41" type="bibr">(Leong 1990</ref><ref target="#b13" type="bibr">, Brower et al. 2008</ref><ref type="bibr">, Brower et al. 2009)</ref>.</s></p><p><s>Future studies would benefit from repeating earlier studies on thermal performance in monarchs using both eastern and western monarchs.</s><s>For example, the often-cited estimates of developmental degree days for monarch larvae come from Australia <ref target="#b91" type="bibr">(Zalucki 1982)</ref> and could be repeated using side-by-side rearing of eastern and western monarchs under conditions featuring natural insolation <ref type="bibr">(Rawlins and Lederhouse 1981)</ref>.</s><s>Likewise, it would be useful to identify genes that may be involved in thermal tolerance in monarchs, since these could potentially differ in frequency or level of expression between eastern and western monarchs.</s><s>Genes involved in thermal tolerance may also be targets of natural selection in a warming climate (e.g.</s><s>Somero 2010).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Interactions with natural enemies<p><s>Eastern and western monarchs likely interact with disparate assemblages of natural enemies.</s><s>In eastern North America, various studies have reported on the effects of predation and parasitism by Tachinid flies (Oberhauser 2012), fire ants <ref target="#b15" type="bibr">(Calvert 2004</ref>), ladybugs <ref target="#b38" type="bibr">(Koch et al. 2003)</ref>, and other arthropods <ref target="#b62" type="bibr">(Rayor 2004</ref><ref target="#b60" type="bibr">, Prysby 2004</ref><ref target="#b54" type="bibr">, Oberhauser et al. 2015</ref><ref target="#b32" type="bibr">, Hermann et al. 2019)</ref>.</s><s>Few studies have focused on natural enemies in western monarchs, and this would be a useful avenue for future research.</s></p><p><s>The best-studied interaction between monarchs and their natural enemies is with the protozoan parasite Ophryocystis elektroschirrha (OE).</s><s><ref type="formula">4</ref>) evidence that monarch populations in Hawaii and South Florida do show evidence for divergence in OE tolerance and resistance phenotypes <ref target="#b71" type="bibr">(Sternberg et al. 2013</ref>).</s><s>Together, these results suggest that differences in virulence among OE genotypes are capable of selecting for genetically-based differences in tolerance and resistance in monarch populations, though such differences are not observed in eastern versus western monarchs.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Migration-associated traits and behaviors<p><s>The most conspicuous difference between eastern and western monarchs is the scale of their seasonal migration.</s><s>Mark-recapture studies with eastern monarchs show that they generally fly between 1,500-3,000 km during their fall migration to Mexico, with some individuals covering more than 4,000 km.</s><s>By contrast, tagging studies with western monarchs have found maximum flight distances of ~1,300 km, with more typical flight distances of &lt;800 km <ref target="#b34" type="bibr">(James et al. 2018)</ref>.</s><s>Studies using stable isotope data corroborate these differences in migration distance between eastern and western monarchs <ref target="#b85" type="bibr">(Wassenaar and Hobson 1998</ref><ref target="#b33" type="bibr">, Hobson et al. 1999</ref><ref type="bibr">, Flockhart et al. 2017a</ref><ref target="#b89" type="bibr">, Yang et al. 2016)</ref>.</s></p><p><s>Migration acts as a strong selective filter for migratory monarchs, favoring individuals with larger and more elongated forewings <ref target="#b2" type="bibr">(Altizer and Davis 2010</ref><ref target="#b89" type="bibr">, Yang et al. 2016</ref><ref target="#b25" type="bibr">, Flockhart et al. 2017b)</ref>.</s><s>Researchers have generally found that western monarchs have slightly smaller and less elongated forewings than eastern monarchs, potentially as a result of divergent selection due to differences in migration distance <ref target="#b2" type="bibr">(Altizer and Davis 2010</ref><ref target="#b42" type="bibr">, Li et al. 2016</ref><ref type="bibr">, Freedman and Dingle 2018)</ref>.</s><s>Studies that have directly compared eastern and western monarchs-both wild-caught and common-garden reared-are shown in Table <ref target="#tab_2074" type="table">2</ref>. Eastern monarchs have consistently larger forewings than western monarchs across all studies and comparisons (Table <ref target="#tab_2074" type="table">2</ref>).</s><s>However, these differences are relatively modest in wild caught individuals (eastern monarchs are between 1-8% larger), and even less pronounced for common-garden reared monarchs (~1%).</s><s>Future studies could focus on accounting for the sources of environmental variation (e.g.</s><s>rearing temperature, host plant identity, photoperiod conditions) in migration-associated traits that could potentially explain phenotypic differences between eastern and western monarchs.</s><s>Environmental  Genetic studies of differentiation between eastern and western monarchs</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Population genetics<p><s>Researchers have been investigating the potential for genetic differentiation between eastern and western monarchs since at least 1991.</s><s>As early as 1995, researchers cautioned against human-assisted movement of eastern and western monarchs across the continental divide, in part because of the perceived risk of gene flow potentially disrupting patterns of local adaptation <ref target="#b11" type="bibr">(Brower et al. 1995)</ref>.</s><s>The current consensus-developed over the last eight years and with the advent of novel sequencing methods-is that there is a lack of genetic differentiation between eastern and western monarchs.</s></p><p><s>Recent research strongly suggests that eastern and western monarchs form a genetically indistinguishable population that spans most of their North American range.</s><s>The exception to this pattern is in South Florida, where monarchs are predominantly non-migratory <ref target="#b10" type="bibr">(Brower 1961</ref><ref target="#b93" type="bibr">, Zhan et al. 2014</ref>).</s><s>This result is summarized in Table <ref type="table">3</ref> (also reviewed in <ref target="#b58" type="bibr">Pierce et al. 2015)</ref> and is robust to the kind and number of markers analyzed (i.e.</s><s>microsatellites versus single nucleotide polymorphisms from whole genome sequencing) and consistent across studies.</s><s>The most comprehensive study on the topic is Talla et al. (2020), which used whole genome resequencing for 14 eastern and 29 western monarchs and found no evidence for any genetic differentiation, including no fixed differences between east and west and no windows of elevated FST in genomewide comparisons.</s><s>While these studies are consistent with genetic panmixia between eastern and western monarchs, an alternative interpretation is recent divergence but with ongoing low levels of gene flow.</s></p><p><s>Existing studies have included comparisons from a mix of breeding, migrating and overwintering monarchs.</s><s>Future research could directly compare overwintering eastern and western monarchs only, since this should provide the most power for detecting potential genetic differentiation.</s><s>Because migration distance is expected to act as a strong selective filter, this approach could potentially identify allele frequency shifts related to the differences in migration distance between east and west.</s><s>By contrast, butterflies sequenced during summer breeding are the offspring of adults that randomly mate at overwintering sites and during spring return migration <ref target="#b21" type="bibr">(Eanes and Koehn 1978)</ref>, which could reduce any signal of divergent selection associated with fall migration distance.</s></p><p><s>While current evidence suggests little genetic differentiation between eastern and western monarchs, studies that include non-migratory monarchs from South Florida, the Caribbean, Central and South America, the Atlantic, and the Pacific do all find clear evidence for genetic differentiation in these peripheral populations <ref type="bibr">(Lyons et</ref> <ref target="#b37" type="bibr">(Knight and</ref><ref type="bibr">Brower 2009, Vander Zanden et al. 2018)</ref>.</s><s>The genetic differences between North American and non-North American monarchs are also generally accompanied by more pronounced phenotypic differences than those observed between eastern and western monarchs <ref type="bibr">(Li et al. 2016, Freedman et al., in review)</ref>.</s><s>However, it is possible that expanded sampling involving hundreds or thousands of monarchs sampled across a large number of markers could reveal subtle patterns of genetic differentiation between eastern and western monarchs that present studies have not detected.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Migration rates between east and west<p><s>Despite showing evidence for recurrent gene flow, eastern and western monarchs are clearly not demographically panmictic.</s><s>Eastern and western overwintering clusters break up at different times of year, seasonal movement patterns and directions are different, and the timing of reproduction and number of generations per year may also be different.</s><s>Overwintering counts of eastern and western monarchs show little evidence of correlation with each other (Fig. <ref target="#fig_0" type="figure">1B</ref>, but see Appendix 2), and there is no observational evidence to suggest large influxes of eastern monarchs into western North America or vice versa.</s></p><p><s>Given their divergent overwintering destinations, it may at first be difficult to see how eastern and western monarchs could form a single genetic population.</s><s>Mark-recapture studies <ref target="#b48" type="bibr">(Morris et al. 2015</ref><ref target="#b6" type="bibr">, Billings 2019</ref>) and museum records <ref target="#b20" type="bibr">(Dingle et al. 2005</ref>) suggest that at least some western monarchs travel to Mexican overwintering sites in the autumn.</s><s>Billings (2019) compiled results from three years of mark-recapture studies conducted in Arizona.</s><s>Of the 3,194 tagged and released monarchs, 32 were recovered at California overwintering sites and 12 were recovered at Mexican overwintering sites.</s><s>Likewise, there is speculation that Mexican overwintering monarchs might recolonize western North America in the spring <ref target="#b12" type="bibr">(Brower and Pyle 2004)</ref>.</s><s>None of the more than 2 million monarchs tagged east of the Rockies between August-November have ever been recovered in the west (O.</s><s>Taylor, unpublished data); however, this may reflect (1) low general recovery rates (~1%) for tagged monarchs <ref target="#b73" type="bibr">(Taylor et al. 2019</ref>); (2) low rates of movement from Mexican overwintering sites to western North America; (3) limited human population density in areas where these monarchs might be recovered (i.e.</s><s>southern Arizona and New Mexico).</s><s>It is also important to note that even small numbers of migrants between east and west-the classic rule of thumb suggests one migrant per generation (but see Mills and Allendorf 1996)-would be sufficient to prevent genetic differentiation from developing in a large, outcrossing species like monarchs.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Adaptive capacity in monarchs</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Adaptive capacity in North American monarchs<p><s>The concept of adaptive capacity refers broadly to the ability of populations or species to adapt to future environmental change.</s><s>North American monarchs possess high levels of genetic diversity, as indicated by high estimates of effective population size (Ne ≈ 2x10 6 ) <ref target="#b93" type="bibr">(Zhan et al. 2014</ref>).</s><s>This high level of standing diversity should be associated with robust evolutionary potential.</s><s>Eastern and western monarchs appear to harbor comparable levels of genetic diversity, as seen in measures of allelic richness using microsatellites <ref target="#b57" type="bibr">(Pierce et al. 2014</ref>), the r atio of heterozygote to homozygote genotypes <ref target="#b93" type="bibr">(Zhan et al. 2014)</ref>, and various other measures <ref type="bibr">(Talla et al. 2020, Hemstrom et al. in review)</ref>.</s><s>The lack of fixed genetic differences between eastern and western North America suggests that there are no strongly selected genetic variants that contribute to adaptation specifically to eastern or western North American environments <ref target="#b83" type="bibr">(Talla et al. 2020)</ref>.</s><s>Experiments that reciprocally translocate eastern and western monarchs and assess their ability to exhibit appropriate migration-associated behaviors (e.g.</s><s>directional orientation) would help to establish whether eastern and western monarchs are actually interchangeable.</s><s>A number of previous studies have involved transplanting eastern monarchs westward (e.g.</s><s><ref target="#b77" type="bibr">Urquhart and</ref><ref type="bibr">Urquhart 1977, Mouritsen et al. 2013)</ref>, though the inferences that can be drawn from these studies may be limited (see <ref target="#b11" type="bibr">Brower et al. 1995</ref><ref target="#b53" type="bibr">, Oberhauser et al. 2013)</ref>.</s><s>A recent review by <ref target="#b51" type="bibr">Nail et al. (2019)</ref> suggested that the monarch's global distribution provides the species with adaptive capacity.</s><s>While this may be true in a demographic sensehaving widely distributed populations around the world reduces the risk of a stochastic extinction event for the species as a whole-recent research suggests that non-migratory populations may not provide adaptive capacity in an evolutionary sense.</s><s>Derived monarch populations have reduced allelic richness <ref target="#b57" type="bibr">(Pierce et al. 2014</ref>) and effective population sizes <ref type="bibr">(Zhan et al. 2014, Hemstrom et al. in review)</ref>, suggesting a loss of standing genetic diversity associated with founding bottlenecks in these populations.</s><s>The reduction in genetic diversity in these peripheral populations could conceivably compromise their ability to adapt to future environmental change.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Adaptive capacity in non-migratory monarch populations around the world<p><s>A number of recent studies have addressed the question of adaptive capacity in nonmigratory monarchs.</s><s><ref type="bibr">Freedman et al. (2018)</ref> found that non-migratory monarch populations from Queensland retain migration-associated traits such as induction of reproductive diapause, suggesting that the loss of migration may be due to a lack of relevant seasonal cues, rather than an inability to sense and/or integrate those cues.</s><s>However, two recent studies (Tenger -Trolander et al. 2019; Tenger-Trolander and Kronforst 2020) found that commercially-reared monarchs whose breeding history precludes seasonal migration can lose their ability to consistently directionally orient, a critical part of their ability to complete migration.</s><s>These studies suggest that some aspects of monarch migration are phenotypically plastic and may be shielded from selection and maintained in non-migratory populations, while other migration-associated traits might be selected against and lost.</s><s>Freedman et al. (2020) also found that non-migratory monarch populations from Pacific Islands and Puerto Rico developed more slowly and were smaller as adults than their North American ancestors, potentially suggesting a general loss of vigor in these populations.</s><s>Finally, non-migratory monarch populations tend to have high prevalence and abundance of infection with OE <ref target="#b1" type="bibr">(Altizer et al. 2000</ref><ref target="#b4" type="bibr">, Bartel et al. 2011</ref><ref target="#b66" type="bibr">, Satterfield et al. 2015)</ref>.</s><s>Despite having greater tolerance and resistance to OE, non-migratory populations' parasite loads may render them less capable of completing long-distance flights <ref target="#b8" type="bibr">(Bradley and Altizer 2005)</ref>, thus generating a positive feedback loop of infection and non-migratory status <ref target="#b23" type="bibr">(Faldyn et al. 2018</ref>).</s><s>Together, these results call into question the notion that derived non-migratory monarch populations are adequate stand-ins for their migratory North American ancestors if the goal is to conserve functional genetic diversity.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusions<p><s>Eastern and western monarchs are geographically and demographically distinct, though there is only modest evidence for phenotypic differentiation and no current evidence for genetic differentiation between them.</s><s>In response to declining numbers of overwintering monarchs, many western states have proposed their own conservation measures.</s><s>For example, The Western Association of Fish and Wildlife Agencies drafted its own Western Monarch Butterfly Conservation Plan in 2019 <ref target="#b46" type="bibr">(Mawdsley et al. 2020)</ref>, and numerous municipalities and land trusts have monarch conservation plans (see <ref type="bibr">Jepsen and Black 2015)</ref>.</s><s>These are welcome and necessary initiatives, and recovery of western monarchs is a worthwhile goal in and of itself.</s><s>However, it remains to be seen whether the pursuit of statewide conservation measures in the West is contingent upon a federal listing decision.</s></p><p><s>Research into the basic biology and migratory cycle of western monarchs is ongoing.</s><s>Recent studies have begun to reveal natal origins of western overwintering butterflies <ref type="bibr">(Yang et</ref>  Policy-makers who are considering how to contextualize the decline of western monarchs will need to decide whether to adopt a parsimonious or precautionary approach in their decisionmaking.</s><s>A parsimonious approach based on presently available genetic data would suggest that western monarchs do not constitute a distinct population: at present, there are no diagnostic criteria that could reliably be used to distinguish an eastern from a western monarch.</s><s>A precautionary approach would recognize the potential for western monarchs to provide adaptive capacity and would involve treating the two populations as distinct based on their phenotypic and demographic differences.</s><s>In the meantime, there is a clear role for scientists to collect additional data to resolve the somewhat mysterious discrepancy between phenotypic and genotypic patterns in North American monarch butterflies.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1<label>1</label><figdesc><div><p><s>Figure 1 -(A) Distribution of summer-breeding monarch butterflies in the United States and Canada.</s><s>Points correspond to records from GBIF (n = 20,552) in July and August and are separated into eastern (yellow), western (orange), and year-round breeding (white) locations.</s><s>Map generated using ggmap (Kahle and Wickham 2013) and the Google Maps API.</s><s>(B) Overwintering numbers for eastern and western monarchs are only weakly positively correlated across years (R 2 = 0.027, p = 0.41), suggesting that they are demographically distinct populations.</s><s>Note that axes are on very different scales.</s><s>(C) Overwintering abundance for eastern monarchs from Mexico, based on data from WWF Mexico.</s><s>Abundance is based on aerial estimates of forest area occupied.</s><s>The trend line shows LOESS-smoothed change through time and 95% confidence intervals around this trend.</s><s>Note that overwintering abundance estimates are also available for some years between 1976-1994 but are not shown here.</s><s>Overwintering eastern monarch densities are likely between 21-28 million butterflies/hectare (Thogmartin et al. 2017).</s><s>(D) Overwintering abundance for western monarchs from sites in California.</s><s>Abundance estimates from 1981-2016 take into account sampling effort and are the same as the values presented in Schultz et al. (2017); abundance estimates for 2017-2019 are based on non-adjusted counts.</s></p></div></figdesc><graphic coords="3,88.09,342.14,223.52,157.36" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Many non-migratory, year-round breeding populations of monarchs have become established in locations around the world over recent evolutionary history (Vane-Wright 1993, Zalucki and Clarke 2004, Pierce et al. 2014, Zhan et al. 2014).</s><s>These sites include multiple locations that fall under the purview of USFWS: American Samoa, Guam, the Northern Mariana Islands, Hawaii, Puerto Rico, and the U.S. Virgin Islands.</s><s>Year-round breeding populations are also present in South Florida, coastal Georgia and the Carolinas, the Gulf Coast states, and southern California.</s><s>Whether these recently-derived non-migratory populations can act as meaningful reservoirs of genetic diversity and adaptive capacity remains an open question (Reppert and de Roode 2018).</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>al. 2016), habitat correlates of larval and adult occurrence records (Stevens and Frey 2010, Dilts et al. 2019, Waterbury et al. 2019), windows of opportunity for larval development (Yang and Cenzer 2020), molecular mechanisms underlying diapause termination (Green and Kronforst 2019), and potential reasons for population declines (Pelton et al. 2019, Crone et al. 2019).</s><s>A key to understanding western monarch population dynamics is research into the early spring period when western monarchs leave their overwintering grounds (Nagano et al. 1993, Espeset et al. 2016, Pelton et al. 2019): where do these monarchs go, what host plants do their offspring utilize, and how sensitive is the timing of this process to temperature and precipitation conditions?</s><s>Furthermore, the role of non-native milkweed plantings, whose phenology differs from those of native milkweed species, should be investigated as a potential contributor to the decline of overwintering western monarchs.</s><s>This line of research could include comparisons of cardenolide fingerprints (e.g. Malcolm et al. 1989, Knight and Brower 2009, Satterfield et al. 2018) of western monarchs through time to determine whether non-native milkweeds have become more prevalent, as well as community science initiatives to document the prevalence of non-native host use in areas near overwintering sites.</s></p></div></figdesc></figure>
+<figure type="table" xml:id="tab_8" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_17" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_50" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_347" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_556" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_643" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_667" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_826" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_1105" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_1242" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_1312" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_1725" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_1774" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_1777" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_1881" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_2028" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>•</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_2072" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Common garden cross-infection experiments with OE showed no differences in tolerance or resistance between eastern and western monarchs (de Roode et al. 2008), despite evidence for (1) higher natural prevalence of OE in western compared to eastern North America (Altizer and de Roode 2015); (2) genetic variation among monarch genotypes for tolerance and resistance (de Roode and Altizer 2010, Lefevre et al. 2011); (3) variation among OE strains in virulence (de Roode et al. 2008, de Roode and Altizer 2010); (</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_2074" xmlns="http://www.tei-c.org/ns/1.0">Table 2 -<label>2</label><figdesc><div><p><s>Pocius et al. 2017, Decker et al. 2019, Freedman et al. 2020gical data from eastern and western monarchs.The columns for length and area reflect overall averages based on data in papers and do not separate males and females.The %diff columns reflect the degree to which eastern monarchs are larger than western monarchs.contributionstomigration-associated</s><s>traits may be particularly important for understanding differences observed between wild-caught eastern and western monarchs, especially in light of studies showing that larval host plant species can influence adult monarch size (e.g.Pocius et al. 2017, Decker et al. 2019, Freedman et al. 2020).</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_2075" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>al. 2012, Pierce et al. 2014, Zhan et al. 2014, Hemstrom et al., in review).</s><s>This pattern suggests that existing methods are capable of detecting genetic differentiation among more divergent monarch lineages, including for monarchs in South Florida, which are genetically distinct from eastern monarchs despite a large influx of eastern migrants each year</s></p></div></figdesc><table></table></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Preprints (www.preprints.org)</s><s>| NOT PEER-REVIEWED | Posted: 16 September 2020 doi:10.20944/preprints202009.0353.v1</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgments<p><s>We thank Andy Davis for helpful comments on earlier drafts of this manuscript and Rachael Bay for useful discussion about adaptive capacity.</s><s>We also thank members of the Xerces Society (Emma Pelton, Sarina Jepson) and the U.S. Fish and Wildlife Service (Jennifer Szymanski, Cat Dorst, Kristen Voorhies, Steve Choy, Lara Drizd, Ryan Drum, Kelly Nail, Michelle Shaughnessy) for conversations that inspired the ideas presented in this manuscript.</s><s>Emma Pelton, Stephanie McKnight, Stephanie Frischie, and Ray Moranz provided valuable discussion of monarch host plant use in eastern and western North America.</s><s>Dr. Pierce contributed to this work in her personal capacity.</s><s>The views presented here are the views of the authors and do not necessarily represent the views of the U.S. Environmental Protection Agency or the United States Government.</s><s>All raw data and code used in analysis are available at https://github.com/micahfreedman/manuscripts.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">Study</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Thermal regimes<p><s>Eastern and western monarchs occupy generally distinct thermal regimes.</s><s>Summerbreeding monarchs in western North America are typically found in areas with a broader range of daytime high temperatures, despite having a more compact geographic range (Fig. <ref type="figure">2a</ref>; see Appendix 1).</s><s>Western monarchs also occur in areas with limited summer precipitation (Fig. <ref type="figure">2b</ref>), which may determine milkweed availability and explain why western monarch occurrence records are biased towards areas with surface water <ref target="#b20" type="bibr">(Dingle et al. 2005</ref>) and particular land cover patterns <ref target="#b19" type="bibr">(Dilts et al. 2019)</ref>.</s><s>Only one study to date has directly compared eastern and western monarchs with respect to rearing temperature <ref target="#b17" type="bibr">(Davis et al. 2005</ref>).</s><s>This study compared eastern and western monarchs under a range of temperature treatments and found that western monarch larvae were lighter in coloration than eastern larvae regardless of temperature treatment, with this result interpreted as evidence for adaptive variation: lighter cuticular color should be favorable for living in high summer temperatures <ref target="#b17" type="bibr">(Davis et al. 2005</ref>).</s><s>In addition to differences in temperature in summer breeding areas, western overwintering sites in California also tend to have slightly higher</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Milkweed Butterflies: Their Cladistics and Biology</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">R</forename><surname>Ackery</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">I</forename><surname>Vane-Wright</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">British Museum of Natural History</title>
+<imprint>
+<date type="published" when="1984">1984</date>
+<pubplace>London, UK</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Ackery, P.R. &amp; Vane-Wright, R.I. (1984). Milkweed Butterflies: Their Cladistics and Biology. British Museum of Natural History, London, UK.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Associations between host migration and the prevalence of a protozoan parasite in natural populations of adult monarch butterflies</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Altizer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Oberhauser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecol. Entomol</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope from="125" to="139" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Altizer, S.M., Oberhauser, K.S. &amp; Brower, L.P. (2000). Associations between host migration and the prevalence of a protozoan parasite in natural populations of adult monarch butterflies. Ecol. Entomol., 25, 125-139.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Populations of monarch butterflies with different migratory behaviors show divergence in wing morphology</title>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">K</forename><surname>Davis</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Evolution</title>
+<imprint>
+<biblscope unit="volume">64</biblscope>
+<biblscope from="1018" to="1028" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Altizer, S. &amp; Davis, A.K. (2010). Populations of monarch butterflies with different migratory behaviors show divergence in wing morphology. Evolution, 64, 1018-1028.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Monarchs and their debilitating parasites: Immunity, migration, and medicinal plant use</title>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>De Roode</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Monarchs in a Changing World: Biology and Conservation of an Iconic Butterfly</title>
+<editor>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Oberhauser</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Nail</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</editor>
+<meeting><address><addrline>Ithaca, NY</addrline></address></meeting>
+<imprint>
+<publisher>Cornell University Press</publisher>
+<date type="published" when="2015">2015</date>
+<biblscope from="83" to="94" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Altizer, S. &amp; de Roode, J.C. (2015). Monarchs and their debilitating parasites: Immunity, migration, and medicinal plant use. In Oberhauser, K.S., Nail, K.R. &amp; Altizer, S., (Eds.), Monarchs in a Changing World: Biology and Conservation of an Iconic Butterfly. pp 83-94. Cornell University Press, Ithaca, NY.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Monarch butterfly migration and parasite transmission in eastern North America</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Bartel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Oberhauser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>De Roode</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Altizer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">92</biblscope>
+<biblscope from="342" to="351" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bartel, R.A., Oberhauser, K.S., De Roode, J.C. &amp; Altizer, S.M. (2011). Monarch butterfly migration and parasite transmission in eastern North America. Ecology, 92, 342-351.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Geographical variation in the wing length of Danaus plexippus (Lep. Rhopalocera)</title>
+<author>
+<persname><forename type="first">G</forename><surname>Beall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">B</forename><surname>Williams</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. Roy. Entom. Soc</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="65" to="76" unit="page"></biblscope>
+<date type="published" when="1945">1945</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Beall, G. &amp; Williams, C.B. (1945). Geographical variation in the wing length of Danaus plexippus (Lep. Rhopalocera). Proc. Roy. Entom. Soc, 20, 65-76.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Opening a window on southwestern monarchs: Fall migrant monarch butterflies, Danaus plexippus (L.), tagged synchronously in southeastern Arizona migrate to overwintering regions in either southern California or central Mexico</title>
+<author>
+<persname><forename type="first">J</forename><surname>Billings</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Lepid. Soc</title>
+<imprint>
+<biblscope unit="volume">73</biblscope>
+<biblscope from="257" to="267" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Billings, J. (2019). Opening a window on southwestern monarchs: Fall migrant monarch butterflies, Danaus plexippus (L.), tagged synchronously in southeastern Arizona migrate to overwintering regions in either southern California or central Mexico. J. Lepid. Soc., 73, 257-267.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Milkweeds: A Conservation Practitioner's Guide</title>
+<author>
+<persname><forename type="first">B</forename><surname>Borders</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Lee-Mäders</surname></persname>
+</author>
+<ptr target="https://www.xerces.org/sites/default/files/2018-05/17-031_02_XercesSoc_Milkweeds-Conservation-Guide_web.pdf"></ptr>
+</analytic>
+<monogr>
+<title level="j">Xerces Society online</title>
+<imprint>
+<biblscope from="86" to="89" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Borders, B. &amp; Lee-Mäders, E. (2018). Milkweeds: A Conservation Practitioner's Guide. Xerces Society online publication. pp. 86-89. https://www.xerces.org/sites/default/files/2018-05/17-031_02_XercesSoc_Milkweeds- Conservation-Guide_web.pdf</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Parasites hinder monarch butterfly flight: implications for disease spread in migratory hosts</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Bradley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecol. Lett</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope from="290" to="300" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bradley, C.A. &amp; Altizer, S. (2005). Parasites hinder monarch butterfly flight: implications for disease spread in migratory hosts. Ecol. Lett., 8, 290-300.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Mitochondrial DNA variation in monarch butterflies</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">V Z</forename><surname>Brower</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">M</forename><surname>Boyce</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Evolution</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope from="1281" to="1286" unit="page"></biblscope>
+<date type="published" when="1991">1991</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brower, A.V.Z. &amp; Boyce, T.M. (1991). Mitochondrial DNA variation in monarch butterflies. Evolution, 45, 1281-1286.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Studies on the migration of the monarch butterfly I. Breeding populations of Danaus plexippus and D. gilippus berenice in south central Florida</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope from="76" to="83" unit="page"></biblscope>
+<date type="published" when="1961">1961</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brower, L.P. (1961). Studies on the migration of the monarch butterfly I. Breeding populations of Danaus plexippus and D. gilippus berenice in south central Florida. Ecology, 42, 76-83.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">On the dangers of interpopulational transfers of monarch butterflies</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">S</forename><surname>Fink</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">V Z</forename><surname>Brower</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Leong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Oberhauser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bioscience</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope from="540" to="544" unit="page"></biblscope>
+<date type="published" when="1995">1995</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brower, L.P., Fink, L.S., Brower, A.V.Z., Leong, K., Oberhauser, K., Altizer, S., et al. (1995). On the dangers of interpopulational transfers of monarch butterflies. Bioscience, 45, 540-544.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">The interchange of migratory monarchs between Mexico and the western United States, and the importance of floral corridors to the fall and spring migrations</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Pyle</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Conserving migratory pollinators and nectar corridors in western North America</title>
+<editor>
+<persname><forename type="first">G</forename><forename type="middle">P</forename><surname>Nabhan</surname></persname>
+</editor>
+<meeting><address><addrline>Tucson, AZ</addrline></address></meeting>
+<imprint>
+<publisher>University of Arizona Press and The Arizona-Sonora Desert Museum</publisher>
+<date type="published" when="2004">2004</date>
+<biblscope from="167" to="178" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Brower, L.P. &amp; Pyle, R.M. (2004). The interchange of migratory monarchs between Mexico and the western United States, and the importance of floral corridors to the fall and spring migrations. In G. P. Nabhan (Ed.), Conserving migratory pollinators and nectar corridors in western North America. pp. 167-178, University of Arizona Press and The Arizona-Sonora Desert Museum, Tucson, AZ.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Monarch butterfly clusters provide microclimatic advantages during the overwintering season in Mexico</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">H</forename><surname>Williams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">S</forename><surname>Fink</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Zubieta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">I</forename><surname>Ramirez</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Lepid. Soc</title>
+<imprint>
+<biblscope unit="volume">62</biblscope>
+<biblscope from="177" to="188" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brower, L.P., Williams, E.H., Fink, L.S., Zubieta, R.R. &amp; Ramirez, M.I. (2008). Monarch butterfly clusters provide microclimatic advantages during the overwintering season in Mexico. J. Lepid. Soc., 62, 177-188.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Oyamel fir forest trunks provide thermal advantages for overwintering monarch butterflies in Mexico</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">H</forename><surname>Williams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Slayback</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">S</forename><surname>Fink</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">I</forename><surname>Ramírez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Zubieta</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Insect Conserv. Divers</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="163" to="175" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brower, L.P., Williams, E.H., Slayback, D.A., Fink, L.S., Ramírez, M.I., Zubieta, R.R., et al. (2009). Oyamel fir forest trunks provide thermal advantages for overwintering monarch butterflies in Mexico. Insect Conserv. Divers., 2, 163-175.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">The effect of fire ants on monarch breeding in Texas</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">H</forename><surname>Calvert</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">The Monarch Butterfly: Biology and Conservation</title>
+<editor>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Oberhauser</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Solensky</surname></persname>
+</editor>
+<meeting><address><addrline>Ithaca, NY</addrline></address></meeting>
+<imprint>
+<publisher>Cornell University Press</publisher>
+<date type="published" when="2004">2004</date>
+<biblscope from="47" to="54" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Calvert, W.H. (2004). The effect of fire ants on monarch breeding in Texas. In Oberhauser, K.S. &amp; Solensky, M.J., (Eds.), The Monarch Butterfly: Biology and Conservation. pp. 47-54. Cornell University Press, Ithaca, NY.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Why are monarch butterflies declining in the West? Understanding the importance of multiple correlated drivers</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">E</forename><surname>Crone</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">M</forename><surname>Pelton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">C</forename><surname>Thomas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">B</forename><surname>Schultz</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecol. Appl</title>
+<imprint>
+<biblscope unit="volume">29</biblscope>
+<biblscope unit="page">1975</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Crone, E.E., Pelton, E.M., Brown, L.M., Thomas, C.C. &amp; Schultz, C.B. (2019). Why are monarch butterflies declining in the West? Understanding the importance of multiple correlated drivers. Ecol. Appl., 29, e01975.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Variation in thermally induced melanism in monarch butterflies (Lepidoptera: Nymphalidae) from three North American populations</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">K</forename><surname>Davis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">D</forename><surname>Farrey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Therm. Biol</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope from="410" to="421" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Davis, A.K., Farrey, B.D. &amp; Altizer, S. (2005). Variation in thermally induced melanism in monarch butterflies (Lepidoptera: Nymphalidae) from three North American populations. J. Therm. Biol., 30, 410-421.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Phytochemical changes in milkweed induced by elevated CO 2 alter wing morphology but not toxin sequestration in monarch butterflies</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">E</forename><surname>Decker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Soule</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>De Roode</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Hunter</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Funct. Ecol</title>
+<imprint>
+<biblscope unit="volume">33</biblscope>
+<biblscope from="411" to="421" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Decker, L.E., Soule, A.J., de Roode, J.C. &amp; Hunter, M.D. (2019). Phytochemical changes in milkweed induced by elevated CO 2 alter wing morphology but not toxin sequestration in monarch butterflies. Funct. Ecol., 33, 411-421.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Host plants and climate structure habitat associations of the western monarch butterfly</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">E</forename><surname>Dilts</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">O</forename><surname>Steele</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Engler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">M</forename><surname>Pelton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Jepsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Mcknight</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Frontiers in Ecology and Evolution</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="page">188</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dilts, T.E., Steele, M.O., Engler, J.D., Pelton, E.M., Jepsen, S.J., McKnight, S.J., et al. (2019). Host plants and climate structure habitat associations of the western monarch butterfly. Frontiers in Ecology and Evolution, 7, 188.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Distribution of the monarch butterfly, Danaus plexippus (L.)(Lepidoptera: Nymphalidae), in western North America</title>
+<author>
+<persname><forename type="first">H</forename><surname>Dingle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Zalucki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">A</forename><surname>Rochester</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Armijo-Prewitt</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biol. J. Linn. Soc. Lond</title>
+<imprint>
+<biblscope unit="volume">85</biblscope>
+<biblscope from="491" to="500" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dingle, H., Zalucki, M.P., Rochester, W.A. &amp; Armijo-Prewitt, T. (2005). Distribution of the monarch butterfly, Danaus plexippus (L.)(Lepidoptera: Nymphalidae), in western North America. Biol. J. Linn. Soc. Lond., 85, 491-500.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">An analysis of genetic structure in the monarch butterfly, Danaus plexippus</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">F</forename><surname>Eanes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">K</forename><surname>Koehn</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">L. Evolution</title>
+<imprint>
+<biblscope unit="volume">32</biblscope>
+<biblscope from="784" to="797" unit="page"></biblscope>
+<date type="published" when="1978">1978</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Eanes, W.F. &amp; Koehn, R.K. (1978). An analysis of genetic structure in the monarch butterfly, Danaus plexippus L. Evolution, 32, 784-797.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Understanding a migratory species in a changing world: climatic effects and demographic declines in the western monarch revealed by four decades of intensive monitoring</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">E</forename><surname>Espeset</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">G</forename><surname>Harrison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Shapiro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">C</forename><surname>Nice</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">H</forename><surname>Thorne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">P</forename><surname>Waetjen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Oecologia</title>
+<imprint>
+<biblscope unit="volume">181</biblscope>
+<biblscope from="819" to="830" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Espeset, A.E., Harrison, J.G., Shapiro, A.M., Nice, C.C., Thorne, J.H., Waetjen, D.P., et al. (2016). Understanding a migratory species in a changing world: climatic effects and demographic declines in the western monarch revealed by four decades of intensive monitoring. Oecologia, 181, 819-830.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Climate change and an invasive, tropical milkweed: an ecological trap for monarch butterflies</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Faldyn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Hunter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">D</forename><surname>Elderd</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">99</biblscope>
+<biblscope from="1031" to="1038" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Faldyn, M.J., Hunter, M.D. &amp; Elderd, B.D. (2018). Climate change and an invasive, tropical milkweed: an ecological trap for monarch butterflies. Ecology, 99, 1031-1038.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Regional climate on the breeding grounds predicts variation in the natal origin of monarch butterflies overwintering in Mexico over 38 years</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">T T</forename><surname>Flockhart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">I</forename><surname>Ramirez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Hobson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">I</forename><surname>Wassenaar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Glob. Chang. Biol</title>
+<imprint>
+<biblscope unit="volume">23</biblscope>
+<biblscope from="2565" to="2576" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Flockhart, D.T.T., Brower, L.P., Ramirez, M.I., Hobson, K.A., Wassenaar, L.I., Altizer, S., et al. (2017a). Regional climate on the breeding grounds predicts variation in the natal origin of monarch butterflies overwintering in Mexico over 38 years. Glob. Chang. Biol., 23, 2565-2576.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Migration distance as a selective episode for wing morphology in a migratory insect</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">T T</forename><surname>Flockhart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Fitz-Gerald</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Derbyshire</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Hobson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mov Ecol</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="page">7</biblscope>
+<date type="published" when="2017">2017b</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Flockhart, D.T.T., Fitz-Gerald, B., Brower, L.P., Derbyshire, R., Altizer, S., Hobson, K.A., et al. (2017b). Migration distance as a selective episode for wing morphology in a migratory insect. Mov Ecol, 5, 7.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Wing morphology in migratory North American monarchs: characterizing sources of variation and understanding changes through time</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">G</forename><surname>Freedman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Dingle</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Animal Migration</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope from="61" to="73" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Freedman, M.G. &amp; Dingle, H. (2018). Wing morphology in migratory North American monarchs: characterizing sources of variation and understanding changes through time. Animal Migration, 5, 61-73.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Non-migratory monarch butterflies, Danaus plexippus (L.), retain developmental plasticity and a navigational mechanism associated with migration</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">G</forename><surname>Freedman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Dingle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Tabuloc</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Chiu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">H</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Zalucki</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biol. J. Linn. Soc. Lond</title>
+<imprint>
+<biblscope unit="volume">123</biblscope>
+<biblscope from="265" to="278" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Freedman, M.G., Dingle, H., Tabuloc, C.A., Chiu, J.C., Yang, L.H. &amp; Zalucki, M.P. (2018). Non-migratory monarch butterflies, Danaus plexippus (L.), retain developmental plasticity and a navigational mechanism associated with migration. Biol. J. Linn. Soc. Lond., 123, 265-278.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Host plant adaptation during contemporary range expansion in the monarch butterfly</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">G</forename><surname>Freedman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Jason</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">R</forename><surname>Ramírez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">Y</forename><surname>Strauss</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Evolution</title>
+<imprint>
+<biblscope unit="volume">74</biblscope>
+<biblscope from="377" to="391" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Freedman, M.G., Jason, C., Ramírez, S.R. &amp; Strauss, S.Y. (2020). Host plant adaptation during contemporary range expansion in the monarch butterfly. Evolution, 74, 377-391.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<monogr>
+<idno type="DOI">10.15468/dl.jx7wck</idno>
+<ptr target="doi.org/10.15468/dl.jx7wck"></ptr>
+<title level="m">Global Biodiversity Information Facility (GBIF)</title>
+<imprint>
+<date type="published" when="2019-07-01">July 1, 2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Global Biodiversity Information Facility (GBIF). Dataset ID: doi.org/10.15468/dl.jx7wck. Downloaded July 1, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Monarch butterflies use an environmentally sensitive, internal timer to control overwintering dynamics</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Green</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Kronforst</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mol. Ecol</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope from="3642" to="3655" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Green, D.A., 2nd &amp; Kronforst, M.R. (2019). Monarch butterflies use an environmentally sensitive, internal timer to control overwintering dynamics. Mol. Ecol., 28, 3642-3655.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">The monarch butterfly through time and space: The social construction of an icon</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Gustafsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Agrawal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">V</forename><surname>Lewenstein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Wolf</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bioscience</title>
+<imprint>
+<biblscope unit="volume">65</biblscope>
+<biblscope from="612" to="622" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gustafsson, K.M., Agrawal, A.A., Lewenstein, B.V. &amp; Wolf, S.A. (2015). The monarch butterfly through time and space: The social construction of an icon. Bioscience, 65, 612- 622.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Predators of monarch butterfly eggs and neonate larvae are more diverse than previously recognised</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Hermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Blackledge</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">L</forename><surname>Haan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">T</forename><surname>Myers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Landis</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Sci. Rep</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="page">14304</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hermann, S.L., Blackledge, C., Haan, N.L., Myers, A.T. &amp; Landis, D.A. (2019). Predators of monarch butterfly eggs and neonate larvae are more diverse than previously recognised. Sci. Rep., 9, 14304.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Stable isotopes (δD and δ13C) are geographic indicators of natal origins of monarch butterflies in eastern North America</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Hobson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">I</forename><surname>Wassenaar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">R</forename><surname>Taylor</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Oecologia</title>
+<imprint>
+<biblscope unit="volume">120</biblscope>
+<biblscope from="397" to="404" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hobson, K.A., Wassenaar, L.I. &amp; Taylor, O.R. (1999). Stable isotopes (δD and δ13C) are geographic indicators of natal origins of monarch butterflies in eastern North America. Oecologia, 120, 397-404.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Citizen scientist tagging reveals destinations of migrating monarch butterflies, Danaus plexippus (L.) from the Pacific Northwest</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">G</forename><surname>James</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">S</forename><surname>James</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Seymour</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Kappen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Russell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Harryman</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Lepid. Soc</title>
+<imprint>
+<biblscope unit="volume">72</biblscope>
+<biblscope from="127" to="144" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">James, D.G., James, T.S., Seymour, L., Kappen, L., Russell, T., Harryman, B., et al. (2018). Citizen scientist tagging reveals destinations of migrating monarch butterflies, Danaus plexippus (L.) from the Pacific Northwest. J. Lepid. Soc., 72, 127-144.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Understanding and conserving the western North American monarch population</title>
+<author>
+<persname><forename type="first">S</forename><surname>Jepsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">H</forename><surname>Black</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Monarchs in a Changing World: Biology and Conservation of an Iconic Butterfly</title>
+<editor>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Oberhauser</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Nail</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</editor>
+<meeting><address><addrline>Ithaca, NY</addrline></address></meeting>
+<imprint>
+<publisher>Cornell University Press</publisher>
+<date type="published" when="2017">2017</date>
+<biblscope from="147" to="156" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Jepsen, S. &amp; Black, S.H. (2017). Understanding and conserving the western North American monarch population. In Oberhauser, K.S., Nail, K.R. &amp; Altizer, S., (Eds.), Monarchs in a Changing World: Biology and Conservation of an Iconic Butterfly. pp 147- 156. Cornell University Press, Ithaca, NY.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">ggmap: Spatial Visualization with ggplot2</title>
+<author>
+<persname><forename type="first">D</forename><surname>Kahle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Wickham</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">R J</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope from="144" to="161" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kahle, D. &amp; Wickham, H. (2013). ggmap: Spatial Visualization with ggplot2. R J., 5, 144- 161.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">The influence of eastern North American autumnal migrant monarch butterflies (Danaus plexippus L.) on continuously breeding resident monarch populations in southern Florida</title>
+<author>
+<persname><forename type="first">A</forename><surname>Knight</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Chem. Ecol</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope from="816" to="823" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Knight, A. &amp; Brower, L.P. (2009). The influence of eastern North American autumnal migrant monarch butterflies (Danaus plexippus L.) on continuously breeding resident monarch populations in southern Florida. J. Chem. Ecol., 35, 816-823.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Susceptibility of immature monarch butterfly, Danaus plexippus (Lepidoptera: Nymphalidae: Danainae), to predation by Harmonia axyridis (Coleoptera: Coccinellidae)</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L</forename><surname>Koch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">D</forename><surname>Hutchison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">C</forename><surname>Venette</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">E</forename><surname>Heimpel</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biol. Control</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope from="265" to="270" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Koch, R.L., Hutchison, W.D., Venette, R.C. &amp; Heimpel, G.E. (2003). Susceptibility of immature monarch butterfly, Danaus plexippus (Lepidoptera: Nymphalidae: Danainae), to predation by Harmonia axyridis (Coleoptera: Coccinellidae). Biol. Control, 28, 265-270.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Oviposition preference and larval performance of North American monarch butterflies on four Asclepias species</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">T</forename><surname>Ladner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Entomol. Exp. Appl</title>
+<imprint>
+<biblscope unit="volume">116</biblscope>
+<biblscope from="9" to="20" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ladner, D.T. &amp; Altizer, S. (2005). Oviposition preference and larval performance of North American monarch butterflies on four Asclepias species. Entomol. Exp. Appl., 116, 9-20.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Genetic variation in resistance, but not tolerance, to a protozoan parasite in the monarch butterfly</title>
+<author>
+<persname><forename type="first">T</forename><surname>Lefèvre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Williams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>De Roode</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. Biol. Sci</title>
+<imprint>
+<biblscope unit="volume">278</biblscope>
+<biblscope from="751" to="759" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lefèvre, T., Williams, A.J. &amp; de Roode, J.C. (2011). Genetic variation in resistance, but not tolerance, to a protozoan parasite in the monarch butterfly. Proc. Biol. Sci., 278, 751-759.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Microenvironmental factors associated with the winter habitat of the monarch butterfly (Lepidoptera: Danaidae) in Central California</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">L H</forename><surname>Leong</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ann. Entomol. Soc. Am</title>
+<imprint>
+<biblscope unit="volume">83</biblscope>
+<biblscope from="906" to="910" unit="page"></biblscope>
+<date type="published" when="1990">1990</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Leong, K.L.H. (1990). Microenvironmental factors associated with the winter habitat of the monarch butterfly (Lepidoptera: Danaidae) in Central California. Ann. Entomol. Soc. Am., 83, 906-910.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Variation in forewing size linked to migratory status in monarch butterflies</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Pierce</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>De Roode</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Animal Migration</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope unit="page">49</biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Li, Y., Pierce, A.A. &amp; de Roode, J.C. (2016). Variation in forewing size linked to migratory status in monarch butterflies. Animal Migration, 3, 49.</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Lack of genetic differentiation between monarch butterflies with diverg ent migration destinations</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">I</forename><surname>Lyons</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Pierce</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Barribeau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">D</forename><surname>Sternberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Mongue</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>De Roode</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mol. Ecol</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope from="3433" to="3444" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lyons, J.I., Pierce, A.A., Barribeau, S.M., Sternberg, E.D., Mongue, A.J. &amp; De Roode, J.C. (2012). Lack of genetic differentiation between monarch butterflies with diverg ent migration destinations. Mol. Ecol., 21, 3433-3444.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Selective oviposition by monarch butterflies(Danaus plexippus L.) in a mixed stand of Asclepias curassavica L. and A. incarnata L. in South Florida</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">B</forename><surname>Malcolm</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Lepid. Soc</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope from="255" to="263" unit="page"></biblscope>
+<date type="published" when="1986">1986</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Malcolm, S.B. &amp; Brower, L.P. (1986). Selective oviposition by monarch butterflies(Danaus plexippus L.) in a mixed stand of Asclepias curassavica L. and A. incarnata L. in South Florida. J. Lepid. Soc., 40, 255-263.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Cardenolide fingerprint of monarch butterflies reared on common milkweed, Asclepias syriaca L</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">B</forename><surname>Malcolm</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Cockrell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Chem. Ecol</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope from="819" to="853" unit="page"></biblscope>
+<date type="published" when="1989">1989</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Malcolm, S.B., Cockrell, B.J. &amp; Brower, L.P. (1989). Cardenolide fingerprint of monarch butterflies reared on common milkweed, Asclepias syriaca L. J. Chem. Ecol., 15, 819-853.</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Voluntary conservation, not regulation, will be key to monarch butterfly recovery</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Mawdsley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Simmons</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Rubinoff</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Wildl. Soc. Bull</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope unit="page">164</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mawdsley, J.R., Simmons, T. &amp; Rubinoff, D. (2020). Voluntary conservation, not regulation, will be key to monarch butterfly recovery. Wildl. Soc. Bull., 40, 164.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">The one-migrant-per-generation rule in conservation and management</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">S</forename><surname>Mills</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">W</forename><surname>Allendorf</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Conserv. Biol</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope from="1509" to="1518" unit="page"></biblscope>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mills, L.S. &amp; Allendorf, F.W. (1996). The one-migrant-per-generation rule in conservation and management. Conserv. Biol., 10, 1509-1518.</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Status of Danaus plexippus population in Arizona</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">M</forename><surname>Morris</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Kline</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Morris</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Lepid. Soc</title>
+<imprint>
+<biblscope unit="volume">69</biblscope>
+<biblscope from="91" to="107" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Morris, G.M., Kline, C. &amp; Morris, S.M. (2015). Status of Danaus plexippus population in Arizona. J. Lepid. Soc., 69, 91-107.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">An experimental displacement and over 50 years of tag-recoveries show that monarch butterflies are not true navigators</title>
+<author>
+<persname><forename type="first">H</forename><surname>Mouritsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Derbyshire</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Stalleicken</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">Ø</forename><surname>Mouritsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Frost</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Norris</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+<imprint>
+<biblscope unit="volume">110</biblscope>
+<biblscope from="7348" to="7353" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mouritsen, H., Derbyshire, R., Stalleicken, J., Mouritsen, O.Ø ., Frost, B.J. &amp; Norris, D.R. (2013). An experimental displacement and over 50 years of tag-recoveries show that monarch butterflies are not true navigators. Proc. Natl. Acad. Sci. U. S. A., 110, 7348- 7353.</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">Spring migration of monarch butterflies in California</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">D</forename><surname>Nagano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">H</forename><surname>Sakai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">B</forename><surname>Malcolm</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Cockrell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Donahue</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Biology and Conservation of The Monarch Butterfly</title>
+<title level="s">Natural History Museum of Los Angeles County; Science Series</title>
+<editor>
+<persname><forename type="first">S</forename><forename type="middle">B</forename><surname>Malcom</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Zalucki</surname></persname>
+</editor>
+<meeting><address><addrline>Los Angeles, CA</addrline></address></meeting>
+<imprint>
+<date type="published" when="1993">1993</date>
+<biblscope from="219" to="232" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Nagano, C. D., Sakai, W. H., Malcolm, S. B., Cockrell, B. J., Donahue, J. P., and Brower, L. P. (1993). "Spring migration of monarch butterflies in California," in Biology and Conservation of The Monarch Butterfly, eds S. B. Malcom and M. P. Zalucki (Los Angeles, CA: Natural History Museum of Los Angeles County; Science Series), 219-232.</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">Butterflies across the globe: A synthesis of the current status and characteristics of monarch (Danaus plexippus) populations worldwide</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Nail</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Drizd</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Voorhies</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Frontiers in Ecology and Evolution</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="page">362</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nail, K.R., Drizd, L. &amp; Voorhies, K.J. (2019). Butterflies across the globe: A synthesis of the current status and characteristics of monarch (Danaus plexippus) populations worldwide. Frontiers in Ecology and Evolution, 7, 362.</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<monogr>
+<title level="m">Science and the Endangered Species Act</title>
+<meeting><address><addrline>Washington, D.C., USA</addrline></address></meeting>
+<imprint>
+<publisher>National Academies Press</publisher>
+<date type="published" when="1995">1995</date>
+</imprint>
+</monogr>
+<note type="raw_reference">National Research Council (1995). Science and the Endangered Species Act. National Academies Press, Washington, D.C., USA.</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">Are monarch butterflies true navigators? The jury is still out</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Oberhauser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">R</forename><surname>Taylor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Reppert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Dingle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Nail</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Pyle</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. Natl. Acad. Sci</title>
+<imprint>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Oberhauser, K.S., Taylor, O.R., Reppert, S.M., Dingle, H., Nail, K.R., Pyle, R.M., et al. (2013). Are monarch butterflies true navigators? The jury is still out. Proc. Natl. Acad. Sci.</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">Lacewings, wasps, and flies-Oh my</title>
+<author>
+<persname><forename type="first">U</forename><forename type="middle">S A</forename><surname>Oberhauser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Anderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Anderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Caldwell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>De Anda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Hunter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kaiser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Solensky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Monarchs in a Changing World: Biology and Conservation of an Iconic Butterfly</title>
+<editor>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Oberhauser</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Nail</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</editor>
+<meeting><address><addrline>Ithaca, NY</addrline></address></meeting>
+<imprint>
+<publisher>Cornell University Press</publisher>
+<date type="published" when="2015">2015</date>
+<biblscope from="71" to="82" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">U. S. A. 55. Oberhauser, K.S., Anderson, M., Anderson, S., Caldwell, W., De Anda, A., Hunter, M., Kaiser, M.C. &amp; Solensky, M.J. (2015). Lacewings, wasps, and flies-Oh my. In Oberhauser, K.S., Nail, K.R. &amp; Altizer, S., (Eds.), Monarchs in a Changing World: Biology and Conservation of an Iconic Butterfly. pp 71-82. Cornell University Press, Ithaca, NY.</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">Western Monarch Population Plummets: Status, Probable Causes, and Recommended Conservation Actions</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">M</forename><surname>Pelton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">B</forename><surname>Schultz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Jepsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">H</forename><surname>Black</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">E</forename><surname>Crone</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Frontiers in Ecology and Evolution</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="page">258</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pelton, E.M., Schultz, C.B., Jepsen, S.J., Black, S.H. &amp; Crone, E.E. (2019). Western Monarch Population Plummets: Status, Probable Causes, and Recommended Conservation Actions. Frontiers in Ecology and Evolution, 7, 258.</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<monogr>
+<ptr target="https://ecos.fws.gov/docs/petitions/92210//730.pdf"></ptr>
+<title level="m">Petition to Protect the monarch butterfly (Danaus plexippus plexippus) under the Endangered Species Act</title>
+<imprint>
+<publisher>Center for Food Safety, the Xerces Society, Dr. Lincoln Brower</publisher>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note>Petitioners: Center for Biological Diversity</note>
+<note type="raw_reference">Petition to Protect the monarch butterfly (Danaus plexippus plexippus) under the Endangered Species Act. (2014). Petitioners: Center for Biological Diversity, Center for Food Safety, the Xerces Society, Dr. Lincoln Brower. https://ecos.fws.gov/docs/petitions/92210//730.pdf</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">Serial founder effects and genetic differentiation during worldwide range expansion of monarch butterflies</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Pierce</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Zalucki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bangura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Udawatta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Kronforst</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. Biol. Sci</title>
+<imprint>
+<biblscope unit="page">281</biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pierce, A.A., Zalucki, M.P., Bangura, M., Udawatta, M., Kronforst, M.R., Altizer, S., et al. (2014). Serial founder effects and genetic differentiation during worldwide range expansion of monarch butterflies. Proc. Biol. Sci., 281.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Unraveling the mysteries of monarch migration and global dispersal through molecular genetic techniques</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Pierce</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">L</forename><surname>Chamerlain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Kronforst</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>De Roode</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Monarchs in a Changing World: Biology and Conservation of an Iconic Butterfly</title>
+<editor>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Oberhauser</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Nail</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</editor>
+<meeting><address><addrline>Ithaca, NY</addrline></address></meeting>
+<imprint>
+<publisher>Cornell University Press</publisher>
+<date type="published" when="2015">2015</date>
+<biblscope from="257" to="267" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Pierce, A.A., Altizer, S., Chamerlain, N.L., Kronforst, M.R. &amp; de Roode, J.C. (2015). Unraveling the mysteries of monarch migration and global dispersal through molecular genetic techniques. In Oberhauser, K.S., Nail, K.R. &amp; Altizer, S., (Eds.), Monarchs in a Changing World: Biology and Conservation of an Iconic Butterfly. pp 257-267. Cornell University Press, Ithaca, NY.</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Milkweed matters: Monarch butterfly (Lepidoptera: Nymphalidae) survival and development on nine Midwestern milkweed species</title>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">M</forename><surname>Pocius</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Debinski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Pleasants</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">G</forename><surname>Bidne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L</forename><surname>Hellmich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Brower</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Environ. Entomol</title>
+<imprint>
+<biblscope unit="volume">46</biblscope>
+<biblscope from="1098" to="1105" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pocius, V.M., Debinski, D.M., Pleasants, J.M., Bidne, K.G., Hellmich, R.L. &amp; Brower, L.P. (2017). Milkweed matters: Monarch butterfly (Lepidoptera: Nymphalidae) survival and development on nine Midwestern milkweed species. Environ. Entomol., 46, 1098-1105.</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">Natural enemies and survival of monarch eggs and larvae</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Prysby</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">The Monarch Butterfly: Biology and Conservation</title>
+<editor>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Oberhauser</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Solensky</surname></persname>
+</editor>
+<meeting><address><addrline>Ithaca, NY</addrline></address></meeting>
+<imprint>
+<publisher>Cornell University Press</publisher>
+<date type="published" when="2004">2004</date>
+<biblscope from="27" to="38" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Prysby, M.D. (2004). Natural enemies and survival of monarch eggs and larvae. In Oberhauser, K.S. &amp; Solensky, M.J., (Eds.), The Monarch Butterfly: Biology and Conservation. pp. 27-38. Cornell University Press, Ithaca, NY.</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<analytic>
+<title level="a" type="main">Developmental influences of thermal behavior on monarch caterpillars (Danaus plexippus): an adaptation for migration (Lepidoptera: Nymphalidae: Danainae)</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Rawlins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">C</forename><surname>Lederhouse</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Kans. Entomol. Soc</title>
+<imprint>
+<biblscope unit="volume">54</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Rawlins, J.E. &amp; Lederhouse, R.C. Developmental influences of thermal behavior on monarch caterpillars (Danaus plexippus): an adaptation for migration (Lepidoptera: Nymphalidae: Danainae). J. Kans. Entomol. Soc., 54.</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">Effects of monarch larval host plant chemistry and body size on Polistes wasp predation</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">S</forename><surname>Rayor</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">The Monarch Butterfly: Biology and Conservation</title>
+<editor>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Oberhauser</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Solensky</surname></persname>
+</editor>
+<meeting><address><addrline>Ithaca, NY</addrline></address></meeting>
+<imprint>
+<publisher>Cornell University Press</publisher>
+<date type="published" when="2004">2004</date>
+<biblscope from="39" to="46" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Rayor, L.S. (2004). Effects of monarch larval host plant chemistry and body size on Polistes wasp predation. In Oberhauser, K.S. &amp; Solensky, M.J., (Eds.), The Monarch Butterfly: Biology and Conservation. pp. 39-46. Cornell University Press, Ithaca, NY.</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">Demystifying monarch butterfly migration</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Reppert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>De Roode</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Curr. Biol</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope from="1009" to="R1022" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Reppert, S.M. &amp; de Roode, J.C. (2018). Demystifying monarch butterfly migration. Curr. Biol., 28, R1009-R1022.</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<analytic>
+<title level="a" type="main">Virulence-transmission trade-offs and population divergence in virulence in a naturally occurring butterfly parasite</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>De Roode</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Yates</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+<imprint>
+<biblscope unit="volume">105</biblscope>
+<biblscope from="7489" to="7494" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">de Roode, J.C., Yates, A.J. &amp; Altizer, S. (2008). Virulence-transmission trade-offs and population divergence in virulence in a naturally occurring butterfly parasite. Proc. Natl. Acad. Sci. U. S. A., 105, 7489-7494.</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<analytic>
+<title level="a" type="main">Host-parasite genetic interactions and virulencetransmission relationships in natural populations of monarch butterflies</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>De Roode</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Evolution</title>
+<imprint>
+<biblscope unit="volume">64</biblscope>
+<biblscope from="502" to="514" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">de Roode, J.C. &amp; Altizer, S. (2010). Host-parasite genetic interactions and virulence- transmission relationships in natural populations of monarch butterflies. Evolution, 64, 502-514.</note>
+</biblstruct>
+<biblstruct xml:id="b66">
+<analytic>
+<title level="a" type="main">Loss of migratory behaviour increases infection risk for a butterfly host</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Satterfield</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Maerz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Altizer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. Biol. Sci</title>
+<imprint>
+<biblscope unit="volume">282</biblscope>
+<biblscope unit="page">20141734</biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Satterfield, D.A., Maerz, J.C. &amp; Altizer, S. (2015). Loss of migratory behaviour increases infection risk for a butterfly host. Proc. Biol. Sci., 282, 20141734.</note>
+</biblstruct>
+<biblstruct xml:id="b67">
+<analytic>
+<title level="a" type="main">Migratory monarchs that encounter resident monarchs show life-history differences and higher rates of parasite infection</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Satterfield</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Maerz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Hunter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">T T</forename><surname>Flockhart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Hobson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Norris</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecol. Lett</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope from="1670" to="1680" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Satterfield, D.A., Maerz, J.C., Hunter, M.D., Flockhart, D.T.T., Hobson, K.A., Norris, D.R., et al. (2018). Migratory monarchs that encounter resident monarchs show life-history differences and higher rates of parasite infection. Ecol. Lett., 21, 1670-1680.</note>
+</biblstruct>
+<biblstruct xml:id="b68">
+<analytic>
+<title level="a" type="main">Citizen science monitoring demonstrates dramatic declines of monarch butterflies in western North America</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">B</forename><surname>Schultz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Pelton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">E</forename><surname>Crone</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biol. Conserv</title>
+<imprint>
+<biblscope unit="volume">214</biblscope>
+<biblscope from="343" to="346" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schultz, C.B., Brown, L.M., Pelton, E. &amp; Crone, E.E. (2017). Citizen science monitoring demonstrates dramatic declines of monarch butterflies in western North America. Biol. Conserv., 214, 343-346.</note>
+</biblstruct>
+<biblstruct xml:id="b69">
+<analytic>
+<title level="a" type="main">Genetic differentiation between Australian and North American populations of the monarch butterfly Danaus plexippus (L.) (Lepidoptera: Nymphalidae): an exploration using allozyme electrophoresis</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Shephard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Hughes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Zalucki</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biol. J. Linn. Soc. Lond</title>
+<imprint>
+<biblscope unit="volume">75</biblscope>
+<biblscope from="437" to="452" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Shephard, J.M., Hughes, J.M. &amp; Zalucki, M.P. (2002). Genetic differentiation between Australian and North American populations of the monarch butterfly Danaus plexippus (L.) (Lepidoptera: Nymphalidae): an exploration using allozyme electrophoresis. Biol. J. Linn. Soc. Lond., 75, 437-452.</note>
+</biblstruct>
+<biblstruct xml:id="b70">
+<analytic>
+<title level="a" type="main">The physiology of climate change: how potentials for acclimatization and genetic adaptation will determine "winners" and "losers</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">N</forename><surname>Somero</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Exp. Biol</title>
+<imprint>
+<biblscope unit="volume">213</biblscope>
+<biblscope from="912" to="920" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Somero, G.N. (2010). The physiology of climate change: how potentials for acclimatization and genetic adaptation will determine "winners" and "losers." J. Exp. Biol., 213, 912-920.</note>
+</biblstruct>
+<biblstruct xml:id="b71">
+<analytic>
+<title level="a" type="main">Patterns of hostparasite adaptation in three populations of monarch butterflies infected with a naturally occurring protozoan disease: Virulence, resistance, and tolerance</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">D</forename><surname>Sternberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Gowler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>De Roode</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Am. Nat</title>
+<imprint>
+<biblscope unit="volume">182</biblscope>
+<biblscope from="235" to="E248" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sternberg, E.D., Li, H., Wang, R., Gowler, C. &amp; de Roode, J.C. (2013). Patterns of host- parasite adaptation in three populations of monarch butterflies infected with a naturally occurring protozoan disease: Virulence, resistance, and tolerance. Am. Nat., 182, E235- E248.</note>
+</biblstruct>
+<biblstruct xml:id="b72">
+<analytic>
+<title level="a" type="main">Host plant pattern and variation in climate predict the location of natal grounds for migratory monarch butterflies in western North America</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">R</forename><surname>Stevens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">F</forename><surname>Frey</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Insect Conserv</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope from="731" to="744" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stevens, S.R. &amp; Frey, D.F. (2010). Host plant pattern and variation in climate predict the location of natal grounds for migratory monarch butterflies in western North America. J. Insect Conserv., 14, 731-744.</note>
+</biblstruct>
+<biblstruct xml:id="b73">
+<analytic>
+<title level="a" type="main">Is the timing, pace, and success of the monarch migration associated with sun angle?</title>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">R</forename><surname>Taylor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Lovett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Gibo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">L</forename><surname>Weiser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">E</forename><surname>Thogmartin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Semmens</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Frontiers in Ecology and Evolution</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="page">442</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Taylor, O.R., Lovett, J.P., Gibo, D.L., Weiser, E.L., Thogmartin, W.E., Semmens, D.J., et al. (2019). Is the timing, pace, and success of the monarch migration associated with sun angle? Frontiers in Ecology and Evolution, 7, 442.</note>
+</biblstruct>
+<biblstruct xml:id="b74">
+<analytic>
+<title level="a" type="main">Contemporary loss of migration in monarch butterflies</title>
+<author>
+<persname><forename type="first">A</forename><surname>Tenger-Trolander</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Lu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Noyes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Kronforst</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+<imprint>
+<biblscope unit="volume">116</biblscope>
+<biblscope from="14671" to="14676" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Tenger-Trolander, A., Lu, W., Noyes, M. &amp; Kronforst, M.R. (2019). Contemporary loss of migration in monarch butterflies. Proc. Natl. Acad. Sci. U. S. A., 116, 14671-14676.</note>
+</biblstruct>
+<biblstruct xml:id="b75">
+<analytic>
+<title level="a" type="main">Migration behaviour of commercial monarchs reared outdoors wild-derived monarchs reared indoors</title>
+<author>
+<persname><forename type="first">A</forename><surname>Tenger-Trolander</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Kronforst</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. Roy. Soc. B</title>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note>in press</note>
+<note type="raw_reference">Tenger-Trolander, A. &amp; Kronforst, M.R. (2020). Migration behaviour of commercial monarchs reared outdoors wild-derived monarchs reared indoors. Proc. Roy. Soc. B., in press.</note>
+</biblstruct>
+<biblstruct xml:id="b76">
+<analytic>
+<title level="a" type="main">Density estimates of monarch butterflies overwintering in central Mexico</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">E</forename><surname>Thogmartin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Diffendorfer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>López-Hoffman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Oberhauser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Pleasants</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">X</forename><surname>Semmens</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">PeerJ</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="page">3221</biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thogmartin, W.E., Diffendorfer, J.E., López-Hoffman, L., Oberhauser, K., Pleasants, J., Semmens, B.X., et al. (2017). Density estimates of monarch butterflies overwintering in central Mexico. PeerJ, 5, e3221.</note>
+</biblstruct>
+<biblstruct xml:id="b77">
+<monogr>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">A</forename><surname>Urquhart</surname></persname>
+</author>
+<title level="m">The Monarch Butterfly</title>
+<meeting><address><addrline>Toronto, Canada</addrline></address></meeting>
+<imprint>
+<publisher>University of Toronto Press</publisher>
+<date type="published" when="1960">1960</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Urquhart, F.A. (1960). The Monarch Butterfly. University of Toronto Press, Toronto, Canada.</note>
+</biblstruct>
+<biblstruct xml:id="b78">
+<analytic>
+<title level="a" type="main">Overwintering areas and migratory routes of the monarch butterfly (Danaus p. plexippus, Lpidoptera: Danaidae) in North America, with special reference to the western population</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">A</forename><surname>Urquhart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">R</forename><surname>Urquhart</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Can. Entomol</title>
+<imprint>
+<biblscope unit="volume">109</biblscope>
+<biblscope from="1583" to="1589" unit="page"></biblscope>
+<date type="published" when="1977">1977</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Urquhart, F.A. &amp; Urquhart, N.R. (1977). Overwintering areas and migratory routes of the monarch butterfly (Danaus p. plexippus, Lpidoptera: Danaidae) in North America, with special reference to the western population. Can. Entomol., 109, 1583-1589.</note>
+</biblstruct>
+<biblstruct xml:id="b79">
+<analytic>
+<ptr target="https://ecos.fws.gov/ecp0/profile/speciesProfile?spcode=A001"></ptr>
+</analytic>
+<monogr>
+<title level="m">Species Profile: Grizzly Bear</title>
+<title level="s">Ursus arctos horribilis</title>
+<imprint>
+<publisher>USFWS Environmental Conservation Online System</publisher>
+<date type="published" when="2020-07-24">24-Jul-2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">USFWS Environmental Conservation Online System. Species Profile: Grizzly Bear (Ursus arctos horribilis). https://ecos.fws.gov/ecp0/profile/speciesProfile?spcode=A001. Accessed 24-Jul-2020.</note>
+</biblstruct>
+<biblstruct xml:id="b80">
+<monogr>
+<title level="m" type="main">Species Profile: Gray Wolf (Canis lupus)</title>
+<ptr target="https://ecos.fws.gov/ecp0/profile/speciesProfile?spcode=A00D"></ptr>
+<imprint>
+<date type="published" when="2020-07-24">24-Jul-2020</date>
+<publisher>USFWS Environmental Conservation Online System</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">USFWS Environmental Conservation Online System. Species Profile: Gray Wolf (Canis lupus). https://ecos.fws.gov/ecp0/profile/speciesProfile?spcode=A00D. Accessed 24-Jul- 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b81">
+<monogr>
+<title level="m" type="main">Species Profile: Chinook Salmon (Oncorhynchus tshawytscha)</title>
+<ptr target="https://ecos.fws.gov/ecp0/profile/speciesProfile?spcode=E06D"></ptr>
+<imprint>
+<date type="published" when="2020-07-24">24-Jul-2020</date>
+<publisher>USFWS Environmental Conservation Online System</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">USFWS Environmental Conservation Online System. Species Profile: Chinook Salmon (Oncorhynchus tshawytscha). https://ecos.fws.gov/ecp0/profile/speciesProfile?spcode=E06D. Accessed 24-Jul-2020.</note>
+</biblstruct>
+<biblstruct xml:id="b82">
+<analytic>
+<title level="a" type="main">The Columbus Hypothesis: An explanation for the dramatic 19 th century range expansion of the monarch butterfly</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">I</forename><surname>Vane-Wright</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Biology and Conservation of the Monarch Butterfly</title>
+<title level="s">Natural History Museum of</title>
+<editor>
+<persname><forename type="first">S</forename><forename type="middle">B</forename><surname>Malcolm</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Zalucki</surname></persname>
+</editor>
+<meeting><address><addrline>Los Angeles County</addrline></address></meeting>
+<imprint>
+<date type="published" when="1993">1993</date>
+<biblscope from="179" to="187" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Vane-Wright, R.I. (1993). The Columbus Hypothesis: An explanation for the dramatic 19 th century range expansion of the monarch butterfly. Biology and Conservation of the Monarch Butterfly, S. B. Malcolm, M. P. Zalucki (Eds.), pp. 179-187. Natural History Museum of Los Angeles County.</note>
+</biblstruct>
+<biblstruct xml:id="b83">
+<analytic>
+<title level="a" type="main">Genomic evidence for gene flow between monarchs with divergent migratory phenotypes and flight performance</title>
+<author>
+<persname><forename type="first">V</forename><surname>Talla</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Pierce</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">L</forename><surname>Adams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J B</forename><surname>De Man</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Nallu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">X</forename><surname>Villablanca</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mol. Ecol</title>
+<imprint>
+<biblscope unit="volume">29</biblscope>
+<biblscope from="2567" to="2582" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Talla, V., Pierce, A.A., Adams, K.L., de Man, T.J.B., Nallu, S., Villablanca, F.X., et al. (2020). Genomic evidence for gene flow between monarchs with divergent migratory phenotypes and flight performance. Mol. Ecol., 29, 2567-2582.</note>
+</biblstruct>
+<biblstruct xml:id="b84">
+<analytic>
+<title level="a" type="main">Alternate migration strategies of eastern monarch butterflies revealed by stable isotopes</title>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">B</forename><surname>Vander Zanden</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">L</forename><surname>Chaffee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>González-Rodríguez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">T T</forename><surname>Flockhart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Norris</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Wayne</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Animal Migration</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope from="74" to="83" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vander Zanden, H.B., Chaffee, C.L., González-Rodríguez, A., Flockhart, D.T.T., Norris, D.R. &amp; Wayne, M.L. (2018). Alternate migration strategies of eastern monarch butterflies revealed by stable isotopes. Animal Migration, 5, 74-83.</note>
+</biblstruct>
+<biblstruct xml:id="b85">
+<analytic>
+<title level="a" type="main">Natal origins of migratory monarch butterflies at wintering colonies in Mexico: new isotopic evidence</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">I</forename><surname>Wassenaar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Hobson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+<imprint>
+<biblscope unit="volume">95</biblscope>
+<biblscope from="15436" to="15439" unit="page"></biblscope>
+<date type="published" when="1998">1998</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wassenaar, L.I. &amp; Hobson, A. (1998). Natal origins of migratory monarch butterflies at wintering colonies in Mexico: new isotopic evidence. Proc. Natl. Acad. Sci. U. S. A., 95, 15436-15439.</note>
+</biblstruct>
+<biblstruct xml:id="b86">
+<analytic>
+<title level="a" type="main">Monarch butterfly distribution and breeding ecology in Idaho and Washington</title>
+<author>
+<persname><forename type="first">B</forename><surname>Waterbury</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Potter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">K</forename><surname>Svancara</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Front. Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="page">172</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Waterbury, B., Potter, A. &amp; Svancara, L.K. (2019). Monarch butterfly distribution and breeding ecology in Idaho and Washington. Front. Ecol. Evol., 7, 172.</note>
+</biblstruct>
+<biblstruct xml:id="b87">
+<monogr>
+<title level="m" type="main">Western monarch butterfly conservation plan</title>
+<imprint>
+<date type="published" when="2019">2019</date>
+<publisher>WMBCP</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Western Association of Fish and Wildlife Agencies. (2019). Western monarch butterfly conservation plan. WMBCP.</note>
+</biblstruct>
+<biblstruct xml:id="b88">
+<analytic>
+<title level="a" type="main">The North American species of Asclepias L</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">E</forename><surname>Woodson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mo. Bot. Gard</title>
+<imprint>
+<biblscope unit="volume">41</biblscope>
+<biblscope from="1" to="211" unit="page"></biblscope>
+<date type="published" when="1954">1954</date>
+</imprint>
+</monogr>
+<note>Ann</note>
+<note type="raw_reference">Woodson, R.E. (1954). The North American species of Asclepias L. Ann. Mo. Bot. Gard., 41, 1-211.</note>
+</biblstruct>
+<biblstruct xml:id="b89">
+<analytic>
+<title level="a" type="main">Intra-population variation in the natal origins and wing morphology of overwintering western monarch butterflies Danaus plexippus</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">H</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Ostrovsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Rogers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Welker</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecography</title>
+<imprint>
+<biblscope unit="volume">39</biblscope>
+<biblscope from="998" to="1007" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Yang, L.H., Ostrovsky, D., Rogers, M.C. &amp; Welker, J.M. (2016). Intra-population variation in the natal origins and wing morphology of overwintering western monarch butterflies Danaus plexippus. Ecography , 39, 998-1007.</note>
+</biblstruct>
+<biblstruct xml:id="b90">
+<analytic>
+<title level="a" type="main">Seasonal windows of opportunity in milkweed-monarch interactions</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">H</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Cenzer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">101</biblscope>
+<biblscope unit="page">651</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Yang, L.H. &amp; Cenzer, M.L. (2020). Seasonal windows of opportunity in milkweed-monarch interactions. Ecology, 101, 651.</note>
+</biblstruct>
+<biblstruct xml:id="b91">
+<analytic>
+<title level="a" type="main">Temperature and rate of development in Danaus plexippus L. and D. chrysippus L. (Lepidoptera: Nymphalidae)</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Zalucki</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Aust. J. Entomol</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope from="241" to="246" unit="page"></biblscope>
+<date type="published" when="1982">1982</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zalucki, M.P. (1982). Temperature and rate of development in Danaus plexippus L. and D. chrysippus L. (Lepidoptera: Nymphalidae). Aust. J. Entomol., 21, 241-246.</note>
+</biblstruct>
+<biblstruct xml:id="b92">
+<analytic>
+<title level="a" type="main">Monarchs across the Pacific: the Columbus hypothesis revisited</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Zalucki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Clarke</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biol. J. Linn. Soc. Lond</title>
+<imprint>
+<biblscope unit="volume">82</biblscope>
+<biblscope from="111" to="121" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zalucki, M.P. &amp; Clarke, A.R. (2004). Monarchs across the Pacific: the Columbus hypothesis revisited. Biol. J. Linn. Soc. Lond., 82, 111-121.</note>
+</biblstruct>
+<biblstruct xml:id="b93">
+<analytic>
+<title level="a" type="main">The genetics of monarch butterfly migration and warning colouration</title>
+<author>
+<persname><forename type="first">S</forename><surname>Zhan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Niitepõld</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hsu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">F</forename><surname>Haeger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Zalucki</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">514</biblscope>
+<biblscope from="317" to="321" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zhan, S., Zhang, W., Niitepõld, K., Hsu, J., Haeger, J.F., Zalucki, M.P., et al. (2014). The genetics of monarch butterfly migration and warning colouration. Nature, 514, 317-321.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>
