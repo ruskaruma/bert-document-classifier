@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main"></title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Дальний</forename><surname>Восток</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Olga</forename><forename type="middle">Yu</forename><surname>Pisarenko</surname></persname>
+<email>o_pisarenko@mail.ru</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Central Siberian Botanical Garden, SB RAS, Novosibirsk, Russia</note>
+<orgname type="department">Central Siberian Botanical Garden</orgname>
+<orgname type="institution">SB RAS</orgname>
+<address>
+<settlement>Novosibirsk</settlement>
+<country key="RU">Russia</country>
+</address>
+</affiliation>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Central Siberian Botanical Garden, SB RAS, Novosibirsk, Russia</note>
+<orgname type="department">Central Siberian Botanical Garden</orgname>
+<orgname type="institution">SB RAS</orgname>
+<address>
+<settlement>Novosibirsk</settlement>
+<country key="RU">Russia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Vadim</forename><forename type="middle">A</forename><surname>Bakalin</surname></persname>
+<email>vabakalin@gmail.com</email>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Botanical Garden-Institute FEB RAS Vladivostok, Russia</note>
+<orgname type="institution">Botanical Garden-Institute FEB RAS</orgname>
+<address>
+<settlement>Vladivostok</settlement>
+<country key="RU">Russia</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Botanical Garden-Institute FEB RAS Vladivostok, Russia</note>
+<orgname type="institution">Botanical Garden-Institute FEB RAS</orgname>
+<address>
+<settlement>Vladivostok</settlement>
+<country key="RU">Russia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Elena</forename><forename type="middle">A</forename><surname>Ignatova</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> Lomonosov Moscow State University, Faculty of Biology, Geobotany Dept., Moscow, Russia</note>
+<orgname key="dep1" type="department">Faculty of Biology</orgname>
+<orgname key="dep2" type="department">Geobotany Dept</orgname>
+<orgname type="institution">Lomonosov Moscow State University</orgname>
+<address>
+<settlement>Moscow</settlement>
+<country key="RU">Russia</country>
+</address>
+</affiliation>
+<affiliation key="aff2">
+<note type="raw_affiliation"> Lomonosov Moscow State University, Faculty of Biology, Geobotany Dept., Moscow, Russia</note>
+<orgname key="dep1" type="department">Faculty of Biology</orgname>
+<orgname key="dep2" type="department">Geobotany Dept</orgname>
+<orgname type="institution">Lomonosov Moscow State University</orgname>
+<address>
+<settlement>Moscow</settlement>
+<country key="RU">Russia</country>
+</address>
+</affiliation>
+</author>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">D836CA7634F6F15B9CC74A8BBBC56BB9</idno>
+<idno type="DOI">10.17581/bp.2020.09104</idno>
+<note type="submission">received: 31.10.2019 Review completed: 05.12.2019 Accepted for publication: 16.12.2019</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-09-05T21:29+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>Sm.</term>
+<term>вторым видом рода в России</term>
+<term>проанализированы с использованием метода биоклиматического моделирования MaxEnt</term>
+<term>мхи</term>
+<term>бриофлора</term>
+<term>редкие виды</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Hookeria acutifolia Hook.</s><s>&amp; Grev.</s><s>was found on Kunashir Island (South Kuril Islands, East Asia).</s><s>This is the northernmost locality of the species in Asia and the first record for Russia.</s><s>A description and illustrations of the species based on the Russian specimen are provided.</s><s>Details on its ecology and distribution in comparison with Hookeria lucens (Hedw.)</s><s>Sm., the other Russian species of the genus, are discussed on the basis of bioclimatic modelling by MaxEnt.</s><s>K e y w o r d s : Far East, mosses, bryoflora, rare species Р Е З Ю М Е Писаренко О.Ю., Бакалин В.А., Игнатова Е.А.</s><s>Hookeria acutifolia (Hookeriaceae, Bryophyta) -новый вид для флоры мхов России.</s><s>Hookeria acutifolia Hook.</s><s>&amp; Grev.</s><s>найдена на Кунашире (Южные Курилы, Восточная Азия).</s><s>Это самое северное местонахождение вида в Азии и первое указание для России.</s><s>Приводятся основанные на российском образце описание и иллюстрации вида.</s><s>Особенности экологии</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Hookeria acutifolia (Hookeriaceae, Bryophyta), a new species for the moss flora of Russia<p><s>The Kuril Islands Chain is exceptional in its biogeographic aspect because it spans the border between the Circumbo real and East Asian floristic regions <ref target="#b16" type="bibr">(Takhtajan 1986</ref>).</s><s>Due to fluctuations in sea level during the Quaternary geolo gical period the Сhain repeatedly provided a migration bridge from warm-temperate insular East Asia to northeast Asia and Beringia.</s><s>Many temperate vascular plant genera have their northern limit within this area: Actinidia, Hyd rangea, <ref type="bibr">Magnolia, Phellodendron, Psilotum, Quercus, Sasa, Skim mia, Toxicodendron, etc.</ref></s><s>The same applies to some bryophyte species that are known in Russia only from the Kuril Is lands: Brachydontium olympicum (E.</s><s>Britton) T.T. McIntosh &amp; J.P. Spence, Brotherella henonii (Duby) M. Fleisch., Dichely ma japonicum Cardot, Fissidens nobilis Griff., Filibryum ogatae (Broth.</s><s>&amp; Yasuda) W. Kim &amp; T. Yamag., Hypnum fujiyamae (Broth.)</s><s>Paris, Tortula edentula Ignatova &amp; Ignatov <ref type="bibr">(Bardunov &amp; Cher dantseva 1984</ref><ref target="#b2" type="bibr">, Bakalin &amp; Cherdantseva 2006</ref><ref target="#b3" type="bibr">, Bakalin et al. 2009)</ref>.</s><s>The recent finding of Hookeria acutifolia in this region adds to this list.</s><s><ref type="bibr">, Ann. Sci. Nat., Bot., sér. 7, 17: 362. 1893</ref><ref type="bibr">. -Hookeria lucens var. acuminata Müll. Hal., Syn. Musc. Frond. 2: 202. 1851</ref> Description.</s><s>Plants complanate, pale-green.</s><s>Stems pro st rate, about 2 cm long with sparse, light-brown, finely gra nulose rhizoids on ventral surfaces; cells in transverse sec tion thin-walled and mostly equal in size, slightly smal ler in central part.</s><s>Leaves heteromorphic: dorsal leaves symmet rical, lateral ones slightly asymmetrical, ecostate, flat tened, ovate to broadly lanceolate, 3-4 × 2-2.5 mm, tapered to acute or, when rhizoids present, bluntly rounded-acute apices; margins plane, entire, often with rhizoids and fi lamen tose, unbranched, uniseriate gemmae, especially at leaf apices; laminal cells more or less homogeneous throughout, large, lax, thin-walled, smooth, ellipsoidal-hexagonal, 80-170 × 40-60 µm, becoming shorter toward the apices, mar ginal cells in one row slightly longer and narrower than median cells.</s><s>Autoicous.</s><s>Sporophytes not seen; the species sel dom fruiting <ref target="#b12" type="bibr">(Lawton 1971</ref>).</s><s>[Setae long, 10-20 mm long, red dish brown to yellow, smooth; capsules oblong-ovoid, horizontal to pendulous, 1-2 mm long; opercula longrostrate; exostome teeth lanceolate, striate below, papillose above; endostome segments as long as the exostome, basal membrane high.</s><s>Calyptrae mitriform.</s><s>Spores 12-16 µm, slightly papillose].</s><s>Differentiation.</s><s>There are nine species presently re cognized in the genus Hookeria <ref target="#b6" type="bibr">(Crosby et al. 2000)</ref>.</s><s>However, se ven of those species are little known, untested and may or may not be properly placed in Hookeria.</s><s>There are two widespread species in the genus: Hookeria lucens (Hedw.)</s><s>Sm. and H. acutifolia <ref target="#b7" type="bibr">(Eckel 2014</ref>).</s><s>These species are clearly mor pholo gically different: H. lucens has obtuse leaves with mar ginal cells that are equal in width to the median cells; H. acu tifolia has broadly acuminate leaves with marginal cells that are narrower than the median cells.</s><s>In Russia H. lucens is known only in the Caucasus <ref target="#b1" type="bibr">(Akatova 2002</ref><ref target="#b9" type="bibr">, Ignatov et al. 2006)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Hookeria acutifolia<p><s>The genus Plagiothecium is similar to H. acutifolia in size as well as having complanate leaves and a whitish color.</s><s>However, the combination of flat, blunted leaves and a lax, netlike areolation that is visible with a hand-loupe make the species unique among the Russian moss flora.</s></p><p><s>Ecology.</s><s>In the Asian part of its distribution H. acuti folia occurs in moist, shady sites, mainly in valleys, on the ground, decaying logs and humus covered rocks.</s><s>In its Ku- Hookeria acutifolia, a new species for the moss flora of Russia na shir Island locality the species was found on low lava outcrops in Abies sachalinensis forest on vertical shaded surfaces as a small admixture in a moss cushion.</s></p><p><s>Distribution.</s><s>Hookera acutifolia has a warm-temperate to tropical distribution.</s><s>Its area core is in East Asia: it is rather com mon in Japan <ref target="#b10" type="bibr">(Iwatsuki 1991)</ref>, occures in continental China and Taiwan <ref target="#b13" type="bibr">(Peng-cheng et al. 2002)</ref>; it is recorded for Ko rea, Vietnam, Myanmar, Malaysia, Bhutan, India, the Phi lip pines, Indonesia, Papua New Guinea (GBIF.org)</s><s>and recently for Thailand <ref target="#b11" type="bibr">(Juengprayoon et al. 2016)</ref>.</s><s>It is known throughout the New World: scattered in eastern North Ame rica, disjunctive to British Columbia and Washington state <ref target="#b7" type="bibr">(Eckel 2014)</ref>; Cuba, Dominican Republic, Mexico, Belize, Honduras, El Salvador, Costa Rica, Colombia, Venezuela, Ecuador, Brazil, Bolivia (GBIF.org).</s><s>There are also two records of the species from Europe: eastern Black Sea regions of Georgia <ref target="#b0" type="bibr">(Abramova &amp; Abramov 1968</ref>) and Turkey <ref target="#b17" type="bibr">(Uyar &amp; Ören 2013)</ref>.</s></p><p><s>On the basis of the aforementioned papers list of points with geographical coordinates was arranged for H. acu ti folia and then it was supplemented by GBIF-downloads; duplicate points were deleted.</s><s>The same was done for H. lucens.</s><s>Resulting lists include 280 localities for H. acu ti folia and 6743 for H. lucens.</s><s>Picked datasets were analyzed in MaxEnt 3.3.3k</s><s><ref target="#b14" type="bibr">(Phillips &amp; Dudik 2008)</ref> for 19 bioclimatic variables with 5 arc-min resolution from Worldclim <ref target="#b8" type="bibr">(Hijmans et al. 2005)</ref>.</s><s>Selected parameters utilized were: percentage of test sample = 25 %, maximum number of iterations = 1500, cross-validation procedure.</s><s>MaxEnt models performed well for both species with Area Under the ROC Curve (AUC) values: it is 0.983 (training) and 0.970 (test) for H. acutifolia; 0.904 (training) and 0.906 (test) for H. lucens.</s><s>Therefore, the mo dels are reliable and belong to the category "excellent" <ref target="#b15" type="bibr">(Swets 1988)</ref>.</s></p><p><s>The results are displayed on circuit maps (Fig. <ref target="#fig_3" type="figure">2</ref>).</s><s>On the maps the probability of the species presence is re flected by a logarithmic color scale (see lower left corner): blue unlikely conditions, probability less than 0.38; green 0.38-0.69;</s><s>yellow to orange area with suitable conditions, probability of species occurrence 0.69-0.90.</s></p><p><s>The two Hookeria species are "complementary" in distri bu tion.</s><s>Both species occur in the middle Pacific coast of North America and both have solid records from the eastern Black Sea area.</s><s>Nowhere else do their ranges intersect.</s><s>Hookeria lucens is rather common in amphiatlantic north-wes tern Europe, but absent in the southeast.</s><s>Hookeria acutifolia is widespread in Central/South America, and in south-east Asia.</s></p><p><s>It is interesting that the calculated potential areas of the species also slightly overlap.</s><s>As climatically "potentially suitable" areas for both species MaxEnt analysis showed the At lantic coast of Europe, the southern part of the Andes, Aust ralia, Tasmania and New Zealand, all areas in which these Hookeria species are at present absent.</s></p><p><s>Different sets of bioclimatic variables are distinguished as the most significant for the MaxEnt-models of the species (table <ref target="#tab_0" type="table">1</ref>).</s><s>Thus, the most informative bioclimatic predictor of H. acutifolia distribution is BIO12 (Annual Pre cipi tation).</s><s>For H. lucens those are BIO19 (Precipitation of Col dest Quarter) and BIO5 (Max Temperature of Warmest Month).</s></p><p><s>According to response curves H. acutifolia is a more ther mophilic species than H. lucens regarding both mean annual temperature and maximum temperature of Warmest Month (Fig. <ref target="#fig_4" type="figure">3</ref>: BIO1, BIO5).</s><s>In addition, H. acutifolia requires more precipitation, both annual and in the cold pe riod.</s><s>The combination of the distribution and ecology of the two species seems to indicate a sympatric type of specia tion in Hookeria.</s></p><p><s>The occurrence of Hookeria acutifolia on Kunashir Island marks the northern boundary of the species.</s><s>The presence of the species in the Black Sea region appears to be the result of invasion, perhaps in the course of the extensive introduction of East Asian plants into Batumi Botanical Garden (officially opened in 1912) and the acclimatization of Camellia chinensis Kuntze for the commercial production of tea.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Hook. &amp; Grev., Edinburgh J. Sci.</s><s>2: 225.</s><s>1825.</s><s>-Pterygophyllum acutifolium (Hook.</s><s>&amp; Grev.)</s><s>Müll.</s><s>Hal., Linnaea 21: 194.</s><s>1841.</s><s>-Hookeria sullivantii Müll.</s><s>Hal., Man.</s><s>Mosses N. America 293.</s><s>1884.</s><s>-Pterygophyllum nippo nen se Besch.</s></p></div></figdesc></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Specimen examined: Sakhalin Province, Kunashir Is land, Ptichii stream in the middle course (44°25'46.6"N</s><s>146°13'50.6"E,</s><s>ca 110 m. a.s.l.), slope with SE-exposure, on stones 31.VIII.2018,</s><s>Bakalin &amp; Pisarenko op7503 (NSK, MW).</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 1<label>1</label><figdesc><div><p><s>Figure 1 Hookeria acutifolia (from: Russian Far East, Kunashir Island, Bakalin &amp; Pisarenko op7503, NSK).</s><s>1: habit, 2, 5: leaves; 3: mid-leaf cells; 4, 7: upper leaf cells; 6: stem transverse section; 8: basal leaf cells.</s><s>Scale bars: 5 mm for 1; 2 mm for 2, 5; 200 µm for 3-4, 6-8</s></p></div></figdesc><graphic coords="3,62.36,62.36,481.92,556.20" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Figure 2<label>2</label><figdesc><div><p><s>Figure 2 Localities (squares) and MaxEnt model of potential distribution of Hookeria acutifolia (A) and Hookeria lucens (B)</s></p></div></figdesc><graphic coords="4,50.32,352.91,481.92,402.96" type="bitmap"></graphic></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 3<label>3</label><figdesc><div><p><s>Figure 3 Response curves of some environmental variables in Maxent models for Hookeria acutifolia and Hookeria lucens.</s><s>(BIO1 = Annual Mean Temperature; BIO5 = Max Temperature of Warmest Month; BIO12 = Annual Precipitation; BIO19 = Precipitation of Coldest Quarter)</s></p></div></figdesc><graphic coords="5,62.36,62.36,481.92,624.00" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>The most variable contributions for MaxEnt models of Hookeria species.</s></p></div></figdesc><table><row><cell></cell><cell cols="2">Hookeria acutifolia</cell><cell cols="2">Hookeria lucens</cell></row><row><cell>Variable</cell><cell>Percent</cell><cell>Permutation</cell><cell>Percent</cell><cell>Permutation</cell></row><row><cell></cell><cell>contribution</cell><cell>importance</cell><cell>contribution</cell><cell>importance</cell></row><row><cell>BIO1</cell><cell>14.5</cell><cell>4.8</cell><cell>0.4</cell><cell>4.7</cell></row><row><cell>BIO5</cell><cell>7.4</cell><cell>0.8</cell><cell>17.4</cell><cell>13.6</cell></row><row><cell>BIO12</cell><cell>38.7</cell><cell>48.4</cell><cell>0</cell><cell>5</cell></row><row><cell>BIO19</cell><cell>0</cell><cell>0.4</cell><cell>22.3</cell><cell>13.4</cell></row></table></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Botanica Pacifica.</s><s>A journal of plant science and conservation.</s><s>2020.</s><s>9(1):71-75 Pisarenko et al.</s></p></note>
+<note place="foot" xml:id="foot_1" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Botanica Pacifica.</s><s>A journal of plant science and conservation.</s><s>2020.</s><s>9(1):71-75 Hookeria acutifolia, a new species for the moss flora of Russia</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">ACKNOWLEDGEMENTS<p><s>The work of Pisarenko centers on biocollection develop ment (NSK, № USU 440537); Bakalin was supported by RFBR (grant number 17-04-00018); Ignatova was sup ported by RSF 18-14-00121.</s></p></div>
+</div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Новые и интересные виды бриофлоры СССР // Новости систематики низших расте ний</title>
+<author>
+<persname><forename type="first">А</forename><forename type="middle">L</forename><surname>Abramova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">I</forename><surname>Abramov</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Novosti sistematiki nizshikh rastenii</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="298" to="302" unit="page"></biblscope>
+<date type="published" when="1968">1968. 1968</date>
+</imprint>
+</monogr>
+<note>New and interesting spe cies of bryoflora of the USSR</note>
+<note type="raw_reference">Abramova, А.L. &amp; I.I. Abramov 1968. New and interesting spe cies of bryoflora of the USSR. Novosti sistematiki nizshikh rastenii 5:298-302 (in Russian). [Абрамова А.Л., Абрамов И.И. 1968. Новые и интересные виды брио- флоры СССР // Новости систематики низших рас- те ний. Т. 5, С. 298-302].</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Moss flora of the Caucasian nature reserve (Western Caucasus, Russia)</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">V</forename><surname>Akatova</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Arctoa</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="179" to="204" unit="page"></biblscope>
+<date type="published" when="2002">2002. 2002</date>
+</imprint>
+</monogr>
+<note>тостебельные мхи Кавказского заповедника (Запад ный Кавказ</note>
+<note type="raw_reference">Akatova, T.V. 2002. Moss flora of the Caucasian nature reserve (Western Caucasus, Russia). Arctoa 11:179-204 (in Russian with English summary). [Акатова Т.В. 2002. Лис тостебельные мхи Кавказского заповедника (За- пад ный Кавказ, Россия) // Arctoa. Т. 11. С. 179-204].</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Bryophytes of nor thern Kuril Islands (north-west Pacific)</title>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">A</forename><surname>Bakalin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Ya</surname></persname>
+</author>
+<author>
+<persname><surname>Cherdantseva</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Arctoa</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope from="131" to="153" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bakalin, V.A. &amp; V.Ya. Cherdantseva 2006. Bryophytes of nor thern Kuril Islands (north-west Pacific). Arctoa 15: 131-153.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Bryophyte flora of the South Kuril Islands (East Asia)</title>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">A</forename><surname>Bakalin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Ya</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">S</forename><surname>Cherdantseva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Ignatov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">I</forename><surname>Ignatova</surname></persname>
+</author>
+<author>
+<persname><surname>Nyushko</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Arctoa</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope from="69" to="114" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bakalin, V.A., V.Ya. Cherdantseva, M.S. Ignatov, E.A. Ignatova &amp; T.I. Nyushko 2009. Bryophyte flora of the South Kuril Islands (East Asia). Arctoa 18:69-114.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Материалы по флоре листостебельных мхов Южных Курильских островов // Систематико-флористические исследования спо ровых растений Дальнего Востока / под ред</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">V</forename><surname>Bardunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Ya</surname></persname>
+</author>
+<author>
+<persname><surname>Cherdantseva</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">дан цевой. Владивосток</title>
+<editor>
+<persname><forename type="first">V</forename><surname>Ya</surname></persname>
+</editor>
+<editor>
+<persname><surname>Cherdantseva</surname></persname>
+</editor>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope unit="issue">53</biblscope>
+<biblscope from="34" to="53" unit="page"></biblscope>
+<date type="published" when="1984">1984. 1984</date>
+<pubplace>Vladivostok</pubplace>
+</imprint>
+</monogr>
+<note>Sistematic-floristic studies of spore plants of the Far East</note>
+<note type="raw_reference">Bardunov, L.V. &amp; V.Ya. Cherdantseva 1984. Materials on the moss flora of the South Kuril Islands. In: Sistematic-floristic studies of spore plants of the Far East (V.Ya. Cherdantseva, ed.), pp. 34-53, Vladivostok (in Russian). [Барду нов Л.В., Черданцева В.Я. 1984. Материалы по флоре лис- тостебельных мхов Южных Курильских островов // Систематико-флористические исследования спо ро- вых растений Дальнего Востока / под ред. В.Я. Чер- дан цевой. Владивосток. С. 34-53].</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Lectotypification of Hookeria acutifolia Hook. &amp; Grev. (Bryophyta: Hookeria ceae)</title>
+<author>
+<persname><forename type="first">S</forename><surname>Chantanaorrapint</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">G</forename><surname>Long</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Bryology</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="419" to="421" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chantanaorrapint, S. &amp; D.G. Long 2018 Lectotypification of Hookeria acutifolia Hook. &amp; Grev. (Bryophyta: Hooke- ria ceae). Journal of Bryology 40(4):419-421.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<monogr>
+<title level="m" type="main">A check list of the mosses</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Crosby</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">E</forename><surname>Magill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Allen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>He</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2000">2000</date>
+<publisher>Missouri Botanical Garden</publisher>
+<biblscope unit="page">320</biblscope>
+<pubplace>St. Louis</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Crosby, M.R., R.E. Magill, B. Allen &amp; S. He. 2000. A check list of the mosses. Missouri Botanical Garden, St. Louis, 320 pp.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<monogr>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">M</forename><surname>Eckel</surname></persname>
+</author>
+<idno type="DOI">10.15468/dl.elq8xmAccessed26.09</idno>
+<ptr target="https://doi.org/10.15468/dl.ze0mrgAcceessed13.02.2019"></ptr>
+<title level="m">2018 GBIF Occurrence Download Hookeria lucens</title>
+<imprint>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note>2019 GBIF Occurrence Download Hookeria</note>
+<note type="raw_reference">Eckel, P.M. 2014. Hookeriaceae Schimper. In: Flora of North America. Available from: http://www.efloras. org/florataxon.aspx?flora_id=1&amp;taxon_id=10415. Last acces sed 16.05.2019 GBIF Occurrence Download Hookeria acutifolia. GBIF.org Available from: https://doi.org/10.15468/dl.elq8xm Accessed 26.09.2018 GBIF Occurrence Download Hookeria lucens. GBIF.org Avai lable from: https://doi.org/10.15468/dl.ze0mrg Accees sed 13.02.2019</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Very high resolution interpolated climate sur faces for global land areas</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Hijmans</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Cameron</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Parra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">G</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Jar</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">International Journal of Climatology</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope from="1965" to="1978" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hijmans, R.J., S.E. Cameron, J.L. Parra, P.G. Jones &amp; A. Jar vis 2005. Very high resolution interpolated climate sur faces for global land areas. International Journal of Climatology 25:1965-1978.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Check-list of mosses of East Europe and North Asia</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">S</forename><surname>Ignatov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">M</forename><surname>Afonina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Ignatova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">S</forename><surname>Ig Na Tov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">M</forename><surname>Afonina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Ignatova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Abolina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">V</forename><surname>Aka To Va</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">Z</forename><surname>Baisheva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">V</forename><surname>Bardunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Baryakina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">A</forename><surname>Belkina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">G</forename><surname>Bezgodov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Boychuk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Ya</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">V</forename><surname>Cherdantseva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Czernyadjeva</surname></persname>
+</author>
+<author>
+<persname><surname>Ya</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">P</forename><surname>Doroshina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">E</forename><surname>Dyachenko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">L</forename><surname>Fedosov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">I</forename><surname>Goldberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Ivanova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Jukoniene</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">G</forename><surname>Kannukene</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Kazanovsky</surname></persname>
+</author>
+<author>
+<persname><surname>Kh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">E</forename><surname>Kharzinov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">А</forename><forename type="middle">I</forename><surname>Kurbatova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><forename type="middle">K</forename><surname>Maksimov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">A</forename><surname>Mamatkulov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">M</forename><surname>Manakyan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">G</forename><surname>Maslovsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">N</forename><surname>Napreenko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Otnyu</surname></persname>
+</author>
+<author>
+<persname><surname>Ya</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Partyka</surname></persname>
+</author>
+<author>
+<persname><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">N</forename><surname>Pisarenko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">F</forename><surname>Popova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Rykovsky</surname></persname>
+</author>
+<author>
+<persname><surname>Ya</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">V</forename><surname>Tubanova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">I</forename><surname>Zheleznova</surname></persname>
+</author>
+<author>
+<persname><surname>Zo Lo Tov</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Arctoa</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope from="1" to="130" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ignatov, M.S., O.M. Afonina, E.A. Ignatova, M.S. Ig na tov, O.M. Afonina, E.A. Ignatova, A. Abolina, T.V. Aka to va, E.Z. Baisheva, L.V. Bardunov, E.A. Baryakina, O.A. Bel- kina, A.G. Bezgodov, M.A.Boychuk, V.Ya. Cherdantseva, I.V. Czernyadjeva, G.Ya. Doroshina, A.P. Dyachenko, V.E. Fedosov, I.L. Goldberg, E.I. Ivanova, I. Jukoniene, L. Kannukene, S.G. Kazanovsky, Z.Kh. Kharzinov, L.E. Kurbatova, А.I. Maksimov, U.K. Mamatkulov, V.A. Manakyan, O.M. Maslovsky, M.G. Napreenko, T.N. Ot- nyu kova, L.Ya. Partyka, O.Yu. Pisarenko, N.N. Popova, G.F. Rykovsky, D.Ya. Tubanova, G.V. Zheleznova &amp; V.I. Zo lo tov 2006. Check-list of mosses of East Europe and North Asia. Arctoa 15:1-130.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Catalog of the mosses of Japan</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Iwatsuki</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Hattori Botani cal Laboratory</title>
+<imprint>
+<biblscope unit="page">182</biblscope>
+<date type="published" when="1991">1991</date>
+<publisher>Nichinan</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Iwatsuki, Z. 1991. Catalog of the mosses of Japan. Hattori Bota- ni cal Laboratory, Nichinan. 182 pp.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Hookeria acutifolia (Hookeriaceae, Bryophyta), a genus and species new for Thailand</title>
+<author>
+<persname><forename type="first">W</forename><surname>Juengprayoon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Poopath</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Chantanaorrapint</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Polish Botanical Journal</title>
+<imprint>
+<biblscope unit="volume">61</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="237" to="241" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Juengprayoon, W., M. Poopath &amp; S. Chantanaorrapint 2016. Hookeria acutifolia (Hookeriaceae, Bryophyta), a genus and species new for Thailand. Polish Botanical Journal 61(2): 237-241.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Moss Flora of the Pacific Northwest</title>
+<author>
+<persname><forename type="first">E</forename><surname>Lawton</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Hattori Bota nical Laboratory</title>
+<meeting><address><addrline>Nichinan</addrline></address></meeting>
+<imprint>
+<date type="published" when="1971">1971</date>
+<biblscope unit="page">362</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Lawton E. Moss Flora of the Pacific Northwest. Hattori Bota ni- cal Laboratory, Nichinan, 1971. 362 pp.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Moss Flora of China</title>
+<author>
+<persname><surname>Peng-Cheng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Crosby</surname></persname>
+</author>
+<author>
+<persname><surname>He</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Hookeriaceae -Thuidiaceae</title>
+<meeting><address><addrline>Beijing, New York &amp; St. Louis</addrline></address></meeting>
+<imprint>
+<publisher>Science Press &amp; Missouri Botanical Garden</publisher>
+<date type="published" when="2002">2002</date>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="page">221</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Peng-cheng, Wu, M.R. Crosby &amp; S. He. 2002. Moss Flora of China. Vol. 6. Hookeriaceae -Thuidiaceae. Science Press &amp; Missouri Botanical Garden, Beijing, New York &amp; St. Louis, 221 pp.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Modeling of species dis tri butions with Maxent: new extensions and a comprehensive evaluation</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Phillips</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Dudik</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecography</title>
+<imprint>
+<biblscope unit="volume">31</biblscope>
+<biblscope from="161" to="175" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Phillips, S.J. &amp; M. Dudik 2008. Modeling of species dis tri bu- tions with Maxent: new extensions and a comprehensive evaluation. Ecography 31:161-175.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Measuring the accuracy of diagnostic systems</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Swets</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Science</title>
+<imprint>
+<biblscope unit="volume">240</biblscope>
+<biblscope from="1285" to="1293" unit="page"></biblscope>
+<date type="published" when="1988">1988</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Swets, J.A. 1988. Measuring the accuracy of diagnostic sys- tems. Science 240:1285-1293.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<monogr>
+<title level="m" type="main">Floristic regions of the world</title>
+<author>
+<persname><forename type="first">A</forename><surname>Takhtajan</surname></persname>
+</author>
+<imprint>
+<date type="published" when="1986">1986</date>
+<publisher>Univer sity of California Press</publisher>
+<biblscope unit="page">544</biblscope>
+<pubplace>Berkeley</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Takhtajan A. 1986. Floristic regions of the world. Berkeley: Uni- ver sity of California Press. 544 pp.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Three remarkable new moss records for South-West Asia from northern Turkey</title>
+<author>
+<persname><forename type="first">G</forename><surname>Uyar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ören</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Turkish Journal of Botany</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope from="363" to="368" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Uyar, G. &amp; M. Ören 2013. Three remarkable new moss re- cords for South-West Asia from northern Turkey. Turkish Journal of Botany 37:363-368.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main"></title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">D70581CE9A6ED1D6DFC9939F5B453A8F</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-08-18T01:04+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract></abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Figures</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Tables <ref type="table">Table 1.</ref> <p><s>Spatial extent and percent of total cover of eelgrass (Zostera marina) and other cover types for Izembek <ref type="bibr">Lagoon, Alaska, during surveys in 1978</ref><ref target="#b0" type="bibr">, 1987</ref><ref target="#b22" type="bibr">, 2002</ref><ref target="#b20" type="bibr">, and 2006</ref> based on <ref type="bibr">Ward and others (1997)</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Abstract<p><s>Eelgrass (Zostera marina) meadows are expansive along the lower Alaska Peninsula, supporting a rich diversity of marine life, yet little is known about their status and trends in the region.</s><s>We tested techniques to inventory and monitor trends in the spatial extent and abundance of eelgrass in lagoons of the Izembek National Wildlife Refuge.</s><s>We determined if Landsat imagery could be used to assess eelgrass spatial extent in shallow (less than 4-meter water depth) coastal waters of the refuge.</s><s>We determined that this seagrass could be differentiated using Landsat imagery from other cover types (that is, channels and unvegetated tidal flats) with a high degree of accuracy (greater than 80 percent) in Izembek and Kinzarof Lagoons.</s><s>Eelgrass meadows represented the largest cover type in Izembek (about 16,000 hectares) and Kinzarof (about 900 hectares) Lagoons, comprising between 45 and 50 percent of the spatial extent of these lagoons, respectively.</s><s>When compared to estimates of spatial extent of eelgrass from previous studies, our results suggest little change in the spatial extent of eelgrass in Izembek Lagoon during the 28-year period 1978 through 2006.</s><s>Preliminary mapping of eelgrass in other embayments indicated that this seagrass was also expansive in Big Lagoon (about 900 hectares; or 34 percent of the lagoon area) and Hook Bay (about 900 hectares; or 36 percent of the bay area) but not in Cold Bay (about 100 hectares; less than 5 percent of the bay area).</s><s>We conducted an embayment-wide point sampling technique to assess aboveground biomass and distribution of eelgrass and seaweeds and presence of six macro-invertebrates during a 4-year period (2007-10).</s><s>We determined that, when present, mean aboveground biomass of eelgrass was greater in Kinzarof Lagoon (182.5 ±12.1 grams dry weight per square meter) than in Izembek Lagoon (152.1 ±7.1 grams dry weight per square meter) in 2008-10, possibly reflecting the warmer sea temperatures and higher salinities found on the Gulf of Alaska side of the Alaska Peninsula.</s><s>Seaweeds were more abundant in Kinzarof Lagoon than in Izembek Lagoon, surpassing aboveground biomass of eelgrass in both lagoons in 2008.</s><s>Gastropods (4 percent of all points) and Caprella shrimp (25 percent) were the most common of the six macro-invertebrates surveyed in Izembek Lagoon, and Telmessus crab was the most common macro-invertebrate in Kinzarof Lagoon.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Seagrasses form one of the most widespread and productive coastal vegetation types in the world <ref target="#b13" type="bibr">(Hemminga and Duarte, 2000)</ref>.</s><s>These tidally inundated meadows provide high-value ecosystem services compared with other marine and terrestrial habitats <ref type="bibr">(Costanza and others, 1997)</ref>.</s><s>Primary production of seagrasses often exceeds that of many cultivated terrestrial ecosystems <ref target="#b8" type="bibr">(Duarte and Chiscano, 1999)</ref>, and their distribution and areal extent may be important indicators of water quality and overall health of a coastal ecosystem <ref type="bibr">(Dennison and others, 1993)</ref>.</s></p><p><s>Over the past several decades, seagrasses have declined worldwide because of natural and anthropogenic perturbations <ref target="#b26" type="bibr">(Short and Wyllie-Echeverria, 1996;</ref><ref type="bibr">Orth and others, 2006)</ref>.</s><s>Much of the loss in North America is linked to declines in water quality caused by humaninduced eutrophication <ref target="#b16" type="bibr">(Lee and Olsen, 1985;</ref><ref target="#b25" type="bibr">Short and Burdick, 1996)</ref> and sediment loading and re-suspension <ref target="#b21" type="bibr">(Orth and Moore, 1983;</ref><ref type="bibr">Ward and others, 2003)</ref>.</s><s>Nutrient enrichment stimulates growth in fast-growing seaweeds that out compete seagrasses for available light, leading to declines in their spatial extent.</s></p><p><s>In southwest Alaska, eelgrass (Zostera marina) is the dominant seagrass and a key marine macrophyte of shallow embayments along the lower Alaska Peninsula <ref target="#b18" type="bibr">(McRoy, 1968)</ref>.</s><s>Here, eelgrass forms expansive intertidal meadows, some of which are among the largest for the species in the world <ref type="bibr">(Ward and others, 1997;</ref><ref target="#b11" type="bibr">Green and Short, 2003)</ref>.</s><s>Eelgrass is an important source of nutrients for the region's food web <ref target="#b17" type="bibr">(McConnaughey, 1977)</ref>, including virtually the entire population of Pacific brant (Branta bernicla nigricans), and significant numbers of emperor geese (Chen canagica), cackling geese (Branta hutchinsii), dunlin (Calidris alpina), rock sandpipers (Calidris ptilocnemis), and Steller's eiders (Polysticta stelleri; <ref target="#b15" type="bibr">King and Dau, 1981;</ref><ref type="bibr">Petersen and others, 1994;</ref><ref type="bibr">Reed and others, 1998;</ref><ref target="#b10" type="bibr">Fredrickson, 2001)</ref>.</s><s>These intertidal meadows also serve as important nursery areas for harbor seals (Phoca vitulina; <ref type="bibr">Johnson and others, 1989)</ref>, sea otters (Enhydra lutris; <ref type="bibr">Doroff and others, 2003)</ref>, and a variety of commercially important fish species, such as salmon (Oncorhynchus spp.), rockfish (Sebastes spp.), and herring (Clupea pallasii; <ref type="bibr">Murphy and others, 1995;</ref><ref type="bibr">Weiland and others, 2004)</ref>.</s></p><p><s>Despite the importance of eelgrass to the ecosystem of southwest Alaska, little is known about the health and trends in this seagrass population.</s><s>A recent review of the biological program at the Izembek National Wildlife Refuge (INWR) by a diverse panel of scientists and management professionals ranked the development of an inventory and monitoring program for eelgrass as one the highest priorities for the INWR.</s><s>Here, we report on progress to assess the spatial extent and abundance of eelgrass in Izembek and Kinzarof Lagoons and other embayments next to INWR (fig.</s><s><ref target="#fig_0" type="figure">1</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Methods</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Eelgrass Mapping<p><s>We downloaded Landsat satellite imagery from the U.S. Geological Survey (USGS) Earth Resource and Observation Science (EROS) Center to create baseline maps to assess the areal extent of eelgrass in coastal waters next to INWR.</s><s>We used a Landsat Enhanced Thematic Mapper Plus (ETM+) image from August 2, 2002, and a Landsat Thematic Mapper image from July 20, 2006, to assess eelgrass in Izembek Lagoon.</s><s>We acquired each of these images at a relatively low tide (+0.03 meter [m] mean lower low water <ref type="bibr">[MLLW]</ref> for the 2002 image and -0.24 m MLLW for the 2006 image).</s><s>We also obtained two sequential Landsat ETM+ images from June 4, 2007, to map eelgrass in Kinzarof Lagoon, Big Lagoon, and Hook Bay.</s><s>Time of image acquisition of these images differed by 18 seconds, and tide height ranged from -0.34 m MLLW at Kinzarof Lagoon to 0.0 m MLLW in Hook Bay.</s><s>All images were projected in Universal Transverse Mercator Zone 3 North using the 1984 World Geodetic System datum and had a spatial resolution of 30 m.</s><s>After preprocessing, we classified the lagoon areas into three major cover types: eelgrass, sand/mud, and deep water (that is, channels; fig.</s><s><ref target="#fig_1" type="figure">2</ref>).</s><s>We also differentiated eelgrass cover between exposed (intertidal) and submerged (subtidal) cover types based on the tide height at the time of image acquisition.</s><s>Each image was preprocessed to calibrate for at-sensor radiance, corrected for atmospheric path interference, and checked for georeferencing accuracy.</s><s>Radiance calibration was performed using the ENVI 4.7 Landsat calibration tool following calibration factors and formulas established in <ref type="bibr">Chander and others (2009)</ref>.</s><s>We corrected the images for atmospheric interference using the "dark pixel subtraction" method <ref target="#b3" type="bibr">(Chavez, 1988)</ref>.</s><s>We verified the USGS EROS Center georeferencing by comparing the position of prominent landmark features between images and checking the position of these landmark positions against ground control points (GCPs) collected with a Garmin 76-C global positioning system (GPS) unit.</s><s>We detected only a small (less than [&lt;] 1 pixel) offset between image years and determined good registration between GCPs and their presumed acquisition site, indicating accurate georeferencing by USGS EROS Center.</s><s>Careful field collection of GCPs using high accuracy (&lt;1 m error) GPS units may improve the spatial accuracy of the imagery and any products.</s></p><p><s>We determined that the best image for mapping eelgrass (that is, low tides with no clouds) in Kinzarof Lagoon contained intermittent data gaps (east to west bands) caused by failure of the scan line correction function on the ETM+ sensor.</s><s>We addressed these gaps using an ArcInfo Workstation algorithm, which passed a user defined "operational window" over the raster dataset and assigned the mean value of pixels within the window that contain data to the window's central pixel if it lacked data.</s><s>Each pixel in the raster grid eventually occupied the window's central position as it passed over the raster dataset.</s><s>We ran three iterations of the algorithm on each band of the imagery using a 3 × 5 pixel window to completely close the gaps while emphasizing data from their northern and southern edges.</s><s>Once the bands were recomposited into a multiband image, these "gap fills" provided a reasonable estimation of the ground cover that might exist in the gaps and allowed for a full classification of the lagoon.</s></p><p><s>We performed classification of the imagery using an unsupervised isodata clustering algorithm to identify statistically separable spectral classes to use in a supervised maximum likelihood analysis <ref type="bibr">(Ward and others, 1997;</ref><ref target="#b22" type="bibr">Ozesmi and Bauer, 2002)</ref>.</s><s>We used visual interpretation of the imagery and familiarity with the study areas to choose isodata clusters covering areas that provided the cleanest examples of the three major land cover types.</s><s>Then, the isodata clusters were used to extract training data for a maximum likelihood classification that assigned every pixel within the lagoon to one of these three cover types (fig.</s><s><ref target="#fig_1" type="figure">2</ref>).</s></p><p><s>We evaluated mapping accuracy of eelgrass extent using the percent cover determinations made during the 2007 (Izembek Lagoon) and 2008 (Kinzarof Lagoon) field surveys, which were the closest years to image acquisition.</s><s>For this exercise, we simplified estimates of eelgrass percent cover to presence (greater than 5 percent eelgrass cover) or absence (&lt;5 percent eelgrass cover) categories to approximate the cover required to produce a spectral signal for eelgrass <ref type="bibr">(Valta-Hulkkonen and others, 2003)</ref>.</s><s>We then estimated accuracy using a confusion matrix comparing classified cover type to field survey data and estimating errors of omission and commission, and total percent accuracy.</s><s>For each cover type, omission accuracy assessed the percentage of the map data that agreed with the field survey data making the assumption that the survey data were correct, whereas commission accuracy evaluated the percentage of the field survey data that agreed with the map data making the assumption that the map was correct.</s><s>Finally, we created maps of eelgrass and seaweed density (percent cover) and eelgrass abundance (aboveground biomass) using data aggregated across field survey years for both lagoons and seaweed abundance in Kinzarof Lagoon using 2008 field survey data with the inverse distance-weighted (IDW) interpolation method.</s><s>The IDW method applies the assumption that point locations in proximity are more likely to be similar than those farther apart to create a raster surface for the entire area from localized point data <ref type="bibr">(Valley and others, 2005)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Abundance Surveys<p><s>We assessed abundance of eelgrass and seaweeds at Izembek Lagoon in 2007-10, Kinzarof Lagoon in 2008-10, and Cold Bay in 2010 during peak eelgrass biomass (July-August).</s><s>We used a point sampling approach, following a systematic random design, where points were distributed evenly across each of the lagoons in the first 2 years of the study at Izembek and Kinzarof Lagoons (fig.</s><s><ref target="#fig_8" type="figure">3</ref>).</s><s>This design allowed for a proportional assessment of cover types and related abiotic parameters within each of the lagoons.</s><s>In subsequent years (2009-10 for Izembek Lagoon and 2010 for Kinzarof Lagoon), we reduced the number of sample points based on a power analysis to monitor long-term trends and detect a 25 percent change in eelgrass abundance during a 5-year period at a statistical power of 75 percent <ref type="bibr">(Cobb, 2009, Ward and</ref><ref target="#b30" type="bibr">Amundson, 2019)</ref>.</s><s>For the first assessment of vegetation cover in Cold Bay, we also used a systematic point sampling approach but because of the sparse distribution of eelgrass; additional points were added randomly to increase sample sizes and to aid with mapping of vegetation.</s><s>Points were located by boat using a GPS unit (average accuracy was 4.5±0.3</s><s>m) and sampled by snorkeling in dry suits during high tide.</s><s>At each point, we estimated water temperature, salinity, water depth, substrate type and depth, water clarity (20 centimeter <ref type="bibr">[cm]</ref> diameter Secchi disk), percent cover of eelgrass and seaweeds within four 0.25 square meter quadrats.</s><s>Between 2008 and 2010, we also evaluated the presence and absence of sessile invertebrates: mussels (Mytilus spp.), sponges, sea stars (Pisaster and Evasterias spp.), gastropods, and Telmessus sp.</s><s>crabs within these quadrats.</s><s>Cover was defined as the part of the quadrat area obscured by eelgrass and seaweeds while viewed in water from above.</s><s>If eelgrass was present, representative shoots were collected from each of the quadrats for later measurements of shoot width and total length.</s><s>If seaweeds were present, we estimated cover for all species combined and for the dominant seaweed genus within each of the four quadrats.</s><s>Dominant seaweeds that were not identifiable to species in the field were collected for subsequent identification.</s></p><p><s>To minimize among-observer differences in estimates of eelgrass or seaweed cover, we assigned a cover score between 0 and 5 based on the Braun-Blanquet (BB) visual estimation technique <ref target="#b1" type="bibr">(Braun-Blanquet, 1972</ref>; BB score of 0 percent =0; 1-5 percent =1; 6-25 percent =2; 26-50 percent =3; 51-75 percent =4; 76-100 percent =5).</s><s>From these cover estimates we computed three statistics for eelgrass and total seaweeds: density, abundance, and frequency of occurrence according to <ref type="bibr">Fourqurean and others (2001)</ref>.</s><s>We also calculated an abundance index (mean BB score times mean shoot length) to estimate aboveground biomass at each point.</s></p><p><s>To determine annual aboveground biomass of eelgrass in each lagoon we collected shoots from 15-30 calibration quadrats taken at Grant Point in Izembek Lagoon and at the entrance of Kinzarof Lagoon.</s><s>We estimated percent cover (BB score) and collected all eelgrass shoots within each quadrat, removed dead leaves and belowground parts of the plant, and selected 10 representative shoots that were later measured for shoot length (meristem to tip of longest leaf) and shoot width.</s><s>We then dried entire samples to constant mass and weighed them to determine biomass per quadrat, which was scaled to grams per square meter.</s><s>Finally, we used a linear regression to evaluate the relation between abundance index and aboveground biomass for each of the calibration quadrats and applied this relation to determine aboveground biomass at each point.</s><s>Estimates of aboveground biomass of eelgrass in Cold Bay were based eelgrass calibration quadrats in Kinzarof Lagoon during 2010.</s><s>In 2009 we also estimated biomass of seaweeds in Kinzarof Lagoon based on the linear relationship between percent cover (BB score) and dry weight biomass from 16 calibration quadrats of all seaweeds combined.</s></p><p><s>We also assessed site-specific monthly changes in eelgrass cover, shoot length and width of eelgrass along two permanently established 100 m-long transects at the Grant Point Old Boat Launch between April and October.</s><s>Transects were aligned parallel to the shoreline, with one situated in the high (0.5 m MLLW) intertidal and the other placed in the lower (-0.2</s><s>MLLW) intertidal.</s><s>We estimated the percent cover of eelgrass and picked representative shoots within five 0.25-square meter quadrats placed randomly along each of the transects.</s><s>After collections, 10 vegetative shoots were measured for total length (meristem to tip of longest leaf) and width.</s><s>We report means and standard errors.</s><s>All data supporting this report are available in <ref target="#b29" type="bibr">Ward (2021)</ref> and <ref target="#b31" type="bibr">Ward and Hogrefe (2022)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results and Discussion<p><s>Landsat imagery was determined to be a suitable data source to assess spatial extent of eelgrass in coastal waters of INWR.</s><s>Analysis of more recent imagery allowed for the continuation of studies, started by <ref type="bibr">Ward and others (1997)</ref>, to assess the stability of eelgrass meadows in Izembek Lagoon (table <ref type="table">1</ref>).</s><s>The 2007 imagery permitted an initial determination of eelgrass spatial extent in Big Lagoon, Hook Bay, and Kinzarof Lagoon, and additional groundtruthing of the classifications can provide a useful baseline map to evaluate future habitat change at these embayments.</s></p><p><s>Using Landsat imagery, we were able to differentiate eelgrass from other cover types (that is, water and unvegetated) with a high degree of accuracy (90-91 percent) at Izembek Lagoon.</s><s>However, we were unable separate eelgrass into submerged and exposed cover types with a high degree of accuracy (&lt;45 percent).</s><s>Nevertheless, we believe that field survey efforts specifically designed to support a remote sensing analysis of eelgrass cover types, such as submerged versus exposed eelgrass cover, could yield improved results.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Izembek Lagoon</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Eelgrass Mapping<p><s>Eelgrass meadows represented the largest cover type in Izembek Lagoon, comprising between 44 and 47 percent of the spatial extent of the lagoon (fig.</s><s><ref target="#fig_0" type="figure">1</ref>; table 1).</s><s>Most eelgrass was in the interior of the lagoon, distant from channel openings to the Bering Sea and next to a network of branching channels.</s><s>Sand and mud flats persisted close to gaps between barrier islands and major freshwater inlets such as the Joshua Green River in the northeast part of the Izembek Lagoon complex (that is, Moffett Bay).</s></p><p><s>Table <ref type="table">1</ref>.</s><s>Spatial extent and percent of total cover of eelgrass (Zostera marina) and other cover types for Izembek <ref type="bibr">Lagoon, Alaska, during surveys in 1978</ref><ref target="#b0" type="bibr">, 1987</ref><ref target="#b22" type="bibr">, 2002</ref><ref target="#b20" type="bibr">, and 2006</ref><ref type="bibr">based on Ward and others (1997)</ref> and this study.</s><s>Accuracy of the spatial assessments were conducted using 269 survey points, of which 164 points contained eelgrass and 105 did not (table 2).</s><s>For the 2006 classification (table 2), 145 of the 164 "eelgrass" points (88.4 percent omission accuracy) and 98 of the of the 105 "no eelgrass" points (93.3 percent omission accuracy) were classified correctly for an overall accuracy of 90.3 percent.</s><s>Of the 19 misidentified "eelgrass" points, most (n=15 or 79 percent of points) were classified as unvegetated sand and mud flats and occurred in areas where eelgrass was likely too sparse to produce a clear spectral signal.</s><s>The remaining four misidentified "eelgrass" points (11 percent of points) were classified as unvegetated channel and were at water depths too deep to detect eelgrass.</s><s>Of the 7 misidentified "no eelgrass" points, 6 (86 percent of points) were classified as vegetated channel, and 1 (14 percent of points) as unvegetated sand and mud flats.</s><s>All occurred in transition zones between narrow channels and eelgrass beds or exposed eelgrass and unvegetated sand and mud flats, suggesting that the disparity was caused by differing resolution between field survey resolution (&lt;1 m quadrats) and Landsat imagery resolution (30 m pixel).</s><s>The 2002 classification was similarly accurate even with an additional 4 years of temporal offset since image acquisition (table 2).</s><s>When compared to estimates of spatial extent of eelgrass by <ref type="bibr">Ward and others (1997)</ref>, our results suggest little change in the spatial extent of eelgrass in Izembek Lagoon over the 28-year period from 1978 through 2006 (table <ref type="table">1</ref>).</s><s>We detected only minor variation in spatial extent of eelgrass among years: 5 percent increase between 1978 and 2002 and a 3 percent decrease between 1978 and 2006.</s><s>Variability could be easily accounted for by interannual fluctuations in spatial extent, differences in spatial resolution between Landsat Multispectral Scanner System (80 m; <ref type="bibr">Ward and others, 1997)</ref> and Landsat Thematic Mapper or ETM+ (30 m) imagery, or errors associated with the classification process.</s><s>Moreover, the small changes in spatial distribution between years were predominantly along the edges of channels and areas inundated by water that could be due to tidal differences at the time of image acquisition.</s></p><p><s>Comparisons of the annual IDW interpolations of field data (2007-10) created to map density (percent cover) and abundance (aboveground biomass) of eelgrass in Izembek Lagoon were generally consistent across years, so we show only the aggregate of the 4 years of data (fig.</s><s><ref target="#fig_2" type="figure">4</ref>).</s><s>Two broad areas of high density (75 to 100 percent cover) within Izembek Lagoon were in the southern (Applegate Cove and Norma Bay) and north-central parts of the lagoon, but areas of high density occur along the entire length of the lagoon.</s><s>Likewise, eelgrass beds with high abundance (greater than 100 grams dry mass per square meter [g/m 2 ]) were in the southern (that is, Norma Bay) and north central parts of the lagoon.</s><s>Seaweed occurred in low densities throughout Izembek Lagoon (fig.</s><s><ref target="#fig_10" type="figure">5</ref>) but was most dominant in the southern part.</s><s>Distribution of eelgrass is affected by water depth, wave and tidal action, sediment transport, and nutrient availability <ref target="#b13" type="bibr">(Hemminga and Duarte, 2000)</ref>.</s><s>In Izembek Lagoon, the absence of eelgrass near the lagoon entrances was caused by water depths too deep for light penetration and strong wave and tidal action.</s><s>Toward the inland side of the lagoon, fine-grain sediments from freshwater inputs, such as from the Joshua Green River, increased turbidity, as evidenced by the low Secchi disk measurements (&lt;1m), that reduce light penetration and thus lower eelgrass productivity.</s><s>Eelgrass was most abundant away from these areas where the barrier islands, sand spits, and sand bars protected against extensive wave action while the channels deliver essential nutrients.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Eelgrass and Seaweed Abundance<p><s>Our measurements of abiotic parameters indicated that Izembek Lagoon is characterized by cold water temperatures, low salinities, fine soft substrate, and shallow water depths (table <ref target="#tab_5" type="table">3</ref>).</s><s>Average annual surface-water temperature was 12.1±0.7 degree Celsius (°C; range was 11-14 °C) during July-August with colder temperatures during December-April (fig.</s><s><ref target="#fig_11" type="figure">6</ref>), particularly near lagoon entrances.</s><s>Warmer temperatures occurred typically within the intertidal beds distant from tidal channels where water exchange occurs less often.</s><s>During winter (December-March) the lagoon experienced frequent periods of sea ice, which occurred from January to April in 2010.</s><s><ref target="#b1" type="bibr">(Braun-Blanquet, 1972</ref>): 0 percent =0; 1-5 percent =1; 6-25 percent =2; 26-50 percent =3; 51-75 percent =4; 76-100 percent =5.</s></p><p><s>Seasonal increase in water temperatures generally began in April after breakup of sea ice in the lagoon.</s><s>Average annual surface salinity was 27.0±0.2</s><s>part per thousand (ppt; range =26-28 ppt) with lower levels in Moffett Bay and near stream and creek outflows and higher levels in channels close to the Bering Sea (table <ref target="#tab_5" type="table">3</ref>).</s><s>Seechi depth readings primarily ranged from 4 to 5 m with a maximum reading of 5.8 m during the 4-year period.</s><s>The substrate was composed of 99 percent fine sediments (53 percent mud and 46 percent sand) and 1 percent cobble rock.</s></p><p><s>Eelgrass was present on 82 percent of all points scattered evenly across the entire bay in 2008 and 2009, and when present, eelgrass was abundant (average BB abundance score=4.1,</s><s>82 percent cover; table 3; fig.</s><s><ref target="#fig_2" type="figure">4</ref>).</s><s>Average tidal height of sample points containing eelgrass was +0.24±0.02</s><s>m (range =-1.63±1.03</s><s>m, MLLW).</s><s>Aboveground biomass varied annually across years, with a mean range of 128 to 205 g/m 2 .</s><s>Variation in aboveground biomass was strongly positively correlated with shoot lengths (correlation coefficient [R 2 ]=0.78; probability [p-value] &lt;0.001), indicting greater biomass with increasing shoot length, and weakly negatively correlated with tidal depth (R 2 =0.15; p-value &lt;0.001; greater biomass with increasing tidal depth to about -1.0 m MLLW; thereafter, biomass declined).</s><s>Average annual length and width of the shoots in late summer were 50.2±1.7 cm (range =5-200 cm) and 2.0±0.05</s><s>millimeters (range =1.0-5.0 millimeters), respectively.</s><s>Seasonal (April-October) variation in shoot length, shoot density, aboveground biomass, and productivity differed with tidal depth (fig.</s><s><ref target="#fig_3" type="figure">7</ref>).</s><s>Eelgrass productivity occurred during a 4 to 5-month period with peak shoot growth in August.</s><s>This contrasted with shoot densities that fluctuated little during the growth period before declining in fall.</s><s>Seaweeds, representing 25 different species or genera (table 4), were sparsely distributed in Izembek Lagoon, occurring on fewer than 45 percent of points from 2008 to 2010 and nearly always in association with eelgrass (98 percent of occurrences).</s><s>When present, seaweed abundance was low (mean abundance score was 1.90±0.09)</s><s>compared to eelgrass (mean abundance score was 4.09±0.06) in Izembek Lagoon (table <ref target="#tab_5" type="table">3</ref>).</s><s>The most common seaweed genera present in the lagoon were green seaweeds, Chaetomorpha spp.</s><s>and Cladophora sericea occurring on 50 percent of points where seaweeds were present.</s><s>The next most common seaweeds were Chordaria flagelliformis, Eudesme borealis, and Dictyosiphon tenuis.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Kinzarof Lagoon</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Eelgrass Mapping<p><s>Classified Landsat imagery indicated that eelgrass meadows were the largest cover type in Kinzarof Lagoon comprising 38 percent of its spatial extent (fig.</s><s><ref target="#fig_14" type="figure">9</ref>; table 5).</s><s>As determined from the 2008 field survey data, our map was an accurate assessment of eelgrass distribution in this lagoon.</s><s>Of the 134 survey points, 50 of the 66 "eelgrass" points (75.8 percent omission accuracy) and 59 of the of the 68 "no eelgrass" points (86.8 percent omission accuracy) were classified correctly for an overall accuracy of 81.3 percent, a reasonable result from a remote-sensing perspective (table <ref target="#tab_7" type="table">6</ref>).</s><s>The 16 eelgrass points misidentified as "no eelgrass" were in subtidal areas where the water was likely too deep for a clear spectral signal indicating the presence of eelgrass.</s><s>Conversely, the nine non-eelgrass points misidentified as "eelgrass" were located on the exposed mudflats near the barrier islands where the likely source of error was the presence of green seaweeds that have a spectral reflectance profile similar to eelgrass.</s><s>We consider this map of eelgrass extent to be a good first step in development of a baseline map of eelgrass extent in Kinzarof Lagoon.</s><s>Additional ground-truthing is needed to finalize an eelgrass distribution map for this lagoon.</s><s>The greater depth of Kinzarof Lagoon and the greater depth that eelgrass grows caused the lower accuracy of the Kinzarof classification for eelgrass cover (relative to the Izembek classification).</s><s>Spectral energy (sunlight) sensed by Landsat multispectral instruments attenuates in water depending on water clarity.</s><s>We suspect that the effective range for sensing submerged aquatic vegetation is &lt;2 m in southwest Alaska, similar to depth limits found in other mid-to high-latitude estuaries <ref type="bibr">(Ackleson and Kelmas 1987)</ref>.</s><s>This limited depth of detection of aquatic vegetation likely caused an underestimation of eelgrass in deep water areas in Kinzarof Lagoon, as demonstrated by comparing figures 2 and 9.</s><s>A large part of deep-water areas contained abundant eelgrass based on field survey data (fig.</s><s><ref target="#fig_14" type="figure">9</ref>) that is absent in the habitat-classified Landsat image (fig.</s><s><ref target="#fig_1" type="figure">2</ref>).</s><s>To correct for the underestimated subtidal eelgrass cover, we used the interpolated field survey data to guide creation of polygons and expanded the area of submerged eelgrass in the lagoon by 237 hectares.</s><s>This change increased the overall cover of eelgrass in Kinzarof Lagoon by 12 percent, from 43 to 55 percent (fig.</s><s><ref target="#fig_14" type="figure">9</ref>; table 5).</s><s>The patterns of eelgrass distribution were similar between Kinzarof and Izembek Lagoons with the greatest abundance occurring at moderate depth in places where eelgrass beds were protected from wave and tidal action behind sand bars or barrier islands and close to channels for the provision of essential nutrients.</s><s>A key difference between lagoons was the abundance of seaweeds in Kinzarof Lagoon, which covered about one-third of this lagoon's extent, whereas it was much less prevalent in Izembek Lagoon.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Eelgrass and Seaweed Abundance<p><s>In contrast to Izembek Lagoon, Kinzarof Lagoon was characterized by warmer water temperatures (annual range =12-15 °C), higher salinities (annual range =26-30 ppt), coarser substrates, and deeper water depths (annual range =99-113 cm) during late summer (table <ref target="#tab_8" type="table">7</ref>).</s><s>Kinzarof Lagoon also differed from Izembek Lagoon in that seaweeds (occurred at 82 percent of points) were the most common macrophyte in this lagoon.</s><s>A total of 73 seaweeds have been identified in Kinzarof Lagoon with Ahnfeltia borealis, Neorhodomela spp., Eudesme borealis, and Devaleraea mollis being the most dominant genera and species during the 3-year study period (table <ref type="table">4</ref>).</s><s>Seaweeds were frequently associated with eelgrass (62 percent of points) but also occurred in areas with no eelgrass (38 percent of points).</s><s>Aboveground biomass of seaweeds was high in Kinzarof Lagoon with an average aboveground biomass estimate of 454±13 g/m 2 in 2009, the only year of seaweed biomass estimates, surpassing estimates for eelgrass in either lagoon and for seaweeds in Izembek Lagoon (tables 3 and 7).</s><s>The substrate was composed of 72 percent fine sediments (36 percent mud and 26 percent sand) and 28 percent cobble and had an average annual depth of 4.9 cm.</s><s>The greater density and abundance of seaweeds in Kinzarof Lagoon was likely related, in part, to the rockier substrate, which is an ideal surface for attachment seaweeds.</s></p><p><s>Eelgrass occurred on slightly more than 55 percent of points in Kinzarof Lagoon and, when present, eelgrass was abundant (mean abundance BB score was 3.60±0.16).</s><s>Average shoot width of eelgrass was slightly wider in Kinzarof Lagoon (table 4) than in Izembek Lagoon (table <ref target="#tab_8" type="table">7</ref>).</s><s>In general, annual aboveground biomass of eelgrass was greater in Kinzarof Lagoon than in Izembek Lagoon.</s><s>This difference may be related to the warmer water temperatures and decreased ice cover in Kinzarof Lagoon, likely affecting productivity and growing season length.</s></p><p><s>Macro-invertebrates were generally less common in Kinzarof Lagoon than Izembek Lagoon but, similar to Izembek, and were always found associated with eelgrass beds (fig.</s><s><ref target="#fig_13" type="figure">8B</ref>).</s><s>Only Telmessus crabs were more common in Kinzarof Lagoon (16 percent of all points) than Izembek Lagoon (4 percent of points).</s><s>Gastropods (8 percent of points) and Caprella shrimp (7 percent of points) were the next most common in Kinzarof Lagoon, whereas mussels were absent on all points in this lagoon.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Cold Bay</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Eelgrass Mapping<p><s>None of the Landsat images <ref type="bibr">(2002, 2006, and 2007)</ref> were adequate to map spatial extent of eelgrass in the northwestern part of Cold Bay because most eelgrass in this part of the bay occurred subtidally (see next section, "Eelgrass and Seaweed Abundance") and in patches that were too small for detection at the 30 m spatial resolution of this imagery.</s><s>However, we were able to delineate the perimeter of the eelgrass beds by collecting waypoints of eelgrass presence or absence using GPS units during low tides (&lt;-1.0 m MLLW) during boat surveys.</s><s>These waypoints subsequently guided the creation of polygons in ArcGIS (Esri, Redlands, California) to delineate eelgrass beds close to the town of Cold Bay (fig.</s><s><ref target="#fig_17" type="figure">12</ref>).</s><s>There were several beds of eelgrass, ranging in size from 30-200 m wide and 300-600 m long, just offshore from town and extending about 1 kilometer to the north and south (fig.</s><s><ref target="#fig_17" type="figure">12</ref>).</s><s>The largest extent of eelgrass occurred offshore from Nurse Lagoon, where beds widened and covered an area about 600 m wide and 3,000 m long.</s><s>Total extent of eelgrass was 132 hectares along the western shoreline of Cold Bay.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Eelgrass and Seaweed Abundance<p><s>Because of time constraints, we confined our initial assessment of eelgrass in Cold Bay to a narrow band of exposed coastline in the upper portion of the bay starting at the mouth of Russell Creek and extending to the western entrance to Kinzarof Lagoon (fig.</s><s><ref target="#fig_17" type="figure">12</ref>).</s><s>Therefore, our assessment is preliminary for this area.</s><s>Physical properties were characterized by cold-water temperatures (range =9-10 °C; table 7) and sandy substrates (90 percent sand and 10 percent cobble).</s><s>The distribution of eelgrass and seaweeds beds were patchy with seaweeds (42 percent of points) present more often than eelgrass (26 percent of points).</s><s>When present, both vegetation types occurred in low density and abundance, unlike Izembek and Kinzarof Lagoons where density and abundance of eelgrass and seaweeds was high.</s><s>We detected 81 genera and species of seaweeds on the survey and during subsequent walks along the shoreline of the bay (table <ref type="table">4</ref>).</s><s>Agarum sp., Chordaria sp., and Dictyosiphon sp. were the most common found on the the survey.</s><s>Eelgrass was found at an average tidal height of -0.55±0.11</s><s>m (range =-0.98 to -0.15 m MLLW), much lower in the tidal zone than in Izembek or Kinzarof Lagoons, where most eelgrass grows above 0.0 m MLLW.</s><s>The western shoreline of Cold Bay is exposed to high energy, wave action that may prevent eelgrass from taking root any higher in the intertidal zone.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Big Lagoon and Hook Bay</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Eelgrass Mapping<p><s>Landsat imagery was habitat-classified to create preliminary maps of eelgrass distribution in Big Lagoon and Hook Bay, and to provide initial cover estimates in these two embayments (table 8; fig.</s><s><ref target="#fig_18" type="figure">13</ref>).</s><s>Eelgrass beds covered about 35 percent of the area at both sites, though the outer boundary of Hook Bay was subjectively drawn, and if changed, may affect future coverage estimates.</s><s>These distribution maps will be useful for planning future boat surveys to assess estimates of eelgrass and seaweed density and abundance and for developing baseline maps of eelgrass spatial extent in these embayments.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusions<p><s>We see value in the following additional efforts that may assist with improving our understanding and monitoring of eelgrass areas in the INWR for determining eelgrass status and trends in Alaska.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Additional Mapping<p><s>1. Ground truth and finalize the 2007 maps of eelgrass extent in Kinzarof Lagoon, Big Lagoon, and Hook Bay. 2. Complete eelgrass assessments along the north and east sides of Cold Bay. 3. Acquire photography, satellite imagery, or both to map eelgrass extent in additional important eelgrass embayments along the lower Alaska Peninsula (such as in fig.</s><s><ref target="#fig_20" type="figure">14</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Field Surveys<p><s>1. Continue annual environmental (that is, water temperature, light, and turbidity) monitoring of eelgrass in Izembek and Kinzarof Lagoons.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>Imagery showing Izembek Lagoon, Kinzarof Lagoon, and other embayments next to Izembek National Wildlife Refuge, Alaska .................................................................................................................... Figure 2. Landsat imagery showing spatial extent of eelgrass in Izembek Lagoon and Kinzarof Lagoon, Alaska ............................................................................................................................................................ Figure 3. Landsat imagery showing habitat classifications with a terrain model as a background and displayed with sampled survey points for Izembek Lagoon and Kinzarof Lagoon, Alaska ............................Figure 4. Landsat imagery showing distribution of eelgrass percentage cover and aboveground biomass as determined from inverse distance-weighted interpolations of field survey data aggregated across years, 2007-10 ....................................................................................................................................................... Figure 5. Landsat imagery showing distribution of seaweed percentage cover as determined from inverse distance-weighted interpolations of field survey data aggregated across years, 2007-10 .......................... Figure 6.</s><s>Graphs showing seasonal variation in water temperature from readings taken in Grant Point of Izembek Lagoon, Alaska, in 2010 ................................................................................................................Figure 7. Graphs showing monthly mean estimates of shoot length, shoot density; and aboveground biomass of eelgrass at high and low intertidal locations in Izembek Lagoon, Alaska ..................................Figure 8. Graphs showing presence of macro-invertebrates in Izembek Lagoon and Kinzarof Lagoon, Alaska, in each year of the surveys from 2008 to 2010 and averaged across years ................................... Figure 9. Landsat imagery showing eelgrass distribution with habitat classifications and polygons created to correct for eelgrass located in optically deep water ................................................................................. Figure 10.</s><s>Landsat imagery showing distribution of eelgrass percent cover and aboveground biomass in Kinzarof Lagoon, Alaska, as determined from inverse distance-weighted interpolations of field survey data aggregated across three years, 2008-10 ....................................................................................................</s></p></div></figdesc></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 1.</s><s>Imagery showing Izembek Lagoon, Kinzarof Lagoon, and other embayments next to Izembek National Wildlife Refuge, Alaska .................................................................................................................... Figure 2. Landsat imagery showing spatial extent of eelgrass in Izembek Lagoon and Kinzarof Lagoon, Alaska ............................................................................................................................................................ Figure 3. Landsat imagery showing habitat classifications with a terrain model as a background and displayed with sampled survey points for Izembek Lagoon and Kinzarof Lagoon, Alaska ............................Figure 4. Landsat imagery showing distribution of eelgrass percentage cover and aboveground biomass as determined from inverse distance-weighted interpolations of field survey data aggregated across years, 2007-10 ....................................................................................................................................................... Figure 5. Landsat imagery showing distribution of seaweed percentage cover as determined from inverse distance-weighted interpolations of field survey data aggregated across years, 2007-10 .......................... Figure 6.</s><s>Graphs showing seasonal variation in water temperature from readings taken in Grant Point of Izembek Lagoon, Alaska, in 2010 ................................................................................................................Figure 7. Graphs showing monthly mean estimates of shoot length, shoot density; and aboveground biomass of eelgrass at high and low intertidal locations in Izembek Lagoon, Alaska ..................................Figure 8. Graphs showing presence of macro-invertebrates in Izembek Lagoon and Kinzarof Lagoon, Alaska, in each year of the surveys from 2008 to 2010 and averaged across years ................................... Figure 9. Landsat imagery showing eelgrass distribution with habitat classifications and polygons created to correct for eelgrass located in optically deep water ................................................................................. Figure 10.</s><s>Landsat imagery showing distribution of eelgrass percent cover and aboveground biomass in Kinzarof Lagoon, Alaska, as determined from inverse distance-weighted interpolations of field survey data aggregated across three years, 2008-10 ....................................................................................................</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 1.</s><s>Imagery showing Izembek Lagoon, Kinzarof Lagoon, and other embayments next to Izembek National Wildlife Refuge, Alaska .................................................................................................................... Figure 2. Landsat imagery showing spatial extent of eelgrass in Izembek Lagoon and Kinzarof Lagoon, Alaska ............................................................................................................................................................ Figure 3. Landsat imagery showing habitat classifications with a terrain model as a background and displayed with sampled survey points for Izembek Lagoon and Kinzarof Lagoon, Alaska ............................Figure 4. Landsat imagery showing distribution of eelgrass percentage cover and aboveground biomass as determined from inverse distance-weighted interpolations of field survey data aggregated across years, 2007-10 ....................................................................................................................................................... Figure 5. Landsat imagery showing distribution of seaweed percentage cover as determined from inverse distance-weighted interpolations of field survey data aggregated across years, 2007-10 .......................... Figure 6.</s><s>Graphs showing seasonal variation in water temperature from readings taken in Grant Point of Izembek Lagoon, Alaska, in 2010 ................................................................................................................Figure 7. Graphs showing monthly mean estimates of shoot length, shoot density; and aboveground biomass of eelgrass at high and low intertidal locations in Izembek Lagoon, Alaska ..................................Figure 8. Graphs showing presence of macro-invertebrates in Izembek Lagoon and Kinzarof Lagoon, Alaska, in each year of the surveys from 2008 to 2010 and averaged across years ................................... Figure 9. Landsat imagery showing eelgrass distribution with habitat classifications and polygons created to correct for eelgrass located in optically deep water ................................................................................. Figure 10.</s><s>Landsat imagery showing distribution of eelgrass percent cover and aboveground biomass in Kinzarof Lagoon, Alaska, as determined from inverse distance-weighted interpolations of field survey data aggregated across three years, 2008-10 ....................................................................................................</s></p></div></figdesc></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Figure 7 .<label>7</label><figdesc><div><p><s>Figure 1.</s><s>Imagery showing Izembek Lagoon, Kinzarof Lagoon, and other embayments next to Izembek National Wildlife Refuge, Alaska .................................................................................................................... Figure 2. Landsat imagery showing spatial extent of eelgrass in Izembek Lagoon and Kinzarof Lagoon, Alaska ............................................................................................................................................................ Figure 3. Landsat imagery showing habitat classifications with a terrain model as a background and displayed with sampled survey points for Izembek Lagoon and Kinzarof Lagoon, Alaska ............................Figure 4. Landsat imagery showing distribution of eelgrass percentage cover and aboveground biomass as determined from inverse distance-weighted interpolations of field survey data aggregated across years, 2007-10 ....................................................................................................................................................... Figure 5. Landsat imagery showing distribution of seaweed percentage cover as determined from inverse distance-weighted interpolations of field survey data aggregated across years, 2007-10 .......................... Figure 6.</s><s>Graphs showing seasonal variation in water temperature from readings taken in Grant Point of Izembek Lagoon, Alaska, in 2010 ................................................................................................................Figure 7. Graphs showing monthly mean estimates of shoot length, shoot density; and aboveground biomass of eelgrass at high and low intertidal locations in Izembek Lagoon, Alaska ..................................Figure 8. Graphs showing presence of macro-invertebrates in Izembek Lagoon and Kinzarof Lagoon, Alaska, in each year of the surveys from 2008 to 2010 and averaged across years ................................... Figure 9. Landsat imagery showing eelgrass distribution with habitat classifications and polygons created to correct for eelgrass located in optically deep water ................................................................................. Figure 10.</s><s>Landsat imagery showing distribution of eelgrass percent cover and aboveground biomass in Kinzarof Lagoon, Alaska, as determined from inverse distance-weighted interpolations of field survey data aggregated across three years, 2008-10 ....................................................................................................</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 8 .Figure 11 .<label>811</label><figdesc><div><p><s>Figure 1.</s><s>Imagery showing Izembek Lagoon, Kinzarof Lagoon, and other embayments next to Izembek National Wildlife Refuge, Alaska .................................................................................................................... Figure 2. Landsat imagery showing spatial extent of eelgrass in Izembek Lagoon and Kinzarof Lagoon, Alaska ............................................................................................................................................................ Figure 3. Landsat imagery showing habitat classifications with a terrain model as a background and displayed with sampled survey points for Izembek Lagoon and Kinzarof Lagoon, Alaska ............................Figure 4. Landsat imagery showing distribution of eelgrass percentage cover and aboveground biomass as determined from inverse distance-weighted interpolations of field survey data aggregated across years, 2007-10 ....................................................................................................................................................... Figure 5. Landsat imagery showing distribution of seaweed percentage cover as determined from inverse distance-weighted interpolations of field survey data aggregated across years, 2007-10 .......................... Figure 6.</s><s>Graphs showing seasonal variation in water temperature from readings taken in Grant Point of Izembek Lagoon, Alaska, in 2010 ................................................................................................................Figure 7. Graphs showing monthly mean estimates of shoot length, shoot density; and aboveground biomass of eelgrass at high and low intertidal locations in Izembek Lagoon, Alaska ..................................Figure 8. Graphs showing presence of macro-invertebrates in Izembek Lagoon and Kinzarof Lagoon, Alaska, in each year of the surveys from 2008 to 2010 and averaged across years ................................... Figure 9. Landsat imagery showing eelgrass distribution with habitat classifications and polygons created to correct for eelgrass located in optically deep water ................................................................................. Figure 10.</s><s>Landsat imagery showing distribution of eelgrass percent cover and aboveground biomass in Kinzarof Lagoon, Alaska, as determined from inverse distance-weighted interpolations of field survey data aggregated across three years, 2008-10 ....................................................................................................</s></p></div></figdesc></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>and this study ................................................................................................................................................ Table 2. Diagonal matrices comparing field survey reference data to 2006 Enhanced Thematic Mapper Plus classification to show eelgrass (Zostera marina) classification error for the 2006 and 2002 Landsat imagery of Izembek Lagoon, Alaska .............................................................................................................. Table 3. Mean estimates (and standard error) of abiotic properties and seagrass and seaweed abundance based on a sample of survey points across Izembek Lagoon, Alaska, in 2007-10 ..................................... Table 4. Seaweed genera and species identified in Izembek Lagoon, Kinzarof Lagoon, and Cold Bay, Alaska.</s><s>Seaweed taxonomy is based on Guiry and Guiry (2020) ................................................................ Table 5. Spatial extent and percent of total cover of eelgrass (Zostera marina) and other cover types excluding and including subtidal areas in Kinzarof Lagoon, Alaska, based on 2007 Landsat imagery ........ Table 6.</s><s>Diagonal matrices comparing field survey reference data to 2007 Enhanced Thematic Mapper Plus Landsat imagery for classification error for Kinzarof Lagoon, Alaska .................................................. Table 7. Mean estimates and standard error of abiotic properties and seagrass and seaweed abundance based on a sample of survey points across Kinzarof Lagoon, Alaska, in 2008-10 and in Cold Bay, Alaska, 2010.............................................................................................................................................................</s></p></div></figdesc></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>Izembek Lagoon, Kinzarof Lagoon, and other embayments next to Izembek National Wildlife Refuge, Alaska.</s></p></div></figdesc><graphic coords="11,132.00,57.60,347.75,290.15" type="bitmap"></graphic></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 2. Landsat imagery showing spatial extent of eelgrass (Zostera marina) in Izembek Lagoon and Kinzarof Lagoon, Alaska.</s><s>Image on left is the raw imagery and on the right shows after mapping habitat classifications (eelgrass, sand/mud, and deep water).</s></p></div></figdesc><graphic coords="12,72.00,58.10,236.85,184.45" type="bitmap"></graphic></figure>
+<figure xml:id="fig_8" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure 3. Landsat imagery showing habitat classifications with a terrain model as a background and displayed with sampled survey points (dots) for Izembek Lagoon (top; 2007) and Kinzarof Lagoon (bottom right; 2008), Alaska.</s></p></div></figdesc><graphic coords="14,148.50,57.60,314.55,245.25" type="bitmap"></graphic></figure>
+<figure xml:id="fig_9" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4. Landsat imagery showing distribution of eelgrass (Zostera marina) percentage cover (top) and aboveground biomass (bottom), as determined from inverse distance-weighted interpolations of field survey data aggregated across years, 2007-10.</s><s>Deep water is water depth greater than 1.0 meter at 0.0 meter mean lower low water.</s></p></div></figdesc><graphic coords="18,141.75,318.90,327.75,253.30" type="bitmap"></graphic></figure>
+<figure xml:id="fig_10" xmlns="http://www.tei-c.org/ns/1.0">Figure 5 .<label>5</label><figdesc><div><p><s>Figure 5. Landsat imagery showing distribution of seaweed percentage cover (density), as determined from inverse distance-weighted interpolations of field survey data aggregated across years, 2007-10.</s></p></div></figdesc><graphic coords="19,146.90,57.60,318.20,245.49" type="bitmap"></graphic></figure>
+<figure xml:id="fig_11" xmlns="http://www.tei-c.org/ns/1.0">Figure 6 .<label>6</label><figdesc><div><p><s>Figure 6.</s><s>Seasonal variation in water temperature from readings taken in Grant Point (the central part) of Izembek Lagoon, Alaska, in 2010.</s></p></div></figdesc><graphic coords="20,176.25,57.60,259.19,214.55" type="bitmap"></graphic></figure>
+<figure xml:id="fig_12" xmlns="http://www.tei-c.org/ns/1.0">Figure 7 .<label>7</label><figdesc><div><p><s>Figure 7. Monthly mean estimates of A, shoot length; B, shoot density; and C, aboveground biomass of eelgrass at high (ca.</s><s>+0.5 meter [m] mean lower low water [MLLW]) and low (ca.</s><s>-0.5 m MLLW) intertidal locations in Izembek Lagoon, Alaska.</s><s>Estimates represent the mean and standard error of five replicate samples from Grant Point at the Old Boat Launch of Izembek Lagoon, Alaska, April-October 2010.</s></p></div></figdesc><graphic coords="23,162.45,64.80,287.10,391.50" type="bitmap"></graphic></figure>
+<figure xml:id="fig_13" xmlns="http://www.tei-c.org/ns/1.0">Figure 8 .<label>8</label><figdesc><div><p><s>Figure 8. Presence (percentage of sampling points) of macro-invertebrates in A, Izembek Lagoon and B, Kinzarof Lagoon, Alaska, in each year of the surveys from 2008 to 2010 and average across years.</s><s>[%, percentage; ND, no data]</s></p></div></figdesc><graphic coords="26,159.00,64.80,294.00,468.65" type="bitmap"></graphic></figure>
+<figure xml:id="fig_14" xmlns="http://www.tei-c.org/ns/1.0">Figure 9 .<label>9</label><figdesc><div><p><s>Figure 9. Eelgrass distribution with habitat classifications and polygons created to correct for eelgrass located in optically deep water.IDW interpolations were performed on survey point data estimating density (percent cover) and abundance (aboveground biomass) for eelgrass (fig.10) and seaweed (fig.11) in Kinzarof Lagoon.</s><s>The main area of high eelgrass density and abundance stretched across the center of the lagoon from the narrow subtidal region in the west to the perimeter of the pooled subtidal region in the eastern half of the lagoon.</s><s>The primary area of high seaweed density and abundance was in the center of the pooled region, where eelgrass was relatively sparse.</s><s>Cooccurrence of eelgrass and seaweeds occurred in the western part of the lagoon.</s></p></div></figdesc><graphic coords="28,311.51,466.61,228.49,176.48" type="bitmap"></graphic></figure>
+<figure xml:id="fig_15" xmlns="http://www.tei-c.org/ns/1.0">Figure 10 .<label>10</label><figdesc><div><p><s>Figure 10.</s><s>Distribution of eelgrass (Zostera marina) percentage cover (density; left) and aboveground biomass (right) in Kinzarof Lagoon, Alaska, as determined from inverse distance-weighted interpolations of field survey data aggregated across three years, 2008-10.</s></p></div></figdesc><graphic coords="28,72.00,465.23,230.56,177.95" type="bitmap"></graphic></figure>
+<figure xml:id="fig_16" xmlns="http://www.tei-c.org/ns/1.0">Figure 11 .<label>11</label><figdesc><div><p><s>Figure 11.</s><s>Distribution of seaweed percent cover (density, left) aggregated over three years, 2008-10, and aboveground biomass (right) in 2008 in Kinzarof Lagoon, Alaska, as determined from inverse distanceweighted interpolations of field survey data.</s></p></div></figdesc><graphic coords="29,310.28,64.80,229.72,177.40" type="bitmap"></graphic></figure>
+<figure xml:id="fig_17" xmlns="http://www.tei-c.org/ns/1.0">Figure 12 .<label>12</label><figdesc><div><p><s>Figure 12.</s><s>Showing estimated eelgrass (Zostera marina) spatial extent along the western shoreline of Cold Bay, Alaska, as determined from global positioning system delineation of the eelgrass meadows.</s></p></div></figdesc><graphic coords="32,162.75,323.22,286.50,220.90" type="bitmap"></graphic></figure>
+<figure xml:id="fig_18" xmlns="http://www.tei-c.org/ns/1.0">Figure 13 .<label>13</label><figdesc><div><p><s>Figure 13.</s><s>Preliminary map of the spatial extent of eelgrass (Zostera marina) in Big Lagoon (right) and Hook Bay (left), Alaska.</s></p></div></figdesc><graphic coords="34,140.25,72.00,331.12,255.75" type="bitmap"></graphic></figure>
+<figure xml:id="fig_19" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>2. Expand boat surveys to other embayments where eelgrass is abundant, such as Big Lagoon, Hook Bay, Leonard Harbor, St. Catherine Cove, and Canton and Sanak Islands to acquire baseline estimates of water depth, substrate type, and abundance and distribution of eelgrass and seaweed species.</s><s>3. Develop a finer-scale bathymetry map of Izembek and Kinzarof Lagoons using acoustic instruments light detection and ranging data, or both.</s></p></div></figdesc></figure>
+<figure xml:id="fig_20" xmlns="http://www.tei-c.org/ns/1.0">Figure 14 .<label>14</label><figdesc><div><p><s>Figure 14.</s><s>Distribution of eelgrass (Zostera marina) in coastal waters next to Izembek National Wildlife Refuge, Alaska, as shown in a terrain model superimposed on Landsat imagery displayed in false color.</s><s>Sites with eelgrass appear as bright yellow and those of interest for future mapping are circled in white.</s></p></div></figdesc><graphic coords="35,120.75,72.00,370.05,277.48" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="1,34.99,231.65,542.03,367.61" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="1,-624.30,-12.30,1262.88,106.56" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="40,-12.30,-12.30,1262.88,106.56" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 8 .<label>8</label><figdesc><div><p><s>Preliminary spatial extent and percent total cover of eelgrass (Zostera marina) and other cover types in Big Lagoon and Hook Bay ..............................................................................................................</s></p></div></figdesc><table><row><cell>vi</cell></row></table></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">Abundance and Distribution of Eelgrass (Zostera marina) and Seaweeds at Izembek National Wildlife Refuge, Alaska, 2007-10<label></label><figdesc><div><p><s>By David H. Ward 1 , Kyle R. Hogrefe 1 ,Tyronne F. Donnelly 1 , Lucretia L. Fairchild 2 , Kristine M. Sowl 2 , and Sandra C. Lindstrom 3</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_3" xmlns="http://www.tei-c.org/ns/1.0">Table 2 .<label>2</label><figdesc><div><p><s>Diagonal matrices comparing field survey reference data to 2006 Enhanced Thematic Mapper Plus classification to show eelgrass (Zostera marina) classification error for the 2006 and 2002 Landsat imagery of Izembek Lagoon, Alaska.</s></p></div></figdesc><table><row><cell>[-, not applicable]</cell></row></table></figure>
+<figure type="table" xml:id="tab_4" xmlns="http://www.tei-c.org/ns/1.0">Enhanced Thematic Mapper Plus classification Field survey reference data Eelgrass No eelgrass Total correct Total survey points<label></label><figdesc></figdesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Commission</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>accuracy</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(percent)</cell></row><row><cell></cell><cell cols="2">2006 Landsat imagery</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Eelgrass</cell><cell>145</cell><cell>7</cell><cell>-</cell><cell>152</cell><cell>95.4</cell></row><row><cell>No eelgrass</cell><cell>19</cell><cell>98</cell><cell>-</cell><cell>117</cell><cell>83.8</cell></row><row><cell>Total correct</cell><cell>-</cell><cell>-</cell><cell>243</cell><cell>-</cell><cell>-</cell></row><row><cell>Total survey points</cell><cell>164</cell><cell>105</cell><cell>-</cell><cell>269</cell><cell>-</cell></row><row><cell>Omission accuracy (percent)</cell><cell>88.4</cell><cell>93.3</cell><cell>-</cell><cell>-</cell><cell>90.3</cell></row><row><cell></cell><cell cols="2">2002 Landsat imagery</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Eelgrass</cell><cell>147</cell><cell>8</cell><cell>-</cell><cell>152</cell><cell>94.8</cell></row><row><cell>No eelgrass</cell><cell>17</cell><cell>97</cell><cell>-</cell><cell>117</cell><cell>85.1</cell></row><row><cell>Total correct</cell><cell>-</cell><cell>-</cell><cell>244</cell><cell>-</cell><cell>-</cell></row><row><cell>Total survey points</cell><cell>164</cell><cell>105</cell><cell>-</cell><cell>269</cell><cell>-</cell></row><row><cell>Omission accuracy (percent)</cell><cell>89.6</cell><cell>92.4</cell><cell>-</cell><cell>-</cell><cell>90.7</cell></row></table></figure>
+<figure type="table" xml:id="tab_5" xmlns="http://www.tei-c.org/ns/1.0">Table 3 .<label>3</label><figdesc><div><p><s>Mean estimates (and standard error) of abiotic properties and seagrass and seaweed abundance based on a sample of survey points across Izembek Lagoon, Alaska, in 2007-10.</s></p></div></figdesc><table><row><cell cols="13">[n, number of survey points; SE, standard error; °C, degree Celsius; ppt, part per thousand; cm, centimeter; -, no data; g/m 2 , gram dry mass per square meter;</cell></row><row><cell>mm, millimeter]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Property</cell><cell>n</cell><cell>2007 Mean</cell><cell>SE</cell><cell>n</cell><cell>2008 Mean</cell><cell>SE</cell><cell>n</cell><cell>2009 Mean</cell><cell>SE</cell><cell>n</cell><cell>2010 Mean</cell><cell>SE</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">Abiotic properties</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Water temperature (°C)</cell><cell>197</cell><cell>13.54</cell><cell>0.16</cell><cell>271</cell><cell>11.99</cell><cell>0.07</cell><cell>124</cell><cell>11.22</cell><cell>0.07</cell><cell></cell><cell>11.73</cell><cell>0.14</cell></row><row><cell>Salinity (ppt)</cell><cell>198</cell><cell>27.04</cell><cell>0.33</cell><cell>271</cell><cell>28.35</cell><cell>0.24</cell><cell>123</cell><cell>26.38</cell><cell>0.29</cell><cell></cell><cell>26.29</cell><cell>0.39</cell></row><row><cell>Water depth (cm)</cell><cell>244</cell><cell>97.08</cell><cell>3.82</cell><cell>267</cell><cell>90.94</cell><cell>3.78</cell><cell>127</cell><cell>85.61</cell><cell>4.68</cell><cell></cell><cell>90.76</cell><cell>4.40</cell></row><row><cell>Substrate depth (cm)</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>231</cell><cell>6.95</cell><cell>0.62</cell><cell>127</cell><cell>11.21</cell><cell>1.15</cell><cell></cell><cell>6.99</cell><cell>0.95</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="5">Seagrass (Zostera marina) vegetative shoots</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Aboveground biomass (g/m 2 ) when eelgrass was present</cell><cell>172</cell><cell>177.08</cell><cell>10.89</cell><cell cols="2">181 131.45</cell><cell>7.93</cell><cell>102</cell><cell>205.26</cell><cell>26.08</cell><cell></cell><cell cols="2">128.38 14.74</cell></row><row><cell>Density 1 (0-5)</cell><cell>245</cell><cell>3.04</cell><cell>0.14</cell><cell>266</cell><cell>2.91</cell><cell>0.14</cell><cell>128</cell><cell>3.81</cell><cell>0.17</cell><cell></cell><cell>3.44</cell><cell>0.21</cell></row><row><cell>Abundance 1 (1-5)</cell><cell>181</cell><cell>3.10</cell><cell>0.14</cell><cell>187</cell><cell>4.20</cell><cell>0.09</cell><cell>112</cell><cell>4.40</cell><cell>0.11</cell><cell></cell><cell>4.25</cell><cell>0.14</cell></row><row><cell>Frequency (0-1)</cell><cell>245</cell><cell>0.68</cell><cell>0.03</cell><cell>266</cell><cell>0.68</cell><cell>0.03</cell><cell>128</cell><cell>0.85</cell><cell>0.03</cell><cell></cell><cell>0.78</cell><cell>0.04</cell></row><row><cell>Shoot length (cm)</cell><cell>176</cell><cell>54.91</cell><cell>3.03</cell><cell>186</cell><cell>40.97</cell><cell>2.13</cell><cell>103</cell><cell>58.35</cell><cell>4.31</cell><cell></cell><cell>49.30</cell><cell>4.90</cell></row><row><cell>Shoot width (mm)</cell><cell>176</cell><cell>2.19</cell><cell>0.05</cell><cell>186</cell><cell>2.13</cell><cell>0.05</cell><cell>103</cell><cell>2.00</cell><cell>0.07</cell><cell></cell><cell>2.10</cell><cell>0.06</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="5">Seaweed (all species combined) vegetative shoots</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Density 1 (0-5)</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>266</cell><cell>0.66</cell><cell>0.07</cell><cell>126</cell><cell>0.48</cell><cell>0.08</cell><cell></cell><cell>0.69</cell><cell>0.14</cell></row><row><cell>Abundance 1 (0-5)</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>101</cell><cell>2.02</cell><cell>0.11</cell><cell>39</cell><cell>1.76</cell><cell>0.14</cell><cell></cell><cell>1.99</cell><cell>0.22</cell></row><row><cell>Frequency (0-1)</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>266</cell><cell>0.31</cell><cell>0.03</cell><cell>126</cell><cell>0.26</cell><cell>0.04</cell><cell></cell><cell>0.31</cell><cell>0.04</cell></row><row><cell cols="4">1 Braun-Blanquet visual estimation technique</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_6" xmlns="http://www.tei-c.org/ns/1.0">Table 5 .<label>5</label><figdesc><div><p><s>Spatial extent and percent of total cover of eelgrass (Zostera marina) and other cover types excluding and including subtidal areas in Kinzarof Lagoon, Alaska, based on 2007 Landsat imagery.</s></p></div></figdesc><table><row><cell></cell><cell cols="2">Spatial extent, in hectares</cell></row><row><cell>Cover type</cell><cell cols="2">(and percent of total cover) Excluding Including</cell></row><row><cell></cell><cell>subtidal areas</cell><cell>subtidal areas</cell></row><row><cell>Eelgrass</cell><cell>892 (43)</cell><cell>1129 (55)</cell></row><row><cell>Sand/mud</cell><cell>448 (22)</cell><cell>448 (22)</cell></row><row><cell>Deep water</cell><cell>716 (35)</cell><cell>479 (23)</cell></row><row><cell>Total</cell><cell>2,056</cell><cell>2,056</cell></row></table></figure>
+<figure type="table" xml:id="tab_7" xmlns="http://www.tei-c.org/ns/1.0">Table 6 .<label>6</label><figdesc><div><p><s>Diagonal matrices comparing field survey reference data to 2007 Enhanced Thematic Mapper Plus Landsat imagery for classification error for Kinzarof Lagoon, Alaska.</s></p></div></figdesc><table><row><cell>[-, not applicable]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>2007 Enhanced Thematic Mapper Plus Landsat imagery</cell><cell>Eelgrass</cell><cell cols="3">Field survey reference data No eelgrass Total Total survey correct points</cell><cell>Commission accuracy (percent)</cell></row><row><cell>Eelgrass</cell><cell>50</cell><cell>9</cell><cell>-</cell><cell>68</cell><cell>73.5</cell></row><row><cell>No eelgrass</cell><cell>16</cell><cell>59</cell><cell>-</cell><cell>66</cell><cell>89.4</cell></row><row><cell>Total correct</cell><cell>-</cell><cell>-</cell><cell>109</cell><cell>-</cell><cell>-</cell></row><row><cell>Total survey points</cell><cell>66</cell><cell>68</cell><cell>-</cell><cell>134</cell><cell>-</cell></row><row><cell>Omission accuracy (percent)</cell><cell>75.8</cell><cell>86.8</cell><cell>-</cell><cell>-</cell><cell>81.3</cell></row></table></figure>
+<figure type="table" xml:id="tab_8" xmlns="http://www.tei-c.org/ns/1.0">Table 7 .<label>7</label><figdesc><div><p><s>Mean estimates and standard error of abiotic properties and seagrass and seaweed abundance based on a sample of survey points across Kinzarof Lagoon, Alaska, in 2008-10 and in Cold Bay, Alaska, 2010.[n,</s><s>number of survey points; SE, standard error; °C, degree Celsius; ppt, part per thousand; cm, centimeter; g/m 2 , gram dry mass per square meter; -, no data]</s></p></div></figdesc><table><row><cell>Kinzarof Lagoon</cell></row><row><cell>Property</cell></row></table></figure>
+<figure type="table" xml:id="tab_9" xmlns="http://www.tei-c.org/ns/1.0">Table 8 .<label>8</label><figdesc><div><p><s>Preliminary spatial extent and percent total cover of eelgrass (Zostera marina) and other cover types in Big Lagoon and Hook Bay.</s></p></div></figdesc><table><row><cell></cell><cell cols="2">Spatial extent, in hectares</cell></row><row><cell>Cover type</cell><cell cols="2">(and percent total cover)</cell></row><row><cell></cell><cell>Big Lagoon</cell><cell>Hook Bay</cell></row><row><cell>Eelgrass</cell><cell>901 (34)</cell><cell>926 (36)</cell></row><row><cell>Sand/mud</cell><cell>869 (33)</cell><cell>347 (14)</cell></row><row><cell>Deep water</cell><cell>848 (33)</cell><cell>1,259 (50)</cell></row><row><cell>Total</cell><cell>2,618</cell><cell>2,532</cell></row></table></figure>
+<note n="1" place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>U.S. Geological Survey, Alaska Science Center</s></p></note>
+<note n="2" place="foot" xml:id="foot_1" xmlns="http://www.tei-c.org/ns/1.0"><p><s>U.S. Fish and Wildlife Service, Izembek National Wildlife Refuge, Cold Bay, Alaska</s></p></note>
+<note n="3" place="foot" xml:id="foot_2" xmlns="http://www.tei-c.org/ns/1.0"><p><s>University of British Columbia, Department of Botany, Vancouver, British Columbia, Canada</s></p></note>
+<note place="foot" xml:id="foot_3" xmlns="http://www.tei-c.org/ns/1.0"><p><s>ISSN 2331-1258 (online) https://doi.org/10.3133/orf20201035</s></p></note>
+<back>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0">Datum<p><s>Vertical coordinate information is referenced to the 1984 World Geodetic System (WGS 84).</s></p></div>
+</div>
+<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Funding and in-kind support for this project was provided by the Izembek National Wildlife Refuge (INWR), U.S. Fish and Wildlife Service-Region 7, and U.S. Geological Survey-Alaska Science Center (USGS-ASC).</s><s>We are extremely grateful to staff at INWR for their generosity and kind assistance throughout project.</s><s>Field collections would not be possible without the generous help of Ron Britton (Alaska Peninsula NWR), Bruce Casler (INWR), Pat Harris (National Marine Fisheries Service-Auke Bay), Mandy Jackson (Cold Bay), Molly Marvel (Cold Bay), Chris Peterson (INWR), and Andy Ramey (USGS-ASC).</s><s>iv</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">Supplemental Information<p><s>Salinity is given in parts per thousand (ppt).</s><s><ref target="#b12" type="bibr">Guiry and Guiry (2020)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Abbreviations<p><s>[-, not present; *, specimen collected and accessioned.</s><s>See <ref target="#b29" type="bibr">Ward (2021)</ref>]</s></p><p><s>Macro-invertebrates were present on an average of 68 percent of points across all years (2008-10) and always in association with eelgrass in Izembek Lagoon (fig.</s><s><ref type="figure">8A</ref>).</s><s>The most common macro-invertebrates were gastropods (48 percent of all points), Caprella shrimp (25 percent), and sponges (17 percent); and the least common was mussels (1 percent).</s><s>Gastropods were present throughout the lagoon, whereas Caprella shrimp, sponges, sea stars, and mussels were primarily present in eelgrass beds near major tidal channels and the three main Bering Sea entrances to the lagoon.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<monogr>
+<title level="m" type="main">Remote sensing of submerged aquatic vegetation in lower Chesapeake Bay-A comparison of Landsat MSS and TM imagery: Remote Sensing of Environment</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">G</forename><surname>Ackleson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Klemas</surname></persname>
+</author>
+<imprint>
+<date type="published" when="1987">1987</date>
+<biblscope unit="volume">22</biblscope>
+<biblscope from="235" to="248" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Ackleson, S.G., and Klemas, V., 1987, Remote sensing of submerged aquatic vegetation in lower Chesapeake Bay-A comparison of Landsat MSS and TM imagery: Remote Sensing of Environment, v. 22, p. 235-248.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<monogr>
+<title level="m" type="main">Plant sociology-The study of plant communities: New York, Hafner Press</title>
+<author>
+<persname><forename type="first">J</forename><surname>Braun-Blanquet</surname></persname>
+</author>
+<editor>Fuller, G.D., and Conard, H.S.</editor>
+<imprint>
+<date type="published" when="1972">1972</date>
+<biblscope unit="page">439</biblscope>
+</imprint>
+</monogr>
+<note>revised translation of the 1932 edition</note>
+<note type="raw_reference">Braun-Blanquet, J., 1972, Plant sociology-The study of plant communities: New York, Hafner Press, revised translation of the 1932 edition, (translated by Fuller, G.D., and Conard, H.S.), 439 p.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Summary of current radiometric calibration coefficients for Landsat MSS</title>
+<author>
+<persname><forename type="first">G</forename><surname>Chander</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">L</forename><surname>Markham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Helder</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">TM, ETM+, and EO-1 ALI sensors: Remote Sensing of Environment</title>
+<imprint>
+<biblscope unit="volume">113</biblscope>
+<biblscope from="893" to="903" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chander, G, Markham, B.L., and Helder, D.L., 2009, Summary of current radiometric calibration coefficients for Landsat MSS, TM, ETM+, and EO-1 ALI sensors: Remote Sensing of Environment, v. 113, p. 893-903.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<monogr>
+<title level="m" type="main">An improved dark-object subtraction technique for atmospheric scattering correction of multispectral data: Remote Sensing of Environment</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">S</forename><surname>Chavez</surname></persname>
+</author>
+<imprint>
+<date type="published" when="1988">1988</date>
+<biblscope unit="volume">24</biblscope>
+<biblscope from="459" to="479" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Chavez, P.S., 1988, An improved dark-object subtraction technique for atmospheric scattering correction of multispectral data: Remote Sensing of Environment, v. 24, p. 459-479.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<monogr>
+<title level="m" type="main">Power analysis to detect a 25% change in eelgrass aboveground biomass in Izembek Lagoon: Anchorage, Alaska</title>
+<author>
+<persname><forename type="first">M</forename><surname>Cobb</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2009">2009</date>
+<publisher>U.S. Fish and Wildlife Service</publisher>
+<biblscope unit="volume">7</biblscope>
+<pubplace>Region</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Cobb, M., 2009, Power analysis to detect a 25% change in eelgrass aboveground biomass in Izembek Lagoon: Anchorage, Alaska, U.S. Fish and Wildlife Service, Region 7.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">The value of the world's ecosystem services and natural capital</title>
+<author>
+<persname><forename type="first">R</forename><surname>Costanza</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Arge</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>De Groot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Farber</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Grasso</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Hannon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Limburg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Naeem</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">V</forename><surname>O'neill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Paruelo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">G</forename><surname>Raskin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Sutton</surname></persname>
+</author>
+<author>
+<persname><surname>Van Den</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Belt</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">387</biblscope>
+<biblscope from="253" to="260" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Costanza, R., d'Arge, R., de Groot, R., Farber, S., Grasso, M., Hannon, B., Limburg, K., Naeem, S., O'Neill, R.V., Paruelo, J., Raskin, R.G., Sutton, P., and van den Belt, M., 1997, The value of the world's ecosystem services and natural capital: Nature, v. 387, p. 253-260.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Assessing water quality with submersed aquatic vegetation-Habitat requirements as barometers of Chesapeake Bay health</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">C</forename><surname>Dennison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Orth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Moore</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Stevenson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Carter</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">BioScience</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope from="86" to="94" unit="page"></biblscope>
+<date type="published" when="1993">1993</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dennison, W.C., Orth, R.J., Moore, K.A., Stevenson, J.C., and Carter, V., 1993, Assessing water quality with submersed aquatic vegetation-Habitat requirements as barometers of Chesapeake Bay health: BioScience, v. 43, p. 86-94.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Sea otter population declines in the Aleutian Archipelago</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Doroff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Estes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">T</forename><surname>Tinker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Burns</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Evans</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Mammalogy</title>
+<imprint>
+<biblscope unit="volume">84</biblscope>
+<biblscope from="55" to="64" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Doroff, A.M., Estes, J.A., Tinker, M.T., Burns, D.M., and Evans, T.J., 2003, Sea otter population declines in the Aleutian Archipelago: Journal of Mammalogy, v. 84, p. 55-64.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Seagrass biomass and production-A reassessment</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Duarte</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">L</forename><surname>Chiscano</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Aquatic Botany</title>
+<imprint>
+<biblscope unit="volume">65</biblscope>
+<biblscope from="159" to="174" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Duarte, C.M., and Chiscano, C.L., 1999, Seagrass biomass and production-A reassessment: Aquatic Botany, v. 65, p. 159-174.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Spatial and temporal pattern in seagrass community composition and productivity in south Florida</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Fourqurean</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Willsie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">D</forename><surname>Rose</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M</forename><surname>Rutten</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Marine Biology</title>
+<imprint>
+<biblscope unit="volume">138</biblscope>
+<biblscope from="341" to="354" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fourqurean, J.W., Willsie, A., Rose, C.D., and Rutten, L.M., 2001, Spatial and temporal pattern in seagrass community composition and productivity in south Florida: Marine Biology, v. 138, p. 341-354.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Steller's Eider (Polysticta stelleri)</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">H</forename><surname>Fredrickson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">The birds of North America: Philadelphia</title>
+<editor>
+<persname><forename type="first">A</forename><surname>Poole</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">F</forename><surname>Gill</surname></persname>
+</editor>
+<imprint>
+<publisher>The Birds of North America, Inc</publisher>
+<date type="published" when="2001">2001</date>
+<biblscope unit="page">571</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Fredrickson, L.H., 2001, Steller's Eider (Polysticta stelleri), in Poole, A., and Gill, F., eds., The birds of North America: Philadelphia, The Birds of North America, Inc., v. 571.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<monogr>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">P</forename><surname>Green</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">T</forename><surname>Short</surname></persname>
+</author>
+<title level="m">World atlas of seagrasses</title>
+<meeting><address><addrline>Berkeley, Calif</addrline></address></meeting>
+<imprint>
+<publisher>University of California Press</publisher>
+<date type="published" when="2003">2003</date>
+<biblscope unit="page">324</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Green, E.P., and Short, F.T., 2003, World atlas of seagrasses: Berkeley, Calif., University of California Press, 324 p.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<monogr>
+<title></title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Guiry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">M</forename><surname>Guiry</surname></persname>
+</author>
+<ptr target="https://www.algaebase.org"></ptr>
+<imprint>
+<date type="published" when="2020-03-23">2020. March 23, 2020</date>
+</imprint>
+<respstmt>
+<orgname>Galway, National University of Ireland</orgname>
+</respstmt>
+</monogr>
+<note>AlgaeBase-World-wide electronic publication. web page</note>
+<note type="raw_reference">Guiry, M.D., and Guiry, G.M., 2020, AlgaeBase-World-wide electronic publication: Galway, National University of Ireland, web page, accessed March 23, 2020, at https://www.algaebase.org.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<monogr>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Hemminga</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Duarte</surname></persname>
+</author>
+<title level="m">Seagrass ecology</title>
+<meeting><address><addrline>Cambridge, United Kingdom</addrline></address></meeting>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="2000">2000</date>
+<biblscope unit="page">298</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Hemminga, M.A., and Duarte, C.M., 2000, Seagrass ecology: Cambridge, United Kingdom, Cambridge University Press, 298 p.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Synthesis of information on the effects of noise and disturbance on major haulout concentrations of Bering Sea pinnipeds: Anchorage, Alaska</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">R</forename><surname>Johnson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Burns</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">I</forename><surname>Malme</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Davis</surname></persname>
+</author>
+<idno>14-12-0001- 30361</idno>
+</analytic>
+<monogr>
+<title level="j">U.S. Minerals Management Service, Final Report</title>
+<imprint>
+<biblscope unit="page">267</biblscope>
+<date type="published" when="1989">1989</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Johnson, S.R., Burns, J.J., Malme, C.I., and Davis, R.A., 1989, Synthesis of information on the effects of noise and disturbance on major haulout concentrations of Bering Sea pinnipeds: Anchorage, Alaska, U.S. Minerals Management Service, Final Report, no. 14-12-0001- 30361, 267 p.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Waterfowl and their habitats in the eastern Bering Sea</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">G</forename><surname>King</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">P</forename><surname>Dau</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="s">The eastern Bering Sea shelf-Oceanography and resources: National Oceanic and Atmospheric Administration: Office of Marine Pollution Assessment</title>
+<editor>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Hood</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Calder</surname></persname>
+</editor>
+<imprint>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="739" to="754" unit="page"></biblscope>
+<date type="published" when="1981">1981</date>
+</imprint>
+</monogr>
+<note type="raw_reference">King, J.G., and Dau, C.P., 1981, Waterfowl and their habitats in the eastern Bering Sea, in Hood, D.W., and Calder, J.A., eds., The eastern Bering Sea shelf-Oceanography and resources: National Oceanic and Atmospheric Administration: Office of Marine Pollution Assessment, v. 2, p. 739-754.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<monogr>
+<title level="m" type="main">Eutrophication and management initiatives for the control of nutrient inputs to Rhode Island coastal lagoons: Estuaries</title>
+<author>
+<persname><forename type="first">V</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Olsen</surname></persname>
+</author>
+<imprint>
+<date type="published" when="1985">1985</date>
+<biblscope unit="volume">8</biblscope>
+<biblscope from="191" to="202" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Lee, V., and Olsen, S., 1985. Eutrophication and management initiatives for the control of nutrient inputs to Rhode Island coastal lagoons: Estuaries, v. 8, p. 191-202.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<monogr>
+<author>
+<persname><forename type="first">T</forename><surname>Mcconnaughey</surname></persname>
+</author>
+<title level="m">Ecosystems naturally labeled with carbon-13-Applications to the study of consumer food-webs</title>
+<meeting><address><addrline>Fairbanks, Alaska</addrline></address></meeting>
+<imprint>
+<date type="published" when="1977">1977</date>
+<biblscope unit="page">128</biblscope>
+</imprint>
+<respstmt>
+<orgname>University of Alaska</orgname>
+</respstmt>
+</monogr>
+<note type="report_type">Master's. thesis</note>
+<note type="raw_reference">McConnaughey, T., 1977, Ecosystems naturally labeled with carbon-13-Applications to the study of consumer food-webs: Fairbanks, Alaska, University of Alaska, Master's. thesis, 128 p.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">The distribution and biogeography of Zostera marina (eelgrass) in Alaska</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">P</forename><surname>Mcroy</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Pacific Science</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope from="507" to="513" unit="page"></biblscope>
+<date type="published" when="1968">1968</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McRoy, C.P., 1968, The distribution and biogeography of Zostera marina (eelgrass) in Alaska: Pacific Science, v. 22, p. 507-513.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<monogr>
+<title level="m" type="main">North Alaska Peninsula commercial salmon annual management report</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L</forename><surname>Murphy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Shaul</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">S</forename><surname>Berceli</surname></persname>
+</author>
+<imprint>
+<date type="published" when="1994">1995. 1994</date>
+<publisher>Alaska Department of Fish and Game</publisher>
+<biblscope unit="page">121</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Murphy, R.L., Shaul, A.R., and Berceli, R.S., 1995. North Alaska Peninsula commercial salmon annual management report, 1994: Kodiak, Alaska, Alaska Department of Fish and Game, 121 p.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">A global crisis for seagrass ecosystems</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Orth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J B</forename><surname>Carruthers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">C</forename><surname>Dennison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Duarte</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Fourqurean</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">L</forename><surname>Heck</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Hughes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Kendrick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">J</forename><surname>Kenworthy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Olyarnik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">T</forename><surname>Short</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Waycott</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Williams</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">BioScience</title>
+<imprint>
+<biblscope unit="volume">56</biblscope>
+<biblscope from="987" to="996" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Orth, R.J., Carruthers, T.J.B., Dennison, W.C., Duarte, C.M., Fourqurean, J.W., Heck, K.L., Hughes, A.R., Kendrick, G.A., Kenworthy, W.J., Olyarnik, S., Short, F.T., Waycott, M., and Williams, S.L., 2006, A global crisis for seagrass ecosystems: BioScience, v. 56, p. 987-996.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Chesapeake Bay-An unprecedented decline in submerged aquatic vegetation</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Orth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Moore</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Science</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope from="51" to="52" unit="page"></biblscope>
+<date type="published" when="1983">1983</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Orth, R.J., and Moore, K.A., 1983, Chesapeake Bay-An unprecedented decline in submerged aquatic vegetation: Science, v. 22, p. 51-52.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Satellite remote sensing of wetlands</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Ozesmi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">E</forename><surname>Bauer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Wetlands Ecology and Management</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope from="381" to="402" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ozesmi, S.L., and Bauer, M.E., 2002, Satellite remote sensing of wetlands: Wetlands Ecology and Management, v. 10, p. 381-402.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Emperor Goose (Chen canagica)</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Petersen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Schmutz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">F</forename><surname>Rockwell</surname></persname>
+</author>
+<idno type="DOI">10.2173/bna</idno>
+<ptr target="https://doi.org/10.2173/bna"></ptr>
+</analytic>
+<monogr>
+<title level="m">The birds of North America</title>
+<editor>
+<persname><forename type="first">A</forename><surname>Poole</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">F</forename><surname>Gill</surname></persname>
+</editor>
+<meeting><address><addrline>Ithaca, N.Y.</addrline></address></meeting>
+<imprint>
+<date type="published" when="1994-09-30">1994. September 30, 2019</date>
+</imprint>
+<respstmt>
+<orgname>Cornell Lab of Ornithology</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">Petersen, M.R., Schmutz, J.A., and Rockwell, R.F., 1994, Emperor Goose (Chen canagica), in Poole, A., and Gill, F., eds., The birds of North America: Ithaca, N.Y., Cornell Lab of Ornithology, accessed September 30, 2019, at https://doi.org/10.2173/bna.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Reed</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">H</forename><surname>Ward</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">V</forename><surname>Derksen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Sedinger</surname></persname>
+</author>
+<idno type="DOI">10.2173/bna.337</idno>
+<ptr target="https://doi.org/10.2173/bna.337"></ptr>
+<title level="m">The birds of North America</title>
+<editor>
+<persname><forename type="first">A</forename><surname>Poole</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">F</forename><surname>Gill</surname></persname>
+</editor>
+<meeting><address><addrline>Ithaca, N.Y.</addrline></address></meeting>
+<imprint>
+<date type="published" when="1998-09-30">1998. September 30, 2019</date>
+</imprint>
+<respstmt>
+<orgname>Cornell Lab of Ornithology</orgname>
+</respstmt>
+</monogr>
+<note>Brant</note>
+<note type="raw_reference">Reed, A.D., Ward, D.H., Derksen, D.V., and Sedinger, J.S., 1998, Brant (Branta bernicula), in Poole, A., and Gill, F., eds., The birds of North America: Ithaca, N.Y., Cornell Lab of Ornithology, accessed September 30, 2019, at https://doi.org/10.2173/bna.337.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Quantifying eelgrass habitat loss in relation to housing development and nitrogen loading in Waquoit Bay</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">T</forename><surname>Short</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Burdick</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Massachusetts: Estuaries</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope from="730" to="739" unit="page"></biblscope>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Short, F.T., and Burdick, D.M., 1996, Quantifying eelgrass habitat loss in relation to housing development and nitrogen loading in Waquoit Bay, Massachusetts: Estuaries, v. 19, p. 730- 739.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">A review of natural and human-induced disturbance of seagrasses worldwide</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">T</forename><surname>Short</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Wyllie-Echeverria</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Environmental Conservation</title>
+<imprint>
+<biblscope unit="volume">23</biblscope>
+<biblscope from="17" to="27" unit="page"></biblscope>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Short, F.T., and Wyllie-Echeverria, S., 1996, A review of natural and human-induced disturbance of seagrasses worldwide: Environmental Conservation, v. 23, p. 17-27.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Evaluation of alternative interpolation techniques for the mapping of remotely-sensed submersed vegetation abundance</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">D</forename><surname>Valley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">T</forename><surname>Drake</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">S</forename><surname>Anderson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Aquatic Botany</title>
+<imprint>
+<biblscope unit="volume">81</biblscope>
+<biblscope from="13" to="25" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Valley, R.D., Drake, M.T., and Anderson, C.S., 2005. Evaluation of alternative interpolation techniques for the mapping of remotely-sensed submersed vegetation abundance: Aquatic Botany, v. 81, p. 13-25.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Digital false colour aerial photographs for discrimination of aquatic macrophyte species</title>
+<author>
+<persname><forename type="first">K</forename><surname>Valta-Hulkkonen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Pellikka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Tanskanen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ustinov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Sandman</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Aquatic Botany</title>
+<imprint>
+<biblscope unit="volume">75</biblscope>
+<biblscope from="71" to="88" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Valta-Hulkkonen, K., Pellikka, P., Tanskanen, H., Ustinov, A., and Sandman, O., 2003, Digital false colour aerial photographs for discrimination of aquatic macrophyte species: Aquatic Botany, v. 75, p. 71-88.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Point sampling data for eelgrass (Zostera marina) and seaweed distribution in bays adjacent to the Izembek National Wildlife Refuge</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">H</forename><surname>Ward</surname></persname>
+</author>
+<idno type="DOI">10.5066/P9ZUDIOH</idno>
+<ptr target="https://doi.org/10.5066/P9ZUDIOH"></ptr>
+</analytic>
+<monogr>
+<title level="j">U.S. Geological Survey data release</title>
+<imprint>
+<date type="published" when="2021">2021</date>
+<pubplace>Alaska</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Ward, D.H., 2021, Point sampling data for eelgrass (Zostera marina) and seaweed distribution in bays adjacent to the Izembek National Wildlife Refuge, Alaska: U.S. Geological Survey data release, https://doi.org/10.5066/P9ZUDIOH.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<monogr>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">H</forename><surname>Ward</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Amundson</surname></persname>
+</author>
+<idno type="DOI">10.3133/ofr20191042</idno>
+<idno>2019-1042</idno>
+<ptr target="https://doi.org/10.3133/ofr20191042"></ptr>
+<title level="m">Monitoring annual trends in abundance of eelgrass (Zostera marina) at Izembek National Wildlife Refuge, Alaska</title>
+<imprint>
+<publisher>U.S. Geological</publisher>
+<date type="published" when="2018">2019. 2018</date>
+</imprint>
+</monogr>
+<note type="report_type">Survey Open-File Report</note>
+<note type="raw_reference">Ward, D.H., and Amundson, C.A., 2019, Monitoring annual trends in abundance of eelgrass (Zostera marina) at Izembek National Wildlife Refuge, Alaska, 2018: U.S. Geological Survey Open-File Report 2019-1042, p. 8, https://doi.org/10.3133/ofr20191042.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Mapping data of eelgrass (Zostera marina) distribution, Alaska and Baja California</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">H</forename><surname>Ward</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Hogrefe</surname></persname>
+</author>
+<idno type="DOI">10.5066/P9WEK4JI</idno>
+<ptr target="https://doi.org/10.5066/P9WEK4JI"></ptr>
+</analytic>
+<monogr>
+<title level="j">U.S. Geological Survey data release</title>
+<imprint>
+<date type="published" when="2022">2022</date>
+<pubplace>Mexico</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Ward, D.H., and Hogrefe, K.R., 2022, Mapping data of eelgrass (Zostera marina) distribution, Alaska and Baja California, Mexico: U.S. Geological Survey data release, https://doi.org/10.5066/P9WEK4JI.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Distribution and stability of eelgrass beds at Izembek Lagoon</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">H</forename><surname>Ward</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Markon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Douglas</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Alaska: Aquatic Botany</title>
+<imprint>
+<biblscope unit="volume">58</biblscope>
+<biblscope from="229" to="240" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ward, D.H., Markon, C.J., and Douglas, D.C., 1997, Distribution and stability of eelgrass beds at Izembek Lagoon, Alaska: Aquatic Botany, v. 58, p. 229-240.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Longterm change in eelgrass distribution at Bahía San Quintín, Baja California, Mexico, using satellite imagery</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">H</forename><surname>Ward</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Morton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">L</forename><surname>Tibbitts</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Douglas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Carrera-Gonzáles</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Estuaries</title>
+<imprint>
+<biblscope unit="volume">26</biblscope>
+<biblscope from="1529" to="1539" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ward, D.H., Morton, A., Tibbitts, T.L., Douglas, D.C., and Carrera-Gonzáles, E., 2003. Long- term change in eelgrass distribution at Bahía San Quintín, Baja California, Mexico, using satellite imagery: Estuaries, v. 26, p. 1529-1539.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<monogr>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Weiland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Morstad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Sands</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Higgins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Fair</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Crawford</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>West</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Mckinley</surname></persname>
+</author>
+<title level="m">Annual management report-2003-Bristol Bay area</title>
+<meeting><address><addrline>Anchorage, Alaska</addrline></address></meeting>
+<imprint>
+<publisher>Department of Fish and Game, Division of Commercial Fisheries</publisher>
+<date type="published" when="2004">2004</date>
+<biblscope unit="page">149</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Weiland, K.A., Morstad, S., Sands, T., Higgins, C., Fair, L., Crawford, D., West, F., and McKinley, L., 2004, Annual management report-2003-Bristol Bay area: Anchorage, Alaska, Department of Fish and Game, Division of Commercial Fisheries, 149 p.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

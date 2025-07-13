@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Emergence of climate change in the tropical Pacific</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2022-03-08">08 March 2022</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">Jun</forename><surname>Ying</surname></persname>
+<email>yingjun@sio.org.cn</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> . State Key Laboratory of Satellite Ocean Environment Dynamics, Second Institute of Oceanography, Ministry of Natural Resources, Hangzhou, China</note>
+<orgname key="dep1" type="department">Second Institute of Oceanography</orgname>
+<orgname key="dep2" type="department">Ministry of Natural Resources</orgname>
+<orgname type="laboratory">State Key Laboratory of Satellite Ocean Environment Dynamics</orgname>
+<address>
+<settlement>Hangzhou</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> . Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai), Zhuhai, China</note>
+<orgname type="department">Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai)</orgname>
+<address>
+<settlement>Zhuhai</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+<affiliation key="aff2">
+<note type="raw_affiliation"> . College of Engineering, Mathematics and Physical Sciences, University of Exeter, Exeter, United Kingdom</note>
+<orgname type="department">College of Engineering, Mathematics and Physical Sciences</orgname>
+<orgname type="institution">University of Exeter</orgname>
+<address>
+<settlement>Exeter</settlement>
+<country key="GB">United Kingdom</country>
+</address>
+</affiliation>
+<affiliation key="aff10">
+<note type="raw_affiliation"> Geophysical Fluid Dynamics, Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China</note>
+<orgname type="department">Institute of Atmospheric Physics</orgname>
+<orgname type="laboratory">Geophysical Fluid Dynamics</orgname>
+<orgname type="institution">Chinese Academy of Sciences</orgname>
+<address>
+<settlement>Beijing</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Matthew</forename><surname>Collins</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> . College of Engineering, Mathematics and Physical Sciences, University of Exeter, Exeter, United Kingdom</note>
+<orgname type="department">College of Engineering, Mathematics and Physical Sciences</orgname>
+<orgname type="institution">University of Exeter</orgname>
+<address>
+<settlement>Exeter</settlement>
+<country key="GB">United Kingdom</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Wenju</forename><surname>Cai</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> . Frontier Science Centre for Deep Ocean Multispheres and Earth System and Physical Oceanography Laboratory, Ocean University of China, Qingdao, China.</note>
+<orgname type="department">Frontier Science</orgname>
+<orgname type="laboratory">Centre for Deep Ocean Multispheres and Earth System and Physical Oceanography Laboratory</orgname>
+<orgname type="institution">Ocean University of China</orgname>
+<address>
+<settlement>Qingdao</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+<affiliation key="aff4">
+<note type="raw_affiliation"> . Qingdao National Laboratory for Marine Science and Technology, Qingdao, China.</note>
+<orgname type="institution">Qingdao National Laboratory for Marine Science and Technology</orgname>
+<address>
+<settlement>Qingdao</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+<affiliation key="aff5">
+<note type="raw_affiliation"> . Centre for Southern Hemisphere Oceans Research (CSHOR), CSIRO Oceans and Atmosphere, Hobart, TAS, Australia.</note>
+<orgname type="department">Centre for Southern Hemisphere Oceans Research (CSHOR)</orgname>
+<orgname type="institution">CSIRO Oceans and Atmosphere</orgname>
+<address>
+<settlement>Hobart</settlement>
+<region>TAS</region>
+<country key="AU">Australia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Axel</forename><surname>Timmermann</surname></persname>
+<affiliation key="aff6">
+<note type="raw_affiliation"> . Center for Climate Physics, Institute for Basic Science (IBS), Busan, South Korea.</note>
+<orgname key="dep1" type="department">Center for Climate Physics</orgname>
+<orgname key="dep2" type="department">Institute for Basic Science (IBS)</orgname>
+<address>
+<settlement>Busan</settlement>
+<country key="KR">South Korea</country>
+</address>
+</affiliation>
+<affiliation key="aff7">
+<note type="raw_affiliation"> . Pusan National University, Busan, South Korea.</note>
+<orgname type="institution">Pusan National University</orgname>
+<address>
+<settlement>Busan</settlement>
+<country key="KR">South Korea</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Ping</forename><surname>Huang</surname></persname>
+<affiliation key="aff8">
+<note type="raw_affiliation"> . Center for Monsoon System Research, Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China</note>
+<orgname key="dep1" type="department">Center for Monsoon System Research</orgname>
+<orgname key="dep2" type="department">Institute of Atmospheric Physics</orgname>
+<orgname type="institution">Chinese Academy of Sciences</orgname>
+<address>
+<settlement>Beijing</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+<affiliation key="aff9">
+<note type="raw_affiliation"> . State Key Laboratory of Numerical Modeling for Atmospheric Sciences and</note>
+<orgname type="laboratory">State Key Laboratory of Numerical Modeling for Atmospheric Sciences</orgname>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Dake</forename><surname>Chen</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> . State Key Laboratory of Satellite Ocean Environment Dynamics, Second Institute of Oceanography, Ministry of Natural Resources, Hangzhou, China</note>
+<orgname key="dep1" type="department">Second Institute of Oceanography</orgname>
+<orgname key="dep2" type="department">Ministry of Natural Resources</orgname>
+<orgname type="laboratory">State Key Laboratory of Satellite Ocean Environment Dynamics</orgname>
+<address>
+<settlement>Hangzhou</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> . Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai), Zhuhai, China</note>
+<orgname type="department">Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai)</orgname>
+<address>
+<settlement>Zhuhai</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+<affiliation key="aff10">
+<note type="raw_affiliation"> Geophysical Fluid Dynamics, Institute of Atmospheric Physics, Chinese Academy of Sciences, Beijing, China</note>
+<orgname type="department">Institute of Atmospheric Physics</orgname>
+<orgname type="laboratory">Geophysical Fluid Dynamics</orgname>
+<orgname type="institution">Chinese Academy of Sciences</orgname>
+<address>
+<settlement>Beijing</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+<affiliation key="aff11">
+<note type="raw_affiliation"> . School of Oceanography, Shanghai Jiao Tong University, Shanghai, China</note>
+<orgname type="department">School of Oceanography</orgname>
+<orgname type="institution">Shanghai Jiao Tong University</orgname>
+<address>
+<settlement>Shanghai</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Karl</forename><surname>Stein</surname></persname>
+<affiliation key="aff6">
+<note type="raw_affiliation"> . Center for Climate Physics, Institute for Basic Science (IBS), Busan, South Korea.</note>
+<orgname key="dep1" type="department">Center for Climate Physics</orgname>
+<orgname key="dep2" type="department">Institute for Basic Science (IBS)</orgname>
+<address>
+<settlement>Busan</settlement>
+<country key="KR">South Korea</country>
+</address>
+</affiliation>
+<affiliation key="aff7">
+<note type="raw_affiliation"> . Pusan National University, Busan, South Korea.</note>
+<orgname type="institution">Pusan National University</orgname>
+<address>
+<settlement>Busan</settlement>
+<country key="KR">South Korea</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Emergence of climate change in the tropical Pacific</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2022-03-08">08 March 2022</date>
+</imprint>
+</monogr>
+<idno type="MD5">925F0CF4B846AE1FF7072DCEEAA49ABB</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-11-04T10:45+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Future changes in both the mean climate of the tropical Pacific and the characteristics of the El Niño-Southern Oscillation (ENSO) are now established as being likely.</s><s>Determining the time of emergence (ToE) of detectable climate change signals against the background noise of natural variability is critical to mitigation strategies and adaptation planning.</s><s>Here, using climate model simulations, we find that the annual-mean sea surface temperature (SST) signal, mainly reflecting the tropical-mean warming, has already emerged in the historical period across much of the tropical Pacific, but appear last in the east.</s><s>The annual-mean rainfall signal of a wetter eastern tropical Pacific is expected to emerge by around mid-century based on the multi-model ensemble mean (MEM) result, with some sensitivity to emission scenario.</s><s>By contrast, the signal of ENSOrelated rainfall variability is projected to emerge by around 2040 based on the MEM regardless of emission scenario, ~ 30 years earlier than that of ENSOrelated SST variability at ~ 2070.</s><s>Our results are instructive for the detection of climate change signals in the tropical Pacific and reinforce the severe risks of ENSO-induced climate extremes that are fast emerging regardless of any mitigation actions.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Main Text:<p><s>Hosting the El Niño-Southern Oscillation (ENSO), the world's largest source of interannual variability, the tropical Pacific plays a pivotal role in human-induced global climate change <ref target="#b0" type="bibr">1</ref> .</s><s>How the tropical Pacific responds to rising anthropogenic greenhouse gases (GHGs) has been one of the most important issues in the climate science <ref target="#b1" type="bibr">[2]</ref><ref target="#b2" type="bibr">[3]</ref><ref target="#b3" type="bibr">[4]</ref> .</s><s>The mean state SST changes projected by coupled general circulation models (CGCMs) display, on average, a faster eastern equatorial warming than surrounding regions, characterized by a weakened west-minus-east SST gradient <ref target="#b4" type="bibr">5,</ref><ref target="#b5" type="bibr">6</ref> .</s><s>However, recent observations show an enhanced west-minus-east SST gradient and an eastern equatorial cooling, although the pattern of change is sensitive to the SST reconstruction used and the period over which the trend is calculated <ref target="#b6" type="bibr">7,</ref><ref target="#b7" type="bibr">8</ref> .</s><s>The tropical Pacific rainfall generally increases in regions where there is more SST warming than the tropical-mean-the socalled "warmer gets wetter" paradigm <ref target="#b3" type="bibr">4,</ref><ref target="#b8" type="bibr">9</ref> , which is accompanied by an eastward shift of the Pacific Walker circulation <ref target="#b9" type="bibr">10</ref> .</s></p><p><s>On interannual timescales, ENSO-related SST variability (hereafter ENSO SST) is projected to increase <ref target="#b10" type="bibr">[11]</ref><ref target="#b11" type="bibr">[12]</ref><ref target="#b12" type="bibr">[13]</ref><ref target="#b13" type="bibr">[14]</ref> , decrease <ref target="#b14" type="bibr">[15]</ref><ref target="#b15" type="bibr">[16]</ref><ref target="#b16" type="bibr">[17]</ref> , or unchange <ref target="#b17" type="bibr">18,</ref><ref target="#b18" type="bibr">19</ref> , indicating a large intermodel diversity <ref target="#b19" type="bibr">[20]</ref><ref target="#b20" type="bibr">[21]</ref><ref target="#b21" type="bibr">[22]</ref> .</s><s>In contrast, the change in ENSO-related rainfall variability (hereafter ENSO rainfall) is projected to increase with a robust inter-model consensus <ref type="bibr">23- 25</ref> , owing to increased mean-state moisture and faster warming in the eastern equatorial Pacific (EEP).</s><s>However, it remains unclear when and how these anthropogenic signals will emerge out of the large background noise of natural variability, and few studies have addressed the potential detectability of human-induced ENSO variance changes <ref target="#b12" type="bibr">13,</ref><ref target="#b25" type="bibr">26,</ref><ref target="#b26" type="bibr">27</ref> .</s><s>This knowledge is fundamental for adaptation planning and risk assessment for affected regions <ref target="#b12" type="bibr">13</ref> , which is also physically connected with other detectable signals such as the Pacific Walker circulation <ref target="#b27" type="bibr">[28]</ref><ref target="#b28" type="bibr">[29]</ref><ref target="#b29" type="bibr">[30]</ref> and sea level <ref target="#b30" type="bibr">[31]</ref><ref target="#b31" type="bibr">[32]</ref><ref target="#b32" type="bibr">[33]</ref> .</s><s>Here we use outputs of climate models participating in Coupled Model Intercomparison Project Phase 6 (CMIP6) (ref. <ref target="#b33" type="bibr">34</ref></s><s>) to determine the time of emergence (ToE) of the anthropogenic climate change signal in the tropical Pacific relative to the background noise in terms of tropical mean state <ref target="#b20" type="bibr">21</ref> and ENSO variability.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Time of Emergence of Mean SST and Rainfall Change Signals<p><s>We begin by investigating the ToE of annual-mean SST based on 23 CMIP6 models under historical forcing before 2014 and various shared socio-economic pathway (SSP) emission scenarios thereafter.</s><s>This requires estimates of both signal and noise of annual-mean SST (see "Signal, noise, and ToE of annual-mean SST and rainfall" in Methods).</s><s>A map of the multi-model ensemble mean (MEM) regression coefficients, representing the response of annual-mean SST to global warming, displays a basin-wide warming in the tropical Pacific together with more warming in the EEP <ref target="#b34" type="bibr">35</ref> (Fig. <ref type="figure">1a</ref>, shaded), consistent with previous studies based on CMIP3 (ref. <ref target="#b35" type="bibr">36</ref></s><s>) and CMIP5 (ref. <ref target="#b4" type="bibr">5</ref></s><s>) models.</s><s>The spatial pattern of the noise exhibits largest values in the EEP region due to ENSO variability <ref target="#b5" type="bibr">6</ref> (Fig. <ref type="figure">1a</ref>, Contours).</s><s>The spatial pattern of the ToE of annualmean SST indicates that the climate change signal should already be detectable across almost the whole tropical Pacific, with the signal emerging last in the EEP where the noise is the largest (Fig. <ref type="figure">1b</ref>; Supplementary Fig. <ref type="figure">1</ref>).</s><s>The distribution of the ToE and the noise have a similar pattern, with the spatial correlation of up to 0.8 in the MEM (Fig. <ref type="figure">1b</ref>) and being statistically significant in all individual models (Supplementary Fig. <ref type="figure">1</ref>), indicating a dominant role of the noise in shaping the spatial distribution of the ToE of annual-mean SST in models.</s></p><p><s>On the other hand, the MEM annual-mean rainfall response to global warming displays a robust increase along the central to eastern equatorial Pacific with a high inter-model consensus, which is linked to the consistent eastward migration of the Pacific Walker circulation <ref target="#b9" type="bibr">10</ref> , and there is less inter-model consistency on the flanks of the climatological Intertropical Convergence Zone (ITCZ) and South Pacific Convergence Zone (SPCZ) (Fig. <ref type="figure">1c</ref>, shaded), in agreement with previous studies <ref target="#b8" type="bibr">9,</ref><ref target="#b36" type="bibr">37</ref> .</s></p><p><s>The MEM noise of annual-mean rainfall exhibits a pattern with large values in the central equatorial Pacific, ITCZ and SPCZ regions, and relatively small values in the EEP (Fig. <ref type="figure">1c</ref>, contours).</s><s>The estimated MEM ToE in most models under the SSP585 scenario, indicates that the annual-mean rainfall signal can be expected to emerge within the coming decades in the EEP, although no emergent signal appears in the ITCZ and the SPCZ by the end of the 21 st century (Fig. <ref type="figure">1d</ref>).</s></p><p><s>We then focus on the EEP region where both detectable signals of annual-mean SST and rainfall emerge in the 21 st century in most models (Fig. <ref type="figure">1b,</ref><ref type="figure">d</ref>).</s><s>As shown in Given that the background noise between MEM results and observations are comparable in magnitude (Fig. <ref type="figure">2c</ref>), the model-observation discrepancy in the ToE of EEP annual-mean SST change is attributable to different signals (Extended Data Fig. <ref type="figure">1a</ref>).</s><s>Differences in signals of annual-mean SST can be further traced back to different responses of local annual-mean SST to global warming (bottom row in Fig. <ref type="figure">2d</ref>), as the model-observation discrepancy in the global-mean SST change is negligible (Extended Data Fig. <ref type="figure">1b-c</ref>).</s><s>The responses of observed annual-mean SST, though with a similar basin-wide warming, display a pattern with an enhanced west-minus-east SST gradient featuring an EEP minimum warming (Extended Data Fig. <ref target="#fig_0" type="figure">2a-c</ref>), in contrast to the local maximum warming in the MEM with a small inter-model difference (Fig. <ref type="figure">1a</ref> and bottom row in Fig. <ref type="figure">2d</ref>).</s></p><p><s>To highlight the spatial variation of SST response to global warming, we further decompose the annual-mean SST into two components: the tropical-mean SST ( tm T )</s></p><p><s>and the relative SST ( r T ) that is the deviation from the tropical-mean <ref target="#b3" type="bibr">4</ref> .</s><s>By doing so, we find the model-observation discrepancy in the EEP annual-mean SST response to global warming is caused by the difference in the response of local r T , rather than that of tm T (top and middle rows in Fig. <ref type="figure">2d</ref>).</s><s>In the MEM, as well as individual models, the r T</s></p><p><s>shows a robust warming response in the EEP, whereas in observations there is consistent cooling response, albeit with different magnitudes (Fig. <ref type="figure">2d</ref> and Extended Data Fig. <ref type="figure">2d-g</ref>).</s></p><p><s>An inter-model relationship reveals that the ToE of the EEP annual-mean SST is highly correlated to the earlier ToE (earlier than 2000 in all but one of the models) of the tm T (r=0.88,</s><s>Fig. <ref type="figure">2e</ref>), but not to the much later ToE (later than 2050 in all models) of the EEP r T (Fig. <ref type="figure">2f</ref>).</s><s>Thus, the modelled emergent signals of the EEP annual-mean SST mainly reflect signals of the tm T .</s><s>The earlier ToE of the tm T is a result of both a stronger response of the tm T (Fig. <ref type="figure">2d</ref>) and weaker background noise (Supplementary Fig. <ref target="#fig_8" type="figure">3a</ref>), while the later ToE of the r T is caused by both a weaker response of the r T (Fig. <ref type="figure">2d</ref>) and stronger background noise (Supplementary Fig. <ref target="#fig_8" type="figure">3b</ref>).</s></p><p><s>Given comparable ToE of tm T (Fig. <ref type="figure">2e</ref>) and noise of r T (Supplementary Fig. <ref target="#fig_8" type="figure">3b</ref>) between the MEM results and observations, the model-observation discrepancy in the ToE of annual-mean SST is thus mainly due to the widely-discussed difference between a warming response of r T in the EEP, featuring a weakened west-minus-east SST gradient in models and an opposite response in observations.</s><s>Although the cause for such opposing responses is still a matter of debate <ref target="#b37" type="bibr">[38]</ref><ref target="#b38" type="bibr">[39]</ref><ref target="#b39" type="bibr">[40]</ref><ref target="#b40" type="bibr">[41]</ref><ref target="#b41" type="bibr">[42]</ref> , we find that both the modelled and observed responses of EEP r T are dependent on the length of the time period over which the responses are computed.</s><s>Regardless of whether the modelled EEP r T response is warming or cooling in the relatively short historical simulations, it can be warming in future projections when the time period is extended to the end of 21 st century (Extended Data Fig. <ref target="#fig_8" type="figure">3</ref>).</s><s>Thus, we cannot exclude the possibility that a pattern with an EEP warming response of r T featuring a weakened west-minus-east SST gradient will emerge in the future as GHGs forcing continues.</s></p><p><s>For rainfall in the EEP, we focus on the model outputs, as observational records are reliable only during the satellite era, thus are too short to capture the long-term global warming-induced signal <ref target="#b42" type="bibr">43</ref> .</s><s>The estimated MEM ToE under different emission scenarios shows that detectable signals of annual-mean rainfall can be found around mid-century under the SSP245, SSP370 and SSP585 scenarios (in years 2070, 2054 and 2043, respectively), but not under the SSP126 scenario which features the lowest GHGs forcing (Fig. <ref target="#fig_8" type="figure">3a</ref>).</s><s>For individual models under the most aggressive SSP585 scenario, all models but two show detectable signals of annual-mean rainfall by the end of 21 st century, while all models but two do not show detectable signals before 2020 (Fig. <ref target="#fig_8" type="figure">3b</ref>), suggesting a robust inter-model consensus of the undetectability of an annual-mean rainfall signal by now.</s><s>The inter-model difference in the ToE of annual-mean rainfall, with signals emerging as early as before 2020 in a few models (such as CanESM5) and as late as after 2080 in other models (such as MPI-ESM1-2-LR), is larger than that of annual-mean SST.</s><s>Nevertheless, the estimated ToE of EEP annualmean rainfall is later than that of annual-mean SST in all models by several decades (Fig. <ref type="figure">2b,</ref><ref target="#fig_8" type="figure">3b</ref>).</s></p><p><s>To investigate the cause of a later ToE of annual-mean rainfall, we decompose rainfall change into a thermodynamic component ( q     ) due to moisture change, and a dynamic component ( q    ) due to circulation change based on a simplified moisture budget analysis <ref target="#b36" type="bibr">37</ref> .</s><s>The result indicates that the weak response of annual-mean rainfall in the ITCZ and SPCZ is caused by an offsetting effect between a positive response of the thermodynamic component and a negative response of the dynamic component, while the robust positive response of EEP annual-mean rainfall is almost entirely due to the dynamic component-an equatorial and eastward shift in rainfall (Supplementary Fig. <ref target="#fig_9" type="figure">4</ref>), in agreement with previous studies <ref target="#b23" type="bibr">24,</ref><ref target="#b24" type="bibr">25</ref> .</s><s>As such, the ToE of EEP annual-mean rainfall appears to not be influenced by the thermodynamic component (Fig. <ref target="#fig_8" type="figure">3c,</ref><ref type="figure">d</ref>).</s><s>Rather, it is almost totally determined by the ToE of dynamic component, with the inter-model correlation coefficient between the two being up to 0.97 (Fig. <ref target="#fig_8" type="figure">3e</ref>).</s></p><p><s>The response of the EEP q    is controlled by an ascending circulation response, which is driven by a local positive warming response of r T (Supplementary Fig. <ref target="#fig_9" type="figure">4b</ref>, contours), suggestive of the "warmer gets wetter" paradigm <ref target="#b3" type="bibr">4,</ref><ref target="#b36" type="bibr">37</ref> .</s><s>The significant inter-model relationship between the response of q    and r T and the insignificant relationship with tm T in the EEP (Extended Data Fig. <ref target="#fig_9" type="figure">4</ref>) further confirms that it is the r T , rather than the tm T , that plays an important role in the response of EEP q    .</s><s>This contributes to a later ToE of annual-mean rainfall compared with that of the annual-mean SST, which mainly reflects the early ToE of the tropical-mean SST (Fig. <ref type="figure">2e</ref>).</s><s>Likewise, we would expect the signal of observed annual-mean rainfall to emerge later than the signal of observed annual-mean SST.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Time of Emergence of ENSO SST and Rainfall Change Signals<p><s>ENSO dominates interannual climate variability in the tropical Pacific, displaying anomalous SST and rainfall over the central to eastern equatorial Pacific <ref target="#b43" type="bibr">44,</ref><ref target="#b44" type="bibr">45</ref> .</s><s>The CMIP6 MEM results for the reference pattern over 1960 to 1989, capture the common features of ENSO (Fig. <ref target="#fig_9" type="figure">4a,</ref><ref type="figure">b</ref>), although there are common biases such as an excessive westward extension of ENSO SST and rainfall <ref target="#b45" type="bibr">46,</ref><ref target="#b46" type="bibr">47</ref> .</s><s>The map of MEM regression coefficients under the four SSP scenarios, representing the response of ENSO SST to global warming (see "Signal, noise and ToE of ENSO SST and rainfall" in Methods), all display an enhancement in SST variability, as well as a westward-shift relative to the reference pattern, with a robust inter-model agreement (Fig. <ref target="#fig_9" type="figure">4c</ref> and Extended Data Fig. <ref target="#fig_10" type="figure">5a-c</ref>).</s><s>The modelled enhanced ENSO SST response is consistent with the observations, although the westward-shifts are hard to detect in the limited historical period in observations (Extended Data Fig. <ref target="#fig_10" type="figure">5d-f</ref>).</s><s>The MEM response of ENSO rainfall, on the other hand, displays a consistent enhancement and an eastward-shift relative to the reference pattern <ref target="#b22" type="bibr">23,</ref><ref target="#b23" type="bibr">24</ref> (Fig. <ref target="#fig_9" type="figure">4d</ref> and Extended Data Fig. <ref target="#fig_10" type="figure">5g-i</ref>).</s></p><p><s>To capture the commonality of the spatial distribution of ENSO ToE for most models, the MEM results of ENSO SST and rainfall ToE are shown by averaging model results only when more than 70% of models have local emergent signals before the last 30-year time window of 21 st century (Fig. <ref target="#fig_9" type="figure">4e,</ref><ref type="figure">f</ref>).</s><s>The results indicate that both emergent signals of ENSO SST and rainfall change are confined to the equatorial region and are not detectable by now.</s><s>The MEM ToE of the ENSO SST signal is located to the west of the referenced ENSO SST center (Fig. <ref target="#fig_9" type="figure">4e</ref>), while the MEM ToE of the ENSO rainfall signal is located to the east of the referenced ENSO rainfall center (Fig. <ref target="#fig_9" type="figure">4f</ref>).</s><s>Thus, besides the increased amplitude responses to global warming, the pattern shifts of both ENSO SST and rainfall contribute to their respective times of emergence.</s></p><p><s>To confirm, we decompose the response of grid-point ENSO SST and rainfall to global warming into two components: the amplitude response and the structural response.</s><s>The former depicts the intensity change by assuming that the spatial pattern under global warming is fixed, while the latter indicates shifts in spatial pattern (see "Separation of amplitude and structural changes in ENSO SST and rainfall" in Methods).</s><s>For ENSO SST, the increased amplitude response plays a greater role than the response of structural change (Supplementary Fig. <ref target="#fig_10" type="figure">5a,</ref><ref type="figure">b</ref>).</s><s>In contrast, for ENSO rainfall, the eastward-shifted structural response plays a more important role in the ENSO rainfall response compared with the increased amplitude response (Supplementary Fig. <ref target="#fig_10" type="figure">5c,</ref><ref type="figure">d</ref>).</s></p><p><s>A comparison between the ToE of ENSO SST and rainfall change signals in the EEP reveals that the modelled ToE of ENSO rainfall signal is generally earlier than that of ENSO SST signal by several decades (Fig. <ref target="#fig_10" type="figure">5a-d</ref>), which is opposite to the ToE behavior of the annual-mean SST and rainfall change signals.</s><s>In the MEM, the ENSO SST signal is expected to emerge under both the SSP585 and SSP370 scenarios in the 30-year time windows ending at 2070 and 2073, respectively, but not under the other two lower scenarios (SSP126 and SSP245) (Fig. <ref target="#fig_10" type="figure">5a</ref>), indicative of some sensitivity to emission scenarios.</s><s>The ToE of ENSO rainfall, however, is projected to be in this century under all the SSP126, SSP245, SSP370 and SSP585 scenarios in the 30-year time windows ending at 2039, 2045, 2042 and 2037, respectively, separated by less than a decade (Fig. <ref target="#fig_10" type="figure">5b</ref>).</s><s>Under SSP585 and SSP370 scenarios, ToE of ENSO rainfall is ~ 30 years earlier than that of ENSO SST.</s></p><p><s>As exemplified by the results projected under the SSP585 scenario, the estimated ToE of ENSO rainfall is also earlier than that of ENSO SST in most individual models (Fig. <ref target="#fig_10" type="figure">5c,</ref><ref type="figure">d</ref> and Supplementary Fig. <ref type="figure">6</ref>).</s><s>For ENSO SST, 17 out of 23 (around 74%) models show a ToE before the end of the 21 st century (Fig. <ref target="#fig_10" type="figure">5c</ref>), while for ENSO rainfall, all but one model (INM-CM5-0) shows the signal emerging (Fig. <ref target="#fig_10" type="figure">5d</ref>).</s><s>A large intermodel spread exists in the ToE of both ENSO SST and rainfall, with the inter-model standard deviation up to 50 years (Fig. <ref target="#fig_10" type="figure">5c,</ref><ref type="figure">d</ref>), which, however, does not change our result of an earlier ToE of ENSO rainfall than ENSO SST.</s><s>Thus, the signal of ENSOrelated variability change, when measured by rainfall <ref target="#b5" type="bibr">6,</ref><ref target="#b23" type="bibr">24</ref> , is stronger and will emerge earlier as compared to that measured by SST.</s></p><p><s>To explore the cause of an earlier ToE of ENSO rainfall, we decompose ENSO rainfall change into a thermodynamic component ( c q     ) due to climatological moisture change, and a dynamic component ( c q    ) due to ENSO-driven atmospheric circulation change <ref target="#b14" type="bibr">15</ref> (see "Decomposition of 30-year climatological SST and ENSO rainfall change" in Methods).</s><s>The responses of both thermodynamic and dynamic components contribute to the increase in ENSO rainfall in the EEP, with the latter playing the major role (supplementary Fig. <ref type="figure">7</ref>).</s><s>Thus, the ToE of ENSO rainfall appears to be dominated by the ToE of dynamic component (Fig. <ref target="#fig_10" type="figure">5e</ref>), while the much earlier ToE of thermodynamic component (Fig. <ref target="#fig_10" type="figure">5f</ref>), though playing a minor role, hastens the ToE of ENSO rainfall (Extended Data Fig. <ref type="figure">6a</ref>).</s><s>The ToE of dynamic component of ENSO rainfall, on the other hand, is controlled by that of the climatological relative SST change, with an inter-model correlation coefficient between the two reaching up to 0.69 (Fig. <ref target="#fig_10" type="figure">5g</ref>), indicating a "warmer gets wetter" paradigm on interannual timescale <ref target="#b47" type="bibr">48,</ref><ref target="#b48" type="bibr">49</ref> .</s><s>As the ToE of climatological relative SST change is earlier than that of ENSO SST (Fig. <ref target="#fig_10" type="figure">5a</ref> and Extended Data Fig. <ref type="figure">6b</ref>), the ToE of ENSO rainfall is also earlier.</s><s>In addition, the insensitivity of the ToE of ENSO rainfall to emission scenarios is attributable to the climatological relative SST change, which is also insensitive to emission scenarios (Extended Data Fig. <ref type="figure">6b</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Implications for Emergence of Rainfall Signals<p><s>Our estimations for ToE of annual-mean rainfall in the EEP based on MEM reveal that they are dependent on the future emission scenarios, with signals emerging as early as before 2050 under the SSP585 scenario; by contrast, annual-mean rainfall is undetectable by the end of this century under the lowest SSP126 scenario (Fig. <ref target="#fig_8" type="figure">3a</ref>).</s><s>This implies that climate mitigation could be effective in preventing significant rainfall shifts in the mean state.</s><s>However, the estimated MEM ToE of ENSO rainfall are only a few years apart in the different emission scenarios (Fig. <ref target="#fig_10" type="figure">5b</ref>).</s><s>Hence, we would expect to detect a significant signal of ENSO rainfall change before 2050 even if we follow a strong mitigation pathway such as the SSP126 or SSP245 scenarios.</s><s>Considering that ENSO rainfall is the main driver of global ENSO teleconnections, via heating of the atmosphere and the propagation of atmospheric waves to both the tropics and extratropics <ref target="#b49" type="bibr">50</ref> , the emergent ENSO rainfall change signal could trigger wide-ranging impacts on natural and human systems.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Summary and Caveats<p><s>Our results indicate that the annual-mean SST signal emerges earlier than the annual-mean rainfall, whereas the ENSO-related rainfall signal emerges earlier than the ENSO-related SST signal, are robust in most individual models as well as in their aggregation.</s><s>We note that the estimated ToE could be affected by model biases.</s><s>For example, the difference between the observed enhancement and a modelled weakening in the equatorial Pacific west-minus-east SST gradient likely affects the ToE of annualmean SST (Fig. <ref type="figure">2b,</ref><ref type="figure">d</ref>).</s><s>However, as we have shown, the possibility that a pattern with a weakened west-minus-east SST gradient should not be excluded in the future real world, given that all models generate SST warming in the EEP in the future with more The Hadley Center Sea Ice and SST version 1.1 (HadISSTv1) (ref. <ref target="#b52" type="bibr">53</ref></s><s>), the National Oceanic and Atmospheric Administration Extended Reconstructed SST version 5 (ERSSTv5) (ref. <ref target="#b53" type="bibr">54</ref></s><s>), and the Centennial In Situ Observation-Based Estimates of the Variability of SST and Marine Meteorological Variables version 2 (COBEv2) (ref. <ref target="#b54" type="bibr">55</ref></s><s>) for the period 1870-2019.</s><s>Here we choose the starting year as 1870 in both models and observations to include the global warming signal as much as possible, but note that there are uncertainties in the SST observational datasets due to the sparse data coverage in the early stage of the records <ref target="#b6" type="bibr">7</ref> .</s><s>However, our main conclusions hardly change if a different starting time between 1870 and 1950 is chosen, since the global warming signals are relatively small before 1950 (Extended Data Fig. <ref type="figure">1c</ref>).</s></p><p><s>We take 30 years of the 1960-1989 period as our reference period, as we find good consistency between observational SST datasets in this period.</s><s>All changes under global warming are calculated by removing the associated values in that reference period.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Annual-mean values are calculated simply by averaging the monthly values from<p><s>January to December.</s><s>Interannual anomaly fields are obtained by removing the climatological annual cycle of the chosen period and then quadratic de-trending <ref target="#b55" type="bibr">56</ref> the monthly values over the chosen period.</s><s><ref type="figure">T</ref> ) that is the deviation from the tropical-mean SST <ref target="#b3" type="bibr">4,</ref><ref target="#b57" type="bibr">58</ref> .</s><s>The annual-mean rainfall change can be decomposed, from a simplified water vapor budget with the negligible non-linear term removed, into the changes in thermodynamic and dynamic component <ref target="#b36" type="bibr">37,</ref><ref target="#b58" type="bibr">59</ref> :</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Signal, noise, and ToE of annual-mean<p><s>( , , ) ~( , , ) ( , ) ( , ) ( , , ) P x y t x y t q x y x y q x y t</s></p><formula xml:id="formula_0">       (2),</formula><p><s>where  denotes the change relative to the value in the reference period; the overbar denotes the climatological value in the reference period 1960-1989; q is surface specific humidity and  is vertical pressure velocity at 500hPa.</s><s>The term q      <ref type="formula">3</ref>)) that are positive (negative), and the signals continue to exceed the defined threshold value beyond that time.</s><s>Note that choosing a different ensemble member run for individual models, say r2i1p1f1, does change the results of estimated ToE of ENSO SST and rainfall for individual models, but our main conclusions do not change, especially considering that they are based on the MEM results.</s><s>In addition, although the times of emergence of ENSO SST and rainfall do change if a different time window, say a 40-year or 50-year time window, is chosen (the longer the time window, the earlier the ToE of ENSO SST and rainfall), our main conclusion of an earlier ToE of ENSO rainfall than that of ENSO SST also doesn't change.</s></p><p><s>For observations, calculation of the signal of ENSO SST is the same as for models except that it is based on the period 1870-2019.</s><s>But when calculating the noise, we first remove the least squares quadratic trend of the monthly SST value for the whole period 1870-2019, and the remaining is treated as the unforced data, which is analogous to the output in piControl run in models.</s><s>Then the changes in ENSO SST in each 30year time window moving forward by one year from the remaining unforced data relative to the reference period of 1960-1989 are calculated to represent the noise.</s><s>In To illustrate, we use one model (EC-Earth3-Veg) and one observational SST (HadISSTv1) and specify a grid-point (0°, 120°W) to give a brief description of how to estimate the ToE of ENSO SST (Supplementary Fig. <ref type="figure">8</ref>).</s><s>The ENSO rainfall change can be decomposed, from a simplified water vapor budget with negligible terms removed, into the changes in thermodynamic and dynamic component <ref target="#b14" type="bibr">15</ref> : cc ( , , ) ~( , , ) ( , ) ( , ) ( , , ) P x y t x y t q x y x y q x y t </s></p><formula xml:id="formula_2">        <label>(6)</label></formula></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Fig. 2a ,<label>2a</label><figdesc><div><p><s>Fig. 2a, the MEM annual-mean SST signals emerge at around 2015 under all four</s></p></div></figdesc></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>GHGs forcing regardless of their behaviors in the historical simulations.</s><s>The second source of uncertainty is a large inter-model difference in the exact ToE, owing to differences either in the background noise of natural variability, the climate change signals in response to global warming, or both.</s><s>Thirdly, the estimated ToE in a specific model could be different in different ensemble member runs with different initial conditions in which decadal to multi-decadal internal variability such as the interdecadal Pacific oscillation 8,51,52 is different.</s><s>However, the MEM results, which are the basis of our conclusions, are robust and insensitive to choosing different ensemble members.</s><s>Despite these caveats, our result of an earlier ToE of annual-mean SST than annual mean rainfall suggests that focus should be placed on the tropical mean SST for detection of mean state change in the tropical Pacific.</s><s>In addition, our result of a ToE of ENSO rainfall, ~30 years earlier than ENSO SST and insensitive to different emission scenarios, highlights the potential risks of extreme events associated with ENSO rainfall change and the associated ENSO teleconnections.</s><s>Methods CMIP6 models, observed datasets, and processing.</s><s>We use the historical runs for the period 1870-2014, the four tier-one SSP (SSP126, SSP245, SSP370 and SSP585) scenario runs for the period 2015-2099, and the pre-industrial control (piControl) run for the last 500 years from 23 CMIP6 models 34 .</s><s>They are ACCESS-CM2, ACCESS-ESM1-5, BCC-CSM2-MR, CanESM5, CESM2-WACCM, CNRM-CM6-1-HR, CNRM-CM6-1, CNRM-ESM2-1, EC-Earth3-Veg, FGOALS-f3-L, FGOALS-g3, GFDL-ESM4, GISS-E2-1-G, INM-CM4-8, INM-CM5-0, IPSL-CM6A-LR, MIROC-ES2L, MIROC6, MPI-ESM1-2-HR, MPI-ESM1-2-LR, MRI-ESM2-0, NorESM2-LM, NorESM2-MM.</s><s>Note that we have only 499 years in model CESM2-WACCM and 300 years in model CNRM-CM6-1-HR in piControl run.</s><s>For each model, we use one ensemble member run (r1i1p1f1) but test the sensitivity to using different members (see "Signal, noise and ToE of ENSO SST and rainfall" below).</s><s>Monthly outputs are used of surface temperature (ts, which is SST for open ocean), rainfall (pr), surface air specific humidity (huss), and vertical pressure velocity (wap) at 500hPa.</s><s>All the model outputs are bilinear interpolated into a 2.5° × 2.5° grid before analyses.</s><s>To investigate ToE of observed SSTs, we use three different observational SST datasets:</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">.<label></label><figdesc><div><p><s>SST and rainfall.</s><s>To estimate the signal of modelled annual-mean SST, we calculate the response of annual-mean SST to global warming.</s><s>The global warming signal is taken as the annual-mean SST change from the reference period of 1960-1989 averaged over the 60°S-60°N domain and then smoothed by fitting a fourth order polynomial<ref target="#b56" type="bibr">57</ref> (Extended Data Fig.1b, c)Here we choose the average of SST from 60°S to 60°N to remove inconsistencies caused by sea ice in observational SSTs but not in modelled surface temperature (ts).</s><s>Nevertheless, our conclusions do not change if a different domain, say 90°S-90°N, is chosen to compute the global warming signal.</s><s>The signal of grid-point annual-mean SST, AM-SST ( , , ) S x y t , is obtained by regressing grid-point annual-mean SST change onto the smoothed global warming time series () Tt: a is the regression coefficient between () Tt and annual-mean SST, representing the response of annual-mean SST to global warming (Fig.1a), and b is the intercept.The noise of grid-point annual-mean SST, AM-SST ( , ) N x y , is defined as the interannual standard deviation of annual-mean SST, which is based on the last 500 years of the piControl run.</s><s>In observations, calculation of the signal of grid-point annual-mean SST is the same as that in the models except that it is based on the period 1870-2019, while the noise of observational annual-mean SST is obtained by calculating standard deviation of the annual-mean SST after the signal is removed<ref target="#b31" type="bibr">32</ref> .</s><s>Modelled signal ( AM-rainfall ( , , ) S x y t ) and noise ( AM-rainfall ( , ) N x y ) of annual-mean rainfall are similarly calculated.The ToE of grid-point annual-mean SST is defined as the year when the grid-point signal-to-noise ratio of annual-mean SST, AM-SST AM-SST /SN, is higher (lower) than 1.0 (-1.0) and all subsequent AM-SST AM-SST / SN stay higher (lower) than 1.0 (-1.0) if the local response of annual-mean SST to global warming ( ( , ) a x y ) is positive (negative), as in a previous study<ref target="#b56" type="bibr">57</ref> .</s><s>Calculation for the modelled ToE of annual-mean rainfall is similar to that for annual-mean SST.</s><s>The ToE in the EEP is obtained by firstly averaging the signal-to-noise ratio as well as the noise spatially and then calculating it using the method above.</s><s>Note that the chosen threshold value of AM-SST AM-SST / SN for a detectable annual-mean signal is somewhat subjective.</s><s>If a larger threshold, say 2.0 (-2.0), is chosen 57 , the estimated times of emergence of annual-mean SST and rainfall would be later by around 20-30 years (not shown), but our result of an earlier ToE of annual-mean SST compared with that of annual-mean rainfall does not change.</s><s>Decomposition of annual-mean SST and rainfall change.</s><s>The annual-mean SST change from the reference period in each grid point can be decomposed into a tropicalmean SST ( tm T ) change averaged over 20°S to 20°N and a relative SST ( r</s></p></div></figdesc></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>is the dynamic component of annual-mean rainfall change, which represents the contributions of atmospheric circulation change, while the term q     is the thermodynamic component of annual-mean rainfall change, which represents the contributions of moisture change 60 .</s><s>The combination of dynamic and thermodynamic components in equation (2) defines the reconstructed annual-mean rainfall change.</s><s>Signal, noise, and ToE of ENSO SST and rainfall.</s><s>Empirical orthogonal function (EOF) analysis is used to extract the spatial pattern of ENSO SST in each model and observations in the tropical Pacific (20°S-20°N, 120°E-80°W).</s><s>For each model, the EOF analysis is performed on interannual anomalies of each 30-year time window moving forward by one year starting from 1870 to 2099, generating an evolution of 30year running variability for time from 1899 to 2099 (recorded as the ending year of each 30-year time window), SST e</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>an 1870-2019 period, we can obtain 121 samples of such change, which are analogous to the 471 samples of SST e-pi ( , , ) EN x y t  in each model.</s><s>The ToE of observational ENSO SST is estimated by making a comparison between the signal of ENSO SST and the above 121 samples of ENSO SST change in a similar statistical way as in models.</s></p></div></figdesc></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>. A separation of ENSO rainfall change is carried out similarly to that of ENSO SST change.</s><s>Decomposition of 30-year climatological SST and ENSO rainfall change.</s><s>As the annual-mean SST change, each of the 30-year climatological-mean SST change from the reference period ending from 1899 to 2099 in each grid point can be decomposed into a tropical-mean climatological SST change averaged over 20°S to 20°N and a climatological relative SST change that is the deviation from the tropical-mean change.</s></p></div></figdesc></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>, where  denotes the change relative to the value in the reference period; the prime denotes ENSO-related interannual variability; the overbar denotes the climatological value in the reference period 1960-1989; c q is 30-year climatological surface specific humidity and  denotes the ENSO-driven vertical motion variability at 500hPa.</s><s>The term c q    is the dynamic component of ENSO rainfall change, which represents the contributions of ENSO-driven atmospheric circulation change, while the term c q     is the thermodynamic component of ENSO rainfall change, which represents the contributions of climatological moisture change 15 .</s><s>The combination of dynamic and thermodynamic components in equation (6) defines the reconstructed ENSO rainfall change.</s></p></div></figdesc></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0">Fig. 1 |Fig. 2 |<label>12</label><figdesc><div><p><s>Fig. 1 | Multi-model Ensemble Mean (MEM) response and time of emergence</s></p></div></figdesc><graphic coords="32,90.00,72.42,415.56,217.20" type="bitmap"></graphic></figure>
+<figure xml:id="fig_8" xmlns="http://www.tei-c.org/ns/1.0">Fig. 3 |<label>3</label><figdesc><div><p><s>Fig. 3 | ToE of annual-mean rainfall in the eastern equatorial Pacific.</s><s>a, Signal-to-</s></p></div></figdesc><graphic coords="36,90.00,78.30,415.56,314.58" type="bitmap"></graphic></figure>
+<figure xml:id="fig_9" xmlns="http://www.tei-c.org/ns/1.0">Fig. 4 |<label>4</label><figdesc><div><p><s>Fig. 4 | MEM response and ToE of ENSO SST and rainfall.</s><s>a-b, Spatial patterns</s></p></div></figdesc><graphic coords="38,90.00,78.60,415.62,329.52" type="bitmap"></graphic></figure>
+<figure xml:id="fig_10" xmlns="http://www.tei-c.org/ns/1.0">Fig. 5 |<label>5</label><figdesc><div><p><s>Fig. 5 | ToE of ENSO SST and rainfall in the eastern equatorial Pacific.</s><s>a, Signal</s></p></div></figdesc><graphic coords="39,90.00,77.70,415.56,441.00" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="1,262.15,479.73,333.12,362.16" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="34,90.00,77.22,415.62,317.16" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="41,182.16,78.60,231.00,485.76" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="42,90.00,78.72,415.26,375.84" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="43,90.00,77.58,415.26,363.24" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="44,90.00,79.02,415.26,282.30" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="45,90.00,75.72,415.32,226.20" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="46,174.42,76.44,246.48,334.26" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>61,23are standardized, and the EOF modes describe the spatial patterns of variability of the modes.The EOF patterns are taken to ensure that they are in El Niño phase.For simplicity, the first EOF mode in each period defines the ENSO SST15,23, and ENSO diversity is not considered61.</s><s>The ENSO rainfall is defined by regressing grid-point interannual anomalies of rainfall onto the first PC of ENSO</s></p></div></figdesc><table><row><cell cols="6">SST EN x y t ( , , ) e  defined as the noise, written as SST e ( , , ) EN x y t </cell><cell cols="2">SST EN x y ( , ) SST ( , , ) . The EOF outputs are arranged such that e-pi e-pi EN x y t   , where t represents each of the</cell></row><row><cell cols="8">471 30-year time windows in the piControl run. Calculations for the modelled signal of ENSO rainfall ( EN-rainfall e ( , , ) S x y t ) and the 471 realizations of ENSO rainfall changes in the piControl run from the reference period ( rainfall e-pi ( , , ) EN x y t  ) are similar to those for ENSO SST. the principal components (SST. The ToE of ENSO SST is defined as the 30-year time window when the signal,</cell></row><row><cell>S</cell><cell cols="7">( , , ) x y t , is higher (lower) than the 99% (1%) value of the noise,</cell></row><row><cell>EN-SST</cell><cell>e</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="8">The evolution of the corresponding global warming signal is taken as the 30-year</cell></row><row><cell>EN </cell><cell cols="3">( , , ) x y t</cell><cell cols="4">, for grid-point ENSO SST responses to global warming ( c in</cell></row><row><cell cols="2">SST</cell><cell>e-pi</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="8">climatological SST change from the reference period, smoothed also by fitting a fourth</cell></row><row><cell cols="6">order polynomial, written as equation (</cell><cell cols="2">ce () Tt , corresponding to changes in ENSO SST,</cell></row><row><cell>EN </cell><cell cols="2">( , , ) x y t</cell><cell cols="5">, in each 30-year time window ending from 1899 to 2099.</cell></row><row><cell cols="2">SST</cell><cell>e</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="8">The evolution of the signal of grid-point ENSO SST change,</cell><cell>S</cell><cell>( , , ) x y t , is</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>EN-SST</cell><cell>e</cell></row><row><cell cols="7">obtained by regressing grid-point ENSO SST change</cell><cell>EN </cell><cell>( , , ) x y t</cell><cell>onto the global</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>SST</cell><cell>e</cell></row><row><cell cols="5">warming time series of</cell><cell>ce () Tt :</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>S</cell><cell cols="3">( , , )= ( , ) ( )+ ( , ) x y t c x y T t d x y </cell><cell>(3),</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>EN-SST</cell><cell>e</cell><cell>c e</cell></row><row><cell>where</cell><cell cols="7">( , ) c x y is the regression coefficient between</cell><cell>ce () Tt and</cell><cell>EN </cell><cell>SST</cell><cell>e ( , , ) x y t</cell><cell>,</cell></row><row><cell cols="8">representing the response of ENSO SST to global warming (Fig. 4c), and d is the</cell></row><row><cell cols="2">intercept.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="8">To diagnose the noise of ENSO SST, the same EOF analysis is applied to each 30-year</cell></row><row><cell cols="8">( , , ) x y t , time window moving forward by one year for the last 500 years of the piControl run, EN 1899 2099 t  , and an evolution of</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>e</cell></row><row><cell cols="8">change of ENSO SST from the reference period over 1960-1989, which generates 471 realizations of 30-year running grid-point ENSO SST for each</cell></row><row><cell cols="8">model. Then changes of these realizations from the reference period of 1960-1989 are</cell></row></table></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>The calculation for the modelled ToE of ENSO rainfall is similar to that for ENSO SST.The estimated times of emergence of ENSO SST and rainfall could be different when choosing different threshold values for signals, but the main conclusions, such as an earlier ToE of ENSO rainfall than that of ENSO SST and both the ToE of ENSO SST and rainfall are not yet detectable, do not change when other threshold values, for example, the 95% (5%) or 97.5% (2.5%), are chosen (Supplementary Table.1).</s></p></div></figdesc><table><row><cell cols="10">Separation of amplitude and structural changes in ENSO SST and rainfall. The</cell></row><row><cell cols="10">Both the EC-Earth3-Veg and changes in ENSO SST in each 30-year time window from 1870 to 2099 relative to the</cell></row><row><cell cols="10">HadISSTv1 display increased signal of ENSO SST with time for the specified grid-reference period of 1960-1989, SST e ( , , ) EN x y t  , are subjected to a "pattern"</cell></row><row><cell cols="10">point (Supplementary Fig. 8a), indicating a positive ENSO SST response to global regression onto ENSO SST pattern in the reference period, SST ( , ) EN x y . The linear</cell></row><row><cell cols="10">warming. As such, we choose the regression defines the amplitude change in ENSO SST, SST e-pi ( , , ) EN x y t  value that is higher than the 99-SST-amp e ( , , ) EN x y t  :</cell></row><row><cell cols="10">percentile value of all the variability samples (471 samples for EC-Earth3-Veg and 121 SST-amp e e SST e ( , , ) ( ) ( , ) ( ) EN x y t t EN x y t      (4),</cell></row><row><cell cols="10">samples for HadISSTv1) as the threshold value for an emergent where  is the "pattern" regression coefficient and  is the intercept. And the EN-SST e ( , , ) S x y t . The</cell></row><row><cell cols="10">threshold value for EC-Earth3-Veg is 0.3 (horizontal black dashed line in</cell></row><row><cell cols="10">residual part represents the structural change in ENSO SST, written as</cell></row><row><cell>EN </cell><cell cols="2">SST-str</cell><cell cols="2">e ( , , ) x y t</cell><cell>:</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">EN </cell><cell cols="2">SST-str</cell><cell cols="2">e ( , , ) x y t</cell><cell>EN  </cell><cell>SST</cell><cell>e ( , , ) x y t</cell><cell>EN  </cell><cell>SST-amp</cell><cell>e ( , , ) x y t</cell></row></table></figure>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Acknowledgements J.Y. was supported by the National Natural Science Foundation of China (Grants 41690121, 41690120), the Scientific Research Fund of the Second Institute of Oceanography, Ministry of Natural Resources (Grant QNYC2001), and the Innovation Group Project of the Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai) (No. 311021001).</s><s>M.C. was supported by a grant from the UK Natural Environment Research Council (NE/S004645/1).</s><s>W.C. was supported by Centre for Southern Hemisphere Oceans Research, a joint research Center for Southern Hemisphere Oceans Research between QNLM and CSIRO.</s><s>A.T. and K.S. received funding from the Institute for Basic Science (IBS) under IBS-R028-D1.</s><s>P.H. was supported by the National Natural Science Foundation of China (Grants 41975116。</s></p></div>
+</div>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0">Data availability<p><s>The CMIP6 model monthly outputs are archived at the Earth System Grid Federation server (https://esgf-node.llnl.gov/search/cmip5/).</s><s>The HadISSTv1 dataset can be obtained from https://www.metoffice.gov.uk/hadobs/.</s><s>The ERSSTv5 and COBEv2 datasets are both available from https://www.esrl.noaa.gov/psd/data/gridded/.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Code availability<p><s>All the codes are built on NCAR Command Language (NCL), which can be made available on request.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Supplementary Fig. <ref type="figure">8</ref>), while that for HadISSTv1 is 0.14 (horizontal red dashed line in Supplementary Fig. <ref type="figure">8</ref>).</s><s>The ToE of ENSO SST in the specified grid-point is thus defined as the 30-year time window when the</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">The tropical Pacific as a key pacemaker of the variable rates of global warming</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Kosaka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S.-P</forename><surname>Xie</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Geoscience</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="669" to="673" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kosaka, Y. &amp; Xie, S.-P. The tropical Pacific as a key pacemaker of the variable rates of global warming. Nature Geoscience 9, 669-673 (2016).</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Time-Mean Response over the Tropical Pacific to Increased CO2 in a Coupled Ocean-Atmosphere Model</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">R</forename><surname>Knutson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Manabe</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope from="2181" to="2199" unit="page"></biblscope>
+<date type="published" when="1995">1995</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Knutson, T. R. &amp; Manabe, S. Time-Mean Response over the Tropical Pacific to Increased CO2 in a Coupled Ocean-Atmosphere Model. Journal of Climate 8, 2181- 2199 (1995).</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Examining the Tropical Pacific's Response to Global Warming</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Vecchi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Clement</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Soden</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Eos, Transactions American Geophysical Union</title>
+<imprint>
+<biblscope unit="volume">89</biblscope>
+<biblscope from="81" to="83" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vecchi, G. A., Clement, A. &amp; Soden, B. J. Examining the Tropical Pacific's Response to Global Warming. Eos, Transactions American Geophysical Union 89, 81- 83 (2008).</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Global Warming Pattern Formation: Sea Surface Temperature and Rainfall</title>
+<author>
+<persname><forename type="first">S.-P</forename><surname>Xie</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">23</biblscope>
+<biblscope from="966" to="986" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Xie, S.-P. et al. Global Warming Pattern Formation: Sea Surface Temperature and Rainfall. Journal of Climate 23, 966-986 (2010).</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Evaluating the formation mechanisms of the equatorial Pacific SST warming pattern in CMIP5 models</title>
+<author>
+<persname><forename type="first">J</forename><surname>Ying</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Huang</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Advances in Atmospheric Sciences</title>
+<imprint>
+<biblscope unit="volume">33</biblscope>
+<biblscope from="433" to="441" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ying, J., Huang, P. &amp; Huang, R. Evaluating the formation mechanisms of the equatorial Pacific SST warming pattern in CMIP5 models. Advances in Atmospheric Sciences 33, 433-441 (2016).</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">ENSO and greenhouse warming</title>
+<author>
+<persname><forename type="first">W</forename><surname>Cai</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope from="849" to="859" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cai, W. et al. ENSO and greenhouse warming. Nature Climate Change 5, 849-859 (2015).</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Twentieth century tropical sea surface temperature trends revisited</title>
+<author>
+<persname><forename type="first">C</forename><surname>Deser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">S</forename><surname>Phillips</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Alexander</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Deser, C., Phillips, A. S. &amp; Alexander, M. A. Twentieth century tropical sea surface temperature trends revisited. Geophysical Research Letters 37 (2010).</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Role of internal variability in recent decadal to multidecadal tropical Pacific climate changes</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">H</forename><surname>Bordbar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Martin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Latif</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Park</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">44</biblscope>
+<biblscope from="4246" to="4255" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bordbar, M. H., Martin, T., Latif, M. &amp; Park, W. Role of internal variability in recent decadal to multidecadal tropical Pacific climate changes. Geophysical Research Letters 44, 4246-4255 (2017).</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Changes in South Pacific rainfall bands in a warming climate</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Widlansky</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope from="417" to="423" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Widlansky, M. J. et al. Changes in South Pacific rainfall bands in a warming climate. Nature Climate Change 3, 417-423 (2013).</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">The eastward shift of the Walker Circulation in response to global warming and its relationship to ENSO variability</title>
+<author>
+<persname><forename type="first">T</forename><surname>Bayr</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Dommenget</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Martin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">B</forename><surname>Power</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Climate Dynamics</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope from="2747" to="2763" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bayr, T., Dommenget, D., Martin, T. &amp; Power, S. B. The eastward shift of the Walker Circulation in response to global warming and its relationship to ENSO variability. Climate Dynamics 43, 2747-2763 (2014).</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Increased variability of eastern Pacific El Niño under greenhouse warming</title>
+<author>
+<persname><forename type="first">W</forename><surname>Cai</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">564</biblscope>
+<biblscope from="201" to="206" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cai, W. et al. Increased variability of eastern Pacific El Niño under greenhouse warming. Nature 564, 201-206 (2018).</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Intermodel Uncertainty in the Change of ENSO's Amplitude under Global Warming: Role of the Response of Atmospheric Circulation to SST Anomalies</title>
+<author>
+<persname><forename type="first">J</forename><surname>Ying</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Lian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Chen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">32</biblscope>
+<biblscope from="369" to="383" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ying, J., Huang, P., Lian, T. &amp; Chen, D. Intermodel Uncertainty in the Change of ENSO's Amplitude under Global Warming: Role of the Response of Atmospheric Circulation to SST Anomalies. Journal of Climate 32, 369-383 (2019).</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Changing El Niño-Southern Oscillation in a warming climate</title>
+<author>
+<persname><forename type="first">W</forename><surname>Cai</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Reviews Earth &amp; Environment</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="628" to="644" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cai, W. et al. Changing El Niño-Southern Oscillation in a warming climate. Nature Reviews Earth &amp; Environment 2, 628-644 (2021).</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">ENSO Response to Greenhouse Forcing</title>
+<author>
+<persname><forename type="first">W</forename><surname>Cai</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">El Niño Southern Oscillation in a Changing Climate</title>
+<imprint>
+<publisher>AGU</publisher>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cai, W. et al. ENSO Response to Greenhouse Forcing, in El Niño Southern Oscillation in a Changing Climate (eds McPhaden, M. J., Santoso, A. &amp; Cai, W.) (AGU, 2020).</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Mechanisms of change in ENSO-induced tropical Pacific rainfall variability in a warming climate</title>
+<author>
+<persname><forename type="first">P</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S.-P</forename><surname>Xie</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Geoscience</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope from="922" to="926" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Huang, P. &amp; Xie, S.-P. Mechanisms of change in ENSO-induced tropical Pacific rainfall variability in a warming climate. Nature Geoscience 8, 922-926 (2015).</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Robust decrease in El Niño/Southern Oscillation amplitude under long-term warming</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">W</forename><surname>Callahan</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="752" to="757" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Callahan, C. W. et al. Robust decrease in El Niño/Southern Oscillation amplitude under long-term warming. Nature Climate Change 11, 752-757 (2021).</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Future high-resolution El Niño/Southern Oscillation dynamics</title>
+<author>
+<persname><forename type="first">C</forename><surname>Wengel</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="758" to="765" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wengel, C. et al. Future high-resolution El Niño/Southern Oscillation dynamics. Nature Climate Change 11, 758-765 (2021).</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Shifts in ENSO coupling processes under global warming</title>
+<author>
+<persname><forename type="first">S</forename><surname>Philip</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">J</forename><surname>Van Oldenborgh</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">33</biblscope>
+<biblscope unit="page">11704</biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Philip, S. &amp; van Oldenborgh, G. J. Shifts in ENSO coupling processes under global warming. Geophysical Research Letters 33, L11704 (2006).</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Significant changes to ENSO strength and impacts in the twentyfirst century: Results from CMIP5</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Stevenson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">39</biblscope>
+<biblscope unit="page">17703</biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stevenson, S. L. Significant changes to ENSO strength and impacts in the twenty- first century: Results from CMIP5. Geophysical Research Letters 39, L17703 (2012).</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Uncertainty in the ENSO amplitude change from the past to the future</title>
+<author>
+<persname><forename type="first">M</forename><surname>Watanabe</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">39</biblscope>
+<biblscope unit="page">20703</biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Watanabe, M. et al. Uncertainty in the ENSO amplitude change from the past to the future. Geophysical Research Letters 39, L20703 (2012).</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">ENSO representation in climate models: from CMIP3 to CMIP5</title>
+<author>
+<persname><forename type="first">H</forename><surname>Bellenger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Guilyardi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Leloup</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Lengaigne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Vialard</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Climate Dynamics</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope from="1999" to="2018" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bellenger, H., Guilyardi, E., Leloup, J., Lengaigne, M. &amp; Vialard, J. ENSO representation in climate models: from CMIP3 to CMIP5. Climate Dynamics 42, 1999- 2018 (2014).</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">ENSO in the CMIP5 Simulations: Life Cycles, Diversity, and Responses to Climate Change</title>
+<author>
+<persname><forename type="first">C</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Cane</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">T</forename><surname>Wittenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Chen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope from="775" to="801" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chen, C., Cane, M. A., Wittenberg, A. T. &amp; Chen, D. ENSO in the CMIP5 Simulations: Life Cycles, Diversity, and Responses to Climate Change. Journal of Climate 30, 775-801 (2017).</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Robust twenty-firstcentury projections of ElNino and related precipitation variability</title>
+<author>
+<persname><forename type="first">S</forename><surname>Power</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Delage</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Chung</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Kociuba</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Keay</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">502</biblscope>
+<biblscope from="541" to="545" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Power, S., Delage, F., Chung, C., Kociuba, G. &amp; Keay, K. Robust twenty-first- century projections of ElNino and related precipitation variability. Nature 502, 541-545 (2013).</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Increasing frequency of extreme El Nino events due to greenhouse warming</title>
+<author>
+<persname><forename type="first">W</forename><surname>Cai</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope from="111" to="116" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cai, W. et al. Increasing frequency of extreme El Nino events due to greenhouse warming. Nature Climate Change 4, 111-116 (2014).</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Increasing ENSO-rainfall variability due to changes in future tropical temperature-rainfall relationship</title>
+<author>
+<persname><forename type="first">K.-S</forename><surname>Yun</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Communications Earth &amp; Environment</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="page">43</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Yun, K.-S. et al. Increasing ENSO-rainfall variability due to changes in future tropical temperature-rainfall relationship. Communications Earth &amp; Environment 2, 43 (2021).</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Detecting the Nonstationary Response of ENSO to Greenhouse Warming</title>
+<author>
+<persname><forename type="first">A</forename><surname>Timmermann</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of the Atmospheric Sciences</title>
+<imprint>
+<biblscope unit="volume">56</biblscope>
+<biblscope from="2313" to="2325" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Timmermann, A. Detecting the Nonstationary Response of ENSO to Greenhouse Warming. Journal of the Atmospheric Sciences 56, 2313-2325 (1999).</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Niño/Southern Oscillation response to global warming</title>
+<author>
+<persname><forename type="first">M</forename><surname>Latif</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">S</forename><surname>Keenlyside</surname></persname>
+</author>
+<author>
+<persname><surname>El</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proceedings of the National Academy of Sciences</title>
+<imprint>
+<biblscope unit="volume">106</biblscope>
+<biblscope from="20578" to="20583" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Latif, M. &amp; Keenlyside, N. S. El Niño/Southern Oscillation response to global warming. Proceedings of the National Academy of Sciences 106, 20578-20583 (2009).</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Detectability of Changes in the Walker Circulation in Response to Global Warming</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">N</forename><surname>Dinezio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Vecchi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Clement</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">26</biblscope>
+<biblscope from="4038" to="4048" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">DiNezio, P. N., Vecchi, G. A. &amp; Clement, A. C. Detectability of Changes in the Walker Circulation in Response to Global Warming. Journal of Climate 26, 4038-4048 (2013).</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Evidence for weakening of the Walker circulation from cloud observations</title>
+<author>
+<persname><forename type="first">K</forename><surname>Bellomo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Clement</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope from="7758" to="7766" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bellomo, K. &amp; Clement, A. C. Evidence for weakening of the Walker circulation from cloud observations. Geophysical Research Letters 42, 7758-7766 (2015).</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Reconciling opposing Walker circulation trends in observations and model projections</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">S</forename><surname>Chung</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="405" to="412" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chung, E. S. et al. Reconciling opposing Walker circulation trends in observations and model projections. Nature Climate Change 9, 405-412 (2019).</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Uncovering an anthropogenic sea-level rise signal in the Pacific Ocean</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">D</forename><surname>Hamlington</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope from="782" to="785" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hamlington, B. D. et al. Uncovering an anthropogenic sea-level rise signal in the Pacific Ocean. Nature Climate Change 4, 782-785 (2014).</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Effects of long-term variability on projections of twenty-first century dynamic sea level</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">H</forename><surname>Bordbar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Martin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Latif</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Park</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope from="343" to="347" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bordbar, M. H., Martin, T., Latif, M. &amp; Park, W. Effects of long-term variability on projections of twenty-first century dynamic sea level. Nature Climate Change 5, 343-347 (2015).</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Wind Effects on Past and Future Regional Sea Level Trends in the Southern Indo-Pacific</title>
+<author>
+<persname><forename type="first">A</forename><surname>Timmermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Mcgregor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">F</forename><surname>Jin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">23</biblscope>
+<biblscope from="4429" to="4437" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Timmermann, A., McGregor, S. &amp; Jin, F. F. Wind Effects on Past and Future Regional Sea Level Trends in the Southern Indo-Pacific. Journal of Climate 23, 4429- 4437 (2010).</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization</title>
+<author>
+<persname><forename type="first">V</forename><surname>Eyring</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geosci. Model Dev</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="1937" to="1958" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Eyring, V. et al. Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization. Geosci. Model Dev. 9, 1937-1958 (2016).</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Eastern equatorial Pacific warming delayed by aerosols and thermostat response to CO2 increase</title>
+<author>
+<persname><forename type="first">U</forename><forename type="middle">K</forename><surname>Heede</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">V</forename><surname>Fedorov</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="696" to="703" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Heede, U. K. &amp; Fedorov, A. V. Eastern equatorial Pacific warming delayed by aerosols and thermostat response to CO2 increase. Nature Climate Change 11, 696-703 (2021).</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Weakening of tropical Pacific atmospheric circulation due to anthropogenic forcing</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Vecchi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">441</biblscope>
+<biblscope from="73" to="76" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vecchi, G. A. et al. Weakening of tropical Pacific atmospheric circulation due to anthropogenic forcing. Nature 441, 73-76 (2006).</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Regional response of annual-mean tropical rainfall to global warming</title>
+<author>
+<persname><forename type="first">P</forename><surname>Huang</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Science Letters</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope from="103" to="109" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Huang, P. Regional response of annual-mean tropical rainfall to global warming. Atmospheric Science Letters 15, 103-109 (2014).</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Recent Walker circulation strengthening and Pacific cooling amplified by Atlantic warming</title>
+<author>
+<persname><forename type="first">S</forename><surname>Mcgregor</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope from="888" to="892" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McGregor, S. et al. Recent Walker circulation strengthening and Pacific cooling amplified by Atlantic warming. Nature Climate Change 4, 888-892 (2014).</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Are Simulated and Observed Twentieth Century Tropical Pacific Sea Surface Temperature Trends Significant Relative to Internal Variability</title>
+<author>
+<persname><forename type="first">S</forename><surname>Coats</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">B</forename><surname>Karnauskas</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">44</biblscope>
+<biblscope from="9928" to="9937" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Coats, S. &amp; Karnauskas, K. B. Are Simulated and Observed Twentieth Century Tropical Pacific Sea Surface Temperature Trends Significant Relative to Internal Variability? Geophysical Research Letters 44, 9928-9937 (2017).</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Strengthening tropical Pacific zonal sea surface temperature gradient consistent with rising greenhouse gases</title>
+<author>
+<persname><forename type="first">R</forename><surname>Seager</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="517" to="522" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Seager, R. et al. Strengthening tropical Pacific zonal sea surface temperature gradient consistent with rising greenhouse gases. Nature Climate Change 9, 517-522 (2019).</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Enhanced warming constrained by past trends in equatorial Pacific sea surface temperature gradient</title>
+<author>
+<persname><forename type="first">M</forename><surname>Watanabe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-L</forename><surname>Dufresne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Kosaka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Mauritsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Tatebe</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="33" to="37" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Watanabe, M., Dufresne, J.-L., Kosaka, Y., Mauritsen, T. &amp; Tatebe, H. Enhanced warming constrained by past trends in equatorial Pacific sea surface temperature gradient. Nature Climate Change 11, 33-37 (2020).</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Indian Ocean Warming Trend Reduces Pacific Warming Response to Anthropogenic Greenhouse Gases: An Interbasin Thermostat Mechanism</title>
+<author>
+<persname><forename type="first">L</forename><surname>Zhang</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">46</biblscope>
+<biblscope from="10882" to="10890" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zhang, L. et al. Indian Ocean Warming Trend Reduces Pacific Warming Response to Anthropogenic Greenhouse Gases: An Interbasin Thermostat Mechanism. Geophysical Research Letters 46, 10882-10890 (2019).</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Do Models and Observations Disagree on the Rainfall Response to Global Warming</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">G</forename><surname>Liepert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Previdi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope from="3156" to="3166" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Liepert, B. G. &amp; Previdi, M. Do Models and Observations Disagree on the Rainfall Response to Global Warming? Journal of Climate 22, 3156-3166 (2009).</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Global and Regional Scale Precipitation Patterns Associated with the El Niño/Southern Oscillation</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">F</forename><surname>Ropelewski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">S</forename><surname>Halpert</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Monthly Weather Review</title>
+<imprint>
+<biblscope unit="volume">115</biblscope>
+<biblscope from="1606" to="1626" unit="page"></biblscope>
+<date type="published" when="1987">1987</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ropelewski, C. F. &amp; Halpert, M. S. Global and Regional Scale Precipitation Patterns Associated with the El Niño/Southern Oscillation. Monthly Weather Review 115, 1606-1626 (1987).</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Large-Scale Atmospheric Circulation Features of Warm and Cold Episodes in the Tropical Pacific</title>
+<author>
+<persname><forename type="first">C</forename><surname>Deser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Wallace</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope from="1254" to="1281" unit="page"></biblscope>
+<date type="published" when="1990">1990</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Deser, C. &amp; Wallace, J. M. Large-Scale Atmospheric Circulation Features of Warm and Cold Episodes in the Tropical Pacific. Journal of Climate 3, 1254-1281 (1990).</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Improvement of ENSO Simulation Based on Intermodel Diversity</title>
+<author>
+<persname><forename type="first">Y.-G</forename><surname>Ham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-S</forename><surname>Kug</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope from="998" to="1015" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ham, Y.-G. &amp; Kug, J.-S. Improvement of ENSO Simulation Based on Intermodel Diversity. Journal of Climate 28, 998-1015 (2015).</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Origins of the Excessive Westward Extension of ENSO SST Simulated in CMIP5 and CMIP6 Models</title>
+<author>
+<persname><forename type="first">W</forename><surname>Jiang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Ying</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope from="2839" to="2851" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jiang, W., Huang, P., Huang, G. &amp; Ying, J. Origins of the Excessive Westward Extension of ENSO SST Simulated in CMIP5 and CMIP6 Models. Journal of Climate 34, 2839-2851 (2021).</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">Weakening of the tropical atmospheric circulation response to local sea surface temperature anomalies under global warming</title>
+<author>
+<persname><forename type="first">P</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Ying</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope from="8149" to="8158" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Huang, P., Chen, D. &amp; Ying, J. Weakening of the tropical atmospheric circulation response to local sea surface temperature anomalies under global warming. Journal of Climate 30, 8149-8158 (2017).</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Changes in the sensitivity of tropical rainfall response to local sea surface temperature anomalies under global warming</title>
+<author>
+<persname><forename type="first">J</forename><surname>Ying</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Lian</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">International Journal of Climatology</title>
+<imprint>
+<biblscope unit="volume">39</biblscope>
+<biblscope from="5801" to="5814" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ying, J., Huang, P. &amp; Lian, T. Changes in the sensitivity of tropical rainfall response to local sea surface temperature anomalies under global warming. International Journal of Climatology 39, 5801-5814 (2019).</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Future Changes to El Niño Teleconnections over the North Pacific and North America</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Beverley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">H</forename><surname>Lambert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Chadwick</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope from="6191" to="6205" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Beverley, J. D., Collins, M., Lambert, F. H. &amp; Chadwick, R. Future Changes to El Niño Teleconnections over the North Pacific and North America. Journal of Climate 34, 6191-6205 (2021).</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">Recent intensification of wind-driven circulation in the Pacific and the ongoing warming hiatus</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">H</forename><surname>England</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope from="222" to="227" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">England, M. H. et al. Recent intensification of wind-driven circulation in the Pacific and the ongoing warming hiatus. Nature Climate Change 4, 222-227 (2014).</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">Uncertainty in near-term global surface warming linked to tropical Pacific climate variability</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">H</forename><surname>Bordbar</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Communications</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="page">1990</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bordbar, M. H. et al. Uncertainty in near-term global surface warming linked to tropical Pacific climate variability. Nature Communications 10, 1990 (2019).</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">Global analyses of sea surface temperature, sea ice, and night marine air temperature since the late nineteenth century</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">A</forename><surname>Rayner</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">108</biblscope>
+<biblscope unit="page">4407</biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rayner, N. A. et al. Global analyses of sea surface temperature, sea ice, and night marine air temperature since the late nineteenth century. Journal of Geophysical Research: Atmospheres 108, 4407 (2003).</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">Extended Reconstructed Sea Surface Temperature, Version 5 (ERSSTv5): Upgrades, Validations, and Intercomparisons</title>
+<author>
+<persname><forename type="first">B</forename><surname>Huang</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope from="8179" to="8205" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Huang, B. et al. Extended Reconstructed Sea Surface Temperature, Version 5 (ERSSTv5): Upgrades, Validations, and Intercomparisons. Journal of Climate 30, 8179-8205 (2017).</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">Centennial-Scale Sea Surface Temperature Analysis and Its Uncertainty</title>
+<author>
+<persname><forename type="first">S</forename><surname>Hirahara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ishii</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Fukuda</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope from="57" to="75" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hirahara, S., Ishii, M. &amp; Fukuda, Y. Centennial-Scale Sea Surface Temperature Analysis and Its Uncertainty. Journal of Climate 27, 57-75 (2014).</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">Butterfly effect and a self-modulating El Niño response to global warming</title>
+<author>
+<persname><forename type="first">W</forename><surname>Cai</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">585</biblscope>
+<biblscope from="68" to="73" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cai, W. et al. Butterfly effect and a self-modulating El Niño response to global warming. Nature 585, 68-73 (2020).</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">Time of emergence of climate signals</title>
+<author>
+<persname><forename type="first">E</forename><surname>Hawkins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sutton</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">39</biblscope>
+<biblscope unit="page">1702</biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hawkins, E. &amp; Sutton, R. Time of emergence of climate signals. Geophysical Research Letters 39, L01702 (2012).</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">Changes in the sea surface temperature threshold for tropical convection</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">C</forename><surname>Johnson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S.-P</forename><surname>Xie</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Geoscience</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope from="842" to="845" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Johnson, N. C. &amp; Xie, S.-P. Changes in the sea surface temperature threshold for tropical convection. Nature Geoscience 3, 842-845 (2010).</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Patterns of the seasonal response of tropical rainfall to global warming</title>
+<author>
+<persname><forename type="first">P</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S.-P</forename><surname>Xie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Hu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Huang</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature Geoscience</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope from="357" to="361" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Huang, P., Xie, S.-P., Hu, K., Huang, G. &amp; Huang, R. Patterns of the seasonal response of tropical rainfall to global warming. Nature Geoscience 6, 357-361 (2013).</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Evaluating the "Rich-Get-Richer" Mechanism in Tropical Precipitation Change under Global Warming</title>
+<author>
+<persname><forename type="first">C</forename><surname>Chou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Neelin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C.-A</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-Y</forename><surname>Tu</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope from="1982" to="2005" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chou, C., Neelin, J. D., Chen, C.-A. &amp; Tu, J.-Y. Evaluating the "Rich-Get-Richer" Mechanism in Tropical Precipitation Change under Global Warming. Journal of Climate 22, 1982-2005 (2009).</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">Extended Data Fig. 3 | EEP relative SST response to global warming calculated in increasing length of periods</title>
+<author>
+<persname><forename type="first">K</forename><surname>Ashok</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">K</forename><surname>Behera</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Rao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Weng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Yamagata</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Oceans</title>
+<imprint>
+<biblscope unit="volume">112</biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note>El Niño Modoki and its possible teleconnection. Shown is for response averaged over the EEP (2.5°S-2.5°N, 180°W-100°W) for 23 CMIP6 models under historical and the SSP585 scenario and in observations (y-axis, units: K K -1 ). The x-axis indicates the ending year of a period for calculation of the response, all starting from 1870; for example, when ending in 1949 (the first year shown), the response is calculated over the period from 1870-1949, and when ending in 2050 the response is calculated over the period from 1870-2050</note>
+<note type="raw_reference">Ashok, K., Behera, S. K., Rao, S. A., Weng, H. &amp; Yamagata, T. El Niño Modoki and its possible teleconnection. Journal of Geophysical Research: Oceans 112 (2007). Extended Data Fig. 3 | EEP relative SST response to global warming calculated in increasing length of periods. Shown is for response averaged over the EEP (2.5°S- 2.5°N, 180°W-100°W) for 23 CMIP6 models under historical and the SSP585 scenario and in observations (y-axis, units: K K -1 ). The x-axis indicates the ending year of a period for calculation of the response, all starting from 1870; for example, when ending in 1949 (the first year shown), the response is calculated over the period from 1870- 1949, and when ending in 2050 the response is calculated over the period from 1870- 2050.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

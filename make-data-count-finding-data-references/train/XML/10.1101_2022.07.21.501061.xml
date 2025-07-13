@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Climate Ecology as a Driver of Global Breeding Periods in Anurans</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Bryan</forename><forename type="middle">H</forename><surname>Juarez</surname></persname>
+<email>bryanhjuarez@gmail.com</email>
+<affiliation key="aff0">
+<note type="raw_affiliation">Department of Biology; Stanford University; Stanford, California 94305, USA.</note>
+<orgname type="department">Department of Biology</orgname>
+<orgname type="institution">Stanford University</orgname>
+<address>
+<postcode>94305</postcode>
+<settlement>Stanford</settlement>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Lauren</forename><forename type="middle">A</forename><surname>O'connell</surname></persname>
+<email>loconnel@stanford.edu</email>
+<affiliation key="aff0">
+<note type="raw_affiliation">Department of Biology; Stanford University; Stanford, California 94305, USA.</note>
+<orgname type="department">Department of Biology</orgname>
+<orgname type="institution">Stanford University</orgname>
+<address>
+<postcode>94305</postcode>
+<settlement>Stanford</settlement>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Climate Ecology as a Driver of Global Breeding Periods in Anurans</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">983E253068C4C3359185228A4FCBCB24</idno>
+<idno type="DOI">10.1101/2022.07.21.501061</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-09-01T15:07+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>amphibian</term>
+<term>frogs</term>
+<term>reproduction</term>
+<term>phenology</term>
+<term>environmental change</term>
+<term>conservation</term>
+<term>microhabitat</term>
+<term>body size</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Climate can have profound effects on reproductive behavior and physiology, especially in ectothermic animals.</s><s>In amphibians, the evolution of breeding period due to climate has received little attention despite its direct connection to fitness and relevance to conservation.</s><s>We used phylogenetic comparative methods to analyze a global dataset of frog breeding periods, climate, body size, and microhabitat for 497 species (41 of 54 families).</s><s>We found support for the hypothesis that breeding periods are longer in the warmer, wetter, aseasonal tropics and shorter in the colder, dryer, seasonal temperate zone.</s><s>However, this latitudinal reproduction gradient is more complex than expected; the effect of climate depends on body size.</s></p><p><s>Additionally, breeding periods were similar across microhabitats.</s><s>Overall, our model describes ~20% of variation in breeding periods and these results are robust to phylogenetic uncertainty.</s></p><p><s>Our results set within an eco-physiology framework have broad implications for more targeted priorities in amphibian conservation.</s></p><p><s>.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Climate change is increasingly threatening global biodiversity with increasing extinctions as environments are altered <ref target="#b3" type="bibr">(Arneth et al. 2020;</ref><ref target="#b7" type="bibr">Bellard et al. 2012;</ref><ref type="bibr">Thomas et al. 2004;</ref><ref target="#b64" type="bibr">Urban 2015)</ref>.</s><s>While climate change is a growing problem in the present, its past effects have molded the behavior and physiology of species still around today.</s><s>Thus, by studying coevolution between organisms and the environment, we can better understand how climate change will differentially affect species survival.</s><s>Importantly, evolutionary biology is taking a key role in conservation biology <ref type="bibr">(Zizka et al. 2021)</ref>, with climate change and anthropogenic impacts at the heart of these studies.</s><s>As successful reproduction is necessary for survival and fitness, studies of the ecology and evolution of reproductive traits are needed to understand the effects of climate change on species reproductive success.</s><s>For example, climate change has led to shifting clutch sizes, offspring sizes, and breeding season start times in vertebrates <ref target="#b10" type="bibr">(Bronson 2009;</ref><ref target="#b57" type="bibr">Padilla Perez and Angilletta 2022;</ref><ref target="#b58" type="bibr">Pankhurst and Munday 2011;</ref><ref type="bibr">Telemeco et al. 2013;</ref><ref type="bibr">Todd et al. 2011;</ref><ref target="#b65" type="bibr">Visser et al. 2004</ref>).</s><s>However, limited natural history observations across many species and vertebrate groups has stalled research that would help us better understand how climate impacts various reproductive behaviors.</s><s>Therefore, ideal model systems for learning how climate affects reproductive behaviors and success include groups with abundant natural history observations and whose reproduction is tied to particular environments.</s></p><p><s>Anurans (frogs and toads) are an ecologically and taxonomically diverse ectotherm group (&gt;7,400 species; AmphibiaWeb 2022) whose reproduction and development is generally dependent on water availability during breeding.</s><s>Their iconic calling behavior used for reproduction has made them a prime target for natural history studies, making their reproductive behaviors reasonably well-known.</s><s>Anurans inhabit a wide array of habitats around the world including tropical rainforests, arid deserts, temperate forests, freezing tundras, and more.</s><s>These habitats are used differently by various species which specialize in aquatic, terrestrial, fossorial (underground), or arboreal (above ground) microhabitats <ref target="#b51" type="bibr">(Moen &amp; Wiens 2017)</ref>.</s><s>Studies of amphibian reproduction and climate are dominated by advancements in our understanding of reproductive modes (e.g., <ref target="#b32" type="bibr">Gomez-Mestre et al. 2012)</ref> or reproductive timing <ref target="#b6" type="bibr">(Beattie 1985;</ref><ref target="#b8" type="bibr">Benard 2015;</ref><ref target="#b56" type="bibr">Neveu 2009;</ref><ref type="bibr">Reading 2003;</ref><ref type="bibr">Todd et al. 2011;</ref><ref target="#b68" type="bibr">While and Uller 2014)</ref>.</s></p><p><s>Comparatively little is known about the relationship between climate and breeding period (sensu <ref target="#b66" type="bibr">Wells 1977)</ref>, the duration of breeding within a population, which is unique from the duration of breeding across populations of a single species.</s><s>This is despite the stunning contrast of tropical species that breed year-round to explosive-breeding species that limit reproduction to only a few days or weeks of the year <ref target="#b66" type="bibr">(Wells 1977)</ref>.</s><s>Common knowledge in herpetology says there exists a latitudinal gradient in breeding periods, where tropical amphibians breed for generally longer periods compared to temperate amphibians <ref target="#b67" type="bibr">(Wells 2007)</ref>.</s><s>However, the precise role of climate on breeding periods has yet to be identified across the phylogeny of anurans and further study is necessary given widespread amphibian declines <ref target="#b11" type="bibr">(Campbell Grant et al. 2020;</ref><ref target="#b24" type="bibr">Fisher and Garner 2020)</ref>.</s></p><p><s>If climate has an effect on breeding periods, we can expect physiology to play a central role since frogs are especially sensitive to the environment as ectotherms and are reliant on water for reproduction.</s><s>Natural selection has likely led to physiological changes such that populations maximize their reproductive investment leading to longer breeding periods in the context of specific climate exposure or microhabitat use <ref target="#b41" type="bibr">(Huey et al. 2012;</ref><ref target="#b70" type="bibr">Williams et al. 2008)</ref>.</s></p><p><s>Thus, climate is tied to physiological and reproductive traits to the extent that individuals experience changes in regional climate and atmospheric conditions during the breeding period while in water or on land.</s><s>These links have been shown previously, where body temperature is correlated with substrate temperature and air temperature in the toad Bufo canorus <ref target="#b17" type="bibr">(Cunningham 1963)</ref>.</s><s>Both temperature and water are known breeding cues in frogs and warmer temperatures likely lead to longer breeding periods due to greater food supply, reproductive investment, and egg formation in frogs <ref target="#b31" type="bibr">(Girish and Saidapur 2000;</ref><ref target="#b46" type="bibr">Lardner and Loman 2003;</ref><ref type="bibr">Rastogi et al. 1983)</ref>.</s><s>Additionally, since reproduction in anurans is generally tied to water, we can expect increased water availability to result in longer breeding periods.</s><s>These abiotic variables can also interact, as higher temperatures in drier environments may lead to increased rates of water loss.</s><s>From this perspective, larger-bodied species with lower surface area:volume (SA:V) ratios may benefit from lower rates of water loss relative to smaller species.</s><s>Alternatively, larger-bodied species may be at a disadvantage in sub-optimal environments due to greater resource demand and limited area for water or heat exchange.</s><s>Species body size likely influences the effect climate has on breeding period due to trade-offs between reproduction and physiological performance over the course of the breeding period.</s><s>Knowledge of how climate and body size interact to influence anuran breeding periods is unknown but is likely to allow for more targeted conservation efforts.</s></p><p><s>The goal of this study is to identify how ecological factors are related to reproduction (breeding periods) in anurans on a global scale.</s><s>Specifically, we test (H1) whether longer breeding periods are the result of warmer, wetter climates, (H2) whether differences in body size significantly alter the way climate influences breeding periods, (H3) whether species with different non-breeding microhabitat preferences exhibit differences in breeding period, and (H4) whether climate differs significantly between species microhabitat and geographical (temperate and tropical) zones.</s><s>Here, we provide the first quantitative assessment of the latitudinal gradient of reproduction in anurans, including climatic and possible physiological drivers.</s><s>potential evapotranspiration (PET), PET seasonality, and topographic wetness.</s><s>Topographic wetness is the land's ability to retain water obtained from estimates of upslope incurrent areas and local slope, which is correlated to vascular plant species richness and soil moisture (see <ref type="bibr">Sørensen et al. 2005)</ref>.</s><s>We calculated species means for each climate variable to analyze the dataset in a phylogenetic comparative framework.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Behavior data<p><s>We collected species means of breeding period (sensu <ref target="#b66" type="bibr">Wells 1977)</ref> for each species in this study.</s><s>To obtain species means, we collected approximate start and end dates for breeding periods from the primary literature or AmphibiaWeb ( <ref type="formula">2022</ref>) and averaged all available breeding period data for individual populations.</s><s>We then calculated the difference in calendar days between the start and end dates, assuming 365 calendar days.</s><s>Since some dates were reported as qualitative data (e.g., "May", or "early May"), we ascribed values of either the first or last day of the month when breeding periods were reported as starting or ending on a specific month without a specific date given.</s><s>When breeding periods were reported as the "early" or "late" parts of a month, we matched this to the end of the 1 st week and 3 rd week, respectively.</s><s>Rarely, breeding periods were reported as specific seasons (e.g., "Summer" or "wet season") and we defined these as the number of days corresponding to each season and country.</s><s>Populations from species which are explosive breeders are typically associated with breeding periods lasting only a few days to weeks, but never more than a month <ref target="#b66" type="bibr">(Wells 1977</ref>).</s><s>Since we never observed published data reporting explosive breeding over a period longer than 2 weeks, we conservatively assigned a period of 2 weeks to species whose only description of the breeding period was "explosive breeding".</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Body size, habitat, and phylogenetic data<p><s>We collected maximum male body sizes (snout-vent length) and habitat data for every species in this study from the primary literature and other datasets (AmphibiaWeb 2022; IUCN 2022; <ref target="#b51" type="bibr">Moen and Wiens 2017;</ref><ref target="#b71" type="bibr">Womack and Bell 2020)</ref>.</s><s>Species were assigned to microhabitat categories following <ref target="#b51" type="bibr">Moen and Wiens (2017)</ref> <ref type="table"></ref>and<ref target="#tab_9" type="table">included: (1) aquatic, (2) arboreal, (3)</ref> burrowing, (4) terrestrial, and (5) torrential.</s><s>We also included partial categories such as: (6) semi-arboreal, (7) semi-aquatic, and (8) semi-burrowing.</s><s>Finally, we calculated phylogenetic covariance matrices from the consensus tree of <ref target="#b43" type="bibr">Jetz and Pyron (2018)</ref> to incorporate evolutionary history as weights in phylogenetic regression.</s><s>Additionally, we used 1,000 samples from the pseudoposterior distribution of trees from <ref target="#b43" type="bibr">Jetz and Pyron (2018)</ref> to assess models in terms of phylogenetic uncertainty (see below).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Statistical analysis and visualization<p><s>All analyses were performed in R. We used ggtree v3.4.0 <ref target="#b73" type="bibr">(Yu 2020;</ref><ref target="#b74" type="bibr">Yu et al. 2018;</ref><ref target="#b75" type="bibr">Yu et al. 2017)</ref> to plot average species breeding periods and temperate-tropical geographical zones.</s></p><p><s>We analyzed the data using phylogenetic generalized least squares (PGLS; <ref target="#b33" type="bibr">Grafen 1989;</ref><ref target="#b47" type="bibr">Martins &amp; Hansen 1997)</ref> implemented through RRPP v1.3.0 <ref type="bibr">(Collyer and</ref><ref type="bibr">Adams 2018, 2019)</ref>.</s></p><p><s>Notably, RRPP uses a residual randomized permutation procedure to fit models, evaluate significance, and calculate effect sizes for model terms.</s><s>We used 9,999 iterations for significance testing in all models.</s><s>We estimated phylogenetic covariance matrices using ape v5.6-2 <ref target="#b59" type="bibr">(Paradis &amp; Schliep 2019)</ref>.</s></p><p><s>We scaled each climate variable and performed a principal component analysis (PCA) to avoid collinearity issues in our models.</s><s>To test our hypotheses, we used phylogenetic multiple regression to examine the relationship of breeding period, all 7 principal components (PCs), and body size.</s><s>To account for allometry of body size and since the natural logarithm of surface area- to-volume ratio is expected to scale linearly with the natural logarithm of body size <ref target="#b12" type="bibr">(Castro et al. 2021;</ref><ref target="#b44" type="bibr">Klein et al. 2016;</ref><ref type="bibr">Santini et al. 2018)</ref>, we used the natural logarithm of body size in our models.</s><s>Additionally, we fit a phylogenetic ANCOVA model which included interactions between each PC and body size.</s><s>We also used ANOVA to test whether adding these interactions resulted in a significant improvement in model performance.</s><s>To aid in interpretation of these models, we used phylogenetic regression to determine the relationship between breeding period and each individual climate variable.</s><s>We determined the effects of phylogenetic uncertainty in our models by rerunning the ANCOVA model once each for 1,000 trees from the pseudoposterior distribution of <ref target="#b43" type="bibr">Jetz and Pyron (2018)</ref>, following <ref target="#b4" type="bibr">Baken et al. (2021)</ref>.</s><s>From these analyses we obtained one distribution of 1,000 Z-scores per model term and visualized the proportion of trees under which terms were not significant.</s><s>We plotted these distributions using ggridges v0.5.3 <ref target="#b69" type="bibr">(Wilke 2021)</ref>.</s></p><p><s>We used phylogenetic ANOVA to test whether breeding periods differ between microhabitat categories, followed by evaluation of pairwise comparisons.</s><s>We controlled for Type I error rates due to multiple comparisons using the Sidak-like step-down procedure, which is more powerful than the Sidak and Bonferroni methods <ref target="#b37" type="bibr">(Holland &amp; Copenhaver 1987)</ref>, using mutoss v0.1-12 <ref target="#b54" type="bibr">(MuToss Coding Team et al. 2017)</ref>.</s><s>We used a phylogenetic factorial MANCOVA to determine how climate (all 7 PC's) differs among microhabitats and temperate/tropical zones.</s><s>Finally, we visualized these data by plotting conver hulls for groupings of microhabitat and geographical zone using geomorph v4.0.4 <ref target="#b0" type="bibr">(Adams et al. 2021;</ref><ref target="#b5" type="bibr">Baken et al. 2021b)</ref>.</s></p><p><s>. CC-BY-NC 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results<p><s>Frog breeding periods follow a latitudinal gradient We examined phylogenetic patterns of average breeding period (mean = 148 days, range = 1-365 days, std.</s><s>error = 4.5 days) and geographical zone (temperate/tropical) (Fig. <ref target="#fig_1" type="figure">1</ref>) and found species with longer breeding periods tend to live in tropical regions, whereas temperate species breed for shorter periods.</s><s>However, this pattern has several exceptions, such as temperate species with long breeding periods and tropical species with very short breeding periods.</s><s>Overall, temperate species breed for an average of 127.8 days (median = 107 days, range = 1-365 days, std.</s><s>error = 5.87 days) and tropical species breed for an average of 167.3 days (median = 181 days, range = 5-365 days, std.</s><s>error = 6.52 days).</s><s>Climate principal components (PCs) 1-3 explained 90% of data variance (Table <ref target="#tab_8" type="table">1</ref>; SI 1).</s><s>We found variable loadings for PC1 to be similar to known latitudinal climate differences and determined PC1 was highly correlated (r = -0.94)</s><s>with the absolute value of median latitude for each species (SI 1).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Climate and body size impact breeding periods<p><s>As body size can play a large role in thermal physiology and desiccation, we compared model fits between two models with and without interactions between climate and body size (snout-vent length).</s><s>Indeed, including body size substantially improved model fit (F = 2.40, p = 0.0082; Table <ref target="#tab_9" type="table">2</ref>).</s><s>Overall, this model explained 18% of variation in breeding periods.</s></p><p><s>We next describe this model in the context of phylogenetic uncertainty and given the individual effects of each climate variable (see SI 1).</s><s>We found larger species from the tropics (high scores on PC1) tend to exhibit longer breeding periods relative to smaller species and the magnitude of this effect can be up to 60-90 days.</s><s>However, this pattern reverses in the temperate zone where relatively smaller species exhibit longer breeding periods (Fig. <ref target="#fig_2" type="figure">2A</ref>).</s><s>For (median latitude = 45.33) but exhibit a breeding period 48 days shorter (61-13=48 days).</s><s>This effect was due to latitudinal differences in temperature, temperature seasonality, precipitation, and potential evapotranspiration (PET) seasonality, each showing similar effects when analyzed individually (SI 1 Table <ref target="#tab_8" type="table">1</ref>).</s><s>Since PET did not have a significant individual effect on breeding periods, it likely does not affect breeding periods although it loads highly onto PC1; we do not interpret PET further for any PC.</s><s>The effect of PC1 was robust to phylogenetic uncertainty and significant in 89.7% of surveyed trees while its combined effect with body size was supported in 64.2% of trees (Fig. <ref target="#fig_3" type="figure">3</ref>).</s><s>Independent of latitude (PC1), we found a significant impact of PC2 and body size on breeding periods (Fig. <ref target="#fig_2" type="figure">2B</ref>).</s><s>Specifically, we found that relatively larger species breed for longer periods in rainy environments with low topographic wetness (high values for PC2) and smaller species breed for longer periods in environments with little rain but high topographic wetness.</s><s>Although topographic wetness had no individual effect on breeding periods, it did exhibit a significant impact when paired with body size.</s><s>This trend showed moderate support across surveyed phylogenies with significance of PC2 and the interaction with size supported in 0.714% and 0.704% of trees, respectively (Fig. <ref target="#fig_3" type="figure">3</ref>).</s><s>Additionally, we found support for a size-independent role of PC3, where species living regions with low precipitation seasonality (PC3) exhibit longer breeding periods (Fig. <ref target="#fig_2" type="figure">2C</ref>).</s><s>This pattern was significant in 87.9% of surveyed trees compared to only 31.4% of trees when taking size into account (Fig. <ref target="#fig_3" type="figure">3</ref>).</s></p><p><s>Finally, we also found a size-independent effect of PC7 associated with warmer temperatures, independent of temperature effects of other PC's, where longer breeding periods are associated with warmer temperatures.</s><s>This pattern was supported in 66.9% of surveyed phylogenetic histories.</s></p><p><s>. CC-BY-NC 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Breeding periods are not different between microhabitats<p><s>The microhabitats species occupy can have different effects on breeding period depending on differences in temperature and moisture within temperate or tropical regions.</s><s>Therefore, we tested whether anuran species with different microhabitat preferences exhibit differences in breeding periods.</s><s>We initially found support for this relationship, where species from various microhabitats have different breeding periods (F = 4.09, p = 0.0062).</s><s>However, pairwise differences between microhabitats were not significant after accounting for multiple comparisons (see SI 1 Table <ref target="#tab_9" type="table">2</ref>).</s><s>In contrast to our expectation, we found large overlap in breeding periods across microhabitat categories (Fig. <ref target="#fig_4" type="figure">4A</ref>), including a wide breeding period range associated with burrowing and semi-burrowing species.</s><s>Semi-arboreal species had the greatest proportion of species with a long breeding period.</s><s>We next used a factorial MANCOVA used examine climatic differences corresponding to combinations of microhabitat and geographical zone (i.e., their interaction; F = 2.05, r 2 = 0.02, Z = 2.27, p = 0.0124), but none of these were significant after correcting for multiple comparisons (see SI 1 Table <ref type="table">3</ref>).</s><s>Finally, we found significant climate differences among microhabitats (F = 7.01, r 2 = 0.08, Z = 3.77, p = 0.0001; Fig. <ref target="#fig_4" type="figure">4B</ref>) and between temperate and tropical zones (F = 87.46,</s><s>r 2 = 0.14, Z = 8.93, p = 0.0001) but we did not find pairwise differences in the former after accounting for geographical zone (see SI 1 Table <ref type="table">4</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion<p><s>This study documents the evolution of reproductive behavior associated with climate in one of the largest vertebrate groups.</s><s>Here we present the first quantitative evidence, to our knowledge, of the latitudinal gradient of breeding period in anurans and its relationship to climate.</s><s>Our overall findings support longer breeding periods where frogs invest more time into reproduction in warmer and wetter habitats with little seasonality.</s><s>We also discovered that the time invested into reproduction, within the context of particular climates, is influenced by body size.</s><s>We discuss our results in the context of physiology and reproduction and suggest how this new information can guide conservation management priorities of anurans in different climates.</s></p><p><s>Body size played an important role in determining how climate affects breeding periods.</s><s>This is likely due to its effect on physiological processes such as regulating body temperature and water loss, where larger frogs are better at maintaining body temperatures and are slower to dessicate <ref target="#b12" type="bibr">(Castro et al. 2021;</ref><ref target="#b44" type="bibr">Klein et al. 2016;</ref><ref type="bibr">Santini et al. 2018;</ref><ref type="bibr">Tracy et al. 2010</ref>).</s><s>The size-dependent effect of climate on anuran reproduction is most notable when comparing 1) temperate versus tropical environments, and 2) regions with high rainfall and limited propensity to hold water versus regions with low rainfall and high topographic water retention.</s><s>These results are consistent with our hypothesis that larger body sizes are associated with greater resource demands and limited area for water and heat exchange, resulting in shorter breeding periods in environments with little rain, cooler temperatures, and low topographic water retention.</s><s>High temperature seasonality and high potential evapotranspiration seasonality also seem to shorten breeding periods in larger species, possibly due to their combined effect and this may be due to meeting physiological demands in relatively unpredictable environments.</s></p><p><s>Interestingly, environments which shorten breeding periods in larger species seem to be less detrimental to smaller species, possibly due to their lower resource demand and relatively greater area for water and heat exchange.</s><s>Furthermore, larger-bodied species may be at a disadvantage in cool and dry environments because the amount of energy used for maintaining homeostasis (hydration) may limit the amount of reproductive investment females are able to make, since egg formation is energetically costly for females.</s><s>This seems likely, given that we know larger frog species exhibit greater reproductive investment in the form of forming larger was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made</s></p><p><s>The copyright holder for this preprint (which this version posted July 22, 2022.</s><s>; https://doi.org/10.1101/2022.07.21.501061 doi: bioRxiv preprint 1984).</s><s>Temperature and water preferences and limits can evolve in a correlated fashion <ref target="#b9" type="bibr">(Bonetti and Wiens 2014;</ref><ref target="#b36" type="bibr">Guevara-Molina et al. 2020;</ref><ref target="#b45" type="bibr">Köhler et al. 2011</ref>) and likely involve underexplored molecular and morphological traits associated with the skin and body size in amphibians <ref target="#b23" type="bibr">(Finn et al. 2014;</ref><ref type="bibr">Shibata et al. 2014;</ref><ref type="bibr">Tracy et al. 2010)</ref>.</s><s>How temperature and water limits have shaped anuran breeding physiology is unclear and is an area that needs more research.</s></p><p><s>Ecology, in addition to physiology, plays an important role in determining breeding periods.</s><s>Our results suggest seasonal environments present the challenge of overcoming unreliable cues for reproduction, similar to findings at shorter ecological scales (Todd et al.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">2011<p><s>).</s><s>Here, we found size-dependent patterns, themselves independent of latitude, where breeding periods in smaller species decline in rainier environments with lower topographic wetness.</s><s>These qualities are characteristic of high-altitude rainforests, or cloud forests, such as those found in Central and South America, which hold much of the world's anuran diversity <ref target="#b16" type="bibr">(Cortés et al. 2008;</ref><ref target="#b20" type="bibr">Duellman 1988;</ref><ref target="#b30" type="bibr">Giaretta et al. 1999</ref>).</s><s>One explanation for this pattern is that cloud forests exhibit relatively rapid local drainage of water resources necessary for prolonged amphibian reproduction.</s><s>Another possible explanation is that areas with low topographic wetness and correspondingly low vascular plant species richness <ref type="bibr">(Sørensen et al. 2005)</ref> presents a challenge for prolonged breeding periods in smaller species by limiting protection from canopy cover or reproductive opportunities associated with leaf-or phytotelma-breeding species <ref target="#b19" type="bibr">(Donnelly and Guyer 1994;</ref><ref target="#b62" type="bibr">Poelman et al. 2013;</ref><ref type="bibr">Schulte et al. 2010)</ref>.</s><s>Predation risk may also differ between small and large species, where larger species are less reliant on canopy cover due to their large size reducing predation pressure <ref target="#b55" type="bibr">(Nakazawa et al. 2013)</ref>, resulting in longer breeding periods.</s><s>Future research investigating the role of plant diversity and predator-prey relationships in anurans seems likely to explain this variability in amphibian reproduction.</s></p><p><s>. CC-BY-NC 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made</s></p><p><s>The copyright holder for this preprint (which this version posted July 22, 2022.</s><s>; https://doi.org/10.1101/2022.07.21.501061 doi: bioRxiv preprint Microhabitat use across and within species undoubtedly plays a critical role in how animals experience broader regional climates and together they define climate exposure <ref target="#b41" type="bibr">(Huey et al. 2012;</ref><ref target="#b70" type="bibr">Williams et al. 2008)</ref>.</s><s>While ambient and body temperatures are connected <ref target="#b17" type="bibr">(Cunningham 1963)</ref>, water stream and air temperatures are also correlated to atmospheric temperatures in both warmer and colder climatic zones <ref target="#b21" type="bibr">(Erickson and Stefan 1996;</ref><ref target="#b52" type="bibr">Mohseni and Stefan 1999;</ref><ref target="#b60" type="bibr">Pilgrim et al. 1995)</ref>.</s><s>However, support for our hypothesis of differences in breeding periods between species occupying different microhabitats was lacking.</s><s>Instead, we found a minority of burrowing species exhibit explosive breeding (extremely short breeding periods) and an overabundance of semi-arboreal species which breed for longer periods.</s><s>The latter is likely related to radiations of small semi-arboreal frogs in the tropics of Central and South America, one of the most diverse regions of the world.</s><s>Perhaps unsurprisingly, we did not find discernible climatic differences between microhabitats.</s><s>This could reflect a low correlation between regional climate and ambient conditions within microhabitats (e.g., a burrow).</s><s>However, such a strong role of microhabitat buffering seems unlikely if we expect, for example, microhabitats within a temperate desert to resemble each other more closely than microhabitats within a tropical rainforest.</s><s>Instead, the lack of breeding period differences among microhabitats most likely reflects the ecological breadth of frog communities and global convergent evolution of microhabitat use across anurans <ref target="#b50" type="bibr">(Moen et al. 2015)</ref>.</s><s>Further study of the relationships between microhabitat, reproductive traits, and climate would likely result in additional model improvements and better predictions of breeding period.</s><s>For example, previous work found decreased fecundity in anurans was associated with warmer winters within species <ref target="#b8" type="bibr">(Benard 2015;</ref><ref target="#b56" type="bibr">Neveu 2009;</ref><ref type="bibr">Reading 2003)</ref> and warm, wet climates across terrestrial egg-laying species <ref target="#b32" type="bibr">(Gomez-Mestre et al. 2012)</ref>.</s><s>Notably, species in seasonal environments may have evolved larger clutches in response to shorter breeding periods <ref type="bibr">(Sheridan 2009)</ref>.</s><s>Future research will continue to disentangle the relationships between behaviors, the environment, and further investigate the role of life history in determining the effect of climate on reproductive ecology.</s><s>Unfortunately, we still know very little about the life histories of many frogs.</s><s>A sustained push for deeper understanding of life history diversity is necessary for identifying causal mechanisms related to eco-evolutionary patterns.</s></p><p><s>Adaptation to changing climates is a key part of amphibian evolutionary history and should be centered in future amphibian conservation efforts.</s><s>Previous research has shown conclusive evidence of adaptation to changing climates over ecological timescales (&lt;40 yrs.; <ref target="#b6" type="bibr">Beattie 1985;</ref><ref target="#b8" type="bibr">Benard 2015;</ref><ref target="#b25" type="bibr">Freidenburg and Skelly 2004;</ref><ref target="#b56" type="bibr">Neveu 2009;</ref><ref type="bibr">Reading 2003;</ref><ref type="bibr">Skelly and Freidenburg 2008;</ref><ref type="bibr">Skelly et al. 2007;</ref><ref type="bibr">Todd et al. 2011)</ref>.</s><s>This work, along with previous studies on breeding start date <ref target="#b6" type="bibr">(Beattie 1985;</ref><ref type="bibr">Ulloa et al. 2019;</ref><ref target="#b68" type="bibr">While and Uller 2014)</ref>, identify both water and temperature as important environmental cues for the start of the breeding period.</s><s>Associated neuroendocrine systems, thermal preferences, and critical thermal limits seem to show flexibility in responding to changing climate, but this might change as the effects of climate change become more severe.</s><s><ref target="#b41" type="bibr">Huey et al. (2012)</ref> provide a model used to assess extinction vulnerability over time, which can be affected by behavioral thermoregulation, acclimation, and adaptation.</s><s>Unfortunately, most anuran species live in warm, dry environments and these same species exhibit narrow climatic niche breadths <ref target="#b9" type="bibr">(Bonetti &amp; Wiens 2014)</ref> which can restrict dispersal <ref target="#b13" type="bibr">(Chejanovski &amp; Wiens 2014)</ref>.</s><s>The current study shows how species with restricted breeding periods living in the cold, dry, and seasonal environments may be less tolerant of climate change.</s><s>Within the temperate zone, larger frogs with greater resource demands may be particularly vulnerable, while smaller frogs are most vulnerable in the tropics.</s><s>Independent of latitude differences, we also found larger species may be vulnerable in areas receiving little rain.</s><s>Without physiological adaptation to climate change, frogs might mistime their reproduction and be faced with either extinction, or potentially speciation through temporal isolation of reproduction.</s><s>This might be one of the possible mechanisms linking diversification rates and rates of climatic niche change in anurans <ref target="#b51" type="bibr">(Moen &amp; Wiens 2017)</ref>.</s></p><p><s>. CC-BY-NC 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made</s></p><p><s>The copyright holder for this preprint (which this version posted July 22, 2022.</s><s>; https://doi.org/10.1101/2022.07.21.501061 doi: bioRxiv preprint Amphibians are facing unprecedented threats due to climate change from the lens of eco-physiology.</s><s>Notably, climate change seems to amplify the current amphibian chytrid fungus epidemic due to size-related osmoregulatory costs <ref target="#b72" type="bibr">(Wu et al. 2018)</ref>.</s><s>Given the several factors contributing to growing extinction risks faced by frogs and toads, an attempt to maintain reproductive fitness by maximizing breeding duration seems critical.</s><s>Overall, our research suggests a regional-based approach toward conserving species' flexibility in the timing and period of breeding.</s><s>There are multiple factors impacting amphibian breeding periods but regional climate has a noticeable average effect on breeding periods worldwide.</s><s>Extinction risks due to the mistiming of reproduction or shortened breeding periods might be highest in smaller tropical species which are common in tropical lowlands.</s><s>Species living in tropical lowlands along with those living in cloud forests have both been identified as being under threat of extinction <ref target="#b48" type="bibr">(von May et al. 2019;</ref><ref target="#b49" type="bibr">Meza-Parral and Pineda 2015;</ref><ref target="#b53" type="bibr">Murrieta-Galindo et al. 2013;</ref><ref target="#b63" type="bibr">Ponce-Reyes et al. 2013)</ref>.</s><s>Further research is needed to understand the neuroendocrine cues used for timing reproduction in frogs, thermal preferences, and the role of molecular or morphological adaptations related to water and heat stress.</s><s>Without this research, future temperature instability will increase extinction risk without either dispersal to suitable habitats or the ability to acclimate and adapt to their changing environment <ref target="#b41" type="bibr">(Huey et al. 2012)</ref>.</s><s>Perhaps the existence of tropical explosive breeders shows capacity for adaptation and persistence in the face of climate change.</s><s>For example, species faced with limited breeding periods may also adapt to produce more eggs (Sheridan 2009) and habitat shifts associated with thermal preference and choosing egg-laying sites may help mitigate negative thermal climatic effects on tadpoles <ref target="#b61" type="bibr">(Pintanel et al. 2022;</ref><ref type="bibr">Todd et al. 2011)</ref>.</s><s>Amphibians have much to benefit from dedicated conservation efforts to protect large and diverse landscapes allowing dispersal, protecting plant diversity, and preserving a thermally-diverse range of habitat options.</s><s>Similar efforts have been successful in partially restoring amphibian diversity in cloud forests <ref target="#b18" type="bibr">(Díaz-García et al. 2020</ref>).</s><s>Future research .</s><s>CC-BY-NC 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made</s></p><p><s>The copyright holder for this preprint (which this version posted July 22, 2022.</s><s>; https://doi.org/10.1101/2022.07.21.501061 doi: bioRxiv preprint might seek to combine environmental, behavioral, and physiological data to assess extinction risk and habitat suitability <ref target="#b34" type="bibr">(Greenberg and Palen 2021;</ref><ref target="#b35" type="bibr">Griffis-Kyle 2016;</ref><ref target="#b40" type="bibr">Huey 1991)</ref>.</s><s>Rastogi, R.K., <ref type="bibr">Izzo-Vitiello, I., Meglio, M., Matteo, L., Franzese, R., Costanzo, M.G., et al. (1983)</ref>.</s><s>Ovarian activity and reproduction in the frog, Rana esculenta.</s><s>J. <ref type="bibr">Zool. , 200, 233-247. Reading, C.J. (2003)</ref>.</s><s>The effects of variation in climatic temperature  on breeding activity and tadpole stage duration in the common toad, Bufo bufo.</s><s><ref type="bibr">Sci. Total Environ., 310, 231-236. Santini, L., Benítez-López, A., Ficetola, G.F. &amp; Huijbregts, M.A.J. (2018)</ref>.</s><s>Length-mass allometries in amphibians.</s><s><ref type="bibr">Integr. Zool., 13, 36-45. Schulte, Rödder, Schulte &amp; Lötters. (2010)</ref>.</s><s>Preference and competition for breeding plants in coexisting Ranitomeya species (Dendrobatidae): does height play a role.</s><s><ref type="bibr">Salamandra, 186, 180-184. Sheridan, J.A. (2009)</ref>.</s><s>Reproductive variation corresponding to breeding season length in three tropical frog species.</s><s>J. <ref type="bibr">Trop. Ecol., 25, 583-592. Shibata, Y., Sano, T., Tsuchiya, N., Okada, R., Mochida, H., Tanaka, S., et al. (2014)</ref>.</s><s>Gene expression and localization of two types of AQP5 in Xenopus tropicalis under hydration and dehydration.</s><s>Am.</s><s>J. <ref type="bibr">Physiol. Regul. Integr. Comp. Physiol., 307, R44-56. Silva, N.R., Berneck, B.V.M., da Silva, H.R., Haddad, C.F.B., Zamudio, K.R., Mott, T., et al. (2020)</ref>.</s><s>Egg-laying site, fecundity and degree of sexual size dimorphism in frogs.</s><s>Biol.</s><s>J. Linn.</s><s><ref type="bibr">Soc. Lond., 131, 600-610. Skelly, D.K. &amp; Freidenburg, L.K. (2008)</ref>.</s><s>Effects of beaver on the thermal biology of an .</s><s>CC-BY-NC 4.0 International license available under a was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made</s></p><p><s>The copyright holder for this preprint (which this version posted July 22, 2022.</s><s>; https://doi.org/10.1101/2022.07.21.501061 doi: bioRxiv preprint amphibian.</s><s>Ecol.</s><s><ref type="bibr">Lett., 3, 483-486. Skelly, D.K., Joseph, L.N., Possingham, H.P., Freidenburg, L.K., Farrugia, T.J., Kinnison, M.T., et al. (2007)</ref>.</s><s>Evolutionary responses to climate change.</s><s><ref type="bibr">Conserv. Biol., 21, 1353</ref><ref type="bibr">-1355</ref><ref type="bibr">. Sørensen, R., Zinko, U. &amp; Seibert, J. (2005)</ref>.</s><s>On the calculation of the topographic wetness index: evaluation of different methods based on field observations.</s><s>Hydrol.</s><s>Earth Syst.</s><s>Sci.</s><s>Ulloa, J.S., <ref type="bibr">Aubin, T., Llusia, D., Courtois, É.A., Fouquet, A., Gaucher, P., et al. (2019)</ref>.</s></p><p><s>Explosive breeding in tropical anurans: environmental triggers, community composition and</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>clutches and larger eggs (Prado &amp; Haddad 2005; Silva et al. 2020).</s><s>Body size is also correlated with reproductive investment in seasonally breeding endotherms like lagomorphs, whose body size is correlated with neonatal mass, gestation time, and maternal reproductive effort (Swihart .</s><s>CC-BY-NC 4.0 International license available under a</s></p></div></figdesc></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>Phylogenetic differences in average breeding period and geographic region across 497 species of frogs.</s><s>A. Phylogeny of 497 species with breeding period and region mapped at the tips.</s><s>Node labels identify the 4 highest-sampled families in our dataset.</s><s>Inner ring shows tropical versus temperate regions.</s><s>The tropical zone is shown in red and the temperate zone is shown in blue.</s><s>Outer ring shows the breeding period.</s><s>Species with shorter breeding periods are shown in lighter colors while species with longer breeding periods are shown in darker colors.</s><s>B. Boxplot showing differences in breeding period between temperate (N = 237) and tropical (N = 260) species.</s><s>Temperate species breed for an average of 127.8 days (median = 107 days, range = 1-365 days, std.</s><s>error = 5.87 days) and tropical species breed for an average of 167.3 days (median = 181 days, range = 5-365 days, std.</s><s>error = 6.52 days).Combined, anurans breed for a mean of 148 days (range = 1-365 days, std.</s><s>error = 4.5 days).</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 2. Climate and body size (snout-vent length) influence breeding periods in 497 frog species.</s><s>All relationships are significant at p &lt; 0.0115.</s><s>Regression lines for A,B represent effects at 10th and 90th percentiles of body size (snout-vent length; 24 and 80 mm). A. High scores on PC1 represent warm, rainy areas with low temperature and annual potential evapotranspiration seasonality and are</s></p></div></figdesc></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure 3.</s><s>Effect of phylogenetic uncertainty on effect sizes (z-scores) relating climate and body size to breeding periods.</s><s>Z-scores for each model term calculated from 1,000 trees of the pseudoposterior distribution of Jetz and Pyron (2018).</s><s>PC's are climate variables; SVL is snout-vent length.</s><s>Vertical line denotes the Z = 1.645 significance cutoff for empirically generated Z-scores.</s><s>Values to the right of distributions indicate percent of significant Z-scores per distribution.</s><s>Red highlights portions of the density within the 10th percentile.</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4. Breeding period and climate differences between microhabitats across 497 frog species.</s><s>A. Average breeding periods do not differ between microhabitats; most ranges overlap.</s><s>semi-arboreal species stand out in having the greatest proportion of species with longer breeding periods.</s><s>B. Scatterplot of first two PCA axes corresponding to climate variables.</s><s>Polygon outlines encase species in microhabitats corresponding in color.</s><s>PC1 is correlated with absolute latitude (r = -0.94).</s><s>Temperate species denoted by circles and encased in solid lines.</s><s>Tropical species denoted by triangles and encased in dashed lines.</s></p></div></figdesc></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Prado, C.P.A. &amp; Haddad, C.F.B. (2005).</s><s>Size-fecundity relationships and reproductive investment in female frogs in the Pantanal, South-Western Brazil.</s><s>Herpetol.</s><s>J., 15, 181-189.</s><s>R Core Team.</s><s>(2022).</s><s>R: A language and environment for statistical computing.</s><s>R Foundation for Statistical Computing, Vienna, Austria.</s><s>Available at: https://www.R-project.org/.</s></p></div></figdesc></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Discuss., 2, 1807-1834.</s><s>South, A. (2012).</s><s>rworldxtra: Country boundaries at high resolution.</s><s>R package version 1.01.</s><s>https://CRAN.R-project.org/package=rworldxtra. Swihart, R.K. (1984).</s><s>Body size, breeding season length, and life history tactics of lagomorphs.</s><s>Oikos, 43, 282-290.</s><s>Telemeco, R.S., Abbott, K.C. &amp; Janzen, F.J. (2013).</s><s>Modeling the effects of climate changeinduced shifts in reproductive phenology on temperature-dependent traits.</s><s>Am.</s><s>Nat., 181, 637-648.</s><s>Thomas, C.D., Cameron, A., Green, R.E., Bakkenes, M., Beaumont, L.J., Collingham, Y.C., et al. (2004).</s><s>Extinction risk from climate change.</s><s>Nature, 427, 145-148.</s><s>Title, P.O.</s><s>&amp; Bemmels, J.B. (2018).</s><s>ENVIREM: an expanded set of bioclimatic and topographic variables increases flexibility and improves performance of ecological niche modeling.</s><s>Ecography , 41, 291-307.</s><s>Todd, B.D., Scott, D.E., Pechmann, J.H.K. &amp; Gibbons, J.W. (2011).</s><s>Climate change correlates with rapid delays and advancements in reproductive timing in an amphibian community.</s><s>Proc.</s><s>Biol.</s><s>Sci., 278, 2191-2197.</s><s>Tracy, C.R., Christian, K.A. &amp; Tracy, C.R. (2010).</s><s>Not just small, wet, and cold: effects of body size and skin resistance on thermoregulation and arboreality of frogs.</s><s>Ecology, 91, 1477-1484.</s></p></div></figdesc></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made</s></p></div></figdesc><table><row><cell>bioRxiv preprint</cell><cell>doi:</cell><cell>; https://doi.org/10.1101/2022.07.21.501061</cell><cell>this version posted July 22, 2022.</cell><cell>The copyright holder for this preprint (which</cell></row><row><cell></cell><cell></cell><cell cols="2">. CC-BY-NC 4.0 International license available under a</cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_3" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>It is made The copyright holder for this preprint (which this version posted July 22, 2022.</s><s>; https://doi.org/10.1101/2022.07.21.501061 doi: bioRxiv preprint</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_4" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made Rana pretiosa (median latitude = 42.60)</s><s>can be 14mm larger than Rana macrocnemis</s></p></div></figdesc><table><row><cell>was not certified The copyright holder for this preprint (which this version posted July 22, 2022. ; https://doi.org/10.1101/2022.07.21.501061 doi: bioRxiv preprint</cell></row><row><cell>. CC-BY-NC 4.0 International license available under a</cell></row><row><cell>example,</cell></row></table></figure>
+<figure type="table" xml:id="tab_6" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>was not certified by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made</s></p></div></figdesc><table><row><cell>bioRxiv preprint</cell><cell>doi:</cell><cell>; https://doi.org/10.1101/2022.07.21.501061</cell><cell>this version posted July 22, 2022.</cell><cell>The copyright holder for this preprint (which</cell></row><row><cell></cell><cell></cell><cell cols="2">. CC-BY-NC 4.0 International license available under a</cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_7" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made</s></p></div></figdesc><table><row><cell>was not certified The copyright holder for this preprint (which this version posted July 22, 2022. ; https://doi.org/10.1101/2022.07.21.501061 doi: bioRxiv preprint</cell></row><row><cell>. CC-BY-NC 4.0 International license available under a</cell></row></table></figure>
+<figure type="table" xml:id="tab_8" xmlns="http://www.tei-c.org/ns/1.0">Table 1 . PCA summary and loadings of climate variables.<label>1</label><figdesc><div><p><s>PCA based on means for 497 species.Cumulative proportion of variance is given in parentheses next to PC heading.</s><s>Loadings with a magnitude &gt;=0.30 are in bold.</s><s>Asterisks indicate variables with a significant individual effect on breeding periods and carets indicate variables with a significant interaction with body size (see SI). by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made</s></p></div></figdesc><table><row><cell>Variable</cell><cell>PC1</cell><cell>PC2</cell><cell>PC3</cell><cell>PC4</cell><cell>PC5</cell><cell>PC6</cell><cell>PC7</cell></row><row><cell></cell><cell>(52)</cell><cell>(76)</cell><cell>(90)</cell><cell>(94)</cell><cell>(97)</cell><cell>(99)</cell><cell>(100)</cell></row><row><cell>Annual Mean</cell><cell cols="2">0.47 -0.28</cell><cell>0.08</cell><cell>-0.02</cell><cell>0.24</cell><cell>0.15</cell><cell>0.78</cell></row><row><cell>Temperature*^</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Temperature</cell><cell cols="2">-0.47 -0.14</cell><cell>-0.09</cell><cell>0.44</cell><cell>0.25</cell><cell>0.70</cell><cell>0.04</cell></row><row><cell>Seasonality*^</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Annual</cell><cell cols="2">0.38 0.38</cell><cell>0.13</cell><cell>0.75</cell><cell>0.27</cell><cell>-0.21</cell><cell>-0.14</cell></row><row><cell>Precipitation*^</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Precipitation</cell><cell cols="2">0.15 -0.26</cell><cell>-0.90</cell><cell>0.23</cell><cell>-0.16</cell><cell>-0.15</cell><cell>0.00</cell></row><row><cell>Seasonality*^</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_9" xmlns="http://www.tei-c.org/ns/1.0">Table 2 . Model summary of the effects of climate and body size on breeding periods in 497 frog species.<label>2</label><figdesc><div><p><s>Climate shown as PC's.</s><s>Body size is snout-vent length (SVL) in mm.</s><s>Breeding periods are species means.</s><s>Df = degrees of freedom, SS = sum of squares, MS = mean square, Rsq = coefficient of determination, F = F-statistic, Z = standardized effect size (Z-score), and P = p-value.</s><s>Rows with significant terms (p &lt; 0.05) are in bold.</s><s>by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made</s></p></div></figdesc><table><row><cell>Term</cell><cell>Df</cell><cell>SS</cell><cell>MS</cell><cell>Rsq</cell><cell>F</cell><cell>Z</cell><cell>P</cell></row><row><cell>PC1</cell><cell>1</cell><cell>6279.32</cell><cell>6279.32</cell><cell>0.05</cell><cell>26.34</cell><cell>3.69</cell><cell>1e-04</cell></row><row><cell>PC2</cell><cell>1</cell><cell>2443.75</cell><cell>2443.75</cell><cell>0.02</cell><cell>10.25</cell><cell>2.59</cell><cell>0.0017</cell></row><row><cell>PC3</cell><cell>1</cell><cell>6756.84</cell><cell>6756.84</cell><cell>0.05</cell><cell>28.34</cell><cell>3.83</cell><cell>1e-04</cell></row><row><cell>PC4</cell><cell>1</cell><cell>22.69</cell><cell>22.69</cell><cell>0</cell><cell>0.10</cell><cell>-0.71</cell><cell>0.7519</cell></row><row><cell>PC5</cell><cell>1</cell><cell>734.96</cell><cell>734.96</cell><cell>0.01</cell><cell>3.08</cell><cell>1.39</cell><cell>0.0810</cell></row><row><cell>PC6</cell><cell>1</cell><cell>601.68</cell><cell>601.68</cell><cell>0</cell><cell>2.52</cell><cell>1.22</cell><cell>0.1152</cell></row><row><cell>PC7</cell><cell>1</cell><cell>1643.48</cell><cell>1643.48</cell><cell>0.01</cell><cell>6.89</cell><cell>2.12</cell><cell>0.0096</cell></row><row><cell>SVL</cell><cell>1</cell><cell>1058.17</cell><cell>1058.17</cell><cell>0.01</cell><cell>4.44</cell><cell>1.71</cell><cell>0.0389</cell></row><row><cell>PC1:SVL</cell><cell>1</cell><cell>1555.92</cell><cell>1555.92</cell><cell>0.01</cell><cell>6.53</cell><cell>2.07</cell><cell>0.0115</cell></row></table></figure>
+<figure type="table" xml:id="tab_10" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made by peer review) is the author/funder, who has granted bioRxiv a license to display the preprint in perpetuity.</s><s>It is made</s></p></div></figdesc><table><row><cell>was not certified The copyright holder for this preprint (which this version posted July 22, 2022. ; https://doi.org/10.1101/2022.07.21.501061 doi: bioRxiv preprint was not certified The copyright holder for this preprint (which this version posted July 22, 2022. ; https://doi.org/10.1101/2022.07.21.501061 doi: bioRxiv preprint</cell></row><row><cell>. CC-BY-NC 4.0 International license available under a . CC-BY-NC 4.0 International license available under a</cell></row><row><cell>Distrib., 19, 518-529.</cell></row></table></figure>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgements<p><s>We thank the O'Connell and Hadly labs at Stanford University for providing valuable feedback on previous versions of this manuscript.</s><s>This material is based upon work supported by the NSF Postdoctoral Research Fellowships in Biology Program under Grant No. 2109850 (to BHJ).</s><s>BHJ and LAO are supported by the New York Stem Cell Foundation.</s><s>LAO is a New York Stem Cell -Robertson Investigator.</s><s>We are indebted to the following museums for making their data available online: the Department of Herpetology, California Academy of Sciences (CAS); the Museum of Southwestern Biology (MSB); the Museum of Vertebrate Zoology, University of California, Berkeley (MVZ); and the University of Washington Burke Museum (UWBM).</s><s>Tables</s></p></div>
+</div>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>All data and code are publicly available on datadryad.org</s><s>(https://doi.org/10.5061/dryad.547d7wmc2)</s><s>and included as supplementary material.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>associated data.</s><s>Methods <ref type="bibr">Ecol. Evol., 8, 28-36. doi:10.1111</ref><ref type="bibr">/2041</ref><ref type="bibr">-210X.12628. Zizka, A., Barratt, C.D., Ritter, C.D., Joerger-Hickfang, T. &amp; Zizka, V.M.A. (2021)</ref>.</s><s>Existing approaches and future directions to link macroecology, macroevolution and conservation prioritization.</s><s><ref type="bibr">Ecography, 2022</ref><ref type="bibr">, e05557. Zizka A., Silvestro, D., Andermann, T., Azevedo, J., Duarte Ritter, C., Edler, D. et al. (2019)</ref></s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Geomorph: Software for geometric morphometric analyses</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Adams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Collyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kaliontzopoulou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">K</forename><surname>Baken</surname></persname>
+</author>
+<ptr target="https://cran.r-project.org/package=geomorph"></ptr>
+</analytic>
+<monogr>
+<title level="j">R package version</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="issue">0</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Adams, D.C., Collyer, M.L., Kaliontzopoulou, A. &amp; Baken E.K. (2021). Geomorph: Software for geometric morphometric analyses. R package version 4.0.2. https://cran.r- project.org/package=geomorph.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<monogr>
+<title level="m" type="main">Amphibian Species By the Numbers</title>
+<ptr target="https://amphibiaweb.org/amphibian/speciesnums.html"></ptr>
+<imprint>
+<date type="published" when="2022-07-12">2022. 12 July 2022</date>
+<publisher>AmphibiaWeb</publisher>
+<pubplace>Berkeley, CA, USA</pubplace>
+</imprint>
+<respstmt>
+<orgname>University of California</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">AmphibiaWeb. (2022). Amphibian Species By the Numbers. Available at: https://amphibiaweb.org/amphibian/speciesnums.html. University of California, Berkeley, CA, USA. Last accessed 12 July 2022.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<monogr>
+<title level="m" type="main">Rhinella marina: Marine Toad</title>
+<ptr target="https://amphibiaweb.org/species/229"></ptr>
+<imprint>
+<date type="published" when="2021-07-12">2021. 12 July 2022</date>
+<publisher>AmphibiaWeb</publisher>
+<pubplace>Berkeley, CA, USA</pubplace>
+</imprint>
+<respstmt>
+<orgname>University of California</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">AmphibiaWeb. (2021). Rhinella marina: Marine Toad. Available at: https://amphibiaweb.org/species/229. University of California, Berkeley, CA, USA. Last accessed 12 July 2022.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Post-2020 biodiversity targets need to embrace climate change</title>
+<author>
+<persname><forename type="first">A</forename><surname>Arneth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y.-J</forename><surname>Shin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Leadley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Rondinini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Bukvareva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kolb</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+<imprint>
+<biblscope unit="volume">117</biblscope>
+<biblscope from="30882" to="30891" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Arneth, A., Shin, Y.-J., Leadley, P., Rondinini, C., Bukvareva, E., Kolb, M., et al. (2020). Post- 2020 biodiversity targets need to embrace climate change. Proc. Natl. Acad. Sci. U. S. A., 117, 30882-30891.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Is salamander arboreality limited by broadscale climatic conditions?</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">K</forename><surname>Baken</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">E</forename><surname>Mellenthin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Adams</surname></persname>
+</author>
+<idno type="DOI">10.1371/journal.pone.0255393</idno>
+<ptr target="https://doi.org/10.1371/journal.pone.0255393"></ptr>
+</analytic>
+<monogr>
+<title level="j">PLoS ONE</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope unit="page">255393</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Baken, E.K., Mellenthin, L.E. &amp; Adams, D.C. (2021a). Is salamander arboreality limited by broadscale climatic conditions? PLoS ONE, 16, e0255393. https://doi.org/10.1371/journal.pone.0255393.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">geomorph v4.0 and gmShiny: enhanced analytics and a new graphical interface for a comprehensive morphometric experience</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">K</forename><surname>Baken</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Collyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kaliontzopoulou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Adams</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Methods Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope from="2355" to="2363" unit="page"></biblscope>
+<date type="published" when="2021">2021b</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Baken, E. K., Collyer, M.L., Kaliontzopoulou, A. &amp; Adams, D.C. (2021b). geomorph v4.0 and gmShiny: enhanced analytics and a new graphical interface for a comprehensive morphometric experience. Methods Ecol. Evol., 12, 2355-2363.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">The date of spawning in populations of the Common frog (Rana temporaria) from different altitudes in northern England</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">C</forename><surname>Beattie</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Zool</title>
+<imprint>
+<biblscope unit="volume">205</biblscope>
+<biblscope from="137" to="154" unit="page"></biblscope>
+<date type="published" when="1985">1985</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Beattie, R.C. (1985). The date of spawning in populations of the Common frog (Rana temporaria) from different altitudes in northern England. J. Zool., 205, 137-154.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Impacts of climate change on the future of biodiversity</title>
+<author>
+<persname><forename type="first">C</forename><surname>Bellard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Bertelsmeier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Leadley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Thuiller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Courchamp</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecol. Lett</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope from="365" to="377" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bellard, C., Bertelsmeier, C., Leadley, P., Thuiller, W. &amp; Courchamp, F. (2012). Impacts of climate change on the future of biodiversity. Ecol. Lett., 15, 365-377.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Warmer winters reduce frog fecundity and shift breeding phenology, which consequently alters larval development and metamorphic timing</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">F</forename><surname>Benard</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Glob. Chang. Biol</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope from="1058" to="1065" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Benard, M.F. (2015). Warmer winters reduce frog fecundity and shift breeding phenology, which consequently alters larval development and metamorphic timing. Glob. Chang. Biol., 21, 1058-1065.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Evolution of climatic niche specialization: a phylogenetic analysis in amphibians</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">F</forename><surname>Bonetti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Wiens</surname></persname>
+</author>
+<idno type="DOI">10.1098/rspb.2013.3229</idno>
+<ptr target="http://dx.doi.org/10.1098/rspb.2013.3229"></ptr>
+</analytic>
+<monogr>
+<title level="j">Proc. Biol. Sci</title>
+<imprint>
+<biblscope unit="volume">281</biblscope>
+<biblscope unit="page">20133229</biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bonetti, M.F. &amp; Wiens, J.J. (2014). Evolution of climatic niche specialization: a phylogenetic analysis in amphibians. Proc. Biol. Sci., 281, 20133229. http://dx.doi.org/10.1098/rspb.2013.3229.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Climate change and seasonal reproduction in mammals</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">H</forename><surname>Bronson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Philos. Trans. R. Soc. Lond. B Biol. Sci</title>
+<imprint>
+<biblscope unit="volume">364</biblscope>
+<biblscope from="3331" to="3340" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bronson, F.H. (2009). Climate change and seasonal reproduction in mammals. Philos. Trans. R. Soc. Lond. B Biol. Sci., 364, 3331-3340.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">A synthesis of evidence of drivers of amphibian declines</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">H</forename><surname>Campbell Grant</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A W</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Muths</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Herpetologica</title>
+<imprint>
+<biblscope unit="volume">76</biblscope>
+<biblscope from="101" to="107" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Campbell Grant, E.H., Miller, D.A.W. &amp; Muths, E. (2020). A synthesis of evidence of drivers of amphibian declines. Herpetologica, 76, 101-107.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Water constraints drive allometric patterns in the body shape of tree frogs</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M S A</forename><surname>Castro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">F</forename><surname>Amado</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">Á</forename><surname>Olalla-Tárraga</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">F</forename><surname>Gouveia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Navas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Martinez</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Sci. Rep</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope unit="page">1218</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Castro, K.M.S.A., Amado, T.F., Olalla-Tárraga, M.Á., Gouveia, S.F., Navas, C.A. &amp; Martinez, P.A. (2021). Water constraints drive allometric patterns in the body shape of tree frogs. Sci. Rep., 11, 1218.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Climatic niche breadth and species richness in temperate treefrogs</title>
+<author>
+<persname><forename type="first">Z</forename><forename type="middle">A</forename><surname>Chejanovski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Wiens</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Biogeogr</title>
+<imprint>
+<biblscope unit="volume">41</biblscope>
+<biblscope from="1936" to="1946" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chejanovski, Z.A. &amp; Wiens, J.J. (2014). Climatic niche breadth and species richness in temperate treefrogs. J. Biogeogr., 41, 1936-1946.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">RRPP: An R package for fitting linear models to high-dimensional data using residual randomization</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Collyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Adams</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Methods Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="1772" to="1779" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Collyer, M.L. &amp; Adams, D.C. (2018). RRPP: An R package for fitting linear models to high-dimensional data using residual randomization. Methods Ecol. Evol., 9, 1772-1779.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<monogr>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Collyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Adams</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=RRPP"></ptr>
+<title level="m">RRPP: Linear Model Evaluation with Randomized Residuals in a Permutation Procedure</title>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Collyer, M.L. &amp; Adams, D.C. (2019). RRPP: Linear Model Evaluation with Randomized Residuals in a Permutation Procedure. https://CRAN.R-project.org/package=RRPP.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Edge effects on richness, abundance and diversity of frogs in Andean cloud forest fragments</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Cortés</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Ramírez-Pinilla</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">A</forename><surname>Suárez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Tovar</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">S. Am. J. Herpetol</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope from="213" to="222" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cortés, A.M., Ramírez-Pinilla, M.P., Suárez, H.A. &amp; Tovar, E. (2008). Edge effects on richness, abundance and diversity of frogs in Andean cloud forest fragments. S. Am. J. Herpetol., 3, 213-222.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Additional observations on the ecology of the Yosemite Toad, Bufo canorus</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Cunningham</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Herpetologica</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope from="56" to="61" unit="page"></biblscope>
+<date type="published" when="1963">1963</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cunningham, J.D. (1963). Additional observations on the ecology of the Yosemite Toad, Bufo canorus. Herpetologica, 19, 56-61.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Does forest restoration assist the recovery of threatened species? A study of cloud forest amphibian communities</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Díaz-García</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>López-Barrera</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Toledo-Aceves</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Andresen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Pineda</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biol. Conserv</title>
+<imprint>
+<biblscope unit="volume">242</biblscope>
+<biblscope unit="page">108400</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Díaz-García, J.M., López-Barrera, F., Toledo-Aceves, T., Andresen, E. &amp; Pineda, E. (2020). Does forest restoration assist the recovery of threatened species? A study of cloud forest amphibian communities. Biol. Conserv., 242, 108400.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Patterns of reproduction and habitat use in an assemblage of Neotropical hylid frogs</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Donnelly</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Guyer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Oecologia</title>
+<imprint>
+<biblscope unit="volume">98</biblscope>
+<biblscope from="291" to="302" unit="page"></biblscope>
+<date type="published" when="1994">1994</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Donnelly, M.A. &amp; Guyer, C. (1994). Patterns of reproduction and habitat use in an assemblage of Neotropical hylid frogs. Oecologia, 98, 291-302.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Patterns of species diversity in anuran amphibians in the American tropics</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">E</forename><surname>Duellman</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ann. Mo. Bot. Gard</title>
+<imprint>
+<biblscope unit="volume">75</biblscope>
+<biblscope from="79" to="104" unit="page"></biblscope>
+<date type="published" when="1988">1988</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Duellman, W.E. (1988). Patterns of species diversity in anuran amphibians in the American tropics. Ann. Mo. Bot. Gard., 75, 79-104.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Correlations of Oklahoma stream temperatures with air temperatures</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">R</forename><surname>Erickson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">G</forename><surname>Stefan</surname></persname>
+</author>
+<ptr target="https://hdl.handle.net/11299/109509"></ptr>
+</analytic>
+<monogr>
+<title level="j">St. Anthony Falls Laboratory</title>
+<imprint>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Erickson, T.R. &amp; Stefan, H.G. (1996). Correlations of Oklahoma stream temperatures with air temperatures. St. Anthony Falls Laboratory. Available at: https://hdl.handle.net/11299/109509.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">WorldClim 2: new 1-km spatial resolution climate surfaces for global land areas</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Fick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Hijmans</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Int. J. Climatol</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope from="4302" to="4315" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fick, S.E. &amp; Hijmans, R.J. (2017). WorldClim 2: new 1-km spatial resolution climate surfaces for global land areas. Int. J. Climatol., 37, 4302-4315.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">The lineage-specific evolution of aquaporin gene clusters facilitated tetrapod terrestrial adaptation</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">N</forename><surname>Finn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Chauvigné</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Hlidberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">P</forename><surname>Cutler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Cerdà</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">PLoS One</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="page">113686</biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Finn, R.N., Chauvigné, F., Hlidberg, J.B., Cutler, C.P. &amp; Cerdà, J. (2014). The lineage-specific evolution of aquaporin gene clusters facilitated tetrapod terrestrial adaptation. PLoS One, 9, e113686.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Chytrid fungi and global amphibian declines</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Fisher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">W J</forename><surname>Garner</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nat. Rev. Microbiol</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope from="332" to="343" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fisher, M.C. &amp; Garner, T.W.J. (2020). Chytrid fungi and global amphibian declines. Nat. Rev. Microbiol., 18, 332-343.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Microgeographical variation in thermal preference by an amphibian</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">K</forename><surname>Freidenburg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">K</forename><surname>Skelly</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecol. Lett</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope from="369" to="373" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Freidenburg, L.K. &amp; Skelly, D.K. (2004). Microgeographical variation in thermal preference by an amphibian. Ecol. Lett., 7, 369-373.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<monogr>
+<title level="m" type="main">Data from: GBIF Occurrence Download</title>
+<author>
+<persname><surname>Gbif</surname></persname>
+</author>
+<idno type="DOI">10.15468/dl.354f8k</idno>
+<ptr target="https://doi.org/10.15468/dl.354f8k"></ptr>
+<imprint>
+<date type="published" when="2021-10-03">2021. 03 October 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">GBIF.org. (2021a). Data from: GBIF Occurrence Download. Available at: https://doi.org/10.15468/dl.354f8k. Accessed: 03 October 2021.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<monogr>
+<title level="m" type="main">Data from: GBIF Occurrence Download</title>
+<idno type="DOI">10.15468/dl.pdjqte</idno>
+<ptr target="https://doi.org/10.15468/dl.pdjqte"></ptr>
+<imprint>
+<date type="published" when="2021-10-03">2021b. 03 October 2021</date>
+<publisher>GBIF</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">GBIF.org. (2021b). Data from: GBIF Occurrence Download. Available at: https://doi.org/10.15468/dl.pdjqte. Accessed: 03 October 2021.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<monogr>
+<title level="m" type="main">Data from: GBIF Occurrence Download</title>
+<idno type="DOI">10.15468/dl.nbku3v</idno>
+<ptr target="https://doi.org/10.15468/dl.nbku3v"></ptr>
+<imprint>
+<date type="published" when="2021-10-03">2021c. 03 October 2021</date>
+<publisher>GBIF</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">GBIF.org. (2021c). Data from: GBIF Occurrence Download. Available at: https://doi.org/10.15468/dl.nbku3v. Accessed: 03 October 2021.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<monogr>
+<title level="m" type="main">Data from: GBIF Occurrence Download</title>
+<idno type="DOI">10.15468/dl.uejpg6</idno>
+<ptr target="https://doi.org/10.15468/dl.uejpg6"></ptr>
+<imprint>
+<date type="published" when="2021-10-03">2021d. 03 October 2021</date>
+<publisher>GBIF</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">GBIF.org. (2021d). Data from: GBIF Occurrence Download. Available at: https://doi.org/10.15468/dl.uejpg6. Accessed: 03 October 2021.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Diversity and abundance of litter frogs in a Montane forest of southeastern Brazil: Seasonal and altitudinal changes</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Giaretta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">G</forename><surname>Facure</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Sawaya</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">H D M</forename><surname>Meyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Chemin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biotropica</title>
+<imprint>
+<biblscope unit="volume">31</biblscope>
+<biblscope from="669" to="674" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Giaretta, A.A., Facure, K.G., Sawaya, R.J., Meyer, J.H.D.M. &amp; Chemin, N. (1999). Diversity and abundance of litter frogs in a Montane forest of southeastern Brazil: Seasonal and altitudinal changes. Biotropica, 31, 669-674.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Interrelationship between food availability, fat body, and ovarian cycles in the frog, Rana tigrina, with a discussion on the role of fat body in anuran reproduction</title>
+<author>
+<persname><forename type="first">S</forename><surname>Girish</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">K</forename><surname>Saidapur</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Exp. Zool</title>
+<imprint>
+<biblscope unit="volume">286</biblscope>
+<biblscope from="487" to="493" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Girish, S. &amp; Saidapur, S.K. (2000). Interrelationship between food availability, fat body, and ovarian cycles in the frog, Rana tigrina, with a discussion on the role of fat body in anuran reproduction. J. Exp. Zool., 286, 487-493.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Phylogenetic analyses reveal unexpected patterns in the evolution of reproductive modes in frogs</title>
+<author>
+<persname><forename type="first">I</forename><surname>Gomez-Mestre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Pyron</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Wiens</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Evolution</title>
+<imprint>
+<biblscope unit="volume">66</biblscope>
+<biblscope from="3687" to="3700" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gomez-Mestre, I., Pyron, R.A. &amp; Wiens, J.J. (2012). Phylogenetic analyses reveal unexpected patterns in the evolution of reproductive modes in frogs. Evolution, 66, 3687-3700.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">The phylogenetic regression</title>
+<author>
+<persname><forename type="first">A</forename><surname>Grafen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Philos. Trans. R. Soc. Lond. B Biol. Sci</title>
+<imprint>
+<biblscope unit="volume">326</biblscope>
+<biblscope from="119" to="157" unit="page"></biblscope>
+<date type="published" when="1989">1989</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Grafen, A. (1989). The phylogenetic regression. Philos. Trans. R. Soc. Lond. B Biol. Sci., 326, 119-157.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Hydrothermal physiology and climate vulnerability in amphibians</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Greenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">J</forename><surname>Palen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. Biol. Sci</title>
+<imprint>
+<biblscope unit="volume">288</biblscope>
+<biblscope unit="page">20202273</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Greenberg, D.A. &amp; Palen, W.J. (2021). Hydrothermal physiology and climate vulnerability in amphibians. Proc. Biol. Sci., 288, 20202273.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Physiology and ecology to inform climate adaptation strategies for desert amphibians</title>
+<author>
+<persname><surname>Griffis-Kyle</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Herpetol. Conserv. Biol</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="563" to="582" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Griffis-Kyle. (2016). Physiology and ecology to inform climate adaptation strategies for desert amphibians. Herpetol. Conserv. Biol., 11, 563-582.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Effects of dehydration on thermoregulatory behavior and thermal tolerance limits of Rana catesbeiana (Shaw, 1802)</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">C</forename><surname>Guevara-Molina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">R</forename><surname>Gomes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Camacho</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Therm. Biol</title>
+<imprint>
+<biblscope unit="volume">93</biblscope>
+<biblscope unit="page">102721</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Guevara-Molina, E.C., Gomes, F.R. &amp; Camacho, A. (2020). Effects of dehydration on thermoregulatory behavior and thermal tolerance limits of Rana catesbeiana (Shaw, 1802). J. Therm. Biol., 93, 102721.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">An improved sequentially rejective bonferroni test procedure</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">S</forename><surname>Holland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Copenhaver</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biometrics</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope from="417" to="423" unit="page"></biblscope>
+<date type="published" when="1987">1987</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Holland, B.S. &amp; Copenhaver, M.D. (1987). An improved sequentially rejective bonferroni test procedure. Biometrics, 43, 417-423.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Robust statistics</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Huber</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="s">International encyclopedia of statistical science</title>
+<imprint>
+<date type="published" when="1981">1981</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Huber, P.J. (1981). Robust statistics. In: International encyclopedia of statistical science. { ed.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<monogr>
+<title></title>
+<author>
+<persname><forename type="first">M</forename><surname>Lovric</surname></persname>
+</author>
+<imprint>
+<publisher>Springer</publisher>
+<biblscope from="1248" to="1251" unit="page"></biblscope>
+<pubplace>Berlin, Heidelberg</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Lovric, M. }. Springer, Berlin, Heidelberg, pp. 1248-1251.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Physiological consequences of habitat selection</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">B</forename><surname>Huey</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Am. Nat</title>
+<imprint>
+<biblscope unit="volume">137</biblscope>
+<biblscope from="91" to="S115" unit="page"></biblscope>
+<date type="published" when="1991">1991</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Huey, R.B. (1991). Physiological consequences of habitat selection. Am. Nat., 137, S91-S115.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Predicting organismal vulnerability to climate warming: roles of behaviour, physiology and adaptation</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">B</forename><surname>Huey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Kearney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Krockenberger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A M</forename><surname>Holtum</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Jess</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Williams</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Philos. Trans. R. Soc. Lond. B Biol. Sci</title>
+<imprint>
+<biblscope unit="volume">367</biblscope>
+<biblscope from="1665" to="1679" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Huey, R.B., Kearney, M.R., Krockenberger, A., Holtum, J.A.M., Jess, M. &amp; Williams, S.E. (2012). Predicting organismal vulnerability to climate warming: roles of behaviour, physiology and adaptation. Philos. Trans. R. Soc. Lond. B Biol. Sci., 367, 1665-1679.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<monogr>
+<title level="m" type="main">Data from: The IUCN Red List of Threatened Species, version 2021-3</title>
+<ptr target="https://www.iucnredlist.org"></ptr>
+<imprint>
+<date type="published" when="2022">2022</date>
+<publisher>IUCN</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">IUCN. (2022). Data from: The IUCN Red List of Threatened Species, version 2021-3. Available at: https://www.iucnredlist.org.</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">The interplay of past diversification and evolutionary isolation with present imperilment across the amphibian tree of life</title>
+<author>
+<persname><forename type="first">W</forename><surname>Jetz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Pyron</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nat Ecol Evol</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="850" to="858" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jetz, W. &amp; Pyron, R.A. (2018). The interplay of past diversification and evolutionary isolation with present imperilment across the amphibian tree of life. Nat Ecol Evol, 2, 850-858.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Allometric relationships between cutaneous surface area and body mass in anuran amphibians</title>
+<author>
+<persname><forename type="first">W</forename><surname>Klein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Dabés</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">M G</forename><surname>Bonfim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Magrini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">F</forename><surname>Napoli</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Zoologischer Anzeiger -A Journal of Comparative Zoology</title>
+<imprint>
+<biblscope unit="volume">263</biblscope>
+<biblscope from="45" to="54" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Klein, W., Dabés, L., Bonfim, V.M.G., Magrini, L. &amp; Napoli, M.F. (2016). Allometric relationships between cutaneous surface area and body mass in anuran amphibians. Zoologischer Anzeiger -A Journal of Comparative Zoology, 263, 45-54.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Staying warm or moist? Operative temperature and thermal preferences of common frogs (Rana temporaria), and effects on locomotion</title>
+<author>
+<persname><forename type="first">A</forename><surname>Köhler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Sadowska</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Olszewska</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Trzeciak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Berger-Tal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">R</forename><surname>Tracy</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Herpetol. J</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope from="17" to="26" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Köhler, A., Sadowska, J., Olszewska, J., Trzeciak, P., Berger-Tal, O. &amp; Tracy, C.R. (2011). Staying warm or moist? Operative temperature and thermal preferences of common frogs (Rana temporaria), and effects on locomotion. Herpetol. J., 21, 17-26.</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Growth or reproduction? Resource allocation by female frogs Rana temporaria</title>
+<author>
+<persname><forename type="first">B</forename><surname>Lardner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Loman</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Oecologia</title>
+<imprint>
+<biblscope unit="volume">137</biblscope>
+<biblscope from="541" to="546" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lardner, B. &amp; Loman, J. (2003). Growth or reproduction? Resource allocation by female frogs Rana temporaria. Oecologia, 137, 541-546.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">Phylogenies and the comparative method: A general approach to incorporating phylogenetic information into the analysis of interspecific data</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">P</forename><surname>Martins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">F</forename><surname>Hansen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Am. Nat</title>
+<imprint>
+<biblscope unit="volume">149</biblscope>
+<biblscope from="646" to="667" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Martins, E.P. &amp; Hansen, T.F. (1997). Phylogenies and the comparative method: A general approach to incorporating phylogenetic information into the analysis of interspecific data. Am. Nat., 149, 646-667.</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Thermal physiological traits in tropical lowland amphibians: Vulnerability to climate warming and cooling</title>
+<author>
+<persname><forename type="first">R</forename><surname>Von May</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Catenazzi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Santa-Cruz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">S</forename><surname>Gutierrez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Moritz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Rabosky</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">PLoS One</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope unit="page">219759</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">von May, R., Catenazzi, A., Santa-Cruz, R., Gutierrez, A.S., Moritz, C. &amp; Rabosky, D.L. (2019). Thermal physiological traits in tropical lowland amphibians: Vulnerability to climate warming and cooling. PLoS One, 14, e0219759.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Amphibian diversity and threatened species in a severely transformed neotropical region in Mexico</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Meza-Parral</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Pineda</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">PLoS One</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="page">121652</biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Meza-Parral, Y. &amp; Pineda, E. (2015). Amphibian diversity and threatened species in a severely transformed neotropical region in Mexico. PLoS One, 10, e0121652.</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">Testing convergence versus history: convergence dominates phenotypic evolution for over 150 million years in frogs</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">S</forename><surname>Moen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Morlon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Wiens</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Syst. Biol</title>
+<imprint>
+<biblscope unit="volume">65</biblscope>
+<biblscope from="145" to="160" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Moen, D.S., Morlon, H. &amp; Wiens, J.J. (2015). Testing convergence versus history: convergence dominates phenotypic evolution for over 150 million years in frogs. Syst. Biol., 65, 145- 160.</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">Microhabitat and climatic niche change explain patterns of diversification among frog families</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">S</forename><surname>Moen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Wiens</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Am. Nat</title>
+<imprint>
+<biblscope unit="volume">190</biblscope>
+<biblscope from="29" to="44" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Moen, D.S. &amp; Wiens, J.J. (2017). Microhabitat and climatic niche change explain patterns of diversification among frog families. Am. Nat., 190, 29-44.</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">Stream temperature/air temperature relationship: a physical interpretation</title>
+<author>
+<persname><forename type="first">O</forename><surname>Mohseni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">G</forename><surname>Stefan</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Hydrol</title>
+<imprint>
+<biblscope unit="volume">218</biblscope>
+<biblscope from="128" to="141" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mohseni, O. &amp; Stefan, H.G. (1999). Stream temperature/air temperature relationship: a physical interpretation. J. Hydrol., 218, 128-141.</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">Matrix and habitat quality in a montane cloud-forest landscape: amphibians in coffee plantations in central Veracruz, Mexico</title>
+<author>
+<persname><forename type="first">R</forename><surname>Murrieta-Galindo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>López-Barrera</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>González-Romero</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Parra-Olea</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Wildl. Res</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope from="25" to="35" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Murrieta-Galindo, R., López-Barrera, F., González-Romero, A. &amp; Parra-Olea, G. (2013). Matrix and habitat quality in a montane cloud-forest landscape: amphibians in coffee plantations in central Veracruz, Mexico. Wildl. Res., 40, 25-35</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">mutoss: Unified Multiple Testing Procedures</title>
+<author>
+<persname><forename type="first">Coding</forename><surname>Mutoss</surname></persname>
+</author>
+<author>
+<persname><surname>Team</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Blanchard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Dickhaus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Hack</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Konietschke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Rohmeyer</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=mutoss"></ptr>
+</analytic>
+<monogr>
+<title level="m">R package version 0</title>
+<imprint>
+<date type="published" when="2017">2017</date>
+<biblscope from="1" to="12" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">MuToss Coding Team, Blanchard, G., Dickhaus, T., Hack, N., Konietschke, F., Rohmeyer, K., et al. (2017). mutoss: Unified Multiple Testing Procedures. R package version 0.1-12. https://CRAN.R-project.org/package=mutoss.</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">Predator-prey body size relationships when predators can consume prey larger than themselves</title>
+<author>
+<persname><forename type="first">T</forename><surname>Nakazawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S.-Y</forename><surname>Ohba</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ushio</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biol. Lett</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<date type="published" when="2013">2013. 20121193</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nakazawa, T., Ohba, S.-Y. &amp; Ushio, M. (2013). Predator-prey body size relationships when predators can consume prey larger than themselves. Biol. Lett., 9, 20121193.</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">Incidence of climate on common frog breeding: Long-term and short-term changes</title>
+<author>
+<persname><forename type="first">A</forename><surname>Neveu</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Acta Oecol</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope from="671" to="678" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Neveu, A. (2009). Incidence of climate on common frog breeding: Long-term and short-term changes. Acta Oecol., 35, 671-678.</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">Macroclimatic and maternal effects on the evolution of reproductive traits in lizards</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Padilla Perez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Angilletta</surname></persname>
+</author>
+<author>
+<persname><surname>Jr</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="page">8885</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Padilla Perez, D.J. &amp; Angilletta, M.J., Jr. (2022). Macroclimatic and maternal effects on the evolution of reproductive traits in lizards. Ecol. Evol., 12, e8885.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Effects of climate change on fish reproduction and early life history stages</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">W</forename><surname>Pankhurst</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">L</forename><surname>Munday</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mar. Freshwater Res</title>
+<imprint>
+<biblscope unit="volume">62</biblscope>
+<biblscope from="1015" to="1026" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pankhurst, N.W. &amp; Munday, P.L. (2011). Effects of climate change on fish reproduction and early life history stages. Mar. Freshwater Res., 62, 1015-1026.</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R</title>
+<author>
+<persname><forename type="first">E</forename><surname>Paradis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Schliep</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bioinformatics</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope from="526" to="528" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Paradis, E. &amp; Schliep, K. (2019). ape 5.0: an environment for modern phylogenetics and evolutionary analyses in R. Bioinformatics, 35, 526-528.</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">Correlations of Minnesota stream water temperatures with air Temperatures</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Pilgrim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Fang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">G</forename><surname>Stefan</surname></persname>
+</author>
+<ptr target="https://hdl.handle.net/11299/109299"></ptr>
+</analytic>
+<monogr>
+<title level="j">St. Anthony Falls Laboratory</title>
+<imprint>
+<date type="published" when="1995">1995</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pilgrim, J.M., Fang, X., Stefan, H.G. (1995). Correlations of Minnesota stream water temperatures with air Temperatures. St. Anthony Falls Laboratory. Available at: https://hdl.handle.net/11299/109299.</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<analytic>
+<title level="a" type="main">Elevational and local climate variability predicts thermal breadth of mountain tropical tadpoles</title>
+<author>
+<persname><forename type="first">P</forename><surname>Pintanel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Tejedo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Merino-Viteri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Almeida-Reinoso</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Salinas-Ivanenko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>López-Rosero</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecography</title>
+<imprint>
+<biblscope unit="page">5906</biblscope>
+<date type="published" when="2022">2022. 2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pintanel, P., Tejedo, M., Merino-Viteri, A., Almeida-Reinoso, F., Salinas-Ivanenko, S., López- Rosero, A.C., et al. (2022). Elevational and local climate variability predicts thermal breadth of mountain tropical tadpoles. Ecography, 2022, e05906.</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">Amazon poison frogs (Ranitomeya amazonica) use different phytotelm characteristics to determine their suitability for egg and tadpole deposition</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">H</forename><surname>Poelman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">P A</forename><surname>Van Wijngaarden</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">E</forename><surname>Raaijmakers</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Evol. Ecol</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope from="661" to="674" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Poelman, E.H., van Wijngaarden, R.P.A. &amp; Raaijmakers, C.E. (2013). Amazon poison frogs (Ranitomeya amazonica) use different phytotelm characteristics to determine their suitability for egg and tadpole deposition. Evol. Ecol., 27, 661-674.</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">Extinction risk in cloud forest fragments under climate change and habitat loss. Divers. acoustic structure</title>
+<author>
+<persname><forename type="first">R</forename><surname>Ponce-Reyes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Nicholson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">W J</forename><surname>Baxter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Fuller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Possingham</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">BMC Ecol</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope unit="page">28</biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ponce-Reyes, R., Nicholson, E., Baxter, P.W.J., Fuller, R.A. &amp; Possingham, H. (2013). Extinction risk in cloud forest fragments under climate change and habitat loss. Divers. acoustic structure. BMC Ecol., 19, 28.</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<analytic>
+<title level="a" type="main">Climate change. Accelerating extinction risk from climate change</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Urban</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Science</title>
+<imprint>
+<biblscope unit="volume">348</biblscope>
+<biblscope from="571" to="573" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Urban, M.C. (2015). Climate change. Accelerating extinction risk from climate change. Science, 348, 571-573.</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<analytic>
+<title level="a" type="main">Global climate change leads to mistimed avian reproduction</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">E</forename><surname>Visser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Both</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">M</forename><surname>Lambrechts</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Advances in Ecological Research</title>
+<imprint>
+<publisher>Academic Press</publisher>
+<date type="published" when="2004">2004</date>
+<biblscope from="89" to="110" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Visser, M.E., Both, C. &amp; Lambrechts, M.M. (2004). Global climate change leads to mistimed avian reproduction. In: Advances in Ecological Research. Academic Press, 89-110.</note>
+</biblstruct>
+<biblstruct xml:id="b66">
+<analytic>
+<title level="a" type="main">The social behaviour of anuran amphibians</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">D</forename><surname>Wells</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Anim. Behav</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope from="666" to="693" unit="page"></biblscope>
+<date type="published" when="1977">1977</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wells, K.D. (1977). The social behaviour of anuran amphibians. Anim. Behav., 25, 666-693.</note>
+</biblstruct>
+<biblstruct xml:id="b67">
+<monogr>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">D</forename><surname>Wells</surname></persname>
+</author>
+<title level="m">The Ecology and Behavior of Amphibians</title>
+<imprint>
+<publisher>University of Chicago Press</publisher>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wells, K.D. (2007). The Ecology and Behavior of Amphibians. University of Chicago Press.</note>
+</biblstruct>
+<biblstruct xml:id="b68">
+<analytic>
+<title level="a" type="main">Quo vadis amphibia? Global warming and breeding phenology in frogs, toads and salamanders</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">M</forename><surname>While</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Uller</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecography</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope from="921" to="929" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">While, G.M. &amp; Uller, T. (2014). Quo vadis amphibia? Global warming and breeding phenology in frogs, toads and salamanders. Ecography, 37, 921-929.</note>
+</biblstruct>
+<biblstruct xml:id="b69">
+<monogr>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">O</forename><surname>Wilke</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=ggridges"></ptr>
+<title level="m">ggridges: Ridgeline Plots in 'ggplot2'. R package version 0</title>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wilke, C.O. (2021). ggridges: Ridgeline Plots in 'ggplot2'. R package version 0.5.3. https://CRAN.R-project.org/package=ggridges.</note>
+</biblstruct>
+<biblstruct xml:id="b70">
+<analytic>
+<title level="a" type="main">Towards an integrated framework for assessing the vulnerability of species to climate change</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Williams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Shoo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Isaac</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Hoffmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Langham</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">PLoS Biol</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope from="2621" to="2626" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Williams, S.E., Shoo, L.P., Isaac, J.L., Hoffmann, A.A. &amp; Langham, G. (2008). Towards an integrated framework for assessing the vulnerability of species to climate change. PLoS Biol., 6, 2621-2626.</note>
+</biblstruct>
+<biblstruct xml:id="b71">
+<analytic>
+<title level="a" type="main">Two-hundred million years of anuran body-size evolution in relation to geography, ecology and life history</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Womack</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">C</forename><surname>Bell</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Evol. Biol</title>
+<imprint>
+<biblscope unit="volume">33</biblscope>
+<biblscope from="1417" to="1432" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Womack, M.C. &amp; Bell, R.C. (2020). Two-hundred million years of anuran body-size evolution in relation to geography, ecology and life history. J. Evol. Biol., 33, 1417-1432.</note>
+</biblstruct>
+<biblstruct xml:id="b72">
+<analytic>
+<title level="a" type="main">Body size influences energetic and osmoregulatory costs in frogs infected with Batrachochytrium dendrobatidis</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">C</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L</forename><surname>Cramp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">E</forename><surname>Franklin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Sci. Rep</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope unit="page">3739</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wu, N.C., Cramp, R.L. &amp; Franklin, C.E. (2018). Body size influences energetic and osmoregulatory costs in frogs infected with Batrachochytrium dendrobatidis. Sci. Rep., 8, 3739.</note>
+</biblstruct>
+<biblstruct xml:id="b73">
+<analytic>
+<title level="a" type="main">Using ggtree to visualize data on tree-like structures</title>
+<author>
+<persname><forename type="first">G</forename><surname>Yu</surname></persname>
+</author>
+<idno type="DOI">10.1002/cpbi</idno>
+</analytic>
+<monogr>
+<title level="j">Curr. Protoc. Bioinformatics</title>
+<imprint>
+<biblscope unit="volume">69</biblscope>
+<biblscope unit="page">96</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Yu, G. (2020). Using ggtree to visualize data on tree-like structures. Curr. Protoc. Bioinformatics, 69, e96. doi: 10.1002/cpbi.</note>
+</biblstruct>
+<biblstruct xml:id="b74">
+<analytic>
+<title level="a" type="main">Two methods for mapping and visualizing associated data on phylogeny using ggtree</title>
+<author>
+<persname><forename type="first">G</forename><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">T</forename><surname>Lam</surname></persname>
+</author>
+<author>
+<persname><forename type="first">-Y</forename><surname>Zhu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Guan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename></persname>
+</author>
+<idno type="DOI">10.1093/molbev/msy194</idno>
+</analytic>
+<monogr>
+<title level="j">Mol. Biol. Evol</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope from="3041" to="3043" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Yu, G., Lam, T.T.-Y., Zhu, H. &amp; Guan, Y. (2018). Two methods for mapping and visualizing associated data on phylogeny using ggtree. Mol. Biol. Evol., 35, 3041-3043. doi: 10.1093/molbev/msy194.</note>
+</biblstruct>
+<biblstruct xml:id="b75">
+<monogr>
+<title level="m" type="main">ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other</title>
+<author>
+<persname><forename type="first">G</forename><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Zhu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Guan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Lam</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T-Y</forename></persname>
+</author>
+<imprint>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Yu, G., Smith, D., Zhu, H., Guan, Y. &amp; Lam, T.T-Y. (2017). ggtree: an R package for visualization and annotation of phylogenetic trees with their covariates and other</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

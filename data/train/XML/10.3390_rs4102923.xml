@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Remote Sensing</title>
+<funder ref="#_4Hk256P">
+<orgname type="full">TU Wien</orgname>
+</funder>
+<funder ref="#_kB8R9n6">
+<orgname type="full">Austrian Science Fund</orgname>
+</funder>
+<funder ref="#_XZ2XgPH">
+<orgname type="full">CEH, UK</orgname>
+</funder>
+<funder ref="#_hpK3pzZ">
+<orgname type="full">European Space Agency</orgname>
+<orgname type="abbreviated">ESA</orgname>
+</funder>
+<funder ref="#_hnRD792">
+<orgname type="full">ESA</orgname>
+</funder>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2012-10-01">1 October 2012</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Julia</forename><surname>Reschke</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Institute of Photogrammetry and Remote Sensing, Vienna University of Technology, Gusshausstrasse 27-29, Vienna 1040, Austria;</note>
+<orgname type="department">Institute of Photogrammetry and Remote Sensing</orgname>
+<orgname type="institution">Vienna University of Technology</orgname>
+<address>
+<addrline>Gusshausstrasse 27-29</addrline>
+<postcode>1040</postcode>
+<settlement>Vienna</settlement>
+<country key="AT">Austria</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Annett</forename><surname>Bartsch</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Institute of Photogrammetry and Remote Sensing, Vienna University of Technology, Gusshausstrasse 27-29, Vienna 1040, Austria;</note>
+<orgname type="department">Institute of Photogrammetry and Remote Sensing</orgname>
+<orgname type="institution">Vienna University of Technology</orgname>
+<address>
+<addrline>Gusshausstrasse 27-29</addrline>
+<postcode>1040</postcode>
+<settlement>Vienna</settlement>
+<country key="AT">Austria</country>
+</address>
+</affiliation>
+</author>
+<author role="corresp">
+<persname><forename type="first">Stefan</forename><surname>Schlaffer</surname></persname>
+<email>stefan.schlaffer@tuwien.ac.at</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Institute of Photogrammetry and Remote Sensing, Vienna University of Technology, Gusshausstrasse 27-29, Vienna 1040, Austria;</note>
+<orgname type="department">Institute of Photogrammetry and Remote Sensing</orgname>
+<orgname type="institution">Vienna University of Technology</orgname>
+<address>
+<addrline>Gusshausstrasse 27-29</addrline>
+<postcode>1040</postcode>
+<settlement>Vienna</settlement>
+<country key="AT">Austria</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Dmitry</forename><surname>Schepaschenko</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Ecosystems Services and Management Program, International Institute for Applied Systems Analysis (IIASA), Laxenburg 2361, Austria;</note>
+<orgname key="dep1" type="department">Ecosystems Services and Management Program</orgname>
+<orgname key="dep2" type="department">International Institute for Applied Systems Analysis (IIASA)</orgname>
+<address>
+<postcode>2361</postcode>
+<settlement>Laxenburg</settlement>
+<country key="AT">Austria</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Remote Sensing</title>
+</analytic>
+<monogr>
+<idno type="ISSN">2072-4292</idno>
+<imprint>
+<date type="published" when="2012-10-01">1 October 2012</date>
+</imprint>
+</monogr>
+<idno type="MD5">F7C256C7F6080D1179E0A1A60AD8EB13</idno>
+<idno type="DOI">10.3390/rs4102923</idno>
+<note type="submission">Received: 28 July 2012; in revised form: 6 September 2012 / Accepted: 21 September 2012 /</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.8.0" when="2024-07-07T06:17+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>synthetic aperture radar</term>
+<term>C-band</term>
+<term>wetland</term>
+<term>dynamics</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Wetlands store large amounts of carbon, and depending on their status and type, they release specific amounts of methane gas to the atmosphere.</s><s>The connection between wetland type and methane emission has been investigated in various studies and utilized in climate change monitoring and modelling.</s><s>For improved estimation of methane emissions, land surface models require information such as the wetland fraction and its dynamics over large areas.</s><s>Existing datasets of wetland dynamics present the total amount of wetland (fraction) for each model grid cell, but do not discriminate the different wetland types like permanent lakes, periodically inundated areas or peatlands.</s><s>Wetland types differently influence methane fluxes and thus their contribution to the total wetland fraction should be quantified.</s><s>Especially wetlands of permafrost regions are expected to have a strong impact on future climate due to soil thawing.</s><s>In this study ENIVSAT ASAR Wide Swath data was tested for operational monitoring of the distribution of areas with a long-term S W near 1 (hS W ) in northern Russia (S W = degree of saturation with water, 1 = saturated), which is a specific characteristic of peatlands.</s><s>For the whole northern Russia, areas with hS W were delineated and discriminated from dynamic and open water bodies for the years 2007 and 2008.</s><s>The area identified with this method amounts to approximately 300,000 km 2 in northern Siberia in 2007.</s><s>It overlaps with zones of high carbon storage.</s><s>Comparison with a range of related datasets (static and dynamic) showed that hS W represents not only peatlands but also temporary wetlands associated with post-forest fire conditions in permafrost regions.</s></p><p><s>Annual long-term monitoring of change in boreal and tundra environments is possible with the presented approach.</s><s>Sentinel-1, the successor of ENVISAT ASAR, will provide data that may allow continuous monitoring of these wetland dynamics in the future complementing global observations of wetland fraction.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Methane (CH 4 ) is one of the major greenhouse gases, but its surface fluxes are poorly understood or represented in climate models.</s><s>Uncertainties regarding global methane sources are high, e.g., emissions from natural wetlands are estimated to range from 20% to 40% of total global methane emission <ref target="#b0" type="bibr">[1]</ref>.</s><s>Of these wetland emissions, 10% to 30% are estimated to stem from wetland complexes at high latitudes <ref target="#b1" type="bibr">[2]</ref><ref target="#b2" type="bibr">[3]</ref><ref target="#b3" type="bibr">[4]</ref><ref target="#b4" type="bibr">[5]</ref>.</s><s>Areas at high latitudes are strongly affected by global warming and it is expected that methane emissions from wetlands above 60 • N will rise due to permafrost thawing.</s><s>To benefit CH 4 modelling and thus climate modelling, Riley et al. <ref target="#b0" type="bibr">[1]</ref> suggest observational studies that improve the spatial representation of surface properties that affect CH 4 emissions, such as inundation dynamics, pH and redox potential, and vegetation characteristics.</s><s>These characteristics are directly linked to wetland type information and their dynamics.</s><s>Wetland type maps, e.g., of <ref target="#b5" type="bibr">[6]</ref>, are commonly used in climate models but they lack information about wetland dynamics.</s><s>Prigent et al. <ref target="#b6" type="bibr">[7]</ref> provide a global product of monthly dynamics for wetland fraction of a grid size of 0.25 • at the equator with increasing size to the poles.</s><s>Some constraints of the product are obvious for the pan-arctic region due to the global application of the algorithm.</s><s>The underlying multisensory approach underestimates small wetland patches (size below approximately 10% of grid size) compared to 100 m resolution L-band SAR estimates <ref target="#b6" type="bibr">[7]</ref> in the test region of Amazon basin.</s><s>This is the minimum of expected underestimation in high latitude environments.</s><s>Dribault et al. <ref target="#b7" type="bibr">[8]</ref> and Torbick et al. <ref target="#b8" type="bibr">[9]</ref> recently improved the derivation of hydrological wetland dynamics using high resolution remote sensing data.</s><s>The complex methods reached high accuracies representing the hydroperiod, but the long-term wetland monitoring of continental scale that meets climate model requirements calls for methods that are robust and simple yet generating detailed maps covering large areas.</s></p><p><s>The ENVISAT ASAR instrument operating in Wide Swath mode provides C-band backscatter data with a spatial resolution of 150 m.</s><s>Thus, small tundra ponds and wetland patches can be captured, which are smaller than the resolution of coarse to medium resolution satellite data (about 25 km to 500 m).</s><s>Open water bodies can be mapped efficiently and accurately using ENVISAT ASAR WS data as described in <ref target="#b9" type="bibr">[10]</ref>.</s><s>In continuation of that study, the approach has shown high applicability to derive the inundation dynamics of the boreal and tundra environments <ref target="#b10" type="bibr">[11]</ref>.</s><s>The method was modified in this study to test the applicability of ASAR WS annual time series to derive areas permanently saturated with water to complement the water bodies product with additional information about the spatial distribution of further wetland related ground features.</s><s>Temporal variations of radar backscatter can be attributed to near surface soil moisture dynamics as shown in many studies (e.g., <ref target="#b11" type="bibr">[12]</ref><ref target="#b12" type="bibr">[13]</ref><ref target="#b13" type="bibr">[14]</ref>).</s><s>Previously, peatland classifications have been available from ENVISAR ASAR Global Mode data (resolution of 1 km <ref target="#b14" type="bibr">[15,</ref><ref target="#b15" type="bibr">16]</ref>) which identified 76% of oligotrophic and mixed peatlands compared to the West Siberian Lowlands (WSL) database <ref target="#b16" type="bibr">[17]</ref>.</s><s>Mixed pixels occurring in northern areas due to the high number of small ponds however impede the identification of peatlands located between 70 • E and 77 • E at this spatial resolution.</s><s>These wetlands could only be identified indirectly by utilizing the characteristic delay in melt water drainage occurring in that region <ref target="#b14" type="bibr">[15]</ref>.</s><s>In this study ENIVSAT ASAR Wide Swath data was tested for operational monitoring of the distribution of areas with a long-term S W near 1 (hS W ) in northern Russia (S W = degree of saturation with water, 1 = saturated).</s><s>For the whole northern Russia, areas with hS W were delineated, as well as open water bodies, for the years 2007 and 2008.</s></p><p><s>The areas derived in this study, which are characterized by high soil moisture with little changes over the year, can be any kind of land cover that inherits this special soil moisture characteristic.</s><s>Actual ground conditions have been investigated using seven different land cover and specific wetland datasets.</s><s>When expressed as a fraction of specific grid cells, such information could be used as data input, e.g., for land surface models.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Material and Methods<p><s>Dynamics of inundation can efficiently be mapped by active microwave sensors <ref target="#b10" type="bibr">[11]</ref>.</s><s>The radar beam is reflected specularly off the smooth water surface, and thus recorded backscatter is expected to be below a specific threshold.</s><s>Higher backscatter in contrast is recorded, when the reflection is diffused by the surrounding surface consisting of other land cover classes or, depending on the wavelength, when a water surface is roughened by wind or rain.</s><s>When the soil or vegetation is moist, as in peatlands, the backscatter is higher than under dry conditions, due to the sensitivity of the radar signal to dielectric properties and thus water content (e.g., <ref target="#b17" type="bibr">[18]</ref>).</s><s>Oligotrophic peatlands (vegetated with Sphagnum) have a high backscatter that is composed by the high dielectric component of the moist moss and the underlying soil.</s><s>This allows discrimination from other land cover classes with respect to a slow annual change of these conditions within the areas of interest during the snow free period.</s><s>Data acquired during the snow covered period is masked out using the ASCAT freeze/thaw product <ref target="#b18" type="bibr">[19,</ref><ref target="#b19" type="bibr">20]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">ENVISAT ASAR Wide Swath Data<p><s>The European Space Agency's ENVISAT platform provides the Advanced Synthetic Aperture Radar (ASAR) instrument with C-band sensor (centre frequency at 5.331 GHz).</s><s>It is able to operate in several modes of different spatial resolutions.</s><s>The data used in this study are recorded in HH (horizontal emitted and horizontal received) polarization only.</s><s>Operating in Wide Swath mode (WS), the sensor has a spatial resolution of approximately 150 m and a temporal resolution of 2-3 days in high latitudes, considering acquisitions with varying viewing geometry.</s><s>The coverage at high latitudes of the Northern Hemisphere is documented in <ref target="#b10" type="bibr">[11]</ref>.</s><s>It covers the pan-arctic region with increasing acquisitions per month towards the pole.</s><s>Up to 50 acquisitions per month can be reached in northern Eurasia.</s><s>All scenes acquired in a specific period can be used in the approach by using time series statistics for hS W area extraction.</s><s>Therefore weather conditions do not affect the classification accuracy when mapping hS W areas. Prior to classification the data needs to be pre-processed.</s><s>This includes a radiometric calibration, geocoding and the modelling of the backscatter coefficient σ 0 (in dB).</s><s>The ASAR WS data are adjusted to a reference incidence angle of 30 • <ref target="#b20" type="bibr">[21]</ref>.</s><s>The data set is subdivided into tiles of approximately 3,000 km 2 each for better processing performance and projected into the Universal Polar Stereographic (UPS) coordinate system to reduce disk space <ref target="#b10" type="bibr">[11]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Study Area<p><s>The regions investigated in this study are located in Siberia, Russia (Figure <ref target="#fig_0" type="figure">1</ref>), and cover the West Siberian lowlands (WSL) including parts of the Ob river basin and Yamal peninsula as well as the Lena river basin including the delta.</s><s>Both areas (No. 11 and 12 in Figure <ref target="#fig_0" type="figure">1</ref>) are focus regions of the European Space Agencies ALANIS Methane project (http://www.alanis-methane.info)</s><s>and have been therefore investigated in detail.</s><s>The area over the West Siberian lowlands spans from 60 • E to 80 • E and 55 • N to 73 • N. The area of the Lena basin is located between 115 • E and 134 • E and between 60 • N and 73 • N with mostly continuous permafrost (Figure <ref target="#fig_1" type="figure">2</ref>).</s><s>The WSL possess over 900,000 km 2 of peatlands <ref target="#b21" type="bibr">[22]</ref> including the largest of the world <ref target="#b22" type="bibr">[23]</ref> with high amounts of carbon stored.</s><s>The WSL is located in the zones of continuous, discontinuous, sporadic and isolated permafrost (Figure <ref target="#fig_2" type="figure">3</ref>).</s><s>The climate in the region is cold to continental and precipitation ranges from 510 to 590 mm/year.</s><s>The region is characterized by Tundra and Taiga vegetation including thermokarst ponds, peatlands, rivers and floodplains (Figure <ref target="#fig_2" type="figure">3</ref>).</s><s>It is expected that thawing is turning peatlands from carbon sink to carbon source <ref target="#b23" type="bibr">[24]</ref>, by enabling anaerobic processes, but the amount of released methane depends on the height of the water table <ref target="#b24" type="bibr">[25]</ref>.</s><s>For low water table, a raised drainage of unfrozen soil lowers the water table and leads to carbon release as CO 2 mainly.</s><s>For high water table, impeded drainage due to landscape collapse leads to a high water table and carbon release as CH 4 mainly.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Saturated Areas Mapping<p><s>Open peatlands can be identified with C-band SAR due to their higher moisture content and thus higher backscatter <ref target="#b14" type="bibr">[15,</ref><ref target="#b26" type="bibr">27]</ref>.</s><s>The backscatter of long-term saturated areas is therefore high in a single image, but not always separable from high backscatter caused by other land cover at that time step.</s><s>Other high but short-term backscatter sources can be wet surfaces due to recent rain, or the shorelines of drying ponds.</s><s>Assuming that peatland areas change more slightly over the year than other areas, they show seasonal backscatter statistics distinct from other land cover classes <ref target="#b26" type="bibr">[27]</ref>.</s><s>Other land cover features with a long-term hS W and thus similar seasonal backscatter statistics are floodplains (which stay moist when the groundwater table is high) or water accumulations due to recent forest fires <ref target="#b27" type="bibr">[28,</ref><ref target="#b28" type="bibr">29]</ref>.</s><s>Forest fires lead to darkened soil with a reduced albedo causing the associated thawing of upper soil layers when occuring in permafrost regions.</s><s>It is hypothesized that the resulting increased surface wetness can be captured with the use of SAR data.</s><s>The data processing (Figure <ref target="#fig_3" type="figure">4</ref>) to derive hS W areas, as well as additionally the maximum inundation of open water bodies, was conducted using the seasonal backscatter statistics of ENVISAT ASAR Wide Swath C-band time series data in combination with a decision tree classification algorithm.</s><s>In addition to the statistical measures, the slope calculated from the circumpolar DUE Permafrost Digital Elevation Model <ref target="#b29" type="bibr">[30]</ref> was used.</s><s>The minimum and maximum of time series data (Method 1) were chosen under the assumption that areas of peatlands have higher dB values than most other land cover classes at these specific statistic measures <ref target="#b26" type="bibr">[27]</ref>.</s><s>They were calculated pixel-wise from all available datasets within the time series period of May to September (t 1 = first date, t n = last date) of the years 2007 and 2008.</s><s>A second method (Method 2) using the 5th and 95th percentiles calculated from the time series data instead of the minimum and maximum measures was tested in the decision tree method.</s><s>This approach has already been shown suitable for relative surface soil moisture retrieval from SAR <ref target="#b13" type="bibr">[14]</ref>.</s><s>Artifacts (mainly caused by errors in the level 1b data that was downloaded from ESA rolling archive) and effects of multiple bounce backscatter and/or outliers are expected to be reduced (Figure <ref target="#fig_4" type="figure">5</ref>).</s><s>The value margins for hSW areas and open water bodies (maximum inundation) were defined based on literature <ref target="#b26" type="bibr">[27]</ref> and quantitative testing.</s><s>The classes were analyzed in the Ob and Lena river basin and delta regions with a spatial resolution of 150 m, 75 m nominal resolution.</s><s>The data range for hS W areas has been found to lie approximately between -10 dB and -5 dB (minimum or 5th percentile, exemplified in Figure <ref target="#fig_5" type="figure">6</ref> (middle)) and -2.5 dB and -5 dB (maximum or 95th percentile, exemplified in Figure <ref target="#fig_5" type="figure">6</ref> (left)) in case of normalization of σ 0 to 30 • in tundra as well as boreal environment.</s><s>This range is used in the automated classification procedure with Method 2 to process all ALANIS methane mosaics.</s><s>Pixels were identified as hS W areas only when the slope was &lt;2 • (based on <ref target="#b29" type="bibr">[30]</ref>), as these areas, including peatlands, are assumed to be found only in locations with a slope below 2 • .</s><s>Thereby hS W areas could be discriminated from bare mountain ridges that may have similar backscatter values.</s><s>The class water bodies was assigned when the slope was &lt;2 • and the 5th percentile was &lt; -14 dB.</s><s>Areas which are frozen or undergo snowmelt according to TU Vienna's Freeze/Thaw product <ref target="#b18" type="bibr">[19,</ref><ref target="#b19" type="bibr">20]</ref> were masked prior to classification.</s><s>Masking snowmelt is an important step for the extraction of the hS W areas, as otherwise backscatter statistics may be affected by other scattering behaviour as from wet snow (confusion with open water <ref target="#b10" type="bibr">[11]</ref>) or frozen conditions (confusion with dry soil <ref target="#b30" type="bibr">[31]</ref>).</s><s>In addition, the tiles of the mosaics are processed using different time periods according to their latitude to increase the robustness of masking, especially during spring.</s><s>Specifically, with descending latitudes, the tiles of the mosaics were processed starting earlier in the year, due to progressing snowmelt.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Validation<p><s>Datasets representing wetland dynamics for validation of the required thematic resolution and spatial distribution do not exist for the Siberian region.</s><s>Thus, an accuracy assessment could only be conducted for a subset of the region (Extent: SV in Figure <ref target="#fig_2" type="figure">3</ref>).</s><s>Additionally, the annual maps were compared against the datasets listed in Table <ref target="#tab_0" type="table">1</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results<p><s>The maximum inundation of open water bodies and hS W areas as they occur in peatland ecosystems could be mapped for the whole Northern Eurasian region (Figure <ref target="#fig_0" type="figure">1</ref>).</s><s>In the Ob test region approx.</s><s>The detected hS W areas were 170,000 km 2 , which equates to 8.2% of total area.</s><s>In Lena test region, approximately 17,000 km 2 of hS W areas were detected, which equates to 1.2% of total area.</s><s>Wide distribution of hS W areas also occur in mosaic 1 (7.6%), which is attached to the east of the Ob region, and in mosaic 7 (2.2%), which is part of the North Russian Lowland (Figure <ref target="#fig_7" type="figure">7</ref>).</s><s>The saturated area decreases from year 2007 to 2008 in most mosaics.</s><s>The hS W areas show different distributions in the biomes of tundra and taiga and the transition zones, as shown in Figures <ref target="#fig_9" type="figure">8</ref> and<ref target="#fig_10" type="figure">9</ref>.</s><s>The distribution of hS W area at the used scale is none or low in tundra, and rises from pre-tundra (transition zone) over middle taiga to southern taiga.</s><s>Spatially, the mapped regions can be mostly assigned to oligotrophic peatlands with Sphagnum flora (Russian classification system) or partly to non-forested peatlands (U) of the Ramsar classification system as the comparison against other products has shown.</s><s>The peatland fraction, which is derived with raised threshold values at the 95th percentile, can be attributed most likely to multiple bounce backscatter (e.g., settlements).</s><s>The benefit of this approach for artifact filtering leads to loss of some hS W area (Figure <ref target="#fig_11" type="figure">10</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Assessment and Discussion<p><s>The comparison against the products described in Table <ref target="#tab_0" type="table">1</ref> showed the following results:</s></p><p><s>1. Compared with the Wetland type map <ref target="#b16" type="bibr">[17]</ref>, mainly oligotrophic and mixed peatlands were mapped.</s></p><p><s>However, only 23% of the oligotrophic peatlands coincided with hS W areas. Seventy percent of the peatland classes in <ref target="#b16" type="bibr">[17]</ref> is classified as "other" with the approach of this study.</s><s>Since in the approach of this study only hS W areas are mapped (and not peatland), local and regional variations in the surface and soil moisture are expected between years.</s><s>The difference in spatial resolution more reasonably explains the low overlap of identified peatlands.</s><s>The high resolution mapping with SAR distinguishes smaller wetland patches from each other and from surrounding land cover.</s><s>These small variations or land cover changes are not captured in the generalized maps, which are the source of the WSL database.</s><s>This is supported by the fact that a large number of small ponds do not occur in the classification in <ref target="#b16" type="bibr">[17]</ref> (Figure <ref target="#fig_13" type="figure">11</ref>).</s><s>Thus, the map in <ref target="#b16" type="bibr">[17]</ref> might be overestimating oligotrophic peatland. .</s><s>Recognized wetland locations point to significant accumulation of organic carbon, which is a potential source of methane (see Figure <ref target="#fig_9" type="figure">8</ref>).</s><s>3. A direct comparison of hS W areas with the GBFM map shows significant differences in some areas.</s><s>The major class of the GBFM map contained by the classified hS W area of the decision tree approach of this study is class 4 ('forest med').</s><s>Kropacek et al. <ref target="#b32" type="bibr">[33]</ref> define the class of bogs as follows: "The surface of bogs is usually formed by open water, grass, shrubs and even patches of woods.</s><s>The association of a single backscatter class to bogs is therefore not possible.</s><s>The class wetlands in the classification of this study represents areas of wet soil covered with low biomass vegetation."</s><s>This land cover map focuses on forest classification not primarily on wetlands.</s><s>Although L-band backscatter is able to penetrate the forest vegetation and is therefore able to map temporarily inundated forests, the class definition constrains mapping of hS W area.</s><s>In a ten years period, land cover changes are likely to occur (GBFM: 1996/97, saturated area: 2007).</s><s>The maps were thus compared with the ESA DUE Permafrost burnt area map <ref target="#b37" type="bibr">[38]</ref> to investigate differences between the maps.</s><s>In the test region of the Lena basin, fire events caused a new forming of hS W area in former forest areas (Figure <ref target="#fig_14" type="figure">12</ref>).</s><s>This region is underlain by continuous permafrost (see Figure <ref target="#fig_1" type="figure">2</ref>).</s><s>Two Landsat images (RGB 3-2-1, path 127, row 14, before (2005-06-27) and after (2007-07-03) forest fire) show a similar structure.</s><s>4. The Great Vasyugan Mire of alternating mire phytocoenoses, located between the Iksa and Bakchar Rivers <ref target="#b38" type="bibr">[39]</ref>, is well covered by the classification of the hS W area (Figure <ref target="#fig_15" type="figure">13</ref>).</s><s>Differences in classifications can be explained by 8 years of time difference or different weather conditions in these years (e.g., wetter in 2007), or confusion with forests or herbaceous land cover. 5.</s><s>The hS W area distribution was compared against the Regional Wetland Product in the transects (Figure <ref target="#fig_2" type="figure">3</ref>) of the Ob and the Lena test regions.</s><s>The regional wetland product provides the areal extent of wetland for the boreal zone for one year (from July 2007 to June 2008), on an equal area grid of 25 km (equal area grid of 0.25 • at the equator), with a 10-day temporal sampling <ref target="#b6" type="bibr">[7]</ref>.</s></p><p><s>The comparison which included the dynamics of open water of <ref target="#b10" type="bibr">[11]</ref> confirms that open water surfaces are underestimated in areas with tundra ponds in the regional product.</s><s>The differences over the Lena Delta are however strongly impacted by masking of the Lena river channels.</s><s>In boreal areas, the ASAR WS information on saturated and open inundated areas enables the discrimination between the different components that contribute to the regional wetland fraction (compare Figure <ref target="#fig_10" type="figure">9</ref>).</s><s>6.</s><s>The Inventory of Wetland Area <ref target="#b34" type="bibr">[35]</ref> distinguishes classes with respect to land cover compositions, e.g., tree cover and pools, which result in wetland complexes.</s><s>Wetland complexes agree in most parts with the classification of this study (compare Figure <ref target="#fig_3" type="figure">14</ref>: "forested shrubs-and moss-dominated mires" agree with "areas with high degree of saturation", "sphagnum dominated bogs with pools and open stand trees" agree with regions with a mixture of "water bodies" and "areas with high degree of saturation".)</s><s>Bartsch et al. <ref target="#b9" type="bibr">[10]</ref> suggested the use of metrics such as water bodies density for tundra wetland complex retrieval.</s><s>A combined use of those two classes may lead to the delineation of classes as used in <ref target="#b34" type="bibr">[35]</ref>.</s><s>Validation problems with the data set occur due to different acquisition date of underlying imagery, spatial detail and the thematic resolution.</s><s>7. Geo-Wiki ( <ref target="#b35" type="bibr">[36,</ref><ref target="#b36" type="bibr">37]</ref>, http://www.geo-wiki.org/) is an on-line tool to visualize and validate spatial datasets based on the Google Earth imagery (http://www.google.com/earth/).</s><s>Besides imagery, Geo-Wiki provides some additional information that help to validate a dataset: land cover class by GLC2000, MODIS land cover and GlobCover as well as NDVI seasonal profile.</s><s>In the particular case study, we have checked 465 points randomly distributed over a subset of the hS W area classification (Extent: SV in Figure <ref target="#fig_2" type="figure">3</ref>) whether wetlands are observed there or not.</s><s>Eighty percent of validation points confirm our area of hS W area. Taking into account a subset of validation points with a high reliability on distinguished land cover, we got an accuracy of 86%.</s><s>The underlying Google Earth imagery was taken in 2005/2006.</s><s>Figure <ref target="#fig_3" type="figure">14</ref>.</s><s>Classification of this study (water bodies: blue, saturated areas: green) over wetland complex classification <ref target="#b34" type="bibr">[35]</ref>.</s><s>Universal Polar Stereographic projection, extent: S3 in Figure <ref target="#fig_2" type="figure">3</ref>.</s></p><p><s>A known problem in using ASAR WS data for water bodies mapping is the restraining factor of weather conditions (rain and wind) due to its specific wavelength.</s><s>More than 50% of the acquisitions can be affected in this environment <ref target="#b10" type="bibr">[11]</ref>.</s><s>This is however not a constraint for identification of hS W areas.</s><s>Thus, no pre-selection of scenes regarding weather conditions is needed.</s><s>Furthermore, statistics of time series were used to deduct error values.</s><s>Compared with the min/max method, the percentile classification assigns 1% less area to water bodies but results in reduced artifacts (Figure <ref target="#fig_4" type="figure">5</ref>).</s><s>Regarding the hS W areas, the percentile method assigns 3.5% less area to that class than the min/max method (Figure <ref target="#fig_11" type="figure">10</ref>).</s><s>The parameterization of the decision tree is applicable in both tundra and taiga environments as well as in both study sites Lena and Ob and the pan-arctic region.</s></p><p><s>The areas mapped are characterized by a high backscatter not changing over the snow free season.</s><s>The comparison against other wetland/land cover products of the region shows the potential of the hS W areas maps.</s><s>A nominal resolution of 75 m is suitable to map smaller wetland patches as they often occur in highly heterogeneous wetland landscapes.</s><s>Apart from the spatial distribution of the classified features, which overlap or correspond with the independent peatland classifications, the specific high backscatter resulting from high near surface soil moisture is a strong indicator for peatlands.</s><s>Bartsch et al. <ref target="#b26" type="bibr">[27]</ref> compared the seasonal variations of soil moisture of different wetland and other land cover types of the boreal biome over a time period of a year.</s><s>They found specific soil moisture dynamics with a long term high backscatter for wetlands with high moor peat and peat/podzol in contrast to short(er) term high backscatter for muck-peat gley.</s><s>Although the mapped areas are defined as hS W areas, they may mainly represent oligotrophic peatlands, as the validation has shown.</s><s>Areas containing high amounts of carbon are detected and discriminated from water bodies, what is of high importance for climate modelling concerning future methane release from peatlands under thawing permafrost conditions.</s></p><p><s>The decrease of hS W area between 2007 and 2008 corresponds to the observations of <ref target="#b39" type="bibr">[40]</ref>: "The preliminary estimate of annual river discharge to the Arctic Ocean from the major Russian rivers in 2008 was significantly greater than the long-term mean but lower than the historical maximum observed in 2007."</s><s>Shiklomanov et al. <ref target="#b40" type="bibr">[41]</ref> analyzed the climate conditions of 2007 based on ArticRIMS <ref target="#b41" type="bibr">[42]</ref> and NCEP <ref target="#b42" type="bibr">[43]</ref> data and compared them to the long-term trend from 1980 to 2007 that demonstrates an intensified water cycle in the pan-Arctic region.</s><s>They found that precipitation in 2007 was higher in the northern regions of the Russian Arctic Drainage System (that agree with the position of the study regions) and lower in the southern regions compared to the long-term trend.</s><s>Furthermore, 2007 was the warmest year since 1947 in regions covering 90% of total permafrost in the Eurasian Arctic.</s></p><p><s>The high precipitation rate and warmer conditions in 2007 (which may have intensified permafrost thawing) could have contributed to an increased water accumulation in wetland complexes.</s><s>Further reasons for area decrease could be a variation in data availability or an impact on data due to weather disturbances during acquisition.</s><s>Also errors at freeze/thaw masking can lead to varying results.</s></p><p><s>Differences in wetland extent and distribution compared to the reference maps may be attributed to different acquisition dates of the underlying data and changing climate conditions with a resulting land cover change.</s><s>Different spatial resolutions are more likely to cause classification variability, as generalization leads to overestimation of the class extent.</s><s>But the most reasonable explanation of the differences might be the specific class definition of this study.</s><s>While other products map wetland complexes (e.g., <ref target="#b16" type="bibr">[17,</ref><ref target="#b34" type="bibr">35]</ref>) or water fraction <ref target="#b6" type="bibr">[7]</ref>, it is assumed in this study that characteristic features of peatlands are mapped, which are areas of high soil moisture covered with a specific vegetation (probably Sphagnum, compare peatland classification systems in Table <ref target="#tab_2" type="table">2</ref>).</s><s>This is demonstrated in the highly differentiated classification of Vasyugan Mire (Figure <ref target="#fig_15" type="figure">13</ref>) where the ASAR WS classifications mainly corresponds to Herb.Wetland, Shrub.Wetland and Tree.Needleleaved.Evergreen.Open.Wetland class with 33% to 42% (Figure <ref target="#fig_16" type="figure">15</ref>).</s><s>Less hS W area falls into the adjacent wetland classes Tmow, Tmcw and Tnecw (see Figure <ref target="#fig_16" type="figure">15</ref> for coding and %).</s><s>Of the non-wetland classes, 6% to 15% overlap with the ASAR WS classification.</s><s>Eutrophic peatland distributions are expected to be less detectable with this method.</s><s>The specific backscatter of dense, growing reed beds of Phragmites in combination with a changing water table requires a more complex classification scheme.</s></p><p><s>The validation activities could be extended by comparison against the wetland dataset by <ref target="#b43" type="bibr">[44]</ref>, who assessed the distribution and dynamics of inundated wetlands in boreal and arctic environments to construct a global scale Earth System Data Record (ESDR) of Inundated Wetlands that may be complementary to the saturated area information.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusions<p><s>In this study a decision tree method applied on backscatter time series data of ENVISAT ASAR WS was tested.</s><s>The study presented was conducted in the context of using Earth Observation data for evaluating estimates of methane releases of a land surface model, the Joint UK Land Environment Simulator (JULES; <ref target="#b45" type="bibr">[46,</ref><ref target="#b46" type="bibr">47]</ref>).</s><s>ASAR WS data are applicable over large regions for the identification of areas with a long-term high degree of water saturation (hS W areas).</s><s>The advantages of C-band data are the increased coverage and data availability, compared to L-band instruments.</s><s>A limiting factor is the shorter wavelength, thus the detectability of forested wetland patches is impacted by a limited penetration to the ground in forest.</s><s>Confusion with other classes such as build-up areas has been addressed using seasonal backscatter statistics.</s><s>The hS W area total is 3.5% larger without this step in the classification scheme.</s><s>The classification method is designed for processing large data sets and can be used on any ASAR WS time series covering at least summer and early autumn seasons in the pan-arctic region.</s><s>The test region chosen offers a good data coverage <ref target="#b10" type="bibr">[11]</ref> and extensive peatland.</s><s>It was therefore suitable to investigate the application potential of the data and for developing a monitoring scheme.</s><s>Validation data are however scarce.</s><s>Seven independent data sources at different scale and thematic detail have been compared to the classification result.</s><s>Bartsch et al. <ref target="#b10" type="bibr">[11]</ref> showed that C-band data is suitable to monitor open water dynamics when sufficient acquisitions are available.</s><s>Here we show that they can be also utilized to distinguish inundation from areas highly saturated with water, as typical for peatland (86% agreement by use of GeoWiki).</s><s>It allows conclusions regarding the distribution of oligotrophic peatlands including their moisture status.</s><s>Moreover, distribution patterns can be derived, which are of interest for ecological and geomorphological research.</s><s>The data set can be also utilized for renaturation/regeneration monitoring of burnt areas.</s><s>A subdivision of wetland fraction dynamics into different contributing wetland classes could help to better model methane fluxes that are strongly affected by wetland characteristics.</s><s>ASAR WS data products are suitable to provide such information.</s><s>Variations in the thresholds used in the classification should be further tested with respect to the actual sensitivity of C-band SAR to moisture changes.</s></p><p><s>The ENVISAT data is available only from 2003 to spring 2012.</s><s>The ASAR acquisition strategy has been also an obstacle for spatially and temporal consistent monitoring applications.</s><s>There are however plans for a follow-up mission that aims on operational services.</s><s>The European Space Agency in collaboration with the European Union is developing the Sentinel-1 mission to be launched in 2013 to benefit the GMES user services.</s><s>The polar-orbiting satellites will ensure the continuity of C-band SAR-data <ref target="#b47" type="bibr">[48]</ref>.</s><s>A continuous mapping of hS W area distribution and change would be enabled.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>Extent of mosaics processed for the ALANIS Methane dataset, with IDs included (e.g., 11 corresponds to Ob region and 12 to the Lena basin and Delta).</s></p></div></figdesc></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 2. Extent of permafrost of the West Siberian Lowlands (Dataset IIASA [26]).</s><s>The test areas of Ob basin and Delta and Lena basin and Delta are outlined in black.</s><s>The extents of subsets and transects used for validation are shown in red, green and blue (compare Chapter 4: Assessment).</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure 3. Major vegetation zones of the West Siberian Lowlands (Dataset IIASA [26]).</s><s>The test areas of Ob basin and Delta and Lena basin and Delta are outlined in black.</s><s>The extents of subsets and transects used for validation are shown in red, green and blue (compare Chapter 4: Assessment).</s></p></div></figdesc><graphic coords="5,131.46,503.86,332.21,272.14" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4. Schematic representation of the classification method to derive hS W areas.</s></p></div></figdesc><graphic coords="6,148.27,408.78,301.46,323.46" type="bitmap"></graphic></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 5 .<label>5</label><figdesc><div><p><s>Figure 5. (left) hS W areas and inundation classification using the minimum and maximum of time series data, (right) hS W areas and inundation classification using statistical measures 5th percentile and 95th percentile of time series data.</s><s>Artifacts and data errors are minimized, but the extent of hS W areas is reduced as well.</s><s>Universal Polar Stereographic projection, extent: S2 in Figure 3.</s></p></div></figdesc><graphic coords="7,83.98,603.85,428.43,183.19" type="bitmap"></graphic></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0">Figure 6 .<label>6</label><figdesc><div><p><s>Figure 6.</s><s>The 95th percentile (left) and the 5th percentile (middle) of the backscatter time series, which are used in the classification tree in comparison to a single day backscatter (right), mapped in Universal Polar Stereographic projection.</s><s>Extent: S1 in Figure 3.</s></p></div></figdesc></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0">Figure 7 .<label>7</label><figdesc><div><p><s>Figure 7. Percental hS W area from total area in the mosaics covering northern Russia.</s><s>For location see Figure 1.</s></p></div></figdesc></figure>
+<figure xml:id="fig_9" xmlns="http://www.tei-c.org/ns/1.0">Figure 8 .<label>8</label><figdesc><div><p><s>Figure 8.</s><s>Comparison of hS W classification (left) with carbon content map ((right); IIASA data set [32]).</s></p></div></figdesc><graphic coords="10,148.82,138.95,299.30,374.98" type="bitmap"></graphic></figure>
+<figure xml:id="fig_10" xmlns="http://www.tei-c.org/ns/1.0">Figure 9 .<label>9</label><figdesc><div><p><s>Figure 9.</s><s>Comparison of hS W area (light blue) and open water bodies area (dark blue) derived from ASAR WS data statistics with the area of the regional wetland product (red) in different landscape types of Ob and Lena region.</s><s>The dynamics of total wetland areas are comparable in most regions.</s><s>The location of the transects are shown in Figure 3.</s></p></div></figdesc><graphic coords="10,49.61,616.13,496.00,160.25" type="bitmap"></graphic></figure>
+<figure xml:id="fig_11" xmlns="http://www.tei-c.org/ns/1.0">Figure 10 .<label>10</label><figdesc><div><p><s>Figure 10.</s><s>Impact of different classification methods on areal extent of derived classes.</s><s>Method 1 (A): minimum/maximum of time series data; Method 2 (B): 5th percentile/95th percentile of time series data.</s></p></div></figdesc><graphic coords="11,136.42,147.02,322.42,191.15" type="bitmap"></graphic></figure>
+<figure xml:id="fig_12" xmlns="http://www.tei-c.org/ns/1.0">2 .<label>2</label><figdesc><div><p><s>Areas classified as hS W show a mean soil carbon content of 46 kg•C•m -2 when compared with the Soil Organic Carbon Map [32], while regions with abundant open water bodies and seasonally inundated areas show a mean of 30 kg•C•m -2 and other land cover 33 kg•C•m -2</s></p></div></figdesc></figure>
+<figure xml:id="fig_13" xmlns="http://www.tei-c.org/ns/1.0">Figure 11 .<label>11</label><figdesc><div><p><s>Figure 11.</s><s>Classification of this study (water bodies: blue, saturated areas: green) over peatland classification<ref target="#b16" type="bibr">[17]</ref> oligotrophic peatlands: orange.</s><s>Universal Polar Stereographic projection, extent: S3 in Figure3.</s></p></div></figdesc><graphic coords="13,170.72,146.97,255.62,283.85" type="bitmap"></graphic></figure>
+<figure xml:id="fig_14" xmlns="http://www.tei-c.org/ns/1.0">Figure 12 .<label>12</label><figdesc><div><p><s>Figure 12.</s><s>Distribution of land cover types from the GBFM map<ref target="#b32" type="bibr">[33]</ref> of 1996/1997 including bogs (purple) compared with the saturated area map of 2007.</s><s>In 2005 large forest fires occurred as documented in the DUE Permafrost burnt area map<ref target="#b37" type="bibr">[38]</ref>.</s><s>Universal Polar Stereographic projection, extent: S1 in Figure3.</s></p></div></figdesc><graphic coords="13,98.04,536.56,400.01,223.31" type="bitmap"></graphic></figure>
+<figure xml:id="fig_15" xmlns="http://www.tei-c.org/ns/1.0">Figure 13 .<label>13</label><figdesc><div><p><s>Figure 13.</s><s>(Upper left): hS W area classification of 2007.(Upper</s><s>right): Vasyugan Mire classification of 1999.</s><s>(Lower left): Mask of Vasyugan wetland classes [39] over hS W classification. (Lower right): Mask of Vasyugan non-wetland classes over hS W classification.</s></p></div></figdesc><graphic coords="14,111.61,164.21,372.03,278.66" type="bitmap"></graphic></figure>
+<figure xml:id="fig_16" xmlns="http://www.tei-c.org/ns/1.0">Figure 15 .<label>15</label><figdesc><div><p><s>Figure 15.</s><s>Percentage of hS W area in different wetland classes derived from Vasyugan mire classification in [39] (compare Figure 13: B = Bare, H = Herbaceous, S = Shrub, Tnec = Tree.Needleaved.Evergreen.Closed, W = Water, Tmc = Tree.Mixed.Closed, Tbdc = Tree.Broadleaved.Deciduous.Closed, Tmow = Tree.Mixed.Open.Wetland, Tmcw = Tree.Mixed.Closed.Wetland, Tnecw = Tree.Needleaved.Evergreen.Closed.Wetland, SW = Shrub.Wetland, Tneow = Tree.Needleleaved.Evergreen.Open.Wetland, HW = Herb.Wetland.</s></p></div></figdesc><graphic coords="16,135.89,521.60,319.72,271.90" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>Products used for validation activities.</s></p></div></figdesc><table><row><cell cols="2">Product</cell><cell></cell><cell></cell><cell>Data-Type</cell><cell>Resolution</cell><cell>Comments</cell></row><row><cell cols="4">(1) Wetland type map [17],</cell><cell>polygons</cell><cell>Digitized from 1: 1 Mio</cell><cell>Generalized Shape boundaries lead to</cell></row><row><cell cols="3">Coverage: Western Siberia</cell><cell></cell><cell></cell><cell>and 1: 2.5 Mio maps</cell><cell>overestimation of wetlands, the file is</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>compiled of different data sets, with</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>the latest set of the year 1999.</cell></row><row><cell cols="4">(2) Soil Organic Carbon Map [32],</cell><cell>raster</cell><cell>1 km</cell><cell>Dataset was used to compare</cell></row><row><cell cols="2">Coverage: Russia</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>distribution of mapped areas against</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>soil carbon accumulation.</cell></row><row><cell>(3)</cell><cell>Global</cell><cell>Boreal</cell><cell>Forest</cell><cell>raster</cell><cell>100 m</cell><cell>Focus of forest mapping, 1996/1997,</cell></row><row><cell cols="4">Mapping project [33], Coverage:</cell><cell></cell><cell></cell><cell>L-band SAR based</cell></row><row><cell cols="4">Boreal Zone of North America,</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Siberia, Europe</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">(4) Vasyugan Mire classification</cell><cell>raster</cell><cell>30 m</cell><cell>Small, but detailed part of test region,</cell></row><row><cell cols="4">[34], Coverage: Centre of West</cell><cell></cell><cell></cell><cell>Landsat 1999</cell></row><row><cell cols="2">Siberian Plain</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(5)</cell><cell cols="2">ALANIS</cell><cell>Methane</cell><cell>centre points</cell><cell>25 km</cell><cell>Wetland fraction dynamics in 10-day</cell></row><row><cell cols="4">Regional Wetland Product ([7],</cell><cell></cell><cell></cell><cell>intervals for 2007/2008, multi-sensor</cell></row><row><cell cols="4">http://www.alanis-methane.info),</cell><cell></cell><cell></cell><cell>approach</cell></row><row><cell cols="3">Coverage: Northern Eurasia</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>Cont.</s></p></div></figdesc><table><row><cell>Product</cell><cell></cell><cell></cell><cell>Data-Type</cell><cell>Resolution</cell><cell cols="2">Comments</cell></row><row><cell cols="3">(6) Inventory of Wetland Area ([35]),</cell><cell>polygons</cell><cell>Digitized from 1:2.5</cell><cell>Spatial</cell><cell>structure</cell><cell>of</cell><cell>wetland</cell></row><row><cell cols="2">Coverage: Western Siberia</cell><cell></cell><cell></cell><cell>Mio map, refined with</cell><cell cols="3">complexes, satellite data from</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>1:200,000 imagery</cell><cell cols="2">1995, 1999 and 2000</cell></row><row><cell>(7)</cell><cell>GeoWiki</cell><cell>([36,37],</cell><cell>raster</cell><cell>high to coarse</cell><cell cols="3">Google Earth imagery (mostly</cell></row><row><cell cols="3">http://www.geo-wiki.org), Coverage:</cell><cell></cell><cell></cell><cell cols="2">2003-2010)</cell></row><row><cell>global</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_2" xmlns="http://www.tei-c.org/ns/1.0">Table 2 .<label>2</label><figdesc><div><p><s>Peatland classification systems.</s></p></div></figdesc><table><row><cell>Ramsar Convention on Wetlands: Inland wetlands</cell><cell>Russian Classification System: Three main types</cell></row><row><cell>(Ramsar Convention Secretariat, 2006 [45])</cell><cell>of peatland regarding their development [22]</cell></row><row><cell>Non-forested peatlands (U): includes shrub or open</cell><cell>Eutrophic (Phragmites)</cell></row><row><cell>bogs, swamps, fens</cell><cell></cell></row><row><cell></cell><cell>Mesotrophic (Carex-hypnum and forest)</cell></row><row><cell>Forested peatlands (Xp): peatswamp forests</cell><cell></cell></row><row><cell></cell><cell>Oligotrophic (Sphagnum)</cell></row><row><cell>Tundra wetlands (Vt): includes tundra pools,</cell><cell></cell></row><row><cell>temporary waters from snowmelt</cell><cell></cell></row></table></figure>
+<back>
+<div type="acknowledgement">
+<div>Acknowledgments<p>This study has been carried out in relation to the <rs type="projectName">ALANIS-Methane</rs> project which is funded by the <rs type="funder">European Space Agency (ESA) Support to Science Element (</rs><rs type="programName">STSE) program</rs> (<rs type="projectName">ESRIN Contr</rs>.No. <rs type="grantNumber">4000100647/10/I-LG</rs>) and coordinated by <rs type="funder">CEH, UK</rs>.It further contributes to the <rs type="projectName">PERMAFROST</rs> project which is funded by <rs type="funder">ESA</rs>'s <rs type="programName">Data User Element (DUE) program</rs> as a component of the <rs type="programName">Earth Observation Envelope Program (EOEP)</rs> (<rs type="projectName">ESRIN Contr</rs>.No. <rs type="grantNumber">22185/09/I-OL</rs>) and coordinated by <rs type="funder">TU Wien</rs>. <rs type="person">A. Bartsch</rs> has been recipient of a fellowship by the <rs type="funder">Austrian Science Fund</rs> (<rs type="grantNumber">V150-N21</rs>).</p></div>
+</div>
+<listorg type="funding">
+<org type="funded-project" xml:id="_hpK3pzZ">
+<orgname subtype="full" type="project">ALANIS-Methane</orgname>
+<orgname subtype="full" type="program">STSE) program</orgname>
+</org>
+<org type="funded-project" xml:id="_XZ2XgPH">
+<idno type="grant-number">4000100647/10/I-LG</idno>
+<orgname subtype="full" type="project">ESRIN Contr</orgname>
+</org>
+<org type="funded-project" xml:id="_hnRD792">
+<orgname subtype="full" type="project">PERMAFROST</orgname>
+<orgname subtype="full" type="program">Data User Element (DUE) program</orgname>
+</org>
+<org type="funded-project" xml:id="_4Hk256P">
+<idno type="grant-number">22185/09/I-OL</idno>
+<orgname subtype="full" type="project">ESRIN Contr</orgname>
+<orgname subtype="full" type="program">Earth Observation Envelope Program (EOEP)</orgname>
+</org>
+<org type="funding" xml:id="_kB8R9n6">
+<idno type="grant-number">V150-N21</idno>
+</org>
+</listorg>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Barriers to predicting changes in global terrestrial methane fluxes: Analyses using CLM 4 Me, a methane biogeochemistry model integrated in CESM</title>
+<author>
+<persname><forename type="first">W</forename><surname>Riley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Subin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Lawrence</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Swenson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Torn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Meng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Mahowald</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Hess</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biogeosci. Discuss</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope from="1733" to="1807" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Riley, W.; Subin, Z.; Lawrence, D.; Swenson, S.; Torn, M.; Meng, L.; Mahowald, N.; Hess, P. Barriers to predicting changes in global terrestrial methane fluxes: Analyses using CLM 4 Me, a methane biogeochemistry model integrated in CESM. Biogeosci. Discuss. 2011, 8, 1733-1807.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Integrating peatlands and permafrost into a dynamic global vegetation model: 1. Evaluation and sensitivity of physical land surface processes</title>
+<author>
+<persname><forename type="first">R</forename><surname>Wania</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Ross</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Prentice</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Glob. Biogeochem. Cy</title>
+<imprint>
+<biblscope unit="volume">23</biblscope>
+<biblscope unit="page">3014</biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wania, R.; Ross, I.; Prentice, I. Integrating peatlands and permafrost into a dynamic global vegetation model: 1. Evaluation and sensitivity of physical land surface processes. Glob. Biogeochem. Cy. 2009, 23, GB3014.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Methane flux from northern wetlands and tundra</title>
+<author>
+<persname><forename type="first">T</forename><surname>Christensen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Prentice</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kaplan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Haxeltine</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sitch</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Tellus B</title>
+<imprint>
+<biblscope unit="volume">48</biblscope>
+<biblscope from="652" to="661" unit="page"></biblscope>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Christensen, T.; Prentice, I.; Kaplan, J.; Haxeltine, A.; Sitch, S. Methane flux from northern wetlands and tundra. Tellus B 1996, 48, 652-661.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">CO 2 and CH 4 exchanges between land ecosystems and the atmosphere in northern high latitudes over the 21st century</title>
+<author>
+<persname><forename type="first">Q</forename><surname>Zhuang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Melillo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Sarofim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Kicklighter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Mcguire</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Felzer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Sokolov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Prinn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Steudler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hu</surname></persname>
+</author>
+<idno type="DOI">10.1029/2006GL026972</idno>
+</analytic>
+<monogr>
+<title level="j">Geophys. Res. Lett</title>
+<imprint>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zhuang, Q.; Melillo, J.; Sarofim, M.; Kicklighter, D.; McGuire, A.; Felzer, B.; Sokolov, A.; Prinn, R.; Steudler, P.; Hu, S. CO 2 and CH 4 exchanges between land ecosystems and the atmosphere in northern high latitudes over the 21st century. Geophys. Res. Lett. 2006, doi:10.1029/2006GL026972 .</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Inverse modeling of global and regional CH 4 emissions using SCIAMACHY satellite retrievals</title>
+<author>
+<persname><forename type="first">P</forename><surname>Bergamaschi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Frankenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Meirink</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Krol</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Villani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Houweling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Dentener</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Dlugokencky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Gatti</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Geophys. Res</title>
+<imprint>
+<biblscope unit="volume">114</biblscope>
+<biblscope unit="page">22301</biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bergamaschi, P.; Frankenberg, C.; Meirink, J.; Krol, M.; Villani, M.; Houweling, S.; Dentener, F.; Dlugokencky, E.; Miller, J.; Gatti, L.; et al. Inverse modeling of global and regional CH 4 emissions using SCIAMACHY satellite retrievals. J. Geophys. Res. 2009, 114, D22301.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Development and validation of a global database of lakes, reservoirs and wetlands</title>
+<author>
+<persname><forename type="first">B</forename><surname>Lehner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Döll</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Hydrol</title>
+<imprint>
+<biblscope unit="volume">296</biblscope>
+<biblscope from="1" to="22" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lehner, B.; Döll, P. Development and validation of a global database of lakes, reservoirs and wetlands. J. Hydrol. 2004, 296, 1-22.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Global inundation dynamics inferred from multiple satellite observations, 1993-2000</title>
+<author>
+<persname><forename type="first">C</forename><surname>Prigent</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Papa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Aires</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Rossow</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Matthews</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Geophys. Res</title>
+<imprint>
+<biblscope unit="volume">112</biblscope>
+<biblscope unit="page">12107</biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Prigent, C.; Papa, F.; Aires, F.; Rossow, W.; Matthews, E. Global inundation dynamics inferred from multiple satellite observations, 1993-2000. J. Geophys. Res. 2007, 112, D12107.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Monitoring seasonal hydrological dynamics of minerotrophic peatlands using multi-date GeoEye-1 very high resolution imagery and object-based classification</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Dribault</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Chokmani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bernier</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Remote Sens</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope from="1887" to="1912" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dribault, Y.; Chokmani, K.; Bernier, M. Monitoring seasonal hydrological dynamics of minerotrophic peatlands using multi-date GeoEye-1 very high resolution imagery and object-based classification. Remote Sens. 2012, 4, 1887-1912.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">High resolution mapping of peatland hydroperiod at a high-latitude swedish mire</title>
+<author>
+<persname><forename type="first">N</forename><surname>Torbick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Persson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Olefeldt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Frolking</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Salas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hagen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Crill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Li</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Remote Sens</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope from="1974" to="1994" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Torbick, N.; Persson, A.; Olefeldt, D.; Frolking, S.; Salas, W.; Hagen, S.; Crill, P.; Li, C. High resolution mapping of peatland hydroperiod at a high-latitude swedish mire. Remote Sens. 2012, 4, 1974-1994.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Detection of permanent open water surfaces in central Siberia with ENVISAT ASAR wide swath data with special emphasis on the estimation of methane fluxes from tundra wetlands</title>
+<author>
+<persname><forename type="first">A</forename><surname>Bartsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Pathe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Wagner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Scipal</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Hydrol. Res</title>
+<imprint>
+<biblscope unit="volume">39</biblscope>
+<biblscope from="89" to="100" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bartsch, A.; Pathe, C.; Wagner, W.; Scipal, K. Detection of permanent open water surfaces in central Siberia with ENVISAT ASAR wide swath data with special emphasis on the estimation of methane fluxes from tundra wetlands. Hydrol. Res. 2008, 39, 89-100.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Detection of open water dynamics with ENVISAT ASAR in support of land surface modelling at high latitudes</title>
+<author>
+<persname><forename type="first">A</forename><surname>Bartsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Trofaier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Hayman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Sabel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Schlaffer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Clark</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Blyth</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biogeosciences</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="703" to="714" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bartsch, A.; Trofaier, A.; Hayman, G.; Sabel, D.; Schlaffer, S.; Clark, D.; Blyth, E. Detection of open water dynamics with ENVISAT ASAR in support of land surface modelling at high latitudes. Biogeosciences 2012, 9, 703-714.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Monitoring soil moisture over the Canadian prairies with the ERS scatterometer</title>
+<author>
+<persname><forename type="first">W</forename><surname>Wagner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Noll</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Borgeaud</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Rott</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">IEEE Trans. Geosci. Remote Sens</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope from="206" to="216" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wagner, W.; Noll, J.; Borgeaud, M.; Rott, H. Monitoring soil moisture over the Canadian prairies with the ERS scatterometer. IEEE Trans. Geosci. Remote Sens. 1999, 37, 206-216.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Operational readiness of microwave remote sensing of soil moisture for hydrologic applications</title>
+<author>
+<persname><forename type="first">W</forename><surname>Wagner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Blöschl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Pampaloni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Calvet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Bizzarri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Wigneron</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Kerr</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nordic Hydrol</title>
+<imprint>
+<biblscope unit="volume">38</biblscope>
+<biblscope from="1" to="20" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wagner, W.; Blöschl, G.; Pampaloni, P.; Calvet, J.C.; Bizzarri, B.; Wigneron, J.P.; Kerr, Y. Operational readiness of microwave remote sensing of soil moisture for hydrologic applications. Nordic Hydrol. 2007, 38, 1-20.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Using ENVISAT ASAR global mode data for surface soil moisture retrieval over Oklahoma</title>
+<author>
+<persname><forename type="first">C</forename><surname>Pathe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Wagner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Sabel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Doubkova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Basara</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">USA. IEEE Trans. Geosci. Remote Sens</title>
+<imprint>
+<biblscope unit="volume">47</biblscope>
+<biblscope from="468" to="480" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pathe, C.; Wagner, W.; Sabel, D.; Doubkova, M.; Basara, J. Using ENVISAT ASAR global mode data for surface soil moisture retrieval over Oklahoma, USA. IEEE Trans. Geosci. Remote Sens. 2009, 47, 468-480.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Global monitoring of wetlands-The value of ENVISAT ASAR Global mode</title>
+<author>
+<persname><forename type="first">A</forename><surname>Bartsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Wagner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Scipal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Pathe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Sabel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Wolski</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Environ. Manage</title>
+<imprint>
+<biblscope unit="volume">90</biblscope>
+<biblscope from="2226" to="2233" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bartsch, A.; Wagner, W.; Scipal, K.; Pathe, C.; Sabel, D.; Wolski, P. Global monitoring of wetlands-The value of ENVISAT ASAR Global mode. J. Environ. Manage. 2009, 90, 2226-2233.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Remote Sensing of Spring Snowmelt in Siberia</title>
+<author>
+<persname><forename type="first">A</forename><surname>Bartsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Wagner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kidd</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Environmental Change in Siberia. Earth Observation, Field Studies and Modelling</title>
+<editor>
+<persname><forename type="first">H</forename><surname>Balzter</surname></persname>
+</editor>
+<meeting><address><addrline>Berlin/Heidelberg, Germany</addrline></address></meeting>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="2010">2010</date>
+<biblscope from="135" to="155" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Bartsch, A.; Wagner, W.; Kidd, R. Remote Sensing of Spring Snowmelt in Siberia. In Environmental Change in Siberia. Earth Observation, Field Studies and Modelling; Balzter, H., Ed.; Springer: Berlin/Heidelberg, Germany, 2010; pp. 135-155.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">A high-resolution GIS-based inventory of the west Siberian peat carbon pool</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Sheng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Macdonald</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Kremenetski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Frey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Velichko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Beilman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Dubinin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Glob. Biogeochem. Cy</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="page">3004</biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sheng, Y.; Smith, L.; MacDonald, G.; Kremenetski, K.; Frey, K.; Velichko, A.; Lee, M.; Beilman, D.; Dubinin, P. A high-resolution GIS-based inventory of the west Siberian peat carbon pool. Glob. Biogeochem. Cy. 2004, 18, GB3004.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<monogr>
+<title level="m" type="main">Remote Sensing of the Environment</title>
+<author>
+<persname><forename type="first">J</forename><surname>Jensen</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2009">2009</date>
+<publisher>Prentice-Hall</publisher>
+<pubplace>Upper Saddle River, NJ, USA</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Jensen, J. Remote Sensing of the Environment; Prentice-Hall: Upper Saddle River, NJ, USA, 2009.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">ASCAT Surface State Flag (SSF): Extracting information on surface freeze/thaw conditions from backscatter data using an empirical threshold-analysis algorithm</title>
+<author>
+<persname><forename type="first">V</forename><surname>Naeimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Paulik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bartsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Wagner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kidd</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Park</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Elger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Boike</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">IEEE Trans. Geosci. Remote Sens</title>
+<imprint>
+<biblscope unit="volume">50</biblscope>
+<biblscope from="1" to="17" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Naeimi, V.; Paulik, C.; Bartsch, A.; Wagner, W.; Kidd, R.; Park, S.; Elger, K.; Boike, J. ASCAT Surface State Flag (SSF): Extracting information on surface freeze/thaw conditions from backscatter data using an empirical threshold-analysis algorithm. IEEE Trans. Geosci. Remote Sens. 2011, 50, 1-17.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<monogr>
+<title level="m" type="main">Circumpolar Surface Soil Moisture and Freeze/Thaw Surface Status Remote Sensing Products with Links to Geotiff Images and netCDF Files</title>
+<author>
+<persname><forename type="first">C</forename><surname>Paulik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Melzer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hahn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bartsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Heim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Elger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Wagner</surname></persname>
+</author>
+<idno type="DOI">10.1594/PANGAEA.775959</idno>
+<imprint>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Paulik, C.; Melzer, T.; Hahn, S.; Bartsch, A.; Heim, B.; Elger, K.; Wagner, W. Circumpolar Surface Soil Moisture and Freeze/Thaw Surface Status Remote Sensing Products with Links to Geotiff Images and netCDF Files; 2012; doi:10.1594/PANGAEA.775959.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Development of a global backscatter model in support to the Sentinel-1 mission design</title>
+<author>
+<persname><forename type="first">D</forename><surname>Sabel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Bartalis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Wagner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Doubkova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Klein</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Remote Sens. Environ</title>
+<imprint>
+<biblscope unit="volume">120</biblscope>
+<biblscope from="102" to="112" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sabel, D.; Bartalis, Z.; Wagner, W.; Doubkova, M.; Klein, J.P. Development of a global backscatter model in support to the Sentinel-1 mission design. Remote Sens. Environ. 2012, 120, 102-112.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Peatlands of the Western Siberian lowlands: Current knowledge on zonation, carbon content and late quaternary history</title>
+<author>
+<persname><forename type="first">K</forename><surname>Kremenetski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Velichko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Borisova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Macdonald</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Frey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Orlova</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Quat. Sci. Rev</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope from="703" to="723" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kremenetski, K.; Velichko, A.; Borisova, O.; MacDonald, G.; Smith, L.; Frey, K.; Orlova, L. Peatlands of the Western Siberian lowlands: Current knowledge on zonation, carbon content and late quaternary history. Quat. Sci. Rev. 2003, 22, 703-723.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<monogr>
+<author>
+<persname><forename type="first">L</forename><surname>Fraser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Keddy</surname></persname>
+</author>
+<title level="m">The World's Largest Wetlands: Ecology and Conservation</title>
+<meeting><address><addrline>Cambridge, UK</addrline></address></meeting>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fraser, L.; Keddy, P. The World's Largest Wetlands: Ecology and Conservation; Cambridge University Press: Cambridge, UK, 2005.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Vulnerability of permafrost carbon to climate change: Implications for the global carbon cycle</title>
+<author>
+<persname><forename type="first">E</forename><surname>Schuur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Bockheim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Canadell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Euskirchen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Field</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Goryachkin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hagemann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Kuhry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Lafleur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Lee</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">BioScience</title>
+<imprint>
+<biblscope unit="volume">58</biblscope>
+<biblscope from="701" to="714" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schuur, E.; Bockheim, J.; Canadell, J.; Euskirchen, E.; Field, C.; Goryachkin, S.; Hagemann, S.; Kuhry, P.; Lafleur, P.; Lee, H.; et al. Vulnerability of permafrost carbon to climate change: Implications for the global carbon cycle. BioScience 2008, 58, 701-714.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Possible role of wetlands, permafrost, and methane hydrates in the methane cycle under future climate change: A review</title>
+<author>
+<persname><forename type="first">F</forename><surname>O'connor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Boucher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Gedney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Folberth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Coppell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Friedlingstein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Chappellaz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Ridley</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Rev. Geophys</title>
+<imprint>
+<biblscope unit="volume">48</biblscope>
+<biblscope unit="page">4005</biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">O'Connor, F.; Boucher, O.; Gedney, N.; Jones, C.; Folberth, G.; Coppell, R.; Friedlingstein, P.; Collins, W.; Chappellaz, J.; Ridley, J.; et al. Possible role of wetlands, permafrost, and methane hydrates in the methane cycle under future climate change: A review. Rev. Geophys. 2010, 48, RG4005.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Land Resources of Russia</title>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">S</forename><surname>Stolbovoi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Mccallum</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">International Institute for Applied Systems Analysis and the Russian Academy of Science</title>
+<meeting><address><addrline>Laxenburg, Austria</addrline></address></meeting>
+<imprint>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note>CD-ROM</note>
+<note type="raw_reference">Stolbovoi, V.S.; McCallum, I. Land Resources of Russia; International Institute for Applied Systems Analysis and the Russian Academy of Science: Laxenburg, Austria, 2002; (CD-ROM).</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Satellite radar imagery for monitoring inland wetlands in boreal and sub-arctic environments</title>
+<author>
+<persname><forename type="first">A</forename><surname>Bartsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kidd</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Pathe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Wagner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Scipal</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Aquat. Conserv</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope from="305" to="317" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bartsch, A.; Kidd, R.; Pathe, C.; Wagner, W.; Scipal, K. Satellite radar imagery for monitoring inland wetlands in boreal and sub-arctic environments. Aquat. Conserv. 2007, 17, 305-317.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Effects of Fire on the Permafrost Ground Thermal Regime</title>
+<author>
+<persname><forename type="first">R</forename><surname>Brown</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">The Role of Fire in Northern Circumpolar Ecosystems</title>
+<editor>
+<persname><forename type="first">R</forename><forename type="middle">W</forename><surname>Wein</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Maclean</surname></persname>
+</editor>
+<meeting><address><addrline>New York, NY, USA</addrline></address></meeting>
+<imprint>
+<publisher>John Wiley</publisher>
+<date type="published" when="1983">1983</date>
+<biblscope from="97" to="110" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Brown, R. Effects of Fire on the Permafrost Ground Thermal Regime. In The Role of Fire in Northern Circumpolar Ecosystems; Wein, R.W., MacLean, D.A., Eds.; John Wiley: New York, NY, USA, 1983; pp. 97-110.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Impacts of wildfire on the permafrost in the boreal forests of Interior Alaska</title>
+<author>
+<persname><forename type="first">K</forename><surname>Yoshikawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">R</forename><surname>Bolton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">E</forename><surname>Romanovsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Fukuda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">D</forename><surname>Hinzman</surname></persname>
+</author>
+<idno type="DOI">10.1029/2001JD000438</idno>
+</analytic>
+<monogr>
+<title level="j">J. Geophys. Res</title>
+<imprint>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Yoshikawa, K.; Bolton, W.R.; Romanovsky, V.E.; Fukuda, M.; Hinzman, L.D. Impacts of wildfire on the permafrost in the boreal forests of Interior Alaska. J. Geophys. Res. 2003, doi:10.1029/2001JD000438.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Circumpolar Digital Elevation Models &gt; 55 N with Links to Geotiff Images</title>
+<author>
+<persname><forename type="first">M</forename><surname>Santoro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Strozzi</surname></persname>
+</author>
+<idno type="DOI">10.1594/PANGAEA.779748</idno>
+</analytic>
+<monogr>
+<title level="j">GAMMA Remote Sensing</title>
+<imprint>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Santoro, M.; Strozzi, T. Circumpolar Digital Elevation Models &gt; 55 N with Links to Geotiff Images, GAMMA Remote Sensing; 2012; doi:10.1594/PANGAEA.779748.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Monitoring freeze/thaw cycles using ENVISAT ASAR Global Mode</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Park</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bartsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Sabel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Wagner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Naeimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Yamaguchi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Remote Sens. Environ</title>
+<imprint>
+<biblscope unit="volume">115</biblscope>
+<biblscope from="3457" to="3467" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Park, S.E.; Bartsch, A.; Sabel, D.; Wagner, W.; Naeimi, V.; Yamaguchi, Y. Monitoring freeze/thaw cycles using ENVISAT ASAR Global Mode. Remote Sens. Environ. 2011, 115, 3457-3467.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Organic soil carbon pool and it's geography in Russia</title>
+<author>
+<persname><forename type="first">D</forename><surname>Schepaschenko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Mukhortova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Shvidenko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Vedrova</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Eurasian Soil Sci</title>
+<imprint>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note>in press</note>
+<note type="raw_reference">Schepaschenko, D.; Mukhortova, L.; Shvidenko, A.; Vedrova, E. Organic soil carbon pool and it's geography in Russia. Eurasian Soil Sci. 2012, in press.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Wetlands Mapping in Siberia by Classification of the GBFM Radar Mosaic Using Backscatter and Terrain Topographic Features</title>
+<author>
+<persname><forename type="first">J</forename><surname>Kropacek</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>De Grandi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Proceedings of the GlobWetland Symposium: Summary and Way Forward. GlobWetland Symposium, Looking at Wetlands from Space</title>
+<meeting>the GlobWetland Symposium: Summary and Way Forward. GlobWetland Symposium, Looking at Wetlands from Space<address><addrline>Frascati, Italy</addrline></address></meeting>
+<imprint>
+<date type="published" when="2006-10-20">19-20 October 2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kropacek, J.; de Grandi, G. Wetlands Mapping in Siberia by Classification of the GBFM Radar Mosaic Using Backscatter and Terrain Topographic Features. In Proceedings of the GlobWetland Symposium: Summary and Way Forward. GlobWetland Symposium, Looking at Wetlands from Space, Frascati, Italy, 19-20 October 2006.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">G</forename><surname>Dyukarev</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Dyukarev</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">N</forename><surname>Pologova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Golovatskaya</surname></persname>
+</author>
+<ptr target="http://www.fsl.orst.edu/nelda/sites/sdvasy.html"></ptr>
+<title level="m">Vasyugan Land Cover Datasets</title>
+<imprint>
+<date type="published" when="2012-05-02">2 May 2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dyukarev, A.G.; Dyukarev, E.A.; Pologova, N.N.; Golovatskaya, E.A. Vasyugan Land Cover Datasets. Available online: http://www.fsl.orst.edu/nelda/sites/sd vasy.html (accessed on 2 May 2012).</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">An image-based inventory of the spatial structure of West Siberian wetlands</title>
+<author>
+<persname><forename type="first">A</forename><surname>Peregon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Maksyutov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Yamagata</surname></persname>
+</author>
+<idno type="DOI">10.1088/1748-9326/4/4/045014</idno>
+</analytic>
+<monogr>
+<title level="j">Environ. Res. Lett</title>
+<imprint>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Peregon, A.; Maksyutov, S.; Yamagata, Y. An image-based inventory of the spatial structure of West Siberian wetlands. Environ. Res. Lett. 2009, doi:10.1088/1748-9326/4/4/045014.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Org: The use of crowd-sourcing to improve global land cover</title>
+<author>
+<persname><forename type="first">S</forename><surname>Fritz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Mccallum</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Schill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Perger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Grillmayer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Achard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Kraxner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Obersteiner</surname></persname>
+</author>
+<author>
+<persname><surname>Geo-Wiki</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Remote Sens</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<biblscope from="345" to="354" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fritz, S.; McCallum, I.; Schill, C.; Perger, L.; Grillmayer, R.; Achard, F.; Kraxner, F.; Obersteiner, M. Geo-Wiki.Org: The use of crowd-sourcing to improve global land cover. Remote Sens. 2009, 1, 345-354.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Geo-Wiki: An online platform for improving global land cover</title>
+<author>
+<persname><forename type="first">S</forename><surname>Fritz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Mccallum</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Schill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Perger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>See</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Schepaschenko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Van Der Velde</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Kraxner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Obersteiner</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Environ. Model. Softw</title>
+<imprint>
+<biblscope unit="volume">31</biblscope>
+<biblscope from="110" to="123" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fritz, S.; McCallum, I.; Schill, C.; Perger, C.; See, L.; Schepaschenko, D.; van der Velde, M.; Kraxner, F.; Obersteiner, M. Geo-Wiki: An online platform for improving global land cover. Environ. Model. Softw. 2011, 31, 110-123.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<monogr>
+<title level="m" type="main">A Fractional Vegetation Cover Remote Sensing Product on Pan-Arctic Scale, Version 2, with Links to Geotiff Image</title>
+<author>
+<persname><forename type="first">M</forename><surname>Urban</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hese</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Herold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Pöcking</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Schmullius</surname></persname>
+</author>
+<idno type="DOI">10.1594/PANGAEA.780464</idno>
+<imprint>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Urban, M.; Hese, S.; Herold, M.; Pöcking, S.; Schmullius, C. A Fractional Vegetation Cover Remote Sensing Product on Pan-Arctic Scale, Version 2, with Links to Geotiff Image; 2012; doi:10.1594/PANGAEA.780464.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Influence of Landscape and Hydrometeorological Conditions on CO 2 Emission in Peatland Ecosystems</title>
+<author>
+<persname><forename type="first">E</forename><surname>Golovatskaya</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Dyukarev</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Ippolitov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kabanov</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Doklady Earth Sciences</title>
+<meeting><address><addrline>Berlin/Heidelberg, Germany</addrline></address></meeting>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="2008">2008</date>
+<biblscope unit="volume">418</biblscope>
+<biblscope from="187" to="190" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Golovatskaya, E.; Dyukarev, E.; Ippolitov, I.; Kabanov, M. Influence of Landscape and Hydrometeorological Conditions on CO 2 Emission in Peatland Ecosystems. In Doklady Earth Sciences; Springer: Berlin/Heidelberg, Germany, 2008; Volume 418, pp. 187-190.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<monogr>
+<title level="m" type="main">Arctic Report Card</title>
+<author>
+<persname><forename type="first">J</forename><surname>Richter-Menge</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Overland</surname></persname>
+</author>
+<ptr target="http://www.arctic.noaa.gov/report09/ArcticReportCardfullreport.pdf"></ptr>
+<imprint>
+<date type="published" when="2009-04-10">2009. 2009. 10 April 2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Richter-Menge, J., Overland, J., Eds. Arctic Report Card 2009; 2009. Available online: http://www.arctic.noaa.gov/report09/ArcticReportCard full report.pdf (accessed on 10 April 2012).</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Record Russian river discharge in 2007 and the limits of analysis</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">I</forename><surname>Shiklomanov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">B</forename><surname>Lammers</surname></persname>
+</author>
+<idno type="DOI">10.1088/1748-9326/4/4/045015</idno>
+</analytic>
+<monogr>
+<title level="j">Environ. Res. Lett</title>
+<imprint>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Shiklomanov, A.I.; Lammers, R.B. Record Russian river discharge in 2007 and the limits of analysis. Environ. Res. Lett. 2009, doi:10.1088/1748-9326/4/4/045015.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<monogr>
+<author>
+<persname><surname>Arcticrims</surname></persname>
+</author>
+<ptr target="http://RIMS.unh.edu"></ptr>
+<title level="m">A Regional, Integrated Hydrological Monitoring System for the Pan-Arctic Land Mass</title>
+<imprint>
+<date type="published" when="2012-05-20">20 May 2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">ArcticRIMS. A Regional, Integrated Hydrological Monitoring System for the Pan-Arctic Land Mass. Available online: http://RIMS.unh.edu (accessed on 20 May 2012).</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<monogr>
+<ptr target="http://www.ncep.noaa.gov"></ptr>
+<title level="m">NCEP: National Centers for Environmental Prediction</title>
+<imprint>
+<date type="published" when="2012-05-20">20 May 2012</date>
+</imprint>
+<respstmt>
+<orgname>National Centers for Environmental Prediction</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">National Centers for Environmental Prediction. NCEP: National Centers for Environmental Prediction. Available online: http://www.ncep.noaa.gov (accessed on 20 May 2012).</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<monogr>
+<author>
+<persname><forename type="first">K</forename><surname>Mcdonald</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Podest</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Chapman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Schroeder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Flores</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Moghaddam</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Whitcomb</surname></persname>
+</author>
+<ptr target="http://www.eorc.jaxa.jp/ALOS/en/kyoto/phase2/KC-Phase-2reportMcDonald.pdf"></ptr>
+<title level="m">K&amp;C Science Report -Phase 2: Mapping Boreal Wetlands and Open Water for Supporting Assessment of Land-Atmosphere Carbon Exchange</title>
+<imprint>
+<date type="published" when="2011-01-18">2011. 18 January 2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McDonald, K.; Podest, E.; Chapman, B.; Schroeder, R.; Flores, S.; Moghaddam, M.; Whitcomb, J. K&amp;C Science Report -Phase 2: Mapping Boreal Wetlands and Open Water for Supporting Assessment of Land-Atmosphere Carbon Exchange. 2011. Available online: http://www.eorc.jaxa.jp/ALOS/en/kyoto/phase 2/KC-Phase-2 report McDonald.pdf (accessed on 18 January 2012).</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Classification System for Wetland Type</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">C</forename><surname>Secretariat</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">The Ramsar Convention Manual: A Guide to the Convention on Wetlands (Ramsar, Iran, 1971)</title>
+<meeting><address><addrline>Switzerland</addrline></address></meeting>
+<imprint>
+<date type="published" when="2006">2006</date>
+<biblscope from="63" to="64" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note>Ramsar Convention Secretariat: Gland</note>
+<note type="raw_reference">Secretariat, R.C. Classification System for Wetland Type. In The Ramsar Convention Manual: A Guide to the Convention on Wetlands (Ramsar, Iran, 1971), 4th ed.; Ramsar Convention Secretariat: Gland, Switzerland, 2006; pp. 63-64.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">The Joint UK Land Environment Simulator (JULES), model description: Part 1: Energy and water fluxes</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Best</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Pryor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">B</forename><surname>Clark</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">G</forename><surname>Rooney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L H</forename><surname>Essery</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">B</forename><surname>Mnard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Edwards</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Hendry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Porson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Gedney</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geosci. Model Dev</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope from="677" to="699" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Best., M.J.; Pryor, M.; Clark, D.B.; Rooney, G.G.; Essery, R.L.H.; Mnard, C.B.; Edwards, J.M.; Hendry, M.A.; Porson, A.; Gedney, N.; et al. The Joint UK Land Environment Simulator (JULES), model description: Part 1: Energy and water fluxes. Geosci. Model Dev. 2011, 4, 677-699.</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">The Joint UK Land Environment Simulator (JULES), Model description: Part 2: Carbon fluxes and vegetation</title>
+<author>
+<persname><forename type="first">D</forename><surname>Clark</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M</forename><surname>Mercado</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sitch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">D</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Gedney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Best</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Pryor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">G</forename><surname>Rooney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L H</forename><surname>Essery</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Blyth</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geosci. Model Dev. Discuss</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope from="641" to="688" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Clark, D.; Mercado, L.M.; Sitch, S.; Jones, C.D.; Gedney, N.; Best, M.J.; Pryor, M.; Rooney, G.G.; Essery, R.L.H.; Blyth, E.; et al. The Joint UK Land Environment Simulator (JULES), Model description: Part 2: Carbon fluxes and vegetation. Geosci. Model Dev. Discuss. 2011, 4, 641-688.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">Sentinel-1-the radar mission for GMES operational land and sea services</title>
+<author>
+<persname><forename type="first">E</forename><surname>Attema</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Bargellini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Edwards</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Levrini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Lokas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Moeller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Rosich-Tell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Secchi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Torres</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Davidson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">ESA Bull</title>
+<imprint>
+<biblscope unit="volume">131</biblscope>
+<biblscope from="10" to="17" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Attema, E.; Bargellini, P.; Edwards, P.; Levrini, G.; Lokas, S.; Moeller, L.; Rosich-Tell, B.; Secchi, P.; Torres, R.; Davidson, M.; et al. Sentinel-1-the radar mission for GMES operational land and sea services. ESA Bull. 2007, 131, 10-17.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

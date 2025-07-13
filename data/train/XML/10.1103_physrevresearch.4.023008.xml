@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Weak ferromagnetism linked to the high-temperature spiral phase of YBaCuFeO 5</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2022-04-04">4 April 2022</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">J</forename><surname>Lyu</surname></persname>
+<idno type="ORCID">0000-0002-8936-2125</idno>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Laboratory for Multiscale Materials Experiments, Paul Scherrer Institut, 5232 Villigen PSI, Switzerland</note>
+<orgname type="laboratory">Laboratory for Multiscale Materials Experiments</orgname>
+<orgname type="institution">Paul Scherrer Institut</orgname>
+<address>
+<postcode>5232</postcode>
+<settlement>Villigen PSI</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Morin</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Laboratory for Multiscale Materials Experiments, Paul Scherrer Institut, 5232 Villigen PSI, Switzerland</note>
+<orgname type="laboratory">Laboratory for Multiscale Materials Experiments</orgname>
+<orgname type="institution">Paul Scherrer Institut</orgname>
+<address>
+<postcode>5232</postcode>
+<settlement>Villigen PSI</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Excelsus Structural Solutions (Swiss) AG, PARK innovAARE, 5234 Villigen, Switzerland</note>
+<orgname type="department">Excelsus Structural Solutions (Swiss) AG</orgname>
+<address>
+<addrline>PARK innovAARE</addrline>
+<postcode>5234</postcode>
+<settlement>Villigen</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Shang</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Laboratory for Multiscale Materials Experiments, Paul Scherrer Institut, 5232 Villigen PSI, Switzerland</note>
+<orgname type="laboratory">Laboratory for Multiscale Materials Experiments</orgname>
+<orgname type="institution">Paul Scherrer Institut</orgname>
+<address>
+<postcode>5232</postcode>
+<settlement>Villigen PSI</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+<affiliation key="aff2">
+<note type="raw_affiliation"> Key Laboratory of Polar Materials and Devices (MOE), School of Physics and Electronic Science, East China Normal University, Shanghai 200241, China</note>
+<orgname type="department">School of Physics and Electronic Science</orgname>
+<orgname type="laboratory">Key Laboratory of Polar Materials and Devices (MOE)</orgname>
+<orgname type="institution">East China Normal University</orgname>
+<address>
+<postcode>200241</postcode>
+<settlement>Shanghai</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">T</forename><surname>Fernández-Díaz</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> Institut Laue Langevin, 71 avenue des Martyrs, CS 20156, 38042 Grenoble Cedex 9, France</note>
+<orgname type="department">Institut Laue Langevin</orgname>
+<address>
+<addrline>71 avenue des Martyrs, CS 20156</addrline>
+<postcode>38042, Cedex 9</postcode>
+<settlement>Grenoble</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author role="corresp">
+<persname><forename type="first">M</forename><surname>Medarde</surname></persname>
+<email>marisa.medarde@psi.ch</email>
+<idno type="ORCID">0000-0003-1588-2870</idno>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Laboratory for Multiscale Materials Experiments, Paul Scherrer Institut, 5232 Villigen PSI, Switzerland</note>
+<orgname type="laboratory">Laboratory for Multiscale Materials Experiments</orgname>
+<orgname type="institution">Paul Scherrer Institut</orgname>
+<address>
+<postcode>5232</postcode>
+<settlement>Villigen PSI</settlement>
+<country key="CH">Switzerland</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Weak ferromagnetism linked to the high-temperature spiral phase of YBaCuFeO 5</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2022-04-04">4 April 2022</date>
+</imprint>
+</monogr>
+<idno type="MD5">26396A9C992C879231D38B87A49A3C3D</idno>
+<idno type="DOI">10.1103/PhysRevResearch.4.023008</idno>
+<note type="submission">Received 15 December 2021; accepted 2 March 2022;</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-10-02T14:33+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The layered perovskite YBaCuFeO 5 is a rare example of a cycloidal spiral magnet whose ordering temperature T spiral can be tuned far beyond room temperature by adjusting the degree of Cu 2+ /Fe 3+ chemical disorder in the structure.</s><s>This unusual property qualifies this material as one of the most promising spin-driven multiferroic candidates.</s><s>However, very little is known about the response of the spiral to magnetic fields, crucial for magnetoelectric cross-control applications.</s><s>Using bulk magnetization and neutron powder diffraction measurements under magnetic fields up to 9 T, we report here a temperature-magnetic field phase diagram of this material.</s><s>Besides revealing a strong stability of the spiral state, our data uncover the presence of weak ferromagnetism coexisting with the spiral modulation.</s><s>Since ferromagnets can be easily manipulated with magnetic fields, this observation opens new perspectives for the control of the spiral orientation, directly linked to the polarization direction, as well as for a possible future use of this material in technological applications.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">I. INTRODUCTION<p><s>Multiferroic materials, in particular those where electric polarization coexists with magnetic order, have attracted a great deal of interest in fundamental physics <ref target="#b0" type="bibr">[1]</ref><ref target="#b1" type="bibr">[2]</ref><ref target="#b2" type="bibr">[3]</ref><ref target="#b3" type="bibr">[4]</ref><ref target="#b4" type="bibr">[5]</ref>.</s><s>In parallel, some of them are in the center of attention of applied sciences due to the strong coupling between their electric and magnetic orders, which could be exploited in low-power magnetoelectric applications <ref target="#b3" type="bibr">[4]</ref><ref target="#b4" type="bibr">[5]</ref><ref target="#b5" type="bibr">[6]</ref><ref target="#b6" type="bibr">[7]</ref><ref target="#b7" type="bibr">[8]</ref>.</s><s>Among these materials, frustrated magnets with ordered spiral phases are particularly promising because the noncollinear spiral magnetic order breaks space-inversion symmetry and can induce spontaneous polarization P <ref target="#b1" type="bibr">[2,</ref><ref target="#b8" type="bibr">9]</ref> through inverse Dzyaloshinsky-Moriya <ref target="#b9" type="bibr">[10,</ref><ref target="#b10" type="bibr">11]</ref> or spin-current mechanisms <ref target="#b11" type="bibr">[12]</ref>.</s><s>The common origin of polarization and spiral order guarantees a substantial coupling, which is highly desirable for applications.</s><s>However, the low ordering temperatures of most spiral magnets (typically &lt; 50 K) make their implementation in real-life devices unpractical.</s><s>Another major disadvantage is that spiral phases are in general antiferromagnetic, making quite difficult reading and controlling the spiral helicity, directly related to the polarization direction.</s></p><p><s>To date, only a few materials featuring either spontaneous or magnetic-field-induced magnetization coexisting with spiral magnetic order in the same phase have been reported.</s></p><p><s>Examples of them are the conical magnets CoCr 2 O 4 <ref target="#b12" type="bibr">[13]</ref>, ZnCr 2 Se 4 <ref target="#b13" type="bibr">[14]</ref>, Ba 2 Mg 2 Fe 12 O 22 <ref target="#b14" type="bibr">[15]</ref>, and Mn 2 GeO 4 <ref target="#b15" type="bibr">[16]</ref>.</s><s>This last material is particularly interesting because in contrast with the other examples, spontaneous magnetization and spin-driven polarization appear along the same direction, and modest magnetic fields can reverse simultaneously both ferroic variables while keeping the domain structure unchanged <ref target="#b16" type="bibr">[17]</ref>.</s><s>Unfortunately, this happens at very low temperatures (∼6 K).</s><s>It will be thus desirable to identify other materials with coupled magnetization and spiral magnetic order coexisting at higher temperatures.</s></p><p><s>The layered perovskite YBaCuFeO 5 , object of the present study, is one of the rare exceptions where spiral magnetic order can be stabilized at temperatures beyond RT <ref target="#b17" type="bibr">[18,</ref><ref target="#b18" type="bibr">19]</ref>.</s><s>But what makes this material truly exceptional compared with other high-temperature spiral magnets <ref target="#b14" type="bibr">[15,</ref><ref target="#b19" type="bibr">[20]</ref><ref target="#b20" type="bibr">[21]</ref><ref target="#b21" type="bibr">[22]</ref> is the extraordinary tunability of the spiral ordering temperature (T spiral ), which can be increased from 154 to 310 K upon enhancing the degree of Cu 2+ /Fe 3+ chemical disorder in the structure.</s><s>As shown in Fig. <ref target="#fig_0" type="figure">1</ref>(a), these two cations occupy the bipyramidal units in the tetragonal layered perovskite unit cell (space group P4mm) <ref target="#b22" type="bibr">[23,</ref><ref target="#b23" type="bibr">24]</ref>.</s><s>Contrary to Ba 2+ and Y 3+ , which order in layers perpendicular to the c crystal axis, Cu 2+  and Fe 3+ display a very particular type of correlated disorder characterized by the preferential occupation of the bipyramids by ferromagnetically coupled Cu-Fe pairs.</s><s>These pairs are disordered in the structure, with the degree of disorder-and hence T spiral -being strongly dependent on the preparation method <ref target="#b17" type="bibr">[18]</ref>.</s></p><p><s>The magnetic structure expected from both the Goodenough-Kanamori-Anderson rules of superexchange and the ab initio calculations of the exchange constants <ref target="#b23" type="bibr">[24]</ref> is described by the magnetic propagation k c = (1/2, 1/2, 1/2).</s><s>This collinear arrangement, shown in Fig. <ref target="#fig_0" type="figure">1</ref>(a), is indeed observed experimentally, but at only high temperatures (T spiral &lt; T &lt; T collinear <ref target="#b23" type="bibr">[24,</ref><ref target="#b24" type="bibr">25]</ref>).</s><s>At lower temperatures (T &lt; T spiral ) it is replaced by an inclined spiral described by the propagation vector k i = (1/2, 1/2, 1/2 ± q) and schematically shown in Fig. <ref target="#fig_0" type="figure">1</ref>(a) <ref target="#b23" type="bibr">[24]</ref>, whose cycloidal component could induce ferroelectricity <ref target="#b9" type="bibr">[10]</ref><ref target="#b10" type="bibr">[11]</ref><ref target="#b11" type="bibr">[12]</ref><ref target="#b25" type="bibr">26]</ref>.</s><s>The observation of incommensurate magnetic order beyond RT in a crystal structure without any apparent source of frustration was puzzling, and the gigantic, positive impact of the Fe/Cu disorder in the stability of the spiral seemed at odds with traditional frustration mechanisms <ref target="#b23" type="bibr">[24]</ref>.</s><s>Interestingly, both observations were recently rationalized in terms of a novel, disorder-based frustration mechanism based on the gigantic impact of a few Fe-Fe "defects" occupying the bipyramidal units, which host majoritarily Cu-Fe pairs <ref target="#b26" type="bibr">[27,</ref><ref target="#b27" type="bibr">28]</ref>.</s><s>Since the coupling J Fe-Fe between the two Fe 3+ moments in one such defect is antiferromagnetic and about 100 times stronger that the weakly ferromagnetic J Cu-Fe coupling, a tiny defect concentration (2% to 5% of the bipyramids occupied by Fe-Fe pairs) is enough to destroy the collinear order and stabilize a spiral where both T spiral and the magnetic modulation parameter q are proportional to the defect concentration <ref target="#b27" type="bibr">[28]</ref>.</s></p><p><s>According to neutron powder diffraction investigations <ref target="#b17" type="bibr">[18,</ref><ref target="#b18" type="bibr">19,</ref><ref target="#b23" type="bibr">24,</ref><ref target="#b28" type="bibr">29]</ref>, the inclined spiral phase of YBaCuFeO 5 is antiferromagnetic without a net spontaneous magnetization.</s><s>However, given the (usually strong) response of frustrated magnets to external magnetic fields, low-field incommensurate conical phases as those reported for ZnCr 2 Se 4 <ref target="#b13" type="bibr">[14]</ref> and some hexaferrites <ref target="#b29" type="bibr">[30]</ref> could exist in YBaCuFeO 5 as well.</s><s>Since the stability of the spiral phase can be extended from RT up to ∼400 K by replacing 40% of Ba by Sr, and the cycloidal component can be tuned in different ways <ref target="#b18" type="bibr">[19,</ref><ref target="#b28" type="bibr">29]</ref>, the presence of a field-induced conical phase in YBaCuFeO 5 with net magnetization could result in a material with interesting potential for magnetoelectric applications <ref target="#b30" type="bibr">[31]</ref>.</s><s>Motivated by this possibility, we report here a systematic investigation of the YBaCuFeO 5 magnetic phase diagram in a broad temperature (2-300 K) and magnetic field range (0-9 T).</s><s>Using magnetometry and powder neutron diffraction under magnetic field, we reveal the presence of three distinct magnetic phases.</s><s>Moreover, we uncover the existence of weak ferromagnetism coexisting with the spiral modulation that can be switched using modest magnetic fields.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">II. EXPERIMENTAL DETAILS</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">A. Sample synthesis<p><s>The procedure for obtaining YBaCuFeO 5 ceramics with adjustable T spiral temperatures has been reported previously <ref target="#b17" type="bibr">[18,</ref><ref target="#b18" type="bibr">19,</ref><ref target="#b23" type="bibr">24]</ref>.</s><s>The polycrystalline sample used in this study was prepared by solid state reaction.</s><s>As precursors we used high-purity stoichiometric amounts of Y 2 O 3 (99.999%,</s><s>Aldrich), BaCO 3 (99.997%,</s><s>Alfa Aesar), CuO (99.995%,</s><s>Alfa Aesar), and Fe 2 O 3 (99.998%,</s><s>Alfa Aesar) that were weighted, thoroughly mixed, and fired at 1150 • C for 50 h under oxygen gas flow.</s><s>The resulting black powder was grounded again, pelletized under 4 kbar in the form of a long rod (D ∼ 5.6 mm, L ∼ 5 cm), then sintered at 1150 • C for 50 h in air, and finally cooled down to room temperature at a rate of 300 K/h.</s><s>According to Ref. <ref target="#b17" type="bibr">[18]</ref>, this cooling rate should result in a T spiral value close to ∼240 K, and a T collinear ∼ 440 K.</s><s>The sample purity was checked by laboratory x-ray powder diffraction (Brucker D8 Advance, Cu K α ) that revealed an excellent crystallinity and confirmed the absence of impurity phases within the detection limit of this technique (&lt; 1%).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">B. Magnetometry<p><s>Magnetization M and AC susceptibility measurements χ AC were performed in a superconducting quantum interference device magnetometer (MPMS-XL, 7 T), and a Physical Properties Measuring System (PPMS, 9 T) from Quantum Design.</s><s>A cylindrical YBaCuFeO 5 pellet (L ∼ 3.8 mm, D ∼ 5.6 mm, m ∼ 520.7 mg) was cut from the same cylinder used for powder neutron diffraction measurements and mounted on a transparent drinking straw.</s><s>The temperature dependence of the magnetization M(T ) was investigated between 5 and 300 K under magnetic fields up to 7.0 T using zero-field cooled warming (ZFC), field cooled cooling (FCC), and field cooled warming (FCW) experimental protocols while slowly ramping the temperature at a cooling/heating rate of 1 K/min.</s><s>The field dependence of the magnetization M(H ) was measured at selected temperatures between 20 and 300 K and magnetic fields between 0 and 9 T after cooling the sample in zero field.</s><s>After each field scan, the magnetic field was set to zero before heating to the next temperature.</s><s>Additionally, full M-H hysteresis cycles with fields between -7 and +7 T were conducted at selected temperatures T &lt; T spiral .</s><s>The temperature dependence of the AC susceptibility χ AC (T ) was measured with an AC field of 15 Oe at several frequencies between 100 and 10 000 Hz.</s><s>The measurement were conducted by heating after cooling the sample to 5 K in zero field.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">C. Neutron diffraction under magnetic field<p><s>Powder neutron diffraction (PND) measurements were carried out at the Institut Laue Langevin (ILL) in Grenoble, France.</s><s>To avoid the displacement of the crystallites under the action of the magnetic field, we used a sintered YBaCuFeO 5 ceramic bar (see Sample Synthesis) that was fixed with aluminum foil inside of a cylindrical vanadium can.</s><s>The can was mounted on the stick of a cryomagnet, and cooled down to 1.5 K. PND patterns were continuously recorded at the powder diffractometer D20 [Ge(224), take-off angle 90 • , 2θ max = 140 • , 2θ step = 0.05 • , λ = 2.41 Å] <ref target="#b31" type="bibr">[32]</ref> while ramping the field up to 9 T at various temperatures between 1.5 and 300 K.</s><s>After each field scan, the magnetic field was set to zero before heating to the next temperature.</s><s>A NAC powder sample was used as reference for determining the wavelengths and zero offsets.</s><s>The background from the sample environment was minimized using an oscillating radial collimator.</s></p><p><s>All NPD data were analyzed using the Lebail method <ref target="#b32" type="bibr">[33]</ref>, as implemented in the diffraction analysis package FullProf Suite <ref target="#b33" type="bibr">[34]</ref>.</s><s>The Rietveld method <ref target="#b34" type="bibr">[35]</ref> could not be used due to the presence of preferred orientations (unavoidable due the high pressure pelletizing process), whose impact in the integrated intensities could not be satisfactorily described with any of the models available in the FullProf Suite software.</s><s>The Lebail analysis was thus used to determine the field and temperature dependence of the lattice parameters and the magnetic propagation vector.</s><s>The field dependence of the integrated intensities of the magnetic reflection (1/2, 1/2, 1/2) and its incommensurate satellites (1/2, 1/2, 1/2 ± q) was determined separately by fitting their diffraction profiles with Gaussian functions.</s><s>The details of the fitting procedure are presented in the Appendix.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">III. RESULTS</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">A. Magnetometry<p><s>As a first step to establish the H-T phase diagram, we investigated the temperature dependence of the magnetization M(T ) at fixed magnetic fields.</s><s>Representative curves showing the temperature dependence of the magnetization per unit formula measured using zero field cooled (ZFC) and field cooled (FCC/FCW) protocols are shown in Figs.</s><s><ref target="#fig_0" type="figure">1(b)-1(d)</ref>.</s><s>We attribute the pronounced anomaly observed in the three curves to the collinear-to-spiral transition, an assignment further confirmed by neutron powder diffraction measurements (see next sections).</s><s>The T spiral value, defined here as the zero of the partial derivative ∂M/∂T , is ∼245 K for the curve measured at 1 T.</s><s>This value is very close to that expected from the chosen synthetic route, and in excellent agreement with the reported value on samples prepared in similar conditions <ref target="#b17" type="bibr">[18]</ref>.</s></p><p><s>The application of a magnetic field has a detrimental effect in T spiral , which decreases from ∼245 K at 1 T to ∼215 K at 7 T at an approximately linear rate of ∼8 K/T.</s><s>We also observe a remarkably different behavior above and below T spiral .</s><s>As shown in Figs.</s><s><ref target="#fig_0" type="figure">1(b</ref>)-1(d), the ZFC, FCC, and FCW curves are indistinguishable in the collinear phase (T &gt; T spiral ).</s><s>This is not anymore the case below the spiral ordering temperature, where the splitting of the three curves signals the presence of pronounced thermal hysteresis and magnetic irreversibility effects.</s></p><p><s>The thermal hysteresis affects the FCC (red) and FCW (blue) curves, which bifurcate below T spiral and merge again at a temperature that decreases for increasing magnetic fields.</s><s>The impact of the field in the broadening of the hysteretic region can be better appreciated in Fig. <ref target="#fig_0" type="figure">1(e)</ref>, showing the difference between both curves M hyst = M FCC -M FCW at various magnetic fields.</s><s>The presence of thermal hysteresis, characteristic of first-order phase transitions, is uncommon for a transition between antiferromagnetic phases, and suggests that the collinear and spiral phases coexist in a field-dependent temperature region below T spiral .</s></p><p><s>The existence of magnetic irreversibility below T spiral is revealed by the difference between the curves measured by warming after cooling with and without field (FCW/ZFC).</s><s>This effect, more pronounced for high magnetic fields, is illustrated in Fig. <ref target="#fig_0" type="figure">1(f)</ref>, showing the difference between both curves M irr = M FCW -M ZFC at various magnetic fields.</s><s>The irreversible magnetization M irr , negligibly small above T spiral , rises sharply below this temperature and displays a broad maximum that approximately coincides with the middle point of the hysteretic region.</s><s>At lower temperatures, in the region without hysteresis in the FCC/FCW curves, M irr is only weakly temperature dependent.</s><s>In contrast, it displays a pronounced, nonlinear field dependence, illustrated by the M irr values at selected temperatures shown in Fig. <ref target="#fig_0" type="figure">1(g</ref>).</s><s>We note also that the observation of irreversibility only below T spiral excludes an origin based on the presence of ferromagnetic impurities, favoring instead an intrinsic origin linked to the presence of the spiral phase.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Weak ferromagnetism<p><s>Intrinsic irreversibility in frustrated antiferromagnets with chemical disorder may have different origins, the most common being either the presence of weak ferromagnetism (WFM), or the existence of a spin-glass state.</s><s>The main difference between them is the metastability of the spin-glass state, whose response to external stimuli is characterized by complex, time-dependent relaxation phenomena <ref target="#b35" type="bibr">[36]</ref>.</s><s>This has characteristic signatures in frequency-dependent measurements such as the AC susceptibility, where the real part χ AC (T ) shows a cusp at a temperature T f with pronounced dependence on the frequency of the AC driving field (T f is the temperature at which the spin glass is frozen at a timescale τ equal to the inverse of the experimentally used frequency ω = 2π/τ ).</s><s>The imaginary part χ AC (T ) displays also a distinctive behavior: it begins to increase above the maximum in χ AC (T ), has an inflection point which coincides with the peak in χ AC (T ), and peaks shortly afterwards before dropping down to zero at low temperatures.</s><s>These phenomena are not observed for magnetic systems in thermodynamic equilibrium, where χ AC (T ) = 0, and the χ AC (T ) cusps, if any, are frequency independent.</s></p><p><s>To disentangle the two possible origins of the observed irreversibility, we measured χ AC (T ) at six different frequencies covering approximately three decades.</s><s>As shown in Fig. <ref target="#fig_1" type="figure">2</ref>, the only cusp observed in χ AC (T ) coincides with T spiral and displays no appreciable frequency dependence.</s><s>Moreover, χ AC (T ) is featureless and negligibly small in the full temperature range investigated.</s><s>These observations are at variance with the behavior reported for spin-glass systems <ref target="#b35" type="bibr">[36,</ref><ref target="#b36" type="bibr">37]</ref>, and favor a weak ferromagnetic origin for the irreversibility observed below T spiral .</s></p><p><s>Further experimental evidence supporting the presence of WFM is provided by the field dependence of the magnetization curves.</s><s>Figure <ref target="#fig_2" type="figure">3</ref> shows the M-H cycles measured at 5 K after cooling the sample in zero field [Fig.</s><s><ref target="#fig_2" type="figure">3(a)</ref>] and under 7 T [Fig.</s><s><ref target="#fig_2" type="figure">3(b)</ref>].</s><s>The ZFC curve presents the linear shape typical of antiferromagnets, indicating that, at this temperature, the WFM domains formed below T spiral are exactly compensated and the applied fields are not large enough to align them.</s><s>A completely different behavior is observed when the sample is cooled in field.</s><s>As shown in Fig. <ref target="#fig_2" type="figure">3</ref>(b), a small hysteresis loop superimposed to the linear antiferromagnetic response is clearly observed.</s><s>This is better appreciated in Figs.</s><s><ref target="#fig_2" type="figure">3(c</ref>) and 3(d), measured using a special protocol similar to the so-called PUND (positive-up negative-down) method employed to measure electric polarization-electric field hysteresis cycles in ferroelectrics <ref target="#b37" type="bibr">[38]</ref>.</s><s>This procedure, which allows us to separate the switchable and nonswitchable components <ref target="#b38" type="bibr">[39]</ref>, involves four steps (or "pulses") schematically shown in Fig. <ref target="#fig_2" type="figure">3(e</ref>).</s><s>The sample is first cooled under the maximal positive magnetic field (+7 T) down to the desired temperature in order to align the ferromagnetic domains and create a positive magnetization, after which H is set to zero.</s><s>The field is then ramped to -7 T and back to zero two times.</s><s>Since the switchable part of M will be reversed during the first pulse, but not during the second, it can be obtained by subtracting the M(H ) curves measured during the first and second field pulses.</s><s>The positive-field part can be obtained in a similar way after ramping the field to +7 T and back to zero two times [third and fourth pulses in Fig. <ref target="#fig_2" type="figure">3(e)]</ref>.</s></p><p><s>The switchable part of the magnetization at selected temperatures obtained using this procedure is shown in Fig. <ref target="#fig_2" type="figure">3(d)</ref>.</s></p><p><s>Well defined M-H cycles are observed at T &lt; T spiral , with a remnant magnetization that decreases with temperature and virtually disappears in the collinear phase [Fig.</s><s><ref target="#fig_2" type="figure">3(f)]</ref>.</s><s>At 5 K the coercive field is ∼0.7 T, similar to that obtained using the standard procedure [Fig.</s><s><ref target="#fig_2" type="figure">3(b)</ref>], and the remnant magnetization is about 3 × 10 -4 μ B /formula unit.</s><s>This value is far below the 6 μ B expected from a full alignment of the the Fe 3+ and Cu 2+ magnetic moments (5 and 1 μ B assuming free-ion values), but comparable to the values reported for other weak ferromagnets <ref target="#b39" type="bibr">[40,</ref><ref target="#b40" type="bibr">41]</ref>.</s><s>This indicates that the uncompensated magnetization arises most likely from a tiny misalignment of the (majoritarily antiferromagnetically coupled) Cu 2+ and Fe 3+ moments.</s><s>An upper limit to the magnetic field H sat needed to reach the fully saturated state can be estimated by extrapolating the linear dependence of the magnetization observed at 20 K (Fig. <ref type="figure">4</ref>).</s><s>Assuming the absence of field-induced phase transitions and a saturation value of 6 μ B per unit formula we obtain a field close to 1000 T.</s><s>Although this value is larger than the actual H sat , it indicates that the energy scale of the leading magnetic interactions in this material is extremely large.</s><s>This is consistent with the high ordering temperatures reported for YBaCuFeO 5 (425 to 455 K <ref target="#b17" type="bibr">[18,</ref><ref target="#b18" type="bibr">19]</ref>), the large, negative Curie-Weiss constants indicative of strong, predominantly antiferromagnetic interactions (-790 to -893 K <ref target="#b24" type="bibr">[25,</ref><ref target="#b41" type="bibr">42,</ref><ref target="#b42" type="bibr">43]</ref>), and with the estimations of the exchange constants from DFT calculations <ref target="#b23" type="bibr">[24]</ref>, some of them reaching values as high as ∼135 meV.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Field-induced transitions<p><s>Magnetic orders arising from frustrated interactions-such as magnetic spirals-are expected to display a strong response to magnetic fields that may led to the suppression of the spiral state and the stabilization of new magnetic phases <ref target="#b43" type="bibr">[44,</ref><ref target="#b44" type="bibr">45]</ref>.</s><s>Because the response of these phases to magnetic fields is usually different from that of the original magnetic order, their emergence can be easily detected by monitoring the slope changes in the isothermal M(H ) magnetization curves.</s><s>For YBaCuFeO 5 , examples of such curves measured at fields up to 9 T at selected temperatures between 20 and 300 K are shown in Fig. <ref type="figure">4(a)</ref>.</s><s>(See Fig. <ref target="#fig_0" type="figure">11</ref> in the Appendix for an extended data set.)</s><s>Before starting the measurements, the sample was first zero-field cooled down to 20 K.</s><s>The magnetic field was then increased in steps up to 9 T, and set to zero before heating to the next temperature.</s></p><p><s>At 20 K, we note that M is a linear function of H without any clear inflection point.</s><s>This is better appreciated in the ∂M/∂H derivative, which is constant within the investigated H range [Fig.</s><s><ref type="figure">4(b)</ref>].</s><s>The M(H ) linearity subsists up to ∼140 K, but between this temperature and T spiral a slope change with hysteresis indicative of a first-order transition is clearly observed.</s><s>The transition is particularly evident in the first derivative curves, exemplified in Fig. <ref type="figure">4</ref>(c) by the data measured at 180 K through a full M(H ) hysteresis cycle.</s><s>We note that both the magnetic field H 1 , corresponding maximum of ∂M/∂H, and the width of the hysteretic region decrease by approaching T spiral ∼ 245 K. Above this temperature, and up to 300 K, we still observe a slope change, albeit less pronounced, with a maximum at H 2 = 2 T [Fig.</s><s><ref type="figure">4(d</ref> corresponds to a distinct, possibly second-order field-induced transition.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">B. Powder neutron diffraction<p><s>To get insight on the nature of the field-induced magnetic phases, we conducted NPD measurements under magnetic field.</s><s>One should nevertheless mention that the interpretation is in general not as straightforward as in the case of a single crystal.</s><s>This is because the field-induced magnetic configuration of a particular grain will strongly depend on the grain orientation with respect to the external magnetic field, which is in turn correlated with the geometry of the diffraction process.</s><s>Moreover, the use of a sintered rod, necessary to avoid the movement of the grains under the action of the magnetic field, results in the existence of preferential orientations that makes a quantitative analysis of the magnetic Bragg reflection intensities extremely difficult.</s><s>For these reasons we discuss here exclusively the evolution of two variables.</s><s>On one side, the position of the magnetic Bragg reflections, which provides information about the field dependence of the magnetic propagation vector.</s><s>On the other, the field dependence of the magnetic intensities relative to that of the zero-field patterns, where the observation of a clear discontinuity at ∼2 T provides additional support to the existence of the field-induced transition inferred from the magnetization data.</s><s>patterns, the nuclear Bragg reflections can be indexed with a tetragonal cell of P4mm symmetry.</s><s>At RT, the reflections of magnetic origin correspond to the propagation vector k c = (1/2, 1/2, 1/2), and at 1.5 K, to an incommensurate modulation with k i = (1/2, 1/2, 1/2 ± q) as reported in previous works <ref target="#b17" type="bibr">[18,</ref><ref target="#b18" type="bibr">19,</ref><ref target="#b23" type="bibr">24]</ref>.</s><s>At 1.5 K the q value is ∼0.115, very close of the value expected from the universal law relating q and T spiral (q ∼ 0.117) <ref target="#b18" type="bibr">[19,</ref><ref target="#b27" type="bibr">28]</ref>.</s><s>The temperature dependence of the (1/2, 1/2, 1/2) and (1/2, 1/2, 1/2 ± q) magnetic reflections, their integrated intensities, and the magnetic modulation vector q are shown in Figs.</s><s>6(a)-6(c).</s><s>In the spiral phase, q and the integrated intensities of the magnetic satellites decrease with temperature and vanish above T spiral , where they are replaced by the commensurate reflection (1/2, 1/2, 1/2).</s><s>As expected, the T spiral value (∼250 K) measured at H = 0 and defined here as the maximum of the (1/2, 1/2, 1/2) reflection is slightly higher than the value inferred from the M(T ) measurements at 1 T [∼245 K, Fig. <ref target="#fig_0" type="figure">1(b)</ref>].</s><s>As in previous works <ref target="#b17" type="bibr">[18,</ref><ref target="#b18" type="bibr">19,</ref><ref target="#b23" type="bibr">24]</ref>, we observe here phase coexistence at low temperatures, which is quite significant between T spiral and ∼180 K. Below this FIG.</s><s><ref type="figure">6</ref>. 2D contour plots showing the temperature dependence of the (1/2, 1/2, 1/2) and (1/2, 1/2, 1/2 ± q) magnetic reflections measured under 0 (a) and 9 T (d).</s><s>The temperature dependence of their integrated intensities and the magnetic modulation vector q are shown in (b) and (c) at 0 T, and (e) and (f) at 9 T. temperature the fraction of collinear phase becomes nearly constant and very close to the detection limit.</s><s>However, it is worth mentioning that the wavelength used in this study makes it difficult to extract small values of the (1/2, 1/2, 1/2) integrated intensity due to the superposition with the tails of the incommensurate satellites (see the Appendix for details on the fitting procedure).</s><s>The nonzero values obtained below 200 K should be thus considered with caution.</s><s>Interestingly, the point where the temperature dependence of the (1/2, 1/2, 1/2) integrated intensity starts to deviate from linearity (∼180 K) is reasonably close to the lower phase coexistence limit inferred from magnetometry.</s><s>Hence, we use here this simple criterion to define the lower phase coexistence boundary from NPD data.</s><s>Measurements with a longer wavelength will however be necessary to establish unambiguously the actual phase coexistence limit in our sample.</s></p><p><s>Figures <ref type="figure">6(d</ref>)-6(f) show the temperature dependence of the same 2θ region shown in Figs.</s><s>6(a)-6(c) after applying a magnetic field of 9 T. At low temperatures (T &lt; T spiral ) we still observe an incommensurate modulation with q and magnetic satellite intensities nearly identical to those observed at 0 T. The only noticeable modifications with respect to the zero field data are slightly different temperature dependencies of both q and the satellite's integrated intensities, a decrease of T spiral , and a much larger temperature region where the spiral and collinear phases coexist in sizable amounts.</s><s>Using the criterion described in the previous section, the lower boundary of the phase coexistence region at 9 T will be ∼100 K, which is again consistent with the value inferred from magnetometry.</s><s>We do not observe any signature of the field-induced WFM component, which would appear as an extra contribution to the nuclear reflections in the NPD data.</s><s>This is an expected finding given that the observation of WFM requires a FC process, and the NPD data were collected after cooling the sample in zero field.</s><s>For data obtained after a FC process, the small value of the net magnetization (3 × 10 -4 μ B /f.u. at 7 T), far below the detection limit of the technique (∼0.1 μ B ), will anyway prevent the observation of the WFM signal using the NPD technique.</s></p><p><s>At higher temperatures (T &gt; T spiral ) we note that the integrated intensity of the (1/2, 1/2, 1/2) reflection takes values significantly lower than those observed in the absence on magnetic field.</s><s>This is better appreciated in Fig. <ref target="#fig_5" type="figure">7</ref>, showing selected regions of the NPD patterns measured at 1.5 and 300 K under 0 and 9 T. In contrast to the magnetic field invariance of the reflections associated with the spiral phase at 1.5 K, the figure reveals clear intensity differences in the magnetic reflections associated with the commensurate propagation vector k c at RT.</s><s>More precisely, the intensity of the (h + 1/2, k + 1/2, l + 1/2) reflections with l = 0 decreases, and that of those with l = 0 increases.</s><s>This suggests the existence of a different magnetic phase at 9 T described by the same propagation vector k c = (1/2, 1/2, 1/2) observed in the absence of magnetic field.</s></p><p><s>The different impact of the magnetic field in the spiral and collinear phases is better appreciated in Fig. <ref type="figure">8</ref>, showing the field dependence of the (1/2, 1/2, 1/2 ± q) and (1/2, 1/2, 1/2) reflections and their integrated intensities at several temperatures between 1.5 and 300 K. We note that the invariance of the incommensurate satellites for fields up to FIG. <ref type="figure">8</ref>. Contour maps showing the field dependence of the magnetic Bragg reflection (1/2, 1/2, 1/2) associated with the high-temperature collinear phase and the (1/2, 1/2, 1/2 ± q) satellites of the low-temperature magnetic spiral phase at selected temperatures together with the field dependence of their integrated intensities.</s><s>9 T observed at 1.5 K is preserved up to ∼140 K. Above this temperature, and beyond a critical field, modifications of the magnetic reflections associated with the spiral phase become evident.</s><s>The 2θ positions of the incommensurate satellites become closer, their intensities decrease, and the commensurate reflection (1/2, 1/2, 1/2) suddenly appears.</s><s>The impact of magnetic field on the spiral phase is thus similar to that of temperature, with the spiral fully disappearing beyond a critical field H 1 (T ) that decreases by increasing temperature and vanishes at ∼250 K. Phase coexistence is observed in a temperature region that becomes narrower by approaching the zero-field T spiral value, in agreement with the magnetization results.</s></p><p><s>Between 250 and 300 K the propagation vector is commensurate for any field between 0 and 9 T.</s><s>However, in contrast with the behavior observed in the spiral phase, the intensity of the (1/2, 1/2, 1/2) reflection decreases continuously with H up to ∼2 T. Above this value it remains constant up to the largest field investigated.</s><s>This behavior confirms the existence of a field-induced, second-order transition at H 2 ∼ 2 T, in agreement with the conclusion inferred from the field dependence of the isothermal magnetization curves.</s></p><p><s>As mentioned before, a quantitative analysis of the integrated intensities cannot be satisfactorily performed with the present data.</s><s>However, the field dependence of the Bragg reflections above 250 K can already give some hints on the modifications of the zero-field commensurate magnetic order under the action of a magnetic field.</s><s>On one side, the preservation of the commensurate propagation vector k c above and below H 2 ∼ 2 T demonstrates that the periodicity of the low (COL1) and high-field (COL2) magnetic arrangements is identical.</s><s>On the other, the COL1 and COL2 phases feature the same reflection set, albeit with different intensities.</s><s>Moreover, the small value of the critical field (2 T) is indicative of a low magnetic energy scale.</s><s>According to DFT calculations, the smallest nearest-neighbor (NN) couplings in YBaCuFeO 5 are those along the c axis <ref target="#b23" type="bibr">[24]</ref>.</s><s>Moreover, the magnetic anisotropy energy is probably comparable in order of magnitude <ref target="#b45" type="bibr">[46]</ref>.</s><s>Possible changes in the magnetic arrangement compatible with these observations could thus include a spin-flop transition, or a change in the coupling schema along the c axis (as shown in <ref target="#b23" type="bibr">[24]</ref>, at least three different magnetic configurations are consistent with k c = (1/2, 1/2, 1/2) and the observed reflection set).</s><s>Due to the use of a ceramic rod, it is extremely difficult to interpret the response of the magnetic intensities to an external magnetic field shown in Fig. <ref target="#fig_5" type="figure">7</ref> as a signature of one of these possibilities.</s><s>However, the large in-plane NN couplings in YBaCuFeO 5 and the low anisotropy of the collinear phase <ref target="#b46" type="bibr">[47]</ref> led us to speculate about the possibility of a spin-flop transition.</s><s>Such transitions involve a change in the orientation of the antiferromagnetic configuration from parallel to transverse when the external magnetic field is applied along an easy antiferromagnetic direction, and are observed in antiferromagnets with anisotropy energies significantly weaker than the exchange interactions.</s></p><p><s>In YBaCuFeO 5 single crystals with T spiral = 160 K, the magnetization was reported to have an easy plane perpendicular to the fourfold axis parallel to c at any temperature below T collinear ∼ 440 K <ref target="#b46" type="bibr">[47]</ref>.</s><s>This is in agreement with Refs.</s><s><ref target="#b17" type="bibr">[18,</ref><ref target="#b18" type="bibr">19]</ref>, where lower T spiral values were found to result in inclined spirals with the rotation plane closer to the crystallographic ab plane.</s><s>For small values of the magnetic anisotropy, a magnetic field applied along a or b could thus induce a spin-flop transition and align the magnetic moments parallel to the c axis.</s><s>Interestingly, the anisotropy of the collinear phase was found to be quite modest, whereas that of the spiral phase was significantly larger <ref target="#b46" type="bibr">[47]</ref>.</s><s>This could explain the stability of the spiral under application of a magnetic field, and supports the observation of a spin-flop transition only in the collinear phase at a modest magnetic field H 2 = 2 T.</s><s>This field is indeed much smaller than the extrapolated H sat ∼ 1000 T, which reflects the overall energy scale of the exchange couplings in YBaCuFeO 5 .</s><s>This, together with the smooth evolution of the magnetic reflections for fields up to H 2 , makes the spin-flop scenario reasonably plausible.</s><s>Magnetization and neutron diffraction measurements on single crystals will be nevertheless necessary to establish whether it is realized in YBaCuFeO 5 .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">C. Phase diagram<p><s>Based on the data presented in previous sections, we can now establish the magnetic phase diagram for polycrystalline YBaCuFeO 5 (Fig. <ref target="#fig_6" type="figure">9</ref>).</s><s>Phase lines constructed from the maximum of the (1/2, 1/2, 1/2) reflection in the NPD versus temperature data and the point where its integrated intensity starts to deviate from linearity (black triangles), the setup/anomaly at 2 T of this reflection in the NPD versus field data (white triangles), the limits of the hysteresis region in the FCC-FCW curves (black circles), and the M(H ) curves (white circles) mark the boundaries of four different regions: an incommensurate spiral phase with propagation vector k i and a small WFM component, two different commensurate phases COL1 and COL2 with identical propagation vector k c , and a commensurate-incommensurate phase coexistence region whose thermal stability increases with the applied field.</s><s>This region, where hysteresis is observed as a function of both temperature and magnetic field, extends along the line separating the incommensurate spiral phase from the two commensurate phases COL1 and COL2.</s><s>The two spiral → COL1 and spiral → COL2 transitions in YBaCuFeO 5 present thus some characteristics typical from first-order transitions in spite of the smooth temperature and magnetic field dependence of the magnetic modulation vector q (Figs. <ref type="figure">6</ref> and<ref type="figure">8</ref>).</s><s>This unusual behavior, not reported for other high-temperature spiral magnets such as CuO <ref target="#b43" type="bibr">[44]</ref>, could be a consequence of the disorder-based mechanism at the origin of the spiral.</s><s>Whereas in CuO the magnetic frustration arises from the classical competition between NN and NNN exchange interactions, the spiral state in YBaCuFeO 5 originates around a few, randomly distributed Fe-Fe frustrating bonds, which induce a canting of the Cu/Fe magnetic moments around them <ref target="#b26" type="bibr">[27,</ref><ref target="#b27" type="bibr">28]</ref>.</s><s>In the collinear phase, such "impurity" bonds could play a role similar to nucleation centers in first-order transitions, which grow at the expenses of the preexisting phase leading to the phase coexistence and hysteresis characteristic of this kind of transition.</s><s>The COL1 → COL2 transition at 2 T displays in contrast no hysteresis, as expected in a prototypical secondorder phase transition.</s></p><p><s>As shown in Fig. <ref target="#fig_6" type="figure">9</ref>, the phase coexistence region broadens for higher fields and lower temperatures.</s><s>The field dependence of the spiral nucleation and growth rate at different temperatures have not been investigated theoretically.</s><s>However, we can speculate that an external magnetic field could modify the canting angle distribution of the Fe/Cu magnetic moments around the Fe-Fe impurities necessary for the spiral stability <ref target="#b26" type="bibr">[27,</ref><ref target="#b27" type="bibr">28]</ref>.</s><s>The observation of an enlarged phase coexistence region at higher magnetic fields and lower temperatures also suggest that a decrease of the thermal fluctuations may be necessary for the spiral to become majoritary and ultimately replace the collinear phase.</s><s>Finding whether this is the case will however require additional theoretical work.</s><s>At a purely experimental level, linear extrapolation of the phase coexistence boundaries of the phase diagram suggests that, at base temperature, the (pure) spiral + WFM and COL2 phases could exist, respectively, for magnetic fields lower than ∼18-20 T, and larger than 58-60 T. Magnetization and neutron diffraction experiments will be however necessary to check this prediction.</s><s>These measurements will be also needed to explore the higher-field part of the phase diagram, which, given the large value of the estimated H sat upper limit (∼1000 T) at low temperatures, gives plenty of room to observe additional field-induced transitions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">D. Perspectives for spiral orientation and polarization manipulation<p><s>An unexpected finding uncovered by the magnetic phase diagram is the observation of a field-driven transition only in the collinear phase.</s><s>In the yellow region of Fig. <ref target="#fig_6" type="figure">9</ref>, our NPD data did not reveal any signature suggesting a modification of the envolvent shape and/or orientation of the spiral, a priori more prone to be destabilized by a magnetic field.</s><s>Interestingly, a similar behavior has been observed in CuO, another easy plane, high-temperature spiral multiferroic.</s><s>As shown by Wang et al. <ref target="#b43" type="bibr">[44]</ref>, the magnetic field needed to suppress the multiferroic spiral phase observed between 213 and 230 K is temperature dependent and can reach values as high as 50 T.</s><s>In contrast, the collinear phase observed below 213 K undergoes a spin-flop transition at a much lower, temperature independent field (10.5 T).</s><s>These findings have been explained as the result of the fine balance between the exchange interactions and the anisotropy energies associated with the easy plane and the hard axis.</s><s>Since the last ones are temperature dependent and differ by a factor of ∼36 at low temperatures, a change in the orientation of the magnetic moments with respect to the magnetic field can substantially change the energy balance.</s><s>A similar scenario could also be pertinent for YBaCuFeO 5 , but measurements of the anisotropy energy in single crystals and information on the phase diagram along the different crystal axes will be necessary to model the stability ranges of the different magnetic phases.</s></p><p><s>Another intriguing observation inferred from our data is the emergence of a WFM component only in the spiral phase under the application of a magnetic field.</s><s>It is worth mentioning that ferromagnetism is symmetry forbidden (and indeed not observed) for H = 0 <ref target="#b23" type="bibr">[24]</ref>.</s><s>However, its existence for H &gt; 0 is unambiguously demonstrated by our magnetization and AC susceptibility data.</s><s>The origin of the WFM component is unclear, but the fact that it is only observed in the spiral phase suggests a common origin for both phenomena.</s><s>A possible scenario could be that the canting of the Cu/Fe magnetic moments in the vicinity of a Fe-Fe impurity <ref target="#b26" type="bibr">[27,</ref><ref target="#b27" type="bibr">28]</ref> is not exactly compensated when an external magnetic field is applied.</s><s>Probing whether this is the case is out of the scope of this study and will require additional theoretical work.</s></p><p><s>A third point needing further investigations concerns the orientation of the WFM component with respect to the spiral rotation plane, and whether both orientations are linked.</s><s>This is very important information because it could open the way towards the manipulation the spiral orientation (and hence the polarization direction).</s><s>As shown in Fig. <ref target="#fig_2" type="figure">3(d)</ref>, the WFM component can be switched with relatively modest fields (∼0.7 T at 5 K), but only after a field cooling process.</s><s>If the orientations of the WFM component and the spiral are linked, it seems reasonable to expect that a magnetization reversal after field cooling could result also in a modification FIG. <ref target="#fig_0" type="figure">10</ref>.</s><s>Temperature dependence of the commensurate (1/2, 1/2, 1/2) reflection and the incommensurate (1/2, 1/2, 1/2 ± q) satellites measured at 0 (left column) and 9 T (right column).</s><s>The powder neutron diffraction profiles have been fitted with three Gaussian functions as described in the text.</s><s>Black circles: Experimental data.</s><s>Pink line: Fitted profile.</s><s>Green, red, and blue shaded areas: Integrated intensities of the (1/2, 1/2, 1/2q), (1/2, 1/2, 1/2), and (1/2, 1/2, 1/2 + q) magnetic reflections, respectively.</s><s>FIG.</s><s><ref target="#fig_0" type="figure">11</ref>.</s><s>Magnetic-field dependence of the magnetization M measured along a full -9 to 9 T loop for polycrystalline YBaCuFeO 5 at selected temperatures between 20 and 300 K.</s></p><p><s>of the spiral orientation.</s><s>Polarization and neutron diffraction measurements under magnetic field on single crystals will be necessary to establish whether this is the case in YBaCuFeO 5 .</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">IV. SUMMARY AND CONCLUSIONS<p><s>To conclude, we report here a H-T phase diagram of polycrystalline YBaCuFeO 5 , a high-temperature spiral magnet, and multiferroic candidate.</s><s>Using magnetometry and neutron powder diffraction at low temperatures (2-300 K) and high magnetic fields (0-9 T) we reveal the existence of an incommensurate spiral phase, two collinear phases, and a broad phase coexistence region separating the phases with commensurate and incommensurate magnetic orders.</s></p><p><s>Contrary to our initial expectations, we observe a fieldinduced transition in the high-temperature collinear phase at H 2 = 2 T without change of propagation vector.</s><s>In contrast, the spiral phase appears to be stable up to much higher fields (in particular at low temperatures) when the sample is cooled in zero field.</s><s>Another unexpected finding of our study is the observation of weak ferromagnetism coexisting with the spiral modulation.</s><s>Moreover, the WFM component can be switched by a modest magnetic field if the sample is field cooled below T spiral .</s><s>Our data could not provide information about the existence of a coupling between the orientation of the spiral and the WFM component.</s><s>However, given that the last one appears exclusively in the spiral phase, it seems reasonable to assume that some degree of coupling exists.</s><s>If this is the case, the tunability of the WFM component could open the way to a magnetic field-driven modification of the spiral orientation, directly related to the polarization direction.</s><s>Moreover, an electric field acting on the polarization could also modify the magnetization.</s><s>This would open new perspectives for a low-energy control of M and P, and the possible use of YBaCuBaO 5 in technological applications based on the magnetoelectric effect.</s></p><p><s>The NPD data were generated at the D20 diffractometer of the Institute Laue Langevin (Grenoble, France), and can be accessed at <ref target="#b47" type="bibr">[48]</ref>.</s><s>Additional data related to this paper are available from the corresponding authors upon reasonable request.</s><s>FullProf Suite is available free of charge at <ref type="bibr">[49]</ref>.</s></p><p><s>the neutron diffraction profiles with three Gaussian functions plus a linear background between 23 • 2θ 32 • .</s><s>The free parameters were the 2θ positions and maximal intensities for the three Gaussians, plus two additional parameters describing a linear background.</s><s>The fits were performed in sequential mode, starting from 1.5 K upwards.</s><s>Because of the progressive merging of the three reflections by approaching T spiral , the widths of the three reflections could not be refined independently.</s><s>Hence, we fixed them to the values obtained at temperatures as far as possible from T spiral (1.5 K for the spiral phase, 300 K for the collinear phase).</s><s>This assumption is most probably not valid close to the spiral ordering temperature, where broader reflections are expected due to the phase coexistence and hence smaller collinear/spiral diffraction domains.</s><s>However, it was the only way to avoid the divergence of the fits by approaching T spiral .</s><s>Examples of the fits at selected temperatures for H = 0 and 9 T are presented in Fig. <ref target="#fig_0" type="figure">10</ref>, with the contributions of the three reflections to the full profile displayed in different colors.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Extended magnetization data<p><s>As a complement to Fig. <ref type="figure">4</ref>, an extended set of magnetization curves and their first derivatives is presented in Figs.</s><s><ref target="#fig_0" type="figure">11</ref> and<ref target="#fig_7" type="figure">12</ref>.</s><s>Figure <ref target="#fig_0" type="figure">11</ref> shows the magnetic field dependence of the magnetization in YBaCuFeO 5 at 20 different temperatures between 20 and 300 K through a full M(H ) hysteresis cycle (-9 &lt; H &lt; +9 T).</s><s>The first derivative ∂M/∂H of these curves is shown Fig. <ref target="#fig_7" type="figure">12</ref>.</s></p><p><s>For temperatures between 20 and ∼140 K the magnetization increases in an almost linear way with H.</s><s>In contrast, a pronounced nonlinear behavior accompanied by hysteresis is clearly observed between ∼140 K and T spiral .</s><s>The presence of hysteresis can be particularly well appreciated in the derivative curves of Fig. <ref target="#fig_7" type="figure">12</ref>, where the anomaly associated with the spiral to collinear transition appears as a sharp field and temperature-dependent maximum.</s></p><p><s>As shown in Fig. <ref target="#fig_0" type="figure">11</ref>, the M(H ) curves are also nonlinear between T spiral and 300 K.</s><s>This can be better appreciated in Fig. <ref target="#fig_7" type="figure">12</ref>, where the first derivative signals the presence of a slope change at a temperature-independent field H = 2 T. The associated anomaly is less sharp than in the case of the spiralcollinear transition and it does not show hysteresis, suggesting the presence of a field-induced transition of different nature.</s><s>This was further confirmed by the field-dependent PND measurements, which identified the anomaly with a transition between two different collinear phases COL1 and COL2 with identical magnetic propagation vector.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">FIG. 1 .<label>1</label><figdesc><div><p><s>FIG. 1.</s><s>(a) Crystal and magnetic structures of YBaCuFeO 5 .</s><s>Upper panel: Crystal structure illustrating the Cu/Fe chemical disorder within the bipyramidal units.</s><s>The tetragonal P4mm unit cell is indicated by the gray lines.</s><s>Left down panel: High-temperature collinear magnetic structure with k c = (1/2, 1/2, 1/2).</s><s>Right down panel: Low-temperature spiral magnetic structure with k i = (1/2, 1/2, k z ).</s><s>For sake of clarity reduced magnetic cells are shown in the last two panels.</s><s>(b)-(d) Temperature dependence of the magnetization at 1, 4, and 7 T measured under ZFC, FCC, and FCW protocols.</s><s>(e) Difference between the FCC and FCW magnetization curves M hyst = M FCC -M FCW showing the growth of the hysteretic region for increasing magnetic fields.</s><s>(f) Difference between the FCW and ZFC magnetization curves M irr = M FCW -M ZFC showing the growth of the irreversible magnetization for increasing magnetic fields below T spiral .</s><s>The color code is the same as in (e).</s><s>(g) Magnetic field dependence of the irreversible magnetization M irr = M FCW -M ZFC at 5, 50, 100, and 300 K.</s></p></div></figdesc><graphic coords="2,52.09,70.20,504.00,314.28" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">FIG. 2 .<label>2</label><figdesc><div><p><s>FIG. 2. Temperature dependence of the real and imaginary parts of the AC magnetic susceptibility χ AC (T ) and χ AC (T ) measured at different frequencies.</s><s>The χ AC (T ) curves are shown equally spaced for clarity.</s></p></div></figdesc><graphic coords="4,313.59,70.96,243.60,155.52" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">FIG. 3 .<label>3</label><figdesc><div><p><s>FIG. 3. (a) and (b) Magnetic field dependence of the magnetization at 5 K during a M-H loop measured after (a) ZFC and (b) FC under a magnetic field of 7 T.</s><s>The up-left insets show an enlarged view of the low-field region; The down-right insets show the first derivative ∂M/∂H within the same region.</s><s>(c) Magnetic field dependence of the magnetization at 5 K after FC under 7 T measured using the PUND-like protocol described in the text.</s><s>The insets show enlarged views of the low-field region and its first derivative ∂M/∂H that, as expected, coincide with those in (b).</s><s>(d) Switchable part of the magnetization at selected temperatures after subtraction of the nonswitchable contribution, as obtained using the PUND protocol schematically shown in (e).</s><s>Note that the red/blue color code of the different pulses is the same as that in (c).</s><s>(f) Temperature dependence of the remnant magnetization and the coercive field.</s></p></div></figdesc><graphic coords="5,52.09,70.20,504.00,302.28" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>FIG. 4. (a) Magnetic-field dependence of the YBaCuFeO 5 magnetization between 0 and 9 T for temperatures between 20 and 300 K.</s><s>The M(H ) curves are offset vertically by 0.01 μ B /f.u. for clarity.</s><s>(b)-(d) Partial derivative curves ∂M/∂H at 20, 180, and 300 K through a full hysteresis cycle (-9 &lt; H &lt; +9 T).</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figures 5 (<label>5</label><figdesc><div><p><s>Figures 5(a) and 5(b) show the zero-field NPD patterns at 300 K (collinear phase) and 1.5 K (spiral phase).</s><s>In both</s></p></div></figdesc></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0">FIG. 7 .<label>7</label><figdesc><div><p><s>FIG. 7. Comparison between the intensities of selected magnetic reflections measured at 0 (blue dots) and 9 T (red dots).</s><s>(a) and (b) In the collinear phase at 300 K. (c) and (d) In the spiral phase at 1.5 K.</s></p></div></figdesc><graphic coords="7,313.10,70.08,244.80,233.40" type="bitmap"></graphic></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0">FIG. 9 .<label>9</label><figdesc><div><p><s>FIG. 9. Magnetic phase diagram of polycrystalline YBaCuFeO 5 .</s><s>The techniques used to determine the lines separating the different magnetic phases are indicated in the legend.</s></p></div></figdesc><graphic coords="9,315.60,70.08,240.00,212.40" type="bitmap"></graphic></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0">FIG. 12 .<label>12</label><figdesc><div><p><s>FIG. 12. First derivative curves ∂M/∂H of the M(H ) loops displayed in Fig. 11.</s></p></div></figdesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="8,52.09,70.00,504.00,387.48" type="bitmap"></graphic></figure>
+<note n="1" place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>PND at zero field</s></p></note>
+<note n="2" place="foot" xml:id="foot_1" xmlns="http://www.tei-c.org/ns/1.0"><p><s>PND at fields up to 9 T</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">ACKNOWLEDGMENTS<p><s>We thank T. Hansen and E. Lelièvre for technical support during the neutron powder diffraction measurements under magnetic field, and M. Müller for stimulating discussions.</s><s>The allocation of neutron beamtime at the Institut Laue Langevin, (Grenoble, France), and the financial support from the Swiss National Science Foundation (Grants No. 200021-141334/1 and No. 206021-139082) are gratefully acknowledged.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">APPENDIX 1. Integrated intensities of the low 2θ magnetic reflections<p><s>The integrated intensities of the commensurate (1/2, 1/2, 1/2) reflection and the incommensurate (1/2, 1/2, 1/2 ± q) satellites shown in Figs. <ref type="figure">6</ref> and<ref type="figure">8</ref> were determined by fitting</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Multiferroics: A magnetic twist for ferroelectricity</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">W</forename><surname>Cheong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Mostovoy</surname></persname>
+</author>
+<idno type="DOI">10.1038/nmat1804</idno>
+</analytic>
+<monogr>
+<title level="j">Nat. Mater</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="page">13</biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S. W. Cheong and M. Mostovoy, Multiferroics: A magnetic twist for ferroelectricity, Nat. Mater. 6, 13 (2007).</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Spiral magnets as magnetoelectrics</title>
+<author>
+<persname><forename type="first">T</forename><surname>Kimura</surname></persname>
+</author>
+<idno type="DOI">10.1146/annurev.matsci.37.052506.084259</idno>
+</analytic>
+<monogr>
+<title level="j">Annu. Rev. Mater. Res</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope unit="page">387</biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Kimura, Spiral magnets as magnetoelectrics, Annu. Rev. Mater. Res. 37, 387 (2007).</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Classifying multiferroics: Mechanisms and effects</title>
+<author>
+<persname><forename type="first">D</forename><surname>Khomskii</surname></persname>
+</author>
+<idno type="DOI">10.1103/Physics.2.20</idno>
+</analytic>
+<monogr>
+<title level="j">Physics</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="page">20</biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">D. Khomskii, Classifying multiferroics: Mechanisms and ef- fects, Physics 2, 20 (2009).</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">The evolution of multiferroics</title>
+<author>
+<persname><forename type="first">M</forename><surname>Fiebig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Lottermoser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Meier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Trassin</surname></persname>
+</author>
+<idno type="DOI">10.1038/natrevmats.2016.46</idno>
+</analytic>
+<monogr>
+<title level="j">Nat. Rev. Mater</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<biblscope unit="page">16046</biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Fiebig, T. Lottermoser, D. Meier, and M. Trassin, The evolution of multiferroics, Nat. Rev. Mater. 1, 16046 (2016).</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Advances in magnetoelectric multiferroics</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">A</forename><surname>Spaldin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ramesh</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41563-018-0275-2</idno>
+</analytic>
+<monogr>
+<title level="j">Nat. Mater</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="page">203</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">N. A. Spaldin and R. Ramesh, Advances in magnetoelectric multiferroics, Nat. Mater. 18, 203 (2019).</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">0-π Transitions in a Superconductor/Chiral Ferromagnet/Superconductor Junction Induced by a Homogeneous Cycloidal Spiral</title>
+<author>
+<persname><forename type="first">T</forename><surname>Champel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Löfwander</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Eschrig</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevLett.100.077003</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. Lett</title>
+<imprint>
+<biblscope unit="volume">100</biblscope>
+<biblscope unit="page">77003</biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Champel, T. Löfwander, and M. Eschrig, 0-π Transitions in a Superconductor/Chiral Ferromagnet/Superconductor Junction Induced by a Homogeneous Cycloidal Spiral, Phys. Rev. Lett. 100, 077003 (2008).</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Superconducting spin valves controlled by spiral re-orientation in B20-family magnets</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">G</forename><surname>Pugach</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Safonchik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Champel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">E</forename><surname>Zhitomirsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Lahderanta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Eschrig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Lacroix</surname></persname>
+</author>
+<idno type="DOI">10.1063/1.5000315</idno>
+</analytic>
+<monogr>
+<title level="j">Appl. Phys. Lett</title>
+<imprint>
+<biblscope unit="volume">111</biblscope>
+<biblscope unit="page">162601</biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">N. G. Pugach, M. Safonchik, T. Champel, M. E. Zhitomirsky, E. Lahderanta, M. Eschrig, and C. Lacroix, Superconducting spin valves controlled by spiral re-orientation in B20-family magnets, Appl. Phys. Lett. 111, 162601 (2017).</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Scalable energy-efficient magnetoelectric spinorbit logic</title>
+<author>
+<persname><forename type="first">S</forename><surname>Manipatruni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Nikonov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C.-C</forename><surname>Lin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">A</forename><surname>Gosavi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Prasad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y.-L</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Bonturim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ramesh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">A</forename><surname>Young</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41586-018-0770-2</idno>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">565</biblscope>
+<biblscope unit="page">35</biblscope>
+<date type="published" when="2019">2019</date>
+<pubplace>London</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">S. Manipatruni, D. Nikonov, C.-C. Lin, T. A. Gosavi, H. Liu, B. Prasad, Y.-L. Huang, E. Bonturim, R. Ramesh, and I. A. Young, Scalable energy-efficient magnetoelectric spin- orbit logic, Nature (London) 565, 35 (2019).</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Magnetic control of ferroelectric polarization</title>
+<author>
+<persname><forename type="first">T</forename><surname>Kimura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Goto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Shintani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Ishizaka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>-H. Arima</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Tokura</surname></persname>
+</author>
+<idno type="DOI">10.1038/nature02018</idno>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">426</biblscope>
+<biblscope unit="page">55</biblscope>
+<date type="published" when="2003">2003</date>
+<pubplace>London</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Kimura, T. Goto, H. Shintani, K. Ishizaka, T.-h. Arima, and Y. Tokura, Magnetic control of ferroelectric polarization, Nature (London) 426, 55 (2003).</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Role of the Dzyaloshinskii-Moriya interaction in multiferroic perovskites</title>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">A</forename><surname>Sergienko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Dagotto</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.73.094434</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">73</biblscope>
+<biblscope unit="page">94434</biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">I. A. Sergienko and E. Dagotto, Role of the Dzyaloshinskii- Moriya interaction in multiferroic perovskites, Phys. Rev. B 73, 094434 (2006).</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Theory of Magnetic Switching of Ferroelectricity in Spiral Magnets</title>
+<author>
+<persname><forename type="first">M</forename><surname>Mochizuki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Furukawa</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevLett.105.187601</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. Lett</title>
+<imprint>
+<biblscope unit="volume">105</biblscope>
+<biblscope unit="page">187601</biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Mochizuki and N. Furukawa, Theory of Magnetic Switching of Ferroelectricity in Spiral Magnets, Phys. Rev. Lett. 105, 187601 (2010).</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Spin Current and Magnetoelectric Effect in Noncollinear Magnets</title>
+<author>
+<persname><forename type="first">H</forename><surname>Katsura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Nagaosa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">V</forename><surname>Balatsky</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevLett.95.057205</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. Lett</title>
+<imprint>
+<biblscope unit="volume">95</biblscope>
+<biblscope unit="page">57205</biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">H. Katsura, N. Nagaosa, and A. V. Balatsky, Spin Current and Magnetoelectric Effect in Noncollinear Magnets, Phys. Rev. Lett. 95, 057205 (2005).</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Magnetic Reversal of the Ferroelectric Polarization in a Multiferroic Spinel Oxide</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Yamasaki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Miyasaka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Kaneko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-P</forename><surname>He</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Arima</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Tokura</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevLett.96.207204</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. Lett</title>
+<imprint>
+<biblscope unit="volume">96</biblscope>
+<biblscope unit="page">207204</biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y. Yamasaki, S. Miyasaka, Y. Kaneko, J.-P. He, T. Arima, and Y. Tokura, Magnetic Reversal of the Ferroelectric Polarization in a Multiferroic Spinel Oxide, Phys. Rev. Lett. 96, 207204 (2006).</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Generation of electric polarization with rotating magnetic field in helimagnet ZnCr 2 Se 4</title>
+<author>
+<persname><forename type="first">H</forename><surname>Murakawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Onose</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Ohgushi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ishiwata</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Tokura</surname></persname>
+</author>
+<idno type="DOI">10.1143/JPSJ.77.043709</idno>
+</analytic>
+<monogr>
+<title level="j">J. Phys. Soc. Jpn</title>
+<imprint>
+<biblscope unit="volume">77</biblscope>
+<biblscope unit="page">43709</biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">H. Murakawa, Y. Onose, K. Ohgushi, S. Ishiwata, and Y. Tokura, Generation of electric polarization with rotating mag- netic field in helimagnet ZnCr 2 Se 4 , J. Phys. Soc. Jpn. 77, 043709 (2008).</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Low-field magnetoelectric effect at room temperature</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Kitagawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Hiraoka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Honda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Ishikura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Nakamura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kimura</surname></persname>
+</author>
+<idno type="DOI">10.1038/nmat2826</idno>
+</analytic>
+<monogr>
+<title level="j">Nat. Mater</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="page">797</biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y. Kitagawa, Y. Hiraoka, T. Honda, T. Ishikura, H. Nakamura, and T. Kimura, Low-field magnetoelectric effect at room tem- perature, Nat. Mater. 9, 797 (2010).</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Coupling of Magnetic and Ferroelectric Hysteresis by a Multicomponent Magnetic Structure in MN 2 GeO 4</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>White</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Honda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Kimura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kimura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Niedermayer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Zaharko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Poole</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Roessli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kenzelmann</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevLett.108.077204</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. Lett</title>
+<imprint>
+<biblscope unit="volume">108</biblscope>
+<biblscope unit="page">77204</biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. S. White, T. Honda, K. Kimura, T. Kimura, C. Niedermayer, O. Zaharko, A. Poole, B. Roessli, and M. Kenzelmann, Coupling of Magnetic and Ferroelectric Hysteresis by a Mul- ticomponent Magnetic Structure in MN 2 GeO 4 , Phys. Rev. Lett. 108, 077204 (2012).</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Magnetoelectric inversion of domain patterns</title>
+<author>
+<persname><forename type="first">N</forename><surname>Leo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Carolus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>White</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kenzelmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Hudl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Toledano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Honda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kimura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Ivanov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Weil</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Lottermoser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Meier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Fiebig</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41586-018-0432-4</idno>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">560</biblscope>
+<biblscope unit="page">466</biblscope>
+<date type="published" when="2018">2018</date>
+<pubplace>London</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">N. Leo, V. Carolus, J. S. White, M. Kenzelmann, P. Hudl, M. Toledano, T. Honda, T. Kimura, S. A. Ivanov, M. Weil, T. Lottermoser, D. Meier, and M. Fiebig, Magnetoelectric inver- sion of domain patterns, Nature (London) 560, 466 (2018).</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Tuning magnetic spirals beyond room temperature with chemical disorder</title>
+<author>
+<persname><forename type="first">M</forename><surname>Morin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Canévet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Raynaud</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bartkowiak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Sheptyakov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Ban</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kenzelmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Pomjakushina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Conder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Medarde</surname></persname>
+</author>
+<idno type="DOI">10.1038/ncomms13758</idno>
+</analytic>
+<monogr>
+<title level="j">Nat. Commun</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="page">13758</biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Morin, E. Canévet, A. Raynaud, M. Bartkowiak, D. Sheptyakov, V. Ban, M. Kenzelmann, E. Pomjakushina, K. Conder, and M. Medarde, Tuning magnetic spirals beyond room temperature with chemical disorder, Nat. Commun. 7, 13758 (2016).</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Design of magnetic spirals in layered perovskites: Extending the stability range far beyond room temperature</title>
+<author>
+<persname><forename type="first">T</forename><surname>Shang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Canévet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Morin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Sheptyakov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">T</forename><surname>Fernández-Díaz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Pomjakushina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Medarde</surname></persname>
+</author>
+<idno type="DOI">10.1126/sciadv.aau6386</idno>
+</analytic>
+<monogr>
+<title level="j">Sci. Adv</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="page">6386</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Shang, E. Canévet, M. Morin, D. Sheptyakov, M. T. Fernández-Díaz, E. Pomjakushina, and M. Medarde, Design of magnetic spirals in layered perovskites: Extending the stability range far beyond room temperature, Sci. Adv. 4, eaau6386 (2018).</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">High temperature spin-driven multiferroicity in ludwigite chromocuprate Cu 2 CrBO 5</title>
+<author>
+<persname><forename type="first">F</forename><surname>Damay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Sottmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Fauth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Suard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Maignan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Martin</surname></persname>
+</author>
+<idno type="DOI">10.1063/5.0049174</idno>
+</analytic>
+<monogr>
+<title level="j">Appl. Phys. Lett</title>
+<imprint>
+<biblscope unit="volume">118</biblscope>
+<biblscope unit="page">192903</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">F. Damay, J. Sottmann, F. Fauth, E. Suard, A. Maignan, and C. Martin, High temperature spin-driven multiferroicity in ludwig- ite chromocuprate Cu 2 CrBO 5 , Appl. Phys. Lett. 118, 192903 (2021).</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Cupric oxide as an induced-multiferroic with high-T c</title>
+<author>
+<persname><forename type="first">T</forename><surname>Kimura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Sekio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Nakamura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Siegrist</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">P</forename><surname>Ramirez</surname></persname>
+</author>
+<idno type="DOI">10.1038/nmat2125</idno>
+</analytic>
+<monogr>
+<title level="j">Nat. Mater</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="page">291</biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Kimura, Y. Sekio, H. Nakamura, T. Siegrist, and A. P. Ramirez, Cupric oxide as an induced-multiferroic with high-T c , Nat. Mater. 7, 291 (2008).</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Spiral ground state against ferroelectricity in the frustrated magnet BiMnFe 2 O 6</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Abakumov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Tsirlin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Perez-Mato</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Petřiček</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Rosner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Greenblatt</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.83.214402</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">83</biblscope>
+<biblscope unit="page">214402</biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. M. Abakumov, A. A. Tsirlin, J. M. Perez-Mato, V. Petřiček, H. Rosner, T. Yang, and M. Greenblatt, Spiral ground state against ferroelectricity in the frustrated magnet BiMnFe 2 O 6 , Phys. Rev. B 83, 214402 (2011).</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">YBaCuFeO 5+δ : A novel oxygen-deficient perovskite with a layer structure</title>
+<author>
+<persname><forename type="first">L</forename><surname>Er-Rakho</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Michel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Lacorre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Raveau</surname></persname>
+</author>
+<idno type="DOI">10.1016/0022-4596(88)90141-7</idno>
+</analytic>
+<monogr>
+<title level="j">J. Solid State Chem</title>
+<imprint>
+<biblscope unit="volume">73</biblscope>
+<biblscope unit="page">531</biblscope>
+<date type="published" when="1988">1988</date>
+</imprint>
+</monogr>
+<note type="raw_reference">L. Er-Rakho, C. Michel, P. Lacorre, and B. Raveau, YBaCuFeO 5+δ : A novel oxygen-deficient perovskite with a layer structure, J. Solid State Chem. 73, 531 (1988).</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Incommensurate magnetic structure, Fe/Cu chemical disorder, and magnetic interactions in the high-temperature multiferroic YBaCuFeO 5</title>
+<author>
+<persname><forename type="first">M</forename><surname>Morin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Scaramucci</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bartkowiak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Pomjakushina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Deng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Sheptyakov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Keller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Rodriguez-Carvajal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">A</forename><surname>Spaldin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kenzelmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Conder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Medarde</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.91.064408</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">91</biblscope>
+<biblscope unit="page">64408</biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Morin, A. Scaramucci, M. Bartkowiak, E. Pomjakushina, G. Deng, D. Sheptyakov, L. Keller, J. Rodriguez-Carvajal, N. A. Spaldin, M. Kenzelmann, K. Conder, and M. Medarde, Incommensurate magnetic structure, Fe/Cu chemical disorder, and magnetic interactions in the high-temperature multiferroic YBaCuFeO 5 , Phys. Rev. B 91, 064408 (2015).</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Crystal and magnetic structure of YBaCuFeO 5</title>
+<author>
+<persname><forename type="first">V</forename><surname>Caignaert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Mirebeau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Bourée</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Nguyen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ducouret</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Greneche</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Raveau</surname></persname>
+</author>
+<idno type="DOI">10.1006/jssc.1995.1004</idno>
+</analytic>
+<monogr>
+<title level="j">J. Solid State Chem</title>
+<imprint>
+<biblscope unit="volume">114</biblscope>
+<biblscope unit="page">24</biblscope>
+<date type="published" when="1995">1995</date>
+</imprint>
+</monogr>
+<note type="raw_reference">V. Caignaert, I. Mirebeau, F. Bourée, N. Nguyen, A. Ducouret, J. M. Greneche, and B. Raveau, Crystal and magnetic structure of YBaCuFeO 5 , J. Solid State Chem. 114, 24 (1995).</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Ferroelectricity in Spiral Magnets</title>
+<author>
+<persname><forename type="first">M</forename><surname>Mostovoy</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevLett.96.067601</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. Lett</title>
+<imprint>
+<biblscope unit="volume">96</biblscope>
+<biblscope unit="page">67601</biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Mostovoy, Ferroelectricity in Spiral Magnets, Phys. Rev. Lett. 96, 067601 (2006).</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Multiferroic Magnetic Spirals Induced by Random Magnetic Exchanges</title>
+<author>
+<persname><forename type="first">A</forename><surname>Scaramucci</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Shinaoka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">V</forename><surname>Mostovoy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Müller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Mudry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Troyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">A</forename><surname>Spaldin</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevX.8.011005</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. X</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope unit="page">11005</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Scaramucci, H. Shinaoka, M. V. Mostovoy, M. Müller, C. Mudry, M. Troyer, and N. A. Spaldin, Multiferroic Magnetic Spirals Induced by Random Magnetic Exchanges, Phys. Rev. X 8, 011005 (2018).</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Spiral order from orientationally correlated random bonds in classical XY models</title>
+<author>
+<persname><forename type="first">A</forename><surname>Scaramucci</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Shinaoka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">V</forename><surname>Mostovoy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Lin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Mudry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Müller</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevResearch.2.013273</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. Research</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="page">13273</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Scaramucci, H. Shinaoka, M. V. Mostovoy, R. Lin, C. Mudry, and M. Müller, Spiral order from orientationally cor- related random bonds in classical XY models, Phys. Rev. Research 2, 013273 (2020).</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Tuning the tilting of the spiral plane by Mn doping in YBaCuFeO 5 multiferroic</title>
+<author>
+<persname><forename type="first">X</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Romaguera</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">F</forename></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Fauth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Herrero-Martín</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>García-Muñoz</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.actamat.2020.116608</idno>
+</analytic>
+<monogr>
+<title level="j">Acta Mater</title>
+<imprint>
+<biblscope unit="volume">206</biblscope>
+<biblscope unit="page">116608</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">X. Zhang, A. Romaguera, O. F., F. Fauth, J. Herrero-Martín, and J. L. García-Muñoz, Tuning the tilting of the spiral plane by Mn doping in YBaCuFeO 5 multiferroic, Acta Mater. 206, 116608 (2021).</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Magnetoelectric hexaferrites</title>
+<author>
+<persname><forename type="first">T</forename><surname>Kimura</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Annual Review of Condensed Matter Physics</title>
+<editor>
+<persname><forename type="first">J</forename><surname>Langer</surname></persname>
+</editor>
+<imprint>
+<publisher>Annual Reviews Inc</publisher>
+<date type="published" when="2012">2012</date>
+<biblscope unit="volume">3</biblscope>
+<biblscope from="93" to="110" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Kimura, Magnetoelectric hexaferrites, in Annual Review of Condensed Matter Physics, edited by J. Langer (Annual Re- views Inc., 2012), Vol. 3, pp. 93-110.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Roadmap on magnetoelectric materials and devices</title>
+<author>
+<persname><forename type="first">X</forename><surname>Liang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Matyushov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Hayes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Schell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>He</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Will-Cole</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Quandt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Martins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Mccord</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Medarde</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Lanceros-Méndez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Van Dijken</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">X</forename><surname>Sun</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Sort</surname></persname>
+</author>
+<idno type="DOI">10.1109/TMAG.2021.3086635</idno>
+</analytic>
+<monogr>
+<title level="j">IEEE Trans. Magn</title>
+<imprint>
+<biblscope unit="volume">57</biblscope>
+<biblscope unit="page">1</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">X. Liang, A. Matyushov, P. Hayes, V. Schell, C. Dong, H. Chen, Y. He, A. Will-Cole, E. Quandt, P. Martins, J. McCord, M. Medarde, S. Lanceros-Méndez, S. van Dijken, N. X. Sun, and J. Sort, Roadmap on magnetoelectric materials and devices, IEEE Trans. Magn. 57, 1 (2021).</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">The D20 instrument at the ILL: A versatile highintensity two-axis neutron diffractometer</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">C</forename><surname>Hansen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">F</forename><surname>Henry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">E</forename><surname>Fischer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Torregrossa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Convert</surname></persname>
+</author>
+<idno type="DOI">10.1088/0957-0233/19/3/034001</idno>
+</analytic>
+<monogr>
+<title level="j">Meas. Sci. Technol</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope unit="page">34001</biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. C. Hansen, P. F. Henry, H. E. Fischer, J. Torregrossa, and P. Convert, The D20 instrument at the ILL: A versatile high- intensity two-axis neutron diffractometer, Meas. Sci. Technol. 19, 034001 (2008).</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Ab-initio structure determination of LiSbWO 6 by x-ray powder diffraction</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">Le</forename><surname>Bail</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Duroy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Fourquet</surname></persname>
+</author>
+<idno type="DOI">10.1016/0025-5408(88)90019-0</idno>
+</analytic>
+<monogr>
+<title level="j">Mater. Res. Bull</title>
+<imprint>
+<biblscope unit="volume">23</biblscope>
+<biblscope unit="page">447</biblscope>
+<date type="published" when="1988">1988</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Le Bail, H. Duroy, and J. Fourquet, Ab-initio structure deter- mination of LiSbWO 6 by x-ray powder diffraction, Mater. Res. Bull. 23, 447 (1988).</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Recent advances in magnetic structure determination by neutron powder diffraction</title>
+<author>
+<persname><forename type="first">J</forename><surname>Rodríguez-Carvajal</surname></persname>
+</author>
+<idno type="DOI">10.1016/0921-4526(93)90108-I</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. B: Condens. Matter</title>
+<imprint>
+<biblscope unit="volume">192</biblscope>
+<biblscope unit="page">55</biblscope>
+<date type="published" when="1993">1993</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. Rodríguez-Carvajal, Recent advances in magnetic structure determination by neutron powder diffraction, Phys. B: Condens. Matter 192, 55 (1993).</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">A profile refinement method for nuclear and magnetic structures</title>
+<author>
+<persname><forename type="first">H</forename><surname>Rietveld</surname></persname>
+</author>
+<idno type="DOI">10.1107/S0021889869006558</idno>
+</analytic>
+<monogr>
+<title level="j">J. Appl. Crystallogr</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="page">65</biblscope>
+<date type="published" when="1969">1969</date>
+</imprint>
+</monogr>
+<note type="raw_reference">H. Rietveld, A profile refinement method for nuclear and mag- netic structures, J. Appl. Crystallogr. 2, 65 (1969).</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Spin glasses: Experimental facts, theoretical concepts and open questions</title>
+<author>
+<persname><forename type="first">K</forename><surname>Binder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Young</surname></persname>
+</author>
+<idno type="DOI">10.1103/RevModPhys.58.801</idno>
+</analytic>
+<monogr>
+<title level="j">Rev. Mod. Phys</title>
+<imprint>
+<biblscope unit="volume">58</biblscope>
+<biblscope unit="page">801</biblscope>
+<date type="published" when="1986">1986</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Binder and A. Young, Spin glasses: Experimental facts, theoretical concepts and open questions, Rev. Mod. Phys. 58, 801 (1986).</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Phase diagram with an enhanced spin-glass region of the mixed Ising-XY magnet LiHO x Er 1-x F 4</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">O</forename><surname>Piatek</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">Dalla</forename><surname>Piazza</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Nikseresht</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Tsyrulin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Živković</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">W</forename><surname>Krämer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Laver</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Prokes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Mataš</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">B</forename><surname>Christensen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">M</forename><surname>Rønnow</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.88.014408</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">88</biblscope>
+<biblscope unit="page">14408</biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. O. Piatek, B. Dalla Piazza, N. Nikseresht, N. Tsyrulin, I. Živković, K. W. Krämer, M. Laver, K. Prokes, S. Mataš, N. B. Christensen, and H. M. Rønnow, Phase diagram with an enhanced spin-glass region of the mixed Ising-XY magnet LiHO x Er 1-x F 4 , Phys. Rev. B 88, 014408 (2013).</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Modern physics of ferroelectrics: Esential background</title>
+<author>
+<persname><forename type="first">K</forename><surname>Rabe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Ahn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Triscone</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Physics of Ferroelectrics: A modern perspective</title>
+<editor>
+<persname><forename type="first">K</forename><surname>Rabe</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">C</forename><surname>Ahn</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">J</forename><surname>Triscone</surname></persname>
+</editor>
+<meeting><address><addrline>Berlin</addrline></address></meeting>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="2007">2007</date>
+<biblscope unit="volume">105</biblscope>
+<biblscope from="1" to="29" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Rabe, C. Ahn, and J. Triscone, Modern physics of ferro- electrics: Esential background, in Physics of Ferroelectrics: A modern perspective, Topics Appl. Phys., edited by K. Rabe, C. Ahn, and J. Triscone (Springer, Berlin, 2007), Vol. 105, pp. 1-29.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Nonferroelectric contributions to the hysteresis cycles in manganite thin films: A comparative study of measurement techniques</title>
+<author>
+<persname><forename type="first">I</forename><surname>Fina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Fàbrega</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Langenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Martí</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Sánchez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Varela</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Fontcuberta</surname></persname>
+</author>
+<idno type="DOI">10.1063/1.3555098</idno>
+</analytic>
+<monogr>
+<title level="j">J. Appl. Phys</title>
+<imprint>
+<biblscope unit="volume">109</biblscope>
+<biblscope unit="page">74105</biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">I. Fina, L. Fàbrega, E. Langenberg, X. Martí, F. Sánchez, M. Varela, and J. Fontcuberta, Nonferroelectric contributions to the hysteresis cycles in manganite thin films: A comparative study of measurement techniques, J. Appl. Phys. 109, 074105 (2011).</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Determination of the critica exponent-β from measurement of a weak spontaneous magnetization in the 3D Ising antiferromagnet FeF 2</title>
+<author>
+<persname><forename type="first">J</forename><surname>Mattsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Djurberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Nordblad</surname></persname>
+</author>
+<idno type="DOI">10.1016/0304-8853(94)90440-5</idno>
+</analytic>
+<monogr>
+<title level="j">J. Magn. Magn. Mater</title>
+<imprint>
+<biblscope unit="volume">136</biblscope>
+<biblscope unit="page">23</biblscope>
+<date type="published" when="1994">1994</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. Mattsson, C. Djurberg, and P. Nordblad, Determination of the critica exponent-β from measurement of a weak spontaneous magnetization in the 3D Ising antiferromagnet FeF 2 , J. Magn. Magn. Mater. 136, L23 (1994).</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">A polar corundum oxide displaying weak ferromagnetism at room temperature</title>
+<author>
+<persname><forename type="first">M.-R</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Adem</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Mcmitchell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Xu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Thomas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Warren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Giap</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Niu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Wan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Palgrave</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Schiffmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Cora</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Slater</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Burnett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Cain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Abakumov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Van Tendeloo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Thomas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Rosseinsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Claridge</surname></persname>
+</author>
+<idno type="DOI">10.1021/ja208395z</idno>
+</analytic>
+<monogr>
+<title level="j">J. Am. Chem. Soc</title>
+<imprint>
+<biblscope unit="volume">134</biblscope>
+<biblscope unit="page">3737</biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M.-R. Li, U. Adem, S. McMitchell, Z. Xu, C. Thomas, J. Warren, D. Giap, H. Niu, X. Wan, R. Palgrave, F. Schiffmann, F. Cora, B. Slater, T. Burnett, M. Cain, A. Abakumov, G. van Tendeloo, M. Thomas, M. Rosseinsky, and J. Claridge, A polar corundum oxide displaying weak ferromagnetism at room temperature, J. Am. Chem. Soc. 134, 3737 (2012).</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Low-temperature magnetic structure of YBaCuFeO 5 and the effect of partial substitution of yttrium by calcium</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Ruiz-Aragón</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Morán</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Amador</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Martínez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">H</forename><surname>Andersen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Ehrenberg</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.58.6291</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">58</biblscope>
+<biblscope unit="page">6291</biblscope>
+<date type="published" when="1998">1998</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. J. Ruiz-Aragón, E. Morán, U. Amador, J. L. Martínez, N. H. Andersen, and H. Ehrenberg, Low-temperature magnetic structure of YBaCuFeO 5 and the effect of partial substitution of yttrium by calcium, Phys. Rev. B 58, 6291 (1998).</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Self-adjusted flux for the traveling solvent floating zone growth of YBaCuFeO 5 crystal</title>
+<author>
+<persname><forename type="first">Y.-C</forename><surname>Lai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G.-J</forename><surname>Shu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W.-T</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C.-H</forename><surname>Du</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F.-C</forename><surname>Chou</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jcrysgro.2014.12.020</idno>
+</analytic>
+<monogr>
+<title level="j">J. Cryst. Growth</title>
+<imprint>
+<biblscope unit="volume">413</biblscope>
+<biblscope unit="page">100</biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y.-C. Lai, G.-J. Shu, W.-T. Chen, C.-H. Du, and F.-C. Chou, Self-adjusted flux for the traveling solvent floating zone growth of YBaCuFeO 5 crystal, J. Cryst. Growth 413, 100 (2015).</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Magnetoelectric effect and phase transitions in CuO in external magnetic fields</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Qureshi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Yasin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Mukhin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Ressouche</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Zherlitsyn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Skourski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Geshev</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Ivanov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Gospodinov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Skumryev</surname></persname>
+</author>
+<idno type="DOI">10.1038/ncomms10295</idno>
+</analytic>
+<monogr>
+<title level="j">Nat. Commun</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="page">10295</biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Z. Wang, N. Qureshi, S. Yasin, A. Mukhin, E. Ressouche, S. Zherlitsyn, Y. Skourski, J. Geshev, V. Ivanov, M. Gospodinov, and V. Skumryev, Magnetoelectric effect and phase transitions in CuO in external magnetic fields, Nat. Commun. 7, 10295 (2016).</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Evolution of magnetocrystalline anisotropies in MN 1-x Fe x Si and MN 1-x Co x Si as inferred from small-angle neutron scattering and bulk properties</title>
+<author>
+<persname><forename type="first">J</forename><surname>Kindervater</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Adams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bauer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">X</forename><surname>Haslbeck</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Chacon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Mühlbauer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Jonietz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Neubauer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Gasser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Nagy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Martin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Häußler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Georgii</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Garst</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Pfleiderer</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.101.104406</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">101</biblscope>
+<biblscope unit="page">104406</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. Kindervater, T. Adams, A. Bauer, F. X. Haslbeck, A. Chacon, S. Mühlbauer, F. Jonietz, A. Neubauer, U. Gasser, G. Nagy, N. Martin, W. Häußler, R. Georgii, M. Garst, and C. Pfleiderer, Evolution of magnetocrystalline anisotropies in MN 1-x Fe x Si and MN 1-x Co x Si as inferred from small-angle neutron scatter- ing and bulk properties, Phys. Rev. B 101, 104406 (2020).</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Crystalline and magnetic anisotropy of the 3d-transition metal monoxides MnO, FeO, CoO, and NiO</title>
+<author>
+<persname><forename type="first">A</forename><surname>Schrön</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Rödl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Bechstedt</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.86.115134</idno>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">86</biblscope>
+<biblscope unit="page">115134</biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Schrön, C. Rödl, and F. Bechstedt, Crystalline and magnetic anisotropy of the 3d-transition metal monoxides MnO, FeO, CoO, and NiO, Phys. Rev. B 86, 115134 (2012).</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Magnetic ordering and dielectric relaxation in the double perovskite YBaCuFeO 5</title>
+<author>
+<persname><forename type="first">Y.-C</forename><surname>Lai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C.-H</forename><surname>Du</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C.-H</forename><surname>Lai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y.-H</forename><surname>Liang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C.-W</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">C</forename><surname>Rule</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H.-C</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H.-D</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W.-T</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">J</forename><surname>Shu</surname></persname>
+</author>
+<idno type="DOI">10.1088/1361-648X/aa5708</idno>
+</analytic>
+<monogr>
+<title level="j">J. Phys.: Condens. Matter</title>
+<imprint>
+<biblscope unit="volume">29</biblscope>
+<biblscope unit="page">145801</biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y.-C. Lai, C.-H. Du, C.-H. Lai, Y.-H. Liang, C.-W. Wang, K. C. Rule, H.-C. Wu, H.-D. Yang, W.-T. Chen, G. J. Shu et al., Mag- netic ordering and dielectric relaxation in the double perovskite YBaCuFeO 5 , J. Phys.: Condens. Matter 29, 145801 (2017).</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<monogr>
+<title></title>
+<idno type="DOI">10.5291/ILL-DATA.5-31-2380</idno>
+<ptr target="https://doi.org/10.5291/ILL-DATA.5-31-2380"></ptr>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">https://doi.org/10.5291/ILL-DATA.5-31-2380</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

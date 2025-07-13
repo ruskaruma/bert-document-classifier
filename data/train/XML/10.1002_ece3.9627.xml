@@ -1,0 +1,961 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" id="ece39627" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jats-oasis2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">9745391</article-id><article-id pub-id-type="doi">10.1002/ece3.9627</article-id><article-id pub-id-type="publisher-id">ECE39627</article-id><article-id pub-id-type="other">ECE-2022-06-00840.R1</article-id><article-categories><subj-group subj-group-type="article-subject-classification"><subject>Community Ecology</subject></subj-group><subj-group subj-group-type="article-subject-classification"><subject>Trophic Interactions</subject></subj-group><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>Inferring predator&#x02013;prey interactions from camera traps: A&#x000a0;Bayesian co&#x02010;abundance modeling approach</article-title></title-group><contrib-group><contrib id="ece39627-cr-0001" contrib-type="author" corresp="yes"><name><surname>Amir</surname><given-names>Zachary</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8398-2059</contrib-id><xref rid="ece39627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ece39627-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>z.amir@uq.edu.au</email></address></contrib><contrib id="ece39627-cr-0002" contrib-type="author"><name><surname>Sovie</surname><given-names>Adia</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4253-2465</contrib-id><xref rid="ece39627-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="ece39627-cr-0003" contrib-type="author"><name><surname>Luskin</surname><given-names>Matthew Scott</given-names></name><xref rid="ece39627-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ece39627-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib></contrib-group><aff id="ece39627-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">School of Biological Sciences</named-content>
+<institution>University of Queensland</institution>
+<city>St. Lucia</city>
+<named-content content-type="country-part">Queensland</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="ece39627-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Centre for Biodiversity and Conservation Science</named-content>
+<institution>University of Queensland</institution>
+<city>St. Lucia</city>
+<named-content content-type="country-part">Queensland</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="ece39627-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Fisheries and Wildlife</named-content>
+<institution>Michigan State University</institution>
+<city>East Lansing</city>
+<named-content content-type="country-part">Michigan</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break/>
+Zachary Amir, School of Biological Sciences, University of Queensland, 534 Goddard Hall, St. Lucia 4067, QLD, Australia.<break/>
+Email: <email>z.amir@uq.edu.au</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>12</day><month>12</month><year>2022</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2022</year></pub-date><volume>12</volume><issue seq="580">12</issue><issue-id pub-id-type="doi">10.1002/ece3.v12.12</issue-id><elocation-id>e9627</elocation-id><history>
+<date date-type="rev-recd"><day>14</day><month>10</month><year>2022</year></date>
+<date date-type="received"><day>05</day><month>6</month><year>2022</year></date>
+<date date-type="accepted"><day>20</day><month>11</month><year>2022</year></date>
+</history><permissions><!--&#x000a9; 2022 Published by John Wiley & Sons Ltd.--><copyright-statement content-type="article-copyright">&#x000a9; 2022 The Authors. <italic toggle="yes">Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ECE3-12-e9627.pdf"/><abstract><title>Abstract</title><p>Predator&#x02013;prey dynamics are a fundamental part of ecology, but directly studying interactions has proven difficult. The proliferation of camera trapping has enabled the collection of large datasets on wildlife, but researchers face hurdles inferring interactions from observational data. Recent advances in hierarchical co&#x02010;abundance models infer species interactions while accounting for two species' detection probabilities, shared responses to environmental covariates, and propagate uncertainty throughout the entire modeling process. However, current approaches remain unsuitable for interacting species whose natural densities differ by an order of magnitude and have contrasting detection probabilities, such as predator&#x02013;prey interactions, which introduce zero inflation and overdispersion in count histories. Here, we developed a Bayesian hierarchical N&#x02010;mixture co&#x02010;abundance model that is suitable for inferring predator&#x02013;prey interactions. We accounted for excessive zeros in count histories using an informed zero&#x02010;inflated Poisson distribution in the abundance formula and accounted for overdispersion in count histories by including a random effect per sampling unit and sampling occasion in the detection probability formula. We demonstrate that models with these modifications outperform alternative approaches, improve model goodness&#x02010;of&#x02010;fit, and overcome parameter convergence failures. We highlight its utility using 20 camera trapping datasets from 10 tropical forest landscapes in Southeast Asia and estimate four predator&#x02013;prey relationships between tigers, clouded leopards, and muntjac and sambar deer. Tigers had a negative effect on muntjac abundance, providing support for top&#x02010;down regulation, while clouded leopards had a positive effect on muntjac and sambar deer, likely driven by shared responses to unmodelled covariates like hunting. This Bayesian co&#x02010;abundance modeling approach to quantify predator&#x02013;prey relationships is widely applicable across species, ecosystems, and sampling approaches and may be useful in forecasting cascading impacts following widespread predator declines. Taken together, this approach facilitates a nuanced and mechanistic understanding of food&#x02010;web ecology.</p></abstract><abstract abstract-type="graphical"><p>Predator&#x02013;prey dynamics are a fundamental part of ecology, but studying interactions from observational data (e.g., camera trapping) has proven difficult. Here, we developed a Bayesian hierarchical N&#x02010;mixture co&#x02010;abundance model that is suitable for inferring predator&#x02013;prey interactions by accounting for excessive zeros and overdispersion in count histories. Our co&#x02010;abundance model detected clear positive and negative predator&#x02013;prey relationships from a large Southeast Asian camera trapping dataset, and we highlight how it overcomes barriers, is widely applicable across species, ecosystems, and sampling approaches, and may be useful in forecasting cascading impacts following widespread predator declines.<boxed-text position="anchor" content-type="graphic" id="ece39627-blkfxd-0001"><graphic xlink:href="ECE3-12-e9627-g006.jpg" position="anchor" id="jats-graphic-1"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece39627-kwd-0001">detection probability</kwd><kwd id="ece39627-kwd-0002">hierarchical modeling</kwd><kwd id="ece39627-kwd-0003">N&#x02010;mixture models</kwd><kwd id="ece39627-kwd-0004">overdispersion</kwd><kwd id="ece39627-kwd-0005">species interactions</kwd><kwd id="ece39627-kwd-0006">zero inflation</kwd></kwd-group><counts><fig-count count="6"/><table-count count="2"/><page-count count="15"/><word-count count="9373"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2022</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.2.2 mode:remove_FC converted:13.12.2022</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ECE39627-cit-2001">
+<string-name>
+<surname>Amir</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Sovie</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Luskin</surname>, <given-names>M. S.</given-names>
+</string-name> (<year>2022</year>). <article-title>Inferring predator&#x02013;prey interactions from camera traps: A Bayesian co&#x02010;abundance modeling approach</article-title>. <source>Ecology and Evolution</source>, <volume>12</volume>, <elocation-id>e9627</elocation-id>. <pub-id pub-id-type="doi">10.1002/ece3.9627</pub-id>
+</mixed-citation>
+</p></notes></front><body id="ece39627-body-0001"><sec id="ece39627-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Understanding predator&#x02013;prey interactions is a foundational theme in ecology (Lotka,&#x000a0;<xref rid="ece39627-bib-0033" ref-type="bibr">1920</xref>; Volterra,&#x000a0;<xref rid="ece39627-bib-0062" ref-type="bibr">1927</xref>). The importance of predator&#x02013;prey interactions in conservation biology has gained widespread attention following the global decline of apex predators and subsequent trophic cascades (Estes et al.,&#x000a0;<xref rid="ece39627-bib-0017" ref-type="bibr">2011</xref>; Ripple et al.,&#x000a0;<xref rid="ece39627-bib-0050" ref-type="bibr">2014</xref>). Predators can play keystone roles in structuring ecosystems by regulating prey populations and the spatiotemporal distribution of prey via consumptive and behavioral effects (Estes &#x00026; Palmisano,&#x000a0;<xref rid="ece39627-bib-0016" ref-type="bibr">1974</xref>; Gaynor et al.,&#x000a0;<xref rid="ece39627-bib-0020" ref-type="bibr">2019</xref>). Where predators exert strong top&#x02010;down control and suppress prey, predatory interactions can produce a negative co&#x02010;abundance relationship (Ripple et al.,&#x000a0;<xref rid="ece39627-bib-0050" ref-type="bibr">2014</xref>). In this scenario, predator extirpation may allow prey to increase, termed &#x0201c;trophic release&#x0201d; (Figure&#x000a0;<xref rid="ece39627-fig-0001" ref-type="fig">1c</xref>; Estes et al.,&#x000a0;<xref rid="ece39627-bib-0017" ref-type="bibr">2011</xref>). However, the importance of predators regulating prey across different ecosystems remains debated (Polis &#x00026; Strong,&#x000a0;<xref rid="ece39627-bib-0045" ref-type="bibr">1996</xref>; Wright et al.,&#x000a0;<xref rid="ece39627-bib-0064" ref-type="bibr">1994</xref>). For example, if prey are primarily bottom&#x02010;up regulated by limited food availability, and predators are consequentially bottom&#x02010;up limited by prey availability, a positive co&#x02010;abundance relationship may arise, and this has been observed previously (Figure&#x000a0;<xref rid="ece39627-fig-0001" ref-type="fig">1a</xref>; Carbone &#x00026; Gittleman,&#x000a0;<xref rid="ece39627-bib-0010" ref-type="bibr">2002</xref>; Karanth et al.,&#x000a0;<xref rid="ece39627-bib-0028" ref-type="bibr">2004</xref>). A positive predator&#x02013;prey co&#x02010;abundance relationship may also suggest alternative forces may be more important than predation in regulating species' abundances (e.g., bottom&#x02010;up control, hunting, or other severe disturbances; Ford &#x00026; Goheen,&#x000a0;<xref rid="ece39627-bib-0019" ref-type="bibr">2015</xref>). Despite the importance of predatory interactions in food&#x02010;web ecology and conservation, measuring predator&#x02013;prey relationships in natural settings imposes several key obstacles due to direct observations, diet analyses, or manipulative experiments being logistically difficult (Smith et al.,&#x000a0;<xref rid="ece39627-bib-0055" ref-type="bibr">2020</xref>), especially for cryptic species in tropical forests (Brodie &#x00026; Giordano,&#x000a0;<xref rid="ece39627-bib-0007" ref-type="bibr">2013</xref>).</p><fig position="float" fig-type="FIGURE" id="ece39627-fig-0001"><label>FIGURE 1</label><caption><p>Hypothetical predator&#x02013;prey co&#x02010;abundance relationships. (a) A positive predator&#x02013;prey relationship suggests top&#x02010;down regulation via predation is not the dominant factor shaping abundances. This may arise where there is strong bottom&#x02010;up regulation of both prey and predators or severe disturbances affecting both species. (b) The lack of a predator&#x02013;prey relationship could arise due to a lack of interactions, such as if predator dietary preferences exclude a specific prey species or each species utilizes different habitats. (c) A negative predator&#x02013;prey relationship could arise from strong top&#x02010;down regulation via predation that regulates prey abundance. Similarly, a negative predator&#x02013;prey relationship suggests predator extirpation may allow prey to increase, termed &#x0201c;trophic release&#x0201d;.</p></caption><graphic xlink:href="ECE3-12-e9627-g007" position="anchor" id="jats-graphic-3"/></fig><p>Ecologists have frequently used observational methods to study predation by comparing landscapes that vary in predator and prey densities (e.g., Atkins et al.,&#x000a0;<xref rid="ece39627-bib-0002" ref-type="bibr">2019</xref>; Brashares et al.,&#x000a0;<xref rid="ece39627-bib-0006" ref-type="bibr">2010</xref>; Ripple &#x00026; Beschta,&#x000a0;<xref rid="ece39627-bib-0049" ref-type="bibr">2006</xref>; Terborgh et al.,&#x000a0;<xref rid="ece39627-bib-0057" ref-type="bibr">2001</xref>). However, modern sampling methods that rely on passively observed occurrence data (e.g., from camera traps, acoustic monitors, or eDNA) face numerous analytical barriers to inferring interactions (Blanchet et al.,&#x000a0;<xref rid="ece39627-bib-0004" ref-type="bibr">2020</xref>; Ford &#x00026; Goheen,&#x000a0;<xref rid="ece39627-bib-0019" ref-type="bibr">2015</xref>). Observational studies rarely account for processes influencing both predator and prey, such as environmental and anthropogenic covariates, the complete absence of either species from specific landscapes (i.e., true zeros), and imperfect detection of each species (i.e., false zeros), all of which can bias estimates of interactions (Blanchet et al.,&#x000a0;<xref rid="ece39627-bib-0004" ref-type="bibr">2020</xref>; Blasco&#x02010;Moreno et al.,&#x000a0;<xref rid="ece39627-bib-0005" ref-type="bibr">2019</xref>). For example, generalized joint attribute models can accommodate zero&#x02010;inflated and over&#x02010;dispersed data to infer species interactions (Clark et al.,&#x000a0;<xref rid="ece39627-bib-0011" ref-type="bibr">2017</xref>), but such approaches fail to account for imperfect detection. Recent attempts to use detection&#x02010;corrected abundance or co&#x02010;occurrence models have failed to propagate uncertainly throughout the modeling process, which may spuriously increase their statistical power (e.g., Penjor et al.,&#x000a0;<xref rid="ece39627-bib-0041" ref-type="bibr">2022</xref>). This leaves a gap in our ability to routinely study predator&#x02013;prey interactions using observational data from standardized biodiversity monitoring programs that now often use camera trapping (Jansen et al.,&#x000a0;<xref rid="ece39627-bib-0027" ref-type="bibr">2014</xref>). Here we leverage recent advances in collecting large standardized multispecies datasets via camera trapping and hierarchical N&#x02010;mixture co&#x02010;abundance models to enhance our understanding of complex wildlife interactions in natural settings.</p><p>Many ecological sampling methods produce multispecies detection histories (i.e., binary detections or nondetections per sampling location and sampling occasion) or count histories (i.e., number of individuals counted per sampling location and sampling occasion), including point counts, camera trapping, and acoustic sampling. Detection and count histories can capture the spatiotemporal patterns of species observed across a landscape and have been used to study habitat associations, species distributions, and population dynamics (K&#x000e9;ry &#x00026; Royle,&#x000a0;<xref rid="ece39627-bib-0030" ref-type="bibr">2016</xref>) but have rarely been used to measure predator&#x02013;prey relationships (K&#x000e9;ry &#x00026; Royle,&#x000a0;<xref rid="ece39627-bib-0031" ref-type="bibr">2021</xref>). Detection histories have commonly been used to examine species interactions through several varieties of co&#x02010;occurrence models that may quantify nonindependent occurrence (i.e., symmetrical interactions) within the entire community (Tobler et al.,&#x000a0;<xref rid="ece39627-bib-0059" ref-type="bibr">2019</xref>) or quantify a directional effect where the occurrence of one species is conditional upon the presence of another (i.e., asymmetrical interactions; Richmond et al.,&#x000a0;<xref rid="ece39627-bib-0048" ref-type="bibr">2010</xref>), and both approaches account for imperfect detection. By contrast, count histories have received considerably less attention for inferring species interactions despite carrying more information than detection histories (Roth et al.,&#x000a0;<xref rid="ece39627-bib-0052" ref-type="bibr">2016</xref>). Recent work by Blanchet et al.&#x000a0;(<xref rid="ece39627-bib-0004" ref-type="bibr">2020</xref>) outlined numerous concerns about using detection histories to infer species interactions and argued that occurrence data does not carry enough information to infer interactions, species occurrence depends on their environment (i.e., habitat filtering), and that strong interactions may lead to exclusions before interactions can be detected.</p><p>Co&#x02010;abundance models that use count data instead of occurrence data to infer species interactions have solved many of the issues raised by Blanchet et al.&#x000a0;(<xref rid="ece39627-bib-0004" ref-type="bibr">2020</xref>; Table&#x000a0;<xref rid="ece39627-tbl-0001" ref-type="table">1</xref>; Brodie et al.,&#x000a0;<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>; Roth et al.,&#x000a0;<xref rid="ece39627-bib-0052" ref-type="bibr">2016</xref>). Co&#x02010;abundance models are an extension of widely used N&#x02010;mixture models used to estimate abundance for species that cannot be individually identified (Royle,&#x000a0;<xref rid="ece39627-bib-0054" ref-type="bibr">2004</xref>). N&#x02010;mixture models can generate latent population size estimates that are roughly equivalent to capture&#x02010;recapture analyses under ideal sampling conditions (Ficetola et al.,&#x000a0;<xref rid="ece39627-bib-0018" ref-type="bibr">2018</xref>), though these models can be sensitive to assumption violations that may inflate true population density estimates (Link et al.,&#x000a0;<xref rid="ece39627-bib-0032" ref-type="bibr">2018</xref>; Nakashima,&#x000a0;<xref rid="ece39627-bib-0040" ref-type="bibr">2020</xref>). The key advantage of using N&#x02010;mixture models is that they accurately quantify the spatial variation in abundance as a function of covariates, thus producing a relative, rather than absolute, a measure of abundance (Gilbert et al.,&#x000a0;<xref rid="ece39627-bib-0023" ref-type="bibr">2021</xref>). Currently, co&#x02010;abundance models that rely on N&#x02010;mixture models to infer species interactions have been limited to competing species that both occur at similar densities so both species' count histories can be assumed to follow a normal Poisson distribution (Brodie et al.,&#x000a0;<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>; Cosentino et al.,&#x000a0;<xref rid="ece39627-bib-0013" ref-type="bibr">2019</xref>; Easter et al.,&#x000a0;<xref rid="ece39627-bib-0015" ref-type="bibr">2020</xref>; Roth et al.,&#x000a0;<xref rid="ece39627-bib-0052" ref-type="bibr">2016</xref>). Existing co&#x02010;abundance models exhibit poor performance and parameter convergence when species count histories have vastly different distributions, limiting their applicability for predators and prey whose natural densities vary by an order of magnitude and exhibit considerably different detection probabilities (Carbone &#x00026; Gittleman,&#x000a0;<xref rid="ece39627-bib-0010" ref-type="bibr">2002</xref>; Sollmann et al.,&#x000a0;<xref rid="ece39627-bib-0056" ref-type="bibr">2013</xref>). Specifically, different population dynamics introduce zero inflation, especially for cryptic species or when species are extirpated from a subset of landscapes, and overdispersion in detections, which is often due to excessive detections at a subset of sampling locations (Blasco&#x02010;Moreno et al.,&#x000a0;<xref rid="ece39627-bib-0005" ref-type="bibr">2019</xref>; Martin et al.,&#x000a0;<xref rid="ece39627-bib-0037" ref-type="bibr">2005</xref>). To move forward studying predator&#x02013;prey interactions from count histories requires addressing both zero inflation and overdispersion, while simultaneously accounting for imperfect detection and environmental covariates, and incorporating uncertainty throughout the modeling process.</p><table-wrap position="float" id="ece39627-tbl-0001" content-type="TABLE"><label>TABLE 1</label><caption><p>Problems and solutions for inferring species interactions from observational data, such as camera trapping capture histories.</p></caption><table frame="hsides" rules="all"><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Problems inferring predator&#x02013;prey interactions</th><th align="left" valign="bottom" rowspan="1" colspan="1">Solutions</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Occurrence data (i.e., presence and absence) lacks enough information to infer biotic interactions (Blanchet et al.,&#x000a0;<xref rid="ece39627-bib-0004" ref-type="bibr">2020</xref>; Roth et al.,&#x000a0;<xref rid="ece39627-bib-0052" ref-type="bibr">2016</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">Camera trapping can obtain count data (i.e., number of individuals per independent capture) and N&#x02010;mixture models utilize count data in a count history matrix to estimate abundance while accounting for imperfect detection (Royle,&#x000a0;<xref rid="ece39627-bib-0054" ref-type="bibr">2004</xref>)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Need to propagate uncertainty throughout the entire modeling process (Brodie &#x00026; Giordano,&#x000a0;<xref rid="ece39627-bib-0007" ref-type="bibr">2013</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">Use integrated co&#x02010;abundance model where all parameters are estimated in a single set of simulations using Bayesian Markov chain Mote Carlo (MCMC) methods (Brodie et al.,&#x000a0;<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>; Roth et al.,&#x000a0;<xref rid="ece39627-bib-0052" ref-type="bibr">2016</xref>)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Species occurrence and abundance depend on the environment (i.e., habitat filtering) and the joint habitat preferences of two species could falsely create the illusion of interactions (Blanchet et al.,&#x000a0;<xref rid="ece39627-bib-0004" ref-type="bibr">2020</xref>; Dormann et al.,&#x000a0;<xref rid="ece39627-bib-0014" ref-type="bibr">2018</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">Integrate environmental covariates affecting both species into the co&#x02010;abundance modeling framework (Brodie et al.,&#x000a0;<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>; Roth et al.,&#x000a0;<xref rid="ece39627-bib-0052" ref-type="bibr">2016</xref>)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Sampling scale influences measures of co&#x02010;occurrence. Spatial scale must be fine scale enough to detect interactions between individuals, while also encompassing broad variation in species' distributions (Blanchet et al.,&#x000a0;<xref rid="ece39627-bib-0004" ref-type="bibr">2020</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">Spatially resample camera trap locations to reflect the study species' home ranges that ensure detections are spatially independent and comparable across camera trapping sessions (Rayan &#x00026; Linkie,&#x000a0;<xref rid="ece39627-bib-0047" ref-type="bibr">2020</xref>). Also, use a large multi&#x02010;landscape dataset that represents diverse samples of both species' distributions</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Appropriate statistical inference requires a very large sample size (Blanchet et al.,&#x000a0;<xref rid="ece39627-bib-0004" ref-type="bibr">2020</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">Technological and cost improvements have made it possible to conduct large, standardized, and repeated camera trapping sessions that can collectively generate sufficient sample sizes, even for rare and cryptic species. For example, in our case study below, we used data from 1210 camera traps from 20 sessions conducted across 10 landscapes that generated 5980 independent captures of our four study species</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Strong interactions may lead to complete species exclusions and adding zeros to count histories usually leads to deviations from the normal Poisson distribution (Blanchet et al.,&#x000a0;<xref rid="ece39627-bib-0004" ref-type="bibr">2020</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">Incorporate species absences in count histories and classify zeros as true or false zeros (Blasco&#x02010;Moreno et al.,&#x000a0;<xref rid="ece39627-bib-0005" ref-type="bibr">2019</xref>). Account for true zeros (e.g., species extirpated from a landscape) using an informed zero&#x02010;inflated Poisson distribution, and account for false zeros (e.g., present but not detected) by correcting for imperfect detection</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Positive correlations between predator and prey abundances are difficult to interpret in terms of interspecific interactions (Brodie et al.,&#x000a0;<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">Interpret negative predator&#x02013;prey relationships as evidence that predation is regulating the focal prey population(s) (Ripple et al.,&#x000a0;<xref rid="ece39627-bib-0050" ref-type="bibr">2014</xref>). Interpret positive predator&#x02013;prey relationships as evidence that predation is not the primary force regulating the focal prey population(s). Positive predator&#x02013;prey relationships suggest alternative forces (e.g., bottom&#x02010;up control, hunting) may be more important in shaping the focal prey species abundance (Ford &#x00026; Goheen,&#x000a0;<xref rid="ece39627-bib-0019" ref-type="bibr">2015</xref>)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">N&#x02010;mixture models are sensitive to model assumption violations that can inflate absolute density estimates leading to inaccurate inferences for determining population size (Link et al.,&#x000a0;<xref rid="ece39627-bib-0032" ref-type="bibr">2018</xref>)</td><td align="left" valign="top" rowspan="1" colspan="1">Interpret results from co&#x02010;abundance models as the directional change in species abundance relative to covariates and not as absolute population sizes (Gilbert et al.,&#x000a0;<xref rid="ece39627-bib-0023" ref-type="bibr">2021</xref>)</td></tr></tbody></table><table-wrap-foot id="ece39627-ntgp-0001"><fn id="ece39627-note-0001"><p>
+<italic toggle="yes">Note</italic>: This manuscript describes an approach to implement all solutions.</p></fn></table-wrap-foot></table-wrap><p>We developed a Bayesian hierarchical N&#x02010;mixture co&#x02010;abundance model to study predator&#x02013;prey interactions while conforming to the criteria proposed by Blanchet et al.&#x000a0;(<xref rid="ece39627-bib-0004" ref-type="bibr">2020</xref>) for robust inferences (Table&#x000a0;<xref rid="ece39627-tbl-0001" ref-type="table">1</xref>). Our key improvements over existing co&#x02010;abundance models for competition (Brodie et al.,&#x000a0;<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>; Cosentino et al.,&#x000a0;<xref rid="ece39627-bib-0013" ref-type="bibr">2019</xref>; Easter et al.,&#x000a0;<xref rid="ece39627-bib-0015" ref-type="bibr">2020</xref>) are introducing an informed zero&#x02010;inflated Poisson distribution in the abundance formula and accounting for overdispersion in detections using a random effect per sampling unit and sampling occasion in the detection formula. We illustrate that the combination of these two methodological advancements is necessary to infer ecologically meaningful predator&#x02013;prey interactions while ensuring parameter convergence and goodness&#x02010;of&#x02010;fit across several different species pairs. Our co&#x02010;abundance models facilitate the study of predator&#x02013;prey interactions across trophic levels by quantifying predator&#x02013;prey co&#x02010;abundance relationships (Figure&#x000a0;<xref rid="ece39627-fig-0001" ref-type="fig">1</xref>), while accounting for each species' detection probability, relationships with environmental covariates, and propagates uncertainty. As a real example, we examined four potential predatory interactions using a multi&#x02010;session multi&#x02010;landscape camera trapping dataset from Southeast Asian tropical forests. We quantified predator&#x02013;prey co&#x02010;abundance relationships to test whether tigers (<italic toggle="yes">Panthera tigris</italic>) or clouded leopards (<italic toggle="yes">Neofelis nebulosa</italic> and <italic toggle="yes">N. diardi</italic>) suppress sambar deer (<italic toggle="yes">Rusa unicolor</italic>) or muntjac deer (<italic toggle="yes">Muntiacus muntjac</italic>).</p></sec><sec sec-type="materials-and-methods" id="ece39627-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="ece39627-sec-0003"><label>2.1</label><title>A two&#x02010;species N&#x02010;mixture model</title><p>Our approach was to test for the effect of a dominant predator's local abundance on a subordinate prey's local abundance using count histories. We adapted the N&#x02010;mixture co&#x02010;abundance modeling framework from Brodie et al.&#x000a0;(<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>) that included a term for the latent abundance of a dominant species affecting the abundance of a subordinate species. This N&#x02010;mixture model estimates local abundance for species <italic toggle="yes">i</italic> (either dominant <sub>dom</sub> or subordinate <sub>sub</sub>) at sampling unit <italic toggle="yes">j</italic>, denoted as <italic toggle="yes">N</italic>
+<sub>
+<italic toggle="yes">i,j</italic>
+</sub>, through repeated counts of the population over a time frame during which the population is closed to change (Royle,&#x000a0;<xref rid="ece39627-bib-0054" ref-type="bibr">2004</xref>). We assume that:<disp-formula id="ece39627-disp-0001">
+<mml:math id="jats-math-1" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>N</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&#x0223c;</mml:mo><mml:mtext>Poisson</mml:mtext><mml:mspace width="0.25em"/><mml:mfenced close=")" open="("><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+</disp-formula>and model the expected count of species <italic toggle="yes">i</italic> at sampling unit <italic toggle="yes">j</italic>, &#x003bb;<sub>
+<italic toggle="yes">i,j</italic>
+</sub>, relative to covariates using a log&#x02010;link function (Royle,&#x000a0;<xref rid="ece39627-bib-0054" ref-type="bibr">2004</xref>). However, we expanded upon Brodie et al.'s approach by including informed zero&#x02010;inflated Poisson (hereafter &#x0201c;iZIP&#x0201d;) distributions for both dominant and subordinate species to account for true zeros in count history matrices when either species was known to be absent. Traditional uniformed ZIP N&#x02010;mixture models define the occupancy status of species <italic toggle="yes">i</italic> at sampling unit <italic toggle="yes">j</italic>, Z<sub>
+<italic toggle="yes">i,j</italic>
+</sub> as a random Bernoulli trial and multiply the expected count of species <italic toggle="yes">i</italic> at sampling unit <italic toggle="yes">j</italic>, <italic toggle="yes">&#x003bb;</italic>
+<sub>
+<italic toggle="yes">i,j</italic>
+</sub>, by <italic toggle="yes">Z</italic>
+<sub>
+<italic toggle="yes">i,j</italic>
+</sub> (Blasco&#x02010;Moreno et al.,&#x000a0;<xref rid="ece39627-bib-0005" ref-type="bibr">2019</xref>; K&#x000e9;ry &#x00026; Royle,&#x000a0;<xref rid="ece39627-bib-0030" ref-type="bibr">2016</xref>; Martin et al.,&#x000a0;<xref rid="ece39627-bib-0037" ref-type="bibr">2005</xref>). We informed the occupancy status of species <italic toggle="yes">i</italic> at sampling unit <italic toggle="yes">j</italic>, <italic toggle="yes">Z</italic>
+<sub>
+<italic toggle="yes">i,j</italic>
+</sub> based on our observational camera trapping data where <italic toggle="yes">Z</italic>
+<sub>
+<italic toggle="yes">ij</italic>
+</sub> was 1 if the sampling unit was in a landscape where the species was detected, and <italic toggle="yes">Z</italic>
+<sub>
+<italic toggle="yes">ij</italic>
+</sub> was 0 in the event the species was never detected and existing literature corroborated their extirpation (Amir et al.,&#x000a0;<xref rid="ece39627-bib-0001" ref-type="bibr">2022</xref>; Blasco&#x02010;Moreno et al.,&#x000a0;<xref rid="ece39627-bib-0005" ref-type="bibr">2019</xref>; Martin et al.,&#x000a0;<xref rid="ece39627-bib-0037" ref-type="bibr">2005</xref>). Therefore, our iZIP N&#x02010;mixture model assumes that:<disp-formula id="ece39627-disp-0002">
+<mml:math id="jats-math-2" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>N</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&#x0223c;</mml:mo><mml:mtext>Poisson</mml:mtext><mml:mspace width="0.25em"/><mml:mfenced close=")" open="("><mml:mrow><mml:msup><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>*</mml:mo></mml:msup><mml:mspace width="0.25em"/><mml:msub><mml:mi>Z</mml:mi><mml:mi mathvariant="italic">ij</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+</disp-formula>Fixing local abundance to zero rather than estimating nonzero abundance where the species was extirpated minimizes the chances of making a type I error (Martin et al.,&#x000a0;<xref rid="ece39627-bib-0037" ref-type="bibr">2005</xref>).</p><p>The effect of the covariates and the dominant on the subordinate species was modeled as:<disp-formula id="ece39627-disp-0003">
+<mml:math id="jats-math-3" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>log</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mrow><mml:mi>sub</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo linebreak="goodbreak">=</mml:mo><mml:msup><mml:msub><mml:mi>&#x003b1;</mml:mi><mml:mi>sub</mml:mi></mml:msub><mml:mo>*</mml:mo></mml:msup><mml:mspace width="0.25em"/><mml:msub><mml:mtext>covariates</mml:mtext><mml:mi>j</mml:mi></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msup><mml:mi>&#x003b4;</mml:mi><mml:mo>*</mml:mo></mml:msup><mml:mspace width="0.25em"/><mml:msub><mml:mi>N</mml:mi><mml:mrow><mml:mi>dom</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where &#x003b1;<sub>sub</sub> is a vector of environmental covariate effects for the subordinate and <italic toggle="yes">&#x003b4;</italic> represents the effect of the latent abundance per sampling unit of the dominant species (<italic toggle="yes">N</italic>
+<sub>dom,<italic toggle="yes">j</italic>
+</sub>) on the subordinate. An estimated value of <italic toggle="yes">&#x003b4;</italic>&#x02009;&#x0003c;&#x02009;0 would infer a negative co&#x02010;abundance relationship between the dominant and subordinate species in support of a predatory interaction (e.g., top&#x02010;down regulation; Figure&#x000a0;<xref rid="ece39627-fig-0001" ref-type="fig">1c</xref>). An estimated value of <italic toggle="yes">&#x003b4;</italic>&#x02009;&#x0003e;&#x02009;0 would infer a positive predator&#x02013;prey co&#x02010;abundance relationship that is likely driven by responses to unmodelled covariates (e.g., food availability to prey that underlies bottom&#x02010;up regulation, Figure&#x000a0;<xref rid="ece39627-fig-0001" ref-type="fig">1a</xref>). Estimates of <italic toggle="yes">&#x003b4;</italic> with 95% Bayesian credible intervals (CI) overlapping zero do not indicate biologically meaningful interactions (Figure&#x000a0;<xref rid="ece39627-fig-0001" ref-type="fig">1b</xref>). Assuming the covariates included in this model are appropriate, this approach allows us to tease apart the directional impact of a dominant on subordinate species (Brodie et al.,&#x000a0;<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>). The abundance model for both dominant and subordinate species included the iZIP parameter and the same environmental covariates, while the subordinates included the additional parameter estimating the effect of the latent abundance of the dominant species <italic toggle="yes">&#x003b4;</italic> * <italic toggle="yes">N</italic>
+<sub>dom,<italic toggle="yes">j</italic>
+</sub>.</p><p>We assume that we imperfectly observed the latent abundance of both species during sampling, thus giving rise to false zeros in our count histories (Blasco&#x02010;Moreno et al.,&#x000a0;<xref rid="ece39627-bib-0005" ref-type="bibr">2019</xref>; Royle,&#x000a0;<xref rid="ece39627-bib-0054" ref-type="bibr">2004</xref>). Abundance cannot be directly observed at sampling units, so sampling biases like imperfect detection are accommodated in estimates of <italic toggle="yes">N</italic>
+<sub>
+<italic toggle="yes">i,j</italic>
+</sub> by assuming that the detections of species <italic toggle="yes">i</italic> at sampling unit <italic toggle="yes">j</italic> during sampling occasion <italic toggle="yes">k</italic>, denoted as <italic toggle="yes">n</italic>
+<sub>
+<italic toggle="yes">i,j,k</italic>
+</sub>, follow a binomial distribution with species&#x02010;level detection probability <italic toggle="yes">p</italic>
+<sub>
+<italic toggle="yes">i,j,k</italic>
+</sub>:<disp-formula id="ece39627-disp-0004">
+<mml:math id="jats-math-4" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>&#x0223c;</mml:mo><mml:mtext>Binomial</mml:mtext><mml:mspace width="0.25em"/><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>N</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+</disp-formula>We modeled the detection probability of species <italic toggle="yes">i</italic> at sampling unit <italic toggle="yes">j</italic> during sampling occasion <italic toggle="yes">k</italic>, <italic toggle="yes">p</italic>
+<sub>
+<italic toggle="yes">i,j,k</italic>
+</sub>, relative to covariates using a logit&#x02010;link function (Royle,&#x000a0;<xref rid="ece39627-bib-0054" ref-type="bibr">2004</xref>), and we used the same sampling&#x02010;related covariates in the detection model for both species. The original N&#x02010;mixture model with a binomial detection process assumes that individuals are not double&#x02010;counted between sampling occasions and sampling units (Royle,&#x000a0;<xref rid="ece39627-bib-0054" ref-type="bibr">2004</xref>), and this assumption may be violated if the same individual is detected multiple times within the same sampling occasion. Double counting individuals can lead to inflated abundance estimates, so there have been suggestions to address this using a Poisson detection process, which we also tested (Link et al.,&#x000a0;<xref rid="ece39627-bib-0032" ref-type="bibr">2018</xref>; Nakashima,&#x000a0;<xref rid="ece39627-bib-0040" ref-type="bibr">2020</xref>). To account for overdispersion in species&#x02010;specific detection probability not captured by sampling&#x02010;related covariates, we included a random effect per sampling unit and sampling occasion (an overdispersion random effect, hereafter &#x0201c;ODRE&#x0201d;) per species, &#x003b5;<sub>
+<italic toggle="yes">i,j,k</italic>
+</sub> (K&#x000e9;ry &#x00026; Royle,&#x000a0;<xref rid="ece39627-bib-0030" ref-type="bibr">2016</xref>; Roth et al.,&#x000a0;<xref rid="ece39627-bib-0052" ref-type="bibr">2016</xref>). For the ODRE, we assume that:<disp-formula id="ece39627-disp-0005">
+<mml:math id="jats-math-5" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:msub><mml:mi mathvariant="normal">&#x003b5;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub><mml:mo>&#x0223c;</mml:mo><mml:mtext>Normal</mml:mtext><mml:mfenced close=")" open="(" separators=""><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:msub><mml:mi>&#x003c4;</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <italic toggle="yes">&#x003c4;</italic>
+<sub>
+<italic toggle="yes">i</italic>
+</sub> was the standard deviation of the ODRE. We also included a stabilizing parameter to ensure the logit&#x02010;link transformation would not become zero or negative (K&#x000e9;ry &#x00026; Royle,&#x000a0;<xref rid="ece39627-bib-0030" ref-type="bibr">2016</xref>). Bringing the sampling&#x02010;related covariates and ODRE together, we define the detection probability of species <italic toggle="yes">i</italic> at sampling unit <italic toggle="yes">j</italic> on sampling occasion <italic toggle="yes">k</italic> as:<disp-formula id="ece39627-disp-0006">
+<inline-graphic xlink:href="ECE3-12-e9627-e002.jpg"/>
+</disp-formula>We estimated model parameters using a Bayesian approach with MCMC methods with the program R (R Development Core Team,&#x000a0;<xref rid="ece39627-bib-0046" ref-type="bibr">2021</xref>) in the package &#x0201c;jagsUI&#x0201d; (Kellner,&#x000a0;<xref rid="ece39627-bib-0029" ref-type="bibr">2019</xref>). We used this Bayesian approach to propagate uncertainty throughout the modeling process by first estimating the latent abundance of the dominant species per sampling unit, <italic toggle="yes">N</italic>
+<sub>dom,<italic toggle="yes">j</italic>
+</sub>, which is then used as a covariate to estimate the latent abundance of the subordinate per sampling unit, <italic toggle="yes">N</italic>
+<sub>sub,<italic toggle="yes">j</italic>
+</sub> (Brodie et al.,&#x000a0;<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>; Roth et al.,&#x000a0;<xref rid="ece39627-bib-0052" ref-type="bibr">2016</xref>). As our primary goal for this N&#x02010;mixture co&#x02010;abundance model was the examine the directional impact of a dominant species' local abundance upon a subordinate species' local abundance, and not to estimate latent population sizes, we refrain from interpreting our results in terms of absolute density but rather as the spatial variation in abundance relative to covariates (i.e., <italic toggle="yes">&#x003b4;</italic> * <italic toggle="yes">N</italic>
+<sub>dom<italic toggle="yes">j,k</italic>
+</sub>; Gilbert et al.,&#x000a0;<xref rid="ece39627-bib-0023" ref-type="bibr">2021</xref>). Apart from our iZIP parameter (<italic toggle="yes">Z</italic>
+<sub>
+<italic toggle="yes">ij</italic>
+</sub>), we used uninformative prior values and provided similar initial values close to zero for all parameters. For each species pair, we ran three chains of 1,000,000 iterations because K&#x000e9;ry and Royle&#x000a0;(<xref rid="ece39627-bib-0030" ref-type="bibr">2016</xref>) stressed the importance of running long chains when incorporating the ODRE. We discarded the first 200,000 iterations as burn&#x02010;in and thinned the chains by 80, which left 30,000 values to quantify the posterior distribution of each parameter. We assumed parameters converged if their Rhat scores were between 1 and 1.2 (Gelman et al.,&#x000a0;<xref rid="ece39627-bib-0021" ref-type="bibr">2013</xref>). We calculated the 95% CI from the posterior distribution and considered our parameters to have a clear effect (or &#x0201c;significant effect&#x0201d; in frequentist terminology) if 0 was not included in the 95% CI (Roth et al.,&#x000a0;<xref rid="ece39627-bib-0052" ref-type="bibr">2016</xref>). To infer confidence about parameter directionality, we calculated the probability the posterior distribution of the species interaction parameter was either negative or positive using the R package &#x0201c;bayestestR&#x0201d; (Makowski et al.,&#x000a0;<xref rid="ece39627-bib-0036" ref-type="bibr">2019</xref>). Finally, our model has the same assumptions as a standard N&#x02010;mixture model, including independence among sampling units, population closure over all replicated sampling occasions, independent and equal detection probabilities among individuals within a species, and that abundance per sampling unit was a random variable with <italic toggle="yes">E</italic>(<italic toggle="yes">N</italic>
+<sub>
+<italic toggle="yes">j</italic>
+</sub>)&#x000a0;=&#x000a0;&#x003bb; (Royle,&#x000a0;<xref rid="ece39627-bib-0054" ref-type="bibr">2004</xref>).</p></sec><sec id="ece39627-sec-0004"><label>2.2</label><title>Evaluating model performance</title><p>We assessed model performance by inspecting model goodness&#x02010;of&#x02010;fit and the magnitude of overdispersion by calculating &#x0201c;Bayesian <italic toggle="yes">p</italic>&#x02010;values&#x0201d; and &#x0201c;C&#x02010;hat&#x0201d; scores via &#x003c7;<sup>2</sup> discrepancies using posterior predictive checks (PPC) (Conn et al.,&#x000a0;<xref rid="ece39627-bib-0012" ref-type="bibr">2018</xref>; Gelman et al.,&#x000a0;<xref rid="ece39627-bib-0022" ref-type="bibr">1996</xref>). The PPC simulates a count history matrix from the joint posterior distribution and estimates the level of consistency with the observed count history matrix. Bayesian <italic toggle="yes">p</italic>&#x02010;values reflect the proportion of times the simulated data were greater than the observed data, and C&#x02010;hat values reflect the magnitude of overdispersion by dividing the observed data by the simulated data. Bayesian <italic toggle="yes">p</italic>&#x02010;values between .25 and .75 indicate a good fit, values that equal 0.5 indicate a perfect fit, and values outside this range indicate a lack of fit (Conn et al.,&#x000a0;<xref rid="ece39627-bib-0012" ref-type="bibr">2018</xref>; Gelman et al.,&#x000a0;<xref rid="ece39627-bib-0022" ref-type="bibr">1996</xref>; K&#x000e9;ry &#x00026; Royle,&#x000a0;<xref rid="ece39627-bib-0030" ref-type="bibr">2016</xref>) and C&#x02010;hat values greater than 1.1 suggest remaining overdispersion (K&#x000e9;ry &#x00026; Royle,&#x000a0;<xref rid="ece39627-bib-0030" ref-type="bibr">2016</xref>; Mazerolle,&#x000a0;<xref rid="ece39627-bib-0038" ref-type="bibr">2020</xref>). Finally, we assessed Bayesian <italic toggle="yes">p</italic>&#x02010;values, C&#x02010;hat scores, and the species interaction parameter using Rhat scores and the posterior estimates to compare model performance across four model structures: (i) the original Poisson model of Brodie et al.&#x000a0;(<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>), (ii) the iZIP model, (iii) the Poisson&#x02009;+&#x02009;ODRE model, and (iv) the final models that include the iZIP&#x02009;+&#x02009;ODRE.</p></sec><sec id="ece39627-sec-1005"><label>2.3</label><title>Example: Southeast Asian predator&#x02013;prey dynamics</title><sec id="ece39627-sec-0005"><label>2.3.1</label><title>Camera trapping methods</title><p>We assessed predator&#x02013;prey co&#x02010;abundance relationships using a large multi&#x02010;session multi&#x02010;landscape camera trap dataset from Southeast Asian tropical forests. We conducted 20 camera trapping sessions in ten lowland primary tropical forest landscapes in Sumatra (3), Borneo (2), Singapore (1), Peninsular Malaysia (2), and Thailand (2) (Table&#x000a0;<xref rid="ece39627-supitem-0001" ref-type="supplementary-material">S1</xref>). We refer to sampling areas as a &#x0201c;landscape&#x0201d; and these all include protected areas as well as some nearby production forests and forest patches. For detailed landscape descriptions, see Amir et al.&#x000a0;(<xref rid="ece39627-bib-0001" ref-type="bibr">2022</xref>). At each landscape, we deployed 22&#x02013;112 passive infrared camera traps set across areas of 48&#x02013;830&#x02009;km<sup>2</sup>. We standardized camera deployment between landscapes using either Reconyx or Bushnell cameras attached to trees at 0.2&#x02013;0.3&#x000a0;m height and placed along natural wildlife trails without baits (Jansen et al.,&#x000a0;<xref rid="ece39627-bib-0027" ref-type="bibr">2014</xref>). We deployed cameras for approximately 30&#x02013;90&#x02009;days (mean&#x000a0;=&#x000a0;40.4, SD&#x000a0;=&#x000a0;31.6) to ensure population closure assumptions.</p><p>We systematically deployed camera traps in each landscape in a grid format and then spatially resampled the camera traps into 7.8&#x000a0;km<sup>2</sup> hexagonal sampling units due to unequal camera spacing between large continuous forests (&#x0003e;1&#x000a0;km between cameras) and small forest fragments (&#x0003c;500&#x02009;m between cameras). Resampling all camera traps into spatially standardized sampling units ensures comparability among landscapes, prevents spatial pseudo&#x02010;replication, and ensures that we are estimating abundance as opposed to habitat use (Rayan &#x00026; Linkie,&#x000a0;<xref rid="ece39627-bib-0047" ref-type="bibr">2020</xref>). When multiple cameras occurred in a single sampling unit, we averaged their covariate values and aggregated the number of individuals observed per day. We considered captures of the same species independent if they occurred at least 30&#x02009;min apart (Rovero &#x00026; Zimmermann,&#x000a0;<xref rid="ece39627-bib-0053" ref-type="bibr">2016</xref>). We grouped our count data into 5&#x02010;day sampling occasions to decrease the number of false zeros in the dataset (i.e., sampling occasions with no detections) and increase detection probabilities (Brodie et al.,&#x000a0;<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>).</p></sec><sec id="ece39627-sec-0006"><label>2.3.2</label><title>Study species</title><p>Tigers (<italic toggle="yes">Panthera tigris</italic>) are the largest carnivores distributed across Southeast Asia, and clouded leopards (<italic toggle="yes">Neofelis nebulosa</italic> and <italic toggle="yes">N. diardi</italic>, analyzed as one species) are large carnivores that co&#x02010;occur with tigers across mainland Southeast Asia and Sumatra but are the largest carnivores in Borneo where tigers are no longer native (Phillipps &#x00026; Phillipps,&#x000a0;<xref rid="ece39627-bib-0044" ref-type="bibr">2016</xref>). We only included count data from landscapes where the predator species is native, which allowed us to incorporate landscapes where the species is extirpated (e.g., tigers in Singapore) and exclude landscapes where the species is not native (e.g., tigers in Borneo, Amir et al.,&#x000a0;<xref rid="ece39627-bib-0001" ref-type="bibr">2022</xref>). Sambar deer (<italic toggle="yes">Rusa unicolor</italic>) and muntjac deer (<italic toggle="yes">Muntiacus muntjak</italic>) deer are common large ungulates widely distributed through our study region. For gregarious muntjac deer (20+ individuals per sampling occasion), we followed Brodie et al.&#x000a0;(<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>) by analyzing the number of muntjac groups rather than the number of individuals in the count history and limited the daily observations to zero or one group. A systematic range&#x02010;wide dietary study suggests tigers preferentially prey upon the largest available prey species with a weight range from 60 to 250&#x02009;kg, such as sambar deer (Hayward et al.,&#x000a0;<xref rid="ece39627-bib-0025" ref-type="bibr">2012</xref>), while single&#x02010;landscape studies highlight muntjac deer as an important prey species for clouded leopards (Can et al.,&#x000a0;<xref rid="ece39627-bib-0009" ref-type="bibr">2020</xref>; Petersen et al.,&#x000a0;<xref rid="ece39627-bib-0042" ref-type="bibr">2020</xref>). Therefore, we expected strong negative co&#x02010;abundance relationships between tigers and sambar deer and between clouded leopards and muntjac deer in support of predatory interactions.</p></sec><sec id="ece39627-sec-0007"><label>2.3.3</label><title>Covariates</title><p>While there are many factors that affect species abundance, our analysis focused on a limited set of powerful composite variables. To account for environmental and anthropogenic disturbances that may affect species abundance, we included the Forest Landscape Integrity Index (FLII) and Human Footprint Index (HFP) as fixed effect covariates on the abundance formula for both species. The FLII is a globally continuous measure of the world's forests that integrates both observed deforestation and inferred edge effects and the loss of connectivity (Grantham et al.,&#x000a0;<xref rid="ece39627-bib-0024" ref-type="bibr">2020</xref>). The HFP is a globally continuous measure that represents landscape&#x02010;level anthropogenic disturbances from human population densities and infrastructure, and can be used as a crude metric to infer potential hunting pressure (Venter et al.,&#x000a0;<xref rid="ece39627-bib-0060" ref-type="bibr">2016</xref>). We calculated FLII and HFP values in QGIS for every camera trap location. We also included a random&#x02010;intercept effect in our abundance formula to account for unmodeled variation between landscapes and to account for three landscapes with repeated sampling. Finally, we included a fixed effect for sampling effort (in trap nights) per sampling unit in our detection probability formula to account for multiple cameras being resampled into the same sampling unit and unequal deployment lengths. We standardized all numeric covariates (mean&#x000a0;=&#x000a0;0, SD&#x000a0;=&#x000a0;1) and examined Pearson correlation coefficients, and ensured no collinearity among covariates (|<italic toggle="yes">r</italic>|&#x02009;&#x0003c;&#x02009;0.5). The abundance formula modeled the expected count relative to environmental covariates for species <italic toggle="yes">i</italic> at sampling unit <italic toggle="yes">j</italic> as follows:<disp-formula id="ece39627-disp-0007">
+<mml:math id="jats-math-7" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mi>log</mml:mi><mml:mfenced close=")" open="("><mml:msub><mml:mi mathvariant="normal">&#x003bb;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo linebreak="goodbreak">=</mml:mo><mml:msub><mml:mtext>&#x003b1;0</mml:mtext><mml:mi>i</mml:mi></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msup><mml:msub><mml:mtext>&#x003b1;1</mml:mtext><mml:mi>i</mml:mi></mml:msub><mml:mo>*</mml:mo></mml:msup><mml:mspace width="0.25em"/><mml:msub><mml:mtext>FLII</mml:mtext><mml:mi>j</mml:mi></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msup><mml:msub><mml:mtext>&#x003b1;2</mml:mtext><mml:mi>i</mml:mi></mml:msub><mml:mo>*</mml:mo></mml:msup><mml:mspace width="0.25em"/><mml:msub><mml:mi>HFP</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msup><mml:msub><mml:mtext>&#x003b1;3</mml:mtext><mml:mi>i</mml:mi></mml:msub><mml:mo>*</mml:mo></mml:msup><mml:mspace width="0.25em"/><mml:msub><mml:mtext>Landscape</mml:mtext><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>The abundance model for the subordinate included an additional parameter estimating the effect of the latent abundance of the dominant species: <italic toggle="yes">&#x003b4;</italic> * <italic toggle="yes">N</italic>
+<sub>dom,<italic toggle="yes">j</italic>
+</sub>. Our detection probability formula was the same for both predator and prey and modeled the detection probability of species <italic toggle="yes">i</italic> at sampling unit <italic toggle="yes">j</italic> on sampling occasion <italic toggle="yes">k</italic> as:<disp-formula id="ece39627-disp-0008">
+<mml:math id="jats-math-8" display="block" overflow="scroll"><mml:mrow><mml:mrow><mml:mtext>logit</mml:mtext><mml:mfenced close=")" open="("><mml:msub><mml:mi>p</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo linebreak="goodbreak">=</mml:mo><mml:msub><mml:mtext>&#x003b2;0</mml:mtext><mml:mi>i</mml:mi></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msup><mml:msub><mml:mtext>&#x003b2;1</mml:mtext><mml:mi>i</mml:mi></mml:msub><mml:mo>*</mml:mo></mml:msup><mml:mspace width="0.25em"/><mml:msub><mml:mtext>Effort</mml:mtext><mml:mi>j</mml:mi></mml:msub><mml:mo linebreak="goodbreak">+</mml:mo><mml:msub><mml:mi>&#x003b5;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>j</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p></sec></sec></sec><sec sec-type="results" id="ece39627-sec-0008"><label>3</label><title>RESULTS</title><sec id="ece39627-sec-0009"><label>3.1</label><title>Model performance</title><p>Our co&#x02010;abundance modeling approach that accounted for zero inflation and overdispersion in count histories using both the iZIP distribution and ODRE successfully converged across all species pairs (Rhat &#x0003c;1.2; Table&#x000a0;<xref rid="ece39627-tbl-0002" ref-type="table">2</xref>; Figure&#x000a0;<xref rid="ece39627-fig-0002" ref-type="fig">2</xref>). Including either the iZIP and ODRE parameters improved model goodness&#x02010;of&#x02010;fit (Bayesian <italic toggle="yes">p</italic>&#x02010;values were closer to .5 than models lacking these parameters, Figure&#x000a0;<xref rid="ece39627-fig-0003" ref-type="fig">3a</xref>) and reduced overdispersion (C&#x02010;hat values were between 1.1 and 1.0; Figure&#x000a0;<xref rid="ece39627-fig-0003" ref-type="fig">3b</xref>) compared with models that lacked one or both improvements. Including both the iZIP and ODRE parameters improved model performance the most, as illustrated by the highest convergence around the species interaction parameter, Bayesian <italic toggle="yes">p</italic>&#x02010;values closest to .5, and C&#x02010;hat values that suggest no remaining overdispersion. The key exception was for the model examining the impact of tigers on sambar deer, which showed improved convergence and a clear species interaction effect when omitting the iZIP distribution and including the ODRE (Table&#x000a0;<xref rid="ece39627-tbl-0002" ref-type="table">2b</xref>). Co&#x02010;abundance models using a Poisson instead of a binomial detection process produced lower absolute population size estimates for most species but followed the same relative abundance trends between landscapes (Figure&#x000a0;<xref rid="ece39627-supitem-0001" ref-type="supplementary-material">S1</xref>) and equivalent directionality for our species interaction parameter (<italic toggle="yes">&#x003b4;</italic> * <italic toggle="yes">N</italic>
+<sub>dom,<italic toggle="yes">j</italic>
+</sub>; Figure&#x000a0;<xref rid="ece39627-supitem-0001" ref-type="supplementary-material">S2</xref>). However, using a Poisson detection formula models exhibited unacceptable goodness&#x02010;of&#x02010;fit (Bayesian <italic toggle="yes">p&#x02010;</italic>values &#x0003e;.75) for two&#x02010;species pairs (Figure&#x000a0;<xref rid="ece39627-supitem-0001" ref-type="supplementary-material">S3</xref>) and reduced precision of the species interaction parameter that undermined its biological and applicable utility. Therefore, we present co&#x02010;abundance models using the binomial detection formula in the main text and the Poisson detection formula in the supplement.</p><table-wrap position="float" id="ece39627-tbl-0002" content-type="TABLE"><label>TABLE 2</label><caption><p>Summary of key results from comparing four progressively developed versions of the co&#x02010;abundance models across four species pairs.</p></caption><table frame="hsides" rules="all"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" colspan="7" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">(A) Predator&#x02013;prey interaction: muntjac deer&#x000a0;~&#x02009;tigers <inline-graphic xlink:href="ECE3-12-e9627-g008.jpg" xlink:title="image"/>
+</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Model</th><th align="left" valign="bottom" rowspan="1" colspan="1">Species interaction</th><th align="left" valign="bottom" rowspan="1" colspan="1">Rhat</th><th align="left" valign="bottom" rowspan="1" colspan="1">Muntjac deer Bayes <italic toggle="yes">p</italic>&#x02010;value</th><th align="left" valign="bottom" rowspan="1" colspan="1">Muntjac deer C&#x02010;hat</th><th align="left" valign="bottom" rowspan="1" colspan="1">Tiger Bayes <italic toggle="yes">p</italic>&#x02010;value</th><th align="left" valign="bottom" rowspan="1" colspan="1">Tiger C&#x02010;hat</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Poisson</td><td align="char" valign="top" rowspan="1" colspan="1">&#x02212;0.38 (&#x000b1;0.61)</td><td align="char" valign="top" rowspan="1" colspan="1">9.70</td><td align="char" valign="top" rowspan="1" colspan="1">.78</td><td align="char" valign="top" rowspan="1" colspan="1">1.03</td><td align="char" valign="top" rowspan="1" colspan="1">.42</td><td align="char" valign="top" rowspan="1" colspan="1">0.98</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">iZIP</td><td align="char" valign="top" rowspan="1" colspan="1">&#x02212;0.39 (&#x000b1;0.60)</td><td align="char" valign="top" rowspan="1" colspan="1">10.2</td><td align="char" valign="top" rowspan="1" colspan="1">.78</td><td align="char" valign="top" rowspan="1" colspan="1">1.03</td><td align="char" valign="top" rowspan="1" colspan="1">.42</td><td align="char" valign="top" rowspan="1" colspan="1">0.98</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Poisson&#x02009;+&#x02009;OD</td><td align="char" valign="top" rowspan="1" colspan="1">0.42 (&#x000b1;0.12)</td><td align="char" valign="top" rowspan="1" colspan="1">1.18</td><td align="char" valign="top" rowspan="1" colspan="1">.80</td><td align="char" valign="top" rowspan="1" colspan="1">1.01</td><td align="char" valign="top" rowspan="1" colspan="1">.51</td><td align="char" valign="top" rowspan="1" colspan="1">0.98</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">iZIP&#x02009;+&#x02009;OD</td><td align="char" valign="top" rowspan="1" colspan="1">&#x02212;0.20 (&#x000b1;0.09)</td><td align="char" valign="top" rowspan="1" colspan="1">1.00</td><td align="char" valign="top" rowspan="1" colspan="1">.57</td><td align="char" valign="top" rowspan="1" colspan="1">1.02</td><td align="char" valign="top" rowspan="1" colspan="1">.47</td><td align="char" valign="top" rowspan="1" colspan="1">1.00</td></tr></tbody></table><table frame="hsides" rules="all"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" colspan="7" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">(B) Predator&#x02013;Prey interaction: sambar deer&#x000a0;~&#x02009;tigers <inline-graphic xlink:href="ECE3-12-e9627-g010.jpg" xlink:title="image"/>
+</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Model</th><th align="left" valign="bottom" rowspan="1" colspan="1">Species interaction</th><th align="left" valign="bottom" rowspan="1" colspan="1">Rhat</th><th align="left" valign="bottom" rowspan="1" colspan="1">Sambar deer Bayes <italic toggle="yes">p</italic>&#x02010;value</th><th align="left" valign="bottom" rowspan="1" colspan="1">Sambar deer C&#x02010;hat</th><th align="left" valign="bottom" rowspan="1" colspan="1">Tiger Bayes <italic toggle="yes">p</italic>&#x02010;value</th><th align="left" valign="bottom" rowspan="1" colspan="1">Tiger C&#x02010;hat</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Poisson</td><td align="char" valign="top" rowspan="1" colspan="1">1.16 (&#x000b1;0.21)</td><td align="char" valign="top" rowspan="1" colspan="1">3.06</td><td align="char" valign="top" rowspan="1" colspan="1">.006</td><td align="char" valign="top" rowspan="1" colspan="1">1.03</td><td align="char" valign="top" rowspan="1" colspan="1">.40</td><td align="char" valign="top" rowspan="1" colspan="1">1.14</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">iZIP</td><td align="char" valign="top" rowspan="1" colspan="1">0.32 (&#x000b1;0.39)</td><td align="char" valign="top" rowspan="1" colspan="1">1.77</td><td align="char" valign="top" rowspan="1" colspan="1">.0008</td><td align="char" valign="top" rowspan="1" colspan="1">1.04</td><td align="char" valign="top" rowspan="1" colspan="1">.40</td><td align="char" valign="top" rowspan="1" colspan="1">1.15</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Poisson&#x02009;+&#x02009;OD</td><td align="char" valign="top" rowspan="1" colspan="1">0.93 (&#x000b1;0.23)</td><td align="char" valign="top" rowspan="1" colspan="1">1.00</td><td align="char" valign="top" rowspan="1" colspan="1">.34</td><td align="char" valign="top" rowspan="1" colspan="1">1.02</td><td align="char" valign="top" rowspan="1" colspan="1">.47</td><td align="char" valign="top" rowspan="1" colspan="1">1.02</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">iZIP&#x02009;+&#x02009;OD</td><td align="char" valign="top" rowspan="1" colspan="1">0.07 (&#x000b1;0.45)</td><td align="char" valign="top" rowspan="1" colspan="1">1.12</td><td align="char" valign="top" rowspan="1" colspan="1">.33</td><td align="char" valign="top" rowspan="1" colspan="1">1.02</td><td align="char" valign="top" rowspan="1" colspan="1">.47</td><td align="char" valign="top" rowspan="1" colspan="1">1.02</td></tr></tbody></table><table frame="hsides" rules="all"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" colspan="7" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">(C) Predator&#x02013;Prey interaction: muntjac deer&#x000a0;~&#x02009;clouded leopards <inline-graphic xlink:href="ECE3-12-e9627-g003.jpg" xlink:title="image"/>
+</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Model</th><th align="left" valign="bottom" rowspan="1" colspan="1">Species Interaction</th><th align="left" valign="bottom" rowspan="1" colspan="1">Rhat</th><th align="left" valign="bottom" rowspan="1" colspan="1">Muntjac deer Bayes <italic toggle="yes">p</italic>&#x02010;value</th><th align="left" valign="bottom" rowspan="1" colspan="1">Muntjac deer C&#x02010;hat</th><th align="left" valign="bottom" rowspan="1" colspan="1">Clouded leopard Bayes <italic toggle="yes">p</italic>&#x02010;value</th><th align="left" valign="bottom" rowspan="1" colspan="1">Clouded leopard C&#x02010;hat</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Poisson</td><td align="char" valign="top" rowspan="1" colspan="1">0.21 (&#x000b1;0.39)</td><td align="char" valign="top" rowspan="1" colspan="1">10.3</td><td align="char" valign="top" rowspan="1" colspan="1">.72</td><td align="char" valign="top" rowspan="1" colspan="1">1.11</td><td align="char" valign="top" rowspan="1" colspan="1">.12</td><td align="char" valign="top" rowspan="1" colspan="1">0.99</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">iZIP</td><td align="char" valign="top" rowspan="1" colspan="1">0.51 (&#x000b1;0.06)</td><td align="char" valign="top" rowspan="1" colspan="1">1.01</td><td align="char" valign="top" rowspan="1" colspan="1">.71</td><td align="char" valign="top" rowspan="1" colspan="1">1.11</td><td align="char" valign="top" rowspan="1" colspan="1">.12</td><td align="char" valign="top" rowspan="1" colspan="1">0.99</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Poisson&#x02009;+&#x02009;OD</td><td align="char" valign="top" rowspan="1" colspan="1">0.48 (&#x000b1;0.07)</td><td align="char" valign="top" rowspan="1" colspan="1">1.03</td><td align="char" valign="top" rowspan="1" colspan="1">.72</td><td align="char" valign="top" rowspan="1" colspan="1">1.04</td><td align="char" valign="top" rowspan="1" colspan="1">.33</td><td align="char" valign="top" rowspan="1" colspan="1">0.99</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">iZIP&#x02009;+&#x02009;OD</td><td align="char" valign="top" rowspan="1" colspan="1">0.51 (&#x000b1;0.07)</td><td align="char" valign="top" rowspan="1" colspan="1">1.00</td><td align="char" valign="top" rowspan="1" colspan="1">.73</td><td align="char" valign="top" rowspan="1" colspan="1">1.04</td><td align="char" valign="top" rowspan="1" colspan="1">.33</td><td align="char" valign="top" rowspan="1" colspan="1">0.99</td></tr></tbody></table><table frame="hsides" rules="all"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" colspan="7" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">(D) Predator&#x02013;Prey interaction: sambar deer&#x000a0;~&#x02009;clouded leopards <inline-graphic xlink:href="ECE3-12-e9627-g005.jpg" xlink:title="image"/>
+</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Model</th><th align="left" valign="bottom" rowspan="1" colspan="1">Species Interaction</th><th align="left" valign="bottom" rowspan="1" colspan="1">Rhat</th><th align="left" valign="bottom" rowspan="1" colspan="1">Sambar deer Bayes <italic toggle="yes">p</italic>&#x02010;value</th><th align="left" valign="bottom" rowspan="1" colspan="1">Sambar deer C&#x02010;hat</th><th align="left" valign="bottom" rowspan="1" colspan="1">Clouded leopard Bayes <italic toggle="yes">p</italic>&#x02010;value</th><th align="left" valign="bottom" rowspan="1" colspan="1">Clouded leopard C&#x02010;hat</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Poisson</td><td align="char" valign="top" rowspan="1" colspan="1">0.26 (&#x000b1;0.61)</td><td align="char" valign="top" rowspan="1" colspan="1">9.55</td><td align="char" valign="top" rowspan="1" colspan="1">.004</td><td align="char" valign="top" rowspan="1" colspan="1">1.11</td><td align="char" valign="top" rowspan="1" colspan="1">.12</td><td align="char" valign="top" rowspan="1" colspan="1">1.13</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">iZIP</td><td align="char" valign="top" rowspan="1" colspan="1">0.74 (&#x000b1;0.12)</td><td align="char" valign="top" rowspan="1" colspan="1">1.07</td><td align="char" valign="top" rowspan="1" colspan="1">.005</td><td align="char" valign="top" rowspan="1" colspan="1">1.11</td><td align="char" valign="top" rowspan="1" colspan="1">.12</td><td align="char" valign="top" rowspan="1" colspan="1">1.13</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Poisson&#x02009;+&#x02009;OD</td><td align="char" valign="top" rowspan="1" colspan="1">0.72 (&#x000b1;0.12)</td><td align="char" valign="top" rowspan="1" colspan="1">1.01</td><td align="char" valign="top" rowspan="1" colspan="1">.34</td><td align="char" valign="top" rowspan="1" colspan="1">1.04</td><td align="char" valign="top" rowspan="1" colspan="1">.35</td><td align="char" valign="top" rowspan="1" colspan="1">1.02</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">iZIP&#x02009;+&#x02009;OD</td><td align="char" valign="top" rowspan="1" colspan="1">0.73 (&#x000b1;0.11)</td><td align="char" valign="top" rowspan="1" colspan="1">1.00</td><td align="char" valign="top" rowspan="1" colspan="1">.35</td><td align="char" valign="top" rowspan="1" colspan="1">1.04</td><td align="char" valign="top" rowspan="1" colspan="1">.36</td><td align="char" valign="top" rowspan="1" colspan="1">1.02</td></tr></tbody></table><table-wrap-foot id="ece39627-ntgp-0002"><fn id="ece39627-note-0002"><p>
+<italic toggle="yes">Note</italic>: We started with the original two&#x02010;species N&#x02010;mixture model developed by Brodie et al.&#x000a0;(<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>) (<italic toggle="yes">Poisson</italic>). We compared this to models using either the informed zero&#x02010;inflated Poisson distribution (<italic toggle="yes">iZIP</italic>), or a random effect per sampling unit and sampling occasion (<italic toggle="yes">OD</italic>), and to the models presented in the main text using both (<italic toggle="yes">iZIP&#x02009;+&#x02009;OD</italic>). The species interaction column shows the posterior distribution's mean and standard deviation of the species interaction parameter, and Rhat values between 1 and 1.2 denote that the parameter successfully converged. Bayesian <italic toggle="yes">p</italic>&#x02010;values between .25 and .75 indicate a suitable goodness&#x02010;of&#x02010;fit, a value of .5 indicates a perfect fit, and values outside this range indicate unacceptable performance. C&#x02010;hat values greater than 1.1 indicate unacceptable overdispersion.</p></fn></table-wrap-foot></table-wrap><fig position="float" fig-type="FIGURE" id="ece39627-fig-0002"><label>FIGURE 2</label><caption><p>Comparing the effect sizes, 95% Bayesian credibility interval, and parameter convergence (Rhat values) of the species interaction parameter in all four species pairs from our two&#x02010;species N&#x02010;mixture models. We examined the original two&#x02010;species N&#x02010;mixture model proposed by Brodie et al.&#x000a0;(<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>) (<italic toggle="yes">Poisson</italic>), then examined the addition of the iZIP parameter (<italic toggle="yes">ZIP</italic>) and ODRE parameter (<italic toggle="yes">Poisson&#x02009;+&#x02009;OD</italic>) separately, and finally compared our final models that include both the iZIP and ODRE parameters (<italic toggle="yes">ZIP&#x02009;+&#x02009;OD</italic>). The Y&#x02010;axis represents the mean effect sizes of the species interaction parameter, and the error bars represent the 95% Bayesian credibility interval. Finally, the values at the bottom of the bar graphs represent the specific Rhat scores from the species interaction parameter associated with each model.</p></caption><graphic xlink:href="ECE3-12-e9627-g009" position="anchor" id="jats-graphic-5"/></fig><fig position="float" fig-type="FIGURE" id="ece39627-fig-0003"><label>FIGURE 3</label><caption><p>Comparing the goodness&#x02010;of&#x02010;fit between models by inspecting Bayesian <italic toggle="yes">p</italic>&#x02010;values (a) and the magnitude of overdispersion C&#x02010;hat values (b) across four species pairs. We examined the original two&#x02010;species N&#x02010;mixture model proposed by Brodie et al.&#x000a0;(<xref rid="ece39627-bib-0008" ref-type="bibr">2018</xref>) (<italic toggle="yes">Poisson</italic>), then examined the addition of the iZIP parameter (<italic toggle="yes">ZIP</italic>) and ODRE parameter (<italic toggle="yes">Poisson&#x02009;+&#x02009;OD</italic>) separately, and finally compared our final models that include both the iZIP and ODRE parameters (<italic toggle="yes">ZIP&#x02009;+&#x02009;OD</italic>). (a) Bayesian <italic toggle="yes">p</italic>&#x02010;values are calculated by taking the mean value of the number of times data simulated from the joint posterior distribution was greater than the real data supplied to the model, where Bayesian <italic toggle="yes">p</italic>&#x02010;values between .25 and .75 indicate good fit, a value of 0.5 indicates a perfect fit, and values above or below the dashed red lines (&#x0003c;0.25 or &#x0003e;0.75) indicate a lack of fit. (b) C&#x02010;hat values are calculated by dividing the observed data supplied to the model from data simulated from the joint posterior distribution and we visualized the mean value, where C&#x02010;hat values greater than 1.1 indicate remaining overdispersion and values close to 1 indicate no remaining overdispersion. A horizontal line is added at 1 to indicate the ideal value for our C&#x02010;hat scores, while the red dashed line at 1.1 denotes our cut&#x02010;off point for C&#x02010;hat values that suggest overdispersion. Both dominant (darker tan color) and subordinate (lighter tan color) species are included in both figures.</p></caption><graphic xlink:href="ECE3-12-e9627-g002" position="anchor" id="jats-graphic-7"/></fig></sec><sec id="ece39627-sec-0010"><label>3.2</label><title>Southeast Asian predator&#x02013;prey dynamics</title><p>We collected 5980 independent captures of our four study species over a sampling effort of 58,071 trap nights (Tables&#x000a0;<xref rid="ece39627-supitem-0001" ref-type="supplementary-material">S1</xref> and <xref rid="ece39627-supitem-0001" ref-type="supplementary-material">S2</xref>). We observed both clear (i.e., the 95% CI does not include 0) negative and positive predator&#x02013;prey relationships from our co&#x02010;abundance models (Figures&#x000a0;<xref rid="ece39627-fig-0004" ref-type="fig">4</xref> and <xref rid="ece39627-fig-0005" ref-type="fig">5</xref>). The detection probability of all species assessed across all species pairs showed a clear positive relationship with sampling effort (&#x0003e;99% probability; Figure&#x000a0;<xref rid="ece39627-supitem-0001" ref-type="supplementary-material">S4</xref>).</p><fig position="float" fig-type="FIGURE" id="ece39627-fig-0004"><label>FIGURE 4</label><caption><p>Parameters describing prey species abundance from the Bayesian co&#x02010;abundance models using the informed zero&#x02010;inflated Poisson (iZIP) distribution and ODRE. Plots show the posterior mean effect size, and the error bars represent the 95% Bayesian credibility interval (CI), with asterisks (*) denoting relationships where the 95% CI does not include zero. The variables are FLII (green), HFP (yellow), and the species interaction (red), which shows the effect of the dominant (predator) on the subordinate (prey).</p></caption><graphic xlink:href="ECE3-12-e9627-g004" position="anchor" id="jats-graphic-9"/></fig><fig position="float" fig-type="FIGURE" id="ece39627-fig-0005"><label>FIGURE 5</label><caption><p>Predator&#x02013;prey relationships estimated from the Bayesian co&#x02010;abundance models using the iZIP distribution and ODRE. The thick black trend line comes from the posterior distribution of the species interaction parameter, the gray shaded area shows the 95% Bayesian credibility interval (CI), and a solid trend line indicates the 95% CI does not include zero. The points show the estimated species abundances at each sampling unit, colored by landscape. The landscape abbreviations used in the legend are as follows: BBS refers to Bukit Barisan Selatan National Park, Danum Valley refers to Danum Valley Conservation Area, Kerinci refers to Kerinci Seblat National Park, Khao Chong refers to Khao Ban Tat Wildlife Sanctuary, Khao Yai refers to Khao Yai National Park, Lambir refers to Lambir Hills National Park, Leuser refers to Gunung Leuser National Park, Pasoh refers to Pasoh Forest Reserve, Singapore refers to the Central Catchment Nature Reserve and Palau Ubin, and finally Ulu Muda refers to the Greater Ulu Muda Forest Complex.</p></caption><graphic xlink:href="ECE3-12-e9627-g001" position="anchor" id="jats-graphic-11"/></fig></sec><sec id="ece39627-sec-0011"><label>3.3</label><title>Muntjac ~ tiger</title><p>The abundance of tigers clearly and negatively influenced muntjac deer abundance [Posterior mean effect size (hereafter &#x0201c;ES&#x0201d;)&#x000a0;=&#x000a0;&#x02212;0.20, 95% CI&#x000a0;=&#x000a0;&#x02212;0.39 to &#x02212;0.06, &#x0003e;99% probability that posterior distribution is negative; Figures&#x000a0;<xref rid="ece39627-fig-0004" ref-type="fig">4a</xref> and <xref rid="ece39627-fig-0005" ref-type="fig">5a</xref>]. Tiger abundance showed a clear positive relationship with FLII (ES&#x000a0;=&#x000a0;0.82, 95% CI&#x000a0;=&#x000a0;0.31&#x02013;1.46, &#x0003e;99% probability) and a weak negative relationship with HFP (ES&#x000a0;=&#x000a0;&#x02212;0.10, 95% CI&#x000a0;=&#x000a0;&#x02212;0.49 to 0.22, 72% probability). Muntjac deer abundance showed a clear positive relationship with FLII (ES&#x000a0;=&#x000a0;0.69, 95% CI&#x000a0;=&#x000a0;0.42&#x02013;0.98, &#x0003e;99% probability) and a clear negative relationship with HFP (ES&#x000a0;=&#x000a0;&#x02212;0.45, 95% CI&#x000a0;=&#x000a0;&#x02212;0.69 to &#x02212;0.23, &#x0003e;99% probability).</p></sec><sec id="ece39627-sec-0012"><label>3.4</label><title>Sambar ~ tiger</title><p>There was no clear relationship between tigers and sambar deer (ES&#x000a0;=&#x000a0;0.08, 95% CI&#x000a0;=&#x000a0;&#x02212;0.64 to 0.74, 57% probability; Figures&#x000a0;<xref rid="ece39627-fig-0004" ref-type="fig">4b</xref> and <xref rid="ece39627-fig-0005" ref-type="fig">5b</xref>). Tiger abundance did not show clear associations with FLII (ES&#x000a0;=&#x000a0;0.17, 95% CI&#x000a0;=&#x000a0;&#x02212;0.35 to 0.89, 65% probability) of HFP (ES&#x000a0;=&#x000a0;&#x02212;0.12, 95% CI&#x000a0;=&#x000a0;&#x02212;0.61 to 0.32, 63% probability). Sambar deer abundance showed a clear positive association with FLII (ES&#x000a0;=&#x000a0;0.63, 95% CI&#x000a0;=&#x000a0;0.11&#x02013;1.2, &#x0003e;99% probability) and a positive association with HFP (ES&#x000a0;=&#x000a0;0.34, 95% CI&#x000a0;=&#x000a0;&#x02212;0.05 to 0.76, 94% probability).</p></sec><sec id="ece39627-sec-0013"><label>3.5</label><title>Muntjac ~ clouded leopard</title><p>Muntjac deer were clearly and positively associated with clouded leopards (ES&#x000a0;=&#x000a0;0.51, 95% CI&#x000a0;=&#x000a0;0.39&#x02013;0.64, &#x0003e;99% probability; Figures&#x000a0;<xref rid="ece39627-fig-0004" ref-type="fig">4c</xref> and <xref rid="ece39627-fig-0005" ref-type="fig">5c</xref>). Clouded leopard abundance showed a clear positive association with FLII (ES&#x000a0;=&#x000a0;0.37, 95% CI&#x000a0;=&#x000a0;0.01&#x02013;0.80, 98% probability) and a weak negative association with HFP (ES&#x000a0;=&#x000a0;&#x02212;0.10, 95% CI&#x000a0;=&#x000a0;&#x02212;0.39 to 0.18, 76% probability). Muntjac deer abundance did not show a clear relationship with FLII (ES&#x000a0;=&#x000a0;0.08, 95% CI&#x000a0;=&#x000a0;&#x02212;0.22 to 0.40, 68% probability) or HFP (ES&#x000a0;=&#x000a0;&#x02212;0.12, 95% CI&#x000a0;=&#x000a0;&#x02212;0.42 to 0.18, 79% probability).</p></sec><sec id="ece39627-sec-0014"><label>3.6</label><title>Sambar ~ clouded leopard</title><p>Sambar deer were clearly and positively associated with clouded leopards (ES&#x000a0;=&#x000a0;0.73, 95% CI&#x000a0;=&#x000a0;0.51&#x02013;0.96, &#x0003e;99% probability; Figures&#x000a0;<xref rid="ece39627-fig-0004" ref-type="fig">4d</xref> and <xref rid="ece39627-fig-0005" ref-type="fig">5d</xref>). As with the muntjac deer model, clouded leopard abundance showed a clear positive relationship with FLII (ES&#x000a0;=&#x000a0;0.68, 95% CI&#x000a0;=&#x000a0;0.23&#x02013;1.28, &#x0003e;99% probability) and a weak positive association with HFP (ES&#x000a0;=&#x000a0;0.12, 95% CI&#x000a0;=&#x000a0;&#x02212;0.16 to 0.39, 82% probability). Sambar deer abundance did not show clear relationships with FLII (ES&#x000a0;=&#x000a0;&#x02212;0.12, 95% CI&#x000a0;=&#x000a0;&#x02212;0.6 to 0.35, 69% probability) or HFP (ES&#x000a0;=&#x000a0;&#x02212;0.07, 95% CI&#x000a0;=&#x000a0;&#x02212;0.26 to 0.37, 69% probability).</p></sec></sec><sec sec-type="discussion" id="ece39627-sec-0015"><label>4</label><title>DISCUSSION</title><p>We introduced a two&#x02010;species N&#x02010;mixture modeling approach to quantify predator&#x02013;prey relationships from observational count histories, while accounting for shared responses to the environment and propagating uncertainty throughout the modeling process. We assessed how this model performed using camera trapping data of two Asian apex predators and two of their key prey species that exhibit contrasting detection probabilities and natural densities. We found that explicitly classifying both the source of true zeros with the iZIP distribution in the abundance formula and false zeros with our detection formula containing the ODRE were necessary to infer ecologically meaningful predator&#x02013;prey interactions while ensuring parameter convergence across all species pairs (Blasco&#x02010;Moreno et al.,&#x000a0;<xref rid="ece39627-bib-0005" ref-type="bibr">2019</xref>; Martin et al.,&#x000a0;<xref rid="ece39627-bib-0037" ref-type="bibr">2005</xref>). Failing to classify true zeros, such as at landscapes where a species has been extirpated, leaves the model to estimate nonzero abundance due to imperfect detection (i.e., false zeros) that leads to overconfidence in the posterior estimates and increases the risk of a type I error (Martin et al.,&#x000a0;<xref rid="ece39627-bib-0037" ref-type="bibr">2005</xref>). We illustrated this type I error by showing a spurious clear positive relationship between tigers and sambar deer when excluding the iZIP parameter, which disappeared when using the iZIP distribution. Our approach also produced relationships with environmental covariates across all species that are supported by past research suggesting anthropogenic pressure suppresses ungulate abundances and that intact tropical forests support large carnivore abundances (Hearn et al.,&#x000a0;<xref rid="ece39627-bib-0026" ref-type="bibr">2019</xref>; Luskin, Albert, &#x00026; Tobler,&#x000a0;<xref rid="ece39627-bib-0034" ref-type="bibr">2017</xref>; Macdonald et al.,&#x000a0;<xref rid="ece39627-bib-0035" ref-type="bibr">2019</xref>; Rayan &#x00026; Linkie,&#x000a0;<xref rid="ece39627-bib-0047" ref-type="bibr">2020</xref>).</p><p>There is a strong appetite to infer species interactions from camera trap data and to overcome the limitations of traditional co&#x02010;occurrence models (Blanchet et al.,&#x000a0;<xref rid="ece39627-bib-0004" ref-type="bibr">2020</xref>). While our approach is fit&#x02010;for&#x02010;purpose, there are several drawbacks including these models being data hungry, computationally demanding, and statistically complicated. To overcome data limitations, such as for tigers in our datasets that were only detected only in three of ten sampled landscapes, collaborative projects may be required to achieve sufficient sample sizes and span a wide gradient of predator abundances. Another solution may be to integrate multiple data sources such as direct observations with camera trapping (Miller et al.,&#x000a0;<xref rid="ece39627-bib-0039" ref-type="bibr">2019</xref>). The computational power required to run and test several models with 1,000,000 MCMC iterations may pose a considerable barrier for many field ecologists (Pettorelli et al.,&#x000a0;<xref rid="ece39627-bib-0043" ref-type="bibr">2021</xref>). Access to high&#x02010;performance research computing that simultaneously solves multiple models while distributing MCMC chains across multiple cores will save researchers a substantial amount of time in such analyses (Visser et al.,&#x000a0;<xref rid="ece39627-bib-0061" ref-type="bibr">2015</xref>). Finally, there are concerns about the reliability of N&#x02010;mixture models when assumptions are violated, such as when the same individual is observed multiple times in a single sampling occasion (Link et al.,&#x000a0;<xref rid="ece39627-bib-0032" ref-type="bibr">2018</xref>). This violation can cause inflation in absolute population size estimates, so if researchers require accurate latent population size estimates, we encourage the use of a Poisson detection process (Nakashima,&#x000a0;<xref rid="ece39627-bib-0040" ref-type="bibr">2020</xref>). We implemented co&#x02010;abundance models with both binomial and Poisson detection processes and observed equivalent directionality and similar species interaction parameters, suggesting either detection process may be suitable for examining the spatial variation in abundance (Gilbert et al.,&#x000a0;<xref rid="ece39627-bib-0023" ref-type="bibr">2021</xref>).</p><p>Predator losses in temperate ecosystems often lead to trophic release, where a subset of prey species increase in abundance (Ripple et al.,&#x000a0;<xref rid="ece39627-bib-0051" ref-type="bibr">2009</xref>), but predator&#x02013;prey relationships appear weak or positive in tropical forests (Brodie &#x00026; Giordano,&#x000a0;<xref rid="ece39627-bib-0007" ref-type="bibr">2013</xref>). Predator&#x02013;prey relationships in tropical forests may be strongly shaped by diffuse food webs with functionally redundant links, strong bottom&#x02010;up control, and/or the joint suppression of many animals by overwhelming disturbances such as defaunation (Ben&#x000ed;tez&#x02010;L&#x000f3;pez et al.,&#x000a0;<xref rid="ece39627-bib-0003" ref-type="bibr">2019</xref>; Brodie &#x00026; Giordano,&#x000a0;<xref rid="ece39627-bib-0007" ref-type="bibr">2013</xref>; Polis &#x00026; Strong,&#x000a0;<xref rid="ece39627-bib-0045" ref-type="bibr">1996</xref>; Wright et al.,&#x000a0;<xref rid="ece39627-bib-0064" ref-type="bibr">1994</xref>). In accordance with this work, we found only one clear negative relationship suggesting tigers regulate muntjac deer. Further, we detected positive predator&#x02013;prey relationships between clouded leopards and both muntjac and sambar deer, suggesting predation is not the dominant force regulating Asia's deer. Instead, prey abundance may be a fundamental determinant of predator abundance (Carbone &#x00026; Gittleman,&#x000a0;<xref rid="ece39627-bib-0010" ref-type="bibr">2002</xref>; Karanth et al.,&#x000a0;<xref rid="ece39627-bib-0028" ref-type="bibr">2004</xref>) with deer being noted as key prey for clouded leopards (Can et al.,&#x000a0;<xref rid="ece39627-bib-0009" ref-type="bibr">2020</xref>; Petersen et al.,&#x000a0;<xref rid="ece39627-bib-0042" ref-type="bibr">2020</xref>). These results also suggest that hunting deer may suppress clouded leopards via prey depletion (Wolf &#x00026; Ripple,&#x000a0;<xref rid="ece39627-bib-0063" ref-type="bibr">2016</xref>), or hunting may jointly suppress clouded leopards and deer together (Ben&#x000ed;tez&#x02010;L&#x000f3;pez et al.,&#x000a0;<xref rid="ece39627-bib-0003" ref-type="bibr">2019</xref>; Ford &#x00026; Goheen,&#x000a0;<xref rid="ece39627-bib-0019" ref-type="bibr">2015</xref>). Future research could apply our modeling approach to reverse the role of dominant and subordinate species to examine whether the abundance of clouded leopards is positively associated with deer abundance, thereby testing support for bottom&#x02010;up regulation.</p><p>This modeling framework is widely applicable across species, ecosystems, and sampling approaches (acoustic monitoring, camera trapping, and point counts) that produce count histories. A key improvement of our co&#x02010;abundance modeling approach that classifies the source of zeros in count histories is to move trophic cascades research past binary comparisons of landscapes based on predator presence or absence (e.g., Atkins et al.,&#x000a0;<xref rid="ece39627-bib-0002" ref-type="bibr">2019</xref>; Brashares et al.,&#x000a0;<xref rid="ece39627-bib-0006" ref-type="bibr">2010</xref>) to a gradient of predator abundance, including where predators are absent. Our modeling framework incorporates covariates and has the potential to explain divergent co&#x02010;abundance patterns across environmental gradients, such as edge&#x02010;adapted and disturbance&#x02010;tolerant species proliferating in predator&#x02010;free forest fragments (Terborgh et al.,&#x000a0;<xref rid="ece39627-bib-0057" ref-type="bibr">2001</xref>). Future research could use this co&#x02010;abundance model to examine how predator&#x02013;prey relationships vary across ecological gradients, which has important conservation implications for predicting trophic cascades (Terborgh,&#x000a0;<xref rid="ece39627-bib-0058" ref-type="bibr">2015</xref>).</p></sec><sec sec-type="conclusions" id="ece39627-sec-0016"><label>5</label><title>CONCLUSION</title><p>Our study provides ecologists with a modeling approach to infer predatory interactions from observationally collected count data across multiple landscapes. This remarkably flexible approach opens novel opportunities to evaluate species interactions across natural or disturbance gradients, including when species abundances vary or where some sites experienced extirpations. There is direct applicability to ongoing predator conservation and trophic cascades research as our study species continue to experience range contractions. We look forward to opportunities to ground truth the results from our approach by co&#x02010;locating camera trapping studies with manipulative experiments (e.g., predator reintroductions) and direct predation observations.</p></sec><sec id="ece39627-sec-0021"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Zachary Amir:</bold> Conceptualization (lead); data curation (equal); formal analysis (lead); investigation (lead); methodology (lead); software (lead); validation (lead); visualization (lead); writing &#x02013; original draft (lead); writing &#x02013; review and editing (equal). <bold>Adia Sovie:</bold> Formal analysis (supporting); investigation (supporting); methodology (supporting); software (supporting); supervision (supporting); visualization (supporting); writing &#x02013; review and editing (equal). <bold>Matthew Scott Luskin:</bold> Conceptualization (supporting); data curation (equal); funding acquisition (lead); supervision (lead); writing &#x02013; review and editing (equal).</p></sec><sec id="ece39627-sec-1009"><title>FUNDING INFORMATION</title><p>The research was funded by the Smithsonian Institution's ForestGEO program, the Nanyang Technological University in Singapore, the University of Queensland, the National Geographic Society Committee for the Research and Exploration #9384&#x02010;13, and numerous small grants for field work. M.S.L. was supported by an Australian Research Council Discovery Early Career Award no. DE210101440.</p></sec><sec sec-type="COI-statement" id="ece39627-sec-0018"><title>CONFLICT OF INTEREST</title><p>The authors declare no conflict of interest pertaining to the research conducted here.</p></sec><sec id="ece39627-sec-0019"><sec disp-level="2" id="ece39627-sec-0022"><title>OPEN RESEARCH BADGES</title><p>This article has earned Open Data and Open Materials badges. Data and materials are available at <ext-link xlink:href="https://doi.org/10.5061/dryad.b8gtht7h3" ext-link-type="uri">https://doi.org/10.5061/dryad.b8gtht7h3</ext-link>.</p></sec></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ece39627-supitem-0001" position="float" content-type="local-data"><caption><p>
+Appendix S1
+</p></caption><media xlink:href="ECE3-12-e9627-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece39627-sec-0017"><title>ACKNOWLEDGMENTS</title><p>In kind support was provided by the Fauna and Flora International&#x02014;Indonesia programme, the Institution Conservation Society (ICS)&#x02014;Solok Selatan Wahana Konservasi Masyarakat, and the Leuser International Foundation (LIF). The Yayasan Sabah, the Sabah Forest Department, the Sabah Biodiversity Council, and the Danum Valley Management Committee, Abdul Hamid, Glen Renolds, Jedediah Brodie, Jonathan Moore, Katie Doehla, and Tombi Karolus facilitated and/or helped with fieldwork at Danum Valley. Patrick Jansen, Jorge Ahumada, Jonathan Moore, the Smithsonian Institute, the Tropical Ecology Assessment and Monitoring (TEAM) network, Yao Tse Leong, and the Forest Research Institute Malaysia (FRIM) facilitated and/or helped with data collection at Pasoh. Mohizah Bt. Mohamad, Januarie Kulis, Jonathan Moore, and the Sarawak Forestry Department, and the NTU field ecology courses facilitated and/or helped with fieldwork data at Lambir Hills. Shawn Lum, Adrian Loo, Max Khoo, Ben Lee, Jasyln Chan, and Alexis Goh helped with fieldwork in Singapore and NParks granted permissions. Wirong Chantorn, Anuttara Nathalang, Sarayudh Bunyavejchewin, Ronglarp Sukmasuang, Felise Gutierez, Chris Scanlon, and Jonathan Moore facilitated and/or helped with fieldwork Khao Yai and Khao Ban Tat/Khao Chong. Wido Rizqi Albert, Matthew Linkie, Yoan Dinata, HariyoWibisono, and HarimauKita facilitated fieldwork in Sumatra, and Edi Siarenta Sembiring, Tarmizi and Eka Ramadiyanta, Salpayanri, Iswandri Tanjung, and Chris Decky assisted with fieldwork. The original artwork was provided by T. Barber from Talking Animals and is copyrighted. Conversations with Jedediah Brodie, Ken Kellner, and J. Andrew Royle provided helpful insights at the early stages of this project. We thank the members of the Ecological Cascades Lab, Andrew Letten, Diana Fisher, and 2 anonymous reviewers for comments that improved previous drafts.</p></ack><sec sec-type="data-availability" id="ece39627-sec-0020"><title>DATA AVAILABILITY STATEMENT</title><p>All R code and data used to implement our Bayesian co&#x02010;abundance models can be accessed at this Figshare repository: <ext-link xlink:href="https://doi.org/10.6084/m9.figshare.21619055" ext-link-type="uri" specific-use="dataset is-supplemented-by">https://doi.org/10.5061/dryad.b8gtht7h3</ext-link>.</p></sec><ref-list content-type="cited-references" id="ece39627-bibl-0001"><title>REFERENCES</title><ref id="ece39627-bib-0001"><mixed-citation publication-type="journal" id="ece39627-cit-0001">
+<string-name>
+<surname>Amir</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Moore</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name>
+<surname>Negret</surname>, <given-names>P. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Luskin</surname>, <given-names>M. S.</given-names>
+</string-name> (<year>2022</year>). <article-title>Megafauna extinctions produce idiosyncratic Anthropocene assemblages</article-title>. <source>Science Advances</source>, <volume>8</volume>(<issue>42</issue>), <fpage>eabq2307</fpage>.<pub-id pub-id-type="pmid">36269822</pub-id></mixed-citation></ref><ref id="ece39627-bib-0002"><mixed-citation publication-type="journal" id="ece39627-cit-0002">
+<string-name>
+<surname>Atkins</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Long</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Pansu</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Daskin</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name>
+<surname>Potter</surname>, <given-names>A. B.</given-names>
+</string-name>, <string-name>
+<surname>Stalmans</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name>
+<surname>Tarnita</surname>, <given-names>C. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pringle</surname>, <given-names>R. M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Cascading impacts of large&#x02010;carnivore extirpation in an African ecosystem</article-title>. <source>Science</source>, <volume>364</volume>, <fpage>173</fpage>&#x02013;<lpage>177</lpage>. <pub-id pub-id-type="doi">10.1126/science.aau3561</pub-id>
+<pub-id pub-id-type="pmid">30846612</pub-id></mixed-citation></ref><ref id="ece39627-bib-0003"><mixed-citation publication-type="journal" id="ece39627-cit-0003">
+<string-name>
+<surname>Ben&#x000ed;tez&#x02010;L&#x000f3;pez</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Santini</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Schipper</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Busana</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Huijbregts</surname>, <given-names>M. A. J.</given-names>
+</string-name> (<year>2019</year>). <article-title>Intact but empty forests? Patterns of hunting&#x02010;induced mammal defaunation in the tropics</article-title>. <source>PLoS Biology</source>, <volume>17</volume>, <elocation-id>e3000247</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pbio.3000247</pub-id>
+<pub-id pub-id-type="pmid">31086365</pub-id></mixed-citation></ref><ref id="ece39627-bib-0004"><mixed-citation publication-type="journal" id="ece39627-cit-0004">
+<string-name>
+<surname>Blanchet</surname>, <given-names>F. G.</given-names>
+</string-name>, <string-name>
+<surname>Cazelles</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Gravel</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jeffers</surname>, <given-names>E.</given-names>
+</string-name> (<year>2020</year>). <article-title>Co&#x02010;occurrence is not evidence of ecological interactions</article-title>. <source>Ecology Letters</source>, <volume>23</volume>, <fpage>1050</fpage>&#x02013;<lpage>1063</lpage>. <pub-id pub-id-type="doi">10.1111/ele.13525</pub-id>
+<pub-id pub-id-type="pmid">32429003</pub-id></mixed-citation></ref><ref id="ece39627-bib-0005"><mixed-citation publication-type="journal" id="ece39627-cit-0005">
+<string-name>
+<surname>Blasco&#x02010;Moreno</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>P&#x000e9;rez&#x02010;Casany</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Puig</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Morante</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Castells</surname>, <given-names>E.</given-names>
+</string-name> (<year>2019</year>). <article-title>What does a zero mean? Understanding false, random and structural zeros in ecology</article-title>. <source>Methods in Ecology and Evolution</source>, <volume>10</volume>, <fpage>949</fpage>&#x02013;<lpage>959</lpage>. <pub-id pub-id-type="doi">10.1111/2041-210x.13185</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0006"><mixed-citation publication-type="book" id="ece39627-cit-0006">
+<string-name>
+<surname>Brashares</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Prugh</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Stoner</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Epps</surname>, <given-names>C.</given-names>
+</string-name> (<year>2010</year>). <part-title>Ecological and conservation implications of mesopredator release</part-title>. In <source>Trophic cascades: Predators, prey, and the changing dynamics of nature</source> (pp. <fpage>221</fpage>&#x02013;<lpage>240</lpage>). <publisher-name>Island Press</publisher-name>.</mixed-citation></ref><ref id="ece39627-bib-0007"><mixed-citation publication-type="journal" id="ece39627-cit-0007">
+<string-name>
+<surname>Brodie</surname>, <given-names>J. F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Giordano</surname>, <given-names>A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Lack of trophic release with large mammal predators and prey in Borneo</article-title>. <source>Biological Conservation</source>, <volume>163</volume>, <fpage>58</fpage>&#x02013;<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2013.01.003</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0008"><mixed-citation publication-type="journal" id="ece39627-cit-0008">
+<string-name>
+<surname>Brodie</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name>
+<surname>Helmy</surname>, <given-names>O. E.</given-names>
+</string-name>, <string-name>
+<surname>Mohd&#x02010;Azlan</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Granados</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Bernard</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Giordano</surname>, <given-names>A. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zipkin</surname>, <given-names>E.</given-names>
+</string-name> (<year>2018</year>). <article-title>Models for assessing local&#x02010;scale co&#x02010;abundance of animal species while accounting for differential detectability and varied responses to the environment</article-title>. <source>Biotropica</source>, <volume>50</volume>, <fpage>5</fpage>&#x02013;<lpage>15</lpage>. <pub-id pub-id-type="doi">10.1111/btp.12500</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0009"><mixed-citation publication-type="journal" id="ece39627-cit-0009">
+<string-name>
+<surname>Can</surname>, <given-names>&#x000d6;. E.</given-names>
+</string-name>, <string-name>
+<surname>Yadav</surname>, <given-names>B. P.</given-names>
+</string-name>, <string-name>
+<surname>Johnson</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name>
+<surname>Ross</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>D'Cruze</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Macdonald</surname>, <given-names>D. W.</given-names>
+</string-name> (<year>2020</year>). <article-title>Factors affecting the occurrence and activity of clouded leopards, common leopards and leopard cats in the Himalayas</article-title>. <source>Biodiversity and Conservation</source>, <volume>29</volume>, <fpage>839</fpage>&#x02013;<lpage>851</lpage>. <pub-id pub-id-type="doi">10.1007/s10531-019-01912-7</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0010"><mixed-citation publication-type="journal" id="ece39627-cit-0010">
+<string-name>
+<surname>Carbone</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gittleman</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2002</year>). <article-title>A common rule for the scaling of carnivore density</article-title>. <source>Science</source>, <volume>295</volume>, <fpage>2273</fpage>&#x02013;<lpage>2276</lpage>. <pub-id pub-id-type="doi">10.1126/science.1067994</pub-id>
+<pub-id pub-id-type="pmid">11910114</pub-id></mixed-citation></ref><ref id="ece39627-bib-0011"><mixed-citation publication-type="journal" id="ece39627-cit-0011">
+<string-name>
+<surname>Clark</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name>
+<surname>Nemergut</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Seyednasrollah</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Turner</surname>, <given-names>P. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zhang</surname>, <given-names>S.</given-names>
+</string-name> (<year>2017</year>). <article-title>Generalized joint attribute modeling for biodiversity analysis: Median&#x02010;zero, multivariate, multifarious data</article-title>. <source>Ecological Monographs</source>, <volume>87</volume>, <fpage>34</fpage>&#x02013;<lpage>56</lpage>. <pub-id pub-id-type="doi">10.1002/ecm.1241</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0012"><mixed-citation publication-type="journal" id="ece39627-cit-0012">
+<string-name>
+<surname>Conn</surname>, <given-names>P. B.</given-names>
+</string-name>, <string-name>
+<surname>Johnson</surname>, <given-names>D. S.</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name>
+<surname>Melin</surname>, <given-names>S. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hooten</surname>, <given-names>M. B.</given-names>
+</string-name> (<year>2018</year>). <article-title>A guide to Bayesian model checking for ecologists</article-title>. <source>Ecological Monographs</source>, <volume>88</volume>, <fpage>526</fpage>&#x02013;<lpage>542</lpage>. doi:<pub-id pub-id-type="doi">10.1002/ecm.1314</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0013"><mixed-citation publication-type="journal" id="ece39627-cit-0013">
+<string-name>
+<surname>Cosentino</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name>
+<surname>Schooley</surname>, <given-names>R. L.</given-names>
+</string-name>, <string-name>
+<surname>Bestelmeyer</surname>, <given-names>B. T.</given-names>
+</string-name>, <string-name>
+<surname>Campos</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Burkett</surname>, <given-names>L. M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Does habitat disturbance promote geographical parthenogenesis in whiptail lizards?</article-title>
+<source>Evolutionary Ecology</source>, <volume>33</volume>, <fpage>839</fpage>&#x02013;<lpage>853</lpage>. <pub-id pub-id-type="doi">10.1007/s10682-019-10006-3</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0014"><mixed-citation publication-type="journal" id="ece39627-cit-0014">
+<string-name>
+<surname>Dormann</surname>, <given-names>C. F.</given-names>
+</string-name>, <string-name>
+<surname>Bobrowski</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Dehling</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Harris</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<surname>Hartig</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Lischke</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Moretti</surname>, <given-names>M. D.</given-names>
+</string-name>, <string-name>
+<surname>Pagel</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Pinkert</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Schleuning</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Schmidt</surname>, <given-names>S. I.</given-names>
+</string-name>, <string-name>
+<surname>Sheppard</surname>, <given-names>C. S.</given-names>
+</string-name>, <string-name>
+<surname>Steinbauer</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Zeuss</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kraan</surname>, <given-names>C.</given-names>
+</string-name> (<year>2018</year>). <article-title>Biotic interactions in species distribution modelling: 10 questions to guide interpretation and avoid false conclusions</article-title>. <source>Global Ecology and Biogeography</source>, <volume>27</volume>, <fpage>1004</fpage>&#x02013;<lpage>1016</lpage>. <pub-id pub-id-type="doi">10.1111/geb.12759</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0015"><mixed-citation publication-type="journal" id="ece39627-cit-0015">
+<string-name>
+<surname>Easter</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Bouley</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Carter</surname>, <given-names>N.</given-names>
+</string-name> (<year>2020</year>). <article-title>Intraguild dynamics of understudied carnivores in a human&#x02010;altered landscape</article-title>. <source>Ecology and Evolution</source>, <volume>10</volume>, <fpage>5476</fpage>&#x02013;<lpage>5488</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.6290</pub-id>
+<pub-id pub-id-type="pmid">32607168</pub-id></mixed-citation></ref><ref id="ece39627-bib-0016"><mixed-citation publication-type="journal" id="ece39627-cit-0016">
+<string-name>
+<surname>Estes</surname>, <given-names>J. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Palmisano</surname>, <given-names>J. F.</given-names>
+</string-name> (<year>1974</year>). <article-title>Sea otters: Their role in structuring nearshore communities</article-title>. <source>Science</source>, <volume>185</volume>, <fpage>1058</fpage>&#x02013;<lpage>1060</lpage>. <pub-id pub-id-type="doi">10.1126/science.185.4156.1058</pub-id>
+<pub-id pub-id-type="pmid">17738247</pub-id></mixed-citation></ref><ref id="ece39627-bib-0017"><mixed-citation publication-type="journal" id="ece39627-cit-0017">
+<string-name>
+<surname>Estes</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Terborgh</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Brashares</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name>
+<surname>Power</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name>
+<surname>Berger</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Bond</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Carpenter</surname>, <given-names>S. R.</given-names>
+</string-name>, <string-name>
+<surname>Essington</surname>, <given-names>T. E.</given-names>
+</string-name>, <string-name>
+<surname>Holt</surname>, <given-names>R. D.</given-names>
+</string-name>, <string-name>
+<surname>Jackson</surname>, <given-names>J. B. C.</given-names>
+</string-name>, <string-name>
+<surname>Marquis</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name>
+<surname>Oksanen</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Oksanen</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Paine</surname>, <given-names>R. T.</given-names>
+</string-name>, <string-name>
+<surname>Pikitch</surname>, <given-names>E. K.</given-names>
+</string-name>, <string-name>
+<surname>Ripple</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Sandin</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Scheffer</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Schoener</surname>, <given-names>T. W.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Wardle</surname>, <given-names>D. A.</given-names>
+</string-name> (<year>2011</year>). <article-title>Trophic downgrading of planet earth</article-title>. <source>Science</source>, <volume>333</volume>, <fpage>301</fpage>&#x02013;<lpage>306</lpage>. <pub-id pub-id-type="doi">10.1126/science.1205106</pub-id>
+<pub-id pub-id-type="pmid">21764740</pub-id></mixed-citation></ref><ref id="ece39627-bib-0018"><mixed-citation publication-type="journal" id="ece39627-cit-0018">
+<string-name>
+<surname>Ficetola</surname>, <given-names>G. F.</given-names>
+</string-name>, <string-name>
+<surname>Barzaghi</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Melotto</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Muraro</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Lunghi</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Canedoli</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Lo Parrino</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Nanni</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Silva&#x02010;Rocha</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Urso</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Carretero</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Salvi</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Scali</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Scar&#x000ec;</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Pennati</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Andreone</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Manenti</surname>, <given-names>R.</given-names>
+</string-name> (<year>2018</year>). <article-title>N&#x02010;mixture models reliably estimate the abundance of small vertebrates</article-title>. <source>Scientific Reports</source>, <volume>8</volume>, <elocation-id>10357</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-018-28432-8</pub-id>
+<pub-id pub-id-type="pmid">29985399</pub-id></mixed-citation></ref><ref id="ece39627-bib-0019"><mixed-citation publication-type="journal" id="ece39627-cit-0019">
+<string-name>
+<surname>Ford</surname>, <given-names>A. T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Goheen</surname>, <given-names>J. R.</given-names>
+</string-name> (<year>2015</year>). <article-title>Trophic cascades by large carnivores: A case for Strong inference and mechanism</article-title>. <source>Trends in Ecology &#x00026; Evolution</source>, <volume>30</volume>, <fpage>725</fpage>&#x02013;<lpage>735</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2015.09.012</pub-id>
+<pub-id pub-id-type="pmid">26498385</pub-id></mixed-citation></ref><ref id="ece39627-bib-0020"><mixed-citation publication-type="journal" id="ece39627-cit-0020">
+<string-name>
+<surname>Gaynor</surname>, <given-names>K. M.</given-names>
+</string-name>, <string-name>
+<surname>Brown</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name>
+<surname>Middleton</surname>, <given-names>A. D.</given-names>
+</string-name>, <string-name>
+<surname>Power</surname>, <given-names>M. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Brashares</surname>, <given-names>J. S.</given-names>
+</string-name> (<year>2019</year>). <article-title>Landscapes of fear: Spatial patterns of risk perception and response</article-title>. <source>Trends in Ecology &#x00026; Evolution</source>, <volume>34</volume>, <fpage>355</fpage>&#x02013;<lpage>368</lpage>. <pub-id pub-id-type="doi">10.1016/j.tree.2019.01.004</pub-id>
+<pub-id pub-id-type="pmid">30745252</pub-id></mixed-citation></ref><ref id="ece39627-bib-0021"><mixed-citation publication-type="book" id="ece39627-cit-0021">
+<string-name>
+<surname>Gelman</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Carlin</surname>, <given-names>J. B.</given-names>
+</string-name>, <string-name>
+<surname>Stern</surname>, <given-names>H. S.</given-names>
+</string-name>, <string-name>
+<surname>Dunson</surname>, <given-names>D. B.</given-names>
+</string-name>, <string-name>
+<surname>Vehtari</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rubin</surname>, <given-names>D. B.</given-names>
+</string-name> (<year>2013</year>). <source>Bayesian data analysis</source>. <publisher-name>Chapman and Hall/CRC</publisher-name>. <pub-id pub-id-type="doi">10.1201/b16018</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0022"><mixed-citation publication-type="journal" id="ece39627-cit-0022">
+<string-name>
+<surname>Gelman</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Meng</surname>, <given-names>X.&#x02010;L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Stern</surname>, <given-names>H.</given-names>
+</string-name> (<year>1996</year>). <article-title>Posterior predictive assessments of model fitness via realized discrepancies</article-title>. <source>Statistica Sinica</source>, <volume>6</volume>, <fpage>733</fpage>&#x02013;<lpage>760</lpage>.</mixed-citation></ref><ref id="ece39627-bib-0023"><mixed-citation publication-type="journal" id="ece39627-cit-0023">
+<string-name>
+<surname>Gilbert</surname>, <given-names>N. A.</given-names>
+</string-name>, <string-name>
+<surname>Clare</surname>, <given-names>J. D. J.</given-names>
+</string-name>, <string-name>
+<surname>Stenglein</surname>, <given-names>J. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zuckerberg</surname>, <given-names>B.</given-names>
+</string-name> (<year>2021</year>). <article-title>Abundance estimation of unmarked animals based on camera&#x02010;trap data</article-title>. <source>Conservation Biology</source>, <volume>35</volume>, <fpage>88</fpage>&#x02013;<lpage>100</lpage>. <pub-id pub-id-type="doi">10.1111/cobi.13517</pub-id>
+<pub-id pub-id-type="pmid">32297655</pub-id></mixed-citation></ref><ref id="ece39627-bib-0024"><mixed-citation publication-type="journal" id="ece39627-cit-0024">
+<string-name>
+<surname>Grantham</surname>, <given-names>H. S.</given-names>
+</string-name>, <string-name>
+<surname>Duncan</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Evans</surname>, <given-names>T. D.</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>, <given-names>K. R.</given-names>
+</string-name>, <string-name>
+<surname>Beyer</surname>, <given-names>H. L.</given-names>
+</string-name>, <string-name>
+<surname>Schuster</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Walston</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Ray</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name>
+<surname>Robinson</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name>
+<surname>Callow</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Clements</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Costa</surname>, <given-names>H. M.</given-names>
+</string-name>, <string-name>
+<surname>DeGemmis</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Elsen</surname>, <given-names>P. R.</given-names>
+</string-name>, <string-name>
+<surname>Ervin</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Franco</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Goldman</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Goetz</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Hansen</surname>, <given-names>A.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Watson</surname>, <given-names>J. E. M.</given-names>
+</string-name> (<year>2020</year>). <article-title>Anthropogenic modification of forests means only 40% of remaining forests have high ecosystem integrity</article-title>. <source>Nature Communications</source>, <volume>11</volume>, <fpage>5978</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-020-19493-3</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0025"><mixed-citation publication-type="journal" id="ece39627-cit-0025">
+<string-name>
+<surname>Hayward</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name>
+<surname>Jedrzejewski</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jedrzewska</surname>, <given-names>B.</given-names>
+</string-name> (<year>2012</year>). <article-title>Prey preferences of the tiger <italic toggle="yes">Panthera tigris</italic>
+</article-title>. <source>Journal of Zoology</source>, <volume>286</volume>, <fpage>221</fpage>&#x02013;<lpage>231</lpage>. <pub-id pub-id-type="doi">10.1111/j.1469-7998.2011.00871.x</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0026"><mixed-citation publication-type="journal" id="ece39627-cit-0026">
+<string-name>
+<surname>Hearn</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name>
+<surname>Ross</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Bernard</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Bakar</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Goossens</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Hunter</surname>, <given-names>L. T. B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Macdonald</surname>, <given-names>D. W.</given-names>
+</string-name> (<year>2019</year>). <article-title>Responses of Sunda clouded leopard <italic toggle="yes">Neofelis diardi</italic> population density to anthropogenic disturbance: Refining estimates of its conservation status in Sabah</article-title>. <source>Oryx</source>, <volume>53</volume>, <fpage>643</fpage>&#x02013;<lpage>653</lpage>. <pub-id pub-id-type="doi">10.1017/S0030605317001065</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0027"><mixed-citation publication-type="book" id="ece39627-cit-0027">
+<string-name>
+<surname>Jansen</surname>, <given-names>P. A.</given-names>
+</string-name>, <string-name>
+<surname>Ahumada</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Fegraus</surname>, <given-names>E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>O'Brien</surname>, <given-names>T. G.</given-names>
+</string-name> (<year>2014</year>). <part-title>TEAM: A standardised camera trap survey to monitor terrestrial vertebrate communities in tropical forests</part-title>. In <person-group person-group-type="editor">
+<string-name>
+<given-names>P. D.</given-names>
+<surname>Meek</surname>
+</string-name>
+</person-group> &#x00026; <person-group person-group-type="editor">
+<string-name>
+<given-names>P. J. S.</given-names>
+<surname>Fleming</surname>
+</string-name>
+</person-group> (Eds.), <source>Camera trapping: Wildlife management and research</source> (pp. <fpage>263</fpage>&#x02013;<lpage>270</lpage>). <publisher-name>CSIRO Publishing</publisher-name>.</mixed-citation></ref><ref id="ece39627-bib-0028"><mixed-citation publication-type="journal" id="ece39627-cit-0028">
+<string-name>
+<surname>Karanth</surname>, <given-names>K. U.</given-names>
+</string-name>, <string-name>
+<surname>Nichols</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name>
+<surname>Kumar</surname>, <given-names>N. S.</given-names>
+</string-name>, <string-name>
+<surname>Link</surname>, <given-names>W. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hines</surname>, <given-names>J. E.</given-names>
+</string-name> (<year>2004</year>). <article-title>Tigers and their prey: Predicting carnivore densities from prey abundance</article-title>. <source>Proceedings of the National Academy of Sciences</source>, <volume>101</volume>, <fpage>4854</fpage>&#x02013;<lpage>4858</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0306210101</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0029"><mixed-citation publication-type="miscellaneous" id="ece39627-cit-0029">
+<string-name>
+<surname>Kellner</surname>, <given-names>K.</given-names>
+</string-name> (<year>2019</year>). <article-title>jagsUI: A Wrapper Around &#x02018;rjags&#x02019; to Streamline &#x02018;JAGS&#x02019; Analyses</article-title>. <ext-link xlink:href="https://cran.r-project.org/package=jagsUI" ext-link-type="uri">https://CRAN.R&#x02010;project.org/package=jagsUI</ext-link>
+</mixed-citation></ref><ref id="ece39627-bib-0030"><mixed-citation publication-type="book" id="ece39627-cit-0030">
+<string-name>
+<surname>K&#x000e9;ry</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Royle</surname>, <given-names>J. A.</given-names>
+</string-name> (<year>2016</year>). <source>Applied hierarchical modeling in ecology: Modeling distribution, abundance and species richness in R and BUGS, Volume 1: Prelude and static models</source> (<edition designator="1">1st ed.</edition>). <publisher-name>Elsevier Science &#x00026; Technology</publisher-name>.</mixed-citation></ref><ref id="ece39627-bib-0031"><mixed-citation publication-type="book" id="ece39627-cit-0031">
+<string-name>
+<surname>K&#x000e9;ry</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Royle</surname>, <given-names>J. A.</given-names>
+</string-name> (<year>2021</year>). <source>Applied hierarchical modeling in ecology modeling distribution, abundance and species richness in R and BUGS, Volume 2: Dynamic and advanced models</source> (<edition designator="1">1st ed.</edition>). <publisher-name>Elsevier Academic Press</publisher-name>.</mixed-citation></ref><ref id="ece39627-bib-0032"><mixed-citation publication-type="journal" id="ece39627-cit-0032">
+<string-name>
+<surname>Link</surname>, <given-names>W. A.</given-names>
+</string-name>, <string-name>
+<surname>Schofield</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name>
+<surname>Barker</surname>, <given-names>R. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sauer</surname>, <given-names>J. R.</given-names>
+</string-name> (<year>2018</year>). <article-title>On the robustness of N&#x02010;mixture models</article-title>. <source>Ecology</source>, <volume>99</volume>, <fpage>1547</fpage>&#x02013;<lpage>1551</lpage>. <pub-id pub-id-type="doi">10.1002/ecy.2362</pub-id>
+<pub-id pub-id-type="pmid">29702727</pub-id></mixed-citation></ref><ref id="ece39627-bib-0033"><mixed-citation publication-type="journal" id="ece39627-cit-0033">
+<string-name>
+<surname>Lotka</surname>, <given-names>A. J.</given-names>
+</string-name> (<year>1920</year>). <article-title>Analytical note on certain rhythmic relations in organic systems</article-title>. <source>Proceedings of the National Academy of Sciences</source>, <volume>6</volume>, <fpage>410</fpage>&#x02013;<lpage>415</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.6.7.410</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0034"><mixed-citation publication-type="journal" id="ece39627-cit-0034">
+<string-name>
+<surname>Luskin</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name>
+<surname>Albert</surname>, <given-names>W. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Tobler</surname>, <given-names>M. W.</given-names>
+</string-name> (<year>2017</year>). <article-title>Sumatran tiger survival threatened by deforestation despite increasing densities in parks</article-title>. <source>Nature Communications</source>, <volume>9</volume>, <fpage>1783</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-017-01656-4</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0035"><mixed-citation publication-type="journal" id="ece39627-cit-0035">
+<string-name>
+<surname>Macdonald</surname>, <given-names>D. W.</given-names>
+</string-name>, <string-name>
+<surname>Bothwell</surname>, <given-names>H. M.</given-names>
+</string-name>, <string-name>
+<surname>Kaszta</surname>, <given-names>&#x0017b;.</given-names>
+</string-name>, <string-name>
+<surname>Ash</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Bolongon</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Burnham</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Can</surname>, <given-names>&#x000d6;. E.</given-names>
+</string-name>, <string-name>
+<surname>Campos&#x02010;Arceiz</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Channa</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Clements</surname>, <given-names>G. R.</given-names>
+</string-name>, <string-name>
+<surname>Hearn</surname>, <given-names>A. J.</given-names>
+</string-name>, <string-name>
+<surname>Hedges</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Htun</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kamler</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name>
+<surname>Kawanishi</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Macdonald</surname>, <given-names>E. A.</given-names>
+</string-name>, <string-name>
+<surname>Mohamad</surname>, <given-names>S. W.</given-names>
+</string-name>, <string-name>
+<surname>Moore</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Naing</surname>, <given-names>H.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Cushman</surname>, <given-names>S. A.</given-names>
+</string-name> (<year>2019</year>). <article-title>Multi&#x02010;scale habitat modelling identifies spatial conservation priorities for mainland clouded leopards (<italic toggle="yes">Neofelis nebulosa</italic>)</article-title>. <source>Diversity and Distributions</source>, <volume>25</volume>, <fpage>1639</fpage>&#x02013;<lpage>1654</lpage>. <pub-id pub-id-type="doi">10.1111/ddi.12967</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0036"><mixed-citation publication-type="journal" id="ece39627-cit-0036">
+<string-name>
+<surname>Makowski</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Ben&#x02010;Shachar</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>L&#x000fc;decke</surname>, <given-names>D.</given-names>
+</string-name> (<year>2019</year>). <article-title>bayestestR: Describing effects and their uncertainty, existence and significance within the Bayesian framework</article-title>. <source>Journal of Open Source Software</source>, <volume>4</volume>, <fpage>1541</fpage>. <pub-id pub-id-type="doi">10.21105/joss.01541</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0037"><mixed-citation publication-type="journal" id="ece39627-cit-0037">
+<string-name>
+<surname>Martin</surname>, <given-names>T. G.</given-names>
+</string-name>, <string-name>
+<surname>Wintle</surname>, <given-names>B. A.</given-names>
+</string-name>, <string-name>
+<surname>Rhodes</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name>
+<surname>Kuhnert</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name>
+<surname>Field</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Low&#x02010;Choy</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name>
+<surname>Tyre</surname>, <given-names>A. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Possingham</surname>, <given-names>H. P.</given-names>
+</string-name> (<year>2005</year>). <article-title>Zero tolerance ecology: Improving ecological inference by modelling the source of zero observations</article-title>. <source>Ecology Letters</source>, <volume>8</volume>, <fpage>1235</fpage>&#x02013;<lpage>1246</lpage>. <pub-id pub-id-type="doi">10.1111/j.1461-0248.2005.00826.x</pub-id>
+<pub-id pub-id-type="pmid">21352447</pub-id></mixed-citation></ref><ref id="ece39627-bib-0038"><mixed-citation publication-type="miscellaneous" id="ece39627-cit-0038">
+<string-name>
+<surname>Mazerolle</surname>, <given-names>M. J.</given-names>
+</string-name> (<year>2020</year>). <article-title>AICcmodavg: Model selection and multimodel inference based on (Q)AIC(c). R package</article-title>. <ext-link xlink:href="https://cran.r-project.org/package=AICcmodavg" ext-link-type="uri">https://cran.r&#x02010;project.org/package=AICcmodavg</ext-link>
+</mixed-citation></ref><ref id="ece39627-bib-0039"><mixed-citation publication-type="journal" id="ece39627-cit-0039">
+<string-name>
+<surname>Miller</surname>, <given-names>D. A. W.</given-names>
+</string-name>, <string-name>
+<surname>Pacifici</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Sanderlin</surname>, <given-names>J. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Reich</surname>, <given-names>B. J.</given-names>
+</string-name> (<year>2019</year>). <article-title>The recent past and promising future for data integration methods to estimate species' distributions</article-title>. <source>Methods in Ecology and Evolution</source>, <volume>10</volume>, <fpage>22</fpage>&#x02013;<lpage>37</lpage>. <pub-id pub-id-type="doi">10.1111/2041-210x.13110</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0040"><mixed-citation publication-type="journal" id="ece39627-cit-0040">
+<string-name>
+<surname>Nakashima</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2020</year>). <article-title>Potentiality and limitations of N&#x02010;mixture and Royle&#x02010;Nichols models to estimate animal abundance based on noninstantaneous point surveys</article-title>. <source>Population Ecology</source>, <volume>62</volume>, <fpage>151</fpage>&#x02013;<lpage>157</lpage>. <pub-id pub-id-type="doi">10.1002/1438-390x.12028</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0041"><mixed-citation publication-type="journal" id="ece39627-cit-0041">
+<string-name>
+<surname>Penjor</surname>, <given-names>U.</given-names>
+</string-name>, <string-name>
+<surname>Astaras</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Cushman</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Kaszta</surname>, <given-names>&#x0017b;.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Macdonald</surname>, <given-names>D. W.</given-names>
+</string-name> (<year>2022</year>). <article-title>Contrasting effects of human settlement on the interaction among sympatric apex carnivores</article-title>. <source>Proceedings of the Royal Society B</source>, <volume>289</volume>, <elocation-id>20212681</elocation-id>.<pub-id pub-id-type="pmid">35473373</pub-id></mixed-citation></ref><ref id="ece39627-bib-0042"><mixed-citation publication-type="journal" id="ece39627-cit-0042">
+<string-name>
+<surname>Petersen</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Steinmetz</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Sribuarod</surname>, <given-names>K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ngoprasert</surname>, <given-names>D.</given-names>
+</string-name> (<year>2020</year>). <article-title>Density and movements of mainland clouded leopards (<italic toggle="yes">Neofelis nebulosa</italic>) under conditions of high and low poaching pressure</article-title>. <source>Global Ecology and Conservation</source>, <volume>23</volume>, <elocation-id>e01117</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.gecco.2020.e01117</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0043"><mixed-citation publication-type="journal" id="ece39627-cit-0043">
+<string-name>
+<surname>Pettorelli</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Barlow</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Nu&#x000f1;ez</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Rader</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Stephens</surname>, <given-names>P. A.</given-names>
+</string-name>, <string-name>
+<surname>Pinfield</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Newton</surname>, <given-names>E.</given-names>
+</string-name> (<year>2021</year>). <article-title>How international journals can support ecology from the global south</article-title>. <source>Journal of Applied Ecology</source>, <volume>58</volume>, <fpage>4</fpage>&#x02013;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2664.13815</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0044"><mixed-citation publication-type="book" id="ece39627-cit-0044">
+<string-name>
+<surname>Phillipps</surname>, <given-names>Q.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Phillipps</surname>, <given-names>K.</given-names>
+</string-name> (<year>2016</year>). <source>Phillipps' field guide to the mammals of Borneo: Sabah, Sarawak, Brunei, and Kalimantan</source>. <publisher-name>Princeton University Press</publisher-name>.</mixed-citation></ref><ref id="ece39627-bib-0045"><mixed-citation publication-type="journal" id="ece39627-cit-0045">
+<string-name>
+<surname>Polis</surname>, <given-names>G. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Strong</surname>, <given-names>D. R.</given-names>
+</string-name> (<year>1996</year>). <article-title>Food web complexity and community dynamics</article-title>. <source>The American Naturalist</source>, <volume>147</volume>, <fpage>813</fpage>&#x02013;<lpage>846</lpage>. <pub-id pub-id-type="doi">10.1086/285880</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0046"><mixed-citation publication-type="book" id="ece39627-cit-0046">
+<collab collab-type="authors">R Development Core Team</collab>
+. (<year>2021</year>). <source>R: A language and environment for statistical computing</source>. <publisher-name>R Foundation for Statistical Computing</publisher-name>.</mixed-citation></ref><ref id="ece39627-bib-0047"><mixed-citation publication-type="journal" id="ece39627-cit-0047">
+<string-name>
+<surname>Rayan</surname>, <given-names>D. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Linkie</surname>, <given-names>M.</given-names>
+</string-name> (<year>2020</year>). <article-title>Managing threatened ungulates in logged&#x02010;primary forest mosaics in Malaysia</article-title>. <source>PLoS One</source>, <volume>15</volume>, <elocation-id>e0243932</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0243932</pub-id>
+<pub-id pub-id-type="pmid">33315909</pub-id></mixed-citation></ref><ref id="ece39627-bib-0048"><mixed-citation publication-type="journal" id="ece39627-cit-0048">
+<string-name>
+<surname>Richmond</surname>, <given-names>O. M.</given-names>
+</string-name>, <string-name>
+<surname>Hines</surname>, <given-names>J. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Beissinger</surname>, <given-names>S. R.</given-names>
+</string-name> (<year>2010</year>). <article-title>Two&#x02010;species occupancy models: A new parameterization applied to co&#x02010;occurrence of secretive rails</article-title>. <source>Ecological Applications</source>, <volume>20</volume>(<issue>7</issue>), <fpage>2036</fpage>&#x02013;<lpage>2046</lpage>.<pub-id pub-id-type="pmid">21049888</pub-id></mixed-citation></ref><ref id="ece39627-bib-0049"><mixed-citation publication-type="journal" id="ece39627-cit-0049">
+<string-name>
+<surname>Ripple</surname>, <given-names>W. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Beschta</surname>, <given-names>R. L.</given-names>
+</string-name> (<year>2006</year>). <article-title>Linking a cougar decline, trophic cascade, and catastrophic regime shift in Zion National Park</article-title>. <source>Biological Conservation</source>, <volume>133</volume>, <fpage>397</fpage>&#x02013;<lpage>408</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2006.07.002</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0050"><mixed-citation publication-type="journal" id="ece39627-cit-0050">
+<string-name>
+<surname>Ripple</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Estes</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Beschta</surname>, <given-names>R. L.</given-names>
+</string-name>, <string-name>
+<surname>Wilmers</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name>
+<surname>Ritchie</surname>, <given-names>E. G.</given-names>
+</string-name>, <string-name>
+<surname>Hebblewhite</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Berger</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Elmhagen</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Letnic</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Nelson</surname>, <given-names>M. P.</given-names>
+</string-name>, <string-name>
+<surname>Schmitz</surname>, <given-names>O. J.</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>, <given-names>D. W.</given-names>
+</string-name>, <string-name>
+<surname>Wallach</surname>, <given-names>A. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wirsing</surname>, <given-names>A. J.</given-names>
+</string-name> (<year>2014</year>). <article-title>Status and ecological effects of the World's largest carnivores</article-title>. <source>Science</source>, <volume>343</volume>, <elocation-id>1241484</elocation-id>. <pub-id pub-id-type="doi">10.1126/science.1241484</pub-id>
+<pub-id pub-id-type="pmid">24408439</pub-id></mixed-citation></ref><ref id="ece39627-bib-0051"><mixed-citation publication-type="book" id="ece39627-cit-0051">
+<string-name>
+<surname>Ripple</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Rooney</surname>, <given-names>T. P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Beschta</surname>, <given-names>R. L.</given-names>
+</string-name> (<year>2009</year>). <part-title>Large predators, deer, and trophic cascades in boreal and temperate ecosystems</part-title>. In <person-group person-group-type="editor">
+<string-name>
+<given-names>J.</given-names>
+<surname>Terborgh</surname>
+</string-name>
+</person-group> &#x00026; <person-group person-group-type="editor">
+<string-name>
+<given-names>J. A.</given-names>
+<surname>Estes</surname>
+</string-name>
+</person-group> (Eds.), <source>Trophic cascades: Predators, prey, and the changing dynamics of nature</source>. <publisher-name>Island Press</publisher-name>.</mixed-citation></ref><ref id="ece39627-bib-0052"><mixed-citation publication-type="journal" id="ece39627-cit-0052">
+<string-name>
+<surname>Roth</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>B&#x000fc;hler</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Amrhein</surname>, <given-names>V.</given-names>
+</string-name> (<year>2016</year>). <article-title>Estimating effects of species interactions on populations of endangered species</article-title>. <source>The American Naturalist</source>, <volume>187</volume>, <fpage>457</fpage>&#x02013;<lpage>467</lpage>. <pub-id pub-id-type="doi">10.1086/685095</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0053"><mixed-citation publication-type="book" id="ece39627-cit-0053">
+<string-name>
+<surname>Rovero</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Zimmermann</surname>, <given-names>F.</given-names>
+</string-name> (<year>2016</year>). <source>Camera trapping for wildlife research</source>. <publisher-name>Pelagic Publishing</publisher-name>.</mixed-citation></ref><ref id="ece39627-bib-0054"><mixed-citation publication-type="journal" id="ece39627-cit-0054">
+<string-name>
+<surname>Royle</surname>, <given-names>J. A.</given-names>
+</string-name> (<year>2004</year>). <article-title>N&#x02010;mixture models for estimating population size from spatially replicated counts</article-title>. <source>Biometrics</source>, <volume>60</volume>, <fpage>108</fpage>&#x02013;<lpage>115</lpage>. <pub-id pub-id-type="doi">10.1111/j.0006-341x.2004.00142.x</pub-id>
+<pub-id pub-id-type="pmid">15032780</pub-id></mixed-citation></ref><ref id="ece39627-bib-0055"><mixed-citation publication-type="journal" id="ece39627-cit-0055">
+<string-name>
+<surname>Smith</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Suraci</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name>
+<surname>Hunter</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name>
+<surname>Gaynor</surname>, <given-names>K. M.</given-names>
+</string-name>, <string-name>
+<surname>Keller</surname>, <given-names>C. B.</given-names>
+</string-name>, <string-name>
+<surname>Palmer</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name>
+<surname>Atkins</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name>
+<surname>Casta&#x000f1;eda</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Cherry</surname>, <given-names>M. J.</given-names>
+</string-name>, <string-name>
+<surname>Garvey</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name>
+<surname>Huebner</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name>
+<surname>Morin</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<surname>Teckentrup</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Weterings</surname>, <given-names>M. J. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Beaudrot</surname>, <given-names>L.</given-names>
+</string-name> (<year>2020</year>). <article-title>Zooming in on mechanistic predator&#x02013;prey ecology: Integrating camera traps with experimental methods to reveal the drivers of ecological interactions</article-title>. <source>Journal of Animal Ecology</source>, <volume>89</volume>, <fpage>1997</fpage>&#x02013;<lpage>2012</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2656.13264</pub-id>
+<pub-id pub-id-type="pmid">32441766</pub-id></mixed-citation></ref><ref id="ece39627-bib-0056"><mixed-citation publication-type="journal" id="ece39627-cit-0056">
+<string-name>
+<surname>Sollmann</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Mohamed</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Samejima</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wilting</surname>, <given-names>A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Risky business or simple solution &#x02013; Relative abundance indices from camera&#x02010;trapping</article-title>. <source>Biological Conservation</source>, <volume>159</volume>, <fpage>405</fpage>&#x02013;<lpage>412</lpage>. <pub-id pub-id-type="doi">10.1016/j.biocon.2012.12.025</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0057"><mixed-citation publication-type="journal" id="ece39627-cit-0057">
+<string-name>
+<surname>Terborgh</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Lopz</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Nunez</surname>, <given-names>V. P.</given-names>
+</string-name>, <string-name>
+<surname>Rao</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Shahabuddin</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Orihuela</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Riveros</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Ascanio</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Adler</surname>, <given-names>G. H.</given-names>
+</string-name>, <string-name>
+<surname>Lambert</surname>, <given-names>T. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Balbas</surname>, <given-names>L.</given-names>
+</string-name> (<year>2001</year>). <article-title>Ecological meltdown in predator&#x02010;free Forest fragments</article-title>. <source>Science</source>, <volume>294</volume>, <fpage>1923</fpage>&#x02013;<lpage>1926</lpage>. <pub-id pub-id-type="doi">10.1126/science.1064397</pub-id>
+<pub-id pub-id-type="pmid">11729317</pub-id></mixed-citation></ref><ref id="ece39627-bib-0058"><mixed-citation publication-type="journal" id="ece39627-cit-0058">
+<string-name>
+<surname>Terborgh</surname>, <given-names>J. W.</given-names>
+</string-name> (<year>2015</year>). <article-title>Toward a trophic theory of species diversity</article-title>. <source>Proceedings of the National Academy of Sciences</source>, <volume>112</volume>, <fpage>11415</fpage>&#x02013;<lpage>11422</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1501070112</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0059"><mixed-citation publication-type="journal" id="ece39627-cit-0059">
+<string-name>
+<surname>Tobler</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name>
+<surname>K&#x000e9;ry</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hui</surname>, <given-names>F. K. C.</given-names>
+</string-name>, <string-name>
+<surname>Guillera&#x02010;Arroita</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Knaus</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sattler</surname>, <given-names>T.</given-names>
+</string-name> (<year>2019</year>). <article-title>Joint species distribution models with species correlations and imperfect detection</article-title>. <source>Ecology</source>, <volume>100</volume>, <elocation-id>e02754</elocation-id>. <pub-id pub-id-type="doi">10.1002/ecy.2754</pub-id>
+<pub-id pub-id-type="pmid">31062356</pub-id></mixed-citation></ref><ref id="ece39627-bib-0060"><mixed-citation publication-type="journal" id="ece39627-cit-0060">
+<string-name>
+<surname>Venter</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Sanderson</surname>, <given-names>E. W.</given-names>
+</string-name>, <string-name>
+<surname>Magrach</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Allan</surname>, <given-names>J. R.</given-names>
+</string-name>, <string-name>
+<surname>Beher</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>, <given-names>K. R.</given-names>
+</string-name>, <string-name>
+<surname>Possingham</surname>, <given-names>H. P.</given-names>
+</string-name>, <string-name>
+<surname>Laurance</surname>, <given-names>W. F.</given-names>
+</string-name>, <string-name>
+<surname>Wood</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Fekete</surname>, <given-names>B. M.</given-names>
+</string-name>, <string-name>
+<surname>Levy</surname>, <given-names>M. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Watson</surname>, <given-names>J. E. M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Sixteen years of change in the global terrestrial human footprint and implications for biodiversity conservation</article-title>. <source>Nature Communications</source>, <volume>7</volume>, <elocation-id>12558</elocation-id>. <pub-id pub-id-type="doi">10.1038/ncomms12558</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0061"><mixed-citation publication-type="journal" id="ece39627-cit-0061">
+<string-name>
+<surname>Visser</surname>, <given-names>M. D.</given-names>
+</string-name>, <string-name>
+<surname>McMahon</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<surname>Merow</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Dixon</surname>, <given-names>P. M.</given-names>
+</string-name>, <string-name>
+<surname>Record</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Jongejans</surname>, <given-names>E.</given-names>
+</string-name> (<year>2015</year>). <article-title>Speeding up ecological and evolutionary computations in R; essentials of high performance computing for biologists</article-title>. <source>PLoS Computational Biology</source>, <volume>11</volume>(<issue>3</issue>), <elocation-id>e1004140</elocation-id>.<pub-id pub-id-type="pmid">25811842</pub-id></mixed-citation></ref><ref id="ece39627-bib-0062"><mixed-citation publication-type="journal" id="ece39627-cit-0062">
+<string-name>
+<surname>Volterra</surname>, <given-names>V.</given-names>
+</string-name> (<year>1927</year>). <article-title>Fluctuations in the abundance of a species considered mathematically</article-title>. <source>Nature</source>, <volume>119</volume>, <fpage>12</fpage>&#x02013;<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1038/119012b0</pub-id>
+</mixed-citation></ref><ref id="ece39627-bib-0063"><mixed-citation publication-type="journal" id="ece39627-cit-0063">
+<string-name>
+<surname>Wolf</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ripple</surname>, <given-names>W. J.</given-names>
+</string-name> (<year>2016</year>). <article-title>Prey depletion as a threat to the world's large carnivores</article-title>. <source>Royal Society Open Science</source>, <volume>3</volume>(<issue>8</issue>), <fpage>160252</fpage>.<pub-id pub-id-type="pmid">27853599</pub-id></mixed-citation></ref><ref id="ece39627-bib-0064"><mixed-citation publication-type="journal" id="ece39627-cit-0064">
+<string-name>
+<surname>Wright</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name>
+<surname>Gompper</surname>, <given-names>M. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>DeLeon</surname>, <given-names>B.</given-names>
+</string-name> (<year>1994</year>). <article-title>Are large predators keystone species in Neotropical forests? The evidence from Barro Colorado Island</article-title>. <source>Oikos</source>, <volume>71</volume>, <fpage>279</fpage>&#x02013;<lpage>294</lpage>. <pub-id pub-id-type="doi">10.2307/3546277</pub-id>
+</mixed-citation></ref></ref-list></back></article>

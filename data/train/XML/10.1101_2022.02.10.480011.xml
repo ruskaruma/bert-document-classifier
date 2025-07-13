@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Title: "polishCLR: a Nextflow workflow for polishing PacBio CLR genome assemblies</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Jennifer</forename><surname>Chang</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> . USDA, Agricultural Research Service, Jamie Whitten Delta States Research Center,</note>
+<orgname type="department">Agricultural Research Service</orgname>
+<orgname key="instit1" type="institution">USDA</orgname>
+<orgname key="instit2" type="institution">Jamie Whitten Delta States Research Center</orgname>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Genomics and Bioinformatics Research Unit, 141 Experiment Station Road, Stoneville, MS 38776, USA</note>
+<orgname type="department">Genomics and Bioinformatics Research Unit</orgname>
+<address>
+<addrline>141 Experiment Station Road</addrline>
+<postcode>38776</postcode>
+<settlement>Stoneville</settlement>
+<region>MS</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+<affiliation key="aff2">
+<note type="raw_affiliation"> . Oak Ridge Institute for Science and Education, P.O. Box 117, Oak Ridge, TN 37831, USA</note>
+<orgname type="department">Oak Ridge Institute for Science and Education</orgname>
+<address>
+<postbox>P.O. Box 117</postbox>
+<postcode>37831</postcode>
+<settlement>Oak Ridge</settlement>
+<region>TN</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+<affiliation key="aff3">
+<note type="raw_affiliation"> . Genome Informatics Facility, Office of Biotechnology, Iowa State University, Ames, Iowa 50010, USA</note>
+<orgname key="dep1" type="department">Genome Informatics Facility</orgname>
+<orgname key="dep2" type="department">Office of Biotechnology</orgname>
+<orgname type="institution">Iowa State University</orgname>
+<address>
+<postcode>50010</postcode>
+<settlement>Ames</settlement>
+<region>Iowa</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Amanda</forename><forename type="middle">R</forename><surname>Stahlke</surname></persname>
+<email>amandastahlke@usda.gov</email>
+<affiliation key="aff4">
+<note type="raw_affiliation"> . USDA, Agricultural Research Service, Beltsville Agricultural Research Center, Bee Research Laboratory, 10300 Baltimore Avenue, Beltsville MD 20705, USA</note>
+<orgname type="department">Agricultural Research Service</orgname>
+<orgname type="laboratory">Bee Research Laboratory</orgname>
+<orgname key="instit1" type="institution">USDA</orgname>
+<orgname key="instit2" type="institution">Beltsville Agricultural Research Center</orgname>
+<address>
+<addrline>10300 Baltimore Avenue</addrline>
+<postcode>20705</postcode>
+<settlement>Beltsville</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Sivanandan</forename><surname>Chudalayandi</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> . Genome Informatics Facility, Office of Biotechnology, Iowa State University, Ames, Iowa 50010, USA</note>
+<orgname key="dep1" type="department">Genome Informatics Facility</orgname>
+<orgname key="dep2" type="department">Office of Biotechnology</orgname>
+<orgname type="institution">Iowa State University</orgname>
+<address>
+<postcode>50010</postcode>
+<settlement>Ames</settlement>
+<region>Iowa</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Benjamin</forename><forename type="middle">D</forename><surname>Rosen</surname></persname>
+<email>ben.rosen@usda.gov</email>
+<affiliation key="aff5">
+<note type="raw_affiliation"> . USDA, Agricultural Research Service, Beltsville Agricultural Research Center, Animal Genomics and Improvement Laboratory, 10300 Baltimore Avenue, Beltsville, MD 20705, USA</note>
+<orgname key="dep1" type="department">Agricultural Research Service</orgname>
+<orgname key="dep2" type="department">Animal Genomics and Improvement Laboratory</orgname>
+<orgname key="instit1" type="institution">USDA</orgname>
+<orgname key="instit2" type="institution">Beltsville Agricultural Research Center</orgname>
+<address>
+<addrline>10300 Baltimore Avenue</addrline>
+<postcode>20705</postcode>
+<settlement>Beltsville</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Anna</forename><forename type="middle">K</forename><surname>Childers</surname></persname>
+<email>anna.childers@usda.gov</email>
+<affiliation key="aff4">
+<note type="raw_affiliation"> . USDA, Agricultural Research Service, Beltsville Agricultural Research Center, Bee Research Laboratory, 10300 Baltimore Avenue, Beltsville MD 20705, USA</note>
+<orgname type="department">Agricultural Research Service</orgname>
+<orgname type="laboratory">Bee Research Laboratory</orgname>
+<orgname key="instit1" type="institution">USDA</orgname>
+<orgname key="instit2" type="institution">Beltsville Agricultural Research Center</orgname>
+<address>
+<addrline>10300 Baltimore Avenue</addrline>
+<postcode>20705</postcode>
+<settlement>Beltsville</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Andrew</forename><surname>Severin</surname></persname>
+<email>severin@iastate.edu</email>
+<affiliation key="aff3">
+<note type="raw_affiliation"> . Genome Informatics Facility, Office of Biotechnology, Iowa State University, Ames, Iowa 50010, USA</note>
+<orgname key="dep1" type="department">Genome Informatics Facility</orgname>
+<orgname key="dep2" type="department">Office of Biotechnology</orgname>
+<orgname type="institution">Iowa State University</orgname>
+<address>
+<postcode>50010</postcode>
+<settlement>Ames</settlement>
+<region>Iowa</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<affiliation key="aff6">
+<note type="raw_affiliation">Genome Informatics Facility, Iowa State University, Ames, Iowa, USA, 50010,</note>
+<orgname type="department">Genome Informatics Facility</orgname>
+<orgname type="institution">Iowa State University</orgname>
+<address>
+<postcode>50010</postcode>
+<settlement>Ames</settlement>
+<region>Iowa</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Title: "polishCLR: a Nextflow workflow for polishing PacBio CLR genome assemblies</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">E450B687C3F66A80B34A72775621AD72</idno>
+<idno type="DOI">10.1101/2022.02.10.480011</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-09-01T14:40+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Long-read sequencing has revolutionized genome assembly, yielding highly contiguous, chromosome-level contigs.</s><s>However, assemblies from some third generation long read technologies, such as Pacific Biosciences (PacBio) Continuous Long Reads (CLR), have a high error rate.</s><s>Such errors can be corrected with short reads through a process called polishing.</s></p><p><s>Although best practices for polishing non-model de novo genome assemblies were recently described by the Vertebrate Genome Project (VGP) Assembly community, there is a need for a publicly available, reproducible workflow that can be easily implemented and run on a</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>conventional high performance computing environment.</s><s>Here, we describe polishCLR (https://github.com/isugifNF/polishCLR),</s><s>a reproducible Nextflow workflow that implements best practices for polishing assemblies made from CLR data.</s><s>PolishCLR can be initiated from several input options that extend best practices to suboptimal cases.</s><s>It also provides re-entry points throughout several key processes including identifying duplicate haplotypes in purge_dups, allowing a break for scaffolding if data are available, and throughout multiple rounds of polishing and evaluation with Arrow and FreeBayes.</s><s>PolishCLR is containerized and publicly available for the greater assembly community as a tool to complete assemblies from existing, error-prone long-read data.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Main<p><s>Long reads, including those generated by third-generation sequencing platforms such as Pacific Biosciences (PacBio) and Oxford Nanopore Technology (ONT), have revolutionized genome assembly <ref target="#b2" type="bibr">(Childers et al., 2021;</ref><ref target="#b14" type="bibr">Hotaling et al., 2021;</ref><ref target="#b22" type="bibr">Rhie et al., 2021)</ref>.</s><s>However, until recent advances <ref target="#b13" type="bibr">(Hon et al., 2020;</ref><ref target="#b33" type="bibr">Wang et al., 2021)</ref>, long-read sequencing technologies have had high error rates (5-15%), especially among indels <ref target="#b35" type="bibr">(Watson &amp; Warr, 2019)</ref>.</s><s>Thus, the vast majority of long-read data that is currently publicly available yields assemblies with low overall consensus accuracy, which, if left uncorrected, negatively impacts downstream analyses, such as gene annotation <ref target="#b35" type="bibr">(Watson &amp; Warr, 2019)</ref>.</s><s>These assembly errors require correction with an additional higher fidelity read set, such as short-read Illumina data, in a process called polishing <ref target="#b3" type="bibr">(Chin et al., 2016;</ref><ref type="bibr">Helper et al., 2016;</ref><ref target="#b32" type="bibr">Walker et al., 2014)</ref>.</s></p><p><s>Polishing can be a complex process, with high computational cost, non-trivial filehandling, and issues around special cases that must be resolved.</s><s>For example, the long-read contig assembly should ideally be polished with high-fidelity reads from the same individual, but this may not be technically feasible when sufficient DNA cannot be extracted from individual specimens, for example in small-bodied organisms such as many insects.</s><s>In such cases, it is necessary to modify parameters in the standard workflow.</s><s>Best practices for de novo, chromosome-scale vertebrate genome assembly from error prone PacBio continuous long reads (CLR) reads were recently described <ref target="#b22" type="bibr">(Rhie et al., 2021)</ref>, however it can be challenging to run this code and reproduce widely.</s><s>In order to produce the best possible genome assemblies using existing data from species regardless of their position in the tree of life, the genome assembly community needs a publicly available, flexible and reproducible workflow that is containerized so it can be run on any conventional HPC.</s></p><p><s>Bioinformatic pipelines with complex entrance and decision points, such as polishing, are inherently difficult to track, develop, and debug.</s><s>Increasing interest in workflow development systems that track data and software provenance, enable scalability and reproducibility, and re-entrant code <ref target="#b36" type="bibr">(Wratten et al., 2021)</ref> have led to the development of several workflow languages, largely inspired by GNU Make <ref target="#b0" type="bibr">(Amstutz et al., 2016;</ref><ref target="#b18" type="bibr">Köster &amp; Rahmann, 2012;</ref><ref target="#b30" type="bibr">Stallman &amp; McGrath, 1991)</ref>.</s><s>Nextflow is a Domain Specific Language <ref target="#b4" type="bibr">(Di Tommaso et al., 2017)</ref> that currently leads workflow systems in terms of ease of scripting and submitting to cloud computing resources <ref target="#b7" type="bibr">(Fjukstad &amp; Bongo, 2017;</ref><ref target="#b16" type="bibr">Jackson et al., 2021;</ref><ref target="#b19" type="bibr">Leipzig, 2017;</ref><ref target="#b28" type="bibr">Spjuth et al., 2020)</ref>.</s><s>A key benefit of Nextflow compared to earlier workflow languages is being able to submit jobs to a local machine, an HPC, or cloud-based compute environments.</s><s>These features empower a large range of bioinformatic pipelines, for example, initial read processing and annotation lift-over <ref target="#b6" type="bibr">(Federico et al., 2019;</ref><ref target="#b31" type="bibr">Talenti &amp; Prendergast, 2021)</ref>.</s><s>In this paper, we describe polishCLR, a reproducible Nextflow workflow which implements the current best practices for polishing CLR assemblies and is flexible to multiple input assembly and sample considerations.</s></p><p><s>The polishCLR workflow can be easily initiated from three input cases (Fig. <ref type="figure">1</ref>).</s><s>In the first case (Case 1), users may start with an unresolved primary assembly with (e.g., the output of FALCON 2-asm <ref target="#b3" type="bibr">(Chin et al., 2016)</ref>) or without (e.g., the output of Canu or wtdbg2 <ref target="#b17" type="bibr">(Koren et al., 2017;</ref><ref target="#b24" type="bibr">Ruan &amp; Li, 2020</ref>)) associated contigs.</s><s>Additionally, it can handle a haplotype-resolved but unpolished set (Case 2) (e.g., the output of FALCON-Unzip 3-unzip <ref target="#b3" type="bibr">(Chin et al., 2016)</ref>).</s><s>In the ideal case (Case 3), the pipeline is initiated with a haplotype-resolved, CLR long-read polished set of primary and alternate contigs (e.g., the output of FALCON-Unzip 4-polish).</s><s>In all cases, inclusion of organellar genomes, e.g., the mitochondrial genome, will improve the polishing of nuclear mitochondrial or plasmid pseudogenes <ref target="#b15" type="bibr">(Howe et al., 2021)</ref>.</s><s>Organellar genomes should be generated and polished separately for best results, using pipelines such as the mitochondrial companion to polishCLR, polishCLRmt <ref type="bibr">(Stahlke et al, in prep)</ref> or mitoVGP <ref target="#b9" type="bibr">(Formenti et al., 2021)</ref>.</s><s>To allow for the inclusion of scaffolding before final polishing (e.g., <ref target="#b5" type="bibr">Durand et al., 2016)</ref> and increase the potential for gap-filling across correctly oriented scaffolded contigs, the core workflow is divided into two steps, controlled by a --step parameter flag.</s></p><p><s>In --step 1, if initiating the workflow under Case 1 or 2, unpolished primary contigs are merged with the organellar genome and associated contigs or alternate haplotypes if available, then polished with a single round of Arrow long-read polishing (Pacific BioScience) before entering the core workflow (controlled by --arrow01 true).</s><s>During Arrow steps (here and later in</s></p><p><s>Step 2), polishCLR improves re-entry and computational resource use by delineating at least seven Nextflow processes: 1) indexing each contig, 2) creating a pbmm2 index of the assembly, 3) aligning PacBio reads to the assembly, 4) submitting a GCpp Arrow job for each contig in parallel, 5) combining the separate contig variant calling format (VCF) files, 6) reformatting Arrow generated VCF for Merfin filtering <ref target="#b9" type="bibr">(Formenti et al., 2021)</ref>, and 7) converting the resultant VCF back to FASTA format.</s><s>Then, in all three cases, the core workflow employs purge_dups v. 1.2.5 <ref target="#b11" type="bibr">(Guan et al., 2020)</ref> to remove duplicated sequence at the ends of separated primary contigs, with cutoffs automatically estimated from a generated histogram of k-mers.</s><s>The histogram is captured as one of the relevant outputs for users to review.</s><s>Purged primary sequences are then concatenated to the alternate haplotype contigs and the combined alternate set is purged of duplicates.</s><s>BUSCO completeness metrics <ref target="#b20" type="bibr">(Manni et al., 2021;</ref><ref target="#b25" type="bibr">Seppey et al., 2019;</ref><ref target="#b27" type="bibr">Simao et al., 2015;</ref><ref target="#b34" type="bibr">Waterhouse et al., 2018)</ref> are generated for the primary contigs before and after removing duplicated content to ensure that cutoff parameters are effective and do not remove too much genic content.</s><s>The eukaryotic BUSCO database is used by default, but users may provide a designated lineage (controlled by a --busco-lineage flag).</s><s>If additional data are available, this de-duplicated primary contig assembly can then be scaffolded by the user before initiating the second phase of the workflow.</s></p><p><s>In --step 2, the primary, alternate, and organellar assemblies are merged and polished with an additional round of Arrow, followed by two rounds of FreeBayes <ref target="#b10" type="bibr">(Garrison &amp; Marth, 2012)</ref>.</s><s>Indeed, the iterative nature of polishing benefits from the re-entrant caching and templates of the workflow.</s><s>By default, this second round of Arrow-identified variants are only filtered via Merfin if the CLR and the Illumina reads came from the same specimen, adding additional Nextflow processes to the Arrow delineation described above to create a meryl genome database and perform filtering <ref type="bibr">(McCartney et. al, unpublished data)</ref>.</s><s>However, if shortread data are from a different specimen than the long-read-based contig assembly, then Merfin filtering can be turned off to avoid over-polishing with the parameter flag --same-specimen false.</s></p><p><s>As with Arrow, polishCLR takes advantage of Nextflow in seven processes to implement FreeBayes: 1) creating contig windows, 2) generating a meryl database from the genome, 3) aligning Illumina short reads, 4) polishing via FreeBayes, 5) combining windowed VCF files, 6) filtering VCFs by Merfin, 7) and converting VCFs to FASTA.</s><s>Throughout the polishCLR workflow, reports are automatically generated to assess genome assembly quality, including kmer based completeness and consensus accuracy QV scores via Merqury <ref target="#b23" type="bibr">(Rhie et al., 2020)</ref>, as well as genome size distribution statistics generated with BBMap (e.g., N50) <ref target="#b1" type="bibr">(Bushnell, 2014)</ref>.</s><s>These reports allow users to understand how the assembly changed through each major phase of the workflow.</s><s>The complete, detailed pipeline can be viewed in Supplemental Figure <ref type="figure">1</ref>.</s></p><p><s>The polishCLR workflow is publicly available (https://github.com/isugifNF/polishCLR),</s><s>reproducible, interoperable, easily portable, and can be run on a conventional HPC or extended to cloud computing resources simply by swapping out the Nextflow config file.</s><s>Software dependencies are listed in a conda environment file.</s><s>Its use has been demonstrated on several arthropod species assemblies as part of the Ag100Pest Initiative <ref target="#b2" type="bibr">(Childers et al., 2021)</ref>.</s></p><p><s>Runtimes and summaries from each of the three starting input cases are included (Supplementary Table <ref target="#tab_1" type="table">S1</ref>; <ref target="#b29" type="bibr">Stahlke and Coates, 2022)</ref> with a full genome announcement forthcoming <ref type="bibr">(Stahlke et al., unpublished data)</ref>.</s><s>The polishCLR workflow will increase the efficiency of polishing many genomes and reduce the potential of human error in this multistep process.</s><s>Despite the much-reduced error rate of PacBio HiFi and ONT reads, polishing approaches continue to be an important component of accurate genome assembly <ref type="bibr">(Shafin et al., 2021)</ref>.</s><s>Although this pipeline was not designed to polish with ONT reads, the workflow is available on GitHub and welcomes any future contributions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Figures &amp; Tables</div><figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Diagram of polishCLR workflow for three input cases.</s><s>Polishing steps 1 and 2 are run separately to accommodate an optional scaffolding step.</s><s>Blue arrows indicate processes while black boxes indicate products.</s><s>The dotted arrow indicates that the manual scaffolding step is optional and not within the scope of this pipeline.</s></p></div></figdesc><table><row><cell cols="2">Case Input stage</cell><cell>Input Genome</cell><cell>Starting</cell><cell>Final QV CPU</cell><cell>Output Genome</cell></row><row><cell></cell><cell>of Falcon</cell><cell>Size (Mb) /</cell><cell>QV</cell><cell>hours</cell><cell>Size (Mb) / Number</cell></row><row><cell></cell><cell>assembly</cell><cell>Number of</cell><cell></cell><cell></cell><cell>of contigs</cell></row><row><cell></cell><cell></cell><cell>contigs</cell><cell></cell><cell></cell></row><row><cell>1</cell><cell>2-asm-</cell><cell>501.287 / 789</cell><cell>31.8218</cell><cell cols="2">40.3033 211.3 500.578 / 799</cell></row><row><cell></cell><cell>falcon/</cell><cell></cell><cell></cell><cell></cell></row><row><cell>2</cell><cell>3-unzip/</cell><cell>515.499 / 1125</cell><cell>31.8492</cell><cell cols="2">38.9997 224.2 511.878 / 1022</cell></row><row><cell>3</cell><cell>4-polish/</cell><cell>509.063 / 882</cell><cell>38.8556</cell><cell cols="2">41.9163 195.0 509.052 / 882</cell></row><row><cell cols="2">Supplemental</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>(Chin et al. 2016)flow was benchmarked on the primary contigs of Helicoverpa zea generated by FALCON(Chin et al. 2016).</s><s>Metrics for each assembly include starting pseudo-haploid primary and alternate combined genome size (Mb) and number of contigs, initial quality scores, CPU hours through the pipeline final quality scores, and final genome size and number of contigs.</s><s>This table provides an indication of scalability of the pipeline on a SLURM managed HPC.</s></p></div></figdesc><table></table></figure>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgements<p><s>This work was supported by the U.S. Department of Agriculture, Agricultural Research Service (USDA-ARS) and used resources provided by the SCINet project of the USDA-ARS, ARS</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<monogr>
+<title level="m" type="main">Common workflow language</title>
+<author>
+<persname><forename type="first">P</forename><surname>Amstutz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Crusoe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Tijanić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Chapman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Chilton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Heuer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kartashov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Leehr</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Ménager</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Nedeljkovich</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2016">2016</date>
+<biblscope unit="volume">1</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Amstutz, P., Crusoe, M. R., Tijanić, N., Chapman, B., Chilton, J., Heuer, M., Kartashov, A., Leehr, D., Ménager, H., &amp; Nedeljkovich, M. (2016). Common workflow language, v1.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<monogr>
+<title level="m" type="main">BBTools software package</title>
+<author>
+<persname><forename type="first">B</forename><surname>Bushnell</surname></persname>
+</author>
+<ptr target="578"></ptr>
+<imprint>
+<date type="published" when="2014">2014</date>
+<biblscope unit="page">579</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Bushnell, B. (2014). BBTools software package. URL http://sourceforge. net/projects/bbmap, 578, 579.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">The USDA-ARS Ag100Pest Initiative: High-Quality Genome Assemblies for Agricultural Pest Arthropod Research</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">K</forename><surname>Childers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Geib</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">B</forename><surname>Sim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">F</forename><surname>Poelchau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">S</forename><surname>Coates</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Simmonds</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">D</forename><surname>Scully</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">P L</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">P</forename><surname>Childers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L</forename><surname>Corpuz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Hackett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Scheffler</surname></persname>
+</author>
+<idno type="DOI">10.3390/insects12070626</idno>
+<ptr target="https://doi.org/10.3390/insects12070626"></ptr>
+</analytic>
+<monogr>
+<title level="j">Insects</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="issue">7</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Childers, A. K., Geib, S. M., Sim, S. B., Poelchau, M. F., Coates, B. S., Simmonds, T. J., Scully, E. D., Smith, T. P. L., Childers, C. P., Corpuz, R. L., Hackett, K., &amp; Scheffler, B. (2021). The USDA-ARS Ag100Pest Initiative: High-Quality Genome Assemblies for Agricultural Pest Arthropod Research. Insects, 12(7). https://doi.org/10.3390/insects12070626</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Phased diploid genome assembly with single-molecule real-time sequencing</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">S</forename><surname>Chin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Peluso</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">J</forename><surname>Sedlazeck</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Nattestad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">T</forename><surname>Concepcion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Clum</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dunn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>O'malley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Figueroa-Balderas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Morales-Cruz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">R</forename><surname>Cramer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Delledonne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Luo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Ecker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Cantu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Rank</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Schatz</surname></persname>
+</author>
+<idno type="DOI">10.1038/nmeth.4035</idno>
+<ptr target="https://doi.org/10.1038/nmeth.4035"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Methods</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope from="1050" to="1054" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chin, C. S., Peluso, P., Sedlazeck, F. J., Nattestad, M., Concepcion, G. T., Clum, A., Dunn, C., O'Malley, R., Figueroa-Balderas, R., Morales-Cruz, A., Cramer, G. R., Delledonne, M., Luo, C., Ecker, J. R., Cantu, D., Rank, D. R., &amp; Schatz, M. C. (2016). Phased diploid genome assembly with single-molecule real-time sequencing. Nat Methods, 13(12), 1050-1054. https://doi.org/10.1038/nmeth.4035</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Nextflow enables reproducible computational workflows</title>
+<author>
+<persname><forename type="first">P</forename><surname>Di Tommaso</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Chatzou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">W</forename><surname>Floden</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">P</forename><surname>Barja</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Palumbo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Notredame</surname></persname>
+</author>
+<idno type="DOI">10.1038/nbt.3820</idno>
+<ptr target="https://doi.org/10.1038/nbt.3820"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Biotechnol</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="316" to="319" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Di Tommaso, P., Chatzou, M., Floden, E. W., Barja, P. P., Palumbo, E., &amp; Notredame, C. (2017). Nextflow enables reproducible computational workflows. Nat Biotechnol, 35(4), 316-319. https://doi.org/10.1038/nbt.3820</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Juicebox Provides a Visualization System for Hi-C Contact Maps with Unlimited Zoom</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">C</forename><surname>Durand</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">T</forename><surname>Robinson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">S</forename><surname>Shamim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Machol</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Mesirov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">S</forename><surname>Lander</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">L</forename><surname>Aiden</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.cels.2015.07.012</idno>
+<ptr target="https://doi.org/10.1016/j.cels.2015.07.012"></ptr>
+</analytic>
+<monogr>
+<title level="j">Cell Syst</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="99" to="101" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Durand, N. C., Robinson, J. T., Shamim, M. S., Machol, I., Mesirov, J. P., Lander, E. S., &amp; Aiden, E. L. (2016). Juicebox Provides a Visualization System for Hi-C Contact Maps with Unlimited Zoom. Cell Syst, 3(1), 99-101. https://doi.org/10.1016/j.cels.2015.07.012</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Pipeliner: A Nextflow-based framework for the definition of sequencing data processing pipelines</title>
+<author>
+<persname><forename type="first">A</forename><surname>Federico</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Karagiannis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Karri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Kishore</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Koga</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Campbell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Monti</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Frontiers in genetics</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="page">614</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Federico, A., Karagiannis, T., Karri, K., Kishore, D., Koga, Y., Campbell, J. D., &amp; Monti, S. (2019). Pipeliner: A Nextflow-based framework for the definition of sequencing data processing pipelines. Frontiers in genetics, 10, 614.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">A review of scalable bioinformatics pipelines</title>
+<author>
+<persname><forename type="first">B</forename><surname>Fjukstad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">A</forename><surname>Bongo</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Data Science and Engineering</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="245" to="251" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fjukstad, B., &amp; Bongo, L. A. (2017). A review of scalable bioinformatics pipelines. Data Science and Engineering, 2(3), 245-251.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Vertebrate Genomes Project, C. (2021). Complete vertebrate mitogenomes reveal widespread repeats and gene duplications</title>
+<author>
+<persname><forename type="first">G</forename><surname>Formenti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Rhie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Balacco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Haase</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Mountcastle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Fedrigo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Capodiferro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">O</forename><surname>Al-Ajli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ambrosini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Houde</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Koren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Oliver</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Skelton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Betteridge</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Dolucan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Corton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Bista</surname></persname>
+</author>
+<idno type="DOI">10.1186/s13059-021-02336-9</idno>
+<ptr target="https://doi.org/10.1186/s13059-021-02336-9"></ptr>
+</analytic>
+<monogr>
+<title level="j">Genome Biol</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope unit="page">120</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Formenti, G., Rhie, A., Balacco, J., Haase, B., Mountcastle, J., Fedrigo, O., Brown, S., Capodiferro, M. R., Al-Ajli, F. O., Ambrosini, R., Houde, P., Koren, S., Oliver, K., Smith, M., Skelton, J., Betteridge, E., Dolucan, J., Corton, C., Bista, I., . . . Vertebrate Genomes Project, C. (2021). Complete vertebrate mitogenomes reveal widespread repeats and gene duplications. Genome Biol, 22(1), 120. https://doi.org/10.1186/s13059-021-02336- 9</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Merfin: improved variant filtering and polishing via k-mer validation</title>
+<author>
+<persname><forename type="first">G</forename><surname>Formenti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Rhie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">P</forename><surname>Walenz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Thibaud-Nissen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Shafin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Koren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">W</forename><surname>Myers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">D</forename><surname>Jarvis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Phillippy</surname></persname>
+</author>
+<idno type="DOI">10.1101/2021.07.16.452324</idno>
+<idno>2007.2016.452324</idno>
+<ptr target="https://doi.org/10.1101/2021.07.16.452324"></ptr>
+</analytic>
+<monogr>
+<title level="j">bioRxiv</title>
+<imprint>
+<date type="published" when="2021">2021. 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Formenti, G., Rhie, A., Walenz, B. P., Thibaud-Nissen, F., Shafin, K., Koren, S., Myers, E. W., Jarvis, E. D., &amp; Phillippy, A. M. (2021). Merfin: improved variant filtering and polishing via k-mer validation. bioRxiv, 2021.2007.2016.452324. https://doi.org/10.1101/2021.07.16.452324</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Haplotype-based variant detection from short-read sequencing</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">P</forename><surname>Garrison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">T</forename><surname>Marth</surname></persname>
+</author>
+<idno>arXiv:</idno>
+</analytic>
+<monogr>
+<title level="j">Genomics</title>
+<imprint>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Garrison, E. P., &amp; Marth, G. T. (2012). Haplotype-based variant detection from short-read sequencing. arXiv: Genomics.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Identifying and removing haplotypic duplication in primary genome assemblies</title>
+<author>
+<persname><forename type="first">D</forename><surname>Guan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Mccarthy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wood</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Howe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Durbin</surname></persname>
+</author>
+<idno type="DOI">10.1093/bioinformatics/btaa025</idno>
+<ptr target="https://doi.org/10.1093/bioinformatics/btaa025"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bioinformatics</title>
+<imprint>
+<biblscope unit="volume">36</biblscope>
+<biblscope unit="issue">9</biblscope>
+<biblscope from="2896" to="2898" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Guan, D., McCarthy, S. A., Wood, J., Howe, K., Wang, Y., &amp; Durbin, R. (2020). Identifying and removing haplotypic duplication in primary genome assemblies. Bioinformatics, 36(9), 2896-2898. https://doi.org/10.1093/bioinformatics/btaa025</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">An improved circular consensus algorithm with an application to detect HIV-1 Drug-Resistance associated mutations (DRAMs)</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">L</forename><surname>Hepler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Katzenstein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">E</forename><surname>Paxinos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Alexander</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Conference on Advances in Genome Biology and Technology</title>
+<imprint>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hepler, N.L., Brown, M., Smith, M.L., Katzenstein, D., Paxinos, E.E. and Alexander, D., 2016. An improved circular consensus algorithm with an application to detect HIV-1 Drug- Resistance associated mutations (DRAMs). In Conference on Advances in Genome Biology and Technology.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Highly accurate long-read HiFi sequencing data for five complex genomes</title>
+<author>
+<persname><forename type="first">T</forename><surname>Hon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Mars</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Young</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><forename type="middle">C</forename><surname>Tsai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Karalius</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Landolin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Maurer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Kudrna</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Hardigan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">C</forename><surname>Steiner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Knapp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Ware</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Shapiro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Peluso</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Rank</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41597-020-00743-4</idno>
+<ptr target="https://doi.org/10.1038/s41597-020-00743-4"></ptr>
+</analytic>
+<monogr>
+<title level="j">Sci Data</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope unit="page">399</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hon, T., Mars, K., Young, G., Tsai, Y. C., Karalius, J. W., Landolin, J. M., Maurer, N., Kudrna, D., Hardigan, M. A., Steiner, C. C., Knapp, S. J., Ware, D., Shapiro, B., Peluso, P., &amp; Rank, D. R. (2020). Highly accurate long-read HiFi sequencing data for five complex genomes. Sci Data, 7(1), 399. https://doi.org/10.1038/s41597-020-00743-4</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Long Reads Are Revolutionizing 20 Years of Insect Genome Sequencing</title>
+<author>
+<persname><forename type="first">S</forename><surname>Hotaling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Sproul</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Heckenhauer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Powell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Larracuente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">U</forename><surname>Pauls</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Kelley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Frandsen</surname></persname>
+</author>
+<idno type="DOI">10.1093/gbe/evab138</idno>
+<ptr target="https://doi.org/10.1093/gbe/evab138"></ptr>
+</analytic>
+<monogr>
+<title level="j">Genome Biol Evol</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope unit="issue">8</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hotaling, S., Sproul, J. S., Heckenhauer, J., Powell, A., Larracuente, A. M., Pauls, S. U., Kelley, J. L., &amp; Frandsen, P. B. (2021). Long Reads Are Revolutionizing 20 Years of Insect Genome Sequencing. Genome Biol Evol, 13(8). https://doi.org/10.1093/gbe/evab138</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Significantly improving the quality of genome assemblies through curation</title>
+<author>
+<persname><forename type="first">K</forename><surname>Howe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Chow</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Pelan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D.-L</forename><surname>Pointon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Sims</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Torrance</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Tracey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wood</surname></persname>
+</author>
+<idno type="DOI">10.1093/gigascience/giaa153</idno>
+<ptr target="https://doi.org/10.1093/gigascience/giaa153"></ptr>
+</analytic>
+<monogr>
+<title level="j">GigaScience</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="issue">1</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Howe, K., Chow, W., Collins, J., Pelan, S., Pointon, D.-L., Sims, Y., Torrance, J., Tracey, A., &amp; Wood, J. (2021). Significantly improving the quality of genome assemblies through curation. GigaScience, 10(1). https://doi.org/10.1093/gigascience/giaa153</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Using prototyping to choose a bioinformatics workflow management system</title>
+<author>
+<persname><forename type="first">M</forename><surname>Jackson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Kavoussanakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">W J</forename><surname>Wallace</surname></persname>
+</author>
+<idno type="DOI">10.1371/journal.pcbi.1008622</idno>
+<ptr target="https://doi.org/10.1371/journal.pcbi.1008622"></ptr>
+</analytic>
+<monogr>
+<title level="j">PLoS Comput Biol</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope unit="page">1008622</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jackson, M., Kavoussanakis, K., &amp; Wallace, E. W. J. (2021). Using prototyping to choose a bioinformatics workflow management system. PLoS Comput Biol, 17(2), e1008622. https://doi.org/10.1371/journal.pcbi.1008622</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Canu: scalable and accurate long-read assembly via adaptive k-mer weighting and repeat separation</title>
+<author>
+<persname><forename type="first">S</forename><surname>Koren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">P</forename><surname>Walenz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Berlin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">H</forename><surname>Bergman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Phillippy</surname></persname>
+</author>
+<idno type="DOI">10.1101/gr.215087.116</idno>
+<ptr target="https://doi.org/10.1101/gr.215087.116"></ptr>
+</analytic>
+<monogr>
+<title level="j">Genome Res</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="722" to="736" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Koren, S., Walenz, B. P., Berlin, K., Miller, J. R., Bergman, N. H., &amp; Phillippy, A. M. (2017). Canu: scalable and accurate long-read assembly via adaptive k-mer weighting and repeat separation. Genome Res, 27(5), 722-736. https://doi.org/10.1101/gr.215087.116</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Snakemake-a scalable bioinformatics workflow engine</title>
+<author>
+<persname><forename type="first">J</forename><surname>Köster</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Rahmann</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bioinformatics</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope unit="issue">19</biblscope>
+<biblscope from="2520" to="2522" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Köster, J., &amp; Rahmann, S. (2012). Snakemake-a scalable bioinformatics workflow engine. Bioinformatics, 28(19), 2520-2522.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">A review of bioinformatic pipeline frameworks</title>
+<author>
+<persname><forename type="first">J</forename><surname>Leipzig</surname></persname>
+</author>
+<idno type="DOI">10.1093/bib/bbw020</idno>
+<ptr target="https://doi.org/10.1093/bib/bbw020"></ptr>
+</analytic>
+<monogr>
+<title level="j">Brief Bioinform</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="530" to="536" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Leipzig, J. (2017). A review of bioinformatic pipeline frameworks. Brief Bioinform, 18(3), 530- 536. https://doi.org/10.1093/bib/bbw020</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">BUSCO Update: Novel and Streamlined Workflows along with Broader and Deeper Phylogenetic Coverage for Scoring of Eukaryotic, Prokaryotic, and Viral Genomes</title>
+<author>
+<persname><forename type="first">M</forename><surname>Manni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Berkeley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Seppey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">A</forename><surname>Simao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persname>
+</author>
+<idno type="DOI">10.1093/molbev/msab199</idno>
+<ptr target="https://doi.org/10.1093/molbev/msab199"></ptr>
+</analytic>
+<monogr>
+<title level="j">Mol Biol Evol</title>
+<imprint>
+<biblscope unit="volume">38</biblscope>
+<biblscope unit="issue">10</biblscope>
+<biblscope from="4647" to="4654" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Manni, M., Berkeley, M. R., Seppey, M., Simao, F. A., &amp; Zdobnov, E. M. (2021). BUSCO Update: Novel and Streamlined Workflows along with Broader and Deeper Phylogenetic Coverage for Scoring of Eukaryotic, Prokaryotic, and Viral Genomes. Mol Biol Evol, 38(10), 4647-4654. https://doi.org/10.1093/molbev/msab199</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<monogr>
+<title level="m" type="main">Chasing perfection: validation and polishing strategies for telomere-totelomere genome assemblies</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Mccartney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Shafin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Alonge</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">V</forename><surname>Bzikadze</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Formenti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Fungtammasan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">.</forename><forename type="middle">.</forename><surname>Rhie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename></persname>
+</author>
+<idno type="DOI">10.1101/2021.07.02.450803</idno>
+<ptr target="https://doi.org/10.1101/2021.07.02.450803"></ptr>
+<imprint>
+<date type="published" when="2022-02-02">February 2, 2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McCartney, A. M., Shafin, K., Alonge, M., Bzikadze, A. V., Formenti, G., Fungtammasan, A., ... &amp; Rhie, A. Chasing perfection: validation and polishing strategies for telomere-to- telomere genome assemblies. unpublished data https://doi.org/10.1101/2021.07.02.450803, last accessed February 2, 2022</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Towards complete and error-free genome assemblies of all vertebrate species</title>
+<author>
+<persname><forename type="first">A</forename><surname>Rhie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Mccarthy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Fedrigo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Damas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Formenti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Koren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Uliano-Silva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Chow</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Fungtammasan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Ko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Chaisson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">L</forename><surname>Gedman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">J</forename><surname>Cantin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Thibaud-Nissen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Haggerty</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Bista</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">.</forename><forename type="middle">.</forename><surname>Jarvis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">D</forename></persname>
+</author>
+<idno type="DOI">10.1038/s41586-021-03451-0</idno>
+<ptr target="https://doi.org/10.1038/s41586-021-03451-0"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">592</biblscope>
+<biblscope unit="issue">7856</biblscope>
+<biblscope from="737" to="746" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rhie, A., McCarthy, S. A., Fedrigo, O., Damas, J., Formenti, G., Koren, S., Uliano-Silva, M., Chow, W., Fungtammasan, A., Kim, J., Lee, C., Ko, B. J., Chaisson, M., Gedman, G. L., Cantin, L. J., Thibaud-Nissen, F., Haggerty, L., Bista, I., Smith, M., . . . Jarvis, E. D. (2021). Towards complete and error-free genome assemblies of all vertebrate species. Nature, 592(7856), 737-746. https://doi.org/10.1038/s41586-021-03451-0</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Merqury: reference-free quality, completeness, and phasing assessment for genome assemblies</title>
+<author>
+<persname><forename type="first">A</forename><surname>Rhie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">P</forename><surname>Walenz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Koren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Phillippy</surname></persname>
+</author>
+<idno type="DOI">10.1186/s13059-020-02134-9</idno>
+<ptr target="https://doi.org/10.1186/s13059-020-02134-9"></ptr>
+</analytic>
+<monogr>
+<title level="j">Genome Biol</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope unit="page">245</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rhie, A., Walenz, B. P., Koren, S., &amp; Phillippy, A. M. (2020). Merqury: reference-free quality, completeness, and phasing assessment for genome assemblies. Genome Biol, 21(1), 245. https://doi.org/10.1186/s13059-020-02134-9.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Fast and accurate long-read assembly with wtdbg2</title>
+<author>
+<persname><forename type="first">J</forename><surname>Ruan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Li</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41592-019-0669-3</idno>
+<ptr target="https://doi.org/10.1038/s41592-019-0669-3"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Methods</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="155" to="158" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ruan, J., &amp; Li, H. (2020). Fast and accurate long-read assembly with wtdbg2. Nat Methods, 17(2), 155-158. https://doi.org/10.1038/s41592-019-0669-3</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">BUSCO: Assessing Genome Assembly and Annotation Completeness</title>
+<author>
+<persname><forename type="first">M</forename><surname>Seppey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Manni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persname>
+</author>
+<idno type="DOI">10.1007/978-1-4939-9173-0_14</idno>
+<ptr target="https://doi.org/10.1007/978-1-4939-9173-0_14"></ptr>
+</analytic>
+<monogr>
+<title level="j">Methods Mol Biol</title>
+<imprint>
+<biblscope from="227" to="245" unit="page"></biblscope>
+<date type="published" when="1962">2019. 1962</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Seppey, M., Manni, M., &amp; Zdobnov, E. M. (2019). BUSCO: Assessing Genome Assembly and Annotation Completeness. Methods Mol Biol, 1962, 227-245. https://doi.org/10.1007/978-1-4939-9173-0_14</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Haplotype-aware variant calling with PEPPER-Margin-DeepVariant enables high accuracy in nanopore long-reads</title>
+<author>
+<persname><forename type="first">K</forename><surname>Shafin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Pesout</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">C</forename><surname>Chang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Nattestad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kolesnikov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Goel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Baid</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kolmogorov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Eizenga</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">H</forename><surname>Miga</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Carnevali</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Jain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Carroll</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Paten</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41592-021-01299-w</idno>
+<ptr target="https://doi.org/10.1038/s41592-021-01299-w"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Methods</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope from="1322" to="1332" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Shafin, K., Pesout, T., Chang, P. C., Nattestad, M., Kolesnikov, A., Goel, S., Baid, G., Kolmogorov, M., Eizenga, J. M., Miga, K. H., Carnevali, P., Jain, M., Carroll, A., &amp; Paten, B. (2021). Haplotype-aware variant calling with PEPPER-Margin-DeepVariant enables high accuracy in nanopore long-reads. Nat Methods, 18(11), 1322-1332. https://doi.org/10.1038/s41592-021-01299-w</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">A</forename><surname>Simao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Waterhouse</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Ioannidis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">V</forename><surname>Kriventseva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persname>
+</author>
+<idno type="DOI">10.1093/bioinformatics/btv351</idno>
+<ptr target="https://doi.org/10.1093/bioinformatics/btv351"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bioinformatics</title>
+<imprint>
+<biblscope unit="volume">31</biblscope>
+<biblscope unit="issue">19</biblscope>
+<biblscope from="3210" to="3212" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Simao, F. A., Waterhouse, R. M., Ioannidis, P., Kriventseva, E. V., &amp; Zdobnov, E. M. (2015). BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. Bioinformatics, 31(19), 3210-3212. https://doi.org/10.1093/bioinformatics/btv351</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<monogr>
+<title level="m" type="main">Approaches for containerized scientific workflows in cloud environments with applications in life science</title>
+<author>
+<persname><forename type="first">O</forename><surname>Spjuth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Capuccini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Carone</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Larsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Schaal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Novella</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Stein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ekmefjord</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Di Tommaso</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Floden</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="report_type">Preprints</note>
+<note type="raw_reference">Spjuth, O., Capuccini, M., Carone, M., Larsson, A., Schaal, W., Novella, J. A., Stein, O., Ekmefjord, M., Di Tommaso, P., &amp; Floden, E. (2020). Approaches for containerized scientific workflows in cloud environments with applications in life science. Preprints.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Data from polishCLR: Example input genome assemblies</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Stahlke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">S</forename><surname>Coates</surname></persname>
+</author>
+<idno type="DOI">10.15482/USDA.ADC/1524676</idno>
+<ptr target="https://doi.org/10.15482/USDA.ADC/1524676"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ag Data Commons</title>
+<imprint>
+<date type="published" when="2022-02-09">2022. 2022-02-09</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stahlke, A.R.; Coates, B.S.. (2022). Data from polishCLR: Example input genome assemblies. Ag Data Commons. https://doi.org/10.15482/USDA.ADC/1524676. Accessed 2022-02- 09.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<monogr>
+<title level="m" type="main">GNU Make-A Program for Directing Recompilation</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Stallman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Mcgrath</surname></persname>
+</author>
+<imprint>
+<date type="published" when="1991">1991</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stallman, R. M., &amp; McGrath, R. (1991). GNU Make-A Program for Directing Recompilation.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">nf-LO: A Scalable, Containerized Workflow for Genome-to-Genome Lift Over</title>
+<author>
+<persname><forename type="first">A</forename><surname>Talenti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Prendergast</surname></persname>
+</author>
+<idno type="DOI">10.1093/gbe/evab183</idno>
+<ptr target="https://doi.org/10.1093/gbe/evab183"></ptr>
+</analytic>
+<monogr>
+<title level="j">Genome Biology and Evolution</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope unit="issue">9</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Talenti, A., &amp; Prendergast, J. (2021). nf-LO: A Scalable, Containerized Workflow for Genome-to- Genome Lift Over. Genome Biology and Evolution, 13(9). https://doi.org/10.1093/gbe/evab183</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Pilon: an integrated tool for comprehensive microbial variant detection and genome assembly improvement</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Walker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Abeel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Shea</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Priest</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Abouelliel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sakthikumar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Cuomo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Q</forename><surname>Zeng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wortman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">K</forename><surname>Young</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Earl</surname></persname>
+</author>
+<idno type="DOI">10.1371/journal.pone.0112963</idno>
+<ptr target="https://doi.org/10.1371/journal.pone.0112963"></ptr>
+</analytic>
+<monogr>
+<title level="j">PLoS One</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope unit="page">112963</biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Walker, B. J., Abeel, T., Shea, T., Priest, M., Abouelliel, A., Sakthikumar, S., Cuomo, C. A., Zeng, Q., Wortman, J., Young, S. K., &amp; Earl, A. M. (2014). Pilon: an integrated tool for comprehensive microbial variant detection and genome assembly improvement. PLoS One, 9(11), e112963. https://doi.org/10.1371/journal.pone.0112963</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Nanopore sequencing technology, bioinformatics and applications</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bollas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">F</forename><surname>Au</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41587-021-01108-x</idno>
+<ptr target="https://doi.org/10.1038/s41587-021-01108-x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Biotechnol</title>
+<imprint>
+<biblscope unit="volume">39</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope from="1348" to="1365" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wang, Y., Zhao, Y., Bollas, A., Wang, Y., &amp; Au, K. F. (2021). Nanopore sequencing technology, bioinformatics and applications. Nat Biotechnol, 39(11), 1348-1365. https://doi.org/10.1038/s41587-021-01108-x</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">BUSCO Applications from Quality Assessments to Gene Prediction and Phylogenomics</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Waterhouse</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Seppey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">A</forename><surname>Simao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Manni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Ioannidis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Klioutchnikov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">V</forename><surname>Kriventseva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">M</forename><surname>Zdobnov</surname></persname>
+</author>
+<idno type="DOI">10.1093/molbev/msx319</idno>
+<ptr target="https://doi.org/10.1093/molbev/msx319"></ptr>
+</analytic>
+<monogr>
+<title level="j">Mol Biol Evol</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="543" to="548" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Waterhouse, R. M., Seppey, M., Simao, F. A., Manni, M., Ioannidis, P., Klioutchnikov, G., Kriventseva, E. V., &amp; Zdobnov, E. M. (2018). BUSCO Applications from Quality Assessments to Gene Prediction and Phylogenomics. Mol Biol Evol, 35(3), 543-548. https://doi.org/10.1093/molbev/msx319</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Errors in long-read assemblies can critically affect protein prediction</title>
+<author>
+<persname><forename type="first">M</forename><surname>Watson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Warr</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41587-018-0004-z</idno>
+<ptr target="https://doi.org/10.1038/s41587-018-0004-z"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Biotechnol</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="124" to="126" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Watson, M., &amp; Warr, A. (2019). Errors in long-read assemblies can critically affect protein prediction. Nat Biotechnol, 37(2), 124-126. https://doi.org/10.1038/s41587-018-0004-z</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Reproducible, scalable, and shareable analysis pipelines with bioinformatics workflow managers</title>
+<author>
+<persname><forename type="first">L</forename><surname>Wratten</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Wilm</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Goke</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41592-021-01254-9</idno>
+<ptr target="https://doi.org/10.1038/s41592-021-01254-9"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Methods</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="issue">10</biblscope>
+<biblscope from="1161" to="1168" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wratten, L., Wilm, A., &amp; Goke, J. (2021). Reproducible, scalable, and shareable analysis pipelines with bioinformatics workflow managers. Nat Methods, 18(10), 1161-1168. https://doi.org/10.1038/s41592-021-01254-9</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

@@ -1,0 +1,2577 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Hybridization and its impact on the ontogenetic allometry of skulls in macaques</title>
+<funder>
+<orgname type="full">ISHIZUE 2022 of Kyoto University</orgname>
+</funder>
+<funder ref="#_XyTf9XQ #_qJ8WSwd #_7Wk6QEs #_9Cj3Paj">
+<orgname type="full">JSPS KAKENHI</orgname>
+</funder>
+<funder ref="#_4mhUgtq">
+<orgname type="full">Primate Research Institute of Kyoto University</orgname>
+</funder>
+<funder>
+<orgname type="full">for Science and Technology, MEXT</orgname>
+</funder>
+<funder ref="#_rXpcVDg">
+<orgname type="full">Keihanshin Consortium for Fostering the Next Generation of Global Leaders</orgname>
+</funder>
+<funder ref="#_zafc7QR">
+<orgname type="full">University of the</orgname>
+</funder>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2023-11-13">13 November 2023</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">Tsuyoshi</forename><surname>Ito</surname></persname>
+<email>ito.tsuyoshi.3a@kyoto-u.ac.jp</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> . The Kyoto University Museum, Kyoto University, Sakyo, Kyoto 606-8501, Japan</note>
+<orgname key="instit1" type="institution">The Kyoto University Museum</orgname>
+<orgname key="instit2" type="institution">Kyoto University</orgname>
+<address>
+<postcode>606-8501</postcode>
+<settlement>Sakyo</settlement>
+<region>Kyoto</region>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> . Primate Research Institute, Kyoto University, Inuyama, Aichi 484-8506, Japan</note>
+<orgname type="department">Primate Research Institute</orgname>
+<orgname type="institution">Kyoto University</orgname>
+<address>
+<postcode>484-8506</postcode>
+<settlement>Inuyama</settlement>
+<region>Aichi</region>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Ryosuke</forename><surname>Kimura</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> . Department of Human Biology and Anatomy, Graduate School of Medicine, University of the Ryukyus, Nishihara, Okinawa 903-0215, Japan</note>
+<orgname key="dep1" type="department">Department of Human Biology and Anatomy</orgname>
+<orgname key="dep2" type="department">Graduate School of Medicine</orgname>
+<orgname type="institution">University of the Ryukyus</orgname>
+<address>
+<postcode>903-0215</postcode>
+<settlement>Nishihara</settlement>
+<region>Okinawa</region>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Hikaru</forename><surname>Wakamori</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> . Primate Research Institute, Kyoto University, Inuyama, Aichi 484-8506, Japan</note>
+<orgname type="department">Primate Research Institute</orgname>
+<orgname type="institution">Kyoto University</orgname>
+<address>
+<postcode>484-8506</postcode>
+<settlement>Inuyama</settlement>
+<region>Aichi</region>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Mikiko</forename><surname>Tanaka</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> . Primate Research Institute, Kyoto University, Inuyama, Aichi 484-8506, Japan</note>
+<orgname type="department">Primate Research Institute</orgname>
+<orgname type="institution">Kyoto University</orgname>
+<address>
+<postcode>484-8506</postcode>
+<settlement>Inuyama</settlement>
+<region>Aichi</region>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Ayumi</forename><surname>Tezuka</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> . Faculty of Agriculture, Ryukoku University, Otsu, Shiga 520-2194, Japan</note>
+<orgname type="department">Faculty of Agriculture</orgname>
+<orgname type="institution">Ryukoku University</orgname>
+<address>
+<postcode>520-2194</postcode>
+<settlement>Otsu</settlement>
+<region>Shiga</region>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Atsushi</forename><forename type="middle">J</forename><surname>Nagano</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> . Faculty of Agriculture, Ryukoku University, Otsu, Shiga 520-2194, Japan</note>
+<orgname type="department">Faculty of Agriculture</orgname>
+<orgname type="institution">Ryukoku University</orgname>
+<address>
+<postcode>520-2194</postcode>
+<settlement>Otsu</settlement>
+<region>Shiga</region>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+<affiliation key="aff4">
+<note type="raw_affiliation"> . Institute for Advanced Biosciences, Keio University, Tsuruoka, Yamagata 997-0017, Japan</note>
+<orgname type="department">Institute for Advanced Biosciences</orgname>
+<orgname type="institution">Keio University</orgname>
+<address>
+<postcode>997-0017</postcode>
+<settlement>Tsuruoka</settlement>
+<region>Yamagata</region>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Yuzuru</forename><surname>Hamada</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> . Primate Research Institute, Kyoto University, Inuyama, Aichi 484-8506, Japan</note>
+<orgname type="department">Primate Research Institute</orgname>
+<orgname type="institution">Kyoto University</orgname>
+<address>
+<postcode>484-8506</postcode>
+<settlement>Inuyama</settlement>
+<region>Aichi</region>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Yoshi</forename><surname>Kawamoto</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> . Primate Research Institute, Kyoto University, Inuyama, Aichi 484-8506, Japan</note>
+<orgname type="department">Primate Research Institute</orgname>
+<orgname type="institution">Kyoto University</orgname>
+<address>
+<postcode>484-8506</postcode>
+<settlement>Inuyama</settlement>
+<region>Aichi</region>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+<affiliation key="aff5">
+<note type="raw_affiliation"> . Faculty of Veterinary Science, Nippon Veterinary and Life Science University, Musashino, Tokyo 180-8602, Japan</note>
+<orgname type="department">Faculty of Veterinary Science</orgname>
+<orgname type="institution">Nippon Veterinary and Life Science University</orgname>
+<address>
+<postcode>180-8602</postcode>
+<settlement>Musashino</settlement>
+<region>Tokyo</region>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<affiliation key="aff6">
+<note type="raw_affiliation">Education and Public Relations Department, Tama Zoological Park, Tokyo Zoological Park Society, Hino, Japan</note>
+<orgname type="department">Education and Public Relations Department</orgname>
+<orgname key="instit1" type="institution">Tama Zoological Park</orgname>
+<orgname key="instit2" type="institution">Tokyo Society</orgname>
+<address>
+<addrline>Zoological Park</addrline>
+<settlement>Hino</settlement>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Hybridization and its impact on the ontogenetic allometry of skulls in macaques</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2023-11-13">13 November 2023</date>
+</imprint>
+</monogr>
+<idno type="MD5">A50A63725FF083E4D72936A412B0B2F8</idno>
+<idno type="DOI">10.1093/evolut/qpad206/7411360</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.8.0" when="2024-05-08T02:39+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>allometry</term>
+<term>hybridization</term>
+<term>geometric morphometrics</term>
+<term>paranasal sinus</term>
+<term>ontogeny</term>
+<term>population genomics</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The role of hybridization in morphological diversification is a fundamental topic in evolutionary biology.</s><s>However, despite the accumulated knowledge on adult hybrid variation, how hybridization affects ontogenetic allometry is less well understood.</s><s>Here, we investigated the effects of hybridization on postnatal ontogenetic allometry in the skulls of a putative hybrid population of introduced Taiwanese macaques (Macaca cyclopis) and native Japanese macaques (M.</s><s>fuscata).</s></p><p><s>Genomic analyses indicated that the population consisted of individuals with varying degrees of admixture, formed by male migration from Japanese to Taiwanese macaques.</s><s>For overall skull shape, ontogenetic trajectories were shifted by hybridization in a nearly additive manner, with moderate transgressive variation observed throughout development.</s><s>In contrast, for the maxillary sinus (hollow space in the face), hybrids grew as fast as Taiwanese macaques, diverging from Japanese macaques, which showed slow growth.</s><s>Consequently, adult hybrids showed a mosaic pattern, i.e., the maxillary sinus is as large as that of Taiwanese macaques, while the overall skull shape is intermediate.</s><s>Our findings suggest that the transgressive variation can be caused by prenatal shape modification and non-additive inheritance on regional growth rates, highlighting the complex genetic and ontogenetic bases underlying hybridization-induced morphological diversification.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>A growing understanding indicates that interspecific hybridization is not rare, even in animals <ref target="#b40" type="bibr">(Mallet 2005;</ref><ref target="#b75" type="bibr">Taylor and Larson 2019)</ref>.</s><s>Furthermore, hybridization is not always maladaptive and can facilitate evolutionary novelty and diversity by generating gene combinations not achieved in the parental lineages <ref target="#b65" type="bibr">(Seehausen 2004;</ref><ref target="#b11" type="bibr">Arnold and Kunte 2017;</ref><ref target="#b33" type="bibr">Kagawa and Takimoto 2018)</ref>.</s><s>Thus, hybridization must have played a critical role in the evolution of various taxa and has consequently been of significant interest to evolutionary biologists.</s></p><p><s>Primate hybridization is of particular interest because it enhances our understanding of the effects of archaic human gene introgression on the modern human lineage.</s><s>Molecular studies show that hybridization is pervasive in primates, with relics of ancient hybridization or the existence of a natural hybrid zone identified in various taxa of primates, e.g., macaques, baboons, vervet monkeys, marmosets, colobine monkeys, and howler monkeys <ref target="#b59" type="bibr">(Roos et al. 2011;</ref><ref target="#b41" type="bibr">Malukiewicz et al. 2014;</ref><ref target="#b20" type="bibr">Cortés-Ortiz et al. 2015;</ref><ref target="#b73" type="bibr">Svardal et al. 2017;</ref><ref target="#b58" type="bibr">Rogers et al. 2019;</ref><ref target="#b48" type="bibr">Osada et al. 2021)</ref>.</s><s>Furthermore, several studies have assessed the morphological effects of hybridization in nonhuman primates <ref target="#b0" type="bibr">(Ackermann et al. 2019)</ref>.</s><s>In baboons and gorillas, hybrids exhibit anomalies such as supplementary rotated teeth or atypical cranial sutures at higher frequencies than in their parental lineages <ref target="#b1" type="bibr">(Ackermann and Bishop 2010;</ref><ref target="#b2" type="bibr">Ackermann et al. 2014)</ref>.</s><s>In various taxa of primates, hybrids often show heterotic/transgressive phenotypes or increased variation in cranial and postcranial morphology <ref target="#b16" type="bibr">(Cheverud et al. 1993;</ref><ref target="#b2" type="bibr">Ackermann et al. 2014;</ref><ref target="#b25" type="bibr">Fuzessy et al. 2014;</ref><ref target="#b31" type="bibr">Ito et al. 2015;</ref><ref target="#b23" type="bibr">Eichel and Ackermann 2016;</ref><ref target="#b14" type="bibr">Boel et al. 2019</ref>; but see <ref target="#b15" type="bibr">Buck et al. 2021)</ref>.</s><s>Such hybridization-driven genetic perturbations may contribute to the morphological diversity in primate evolution.</s></p><p><s>Any morphological evolution is achieved by the modification of the ancient ontogenetic trajectory.</s></p><p><s>For example, the distinct adult human craniofacial morphology is formed by divergence from the hominid common ontogenetic trajectory in the early postnatal period <ref target="#b44" type="bibr">(Mitteroecker et al. 2004</ref>).</s><s>The difference in brain (endocast) shape between modern humans and Neanderthals was also formed by early divergence <ref target="#b26" type="bibr">(Gunz et al. 2010)</ref>; however, the overall craniofacial difference between the two A c c e p t e d M a n u s c r i p t species was formed by a more or less parallel (but not identical) ontogenetic trajectory that originated from the established difference at birth (Ponce de <ref target="#b50" type="bibr">León and Zollikofer 2001;</ref><ref target="#b13" type="bibr">Bastir et al. 2007)</ref>.</s></p><p><s>Because the ontogenetic trajectory reflects the expression of genes that control morphology during development, hybridization-induced genomic admixture potentially alters an ontogenetic trajectory.</s></p><p><s>Hybrid Sulawesi macaques are reported to show acceleration (slope increase) and postdisplacement (intercept decrease) in the ontogenetic trajectory of several craniofacial traits, although this dissociation does not account for adult heterosis <ref target="#b63" type="bibr">(Schillaci et al. 2005)</ref>.</s><s>Predisplacement (intercept increase) occurs in the ontogenetic trajectory of body weight in inter-subspecies male hybrids of rhesus macaques but is lacking in female hybrids <ref target="#b70" type="bibr">(Smith and Scott 1989;</ref><ref target="#b74" type="bibr">Taylor and Schillaci 2008)</ref>.</s></p><p><s>In non-primate taxa, several studies have reported different types of ontogenetic modifications, such as pure heterochrony, directional changes, or intermediate but maternally biased trajectories, in the head or body shape of fish hybrids <ref target="#b29" type="bibr">(Holtmeier 2001;</ref><ref target="#b19" type="bibr">Corse et al. 2012;</ref><ref target="#b68" type="bibr">Sinama et al. 2013;</ref><ref target="#b62" type="bibr">Santos-Santos et al. 2021</ref>).</s><s>However, with the exception of these studies, knowledge of the effects of interspecific hybridization on ontogenetic trajectories remains limited, especially in mammals.</s></p><p><s>Anthropogenic hybridization provides an opportunity to study the consequences of hybridization, although it is controversial in the context of conservation.</s><s>In the Oike area of Wakayama Prefecture, Japan, introduced Macaca cyclopis (Taiwanese macaques) that escaped from a zoo in the 1950s hybridized with native M. fuscata (Japanese macaques) <ref target="#b47" type="bibr">(Ohsawa et al. 2005)</ref>.</s><s>By 2004, the population had grown to approximately 300 individuals with four troops <ref target="#b47" type="bibr">(Ohsawa et al. 2005)</ref>.</s><s>Genetic analyses suggested that the Oike hybrid population was formed by male immigration into M. cyclopis from the neighboring native population of M. fuscata <ref target="#b37" type="bibr">(Kawamoto et al. 2001</ref><ref type="bibr">(Kawamoto et al. , 2008a))</ref>.</s><s>To prevent genetic introgression and its impacts on the ecosystems, the government began the elimination of introduced and hybrid individuals from the Oike area in 2002 and finally declared eradication in 2017, with a total of 366 individuals eradicated from the Oike area <ref target="#b66" type="bibr">(Shirai et al. 2018)</ref>.</s><s>The Oike hybrids show several intriguing morphological variations.</s><s>For example, unlike previous studies on hybrids of other primate taxa, the Oike hybrids did not show a marked increase in dental anomalies or craniofacial variability compared to their parental species <ref target="#b14" type="bibr">(Boel et al. 2019)</ref>.</s><s>Relative tail length variation followed A c c e p t e d M a n u s c r i p t the expectations of the additive model <ref target="#b28" type="bibr">(Hamada et al. 2012</ref>).</s><s>Adult craniofacial shape followed additivity or was slightly closer than expected to that of M. fuscata; in contrast, maxillary sinus size (hollow space in the face) was much closer to that of M. cyclopis than additivity <ref target="#b31" type="bibr">(Ito et al. 2015;</ref><ref target="#b14" type="bibr">Boel et al. 2019</ref>).</s><s>However, it remains unclear how these adult differences manifested during development.</s></p><p><s>This study aimed to elucidate the effects of hybridization on the ontogenetic trajectory of craniofacial morphology using samples from the Oike hybrid population.</s><s>First, we estimated the population structure of the Oike population as well as the hybrid index and class (generation) of individuals based on genome-wide single nucleotide polymorphisms (SNPs).</s><s>Second, we compared morphological variation and ontogenetic trajectories of the cranium, mandible, and maxillary sinus with the hybrid index and among hybrid classes.</s><s>Comparing ontogenetic trajectories among hybrids and parental lines will improve our understanding of the genetic and ontogenetic basis of hybridization-induced morphological diversification.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Materials and methods</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Samples<p><s>Almost all available samples from the Oike hybrid population were screened, including 245 skeletal specimens and 287 DNA samples (Table <ref target="#tab_6" type="table">S1</ref>; Fig. <ref type="figure">1</ref>).</s><s>Note that some samples were filtered out prior to the main analyses (see below for details).</s><s>Of these, the 215 skeletal specimens could be linked to DNA samples, where we linked them as far as the IDs on the records could be uniquely identified, even if they did not show an exact match.</s><s>These samples came from collections obtained under the government eradication program between 2003 and 2006; no animals were sacrificed for research purposes.</s><s>Skeletal specimens are stored at the Primate Research Institute (now the Center for the Evolutionary Origins of Human Behavior), Kyoto University (Inuyama, Japan).</s><s>Note that individuals judged to be pure Japanese macaques in the Oike area had been released <ref target="#b27" type="bibr">(Hamada et al. 2008)</ref>.</s></p><p><s>In addition, to test whether pure parental individuals remained in the Oike population, we examined DNA from pure captive M. cyclopis (N = 4) and M. fuscata (N = 4) housed at the Primate Research Institute.</s><s>The M. fuscata individuals were descendants of individuals transferred from Arashiyama, Kyoto, approximately 100 km north-northeast of the Oike area.</s><s>There is no record of the exact origin of the M. cyclopis individuals.</s><s>Sample collection from these captive individuals was performed according to the recommendations of the Guidelines for Care and Use of Nonhuman Primates Version 2 and 3 of the Primate Research Institute, Kyoto <ref type="bibr">University (2002</ref><ref type="bibr">University ( , 2010))</ref>.</s><s>DNA was extracted from blood using the phenol-chloroform method.</s></p><p><s>Skeletal specimens of M. cyclopis (N = 54) and M. fuscata (N = 88) stored at the Primate Research Institute and the Japan Monkey Centre (Inuyama, Japan) were used as surrogates for parental individuals for morphological analyses (because the actual parental populations are unknown).</s></p><p><s>Captive specimens and specimens of unknown origin were initially included, but preliminary analyses revealed morphological differences between wild and captive specimens (see below).</s><s>Therefore, only wild specimens (N = 18 for M. cyclopis, N = 86 for M. fuscata) were used for the main analyses.</s><s>Wild M. cyclopis specimens were obtained from the introduced population on Izu-Oshima Island, Tokyo, Japan, where M. fuscata is not distributed.</s><s>Wild M. fuscata specimens were obtained from localities around the Oike area and are therefore likely to be genetically close to a parental population <ref type="bibr">(Suzuki-Hashido et al. 2015;</ref><ref target="#b30" type="bibr">Ito et al. 2021)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Genetic analyses<p><s>Double-digest restriction site-associated DNA sequencing was performed based on Peterson's protocol <ref target="#b49" type="bibr">(Peterson et al. 2012)</ref> with modifications <ref target="#b61" type="bibr">(Sakaguchi et al. 2015</ref><ref target="#b60" type="bibr">(Sakaguchi et al. , 2017))</ref>.</s><s>After filtering raw reads for overall sequence quality, genotypes were called using STACKS 2.59 <ref target="#b57" type="bibr">(Rochette and Catchen 2017)</ref>.</s><s>Because STACKS provides diploid genotypes, genotypes on male sex chromosomes were converted to haploid using diploid2haploid.py</s><s>(https://github.com/itots/diploid2haploid.git),</s><s>omitting heterogeneous genotypes (1.2% for the X chromosome and 0.8% for the Y chromosome).</s><s>After filtering, we obtained 6461 variant sites in 289 individuals for the autosome (total genotyping rate = 0.96), 171 sites in 289 individuals for the X chromosome (0.96), and 12 sites in 152 individuals for the Y chromosome (0.95).</s><s>See Supplementary Note for details.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">A c c e p t e d M a n u s c r i p t<p><s>Global ancestry was inferred from the SNPs separately for autosomes and X chromosomes using ADMIXTURE <ref target="#b6" type="bibr">(Alexander and Novembre 2009)</ref>; the male X chromosome was treated as haploid using the --haploid flag.</s><s>Principal component analysis (PCA) was performed using the "adegenet" package <ref target="#b32" type="bibr">(Jombart 2008)</ref> in R (R Developmental Core Team 2021).</s><s>For the Y chromosome, K-means cluster analysis (K = 2) was performed based on the first principal component (PC).</s><s>Six samples showed inconsistencies in global ancestry or sex identification with data from <ref type="bibr">Kawamoto et al. (2008a)</ref> and were removed from the subsequent analyses.</s><s>See Supplementary Note for details.</s><s>Individuals in the Oike population were classified into 23 M. cyclopis (Q &lt; 0.001), 11 M. fuscata (Q &gt; 0.999), and 242 putatively admixed individuals (0.001 ≤ Q ≤ 0.999) based on the ADMIXTURE Q score (K = 2) of autosomal SNPs.</s><s>Diagnostic markers were detected as differentially fixed sites (allele frequency difference between the two parental populations [δ] = 1), omitting loci with missing genotype rates within each of the two parental populations &gt; 0.1.</s><s>Hybrid index, the proportion of ancestry belonging to M. fuscata, and interspecific heterozygosity, the proportion of loci with alleles from both parental populations, were calculated from the 196 autosomal diagnostic markers using a custom R script.</s></p><p><s>Hybrid classes were estimated for individuals in the Oike population using NewHybrids 1.1 <ref target="#b7" type="bibr">(Anderson and Thompson 2002)</ref>.</s><s>This Bayesian-based method calculates the posterior probability that an individual belongs to a genotype frequency class.</s><s>The SNP dataset of 196 autosomal diagnostic markers was converted into a NewHybrid format using PGDSpider 2.1.1.5</s><s><ref target="#b39" type="bibr">(Lischer and Excoffier 2012)</ref>.</s><s>The "z" option was used to instruct NewHybrid that individuals with a hybrid index = 0 or 1 were pure parental individuals.</s><s>Ten replicates were run with randomly differentiated seeds using the "parallelnewhybrid" R package <ref target="#b80" type="bibr">(Wringe et al. 2017)</ref>, with minor modifications (https://github.com/itots/parallelnewhybrid.git).</s><s>Each run started with Jeffery's prior and six default genotype frequency classes and consisted of 10,000 Markov chain Monte Carlo (MCMC) sweeps after 10,000 burn-in iterations.</s><s>We confirmed MCMC convergence by visual inspection.</s><s>Based on the mean posterior probabilities, each individual was assigned to one of six genealogical classes: M. cyclopis (P0), M. fuscata (P1), F1, F2 hybrids, and backcrosses of M. cyclopis (BC0) and M. fuscata A c c e p t e d M a n u s c r i p t (BC1).</s><s>We discarded assignments with mean posterior probability &lt;0.99, P0 with hybrid index &gt;0, P1 with hybrid index &lt;1, and F1 with interspecific heterozygosity &lt;0.95; these were removed from analyses examining hybrid class differences (shown as NA in figures).</s><s>Note that individuals identified as F2, BC0, and BC1 may include later generations; unfortunately, it is difficult to distinguish between hybrid classes of recombinant generations based on unphased and limited numbers of variants.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Morphological analyses<p><s>The 10-step developmental phase was determined based on the dental eruption pattern and sphenooccipital synchondrosis, according to <ref target="#b46" type="bibr">Mouri (1994)</ref>, with minor modifications (Table <ref target="#tab_7" type="table">S2</ref>).</s><s>Based on this, developmental stages were determined as infant (developmental phase &lt;3), juvenile (&lt;8), and adult (≥8).</s><s>These stages were used to evaluate age structure and developmental changes in morphology.</s></p><p><s>The cranium and mandible were scanned by computed tomography (CT), and 3D landmarks were digitized (cranium: number of landmarks = 50, mandible: 28, and maxillary sinus: 10) using 3D Slicer (https://www.slicer.org/)</s><s><ref target="#b38" type="bibr">(Kikinis et al. 2014</ref>) (Table <ref target="#tab_8" type="table">S3</ref>; Fig. <ref type="figure">2</ref>).</s><s>See Supplementary Note for details.</s></p><p><s>All landmarks on the maxillary sinus were type III and were used only to evaluate size, not shape.</s></p><p><s>Digitization was performed twice on all specimens by a single observer to evaluate and minimize measurement errors.</s><s>Specimens with a missing landmark ratio &gt; 0.2 (three specimens for the cranium and one for the mandible) were removed.</s><s>For the remaining specimens, missing landmarks (1-10 in 53 specimens for the cranium, 1-4 in 10 specimens for the mandible, and 1-2 in 30 specimens for the maxillary sinus) were imputed based on the Bayesian PCA method using the "LOST" R package <ref type="bibr">(Arbour and</ref><ref type="bibr">Brown 2014, 2020)</ref>.</s></p><p><s>Generalized Procrustes analysis and Procrustes analysis of variance were performed to assess measurement error using the "geomorph" R package <ref type="bibr">(Collyer and</ref><ref type="bibr">Adams 2018, 2021;</ref><ref target="#b3" type="bibr">Adams et al. 2021;</ref><ref target="#b12" type="bibr">Baken et al. 2021</ref>).</s><s>Here, centroid size was calculated as the square root of the sum of the squared distances of a set of landmarks from their centroid.</s><s>For the cranium and mandible, shape  <ref type="table">S4</ref>), and a symmetric component was used in the following analyses.</s><s>Measurement errors were negligible for the centroid size of the cranium, mandible, and maxillary sinus (Table <ref type="table">S5</ref>), and the mean of replicates (mean of replicates and sides for maxillary sinus) was used in the following analyses.</s></p><p><s>Only wild specimens were analyzed, as significant morphological differences were found between captive and wild specimens (Tables <ref type="table">S6</ref> and<ref type="table">S7</ref>).</s><s>Samples with missing values for sex (N = 1-2), hybrid index (N = 28), and hybrid class (N = 40-41) were excluded from subsequent analyses and figures requiring these variables.</s><s>When comparing hybrid classes, the Oike individuals identified as P0 and the wild M. cyclopis from Izu-Oshima Island were treated together as one group (denoted as cyclopis_P0).</s></p><p><s>To evaluate the effect of hybridization on growth trajectories, the natural logarithm of centroid size (lnCS) was evaluated in relation to the developmental phase for each hybrid class.</s><s>To summarize the shape variation of the cranium and mandible, PCA was performed on the shape components with all samples pooled using the "geomorph" R package, but each sex was shown separately in the scatterplots for better visualization.</s><s>Differences in lnCS and PCs between hybrid classes at each stage were evaluated by analysis of variance with sex as a covariate using the "car" R package <ref type="bibr">(Fox and</ref> Weisberg 2019), and their effect sizes were evaluated using the "rstatix" R package <ref target="#b34" type="bibr">(Kassambara 2023)</ref>.</s></p><p><s>Ontogenetic shape allometry was evaluated by multivariate regression using the R package "geomorph."</s><s>The response variable was the shape component, and the explanatory variables were lnCS, hybrid class, and their interaction.</s><s>Pairwise vector correlations were evaluated using the R package "RRPP" <ref type="bibr">(Collyer and</ref><ref type="bibr">Adams 2018, 2021)</ref>.</s><s>Phenotypic trajectory analysis was also performed to evaluate trajectory magnitude, direction, and shape differences between hybrid classes using the "geomorph" R package.</s><s>Developmental stage, hybrid class, and their interaction were used as explanatory variables; hybrid classes with few samples in any of the three developmental stages (P0_cyclopis and F1 for females; F1 and F2 for males) were omitted.</s><s>Disparities at each A c c e p t e d M a n u s c r i p t developmental stage were evaluated as a measure of Procrustes variance between the means of each hybrid class using the "geomorph" R package.</s><s>For the maxillary sinus, reduced major axis regression was performed to assess the relationship between sinus lnCS and cranial lnCS, and slope and elevation differences between hybrid classes were tested using the "smatr" R package <ref target="#b79" type="bibr">(Warton et al. 2012)</ref>.</s></p><p><s>Adult variation was evaluated in relation to the hybrid index.</s><s>To detect shape differences between pure M. cyclopis and M. fuscata, a between-group PCA (bgPCA) was performed, and admixed individuals were projected onto the bgPC1 axis using the "Morpho" R package <ref target="#b64" type="bibr">(Schlager 2017</ref>).</s><s>The lnCS, bgPC1, and relative sinus size (sinus lnCScranium lnCS) were regressed against the hybrid index for the admixed individuals, and deviations in elevation and slope from additivity (the line through the means of each parent) were tested using the "smatr" R package.</s></p><p><s>Deviations from additivity in multivariate space were evaluated as two orthogonal components, mismatch (M) and bias (B):</s></p><p><s>where θ is the angle between the vector passing through the mean of pure M. cyclopis and that of a hybrid class and the vector passing through the mean of pure M. cyclopis and that of M. fuscata; d h and d p are the magnitudes of the two vectors, respectively.</s><s>For cranial and mandibular shapes, distances were calculated as Procrustes distances using the R package "shapes" <ref target="#b22" type="bibr">(Dryden 2021)</ref>.</s><s>For relative maxillary sinus size, only B was calculated because it is univariate.</s><s>M and B are similar to the transgression and closeness presented by <ref target="#b55" type="bibr">Renaud et al. (2012)</ref>, respectively, but differ in their orthogonality and are identical to the indices presented by <ref target="#b43" type="bibr">Mérot et al. (2020)</ref> and <ref target="#b76" type="bibr">Thompson et al. (2021)</ref>, except for standardization.</s><s>M &gt; 0 indicates orthogonal deviations from the interparental axis, standardized by the interspecific distance.</s><s>This is caused by different traits having dominance in conflicting directions in multivariate space <ref target="#b76" type="bibr">(Thompson et al. 2021)</ref>.</s><s>Any deviations of B from the Each sex was analyzed separately in these analyses unless otherwise noted.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Population structure<p><s>PCA and ADMIXTURE showed that the Oike population consisted of individuals with varying degrees of admixture, probably including pure M. cyclopis and M. fuscata (Figs.</s><s><ref type="figure">S1</ref> and<ref type="figure">S2</ref>).</s><s>The M.</s></p><p><s>cyclopis individuals housed at the Primate Research Institute appeared to have a small amount of M. fuscata-derived ancestry (Fig. <ref type="figure">S2</ref>), but this did not affect subsequent analyses that included only samples from the Oike population.</s><s>The NewHybrids analysis showed that the Oike population consists of the six predefined hybrid classes (P0, P1, F1, F2, BC0, and BC1; Fig. <ref type="figure">3</ref>).</s><s>It should be noted, however, that some of the individuals identified as F2, BC0, and BC1 may be from later generations.</s><s>In the Oike population, the mean admixture proportion of M. fuscata-derived ancestry was 0.45 for autosomal, 0.46 for X-chromosomal in both sexes, and 0.50 for Y-chromosomal DNA.</s></p><p><s>Note that the mean admixture proportion for autosomes was slightly biased towards M. cyclopis in BC0 and F2 than expected by random mating starting from the same number of parental lines (Table <ref type="table">S8</ref>).</s><s>The M. fuscata-type mtDNA ancestry was only observed in P0, i.e., pure M. fuscata.</s><s>The P0 individuals were all males, while males were significantly less frequent than females in the F1 ( ) (Table <ref type="table">S9</ref>; Fig. <ref type="figure">3</ref>).</s><s>In the other hybrid classes, the sex ratio was not significantly skewed.</s><s>The age structure was biased towards adults in F1 but towards earlier stages in F2 (Table <ref target="#tab_6" type="table">S10</ref>; Fig. <ref type="figure">3</ref>).</s><s>A c c e p t e d M a n u s c r i p t</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Ontogenetic allometry<p><s>Throughout development, cranial and mandibular lnCS were larger in M. fuscata than in M. cyclopis, with hybrids in between in an almost additive manner (Table <ref target="#tab_6" type="table">S11</ref>; Fig. <ref type="figure">S3</ref>).</s><s>Among the first three PCs explaining &gt;80% of the total variance, PC1 represented the ontogenetic allometric changes <ref type="bibr">(Figs. 4 and S4)</ref>, showing that larger (more developed) individuals had more elongated faces, relatively smaller neurocraniums, and narrower and longer mandibles.</s><s>A similar shape change was observed in the multivariate regression analysis (see below).</s><s>In contrast, PC2 represented interspecific differences throughout development (Table <ref target="#tab_6" type="table">S11</ref>; Figs. 4, S4, and S5).</s><s>M. fuscata showed a relatively longer face with an inferiorly inclined anterior maxilla and a mandible with a deeper ramus and shorter corpus than those of M. cyclopis; the hybrids were positioned in between in an almost additive manner.</s><s>The PC plots indicated that the ontogenetic trajectories were not strictly linear, showing curves that detour in juveniles and return to an infantile shape (in the PC2 axis) in adults.</s></p><p><s>Multivariate regression indicated that heterogeneity in allometric slopes was small to moderate but marginally significant in the female mandible and male cranium (Tables <ref target="#tab_6" type="table">1</ref> and<ref target="#tab_7" type="table">2</ref>; Figs. <ref type="figure">5</ref> and<ref type="figure">S6</ref>).</s></p><p><s>Allometric angles between the parental species ranged from 9.7 to 17.9 (degrees), although they were not significant after the Bonferroni adjustment.</s><s>These values were comparable to those between a parental species and each of BC0, F2, and BC1 (8.3-18.7),</s><s>although F1, which has few infant and juvenile specimens, often showed much larger angle differences (16.2-38.8).</s><s>From infant to adult, the disparity decreased slightly in females and increased slightly in males (Fig. <ref type="figure">S7</ref>).</s><s>The mismatch was already present in infants and/or juveniles to the extent of half the interspecific distance or less and remained constant or increased slightly until adulthood (Fig. <ref type="figure">S7</ref>).</s><s>Allometric elevations were significantly different among hybrid classes, where hybrids were positioned between the parental species.</s><s>Male allometric elevations were slightly biased towards M. fuscata than expected in the additive model, although the mean admixture proportion of autosomes was rather biased towards M.</s></p><p><s>cyclopis in BC0 and F2 (Table <ref type="table">S8</ref>).</s><s>Phenotypic trajectory analysis supported the finding that ontogenetic trajectories were non-linear and did not differ greatly in magnitude, direction, and shape among hybrid classes, although in some cases, they were marginally significant (Table <ref target="#tab_7" type="table">S12</ref>; Fig. <ref type="figure">6</ref>).</s><s>A c c e p t e d M a n u s c r i p t</s></p><p><s>The allometric slope of the maxillary sinus size differed significantly among the hybrid classes (Table <ref target="#tab_8" type="table">S13</ref>; Fig. <ref type="figure">7</ref>).</s><s>There were small but significant differences in the absolute and relative sizes of the maxillary sinus, even at early developmental phases (Table <ref target="#tab_6" type="table">S11</ref>; Fig. <ref type="figure">S3</ref>).</s><s>M. fuscata had a milder allometric slope than the other hybrid classes, including M. cyclops, and the difference between M.</s></p><p><s>fuscata and the others therefore increased at later developmental phases.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Adult morphology<p><s>Admixed adults in the Oike populations followed the expectations of the additive model or were sometimes slightly biased towards M. fuscata in the size and shape component representing interspecific differences (bgPC1) (Table <ref target="#tab_8" type="table">3</ref>; Fig. <ref type="figure">8</ref>).</s><s>Differences in the major allometric components (PC1 and regression score) among hybrid classes were relatively small, although significant for cranial PC1 at developmental phase 10 (Table <ref target="#tab_6" type="table">S11</ref>; Figs. 4, 5, and S6).</s><s>In contrast, the maxillary sinuses of hybrids were as large as those of M. cyclopis, regardless of hybrid index, and deviated significantly from additivity (Table <ref target="#tab_8" type="table">3</ref>; Fig. <ref type="figure">8</ref>).</s><s>Marked transgressive segregations were observed in cranial and mandibular shapes (Table <ref type="table">4</ref>), particularly in the non-allometric shape space represented by PC2 and PC3 (Fig. <ref type="figure">S5</ref>).</s><s>For cranial and mandibular shapes, deviations from additivity were relatively small in the bias component, while the degree of mismatch was comparable to half the interspecific distance.</s><s>Some hybrids were also transgressive in the morpho-space of cranial shape that represents interspecific difference (PC2) and the relative size of the maxillary sinus (Fig. <ref type="figure">S8</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Population structure<p><s>This study examined 281 samples (after filtering) captured in the Oike area between 2003 and 2006.</s></p><p><s>Considering that the estimated population size in the early 2000s was about 200-300 <ref target="#b47" type="bibr">(Ohsawa et al. 2005)</ref> and the total number of captured individuals was 366, the samples used in this study were sufficient to evaluate the population structure of the Oike area.</s><s>A c c e p t e d M a n u s c r i p t</s></p><p><s>Our results suggested that the Oike population consisted of pure M. cyclopis, pure M. fuscata (males only), the first and subsequent generations of hybrids, and the backcross hybrids of both parental species.</s><s>The first generation consisted mainly of adults, while a few were observed in the subsequent generations.</s><s>This implies that successful interbreeding between pure M. cyclopis and M. fuscata was probably sporadic and rare, at least in the years before eradication.</s><s>In contrast, backcrossing and interhybrid breeding were probably widespread.</s><s>As indicated in previous studies <ref target="#b37" type="bibr">(Kawamoto et al. 2001</ref><ref type="bibr">(Kawamoto et al. , 2008a))</ref>, no M. fuscata-type mtDNA was observed in the admixed individuals, suggesting that only male M. fuscata individuals migrated into the Oike population.</s><s>Considering the philopatric nature of female macaques, this is a reasonable scenario.</s><s>Given male migration and assuming random breeding, the proportion of Y-chromosome ancestry was expected to be twice that of autosomes, but this was much lower than expected.</s><s>Therefore, a mechanism preventing random breeding, such as Haldane's rule, population subdivision, or assortative mating, may have existed in this population.</s><s>Fewer males than females in the F1 generation implies lower male survival or male emigration, although this is inconclusive due to the small sample size.</s><s>The population subdivision scenario is also plausible, as four troops were observed in the Oike area <ref target="#b47" type="bibr">(Ohsawa et al. 2005)</ref>; heterogeneity in migration rate from neighboring M. fuscata between troops may underlie the relatively low frequency of M. fuscata-type Y chromosomes in the Oike population.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Effects of hybridization on ontogenetic trajectories<p><s>In multivariate shape space, the ontogenetic trajectories of the cranium and mandible differed between the parental species.</s><s>Direction differed (although not significantly) by less than 20 degrees between the parental species, which is comparable to that found between species within a papionin genus <ref target="#b69" type="bibr">(Singleton 2012;</ref><ref target="#b67" type="bibr">Simons and Frost 2021)</ref>.</s><s>Hybridization shifted ontogenetic trajectories by the proportion of ancestry, although in some cases, with a slight bias toward M. fuscata.</s><s>Hybridization also changed the direction to the same extent as the angle between the parental species (in most cases, they were not significant).</s><s>However, the disparity and the degree of transgression did not greatly increase or decrease during development.</s><s>In other words, the hybridization-induced shape differentiations were already manifested at birth; the differences in magnitude are maintained during A c c e p t e d M a n u s c r i p t postnatal ontogeny.</s><s>This finding is partially consistent with a study of Sulawesi macaques, which showed no significant differentiation in the ontogenetic trajectory of the cranium between hybrids and their parental species in multivariate allometric space <ref target="#b63" type="bibr">(Schillaci et al. 2005)</ref>.</s><s><ref target="#b63" type="bibr">Schillaci et al. (2005)</ref> reported hybridization-induced heterochrony in several cranial traits in bivariate allometric trajectories; this is pure heterochrony (sensu <ref target="#b44" type="bibr">Mitteroecker et al. 2004</ref>), which cannot be evaluated when trajectories do not overlap in multivariate space.</s><s>Thus, although hybridization shifts the ontogenetic trajectory and may even change the direction, these postnatal ontogenetic changes did not contribute to the increase in disparity and transgressive variation in adults.</s><s>As suggested by <ref target="#b81" type="bibr">Zelditch et al. (2016)</ref>, the discrepancy may be ascribed to postnatally generated variation counteracting earlier generated variation.</s></p><p><s>It should be noted that the present finding of a limited contribution of hybridization-induced ontogenetic trajectory change to the increase in adult shape variation may be limited to the case of parental pairs with relatively small ontogenetic trajectory differences.</s><s>Parallel ontogenetic trajectory differentiation between species has been widely observed in primate skull shape <ref target="#b45" type="bibr">(Mouri 1996;</ref><ref target="#b50" type="bibr">Ponce de León and Zollikofer 2001;</ref><ref target="#b77" type="bibr">Toyoda et al. 2022)</ref>, while recent multivariate studies have shown that the direction of ontogenetic trajectories of cranial shape differs between species to varying degrees across primate taxa <ref target="#b44" type="bibr">(Mitteroecker et al. 2004;</ref><ref target="#b78" type="bibr">Vioarsdóttir and Cobb 2004;</ref><ref target="#b69" type="bibr">Singleton 2012;</ref><ref target="#b67" type="bibr">Simons and Frost 2021)</ref>.</s><s>The impacts of hybridization between species with greater differences in ontogenetic trajectories are of interest to future studies.</s></p><p><s>The finding that transgressive segregation is observed in hybrids is consistent with many previous studies examining hybrid phenotypic variation in various taxa of organisms <ref target="#b56" type="bibr">(Rieseberg et al. 1999;</ref><ref target="#b5" type="bibr">Albertson and Kocher 2005;</ref><ref type="bibr">Stelkens et al. 2009;</ref><ref target="#b55" type="bibr">Renaud et al. 2012;</ref><ref target="#b0" type="bibr">Ackermann et al. 2019</ref>).</s><s>What our finding can add to the literature is that transgressive segregation is likely to manifest prenatally without much change postnatally, at least in magnitude.</s><s>Transgressive segregation is often found in a trait composed of multiple modules, such as the cranium and mandible examined in our study, and is probably caused by different modules responding to hybridization in opposite directions <ref target="#b5" type="bibr">(Albertson and Kocher 2005;</ref><ref target="#b55" type="bibr">Renaud et al. 2012)</ref>.</s><s>Whether and how transgressive segregation manifests largely A c c e p t e d M a n u s c r i p t depends on the pattern and strength of integration among modules.</s><s>Macaques appear to have achieved relaxed integration among modules in the cranium and mandible, respectively, to a degree sufficient to manifest transgressive segmentation.</s></p><p><s>The maxillary sinus of M. cyclopis is already larger than that of M. fuscata at birth, and the postnatal growth rate of M. cyclopis is much faster than that of M. fuscata.</s><s>Hybridization altered the size of the maxillary sinus at birth by the proportion of ancestry, whereas the growth rate of hybrids was as fast as that of M. cyclopis, regardless of the proportion of ancestry.</s><s>Although the genetic mechanisms underlying the non-additive inheritance of the postnatal growth rate of the maxillary sinus are unknown, two hypotheses can be proposed.</s><s>First, M. fuscata-type cytoplasmic (e.g., mitochondrial)</s></p><p><s>genes may inhibit sinus growth.</s><s>Since cytoplasmic genes were not introduced into the hybrids due to male-biased migration, all hybrids exhibited a growth rate as fast as that of M. cyclopis.</s><s>Maternal inheritance associated with nuclear genes, such as genomic imprinting, would not account for the deviations in the second and subsequent generations of hybrids.</s><s>Second, an epistatic interaction of M.</s></p><p><s>fuscata-type alleles may inhibit sinus growth.</s><s>Such an interaction can be disrupted by the introgression of alleles from another species, even if only a small fraction.</s><s>Considering that backcrossed individuals did not recover the slow sinus growth rate typical of M. fuscata, an epistatic interaction, if any, was controlled by not a few genes.</s><s>In either case, as a consequence, the adult hybrids show a mosaic pattern, i.e., the maxillary sinus is as large as that of M. cyclopis, although the cranium shape is almost intermediate (in the shape component representing interspecific difference) between the two parental species.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Evolutionary background underlying the consequences of hybridization<p><s>How hybridization affects ontogenetic trajectories is likely to depend on the evolutionary processes that produced the difference in genetic architecture between the parental lineages.</s><s>This idea stems from the finding that genetic architecture imposes limits on transgressive segregation <ref target="#b5" type="bibr">(Albertson and Kocher 2005)</ref>.</s><s>The whole body shape of fish shows much greater differences in ontogenetic direction between the parental lineages and between them and their hybrids <ref target="#b68" type="bibr">(Sinama et al. 2013;</ref><ref target="#b62" type="bibr">Santos-Santos et al. 2021)</ref> than those observed in the cranium and mandible of hybrid macaques.</s><s>It can be hypothesized that the fish body is less integrated between modules and has experienced selective pressures that act differently on each module, producing greater changes in ontogenetic direction.</s><s>In contrast, the evolutionary forces shaping interspecific differences in macaque skulls may not have been strong enough to greatly affect ontogenetic directions.</s></p><p><s>The genetic distance between the parental lines is a significant predictor of the expression of transgressive segregation in hybrids <ref type="bibr">(Stelkens and Seehausen 2009;</ref><ref type="bibr">Stelkens et al. 2009</ref>).</s><s>The evolutionary history of the group consisting of M. cyclopis, M. fuscata, and M. mulatta has been relatively well studied.</s><s>Among the three, M. fuscata diverged first, followed by M. cyclopis, and then the Chinese and Indian lineages of M. mulatta diverged, with gene flow between some pairs of their ancestors <ref target="#b48" type="bibr">(Osada et al. 2021)</ref>.</s><s>Although the time of divergence between M. cyclopis and M. fuscata remains controversial, the two species were probably isolated no later than 0.43 million years ago, the last time the Japanese archipelago was connected to the continent <ref target="#b4" type="bibr">(Aimi 2002)</ref>.</s><s>It should be noted that the substitution rate of the M. fuscata lineage is much higher than the other lineages, probably due to the ancestral population bottleneck and the resulting accumulation of slightly deleterious mutations <ref target="#b30" type="bibr">(Ito et al. 2021)</ref>.</s><s>M. fuscata is also peculiar in that it has the northernmost distribution among nonhuman primates, and some of its morphological features probably reflect adaptation to highlatitude environments <ref target="#b8" type="bibr">(Antón 1996)</ref>.</s><s>Such relatively deep divergence and specialization in the parental lineages probably formed the genetic architecture that produced transgressive phenotypes in hybrids.</s><s>This is in contrast to the case of pelvic morphology of hybrids between Chinese and Indian lineages of M. mulatta, which shows weak inter-lineage differences and no evidence of transgressive phenotypes <ref target="#b15" type="bibr">(Buck et al. 2021)</ref>.</s><s>The divergence between Chinese and Indian lineages of M. mulatta is shallower than that between M. cyclopis and M. mulatta, but not as different.</s><s>The demographic history and adaptive evolution, not just the depth of divergence, of the parental lineages is likely to be the key to what variation is manifested in hybrids.</s></p><p><s>A c c e p t e d M a n u s c r i p t</s></p><p><s>The maxillary sinus is peculiar in that the growth rate appears to show cytoplasmic or epistatic inheritance.</s><s>If epistatic interaction inhibits sinus growth in M. fuscata, it is reasonable to assume that the genetic architecture has been formed by natural selection, i.e., a coadapted gene complex.</s><s>The small maxillary sinus may be advantageous in the high-latitude environment inhabited by M. fuscata because it could provide space for the expansion of the nasal cavity or to support a strong bite.</s><s>In fact, M. fuscata populations at higher latitudes have a larger nasal cavity and a smaller maxillary sinus <ref target="#b52" type="bibr">(Rae et al. 2003)</ref>, and M. fuscata shows a cranial adaptation to a high attrition diet compared to its relatives <ref target="#b8" type="bibr">(Antón 1996)</ref>.</s><s>Alternatively, the growth rate of the maxillary sinus may be controlled by a genetic factor that pleiotropically affects an unknown functional trait, as it is questionable whether the maxillary sinus has a functional role <ref target="#b53" type="bibr">(Rae and Koppe 2004;</ref><ref target="#b42" type="bibr">Márquez 2008)</ref> or is related to biomechanical force <ref target="#b54" type="bibr">(Rae and Koppe 2008)</ref>.</s><s>In either case, a somewhat independent trait that is under different selective pressure from the surrounding structure, such as the maxillary sinus, may lead to specific ontogenetic trajectory differentiation in hybrids, whereas highly integrated traits may not.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusions<p><s>This study showed that: (1) Hybridization shifted the ontogenetic trajectories of cranial and mandibular shapes in a nearly additive manner.</s><s>(2) Transgressive variation in cranial and mandibular shape manifested at birth; hybridization-induced changes in postnatal ontogenetic direction did not contribute to increases in adult transgressive variation or disparity.</s><s>(3) Hybridization disrupted a M. fuscata-specific genetic function that inhibited maxillary sinus growth, producing hybrids with a mosaic pattern, i.e., the maxillary sinus was as large as that of M. cyclopis, although the cranial shape was intermediate in the shape component representing interspecific difference.</s><s>This study has several limitations.</s><s>First, the skeletal specimens used as surrogates for the parental populations may differ in morphology from the actual parental populations due to regional intraspecific variation, although the</s></p></div><figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023 A c c e p t e d M a n u s c r i p t measurement errors were negligible compared to inter-individual variation (Table</s></p></div></figdesc></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>s c r i p t hybrid index indicate biases from additivity along the interparental axis, and in particular, B &lt; 0 and B &gt; 1 indicate exceeding the parental means, i.e., overdominance.</s><s>M and B were calculated using a custom R script.</s></p></div></figdesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="32,72.00,109.60,467.90,264.48" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="34,72.00,72.00,467.77,361.75" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="37,72.00,72.00,467.80,361.78" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="38,72.00,72.00,451.25,267.98" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_3" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_4" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_5" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_6" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>surrogates were selected from localities as close as possible to the locality of the hybrid population.Second, the ontogenetic trajectories lack stability due to the small sample size, and the present findings should be validated based on a larger sample size.</s><s>Third, the F2, BC0, and BC1 categorized in this study may include later generations, and such genetic heterogeneity of group members may obscure patterns of variation; this concern could be addressed by inferring generations in detail based on fine-scale phased data or using the samples with known genealogy.</s><s>Despite these limitations, this study highlights the complex genetic and ontogenetic bases underlying hybridization-induced differentiation in ontogenetic trajectories and resulting morphological diversification.</s><s>Multivariate regression of shape on lnCS, hybrid class, and their interactions.</s><s>Each sex was analyzed separately.</s><s>Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023</s></p></div></figdesc><table><row><cell>Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023</cell></row></table></figure>
+<figure type="table" xml:id="tab_7" xmlns="http://www.tei-c.org/ns/1.0">Table 2 .<label>2</label><figdesc><div><p><s>Pairwise vector correlations in the multivariate regression of shape against lnCS, hybrid class, and their interactions.</s><s>The upper triangle indicates the angle (degrees), and the lower triangle indicates the P value.</s><s>Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023</s></p></div></figdesc><table><row><cell></cell><cell></cell><cell>cyclopis_P0</cell><cell>BC0</cell><cell>F1</cell><cell>F2</cell><cell>BC1</cell><cell>fuscata</cell></row><row><cell>Female</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>cranium</cell><cell>cyclopis_P0</cell><cell></cell><cell>14.0</cell><cell>23.2</cell><cell>17.6</cell><cell>15.4</cell><cell>16.0</cell></row><row><cell></cell><cell>BC0</cell><cell>0.507</cell><cell></cell><cell>27.4</cell><cell>12.2</cell><cell>11.4</cell><cell>10.8</cell></row><row><cell></cell><cell>F1</cell><cell>0.934</cell><cell>0.61</cell><cell></cell><cell>29.3</cell><cell>25.5</cell><cell>28.0</cell></row><row><cell></cell><cell>F2</cell><cell>0.05</cell><cell>0.24</cell><cell>0.501</cell><cell></cell><cell>12.9</cell><cell>11.8</cell></row><row><cell></cell><cell>BC1</cell><cell>0.135</cell><cell>0.239</cell><cell>0.705</cell><cell>0.028</cell><cell></cell><cell>9.8</cell></row><row><cell></cell><cell>fuscata</cell><cell>0.056</cell><cell>0.225</cell><cell>0.534</cell><cell>0.026</cell><cell>0.071</cell></row><row><cell cols="2">mandible cyclopis_P0</cell><cell></cell><cell>13.1</cell><cell>38.8</cell><cell>18.7</cell><cell>18.2</cell><cell>17.9</cell></row><row><cell></cell><cell>BC0</cell><cell>0.83</cell><cell></cell><cell>32.9</cell><cell>10.6</cell><cell>11.2</cell><cell>13.1</cell></row><row><cell></cell><cell>F1</cell><cell>0.106</cell><cell>0.231</cell><cell></cell><cell>34.8</cell><cell>35.6</cell><cell>36.4</cell></row><row><cell></cell><cell>F2</cell><cell>0.157</cell><cell>0.693</cell><cell>0.167</cell><cell></cell><cell>10.9</cell><cell>16.4</cell></row><row><cell></cell><cell>BC1</cell><cell>0.109</cell><cell>0.367</cell><cell>0.13</cell><cell>0.346</cell><cell></cell><cell>12.0</cell></row><row><cell></cell><cell>fuscata</cell><cell>0.095</cell><cell>0.067</cell><cell>0.109</cell><cell>0.004</cell><cell>0.015</cell></row><row><cell>Male</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>cranium</cell><cell>cyclopis_P0</cell><cell></cell><cell>9.3</cell><cell>16.2</cell><cell>12.7</cell><cell>10.7</cell><cell>12.2</cell></row><row><cell></cell><cell>BC0</cell><cell>0.353</cell><cell></cell><cell>18.1</cell><cell>10.5</cell><cell>9.9</cell><cell>9.7</cell></row><row><cell></cell><cell>F1</cell><cell>0.92</cell><cell>0.748</cell><cell></cell><cell>21.4</cell><cell>15.1</cell><cell>17.6</cell></row><row><cell></cell><cell>F2</cell><cell>0.033</cell><cell>0.095</cell><cell>0.421</cell><cell></cell><cell>13.9</cell><cell>13.1</cell></row><row><cell></cell><cell>BC1</cell><cell>0.154</cell><cell>0.132</cell><cell>0.965</cell><cell>0.001</cell><cell></cell><cell>10.7</cell></row><row><cell></cell><cell>fuscata</cell><cell>0.006</cell><cell>0.027</cell><cell>0.774</cell><cell>0.003</cell><cell>0.018</cell></row><row><cell cols="2">mandible cyclopis_P0</cell><cell></cell><cell>9.5</cell><cell>21.9</cell><cell>11.0</cell><cell>8.3</cell><cell>9.7</cell></row><row><cell></cell><cell>BC0</cell><cell>0.523</cell><cell></cell><cell>23.9</cell><cell>11.3</cell><cell>10.4</cell><cell>13.0</cell></row><row><cell></cell><cell>F1</cell><cell>0.499</cell><cell>0.297</cell><cell></cell><cell>29.0</cell><cell>20.7</cell><cell>19.7</cell></row><row><cell></cell><cell>F2</cell><cell>0.382</cell><cell>0.189</cell><cell>0.073</cell><cell></cell><cell>12.9</cell><cell>15.2</cell></row><row><cell></cell><cell>BC1</cell><cell>0.839</cell><cell>0.25</cell><cell>0.573</cell><cell>0.062</cell><cell></cell><cell>9.7</cell></row><row><cell></cell><cell>fuscata</cell><cell>0.345</cell><cell>0.004</cell><cell>0.633</cell><cell>0.003</cell><cell>0.222</cell></row><row><cell cols="5">Bonferroni-adjusted significance (P &lt; 0.05) is indicated in bold.</cell><cell></cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_8" xmlns="http://www.tei-c.org/ns/1.0">Table 3 .<label>3</label><figdesc><div><p><s>Regression of lnCS and bgPC1 on the hybrid index in the admixed adult samples.</s><s>Deviations of elevation and slope from additivity (the line passing through the means of each parent) were evaluated.</s><s>Each sex was analyzed separately.</s></p></div></figdesc><table><row><cell></cell><cell></cell><cell>Model fit</cell><cell></cell><cell>Slope test</cell><cell></cell><cell cols="2">Elevation test</cell></row><row><cell></cell><cell>Variable</cell><cell>R 2</cell><cell>P</cell><cell>b</cell><cell>P</cell><cell>a</cell><cell>P</cell></row><row><cell>Female</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>cranium</cell><cell>lnCS</cell><cell>0.37</cell><cell>0.001</cell><cell>0.12</cell><cell>0.436</cell><cell>5.58</cell><cell>0.502</cell></row><row><cell></cell><cell>bgPC1</cell><cell>0.37</cell><cell>0.001</cell><cell>-0.04</cell><cell>0.771</cell><cell>0.01</cell><cell>0.156</cell></row><row><cell>mandible</cell><cell>lnCS</cell><cell>0.43</cell><cell>&lt;0.001</cell><cell>0.18</cell><cell>0.105</cell><cell>5.22</cell><cell>0.992</cell></row><row><cell></cell><cell>bgPC1</cell><cell>0.6</cell><cell>&lt;0.001</cell><cell>-0.06</cell><cell>0.557</cell><cell>0.03</cell><cell>0.583</cell></row><row><cell>maxillary</cell><cell>lnCS</cell><cell>0.02</cell><cell>0.542</cell><cell>-0.11</cell><cell>0.022</cell><cell>3.33</cell><cell>0.086</cell></row><row><cell>sinus</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>log ratio</cell><cell>0.09</cell><cell>0.152</cell><cell>-0.23</cell><cell>0.015</cell><cell>-2.25</cell><cell>0.071</cell></row><row><cell>Male</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>cranium</cell><cell>lnCS</cell><cell>0.69</cell><cell>&lt;0.001</cell><cell>0.14</cell><cell>0.191</cell><cell>5.67</cell><cell>0.902</cell></row><row><cell></cell><cell>bgPC1</cell><cell>0.62</cell><cell>&lt;0.001</cell><cell>-0.06</cell><cell>0.372</cell><cell>0.04</cell><cell>0.803</cell></row><row><cell>mandible</cell><cell>lnCS</cell><cell>0.61</cell><cell>&lt;0.001</cell><cell>0.17</cell><cell>0.198</cell><cell>5.34</cell><cell>0.885</cell></row><row><cell></cell><cell>bgPC1</cell><cell>0.59</cell><cell>&lt;0.001</cell><cell>-0.06</cell><cell>0.803</cell><cell>0.04</cell><cell>0.677</cell></row><row><cell>maxillary</cell><cell>lnCS</cell><cell>0.2</cell><cell>0.098</cell><cell>0.26</cell><cell>&lt;0.001</cell><cell>3.22</cell><cell>0.216</cell></row><row><cell>sinus</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>log ratio</cell><cell>0.05</cell><cell>0.438</cell><cell>0.11</cell><cell>&lt;0.001</cell><cell>-2.45</cell><cell>0.194</cell></row><row><cell cols="8">Maxillary sinus log ratio indicates lnCS (sinus) -lnCS (cranium). Significance (P &lt; 0.05) is indicated in</cell></row><row><cell>bold.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023</s></p></note>
+<back>
+<div type="acknowledgement">
+<div>Acknowledgments<p>We thank <rs type="person">Hideyuki Ohsawa</rs>, <rs type="person">Yoshiki Morimitsu</rs>, <rs type="person">Yasuyuki Muroyama</rs>, <rs type="person">Shingo Maekawa</rs>, <rs type="person">Hideo Nigi</rs>, <rs type="person">Harumi Torii</rs>, <rs type="person">Shunji Goto</rs>, <rs type="person">Tamaki Maruhashi</rs>, <rs type="person">Naofumi Nakagawa</rs>, <rs type="person">Jun Nakatani</rs>, <rs type="person">Toshiki Tanaka</rs>, <rs type="person">Sachiko Hayakawa</rs>, <rs type="person">Aya Yamada</rs>, <rs type="person">Shuhei Hayaishi</rs>, <rs type="person">Hironori Seino</rs>, <rs type="person">Kei Shirai</rs>, <rs type="person">Mami Saeki</rs>, <rs type="person">Shizuka Kawai</rs>, <rs type="person">Ko Hagiwara</rs>, <rs type="person">Katsuya Suzuki</rs>, <rs type="person">Kunihiko Suzuki</rs>, <rs type="person">Junya Uetsuki</rs>, <rs type="person">Misao Okano</rs>, <rs type="person">Tadanobu Okumura</rs>, <rs type="person">Atsuhisa Yoshida</rs>, and <rs type="person">Noriko Yokoyama</rs>, of the Working Group of <rs type="affiliation">Wakayama Taiwanese</rs> macaque, and the <rs type="institution">Department of Environment and Life, Wakayama Prefecture</rs>, for kindly allowing us to use the samples.We also thank <rs type="person">Yuta Shintaku</rs> and <rs type="person">Takeshi Nishimura</rs> for their help in accessing the skeletal collections.We are grateful to <rs type="person">Akira Kawaguchi</rs>, <rs type="person">Kyoko Yamaguchi</rs>, <rs type="person">Takehiro Sato</rs>, and <rs type="person">Chikatoshi Sugimoto</rs> for teaching molecular experiments to TI.We express our gratitude to the successive members of the <rs type="institution">Department of Evolution and Phylogeny, Primate Research Institute, Kyoto University</rs>, for their efforts in collecting, preparing, and preserving skeletal collections.</p></div>
+</div>
+<div type="funding">
+<div>Funding<p>This study was funded by the <rs type="funder">Keihanshin Consortium for Fostering the Next Generation of Global Leaders</rs> <rs type="projectName">in Research (K-CONNEX</rs>) established by the <rs type="programName">Human Resource Development Program</rs> <rs type="funder">for Science and Technology, MEXT</rs>, <rs type="funder">JSPS KAKENHI</rs> (Grant Numbers: <rs type="grantNumber">JP15J00134</rs>, <rs type="grantNumber">JP17K15195</rs>, <rs type="grantNumber">JP19K16211</rs>, and <rs type="grantNumber">JP19H01002</rs>), the <rs type="funder">University of the</rs> <rs type="programName">Ryukyus Research Project Program Grant for Junior Researchers</rs>, the <rs type="programName">Cooperative Research Program</rs> from the <rs type="funder">Primate Research Institute of Kyoto University</rs>, and <rs type="funder">ISHIZUE 2022 of Kyoto University</rs> o TI.</p></div>
+</div>
+<listorg type="funding">
+<org type="funded-project" xml:id="_rXpcVDg">
+<orgname subtype="full" type="project">in Research (K-CONNEX</orgname>
+<orgname subtype="full" type="program">Human Resource Development Program</orgname>
+</org>
+<org type="funding" xml:id="_XyTf9XQ">
+<idno type="grant-number">JP15J00134</idno>
+</org>
+<org type="funding" xml:id="_qJ8WSwd">
+<idno type="grant-number">JP17K15195</idno>
+</org>
+<org type="funding" xml:id="_7Wk6QEs">
+<idno type="grant-number">JP19K16211</idno>
+</org>
+<org type="funding" xml:id="_9Cj3Paj">
+<idno type="grant-number">JP19H01002</idno>
+</org>
+<org type="funding" xml:id="_zafc7QR">
+<orgname subtype="full" type="program">Ryukyus Research Project Program Grant for Junior Researchers</orgname>
+</org>
+<org type="funding" xml:id="_4mhUgtq">
+<orgname subtype="full" type="program">Cooperative Research Program</orgname>
+</org>
+</listorg>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0">Data Availability<p><s>The sequence reads have been submitted to the Sequence Read Archive (SRA) of the National Center for Biotechnology Information (NCBI) under accession number PRJNA1009132.</s><s>The other data underlying this article are available in the Dryad Digital Repository, at</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">Author Contributions<p><s>TI, RK, YH, and YK conceived the research.</s><s>TI, HW, and YK performed basic molecular experiments.</s><s>AT and AJN conducted ddRAD library preparation.</s><s>YK contributed samples and data.</s><s>TI and MT assessed the developmental phase.</s><s>TI analyzed the data and drafted the manuscript.</s><s>All authors approved the final version of this manuscript.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conflicts of interest<p><s>The authors declare no conflicts of interest.</s></p><p><s>A c c e p t e d M a n u s c r i p t</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Hybridization in human evolution: Insights from other organisms</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Ackermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Arnold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Baiz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Cahill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Cortés-Ortiz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Evans</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">R</forename><surname>Grant</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">R</forename><surname>Grant</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Hallgrimsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Humphreys</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Jolly</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Malukiewicz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Percival</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">B</forename><surname>Ritzman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Roos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">C</forename><surname>Roseman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Schroeder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">H</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Warren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Zinner</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Evol. Anthropol</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope from="189" to="209" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ackermann, R. R., M. L. Arnold, M. D. Baiz, J. A. Cahill, L. Cortés-Ortiz, B. J. Evans, B. R. Grant, P. R. Grant, B. Hallgrimsson, R. A. Humphreys, C. J. Jolly, J. Malukiewicz, C. J. Percival, T. B. Ritzman, C. Roos, C. C. Roseman, L. Schroeder, F. H. Smith, K. A. Warren, R. K. Wayne, and D. Zinner. 2019. Hybridization in human evolution: Insights from other organisms. Evol. Anthropol. 28:189-209.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Morphological and molecular evidence reveals recent hybridization between gorilla taxa</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Ackermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Bishop</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Evolution</title>
+<imprint>
+<biblscope unit="volume">64</biblscope>
+<biblscope from="271" to="290" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ackermann, R. R., and J. M. Bishop. 2010. Morphological and molecular evidence reveals recent hybridization between gorilla taxa. Evolution 64:271-290.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Further evidence for phenotypic signatures of hybridization in descendant baboon populations</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Ackermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Schroeder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Rogers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Cheverud</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Hum. Evol</title>
+<imprint>
+<biblscope unit="volume">76</biblscope>
+<biblscope from="54" to="62" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ackermann, R. R., L. Schroeder, J. Rogers, and J. M. Cheverud. 2014. Further evidence for phenotypic signatures of hybridization in descendant baboon populations. J. Hum. Evol. 76:54-62.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Geomorph: Software for geometric morphometric analyses</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Adams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Collyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kaliontzopoulou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">K</forename><surname>Baken</surname></persname>
+</author>
+<ptr target="https://cran.r-project.org/package=geomorph"></ptr>
+</analytic>
+<monogr>
+<title level="j">R package version</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="issue">0</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Adams, D. C., M. L. Collyer, A. Kaliontzopoulou, and E. K. Baken. 2021. Geomorph: Software for geometric morphometric analyses. R package version 4.0. https://cran.r- project.org/package=geomorph.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">The oldest fossil macaque from Japan</title>
+<author>
+<persname><forename type="first">M</forename><surname>Aimi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Primate Res</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope from="239" to="245" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note>Japanese with English abstract</note>
+<note type="raw_reference">Aimi, M. 2002. The oldest fossil macaque from Japan. Primate Res. 18:239-245 [Japanese with English abstract].</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Genetic architecture sets limits on transgressive segregation in hybrid cichlid fishes</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">C</forename><surname>Albertson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">D</forename><surname>Kocher</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Evolution</title>
+<imprint>
+<biblscope unit="volume">59</biblscope>
+<biblscope from="686" to="690" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Albertson, R. C., and T. D. Kocher. 2005. Genetic architecture sets limits on transgressive segregation in hybrid cichlid fishes. Evolution 59:686-690.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Fast model-based estimation of ancestry in unrelated individuals</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">H</forename><surname>Alexander</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Novembre</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Genome Res</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope from="1655" to="1664" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Alexander, D. H., and J. Novembre. 2009. Fast model-based estimation of ancestry in unrelated individuals. Genome Res. 19:1655-1664.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">A model-based method for identifying species hybrids using multilocus genetic data</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">C</forename><surname>Anderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Thompson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Genetics</title>
+<imprint>
+<biblscope unit="volume">160</biblscope>
+<biblscope from="1217" to="1229" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Anderson, E. C., and E. A. Thompson. 2002. A model-based method for identifying species hybrids using multilocus genetic data. Genetics 160:1217-1229.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Cranial adaptation to a high attrition diet in Japanese macaques</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Antón</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Int. J. Primatol</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope from="401" to="427" unit="page"></biblscope>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Antón, S. C. 1996. Cranial adaptation to a high attrition diet in Japanese macaques. Int. J. Primatol. 17:401-427.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">LOST: Missing morphometric data simulation and estimation</title>
+<author>
+<persname><forename type="first">J</forename><surname>Arbour</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Brown</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=LOST"></ptr>
+</analytic>
+<monogr>
+<title level="j">R package version</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="issue">0</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Arbour, J., and C. Brown. 2020. LOST: Missing morphometric data simulation and estimation. R package version 2.0.2. https://CRAN.R-project.org/package=LOST.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Incomplete specimens in geometric morphometric analyses</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">H</forename><surname>Arbour</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Brown</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Methods Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope from="16" to="26" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Arbour, J. H., and C. M. Brown. 2014. Incomplete specimens in geometric morphometric analyses. Methods Ecol. Evol. 5:16-26.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Adaptive genetic exchange: A tangled history of admixture and evolutionary innovation</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Arnold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Kunte</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Trends Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">32</biblscope>
+<biblscope from="601" to="611" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Arnold, M. L., and K. Kunte. 2017. Adaptive genetic exchange: A tangled history of admixture and evolutionary innovation. Trends Ecol. Evol. 32:601-611.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">M a n u s c r i p t Enhanced analytics and a new graphical interface for a comprehensive morphometric experience</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">K</forename><surname>Baken</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Collyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kaliontzopoulou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Adams</surname></persname>
+</author>
+<idno type="DOI">10.1093/evolut/qpad206/7411360bygueston13</idno>
+<ptr target="https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360bygueston13"></ptr>
+</analytic>
+<monogr>
+<title level="m">geomorph v4.0 and gmShiny: Downloaded from</title>
+<imprint>
+<date type="published" when="2021-11">2021. November 2023</date>
+<biblscope unit="volume">12</biblscope>
+<biblscope from="2355" to="2363" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Baken, E. K., M. L. Collyer, A. Kaliontzopoulou, and D. C. Adams. 2021. geomorph v4.0 and gmShiny: Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023 A c c e p M a n u s c r i p t Enhanced analytics and a new graphical interface for a comprehensive morphometric experience. Methods Ecol. Evol. 12:2355-2363.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Facial ontogeny in Neanderthals and modern humans</title>
+<author>
+<persname><forename type="first">M</forename><surname>Bastir</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>O'higgins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Rosas</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proc. R. Soc. Lond. B. Biol. Sci</title>
+<imprint>
+<biblscope unit="volume">274</biblscope>
+<biblscope from="1125" to="1132" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bastir, M., P. O'Higgins, and A. Rosas. 2007. Facial ontogeny in Neanderthals and modern humans. Proc. R. Soc. Lond. B. Biol. Sci. 274:1125-1132.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Craniofacial shape and nonmetric trait variation in hybrids of the Japanese macaque (Macaca fuscata) and the Taiwanese macaque (Macaca cyclopis)</title>
+<author>
+<persname><forename type="first">C</forename><surname>Boel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Curnoe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Hamada</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Int. J. Primatol</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope from="214" to="243" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Boel, C., D. Curnoe, and Y. Hamada. 2019. Craniofacial shape and nonmetric trait variation in hybrids of the Japanese macaque (Macaca fuscata) and the Taiwanese macaque (Macaca cyclopis). Int. J. Primatol. 40:214-243.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Effects of hybridization on pelvic morphology: A macaque model</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">T</forename><surname>Buck</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Katz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Ackermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">J</forename><surname>Hlusko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Kanthaswamy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">D</forename><surname>Weaver</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Hum. Evol</title>
+<imprint>
+<biblscope unit="volume">159</biblscope>
+<biblscope unit="page">103049</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Buck, L. T., D. C. Katz, R. R. Ackermann, L. J. Hlusko, S. Kanthaswamy, and T. D. Weaver. 2021. Effects of hybridization on pelvic morphology: A macaque model. J. Hum. Evol. 159:103049.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Genetic differences among subspecies of the saddle-back tamarin (Saguinus fuscicollis): evidence from hybrids</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Cheverud</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Jacobs</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Moore</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Am. J. Primatol</title>
+<imprint>
+<biblscope unit="volume">31</biblscope>
+<biblscope from="23" to="39" unit="page"></biblscope>
+<date type="published" when="1993">1993</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cheverud, J. M., S. C. Jacobs, and A. J. Moore. 1993. Genetic differences among subspecies of the saddle-back tamarin (Saguinus fuscicollis): evidence from hybrids. Am. J. Primatol. 31:23-39.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">RRPP: An r package for fitting linear models to highdimensional data using residual randomization</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Collyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Adams</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Methods Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="1772" to="1779" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Collyer, M. L., and D. C. Adams. 2018. RRPP: An r package for fitting linear models to high- dimensional data using residual randomization. Methods Ecol. Evol. 9:1772-1779.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<monogr>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Collyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Adams</surname></persname>
+</author>
+<ptr target="https://cran.r-project.org/web/packages/RRPP"></ptr>
+<title level="m">RRPP: Linear model evaluation with randomized residuals in a permutation procedure</title>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Collyer, M. L., and D. C. Adams. 2021. RRPP: Linear model evaluation with randomized residuals in a permutation procedure. https://cran.r-project.org/web/packages/RRPP.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Plasticity of ontogenetic trajectories in cyprinids: a source of evolutionary novelties</title>
+<author>
+<persname><forename type="first">E</forename><surname>Corse</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Neve</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Sinama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Pech</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Costedoat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Chappaz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Andre</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biol. J. Linn. Soc. Lond</title>
+<imprint>
+<biblscope unit="volume">106</biblscope>
+<biblscope from="342" to="355" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Corse, E., G. Neve, M. Sinama, N. Pech, C. Costedoat, R. Chappaz, and G. Andre. 2012. Plasticity of ontogenetic trajectories in cyprinids: a source of evolutionary novelties. Biol. J. Linn. Soc. Lond. 106:342-355.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<monogr>
+<title level="m" type="main">Hybridization in howler monkeys: Current understanding and future directions</title>
+<author>
+<persname><forename type="first">L</forename><surname>Cortés-Ortiz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Agostini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M</forename><surname>Aguiar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kelaita</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">E</forename><surname>Silva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Bicca-Marques</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2015">2015</date>
+<biblscope from="107" to="131" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Cortés-Ortiz, L., I. Agostini, L. M. Aguiar, M. Kelaita, F. E. Silva, and J. C. Bicca-Marques. 2015. Hybridization in howler monkeys: Current understanding and future directions. Pp. 107-131 in</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<monogr>
+<title level="m">Howler Monkeys: Adaptive Radiation, Systematics, and Morphology</title>
+<editor>
+<persname><forename type="first">M</forename><forename type="middle">M</forename><surname>Kowalewski</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Garber</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">L</forename><surname>Cortés-Ortiz</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">B</forename><surname>Urbani</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">D</forename><surname>Youlatos</surname></persname>
+</editor>
+<meeting><address><addrline>New York, New York</addrline></address></meeting>
+<imprint>
+<publisher>Springer</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">M. M. Kowalewski, P. A. Garber, L. Cortés-Ortiz, B. Urbani, and D. Youlatos, eds. Howler Monkeys: Adaptive Radiation, Systematics, and Morphology. Springer New York, New York.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<monogr>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">L</forename><surname>Dryden</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=shapes"></ptr>
+<title level="m">shapes: Statistical Shape Analysis</title>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note>R package version 1</note>
+<note type="raw_reference">Dryden, I. L. 2021. shapes: Statistical Shape Analysis. R package version 1.2.6. https://CRAN.R- project.org/package=shapes.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Variation in the nasal cavity of baboon hybrids with implications for late Pleistocene hominins</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Eichel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Ackermann</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Hum. Evol</title>
+<imprint>
+<biblscope unit="volume">94</biblscope>
+<biblscope from="134" to="145" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Eichel, K. A., and R. R. Ackermann. 2016. Variation in the nasal cavity of baboon hybrids with implications for late Pleistocene hominins. J. Hum. Evol. 94:134-145.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<monogr>
+<title level="m" type="main">An R companion to Applied Regression</title>
+<author>
+<persname><forename type="first">J</forename><surname>Fox</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Weisberg</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2019">2019</date>
+<publisher>Sage</publisher>
+<pubplace>Thousand Oaks CA</pubplace>
+</imprint>
+</monogr>
+<note>Third edition</note>
+<note type="raw_reference">Fox, J., and S. Weisberg. 2019. An R companion to Applied Regression, Third edition. Sage, Thousand Oaks CA.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">A c c e p t e d M a n u s c r i p t geoffroyi) and their hybrids</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">F</forename><surname>Fuzessy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>De</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Silva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Malukiewicz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">F R</forename><surname>Silva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Do</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Pônzio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Boere</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Ackermann</surname></persname>
+</author>
+<idno type="DOI">10.1093/evolut/qpad206/7411360bygueston13</idno>
+<ptr target="https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360bygueston13"></ptr>
+</analytic>
+<monogr>
+<title level="m">Morphological variation in wild marmosets (Callithrix penicillata and C. Downloaded from</title>
+<imprint>
+<date type="published" when="2014">2014</date>
+<biblscope unit="volume">41</biblscope>
+<biblscope from="480" to="493" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Fuzessy, L. F., I. de O. Silva, J. Malukiewicz, F. F. R. Silva, M. do C. Pônzio, V. Boere, and R. R. Ackermann. 2014. Morphological variation in wild marmosets (Callithrix penicillata and C. Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023 A c c e p t e d M a n u s c r i p t geoffroyi) and their hybrids. Evol. Biol. 41:480-493.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Brain development after birth differs between Neanderthals and modern humans</title>
+<author>
+<persname><forename type="first">P</forename><surname>Gunz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Neubauer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Maureille</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-J</forename><surname>Hublin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Curr. Biol</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="R921" to="922" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gunz, P., S. Neubauer, B. Maureille, and J.-J. Hublin. 2010. Brain development after birth differs between Neanderthals and modern humans. Curr. Biol. 20:R921-2.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<monogr>
+<title level="m" type="main">Morphological study on the hybridization between Taiwanese and Japanese macaques in Wakayama Prefecture I: Relationship between tail length/the number of caudal vertebrae and hybrid index</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Hamada</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Mouri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Kunimatsu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Chatani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Yamamoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Goto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Kawamoto</surname></persname>
+</author>
+<editor>Y. Kawamoto, Inuyama</editor>
+<imprint>
+<date type="published" when="2008">2008</date>
+<biblscope from="9" to="39" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note>Effect of introduced species on biological diversity: a synthetic study on a hybrid population of Taiwanese macaques in Wakayama. Japanese</note>
+<note type="raw_reference">Hamada, Y., T. Mouri, Y. Kunimatsu, K. Chatani, A. Yamamoto, S. Goto, and Y. Kawamoto. 2008. Morphological study on the hybridization between Taiwanese and Japanese macaques in Wakayama Prefecture I: Relationship between tail length/the number of caudal vertebrae and hybrid index. Pp. 9-39 in Y. Kawamoto, ed. Effect of introduced species on biological diversity: a synthetic study on a hybrid population of Taiwanese macaques in Wakayama. Y. Kawamoto, Inuyama. [Japanese].</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Variability of tail length in hybrids of the Japanese macaque (Macaca fuscata) and the Taiwanese macaque (Macaca cyclopis)</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Hamada</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Yamamoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Kunimatsu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Tojima</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Mouri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Kawamoto</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Primates</title>
+<imprint>
+<biblscope unit="volume">53</biblscope>
+<biblscope from="397" to="411" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hamada, Y., A. Yamamoto, Y. Kunimatsu, S. Tojima, T. Mouri, and Y. Kawamoto. 2012. Variability of tail length in hybrids of the Japanese macaque (Macaca fuscata) and the Taiwanese macaque (Macaca cyclopis). Primates 53:397-411.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Heterochrony, maternal effects, and phenotypic variation among sympatric pupfishes</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">L</forename><surname>Holtmeier</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Evolution</title>
+<imprint>
+<biblscope unit="volume">55</biblscope>
+<biblscope from="330" to="338" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Holtmeier, C. L. 2001. Heterochrony, maternal effects, and phenotypic variation among sympatric pupfishes. Evolution 55:330-338.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Phylogeographic history of Japanese macaques</title>
+<author>
+<persname><forename type="first">T</forename><surname>Ito</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Hayakawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Suzuki-Hashido</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Hamada</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Kurihara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Hanya</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kaneko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Natsume</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Aisu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Honda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Yachimori</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Anezaki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Omi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hayama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Tanaka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Wakamori</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Imai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Kawamoto</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Biogeogr</title>
+<imprint>
+<biblscope unit="volume">48</biblscope>
+<biblscope from="1420" to="1431" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ito, T., T. Hayakawa, N. Suzuki-Hashido, Y. Hamada, Y. Kurihara, G. Hanya, A. Kaneko, T. Natsume, S. Aisu, T. Honda, S. Yachimori, T. Anezaki, T. Omi, S. Hayama, M. Tanaka, H. Wakamori, H. Imai, and Y. Kawamoto. 2021. Phylogeographic history of Japanese macaques. J. Biogeogr. 48:1420-1431.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Maxillary sinus variation in hybrid macaques: Implications for the genetic basis of craniofacial pneumatization</title>
+<author>
+<persname><forename type="first">T</forename><surname>Ito</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Kawamoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Hamada</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">D</forename><surname>Nishimura</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biol. J. Linn. Soc. Lond</title>
+<imprint>
+<biblscope unit="volume">115</biblscope>
+<biblscope from="333" to="347" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ito, T., Y. Kawamoto, Y. Hamada, and T. D. Nishimura. 2015. Maxillary sinus variation in hybrid macaques: Implications for the genetic basis of craniofacial pneumatization. Biol. J. Linn. Soc. Lond. 115:333-347.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">adegenet: a R package for the multivariate analysis of genetic markers</title>
+<author>
+<persname><forename type="first">T</forename><surname>Jombart</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bioinformatics</title>
+<imprint>
+<biblscope unit="volume">24</biblscope>
+<biblscope from="1403" to="1405" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jombart, T. 2008. adegenet: a R package for the multivariate analysis of genetic markers. Bioinformatics 24:1403-1405.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Hybridization can promote adaptive radiation by means of transgressive segregation</title>
+<author>
+<persname><forename type="first">K</forename><surname>Kagawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Takimoto</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecol. Lett</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope from="264" to="274" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kagawa, K., and G. Takimoto. 2018. Hybridization can promote adaptive radiation by means of transgressive segregation. Ecol. Lett. 21:264-274.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">rstatix: Pipe-Friendly Framework for Basic Statistical Tests</title>
+<author>
+<persname><forename type="first">A</forename><surname>Kassambara</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=rstatix"></ptr>
+</analytic>
+<monogr>
+<title level="m">R package version 0</title>
+<imprint>
+<date type="published" when="2023">2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kassambara, A. 2023. rstatix: Pipe-Friendly Framework for Basic Statistical Tests. R package version 0.7.2. https://CRAN.R-project.org/package=rstatix.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Genetic study on the hybridization in Wakayama Prefecture</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Kawamoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Kawamoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Kawai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Saito</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Ohsawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Goto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Nigi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Muroyama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Shirai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Morimitsu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Suzuki</surname></persname>
+</author>
+<idno type="DOI">10.1093/evolut/qpad206/7411360</idno>
+<ptr target="https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360"></ptr>
+</analytic>
+<monogr>
+<title level="m">Effect of introduced species on biological diversity: a synthetic study on a hybrid population of Taiwanese macaques in Wakayama</title>
+<editor>
+<persname><forename type="first">Y</forename><surname>Kawamoto</surname></persname>
+</editor>
+<meeting><address><addrline>Inuyama</addrline></address></meeting>
+<imprint>
+<date type="published" when="2008-11">2008. November 2023</date>
+<biblscope from="77" to="132" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note>u s c r i p t</note>
+<note type="raw_reference">Kawamoto, Y., S. Kawamoto, S. Kawai, A. Saito, H. Ohsawa, S. Goto, H. Nigi, Y. Muroyama, K. Shirai, Y. Morimitsu, and K. Suzuki. 2008. Genetic study on the hybridization in Wakayama Prefecture. Pp. 77-132 in Y. Kawamoto, ed. Effect of introduced species on biological diversity: a synthetic study on a hybrid population of Taiwanese macaques in Wakayama. Y. Kawamoto, Inuyama. Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023 A c c a n u s c r i p t</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<monogr>
+<title></title>
+<author>
+<persname><surname>Japanese</surname></persname>
+</author>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">Japanese.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Genetic assessment of a hybrid population between Japanese and Taiwan macaques in Wakayama prefecture</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Kawamoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Ohsawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Nigi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Maruhashi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Maekawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Shirai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Araki</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Primate Res</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope from="13" to="24" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note>Japanese with English abstract</note>
+<note type="raw_reference">Kawamoto, Y., H. Ohsawa, H. Nigi, T. Maruhashi, S. Maekawa, K. Shirai, and S. Araki. 2001. Genetic assessment of a hybrid population between Japanese and Taiwan macaques in Wakayama prefecture. Primate Res. 17:13-24 [Japanese with English abstract].</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">3D Slicer: A platform for subject-specific image analysis, visualization, and clinical support</title>
+<author>
+<persname><forename type="first">R</forename><surname>Kikinis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">D</forename><surname>Pieper</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">G</forename><surname>Vosburgh</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Intraoperative Imaging and Image-Guided Therapy</title>
+<editor>
+<persname><forename type="first">F</forename><forename type="middle">A</forename><surname>Jolesz</surname></persname>
+</editor>
+<meeting><address><addrline>New York, New York</addrline></address></meeting>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="2014">2014</date>
+<biblscope from="277" to="289" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Kikinis, R., S. D. Pieper, and K. G. Vosburgh. 2014. 3D Slicer: A platform for subject-specific image analysis, visualization, and clinical support. Pp. 277-289 in F. A. Jolesz, ed. Intraoperative Imaging and Image-Guided Therapy. Springer New York, New York.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">PGDSpider: An automated data conversion tool for connecting population genetics and genomics programs</title>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">E L</forename><surname>Lischer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Excoffier</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bioinformatics</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope from="298" to="299" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lischer, H. E. L., and L. Excoffier. 2012. PGDSpider: An automated data conversion tool for connecting population genetics and genomics programs. Bioinformatics 28:298-299.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Hybridization as an invasion of the genome</title>
+<author>
+<persname><forename type="first">J</forename><surname>Mallet</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Trends Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="229" to="237" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mallet, J. 2005. Hybridization as an invasion of the genome. Trends Ecol. Evol. 20:229-237.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Hybridization effects and genetic diversity of the common and black-tufted marmoset (Callithrix jacchus and Callithrix penicillata) mitochondrial control region</title>
+<author>
+<persname><forename type="first">J</forename><surname>Malukiewicz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Boere</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">F</forename><surname>Fuzessy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Grativol</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>French</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>De Oliveira E Silva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">C M</forename><surname>Pereira</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">R</forename><surname>Ruiz-Miranda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><forename type="middle">M</forename><surname>Valença</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Stone</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Am. J. Phys. Anthropol</title>
+<imprint>
+<biblscope unit="volume">155</biblscope>
+<biblscope from="522" to="536" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Malukiewicz, J., V. Boere, L. F. Fuzessy, A. D. Grativol, J. A. French, I. de Oliveira e Silva, L. C. M. Pereira, C. R. Ruiz-Miranda, Y. M. Valença, and A. C. Stone. 2014. Hybridization effects and genetic diversity of the common and black-tufted marmoset (Callithrix jacchus and Callithrix penicillata) mitochondrial control region. Am. J. Phys. Anthropol. 155:522-536.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">The paranasal sinuses: the last frontier in craniofacial biology</title>
+<author>
+<persname><forename type="first">S</forename><surname>Márquez</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Anat. Rec</title>
+<imprint>
+<biblscope unit="volume">291</biblscope>
+<biblscope from="1350" to="1361" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Márquez, S. 2008. The paranasal sinuses: the last frontier in craniofacial biology. Anat. Rec. 291:1350- 1361.</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Hybridization and transgressive exploration of colour pattern and wing morphology in Heliconius butterflies</title>
+<author>
+<persname><forename type="first">C</forename><surname>Mérot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Debat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Le Poul</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Merrill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">E</forename><surname>Naisbit</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Tholance</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">D</forename><surname>Jiggins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Joron</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Evol. Biol</title>
+<imprint>
+<biblscope unit="volume">33</biblscope>
+<biblscope from="942" to="956" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mérot, C., V. Debat, Y. Le Poul, R. M. Merrill, R. E. Naisbit, A. Tholance, C. D. Jiggins, and M. Joron. 2020. Hybridization and transgressive exploration of colour pattern and wing morphology in Heliconius butterflies. J. Evol. Biol. 33:942-956.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Comparison of cranial ontogenetic trajectories among great apes and humans</title>
+<author>
+<persname><forename type="first">P</forename><surname>Mitteroecker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Gunz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bernhard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Schaefer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">L</forename><surname>Bookstein</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Hum. Evol</title>
+<imprint>
+<biblscope unit="volume">46</biblscope>
+<biblscope from="679" to="698" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mitteroecker, P., P. Gunz, M. Bernhard, K. Schaefer, and F. L. Bookstein. 2004. Comparison of cranial ontogenetic trajectories among great apes and humans. J. Hum. Evol. 46:679-698.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Multivariate cranial ontogenetic allometries in crab-eating, rhesus and Japanese macaques</title>
+<author>
+<persname><forename type="first">T</forename><surname>Mouri</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Anthropol. Sci</title>
+<imprint>
+<biblscope unit="volume">104</biblscope>
+<biblscope from="281" to="303" unit="page"></biblscope>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mouri, T. 1996. Multivariate cranial ontogenetic allometries in crab-eating, rhesus and Japanese macaques. Anthropol. Sci. 104:281-303.</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Postnatal growth and sexual dimorphism in the skull of the Japanese macaque (Macaca fuscata)</title>
+<author>
+<persname><forename type="first">T</forename><surname>Mouri</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Anthropol. Sci</title>
+<imprint>
+<biblscope unit="volume">102</biblscope>
+<biblscope from="43" to="56" unit="page"></biblscope>
+<date type="published" when="1994">1994</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mouri, T. 1994. Postnatal growth and sexual dimorphism in the skull of the Japanese macaque (Macaca fuscata). Anthropol. Sci. 102:43-56.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">Population explosion of Taiwanese macaques in Japan</title>
+<author>
+<persname><forename type="first">H</forename><surname>Ohsawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Morimitsu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Kawamoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Muroyama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Maekawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Nigi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Tori</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Goto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Maruhashi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Nakagawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Nakatani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Tanaka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hayakawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Yamada</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hayashi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Seino</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Saeki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Kawai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Hagiwara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Suzuki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Suzuki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Uetsuki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Okano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Okumura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Yoshida</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Yokoyama</surname></persname>
+</author>
+<idno type="DOI">10.1093/evolut/qpad206/7411360</idno>
+<ptr target="https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat. Hist. J Chulalongkorn Univ. Supplement</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<biblscope from="55" to="60" unit="page"></biblscope>
+<date type="published" when="2005-11">2005. November 2023</date>
+</imprint>
+</monogr>
+<note>c r i p t</note>
+<note type="raw_reference">Ohsawa, H., Y. Morimitsu, Y. Kawamoto, Y. Muroyama, S. Maekawa, H. Nigi, H. Tori, S. Goto, T. Maruhashi, N. Nakagawa, J. Nakatani, T. Tanaka, S. Hayakawa, A. Yamada, S. Hayashi, H. Seino, M. Saeki, S. Kawai, H. Hagiwara, K. Suzuki, K. Suzuki, S. Uetsuki, M. Okano, T. Okumura, A. Yoshida, and N. Yokoyama. 2005. Population explosion of Taiwanese macaques in Japan. Nat. Hist. J Chulalongkorn Univ. Supplement 1:55-60. Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023 A c c e p a n u s c r i p t</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Testing sex-biased admixture origin of macaque species using autosomal and X-chromosomal genomic sequences</title>
+<author>
+<persname><forename type="first">N</forename><surname>Osada</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Matsudaira</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Hamada</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Malaivijitnond</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Genome Biol. Evol</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="1" to="14" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Osada, N., K. Matsudaira, Y. Hamada, and S. Malaivijitnond. 2021. Testing sex-biased admixture origin of macaque species using autosomal and X-chromosomal genomic sequences. Genome Biol. Evol. 13:1-14.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Double digest RADseq: An inexpensive method for de novo SNP discovery and genotyping in model and non-model species</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">K</forename><surname>Peterson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">N</forename><surname>Weber</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">H</forename><surname>Kay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">S</forename><surname>Fisher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">E</forename><surname>Hoekstra</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">PLoS One</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="page">37135</biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Peterson, B. K., J. N. Weber, E. H. Kay, H. S. Fisher, and H. E. Hoekstra. 2012. Double digest RADseq: An inexpensive method for de novo SNP discovery and genotyping in model and non-model species. PLoS One 7:e37135.</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">Neanderthal cranial ontogeny and its implications for late hominid diversity</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">S</forename><surname>Ponce De León</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">P</forename><surname>Zollikofer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">412</biblscope>
+<biblscope from="534" to="538" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ponce de León, M. S., and C. P. Zollikofer. 2001. Neanderthal cranial ontogeny and its implications for late hominid diversity. Nature 412:534-538.</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<monogr>
+<title level="m" type="main">R: A language and environment for statistical computing</title>
+<author>
+<orgname type="collaboration">R Developmental Core Team</orgname>
+</author>
+<imprint>
+<date type="published" when="2021">2021</date>
+<pubplace>Vienna</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">R Developmental Core Team. 2021. R: A language and environment for statistical computing. Vienna.</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">Clinal variation of maxillary sinus volume in Japanese macaques (Macaca fuscata)</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">C</forename><surname>Rae</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Hill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Hamada</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Koppe</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Am. J. Primatol</title>
+<imprint>
+<biblscope unit="volume">59</biblscope>
+<biblscope from="153" to="158" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rae, T. C., R. A. Hill, Y. Hamada, and T. Koppe. 2003. Clinal variation of maxillary sinus volume in Japanese macaques (Macaca fuscata). Am. J. Primatol. 59:153-158.</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">Holes in the head: Evolutionary interpretations of the paranasal sinuses in catarrhines</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">C</forename><surname>Rae</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Koppe</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Evol. Anthropol</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="211" to="223" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rae, T. C., and T. Koppe. 2004. Holes in the head: Evolutionary interpretations of the paranasal sinuses in catarrhines. Evol. Anthropol. 13:211-223.</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">Independence of biomechanical forces and craniofacial pneumatization in Cebus</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">C</forename><surname>Rae</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Koppe</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Anat. Rec</title>
+<imprint>
+<biblscope unit="volume">291</biblscope>
+<biblscope from="1414" to="1419" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rae, T. C., and T. Koppe. 2008. Independence of biomechanical forces and craniofacial pneumatization in Cebus. Anat. Rec. 291:1414-1419.</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">Modularity as a source of new morphological variation in the mandible of hybrid mice</title>
+<author>
+<persname><forename type="first">S</forename><surname>Renaud</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Alibert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-C</forename><surname>Auffray</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">BMC Evol. Biol</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="page">141</biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Renaud, S., P. Alibert, and J.-C. Auffray. 2012. Modularity as a source of new morphological variation in the mandible of hybrid mice. BMC Evol. Biol. 12:141.</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">Transgressive segregation, adaptation and speciation</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">H</forename><surname>Rieseberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Archer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">K</forename><surname>Wayne</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Heredity</title>
+<imprint>
+<biblscope unit="volume">83</biblscope>
+<biblscope from="363" to="372" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rieseberg, L. H., M. A. Archer, and R. K. Wayne. 1999. Transgressive segregation, adaptation and speciation. Heredity 83:363-372.</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">Deriving genotypes from RAD-seq short-read data using Stacks</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">C</forename><surname>Rochette</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Catchen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nat. Protoc</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope from="2640" to="2659" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rochette, N. C., and J. M. Catchen. 2017. Deriving genotypes from RAD-seq short-read data using Stacks. Nat. Protoc. 12:2640-2659.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">The comparative genomics and complex population history of Papio baboons</title>
+<author>
+<persname><forename type="first">J</forename><surname>Rogers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Raveendran</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Harris</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Mailund</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Leppälä</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Athanasiadis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">H</forename><surname>Schierup</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Cheng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Munch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Walker</surname></persname>
+</author>
+<author>
+<persname><surname>Others</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Sci. Adv</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="page">6947</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rogers, J., M. Raveendran, R. A. Harris, T. Mailund, K. Leppälä, G. Athanasiadis, M. H. Schierup, J. Cheng, K. Munch, J. A. Walker, and Others. 2019. The comparative genomics and complex population history of Papio baboons. Sci. Adv. 5:eaau6947.</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Nuclear versus mitochondrial DNA: evidence for hybridization in colobine monkeys</title>
+<author>
+<persname><forename type="first">C</forename><surname>Roos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Zinner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">S</forename><surname>Kubatko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Schwarz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Meyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">D</forename><surname>Nash</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Xing</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Batzer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Brameier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">H</forename><surname>Leendertz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Ziegler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Perwitasari-Farajallah</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Nadler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Walter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Osterholz</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">BMC Evol. Biol</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope unit="page">77</biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Roos, C., D. Zinner, L. S. Kubatko, C. Schwarz, M. Yang, D. Meyer, S. D. Nash, J. Xing, M. A. Batzer, M. Brameier, F. H. Leendertz, T. Ziegler, D. Perwitasari-Farajallah, T. Nadler, L. Walter, and M. Osterholz. 2011. Nuclear versus mitochondrial DNA: evidence for hybridization in colobine monkeys. BMC Evol. Biol. 11:77.</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">A c c e p t e d M a n u s c r i p t ecotypic populations of Solidago virgaurea</title>
+<author>
+<persname><forename type="first">S</forename><surname>Sakaguchi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Horie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Ishikawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Nagano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Yasugi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Kudoh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ito</surname></persname>
+</author>
+<idno type="DOI">10.1093/evolut/qpad206/7411360</idno>
+<ptr target="https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360"></ptr>
+</analytic>
+<monogr>
+<title level="m">Simultaneous evaluation of the effects of geographic, environmental and temporal isolation in Downloaded from</title>
+<imprint>
+<date type="published" when="2017-11">2017. November</date>
+<biblscope unit="volume">216</biblscope>
+<biblscope from="1268" to="1280" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Sakaguchi, S., K. Horie, N. Ishikawa, A. J. Nagano, M. Yasugi, H. Kudoh, and M. Ito. 2017. Simultaneous evaluation of the effects of geographic, environmental and temporal isolation in Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023 A c c e p t e d M a n u s c r i p t ecotypic populations of Solidago virgaurea. New Phytol. 216:1268-1280.</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<analytic>
+<title level="a" type="main">High-throughput linkage mapping of Australian white cypress pine (Callitris glaucophylla) and map transferability to related species</title>
+<author>
+<persname><forename type="first">S</forename><surname>Sakaguchi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Sugino</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Tsumura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ito</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Crisp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M J S</forename><surname>Bowman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Nagano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">N</forename><surname>Honjo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Yasugi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Kudoh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Matsuki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Suyama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Isagi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Tree Genet. Genomes</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="1" to="12" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sakaguchi, S., T. Sugino, Y. Tsumura, M. Ito, M. D. Crisp, D. M. J. S. Bowman, A. J. Nagano, M. N. Honjo, M. Yasugi, H. Kudoh, Y. Matsuki, Y. Suyama, and Y. Isagi. 2015. High-throughput linkage mapping of Australian white cypress pine (Callitris glaucophylla) and map transferability to related species. Tree Genet. Genomes 11:1-12.</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">Ontogenetic divergence generates novel phenotypes in hybrid cichlids</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">H</forename><surname>Santos-Santos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Audenaert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Verheyen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Adriaens</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Anat</title>
+<imprint>
+<biblscope unit="volume">238</biblscope>
+<biblscope from="1116" to="1127" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Santos-Santos, J. H., L. Audenaert, E. Verheyen, and D. Adriaens. 2021. Ontogenetic divergence generates novel phenotypes in hybrid cichlids. J. Anat. 238:1116-1127.</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">The effects of hybridization on growth allometry and craniofacial form in Sulawesi macaques</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Schillaci</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Froehlich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Supriatna</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Jones-Engel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">Jones</forename><surname>Engel</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Hum. Evol</title>
+<imprint>
+<biblscope unit="volume">49</biblscope>
+<biblscope from="335" to="369" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schillaci, M. A., J. W. Froehlich, J. Supriatna, L. Jones-Engel, and L. Jones Engel. 2005. The effects of hybridization on growth allometry and craniofacial form in Sulawesi macaques. J. Hum. Evol. 49:335-369.</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<analytic>
+<title level="a" type="main">Morpho and Rvcg -Shape Analysis in R</title>
+<author>
+<persname><forename type="first">S</forename><surname>Schlager</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Statistical Shape and Deformation Analysis: Methods, Implementation and Applications</title>
+<editor>
+<persname><forename type="first">G</forename><surname>Zheng</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">S</forename><surname>Li</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">G</forename><surname>Szekely</surname></persname>
+</editor>
+<meeting><address><addrline>San Diego</addrline></address></meeting>
+<imprint>
+<publisher>Academic Press</publisher>
+<date type="published" when="2017">2017</date>
+<biblscope from="217" to="256" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Schlager, S. 2017. Morpho and Rvcg -Shape Analysis in R. Pp. 217-256 in G. Zheng, S. Li, and G. Szekely, eds. Statistical Shape and Deformation Analysis: Methods, Implementation and Applications. Academic Press, San Diego.</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<analytic>
+<title level="a" type="main">Hybridization and adaptive radiation</title>
+<author>
+<persname><forename type="first">O</forename><surname>Seehausen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Trends Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope from="198" to="207" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Seehausen, O. 2004. Hybridization and adaptive radiation. Trends Ecol. Evol. 19:198-207.</note>
+</biblstruct>
+<biblstruct xml:id="b66">
+<analytic>
+<title level="a" type="main">Wakayama Taiwanese macaque "report of troop eradication" and Chiba rhesus macaque problem "current status and issues</title>
+<author>
+<persname><forename type="first">K</forename><surname>Shirai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Kawamoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Morimitsu</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Primate Res</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope unit="page">15</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Shirai, K., Y. Kawamoto, and Y. Morimitsu. 2018. Wakayama Taiwanese macaque "report of troop eradication" and Chiba rhesus macaque problem "current status and issues." Primate Res. 34:15</note>
+</biblstruct>
+<biblstruct xml:id="b67">
+<analytic>
+<title level="a" type="main">Ontogenetic allometry and scaling in catarrhine crania</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Simons</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">R</forename><surname>Frost</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Anat</title>
+<imprint>
+<biblscope unit="volume">238</biblscope>
+<biblscope from="693" to="710" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Simons, E. A., and S. R. Frost. 2021. Ontogenetic allometry and scaling in catarrhine crania. J. Anat. 238:693-710.</note>
+</biblstruct>
+<biblstruct xml:id="b68">
+<analytic>
+<title level="a" type="main">Nonhomogeneous combination of two porous genomes induces complex body shape trajectories in cyprinid hybrids</title>
+<author>
+<persname><forename type="first">M</forename><surname>Sinama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gilles</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Costedoat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Corse</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-M</forename><surname>Olivier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Chappaz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Pech</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Front. Zool</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="page">22</biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sinama, M., A. Gilles, C. Costedoat, E. Corse, J.-M. Olivier, R. Chappaz, and N. Pech. 2013. Non- homogeneous combination of two porous genomes induces complex body shape trajectories in cyprinid hybrids. Front. Zool. 10:22.</note>
+</biblstruct>
+<biblstruct xml:id="b69">
+<analytic>
+<title level="a" type="main">Postnatal cranial development in papionin primates: An alternative model for hominin evolutionary development</title>
+<author>
+<persname><forename type="first">M</forename><surname>Singleton</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Evol. Biol</title>
+<imprint>
+<biblscope unit="volume">39</biblscope>
+<biblscope from="499" to="520" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Singleton, M. 2012. Postnatal cranial development in papionin primates: An alternative model for hominin evolutionary development. Evol. Biol. 39:499-520.</note>
+</biblstruct>
+<biblstruct xml:id="b70">
+<analytic>
+<title level="a" type="main">Heterosis associated with regional crossbreeding between captive groups of rhesus macaques</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">G</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M</forename><surname>Scott</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Am. J. Primatol</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope from="255" to="260" unit="page"></biblscope>
+<date type="published" when="1989">1989</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Smith, D. G., and L. M. Scott. 1989. Heterosis associated with regional crossbreeding between captive groups of rhesus macaques. Am. J. Primatol. 19:255-260.</note>
+</biblstruct>
+<biblstruct xml:id="b71">
+<analytic>
+<title level="a" type="main">Phenotypic novelty in experimental hybrids is predicted by the genetic distance between species of cichlid fish</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">B</forename><surname>Stelkens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Schmid</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Selz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Seehausen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">BMC Evol. Biol</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="page">283</biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stelkens, R. B., C. Schmid, O. Selz, and O. Seehausen. 2009. Phenotypic novelty in experimental hybrids is predicted by the genetic distance between species of cichlid fish. BMC Evol. Biol. 9:283.</note>
+</biblstruct>
+<biblstruct xml:id="b72">
+<analytic>
+<title level="a" type="main">Genetic distance between species predicts novel trait expression in their hybrids</title>
+<author>
+<persname><forename type="first">R</forename><surname>Stelkens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Seehausen</surname></persname>
+</author>
+<idno type="DOI">10.1093/evolut/qpad206/7411360</idno>
+<ptr target="https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360"></ptr>
+</analytic>
+<monogr>
+<title level="j">Evolution</title>
+<imprint>
+<biblscope unit="volume">63</biblscope>
+<biblscope from="1" to="21" unit="page"></biblscope>
+<date type="published" when="2009">2009. 2015</date>
+</imprint>
+</monogr>
+<note>PLoS One</note>
+<note type="raw_reference">Stelkens, R., and O. Seehausen. 2009. Genetic distance between species predicts novel trait expression in their hybrids. Evolution 63:884-897. Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023 A c c e p a n u s c r i p t Suzuki-Hashido, N., T. Hayakawa, A. Matsui, Y. Go, Y. Ishimaru, T. Misaka, K. Abe, H. Hirai, Y. Satta, and H. Imai. 2015. Rapid expansion of phenylthiocarbamide non-tasters among Japanese macaques. PLoS One 10:1-21.</note>
+</biblstruct>
+<biblstruct xml:id="b73">
+<analytic>
+<title level="a" type="main">Ancient hybridization and strong adaptation to viruses across African vervet monkey populations</title>
+<author>
+<persname><forename type="first">H</forename><surname>Svardal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Jasinska</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Apetrei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Coppola</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Schmitt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Jacquelin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Ramensky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Müller-Trutwin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Antonio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Weinstock</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Grobler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Dewar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">K</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">R</forename><surname>Turner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">C</forename><surname>Warren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">B</forename><surname>Freimer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Nordborg</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nat. Genet</title>
+<imprint>
+<biblscope unit="volume">49</biblscope>
+<biblscope from="1705" to="1713" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Svardal, H., A. J. Jasinska, C. Apetrei, G. Coppola, Y. Huang, C. A. Schmitt, B. Jacquelin, V. Ramensky, M. Müller-Trutwin, M. Antonio, G. Weinstock, J. P. Grobler, K. Dewar, R. K. Wilson, T. R. Turner, W. C. Warren, N. B. Freimer, and M. Nordborg. 2017. Ancient hybridization and strong adaptation to viruses across African vervet monkey populations. Nat. Genet. 49:1705-1713.</note>
+</biblstruct>
+<biblstruct xml:id="b74">
+<analytic>
+<title level="a" type="main">Heterochrony in hybrid macaques</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">D</forename><surname>Taylor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Schillaci</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Zool. Stud</title>
+<imprint>
+<biblscope unit="volume">47</biblscope>
+<biblscope from="713" to="719" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Taylor, N. D., and M. A. Schillaci. 2008. Heterochrony in hybrid macaques. Zool. Stud. 47:713-719.</note>
+</biblstruct>
+<biblstruct xml:id="b75">
+<analytic>
+<title level="a" type="main">Insights from genomes into the evolutionary importance and prevalence of hybridization in nature</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Taylor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">L</forename><surname>Larson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nat Ecol Evol</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope from="170" to="177" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Taylor, S. A., and E. L. Larson. 2019. Insights from genomes into the evolutionary importance and prevalence of hybridization in nature. Nat Ecol Evol 3:170-177.</note>
+</biblstruct>
+<biblstruct xml:id="b76">
+<analytic>
+<title level="a" type="main">Patterns, Predictors, and Consequences of Dominance in Hybrids</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Thompson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Urquhart-Cronish</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">D</forename><surname>Whitney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">H</forename><surname>Rieseberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Schluter</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Am. Nat</title>
+<imprint>
+<biblscope unit="volume">197</biblscope>
+<biblscope from="72" to="E88" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thompson, K. A., M. Urquhart-Cronish, K. D. Whitney, L. H. Rieseberg, and D. Schluter. 2021. Patterns, Predictors, and Consequences of Dominance in Hybrids. Am. Nat. 197:E72-E88.</note>
+</biblstruct>
+<biblstruct xml:id="b77">
+<analytic>
+<title level="a" type="main">Ontogenetic differences in mandibular morphology of two related macaque species and its adaptive implications</title>
+<author>
+<persname><forename type="first">N</forename><surname>Toyoda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Ito</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Sato</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Nishimura</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Anat. Rec</title>
+<imprint>
+<biblscope unit="volume">305</biblscope>
+<biblscope from="3430" to="3440" unit="page"></biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Toyoda, N., T. Ito, T. Sato, and T. Nishimura. 2022. Ontogenetic differences in mandibular morphology of two related macaque species and its adaptive implications. Anat. Rec. 305:3430-3440.</note>
+</biblstruct>
+<biblstruct xml:id="b78">
+<analytic>
+<title level="a" type="main">Inter-and intra-specific variation in the ontogeny of the hominoid facial skeleton: testing assumptions of ontogenetic variability</title>
+<author>
+<persname><forename type="first">U</forename><forename type="middle">S</forename><surname>Vioarsdóttir</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Cobb</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ann. Anat</title>
+<imprint>
+<biblscope unit="volume">186</biblscope>
+<biblscope from="423" to="428" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vioarsdóttir, U. S., and S. Cobb. 2004. Inter-and intra-specific variation in the ontogeny of the hominoid facial skeleton: testing assumptions of ontogenetic variability. Ann. Anat. 186:423-428.</note>
+</biblstruct>
+<biblstruct xml:id="b79">
+<analytic>
+<title level="a" type="main">smatr 3-an R package for estimation and inference about allometric lines</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">I</forename><surname>Warton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Duursma</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">S</forename><surname>Falster</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Taskinen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Methods Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope from="257" to="259" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Warton, D. I., R. A. Duursma, D. S. Falster, and S. Taskinen. 2012. smatr 3-an R package for estimation and inference about allometric lines. Methods Ecol. Evol. 3:257-259.</note>
+</biblstruct>
+<biblstruct xml:id="b80">
+<analytic>
+<title level="a" type="main">parallelnewhybrid: an R package for the parallelization of hybrid detection using newhybrids</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">F</forename><surname>Wringe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R E</forename><surname>Stanley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">W</forename><surname>Jeffery</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">C</forename><surname>Anderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">R</forename><surname>Bradbury</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mol. Ecol. Resour</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope from="91" to="95" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wringe, B. F., R. R. E. Stanley, N. W. Jeffery, E. C. Anderson, and I. R. Bradbury. 2017. parallelnewhybrid: an R package for the parallelization of hybrid detection using newhybrids. Mol. Ecol. Resour. 17:91-95.</note>
+</biblstruct>
+<biblstruct xml:id="b81">
+<analytic>
+<title level="a" type="main">Disparate Postnatal Ontogenies Do Not Add to the Shape Disparity of Infants</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Zelditch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><forename type="middle">T</forename><surname>Calamari</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Swiderski</surname></persname>
+</author>
+<idno type="DOI">10.1093/evolut/qpad206/7411360bygueston13</idno>
+<ptr target="https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360bygueston13"></ptr>
+</analytic>
+<monogr>
+<title level="j">Evol. Biol</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope from="188" to="207" unit="page"></biblscope>
+<date type="published" when="2016-11">2016. November 2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zelditch, M. L., Z. T. Calamari, and D. L. Swiderski. 2016. Disparate Postnatal Ontogenies Do Not Add to the Shape Disparity of Infants. Evol. Biol. 43:188-207. Downloaded from https://academic.oup.com/evolut/advance-article/doi/10.1093/evolut/qpad206/7411360 by guest on 13 November 2023</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

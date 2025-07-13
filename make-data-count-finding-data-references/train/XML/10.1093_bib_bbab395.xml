@@ -1,0 +1,2028 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.2?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Brief Bioinform</journal-id><journal-id journal-id-type="iso-abbrev">Brief Bioinform</journal-id><journal-id journal-id-type="publisher-id">bib</journal-id><journal-title-group><journal-title>Briefings in Bioinformatics</journal-title></journal-title-group><issn pub-type="ppub">1467-5463</issn><issn pub-type="epub">1477-4054</issn><publisher><publisher-name>Oxford University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">8769711</article-id><article-id pub-id-type="pmid">34601552</article-id><article-id pub-id-type="doi">10.1093/bib/bbab395</article-id><article-id pub-id-type="publisher-id">bbab395</article-id><article-categories><subj-group subj-group-type="heading"><subject>Problem Solving Protocol</subject></subj-group><subj-group subj-group-type="category-taxonomy-collection"><subject>AcademicSubjects/SCI01060</subject></subj-group></article-categories><title-group><article-title>Prediction of RNA secondary structure including pseudoknots for long sequences</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Sato</surname><given-names>Kengo</given-names></name><!--satoken@bio.keio.ac.jp--><aff>
+<institution>Department of Biosciences and Informatics</institution>, <institution>Keio University</institution>, 3&#x02013;14&#x02013;1 Hiyoshi, Kohoku-ku, Yokohama 223&#x02013;8522, <country country="JP">Japan</country></aff><xref rid="cor1" ref-type="corresp"/></contrib><contrib contrib-type="author"><name><surname>Kato</surname><given-names>Yuki</given-names></name><aff>
+<institution>Department of RNA Biology and Neuroscience</institution>, <institution>Graduate School of Medicine, Osaka University</institution>, Suita, Osaka 565&#x02013;0871, <country country="JP">Japan</country></aff><aff>
+<institution>Integrated Frontier Research for Medical Science Division</institution>, <institution>Institute for Open and Transdisciplinary Research Initiatives, Osaka University</institution>, Suita, Osaka 565&#x02013;0871, <country country="JP">Japan</country></aff></contrib></contrib-group><author-notes><corresp id="cor1">Corresponding author: Kengo Sato, 3-14-1 Hiyoshi, Kohoku-ku, Yokohama 223-8522, Japan. Tel.: <phone>+81-45-566-1511</phone>; E-mail: <email>satoken@bio.keio.ac.jp</email></corresp></author-notes><pub-date pub-type="collection"><month>1</month><year>2022</year></pub-date><pub-date pub-type="epub" iso-8601-date="2021-10-02"><day>02</day><month>10</month><year>2021</year></pub-date><pub-date pub-type="pmc-release"><day>02</day><month>10</month><year>2021</year></pub-date><volume>23</volume><issue>1</issue><elocation-id>bbab395</elocation-id><history><date date-type="received"><day>16</day><month>6</month><year>2021</year></date><date date-type="rev-recd"><day>13</day><month>8</month><year>2021</year></date><date date-type="accepted"><day>30</day><month>8</month><year>2021</year></date></history><permissions><copyright-statement>&#x000a9; The Author(s) 2021. Published by Oxford University Press.</copyright-statement><copyright-year>2021</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/4.0/">https://creativecommons.org/licenses/by-nc/4.0/</ext-link>), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited. For commercial re-use, please contact journals.permissions@oup.com</license-p></license></permissions><self-uri xlink:href="bbab395.pdf"/><abstract><title>Abstract</title><p>RNA structural elements called pseudoknots are involved in various biological phenomena including ribosomal frameshifts. Because it is infeasible to construct an efficiently computable secondary structure model including pseudoknots, secondary structure prediction methods considering pseudoknots are not yet widely available. We developed IPknot, which uses heuristics to speed up computations, but it has remained difficult to apply it to long sequences, such as messenger RNA and viral RNA, because it requires cubic computational time with respect to sequence length and has threshold parameters that need to be manually adjusted. Here, we propose an improvement of IPknot that enables calculation in linear time by employing the LinearPartition model and automatically selects the optimal threshold parameters based on the pseudo-expected accuracy. In addition, IPknot showed favorable prediction accuracy across a wide range of conditions in our exhaustive benchmarking, not only for single sequences but also for multiple alignments.</p></abstract><kwd-group><kwd>RNA secondary structure prediction</kwd><kwd>pseudoknots</kwd><kwd>integer programming</kwd></kwd-group><funding-group><award-group award-type="grant"><funding-source>
+<institution-wrap><institution>Challenging Exploratory Research</institution></institution-wrap>
+</funding-source><award-id>19H04210</award-id><award-id>19K22897</award-id></award-group><award-group award-type="grant"><funding-source>
+<institution-wrap><institution>Japan Society for the Promotion of Science</institution><institution-id institution-id-type="DOI">10.13039/501100001691</institution-id></institution-wrap>
+</funding-source><award-id>18K11526</award-id><award-id>21K12109</award-id></award-group></funding-group><counts><page-count count="9"/></counts></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>Genetic information recorded in DNA is transcribed into RNA, which is then translated into protein to fulfill its function. In other words, RNA is merely an intermediate product for the transmission of genetic information. This type of RNA is called messenger RNA (mRNA). However, many RNAs that do not fit into this framework have been discovered more recently. For example, transfer RNA and ribosomal RNA, which play central roles in the translation mechanism, nucleolar small RNA, which guides the modification sites of other RNAs, and microRNA, which regulates gene expression, have been discovered. Thus, it has become clear that RNAs other than mRNAs are involved in various biological phenomena. Because these RNAs do not encode proteins, they are called non-coding RNAs. In contrast to DNA, which forms a double-stranded structure in vivo, RNA is often single-stranded and is thus unstable when intact. In the case of mRNA, the cap structure at the 5<italic toggle="yes">&#x02032;</italic> end and the poly-A strand at the 3<italic toggle="yes">&#x02032;</italic> end protect it from degradation. On the other hand, for other RNAs that do not have such structures, single-stranded RNA molecules bind to themselves to form three-dimensional structures and ensure their stability. Also, as in the case of proteins, RNAs with similar functions have similar three-dimensional structures, and it is known that there is a strong association between function and structure. The determination of RNA three-dimensional (3D) structure can be performed by X-ray crystallography, nuclear magnetic resonance, cryo-electron microscopy, and other techniques. However, it is difficult to apply these methods on a large scale owing to difficulties associated with sequence lengths, resolution and cost. Therefore, RNA secondary structure, which is easier to model, is often computationally predicted instead. RNA secondary structure refers to the set of base pairs consisting of Watson&#x02013;Crick base pairs (A&#x02013;U, G&#x02013;C) and wobble base pairs (G&#x02013;U) that form the backbone of the 3D structure.</p><p>RNA secondary structure prediction is conventionally based on thermodynamic models, which predict the secondary structure with the minimum free energy (MFE) among all possible secondary structures. Popular methods based on thermodynamic models include mfold [<xref rid="ref1" ref-type="bibr">1</xref>], RNAfold [<xref rid="ref2" ref-type="bibr">2</xref>], and RNAstructure [<xref rid="ref3" ref-type="bibr">3</xref>]. Recently, RNA secondary structure prediction methods based on machine learning have also been developed. These methods train alternative parameters to the thermodynamic parameters by taking a large number of pairs of RNA sequences and their reference secondary structures as training data. The following methods fall under the category of methods that use machine learning: CONTRAfold [<xref rid="ref4" ref-type="bibr">4</xref>], ContextFold [<xref rid="ref5" ref-type="bibr">5</xref>], SPOT-RNA [<xref rid="ref6" ref-type="bibr">6</xref>] and MXfold2 [<xref rid="ref7" ref-type="bibr">7</xref>]. However, from the viewpoint of computational complexity, most approaches do not support the prediction of secondary structures that include pseudoknot substructures.</p><p>Pseudoknots are one of the key topologies occurring in RNA secondary structures. The pseudoknot structure is a structure in which some bases inside of a loop structure form base pairs with bases outside of the loop (e.g. Figure <xref rid="f1" ref-type="fig">1</xref>A). In other words, it is said to have a pseudoknot structure if there exist base pairs that are crossing each other by connecting bases of base pairs with arcs, as shown in Figure <xref rid="f1" ref-type="fig">1</xref>B. The pseudoknot structure is known to be involved in the regulation of translation and splicing, and ribosomal frameshifts [<xref rid="ref8" ref-type="bibr">8&#x02013;10</xref>]. The results of sequence analysis suggest that the hairpin loops, which are essential building blocks of the pseudoknots, first appeared in the evolutionary timescale [<xref rid="ref11" ref-type="bibr">11</xref>], and then the pseudoknots were configured, resulting in gaining those functions. We therefore conclude that pseudoknots should not be excluded from the modeling of RNA secondary structures.</p><fig position="float" id="f1"><label>
+Figure 1
+</label><caption><p>(<bold>A</bold>) A typical psudoknot structure. The dotted lines represent base pairs. (<bold>B</bold>) A linear presentation of the pseudoknot.</p></caption><graphic xlink:href="bbab395f1" position="float"/></fig><p>The computational complexity required for MFE predictions of an arbitrary pseudoknot structure has been proven to be NP-hard [<xref rid="ref12" ref-type="bibr">12</xref>, <xref rid="ref13" ref-type="bibr">13</xref>]. To address this, dynamic programming-based methods that require polynomial time (<inline-formula><tex-math notation="LaTeX" id="ImEquation1">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$O(n^4)$\end{document}</tex-math></inline-formula>&#x02013;<inline-formula><tex-math notation="LaTeX" id="ImEquation2">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$O(n^6)$\end{document}</tex-math></inline-formula> for sequence length <inline-formula><tex-math notation="LaTeX" id="ImEquation3">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$n$\end{document}</tex-math></inline-formula>) to exactly compute the restricted complexity of pseudoknot structures [<xref rid="ref12" ref-type="bibr">12&#x02013;16</xref>] and heuristics-based fast computation methods [<xref rid="ref17" ref-type="bibr">17&#x02013;20</xref>] have been developed.</p><p>We previously developed IPknot [<xref rid="ref21" ref-type="bibr">21</xref>], a fast heuristic-based method for predicting RNA secondary structures including pseudoknots. IPknot decomposes a secondary structure with pseudoknots into several pseudoknot-free substructures and predicts the optimal secondary structure using integer programming (IP) based on maximization of expected accuracy (MEA) under the constraints that each substructure must satisfy. The threshold cut technique, which is naturally derived from MEA, enables IPknot to perform much faster calculations with nearly comparable prediction accuracy relative to other methods. However, because the MEA-based score uses base pairing probability without considering pseudoknots, which requires a calculation time that increases cubically with sequence length, it is difficult to use for secondary structure prediction of sequences that exceed 1000 bases, even when applying a threshold cut technique. Furthermore, as the prediction accuracy can drastically change depending on the thresholds determined in advance for each pseudoknot-free substructure, thresholds must be carefully determined.</p><p>To address the limitations of IPknot, we implemented the following two improvements to the method. The first is the use of LinearPartition [<xref rid="ref22" ref-type="bibr">22</xref>] to calculate base pairing probabilities. LinearPartition can calculate the base pairing probability, with linear computational complexity with respect to sequence length, using the beam search technique. By employing the LinearPartition model, IPknot is able to predict secondary structures while considering pseudoknots for long sequences, including mRNA, lncRNA and viral RNA. The other improvement is the selection of thresholds based on pseudo-expected accuracy, which was originally developed by Hamada <italic toggle="yes">et al.</italic> [<xref rid="ref23" ref-type="bibr">23</xref>]. We show that the pseudo-expected accuracy is correlated with the &#x02018;true&#x02019; accuracy, and by choosing thresholds for each sequence based on the pseudo-expected accuracy, we can select a nearly optimal secondary structure prediction.</p></sec><sec id="sec2"><title>Materials and Methods</title><p>Given an RNA sequence <inline-formula><tex-math notation="LaTeX" id="ImEquation4">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x=x_1 \cdots x_n\, (x_i \in \{ \textrm{A}, \textrm{C}, \textrm{G}, \textrm{U}\})$\end{document}</tex-math></inline-formula>, its secondary structure is represented by a binary matrix <inline-formula><tex-math notation="LaTeX" id="ImEquation5">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y = (y_{ij})$\end{document}</tex-math></inline-formula>, where <inline-formula><tex-math notation="LaTeX" id="ImEquation6">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y_{ij} = 1$\end{document}</tex-math></inline-formula> if <inline-formula><tex-math notation="LaTeX" id="ImEquation7">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_i$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation8">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_j$\end{document}</tex-math></inline-formula> form a base pair and otherwise <inline-formula><tex-math notation="LaTeX" id="ImEquation9">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y_{ij}=0$\end{document}</tex-math></inline-formula>. Let <inline-formula><tex-math notation="LaTeX" id="ImEquation10">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\mathcal{Y}(x)$\end{document}</tex-math></inline-formula> be a set of all possible secondary structures of <inline-formula><tex-math notation="LaTeX" id="ImEquation11">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x$\end{document}</tex-math></inline-formula> including pseudoknots. We assume that <inline-formula><tex-math notation="LaTeX" id="ImEquation12">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y \in \mathcal{Y}(x)$\end{document}</tex-math></inline-formula> can be decomposed into a set of pseudoknot-free substructures <inline-formula><tex-math notation="LaTeX" id="ImEquation13">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y^{(1)}, y^{(2)}, \ldots , y^{(m)}$\end{document}</tex-math></inline-formula>, such that <inline-formula><tex-math notation="LaTeX" id="ImEquation14">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y = \sum _{p=1}^m y^{(p)}$\end{document}</tex-math></inline-formula>. In order to guarantee the uniqueness of the decomposition, the following conditions should be satisfied: (i) <inline-formula><tex-math notation="LaTeX" id="ImEquation15">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y \in \mathcal{Y}(x)$\end{document}</tex-math></inline-formula> should be decomposed into mutually exclusive sets; that is, for all <inline-formula><tex-math notation="LaTeX" id="ImEquation16">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$1 \leq i &#x0003c; j \leq |x|, \sum _{p=1}^{m} y^{(p)}_{ij} \leq 1$\end{document}</tex-math></inline-formula>; (ii) every base pair in <inline-formula><tex-math notation="LaTeX" id="ImEquation17">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y^{(p)}$\end{document}</tex-math></inline-formula> should be pseudoknotted with at least one base pair in <inline-formula><tex-math notation="LaTeX" id="ImEquation18">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y^{(q)}$\end{document}</tex-math></inline-formula> for <inline-formula><tex-math notation="LaTeX" id="ImEquation19">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\forall q&#x0003c;p$\end{document}</tex-math></inline-formula>.</p><sec id="sec2a"><title>Maximizing expected accuracy</title><p>One of the most promising techniques for predicting RNA secondary structures is the MEA-based approach [<xref rid="ref4" ref-type="bibr">4</xref>, <xref rid="ref24" ref-type="bibr">24</xref>]. First, we define a gain function of prediction <inline-formula><tex-math notation="LaTeX" id="ImEquation20">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{y} \in \mathcal{Y}(x)$\end{document}</tex-math></inline-formula> with regard to the correct secondary structure <inline-formula><tex-math notation="LaTeX" id="ImEquation21">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y \in \mathcal{Y}(x)$\end{document}</tex-math></inline-formula> as <disp-formula id="deqn01"><label>(1)</label><tex-math notation="LaTeX" id="DmEquation1">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*}&#x00026; G_{\tau}(y, \hat{y}) = (1 - \tau) TP(y, \hat{y}) + \tau TN(y, \hat{y}), \end{align*}\end{document}</tex-math></disp-formula>where <inline-formula><tex-math notation="LaTeX" id="ImEquation22">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$TP(y, \hat{y}) = \sum _{i&#x0003c;j} I(y_{ij}=1) I(\hat{y}_{ij}=1)$\end{document}</tex-math></inline-formula> is the number of true positive base pairs, <inline-formula><tex-math notation="LaTeX" id="ImEquation23">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$TN(y, \hat{y}) = \sum _{i&#x0003c;j} I(y_{ij}=0) I(\hat{y}_{ij}=0)$\end{document}</tex-math></inline-formula> is the number of true negative base pairs, and <inline-formula><tex-math notation="LaTeX" id="ImEquation24">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tau \in [0, 1]$\end{document}</tex-math></inline-formula> is a balancing parameter between true positives and true negatives. Here, <inline-formula><tex-math notation="LaTeX" id="ImEquation25">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$I(condition)$\end{document}</tex-math></inline-formula> is the indicator function that takes a value of 1 or 0 depending on whether the <inline-formula><tex-math notation="LaTeX" id="ImEquation26">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$condition$\end{document}</tex-math></inline-formula> is true or false.</p><p>Our objective is to find a secondary structure that maximizes the expectation of the gain function (<xref rid="deqn01" ref-type="disp-formula">1</xref>) under a given probability distribution over the space <inline-formula><tex-math notation="LaTeX" id="ImEquation27">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\mathcal{Y}(x)$\end{document}</tex-math></inline-formula> of pseudoknotted secondary structures, as follows: <disp-formula id="deqn02"><label>(2)</label><tex-math notation="LaTeX" id="DmEquation2">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*}&#x00026; \mathbb{E}_{y \mid x} [G_{\tau}(y, \hat{y})] = \sum_{y \in \mathcal{Y}(x)} G_{\tau}(y, \hat{y}) P(y \mid x). \end{align*}\end{document}</tex-math></disp-formula>Here, <inline-formula><tex-math notation="LaTeX" id="ImEquation28">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$P(y \mid x)$\end{document}</tex-math></inline-formula> is a probability distribution of RNA secondary structures including pseudoknots.</p><p>Because the calculation of the expected gain function (<xref rid="deqn02" ref-type="disp-formula">2</xref>) is intractable for arbitrary pseudoknots, we approximate Eq. (<xref rid="deqn02" ref-type="disp-formula">2</xref>) by the sum of the expected gain function for decomposed pseudoknot-free substructures <inline-formula><tex-math notation="LaTeX" id="ImEquation29">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{y}^{(1)}, \ldots , \hat{y}^{(m)}$\end{document}</tex-math></inline-formula> for <inline-formula><tex-math notation="LaTeX" id="ImEquation30">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{y} \in \mathcal{Y}(x)$\end{document}</tex-math></inline-formula> such that <inline-formula><tex-math notation="LaTeX" id="ImEquation31">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{y} = \sum _{p=1}^m \hat{y}^{(p)}$\end{document}</tex-math></inline-formula>, and thus, we find a pseudoknotted structure <inline-formula><tex-math notation="LaTeX" id="ImEquation32">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{y}$\end{document}</tex-math></inline-formula> and its decomposition <inline-formula><tex-math notation="LaTeX" id="ImEquation33">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{y}^{(1)}, \ldots , \hat{y}^{(m)}$\end{document}</tex-math></inline-formula> that maximize <disp-formula id="deqn03"><label>(3)</label><tex-math notation="LaTeX" id="DmEquation3">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} &#x00026;\sum_{p=1}^m \sum_{y \in \mathcal{Y}^{\prime}(x)} G_{\tau^{(p)}}(y, \hat{y}^{(p)}) P^{\prime}(y \mid x)\nonumber\\ =&#x00026; \sum_{p=1}^m \sum_{i&#x0003c;j} \left[ p_{ij} - \tau^{(p)} \right] \hat{y}^{(p)}_{ij} + C, \end{align*}\end{document}</tex-math></disp-formula>where <inline-formula><tex-math notation="LaTeX" id="ImEquation34">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tau ^{(p)} \in [0, 1]$\end{document}</tex-math></inline-formula> is a balancing parameter between true positives and true negatives for a level <inline-formula><tex-math notation="LaTeX" id="ImEquation35">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$p$\end{document}</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX" id="ImEquation36">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$C$\end{document}</tex-math></inline-formula> is a constant independent of <inline-formula><tex-math notation="LaTeX" id="ImEquation37">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{y}$\end{document}</tex-math></inline-formula>. The base pairing probability <inline-formula><tex-math notation="LaTeX" id="ImEquation38">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$p_{ij}$\end{document}</tex-math></inline-formula> is the probability that the bases <inline-formula><tex-math notation="LaTeX" id="ImEquation39">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_i$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation40">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_j$\end{document}</tex-math></inline-formula> form a base pair, which is defined as <disp-formula id="deqn04"><label>(4)</label><tex-math notation="LaTeX" id="DmEquation4">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*}&#x00026; p_{ij} = \sum_{y \in \mathcal{Y}^{\prime}(x)} I(y_{ij}=1) P^{\prime}(y \mid x). \end{align*}\end{document}</tex-math></disp-formula>See <xref rid="sup1" ref-type="supplementary-material">Section S1</xref> in Supplementary Information for the derivation. Notably, it is no longer necessary to consider the base pairs whose probabilities are at most the threshold <inline-formula><tex-math notation="LaTeX" id="ImEquation41">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tau ^{(p)}$\end{document}</tex-math></inline-formula>, which we refer to as the threshold cut.</p><p>We can choose <inline-formula><tex-math notation="LaTeX" id="ImEquation42">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$P^{\prime}(y \mid x)$\end{document}</tex-math></inline-formula>, a probability distribution over a set <inline-formula><tex-math notation="LaTeX" id="ImEquation43">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\mathcal{Y}^{\prime}(x)$\end{document}</tex-math></inline-formula> of secondary structures without pseudoknots, from among several options. Instead of using a probability distribution with pseudoknots, we can employ a probability distribution without pseudoknots, such as the McCaskill model [<xref rid="ref25" ref-type="bibr">25</xref>] and the CONTRAfold model [<xref rid="ref4" ref-type="bibr">4</xref>], whose computational complexity is <inline-formula><tex-math notation="LaTeX" id="ImEquation44">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$O(|x|^3)$\end{document}</tex-math></inline-formula> for time and <inline-formula><tex-math notation="LaTeX" id="ImEquation45">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$O(|x|^2)$\end{document}</tex-math></inline-formula> for space. Alternatively, the LinearPartition model [<xref rid="ref22" ref-type="bibr">22</xref>], which is <inline-formula><tex-math notation="LaTeX" id="ImEquation46">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$O(|x|)$\end{document}</tex-math></inline-formula> in both time and space, enables us to predict the secondary structure of sequences much longer than 1000 bases.</p></sec><sec id="sec2b"><title>IP formulation</title><p>We can formulate our problem described in the previous section as the following IP problem: <disp-formula id="deqn05"><label>(5)</label><tex-math notation="LaTeX" id="DmEquation5">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} \textrm{maximize} \quad &#x00026; \sum_{p=1}^m \sum_{i&#x0003c;j} \left[ p_{ij} - \tau^{(p)} \right] y^{(p)}_{ij} \end{align*}\end{document}</tex-math></disp-formula><disp-formula id="deqn06"><label>(6)</label><tex-math notation="LaTeX" id="DmEquation6">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} \textrm{subject to} \quad &#x00026; y_{ij} \in \{ 0, 1\} \quad (1 \leq \forall i &#x0003c; \forall &#x0003c; j \leq n), \end{align*}\end{document}</tex-math></disp-formula><disp-formula id="deqn07"><label>(7)</label><tex-math notation="LaTeX" id="DmEquation7">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} &#x00026; y^{(p)}_{ij} \in \{ 0, 1 \} \quad (1 \leq \forall p \leq m, 1 \leq \forall i &#x0003c; \forall j \leq n), \end{align*}\end{document}</tex-math></disp-formula><disp-formula id="deqn08"><label>(8)</label><tex-math notation="LaTeX" id="DmEquation8">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} &#x00026; y_{ij} = \sum_{p=1}^m y^{(p)}_{ij} \quad (1 \leq \forall i &#x0003c; \forall j \leq n), \end{align*}\end{document}</tex-math></disp-formula><disp-formula id="deqn09"><label>(9)</label><tex-math notation="LaTeX" id="DmEquation9">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} &#x00026; \sum_{h=1}^{i-1} y_{hi} + \sum_{h=i+1}^{n} y_{ih} \leq 1 \quad (1 \leq \forall i \leq n), \end{align*}\end{document}</tex-math></disp-formula><disp-formula id="deqn10"><label>(10)</label><tex-math notation="LaTeX" id="DmEquation10">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} &#x00026; y^{(p)}_{ij} + y^{(p)}_{kl} \leq 1 \nonumber\\ &#x00026;\quad (1 \leq p \leq m, 1 \leq \forall i &#x0003c; \forall k &#x0003c; \forall j &#x0003c; \forall l \leq n), \end{align*}\end{document}</tex-math></disp-formula><disp-formula id="deqn11"><label>(11)</label><tex-math notation="LaTeX" id="DmEquation11">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} &#x00026; \sum_{i&#x0003c;k&#x0003c;j&#x0003c;l} y^{(q)}_{ij} + \sum_{k&#x0003c;i^{\prime}&#x0003c;l&#x0003c;j^{\prime}} y^{(q)}_{i^{\prime}j^{\prime}} \geq y^{(p)}_{kl}\nonumber\\ &#x00026;\quad\quad\quad (1 \leq q &#x0003c; p \leq m, 1 \leq \forall k &#x0003c; \forall l \leq n). \end{align*}\end{document}</tex-math></disp-formula>Because Equation (<xref rid="deqn05" ref-type="disp-formula">5</xref>) is an instantiation of the approximate estimator (<xref rid="deqn03" ref-type="disp-formula">3</xref>) and the threshold cut technique is applicable to Eq. (<xref rid="deqn03" ref-type="disp-formula">3</xref>), the base pairs <inline-formula><tex-math notation="LaTeX" id="ImEquation47">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y^{(p)}_{ij}$\end{document}</tex-math></inline-formula> whose base pairing probabilities <inline-formula><tex-math notation="LaTeX" id="ImEquation48">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$p_{ij}$\end{document}</tex-math></inline-formula> are larger than <inline-formula><tex-math notation="LaTeX" id="ImEquation49">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tau ^{(p)}$\end{document}</tex-math></inline-formula> need to be considered. The number of variables <inline-formula><tex-math notation="LaTeX" id="ImEquation50">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y^{(p)}_{ij}$\end{document}</tex-math></inline-formula> that should be considered is at most <inline-formula><tex-math notation="LaTeX" id="ImEquation51">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$|x|/\tau ^{(p)}$\end{document}</tex-math></inline-formula> because <inline-formula><tex-math notation="LaTeX" id="ImEquation52">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\sum _{j&#x0003c;i} p_{ji} + \sum _{j&#x0003e;i} p_{ij} \leq 1$\end{document}</tex-math></inline-formula> for <inline-formula><tex-math notation="LaTeX" id="ImEquation53">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$1 \leq \forall i \leq |x|$\end{document}</tex-math></inline-formula>. Constraint (<xref rid="deqn09" ref-type="disp-formula">9</xref>) means that each base <inline-formula><tex-math notation="LaTeX" id="ImEquation54">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_i$\end{document}</tex-math></inline-formula> is paired with at most one base. Constraint (<xref rid="deqn10" ref-type="disp-formula">10</xref>) disallows pseudoknots within the same level <inline-formula><tex-math notation="LaTeX" id="ImEquation55">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$p$\end{document}</tex-math></inline-formula>. Constraint (<xref rid="deqn11" ref-type="disp-formula">11</xref>) ensures that each base pair at level <inline-formula><tex-math notation="LaTeX" id="ImEquation56">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$p$\end{document}</tex-math></inline-formula> is pseudoknotted with at least one base pair at every lower level <inline-formula><tex-math notation="LaTeX" id="ImEquation57">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$q &#x0003c; p$\end{document}</tex-math></inline-formula> to guarantee the uniqueness of the decomposition <inline-formula><tex-math notation="LaTeX" id="ImEquation58">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y = \sum _{p=1}^m y^{(p)}$\end{document}</tex-math></inline-formula>.</p></sec><sec id="sec2c"><title>Pseudo-expected accuracy</title><p>To solve the IP problem (<xref rid="deqn05" ref-type="disp-formula">5</xref>)&#x02013;(<xref rid="deqn11" ref-type="disp-formula">11</xref>), we are required to choose the set of thresholds for each level <inline-formula><tex-math notation="LaTeX" id="ImEquation59">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tau ^{(1)}, \ldots , \tau ^{(m)}$\end{document}</tex-math></inline-formula>, each of which is a balancing parameter between true positives and true negatives. However, it is not easy to obtain the best set of <inline-formula><tex-math notation="LaTeX" id="ImEquation60">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tau $\end{document}</tex-math></inline-formula> values for any sequence beforehand. Therefore, we employ an approach originally proposed by <italic toggle="yes">Hamada et al.</italic> [<xref rid="ref23" ref-type="bibr">23</xref>], which chooses a parameter set for each sequence among several parameter sets that predicts the best secondary structure in terms of an approximation of the expected accuracy (called pseudo-expected accuracy) and makes the prediction by the best parameter set the final prediction.</p><p>The accuracy of a predicted RNA secondary structure <inline-formula><tex-math notation="LaTeX" id="ImEquation61">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{y}$\end{document}</tex-math></inline-formula> against a reference structure <inline-formula><tex-math notation="LaTeX" id="ImEquation62">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y$\end{document}</tex-math></inline-formula> is evaluated using the following measures: <disp-formula id="deqn12"><label>(12)</label><tex-math notation="LaTeX" id="DmEquation12">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} PPV(y, \hat{y}) &#x00026;= \frac{TP(y, \hat{y})}{TP(y, \hat{y}) +FP(y, \hat{y})}, \end{align*}\end{document}</tex-math></disp-formula><disp-formula id="deqn13"><label>(13)</label><tex-math notation="LaTeX" id="DmEquation13">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} SEN(y, \hat{y}) &#x00026;= \frac{TP(y, \hat{y})}{TP(y, \hat{y}) +FN(y, \hat{y})}, \end{align*}\end{document}</tex-math></disp-formula><disp-formula id="deqn14"><label>(14)</label><tex-math notation="LaTeX" id="DmEquation14">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} F(y, \hat{y}) &#x00026;= \frac{2 \cdot PPV(y, \hat{y}) \cdot SEN(y, \hat{y})}{PPV(y, \hat{y}) +SEN(y, \hat{y})}. \end{align*}\end{document}</tex-math></disp-formula>Here, <inline-formula><tex-math notation="LaTeX" id="ImEquation63">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$TP(y, \hat{y})=\sum _{i&#x0003c;j} I(y_{ij}=1) I(\hat{y}_{ij}=1)$\end{document}</tex-math></inline-formula>, <inline-formula><tex-math notation="LaTeX" id="ImEquation64">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$FP(y, \hat{y})=\sum _{i&#x0003c;j} I(y_{ij}=0) I(\hat{y}_{ij}=1)$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation65">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$FN(y, \hat{y})=\sum _{i&#x0003c;j} I(y_{ij}=1) I(\hat{y}_{ij}=0)$\end{document}</tex-math></inline-formula>. To estimate the accuracy of the predicted secondary structure <inline-formula><tex-math notation="LaTeX" id="ImEquation66">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{y}$\end{document}</tex-math></inline-formula> without knowing the true secondary structure <inline-formula><tex-math notation="LaTeX" id="ImEquation67">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y$\end{document}</tex-math></inline-formula>, we take an expectation of <inline-formula><tex-math notation="LaTeX" id="ImEquation68">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F(y, \hat{y})$\end{document}</tex-math></inline-formula> over the distribution of <inline-formula><tex-math notation="LaTeX" id="ImEquation69">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y$\end{document}</tex-math></inline-formula>: <disp-formula id="deqn15"><label>(15)</label><tex-math notation="LaTeX" id="DmEquation15">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*}&#x00026; \overline{F}(\hat{y}) = \mathbb{E}_{y \mid x}[F(y, \hat{y})] = \sum_{y \in \mathcal{Y}(x)} F(y, \hat{y}) P(y \mid x). \end{align*}\end{document}</tex-math></disp-formula>However, this calculation is intractable because the number of <inline-formula><tex-math notation="LaTeX" id="ImEquation70">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y \in \mathcal{Y}(x)$\end{document}</tex-math></inline-formula> increases exponentially with the length of sequence <inline-formula><tex-math notation="LaTeX" id="ImEquation71">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x$\end{document}</tex-math></inline-formula>. Alternatively, we first calculate expected <inline-formula><tex-math notation="LaTeX" id="ImEquation72">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$TP, FP$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation73">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$FN$\end{document}</tex-math></inline-formula> as follows: <disp-formula id="deqn16"><label>(16)</label><tex-math notation="LaTeX" id="DmEquation16">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} \overline{TP}(\hat{y}) &#x00026;= \mathbb{E}_{y \mid x}[TP(y, \hat{y})] = \sum_{i&#x0003c;j} p_{ij} I(\hat{y}_{ij}=1), \end{align*}\end{document}</tex-math></disp-formula><disp-formula id="deqn17"><label>(17)</label><tex-math notation="LaTeX" id="DmEquation17">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} \overline{FP}(\hat{y}) &#x00026;= \mathbb{E}_{y \mid x}[FP(y, \hat{y})] = \sum_{i&#x0003c;j} (1-p_{ij}) I(\hat{y}_{ij}=1), \end{align*}\end{document}</tex-math></disp-formula><disp-formula id="deqn18"><label>(18)</label><tex-math notation="LaTeX" id="DmEquation18">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} \overline{FN}(\hat{y}) &#x00026;= \mathbb{E}_{y \mid x}[FN(y, \hat{y})] = \sum_{i&#x0003c;j} p_{ij} I(\hat{y}_{ij}=0). \end{align*}\end{document}</tex-math></disp-formula>Then, we approximate <inline-formula><tex-math notation="LaTeX" id="ImEquation74">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\overline{F}$\end{document}</tex-math></inline-formula> by calculating Equation (<xref rid="deqn14" ref-type="disp-formula">14</xref>) using <inline-formula><tex-math notation="LaTeX" id="ImEquation75">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\overline{TP}, \overline{FP}$\end{document}</tex-math></inline-formula>, and <inline-formula><tex-math notation="LaTeX" id="ImEquation76">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\overline{FN}$\end{document}</tex-math></inline-formula> instead of <inline-formula><tex-math notation="LaTeX" id="ImEquation77">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$TP, FP$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation78">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$FN$\end{document}</tex-math></inline-formula>, respectively.</p><p>In addition to the original pseudo-expected accuracy described above, we introduce the pseudo-expected accuracy for crossing base pairs to predict pseudoknotted structures. Prediction of secondary structures including pseudoknots depends on both the conventional prediction accuracy of base pairs described above and the accuracy of crossing base pairs. A crossing base pair is a base pair <inline-formula><tex-math notation="LaTeX" id="ImEquation79">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_i$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation80">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_j$\end{document}</tex-math></inline-formula> such that there exists another base pair <inline-formula><tex-math notation="LaTeX" id="ImEquation81">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_k$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation82">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_l$\end{document}</tex-math></inline-formula> that is crossing the base pair <inline-formula><tex-math notation="LaTeX" id="ImEquation83">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_i$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation84">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_j$\end{document}</tex-math></inline-formula>; that is, <inline-formula><tex-math notation="LaTeX" id="ImEquation85">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$k&#x0003c;i&#x0003c;l&#x0003c;j$\end{document}</tex-math></inline-formula> or <inline-formula><tex-math notation="LaTeX" id="ImEquation86">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$i&#x0003c;k&#x0003c;j&#x0003c;l$\end{document}</tex-math></inline-formula>. We define the expectations of true positives, false positives and false negatives for crossing base pairs as follows: <disp-formula id="deqn19"><label>(19)</label><tex-math notation="LaTeX" id="DmEquation19">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} \overline{TP}_{cb}(\hat{y}) &#x00026;= \mathbb{E}_{y \mid x}[TP(cb(y), cb(\hat{y}))] \nonumber\\ &#x00026;\approx \sum_{i&#x0003c;k&#x0003c;j&#x0003c;l} p_{ij} p_{kl} I(\hat{y}_{ij}=1 \land \hat{y}_{kl}=1), \end{align*}\end{document}</tex-math></disp-formula><disp-formula id="deqn20"><label>(20)</label><tex-math notation="LaTeX" id="DmEquation20">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} \overline{FP}_{cb}(\hat{y}) &#x00026;= \mathbb{E}_{y \mid x}[FP(cb(y), cb(\hat{y}))] \nonumber\\ &#x00026;\approx \sum_{i&#x0003c;k&#x0003c;j&#x0003c;l} (1-p_{ij} p_{kl}) I(\hat{y}_{ij}=1 \land \hat{y}_{kl}=1), \end{align*}\end{document}</tex-math></disp-formula><disp-formula id="deqn21"><label>(21)</label><tex-math notation="LaTeX" id="DmEquation21">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} \overline{FN}_{cb}(\hat{y}) &#x00026;= \mathbb{E}_{y \mid x}[FN(cb(y), cb(\hat{y}))] \nonumber\\ &#x00026;\approx \sum_{i&#x0003c;k&#x0003c;j&#x0003c;l} p_{ij} p_{kl} I(\hat{y}_{ij}=0 \lor \hat{y}_{kl}=0). \end{align*}\end{document}</tex-math></disp-formula>Here, <inline-formula><tex-math notation="LaTeX" id="ImEquation87">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$cb(y)$\end{document}</tex-math></inline-formula> is an <inline-formula><tex-math notation="LaTeX" id="ImEquation88">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$n \times n$\end{document}</tex-math></inline-formula> binary matrix, whose <inline-formula><tex-math notation="LaTeX" id="ImEquation89">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$(i,j)$\end{document}</tex-math></inline-formula>-element is <inline-formula><tex-math notation="LaTeX" id="ImEquation90">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y_{ij}$\end{document}</tex-math></inline-formula> itself if there exists <inline-formula><tex-math notation="LaTeX" id="ImEquation91">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$k&#x0003c;i&#x0003c;l&#x0003c;j$\end{document}</tex-math></inline-formula> or <inline-formula><tex-math notation="LaTeX" id="ImEquation92">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$i&#x0003c;k&#x0003c;j&#x0003c;l$\end{document}</tex-math></inline-formula> such that <inline-formula><tex-math notation="LaTeX" id="ImEquation93">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$y_{kl}=1$\end{document}</tex-math></inline-formula>, and 0 otherwise. Then, we calculate the pseudo-expected <inline-formula><tex-math notation="LaTeX" id="ImEquation94">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-value for crossing base pairs <inline-formula><tex-math notation="LaTeX" id="ImEquation95">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\overline{F}_{cb}$\end{document}</tex-math></inline-formula> using Equation (<xref rid="deqn14" ref-type="disp-formula">14</xref>) with <inline-formula><tex-math notation="LaTeX" id="ImEquation96">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\overline{TP}_{cb}, \overline{FP}_{cb}$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation97">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\overline{FN}_{cb}$\end{document}</tex-math></inline-formula> instead of <inline-formula><tex-math notation="LaTeX" id="ImEquation98">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$TP, FP$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation99">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$FN$\end{document}</tex-math></inline-formula>, respectively. Equations (<xref rid="deqn19" ref-type="disp-formula">19</xref>)&#x02013;(<xref rid="deqn21" ref-type="disp-formula">21</xref>) require <inline-formula><tex-math notation="LaTeX" id="ImEquation100">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$O(n^4)$\end{document}</tex-math></inline-formula> for naive calculations, but can be reduced to acceptable computational time by utilizing the threshold cut technique.</p><p>We predict secondary structures <inline-formula><tex-math notation="LaTeX" id="ImEquation101">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{y}_t$\end{document}</tex-math></inline-formula> (<inline-formula><tex-math notation="LaTeX" id="ImEquation102">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$t=1, \ldots , l$\end{document}</tex-math></inline-formula>) for several threshold parameters <inline-formula><tex-math notation="LaTeX" id="ImEquation103">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\{ (\tau ^{(1)}_t, \ldots , \tau ^{(m)}_t) \mid t=1, \ldots , l \}$\end{document}</tex-math></inline-formula>. Then, we calculate their pseudo-expected accuracy <inline-formula><tex-math notation="LaTeX" id="ImEquation104">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\overline{F}(\hat{y}_t) + \overline{F}_{cb}(\hat{y}_t)$\end{document}</tex-math></inline-formula> and choose the secondary structure <inline-formula><tex-math notation="LaTeX" id="ImEquation105">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat{y}_t$\end{document}</tex-math></inline-formula> that maximizes the pseudo-expected accuracy as the final prediction.</p></sec><sec id="sec2d"><title>Common secondary structure prediction</title><p>The average of the base pairing probability matrices for each sequence in an alignment has been used to predict the common secondary structure for the alignment [<xref rid="ref26" ref-type="bibr">26</xref>, <xref rid="ref27" ref-type="bibr">27</xref>]. Let <inline-formula><tex-math notation="LaTeX" id="ImEquation106">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$A$\end{document}</tex-math></inline-formula> be an alignment of RNA sequences that contains <inline-formula><tex-math notation="LaTeX" id="ImEquation107">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$k$\end{document}</tex-math></inline-formula> sequences and <inline-formula><tex-math notation="LaTeX" id="ImEquation108">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$|A|$\end{document}</tex-math></inline-formula> denote the number of columns in <inline-formula><tex-math notation="LaTeX" id="ImEquation109">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$A$\end{document}</tex-math></inline-formula>. We calculate the base pairing probabilities of an individual sequence <inline-formula><tex-math notation="LaTeX" id="ImEquation110">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x \in A$\end{document}</tex-math></inline-formula> as <disp-formula id="deqn22"><label>(22)</label><tex-math notation="LaTeX" id="DmEquation22">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*}&#x00026; p^{(x)}_{ij} = \sum_{y \in \mathcal{Y}(x)} I(y_{ij}=1) P(y \mid x). \end{align*}\end{document}</tex-math></disp-formula>The averaged base pairing probability matrix is defined as <disp-formula id="deqn23"><label>(23)</label><tex-math notation="LaTeX" id="DmEquation23">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*}&#x00026; p^{(A)}_{ij} = \frac{1}{k} \sum_{x \in A} p^{(x)}_{ij}. \end{align*}\end{document}</tex-math></disp-formula>The common secondary structure of the alignment <inline-formula><tex-math notation="LaTeX" id="ImEquation111">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$A$\end{document}</tex-math></inline-formula> can be calculated in the same way by replacing <inline-formula><tex-math notation="LaTeX" id="ImEquation112">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$p_{ij}$\end{document}</tex-math></inline-formula> in Equations (<xref rid="deqn05" ref-type="disp-formula">5</xref>) with <inline-formula><tex-math notation="LaTeX" id="ImEquation113">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$p^{(A)}_{ij}$\end{document}</tex-math></inline-formula>. While the common secondary structure prediction based on the average base pairing probability matrix has been implemented in the previous version of IPknot [<xref rid="ref21" ref-type="bibr">21</xref>], the present version employs the LinearPartition model, which enables the calculation linearly with respect to the alignment length.</p></sec><sec id="sec2e"><title>Implementation</title><p>Our method has been implemented as the newest version of a program called IPknot. In addition to the McCaskil model [<xref rid="ref25" ref-type="bibr">25</xref>] and CONTRAfold model [<xref rid="ref4" ref-type="bibr">4</xref>], which were already integrated into the previous version of IPknot, the LinearPartition model [<xref rid="ref22" ref-type="bibr">22</xref>] is also supported as a probability distribution for secondary structures. To solve IP problems, the GNU Linear Programming Kit (GLPK; <ext-link xlink:href="http://www.gnu.org/software/glpk/" ext-link-type="uri">http://www.gnu.org/software/glpk/</ext-link>), Gurobi Optimizer (<ext-link xlink:href="http://gurobi.com/" ext-link-type="uri">http://gurobi.com/</ext-link>) or IBM CPLEX Optimizer (<ext-link xlink:href="https://www.ibm.com/analytics/cplex-optimizer" ext-link-type="uri">https://www.ibm.com/analytics/cplex-optimizer</ext-link>) can be employed.</p></sec><sec id="sec2f"><title>Datasets</title><p>To evaluate our algorithm, we performed computational experiments on several datasets. We employed RNA sequences extracted from the bpRNA-1m dataset [<xref rid="ref28" ref-type="bibr">28</xref>], which is based on Rfam 12.2 [<xref rid="ref29" ref-type="bibr">29</xref>], and the comparative RNA web dataset [<xref rid="ref30" ref-type="bibr">30</xref>] with 2588 families. In addition, we built a dataset that includes families from the most recent Rfam database, Rfam 14.5 [<xref rid="ref31" ref-type="bibr">31</xref>]. Since the release of Rfam 12.2, the Rfam project has actively collected about 1400 RNA families, including families detected by newly developed techniques. We extracted these newly discovered families. To limit bias in the training data, sequences with higher than 80% sequence identity with the sequence subsets S-Processed-TRA from RNA STRAND [<xref rid="ref32" ref-type="bibr">32</xref>] and TR0 from bpRNA-1m [<xref rid="ref28" ref-type="bibr">28</xref>], which are the training datasets for CONTRAfold and SPOT-RNA, respectively, were removed using CD-HIT-EST-2D [<xref rid="ref33" ref-type="bibr">33</xref>]. We then removed redundant sequences using CD-HIT-EST [<xref rid="ref33" ref-type="bibr">33</xref>], with a cutoff threshold of 80% sequence identity.</p><p>For the prediction of common secondary structures, the sequence selected by the above method was used as a seed, and 1&#x02013;9 sequences of the same Rfam family and with high sequence identity (<inline-formula><tex-math notation="LaTeX" id="ImEquation114">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\geq 80\%$\end{document}</tex-math></inline-formula>) with the seed sequence were randomly selected to create an alignment. Common secondary structure prediction was performed on the reference alignments from Rfam and the alignments calculated by MAFFT [<xref rid="ref34" ref-type="bibr">34</xref>]. Because there are sequences from bpRNA-1m that do not have Rfam reference alignments, only sequences from Rfam 14.5 were tested for common secondary structure prediction. To capture the accuracy of the common secondary structure prediction, the accuracy for the seed sequence is shown.</p><p>A summary of the dataset created and utilized is shown in Table <xref rid="TB1" ref-type="table">1</xref>.</p><table-wrap position="float" id="TB1"><label>Table 1</label><caption><p>Datasets used in our experiments. Each element of the table shows the number of sequences</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">&#x02003;</th><th colspan="3" rowspan="1">Pseudoknot-free</th><th colspan="3" rowspan="1">Pseudoknotted</th></tr><tr><th rowspan="1" colspan="1">&#x02003;</th><th rowspan="1" colspan="1">Short</th><th rowspan="1" colspan="1">Medium</th><th rowspan="1" colspan="1">Long</th><th rowspan="1" colspan="1">Short</th><th rowspan="1" colspan="1">Medium</th><th rowspan="1" colspan="1">Long</th></tr><tr><th rowspan="1" colspan="1">Length (nt)</th><th rowspan="1" colspan="1">(12&#x02013;150)</th><th rowspan="1" colspan="1">(151&#x02013;500)</th><th rowspan="1" colspan="1">(501&#x02013;4381)</th><th rowspan="1" colspan="1">(12&#x02013;150)</th><th rowspan="1" colspan="1">(151&#x02013;500)</th><th rowspan="1" colspan="1">(501&#x02013;4381)</th></tr></thead><tbody><tr><td colspan="7" rowspan="1">(Single)</td></tr><tr><td rowspan="1" colspan="1">&#x02003;bpRNA-1m</td><td rowspan="1" colspan="1">1971</td><td rowspan="1" colspan="1">514</td><td rowspan="1" colspan="1">420</td><td rowspan="1" colspan="1">125</td><td rowspan="1" colspan="1">162</td><td rowspan="1" colspan="1">245</td></tr><tr><td rowspan="1" colspan="1">&#x02003;Rfam 14.5</td><td rowspan="1" colspan="1">6299</td><td rowspan="1" colspan="1">723</td><td rowspan="1" colspan="1">9</td><td rowspan="1" colspan="1">1692</td><td rowspan="1" colspan="1">477</td><td rowspan="1" colspan="1">151</td></tr><tr><td colspan="7" rowspan="1">(Multiple)</td></tr><tr><td rowspan="1" colspan="1">&#x02003;Rfam 14.5</td><td rowspan="1" colspan="1">5118</td><td rowspan="1" colspan="1">554</td><td rowspan="1" colspan="1">4</td><td rowspan="1" colspan="1">1692</td><td rowspan="1" colspan="1">477</td><td rowspan="1" colspan="1">151</td></tr></tbody></table></table-wrap></sec></sec><sec id="sec3"><title>Results</title><sec id="sec3a"><title>Effectiveness of pseudo-expected accuracy</title><p>First, to show the effectiveness of the automatic selection from among thresholds <inline-formula><tex-math notation="LaTeX" id="ImEquation115">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tau ^{(1)}, \ldots , \tau ^{(m)}$\end{document}</tex-math></inline-formula> based on the pseudo-expected accuracy, Figure <xref rid="f2" ref-type="fig">2</xref> and <xref rid="sup1" ref-type="supplementary-material">Table S1</xref> in Supplementary Information show the prediction accuracy on the dataset of short sequences (<inline-formula><tex-math notation="LaTeX" id="ImEquation116">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\leq 150$\end{document}</tex-math></inline-formula> nt) using automatic selection and manual selection of the threshold <inline-formula><tex-math notation="LaTeX" id="ImEquation117">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tau $\end{document}</tex-math></inline-formula> values. For IPknot, we fixed the number of decomposed sets of secondary substructures <inline-formula><tex-math notation="LaTeX" id="ImEquation118">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$m=2$\end{document}</tex-math></inline-formula>, and varied threshold parameters <inline-formula><tex-math notation="LaTeX" id="ImEquation119">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tau $\end{document}</tex-math></inline-formula> values for base pairing probability in such a way that <inline-formula><tex-math notation="LaTeX" id="ImEquation120">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\{(\tau ^{(1)}, \tau ^{(2)}) \mid \tau ^{(p)}=2^{-t}, p=1,2, \, t=1,2,3,4, \, \tau ^{(1)} \geq \tau ^{(2)}\}$\end{document}</tex-math></inline-formula>. In IPknot with pseudo-expected accuracy, the best secondary structure in the sense of pseudo-expected <inline-formula><tex-math notation="LaTeX" id="ImEquation121">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula> is selected from the same range of <inline-formula><tex-math notation="LaTeX" id="ImEquation122">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$(\tau ^{(1)}, \tau ^{(2)})$\end{document}</tex-math></inline-formula> for each sequence. For these variants of IPknot, the LinearPartition model with CONTRAfold parameters (LinearPartition-C) was used to calculate base pairing probabilities. In addition, we compared the prediction accuracy of IPknot with that of ThreshKnot [<xref rid="ref35" ref-type="bibr">35</xref>], which also calculates base pairing probabilities using LinearPartition-C. We used <inline-formula><tex-math notation="LaTeX" id="ImEquation123">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\{2^{-t} \mid t=1,2,3,4\} \cup \{0.3\}$\end{document}</tex-math></inline-formula> as the threshold parameter <inline-formula><tex-math notation="LaTeX" id="ImEquation124">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\theta $\end{document}</tex-math></inline-formula> for ThreshKnot because the default threshold parameter of ThreshKnot is <inline-formula><tex-math notation="LaTeX" id="ImEquation125">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\theta =0.3$\end{document}</tex-math></inline-formula>. IPknot with threshold parameters of <inline-formula><tex-math notation="LaTeX" id="ImEquation126">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tau ^{(1)}=0.125$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation127">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tau ^{(2)}=0.125$\end{document}</tex-math></inline-formula> had the highest prediction accuracy of <inline-formula><tex-math notation="LaTeX" id="ImEquation128">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F=0.659$\end{document}</tex-math></inline-formula>. IPknot with pseudo-expected accuracy has a prediction accuracy of <inline-formula><tex-math notation="LaTeX" id="ImEquation129">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F=0.658$\end{document}</tex-math></inline-formula>, which is comparable to the highest accuracy obtained. ThreshKnot with a threshold of 0.25 has an accuracy of <inline-formula><tex-math notation="LaTeX" id="ImEquation130">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F=0.656$\end{document}</tex-math></inline-formula>, which is also comparable to the best accuracy obtained.</p><fig position="float" id="f2"><label>
+Figure 2
+</label><caption><p>PPV&#x02013;SEN plot of IPknot and ThreshKnot for short RNA sequences (<inline-formula><tex-math notation="LaTeX" id="ImEquation131">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\leq 150$\end{document}</tex-math></inline-formula> nt).</p></caption><graphic xlink:href="bbab395f2" position="float"/></fig><p>The pseudo-expected <inline-formula><tex-math notation="LaTeX" id="ImEquation132">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-value and &#x0201c;true&#x0201d; <inline-formula><tex-math notation="LaTeX" id="ImEquation133">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-value are relatively highly correlated (Spearman correlation coefficient <inline-formula><tex-math notation="LaTeX" id="ImEquation134">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\rho =0.639$\end{document}</tex-math></inline-formula>), indicating that the selection of predicted secondary structure using pseudo-expected accuracy works well.</p><p>While the accuracy of the prediction of the entire secondary structure has already been considered, as shown in Figure <xref rid="f2" ref-type="fig">2</xref>, for the prediction of secondary structures with pseudoknots, it is necessary to evaluate the prediction accuracy focused on the crossing base pairs. In terms of prediction accuracy limited to only crossing base pairs, IPknot with pseudo-expected accuracy yielded <inline-formula><tex-math notation="LaTeX" id="ImEquation135">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F_{cb}=0.258$\end{document}</tex-math></inline-formula>, while the highest accuracy achieved by IPknot with the threshold parameters and ThreshKnot was considerably lower at <inline-formula><tex-math notation="LaTeX" id="ImEquation136">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F_{cb}=0.161$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation137">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$0.057$\end{document}</tex-math></inline-formula>, respectively (See <xref rid="sup1" ref-type="supplementary-material">Table S1</xref> in Supplementary Information). We can observe the similar tendency to the above in <xref rid="sup1" ref-type="supplementary-material">Figures S1</xref> and <xref rid="sup1" ref-type="supplementary-material">S2</xref>, and <xref rid="sup1" ref-type="supplementary-material">Tables S2</xref> and <xref rid="sup1" ref-type="supplementary-material">S3</xref> in Supplementary Information for medium (151&#x02013;500 nt) and long (<inline-formula><tex-math notation="LaTeX" id="ImEquation138">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$&#x0003e;500$\end{document}</tex-math></inline-formula> nt) sequences. These results suggest that prediction of crossing base pairs is improved by selecting the predicted secondary structure while considering both the pseudo-expected accuracy of the entire secondary structure and the pseudo-expected accuracy of the crossing base pairs.</p></sec><sec id="sec3b"><title>Comparison with previous methods for single RNA sequences</title><p>Using our dataset, we compared our algorithm with several previous methods that can predict pseudoknots, including ThreshKnot utilizing LinearPartition (committed on 17 March 2021) [<xref rid="ref22" ref-type="bibr">22</xref>], Knotty (committed on Mar 28, 2018) [<xref rid="ref22" ref-type="bibr">22</xref>] and SPOT-RNA (committed on 1 April 2021) [<xref rid="ref6" ref-type="bibr">6</xref>], and those that can predict only pseudoknot-free structures, including CONTRAfold (version 2.02) [<xref rid="ref4" ref-type="bibr">4</xref>] and RNAfold in the ViennaRNA package (version 2.4.17) [<xref rid="ref22" ref-type="bibr">22</xref>]. IPknot has several options for the calculation model for base pairing probabilities, namely the LinearPartition model with CONTRAfold parameters (LinearPartition-C), the LinearPartition model with ViennaRNA parameters (LinearPartition-V), the CONTRAfold model and the ViennaRNA model. In addition, ThreshKnot has two possible LinearPartition models for calculating base pairing probabilities. The other existing methods were tested using the default settings.</p><p>We evaluated the prediction accuracy according to the <inline-formula><tex-math notation="LaTeX" id="ImEquation139">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-value as defined by Equation (<xref rid="deqn14" ref-type="disp-formula">14</xref>) for pseudoknot-free sequences (PKF in Table <xref rid="TB2" ref-type="table">2</xref>), pseudoknotted sequences (PK in Table <xref rid="TB2" ref-type="table">2</xref>) and only crossing base pairs (CB in Table <xref rid="TB2" ref-type="table">2</xref>) by stratifying sequences by length: short (12&#x02013;150 nt), medium (151&#x02013;500 nt) and long (500&#x02013;4381 nt).</p><table-wrap position="float" id="TB2"><label>Table 2</label><caption><p>A comparison of prediction accuracies (<inline-formula><tex-math notation="LaTeX" id="ImEquation140">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-values) by sequence length for each method</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Length</th><th colspan="3" rowspan="1">Short (12&#x02013;150 nt)</th><th colspan="3" rowspan="1">Medium (151&#x02013;500 nt)</th><th colspan="3" rowspan="1">Long (501&#x02013;4381 nt)</th></tr><tr><th rowspan="1" colspan="1">&#x02003;</th><th rowspan="1" colspan="1">PKF</th><th rowspan="1" colspan="1">PK</th><th rowspan="1" colspan="1">CB</th><th rowspan="1" colspan="1">PKF</th><th rowspan="1" colspan="1">PK</th><th rowspan="1" colspan="1">CB</th><th rowspan="1" colspan="1">PKF</th><th rowspan="1" colspan="1">PK</th><th rowspan="1" colspan="1">CB</th></tr></thead><tbody><tr><td colspan="10" rowspan="1">IPknot</td></tr><tr><td rowspan="1" colspan="1">&#x02003;(LinearPartition-C)</td><td rowspan="1" colspan="1">0.681</td><td rowspan="1" colspan="1">0.552</td><td rowspan="1" colspan="1">0.258</td><td rowspan="1" colspan="1">0.492</td><td rowspan="1" colspan="1">0.482</td><td rowspan="1" colspan="1">0.128</td><td rowspan="1" colspan="1">0.433</td><td rowspan="1" colspan="1">0.428</td><td rowspan="1" colspan="1">0.061</td></tr><tr><td rowspan="1" colspan="1">&#x02003;(LinearPartition-V)</td><td rowspan="1" colspan="1">0.669</td><td rowspan="1" colspan="1">0.499</td><td rowspan="1" colspan="1">0.143</td><td rowspan="1" colspan="1">0.478</td><td rowspan="1" colspan="1">0.461</td><td rowspan="1" colspan="1">0.091</td><td rowspan="1" colspan="1">0.380</td><td rowspan="1" colspan="1">0.370</td><td rowspan="1" colspan="1">0.038</td></tr><tr><td rowspan="1" colspan="1">&#x02003;(CONTRAfold)</td><td rowspan="1" colspan="1">0.678</td><td rowspan="1" colspan="1">0.550</td><td rowspan="1" colspan="1">0.259</td><td rowspan="1" colspan="1">0.495</td><td rowspan="1" colspan="1">0.505</td><td rowspan="1" colspan="1">0.154</td><td rowspan="1" colspan="1">0.426</td><td rowspan="1" colspan="1">0.413</td><td rowspan="1" colspan="1">0.066</td></tr><tr><td rowspan="1" colspan="1">&#x02003;(ViennaRNA)</td><td rowspan="1" colspan="1">0.669</td><td rowspan="1" colspan="1">0.500</td><td rowspan="1" colspan="1">0.144</td><td rowspan="1" colspan="1">0.480</td><td rowspan="1" colspan="1">0.461</td><td rowspan="1" colspan="1">0.091</td><td rowspan="1" colspan="1">0.212</td><td rowspan="1" colspan="1">0.317</td><td rowspan="1" colspan="1">0.041</td></tr><tr><td colspan="10" rowspan="1">ThreshKnot</td></tr><tr><td rowspan="1" colspan="1">&#x02003;(LinearPartition-C)</td><td rowspan="1" colspan="1">0.681</td><td rowspan="1" colspan="1">0.501</td><td rowspan="1" colspan="1">0.027</td><td rowspan="1" colspan="1">0.493</td><td rowspan="1" colspan="1">0.475</td><td rowspan="1" colspan="1">0.019</td><td rowspan="1" colspan="1">0.439</td><td rowspan="1" colspan="1">0.431</td><td rowspan="1" colspan="1">0.008</td></tr><tr><td rowspan="1" colspan="1">&#x02003;(LinearPartition-V)</td><td rowspan="1" colspan="1">0.669</td><td rowspan="1" colspan="1">0.484</td><td rowspan="1" colspan="1">0.033</td><td rowspan="1" colspan="1">0.481</td><td rowspan="1" colspan="1">0.456</td><td rowspan="1" colspan="1">0.026</td><td rowspan="1" colspan="1">0.383</td><td rowspan="1" colspan="1">0.372</td><td rowspan="1" colspan="1">0.014</td></tr><tr><td rowspan="1" colspan="1">Knotty</td><td rowspan="1" colspan="1">0.641</td><td rowspan="1" colspan="1">0.550</td><td rowspan="1" colspan="1">0.315</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">&#x02014;</td></tr><tr><td rowspan="1" colspan="1">SPOT-RNA</td><td rowspan="1" colspan="1">0.658</td><td rowspan="1" colspan="1">0.621</td><td rowspan="1" colspan="1">0.322</td><td rowspan="1" colspan="1">0.462</td><td rowspan="1" colspan="1">0.479</td><td rowspan="1" colspan="1">0.127</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">&#x02014;</td><td rowspan="1" colspan="1">&#x02014;</td></tr><tr><td rowspan="1" colspan="1">CONTRAfold</td><td rowspan="1" colspan="1">0.682</td><td rowspan="1" colspan="1">0.519</td><td rowspan="1" colspan="1">0.000</td><td rowspan="1" colspan="1">0.500</td><td rowspan="1" colspan="1">0.497</td><td rowspan="1" colspan="1">0.000</td><td rowspan="1" colspan="1">0.425</td><td rowspan="1" colspan="1">0.415</td><td rowspan="1" colspan="1">0.000</td></tr><tr><td rowspan="1" colspan="1">RNAfold</td><td rowspan="1" colspan="1">0.668</td><td rowspan="1" colspan="1">0.472</td><td rowspan="1" colspan="1">0.000</td><td rowspan="1" colspan="1">0.474</td><td rowspan="1" colspan="1">0.442</td><td rowspan="1" colspan="1">0.000</td><td rowspan="1" colspan="1">0.361</td><td rowspan="1" colspan="1">0.347</td><td rowspan="1" colspan="1">0.000</td></tr></tbody></table><table-wrap-foot><fn id="tblfn1"><p>PKF, <inline-formula><tex-math notation="LaTeX" id="ImEquation141">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-value for pseudoknot-free sequences; PK, <inline-formula><tex-math notation="LaTeX" id="ImEquation142">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-value for pseudoknotted sequences; CB, <inline-formula><tex-math notation="LaTeX" id="ImEquation143">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-value of crossing base pairs.</p></fn></table-wrap-foot></table-wrap><p>For short sequences, SPOT-RNA archived high accuracy, especially for pseudoknotted sequences. However, a large difference in accuracy between the bpRNA-1m-derived and Rfam 14.5-derived sequences can be observed for SPOT-RNA compared with the other methods (See <xref rid="sup1" ref-type="supplementary-material">Tables S4</xref>&#x02013;<xref rid="sup1" ref-type="supplementary-material">S9</xref> in Supplementary Information). Notably, bpRNA-1m contains many sequences in the same family as the SPOT-RNA training data, and although we performed filtering based on sequence identity, there is still a concern of overfitting. Knotty can predict structures including pseudoknots with an accuracy comparable to that of SPOT-RNA, but as shown in Figure <xref rid="f3" ref-type="fig">3</xref>, it can perform secondary structure prediction for only short sequences, owing to its huge computational complexity. Comparing IPknot using the LinearPartition-C and -V models with its counterparts, the original CONTRAfold model and ViennaRNA model achieved comparable accuracy. However, because the computational complexity of the original models is cubic with respect to sequence length, the computational time of the original models increases rapidly as the sequence length exceeds 1500 bases. On the other hand, the computational complexity of the LinearPartition models is linear with respect to sequence length, so the base pairing probabilities can be quickly calculated even when the sequence length exceeds 4000 bases. In addition to calculating the base pairing probabilities, IP calculations are required, but because the number of variables and constraints to be considered can be greatly reduced using the threshold cut technique, the overall execution time is not significantly affected if the sequence length is several thousand bases. Because ThreshKnot, like IPknot, uses the LinearPartition model, it is able to perform fast secondary structure prediction even for long sequences. However, for the prediction accuracy of crossing base pairs, ThreshKnot is even less accurate.</p><fig position="float" id="f3"><label>
+Figure 3
+</label><caption><p>Computational time of each method as a function of sequence length. For SPOT-RNA with GPGPU, we used a Linux workstation with Intel Xeon Gold 6136 and NVIDIA Tesla V100. All other computations were performed on Linux workstations with AMD EPYC 7702. For IPknot, we employed IBM CPLEX Optimizer as the IP solver.</p></caption><graphic xlink:href="bbab395f3" position="float"/></fig><p>Pseudoknots are found not only in cellular RNAs but also in viral RNAs, performing a variety of functions [<xref rid="ref8" ref-type="bibr">8</xref>]. <xref rid="sup1" ref-type="supplementary-material">Tables S10</xref>&#x02013;<xref rid="sup1" ref-type="supplementary-material">S11</xref> in Supplementary Information show the results of the secondary structure prediction by separating the datasets into cellular RNAs and viral RNAs, indicating that there is no significant difference in the prediction accuracy between cellular RNAs and viral RNAs.</p></sec><sec id="sec3c"><title>Prediction of common secondary structures with pseudoknots</title><p>Few methods exist that can perform prediction of common secondary structures including pseudoknots for sequence alignments longer than 1000 bases. Table <xref rid="TB3" ref-type="table">3</xref> and <xref rid="sup1" ref-type="supplementary-material">Tables S12</xref>&#x02013;<xref rid="sup1" ref-type="supplementary-material">S20</xref> in Supplementary Information compare the accuracy of IPknot that employs the LinearPartition model, and RNAalifold in the ViennaRNA package. We performed common secondary structure prediction for the Rfam reference alignment and the alignment calculated by MAFFT, as well as secondary structure prediction of single sequences only for the seed sequence included in the alignment, and evaluated the prediction accuracy for the seed sequence. In most cases, the prediction accuracy improved as the quality of the alignment increased (Single &#x0003c; MAFFT &#x0003c; Reference). IPknot predicts crossing base pairs based on pseudo-expected accuracy, whereas RNAalifold is unable to predict pseudoknots.</p><table-wrap position="float" id="TB3"><label>Table 3</label><caption><p>A comparison of prediction accuracies (<inline-formula><tex-math notation="LaTeX" id="ImEquation144">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-values) of common secondary structure prediction by sequence alignments for each method</p></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">&#x02003;</th><th colspan="3" rowspan="1">Reference</th><th colspan="3" rowspan="1">MAFFT</th><th colspan="3" rowspan="1">Single</th></tr><tr><th rowspan="1" colspan="1">&#x02003;</th><th rowspan="1" colspan="1">PKF</th><th rowspan="1" colspan="1">PK</th><th rowspan="1" colspan="1">CB</th><th rowspan="1" colspan="1">PKF</th><th rowspan="1" colspan="1">PK</th><th rowspan="1" colspan="1">CB</th><th rowspan="1" colspan="1">PKF</th><th rowspan="1" colspan="1">PK</th><th rowspan="1" colspan="1">CB</th></tr></thead><tbody><tr><td colspan="10" rowspan="1">IPknot</td></tr><tr><td rowspan="1" colspan="1">&#x02003;(LinearPartition-C)</td><td rowspan="1" colspan="1">0.765</td><td rowspan="1" colspan="1">0.616</td><td rowspan="1" colspan="1">0.220</td><td rowspan="1" colspan="1">0.732</td><td rowspan="1" colspan="1">0.585</td><td rowspan="1" colspan="1">0.218</td><td rowspan="1" colspan="1">0.718</td><td rowspan="1" colspan="1">0.548</td><td rowspan="1" colspan="1">0.227</td></tr><tr><td rowspan="1" colspan="1">&#x02003;(LinearPartition-V)</td><td rowspan="1" colspan="1">0.761</td><td rowspan="1" colspan="1">0.565</td><td rowspan="1" colspan="1">0.177</td><td rowspan="1" colspan="1">0.729</td><td rowspan="1" colspan="1">0.529</td><td rowspan="1" colspan="1">0.165</td><td rowspan="1" colspan="1">0.714</td><td rowspan="1" colspan="1">0.494</td><td rowspan="1" colspan="1">0.124</td></tr><tr><td rowspan="1" colspan="1">RNAalifold</td><td rowspan="1" colspan="1">0.804</td><td rowspan="1" colspan="1">0.611</td><td rowspan="1" colspan="1">0.000</td><td rowspan="1" colspan="1">0.745</td><td rowspan="1" colspan="1">0.540</td><td rowspan="1" colspan="1">0.000</td><td rowspan="1" colspan="1">0.716</td><td rowspan="1" colspan="1">0.474</td><td rowspan="1" colspan="1">0.000</td></tr></tbody></table><table-wrap-foot><fn id="tblfn2"><p>PKF, <inline-formula><tex-math notation="LaTeX" id="ImEquation145">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-value for pseudoknot-free sequences; PK, <inline-formula><tex-math notation="LaTeX" id="ImEquation146">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-value for pseudoknotted sequences; CB, <inline-formula><tex-math notation="LaTeX" id="ImEquation147">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-value of crossing base pairs.</p></fn></table-wrap-foot></table-wrap></sec></sec><sec id="sec4"><title>Discussion</title><p>Both IPknot and ThreshKnot use the LinearPartition model to calculate base pairing probabilities, and then perform secondary structure prediction using different strategies. ThreshKnot predicts the base pairs <inline-formula><tex-math notation="LaTeX" id="ImEquation148">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_i$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation149">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$x_j$\end{document}</tex-math></inline-formula> that are higher than a predetermined threshold <inline-formula><tex-math notation="LaTeX" id="ImEquation150">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\theta $\end{document}</tex-math></inline-formula> and have the largest <inline-formula><tex-math notation="LaTeX" id="ImEquation151">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$p_{ij}$\end{document}</tex-math></inline-formula> in terms of both <inline-formula><tex-math notation="LaTeX" id="ImEquation152">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$i$\end{document}</tex-math></inline-formula> and <inline-formula><tex-math notation="LaTeX" id="ImEquation153">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$j$\end{document}</tex-math></inline-formula>. IPknot predicts the pseudoknot structure with multiple thresholds <inline-formula><tex-math notation="LaTeX" id="ImEquation154">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tau ^{(1)}, \ldots , \tau ^{(m)}$\end{document}</tex-math></inline-formula> in a hierarchical manner based on IP (<xref rid="deqn05" ref-type="disp-formula">5</xref>)&#x02013;(<xref rid="deqn11" ref-type="disp-formula">11</xref>), and then carefully selects from among these thresholds based on pseudo-expected accuracy. Because both the pseudo-expected accuracy of the entire secondary structure as well as the pseudo-expected accuracy of the crossing base pairs are taken into account, the prediction accuracy of the pseudoknot structure is inferred to be enhanced in IPknot.</p><p>Because the LinearPartition model uses the same parameters as the CONTRAfold and ViennaRNA packages, there is no significant difference in accuracy between using LinearPartition-C and -V and their counterparts, the CONTRAfold and ViennaRNA models. It has been shown that LinearPartition has no significant effect on accuracy even though it ignores structures whose probability is extremely low owing to its use of beam search, which makes the calculation linear with respect to the sequence length [<xref rid="ref22" ref-type="bibr">22</xref>]. The LinearPartition model enables IPknot to perform secondary structure prediction including pseudoknots of very long sequences, such as mRNA, lncRNA, and viral RNA.</p><p>SPOT-RNA [<xref rid="ref6" ref-type="bibr">6</xref>], which uses deep learning, showed notable prediction accuracy in our experiments, especially in short sequences containing pseudoknots, with <inline-formula><tex-math notation="LaTeX" id="ImEquation155">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$F$\end{document}</tex-math></inline-formula>-value of 0.621, which is superior to other methods. However, SPOT-RNA requires considerable computing resources such as GPGPU and long computational time. Furthermore, SPOT-RNA showed a large difference in prediction accuracy between sequences that are close to the training data and those that are not compared with the other methods. Therefore, the situations in which SPOT-RNA can be used are considered to be limited. In contrast, IPknot uses CONTRAfold parameters, which is also based on machine learning, but we did not observe as much overfitting with IPknot as with SPOT-RNA.</p><p>Approaches that provide an exact solution for limited-complexity pseudoknot structures, such as PKNOTS [<xref rid="ref14" ref-type="bibr">14</xref>], pknotsRG [<xref rid="ref15" ref-type="bibr">15</xref>], and Knotty [<xref rid="ref16" ref-type="bibr">16</xref>], can predict pseudoknot structures with high accuracy but demand a huge amount of computation <inline-formula><tex-math notation="LaTeX" id="ImEquation156">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$O(n^4)$\end{document}</tex-math></inline-formula>&#x02013;<inline-formula><tex-math notation="LaTeX" id="ImEquation157">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$O(n^6)$\end{document}</tex-math></inline-formula> for sequence length <inline-formula><tex-math notation="LaTeX" id="ImEquation158">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$n$\end{document}</tex-math></inline-formula>, limiting secondary structure prediction to sequences only up to about 150 bases. On the other hand, IPknot predicts the pseudoknot structure using a fast computational heuristic-based method with the linear time computation, which does not allow us to find an exact solution. Instead, IPknot improves the prediction accuracy of the pseudoknot structure by choosing the best solution from among several solutions based on the pseudo-expected accuracy.</p><p>IPknot uses pseudoknot-free algorithms, such as CONTRAfold and ViennaRNA, to calculate base pairing probabilities, and its prediction accuracy of the resulting secondary structure strongly depends on the algorithm used to calculate base pairing probabilities. Therefore, we can expect to improve the prediction accuracy of IPknot by calculating the base pairing probabilities based on state-of-the-art pseudoknot-free secondary structure prediction methods such as MXfold2 [<xref rid="ref7" ref-type="bibr">7</xref>].</p><p>It is well known that common secondary structure prediction from sequence alignments improves the accuracy of secondary structure prediction. However, among the algorithms for predicting common secondary structure including pseudoknots, only IPknot can deal with sequence alignments longer than several thousand bases. In the RNA virus SARS-CoV-2, programmed -1 ribosomal frameshift (-1 PRF), in which a pseudoknot structure plays an important role, has been identified and is attracting attention as a drug target [<xref rid="ref10" ref-type="bibr">10</xref>]. Because many closely related strains of SARS-CoV-2 have been sequenced, it is expected that structural motifs including pseudoknots, such as -1 PRF, can be found by predicting the common secondary structure from the alignment.</p></sec><sec id="sec5"><title>Conclusions</title><p>We have developed an improvement to IPknot that enables calculation in linear time by employing the LinearPartition model and automatically selects the optimal threshold parameters based on the pseudo-expected accuracy. LinearPartition can calculate the base pairing probability with linear computational complexity with respect to the sequence length. By employing LinearPartition, IPknot is able to predict the secondary structure considering pseudoknots for long sequences such as mRNA, lncRNA, and viral RNA. By choosing the thresholds for each sequence based on the pseudo-expected accuracy, we can select a nearly optimal secondary structure prediction.</p><p>The LinearPartition model realized the predictiction of secondary structures considering pseudoknots for long sequences. However, the prediction accuracy is still not sufficiently high, especially for crossing base pairs. We expect that by learning parameters from long sequences [<xref rid="ref36" ref-type="bibr">36</xref>], we can achieve high accuracy even for long sequences.</p><boxed-text id="box01" position="float"><sec id="sec22z"><title>Key Points</title><list list-type="bullet"><list-item><p>We reduced the computational time required by IPknot from cubic to linear with respect to the sequence length by employing the LinearPartition model and enabled the secondary structure prediction including pseudoknots for long RNA sequences such as mRNA, lncRNA, and viral RNA.</p></list-item><list-item><p>We improved the accuracy of secondary structure prediction including pseudoknots by introducing pseudo-expected accuracy not only for the entire base pairs but also for crossing base pairs.</p></list-item><list-item><p>To the best of our knowledge, IPknot is the only method that can perform RNA secondary structure prediction including pseudoknot not only for very long single sequence, but also for very long sequence alignments.</p></list-item></list></sec></boxed-text></sec><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material id="sup1" position="float" content-type="local-data"><label>suppl_bbab395</label><media xlink:href="suppl_bbab395.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ack1"><title>Funding</title><p>This work was partially supported by a Grant-in-Aid for Scientific Research (B) (No. 19H04210) and Challenging Exploratory Research (No. 19K22897) from the Japan Society for the Promotion of Science (JSPS) to K.S. and a Grant-in-Aid for Scientific Research (C) (Nos. 18K11526 and 21K12109) from JSPS to Y.K.</p></ack><ack id="ack2"><title>Acknowledgments</title><p>The supercomputer system used for this research was made available by the National Institute of Genetics, Research Organization of Information and Systems.</p></ack><sec id="sec8"><title>Availability</title><p>The IPknot source code is freely available at <ext-link xlink:href="https://github.com/satoken/ipknot" ext-link-type="uri">https://github.com/satoken/ipknot</ext-link>. IPknot is also available for use from a web server at <ext-link xlink:href="http://rtips.dna.bio.keio.ac.jp/ipknot++/" ext-link-type="uri">http://rtips.dna.bio.keio.ac.jp/ipknot++/</ext-link>. The datasets used in our experiments are available at <ext-link xlink:href="https://doi.org/10.5281/zenodo.4923158" ext-link-type="uri">https://doi.org/10.5281/zenodo.4923158</ext-link>.</p></sec><sec id="sec9"><title>Author contributions statement</title><p>K.S. conceived the study, implemented the algorithm, collected the datasets, conducted experiments, and drafted the manuscript. K.S. and Y.K. discussed the algorithm and designed the experiments. All authors read, contributed to the discussion of and approved the final manuscript.</p></sec><notes id="bio3"><p>
+<bold>Kengo Sato</bold> is an assistant professor at the Department of Biosciences and Informatics at Keio University, Japan. He received his PhD in Computer Science from Keio University, Japan, in 2003. His research interests include bioinformatics, computational linguistics and machine learning.</p><p>
+<bold>Yuki Kato</bold> is an assistant professor at Department of RNA Biology and Neuroscience, Graduate School of Medicine, and at Integrated Frontier Research for Medical Science Division, Institute for Open and Transdisciplinary Research Initiatives, Osaka University, Japan. His research interests include biological sequence analysis and single-cell genomics.</p></notes><ref-list id="bib1"><title>References</title><ref id="ref1"><label>1.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Zuker</surname>
+<given-names>M</given-names>
+</string-name>
+</person-group>. <article-title>Mfold web server for nucleic acid folding and hybridization prediction</article-title>. <source>Nucleic Acids Res</source><year>2003</year>;<volume>31</volume>(<issue>13</issue>):<fpage>3406</fpage>&#x02013;<lpage>15</lpage>.<pub-id pub-id-type="pmid">12824337</pub-id></mixed-citation></ref><ref id="ref2"><label>2.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lorenz</surname>
+<given-names>R</given-names>
+</string-name>, <string-name><surname>Bernhart</surname><given-names>SH</given-names></string-name>, <string-name><surname>H&#x000f6;ner Zu Siederdissen</surname><given-names>C</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>ViennaRNA package 2.0</article-title>. <source>Algorithms Mol Biol</source><year>2011</year>;<volume>6</volume>:<fpage>26</fpage>.<pub-id pub-id-type="pmid">22115189</pub-id></mixed-citation></ref><ref id="ref3"><label>3.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Reuter</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name><surname>Mathews</surname><given-names>DH</given-names></string-name></person-group>. <article-title>RNAstructure: software for RNA secondary structure prediction and analysis</article-title>. <source>BMC Bioinformatics</source><year>2010</year>;<volume>11</volume>:<fpage>129</fpage>.<pub-id pub-id-type="pmid">20230624</pub-id></mixed-citation></ref><ref id="ref4"><label>4.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Do</surname>
+<given-names>CB</given-names>
+</string-name>, <string-name><surname>Woods</surname><given-names>DA</given-names></string-name>, <string-name><surname>Batzoglou</surname><given-names>S</given-names></string-name></person-group>. <article-title>CONTRAfold: RNA secondary structure prediction without physics-based models</article-title>. <source>Bioinformatics</source><year>2006</year>;<volume>22</volume>(<issue>14</issue>):<fpage>e90</fpage>&#x02013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">16873527</pub-id></mixed-citation></ref><ref id="ref5"><label>5.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Zakov</surname>
+<given-names>S</given-names>
+</string-name>, <string-name><surname>Goldberg</surname><given-names>Y</given-names></string-name>, <string-name><surname>Elhadad</surname><given-names>M</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>Rich parameterization improves RNA structure prediction</article-title>. <source>J Comput Biol</source><year>2011</year>;<volume>18</volume>(<issue>11</issue>):<fpage>1525</fpage>&#x02013;<lpage>42</lpage>.<pub-id pub-id-type="pmid">22035327</pub-id></mixed-citation></ref><ref id="ref6"><label>6.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Singh</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Hanson</surname><given-names>J</given-names></string-name>, <string-name><surname>Paliwal</surname><given-names>K</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>RNA secondary structure prediction using an ensemble of two-dimensional deep neural networks and transfer learning</article-title>. <source>Nat Commun</source><year>2019</year>;<volume>10</volume>(<issue>1</issue>):<fpage>5407</fpage>.<pub-id pub-id-type="pmid">31776342</pub-id></mixed-citation></ref><ref id="ref7"><label>7.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Sato</surname>
+<given-names>K</given-names>
+</string-name>, <string-name><surname>Akiyama</surname><given-names>M</given-names></string-name>, <string-name><surname>Sakakibara</surname><given-names>Y</given-names></string-name></person-group>. <article-title>RNA secondary structure prediction using deep learning with thermodynamic integration</article-title>. <source>Nat Commun</source><year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>941</fpage>.<pub-id pub-id-type="pmid">33574226</pub-id></mixed-citation></ref><ref id="ref8"><label>8.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Brierley</surname>
+<given-names>I</given-names>
+</string-name>, <string-name><surname>Pennell</surname><given-names>S</given-names></string-name>, <string-name><surname>Gilbert</surname><given-names>RJC</given-names></string-name></person-group>. <article-title>Viral RNA pseudoknots: versatile motifs in gene expression and replication</article-title>. <source>Nat Rev Microbiol</source><year>2007</year>;<volume>5</volume>(<issue>8</issue>):<fpage>598</fpage>&#x02013;<lpage>610</lpage>.<pub-id pub-id-type="pmid">17632571</pub-id></mixed-citation></ref><ref id="ref9"><label>9.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Staple</surname>
+<given-names>DW</given-names>
+</string-name>, <string-name><surname>Butcher</surname><given-names>SE</given-names></string-name></person-group>. <article-title>Pseudoknots: RNA structures with diverse functions</article-title>. <source>PLoS Biol</source><year>2005</year>;<volume>3</volume>(<issue>6</issue>):<elocation-id>e213</elocation-id>.<pub-id pub-id-type="pmid">15941360</pub-id></mixed-citation></ref><ref id="ref10"><label>10.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kelly</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name><surname>Olson</surname><given-names>AN</given-names></string-name>, <string-name><surname>Neupane</surname><given-names>K</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>Structural and functional conservation of the programmed -1 ribosomal frameshift signal of SARS coronavirus 2 (SARS-CoV-2)</article-title>. <source>J Biol Chem</source><year>2020</year>;<volume>295</volume>(<issue>31</issue>):<fpage>10741</fpage>&#x02013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">32571880</pub-id></mixed-citation></ref><ref id="ref11"><label>11.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Trifonov</surname>
+<given-names>EN</given-names>
+</string-name>, <string-name><surname>Gabdank</surname><given-names>I</given-names></string-name>, <string-name><surname>Barash</surname><given-names>D</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>Primordia vita. deconvolution from modern sequences</article-title>. <source>Orig Life Evol Biosph</source><year>December 2006</year>;<volume>36</volume>(<issue>5&#x02013;6</issue>):<fpage>559</fpage>&#x02013;<lpage>65</lpage>.<pub-id pub-id-type="pmid">17120122</pub-id></mixed-citation></ref><ref id="ref12"><label>12.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Akutsu</surname>
+<given-names>T</given-names>
+</string-name>
+</person-group>. <article-title>Dynamic programming algorithms for RNA secondary structure prediction with pseudoknots</article-title>. <source>Discrete Appl Math</source><year>2000</year>;<volume>104</volume>(<issue>1</issue>):<fpage>45</fpage>&#x02013;<lpage>62</lpage>.</mixed-citation></ref><ref id="ref13"><label>13.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Lyngs&#x000f8;</surname>
+<given-names>RB</given-names>
+</string-name>, <string-name><surname>Pedersen</surname><given-names>CN</given-names></string-name></person-group>. <article-title>RNA pseudoknot prediction in energy-based models</article-title>. <source>J Comput Biol</source><year>2000</year>;<volume>7</volume>(<issue>3&#x02013;4</issue>):<fpage>409</fpage>&#x02013;<lpage>27</lpage>.<pub-id pub-id-type="pmid">11108471</pub-id></mixed-citation></ref><ref id="ref14"><label>14.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Rivas</surname>
+<given-names>E</given-names>
+</string-name>, <string-name><surname>Eddy</surname><given-names>SR</given-names></string-name></person-group>. <article-title>A dynamic programming algorithm for RNA structure prediction including pseudoknots</article-title>. <source>J Mol Biol</source><year>1999</year>;<volume>285</volume>(<issue>5</issue>):<fpage>2053</fpage>&#x02013;<lpage>68</lpage>.<pub-id pub-id-type="pmid">9925784</pub-id></mixed-citation></ref><ref id="ref15"><label>15.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Reeder</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Giegerich</surname><given-names>R</given-names></string-name></person-group>. <article-title>Design, implementation and evaluation of a practical pseudoknot folding algorithm based on thermodynamics</article-title>. <source>BMC Bioinformatics</source><year>2004</year>;<volume>5</volume>:<fpage>104</fpage>.<pub-id pub-id-type="pmid">15294028</pub-id></mixed-citation></ref><ref id="ref16"><label>16.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Jabbari</surname>
+<given-names>H</given-names>
+</string-name>, <string-name><surname>Wark</surname><given-names>I</given-names></string-name>, <string-name><surname>Montemagno</surname><given-names>C</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>Knotty: efficient and accurate prediction of complex RNA pseudoknot structures</article-title>. <source>Bioinformatics</source><year>2018</year>;<volume>34</volume>(<issue>22</issue>):<fpage>3849</fpage>&#x02013;<lpage>56</lpage>.<pub-id pub-id-type="pmid">29868872</pub-id></mixed-citation></ref><ref id="ref17"><label>17.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ruan</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Stormo</surname><given-names>GD</given-names></string-name>, <string-name><surname>Zhang</surname><given-names>W</given-names></string-name></person-group>. <article-title>An iterated loop matching approach to the prediction of RNA secondary structures with pseudoknots</article-title>. <source>Bioinformatics</source><year>2004</year>;<volume>20</volume>(<issue>1</issue>):<fpage>58</fpage>&#x02013;<lpage>66</lpage>.<pub-id pub-id-type="pmid">14693809</pub-id></mixed-citation></ref><ref id="ref18"><label>18.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Ren</surname>
+<given-names>J</given-names>
+</string-name>, <string-name><surname>Rastegari</surname><given-names>B</given-names></string-name>, <string-name><surname>Condon</surname><given-names>A</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>HotKnots: heuristic prediction of RNA secondary structures including pseudoknots</article-title>. <source>RNA</source><year>2005</year>;<volume>11</volume>(<issue>10</issue>):<fpage>1494</fpage>&#x02013;<lpage>504</lpage>.<pub-id pub-id-type="pmid">16199760</pub-id></mixed-citation></ref><ref id="ref19"><label>19.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Chen</surname>
+<given-names>X</given-names>
+</string-name>, <string-name><surname>He</surname><given-names>S-M</given-names></string-name>, <string-name><surname>Bu</surname><given-names>D</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>FlexStem: improving predictions of RNA secondary structures with pseudoknots by reducing the search space</article-title>. <source>Bioinformatics</source><year>2008</year>;<volume>24</volume>(<issue>18</issue>):<fpage>1994</fpage>&#x02013;<lpage>2001</lpage>.<pub-id pub-id-type="pmid">18586700</pub-id></mixed-citation></ref><ref id="ref20"><label>20.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Bellaousov</surname>
+<given-names>S</given-names>
+</string-name>, <string-name><surname>Mathews</surname><given-names>D</given-names></string-name></person-group>. <article-title>H. ProbKnot: fast prediction of RNA secondary structure including pseudoknots</article-title>. <source>RNA</source><year>2010</year>;<volume>16</volume>(<issue>10</issue>):<fpage>1870</fpage>&#x02013;<lpage>80</lpage>.<pub-id pub-id-type="pmid">20699301</pub-id></mixed-citation></ref><ref id="ref21"><label>21.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Sato</surname>
+<given-names>K</given-names>
+</string-name>, <string-name><surname>Kato</surname><given-names>Y</given-names></string-name>, <string-name><surname>Hamada</surname><given-names>M</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>IPknot: fast and accurate prediction of RNA secondary structures with pseudoknots using integer programming</article-title>. <source>Bioinformatics</source><year>2011</year>;<volume>27</volume>(<issue>13</issue>):<fpage>i85</fpage>&#x02013;<lpage>93</lpage>.<pub-id pub-id-type="pmid">21685106</pub-id></mixed-citation></ref><ref id="ref22"><label>22.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Zhang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name><surname>Zhang</surname><given-names>L</given-names></string-name>, <string-name><surname>Mathews</surname><given-names>DH</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>LinearPartition: linear-time approximation of RNA folding partition function and base-pairing probabilities</article-title>. <source>Bioinformatics</source><year>2020</year>;<volume>36</volume>(<issue>Supplement_1</issue>):<fpage>i258</fpage>&#x02013;<lpage>67</lpage>.<pub-id pub-id-type="pmid">32657379</pub-id></mixed-citation></ref><ref id="ref23"><label>23.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Hamada</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Sato</surname><given-names>K</given-names></string-name>, <string-name><surname>Asai</surname><given-names>K</given-names></string-name></person-group>. <article-title>Prediction of RNA secondary structure by maximizing pseudo-expected accuracy</article-title>. <source>BMC Bioinformatics</source><year>2010</year>;<volume>11</volume>:<fpage>586</fpage>.<pub-id pub-id-type="pmid">21118522</pub-id></mixed-citation></ref><ref id="ref24"><label>24.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Hamada</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Kiryu</surname><given-names>H</given-names></string-name>, <string-name><surname>Sato</surname><given-names>K</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>Prediction of RNA secondary structure using generalized centroid estimators</article-title>. <source>Bioinformatics</source><year>2009</year>;<volume>25</volume>(<issue>4</issue>):<fpage>465</fpage>&#x02013;<lpage>73</lpage>.<pub-id pub-id-type="pmid">19095700</pub-id></mixed-citation></ref><ref id="ref25"><label>25.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>McCaskill</surname>
+<given-names>JS</given-names>
+</string-name>
+</person-group>. <article-title>The equilibrium partition function and base pair binding probabilities for RNA secondary structure</article-title>. <source>Biopolymers</source><year>1990</year>;<volume>29</volume>(<issue>6&#x02013;7</issue>):<fpage>1105</fpage>&#x02013;<lpage>19</lpage>.<pub-id pub-id-type="pmid">1695107</pub-id></mixed-citation></ref><ref id="ref26"><label>26.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kiryu</surname>
+<given-names>H</given-names>
+</string-name>, <string-name><surname>Kin</surname><given-names>T</given-names></string-name>, <string-name><surname>Asai</surname><given-names>K</given-names></string-name></person-group>. <article-title>Robust prediction of consensus secondary structures using averaged base pairing probability matrices</article-title>. <source>Bioinformatics</source><year>2007</year>;<volume>23</volume>(<issue>4</issue>):<fpage>434</fpage>&#x02013;<lpage>41</lpage>.<pub-id pub-id-type="pmid">17182698</pub-id></mixed-citation></ref><ref id="ref27"><label>27.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Hamada</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Sato</surname><given-names>K</given-names></string-name>, <string-name><surname>Asai</surname><given-names>K</given-names></string-name></person-group>. <article-title>Improving the accuracy of predicting secondary structure for aligned RNA sequences</article-title>. <source>Nucleic Acids Res</source><year>2011</year>;<volume>39</volume>(<issue>2</issue>):<fpage>393</fpage>&#x02013;<lpage>402</lpage>.<pub-id pub-id-type="pmid">20843778</pub-id></mixed-citation></ref><ref id="ref28"><label>28.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Danaee</surname>
+<given-names>P</given-names>
+</string-name>, <string-name><surname>Rouches</surname><given-names>M</given-names></string-name>, <string-name><surname>Wiley</surname><given-names>M</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>bpRNA: large-scale automated annotation and analysis of RNA secondary structure</article-title>. <source>Nucleic Acids Res</source><year>2018</year>;<volume>46</volume>(<issue>11</issue>):<fpage>5381</fpage>&#x02013;<lpage>94</lpage>.<pub-id pub-id-type="pmid">29746666</pub-id></mixed-citation></ref><ref id="ref29"><label>29.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Nawrocki</surname>
+<given-names>EP</given-names>
+</string-name>, <string-name><surname>Burge</surname><given-names>SW</given-names></string-name>, <string-name><surname>Bateman</surname><given-names>A</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>Rfam 12.0: updates to the RNA families database</article-title>. <source>Nucleic Acids Res</source><year>2015</year>;<volume>43</volume>(<issue>Database issue</issue>):<fpage>D130</fpage>&#x02013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">25392425</pub-id></mixed-citation></ref><ref id="ref30"><label>30.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Cannone</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name><surname>Subramanian</surname><given-names>S</given-names></string-name>, <string-name><surname>Schnare</surname><given-names>MN</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>The comparative RNA web (CRW) site: an online database of comparative sequence and structure information for ribosomal, intron, and other RNAs</article-title>. <source>BMC Bioinformatics</source><year>2002</year>;<volume>3</volume>:<fpage>2</fpage>.<pub-id pub-id-type="pmid">11869452</pub-id></mixed-citation></ref><ref id="ref31"><label>31.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Kalvari</surname>
+<given-names>I</given-names>
+</string-name>, <string-name><surname>Nawrocki</surname><given-names>EP</given-names></string-name>, <string-name><surname>Ontiveros-Palacios</surname><given-names>N</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>Rfam 14: expanded coverage of metagenomic, viral and microRNA families</article-title>. <source>Nucleic Acids Res</source><year>2021</year>;<volume>49</volume>(<issue>D1</issue>):<fpage>D192</fpage>&#x02013;<lpage>200</lpage>.<pub-id pub-id-type="pmid">33211869</pub-id></mixed-citation></ref><ref id="ref32"><label>32.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Andronescu</surname>
+<given-names>M</given-names>
+</string-name>, <string-name><surname>Bereg</surname><given-names>V</given-names></string-name>, <string-name><surname>Hoos</surname><given-names>HH</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>RNA STRAND: the RNA secondary structure and statistical analysis database</article-title>. <source>BMC Bioinformatics</source><year>2008</year>;<volume>9</volume>:<fpage>340</fpage>.<pub-id pub-id-type="pmid">18700982</pub-id></mixed-citation></ref><ref id="ref33"><label>33.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Fu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name><surname>Niu</surname><given-names>B</given-names></string-name>, <string-name><surname>Zhu</surname><given-names>Z</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>CD-HIT: accelerated for clustering the next-generation sequencing data</article-title>. <source>Bioinformatics</source><year>2012</year>;<volume>28</volume>(<issue>23</issue>):<fpage>3150</fpage>&#x02013;<lpage>2</lpage>.<pub-id pub-id-type="pmid">23060610</pub-id></mixed-citation></ref><ref id="ref34"><label>34.</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name>
+<surname>Katoh</surname>
+<given-names>K</given-names>
+</string-name>, <string-name><surname>Standley</surname><given-names>DM</given-names></string-name></person-group>. <article-title>MAFFT multiple sequence alignment software version 7: improvements in performance and usability</article-title>. <source>Mol Biol Evol</source><year>2013</year>;<volume>30</volume>(<issue>4</issue>):<fpage>772</fpage>&#x02013;<lpage>80</lpage>.<pub-id pub-id-type="pmid">23329690</pub-id></mixed-citation></ref><ref id="ref35"><label>35.</label><mixed-citation publication-type="other">
+<person-group person-group-type="author">
+<string-name>
+<surname>Zhang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name><surname>Zhang</surname><given-names>H</given-names></string-name>, <string-name><surname>Mathews</surname><given-names>DH</given-names></string-name>, <etal>et al.</etal></person-group>
+<article-title>ThreshKnot: Thresholded ProbKnot for improved RNA secondary structure prediction</article-title>. arXiv:1912.12796v1 <source>[q-bio.BM]</source><year>2019</year>.</mixed-citation></ref><ref id="ref36"><label>36.</label><mixed-citation publication-type="other">
+<person-group person-group-type="author">
+<string-name>
+<surname>Rezaur Rahman</surname>
+<given-names>F</given-names>
+</string-name>, <string-name><surname>Zhang</surname><given-names>H</given-names></string-name>, <string-name><surname>Huang</surname><given-names>L</given-names></string-name></person-group>. <article-title>Learning to fold RNAs in linear time</article-title>. <comment>bioRxiv</comment>. <year>2019</year>. <pub-id pub-id-type="doi">10.1101/852871</pub-id>.</mixed-citation></ref></ref-list></back></article>

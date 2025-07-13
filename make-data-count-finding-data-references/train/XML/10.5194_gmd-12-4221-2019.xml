@@ -1,0 +1,2266 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">a regional coupled ocean-atmosphere modeling framework (MITgcm-WRF) using ESMF/NUOPC, description and preliminary results for the Red Sea</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2019-10-08">8 October 2019</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Rui</forename><surname>Sun</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, La Jolla, California, USA</note>
+<orgname type="institution">Scripps Institution of Oceanography</orgname>
+<address>
+<addrline>La Jolla</addrline>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author role="corresp">
+<persname><forename type="first">Aneesh</forename><forename type="middle">C</forename><surname>Subramanian</surname></persname>
+<email>aneeshcs@colorado.edu</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, La Jolla, California, USA</note>
+<orgname type="institution">Scripps Institution of Oceanography</orgname>
+<address>
+<addrline>La Jolla</addrline>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Arthur</forename><forename type="middle">J</forename><surname>Miller</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, La Jolla, California, USA</note>
+<orgname type="institution">Scripps Institution of Oceanography</orgname>
+<address>
+<addrline>La Jolla</addrline>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Matthew</forename><forename type="middle">R</forename><surname>Mazloff</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, La Jolla, California, USA</note>
+<orgname type="institution">Scripps Institution of Oceanography</orgname>
+<address>
+<addrline>La Jolla</addrline>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Ibrahim</forename><surname>Hoteit</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Physical Sciences and Engineering Division, King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia</note>
+<orgname type="department">Physical Sciences and Engineering Division</orgname>
+<orgname type="institution">King Abdullah University of Science and Technology (KAUST)</orgname>
+<address>
+<settlement>Thuwal</settlement>
+<country key="SA">Saudi Arabia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Bruce</forename><forename type="middle">D</forename><surname>Cornuelle</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, La Jolla, California, USA</note>
+<orgname type="institution">Scripps Institution of Oceanography</orgname>
+<address>
+<addrline>La Jolla</addrline>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">a regional coupled ocean-atmosphere modeling framework (MITgcm-WRF) using ESMF/NUOPC, description and preliminary results for the Red Sea</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2019-10-08">8 October 2019</date>
+</imprint>
+</monogr>
+<idno type="MD5">EA3B7383C545877EC63BC43B9B5BEE5B</idno>
+<idno type="DOI">10.5194/gmd-12-4221-2019</idno>
+<note type="submission">Received: 9 October 2018 -Discussion started: 29 November 2018 Revised: 1 September 2019 -Accepted: 4 September 2019 -</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-09-29T02:11+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>A new regional coupled ocean-atmosphere model is developed and its implementation is presented in this paper.</s><s>The coupled model is based on two open-source community model components: the MITgcm ocean model and the Weather Research and Forecasting (WRF) atmosphere model.</s><s>The coupling between these components is performed using ESMF (Earth System Modeling Framework) and implemented according to National United Operational Prediction Capability (NUOPC) protocols.</s><s>The coupled model is named the Scripps-KAUST Regional Integrated Prediction System (SKRIPS).</s><s>SKRIPS is demonstrated with a real-world example by simulating a 30 d period including a series of extreme heat events occurring on the eastern shore of the Red Sea region in June 2012.</s><s>The results obtained by using the coupled model, along with those in forced stand-alone oceanic or atmospheric simulations, are compared with observational data and reanalysis products.</s><s>We show that the coupled model is capable of performing coupled ocean-atmosphere simulations, although all configurations of coupled and uncoupled models have good skill in modeling the heat events.</s><s>In addition, a scalability test is performed to investigate the parallelization of the coupled model.</s><s>The results indicate that the coupled model code scales well and the ESMF/NUOPC coupler accounts for less than 5 % of the total computational resources in the Red Sea test case.</s><s>The coupled model and documentation are available at https://library.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Accurate and efficient forecasting of oceanic and atmospheric circulation is essential for a wide variety of highimpact societal needs, including extreme weather and climate events <ref target="#b35" type="bibr">(Kharin and Zwiers, 2000;</ref><ref target="#b8" type="bibr">Chen et al., 2007)</ref>, environmental protection and coastal management <ref target="#b62" type="bibr">(Warner et al., 2010)</ref>, management of fisheries <ref target="#b48" type="bibr">(Roessig et al., 2004)</ref>, marine conservation <ref target="#b21" type="bibr">(Harley et al., 2006)</ref>, water resources <ref target="#b16" type="bibr">(Fowler and Ekström, 2009)</ref>, and renewable energy <ref target="#b3" type="bibr">(Barbariol et al., 2013)</ref>.</s><s>Effective forecasting relies on high model fidelity and accurate initialization of the models with the observed state of the coupled ocean-atmosphere system.</s><s>Although global coupled models are now being implemented with increased resolution, higher-resolution regional coupled models, if properly driven by the boundary conditions, can provide an affordable way to study air-sea feedback for frontalscale processes.</s></p><p><s>A number of regional coupled ocean-atmosphere models have been developed for various goals in the past decades.</s><s>An early example of building a regional coupled model for realistic simulations focused on accurate weather forecasting in the Baltic Sea <ref target="#b19" type="bibr">(Gustafsson et al., 1998;</ref><ref target="#b20" type="bibr">Hagedorn et al., 2000;</ref><ref target="#b12" type="bibr">Doscher et al., 2002)</ref> and showed that the coupled model im-Published by Copernicus Publications on behalf of the European Geosciences Union.</s></p><p><s>proved the SST (sea surface temperature) and atmospheric circulation forecast.</s><s>Enhanced numerical stability in the coupled simulation was also observed.</s><s>These early attempts were followed by other practitioners in ocean-basin-scale climate simulations (e.g., <ref target="#b30" type="bibr">Huang et al., 2004;</ref><ref target="#b1" type="bibr">Aldrian et al., 2005;</ref><ref target="#b63" type="bibr">Xie et al., 2007;</ref><ref target="#b50" type="bibr">Seo et al., 2007;</ref><ref target="#b54" type="bibr">Somot et al., 2008;</ref><ref target="#b15" type="bibr">Fang et al., 2010;</ref><ref target="#b6" type="bibr">Boé et al., 2011;</ref><ref target="#b68" type="bibr">Zou and Zhou, 2012;</ref><ref target="#b18" type="bibr">Gualdi et al., 2013;</ref><ref target="#b61" type="bibr">Van Pham et al., 2014;</ref><ref target="#b7" type="bibr">Chen and Curcic, 2016;</ref><ref target="#b49" type="bibr">Seo, 2017)</ref>.</s><s>For example, <ref target="#b30" type="bibr">Huang et al. (2004)</ref> implemented a regional coupled model to study three major important patterns contributing to the variability and predictability of the Atlantic climate.</s><s>The study suggested that these patterns originate from air-sea coupling within the Atlantic Ocean or by the oceanic response to atmospheric intrinsic variability.</s><s><ref target="#b50" type="bibr">Seo et al. (2007)</ref> studied the nature of ocean-atmosphere feedbacks in the presence of oceanic mesoscale eddy fields in the eastern Pacific Ocean sector.</s><s>The evolving SST fronts were shown to drive an unambiguous response of the atmospheric boundary layer in the coupled model and lead to model anomalies of wind stress curl, wind stress divergence, surface heat flux, and precipitation that resemble observations.</s><s>This study helped substantiate the importance of ocean-atmosphere feedbacks involving oceanic mesoscale variability features.</s></p><p><s>In addition to basin-scale climate simulations, regional coupled models are also used to study weather extremes.</s><s>For example, the COAMPS (Coupled Ocean/Atmosphere Mesoscale Prediction System) was applied to investigate idealized tropical cyclone events <ref target="#b27" type="bibr">(Hodur, 1997)</ref>.</s><s>This work was then followed by other realistic extreme weather studies.</s><s>Another example is the investigation of extreme bora wind events in the Adriatic Sea using different regional coupled models <ref type="bibr">(Loglisci et al., 2004;</ref><ref target="#b45" type="bibr">Pullen et al., 2006;</ref><ref target="#b46" type="bibr">Ricchi et al., 2016)</ref>.</s><s>The coupled simulation results demonstrated improvements in describing the air-sea interaction processes by taking into account oceanic surface heat fluxes and winddriven ocean surface wave effects <ref type="bibr">(Loglisci et al., 2004;</ref><ref target="#b46" type="bibr">Ricchi et al., 2016)</ref>.</s><s>It was also found in model simulations that SST after bora wind events had a stabilizing effect on the atmosphere, reducing the atmospheric boundary layer mixing and yielding stronger near-surface wind <ref target="#b45" type="bibr">(Pullen et al., 2006)</ref>.</s><s>Regional coupled models were also used for studying the forecasts of hurricanes, including hurricane path, hurricane intensity, SST variation, and wind speed <ref target="#b4" type="bibr">(Bender and Ginis, 2000;</ref><ref target="#b8" type="bibr">Chen et al., 2007;</ref><ref target="#b62" type="bibr">Warner et al., 2010)</ref>.</s></p><p><s>Regional coupled modeling systems also play important roles in studying the effect of surface variables (e.g., surface evaporation, precipitation, surface roughness) in the coupling processes of oceans or lakes.</s><s>One example is the study conducted by <ref target="#b44" type="bibr">Powers and Stoelinga (2000)</ref>, who developed a coupled model and investigated the passage of atmospheric fronts over the Lake Erie region.</s><s>Sensitivity analysis was performed to demonstrate that parameterization of lake surface roughness in the atmosphere model can improve the calculation of wind stress and heat flux.</s><s>Another example is the investigation of Caspian Sea levels by <ref type="bibr">Turuncoglu et al. (2013)</ref>, who compared a regional coupled model with uncoupled models and demonstrated the improvement of the coupled model in capturing the response of Caspian Sea levels to climate variability.</s></p><p><s>In the past 10 years, many regional coupled models have been developed using modern model toolkits <ref target="#b68" type="bibr">(Zou and Zhou, 2012;</ref><ref type="bibr">Turuncoglu et al., 2013;</ref><ref type="bibr">Turuncoglu, 2019)</ref> and include waves <ref target="#b62" type="bibr">(Warner et al., 2010;</ref><ref target="#b7" type="bibr">Chen and Curcic, 2016)</ref>, sediment transport <ref target="#b62" type="bibr">(Warner et al., 2010)</ref>, sea ice <ref target="#b61" type="bibr">(Van Pham et al., 2014)</ref>, and chemistry packages <ref type="bibr">(He et al., 2015)</ref>.</s><s>However, this work was motivated by the need for a coupled regional ocean-atmosphere model implemented using an efficient coupling framework and with compatible state estimation capabilities in both ocean and atmosphere.</s><s>The goal of this work is to (1) introduce the design of the newly developed regional coupled ocean-atmosphere modeling system, (2) describe the implementation of the modern coupling framework, (3) validate the coupled model using a realworld example, and (4) demonstrate and discuss the parallelization of the coupled model.</s><s>In the coupled system, the oceanic model component is the MIT general circulation model (MITgcm) <ref target="#b40" type="bibr">(Marshall et al., 1997)</ref> and the atmospheric model component is the Weather Research and Forecasting (WRF) model <ref target="#b53" type="bibr">(Skamarock et al., 2019)</ref>.</s><s>To couple the model components in the present work, the Earth System Modeling Framework (ESMF) <ref target="#b25" type="bibr">(Hill et al., 2004)</ref> is used because of its advantages in conservative re-gridding capability, calendar management, logging and error handling, and parallel communications.</s><s>The National United Operational Prediction Capability (NUOPC) layer in ESMF <ref type="bibr">(Sitz et al., 2017)</ref> is also used between model components and ESMF.</s><s>Using the NUOPC layer can simplify the implementation of component synchronization, execution, and other common tasks in the coupling.</s><s>The innovations in our work are (1) we use ESMF/NUOPC, which is a community-supported computationally efficient coupling software for earth system models, and (2) we use MITgcm together with WRF, both of which work with the Data Assimilation Research Testbed (DART) <ref target="#b2" type="bibr">(Anderson and Collins, 2007;</ref><ref target="#b29" type="bibr">Hoteit et al., 2013)</ref>.</s><s>The resulting coupled model is being developed for coupled data assimilation and subseasonal to seasonal (S2S) forecasting.</s><s>By coupling WRF and MITgcm for the first time with ESMF, we can provide an alternative regional coupled model resource to a wider community of users.</s><s>These atmospheric and oceanic model components have an active and well-supported user base.</s></p><p><s>After implementing the new coupled model, we demonstrate it on a series of heat events that occurred on the eastern shore of the Red Sea region in June 2012.</s><s>The simulated surface variables of the Red Sea (e.g., sea surface temperature, 2 m temperature, and surface heat fluxes) are examined and validated against available observational data and reanalysis products.</s><s>To demonstrate that the coupled model can perform coupled ocean-atmosphere simulations, the results are com-pared with those obtained using stand-alone oceanic or atmospheric models.</s><s>This paper focuses on the technical aspects of SKRIPS and is not a full investigation of the importance of coupling for these extreme events.</s><s>In addition, a scalability test of the coupled model is performed to investigate its parallel capability.</s></p><p><s>The rest of this paper is organized as follows.</s><s>The description of the individual modeling components and the design of the coupled modeling system are detailed in Sect. 2. Section 3 introduces the design of the validation experiment and the validation data.</s><s>Section 4 discusses the preliminary results in the validation test.</s><s>Section 5 details the parallelization test of the coupled model.</s><s>The last section concludes the paper and presents an outlook for future work.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Model description<p><s>The newly developed regional coupled modeling system is introduced in this section.</s><s>The general design of the coupled model, descriptions of individual components, and ESMF/NUOPC coupling framework are presented below.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">General design<p><s>The schematic description of the coupled model is shown in Fig. <ref target="#fig_0" type="figure">1</ref>.</s><s>The coupled model is comprised of five components: the oceanic component MITgcm, the atmospheric component WRF, the MITgcm-ESMF and WRF-ESMF interfaces, and the ESMF coupler.</s><s>They are to be detailed in the following sections.</s></p><p><s>The coupler component runs in both directions: (1) from WRF to MITgcm and (2) from MITgcm to WRF.</s><s>From WRF to MITgcm, the coupler collects the atmospheric surface variables (i.e., radiative flux, turbulent heat flux, wind velocity, precipitation, evaporation) from WRF and updates the surface forcing (i.e., net surface heat flux, wind stress, freshwater flux) to drive MITgcm.</s><s>From MITgcm to WRF, the coupler collects oceanic surface variables (i.e., SST and ocean surface velocity) from MITgcm and updates them in WRF as the bottom boundary condition.</s><s>Re-gridding the data from either model component is performed by the coupler, in which various coupling intervals and schemes can be specified by ESMF <ref target="#b25" type="bibr">(Hill et al., 2004)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">The oceanic component (MITgcm)<p><s>MITgcm <ref target="#b40" type="bibr">(Marshall et al., 1997</ref>) is a 3-D finite-volume general circulation model used by a broad community of researchers for a wide range of applications at various spatial and temporal scales.</s><s>The model code and documentation, which are under continuous development, are available on the MITgcm web page (http://mitgcm.org/,</s><s>last access date: 26 September 2019).</s><s>The "Checkpoint 66h" (June 2017) version of MITgcm is used in the present work.</s><s>The MITgcm is designed to run on high-performance computing (HPC) platforms and can run in nonhydrostatic and hydrostatic modes.</s><s>It integrates the primitive (Navier-Stokes) equations, under the Boussinesq approximation, using the finite volume method on a staggered Arakawa C grid.</s><s>The MITgcm uses modern physical parameterizations for subgrid-scale horizontal and vertical mixing and tracer properties.</s><s>The code configuration includes build-time C preprocessor (CPP) options and runtime switches, which allow for great computational modularity in MITgcm to study a variety of oceanic phenomena <ref target="#b13" type="bibr">(Evangelinos and Hill, 2007)</ref>.</s></p><p><s>To implement the MITgcm-ESMF interface, we separate the MITgcm main program into three subroutines that handle initialization, running, and finalization, shown in Fig. <ref target="#fig_1" type="figure">2a</ref>.</s><s>These subroutines are used by the ESMF/NUOPC coupler that controls the oceanic component in the coupled run.</s><s>The surface boundary fields are exchanged online 1 via the MITgcm-ESMF interface during the simulation.</s><s>The MITgcm oceanic surface variables are the export boundary fields; the atmospheric surface variables are the import boundary 4224 R. <ref type="bibr">Sun et al.: SKRIPS v1</ref>.0: a regional coupled ocean-atmosphere modeling framework fields (see Fig. <ref target="#fig_1" type="figure">2b</ref>).</s><s>These boundary fields are registered in the coupler following NUOPC protocols with timestamps<ref target="#foot_3" type="foot">2</ref> for the coupling.</s><s>In addition, MITgcm grid information is provided to the coupler in the initialization subroutine for online re-gridding of the exchanged boundary fields.</s><s>To carry out the coupled simulation on HPC clusters, the MITgcm-ESMF interface runs in parallel via Message Passing Interface (MPI) communications.</s><s>The implementation of the present MITgcm-ESMF interface is based on the baseline MITgcm-ESMF interface <ref target="#b26" type="bibr">(Hill, 2005)</ref> but updated for compatibility with the modern version of ESMF/NUOPC.</s><s>We also modify the baseline interface to receive atmospheric surface variables and send oceanic surface variables.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">The atmospheric component (WRF)<p><s>The Weather Research and Forecasting (WRF) model <ref target="#b53" type="bibr">(Skamarock et al., 2019)</ref> is developed by the NCAR/MMM (Mesoscale and Microscale Meteorology division, National Center for Atmospheric Research).</s><s>It is a 3-D finitedifference atmospheric model with a variety of physical parameterizations of subgrid-scale processes for predicting a broad spectrum of applications.</s><s>WRF is used extensively for operational forecasts as well as realistic and idealized dynamical studies.</s><s>The WRF code and documentation are under continuous development on GitHub (https://github.com/</s><s>wrf-model/WRF, last access: 26 September 2019).</s></p><p><s>In the present work, the Advanced Research WRF dynamic version (WRF-ARW, version 3.9.1.1,</s><s>https:// github.com/NCAR/WRFV3/releases/tag/V3.9.1.1,</s><s>last access: 26 September 2019) is used.</s><s>It solves the compressible Euler nonhydrostatic equations and also includes a runtime hydrostatic option.</s><s>The WRF-ARW uses a terrain-following hydrostatic pressure coordinate system in the vertical direction and utilizes the Arakawa C grid.</s><s>WRF incorporates various physical processes including microphysics, cumulus parameterization, planetary boundary layer, surface layer, land surface, and longwave and shortwave radiation, with several options available for each process.</s></p><p><s>Similar to the implementations in MITgcm, WRF is also separated into initialization, run, and finalization subroutines to enable the WRF-ESMF interface to control the atmosphere model during the coupled simulation, shown in Fig. <ref target="#fig_1" type="figure">2a</ref>.</s><s>The implementation of the present WRF-ESMF interface is based on the prototype interface <ref target="#b23" type="bibr">(Henderson and Michalakes, 2005)</ref>.</s><s>In the present work, the prototype WRF-ESMF interface is updated to modern versions of WRF-ARW and ESMF, based on the NUOPC layer.</s><s>This prototype interface is also expanded to interact with the ESMF/NUOPC coupler to receive the oceanic surface variables and send the atmospheric surface variables.</s><s>The surface boundary condition fields are registered in the coupler following the NUOPC protocols with timestamps.</s><s>The WRF grid information is also provided for online re-gridding by ESMF.</s><s>To carry out the coupled simulation on HPC clusters, the WRF-ESMF interface also runs in parallel via MPI communications.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">ESMF/NUOPC coupler<p><s>The coupler is implemented using ESMF version 7.0.0.</s><s>The ESMF is selected because of its high performance and flexibility for building and coupling weather, climate, and related Earth science applications <ref target="#b10" type="bibr">(Collins et al., 2005;</ref><ref type="bibr">Turuncoglu et al., 2013;</ref><ref target="#b7" type="bibr">Chen and Curcic, 2016;</ref><ref target="#b60" type="bibr">Turuncoglu and Sannino, 2017)</ref>.</s><s>It has a superstructure for representing the model and coupler components and an infrastructure of commonly used utilities, including conservative grid remapping, time management, error handling, and data communications.</s></p><p><s>The general code structure of the coupler is shown in Fig. <ref target="#fig_1" type="figure">2</ref>. To build the ESMF/NUOPC driver, a main program is implemented to control an ESMF parent component, which controls the child components.</s><s>In the present work, three child components are implemented: (1) the oceanic component, (2) the atmospheric component, and (3) the ESMF coupler.</s><s>The coupler is used here because it performs the two-way interpolation and data transfer <ref target="#b25" type="bibr">(Hill et al., 2004)</ref>.</s></p><p><s>In ESMF, the model components can be run in parallel as a group of persistent execution threads (PETs), which are single processing units (e.g., CPU or GPU cores) defined by ESMF.</s><s>In the present work, the PETs are created according to the grid decomposition, and each PET is associated with an MPI process.</s></p><p><s>The ESMF allows the PETs to run in sequential mode, concurrent mode, or mixed mode (for more than three components).</s><s>We implemented both sequential and concurrent modes in SKRIPS, shown in Fig. <ref target="#fig_1" type="figure">2b</ref> and<ref type="figure">c</ref>.</s><s>In sequential mode, a set of ESMF gridded and coupler components are run in sequence on the same set of PETs.</s><s>At each coupling time step, the oceanic component is executed when the atmospheric component is completed and vice versa.</s><s>On the other hand, in concurrent mode, the gridded components are created and run on mutually exclusive sets of PETs.</s><s>If one component finishes earlier than the other, its PETs are idle and have to wait for the other component, shown in Fig. <ref target="#fig_1" type="figure">2c</ref>.</s><s>However, the PETs can be optimally distributed by the users to best achieve load balance.</s><s>In this work, all simulations are run in sequential mode.</s></p><p><s>In ESMF, the gridded components are used to represent models, and coupler components are used to connect these models.</s><s>The interfaces and data structures in ESMF have few constraints, providing the flexibility to be adapted to many modeling systems.</s><s>However, the flexibility of the gridded components can limit the interoperability across different modeling systems.</s><s>To address this issue, the NUOPC layer is developed to provide the coupling conventions and the generic representation of the model components (e.g., drivers, models, connectors, mediators).</s><s>The NUOPC layer in the present coupled model is implemented according to consortium documentation <ref target="#b25" type="bibr">(Hill et al., 2004;</ref><ref target="#b56" type="bibr">Theurich et al., 2016)</ref>, and the oceanic and atmospheric components each have 1.</s><s>prescribed variables for NUOPC to link the component; 2. the entry point for registration of the component; 3. an InitializePhaseMap which describes a sequence of standard initialization phases, including documenting the fields that a component can provide, checking and mapping the fields to each other, and initializing the fields that will be used;</s></p><p><s>4. a RunPhaseMap that checks the incoming clock of the driver, examines the timestamps of incoming fields, and runs the component;</s></p><p><s>5. timestamps on exported fields consistent with the internal clock of the component;</s></p><p><s>6. the finalization method to clean up all allocations.</s></p><p><s>The subroutines that handle initialization, running, and finalization in MITgcm and WRF are included in the Initial-izePhaseMap, RunPhaseMap, and finalization method in the NUOPC layer, respectively.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Experiment design and observational datasets<p><s>We simulate a series of heat events in the Red Sea region, with a focus on validating and assessing the technical aspects of the coupled model.</s><s>There is a desire for improved and extended forecasts in this region, and future work will investigate whether a coupled framework can advance this goal.</s><s>The extreme heat events are chosen as a test case due to their societal importance.</s><s>While these events and the analysis here may not maximize the value of coupled forecasting, these real-world events are adequate to demonstrate the performance and physical realism of the coupled model code implementation.</s><s>The simulation of the Red Sea extends from 00:00 UTC 1 June to 00:00 UTC 1 July 2012.</s><s>We select this month because of the record-high surface air temperature observed in the Mecca region, located 70 km inland from the eastern shore of the Red Sea <ref target="#b0" type="bibr">(Abdou, 2014)</ref>.</s><s>The computational domain and bathymetry are shown in Fig. <ref target="#fig_2" type="figure">3</ref>.</s><s>The model domain is centered at 20 • N, 40 • E, and the bathymetry is from the 2 min Gridded Global Relief Data (ETOPO2) <ref type="bibr">(National Geophysical Data Center, 2006)</ref>.</s><s>WRF is implemented using a horizontal grid of 256 × 256 points and grid spacing of 0.08 • .</s><s>The cylindrical equidistant map (latitude-longitude) projection is used.</s><s>There are 40 terrain-following vertical levels, more closely spaced in the atmospheric boundary layer.</s><s>The time step for atmosphere simulation is 30 s, which is to avoid violating the CFL (Courant-Friedrichs-Lewy) condition.</s><s>The Morrison 2-moment scheme <ref target="#b42" type="bibr">(Morrison et al., 2009)</ref> is used to resolve the microphysics.</s><s>The updated version of the Kain-Fritsch convection scheme <ref target="#b33" type="bibr">(Kain, 2004)</ref> is used with the modifications to include the updraft formulation, downdraft formulation, and closure assumption.</s><s>The Yonsei University (YSU) scheme <ref target="#b28" type="bibr">(Hong et al., 2006)</ref> is used for the planetary boundary layer (PBL), and the Rapid Radiation Transfer Model for General Circulation Models (RRTMG; <ref target="#b31" type="bibr">Iacono et al., 2008)</ref> is used for longwave and shortwave radiation transfer through the atmosphere.</s><s>The Rapid Update Cycle (RUC) land surface model is used for the land surface processes <ref target="#b5" type="bibr">(Benjamin et al., 2004)</ref>.</s><s>The MITgcm uses the same horizontal grid spacing as WRF, with 40 vertical z levels that are more closely spaced near the surface.</s><s>The time step of the ocean model is 120 s.</s><s>The horizontal subgrid mixing is parameterized using nonlinear Smagorinsky viscosities, and the K-profile parameterization (KPP) <ref target="#b37" type="bibr">(Large et al., 1994)</ref> is used for vertical mixing processes.</s></p><p><s>During coupled execution, the ocean model sends SST and ocean surface velocity to the coupler, and they are used directly as the boundary conditions in the atmosphere model.</s><s>The atmosphere model sends the surface fields to the coupler, including (1) surface radiative flux (i.e., longwave and shortwave radiation), (2) surface turbulent heat flux (i.e., latent and sensible heat), (3) 10 m wind speed, (4) precipitation, and (5) evaporation.</s><s>The ocean model uses the atmospheric surface variables to compute the surface forcing, including (1) total net surface heat flux, (2) surface wind stress, and (3) freshwater flux.</s><s>The total net surface heat flux is computed by adding latent heat flux, sensible heat flux, shortwave radiation flux, and longwave radiation flux.</s><s>The surface wind stress is computed by using the 10 m wind speed <ref target="#b36" type="bibr">(Large and Yeager, 2004)</ref>.</s><s>The freshwater flux is the difference between precipitation and evaporation.</s><s>The latent and sensible heat fluxes are computed by using the COARE 3.0 bulk algorithm in WRF <ref target="#b14" type="bibr">(Fairall et al., 2003)</ref>.</s><s>In the coupled code, different bulk formulae in WRF or MITgcm can also be used.</s></p><p><s>According to the validation tests in the literature <ref target="#b62" type="bibr">(Warner et al., 2010;</ref><ref type="bibr">Turuncoglu et al., 2013;</ref><ref target="#b46" type="bibr">Ricchi et al., 2016)</ref>, the following sets of simulations using different configurations are performed.</s></p><p><s>1. Run CPL (coupled run): a two-way coupled MITgcm-WRF simulation.</s><s>The coupling interval is 20 min to capture the diurnal cycle <ref target="#b51" type="bibr">(Seo et al., 2014)</ref>.</s><s>This run tests the implementation of the two-way coupled oceanatmosphere model.</s></p><p><s>2. Run ATM.STA: a stand-alone WRF simulation with its initial SST kept constant throughout the simulation.</s><s>This run allows for assessment of the WRF model behavior with realistic, but persistent, SST.</s><s>This case serves as a benchmark to highlight the difference between coupled and uncoupled runs and also to demonstrate the impact of evolving SST.</s></p><p><s>3. Run ATM.DYN: a stand-alone WRF simulation with a varying, prescribed SST based on HYCOM/NCODA reanalysis data.</s><s>This allows for assessing the WRF model behavior with updated SST and is used to validate the coupled model.</s><s>It is noted that in practice an accurately evolving SST would not be available for forecasting.</s></p><p><s>4. Run OCN.DYN: a stand-alone MITgcm simulation forced by the ERA5 reanalysis data.</s><s>The bulk formula in MITgcm is used to derive the turbulent heat fluxes.</s><s>This run assesses the MITgcm model behavior with prescribed lower-resolution atmospheric surface forcing and is also used to validate the coupled model.</s></p><p><s>The ocean model uses the HYCOM/NCODA 1/12 • global reanalysis data as initial and boundary conditions for ocean temperature, salinity, and horizontal velocities (https: //www.hycom.org/dataserver/gofs-3pt1/reanalysis,</s><s>last access: 26 September 2019).</s><s>The boundary conditions for the ocean are updated on a 3-hourly basis and linearly interpolated between two simulation time steps.</s><s>A sponge layer is applied at the lateral boundaries, with a thickness of 3 grid cells.</s><s>The inner and outer boundary relaxation timescales of the sponge layer are 10 and 0.5 d, respectively.</s><s>In CPL, ATM.STA, and ATM.DYN, we use the same initial condition and lateral boundary condition for the atmosphere.</s><s>The atmosphere is initialized using the ECMWF ERA5 reanalysis data, which have a grid resolution of approximately 30 km <ref target="#b24" type="bibr">(Hersbach, 2016)</ref>.</s><s>The same data also provide the boundary conditions for air temperature, wind speed, and air humidity every 3 h.</s><s>The atmosphere boundary conditions are also linearly interpolated between two simulation time steps.</s><s>The lateral boundary values are specified in WRF in the "specified" zone, and the "relaxation" zone is used to nudge the solution from the domain toward the boundary condition value.</s><s>Here we use the default width of one point for the specific zone and four points for the relaxation zone.</s><s>The top of the atmosphere is at the 50 hPa pressure level.</s><s>In ATM.STA, the SST from HYCOM/NCODA at the initial time is used as a constant SST.</s><s>The time-varying SST in ATM.DYN is also generated using HYCOM/NCODA data.</s><s>We select HYCOM/NCODA data because the ocean model initial condition and boundary conditions are generated using it.</s><s>For OCN.DYN we select ERA5 data for the atmospheric state because it also provides the atmospheric initial and boundary conditions in CPL.</s><s>The initial conditions, boundary conditions, and forcing terms of all simulations are summarized in Table <ref target="#tab_0" type="table">1</ref>.</s></p><p><s>The validation of the coupled model focuses on temperature, heat flux, and surface wind.</s><s>Our aim is to validate the coupled model and show that the heat and momentum fluxes simulated by the coupled model are comparable to the observations or the reanalysis data.</s><s>The simulated 2 m air temperature (T 2) fields are validated using ERA5.</s><s>In addition, the simulated T 2 for three major cities near the eastern shore of   <ref target="#b11" type="bibr">(Donlon et al., 2012;</ref><ref target="#b41" type="bibr">Martin et al., 2012)</ref>.</s><s>In addition, the simulated SST fields are validated against HYCOM/NCODA data.</s><s>Since the simulations are initialized using HYCOM/NCODA data, this aims to show the increase in the differences.</s><s>Surface heat fluxes (e.g., turbulent heat flux and radiative flux), which drive the oceanic component in the coupled model, are validated using MERRA-2 (Modern-Era Retrospective analysis for Research and Applications, version 2) data <ref target="#b17" type="bibr">(Gelaro et al., 2017)</ref>.</s><s>We use the MERRA-2 dataset because (1) it is an independent reanalysis dataset compared to the initial and boundary conditions used in the simulations and (2) it also provides 0.625 • × 0.5 • (long × lat) resolution reanalysis fields of turbulent heat fluxes (THFs).</s><s>The 10 m wind speed is also compared with MERRA-2 data to validate the momentum flux in the coupled code.</s><s>The validation of the freshwater flux is shown in the Appendix because (1) the evaporation is proportional to the latent heat in the model and (2) the precipitation is zero in the cities near the coast in Fig. <ref target="#fig_2" type="figure">3</ref>.</s><s>The validation data are summarized in Table <ref target="#tab_1" type="table">2</ref>.</s></p><p><s>When comparing T 2 with NCDC ground observations, the simulation results and ERA5 data are interpolated to the NCDC stations.</s><s>When interpolating to NCDC stations near the coast, only the data saved on land points are used. <ref target="#foot_5" type="foot">3</ref></s><s>The maximum and minimum T 2 every 24 h from the simulations and ERA5 are compared to the observed daily maximum and minimum T 2. On the other hand, when comparing the simulation results with the analysis or reanalysis data (HYCOM, GHRSST, ERA5, and MERRA-2), we interpolate these data onto the model grid to achieve a uniform spatial scale <ref target="#b39" type="bibr">(Maksyutov et al., 2008;</ref><ref target="#b57" type="bibr">Torma et al., 2011)</ref>.</s><s><ref target="#tab_3" type="table">3</ref>. The biases of the T 2 are comparable with those reported in other benchmark WRF simulations <ref target="#b64" type="bibr">(Xu et al., 2009;</ref><ref type="bibr">Zhang et al., 2013a;</ref><ref target="#b32" type="bibr">Imran et al., 2018)</ref>.</s></p><p><s>The simulation results on 10 and 24 June are shown in Fig. <ref target="#fig_5" type="figure">5</ref> to validate the coupled model over longer periods of time.</s><s>It can be seen in Fig. <ref target="#fig_5" type="figure">5</ref> that the T 2 patterns in CPL are generally consistent with ERA5.</s><s>The differences between the simulations (CPL, ATM.STA, and ATM.DYN) and ERA5 show that the T 2 data on land are consistent for all three simulations.</s><s>However, the T 2 data over the sea in CPL have smaller mean biases and RMSEs compared to ATM.STA, also shown in Table <ref target="#tab_3" type="table">3</ref>.</s><s>Although the difference in T 2 is very small compared with the mean T 2 (31.92 • C), the improvement of the coupled run on the 24 June (1.02</s><s>• C) is comparable to the standard deviation of T 2 (1.64 • C).</s><s>The T 2 over the water in CPL is closer to ERA5 because MITgcm in the coupled model provides a dynamic SST which influences T 2. On the other hand, when comparing CPL with ATM.DYN, the mean difference is smaller (10: +0.04 • C; 24: -0.62 • C).</s><s>This shows that CPL is comparable to ATM.DYN, which is driven by an updated warming SST.</s></p><p><s>The mean biases and RMSEs of T 2 over the Red Sea during the 30 d simulation are shown in Fig. <ref target="#fig_7" type="figure">6</ref> to demonstrate the evolution of simulation errors.</s><s>It can be seen that ATM.STA can still capture the T 2 patterns in the first week but it underpredicts T 2 by about 2 • C after 20 d because it has no SST evolution.</s><s>On the other hand, CPL has a smaller bias (-0.60 • C) and RMSE (1.28 • C) compared with those in ATM.STA (bias: -1.19 • C; RMSE: 1.71 • C) during the 30 d simulation as the SST evolution is considered.</s><s>The ATM.DYN case also has a smaller error compared to ATM.STA and its error is comparable with that in CPL (bias: -0.72 • C; RMSE: 1.31 • C), indicating that the skill of the coupled model is comparable to the stand-alone atmosphere model driven by 3-hourly reanalysis SST.</s><s>The differences in the mean biases and RMSEs between model outputs and ERA5 data are also plotted in Fig. <ref target="#fig_7" type="figure">6</ref>.</s><s>It can be seen that CPL has smaller error than ATM.STA throughout the simulation.</s><s>The bias and RMSE between CPL and ATM.DYN are within about 0.5 • C.</s><s>This shows the capability of the coupled model to perform realistic regional coupled ocean-atmosphere simulations.</s></p><p><s>To validate the diurnal T 2 variation in the coupled model in Fig. <ref target="#fig_4" type="figure">4</ref>, the time series of T 2 in three major cities as simulated in CPL and ATM.STA are plotted in Fig. <ref target="#fig_8" type="figure">7</ref>, starting from 1 June.</s><s>The ERA5 data and the daily observed high and low temperature data from NOAA NCDC are also plotted for validation.</s><s>Both coupled and uncoupled simulations generally captured the four major heat events (i.e., 2, 10, 17, and 24 June) and the T 2 variations during the 30 d simulation.</s><s>For the daily high T 2, the RMSE in all simulations are close (CPL: 2.09      than ATM.STA (Jeddah: 4.98 • C; Yanbu: 4.29 • C) by about 1 and 0.5 • C, respectively.</s><s>However, the T 2 difference for Mecca, which is located 70 km from the sea, is negligible (0.05 • C) between all simulations throughout the simulation.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Sea surface temperature<p><s>The simulated SST patterns obtained in the simulations are presented to demonstrate that the coupled model can capture the ocean surface state.</s><s>The snapshots of SST obtained from CPL are shown in Fig. <ref target="#fig_9" type="figure">8i</ref> and vi.</s><s>To validate the coupled model, the SST fields obtained in OCN.DYN are shown in Fig. <ref target="#fig_9" type="figure">8ii</ref> and vii, and the GHRSST data are shown in Fig. <ref target="#fig_9" type="figure">8iii</ref> and viii.</s><s>The SST obtained in the model at 00:00 UTC (about 03:00 LT (local time) in the Red Sea region) is presented because the GHRSST is produced with nighttime SST data <ref target="#b47" type="bibr">(Roberts-Jones et al., 2012)</ref>.</s><s>It can be seen that both CPL and OCN.DYN are able to reproduce the SST patterns reasonably well in comparison with GHRSST for both snapshots.</s><s>Though CPL uses higher-resolution surface forcing fields, the SST patterns obtained in both simulations are very similar after 2 d.</s><s>On 24 June , the SST patterns are less similar, but both simulation results are still comparable with GHRSST (RMSE &lt; 1 • C).</s><s>Both simulations under-estimate the SST in the northern Red Sea and overestimate the SST in the central and southern Red Sea on 24 June.</s></p><p><s>To quantitatively compare the errors in SST, the time histories of the SST in the simulations (i.e., OCN.DYN and CPL) and validation data (i.e., GHRSST and HYCOM/NCODA) are shown in Fig. <ref target="#fig_10" type="figure">9</ref>.</s><s>The mean biases and RMSEs between model outputs and validation data are also plotted.</s><s>In Fig. <ref target="#fig_10" type="figure">9a</ref> the snapshots of the simulated SST are compared with available HYCOM/NCODA data every 3 h.</s><s>In Fig. <ref target="#fig_10" type="figure">9b</ref> the snapshots of SST outputs every 24 h at 00:00 UTC (about 03:00 LT local time in the Red Sea region) are compared with GHRSST.</s><s>Compared with Fig. <ref target="#fig_10" type="figure">9b</ref>, the diurnal SST oscillation can be observed in Fig. <ref target="#fig_10" type="figure">9a</ref> because the SST is plotted every 3 h.</s><s>Generally, OCN.DYN and CPL have a similar range of error compared to both validation datasets in the 30 d simulations.</s><s>The simulation results are compared with HYCOM/NCODA data to show the increase in RMSE in Fig. <ref target="#fig_10" type="figure">9a</ref>.</s><s>Compared with HYCOM/NCODA, the mean differences between CPL and OCN.DYN are small (CPL: 0.10 • C; OCN.DYN: 0.03 • C).</s><s>The RMSE increases in the first week but does not grow after that.</s><s>On the other hand, when comparing with GHRSST, the initial SST patterns in both runs are cooler by about 0.8 • C.</s><s>This is because the models are initialized by HYCOM/NCODA, which has temperature in the topmost model level cooler than the estimated foundation</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Surface heat fluxes<p><s>The atmospheric surface heat flux drives the oceanic component in the coupled model, hence we validate the heat fluxes in the coupled model as compared to the stand-alone simulations.</s><s>Both the turbulent heat fluxes and the net downward heat fluxes are compared to MERRA-2 and their differences are plotted.</s><s>To validate the coupled ocean-atmosphere model, we only compare the heat fluxes over the sea.</s></p><p><s>The turbulent heat fluxes (THF; sum of latent and sensible heat fluxes) and their differences with the validation data are shown in Fig. <ref target="#fig_11" type="figure">10</ref> (the snapshots are shown in the Appendix).</s><s>It can be seen that all simulations have similar mean THF over the Red Sea compared with MERRA-2 (CPL: 119.4 W m -2 ; ATM.STA: 103.4 W m -2 ; ATM.DYN: 117.5 W m -2 ; MERRA-2: 115.6 W m -2 ).</s><s>For the first 2 weeks, the mean THFs obtained in all simulations are overlapping in Fig. <ref target="#fig_11" type="figure">10</ref>.</s><s>This is because all simulations are initialized in the same way, and the SST in all simulations are similar in the first 2 weeks.</s><s>After the second week, CPL has smaller error (bias: -1.8 W m -2 ; RMSE: 69.9 W m -2 ) compared with ATM.STA (bias: -25.7 W m -2 ; RMSE: 76.4 W m -2 ).</s><s>This is because the SST is updated in CPL and is warmer compared with ATM.STA.</s><s>When forced by a warmer SST, the evaporation increases (also see the Appendix) and thus the latent heat fluxes increase.</s><s>On the other hand, the THFs in CPL are comparable with ATM.DYN during the 30 d run (bias: 1.9 W m -2 ), showing that SKRIPS can capture the THFs over the Red Sea in the coupled simulation.</s></p><p><s>The net downward heat fluxes (sum of THF and radiative flux) are shown in Fig. <ref target="#fig_12" type="figure">11</ref> (the snapshots are shown in the Appendix).</s><s>Again, for the first 2 weeks, the heat fluxes obtained in ATM.STA, ATM.DYN, and CPL are overlap-ping.</s><s>This is because all simulations are initialized in the same way, and the SSTs in all simulations are similar in the first 2 weeks.</s><s>After the second week, CPL has slightly smaller error (bias: 11.2 W m -2 ; RMSE: 84.4 W m -2 ) compared with the ATM.STA simulation (bias: 36.5 W m -2 ; RMSE: 94.3 W m -2 ).</s><s>It should be noted that the mean bias and RMSE of the net downward heat fluxes can be as high as a few hundred watts per square meter or 40 % compared with MERRA-2.</s><s>This is because WRF overestimated the shortwave radiation in the daytime (the snapshots are shown in the Appendix).</s><s>However, the coupled model still captures the mean and standard deviation of the heat flux compared with MERRA-2 data (CPL mean: 110.6 W m -2 , standard deviation: 350.7 W m -2 ; MERRA-2 mean 104.7 W m -2 , standard deviation 342.3 W m -2 ).</s><s>The overestimation of shortwave radiation by the RRTMG scheme is also reported in other validation tests in the literature under all-sky conditions due to the uncertainty in cloud or aerosol <ref target="#b65" type="bibr">(Zempila et al., 2016;</ref><ref target="#b32" type="bibr">Imran et al., 2018)</ref>.</s><s>Although the surface heat flux is overestimated in the daytime, the SST over the Red Sea is not overestimated (shown in Sect.</s><s>4.2).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">10 m wind speed<p><s>To evaluate the simulation of the surface momentum by the coupled model, the 10 m wind speed patterns obtained from ATM.STA, ATM.DYN, and CPL are compared to the MERRA-2 reanalysis.</s></p><p><s>The simulated 10 m wind velocity fields are shown in Fig. <ref target="#fig_13" type="figure">12</ref>.</s><s>The RMSE of the wind speed between CPL and MERRA-2 data is 2.23 m s -1 when using the selected WRF physics schemes presented in Sect.</s><s>3. On 2 June, high wind speeds are observed in the northern and central Red Sea, and</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Scalability test<p><s>Parallel efficiency is crucial for coupled ocean-atmosphere models when simulating large and complex problems.</s><s>In this section, the parallel efficiency in the coupled simulations is investigated.</s><s>This aims to demonstrate that (1) the implemented ESMF/NUOPC driver and model interfaces can simulate parallel cases effectively and (2) the ESMF/NUOPC coupler does not add a significant computational overhead.</s><s>The parallel speed-up of the model is investigated to evaluate its performance for a constant size problem simulated using different numbers of CPU cores (i.e., strong scaling).</s><s>Additionally, the CPU time spent on oceanic and atmospheric components of the coupled model is detailed.</s><s>The test cases are run in sequential mode.</s><s>The parallel efficiency tests are performed on the Shaheen-II cluster at KAUST (https: //www.hpc.kaust.edu.sa/, last access: 26 September 2019).</s><s>The Shaheen-II cluster is a Cray XC40 system composed  The parallel efficiency of the scalability test is N p0 t p0 /N pn t pn , where N p0 and N pn are the numbers of CPU cores employed in the baseline case and the test case, respectively; t p0 and t pn are the CPU times spent on the baseline case and the test case, respectively.</s><s>The speed-up is defined as t p0 /t pn , which is the relative improvement of the CPU time when solving the problem.</s><s>The scalability tests are performed by running 24 h simulations for ATM.STA, OCN.DYN, and CPL cases.</s><s>There are 2.6 million atmosphere cells (256 lat ×256 long ×40 vertical levels) and 0.4 million ocean cells (256 lat ×256 long ×40 vertical levels, but about 84 % of the domain is land and masked out).</s><s>We started using N p0 = 32 because each compute node has 32 CPU cores.</s><s>The results obtained in the scalability test of the coupled model are shown in Fig. <ref target="#fig_15" type="figure">14</ref>.</s><s>It can be seen that the parallel efficiency of the coupled code is close to 100 % when employing less than 128 cores and is still as high as 70 % when using 256 cores.</s><s>When using 256 cores, there are a maximum of 20 480 cells (16 lat ×16 long ×80 vertical levels) in each core.</s><s>The decrease in parallel efficiency results from the increase of communication time, load imbalance, and I/O (read and write) operation per CPU core <ref target="#b9" type="bibr">(Christidis, 2015)</ref>.</s><s>From results reported in the literature, the parallel efficiency of the coupled model is comparable to other ocean-alone or atmosphere-alone models with similar numbers of grid points per CPU core <ref target="#b40" type="bibr">(Marshall et al., 1997;</ref><ref type="bibr">Zhang et al., 2013b)</ref>.</s></p><p><s>The CPU time spent on different components of the coupled run is shown in Table .</s><s>4. The time spent on the ESMF coupler is obtained by subtracting the time spent on oceanic and atmospheric components from the total time of the coupled run.</s><s>The most time-consuming process is the atmosphere model integration, which accounts for 85 % to 95 % of the total.</s><s>The ocean model integration is the second-most time-consuming process, which is 5 % to 11 % of the total computational cost.</s><s>If an ocean-only region was simulated, the costs of the ocean and atmosphere models would be more equal compared with the Red Sea case.</s><s>It should be noted that the test cases are run in sequential mode, and the cost breakdown among the components can be used to address load balancing in the concurrent mode.</s><s>The coupling process takes less than 3 % of the total cost in the coupled runs using different numbers of CPU cores in this test.</s><s>Although the proportion of the coupling process in the total cost increases when using more CPU cores, the total time spent on the coupling process is similar.</s><s>The CPU time spent on two uncoupled runs (i.e., ATM.STA, OCN.DYN) is also shown in Table <ref type="table">4</ref>. Compared with the uncoupled simulations, the ESMF-MITgcm and ESMF-WRF interfaces do not increase the CPU time in the coupled simulation.</s><s>In summary, the scalability test results suggest that the ESMF/NUOPC coupler does not add significant computational overhead when using SKRIPS in the coupled regional modeling studies.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusion and Outlook<p><s>This paper describes the development of the Scripps-KAUST Regional Integrated Prediction System (SKRIPS).</s></p><p><s>To build the coupled model, we implement the coupler using ESMF with its NUOPC wrapper layer.</s><s>The ocean model MITgcm and the atmosphere model WRF are split into initialize, run, and finalize sections, with each of them called by the coupler as subroutines in the main function.</s></p><p><s>The coupled model is validated by using a realistic application to simulate the heat events during June 2012 in the Red Sea region.</s><s>Results from the coupled and stand-alone simulations are compared to a wide variety of available observational and reanalysis data.</s><s>We focus on the comparison of the surface atmospheric and oceanic variables because they are used to drive the oceanic and atmospheric components in the coupled model.</s><s>From the comparison, results obtained from various configurations of coupled and standalone model simulations all realistically capture the surface atmospheric and oceanic variables in the Red Sea region over a 30 d simulation period.</s><s>The coupled system gives equal or better results compared with stand-alone model components.</s><s>The 2 m air temperature in three major cities obtained in CPL and ATM.DYN are comparable and better than ATM.STA.</s><s>Other surface atmospheric fields (e.g., 2 m air temperature, surface heat fluxes, 10 m wind speed) in CPL are also comparable with ATM.DYN and better than ATM.STA over the simulation period.</s><s>The SST obtained in CPL is also better than that in OCN.DYN by about 0.1 • C when compared with GHRSST.</s></p><p><s>The parallel efficiency of the coupled model is examined by simulating the Red Sea region using increasing numbers</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Appendix A: Snapshots of heat fluxes<p><s>To examine the modeling of turbulent heat fluxes and radiative fluxes, the snapshots of these heat fluxes obtained from ATM.STA, ATM.DYN, and CPL are presented and validated using the MERRA-2 data.</s></p><p><s>The snapshots of the THFs at 12:00 UTC 2 and 24 June are presented in Fig. <ref target="#fig_16" type="figure">A1</ref>.</s><s>It can be seen that all simulations reproduce the THFs reasonably well in comparison with MERRA-2.</s><s>On 2 June, all simulations exhibit similar THF patterns.</s><s>This is because all simulations have the same initial conditions, the SST fields in all simulations are similar within 2 d.</s><s>On the other hand, for the heat event on 24 June, CPL and ATM.DYN exhibit more latent heat fluxes coming out of the ocean (170 and 153 W m -2 ) than those in ATM.STA (138 W m -2 ).</s><s>The mean biases in CPL, ATM.DYN, and ATM.STA are 23.1, 5.1, and -9.5 W m -2 , respectively.</s><s>Although CPL has larger bias at the snapshot, the averaged bias and RMSE in CPL are smaller (shown in Fig. <ref target="#fig_11" type="figure">10</ref>).</s><s>Compared with the latent heat fluxes, the sensible heat fluxes in the Red Sea region are much smaller in all simulations (about 20 W m -2 ).</s><s>It should be noted that MERRA-2 has unrealistically large sensible heat fluxes in the coastal regions because the land points contaminate the values in the coastal region <ref target="#b34" type="bibr">(Kara et al., 2008;</ref><ref target="#b17" type="bibr">Gelaro et al., 2017)</ref>, and thus the heat fluxes in the coastal regions are not shown.</s></p><p><s>The net downward shortwave and longwave radiation fluxes are shown in Fig. <ref target="#fig_1" type="figure">A2</ref>.</s><s>Again, all simulations reproduce the shortwave and longwave radiation fluxes reasonably well.</s><s>For the shortwave heat fluxes, all simulations show similar patterns on both 2 and 24 June.</s><s>The total downward heat fluxes, which is the sum of the results in Figs.</s><s><ref target="#fig_16" type="figure">A1</ref> and<ref target="#fig_1" type="figure">A2</ref>, are shown in Fig. <ref target="#fig_17" type="figure">A3</ref>.</s><s>It can be seen that the present simulations overestimate the total downward heat fluxes on 2 June (CPL: 580 W m -2 ; ATM.STA: 590 W m -2 ; ATM.DYN: 582 W m -2 ) compared with MERRA-2 (525 W m -2 ), especially in the southern Red Sea because of overestimating the shortwave radiation.</s><s>To improve the modeling of shortwave radiation, a better understanding of the cloud and aerosol in the Red Sea region is required <ref target="#b65" type="bibr">(Zempila et al., 2016;</ref><ref target="#b32" type="bibr">Imran et al., 2018)</ref>.</s><s>Again, the heat fluxes in the coastal regions are not shown because of the inconsistency of land-sea mask.</s><s>Overall, the comparison shows the coupled model is capable of capturing the surface heat fluxes into the ocean.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Appendix B: Evaporation<p><s>To examine the simulation of surface freshwater flux in the coupled model, the surface evaporation fields obtained from ATM.STA, ATM.DYN, and CPL are compared with the MERRA-2 data.</s></p><p><s>The surface evaporation fields from CPL are shown in Fig. <ref target="#fig_18" type="figure">B1</ref>.</s><s>The MERRA-2 data and the difference between CPL and MERRA-2 are also shown to validate the coupled model.</s><s>The ATM.STA and ATM.DYN simulation results are not shown, but their differences with CPL are also shown in Fig. <ref target="#fig_18" type="figure">B1</ref>.</s><s>It can be seen in Fig. <ref target="#fig_18" type="figure">B1iii</ref> and viii that CPL reproduces the overall evaporation patterns in the Red Sea.</s><s>CPL is able to capture the relatively high evaporation in the northern Red Sea and the relatively low evaporation in the southern Red Sea in both snapshots, shown in Fig. <ref target="#fig_18" type="figure">B1i</ref> and vi.</s><s>After 36 h, the simulation results are close with each other (e.g., the RMSE between CPL and ATM.STA simulation is smaller than 10 cm yr -1 ).</s><s>However, after 24 d, CPL agrees better with MERRA-2 (bias: 6 cm yr -1 ; RMSE: 59 cm yr -1 ) than ATM.STA (bias: -25 cm yr -1 ; RMSE: 68 cm yr -1 ).</s><s>In addition, the CPL results are consistent with those in ATM.DYN.</s><s>This shows the coupled ocean-atmosphere simulation can reproduce the realistic evaporation patterns over the Red Sea.</s><s>Since there is no precipitation in three major cities (Mecca, Jeddah, Yanbu) near the eastern shore of the Red Sea during the month according to NCDC climate data, the precipitation results are not shown.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>The schematic description of the coupled oceanatmosphere model.</s><s>The yellow block is the ESMF/NUOPC coupler; the red blocks are the implemented MITgcm-ESMF and WRF-ESMF interfaces; the white blocks are the oceanic and atmospheric components.</s><s>From WRF to MITgcm, the coupler collects the atmospheric surface variables (i.e., radiative flux, turbulent heat flux, wind velocity, precipitation, evaporation) and updates the surface forcing (i.e., net surface heat flux, wind stress, freshwater flux) to drive MITgcm.</s><s>From MITgcm to WRF, the coupler collects oceanic surface variables (i.e., SST and ocean surface velocity) and updates them in WRF as the bottom boundary condition.</s></p></div></figdesc><graphic coords="3,310.11,66.33,235.27,200.59" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 2. The general code structure and run sequence of the coupled ocean-atmosphere model.</s><s>In panel (a), the black block is the application driver; the red block is the parent gridded component called by the application driver; the green (brown) blocks are the child gridded (coupler) components called by the parent gridded component.</s><s>Panels (b) and (c) show the sequential and concurrent mode implemented in SKRIPS, respectively.</s><s>PETs (persistent execution threads) are single processing units (e.g., CPU or GPU cores) defined by ESMF.</s><s>Abbreviations OCN, ATM, and CON denote oceanic component, atmospheric component, and connector component, respectively.</s><s>The blocks under PETs are the CPU cores in the simulation; the small blocks under OCN or ATM are the small subdomains in each core; the block under CON is the coupler.</s><s>The red arrows indicate that the model components are sending data to the connector and the yellow arrows indicate that the model components are reading data from the connector.</s><s>The horizontal arrows indicate the time axis of each component and the ticks on the time axis indicate the coupling time steps.</s></p></div></figdesc><graphic coords="5,49.32,66.33,496.07,186.47" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure 3.</s><s>The WRF topography and MITgcm bathymetry in the simulations.</s><s>Three major cities near the eastern shore of the Red Sea are highlighted.</s><s>The Hijaz Mountains and Ethiopian Highlands are also highlighted.</s></p></div></figdesc><graphic coords="7,113.10,66.33,368.50,161.34" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>We begin our analysis by examining the simulated T 2 from the model experiments, aiming to validate the atmospheric component of SKRIPS.</s><s>Since the record-high temperature is observed in the Mecca region on 2 June, the simulation results on 2 June (36 or 48 h after the initialization) are shown in Fig.4.</s><s>The ERA5 data, and the difference between CPL and ERA5 are also shown in Fig.4.</s><s>It can be seen in Fig.4ithat CPL captures the T 2 patterns in the Red Sea region on 2 June compared with ERA5 in Fig.4ii.</s><s>Since the ERA5 T 2 data are in good agreement with the NCDC ground observation data in the Red Sea region (detailed comparisons of all stations are not shown), we use ERA5 data to validate the simulation results.</s><s>The difference between CPL and ERA5 is shown in Fig.4iii.</s><s>The ATM.STA and ATM.DYN results are close to the CPL results and thus are not shown, but their differences with respect to ERA5 are shown in Fig.4iv and v, respectively.</s><s>Fig.4vito x shows the nighttime results after 48 h.</s><s>It can be seen in Fig.4that all simulations reproduce the T 2 patterns over the Red Sea region reasonably well compared with ERA5.</s><s>The mean T 2 biases and root mean square errors (RMSEs) over the sea are shown in Table</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4.</s><s>The 2 m air temperature as obtained from the CPL, the ERA5 data, and their difference (CPL-ERA5).</s><s>The differences between ATM.STA and ATM.DYN with ERA5 (i.e., ATM.STA-ERA5, ATM.DYN-ERA5) are also presented.</s><s>The simulation initial time is 00:00 UTC 1 June 2012 for both snapshots.</s><s>Two snapshots are selected: (1) 12:00 UTC 2 June 2012 (36 h from initial time) and (2) 00:00 UTC 3 June 2012 (48 h from initial time).</s><s>The results on 2 June are presented because the record-high temperature is observed in the Mecca region.</s></p></div></figdesc><graphic coords="9,49.32,66.33,496.07,252.23" type="bitmap"></graphic></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0">Figure 5 .<label>5</label><figdesc><div><p><s>Figure 5.</s><s>The T 2 obtained in CPL, the T 2 in ERA5, and their difference (CPL-ERA5).</s><s>The difference between ATM.STA and ATM.DYN with ERA5 data (i.e., ATM.STA-ERA5, ATM.DYN-ERA5) are also presented.</s><s>The simulation initial time is 00:00 UTC 1 June 2012 for both snapshots.</s><s>Two snapshots are selected: (1) 12:00 UTC 10 June 2012 (9.5 d from initial time) and (2) 12:00 UTC 24 June 2012 (23.5 d from initial time).</s></p></div></figdesc><graphic coords="9,49.32,388.94,496.07,252.95" type="bitmap"></graphic></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0">4230R.<label></label><figdesc><div><p><s>Sun et al.: SKRIPS v1.0: a regional coupled ocean-atmosphere modeling framework</s></p></div></figdesc></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0">Figure 6 .<label>6</label><figdesc><div><p><s>Figure 6.</s><s>The bias and RMSE between the T 2 obtained by the simulations (i.e., ATM.STA, ATM.CPL, and CPL) in comparison with ERA5 data.</s><s>Only the errors over the Red Sea are considered.</s><s>The differences between the simulation errors from CPL and stand-alone WRF simulations are presented below the mean bias and the RMSE.</s><s>The initial time is 00:00 UTC 1 June 2012 for all simulations.</s></p></div></figdesc><graphic coords="10,84.76,159.40,425.20,197.48" type="bitmap"></graphic></figure>
+<figure xml:id="fig_8" xmlns="http://www.tei-c.org/ns/1.0">Figure 7 .<label>7</label><figdesc><div><p><s>Figure 7. Temporal variation in the 2 m air temperature at three major cities near the eastern shore of Red Sea (Jeddah, Mecca, Yanbu) as resulting from CPL, ATM.STA, and ATM.DYN.</s><s>The temperature data are compared with the time series in ERA5 and daily high and low temperature in the NOAA national data center dataset.</s><s>Note that some gaps exist in the NCDC ground observation dataset.</s><s>Four representative heat events are highlighted in this figure.</s></p></div></figdesc><graphic coords="11,127.28,66.33,340.15,201.43" type="bitmap"></graphic></figure>
+<figure xml:id="fig_9" xmlns="http://www.tei-c.org/ns/1.0">Figure 8 .<label>8</label><figdesc><div><p><s>Figure 8.</s><s>The SST in CPL, OCN.DYN, and GHRSST.</s><s>The corresponding differences between the simulations and GHRSST are also plotted.</s><s>Two snapshots of the model outputs are selected: (1) 00:00 UTC 2 June 2012 and (2) 00:00 UTC 24 June 2012.</s><s>The simulation initial time is 00:00 UTC 1 June 2012 for both snapshots.</s></p></div></figdesc><graphic coords="11,49.32,338.13,496.07,246.95" type="bitmap"></graphic></figure>
+<figure xml:id="fig_10" xmlns="http://www.tei-c.org/ns/1.0">Figure 9 .<label>9</label><figdesc><div><p><s>Figure 9.</s><s>The bias and RMSE between the SST from the simulations (i.e., OCN.DYN and CPL) in comparison with the validation data.</s><s>Panel (a) shows the 3-hourly SST obtained in the simulations compared with 3-hourly HYCOM/NCODA data.</s><s>Panel (b) shows the daily SST at 00:00 UTC (about 03:00 local time in the Red Sea region) obtained in the simulations compared with GHRSST.</s><s>Both simulations are initialized at 00:00 UTC 1 June 2012.</s></p></div></figdesc><graphic coords="12,98.93,66.33,396.85,182.39" type="bitmap"></graphic></figure>
+<figure xml:id="fig_11" xmlns="http://www.tei-c.org/ns/1.0">Figure 10 .<label>10</label><figdesc><div><p><s>Figure 10.</s><s>The turbulent heat fluxes out of the sea obtained in CPL, ATM.STA, and ATM.DYN in comparison with MERRA-2.</s><s>Panel (a) shows the mean THF; (b) shows the mean bias; (c) shows the RMSE.</s><s>Only the hourly heat fluxes over the sea are shown.</s></p></div></figdesc><graphic coords="13,113.10,66.33,368.50,166.69" type="bitmap"></graphic></figure>
+<figure xml:id="fig_12" xmlns="http://www.tei-c.org/ns/1.0">Figure 11 .<label>11</label><figdesc><div><p><s>Figure 11.</s><s>The total surface heat fluxes into the sea obtained in CPL, ATM.STA, and ATM.DYN in comparison with MERRA-2.</s><s>Panel (a) shows the mean surface heat flux; (b) shows the mean bias; (c) shows the RMSE.</s><s>Only the heat fluxes over the sea are shown.</s></p></div></figdesc><graphic coords="13,113.10,281.48,368.50,169.19" type="bitmap"></graphic></figure>
+<figure xml:id="fig_13" xmlns="http://www.tei-c.org/ns/1.0">Figure 12 .<label>12</label><figdesc><div><p><s>Figure 12.</s><s>The magnitude and direction of the 10 m wind obtained in the CPL, the MERRA-2 data, and their difference (CPL-MERRA-2).</s><s>The differences between ATM.STA and ATM.DYN with MERRA-2 (i.e., ATM.STA-MERRA-2, ATM.DYN-MERRA-2) are also presented.</s><s>Two snapshots are selected: (1) 12:00 UTC 2 June 2012 and (2) 12:00 UTC 24 June 2012.</s></p></div></figdesc><graphic coords="14,49.32,66.33,496.07,250.31" type="bitmap"></graphic></figure>
+<figure xml:id="fig_14" xmlns="http://www.tei-c.org/ns/1.0">Figure 13 .<label>13</label><figdesc><div><p><s>Figure 13.</s><s>The magnitude of the 10 m wind obtained in CPL, ATM.STA, and ATM.DYN in comparison with MERRA-2.</s><s>Panel (a) shows the mean 10 m wind; (b) shows the mean bias; (c) shows the RMSE.</s><s>Only the hourly surface wind fields over the sea are shown to validate the coupled model.</s></p></div></figdesc><graphic coords="14,113.10,376.06,368.50,167.94" type="bitmap"></graphic></figure>
+<figure xml:id="fig_15" xmlns="http://www.tei-c.org/ns/1.0">Figure 14 .<label>14</label><figdesc><div><p><s>Figure 14.</s><s>The parallel efficiency test of the coupled model in the Red Sea region, employing up to 512 CPU cores.</s><s>The simulation using 32 CPU cores is regarded as the baseline case when computing the speed-up.</s><s>Tests are performed on the Shaheen-II cluster at KAUST.</s></p></div></figdesc><graphic coords="15,127.28,66.33,340.15,149.42" type="bitmap"></graphic></figure>
+<figure xml:id="fig_16" xmlns="http://www.tei-c.org/ns/1.0">Figure A1 .<label>A1</label><figdesc><div><p><s>Figure A1.</s><s>The turbulent heat fluxes out of the sea obtained in CPL, MERRA-2 data, and their difference (CPL-MERRA-2).</s><s>The differences between ATM.STA and ATM.DYN with MERRA-2 (i.e., ATM.STA-MERRA-2, ATM.DYN-MERRA-2) are also presented.</s><s>Two snapshots are selected: (1) 12:00 UTC 2 June 2012 and (2) 12:00 UTC 24 June The simulation initial time is 00:00 UTC 1 June 2012 for both snapshots.</s><s>Only the heat fluxes over the sea are shown to validate the coupled model.</s></p></div></figdesc><graphic coords="18,98.93,66.33,396.85,420.24" type="bitmap"></graphic></figure>
+<figure xml:id="fig_17" xmlns="http://www.tei-c.org/ns/1.0">Figure A3 .<label>A3</label><figdesc><div><p><s>Figure A3.</s><s>Comparison of the total downward heat fluxes obtained in CPL, MERRA-2 data, and their difference (CPL-MERRA-2).</s><s>The differences between ATM.STA and ATM.DYN with ERA5 (i.e., ATM.STA-MERRA-2, ATM.DYN-MERRA-2) are also presented.</s><s>Two snapshots are selected: (1) 1200 UTC 2 June 2012 and (2) 12:00 UTC 24 June 2012.</s><s>The simulation initial time is 00:00 UTC 1 June 2012 for both snapshots.</s><s>Only the heat fluxes over the sea are shown to validate the coupled model.</s></p></div></figdesc><graphic coords="20,127.28,66.33,340.17,171.73" type="bitmap"></graphic></figure>
+<figure xml:id="fig_18" xmlns="http://www.tei-c.org/ns/1.0">Figure B1 .<label>B1</label><figdesc><div><p><s>Figure B1.</s><s>The surface evaporation patterns obtained in CPL, the MERRA-2 data, and their difference (CPL-MERRA-2).</s><s>The differences between uncoupled atmosphere simulations with MERRA-2 (i.e., ATM.STA-MERRA-2, ATM.DYN-MERRA-2) are also presented.</s><s>Two snapshots are selected: (1) 12:00 UTC 2 June 2012 and (2) 12:00 UTC 24 June 2012.</s><s>Only the evaporation over the sea is shown to validate the coupled ocean-Atmosphere model.</s></p></div></figdesc><graphic coords="21,84.76,66.33,425.20,214.25" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="19,98.93,66.33,396.85,431.45" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>The initial conditions, boundary conditions, and forcing terms used in the simulations.</s></p></div></figdesc><table><row><cell></cell><cell>Initial and boundary conditions</cell><cell>Ocean surface conditions</cell><cell>Atmospheric forcings</cell></row><row><cell>CPL</cell><cell>ERA5 (atmosphere) HYCOM/NCODA (ocean)</cell><cell>from MITgcm</cell><cell>from WRF</cell></row><row><cell>ATM.STA</cell><cell>ERA5</cell><cell>HYCOM/NCODA initial condition kept constant</cell><cell>not used</cell></row><row><cell cols="2">ATM.DYN ERA5</cell><cell>HYCOM/NCODA updated every 3 h</cell><cell>not used</cell></row><row><cell cols="2">OCN.DYN HYCOM/NCODA</cell><cell>not used</cell><cell>ERA5</cell></row></table><note><p><s>the Red Sea are validated using ERA5 and ground observations from the NOAA National Climate Data Center (NCDC climate data online at https://www.ncdc.noaa.gov/cdo-web/,</s><s>last access: 26 September 2019).</s><s>The simulated SST data are validated against the OSTIA (Operational Sea Surface Temperature and Sea Ice Analysis) system in GHRSST (Group for High Resolution Sea Surface Temperature)</s></p></note></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">Table 2 .<label>2</label><figdesc><div><p><s>The observational data and reanalysis data used to validate the simulation results.The Red Sea is an elongated basin covering the area between 12-30 • N and 32-43 • E. The basin is 2250 km long, extending from the Suez and Aqaba gulfs in the north to the strait of Bab-el-Mandeb in the south, which connects the Red Sea and the Indian Ocean.</s><s>In this section, the simulation results obtained by using different model configurations are presented to show that SKRIPS is capable of performing coupled ocean-atmosphere simulations.</s><s>The T 2 from CPL, ATM.STA, and ATM.DYN are compared with the validation data to evaluate the atmospheric component of SKRIPS;</s></p></div></figdesc><table><row><cell>Variable</cell><cell>Validation data</cell></row><row><cell cols="2">Sea surface temperature (SST) GHRSST and HYCOM/NCODA</cell></row><row><cell>2 m air temperature (T 2)</cell><cell>ERA5 and NCDC climate data</cell></row><row><cell>Turbulent heat fluxes</cell><cell>MERRA-2</cell></row><row><cell>Radiative fluxes</cell><cell>MERRA-2</cell></row><row><cell>10 m wind speed</cell><cell>MERRA-2</cell></row><row><cell>4 Results and discussions</cell><cell></cell></row></table><note><p><s>the SST obtained from CPL and OCN.DYN are compared to validate the atmospheric component of SKRIPS; the surface heat fluxes and 10 m wind are used to assess the coupled system.</s></p></note></figure>
+<figure type="table" xml:id="tab_2" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>• C; ATM.STA: 2.16 • C; ATM.DYN: 2.06 • C), and the error does not increase in the 30 d simulation.</s><s>For the daily low T 2, before 20 June (lead time &lt; 19 d), all simulations have consistent RMSEs compared with ground observation (CPL: 4.23 • C; ATM.STA: 4.39 • C; ATM.DYN: 4.01 • C).</s><s>In Jeddah and Yanbu, CPL has better captured the daily low T 2 after 20 June (Jeddah: 3.95 • C; Yanbu: 3.77 • C)</s></p></div></figdesc><table></table></figure>
+<figure type="table" xml:id="tab_3" xmlns="http://www.tei-c.org/ns/1.0">Table 3 .<label>3</label><figdesc><div><p><s>The biases and RMSEs of T 2 simulated in all simulations in comparison with ERA5 data.</s><s>RMSE: 2.59 Run ATM.DYN bias: -1.36; RMSE: 1.90 bias: -0.84; RMSE: 1.28 bias: -1.20; RMSE: 1.93 bias: -1.43; RMSE: 2.14</s></p></div></figdesc><table><row><cell>After 36 h</cell><cell>After 48 h</cell><cell>After 9.5 d</cell><cell>After 23.5 d</cell></row><row><cell>Run CPL</cell><cell></cell><cell></cell><cell></cell></row></table><note><p><s>bias: -1.36; RMSE: 1.91 bias: -0.82; RMSE: 1.19 bias: -1.24; RMSE: 1.96 bias: -0.81; RMSE: 1.80 Run ATM.STA bias: -1.48; RMSE: 2.01 bias: -0.92; RMSE: 1.27 bias: -1.56; RMSE: 2.27 bias: -1.83;</s></p></note></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Geosci.Model Dev., 12, 4221-4244, 2019   www.geosci-model-dev.net/12/4221/2019/</s></p></note>
+<note n="1" place="foot" xml:id="foot_1" xmlns="http://www.tei-c.org/ns/1.0"><p><s>In this article, "online" means the manipulations are performed via subroutine calls during the execution of the simulations; "offline" means the manipulations are performed when the simulations are not executing.www.geosci-model-dev.net/12/4221/2019/</s><s>Geosci.</s><s>Model Dev., 12, 4221-4244</s></p></note>
+<note n="2019" place="foot" xml:id="foot_2" xmlns="http://www.tei-c.org/ns/1.0"><p><s>, 2019</s></p></note>
+<note n="2" place="foot" xml:id="foot_3" xmlns="http://www.tei-c.org/ns/1.0"><p><s>In ESMF, "timestamp" is a sequence of numbers, usually based on the time, to identify ESMF fields.</s><s>Only the ESMF fields having the correct timestamp will be transferred in the coupling.</s></p></note>
+<note place="foot" xml:id="foot_4" xmlns="http://www.tei-c.org/ns/1.0"><p><s>www.geosci-model-dev.net/12/4221/2019/</s><s>Geosci.</s><s>Model Dev., 12, 4221-4244, 2019</s></p></note>
+<note n="3" place="foot" xml:id="foot_5" xmlns="http://www.tei-c.org/ns/1.0"><p><s>In ATM.STA, ATM.DYN, and CPL, we set land-sea mask equal to 1 as land points because the land-sea mask is either 0 (sea) or 1 (land) in WRF.</s><s>In ERA5, we set the land-sea mask &gt; 0.9 as land points because the land-sea mask is a fractional value between 0 (sea) and 1 (land).www.geosci-model-dev.net/12/4221/2019/</s><s>Geosci.</s><s>Model Dev., 12,</s></p></note>
+<note place="foot" xml:id="foot_6" xmlns="http://www.tei-c.org/ns/1.0"><p><s>2019</s></p></note>
+<note place="foot" xml:id="foot_7" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Figure A2.</s><s>The net downward shortwave and longwave radiation obtained in CPL, MERRA-2 data, and their difference (CPL-MERRA-2).</s><s>The differences between ATM.STA and ATM.DYN with MERRA-2 (i.e., ATM.STA-MERRA-2, ATM.DYN-MERRA-2) are also presented.</s><s>Two snapshots are selected: (1) 12:00 UTC 2 June 2012 and (2) 12:00 UTC 24 June 2012.</s><s>The simulation initial time is 00:00 UTC 1 June 2012 for both snapshots.</s><s>Only the heat fluxes over the sea are shown to validate the coupled model.www.geosci-model-dev.net/12/4221/2019/</s><s>Geosci.</s><s>Model Dev., 12, 4221-4244, 2019</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Acknowledgements.</s><s>We appreciate the computational resources provided by COMPAS (Center for Observations, Modeling and Prediction at Scripps) and KAUST used for this project.</s><s>We are immensely grateful to Caroline Papadopoulos for helping with installing software, testing the coupled code, and using the HPC clusters.</s><s>We appreciate Ufuk Utku Turuncoglu for sharing part of their ESMF/NUOPC code on GitHub which helps our code development.</s><s>We wish to thank Ganesh Gopalakrishnan for setting up the standalone MITgcm simulation (OCN.DYN) and providing the external forcings.</s><s>We thank Stephanie Dutkiewicz, Jean-Michel Campin, Chris Hill, and Dimitris Menemenlis for providing their ESMF-MITgcm interface.</s><s>We wish to thank Peng Zhan for discussing the simulations of the Red Sea.</s><s>We also thank the reviewers for their insightful review suggestions.</s></p><p><s>Financial support.</s><s>This research has been supported by the King Abdullah University of Science and Technology, Global Collaborative Research, (grant no.</s><s>OSR-2016-RPP-3268.02).</s></p><p><s>Review statement.</s><s>This paper was edited by Olivier Marti and reviewed by two anonymous referees.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>R. <ref type="bibr">Sun et al.: SKRIPS v1</ref>.0: a regional coupled ocean-atmosphere modeling framework of CPU cores.</s><s>The parallel efficiency of the coupled model is consistent with that of the stand-alone ocean and atmosphere models using the same number of cores.</s><s>The CPU time associated with different components of the coupled simulations shows that the ESMF/NUOPC driver does not add a significant computational overhead.</s><s>Hence the coupled model can be implemented for coupled regional modeling studies on HPC clusters with comparable performance as that attained by uncoupled stand-alone models.</s></p><p><s>The results presented here motivate further studies evaluating and improving this new regional coupled oceanatmosphere model for investigating dynamical processes and forecasting applications.</s><s>This regional coupled forecasting system can be improved by developing coupled data assimilation capabilities for initializing the forecasts.</s><s>In addition, the model physics and model uncertainty representation in the coupled system can be enhanced using advanced techniques, such as stochastic physics parameterizations.</s><s>Future work will involve exploring these and other aspects for a regional coupled modeling system suited for forecasting and process understanding.</s></p><p><s>Code and data availability.</s><s>The coupled model, documentation, and the cases used in this work are available at https://doi.org/10.6075/J0K35S05</s><s><ref target="#b55" type="bibr">(Sun et al., 2019)</ref>, and the source code is maintained on GitHub https://github.com/iurnus/scripps_kaust_model</s><s>(last access: 26 September 2019).</s><s>ECMWF ERA5 data are used as the atmospheric initial and boundary conditions.</s><s>The ocean model uses the assimilated HYCOM/NCODA 1/12 • global analysis data as initial and boundary conditions.</s><s>To validate the simulated SST data, we use the OSTIA (Operational Sea Surface Temperature and Sea Ice Analysis) system in GHRSST (Group for High Resolution Sea Surface Temperature).</s><s>The simulated 2 m air temperature (T 2) is validated against the ECMWF ERA5 data.</s><s>The observed daily maximum and minimum temperatures from NOAA National Climate Data Center is used to validate the T 2 in three major cities.</s><s>Surface heat fluxes (e.g., latent heat fluxes, sensible heat fluxes, and longwave and shortwave radiation) are compared with MERRA-2 (Modern-Era Retrospective analysis for Research and Applications, version 2).</s></p><p><s>Author contributions.</s><s>RS worked on the coding tasks for coupling WRF with MITgcm using ESMF, wrote the code documentation, and performed the simulations for the numerical experiments.</s><s>RS and ACS worked on the technical details for debugging the model and drafted the initial article.</s><s>All authors designed the computational framework and the numerical experiments.</s><s>All authors discussed the results and contributed to the writing of the final article.</s></p><p><s>Competing interests.</s><s>The authors declare that they have no conflict of interest.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Temperature trend on Makkah, Saudi Arabia</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">E A</forename><surname>Abdou</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Atmospheric and Climate Sciences</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope from="457" to="481" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Abdou, A. E. A.: Temperature trend on Makkah, Saudi Arabia, At- mospheric and Climate Sciences, 4, 457-481, 2014.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Modelling Indonesian rainfall with a coupled regional model</title>
+<author>
+<persname><forename type="first">E</forename><surname>Aldrian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Sein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jacob</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">D</forename><surname>Gates</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Podzun</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Clim. Dynam</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope from="1" to="17" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Aldrian, E., Sein, D., Jacob, D., Gates, L. D., and Podzun, R.: Mod- elling Indonesian rainfall with a coupled regional model, Clim. Dynam., 25, 1-17, 2005.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Scalable implementations of ensemble filter algorithms for data assimilation</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Anderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Collins</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Atmos. Ocean. Tech</title>
+<imprint>
+<biblscope unit="volume">24</biblscope>
+<biblscope from="1452" to="1463" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Anderson, J. L. and Collins, N.: Scalable implementations of en- semble filter algorithms for data assimilation, J. Atmos. Ocean. Tech., 24, 1452-1463, 2007.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Improving the assessment of wave energy resources by means of coupled wave-ocean numerical modeling</title>
+<author>
+<persname><forename type="first">F</forename><surname>Barbariol</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Benetazzo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Carniel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Sclavo</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Renewable Energ</title>
+<imprint>
+<biblscope unit="volume">60</biblscope>
+<biblscope from="462" to="471" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Barbariol, F., Benetazzo, A., Carniel, S., and Sclavo, M.: Improving the assessment of wave energy resources by means of coupled wave-ocean numerical modeling, Renewable Energ., 60, 462- 471, 2013.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Real-case simulations of hurricaneocean interaction using a high-resolution coupled model: effects on hurricane intensity</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Bender</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Ginis</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mon. Weather Rev</title>
+<imprint>
+<biblscope unit="volume">128</biblscope>
+<biblscope from="917" to="946" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bender, M. A. and Ginis, I.: Real-case simulations of hurricane- ocean interaction using a high-resolution coupled model: effects on hurricane intensity, Mon. Weather Rev., 128, 917-946, 2000.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Mesoscale weather prediction with the RUC hybrid isentropic-terrain-following coordinate model</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">G</forename><surname>Benjamin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Grell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">G</forename><surname>Smirnova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Bleck</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mon. Weather Rev</title>
+<imprint>
+<biblscope unit="volume">132</biblscope>
+<biblscope from="473" to="494" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Benjamin, S. G., Grell, G. A., Brown, J. M., Smirnova, T. G., and Bleck, R.: Mesoscale weather prediction with the RUC hybrid isentropic-terrain-following coordinate model, Mon. Weather Rev., 132, 473-494, 2004.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">What shapes mesoscale wind anomalies in coastal upwelling zones?</title>
+<author>
+<persname><forename type="first">J</forename><surname>Boé</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Hall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Colas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Mcwilliams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Qu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kurian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">B</forename><surname>Kapnick</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Clim. Dynam</title>
+<imprint>
+<biblscope unit="volume">36</biblscope>
+<biblscope from="2037" to="2049" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Boé, J., Hall, A., Colas, F., McWilliams, J. C., Qu, X., Kurian, J., and Kapnick, S. B.: What shapes mesoscale wind anomalies in coastal upwelling zones?, Clim. Dynam., 36, 2037-2049, 2011.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Ocean surface waves in Hurricane Ike (2008) and Superstorm Sandy (2012): Coupled model predictions and observations</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">S</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Curcic</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ocean Model</title>
+<imprint>
+<biblscope unit="volume">103</biblscope>
+<biblscope from="161" to="176" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chen, S. S. and Curcic, M.: Ocean surface waves in Hurricane Ike (2008) and Superstorm Sandy (2012): Coupled model predic- tions and observations, Ocean Model., 103, 161-176, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">The CBLAST-Hurricane program and the next-generation fully coupled atmosphere-wave-ocean models for hurricane research and prediction</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">S</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">F</forename><surname>Price</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Zhao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Donelan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">J</forename><surname>Walsh</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">B. Am. Meteorol. Soc</title>
+<imprint>
+<biblscope unit="volume">88</biblscope>
+<biblscope from="311" to="318" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chen, S. S., Price, J. F., Zhao, W., Donelan, M. A., and Walsh, E. J.: The CBLAST-Hurricane program and the next-generation fully coupled atmosphere-wave-ocean models for hurricane research and prediction, B. Am. Meteorol. Soc., 88, 311-318, 2007.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Performance and Scaling of WRF on Three Different Parallel Supercomputers</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Christidis</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">International Conference on High Performance Computing</title>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="2015">2015</date>
+<biblscope from="514" to="528" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Christidis, Z.: Performance and Scaling of WRF on Three Different Parallel Supercomputers, in: International Conference on High Performance Computing, Springer, 514-528, 2015.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Design and implementation of components in the Earth System Modeling Framework</title>
+<author>
+<persname><forename type="first">N</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Theurich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Deluca</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Suarez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Trayanov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Balaji</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Hill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Da Silva</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Int. J. High P</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope from="341" to="350" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Collins, N., Theurich, G., Deluca, C., Suarez, M., Trayanov, A., Balaji, V., Li, P., Yang, W., Hill, C., and Da Silva, A.: Design and implementation of components in the Earth System Model- ing Framework, Int. J. High P., 19, 341-350, 2005.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">The operational sea surface temperature and sea ice analysis (OSTIA) system</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Donlon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Martin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Stark</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Roberts-Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Fiedler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Wimmer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Remote Sens. Environ</title>
+<imprint>
+<biblscope unit="volume">116</biblscope>
+<biblscope from="140" to="158" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Donlon, C. J., Martin, M., Stark, J., Roberts-Jones, J., Fiedler, E., and Wimmer, W.: The operational sea surface temperature and sea ice analysis (OSTIA) system, Remote Sens. Environ., 116, 140-158, 2012.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">The development of the regional coupled ocean-atmosphere model RCAO</title>
+<author>
+<persname><forename type="first">R</forename><surname>Doscher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Willén</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Rutgersson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">M</forename><surname>Meier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Hansson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Graham</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Boreal Environ. Res</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope from="183" to="192" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Doscher, R., Willén, U., Jones, C., Rutgersson, A., Meier, H. M., Hansson, U., and Graham, L. P.: The development of the regional coupled ocean-atmosphere model RCAO, Boreal Environ. Res., 7, 183-192, 2002.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">A schema based paradigm for facile description and control of a multi-component parallel, coupled atmosphere-ocean model</title>
+<author>
+<persname><forename type="first">C</forename><surname>Evangelinos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">N</forename><surname>Hill</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Proceedings of the 2007 Symposium on Component and Framework Technology in High-Performance and Scientific Computing</title>
+<meeting>the 2007 Symposium on Component and Framework Technology in High-Performance and Scientific Computing</meeting>
+<imprint>
+<publisher>ACM</publisher>
+<date type="published" when="2007">2007</date>
+<biblscope from="83" to="92" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Evangelinos, C. and Hill, C. N.: A schema based paradigm for facile description and control of a multi-component parallel, cou- pled atmosphere-ocean model, in: Proceedings of the 2007 Sym- posium on Component and Framework Technology in High- Performance and Scientific Computing, ACM, 83-92, 2007.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Bulk parameterization of air-sea fluxes: Updates and verification for the COARE algorithm</title>
+<author>
+<persname><forename type="first">C</forename><surname>Fairall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">F</forename><surname>Bradley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hare</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Grachev</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Edson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Climate</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope from="571" to="591" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fairall, C., Bradley, E. F., Hare, J., Grachev, A., and Edson, J.: Bulk parameterization of air-sea fluxes: Updates and verification for the COARE algorithm, J. Climate, 16, 571-591, 2003.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">A regional air-sea coupled model and its application over East Asia in the summer of 2000</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Fang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Tang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Ren</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Adv. Atmos. Sci</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope from="583" to="593" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fang, Y., Zhang, Y., Tang, J., and Ren, X.: A regional air-sea cou- pled model and its application over East Asia in the summer of 2000, Adv. Atmos. Sci., 27, 583-593, 2010.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Multi-model ensemble estimates of climate change impacts on UK seasonal precipitation extremes</title>
+<author>
+<persname><forename type="first">H</forename><surname>Fowler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ekström</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Int. J. Climatol</title>
+<imprint>
+<biblscope unit="volume">29</biblscope>
+<biblscope from="385" to="416" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fowler, H. and Ekström, M.: Multi-model ensemble estimates of climate change impacts on UK seasonal precipitation extremes, Int. J. Climatol., 29, 385-416, 2009.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">The modern-era retrospective analysis for research and applications, version 2 (MERRA-2)</title>
+<author>
+<persname><forename type="first">R</forename><surname>Gelaro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Mccarty</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Suárez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Todling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Molod</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Takacs</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Randles</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Darmenov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">G</forename><surname>Bosilovich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Reichle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Wargan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Coy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Cullather</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Draper</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Akella</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Buchard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Conaty</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Da Silva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Gu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Kim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Koster</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Lucchesi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Merkova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Nielsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Partyka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Pawson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Putman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Rienecker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">D</forename><surname>Schubert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Sienkiewicz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Zhao</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Climate</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope from="5419" to="5454" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gelaro, R., McCarty, W., Suárez, M. J., Todling, R., Molod, A., Takacs, L., Randles, C. A., Darmenov, A., Bosilovich, M. G., Re- ichle, R., Wargan, K., Coy, L., Cullather, R., Draper, C., Akella, S., Buchard, V., Conaty, A., da Silva, A. M., Gu, W., Kim, G., Koster, R., Lucchesi, R., Merkova, D., Nielsen, J. E., Partyka, G., Pawson, S., Putman, W., Rienecker, M., Schubert, S. D., Sienkiewicz, M., and Zhao, B.: The modern-era retrospective analysis for research and applications, version 2 (MERRA-2), J. Climate, 30, 5419-5454, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">The CIRCE simulations: regional climate change projections with realistic representation of the Mediterranean Sea</title>
+<author>
+<persname><forename type="first">S</forename><surname>Gualdi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Somot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Artale</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Adani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bellucci</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Braun</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Calmanti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Carillo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Dell'aquila</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Déqué</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dubois</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Elizalde</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Harzallah</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jacob</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>L'hévéder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>May</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Oddo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Ruti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Sanna</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Sannino</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Scoccimarro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Sevault</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Navarra</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">B. Am. Meteorol. Soc</title>
+<imprint>
+<biblscope unit="volume">94</biblscope>
+<biblscope from="65" to="81" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gualdi, S., Somot, S., Li, L., Artale, V., Adani, M., Bellucci, A., Braun, A., Calmanti, S., Carillo, A., Dell'Aquila, A., Déqué, M., Dubois, C., Elizalde, A., Harzallah, A., Jacob, D., L'Hévéder, B., May, W., Oddo, P., Ruti, P., Sanna, A., Sannino, G., Scocci- marro, E., Sevault, F., and Navarra, A.: The CIRCE simulations: regional climate change projections with realistic representation of the Mediterranean Sea, B. Am. Meteorol. Soc., 94, 65-81, 2013.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Coupling of a highresolution atmospheric model and an ocean model for the Baltic Sea</title>
+<author>
+<persname><forename type="first">N</forename><surname>Gustafsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Nyberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Omstedt</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mon. Weather Rev</title>
+<imprint>
+<biblscope unit="volume">126</biblscope>
+<biblscope from="2822" to="2846" unit="page"></biblscope>
+<date type="published" when="1998">1998</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gustafsson, N., Nyberg, L., and Omstedt, A.: Coupling of a high- resolution atmospheric model and an ocean model for the Baltic Sea, Mon. Weather Rev., 126, 2822-2846, 1998.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">A coupled high resolution atmosphere-ocean model for the BALTEX region</title>
+<author>
+<persname><forename type="first">R</forename><surname>Hagedorn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Lehmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jacob</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Meteorol. Z</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="7" to="20" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hagedorn, R., Lehmann, A., and Jacob, D.: A coupled high resolu- tion atmosphere-ocean model for the BALTEX region, Meteorol. Z., 9, 7-20, 2000.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">The impacts of climate change in coastal marine systems</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">D</forename><surname>Harley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Randall Hughes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Hultgren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">G</forename><surname>Miner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Sorte</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">S</forename><surname>Thornber</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">F</forename><surname>Rodriguez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Tomanek</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Williams</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecol. Lett</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="228" to="241" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Harley, C. D., Randall Hughes, A., Hultgren, K. M., Miner, B. G., Sorte, C. J., Thornber, C. S., Rodriguez, L. F., Tomanek, L., and Williams, S. L.: The impacts of climate change in coastal marine systems, Ecol. Lett., 9, 228-241, 2006.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Impacts of air-sea interactions on regional air quality predictions using WRF/Chem v3.6.1 coupled with ROMS v3.7: southeastern US example</title>
+<author>
+<persname><forename type="first">J</forename><surname>He</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>He</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhang</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmdd-8-9965-2015,2015</idno>
+<ptr target="https://doi.org/10.5194/gmdd-8-9965-2015,2015"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geosci. Model Dev. Discuss</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope from="9965" to="10009" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">He, J., He, R., and Zhang, Y.: Impacts of air-sea interactions on regional air quality predictions using WRF/Chem v3.6.1 coupled with ROMS v3.7: southeastern US example, Geosci. Model Dev. Discuss., 8, 9965-10009, https://doi.org/10.5194/gmdd-8-9965- 2015, 2015.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">WRF ESMF Development</title>
+<author>
+<persname><forename type="first">T</forename><surname>Henderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Michalakes</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmdd-8-9965-2015</idno>
+</analytic>
+<monogr>
+<title level="m">4th ESMF Community Meeting</title>
+<meeting><address><addrline>Cambridge, USA</addrline></address></meeting>
+<imprint>
+<date type="published" when="2005-07-21">21 July 2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Henderson, T. and Michalakes, J.: WRF ESMF Development, in: 4th ESMF Community Meeting, Cambridge, USA, 21 July 2005.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">The ERA5 Atmospheric Reanalysis</title>
+<author>
+<persname><forename type="first">H</forename><surname>Hersbach</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">AGU Fall Meeting Abstracts</title>
+<meeting><address><addrline>San Francisco, USA</addrline></address></meeting>
+<imprint>
+<date type="published" when="2016-12">December 2016</date>
+<biblscope from="12" to="16" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Hersbach, H.: The ERA5 Atmospheric Reanalysis., in: AGU Fall Meeting Abstracts, San Francisco, USA, 12-16 December 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">The architecture of the Earth system modeling framework</title>
+<author>
+<persname><forename type="first">C</forename><surname>Hill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Deluca</surname></persname>
+</author>
+<author>
+<persname><surname>Balaji</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Suarez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Silva</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Comput. Sci. Eng</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope from="18" to="28" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hill, C., DeLuca, C., Balaji, Suarez, M., and Silva, A.: The archi- tecture of the Earth system modeling framework, Comput. Sci. Eng., 6, 18-28, 2004.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Adoption and field tests of M.I.T General Circulation Model (MITgcm) with ESMF</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">N</forename><surname>Hill</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">4th Annual ESMF Community Meeting</title>
+<meeting><address><addrline>Cambridge, USA</addrline></address></meeting>
+<imprint>
+<date type="published" when="2005-07-21">20-21 July 2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hill, C. N.: Adoption and field tests of M.I.T General Circulation Model (MITgcm) with ESMF, in: 4th Annual ESMF Community Meeting, Cambridge, USA, 20-21 July 2005.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">The Naval Research Laboratory's coupled ocean/atmosphere mesoscale prediction system (COAMPS)</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Hodur</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mon. Weather Rev</title>
+<imprint>
+<biblscope unit="volume">125</biblscope>
+<biblscope from="1414" to="1430" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hodur, R. M.: The Naval Research Laboratory's coupled ocean/atmosphere mesoscale prediction system (COAMPS), Mon. Weather Rev., 125, 1414-1430, 1997.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">A new vertical diffusion package with an explicit treatment of entrainment processes</title>
+<author>
+<persname><forename type="first">S.-Y</forename><surname>Hong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Noh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Dudhia</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mon. Weather Rev</title>
+<imprint>
+<biblscope unit="volume">134</biblscope>
+<biblscope from="2318" to="2341" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hong, S.-Y., Noh, Y., and Dudhia, J.: A new vertical diffusion pack- age with an explicit treatment of entrainment processes, Mon. Weather Rev., 134, 2318-2341, 2006.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">A MITgcm/DART ensemble analysis and prediction system with application to the Gulf of Mexico</title>
+<author>
+<persname><forename type="first">I</forename><surname>Hoteit</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Hoar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Gopalakrishnan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Anderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Cornuelle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Köhl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Heimbach</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Dynam. Atmos. Oceans</title>
+<imprint>
+<biblscope unit="volume">63</biblscope>
+<biblscope from="1" to="23" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hoteit, I., Hoar, T., Gopalakrishnan, G., Collins, N., Anderson, J., Cornuelle, B., Köhl, A., and Heimbach, P.: A MITgcm/DART ensemble analysis and prediction system with application to the Gulf of Mexico, Dynam. Atmos. Oceans, 63, 1-23, 2013.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Intrinsic ocean-atmosphere variability of the tropical Atlantic Ocean</title>
+<author>
+<persname><forename type="first">B</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">S</forename><surname>Schopf</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Shukla</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Climate</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope from="2058" to="2077" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Huang, B., Schopf, P. S., and Shukla, J.: Intrinsic ocean-atmosphere variability of the tropical Atlantic Ocean, J. Climate, 17, 2058- 2077, 2004.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Radiative forcing by long-lived greenhouse gases: calculations with the AER radiative transfer models</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Iacono</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Delamere</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">J</forename><surname>Mlawer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">W</forename><surname>Shephard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Clough</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">D</forename><surname>Collins</surname></persname>
+</author>
+<idno type="DOI">10.1029/2008JD009944</idno>
+<ptr target="https://doi.org/10.1029/2008JD009944"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Geophys. Res.-Atmos</title>
+<imprint>
+<biblscope unit="volume">113</biblscope>
+<biblscope unit="page">13103</biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Iacono, M. J., Delamere, J. S., Mlawer, E. J., Shephard, M. W., Clough, S. A., and Collins, W. D.: Radiative forcing by long-lived greenhouse gases: calculations with the AER radia- tive transfer models, J. Geophys. Res.-Atmos., 113, D13103, https://doi.org/10.1029/2008JD009944, 2008.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">An evaluation of the performance of a WRF multi-physics ensemble for heatwave events over the city of Melbourne in southeast Australia</title>
+<author>
+<persname><forename type="first">H</forename><surname>Imran</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kala</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Muthukumaran</surname></persname>
+</author>
+<idno type="DOI">10.1029/2008JD009944</idno>
+</analytic>
+<monogr>
+<title level="j">Clim. Dynam</title>
+<imprint>
+<biblscope unit="volume">50</biblscope>
+<biblscope from="2553" to="2586" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Imran, H., Kala, J., Ng, A., and Muthukumaran, S.: An evaluation of the performance of a WRF multi-physics ensemble for heatwave events over the city of Melbourne in southeast Australia, Clim. Dynam., 50, 2553-2586, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">The Kain-Fritsch convective parameterization: an update</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Kain</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Appl. Meteorol</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope from="170" to="181" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kain, J. S.: The Kain-Fritsch convective parameterization: an up- date, J. Appl. Meteorol., 43, 170-181, 2004.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Accuracy of 10 m winds from satellites and NWP products near land-sea boundaries</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">B</forename><surname>Kara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Wallcraft</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">N</forename><surname>Barron</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">E</forename><surname>Hurlburt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bourassa</surname></persname>
+</author>
+<idno type="DOI">10.1029/2007JC004516</idno>
+<ptr target="https://doi.org/10.1029/2007JC004516"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Geophys. Res.-Oceans</title>
+<imprint>
+<biblscope unit="volume">113</biblscope>
+<biblscope unit="page">10020</biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kara, A. B., Wallcraft, A. J., Barron, C. N., Hurlburt, H. E., and Bourassa, M.: Accuracy of 10 m winds from satellites and NWP products near land-sea boundaries, J. Geophys. Res.-Oceans, 113, C10020, https://doi.org/10.1029/2007JC004516, 2008.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Changes in the extremes in an ensemble of transient climate simulations with a coupled atmosphere-ocean GCM</title>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">V</forename><surname>Kharin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">W</forename><surname>Zwiers</surname></persname>
+</author>
+<idno type="DOI">10.1029/2007JC004516</idno>
+</analytic>
+<monogr>
+<title level="j">J. Climate</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="3760" to="3788" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kharin, V. V. and Zwiers, F. W.: Changes in the extremes in an ensemble of transient climate simulations with a coupled atmosphere-ocean GCM, J. Climate, 13, 3760-3788, 2000.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<monogr>
+<title level="m" type="main">Diurnal to decadal global forcing for ocean and sea-ice models: the data sets and flux climatologies</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">G</forename><surname>Large</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">G</forename><surname>Yeager</surname></persname>
+</author>
+<idno>NCAR/TN-460+STR</idno>
+<imprint>
+<date type="published" when="2004">2004</date>
+</imprint>
+<respstmt>
+<orgname>CGD Division of the National Center for Atmospheric Research</orgname>
+</respstmt>
+</monogr>
+<note type="report_type">NCAR Technical Note</note>
+<note type="raw_reference">Large, W. G. and Yeager, S. G.: Diurnal to decadal global forcing for ocean and sea-ice models: the data sets and flux climatologies, Tech. rep., NCAR Technical Note: NCAR/TN-460+STR. CGD Division of the National Center for Atmospheric Research, 2004.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Oceanic vertical mixing: A review and a model with a nonlocal boundary layer parameterization</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">G</forename><surname>Large</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Mcwilliams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Doney</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Rev. Geophys</title>
+<imprint>
+<biblscope unit="volume">32</biblscope>
+<biblscope from="363" to="403" unit="page"></biblscope>
+<date type="published" when="1994">1994</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Large, W. G., McWilliams, J. C., and Doney, S. C.: Oceanic vertical mixing: A review and a model with a nonlocal boundary layer parameterization, Rev. Geophys., 32, 363-403, 1994.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Development of an atmosphere-ocean coupled model and its application over the Adriatic Sea during a severe weather event of Bora wind</title>
+<author>
+<persname><forename type="first">N</forename><surname>Loglisci</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Qian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Rachev</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Cassardo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Longhetto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Purini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Trivero</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ferrarese</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Giraud</forename></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename></persname>
+</author>
+<idno type="DOI">10.1029/2003JD003956,2004</idno>
+<ptr target="https://doi.org/10.1029/2003JD003956,2004"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Geophys. Res.-Atmos</title>
+<imprint>
+<biblscope unit="volume">109</biblscope>
+<biblscope unit="page">1102</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Loglisci, N., Qian, M., Rachev, N., Cassardo, C., Longhetto, A., Purini, R., Trivero, P., Ferrarese, S., and Giraud, C.: De- velopment of an atmosphere-ocean coupled model and its application over the Adriatic Sea during a severe weather event of Bora wind, J. Geophys. Res.-Atmos., 109, D01102, https://doi.org/10.1029/2003JD003956, 2004.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">NIES/FRCGC global atmospheric tracer transport model: Description, validation, and surface sources and sinks inversion</title>
+<author>
+<persname><forename type="first">S</forename><surname>Maksyutov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">K</forename><surname>Patra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Onishi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Saeki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Nakazawa</surname></persname>
+</author>
+<idno type="DOI">10.1029/2003JD003956</idno>
+</analytic>
+<monogr>
+<title level="j">Earth Simulator</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="3" to="18" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Maksyutov, S., Patra, P. K., Onishi, R., Saeki, T., and Nakazawa, T.: NIES/FRCGC global atmospheric tracer transport model: De- scription, validation, and surface sources and sinks inversion, Earth Simulator, 9, 3-18, 2008.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">A finite-volume, incompressible Navier Stokes model for studies of the ocean on parallel computers</title>
+<author>
+<persname><forename type="first">J</forename><surname>Marshall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Adcroft</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Hill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Perelman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Heisey</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Geophys. Res.-Oceans</title>
+<imprint>
+<biblscope unit="volume">102</biblscope>
+<biblscope from="5753" to="5766" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Marshall, J., Adcroft, A., Hill, C., Perelman, L., and Heisey, C.: A finite-volume, incompressible Navier Stokes model for studies of the ocean on parallel computers, J. Geophys. Res.-Oceans, 102, 5753-5766, 1997.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Group for High Resolution Sea Surface Temperature (GHRSST) analysis fields inter-comparisons. Part 1: A GHRSST multi-product ensemble (GMPE)</title>
+<author>
+<persname><forename type="first">M</forename><surname>Martin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Dash</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ignatov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Banzon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Beggs</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Brasnett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-F</forename><surname>Cayula</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Cummings</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Donlon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Gentemann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Grumbine</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ishizaki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Maturi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">W</forename><surname>Reynolds</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Roberts-Jones</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Deep-Sea Res. Pt. II</title>
+<imprint>
+<biblscope unit="volume">77</biblscope>
+<biblscope from="21" to="30" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Martin, M. Dash, P., Ignatov, A., Banzon, V., Beggs, H., Bras- nett, B., Cayula, J.-F., Cummings, J., Donlon, C., Gentemann, C., Grumbine, R., Ishizaki, S., Maturi, E., Reynolds, R. W., and Roberts-Jones, J.: Group for High Resolution Sea Surface Tem- perature (GHRSST) analysis fields inter-comparisons. Part 1: A GHRSST multi-product ensemble (GMPE), Deep-Sea Res. Pt. II, 77, 21-30, 2012.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Impact of cloud microphysics on the development of trailing stratiform precipitation in a simulated squall line: Comparison of one-and two-moment schemes</title>
+<author>
+<persname><forename type="first">H</forename><surname>Morrison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Thompson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Tatarskii</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mon. Weather Rev</title>
+<imprint>
+<biblscope unit="volume">137</biblscope>
+<biblscope from="991" to="1007" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Morrison, H., Thompson, G., and Tatarskii, V.: Impact of cloud mi- crophysics on the development of trailing stratiform precipitation in a simulated squall line: Comparison of one-and two-moment schemes, Mon. Weather Rev., 137, 991-1007, 2009.</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<monogr>
+<title level="m" type="main">2-minute Gridded Global Relief Data (ETOPO2) v2</title>
+<idno type="DOI">10.7289/V5J1012Q</idno>
+<ptr target="https://doi.org/10.7289/V5J1012Q"></ptr>
+<imprint>
+<date type="published" when="2006">2006</date>
+<publisher>NOAA</publisher>
+</imprint>
+<respstmt>
+<orgname>National Geophysical Data Center ; National Geophysical Data Center</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">National Geophysical Data Center: 2-minute Gridded Global Relief Data (ETOPO2) v2, National Geophysical Data Center, NOAA, https://doi.org/10.7289/V5J1012Q, 2006.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">A coupled air-sea mesoscale model: Experiments in atmospheric sensitivity to marine roughness</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">G</forename><surname>Powers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">T</forename><surname>Stoelinga</surname></persname>
+</author>
+<idno type="DOI">10.7289/V5J1012Q</idno>
+</analytic>
+<monogr>
+<title level="j">Mon. Weather Rev</title>
+<imprint>
+<biblscope unit="volume">128</biblscope>
+<biblscope from="208" to="228" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Powers, J. G. and Stoelinga, M. T.: A coupled air-sea mesoscale model: Experiments in atmospheric sensitivity to marine rough- ness, Mon. Weather Rev., 128, 208-228, 2000.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Two-way air-sea coupling: A study of the Adriatic</title>
+<author>
+<persname><forename type="first">J</forename><surname>Pullen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Doyle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">P</forename><surname>Signell</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mon. Weather Rev</title>
+<imprint>
+<biblscope unit="volume">134</biblscope>
+<biblscope from="1465" to="1483" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pullen, J., Doyle, J. D., and Signell, R. P.: Two-way air-sea cou- pling: A study of the Adriatic, Mon. Weather Rev., 134, 1465- 1483, 2006.</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">On the use of a coupled ocean-atmosphere-wave model during an extreme cold air outbreak over the Adriatic Sea</title>
+<author>
+<persname><forename type="first">A</forename><surname>Ricchi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">M</forename><surname>Miglietta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">P</forename><surname>Falco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Benetazzo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Bonaldo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bergamasco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Sclavo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Carniel</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Atmos. Res</title>
+<imprint>
+<biblscope unit="volume">172</biblscope>
+<biblscope from="48" to="65" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ricchi, A., Miglietta, M. M., Falco, P. P., Benetazzo, A., Bonaldo, D., Bergamasco, A., Sclavo, M., and Carniel, S.: On the use of a coupled ocean-atmosphere-wave model during an extreme cold air outbreak over the Adriatic Sea, Atmos. Res., 172, 48-65, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">Daily, global, high-resolution SST and sea ice reanalysis for 1985-2007 using the OSTIA system</title>
+<author>
+<persname><forename type="first">J</forename><surname>Roberts-Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">K</forename><surname>Fiedler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Martin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Climate</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope from="6215" to="6232" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Roberts-Jones, J., Fiedler, E. K., and Martin, M. J.: Daily, global, high-resolution SST and sea ice reanalysis for 1985-2007 using the OSTIA system, J. Climate, 25, 6215-6232, 2012.</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Effects of global climate change on marine and estuarine fishes and fisheries</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Roessig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Woodley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Cech</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">J</forename><surname>Hansen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Rev. Fish Biol. Fisher</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope from="251" to="275" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Roessig, J. M., Woodley, C. M., Cech, J. J., and Hansen, L. J.: Ef- fects of global climate change on marine and estuarine fishes and fisheries, Rev. Fish Biol. Fisher., 14, 251-275, 2004.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Distinct influence of air-sea interactions mediated by mesoscale sea surface temperature and surface current in the Arabian Sea</title>
+<author>
+<persname><forename type="first">H</forename><surname>Seo</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Climate</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope from="8061" to="8080" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Seo, H.: Distinct influence of air-sea interactions mediated by mesoscale sea surface temperature and surface current in the Ara- bian Sea, J. Climate, 30, 8061-8080, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">The Scripps Coupled Ocean-Atmosphere Regional (SCOAR) model, with applications in the eastern Pacific sector</title>
+<author>
+<persname><forename type="first">H</forename><surname>Seo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">O</forename><surname>Roads</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Climate</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="381" to="402" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Seo, H., Miller, A. J., and Roads, J. O.: The Scripps Coupled Ocean-Atmosphere Regional (SCOAR) model, with applica- tions in the eastern Pacific sector, J. Climate, 20, 381-402, 2007.</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">Coupled impacts of the diurnal cycle of sea surface temperature R. Sun et al.: SKRIPS v1.0: a regional coupled ocean-atmosphere modeling framework on the Madden-Julian oscillation</title>
+<author>
+<persname><forename type="first">H</forename><surname>Seo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Subramanian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">R</forename><surname>Cavanaugh</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Climate</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope from="8422" to="8443" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Seo, H., Subramanian, A. C., Miller, A. J., and Cavanaugh, N. R.: Coupled impacts of the diurnal cycle of sea surface temperature R. Sun et al.: SKRIPS v1.0: a regional coupled ocean-atmosphere modeling framework on the Madden-Julian oscillation, J. Climate, 27, 8422-8443, 2014.</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">Description and evaluation of the Earth System Regional Climate Model (RegCM-ES)</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">E</forename><surname>Sitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Di Sante</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Farneti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Fuentes-Franco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Coppola</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Mariotti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Reale</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Sannino</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Barreiro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Nogherotto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Giuliani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Graffino</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Solidoro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Cossarini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Giorgi</forename></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename></persname>
+</author>
+<idno type="DOI">10.1002/2017MS000933,2017</idno>
+<ptr target="https://doi.org/10.1002/2017MS000933,2017"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Adv. Model. Earth Sy</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="1863" to="1886" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Sitz, L. E., Di Sante, F., Farneti, R., Fuentes-Franco, R., Coppola, E., Mariotti, L., Reale, M., Sannino, G., Bar- reiro, M., Nogherotto, R., Giuliani, G., Graffino, G., Soli- doro, C., Cossarini, G., and Giorgi, F.: Description and evaluation of the Earth System Regional Climate Model (RegCM-ES), J. Adv. Model. Earth Sy., 9, 1863-1886, https://doi.org/10.1002/2017MS000933, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<monogr>
+<title level="m" type="main">A description of the Advanced Research WRF Version 4</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">C</forename><surname>Skamarock</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Klemp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Dudhia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">O</forename><surname>Gill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Berner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">G</forename><surname>Powers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">G</forename><surname>Duda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Barker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X.-Y</forename><surname>Huang</surname></persname>
+</author>
+<idno type="DOI">10.1002/2017MS000933</idno>
+<idno>NCAR/TN- 556+STR</idno>
+<ptr target="https://doi.org/10.5065/1dfh-6p97"></ptr>
+<imprint>
+<date type="published" when="2019">2019</date>
+<biblscope unit="page">145</biblscope>
+</imprint>
+<respstmt>
+<orgname>Tech. rep.</orgname>
+</respstmt>
+</monogr>
+<note type="report_type">NCAR Technical Note</note>
+<note type="raw_reference">Skamarock, W. C., Klemp, J. B., Dudhia, J., Gill, D. O., Liu, Z., Berner, J., Wang, W., Powers, J. G., Duda, M. G., Barker, D. M., and Huang, X.-Y.: A description of the Advanced Research WRF Version 4, Tech. rep., NCAR Technical Note: NCAR/TN- 556+STR, 145 pp., https://doi.org/10.5065/1dfh-6p97, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">21st century climate change scenario for the Mediterranean using a coupled atmosphere-ocean regional climate model</title>
+<author>
+<persname><forename type="first">S</forename><surname>Somot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Sevault</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Déqué</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Crépon</surname></persname>
+</author>
+<idno type="DOI">10.5065/1dfh-6p97</idno>
+</analytic>
+<monogr>
+<title level="j">Global Planet. Change</title>
+<imprint>
+<biblscope unit="volume">63</biblscope>
+<biblscope from="112" to="126" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Somot, S., Sevault, F., Déqué, M., and Crépon, M.: 21st century climate change scenario for the Mediterranean using a cou- pled atmosphere-ocean regional climate model, Global Planet. Change, 63, 112-126, 2008.</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<author>
+<persname><forename type="first">R</forename><surname>Sun</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Subramanian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">D</forename><surname>Cornuelle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Hoteit</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Mazloff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Miller</surname></persname>
+</author>
+<idno type="DOI">10.6075/J0K35S05</idno>
+<ptr target="https://doi.org/10.6075/J0K35S05"></ptr>
+</analytic>
+<monogr>
+<title level="m">Scripps-KAUST model, Version 1.0. In Scripps-KAUST Regional Integrated Prediction System (SKRIPS)</title>
+<title level="s">UC San Diego Library Digital Collections</title>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sun, R., Subramanian, A. C., Cornuelle, B. D., Hoteit, I., Ma- zloff, M. R., and Miller, A. J.: Scripps-KAUST model, Ver- sion 1.0. In Scripps-KAUST Regional Integrated Prediction System (SKRIPS), UC San Diego Library Digital Collections, https://doi.org/10.6075/J0K35S05, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">The earth system prediction suite: toward a coordinated US modeling capability</title>
+<author>
+<persname><forename type="first">G</forename><surname>Theurich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Deluca</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Campbell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Saint</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Vertenstein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Oehmke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Doyle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Whitcomb</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Wallcraft</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Iredell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Black</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Da Silva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Clune</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ferraro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kelley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Aleinov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Balaji</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Zadeh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Jacob</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Kirtman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Giraldo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Mccarren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sandgathe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Peckham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Dunlap</surname></persname>
+</author>
+<idno type="DOI">10.6075/J0K35S05</idno>
+</analytic>
+<monogr>
+<title level="j">B. Am. Meteorol. Soc</title>
+<imprint>
+<biblscope unit="volume">97</biblscope>
+<biblscope from="1229" to="1247" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Theurich, G., DeLuca, C., Campbell, T., Liu, F., Saint, K., Verten- stein, M., Chen, J., Oehmke, R., Doyle, J., Whitcomb, T., Wall- craft, A., Iredell, M., Black, T., Da Silva, A. M., Clune, T., Fer- raro, R., Li, P., Kelley, M., Aleinov, I., Balaji, V., Zadeh, N., Ja- cob, R., Kirtman, B., Giraldo, F., McCarren, D., Sandgathe, S., Peckham, S., and Dunlap, R.: The earth system prediction suite: toward a coordinated US modeling capability, B. Am. Meteorol. Soc., 97, 1229-1247, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">Validation of a high-resolution version of the regional climate model RegCM3 over the Carpathian basin</title>
+<author>
+<persname><forename type="first">C</forename><surname>Torma</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Coppola</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Giorgi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Bartholy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Pongrácz</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Hydrometeorol</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope from="84" to="100" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Torma, C., Coppola, E., Giorgi, F., Bartholy, J., and Pongrácz, R.: Validation of a high-resolution version of the regional climate model RegCM3 over the Carpathian basin, J. Hydrometeorol., 12, 84-100, 2011.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Modelling the Caspian Sea and its catchment area using a coupled regional atmosphere-ocean model (RegCM4-ROMS): model design and preliminary results</title>
+<author>
+<persname><forename type="first">U</forename><forename type="middle">U</forename><surname>Turuncoglu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Giuliani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Elguindi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Giorgi</forename></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename></persname>
+</author>
+<idno type="DOI">10.5194/gmd-6-283-2013,2013</idno>
+<ptr target="https://doi.org/10.5194/gmd-6-283-2013,2013"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geosci. Model Dev</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope from="283" to="299" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Turuncoglu, U. U., Giuliani, G., Elguindi, N., and Giorgi, F.: Mod- elling the Caspian Sea and its catchment area using a coupled regional atmosphere-ocean model (RegCM4-ROMS): model de- sign and preliminary results, Geosci. Model Dev., 6, 283-299, https://doi.org/10.5194/gmd-6-283-2013, 2013.</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Toward modular in situ visualization in Earth system models: the regional modeling system RegESM 1.1</title>
+<author>
+<persname><forename type="first">U</forename><forename type="middle">U</forename><surname>Turuncoglu</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmd-6-283-2013</idno>
+<ptr target="https://doi.org/10.5194/gmd-12-233-2019,2019"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geosci. Model Dev</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope from="233" to="259" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Turuncoglu, U. U.: Toward modular in situ visualization in Earth system models: the regional modeling system RegESM 1.1, Geosci. Model Dev., 12, 233-259, https://doi.org/10.5194/gmd- 12-233-2019, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">Validation of newly designed regional earth system model (RegESM) for Mediterranean Basin</title>
+<author>
+<persname><forename type="first">U</forename><forename type="middle">U</forename><surname>Turuncoglu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Sannino</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Clim. Dynam</title>
+<imprint>
+<biblscope unit="volume">48</biblscope>
+<biblscope from="2919" to="2947" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Turuncoglu, U. U. and Sannino, G.: Validation of newly designed regional earth system model (RegESM) for Mediterranean Basin, Clim. Dynam., 48, 2919-2947, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<analytic>
+<title level="a" type="main">New coupled atmosphere-ocean-ice system COSMO-CLM/NEMO: assessing air temperature sensitivity over the North and Baltic Seas</title>
+<author>
+<persname><forename type="first">T</forename><surname>Van Pham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Brauch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dieterich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Frueh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Ahrens</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Oceanologia</title>
+<imprint>
+<biblscope unit="volume">56</biblscope>
+<biblscope from="167" to="189" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Van Pham, T., Brauch, J., Dieterich, C., Frueh, B., and Ahrens, B.: New coupled atmosphere-ocean-ice system COSMO- CLM/NEMO: assessing air temperature sensitivity over the North and Baltic Seas, Oceanologia, 56, 167-189, 2014.</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">Development of a coupled ocean-atmosphere-wave-sediment transport (COAWST) modeling system</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Warner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Armstrong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>He</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Zambon</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ocean Model</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope from="230" to="244" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Warner, J. C., Armstrong, B., He, R., and Zambon, J. B.: Devel- opment of a coupled ocean-atmosphere-wave-sediment trans- port (COAWST) modeling system, Ocean Model., 35, 230-244, 2010.</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">A regional ocean-atmosphere model for eastern Pacific climate: toward reducing tropical biases</title>
+<author>
+<persname><forename type="first">S.-P</forename><surname>Xie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Miyama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Xu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">P</forename><surname>De Szoeke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J O</forename><surname>Small</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Richards</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Mochizuki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Awaji</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Climate</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="1504" to="1522" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Xie, S.-P., Miyama, T., Wang, Y., Xu, H., De Szoeke, S. P., Small, R. J. O., Richards, K. J., Mochizuki, T., and Awaji, T.: A regional ocean-atmosphere model for eastern Pacific climate: toward re- ducing tropical biases, J. Climate, 20, 1504-1522, 2007.</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<analytic>
+<title level="a" type="main">Weather forecasts by the WRF-ARW model with the GSI data assimilation system in the complex terrain areas of southwest Asia</title>
+<author>
+<persname><forename type="first">J</forename><surname>Xu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Rugg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Byerle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Liu</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Weather Forecast</title>
+<imprint>
+<biblscope unit="volume">24</biblscope>
+<biblscope from="987" to="1008" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Xu, J., Rugg, S., Byerle, L., and Liu, Z.: Weather forecasts by the WRF-ARW model with the GSI data assimilation system in the complex terrain areas of southwest Asia, Weather Forecast., 24, 987-1008, 2009.</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<analytic>
+<title level="a" type="main">Evaluation of WRF shortwave radiation parameterizations in predicting Global Horizontal Irradiance in Greece</title>
+<author>
+<persname><forename type="first">M.-M</forename><surname>Zempila</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">M</forename><surname>Giannaros</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bais</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Melas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kazantzidis</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Renewable Energ</title>
+<imprint>
+<biblscope unit="volume">86</biblscope>
+<biblscope from="831" to="840" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zempila, M.-M., Giannaros, T. M., Bais, A., Melas, D., and Kazantzidis, A.: Evaluation of WRF shortwave radiation param- eterizations in predicting Global Horizontal Irradiance in Greece, Renewable Energ., 86, 831-840, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b66">
+<analytic>
+<title level="a" type="main">Examination of errors in nearsurface temperature and wind from WRF numerical simulations in regions of complex terrain</title>
+<author>
+<persname><forename type="first">H</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Pu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Zhang</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Weather Forecast</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope from="893" to="914" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zhang, H., Pu, Z., and Zhang, X.: Examination of errors in near- surface temperature and wind from WRF numerical simulations in regions of complex terrain, Weather Forecast., 28, 893-914, 2013a.</note>
+</biblstruct>
+<biblstruct xml:id="b67">
+<analytic>
+<title level="a" type="main">Development of the upgraded tangent linear and adjoint of the Weather Research and Forecasting (WRF) Model</title>
+<author>
+<persname><forename type="first">X</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X.-Y</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Pan</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Atmos. Ocean. Tech</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope from="1180" to="1188" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zhang, X., Huang, X.-Y., and Pan, N.: Development of the upgraded tangent linear and adjoint of the Weather Research and Fore- casting (WRF) Model, J. Atmos. Ocean. Tech., 30, 1180-1188, 2013b.</note>
+</biblstruct>
+<biblstruct xml:id="b68">
+<analytic>
+<title level="a" type="main">Development and evaluation of a regional ocean-atmosphere coupled model with focus on the western North Pacific summer monsoon simulation: Impacts of different atmospheric components</title>
+<author>
+<persname><forename type="first">L</forename><surname>Zou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Zhou</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Sci. China Earth Sci</title>
+<imprint>
+<biblscope unit="volume">55</biblscope>
+<biblscope from="802" to="815" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zou, L. and Zhou, T.: Development and evaluation of a regional ocean-atmosphere coupled model with focus on the western North Pacific summer monsoon simulation: Impacts of differ- ent atmospheric components, Sci. China Earth Sci., 55, 802-815, 2012.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Oxygen supply limits the heat tolerance of lizard embryos</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Colton</forename><surname>Smith</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> School of Life Sciences, Arizona State University, Tempe, AZ 85287, USA</note>
+<orgname type="department">School of Life Sciences</orgname>
+<orgname type="institution">Arizona State University</orgname>
+<address>
+<postcode>85287</postcode>
+<settlement>Tempe</settlement>
+<region>AZ</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author role="corresp">
+<persname><forename type="first">Rory</forename><forename type="middle">S</forename><surname>Telemeco</surname></persname>
+<email>telemeco@uw.edu</email>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Department of Biology, University of Washington, Seattle, WA 98195, USA</note>
+<orgname type="department">Department of Biology</orgname>
+<orgname type="institution">University of Washington</orgname>
+<address>
+<postcode>98195</postcode>
+<settlement>Seattle</settlement>
+<region>WA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Angilletta</surname><genname>Jr</genname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> School of Life Sciences, Arizona State University, Tempe, AZ 85287, USA</note>
+<orgname type="department">School of Life Sciences</orgname>
+<orgname type="institution">Arizona State University</orgname>
+<address>
+<postcode>85287</postcode>
+<settlement>Tempe</settlement>
+<region>AZ</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">John</forename><forename type="middle">M</forename><surname>Vandenbrooks</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> Department of Physiology, Midwestern University, Glendale, AZ 85308, USA</note>
+<orgname type="department">Department of Physiology</orgname>
+<orgname type="institution">Midwestern University</orgname>
+<address>
+<postcode>85308</postcode>
+<settlement>Glendale</settlement>
+<region>AZ</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Oxygen supply limits the heat tolerance of lizard embryos</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">AFFC12A17CEB8CB60E17AA0FE5D3864C</idno>
+<idno type="DOI">10.1098/rsbl.2015.0113</idno>
+<note type="submission">Received: 11 February 2015 Accepted: 4 April 2015</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-11-08T23:00+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>developmental biology</term>
+<term>environmental science Sceloporus tristichus</term>
+<term>critical thermal maximum</term>
+<term>oxygen-limited thermal tolerance</term>
+<term>temperature</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The mechanisms that set the thermal limits to life remain uncertain.</s><s>Classically, researchers thought that heating kills by disrupting the structures of proteins or membranes, but an alternative hypothesis focuses on the demand for oxygen relative to its supply.</s><s>We evaluated this alternative hypothesis by comparing the lethal temperature for lizard embryos developing at oxygen concentrations of 10-30%.</s><s>Embryos exposed to normoxia and hyperoxia survived to higher temperatures than those exposed to hypoxia, suggesting that oxygen limitation sets the thermal maximum.</s><s>As all animals pass through an embryonic stage where respiratory and cardiovascular systems must develop, oxygen limitation may limit the thermal niches of terrestrial animals as well as aquatic ones.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Why do animals die when they overheat?</s><s>Until recently, biologists have suggested that heat kills by disrupting molecular structures, such as enzymes and membranes <ref target="#b0" type="bibr">[1,</ref><ref target="#b1" type="bibr">2]</ref>.</s><s>However, in bilaterian animals, heating might first disrupt the functions of cardiovascular and respiratory systems that supply cells with oxygen <ref target="#b1" type="bibr">[2,</ref><ref target="#b2" type="bibr">3]</ref>.</s><s>This oxygen-limitation hypothesis focuses on a fundamentally different scale from the classic hypothesis: organisms die because organ systems fail before cellular structures do.</s><s>Thus, the oxygen-limitation hypothesis could explain why most animals die at temperatures below the functional limits of proteins or membranes and well below temperatures that cause denaturation ( <ref target="#b1" type="bibr">[2]</ref> and <ref type="bibr">[4, pp. 410-417]</ref>).</s></p><p><s>The oxygen-limitation hypothesis initially gained support from studies of aquatic animals, but biologists have questioned whether the idea applies to terrestrial animals <ref target="#b4" type="bibr">[5]</ref>.</s><s>If warming causes oxygen demand to exceed supply, the lethal temperature should depend on factors limiting oxygen supply.</s><s>Accordingly, a hypoxic environment should reduce the lethal temperature.</s><s>Although this phenomenon has been documented for marine and freshwater animals <ref target="#b1" type="bibr">[2,</ref><ref target="#b5" type="bibr">6,</ref><ref target="#b6" type="bibr">7]</ref>, no effect of hypoxia on thermal limits has been observed in terrestrial insects <ref target="#b4" type="bibr">[5,</ref><ref target="#b7" type="bibr">8]</ref>.</s><s>Because the concentrations of oxygen are lower in water than in air, aquatic organisms may be more susceptible to oxygen reductions than terrestrial organisms <ref target="#b1" type="bibr">[2,</ref><ref target="#b4" type="bibr">5]</ref>.</s><s>However, terrestrial species still face aerobic challenges, especially when respiratory or cardiovascular systems are developing.</s></p><p><s>Here, we show that atmospheric oxygen concentration modifies the thermal limit of survival in embryonic plateau fence lizards, Sceloporus tristichus.</s><s>This species occurs at elevations of 900-2750 m <ref target="#b8" type="bibr">[9]</ref> and experiences oxygen supplies equivalent to hypoxia at sea level <ref type="bibr">(15-19% oxygen)</ref>.</s><s>At moderate temperatures, Sceloporus embryos grow and develop successfully under severe hypoxia (8%) or hyperoxia (30%) <ref target="#b9" type="bibr">[10]</ref>.</s><s>At normoxia, they survive daily heating to temperatures below 42-448C (O.</s><s>Levy, C. D. Smith, D. Kumar, K. Boateng, M. J. Angilletta 2012-2013, unpublished data).</s><s>By manipulating oxygen concentration and thermal stress, we show that S. tristichus embryos exposed to hypoxia succumb to reduced temperatures.</s><s>Thus, constraints on oxygen supply during early-life stages can limit the thermal niches of terrestrial species.</s><s>Prior to measures of thermal tolerance, embryos developed under normoxic conditions.</s><s>Eggs were assigned to plastic containers (12.7 Â 12.7 Â 12.7 cm) in groups of four, with the constraint that only one egg per mother was assigned per container.</s><s>Containers held 400 g of sand mixed with 4 g of water; this mixture yields a water potential of 210 kPa <ref target="#b10" type="bibr">[11]</ref>, which causes eggs to gain water linearly during incubation <ref target="#b11" type="bibr">[12]</ref>.</s><s>We placed egg containers in an incubator (DR-36VL; Percival Scientific, Perry, IA, USA) programmed to maintain 85% relative humidity and a diel cycle of temperature that mimics a natural nest (20.48C to 34.78C, mean ¼ 278C <ref target="#b12" type="bibr">[13]</ref>).</s><s>Containers were weighed weekly to replace evaporated water.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Material and methods</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">(b) Experimental protocol<p><s>After approximately 30 days (range ¼ 27-34 days) or 45% of the mean incubation period <ref target="#b10" type="bibr">[11]</ref>, we randomly selected four eggs per clutch (N ¼ 32) to measure the effect of atmospheric oxygen on thermal tolerance.</s><s>To confirm that these eggs were alive, we measured cardiac activity with an infrared monitor (Avitronics, Cornwall, UK).</s><s>Three eggs without cardiac activity were excluded.</s><s>The remaining eggs were transferred to airtight chambers (Lock&amp;Lock, Anaheim, CA, USA) in a second programmable incubator.</s><s>Clutch mates were divided evenly among the chambers, resulting in three or four embryos per chamber.</s><s>A ROXY-8 oxygen controller (Sable Systems International, Las Vegas, NV, USA) was used to set the concentration of oxygen in each chamber <ref target="#b9" type="bibr">(10,</ref><ref target="#b11" type="bibr">12,</ref><ref target="#b14" type="bibr">15,</ref><ref target="#b17" type="bibr">18,</ref><ref type="bibr">21,</ref><ref type="bibr">24</ref>, 27 and 30% + 0.5%).</s></p><p><s>Eggs were positioned within chambers to maximize contact with the atmosphere while minimizing evaporative water loss.</s><s>Each egg was placed on a moist piece of cotton in a plastic dish.</s><s>To maintain high humidity, we placed an open vial with 50 ml of water in each chamber and dispersed an additional 10 ml on the floor of the chambers.</s><s>Eggs maintained stable mass during the experiment ( paired t-test of egg mass before versus after: t 28 ¼ 0.54, P ¼ 0.59).</s></p><p><s>On the first day of the experiment, incubation chambers cycled between 208C and 388C, simulating diel fluctuations in natural nests <ref target="#b12" type="bibr">[13]</ref> and well within the range of tolerable temperatures <ref target="#b13" type="bibr">[14]</ref>.</s><s>On subsequent days, the temperature cycled in a similar fashion, except that the maximal temperature increased by 18C d 21 .</s><s>We placed iButton temperature loggers (Maxim Integrated, San Jose, CA, USA) inside the chambers to confirm these temperatures (figure <ref type="figure">1</ref>).</s><s>After each thermal cycle, cardiac activity was monitored to establish whether individuals had survived.</s><s>Prior to returning embryos to their chambers, egg masses were measured and water was added to the cotton to offset evaporation.</s><s>After nine thermal cycles, all embryos lacked signs of cardiac activity.</s><s>To verify death, eggs were placed in their original incubation containers and observed for several weeks; embryos neither resumed cardiac activity nor completed development.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">(c) Statistical analyses<p><s>We compared linear, nonlinear and piecewise models of the relationship between oxygen concentration and lethal temperature.</s><s>These analyses were conducted with the glm (linear and nonlinear models) or segmented (piecewise model) functions of the R Statistical Software (v.</s><s>3.1.1)</s><s><ref target="#b14" type="bibr">[15,</ref><ref target="#b15" type="bibr">16]</ref>.</s><s>For linear and quadratic models, we used a Gaussian distribution with the identity link function.</s><s>For an asymptotic model (lethal temperature / 1/ oxygen concentration), we used a Gaussian distribution with an inverse link function, which produces the Michaelis-Menton model <ref target="#b16" type="bibr">[17]</ref>.</s><s>The piecewise model began with a linear fit and used an iterative approach to locate the most parsimonious break point (22.2% oxygen).</s><s>The most likely model was determined by the Akaike information criterion (AIC).</s><s>Early in our analyses, we included egg mass (fixed factor), maternal identity (random effect) and their interactions with oxygen concentration; however, these terms were ultimately excluded because they failed to reduce the AIC.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results and discussion<p><s>As predicted by the oxygen-limitation hypothesis, embryos exposed to lower concentrations of oxygen died at lower temperatures (figure <ref type="figure">2</ref>).</s><s>The asymptotic model was twice as rsbl.royalsocietypublishing.org Biol.</s><s>Lett.</s><s>11: 20150113 likely to best describe the relationship between oxygen concentration and lethal temperature as the quadratic model was, and three times more likely than the piecewise or linear models (table <ref target="#tab_0" type="table">1</ref>).</s><s>Embryos exposed to normoxia (21%) survived to temperatures between 428C and 448C.</s></p><p><s>Lethal temperature fell sharply with exposure to hypoxia, such that embryos exposed to 10 -12% oxygen died between 398C and 418C.</s><s>By contrast, hyperoxia had a small positive effect on lethal temperature; all but one embryo exposed to hyperoxia (23 -30%) survived to at least 428C and two embryos survived to 458C.</s><s>In previous studies of S. tristichus at normoxia, every embryo succumbed to temperatures below 458C (O.</s><s>Levy, C. D. Smith, D. Kumar, K. Boateng, M. J. Angilletta 2012-2013, unpublished data).</s><s>The small positive effect of hyperoxia was supported by the higher likelihood of the asymptotic model, in which lethal temperature increases monotonically with increasing oxygen concentration.</s><s>We interpret the strong effect of hypoxia on thermal tolerance compared with the weak effect of hyperoxia in two ways.</s><s>First, hyperoxia might enable embryos to survive to temperatures that affect proteins or membranes, thus factors other than oxygen supply limited survival.</s><s>However, this explanation seems implausible considering that most enzymes would not denature at 458C and would regain performance upon cooling <ref target="#b1" type="bibr">[2,</ref><ref target="#b3" type="bibr">4]</ref>.</s><s>By contrast, the weak effect of hyperoxia makes sense when interpreted as a product of symmorphosis-the idea that structural design matches functional demand <ref target="#b17" type="bibr">[18]</ref>.</s><s>If a species never experiences oxygen concentrations above 21%, it should lack the cellular machinery to use additional oxygen (i.e.</s><s>blood should be fully saturated at normoxia).</s><s>Consistent with this interpretation, a previous experiment revealed that hyperoxia (30%) had no impact on growth and development in Sceloporus embryos, although hypoxia (8%) slowed growth and development relative to normoxia <ref target="#b9" type="bibr">[10]</ref>.</s><s>As these embryos were not exposed to thermal stress, structural changes in proteins or membranes could not have caused the nonlinear effect of oxygen supply on growth and development.</s></p><p><s>By focusing on the embryonic stage, we showed that oxygen supply can influence the thermal tolerance of terrestrial animals.</s><s>Prior work with insects suggested that oxygen supply does not affect the thermal tolerance of terrestrial animals, potentially because air contains more oxygen than water <ref target="#b4" type="bibr">[5]</ref>.</s><s>Our study casts doubt on this simple dichotomy <ref target="#b7" type="bibr">[8]</ref> and underscores the fact that each species' ability to acquire oxygen depends on its evolutionary history and developmental stage.</s><s>Adult insects respire using efficient tracheal systems <ref target="#b18" type="bibr">[19]</ref>, but the embryos of oviparous amniotes possess a relatively poor respiratory system.</s><s>These embryos rely on atmospheric oxygen diffusing across the shell and into the bloodstream of the chorioallantoic membrane.</s><s>Adult insects should be less susceptible to hypoxia than embryonic reptiles, but even insects pass through an embryonic stage.</s><s>Therefore, lethal temperatures of most animals should depend on oxygen supply at some stage of their life cycle.</s><s>This interaction has important implications for ecology and evolution, especially given that climate warming pushes species to higher elevations with lower oxygen supplies <ref target="#b19" type="bibr">[20]</ref>.</s></p><p><s>Ethics statement.</s><s>Permission for this study was granted from the Arizona Department of Game and Fish ( permit no.</s><s>SP666234) and the Animal Care and Use Committee of Arizona State University ( protocol no.</s><s>14-1338R).</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>(a) Lizard collection and general husbandry Gravid females (N ¼ 8) were collected from Navajo County, AZ (34.207786, 2110.101056,</s><s>elevation % 1000 m) and transported to Arizona State University.</s><s>Lizards were housed individually in plastic terraria (35 Â 20 Â 20 cm) with a 12 L : 12 D cycle.</s><s>Ambient temperature was 338C during photophase and 208C during scotophase.</s><s>Water was available at all times, and four to five crickets were offered as food daily.</s><s>Females oviposited between 16 and 23 June 2014.</s></p></div></figdesc></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .Figure 2 .<label>12</label><figdesc><div><p><s>Figure 1.</s><s>During the experiment, embryos were exposed to higher maximal temperatures each day until all embryos were dead.</s><s>Temperatures shown were measured within our chambers by data loggers.</s></p></div></figdesc><graphic coords="2,346.13,263.30,196.70,182.54" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>An asymptotic function was more than twice as likely to be the best model of lethal temperature, as judged by the differences between AIC scores (DAIC) and the Akaike weights (w).</s></p></div></figdesc><table><row><cell>model asymptotic quadratic linear piecewise</cell><cell>parameter oxygen oxygen oxygen 2 oxygen oxygen 22.2% oxygen . 22.2%</cell><cell>d.f. 1,27 1,27 1,26 1,27 1,27 1,26</cell><cell>F 24.5 22.3 2.3 21.3 22.4 3.5</cell><cell>P 0.00003 0.00007 0.14 0.00009 0.00007 0.07</cell><cell>DAIC 0 1.4 1.9 2.1</cell><cell>w 0.45 0.22 0.17 0.15</cell><cell>rsbl.royalsocietypublishing.org Biol. Lett. 11: 20150113</cell></row></table></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>&amp; 2015 The Author(s) Published by the Royal Society.</s><s>All rights reserved.</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Acknowledgements.</s><s>We thank David Belohlavek and Angela Riley for laboratory assistance.</s></p></div>
+</div>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Data accessibility.</s><s>Data are available through Dryad (http://dx.doi.org/</s><s>10.5061/dryad.1h7p0).</s></p></div>
+</div>
+<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Funding statement.</s><s>Research was supported by grants from the National Science Foundation to M.J.A. (EF-1065856) and L. B. Buckley (EF-1065638).</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Authors' contributions.</s><s>All authors contributed to study design, set-up, interpretation and revision, and approved the final draft.</s><s>Data were primarily collected by C.S. and analysed by R.S.T. C.S. and R.S.T. co-wrote early drafts.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conflict of interests.<p><s>We have no competing interests.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Review: protein function at thermal extremes: balancing stability and flexibility</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Fields</surname></persname>
+</author>
+<idno type="DOI">10.1016/S1095-6433(00)00359-7</idno>
+</analytic>
+<monogr>
+<title level="j">Comp. Biochem. Phys. A</title>
+<imprint>
+<biblscope unit="volume">129</biblscope>
+<biblscope from="417" to="431" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fields PA. 2001 Review: protein function at thermal extremes: balancing stability and flexibility. Comp. Biochem. Phys. A 129, 417-431. (doi:10.1016/ S1095-6433(00)00359-7)</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Climate variations and the physiological basis of temperature dependent biogeography: systemic to molecular hierarchy of thermal tolerance in animals</title>
+<author>
+<persname><surname>Po</surname></persname>
+</author>
+<author>
+<persname><surname>Ho</surname></persname>
+</author>
+<idno type="DOI">10.1016/S1095-6433(02)00045-4</idno>
+</analytic>
+<monogr>
+<title level="j">Comp. Biochem. Physiol. A</title>
+<imprint>
+<biblscope unit="volume">132</biblscope>
+<biblscope from="739" to="761" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Po ¨rtner HO. 2002 Climate variations and the physiological basis of temperature dependent biogeography: systemic to molecular hierarchy of thermal tolerance in animals. Comp. Biochem. Physiol. A 132, 739 -761. (doi:10.1016/S1095- 6433(02)00045-4)</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Climate change and temperaturedependent biogeography: oxygen limitation of thermal tolerance in animals</title>
+<author>
+<persname><surname>Po</surname></persname>
+</author>
+<author>
+<persname><surname>Ho</surname></persname>
+</author>
+<idno type="DOI">10.1007/s001140100216</idno>
+</analytic>
+<monogr>
+<title level="j">Naturwissenschaften</title>
+<imprint>
+<biblscope unit="volume">88</biblscope>
+<biblscope from="137" to="146" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Po ¨rtner HO. 2001 Climate change and temperature- dependent biogeography: oxygen limitation of thermal tolerance in animals. Naturwissenschaften 88, 137-146. (doi:10.1007/s001140100216)</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<monogr>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">W</forename><surname>Hochachka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">N</forename><surname>Somero</surname></persname>
+</author>
+<title level="m">Biochemical adaptation</title>
+<meeting><address><addrline>Princeton, NJ</addrline></address></meeting>
+<imprint>
+<publisher>Princeton University Press</publisher>
+<date type="published" when="1984">1984</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hochachka PW, Somero GN. 1984 Biochemical adaptation. Princeton, NJ: Princeton University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Upper thermal limits of insects are not the result of insufficient oxygen delivery</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Mccue</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Los</forename><surname>De</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Santos</surname></persname>
+</author>
+<idno type="DOI">10.1086/669932</idno>
+</analytic>
+<monogr>
+<title level="j">Physiol. Biochem. Zool</title>
+<imprint>
+<biblscope unit="volume">86</biblscope>
+<biblscope from="257" to="265" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McCue MD, De Los Santos R. 2013 Upper thermal limits of insects are not the result of insufficient oxygen delivery. Physiol. Biochem. Zool. 86, 257-265. (doi:10.1086/669932)</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Climate change affects marine fishes through the oxygen limitation of thermal tolerance</title>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">O</forename><surname>Po ¨rtner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Knust</surname></persname>
+</author>
+<idno type="DOI">10.1126/science.1135471</idno>
+</analytic>
+<monogr>
+<title level="j">Science</title>
+<imprint>
+<biblscope unit="volume">315</biblscope>
+<biblscope from="95" to="97" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Po ¨rtner HO, Knust R. 2007 Climate change affects marine fishes through the oxygen limitation of thermal tolerance. Science 315, 95 -97. (doi:10. 1126/science.1135471)</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Anaerobic metabolism at thermal extremes: a metabolomic test of the oxygen limitation hypothesis in an aquatic insect</title>
+<author>
+<persname><forename type="first">Wcep</forename><surname>Verberk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Sommer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L</forename><surname>Davidson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Viant</surname></persname>
+</author>
+<idno type="DOI">10.1093/icb/ict015</idno>
+</analytic>
+<monogr>
+<title level="j">Integr. Comp. Biol</title>
+<imprint>
+<biblscope unit="volume">53</biblscope>
+<biblscope from="609" to="619" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Verberk WCEP, Sommer U, Davidson RL, Viant MR. 2013 Anaerobic metabolism at thermal extremes: a metabolomic test of the oxygen limitation hypothesis in an aquatic insect. Integr. Comp. Biol. 53, 609-619. (doi:10. 1093/icb/ict015)</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Upper thermal tolerance and oxygen limitation in terrestrial arthropods</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Klok</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Sinclair</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Chown</surname></persname>
+</author>
+<idno type="DOI">10.1242/jeb.01023</idno>
+</analytic>
+<monogr>
+<title level="j">J. Exp. Biol</title>
+<imprint>
+<biblscope unit="volume">207</biblscope>
+<biblscope from="2361" to="2370" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Klok CJ, Sinclair BJ, Chown SL. 2004 Upper thermal tolerance and oxygen limitation in terrestrial arthropods. J. Exp. Biol. 207, 2361-2370. (doi:10. 1242/jeb.01023)</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Plateau fence lizard</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">B</forename><surname>Persons</surname></persname>
+</author>
+<author>
+<persname><forename type="first">´ad</forename><surname>Leache</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Lizards of the American Southwest: a photographic field guide</title>
+<editor>
+<persname><surname>Jones</surname></persname>
+</editor>
+<editor>
+<persname><surname>Lovich</surname></persname>
+</editor>
+<meeting><address><addrline>Tuscon, AZ</addrline></address></meeting>
+<imprint>
+<publisher>Rio Nuevo Publishers</publisher>
+<date type="published" when="2009">2009</date>
+<biblscope from="254" to="257" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Persons TB, Leache ´AD. 2009 Plateau fence lizard. In Lizards of the American Southwest: a photographic field guide (eds LLC Jones, RE Lovich), pp. 254-257. Tuscon, AZ: Rio Nuevo Publishers.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Low oxygen: a constraint on the evolution of viviparity in reptiles</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Andrews</surname></persname>
+</author>
+<idno type="DOI">10.1086/339388</idno>
+</analytic>
+<monogr>
+<title level="j">Physiol. Biochem. Zool</title>
+<imprint>
+<biblscope unit="volume">75</biblscope>
+<biblscope from="145" to="154" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Andrews RM. 2002 Low oxygen: a constraint on the evolution of viviparity in reptiles. Physiol. Biochem. Zool. 75, 145-154. (doi:10.1086/ 339388)</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Convergent evolution of embryonic growth and development in the eastern fence lizard (Sceloporus undulatus)</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">E</forename><surname>Oufiero</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Angilletta</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.0014-3820.2006.tb01183.x</idno>
+</analytic>
+<monogr>
+<title level="j">Evolution</title>
+<imprint>
+<biblscope unit="volume">60</biblscope>
+<biblscope from="1066" to="1075" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Oufiero CE, Angilletta MJ. 2006 Convergent evolution of embryonic growth and development in the eastern fence lizard (Sceloporus undulatus). Evolution 60, 1066 -1075. (doi:10.1111/j.0014- 3820.2006.tb01183.x)</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Thermal effects on the energetics of lizard embryos: implications for hatchling phenotypes</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Angilletta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">S</forename><surname>Winters</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">E</forename><surname>Dunham</surname></persname>
+</author>
+<idno type="DOI">10.1890/0012-9658(2000)081[2957:Teoteo]2.0.Co;2</idno>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">81</biblscope>
+<biblscope from="2957" to="2968" unit="page"></biblscope>
+<date type="published" when="2000">2000. 2957</date>
+</imprint>
+</monogr>
+<note>2.0.Co;2</note>
+<note type="raw_reference">Angilletta MJ, Winters RS, Dunham AE. 2000 Thermal effects on the energetics of lizard embryos: implications for hatchling phenotypes. Ecology 81, 2957-2968. (doi:10.1890/0012-9658(2000)081 [2957:Teoteo]2.0.Co;2)</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Spatial dynamics of nesting behavior: lizards shift microhabitats to construct nests with beneficial thermal properties</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Angilletta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">W</forename><surname>Sears</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Pringle</surname></persname>
+</author>
+<idno type="DOI">10.1890/08-2224.1</idno>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope from="2933" to="2939" unit="page"></biblscope>
+<date type="published" when="2009">2009. 2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Angilletta MJ, Sears MW, Pringle RM. 2009 Spatial dynamics of nesting behavior: lizards shift microhabitats to construct nests with beneficial thermal properties. Ecology 2009, 2933-2939. (doi:10.1890/ 08-2224.1)</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Heat tolerance during embryonic development has not diverged among populations of a widespread species (Sceloporus undulatus)</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Angilletta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">H</forename><surname>Zelic</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">J</forename><surname>Adrian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Hurliman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">D</forename><surname>Smith</surname></persname>
+</author>
+<idno type="DOI">10.1093/conphys/cot018</idno>
+</analytic>
+<monogr>
+<title level="j">Conserv. Phys</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<biblscope from="1" to="9" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Angilletta MJ, Zelic MH, Adrian GJ, Hurliman AM, Smith CD. 2013 Heat tolerance during embryonic development has not diverged among populations of a widespread species (Sceloporus undulatus). Conserv. Phys. 1, 1-9. (doi:10.1093/conphys/ cot018)</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">segmented: an R package to fit regression models with broken-line relationships</title>
+<author>
+<persname><forename type="first">M</forename><surname>Vito</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Muggeo</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">R News</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope from="20" to="25" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vito M, Muggeo R. 2008 segmented: an R package to fit regression models with broken-line relationships. R News 8, 20 -25.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<monogr>
+<title level="m" type="main">R: a language and environment for statistical computing</title>
+<author>
+<persname><forename type="first">Team</forename><surname>Core</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2014">2014</date>
+<publisher>R Foundation for Statistical Computing</publisher>
+<pubplace>Vienna, Austria</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">R Core Team. 2014 R: a language and environment for statistical computing. Vienna, Austria: R Foundation for Statistical Computing.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<monogr>
+<author>
+<persname><forename type="first">C</forename><surname>Ritz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Streibig</surname></persname>
+</author>
+<title level="m">Nonlinear regression with R</title>
+<meeting><address><addrline>New York, NY</addrline></address></meeting>
+<imprint>
+<publisher>Springer ScienceþBusiness Media, LLC</publisher>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ritz C, Streibig JC. 2008 Nonlinear regression with R. New York, NY: Springer ScienceþBusiness Media, LLC.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">The concept of symmorphosis: a testable hypothesis of structurefunction relationship</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">R</forename><surname>Weibel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">R</forename><surname>Taylor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Hoppeler</surname></persname>
+</author>
+<idno type="DOI">10.1073/pnas.88.22.10357</idno>
+</analytic>
+<monogr>
+<title level="j">Proc. Natl Acad. Sci. USA</title>
+<imprint>
+<biblscope unit="volume">88</biblscope>
+<biblscope from="10" to="357" unit="page"></biblscope>
+<date type="published" when="1991">1991</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Weibel ER, Taylor CR, Hoppeler H. 1991 The concept of symmorphosis: a testable hypothesis of structure- function relationship. Proc. Natl Acad. Sci. USA 88, 10 357-10 361. (doi:10.1073/pnas.88.22.10357)</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Atmospheric oxygen level and the evolution of insect body size</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">F</forename><surname>Harrison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kaiser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Vandenbrooks</surname></persname>
+</author>
+<idno type="DOI">10.1098/rspb.2010.0001</idno>
+</analytic>
+<monogr>
+<title level="j">Proc. R. Soc. B</title>
+<imprint>
+<biblscope unit="volume">277</biblscope>
+<biblscope from="1937" to="1946" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Harrison JF, Kaiser A, VandenBrooks JM. 2010 Atmospheric oxygen level and the evolution of insect body size. Proc. R. Soc. B 277, 1937-1946. (doi:10.1098/rspb.2010.0001)</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">A globally coherent fingerprint of climate change impacts across natural systems</title>
+<author>
+<persname><forename type="first">C</forename><surname>Parmesan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Yohe</surname></persname>
+</author>
+<idno type="DOI">10.1038/nature01286</idno>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">421</biblscope>
+<biblscope unit="page">20150113</biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note>royalsocietypublishing</note>
+<note type="raw_reference">Parmesan C, Yohe G. 2003 A globally coherent fingerprint of climate change impacts across natural systems. Nature 421, 37 -42. (doi:10.1038/ nature01286) rsbl.royalsocietypublishing.org Biol. Lett. 11: 20150113</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

@@ -1,0 +1,2734 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">On the Validity of Arrest as a Proxy for Oense: Race and the Likelihood of Arrest for Violent Crimes</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">Riccardo</forename><surname>Fogliato</surname></persname>
+<email>rfogliat@andrew.cmu.edu</email>
+<affiliation key="aff0">
+<note type="raw_affiliation">Carnegie Mellon University</note>
+<orgname type="institution">Carnegie Mellon University</orgname>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Alice</forename><surname>Xiang</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation">Sony AI</note>
+<orgname type="institution">Sony AI</orgname>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Zachary</forename><surname>Lipton</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation">Carnegie Mellon University</note>
+<orgname type="institution">Carnegie Mellon University</orgname>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Daniel</forename><surname>Nagin</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation">Carnegie Mellon University</note>
+<orgname type="institution">Carnegie Mellon University</orgname>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Alexandra</forename><surname>Chouldechova</surname></persname>
+<affiliation key="aff4">
+<note type="raw_affiliation">Carnegie Mellon University</note>
+<orgname type="institution">Carnegie Mellon University</orgname>
+</affiliation>
+</author>
+<title level="a" type="main">On the Validity of Arrest as a Proxy for Oense: Race and the Likelihood of Arrest for Violent Crimes</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">2EC6EA8742BEDE6BDF126F9FADB3FE19</idno>
+<idno type="DOI">10.1145/3461702.3462538</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-09-02T09:11+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>• Applied computing ! Law, social and behavioral sciences risk assessment instrument</term>
+<term>crime</term>
+<term>racial disparity</term>
+<term>NIBRS</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The risk of re-oense is considered in decision-making at many stages of the criminal justice system, from pre-trial, to sentencing, to parole.</s><s>To aid decision-makers in their assessments, institutions increasingly rely on algorithmic risk assessment instruments (RAIs).</s><s>These tools assess the likelihood that an individual will be arrested for a new criminal oense within some time window following their release.</s><s>However, since not all crimes result in arrest, RAIs do not directly assess the risk of re-oense.</s><s>Furthermore, disparities in the likelihood of arrest can potentially lead to biases in the resulting risk scores.</s><s>Several recent validations of RAIs have therefore focused on arrests for violent oenses, which are viewed as being more accurate and less biased reections of oending behavior.</s><s>In this paper, we investigate biases in violent arrest data by analysing racial disparities in the likelihood of arrest for White and Black violent oenders.</s><s>We focus our study on 2007-2016 incident-level data of violent oenses from 16 US states as recorded in the National Incident Based Reporting System (NIBRS).</s><s>Our analysis shows that the magnitude and direction of the racial disparities depend on various characteristics of the crimes.</s><s>In addition, our investigation reveals large variations in arrest rates across geographical locations and oense types.</s><s>We discuss the implications of the observed disconnect between re-arrest and re-oense in the context of RAIs and the challenges around the use of data from NIBRS to correct for the sampling bias.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">INTRODUCTION<p><s>Recidivism risk assessment instruments (RAIs) are increasingly used to inform decisions throughout the criminal justice system <ref target="#b85" type="bibr">[86]</ref>.</s><s>To justify their adoption, practitioners, vendors, and scholars often claim that the use of RAIs can lead to more objective, transparent, and fair decisions <ref target="#b57" type="bibr">[58,</ref><ref target="#b72" type="bibr">73,</ref><ref target="#b87" type="bibr">88]</ref>.</s><s>However, the ability of RAIs to help achieve these ambitious goals has been contested <ref target="#b4" type="bibr">[5,</ref><ref target="#b58" type="bibr">59]</ref>.</s><s>A major concern is that the RAIs themselves may exhibit problematic predictive biases.</s><s>In May 2016, an investigation by ProPublica examined COMPAS, an RAI used in Broward County, Florida, nding that the tool's predictions exhibited a higher false positive rate for Black (vs.</s><s>White) defendants and thus concluding that COMPAS was biased against Black defendants <ref target="#b2" type="bibr">[3]</ref>.</s><s>Critics rebutted these claims, arguing that error rate imbalance did not necessarily indicate racial bias and that RAIs should be assessed for predictive parity and calibration, two properties that COMPAS satised <ref target="#b25" type="bibr">[26,</ref><ref target="#b53" type="bibr">54]</ref>.</s><s>Later work on the topic showed that predictive parity and error rate balance cannot be simultaneously satised when the recidivism rates dier across demographic groups <ref target="#b19" type="bibr">[20,</ref><ref target="#b21" type="bibr">22,</ref><ref target="#b73" type="bibr">74]</ref>, sparking a urry of technical research on algorithmic fairness within the machine learning community.</s><s>These papers, many of which draw on the ProPublica-COMPAS dataset, tend to focus on metrics for capturing bias, techniques for mitigating bias as measured by these metrics, and characterizing fundamental tradeos <ref target="#b0" type="bibr">[1,</ref><ref target="#b8" type="bibr">9,</ref><ref target="#b18" type="bibr">19,</ref><ref target="#b26" type="bibr">27,</ref><ref target="#b60" type="bibr">61,</ref><ref target="#b66" type="bibr">67]</ref>.</s></p><p><s>Problematically, much of this work rests on the assumption that the observed outcomes (a.k.a.</s><s>dependent variables) represent ground truth.</s><s>Potential sources of bias in the training data are often overlooked.</s><s>For example, many bias mitigation strategies amount to equalizing the RAI's performance across racial groups with respect to some metric based on re-arrest outcomes.</s><s>However, it is widely acknowledged that arrest data are aected by sampling bias 1 <ref target="#b14" type="bibr">[15]</ref> and re-arrest may represent an imperfect proxy for the target of interest, re-oense.</s><s>Importantly, there is ample evidence that racial minorities tend to face higher risk of arrest, especially for crimes targeted through proactive policing, such as drug and trac oenses <ref target="#b56" type="bibr">[57,</ref><ref target="#b81" type="bibr">82,</ref><ref target="#b93" type="bibr">94]</ref>.</s><s>Thus, individuals with the same probability of re-oense may nevertheless have dierent probabilities of re-arrest.</s><s>RAIs trained on such data may appear to be fair predictors of rearrest but nevertheless be unfair, even by the same metrics, were they to be assessed on re-oense <ref target="#b54" type="bibr">[55]</ref>.</s></p><p><s>In recognition of this potential discrepancy, recent work on model validation has primarily examined the predictive bias of RAIs as predictors of re-arrest for violent crimes.</s><s>Such arrests are viewed as representing "the most unbiased criterion [of oense] available" <ref target="#b102" type="bibr">[103]</ref>.</s><s>Beck and Blumstein <ref target="#b7" type="bibr">[8]</ref>, for instance, concluded that statistics based on arrests for violent oenses could be an (almost) racially-unbiased proxy of criminal involvement.</s><s>These arguments are generally premised upon three central pieces of evidence <ref target="#b118" type="bibr">[119]</ref>.</s><s>First, the racial composition of violent oenders recorded in victimization reports roughly matches that reported in arrest data <ref target="#b7" type="bibr">[8,</ref><ref target="#b62" type="bibr">63,</ref><ref target="#b111" type="bibr">112]</ref>.</s><s>Second, several analyses of violent oenses known to law enforcement have found that Black oenders are arrested at lower rates than White oenders <ref target="#b24" type="bibr">[25,</ref><ref target="#b95" type="bibr">96]</ref>.</s><s>Third, unlike in the case of lower level crimes, in the case of violent crimes police are granted much more limited discretion on whether to make an arrest.</s></p><p><s>This body of evidence suggests that, overall, White violent offenders are at least as likely as Black violent oenders to be arrested, and hence that the overrepresentation of Blacks among arrestees is attributable to dierential involvement in oending.</s><s>The cited evidence does not, however, indicate that all oenses are equally likely to result in arrests, i.e., that, conditional on situational and contextual factors, the likelihood of arrest is equal across racial groups.</s></p><p><s>In absence of such evidence, it remains unclear whether re-arrest outcomes could be considered a reliable proxy for re-oense.</s></p><p><s>In this paper, we show that the likelihood of arrest for violent crimes varies with the characteristics of the oense, including the oender's race.</s><s>Our analysis is based on incident-level data of violent oenses involving lone victims and oenders as reported by police agencies to the FBI in 16 US states between 2007 and 2016 through the National Incident Based Reporting System (NIBRS), a national crime data collection program.</s><s>We focus on incidents involving only Black or White victims and oenders.</s></p><p><s>We nd that arrest rates vary substantially across oense types and geographical locations.</s><s>Controlling for the state, White and Black oenders are arrested at similar rates for crimes of forcible rape and murder.</s><s>For assaults and robbery, however, arrest rates are generally higher for White oenders.</s><s>This counterintuitive pattern is largely explained by the lower arrest rates in jurisdictions with larger shares of Black oenders.</s><s>We oer two potential explanations for these ndings.</s><s>First, consistent with the hypothesis of benign neglect and based on a perspective of victim devaluing, fewer policing resources are allocated to solving the least serious forms of violent crimes that involve Black victims.</s><s>Second, due to higher levels of legal cynicism, which can be traced back to a history of over-policing and systemic discrimination, Black communities may be less likely to cooperate with law enforcement.</s><s>Through a regression analysis, we assess whether the observed racial disparities in the likelihood of arrest can be explained by crimes characteristics.</s><s>Due to the (perhaps unavoidable) misspecication of our modeling approach, the strength and direction of the association between the oender's race and the likelihood of arrest depend on the sample of crimes that is considered.</s><s>These ndings indicate that simple models targeting the "eect" of race, which have been used in a plethora of studies like ours, may not fully capture the complexities of the role of race in arrests.</s></p><p><s>The large variations in the likelihood of arrest across crimes characteristics, namely geographical areas and oense types, together with the presence of racial disparities, call into question the reliability of arrests as a proxy for violent oending.</s><s>We discuss how the sampling biases observed in the data can aect the training and assessment of RAIs, leading to the severe underestimation of the probability of re-oense for certain subgroups of oenders (e.g., sex oenders).</s><s>Finally, we discuss why the observed sampling bias cannot be corrected using data from NIBRS alone.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">BACKGROUND<p><s>Prior research studying racial disparities in the likelihood of arrest for violent oenses has generally fallen into two broad categories: (i) macro-level analyses studying the relationship between arrest rates and geographical or socioeconomic factors; and (ii) micro-level analyses examining associations between between the likelihood of arrest and the characteristics of the incident and parties involved.</s></p><p><s>Macro-level studies of the likelihood of arrest tend to fall into one of two (not mutually exclusive) theoretical frameworks: minority threat and benign neglect.</s><s>The minority threat hypothesis <ref target="#b11" type="bibr">[12,</ref><ref target="#b71" type="bibr">72]</ref> asserts that the majority group (Whites) attempts to control the minority group (e.g., Blacks) by imposing stronger formal mechanisms of social control, such as policing.</s><s>According to this theory, we might expect to observe a positive association between the share of Black residents in an area and the size of the police force and arrest rates.</s><s>The correlation between these factors may be weaker when interactions between the majority and the minority are limited, such as in regions where racial segregation is strongest <ref target="#b107" type="bibr">[108]</ref>.</s><s>The benign neglect hypothesis <ref target="#b78" type="bibr">[79]</ref> posits that, as the size of the Black population grows, rates of intraracial crime are likely to increase as well.</s><s>Whites may then weaken the mechanisms of social control on the Black population in racially segregated neighborhoods through a reduction in policing resources.</s><s>As a result, Black victims would face diculties in legitimating their complaints and convincing police ocers to take action <ref target="#b124" type="bibr">[125]</ref>.</s><s>Under this hypothesis, we might expect arrest rates to be lower in predominantly Black neighborhoods.</s><s>The two frameworks emphasize dierent socioeconomic drivers of dierential arrest: While the minority threat hypothesis focuses on the role of race as a threat (be it economical or political), the benign neglect hypothesis emphasizes the devaluation of Black victims.</s><s>Both hypotheses have received mixed empirical support <ref target="#b90" type="bibr">[91]</ref>.</s><s>The size of the police force has been shown to be positively associated with the share of Black population in the area <ref target="#b70" type="bibr">[71,</ref><ref target="#b107" type="bibr">108]</ref>.</s><s>Kent and Jacobs <ref target="#b70" type="bibr">[71]</ref> found that the most highly racially segregated cities with larger Black populations tend to have smaller police forces, whereas Stults and Baumer <ref target="#b107" type="bibr">[108]</ref> reported a positive association between the level of racial segregation and the size of police forces.</s><s>Other studies have reported that arrest rates for Black oenders are negatively associated with the share of Black residents in the city <ref target="#b91" type="bibr">[92]</ref>, negatively associated with the level of racial segregation <ref target="#b79" type="bibr">[80,</ref><ref target="#b106" type="bibr">107]</ref>, and positively associated with the share of interracial crime <ref target="#b28" type="bibr">[29]</ref>.</s><s>Arrest rates for homicide have been shown to be lower in predominantly Black neighborhoods <ref target="#b29" type="bibr">[30,</ref><ref target="#b96" type="bibr">97]</ref>, and higher in large cities with substantial socioeconomic disparities between the two groups <ref target="#b13" type="bibr">[14]</ref>.</s><s>In our analysis, we also found that arrest rates are lower in police agencies with larger proportions of Black oenders.</s></p><p><s>The second area of work focuses on racial disparities at the micro level.</s><s>Here, researchers typically attempt to isolate the eects of police discrimination from other sources of disparity by controlling for legal non-discretionary factors through regression analysis.</s><s>The variability in the likelihood of arrest that is explained by features such as victim and oender's race is then interpreted as (potentially) resulting from discriminatory practices.</s><s>These analyses are inherently limited by the extent to which available data capture all alternative explanatory factors, and the challenge of interpreting race as a causal or mediating factor in regression <ref target="#b116" type="bibr">[117]</ref>.</s><s>Research in this area has primarily relied on three sources of data: (i)eld observations of encounters between police ocers and citizens; (ii) self-reports of oending behavior; (iii) and ocial crime incidents records reported by police agencies.</s><s>We focus here on (iii), as it is most closely related to our work.</s><s>Prior studies of single victim, single oender incidents in the NIBRS data found that robberies, simple assault, aggravated assaults were more likely to be cleared by arrest when the oender is White than when the oender is Black, even after adjusting for many contextual and situational factors of the incident <ref target="#b24" type="bibr">[25,</ref><ref target="#b95" type="bibr">96,</ref><ref target="#b98" type="bibr">99]</ref>.</s><s>These three types of oenses constitute the majority of violent crimes reported to police.</s><s>This association did not persist for the most serious violent crimes of forcible rape and murder/non-negligent manslaughter.</s><s>In their analysis of rape oenses, D'Alessio and Stolzenberg <ref target="#b24" type="bibr">[25]</ref> found that the overall clearance rate for Black oenders was marginally higher than for Whites, but that there was no statistically signicant difference after controlling for situational factors.</s><s>Through survival analysis modeling, Roberts and Lyons <ref target="#b98" type="bibr">[99]</ref> found that murder/nonnegligent manslaughter incidents with non-White oenders were more likely to result in an arrest.</s><s>Lastly, in a recent analysis of violent oenses of 2003-2012 NIBRS data including crimes committed by multiple oenders, Lantz and Wenger <ref target="#b77" type="bibr">[78]</ref> found that incidents were less likely to result in arrests when the oender was Black.</s><s>However, when they restricted to incidents where Black and White individuals oended together, they found that Black oenders were slightly more likely to be arrested.</s><s>Based on this evidence, the authors argued that omitted variable bias might affect regression analyses conducted on NIBRS data.</s><s>Our study of violent oenses on NIBRS is closely related to that of D'Alessio and Stolzenberg <ref target="#b24" type="bibr">[25]</ref>, but our analysis is much larger scale, includes incidents of murder/non-negligent manslaughter, and, unlike theirs, does not rely on the (unrealistic) assumption that the regression model is well-specied.</s><s>Unlike Lantz and Wenger <ref target="#b77" type="bibr">[78]</ref>, we focus specically on geographical variations in the likelihood of arrest and on the issue of model misspecication.</s><s>We nd that the sign of the oender race coecient varies with the subset of crimes used in the analysis, which suggests that the conclusions of prior work are dependent on model specication.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">DATA<p><s>Our analysis is mainly based on incident-level data of oenses from the National Incidents Based Reporting System (NIBRS) and data of police agencies from the Law Enforcement Employees Report.</s><s>We describe each of the two datasets in turn.</s></p><p><s>NIBRS data.</s><s>NIBRS is part of the FBI's Uniform Crime Reporting (UCR) program.</s><s>Through NIBRS, law enforcement agencies submit detailed data on the characteristics of incidents that are known to them, such as the demographics of victims and oenders <ref target="#b89" type="bibr">[90]</ref>.</s><s>In our analysis, we use incident-level data of oenses and arrests recorded in NIBRS between 2007 and 2016 by aggregating annual datales obtained from the Inter-University Consortium for Political and Social Research (ICPSR) <ref target="#b31" type="bibr">[32,</ref><ref target="#b33" type="bibr">34,</ref><ref target="#b35" type="bibr">36,</ref><ref target="#b37" type="bibr">38,</ref><ref target="#b39" type="bibr">40,</ref><ref target="#b41" type="bibr">42,</ref><ref target="#b43" type="bibr">44,</ref><ref target="#b45" type="bibr">46,</ref><ref target="#b47" type="bibr">48,</ref><ref target="#b49" type="bibr">50]</ref>.</s><s>We only consider incidents that include at least one oense of murder/nonnegligent manslaughter, forcible rape, robbery, aggravated assault, or simple assault.</s></p><p><s>In order to conduct our statistical analysis, we process the data as follows.</s><s>First, we keep only data from the 16 states that submitted all their crime data through NIBRS in 2014: Arkansas (AR), Colorado (CO), Delaware (DE), Idaho (ID), Iowa (IA), Kentucky (KY), Michigan (MI), Montana (MT), New Hampshire (NH), North Dakota (ND), South Carolina (SC), South Dakota (SD), Tennessee (TN), Vermont (VT), Virginia (VA), and West Virginia (WV).</s><s>Our results may not generalize beyond these 16 states.</s><s>Second, following the approach of D'Alessio and Stolzenberg <ref target="#b24" type="bibr">[25]</ref>, we keep only incidents that involve only one oender and one victim.</s><s>The exclusion of incidents with multiple victims or oenders is mainly motivated by the additional assumptions that would be required if these types of incidents were considered for the analysis.</s><s>Since data from NIBRS do not contain oender-level characteristics on the incident (e.g., which oender used the weapon), an analysis of multi-oender crimes would need to rely on assumptions around the circumstances of the incidents and require more complex regression models, e.g., the dependence of observations corresponding to the same incident should be modeled.</s><s>By excluding these incidents, the analysis of the interactions between victims' and oenders' relevant features is simplied.</s><s>Importantly, we consider only incidents where both the victim's and oender's races are recorded as either Black or White.</s><s>We cannot exclude Hispanics from the analysis because the ethnicity eld was introduced in the data only in 2012 and is often left empty.</s><s>We note that almost every victim of Hispanic ethnicity is recorded as being White.</s><s>Lastly, we drop all incidents that are cleared by exceptional means.</s><s>We discuss this type of clearance in Appendix A. The nal dataset includes 9,181 incidents of murder/non-negligent manslaughter, 103,309 forcible rapes, 101,133 robberies, 596,324 aggravated assaults, and 2,669,399 simple assaults.</s></p><p><s>For the regression analysis, we transform the features (a.k.a.</s><s>covariates, regressors, independent variables) as follows.</s><s>Werst code dummies corresponding to the age, sex, and race of victim and oender.</s><s>We create victim-level dummy variables to indicate whether the victim suered a serious or a minor injury, knew the oender (i.e., the oender was not unknown to victim or was a stranger), and whether the incident occurred in the residence of the victim.</s><s>We also create binary variables for incident's characteristics to indicate whether the incident occurred during the day (i.e., between 7am and 8pm), a rearm was involved, a weapon other than a rearm was involved, the oense was only attempted but not completed (only available for forcible rape and robbery), the oender was suspected of having used drugs or alcohol, and whether ancillary oenses were committed.</s><s>Finally, we create a variable that corresponds to the share of Black violent oenders (out of all violent oenders) for each police agency and a series of dummy variables for states and years to capture state and year xed eects.</s></p><p><s>Law enforcement data.</s><s>We match data from NIBRS with information regarding the police agency from the Law Enforcement Employees Report.</s><s>This data are obtained from ICSPR for the years 2007-2016 <ref target="#b32" type="bibr">[33,</ref><ref target="#b34" type="bibr">35,</ref><ref target="#b36" type="bibr">37,</ref><ref target="#b38" type="bibr">39,</ref><ref target="#b40" type="bibr">41,</ref><ref target="#b42" type="bibr">43,</ref><ref target="#b44" type="bibr">45,</ref><ref target="#b46" type="bibr">47,</ref><ref target="#b48" type="bibr">49,</ref><ref target="#b50" type="bibr">51]</ref>.</s><s>For each police agency we extract information on the total population served and the number of police ocers employed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">METHODOLOGY<p><s>Throughout the analysis, we assume the observations (i.e., the incidents) to be independent.</s><s>Although each observation corresponds to a single crime incident and we exclude incidents that are cleared by exceptional means, independence may be violated if multiple incidents involved the same oender.</s><s>Since oenders' identiers are not available in the data, we are unable to model this potential dependence.</s></p><p><s>In order to test for macro-level variations in racial disparities across geography, we split our data by jurisdiction (i.e., police agency) and examine the arrest rates for dierent types of crimes and demographics.</s><s>In our analysis, the arrest rate corresponds to the share of oenses that result in arrests.</s><s>For example, the arrest rate for White oenders is given by the ratio between the number of arrests and the number of oenses involving White oenders.</s><s>Such summary statistics likely represent upper bounds for the arrest rates in the entire population of crimes, i.e., also the crimes that are not accounted for by our analysis such as those that are not reported to law enforcement.</s><s>We assess the correlation between variables via Pearson's correlation coecient (d).</s><s>Statistical signicance is assessed at the 0.01 level for all hypothesis tests.</s></p><p><s>Since not all of the data features are fully observed, for our regression analysis we need to carry out data imputation.</s><s>The datasets (one for each oense type) contain small shares of missing values consisting of up to approximately 5% of all observations, with the exception of around 20% in case of the oender's age in oenses of robbery.</s><s>As in past work <ref target="#b24" type="bibr">[25]</ref>, we assume the data to be missing at random (MAR) <ref target="#b100" type="bibr">[101]</ref>.</s><s>We impute ten datasets via multiple imputation by chained equations <ref target="#b3" type="bibr">[4]</ref>.</s><s>On each imputed dataset, we use logistic regression to model the dependence of the likelihood of arrest on race and other factors.</s><s>We calculate sandwich standard errors for the coecients estimates.</s><s>We then obtain a single set of coecients estimates and the corresponding standard errors using the formulas provided by Rubin <ref type="bibr">[102, pp. 76-77]</ref>.</s><s>This analysis is conducted separately for each oense type.</s></p><p><s>In the second stage of our analysis, we investigate whether the logistic regression model appears to be well-specied.</s><s>Here, we apply the approach proposed by Buja et al. <ref target="#b15" type="bibr">[16]</ref>, which is based on the principle that coecients estimates of a correctly specied model do not change signicantly as the distribution of the regressors varies.</s><s>Changes in the coecients estimates under observation reweighting are therefore indicative of model misspecication.</s><s>In our analysis, we employ the focal slope visual model diagnostic introduced by Buja et al. <ref target="#b15" type="bibr">[16]</ref> to assess how the oender's race coecient estimate varies with the reweighting of the distribution of certain regressors.</s><s>This tool provides insights into the interactions between the race variable and other regressors without modeling the interactions directly in the regression model.</s><s>Our aim is to investigate whether the estimate of the coecient relative to the oender's race always has a consistent sign and magnitude under dierent reweightings.</s></p><p><s>To implement the reweighting procedure, we proceed as follows.</s><s>We rst construct a grid of ten evenly spaced values for the numeric features, and use the grid values of {0, 1} for the binary features.</s><s>For each feature, we split the observations into groups based on the grid's cell center that is closest to each observation's feature value in absolute distance.</s><s>For each feature-grid cell pair, we then obtain 100 estimates of the logistic regression coecients by bootstrap resampling observations from the given group.</s><s>Due to the high computational cost driven by the large number of observations of simple assault incidents, we apply the focal slope diagnostics to only one of the ten imputed datasets for this oense type.</s><s>The coecients estimates on the ten imputed datasets are nearly identical, so we do not expect the focal slope analyses to vary with the imputed data sample.</s><s>Our data analysis is fully reproducible.</s><s>The full R <ref target="#b109" type="bibr">[110]</ref> code is available at the following address: https://github.com/ricfog/onthe-validity-of-arrest.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">LIMITATIONS<p><s>Despite the wealth of information contained therein, analyses of NIBRS data suer from several key limitations.</s><s>First, not every police agency reports all of its crime data through NIBRS <ref target="#b9" type="bibr">[10]</ref>.</s><s>These omissions may reect partial reporting (e.g., for some period of time each year) or complete non-reporting by agencies in the states considered.</s><s>If such data omissions occurred at random (with respect to crimes characteristics and outcomes), then our inference at the level of the police agency would not be aected, but the representativeness of our sample with respect to the population of interest (i.e., all the crime incidents known to police agencies in the 16 states considered) could be impacted.</s><s>Data omissions that do not occur at random would be even more problematic.</s><s>For example, the existence of dierent reporting protocols across states or jurisdictions, such as the non-reporting of incidents that do not result in arrest by certain agencies, could explain the large variations in arrest rates that we observe.</s><s>Importantly, there is evidence that cases that are considered as "unfounded" are not tracked by NIBRS <ref target="#b59" type="bibr">[60]</ref> and consequently will not be included in the data.</s><s>Another issue pertains to the quality of the data that are reported, which may not oer an unbiased picture of the circumstances of the incident.</s><s>Victims may report mistaken or even false details regarding the incident.</s><s>Likewise, data from police departments may also be the artefact of a selection, manipulation, and review process, as the study of Richardson et al. <ref target="#b97" type="bibr">[98]</ref> has shown.</s><s>While in many instances the arrestee is the oender, there may be incidents in the data that are cleared by wrongful arrests.</s><s>Due to the absence of data on which incidents might correspond to wrongful arrests, we are unable to account for this possibility in our analysis.</s><s>This may be problematic given the evidence that, even for the most serious types of oenses, wrongful arrests may represent a considerable share of all arrests <ref target="#b80" type="bibr">[81]</ref>.</s><s>Our analysis considers only violent crime incidents that are not cleared by exceptional means and where there is a lone oender and victim whose race is reported as either Black or White.</s><s>Some of the conclusions may therefore fail to generalise to other types of incidents.</s><s>It is important to keep in mind that the characteristics of the sample of oenses in NIBRS is not representative of all crimes at the national level <ref target="#b83" type="bibr">[84,</ref><ref target="#b92" type="bibr">93]</ref>.</s><s>Lastly, we could not exclude Hispanics from our sample, nor could we code this group separately for our analysis.</s><s>There is evidence that the degree of involvement in violent oending of Hispanics falls within the levels of the White and of the Black populations <ref target="#b105" type="bibr">[106]</ref>.</s><s>As previously mentioned, in NIBRS data Hispanics are for the most part included within the White population.</s><s>Any existing dierences in oending behavior or arrest rates between Hispanic and non-Hispanic White oenders will not be captured by our analysis.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">RESULTS<p><s>Since, to the best of our knowledge, this study presents therst analysis of racial disparities in violent oenses using the most recent years of NIBRS data, we begin by providing some summary statistics on arrest rates across victim and oender's demographics and crime types (see also Table <ref type="table">1</ref>).</s><s>Overall, 41% of all oenders and 34% of all victims are Black.</s><s>As a reminder, only Black and White individuals are represented in the dataset.</s><s>The overrepresentation of Black individuals among oenders is lowest in case of incidents of forcible rape (31%) and highest in case of robbery (76%).</s><s>We then examine the likelihood of arrest across oenders' racial groups.</s><s>Arrests are more frequent in case of incidents involving White offenders across all types of crimes (overall, 56% for White vs. 42% for Black oenders).</s><s>However, there exist dierences in the gap in arrest rates across types of oenses.</s><s>The gap is largest in case of robbery (36% vs 19%) and aggravated assault (62% vs 44%), followed by simple assault (57% vs 43%), which constitute the majority of the oenses present in the data.</s><s>In contrast, the gap is small for murder/non-negligent manslaughter (73% vs 67%) and rape (27% vs 25%).</s><s>Lastly, we assess the racial composition of victims.</s><s>Intraracial crimes constitute four-fths or more of the oenses across all types of crimes, with the exception of rape (63%) and robbery (57%) oenses committed by Black oenders.</s><s>Interestingly, arrest rates for interracial crimes are similar across racial groups (within 2%) for all types of crimes other than robbery.</s><s>In summary, we observe that arrest rates are highest for intraracial oenses among Whites, followed by interracial oenses, and last by intraracial oenses among Black individuals.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Macro-level variations in arrest rates<p><s>It is possible that the observed gap in arrest rates across oenders' racial groups could be explained by variations in the likelihood of arrest and in the racial composition of oenders across geographical areas, e.g., as in case of a Simpson's paradox.</s><s>To analyse such variation, we rst consider the data regarding simple assaults.</s><s>The large size of this dataset allows us to consider arrest rates at the level of the cities and police agencies.</s><s>For this analysis, we focus on police agencies that reported at least 100 crimes of simple assault in the ten-year period spanned by our data.</s></p><p><s>We start by decomposing the gap in arrest rates between White and Black oenders (13%=57%-43%) into state-level dierences, which are represented by the green stars in Figure <ref type="figure">1</ref> patterns are worth mentioning.</s><s>First, there are quite large variations in arrest rates across states.</s><s>While in Arkansas less than 35% of all oenses resulted in the arrest of the oender, in Delaware and Vermont 79% and 82% did respectively.</s><s>Second, we observe that the gap in arrest rates between Black and White oenders varies substantially across states.</s><s>Although White oenders were arrested at higher rates than Black oenders in almost all of the states considered, the pooled mean of the gap in arrest rates is 6% (std.dev.=6%) and thus it is smaller than the overall gap.</s><s>It is possible, as we shall show, that variations in arrest rates across police agencies within may drive the observed disparities.</s><s>We rst focus our analysis on three states with large disparities, including Tennessee (state-level gap=20%), Michigan (14%), and South Carolina (10%), and then turn to the other states.</s><s>Let's rst consider the case of Tennessee.</s><s>Our dataset contains approximately 500,000 oenses of simple assault that occurred in the state during the period considered.</s><s>Tennessee contains two large cities, Memphis and Nashville.</s><s>In Memphis, 26% of the oenses resulted in an arrest and 89% of the oenders were identied as Black.</s><s>In contrast, in Nashville and its metropolitan area the arrest rate is 54% and only 57% of the oenders were Black.</s><s>Although Black and White oenders were arrested at similar rates within each of the two areas, the aggregate gap in arrest rates between racial groups is 15%.</s><s>Furthermore, data on oenses in Memphis alone accounts for 51% of all incidents involving Black oenders in the state.</s><s>By contrast, only 5% of all crimes with White oenders occurred in Memphis.</s><s>Even if arrest rates largely vary across the 14 core cities, the gap across racial groups, within each city, is always small (mean=4%, std.dev.=3%).</s><s>Thus, the low arrest rate in Memphis, together with the fact that most of the oenses committed by Black oenders occur in this city, drives the the observed state-level disparity in arrest rates.</s><s>Similar ndings hold in the case of Michigan.</s><s>Data from the city of Detroit contain 17% of the almost 600,000 simple assault oenses in the state but also account for 36% of all incidents involving Black oenders in the state, compared to only 2% of those with White oenders.</s><s>White and Black oenders were arrested at similar rates within the city.</s><s>Since arrest rates in this area are considerably lower than in the rest of the state (20% vs 43%), the overall disparity in arrest rates at the state level is large.</s><s>The case of South Carolina is slightly more complex.</s><s>For this state we do not observe large dierences in arrest rates between core cities and surrounding regions and there is no variation in the size of racial disparities in arrest rates, which are large in both areas.</s><s>However, we observe that police agencies in areas where larger shares of oenders are Black also tend to have lower rates of arrest (d = 0.32).</s></p><p><s>We then study whether the disparities in arrest rates persist at the level of the police agency for the other states considered.</s><s>Figure <ref type="figure">1</ref> shows the boxplots of the dierences in arrest rates between White and Black oenders for the police agencies in each state.</s><s>We observe that the median gap in arrest rates for the police agencies is generally smaller than the dierence at the state level.</s><s>This pattern is consistent with the aforementioned heterogeneity in arrest rates and distributions of the Black and White populations of oenders across jurisdictions.</s><s>Interestingly, however, even after conditioning on the police agency, there still remains some degree of variation in the gap in arrest rates across racial groups, with arrest rates generally being higher for White oenders.</s></p><p><s>By focusing on the characteristics of the law enforcement agency, we nd that in most states agencies with larger shares of Black oenders tend to have, as in the case of South Carolina, lower arrest rates (d = 0.29), higher crime rates in their jurisdictions (d = 0.37), more ocers per capita (d = 0.17), and larger populations served (d = 0.18).</s><s>However, the number of ocers per incident is not linearly associated with the share of oenders that is Black in the jurisdiction (d = 0.02, p-value= 0.34).</s></p><p><s>We briey turn our attention to the other four types of oenses.</s><s>Simple assault is the least serious crime among the ones that we considered, so ex ante it is unclear whether the ndings would generalize to the other crimes.</s><s>Based on our analysis, we can categorize the oenses in two groups.</s><s>The rst includes aggravated assault and robbery.</s><s>For these two types of crimes, the results are similar to those that we have described above and, more specically, arrest rates are higher for White oenders in almost all of the states considered (Figure <ref type="figure">2</ref>).</s><s>The pooled means of the state-level gaps in arrest rates between White and Black oenders for aggravated assault and robbery are 6% and 11% respectively.</s><s>Still, we need to keep in mind that the magnitude of arrest rates for these two types of oenses is very dierent: While almost two in three oenders were arrested for aggravated assault (pooled mean=63%), only one in three reported oenses of robbery resulted in arrest (35%).</s><s>Large dierences in arrest rates across oense types persist even if incidents with multiple victims and oenders are accounted for.</s><s>For crimes of rape and murder, both the aggregate and state-level dierences in arrest rates across racial groups are small (average state-level di.=2% for both types of oenses).</s><s>Overall arrest rates are low across all states for rape (pooled mean=29%) and high for murder (mean=73%).</s></p><p><s>Although these results cannot explain why the observed differences in arrest rates across oenders' racial groups arise and why the appear only for assaults and robberies, they show that the magnitude of disparities can be explained by the existing large variations in the likelihood of arrest across jurisdictions and by the fact that agencies with larger shares of Black oenders have lower arrest rates overall.</s><s>We discuss two potential explanations for these ndings in §7.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Regression analysis<p><s>In this section, we investigate whether the observed dierences in arrest rates across racial groups can be explained by the incident's characteristics.</s><s>For this purpose, we model the likelihood of arrest as a function of contextual and situational factors, tting separate logistic regression models for each of the ve types of violent offenses as described in §4.</s><s>As a reminder, among the regressors, we include victim and oender's demographics, the victim-oender relationship prior to the incident, circumstances (e.g., location and time of the day) and other characteristics (e.g., presence of weapon) of the incident, information regarding the police agency where the incident was recorded (police ocers per capita, population served, and share of Black oenders), and the state in which the crime occurred.</s><s>The full set of regressors and coecients estimates is presented in Table <ref type="table">2</ref>.</s></p><p><s>Consistent with the high-level ndings of our macro-level analysis, our estimate of the coecient of White oender race (vs.</s><s>Black) is positive and statistically signicant in case of aggravated assault, simple assault, and robbery (0.03, 0.04, 0.24 respectively), and not statistically signicant for forcible rape and murder (0.04 and 0.2 respectively).</s><s>However, note that the coecients estimates in case of assault, despite being statistically signicant, are close to zero.</s><s>The coecient of White victim race is statistically signicant and negative for forcible rape ( 0.11), and positive for aggravated and simple assault (0.07 and 0.09 respectively).</s><s>It is not statistically signicant for murder/non-negligent manslaughter and robbery ( 0.02 and 0.03 respectively). <ref target="#foot_0" type="foot">2</ref></s><s>f the model were correctly specied, we could interpret the coecient as the log of the odds ratio of the likelihood of arrest for a White oender compared to a Black oender, conditional on all other regressors.</s><s>Our model would then indicate that, ceteris paribus, an arrest is more likely for a White oender compared to a Black oender for assaults and robbery, but not for murder and rape.</s><s>Furthermore, incidents involving White victims would be, ceteris paribus, less likely to result in an arrest for oenses of rape, but more likely in case of aggravated and simple assault.</s><s>The conditional likelihood of arrest does not considerably dier across racial groups for murder.</s><s>Note again that, even in the case of several of the statistically signicant coecients, the coecient estimates themselves are generally small.</s><s>More realistically, our logistic regression model is misspecied and thus such interpretations of the coecients estimates are not correct.</s><s>In Figure <ref type="figure">3</ref>, we present the results of the "focal slope" model diagnostics for the oender's race coecient across all crimes other than murder/non-negligent manslaughter, which we omitted due to the small sample size.</s><s>We observe that the estimates of this coecient vary with the distribution of the regressors, thereby indicating that none of the regression models is well specied.</s><s>Interestingly, we observe that the association of the oender's race (White=1) with the outcome is typically positive for incidents with White victims, but is weaker or even negative in case of Black victims.</s><s>This result would seem to suggest the presence of an interaction between victim's and oender's race.</s><s>In case of rape and simple assaults with Black victims, the oender being White appears to be associated with a decrease in the likelihood of arrest.</s><s>Jurisdictionlevel factors also appear to impact the estimates of the oender race coecient.</s><s>For example, in case of assaults, we observe a weak or even negative association between the race variable and the outcome in police agencies where oenders mainly belong to one racial group, but a positive association in agencies where the racial composition of oenders is more diverse.</s><s>We observe that the association between the oender's race and arrest is positive and strong only for middle-aged oenders, and is weak for both young and old oenders.</s><s>Overall, the results indicate that no causal conclusions can be drawn regarding the "eect" of race from such a model.</s><s>Furthermore, problematically, the ndings around the size of the eect are contingent upon the areas and types of crimes that are considered.</s></p><p><s>Finally, although our emphasis was primarily on the coecient of race, one should note that most of the coecient estimates for the other features are statistically signicant and many are much larger than those corresponding to race.</s><s>This indicates that incidents of the same oense type might result in dierent outcomes.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">DISCUSSION<p><s>Our investigation of NIBRS data, which centered on race as a predictor of the likelihood of arrest for violent crimes, was motivated by the implications concerning the potential disconnect between reoense and re-arrest in RAIs.</s><s>We presented two key ndings.</s><s>First, in our analysis White oenders were more likely to be arrested than Black oenders for crimes of robbery and assaults, but not for forcible rape and murder/non-negligent manslaughter.</s><s>Thending that arrest rates in the NIBRS are higher for White oenders than for Black oenders was also noted by D'Alessio and Stolzenberg <ref target="#b24" type="bibr">[25]</ref>.</s><s>The observed disparities in our study are largely explained by variations in arrest rates across jurisdictions.</s><s>Yet, even after conditioning on the individual law enforcement agency, some of these disparities persisted.</s><s>Second, while our initial regression results indicated that the magnitude of the oender race coecients estimates were fairly small compared to those of other predictors, the model diagnostics revealed that their sign and magnitude varied with the sample of oenses that was considered.</s><s>Despite the misspecication of our regression model, it seems unlikely that crime characteristics that we took into account could fully explain the observed variations or even the racial disparities in arrest rates.</s><s>Our results call into question the reliability of arrest as a proxy for oense.</s></p><p><s>Arrest rates and racial disparities vary considerably across jurisdictions.</s><s>In our study we also found that the observed racial disparity in arrest rates can be attributed to lower arrest rates in police agencies with larger shares of Black oenders.</s><s>This nding is aligned with several hypotheses from the criminology literature, two of which we discuss below.</s></p><p><s>The rst explanation builds o of the hypothesis of benign neglect, which posits that the eort invested by police into the investigation of the crimes might be proportional to the perception of the victim's deservedness.</s><s>A perspective of victim devaluing, which is more likely to prevail in disadvantaged neighborhoods or cities, might, in combination with resource constraints, lead to systematically lower investigation eort devoted to incidents occurring in those areas <ref target="#b104" type="bibr">[105]</ref>.</s><s>In particular, police departments might allocate their limited resources only to certain communities and to solving the most serious incidents <ref target="#b74" type="bibr">[75]</ref>, such as rape and murder, for which police ocers are granted less discretion.</s><s>Police might also be more likely to tolerate criminal acts in areas where crimes rates are higher <ref target="#b74" type="bibr">[75,</ref><ref target="#b104" type="bibr">105]</ref> or that are racially segregated <ref target="#b70" type="bibr">[71]</ref>.</s><s>It would then be hard for victims and residents in these areas to be heard by the police and to legitimate their complaints.</s><s>Consistent with Black's stratication hypothesis <ref target="#b10" type="bibr">[11]</ref>, which posits a positive relationship between the likelihood of arrest and the gap in social status of victim and oender, this explanation is partially supported by our nding that the association between the probability of arrest and the oender White race is weaker or negative for incidents involving Black victims.</s><s>By contrast, the investigation of crimes of murder and rape would be less aected by the dierential allocation of policing resources.</s><s>It is possible that the results for murder incidents may reect a shift in racial discrimination from a victim-to an oender-centered perspective: Murders are the most serious form of crime and as such they attract considerable attention from the media, community, and police agencies.</s><s>In addition, the evaluation of performance based exclusively on the clearance rate represents an incentive for homicide detectives to solve all cases to which they are assigned <ref target="#b96" type="bibr">[97]</ref>.</s></p><p><s>A second hypothesis is that the observed racial disparities are an artefact of variations in the community's willingness to rely and cooperate with the police.</s><s>In the case of violent crimes, the cooperation of victims and onlookers with law enforcement is often necessary for identifying the suspect and clearing the crime.</s><s>Certain communities have lower levels of trust in law enforcement-a phenomenon known as legal cynicism-and consequently are less likely to assist police ocers in their investigations.</s><s>For example, social norms can amplify negative attitudes towards the police by incentivizing the resolution of conicts without seeking help from members outside the community <ref target="#b1" type="bibr">[2]</ref> or by fostering a "stop snitching" culture <ref target="#b20" type="bibr">[21]</ref>.</s><s>Community members may also fear retaliation if they decide cooperate with the police <ref target="#b76" type="bibr">[77]</ref>.</s><s>There is considerable evidence that cooperation varies with these types of (sub)cultural factors <ref target="#b17" type="bibr">[18,</ref><ref target="#b71" type="bibr">72,</ref><ref target="#b108" type="bibr">109,</ref><ref target="#b112" type="bibr">113,</ref><ref target="#b113" type="bibr">114]</ref>.</s><s>Phenomena that erode trust, such as police misconduct <ref target="#b67" type="bibr">[68,</ref><ref target="#b110" type="bibr">111]</ref> and over-policing <ref target="#b68" type="bibr">[69]</ref> (e.g., street stops) are more frequent in predominantly-Black areas.</s><s>Consistently, many studies have found Black individuals to hold more negative views of law enforcement <ref type="bibr">[120]</ref><ref target="#b120" type="bibr">[121]</ref><ref target="#b121" type="bibr">[122]</ref>.</s><s>Dierential cooperation has been a central theme in prior work on racial disparities in arrests for homicides <ref target="#b29" type="bibr">[30,</ref><ref target="#b96" type="bibr">97]</ref>.</s><s>Unfortunately, one clear limitation of NIBRS data is that they do not include incident-level details on cooperation, as also Roberts and Roberts <ref target="#b99" type="bibr">[100]</ref> noted in their recent study.</s><s>The only piece of information that is available, and that has been analysed by recent work on violent oenses, is whether the incident is exceptionally cleared because of the lack of victim's cooperation <ref target="#b51" type="bibr">[52]</ref>.</s><s>In our dataset, however, the share of incidents that were cleared for this reason did not dier across racial groups of oenders and victims (see Appendix A).</s></p><p><s>The two hypotheses should not be seen as a dichotomy: Each of them may explain, at least in part, the observed disparities in the probability of arrest.</s><s>At the same time, it also seems certainly possible that these disparities could be explained by dierences in the ways in which crimes are recorded across law enforcement agencies or by dierent legal standards used to evaluate whether an arrest needs to be made.</s><s>For example, in the case of intimate partner violence (a.k.a.</s><s>IPV), once the incident is reported to the police, prevailing mandatory arrest laws in certain jurisdictions leave ocers with little discretion as to whether to arrest the reported oender <ref target="#b27" type="bibr">[28,</ref><ref target="#b63" type="bibr">64,</ref><ref target="#b75" type="bibr">76]</ref>.</s><s>This phenomenon might partially explain the variation observed in arrest rates for simple assaults, which include some IPV oenses, across states.</s></p><p><s>Reporting a single estimate of the coecient of the oender's race may be misleading.</s><s>Our focal slope model diagnostics of the logistic regression revealed that the association between the oender's race and the likelihood of arrest largely depended on the sample of offenses that was considered.</s><s>This result is important for two reasons.</s><s>First, it demonstrates that the regression model employed in our analysis is not well-specied.</s><s>In past studies, researchers typically postulated a model, tted it on the data, and then reported the estimates of the coecients of interests, such as those of the oender's or victim's races.</s><s>The models used in these works were often similar to ours.</s><s>For example, D'Alessio and Stolzenberg <ref target="#b24" type="bibr">[25]</ref> employed a logistic regression that accounted for a subset of the predictors that were included in our model.</s><s>The focal slope diagnostics in our analysis, which are based on the recent work of Buja et al. <ref target="#b15" type="bibr">[16]</ref>, have shown that reporting one single coecients estimate may not be very informative when the modeling assumptions do not hold.</s><s>Researchers should, instead, analyse how the misspecication of the regression model that they chose may call into question their interpretations of the results, e.g., by using the types of diagnostics proposed by Buja et al. <ref target="#b15" type="bibr">[16]</ref>.</s><s>Second, the diagnostics have revealed that, after controlling for crimes characteristics, the association between the likelihood of arrest and the oender's race depended on the race of the victim.</s><s>We also observed a weaker association between the oender's race and the likelihood of arrest in police agencies with larger shares of White oenders.</s><s>While a careful analysis of the role of race as a predictor of the likelihood of arrest across each subpopulation (e.g., dierent jurisdictions) is challenging and outside of the scope of our work, the main takeaway from our results is that the likelihood of arrest can dier across races, both at the aggregate level and conditionally on other factors.</s></p><p><s>Arrest is a biased proxy of oense.</s><s>In §1, we discussed how prior studies have found that the racial composition of arrestees in the Uniform Crime Reporting (UCR) roughly match that of oenders in the National Crime Victimization Survey (NCVS) data, a criminal victimization survey based on a nationally representative sample of households, for the four types of violent crime measured by both programs.</s><s>This pattern suggests that the likelihood of arrest for White and Black oenders is, on average, similar, but it does not indicate that the likelihood of arrest is equal for all oenders in the two racial groups.</s><s>We have found that arrest rates and racial disparities vary across states and jurisdictions.</s><s>The regression analysis has further revealed that, even after conditioning on relevant features, the disparities across racial groups still persist and run in dierent directions depending on these features.</s><s>Thus, the extent to which arrest reects oending behavior depends on the geographical area where the crime occurs, the oenders' and victims' demographics, and other crimes characteristics.</s><s>Treating arrests as an unbiased, or even racially-unbiased, measure of violent oending fails to acknowledge the existing heterogeneity in the likelihood of arrest.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">IMPLICATIONS FOR RAIS<p><s>Risk of re-arrest and re-oense may diverge, even in case of violent oenses.</s><s>Our analysis has shown that arrests are not a random sample of all violent oenses known to police agencies as reected in NIBRS data.</s><s>The large variations that we observe in arrest rates across crime types and jurisdictions are deeply problematic for RAIs. <ref target="#foot_1" type="foot">3</ref> As an example, let's revisit our analysis of Tennessee's offense and arrest data.</s><s>In Nashville, half of all simple assault oenses resulted in arrests, as compared to only one fourth in Memphis.</s><s>We should expect these dierences to be reected in the prevalence of re-arrests in the data used to train and assess RAIs.</s><s>The variation in the characteristics of the oender populations would then shape the predictors used to construct the RAI.</s><s>Consequently, we should expect RAIs trained on re-arrest data to underestimate the risk of re-oense for certain subpopulations of defendants-specically, those that are more prevalent in the city with lower arrest rates, and to be poorly calibrated with respect to re-oense data.</s><s>Moreover, if the risk factors employed by the RAI cannot explain the disparities observed between the two cities, the instrument will also exhibit dierences in its calibration properties on re-arrest data across the two cities.</s><s>Absent knowledge of the functional dependency between re-arrest and re-oense, practitioners might try to mitigate the predictive biases of the RAI using only re-arrest data, only inadvertently (potentially) exacerbating the bias as measured with respect to re-oense.</s><s>To overcome this issue, individual jurisdictions could construct their own RAIs.</s><s>However, in most cases this is certainly not possible due to data unavailability and other limitations.</s></p><p><s>As a second example, consider the variation in arrest rates across types of oenses.</s><s>If the propensity to commit dierent types of violent crime were to dier across oenders, then the risk of rearrest would be lower for certain individuals, even if their risk of re-oense were identical.</s><s>For instance, since arrests for rape are rare (as is generally true for sex oenses), RAIs might erroneously underestimate the risk of these sex oenders recidivating (compared to, say, aggravated assault oenders), and could nudge nudge decision-makers toward more lenient treatment that is unwarranted on the basis of underlying re-oense risk.</s><s>In order to identify defendants at high risk of recidivism, practitioners should design RAIs that either account for this bias or that target only the particular type of crime of interest.</s><s>We note that there already exist tools that predict specically the likelihood of future IPV <ref target="#b84" type="bibr">[85]</ref>.</s></p><p><s>The consequences of the sampling bias in arrest data are not limited to mismeasurement of re-arrest outcomes on which RAIs are trained.</s><s>This bias aects oenders' criminal histories as well, making them inaccurate reections of past oending behavior.</s><s>The number of prior arrests represents an underestimation of the total number of prior oenses, especially for frequent oenders, who are generally less likely to be arrested <ref target="#b12" type="bibr">[13]</ref>.</s><s>Similarly, our analysis has shown that certain types of crimes are more likely to result in arrest, and thus the characteristics of the crimes recorded in a defendant's prior criminal history do not oer an unbiased picture of the characteristics of the prior oenses that they actually have committed.</s><s>Lastly, the sample of arrestees does not reect the sample of oenders in the population.</s><s>In particular, more frequent oenders may be less likely to be caught for each individual crime that they commit, yet more likely to be represented among arrestees, e.g., see the phenomenon of "stochastic selectivity" described by Canela-Cacho et al. <ref target="#b16" type="bibr">[17]</ref>.</s></p><p><s>Bias cannot be estimated from NIBRS data alone.</s><s>NIBRS is the main program of crime data collection in the US, providing the best available unied view of crime trends.</s><s>Large-scale analyses of racial disparities could leverage the NIBRS because of its comprehensiveness.</s><s>However, for the purpose of mitigating bias in criminal RAIs, NIBRS data alone are not sucient for at least two key reasons, which we discuss below.</s></p><p><s>First, the eect of many types of sampling biases cannot be identied from the observed data.</s><s>In the discussion, we have hypothesized that variations in the likelihood of arrest might stem from multiple sources, namely the allocation of policing resources, community's cooperation, and ways in which the crimes are recorded.</s><s>However, it is also clear that some of the dierences in arrest rates across crimes are inherently tied to the diculty of identifying and arresting the oender.</s><s>For example, crime incidents in which the oender is a stranger to the victim are cleared at lower rates across all crime types (Table <ref type="table">2</ref>).</s><s>Many of these factors are not represented in NIBRS data, which oers only a limited window into the reason why a reported oense did not result in arrest (e.g., for exceptional clearances).</s><s>In addition, NIBRS data only include crime incidents that are known to law enforcement, which represent only a small share of the oenses that are committed.</s><s>According to estimates from the National Crime Victimization Survey (NCVS), in 2019 only about two in ve violent victimizations were reported to the police <ref target="#b86" type="bibr">[87]</ref>.</s><s>Evidence suggests that rates of crime reporting substantially vary across crime types <ref target="#b6" type="bibr">[7]</ref> and are generally higher in case of incidents involving Black victims, even if cooperation rates may be lower <ref target="#b125" type="bibr">[126]</ref>.</s><s>Thus, the information present in NIBRS data would not be sucient to implement tailored "debiasing" approaches that target specic types of bias in the dat (e.g., a certain discriminatory proactive policing strategy) and that may be necessary from a legal perspective <ref target="#b64" type="bibr">[65]</ref>.</s><s>One could, however, attempt to leverage NIBRS together with richer datasets of police records, of self-reported oending behavior, data from NCVS, and of citizen-police interactions such as those studied in Terrill and Reisig <ref target="#b110" type="bibr">[111]</ref>.</s><s>Kochel et al. <ref target="#b75" type="bibr">[76]</ref> and Lytle <ref target="#b82" type="bibr">[83]</ref> oer interesting examples of meta-analyses on the role of race in arrests for dierent types of crime types and data.</s><s>An additional potential limitation is the issue of model misspecication that we encountered in our analysis.</s><s>Clearly, regression models more complex than the ones that we employed that could potentially address this issue, but they may be harder to interpret and sanity-check as corrective mechanisms.</s><s>It is important to keep such trade-os in mind when considering model-based bias mitigation strategies.</s></p><p><s>Second, static estimates of the sampling bias may not be valid for longitudinal outcomes.</s><s>Due to the longitudinal nature of the measurement of re-arrest outcomes on which RAIs are trained and assessed, knowledge of the oending frequency and of the characteristics of the crimes committed would be needed for the correction.</s><s>Data from NIBRS do not contain oenders' identiers and thus cannot provide such estimates.</s><s>However, oending behavior has been studied by criminologists by surveying inmates and through longitudinal studies for decades.</s><s>M ost studies agree that the oending frequency varies across populations and, while most of the oenders commit only a few crimes a year <ref target="#b94" type="bibr">[95]</ref>, there is a small group of oenders with very high oending rates (more than 100 crimes a year) for whom the probability of arrest is low <ref target="#b12" type="bibr">[13]</ref>.</s><s>Attempts to correct for bias could then draw on thesendings.</s></p><p><s>We remark that the utility of data from NIBRS for the estimation of sampling bias in RAIs seems fairly limited.</s><s>Alternative sources of data, as discussed above, may provide more promising avenues to bias mitigation.</s><s>However, what is gained in specicity with alternative data sources often comes at the cost of generalizability.</s><s>For example, data on self-reported oending behavior has mainly been collected for populations of youths living in certain geographical regions, such as the Pathways to Desistance longitudinal study conducted on young adolescents in Philadelphia (Pennsylvania) and Maricopa county (Arizona) <ref target="#b14" type="bibr">[15]</ref>.</s><s>Extrapolation of ndings on these samples to other populations, such as oenders that are older or in other geographical areas, would need to be carefully considered.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">CONCLUSIONS<p><s>Characterizing the biases present in arrest data is critical to assessing the challenges and opportunities posed by recidivism risk assessment instruments.</s><s>While past work has suggested evaluating RAIs on data of violent oenses as a way to alleviate concerns of racial bias, by analyzing incident-level crime data from NIBRS, we have shown that violent oense data suer from signicant sampling biases.</s><s>There are disparities in the probability of arrest across geographical areas, characteristics of the crimes, and racial groups of victims and oenders, that were not adequately captured in prior work.</s><s>Our analysis indicates that arrest data on violent crimes are not a random sample of the oenses actually committed.</s><s>Absent corrective mechanisms, the predictions produced by RAIs trained on such data can be expected to reect these sampling biases.</s><s>At the same time, correcting for the sampling bias in recorded arrest data without accounting for the complex relationship between race, oending, and arrest may exacerbate the disparities exhibited by the RAI.</s><s>In the present work we have sought to highlight several of the key complexities and challenges of identifying the magnitude of sampling bias in arrest data.</s><s>We also discussed the limitations and challenges of using various sources of oending and arrest data in bias mitigation eorts.</s><s>Despite these challenges, we believe it is important for future work on developing and de-biasing recidivism risk assessment instruments to explicitly consider the discrepancy between criminal oending and arrest.</s></p></div><figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>. Two notable Analysis of racial disparities in arrest rates at the level of the states and law enforcement agencies.</s><s>The green stars indicate state-level observed dierences in the rates of arrest for simple assaults between White and Black oenders in the data from NI-BRS considered.</s><s>For example, in Tennessee (TN), the arrest rate is 20% higher for White oenders than for Black oenders.</s><s>States are colored and grouped according to the corresponding Census region.</s><s>The boxplots represent the distribution of the gap in arrest rates across police agencies with at least 50 Black and White offenders.</s><s>The lower and upper hinges correspond to the rst and third quartiles.</s><s>The upper whiskers extend to the largest value no further than 1.5 times the interquantile range from the hinge.</s></p></div></figdesc><table><row><cell></cell><cell></cell><cell>0.2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Difference in arrest rates between</cell><cell>white and black offenders</cell><cell>-0.1 0.0 0.1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>MT</cell><cell>ID</cell><cell>CO</cell><cell>AR</cell><cell>TN</cell><cell>KY</cell><cell>WV</cell><cell>VA</cell><cell>SC</cell><cell>DE</cell><cell>SD</cell><cell>ND</cell><cell>IA</cell><cell>MI</cell><cell>VT</cell><cell>NH</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">State code</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="3">Figure 1:</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<note n="2" place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>We conducted two additional checks.</s><s>First, we tted logistic mixed model with random eects for law enforcement agencies<ref target="#b52" type="bibr">[53]</ref>.</s><s>The estimates of the race coecients were very close to those of the regression model that we present in the main analysis.</s><s>Second, we clustered the sandwich standard errors<ref target="#b55" type="bibr">[56]</ref> by law enforcement agency and year.</s><s>The resulting coecients estimates relative to the oender's race was statistically signicant in case of simple assaults, but not for aggravated assaults.</s></p></note>
+<note n="3" place="foot" xml:id="foot_1" xmlns="http://www.tei-c.org/ns/1.0"><p><s>We acknowledge that availability of information regarding the oender and victim might inuence the likelihood of arrest dierently across crime types.</s><s>However, the observed variation persisted even once we considered all incidents in the data, i.e., we only applied the data restrictions relative the states.</s><s>The arrest rates for murder, forcible rape, robbery, aggravated assault, and simple assault were 58%, 24%, 24%, 50%, and 50% respectively.</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">ACKNOWLEDGMENTS<p><s>We are grateful to the Partnership on AI (PAI) and the Carnegie Mellon University Digital Transformation and Innovation Center sponsored by PwC for funding this research.</s><s>We also thank Arun Kumar Kuchibhotla and anonymous reviewers for providing valuable feedback.</s></p></div>
+</div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">A reductions approach to fair classication</title>
+<author>
+<persname><forename type="first">Alekh</forename><surname>Agarwal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Alina</forename><surname>Beygelzimer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Miroslav</forename><surname>Dudík</surname></persname>
+</author>
+<author>
+<persname><forename type="first">John</forename><surname>Langford</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Hanna</forename><surname>Wallach</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">International Conference on Machine Learning</title>
+<imprint>
+<publisher>PMLR</publisher>
+<date type="published" when="2018">2018</date>
+<biblscope from="60" to="69" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Alekh Agarwal, Alina Beygelzimer, Miroslav Dudík, John Langford, and Hanna Wallach. 2018. A reductions approach to fair classication. In International Conference on Machine Learning. PMLR, 60-69.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<monogr>
+<title level="m" type="main">Code of the street: Decency, violence, and the moral life of the inner city</title>
+<author>
+<persname><forename type="first">Elijah</forename><surname>Anderson</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2000">2000</date>
+<publisher>WW Norton &amp; Company</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Elijah Anderson. 2000. Code of the street: Decency, violence, and the moral life of the inner city. WW Norton &amp; Company.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<monogr>
+<author>
+<persname><forename type="first">Julia</forename><surname>Angwin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Je</forename><surname>Larson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Surya</forename><surname>Mattu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lauren</forename><surname>Kirchner</surname></persname>
+</author>
+<ptr target="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing"></ptr>
+<title level="m">Machine Bias: There's Software Used Across the Country to Predict Future Criminals. And it's Biased Against Blacks</title>
+<imprint>
+<date type="published" when="2016">2016. 2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Julia Angwin, Je Larson, Surya Mattu, and Lauren Kirchner. 2016. Machine Bias: There's Software Used Across the Country to Predict Future Criminals. And it's Biased Against Blacks. (2016). https://www.propublica.org/article/machine- bias-risk-assessments-in-criminal-sentencing.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Multiple imputation by chained equations: what is it and how does it work</title>
+<author>
+<persname><forename type="first">Melissa</forename><forename type="middle">J</forename><surname>Azur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Elizabeth</forename><forename type="middle">A</forename><surname>Stuart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Constantine</forename><surname>Frangakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Philip</forename><forename type="middle">J</forename><surname>Leaf</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">International journal of methods in psychiatric research</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="40" to="49" unit="page"></biblscope>
+<date type="published" when="2011">2011. 2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Melissa J Azur, Elizabeth A Stuart, Constantine Frangakis, and Philip J Leaf. 2011. Multiple imputation by chained equations: what is it and how does it work? International journal of methods in psychiatric research 20, 1 (2011), 40-49.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Interventions over predictions: Reframing the ethical debate for actuarial risk assessment</title>
+<author>
+<persname><forename type="first">Chelsea</forename><surname>Barabas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Madars</forename><surname>Virza</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Karthik</forename><surname>Dinakar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Joichi</forename><surname>Ito</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jonathan</forename><surname>Zittrain</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Conference on Fairness, Accountability and Transparency</title>
+<imprint>
+<publisher>PMLR</publisher>
+<date type="published" when="2018">2018</date>
+<biblscope from="62" to="76" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Chelsea Barabas, Madars Virza, Karthik Dinakar, Joichi Ito, and Jonathan Zittrain. 2018. Interventions over predictions: Reframing the ethical debate for actuarial risk assessment. In Conference on Fairness, Accountability and Transparency. PMLR, 62-76.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Fitting Linear Mixed-Eects Models Using lme4</title>
+<author>
+<persname><forename type="first">Douglas</forename><surname>Bates</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Martin</forename><surname>Mächler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Ben</forename><surname>Bolker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Steve</forename><surname>Walker</surname></persname>
+</author>
+<idno type="DOI">10.18637/jss.v067.i01</idno>
+<ptr target="https://doi.org/10.18637/jss.v067.i01"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Statistical Software</title>
+<imprint>
+<biblscope unit="volume">67</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="1" to="48" unit="page"></biblscope>
+<date type="published" when="2015">2015. 2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Douglas Bates, Martin Mächler, Ben Bolker, and Steve Walker. 2015. Fitting Linear Mixed-Eects Models Using lme4. Journal of Statistical Software 67, 1 (2015), 1-48. https://doi.org/10.18637/jss.v067.i01</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Reporting crime to the police, 1973-2005: A multivariate analysis of long-term trends in the National Crime Survey (NCS) and National Crime Victimization Survey (NCVS)</title>
+<author>
+<persname><forename type="first">P</forename><surname>Eric</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Janet</forename><forename type="middle">L</forename><surname>Baumer</surname></persname>
+</author>
+<author>
+<persname><surname>Lauritsen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">48</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="131" to="185" unit="page"></biblscope>
+<date type="published" when="2010">2010. 2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Eric P Baumer and Janet L Lauritsen. 2010. Reporting crime to the police, 1973- 2005: A multivariate analysis of long-term trends in the National Crime Survey (NCS) and National Crime Victimization Survey (NCVS). Criminology 48, 1 (2010), 131-185.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Racial disproportionality in US state prisons: Accounting for the eects of racial and ethnic dierences in criminal involvement, arrests, sentencing, and time served</title>
+<author>
+<persname><forename type="first">J</forename><surname>Allen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Alfred</forename><surname>Beck</surname></persname>
+</author>
+<author>
+<persname><surname>Blumstein</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Quantitative Criminology</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="853" to="883" unit="page"></biblscope>
+<date type="published" when="2018">2018. 2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Allen J Beck and Alfred Blumstein. 2018. Racial disproportionality in US state prisons: Accounting for the eects of racial and ethnic dierences in criminal involvement, arrests, sentencing, and time served. Journal of Quantitative Criminology 34, 3 (2018), 853-883.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<monogr>
+<author>
+<persname><forename type="first">Richard</forename><surname>Berk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Hoda</forename><surname>Heidari</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Shahin</forename><surname>Jabbari</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Matthew</forename><surname>Joseph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Michael</forename><surname>Kearns</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jamie</forename><surname>Morgenstern</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Seth</forename><surname>Neel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Aaron</forename><surname>Roth</surname></persname>
+</author>
+<idno type="arXiv">arXiv:1706.02409</idno>
+<title level="m">A convex framework for fair regression</title>
+<imprint>
+<date type="published" when="2017">2017. 2017</date>
+</imprint>
+</monogr>
+<note type="report_type">arXiv preprint</note>
+<note type="raw_reference">Richard Berk, Hoda Heidari, Shahin Jabbari, Matthew Joseph, Michael Kearns, Jamie Morgenstern, Seth Neel, and Aaron Roth. 2017. A convex framework for fair regression. arXiv preprint arXiv:1706.02409 (2017).</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Considerations and cautions regarding NIBRS data: A view from theeld</title>
+<author>
+<persname><forename type="first">Daniel</forename><surname>Bibel</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Justice Research and Policy</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="185" to="194" unit="page"></biblscope>
+<date type="published" when="2015">2015. 2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Daniel Bibel. 2015. Considerations and cautions regarding NIBRS data: A view from theeld. Justice Research and Policy 16, 2 (2015), 185-194.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<monogr>
+<author>
+<persname><forename type="first">Donald</forename><surname>Black</surname></persname>
+</author>
+<title level="m">The behavior of law</title>
+<meeting><address><addrline>New York</addrline></address></meeting>
+<imprint>
+<publisher>Academic Press</publisher>
+<date type="published" when="1976">1976</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Donald Black. 1976. The behavior of law. New York: Academic Press.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<monogr>
+<title level="m" type="main">Toward a theory of minority-group relations</title>
+<author>
+<persname><forename type="first">M</forename><surname>Hubert</surname></persname>
+</author>
+<author>
+<persname><surname>Blalock</surname></persname>
+</author>
+<imprint>
+<date type="published" when="1967">1967</date>
+<publisher>Wiley</publisher>
+<biblscope unit="volume">325</biblscope>
+<pubplace>New York</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Hubert M Blalock. 1967. Toward a theory of minority-group relations. Vol. 325. New York: Wiley.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Linking the crime and arrest processes to measure variations in individual arrest risk per crime (Q)</title>
+<author>
+<persname><forename type="first">Alfred</forename><surname>Blumstein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jacqueline</forename><surname>Cohen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Alex</forename><forename type="middle">R</forename><surname>Piquero</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Christy</forename><forename type="middle">A</forename><surname>Visher</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Quantitative Criminology</title>
+<imprint>
+<biblscope unit="volume">26</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="533" to="548" unit="page"></biblscope>
+<date type="published" when="2010">2010. 2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Alfred Blumstein, Jacqueline Cohen, Alex R Piquero, and Christy A Visher. 2010. Linking the crime and arrest processes to measure variations in individual arrest risk per crime (Q). Journal of Quantitative Criminology 26, 4 (2010), 533-548.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Mobilizing law in urban areas: The social structure of homicide clearance rates</title>
+<author>
+<persname><forename type="first">Marian</forename><forename type="middle">J</forename><surname>Borg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Karen</forename><forename type="middle">F</forename><surname>Parker</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Law and Society Review</title>
+<imprint>
+<biblscope from="435" to="466" unit="page"></biblscope>
+<date type="published" when="2001">2001. 2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Marian J Borg and Karen F Parker. 2001. Mobilizing law in urban areas: The social structure of homicide clearance rates. Law and Society Review (2001), 435-466.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Criminal careers of serious delinquents in two cities</title>
+<author>
+<persname><forename type="first">Robert</forename><surname>Brame</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jerey</forename><surname>Fagan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Alex</forename><forename type="middle">R</forename><surname>Piquero</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Carol</forename><forename type="middle">A</forename><surname>Schubert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Laurence</forename><surname>Steinberg</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Youth Violence and Juvenile Justice</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="256" to="272" unit="page"></biblscope>
+<date type="published" when="2004">2004. 2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Robert Brame, Jerey Fagan, Alex R Piquero, Carol A Schubert, and Laurence Steinberg. 2004. Criminal careers of serious delinquents in two cities. Youth Violence and Juvenile Justice 2, 3 (2004), 256-272.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Models as Approximations II: A Model-Free Theory of Parametric Regression</title>
+<author>
+<persname><forename type="first">Andreas</forename><surname>Buja</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lawrence</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Arun</forename><surname>Kumar Kuchibhotla</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Richard</forename><surname>Berk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Edward</forename><surname>George</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Linda</forename><surname>Zhao</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Statist. Sci</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="545" to="565" unit="page"></biblscope>
+<date type="published" when="2019">2019. 2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Andreas Buja, Lawrence Brown, Arun Kumar Kuchibhotla, Richard Berk, Ed- ward George, Linda Zhao, et al. 2019. Models as Approximations II: A Model-Free Theory of Parametric Regression. Statist. Sci. 34, 4 (2019), 545-565.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Relationship between the oending frequency (_) of imprisoned and free oenders</title>
+<author>
+<persname><forename type="first">Alfred</forename><surname>Jose A Canela-Cacho</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jacqueline</forename><surname>Blumstein</surname></persname>
+</author>
+<author>
+<persname><surname>Cohen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="133" to="176" unit="page"></biblscope>
+<date type="published" when="1997">1997. 1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jose A Canela-Cacho, Alfred Blumstein, and Jacqueline Cohen. 1997. Relation- ship between the oending frequency (_) of imprisoned and free oenders. Criminology 35, 1 (1997), 133-176.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">We never call the cops and here is why: A qualitative examination of legal cynicism in three Philadelphia neighborhoods</title>
+<author>
+<persname><forename type="first">Laura</forename><surname>Patrick J Carr</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jessica</forename><surname>Napolitano</surname></persname>
+</author>
+<author>
+<persname><surname>Keating</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="445" to="480" unit="page"></biblscope>
+<date type="published" when="2007">2007. 2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Patrick J Carr, Laura Napolitano, and Jessica Keating. 2007. We never call the cops and here is why: A qualitative examination of legal cynicism in three Philadelphia neighborhoods. Criminology 45, 2 (2007), 445-480.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Classication with fairness constraints: A meta-algorithm with provable guarantees</title>
+<author>
+<persname><forename type="first">Elisa</forename><surname>Celis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lingxiao</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Vijay</forename><surname>Keswani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Nisheeth</forename><forename type="middle">K</forename><surname>Vishnoi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Proceedings of the conference on fairness, accountability, and transparency</title>
+<meeting>the conference on fairness, accountability, and transparency</meeting>
+<imprint>
+<date type="published" when="2019">2019</date>
+<biblscope from="319" to="328" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">L Elisa Celis, Lingxiao Huang, Vijay Keswani, and Nisheeth K Vishnoi. 2019. Classication with fairness constraints: A meta-algorithm with provable guaran- tees. In Proceedings of the conference on fairness, accountability, and transparency. 319-328.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Fair prediction with disparate impact: A study of bias in recidivism prediction instruments</title>
+<author>
+<persname><forename type="first">Alexandra</forename><surname>Chouldechova</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Big data</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="153" to="163" unit="page"></biblscope>
+<date type="published" when="2017">2017. 2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Alexandra Chouldechova. 2017. Fair prediction with disparate impact: A study of bias in recidivism prediction instruments. Big data 5, 2 (2017), 153-163.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">The sliding scale of snitching: A qualitative examination of snitching in three Philadelphia communities</title>
+<author>
+<persname><forename type="first">Susan</forename><surname>Clampet-Lundquist</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Patrick</forename><forename type="middle">J</forename><surname>Carr</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Maria</forename><forename type="middle">J</forename><surname>Kefalas</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Sociological Forum</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope from="265" to="285" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+<publisher>Wiley Online Library</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Susan Clampet-Lundquist, Patrick J Carr, and Maria J Kefalas. 2015. The sliding scale of snitching: A qualitative examination of snitching in three Philadelphia communities. In Sociological Forum, Vol. 30. Wiley Online Library, 265-285.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Algorithmic decision making and the cost of fairness</title>
+<author>
+<persname><forename type="first">Sam</forename><surname>Corbett-Davies</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Emma</forename><surname>Pierson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Avi</forename><surname>Feller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Sharad</forename><surname>Goel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Aziz</forename><surname>Huq</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Proceedings of the 23rd acm sigkdd international conference on knowledge discovery and data mining</title>
+<meeting>the 23rd acm sigkdd international conference on knowledge discovery and data mining</meeting>
+<imprint>
+<date type="published" when="2017">2017</date>
+<biblscope from="797" to="806" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Sam Corbett-Davies, Emma Pierson, Avi Feller, Sharad Goel, and Aziz Huq. 2017. Algorithmic decision making and the cost of fairness. In Proceedings of the 23rd acm sigkdd international conference on knowledge discovery and data mining. 797-806.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<monogr>
+<author>
+<persname><forename type="first">Gábor</forename><surname>Csárdi</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=cliRpackageversion2.3.0"></ptr>
+<title level="m">cli: Helpers for Developing Command Line Interfaces</title>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gábor Csárdi. 2021. cli: Helpers for Developing Command Line Interfaces. https: //CRAN.R-project.org/package=cli R package version 2.3.0.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<monogr>
+<author>
+<persname><forename type="first">David</forename><forename type="middle">B</forename><surname>Dahl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">David</forename><surname>Scott</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Charles</forename><surname>Roosen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Arni</forename><surname>Magnusson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jonathan</forename><surname>Swinton</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=xtableRpackageversion1.8-4"></ptr>
+<title level="m">xtable: Export Tables to LaTeX or HTML</title>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">David B. Dahl, David Scott, Charles Roosen, Arni Magnusson, and Jonathan Swinton. 2019. xtable: Export Tables to LaTeX or HTML. https://CRAN.R- project.org/package=xtable R package version 1.8-4.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Race and the probability of arrest</title>
+<author>
+<persname><forename type="first">J D'alessio</forename><surname>Stewart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lisa</forename><surname>Stolzenberg</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Social forces</title>
+<imprint>
+<biblscope unit="volume">81</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="1381" to="1397" unit="page"></biblscope>
+<date type="published" when="2003">2003. 2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stewart J D'Alessio and Lisa Stolzenberg. 2003. Race and the probability of arrest. Social forces 81, 4 (2003), 1381-1397.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<monogr>
+<title level="m" type="main">COMPAS Risk Scales: Demonstrating Accuracy Equity and Predictive Parity</title>
+<author>
+<persname><forename type="first">William</forename><surname>Dieterich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Christina</forename><surname>Mendoza</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Tim</forename><surname>Brennan</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2016">2016. 2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">William Dieterich, Christina Mendoza, and Tim Brennan. 2016. COMPAS Risk Scales: Demonstrating Accuracy Equity and Predictive Parity. (2016).</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<monogr>
+<title level="m" type="main">Empirical risk minimization under fairness constraints</title>
+<author>
+<persname><forename type="first">Michele</forename><surname>Donini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Luca</forename><surname>Oneto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Shai</forename><surname>Ben-David</surname></persname>
+</author>
+<author>
+<persname><forename type="first">John</forename><surname>Shawe-Taylor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Massimiliano</forename><surname>Pontil</surname></persname>
+</author>
+<idno type="arXiv">arXiv:1802.08626</idno>
+<imprint>
+<date type="published" when="2018">2018. 2018</date>
+</imprint>
+</monogr>
+<note type="report_type">arXiv preprint</note>
+<note type="raw_reference">Michele Donini, Luca Oneto, Shai Ben-David, John Shawe-Taylor, and Massi- miliano Pontil. 2018. Empirical risk minimization under fairness constraints. arXiv preprint arXiv:1802.08626 (2018).</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Domestic violence legislation: Exploring its impact on the likelihood of domestic violence, police involvement, and arrest</title>
+<author>
+<persname><forename type="first">Laura</forename><surname>Dugan</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology &amp; Public Policy</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="283" to="312" unit="page"></biblscope>
+<date type="published" when="2003">2003. 2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Laura Dugan. 2003. Domestic violence legislation: Exploring its impact on the likelihood of domestic violence, police involvement, and arrest. Criminology &amp; Public Policy 2, 2 (2003), 283-312.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Racial threat and social control: A test of the political, economic, and threat of black crime hypotheses</title>
+<author>
+<persname><forename type="first">David</forename><surname>Eitle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Stewart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lisa</forename><surname>D'alessio</surname></persname>
+</author>
+<author>
+<persname><surname>Stolzenberg</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Social Forces</title>
+<imprint>
+<biblscope unit="volume">81</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="557" to="576" unit="page"></biblscope>
+<date type="published" when="2002">2002. 2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">David Eitle, Stewart J D'Alessio, and Lisa Stolzenberg. 2002. Racial threat and social control: A test of the political, economic, and threat of black crime hypotheses. Social Forces 81, 2 (2002), 557-576.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<monogr>
+<author>
+<persname><forename type="first">Jerey</forename><surname>Fagan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Amanda</forename><surname>Geller</surname></persname>
+</author>
+<title level="m">Police, race, and the production of capital homicides</title>
+<imprint>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jerey Fagan and Amanda Geller. 2018. Police, race, and the production of capital homicides.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title></title>
+</analytic>
+<monogr>
+<title level="j">Berkeley J. Crim. L</title>
+<imprint>
+<biblscope unit="volume">23</biblscope>
+<biblscope unit="page">261</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Berkeley J. Crim. L. 23 (2018), 261.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<monogr>
+<title level="m" type="main">National Incident-Based Reporting System</title>
+<idno type="DOI">10.3886/ICPSR25113.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR25113.v1"></ptr>
+<imprint>
+<date type="published" when="2007">2009. 2007. 2009</date>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2009. Na- tional Incident-Based Reporting System, 2007. (2009). https://doi.org/10.3886/ ICPSR25113.v1</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<monogr>
+<idno type="DOI">10.3886/ICPSR25104.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR25104.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data [United States]: Police Employee (LEOKA) Data</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2007">2009. 2007. 2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2009. Uni- form Crime Reporting Program Data [United States]: Police Employee (LEOKA) Data, 2007. (2009). https://doi.org/10.3886/ICPSR25104.v1</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<monogr>
+<title level="m" type="main">National Incident-Based Reporting System</title>
+<idno type="DOI">10.3886/ICPSR27647.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR27647.v1"></ptr>
+<imprint>
+<date type="published" when="2008">2010. 2008. 2010</date>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2010. Na- tional Incident-Based Reporting System, 2008. (2010). https://doi.org/10.3886/ ICPSR27647.v1</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<monogr>
+<idno type="DOI">10.3886/ICPSR27646.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR27646.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data [United States]: Police Employee (LEOKA) Data</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2008">2010. 2008. 2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2010. Uni- form Crime Reporting Program Data [United States]: Police Employee (LEOKA) Data, 2008. (2010). https://doi.org/10.3886/ICPSR27646.v1</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<monogr>
+<idno type="DOI">10.3886/ICPSR30770.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR30770.v1"></ptr>
+<title level="m">Uniform Crime Reporting: National Incident-Based Reporting System</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2009">2011. 2009. 2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2011. Uni- form Crime Reporting: National Incident-Based Reporting System, 2009. (2011). https://doi.org/10.3886/ICPSR30770.v1</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<monogr>
+<idno type="DOI">10.3886/ICPSR30765.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR30765.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data [United States]: Police Employee (LEOKA) Data</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2009">2011. 2009. 2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2011. Uni- form Crime Reporting Program Data [United States]: Police Employee (LEOKA) Data, 2009. (2011). https://doi.org/10.3886/ICPSR30765.v1</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<monogr>
+<idno type="DOI">10.3886/ICPSR33530.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR33530.v1"></ptr>
+<title level="m">Uniform Crime Reporting: National Incident-Based Reporting System</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2010">2012. 2010. 2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2012. Uni- form Crime Reporting: National Incident-Based Reporting System, 2010. (2012). https://doi.org/10.3886/ICPSR33530.v1</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<monogr>
+<idno type="DOI">10.3886/ICPSR33525.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR33525.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: Police Employee (LEOKA) Data</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2010">2012. 2010. 2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2012. Uni- form Crime Reporting Program Data: Police Employee (LEOKA) Data, 2010. (2012). https://doi.org/10.3886/ICPSR33525.v1</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<monogr>
+<idno type="DOI">10.3886/ICPSR34585.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR34585.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: National Incident-Based Reporting System</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2011">2013. 2011. 2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2013. Uni- form Crime Reporting Program Data: National Incident-Based Reporting System, 2011. (2013). https://doi.org/10.3886/ICPSR34585.v1</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<monogr>
+<idno type="DOI">10.3886/ICPSR34584.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR34584.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: Police Employee (LEOKA) Data</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2011">2013. 2011. 2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2013. Uni- form Crime Reporting Program Data: Police Employee (LEOKA) Data, 2011. (2013). https://doi.org/10.3886/ICPSR34584.v1</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<monogr>
+<idno type="DOI">10.3886/ICPSR35035.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR35035.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: National Incident-Based Reporting System</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2012">2014. 2012. 2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2014. Uni- form Crime Reporting Program Data: National Incident-Based Reporting System, 2012. (2014). https://doi.org/10.3886/ICPSR35035.v1</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<monogr>
+<idno type="DOI">10.3886/ICPSR35020.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR35020.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: Police Employee (LEOKA) Data</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2012">2014. 2012. 2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2014. Uni- form Crime Reporting Program Data: Police Employee (LEOKA) Data, 2012. (2014). https://doi.org/10.3886/ICPSR35020.v1</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<monogr>
+<idno type="DOI">10.3886/ICPSR36120.v2</idno>
+<ptr target="https://doi.org/10.3886/ICPSR36120.v2"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: National Incident-Based Reporting System</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2013">2015. 2013. 2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2015. Uni- form Crime Reporting Program Data: National Incident-Based Reporting System, 2013. (2015). https://doi.org/10.3886/ICPSR36120.v2</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<monogr>
+<idno type="DOI">10.3886/ICPSR36119.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR36119.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: Police Employee (LEOKA) Data</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2013">2015. 2013. 2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2015. Uni- form Crime Reporting Program Data: Police Employee (LEOKA) Data, 2013. (2015). https://doi.org/10.3886/ICPSR36119.v1</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<monogr>
+<idno type="DOI">10.3886/ICPSR36398.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR36398.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: National Incident-Based Reporting System</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2014">2016. 2014. 2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2016. Uni- form Crime Reporting Program Data: National Incident-Based Reporting System, 2014. (2016). https://doi.org/10.3886/ICPSR36398.v1</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<monogr>
+<idno type="DOI">10.3886/ICPSR36395.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR36395.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: Police Employee (LEOKA) Data</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2014">2016. 2014. 2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2016. Uni- form Crime Reporting Program Data: Police Employee (LEOKA) Data, 2014. (2016). https://doi.org/10.3886/ICPSR36395.v1</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<monogr>
+<idno type="DOI">10.3886/ICPSR36795.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR36795.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: National Incident-Based Reporting System</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2015">2017. 2015. 2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2017. Uni- form Crime Reporting Program Data: National Incident-Based Reporting System, 2015. (2017). https://doi.org/10.3886/ICPSR36795.v1</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<monogr>
+<idno type="DOI">10.3886/ICPSR36791.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR36791.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: Police Employee (LEOKA) Data</title>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2015">2017. 2015. 2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2017. Uni- form Crime Reporting Program Data: Police Employee (LEOKA) Data, 2015. (2017). https://doi.org/10.3886/ICPSR36791.v1</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<monogr>
+<idno type="DOI">10.3886/ICPSR37065.v2</idno>
+<ptr target="https://doi.org/10.3886/ICPSR37065.v2"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: National Incident-Based Reporting System</title>
+<meeting><address><addrline>United States</addrline></address></meeting>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2016">2018. 2016. 2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2018. Uni- form Crime Reporting Program Data: National Incident-Based Reporting System, [United States], 2016. (2018). https://doi.org/10.3886/ICPSR37065.v2</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<monogr>
+<idno type="DOI">10.3886/ICPSR37062.v1</idno>
+<ptr target="https://doi.org/10.3886/ICPSR37062.v1"></ptr>
+<title level="m">Uniform Crime Reporting Program Data: Police Employee (LEOKA) Data</title>
+<meeting><address><addrline>United States</addrline></address></meeting>
+<imprint>
+<publisher>United States Department of Justice Federal Bureau of Investigation</publisher>
+<date type="published" when="2016">2018. 2016. 2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice Federal Bureau of Investigation. 2018. Uni- form Crime Reporting Program Data: Police Employee (LEOKA) Data, United States, 2016. (2018). https://doi.org/10.3886/ICPSR37062.v1</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">When are victims unlikely to cooperate with the police?</title>
+<author>
+<persname><forename type="first">B</forename><surname>Richard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Brendan</forename><surname>Felson</surname></persname>
+</author>
+<author>
+<persname><surname>Lantz</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Aggressive behavior</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope from="97" to="108" unit="page"></biblscope>
+<date type="published" when="2016">2016. 2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Richard B Felson and Brendan Lantz. 2016. When are victims unlikely to cooperate with the police? Aggressive behavior 42, 1 (2016), 97-108.</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<monogr>
+<author>
+<persname><forename type="first">Garrett</forename><surname>Fitzmaurice</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Marie</forename><surname>Davidian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Geert</forename><surname>Verbeke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Geert</forename><surname>Molenberghs</surname></persname>
+</author>
+<title level="m">Longitudinal data analysis</title>
+<imprint>
+<publisher>CRC press</publisher>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Garrett Fitzmaurice, Marie Davidian, Geert Verbeke, and Geert Molenberghs. 2008. Longitudinal data analysis. CRC press.</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<monogr>
+<author>
+<persname><forename type="first">Anthony</forename><forename type="middle">W</forename><surname>Flores</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Kristin</forename><surname>Bechtel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Christopher</forename><forename type="middle">T</forename><surname>Lowenkamp</surname></persname>
+</author>
+<title level="m">Machine Bias: There's Software Used Across the Country to Predict Future Criminals. And it's Biased Against Blacks</title>
+<imprint>
+<date type="published" when="2016">2016. 2016</date>
+</imprint>
+</monogr>
+<note>False Positives, False Negatives, and False Analyses: A Rejoinder to. Unpublished manuscript</note>
+<note type="raw_reference">Anthony W Flores, Kristin Bechtel, and Christopher T Lowenkamp. 2016. False Positives, False Negatives, and False Analyses: A Rejoinder to "Machine Bias: There's Software Used Across the Country to Predict Future Criminals. And it's Biased Against Blacks. ". Unpublished manuscript (2016).</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<monogr>
+<title level="m" type="main">Fairness Evaluation in Presence of Biased Noisy Labels</title>
+<author>
+<persname><forename type="first">Riccardo</forename><surname>Fogliato</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G'</forename><surname>Max</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Alexandra</forename><surname>Sell</surname></persname>
+</author>
+<author>
+<persname><surname>Chouldechova</surname></persname>
+</author>
+<idno type="arXiv">arXiv:2003.13808</idno>
+<imprint>
+<date type="published" when="2020">2020. 2020</date>
+</imprint>
+</monogr>
+<note type="report_type">arXiv preprint</note>
+<note type="raw_reference">Riccardo Fogliato, Max G'Sell, and Alexandra Chouldechova. 2020. Fairness Evaluation in Presence of Biased Noisy Labels. arXiv preprint arXiv:2003.13808 (2020).</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">On the so-called "Huber sandwich estimator" and "robust standard errors</title>
+<author>
+<persname><surname>David A Freedman</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">The American Statistician</title>
+<imprint>
+<biblscope unit="volume">60</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="299" to="302" unit="page"></biblscope>
+<date type="published" when="2006">2006. 2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">David A Freedman. 2006. On the so-called "Huber sandwich estimator" and "robust standard errors". The American Statistician 60, 4 (2006), 299-302.</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">Precinct or prejudice? Understanding racial disparities in New York City's stop-and-frisk policy</title>
+<author>
+<persname><forename type="first">Sharad</forename><surname>Goel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Justin</forename><forename type="middle">M</forename><surname>Rao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Ravi</forename><surname>Shro</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">The Annals of Applied Statistics</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="365" to="394" unit="page"></biblscope>
+<date type="published" when="2016">2016. 2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sharad Goel, Justin M Rao, Ravi Shro, et al. 2016. Precinct or prejudice? Understanding racial disparities in New York City's stop-and-frisk policy. The Annals of Applied Statistics 10, 1 (2016), 365-394.</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">The accuracy, equity, and jurisprudence of criminal risk assessment</title>
+<author>
+<persname><forename type="first">Sharad</forename><surname>Goel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Ravi</forename><surname>Shro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Skeem</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Christopher</forename><surname>Slobogin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Equity, and Jurisprudence of Criminal Risk Assessment</title>
+<imprint>
+<date type="published" when="2018-12-26">2018. December 26, 2018. 2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sharad Goel, Ravi Shro, Jennifer L Skeem, and Christopher Slobogin. 2018. The accuracy, equity, and jurisprudence of criminal risk assessment. Equity, and Jurisprudence of Criminal Risk Assessment (December 26, 2018) (2018).</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">The false promise of risk assessments: epistemic reform and the limits of fairness</title>
+<author>
+<persname><forename type="first">Ben</forename><surname>Green</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency</title>
+<meeting>the 2020 Conference on Fairness, Accountability, and Transparency</meeting>
+<imprint>
+<date type="published" when="2020">2020</date>
+<biblscope from="594" to="606" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Ben Green. 2020. The false promise of risk assessments: epistemic reform and the limits of fairness. In Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 594-606.</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<monogr>
+<author>
+<persname><forename type="first">Mark</forename><surname>Greenblatt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Mark</forename><surname>Fahey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Bernice</forename><surname>Yeung</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Emily</forename><surname>Harris</surname></persname>
+</author>
+<ptr target="https://www.propublica.org/article/fbi-moves-to-x-critical-aw-in-its-crime-reporting-system"></ptr>
+<title level="m">FBI Moves to Fix Critical Flaw in Its Crime Reporting System</title>
+<imprint>
+<date type="published" when="2018">2018. 2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mark Greenblatt, Mark Fahey, Bernice Yeung, and Emily Harris. 2018. FBI Moves to Fix Critical Flaw in Its Crime Reporting System. (2018). https://www.propublica.org/article/fbi-moves-to-x-critical-aw-in-its- crime-reporting-system.</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<monogr>
+<author>
+<persname><forename type="first">Moritz</forename><surname>Hardt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Eric</forename><surname>Price</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Nathan</forename><surname>Srebro</surname></persname>
+</author>
+<idno type="arXiv">arXiv:1610.02413</idno>
+<title level="m">Equality of opportunity in supervised learning</title>
+<imprint>
+<date type="published" when="2016">2016. 2016</date>
+</imprint>
+</monogr>
+<note type="report_type">arXiv preprint</note>
+<note type="raw_reference">Moritz Hardt, Eric Price, and Nathan Srebro. 2016. Equality of opportunity in supervised learning. arXiv preprint arXiv:1610.02413 (2016).</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<monogr>
+<title level="m" type="main">vroom: Read and Write Rectangular Text Data Quickly</title>
+<author>
+<persname><forename type="first">Jim</forename><surname>Hester</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Hadley</forename><surname>Wickham</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=vroomRpackageversion1.3.2"></ptr>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jim Hester and Hadley Wickham. 2020. vroom: Read and Write Rectangular Text Data Quickly. https://CRAN.R-project.org/package=vroom R package version 1.3.2.</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">Race and involvement in common law personal crimes</title>
+<author>
+<persname><forename type="first">J</forename><surname>Michael</surname></persname>
+</author>
+<author>
+<persname><surname>Hindelang</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">American sociological review</title>
+<imprint>
+<biblscope from="93" to="109" unit="page"></biblscope>
+<date type="published" when="1978">1978. 1978</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Michael J Hindelang. 1978. Race and involvement in common law personal crimes. American sociological review (1978), 93-109.</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">Domestic violence and mandatory arrest laws: To what extent do they inuence police arrest decisions</title>
+<author>
+<persname><forename type="first">David</forename><surname>Hirschel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Eve</forename><surname>Buzawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">April</forename><surname>Pattavina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Don</forename><surname>Faggiani</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Crim. L. &amp; Criminology</title>
+<imprint>
+<biblscope unit="volume">98</biblscope>
+<biblscope unit="page">255</biblscope>
+<date type="published" when="2007">2007. 2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">David Hirschel, Eve Buzawa, April Pattavina, and Don Faggiani. 2007. Domestic violence and mandatory arrest laws: To what extent do they inuence police arrest decisions. J. Crim. L. &amp; Criminology 98 (2007), 255.</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<monogr>
+<author>
+<persname><forename type="first">E</forename><surname>Daniel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Alice</forename><surname>Ho</surname></persname>
+</author>
+<author>
+<persname><surname>Xiang</surname></persname>
+</author>
+<idno type="arXiv">arXiv:2012.14285</idno>
+<title level="m">Armative Algorithms: The Legal Grounds for Fairness as Awareness</title>
+<imprint>
+<date type="published" when="2020">2020. 2020</date>
+</imprint>
+</monogr>
+<note type="report_type">arXiv preprint</note>
+<note type="raw_reference">Daniel E Ho and Alice Xiang. 2020. Armative Algorithms: The Legal Grounds for Fairness as Awareness. arXiv preprint arXiv:2012.14285 (2020).</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<monogr>
+<title level="m" type="main">fastglm: Fast and Stable Fitting of Generalized Linear Models using 'RcppEigen</title>
+<author>
+<persname><forename type="first">Jared</forename><surname>Huling</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=fastglmRpackageversion0.0.1"></ptr>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jared Huling. 2019. fastglm: Fast and Stable Fitting of Generalized Linear Models using 'RcppEigen'. https://CRAN.R-project.org/package=fastglm R package version 0.0.1.</note>
+</biblstruct>
+<biblstruct xml:id="b66">
+<analytic>
+<title level="a" type="main">An algorithm for removing sensitive information: application to race-independent recidivism prediction</title>
+<author>
+<persname><forename type="first">Kristian</forename><surname>James E Johndrow</surname></persname>
+</author>
+<author>
+<persname><surname>Lum</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">The Annals of Applied Statistics</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="189" to="220" unit="page"></biblscope>
+<date type="published" when="2019">2019. 2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">James E Johndrow, Kristian Lum, et al. 2019. An algorithm for removing sensitive information: application to race-independent recidivism prediction. The Annals of Applied Statistics 13, 1 (2019), 189-220.</note>
+</biblstruct>
+<biblstruct xml:id="b67">
+<analytic>
+<title level="a" type="main">The social ecology of police misconduct</title>
+<author>
+<persname><forename type="first">Kane</forename><surname>Robert</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="867" to="896" unit="page"></biblscope>
+<date type="published" when="2002">2002. 2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Robert J Kane. 2002. The social ecology of police misconduct. Criminology 40, 4 (2002), 867-896.</note>
+</biblstruct>
+<biblstruct xml:id="b68">
+<analytic>
+<title level="a" type="main">Compromised police legitimacy as a predictor of violent crime in structurally disadvantaged communities</title>
+<author>
+<persname><forename type="first">Kane</forename><surname>Robert</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="469" to="498" unit="page"></biblscope>
+<date type="published" when="2005">2005. 2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Robert J Kane. 2005. Compromised police legitimacy as a predictor of violent crime in structurally disadvantaged communities. Criminology 43, 2 (2005), 469-498.</note>
+</biblstruct>
+<biblstruct xml:id="b69">
+<monogr>
+<title level="m" type="main">asciiSetupReader: Reads Fixed-Width ASCII Data Files</title>
+<author>
+<persname><forename type="first">Jacob</forename><surname>Kaplan</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=asciiSetupReaderRpackageversion2.3.2"></ptr>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note>txt or .dat) that Have Accompanying Setup Files (.sps or .sas</note>
+<note type="raw_reference">Jacob Kaplan. 2020. asciiSetupReader: Reads Fixed-Width ASCII Data Files (.txt or .dat) that Have Accompanying Setup Files (.sps or .sas). https://CRAN.R- project.org/package=asciiSetupReader R package version 2.3.2.</note>
+</biblstruct>
+<biblstruct xml:id="b70">
+<analytic>
+<title level="a" type="main">Minority threat and police strength from 1980 to 2000: A xed-eects analysis of nonlinear and interactive eects in large US cities</title>
+<author>
+<persname><forename type="first">L</forename><surname>Stephanie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">David</forename><surname>Kent</surname></persname>
+</author>
+<author>
+<persname><surname>Jacobs</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="731" to="760" unit="page"></biblscope>
+<date type="published" when="2005">2005. 2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stephanie L Kent and David Jacobs. 2005. Minority threat and police strength from 1980 to 2000: A xed-eects analysis of nonlinear and interactive eects in large US cities. Criminology 43, 3 (2005), 731-760.</note>
+</biblstruct>
+<biblstruct xml:id="b71">
+<analytic>
+<title level="a" type="main">Legal cynicism, collective ecacy, and the ecology of arrest</title>
+<author>
+<persname><forename type="first">S</forename><surname>David</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Mauri</forename><surname>Kirk</surname></persname>
+</author>
+<author>
+<persname><surname>Matsuda</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">49</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="443" to="472" unit="page"></biblscope>
+<date type="published" when="2011">2011. 2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">David S Kirk and Mauri Matsuda. 2011. Legal cynicism, collective ecacy, and the ecology of arrest. Criminology 49, 2 (2011), 443-472.</note>
+</biblstruct>
+<biblstruct xml:id="b72">
+<analytic>
+<title level="a" type="main">Human decisions and machine predictions</title>
+<author>
+<persname><forename type="first">Jon</forename><surname>Kleinberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Himabindu</forename><surname>Lakkaraju</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jure</forename><surname>Leskovec</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jens</forename><surname>Ludwig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Sendhil</forename><surname>Mullainathan</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">The quarterly journal of economics</title>
+<imprint>
+<biblscope unit="volume">133</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="237" to="293" unit="page"></biblscope>
+<date type="published" when="2018">2018. 2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jon Kleinberg, Himabindu Lakkaraju, Jure Leskovec, Jens Ludwig, and Sendhil Mullainathan. 2018. Human decisions and machine predictions. The quarterly journal of economics 133, 1 (2018), 237-293.</note>
+</biblstruct>
+<biblstruct xml:id="b73">
+<monogr>
+<author>
+<persname><forename type="first">Jon</forename><surname>Kleinberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Sendhil</forename><surname>Mullainathan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Manish</forename><surname>Raghavan</surname></persname>
+</author>
+<idno type="arXiv">arXiv:1609.05807</idno>
+<title level="m">Inherent trade-os in the fair determination of risk scores</title>
+<imprint>
+<date type="published" when="2016">2016. 2016</date>
+</imprint>
+</monogr>
+<note type="report_type">arXiv preprint</note>
+<note type="raw_reference">Jon Kleinberg, Sendhil Mullainathan, and Manish Raghavan. 2016. Inherent trade-os in the fair determination of risk scores. arXiv preprint arXiv:1609.05807 (2016).</note>
+</biblstruct>
+<biblstruct xml:id="b74">
+<analytic>
+<title level="a" type="main">Negotiating order in patrol work: An ecological theory of police response to deviance</title>
+<author>
+<persname><forename type="first">A</forename><surname>David</surname></persname>
+</author>
+<author>
+<persname><surname>Klinger</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="277" to="306" unit="page"></biblscope>
+<date type="published" when="1997">1997. 1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">David A Klinger. 1997. Negotiating order in patrol work: An ecological theory of police response to deviance. Criminology 35, 2 (1997), 277-306.</note>
+</biblstruct>
+<biblstruct xml:id="b75">
+<analytic>
+<title level="a" type="main">Eect of suspect race on ocers' arrest decisions</title>
+<author>
+<persname><forename type="first">Tammy</forename><forename type="middle">Rinehart</forename><surname>Kochel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">David</forename><forename type="middle">B</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Stephen</forename><forename type="middle">D</forename><surname>Mastrofski</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">49</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="473" to="512" unit="page"></biblscope>
+<date type="published" when="2011">2011. 2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Tammy Rinehart Kochel, David B Wilson, and Stephen D Mastrofski. 2011. Eect of suspect race on ocers' arrest decisions. Criminology 49, 2 (2011), 473-512.</note>
+</biblstruct>
+<biblstruct xml:id="b76">
+<analytic>
+<title level="a" type="main">Retaliatory homicide: Concentrated disadvantage and neighborhood culture</title>
+<author>
+<persname><forename type="first">Charis</forename><forename type="middle">E</forename><surname>Kubrin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Ronald</forename><surname>Weitzer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Social problems</title>
+<imprint>
+<biblscope unit="volume">50</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="157" to="180" unit="page"></biblscope>
+<date type="published" when="2003">2003. 2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Charis E Kubrin and Ronald Weitzer. 2003. Retaliatory homicide: Concentrated disadvantage and neighborhood culture. Social problems 50, 2 (2003), 157-180.</note>
+</biblstruct>
+<biblstruct xml:id="b77">
+<analytic>
+<title level="a" type="main">The co-oender as counterfactual: A quasi-experimental within-partnership approach to the examination of the relationship between race and arrest</title>
+<author>
+<persname><forename type="first">Brendan</forename><surname>Lantz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Marin</forename><forename type="middle">R</forename><surname>Wenger</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of experimental criminology</title>
+<imprint>
+<biblscope from="1" to="24" unit="page"></biblscope>
+<date type="published" when="2019">2019. 2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brendan Lantz and Marin R Wenger. 2019. The co-oender as counterfactual: A quasi-experimental within-partnership approach to the examination of the relationship between race and arrest. Journal of experimental criminology (2019), 1-24.</note>
+</biblstruct>
+<biblstruct xml:id="b78">
+<analytic>
+<title level="a" type="main">Social structure and crime control among macrosocial units</title>
+<author>
+<persname><forename type="first">E</forename><surname>Allen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Mitchell</forename><forename type="middle">B</forename><surname>Liska</surname></persname>
+</author>
+<author>
+<persname><surname>Chamlin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">American journal of sociology</title>
+<imprint>
+<biblscope unit="volume">90</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="383" to="395" unit="page"></biblscope>
+<date type="published" when="1984">1984. 1984</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Allen E Liska and Mitchell B Chamlin. 1984. Social structure and crime control among macrosocial units. American journal of sociology 90, 2 (1984), 383-395.</note>
+</biblstruct>
+<biblstruct xml:id="b79">
+<analytic>
+<title level="a" type="main">Testing the economic production and conict models of crime control</title>
+<author>
+<persname><surname>Allen E Liska</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Mark</forename><forename type="middle">D</forename><surname>Mitchell B Chamlin</surname></persname>
+</author>
+<author>
+<persname><surname>Reed</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Social Forces</title>
+<imprint>
+<biblscope unit="volume">64</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="119" to="138" unit="page"></biblscope>
+<date type="published" when="1985">1985. 1985</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Allen E Liska, Mitchell B Chamlin, and Mark D Reed. 1985. Testing the economic production and conict models of crime control. Social Forces 64, 1 (1985), 119- 138.</note>
+</biblstruct>
+<biblstruct xml:id="b80">
+<analytic>
+<title level="a" type="main">Measuring selfreported wrongful convictions among prisoners</title>
+<author>
+<persname><forename type="first">Jordan</forename><surname>Charles E Loeer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Greg</forename><surname>Hyatt</surname></persname>
+</author>
+<author>
+<persname><surname>Ridgeway</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Quantitative Criminology</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="259" to="286" unit="page"></biblscope>
+<date type="published" when="2019">2019. 2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Charles E Loeer, Jordan Hyatt, and Greg Ridgeway. 2019. Measuring self- reported wrongful convictions among prisoners. Journal of Quantitative Crimi- nology 35, 2 (2019), 259-286.</note>
+</biblstruct>
+<biblstruct xml:id="b81">
+<analytic>
+<title level="a" type="main">To predict and serve?</title>
+<author>
+<persname><forename type="first">Kristian</forename><surname>Lum</surname></persname>
+</author>
+<author>
+<persname><forename type="first">William</forename><surname>Isaac</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Signicance</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="14" to="19" unit="page"></biblscope>
+<date type="published" when="2016">2016. 2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kristian Lum and William Isaac. 2016. To predict and serve? Signicance 13, 5 (2016), 14-19.</note>
+</biblstruct>
+<biblstruct xml:id="b82">
+<analytic>
+<title level="a" type="main">The eects of suspect characteristics on arrest: A metaanalysis</title>
+<author>
+<persname><forename type="first">J</forename><surname>Daniel</surname></persname>
+</author>
+<author>
+<persname><surname>Lytle</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Criminal Justice</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="589" to="597" unit="page"></biblscope>
+<date type="published" when="2014">2014. 2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Daniel J Lytle. 2014. The eects of suspect characteristics on arrest: A meta- analysis. Journal of Criminal Justice 42, 6 (2014), 589-597.</note>
+</biblstruct>
+<biblstruct xml:id="b83">
+<analytic>
+<title level="a" type="main">Assessing the coverage and representativeness of the National Incident-Based Reporting System</title>
+<author>
+<persname><forename type="first">April</forename><surname>Philip D Mccormack</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Paul</forename><forename type="middle">E</forename><surname>Pattavina</surname></persname>
+</author>
+<author>
+<persname><surname>Tracy</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Crime &amp; Delinquency</title>
+<imprint>
+<biblscope unit="volume">63</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="493" to="516" unit="page"></biblscope>
+<date type="published" when="2017">2017. 2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Philip D McCormack, April Pattavina, and Paul E Tracy. 2017. Assessing the cov- erage and representativeness of the National Incident-Based Reporting System. Crime &amp; Delinquency 63, 4 (2017), 493-516.</note>
+</biblstruct>
+<biblstruct xml:id="b84">
+<analytic>
+<title level="a" type="main">The average predictive validity of intimate partner violence risk assessment instruments</title>
+<author>
+<persname><forename type="first">Jill</forename><surname>Theresa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Messing</forename></persname>
+</author>
+<author>
+<persname><forename type="first">Jonel</forename><surname>Thaller</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of interpersonal violence</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope unit="issue">7</biblscope>
+<biblscope from="1537" to="1558" unit="page"></biblscope>
+<date type="published" when="2013">2013. 2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jill Theresa Messing and Jonel Thaller. 2013. The average predictive validity of intimate partner violence risk assessment instruments. Journal of interpersonal violence 28, 7 (2013), 1537-1558.</note>
+</biblstruct>
+<biblstruct xml:id="b85">
+<analytic>
+<title level="a" type="main">An algorithm that grants freedom, or takes it away</title>
+<author>
+<persname><forename type="first">Cade</forename><surname>Metz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Adam</forename><surname>Satariano</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">The New York Times</title>
+<imprint>
+<date type="published" when="2020">2020. 2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cade Metz and Adam Satariano. 2020. An algorithm that grants freedom, or takes it away. The New York Times (2020).</note>
+</biblstruct>
+<biblstruct xml:id="b86">
+<analytic>
+<title level="a" type="main">Criminal victimization, 2019</title>
+<author>
+<persname><forename type="first">E</forename><surname>Rachel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Morgan</surname></persname>
+</author>
+<author>
+<persname><surname>Truman</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bureau of Justice Statistics</title>
+<imprint>
+<biblscope unit="page">845</biblscope>
+<date type="published" when="2019">2019. 2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rachel E Morgan and Jennifer L Truman. 2019. Criminal victimization, 2019. Bureau of Justice Statistics 845 (2019).</note>
+</biblstruct>
+<biblstruct xml:id="b87">
+<analytic>
+<title level="a" type="main">Biased algorithms are easier to x than biased people</title>
+<author>
+<persname><forename type="first">Sendhil</forename><surname>Mullainathan</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">The New York Times</title>
+<imprint>
+<date type="published" when="2019">2019. 2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sendhil Mullainathan. 2019. Biased algorithms are easier to x than biased people. The New York Times (2019).</note>
+</biblstruct>
+<biblstruct xml:id="b88">
+<monogr>
+<author>
+<persname><forename type="first">Kirill</forename><surname>Müller</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=hereRpackageversion1.0.1"></ptr>
+<title level="m">here: A Simpler Way to Find Your Files</title>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kirill Müller. 2020. here: A Simpler Way to Find Your Files. https://CRAN.R- project.org/package=here R package version 1.0.1.</note>
+</biblstruct>
+<biblstruct xml:id="b89">
+<monogr>
+<ptr target="https://ucr.fbi.gov/nibrs/nibrs-user-manual"></ptr>
+<title level="m">National Incident-Based Reporting System User Manual</title>
+<imprint>
+<publisher>United States Department of Justice. Federal Bureau of Investigation (FBI)</publisher>
+<date type="published" when="2019">2019. 2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">United States Department of Justice. Federal Bureau of Investigation (FBI). 2019. 2019 National Incident-Based Reporting System User Manual. https: //ucr.fbi.gov/nibrs/nibrs-user-manual</note>
+</biblstruct>
+<biblstruct xml:id="b90">
+<analytic>
+<title level="a" type="main">Racial disparity in formal social control: An investigation of alternative explanations of arrest rate inequality</title>
+<author>
+<persname><forename type="first">C</forename><surname>Graham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Matthew</forename><forename type="middle">R</forename><surname>Ousey</surname></persname>
+</author>
+<author>
+<persname><surname>Lee</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Research in Crime and Delinquency</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="322" to="355" unit="page"></biblscope>
+<date type="published" when="2008">2008. 2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Graham C Ousey and Matthew R Lee. 2008. Racial disparity in formal social control: An investigation of alternative explanations of arrest rate inequality. Journal of Research in Crime and Delinquency 45, 3 (2008), 322-355.</note>
+</biblstruct>
+<biblstruct xml:id="b91">
+<analytic>
+<title level="a" type="main">Racial threat, concentrated disadvantage and social control: Considering the macro-level sources of variation in arrests</title>
+<author>
+<persname><forename type="first">Karen F</forename><surname>Parker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Brian</forename><forename type="middle">J</forename><surname>Stults</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Stephen</forename><forename type="middle">K</forename><surname>Rice</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="1111" to="1134" unit="page"></biblscope>
+<date type="published" when="2005">2005. 2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Karen F Parker, Brian J Stults, and Stephen K Rice. 2005. Racial threat, concen- trated disadvantage and social control: Considering the macro-level sources of variation in arrests. Criminology 43, 4 (2005), 1111-1134.</note>
+</biblstruct>
+<biblstruct xml:id="b92">
+<analytic>
+<title level="a" type="main">Assessing the representativeness of NIBRS arrest data</title>
+<author>
+<persname><forename type="first">April</forename><surname>Pattavina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Danielle</forename><surname>Marie Carkin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Paul</forename><forename type="middle">E</forename><surname>Tracy</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Crime &amp; Delinquency</title>
+<imprint>
+<biblscope unit="volume">63</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope from="1626" to="1652" unit="page"></biblscope>
+<date type="published" when="2017">2017. 2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">April Pattavina, Danielle Marie Carkin, and Paul E Tracy. 2017. Assessing the representativeness of NIBRS arrest data. Crime &amp; Delinquency 63, 12 (2017), 1626-1652.</note>
+</biblstruct>
+<biblstruct xml:id="b93">
+<analytic>
+<title level="a" type="main">A large-scale analysis of racial disparities in police stops across the United States</title>
+<author>
+<persname><forename type="first">Emma</forename><surname>Pierson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Camelia</forename><surname>Simoiu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jan</forename><surname>Overgoor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Sam</forename><surname>Corbett-Davies</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Daniel</forename><surname>Jenson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Amy</forename><surname>Shoemaker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Vignesh</forename><surname>Ramachandran</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Phoebe</forename><surname>Barghouty</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Cheryl</forename><surname>Phillips</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Ravi</forename><surname>Shro</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Nature human behaviour</title>
+<imprint>
+<biblscope from="1" to="10" unit="page"></biblscope>
+<date type="published" when="2020">2020. 2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Emma Pierson, Camelia Simoiu, Jan Overgoor, Sam Corbett-Davies, Daniel Jenson, Amy Shoemaker, Vignesh Ramachandran, Phoebe Barghouty, Cheryl Phillips, Ravi Shro, et al. 2020. A large-scale analysis of racial disparities in police stops across the United States. Nature human behaviour (2020), 1-10.</note>
+</biblstruct>
+<biblstruct xml:id="b94">
+<analytic>
+<title level="a" type="main">Does incapacitation reduce crime?</title>
+<author>
+<persname><forename type="first">Alex</forename><forename type="middle">R</forename><surname>Piquero</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Alfred</forename><surname>Blumstein</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Quantitative Criminology</title>
+<imprint>
+<biblscope unit="volume">23</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="267" to="285" unit="page"></biblscope>
+<date type="published" when="2007">2007. 2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Alex R Piquero and Alfred Blumstein. 2007. Does incapacitation reduce crime? Journal of Quantitative Criminology 23, 4 (2007), 267-285.</note>
+</biblstruct>
+<biblstruct xml:id="b95">
+<monogr>
+<title level="m" type="main">Race as a factor in juvenile arrests</title>
+<author>
+<persname><forename type="first">E</forename><surname>Carl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Howard</forename><forename type="middle">N</forename><surname>Pope</surname></persname>
+</author>
+<author>
+<persname><surname>Snyder</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2003">2003</date>
+<publisher>US Department of Justice, Oce of Justice Programs, Oce of Juvenile</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Carl E Pope and Howard N Snyder. 2003. Race as a factor in juvenile arrests. US Department of Justice, Oce of Justice Programs, Oce of Juvenile . . . .</note>
+</biblstruct>
+<biblstruct xml:id="b96">
+<analytic>
+<title level="a" type="main">Factors aecting homicide clearances: Multivariate analysis of a more complete conceptual framework</title>
+<author>
+<persname><forename type="first">Janice</forename><forename type="middle">L</forename><surname>Puckett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Richard</forename><forename type="middle">J</forename><surname>Lundman</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Research in Crime and Delinquency</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="171" to="193" unit="page"></biblscope>
+<date type="published" when="2003">2003. 2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Janice L Puckett and Richard J Lundman. 2003. Factors aecting homicide clearances: Multivariate analysis of a more complete conceptual framework. Journal of Research in Crime and Delinquency 40, 2 (2003), 171-193.</note>
+</biblstruct>
+<biblstruct xml:id="b97">
+<analytic>
+<title level="a" type="main">Dirty data, bad predictions: How civil rights violations impact police data, predictive policing systems, and justice</title>
+<author>
+<persname><forename type="first">Rashida</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jason</forename><surname>Schultz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Kate</forename><surname>Crawford</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">New York University Law Review Online</title>
+<imprint>
+<date type="published" when="2019">2019. 2019</date>
+<publisher>Forthcoming</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Rashida Richardson, Jason Schultz, and Kate Crawford. 2019. Dirty data, bad predictions: How civil rights violations impact police data, predictive policing systems, and justice. New York University Law Review Online, Forthcoming (2019).</note>
+</biblstruct>
+<biblstruct xml:id="b98">
+<analytic>
+<title level="a" type="main">Victim-oender racial dyads and clearance of lethal and nonlethal assault</title>
+<author>
+<persname><forename type="first">Aki</forename><surname>Roberts</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Christopher</forename><forename type="middle">J</forename><surname>Lyons</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of research in crime and delinquency</title>
+<imprint>
+<biblscope unit="volume">46</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="301" to="326" unit="page"></biblscope>
+<date type="published" when="2009">2009. 2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Aki Roberts and Christopher J Lyons. 2009. Victim-oender racial dyads and clearance of lethal and nonlethal assault. Journal of research in crime and delinquency 46, 3 (2009), 301-326.</note>
+</biblstruct>
+<biblstruct xml:id="b99">
+<analytic>
+<title level="a" type="main">Crime clearance and temporal variation in police investigative workload: Evidence from National Incident-Based Reporting System (NIBRS) data</title>
+<author>
+<persname><forename type="first">Aki</forename><surname>Roberts</surname></persname>
+</author>
+<author>
+<persname><forename type="first">John</forename><forename type="middle">M</forename><surname>Roberts</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Quantitative Criminology</title>
+<imprint>
+<biblscope unit="volume">32</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="651" to="674" unit="page"></biblscope>
+<date type="published" when="2016">2016. 2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Aki Roberts and John M Roberts. 2016. Crime clearance and temporal variation in police investigative workload: Evidence from National Incident-Based Reporting System (NIBRS) data. Journal of Quantitative Criminology 32, 4 (2016), 651-674.</note>
+</biblstruct>
+<biblstruct xml:id="b100">
+<analytic>
+<title level="a" type="main">Inference and missing data</title>
+<author>
+<persname><surname>Donald B Rubin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biometrika</title>
+<imprint>
+<biblscope unit="volume">63</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="581" to="592" unit="page"></biblscope>
+<date type="published" when="1976">1976. 1976</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Donald B Rubin. 1976. Inference and missing data. Biometrika 63, 3 (1976), 581-592.</note>
+</biblstruct>
+<biblstruct xml:id="b101">
+<monogr>
+<title level="m" type="main">Multiple imputation for nonresponse in surveys</title>
+<author>
+<persname><surname>Donald B Rubin</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2004">2004</date>
+<publisher>John Wiley &amp; Sons</publisher>
+<biblscope unit="volume">81</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Donald B Rubin. 2004. Multiple imputation for nonresponse in surveys. Vol. 81. John Wiley &amp; Sons.</note>
+</biblstruct>
+<biblstruct xml:id="b102">
+<analytic>
+<title level="a" type="main">Risk, race, and recidivism: Predictive bias and disparate impact</title>
+<author>
+<persname><forename type="first">L</forename><surname>Jennifer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Christopher</forename><forename type="middle">T</forename><surname>Skeem</surname></persname>
+</author>
+<author>
+<persname><surname>Lowenkamp</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">54</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="680" to="712" unit="page"></biblscope>
+<date type="published" when="2016">2016. 2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jennifer L Skeem and Christopher T Lowenkamp. 2016. Risk, race, and recidi- vism: Predictive bias and disparate impact. Criminology 54, 4 (2016), 680-712.</note>
+</biblstruct>
+<biblstruct xml:id="b103">
+<monogr>
+<title level="m" type="main">icpsrdata: Reproducible Data Retrieval from the ICPSR Archive</title>
+<author>
+<persname><forename type="first">Frederick</forename><surname>Solt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Kellen</forename><surname>Gracey</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=icpsrdataRpackageversion0.5.0"></ptr>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Frederick Solt and Kellen Gracey. 2020. icpsrdata: Reproducible Data Retrieval from the ICPSR Archive. https://CRAN.R-project.org/package=icpsrdata R package version 0.5.0.</note>
+</biblstruct>
+<biblstruct xml:id="b104">
+<analytic>
+<title level="a" type="main">Deviant places: A theory of the ecology of crime</title>
+<author>
+<persname><forename type="first">Rodney</forename><surname>Stark</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="893" to="910" unit="page"></biblscope>
+<date type="published" when="1987">1987. 1987</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rodney Stark. 1987. Deviant places: A theory of the ecology of crime. Criminol- ogy 25, 4 (1987), 893-910.</note>
+</biblstruct>
+<biblstruct xml:id="b105">
+<analytic>
+<title level="a" type="main">Reassessing trends in black violent crime, 1980-2008: Sorting out the "Hispanic eect" in Uniform Crime Reports arrests, National Crime Victimization Survey oender estimates, and US prisoner counts</title>
+<author>
+<persname><forename type="first">Darrell</forename><surname>Steensmeier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Ben</forename><surname>Feldmeyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Casey</forename><forename type="middle">T</forename><surname>Harris</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jeery T</forename><surname>Ulmer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">49</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="197" to="251" unit="page"></biblscope>
+<date type="published" when="2011">2011. 2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Darrell Steensmeier, Ben Feldmeyer, Casey T Harris, and Jeery T Ulmer. 2011. Reassessing trends in black violent crime, 1980-2008: Sorting out the "Hispanic eect" in Uniform Crime Reports arrests, National Crime Victimization Survey oender estimates, and US prisoner counts. Criminology 49, 1 (2011), 197-251.</note>
+</biblstruct>
+<biblstruct xml:id="b106">
+<analytic>
+<title level="a" type="main">A multilevel test of racial threat theory</title>
+<author>
+<persname><forename type="first">Lisa</forename><surname>Stolzenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Stewart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">David</forename><surname>D'alessio</surname></persname>
+</author>
+<author>
+<persname><surname>Eitle</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Criminology</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="673" to="698" unit="page"></biblscope>
+<date type="published" when="2004">2004. 2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lisa Stolzenberg, Stewart J D'Alessio, and David Eitle. 2004. A multilevel test of racial threat theory. Criminology 42, 3 (2004), 673-698.</note>
+</biblstruct>
+<biblstruct xml:id="b107">
+<analytic>
+<title level="a" type="main">Racial context and police force size: Evaluating the empirical validity of the minority threat perspective</title>
+<author>
+<persname><forename type="first">J</forename><surname>Brian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Eric</forename><forename type="middle">P</forename><surname>Stults</surname></persname>
+</author>
+<author>
+<persname><surname>Baumer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Amer. J. Sociology</title>
+<imprint>
+<biblscope unit="volume">113</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="507" to="546" unit="page"></biblscope>
+<date type="published" when="2007">2007. 2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brian J Stults and Eric P Baumer. 2007. Racial context and police force size: Evaluating the empirical validity of the minority threat perspective. Amer. J. Sociology 113, 2 (2007), 507-546.</note>
+</biblstruct>
+<biblstruct xml:id="b108">
+<analytic>
+<title level="a" type="main">The role of procedural justice and legitimacy in shaping public support for policing</title>
+<author>
+<persname><forename type="first">Jason</forename><surname>Sunshine</surname></persname>
+</author>
+<author>
+<persname><surname>Tom R Tyler</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Law &amp; society review</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="513" to="548" unit="page"></biblscope>
+<date type="published" when="2003">2003. 2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jason Sunshine and Tom R Tyler. 2003. The role of procedural justice and legitimacy in shaping public support for policing. Law &amp; society review 37, 3 (2003), 513-548.</note>
+</biblstruct>
+<biblstruct xml:id="b109">
+<monogr>
+<title level="m" type="main">R: A language and environment for statistical computing</title>
+<author>
+<persname><forename type="first">Team</forename><surname>Core</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2013">2013. 2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">R Core Team et al. 2013. R: A language and environment for statistical computing. (2013).</note>
+</biblstruct>
+<biblstruct xml:id="b110">
+<analytic>
+<title level="a" type="main">Neighborhood context and police use of force</title>
+<author>
+<persname><forename type="first">William</forename><surname>Terrill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Michael</forename><forename type="middle">D</forename><surname>Reisig</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of research in crime and delinquency</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="291" to="321" unit="page"></biblscope>
+<date type="published" when="2003">2003. 2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">William Terrill and Michael D Reisig. 2003. Neighborhood context and police use of force. Journal of research in crime and delinquency 40, 3 (2003), 291-321.</note>
+</biblstruct>
+<biblstruct xml:id="b111">
+<monogr>
+<author>
+<persname><forename type="first">Michael</forename><surname>Tonry</surname></persname>
+</author>
+<title level="m">Malign neglect: Race, crime, and punishment in America</title>
+<imprint>
+<publisher>Oxford University Press</publisher>
+<date type="published" when="1995">1995</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Michael Tonry. 1995. Malign neglect: Race, crime, and punishment in America. Oxford University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b112">
+<analytic>
+<title level="a" type="main">Legitimacy and cooperation: Why do people help the police ght crime in their communities</title>
+<author>
+<persname><forename type="first">R</forename><surname>Tom</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jerey</forename><surname>Tyler</surname></persname>
+</author>
+<author>
+<persname><surname>Fagan</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ohio St. J. Crim. L</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="page">231</biblscope>
+<date type="published" when="2008">2008. 2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Tom R Tyler and Jerey Fagan. 2008. Legitimacy and cooperation: Why do people help the police ght crime in their communities. Ohio St. J. Crim. L. 6 (2008), 231.</note>
+</biblstruct>
+<biblstruct xml:id="b113">
+<analytic>
+<title level="a" type="main">Street stops and police legitimacy: Teachable moments in young urban men's legal socialization</title>
+<author>
+<persname><forename type="first">Jerey</forename><surname>Tom R Tyler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Amanda</forename><surname>Fagan</surname></persname>
+</author>
+<author>
+<persname><surname>Geller</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of empirical legal studies</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="751" to="785" unit="page"></biblscope>
+<date type="published" when="2014">2014. 2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Tom R Tyler, Jerey Fagan, and Amanda Geller. 2014. Street stops and police legitimacy: Teachable moments in young urban men's legal socialization. Journal of empirical legal studies 11, 4 (2014), 751-785.</note>
+</biblstruct>
+<biblstruct xml:id="b114">
+<monogr>
+<title level="m" type="main">renv: Project Environments</title>
+<author>
+<persname><forename type="first">Kevin</forename><surname>Ushey</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=renvRpackageversion0.12.5"></ptr>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kevin Ushey. 2021. renv: Project Environments. https://CRAN.R-project.org/ package=renv R package version 0.12.5.</note>
+</biblstruct>
+<biblstruct xml:id="b115">
+<analytic>
+<title level="a" type="main">mice: Multivariate Imputation by Chained Equations in R</title>
+<author>
+<persname><forename type="first">Karin</forename><surname>Stef Van Buuren</surname></persname>
+</author>
+<author>
+<persname><surname>Groothuis-Oudshoorn</surname></persname>
+</author>
+<ptr target="https://www.jstatsoft.org/v45/i03/"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Statistical Software</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="1" to="67" unit="page"></biblscope>
+<date type="published" when="2011">2011. 2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stef van Buuren and Karin Groothuis-Oudshoorn. 2011. mice: Multivariate Imputation by Chained Equations in R. Journal of Statistical Software 45, 3 (2011), 1-67. https://www.jstatsoft.org/v45/i03/</note>
+</biblstruct>
+<biblstruct xml:id="b116">
+<analytic>
+<title level="a" type="main">On causal interpretation of race in regressions adjusting for confounding and mediating variables</title>
+<author>
+<persname><forename type="first">J</forename><surname>Tyler</surname></persname>
+</author>
+<author>
+<persname><surname>Vanderweele</surname></persname>
+</author>
+<author>
+<persname><surname>Whitney R Robinson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Epidemiology</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope unit="page">473</biblscope>
+<date type="published" when="2014">2014. 2014</date>
+<pubplace>Cambridge, Mass</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Tyler J VanderWeele and Whitney R Robinson. 2014. On causal interpreta- tion of race in regressions adjusting for confounding and mediating variables. Epidemiology (Cambridge, Mass.) 25, 4 (2014), 473.</note>
+</biblstruct>
+<biblstruct xml:id="b117">
+<monogr>
+<title level="m" type="main">furrr: Apply Mapping Functions in Parallel using Futures</title>
+<author>
+<persname><forename type="first">Davis</forename><surname>Vaughan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Matt</forename><surname>Dancho</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=furrrRpackageversion0.2.2"></ptr>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Davis Vaughan and Matt Dancho. 2021. furrr: Apply Mapping Functions in Parallel using Futures. https://CRAN.R-project.org/package=furrr R package version 0.2.2.</note>
+</biblstruct>
+<biblstruct xml:id="b118">
+<monogr>
+<title level="m" type="main">Race and crime: A biosocial analysis</title>
+<author>
+<persname><forename type="first">Anthony</forename><surname>Walsh</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2004">2004</date>
+<publisher>Nova Publishers</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Anthony Walsh. 2004. Race and crime: A biosocial analysis. Nova Publishers.</note>
+</biblstruct>
+<biblstruct xml:id="b119">
+<analytic>
+<title level="a" type="main">Policing dierent racial groups in the United States</title>
+<author>
+<persname><forename type="first">Ronald</forename><surname>Weitzer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Rod</forename><forename type="middle">K</forename><surname>Brunson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Cahiers Politiestudies</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="page">129</biblscope>
+<date type="published" when="2015">2015. 2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ronald Weitzer and Rod K Brunson. 2015. Policing dierent racial groups in the United States. Cahiers Politiestudies 6, 35 (2015), 129.</note>
+</biblstruct>
+<biblstruct xml:id="b120">
+<analytic>
+<title level="a" type="main">Race, class, and perceptions of discrimination by the police</title>
+<author>
+<persname><forename type="first">Ronald</forename><surname>Weitzer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Steven</forename><forename type="middle">A</forename><surname>Tuch</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Crime &amp; Delinquency</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="494" to="507" unit="page"></biblscope>
+<date type="published" when="1999">1999. 1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ronald Weitzer and Steven A Tuch. 1999. Race, class, and perceptions of dis- crimination by the police. Crime &amp; Delinquency 45, 4 (1999), 494-507.</note>
+</biblstruct>
+<biblstruct xml:id="b121">
+<analytic>
+<title level="a" type="main">Race and perceptions of police misconduct</title>
+<author>
+<persname><forename type="first">Ronald</forename><surname>Weitzer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Steven</forename><forename type="middle">A</forename><surname>Tuch</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Social problems</title>
+<imprint>
+<biblscope unit="volume">51</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="305" to="325" unit="page"></biblscope>
+<date type="published" when="2004">2004. 2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ronald Weitzer and Steven A Tuch. 2004. Race and perceptions of police misconduct. Social problems 51, 3 (2004), 305-325.</note>
+</biblstruct>
+<biblstruct xml:id="b122">
+<analytic>
+<title level="a" type="main">Welcome to the tidyverse</title>
+<author>
+<persname><forename type="first">Hadley</forename><surname>Wickham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Mara</forename><surname>Averick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jennifer</forename><surname>Bryan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Winston</forename><surname>Chang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lucy</forename></persname>
+</author>
+<author>
+<persname><forename type="first">D'agostino</forename><surname>Mcgowan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Romain</forename><surname>Francois</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Garrett</forename><surname>Grolemund</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Alex</forename><surname>Hayes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lionel</forename><surname>Henry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jim</forename><surname>Hester</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Max</forename><surname>Kuhn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Thomas</forename><surname>Lin Pedersen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Evan</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Stephan</forename><surname>Milton Bache</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Kirill</forename><surname>Müller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jeroen</forename><surname>Ooms</surname></persname>
+</author>
+<author>
+<persname><forename type="first">David</forename><surname>Robinson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Dana</forename><forename type="middle">Paige</forename><surname>Seidel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Vitalie</forename><surname>Spinu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Kohske</forename><surname>Takahashi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Davis</forename><surname>Vaughan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Claus</forename><surname>Wilke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Kara</forename><surname>Woo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Hiroaki</forename><surname>Yutani</surname></persname>
+</author>
+<idno type="DOI">10.21105/joss.01686</idno>
+<ptr target="https://doi.org/10.21105/joss.01686"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Open Source Software</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="page">1686</biblscope>
+<date type="published" when="2019">2019. 2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hadley Wickham, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D'Agostino McGowan, Romain Francois, Garrett Grolemund, Alex Hayes, Lionel Henry, Jim Hester, Max Kuhn, Thomas Lin Pedersen, Evan Miller, Stephan Milton Bache, Kirill Müller, Jeroen Ooms, David Robinson, Dana Paige Seidel, Vitalie Spinu, Kohske Takahashi, Davis Vaughan, Claus Wilke, Kara Woo, and Hiroaki Yutani. 2019. Welcome to the tidyverse. Journal of Open Source Software 4, 43 (2019), 1686. https://doi.org/10.21105/joss.01686</note>
+</biblstruct>
+<biblstruct xml:id="b123">
+<analytic>
+<title level="a" type="main">haven: Import and Export 'SPSS</title>
+<author>
+<persname><forename type="first">Hadley</forename><surname>Wickham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Evan</forename><surname>Miller</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=havenRpackageversion2.3.1"></ptr>
+</analytic>
+<monogr>
+<title level="m">Stata' and 'SAS' Files</title>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hadley Wickham and Evan Miller. 2020. haven: Import and Export 'SPSS', 'Stata' and 'SAS' Files. https://CRAN.R-project.org/package=haven R package version 2.3.1.</note>
+</biblstruct>
+<biblstruct xml:id="b124">
+<monogr>
+<author>
+<persname><surname>James Q Wilson</surname></persname>
+</author>
+<title level="m">Varieties of police behavior: The Management of law and Order in eight communities, with a new preface by the author</title>
+<imprint>
+<publisher>Harvard University Press</publisher>
+<date type="published" when="1978">1978</date>
+</imprint>
+</monogr>
+<note type="raw_reference">James Q Wilson. 1978. Varieties of police behavior: The Management of law and Order in eight communities, with a new preface by the author. Harvard University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b125">
+<analytic>
+<title level="a" type="main">Racial context and crime reporting: A test of Black's stratication hypothesis</title>
+<author>
+<persname><forename type="first">Min</forename><surname>Xie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Janet</forename><forename type="middle">L</forename><surname>Lauritsen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of quantitative criminology</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="265" to="293" unit="page"></biblscope>
+<date type="published" when="2012">2012. 2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Min Xie and Janet L Lauritsen. 2012. Racial context and crime reporting: A test of Black's stratication hypothesis. Journal of quantitative criminology 28, 2 (2012), 265-293.</note>
+</biblstruct>
+<biblstruct xml:id="b126">
+<monogr>
+<author>
+<persname><forename type="first">Yihui</forename><surname>Xie</surname></persname>
+</author>
+<ptr target="https://yihui.org/knitr/ISBN978-1498716963"></ptr>
+<title level="m">Dynamic Documents with R and knitr</title>
+<meeting><address><addrline>Boca Raton, Florida</addrline></address></meeting>
+<imprint>
+<publisher>Chapman and Hall/CRC</publisher>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note>2nd ed.</note>
+<note type="raw_reference">Yihui Xie. 2015. Dynamic Documents with R and knitr (2nd ed.). Chapman and Hall/CRC, Boca Raton, Florida. https://yihui.org/knitr/ ISBN 978-1498716963.</note>
+</biblstruct>
+<biblstruct xml:id="b127">
+<analytic>
+<title level="a" type="main">Various versatile variances: An object-oriented implementation of clustered covariances in R</title>
+<author>
+<persname><forename type="first">Achim</forename><surname>Zeileis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Susanne</forename><surname>Köll</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Nathaniel</forename><surname>Graham</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Statistical Software</title>
+<imprint>
+<biblscope unit="volume">95</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="1" to="36" unit="page"></biblscope>
+<date type="published" when="2020">2020. 2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Achim Zeileis, Susanne Köll, and Nathaniel Graham. 2020. Various versatile variances: An object-oriented implementation of clustered covariances in R. Journal of Statistical Software 95, 1 (2020), 1-36.</note>
+</biblstruct>
+<biblstruct xml:id="b128">
+<monogr>
+<title level="m" type="main">kableExtra: Construct Complex Table with 'kable' and Pipe Syntax</title>
+<author>
+<persname><forename type="first">Hao</forename><surname>Zhu</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=kableExtraRpackageversion1.3.1"></ptr>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hao Zhu. 2020. kableExtra: Construct Complex Table with 'kable' and Pipe Syntax. https://CRAN.R-project.org/package=kableExtra R package version 1.3.1.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

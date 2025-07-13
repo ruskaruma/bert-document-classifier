@@ -1,0 +1,2420 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Greenhouse gas observations from the Northeast Corridor tower network</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">Anna</forename><surname>Karion</surname></persname>
+<email>anna.karion@nist.gov</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Special Programs Office, National Institute of Standards and Technology, Gaithersburg, MD, USA</note>
+<orgname type="department">Special Programs Office</orgname>
+<orgname type="institution">National Institute of Standards and Technology</orgname>
+<address>
+<settlement>Gaithersburg</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">William</forename><surname>Callahan</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Earth Networks, Inc., Germantown, MD, USA</note>
+<orgname type="institution">Earth Networks, Inc</orgname>
+<address>
+<settlement>Germantown</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Michael</forename><surname>Stock</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Earth Networks, Inc., Germantown, MD, USA</note>
+<orgname type="institution">Earth Networks, Inc</orgname>
+<address>
+<settlement>Germantown</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Steve</forename><surname>Prinzivalli</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Earth Networks, Inc., Germantown, MD, USA</note>
+<orgname type="institution">Earth Networks, Inc</orgname>
+<address>
+<settlement>Germantown</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Kristal</forename><forename type="middle">R</forename><surname>Verhulst</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> NASA Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA, USA</note>
+<orgname type="laboratory">NASA Jet Propulsion Laboratory</orgname>
+<orgname type="institution">California Institute of Technology</orgname>
+<address>
+<settlement>Pasadena</settlement>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Jooil</forename><surname>Kim</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, University of California San Diego, La Jolla, CA, USA</note>
+<orgname type="department">Scripps Institution of Oceanography</orgname>
+<orgname type="institution">University of California San Diego</orgname>
+<address>
+<addrline>La Jolla</addrline>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Peter</forename><forename type="middle">K</forename><surname>Salameh</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, University of California San Diego, La Jolla, CA, USA</note>
+<orgname type="department">Scripps Institution of Oceanography</orgname>
+<orgname type="institution">University of California San Diego</orgname>
+<address>
+<addrline>La Jolla</addrline>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Israel</forename><surname>Lopez-Coto</surname></persname>
+<affiliation key="aff4">
+<note type="raw_affiliation"> Engineering Laboratory, National Institute of Standards and Technology, Gaithersburg, MD, USA</note>
+<orgname type="laboratory">Engineering Laboratory</orgname>
+<orgname type="institution">National Institute of Standards and Technology</orgname>
+<address>
+<settlement>Gaithersburg</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">James</forename><surname>Whetstone</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Special Programs Office, National Institute of Standards and Technology, Gaithersburg, MD, USA</note>
+<orgname type="department">Special Programs Office</orgname>
+<orgname type="institution">National Institute of Standards and Technology</orgname>
+<address>
+<settlement>Gaithersburg</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<affiliation key="aff5">
+<note type="raw_affiliation">Los Angeles</note>
+<address>
+<settlement>Los Angeles</settlement>
+</address>
+</affiliation>
+</author>
+<author>
+<affiliation key="aff6">
+<note type="raw_affiliation">Purdue University</note>
+<orgname type="institution">Purdue University</orgname>
+</affiliation>
+</author>
+<title level="a" type="main">Greenhouse gas observations from the Northeast Corridor tower network</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">5A7C86C3C48EAD3E5D4486D8C9A53362</idno>
+<idno type="DOI">10.5194/essd-2019-206</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-08-23T04:36+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>We present the organization, structure, instrumentation, and measurements of the Northeast Corridor greenhouse gas observation network.</s><s>This network of tower-based in-situ carbon dioxide and methane observations was established in 2015 with the goal of quantifying emissions of these gases in urban areas in the north-eastern United States.</s><s>A specific focus of the network is the cities of Baltimore, Maryland, and Washington, D.C., USA, with a high density of observation stations in these two urban areas.</s><s>Additional observation stations are scattered throughout the US northeast, established to complement other existing urban and regional networks and to investigate emissions throughout this complex region with a high population density and multiple metropolitan areas.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>As the population of cities grows globally due to trends toward urbanization, so does their relative contribution to global anthropogenic greenhouse gas (GHG) budgets <ref target="#b5" type="bibr">(Edenhofer O., 2014;</ref><ref target="#b24" type="bibr">O'Neill et al., 2010)</ref>.</s><s>City governments are making commitments to reduce their emissions of GHGs through various sustainability and efficiency measures and coordination with organizations like the C40 Climate Leadership Group (www.c40.org), the Global Covenant of Mayors for Climate and Energy (www.globalcovenantofmayors.org), and others.</s><s>These organizations require individual cities to conform to certain standardized mechanisms and practices for reporting their carbon emissions.</s><s>City governments rely on inventories compiled using data on fuel use, energy usage, etc. to estimate their total emissions and changes over time, and to determine the efficacy of various emissions mitigation policies.</s><s>Atmospheric measurements provide additional useful information to such efforts, by confirming inventory estimates <ref target="#b31" type="bibr">(Sargent et al., 2018;</ref><ref target="#b13" type="bibr">Lauvaux et al., 2016)</ref>, detecting trends <ref target="#b20" type="bibr">(Mitchell et al., 2018)</ref>, or estimating emissions that are not well quantified using inventory methods, such as methane emissions <ref target="#b19" type="bibr">(McKain et al., 2015;</ref><ref target="#b27" type="bibr">Ren et al., 2018;</ref><ref target="#b12" type="bibr">Lamb et al., 2016;</ref><ref type="bibr">Yadav et al., 2019)</ref>.</s><s>Several urban top-down measurement efforts are underway in various meteorological modelling (using the Weather Research and Forecast (WRF) model) is being conducted <ref type="bibr">(Lopez-Coto et al., 2019a)</ref>, with output coupled to Lagrangian dispersion models such as STILT <ref target="#b14" type="bibr">(Lin et al., 2003;</ref><ref target="#b22" type="bibr">Nehrkorn et al., 2010)</ref> and HYSPLIT <ref target="#b32" type="bibr">(Stein et al., 2015)</ref>.</s><s>These transport and dispersion models are used to interpret observations from both aircraft and tower stations and in atmospheric inverse analyses to estimate fluxes of CO2 and CH4 from the cities of Washington, D.C. and Baltimore, Maryland <ref type="bibr">(Lopez-Coto et al., in prep; Ghosh et al., in prep.)</ref>.</s><s>A high-resolution fossil-fuel CO2 inventory, Hestia, is also being developed for this project <ref target="#b6" type="bibr">(Gurney et al., 2012;</ref><ref target="#b7" type="bibr">Gurney et al., 2019)</ref>.</s></p><p><s>Here we focus on the high-accuracy tower observation network and associated data collection and processing methods.</s><s>Section 2 describes the tower network design and characterizes the different site locations; Section 3 describes the measurement methods, instrumentation, and calibration; Section 4 the uncertainty derivation for the measurements; and finally, Section 5 presents some of the observations from the current record.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Network design and site characterization<p><s>The NEC project includes 29 observation stations, all managed and operated by Earth Networks, Inc<ref target="#foot_0" type="foot">1</ref> .</s></p><p><s>(www.earthnetworks.com/why-us/networks/greenhouse-gas).</s><s>Ten stations were existing Earth Networks (EN) measurement sites in the northeast U.S. that became part of the NEC project in 2015.</s><s>Nineteen stations were established (or will be established) specifically for the NEC project, with site locations identified by NIST.</s><s>Sixteen of these station locations were chosen to be used for emissions estimation in a domain around Baltimore and Washington, D.C. (red boundary, Fig. <ref target="#fig_0" type="figure">1</ref>) using inverse modelling techniques <ref target="#b15" type="bibr">(Lopez-Coto et al., 2017;</ref><ref target="#b21" type="bibr">Mueller et al., 2018)</ref>.</s><s>Three others are in Mashpee, MA, Philadelphia, PA, and Waterford Works, NJ.</s><s>As of publication, 13 of these 19 have been established, with delays occurring due to difficulty finding suitable tower locations to agree to house the systems.</s><s>The hardware and software operating all the sites is identical with few exceptions as noted in the text.</s><s>The initial design of the core urban Baltimore/Washington network was focused on optimizing tower site locations with the goal of reducing uncertainty in estimating anthropogenic CO2 emissions from Washington, D.C., and Baltimore using an atmospheric inversion model <ref target="#b15" type="bibr">(Lopez-Coto et al., 2017)</ref>.</s><s>Twelve communications towers were identified as part of that study as ideal locations for measurements.</s><s>Actual measurement sites were sometimes established at locations near the ideal study location usually due to logistical difficulties obtaining leases at the ideal tower sites.</s><s>A second design study determined ideal locations for background stations, i.e. observation station locations that would aid in the determination of background CO2 entering the analysis domain <ref target="#b21" type="bibr">(Mueller et al., 2018)</ref>.</s><s>Four stations were identified as part of that study; an existing EN site in Bucktown, MD, serves as a fifth background station southeast of the analysis domain (Fig. <ref target="#fig_0" type="figure">1</ref>).</s><s>Table <ref target="#tab_0" type="table">1</ref> indicates details and locations of each site.</s><s>urban stations, the degree of urban intensity varies, from densely urbanized areas (such as northeast Baltimore, NEB) to dense and moderately developed suburbs (such as Capitol Heights (CPH), and Derwood (DER), both suburbs of Washington, D.C. located in Maryland).</s><s>Fig. <ref target="#fig_1" type="figure">2</ref> indicates the intensity of development from the USGS 2011 National Land Cover Database <ref target="#b9" type="bibr">(Homer et al., 2015)</ref> surrounding each urban station in the Washington DC/Baltimore network.</s><s>Similar variability in land cover for the regional stations exists, as indicated in Fig. <ref target="#fig_2" type="figure">3</ref> 3 Carbon dioxide, methane, and carbon monoxide measurements, instrumentation, and calibration</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Instrumentation<p><s>The instrumentation contained in the EN GHG system module has been described elsewhere <ref target="#b38" type="bibr">(Welp et al., 2013;</ref><ref target="#b36" type="bibr">Verhulst et al., 2017)</ref>; we will summarize the system here but refer the reader to those publications for further details, including additional equipment and part numbers.</s><s>Figure <ref target="#fig_4" type="figure">4</ref> indicates the plumbing diagram of the typical tower setup.</s><s>Three inlet lines reach from the sampling location on the tower into the equipment housed in a full-size rack inside a shed at the base of the tower.</s><s>Typically, two inlet lines pull air from the topmost level and one at a lower level on the tower.</s><s>Stafford, Virginia (SFD) is the exception with inlets at three different levels (50 m, 100 m, and 152 m).</s><s>At some sites there was no space to house the equipment in existing structures, so small single-or double-rack sized enclosures were purchased and installed.</s><s>Air is pulled through a filter into the inlet lines (0.953 cm (3/8") OD Synflex 1300) that are continuously flushed at ~10 L min -1 by aquarium pumps (Alita AL-6SA).</s><s>The three air lines are connected to a rotary multi-port valve (MPV; 8-port, VICI, Valco Instruments Co. Inc.) housed within a sample control box (calibration box).</s><s>Two or three calibration standards are also connected to the MPV with 0.156 cm (1/16") stainless steel tubing.</s><s>The control system for the MPV directs the air stream to the analyser cycling every 20 minutes through each of the three inlet lines, and every 22 hours through each standard (Section 3.2).</s><s>The common port of the MPV is connected to a pressure controller that reduces the pressure to 80 kPa (800 mb), after which the sample (either ambient air or air from a standard gas cylinder) enters a 183 cm long Nafion dryer (Permapure, Inc., model MD-050-72S-1) where it is dried to a water vapor mole fraction of ~0.1 % prior to flowing through the cavity ringdown spectroscopic (CRDS) analyser <ref type="bibr">(Picarro, Inc., Model 2301)</ref>.</s><s>The lower-than-ambient inlet pressure of 80 kPa is prescribed in order to lower the flow rate of the analyser to ~70 standard cm 3 min -1 .</s><s>At Mashpee, Massachusetts (MSH), a CRDS Model 2401 analyser is operational, and this is the only site currently also measuring carbon monoxide (CO) in addition to CO2 and CH4.</s><s>The CRDS analysers report measurements of dry air mole fraction of each gas in air, also known as the mole fraction, i.e., moles of the trace gas per mole of dry air.</s><s>Throughout, we refer to these measurements in units of µmol mol -1 for CO2 and nmol mol -1 for CH4 and CO, following the SI recommendations (Bureau International des Poids et Mesures, 2019).</s><s>Software (GCWerks, Inc.) installed on a separate mini-PC computer at each site controls the run cycle and the MPV selection valve.</s><s>The data is collected on this computer and sent to the central EN data server, also running GCWerks.</s><s>All data is processed on the central EN data server but additional post-processing and uncertainty assignment to hourly observations is performed at NIST.</s><s>As recommended by the WMO, the software has the capability of re-processing all the data from the original raw files, thus can accommodate any changes to the assigned values of the standards (due to a reference scale update, for example) at any time <ref type="bibr">(WMO, 2018)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Calibration cylinders<p><s>When the Earth Networks GHG monitoring system was established in 2011, each site hosted two calibration cylinders (standards) with ambient level dry air mole fractions as part of the original system design.</s><s>This continues to be the case at most NEC sites.</s><s>At the NEC sites, these standards have values close to 400 µmol mol -1 dry air CO2, 1890 nmol mol -1 dry air CH4 and 115 nmol mol -1 dry air CO (at MSH only) and are sampled by the analyser periodically, in a sequence identical to that described for the Los Angeles Megacity network in <ref target="#b36" type="bibr">Verhulst et al. (2017)</ref>.</s><s>The standards are purchased from the World Meteorological Association (WMO) Central Calibration Laboratory (CCL), the National Oceanographic and Atmospheric Administration's Earth System Research Laboratory (NOAA/ESRL) Global Monitoring Division in Boulder, Colorado, USA, where they have been calibrated on the WMO scales (X2007 for CO2, X2004A for CH4, and X2014A for CO <ref target="#b43" type="bibr">(Zhao et al., 1997;</ref><ref target="#b4" type="bibr">Dlugokencky et al., 2005;</ref><ref target="#b23" type="bibr">Novelli et al., 2003)</ref>).</s><s>One of these two cylinders serves as a standard for calibration and driftcorrection while the second serves as a target tank or check standard.</s><s>The target tank is used for data-quality checks and uncertainty calculations (Section 4).</s><s>The residual of the target tank (the RMS difference between its value assignment when treated as an unknown and its reference value from NOAA) is a critical indicator of data quality and is monitored in order to alert the operators of any general problems in the system such as leaks, mistakes in the assignment of MPV ports, or drift in calibration tank value.</s><s>In the field, all gas standards are sampled for 20 minutes every 22 hours.</s><s>In data processing, the first 10 minutes of any tank run are filtered out to allow for the system equilibration.</s><s>In some cases when the standard runs were found not to equilibrate as quickly as desired, 15 minutes of data were filtered, until the problem could be fixed (typically either contamination or inadequate regulator flushing).</s></p><p><s>At a few NEC sites (currently BWD and MSH, with more planned), a third gas cylinder is installed at the site to serve as a permanent high-concentration standard (referred to as the high standard), to improve calibration and reduce uncertainties.</s><s>This standard typically contains air with a mole fraction of CO2 close to 500 µmol mol -1 , CH4 at approximately 2300 nmol mol -1 to 2500 nmol mol -1 , and at MSH, CO near 320 nmol mol -1 .</s><s>At MSH, this cylinder has been provided directly by NOAA/ESRL, while at BWD this cylinder was purchased as natural whole air from Scott-Marrin, Inc (now Praxair).</s><s>The Scott-Marrin air is stripped of its original trace gases (CO2, CH4, CO, hydrocarbons, etc.) with CO2, CH4, and CO added back in to prescribed values.</s><s>Several such standards have been purchased with the intent to place them at urban stations to serve as high standards after calibrating them onto the WMO scales.</s><s>We note that because they are being used together with NOAA/ESRL standards in the field, it is essential that these standards also be assigned values on the same scales.</s><s>This calibration is transferred in the NIST laboratory using five standards calibrated and purchased from NOAA/ESRL.</s><s>The CO2 in the Scott-Marrin cylinders is isotopically different (in terms of the 12/13 C ratio in CO2) from the ambient air tanks that are filled by NOAA/ESRL at Niwot Ridge, Colorado.</s><s>However, the calibration is transferred from the NOAA standards to the Scott-Marrin gases using the same model (Picarro 2301) analyser used in the field (i.e.</s><s>measuring only 12 CO2) in the NIST laboratory, effectively cancelling out the error that would be caused by this isotopic mismatch <ref target="#b3" type="bibr">(Chen et al., 2010;</ref><ref target="#b30" type="bibr">Santoni et al., 2014)</ref>.</s><s>Thus, the CO2 values assigned by NIST to these standards are effectively the total dry air mole fraction of CO2 the cylinders would contain if they were isotopically similar to the NOAA cylinders.</s></p><p><s>Additional sites in the network also benefit from the improved calibration method in cases where measurements of a high standard were performed prior to analyser deployment (NWB, NEB, JES, TMD, CPH, and HRD).</s><s>Prior to system installation at these sites, tests were conducted at the EN laboratory in which the designated analyser was set up measuring the calibration standard, target standard, and a high-value standard at ~490 µmol mol -1 CO2, ~2560 nmol mol -1 CH4 daily for several days (enough for 3-5 measurements of 20 minutes each).</s><s>This single high standard cylinder was also calibrated by and purchased from NOAA/ESRL, with assigned values on the WMO scales.</s><s>These laboratory tests allow the determination of the secondary correction to the instrument response, or sensitivity, as described in Section 3.4.</s></p><p><s>The high standard gas measurements are used to perform a secondary correction (Section 3.4) to the original one-point calibration described in <ref target="#b36" type="bibr">Verhulst et al. (2017)</ref> and in Section 3.3., reducing the uncertainty of the measurements.</s><s>We note that while in principle a secondary correction is desirable, and the uncertainty is indeed reduced by its implementation (see Section 4.2), it remains quite small relative to the signals of interest in an urban network.</s><s>Deployment of high standards at all sites has not yet occurred due to both costs and logistical and operational constraints; for example, at many sites the space available for the equipment is limited and prohibits the installation of a permanent third tank.</s><s>Thus, we plan to implement a round-robin procedure circulating additional standards at various values through the network to evaluate the calibrations and implement the secondary correction throughout the network.</s><s>Although the current state of having two different calibration methods coexisting in the network is not ideal, we aim to implement the secondary correction throughout the network as soon as possible.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Drift correction and single-point calibration<p><s>Here we describe the calibration and drift correction applied to all the mole fraction data.</s><s>The equations are identical (with a few nomenclature differences) to those found in <ref target="#b36" type="bibr">Verhulst et al. (2017)</ref>.</s><s>In the following analysis, X¢ denotes a raw dry mole fraction measurement (i.e. a reported value from the CRDS analyser after internal water vapor correction), while X denotes a mole fraction after some correction has been applied (drift and/or calibration, as described in the equations below).</s><s>A subscript cal indicates the main calibration standard (usually a single ambient level standard tank calibrated by NOAA/ESRL), subscript std indicates any other standard tank, tgt indicates a standard tank that is being used as a target, and the subscript air indicates the sample measurement.</s><s>Note that within the GCWerks software, the meanings of the abbreviations cal and std are reversed from what is defined here; we choose to use the nomenclature in <ref target="#b36" type="bibr">Verhulst et al. (2017)</ref> here for consistency in the literature.</s></p><p><s>We note that we have changed some nomenclature slightly from <ref target="#b36" type="bibr">Verhulst et al. (2017)</ref> for additional clarity and conciseness.</s></p><p><s>We refer to the drift-corrected mole fraction as XDC, which is noted as Xcorr in <ref target="#b36" type="bibr">Verhulst et al. (2017)</ref>; we refer to the mole fraction after a secondary correction is applied as XSC.</s><s>We also refer to the assigned mole fraction of a standard by the calibration laboratory as C rather than Xassign.</s><s>We define the sensitivity S to be the response of the analyser, or the ratio of the measured to the true value.</s><s>In the case of the calibration tank, this is the ratio of the raw measured value, X¢cal, to the assigned value of the standard by the calibration laboratory on the WMO scale for the given species, Ccal :</s></p><formula xml:id="formula_0">𝑆 = # $%&amp; ' ( $%&amp;</formula><p><s>.</s></p><p><s>(1)</s></p><p><s>When only a single calibration standard is present (which is the case at most sites in the NEC network), this sensitivity is assumed to be constant across mole fractions, but time-varying.</s><s>The sensitivity for the calibration tank is thus interpolated in time and applied as a correction for the dry air mole fractions of CO2 and CH4 reported by the CRDS analyser (X¢air):</s></p><formula xml:id="formula_1">𝑋 *(,,-. = # %/0</formula><p><s>where XDC,air is the drift-corrected air data.</s><s>An alternative drift-correction is to use an additive offset, which is also interpolated in time, rather than a sensitivity for drift correction:</s></p><p><s> *(,,-.</s><s>=  ,-.</s></p><p><s>2 + ( 6,7 - 6,7 2 ).</s></p><p><s>(3)</s></p><p><s>Measurements from MSH that include a high value cylinder suggest that the single tank drift correction performs (very slightly) better using the ratio correction (Eq.</s><s>2) than the difference method (Eq. 3) for CO2 and CH4, while the opposite is true for CO (Fig. <ref type="figure">5</ref>), so the difference method is used only for CO in our network.</s></p><p><s>The calibration standard mole fractions are interpolated in time between subsequent runs in order to apply the above corrections to the air data, thus removing drift in the instrument's response.</s><s>This drift-corrected fraction is reported in the hourly data files for sites and time periods where no range of concentrations is available in the standard tanks.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Multiple-point calibration 260<p><s>At some sites and for some time periods, a higher-mole-fraction standard is available, and a second-order correction can be made to the instrument sensitivity, accounting for the sensitivity being a function of mole fraction.</s><s>This is applied as a secondorder correction to the drift-corrected air data.</s><s>In general, if a range of standard concentrations is available, the correction in GCWerks is applied as described below.</s><s>First, a drift-corrected sensitivity (SDC) is calculated for each standard when it is measured, which is the ratio of the drift-corrected mole fraction of that standard (XDC,std, based on Eq. ( <ref type="formula">2</ref>) for CO2 and CH4 or Eq.</s><s>(3) for CO) to its assigned value:  *(,;&lt;= = # &gt;? , @AB ( @AB .</s></p><p><s>(4)</s></p><p><s>For the calibration standard, this value is necessarily equal to 1, but measurements of standard tanks with different assigned values indicate that the instrument sensitivity is dependent on the composition of the sample gas (in this case, the mole fraction of the standard tank).</s><s>In laboratory calibrations, we find that the drift-corrected sensitivity defined in Eq. ( <ref type="formula">4</ref>) is a linear function of the mole fraction ratio to the calibration gas (X¢/X¢cal), so we use a linear fit to the range of standards to determine the slope m and intercept b:</s></p><formula xml:id="formula_2">𝑆 *( = 𝑚 D # ' # $%&amp; ' E + 𝑏.<label>(5)</label></formula><p><s>In this fit, we force m + b = 1 by fitting a slope m and then setting b=1-m in order to maintain the proper relationship for the calibration tank itself, when SDC,cal = 1.</s><s>Applying this fit to the air data, the final air mole fraction XSC,air is determined from:</s></p><formula xml:id="formula_3">𝑋 1(,,-. = G # &gt;?,%/0 1 &gt;? H.<label>(6)</label></formula><p><s>In the NEC tower network, there are no sites with multiple standard tanks at various concentrations.</s><s>At several sites, there are measurements of a single high-concentration standard (hstd) in addition to the calibration and target standards.</s><s>The high standard measurements are either performed in the laboratory before the instrument is deployed to the field, or in the field if the third standard is permanently installed (Section 3.2).</s><s>The above secondary correction is applied using only two tanks to perform the fit and obtain the drift-corrected sensitivity.</s><s>In this special case, the fit has zero degrees of freedom with no residuals.</s><s>The correction parameters (slope and intercept) are determined based on measurements over time or single measurements in the laboratory prior to a specific analyser deployment.</s><s>The correction is applied to the data from the site for a time period that is specified, i.e. it is not automatically applied based on daily measurements of the high standard.</s><s>It is determined by the science team and applied for the time period that is appropriate.</s><s>This is necessary to avoid applying the wrong correction if an analyser is replaced or if there are changes made to the analyser that might affect its calibration response.</s></p><p><s>At eight sites where a high standard has been measured at any point (MSH, BWD, NWB, NEB, JES, TMD, CPH, and HRD), slopes and intercepts have been determined and the correction has been applied to the data.</s><s>At stations with no high standard measurements we rely on the single tank drift-correction described in Section 3.3.</s><s>The improvement in calibration from the secondary correction is quite small compared to the signals and gradients of interest in our network.</s><s>For example, when considering the enhancement between the rural site TMD and a polluted urban site, HRD, the calibration method makes a median difference of 0.4% for CO2 and 0.3% for CH4 (over all hours over one calendar year).</s><s>We intend to implement this calibration throughout the network through deployment of additional standards and periodic traveling calibrations when permanent installation is not practical for logistical reasons.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data quality and processing<p><s>Automated data filtering is performed within the GCWerks software with parameters set identically to those extensively described in <ref target="#b36" type="bibr">Verhulst et al. (2017)</ref> for the Los Angeles Megacities network.</s><s>For example, individual measurements that are outside limits for cavity temperature, cavity pressure, and during transitions between sample streams are filtered.</s><s>The data is automatically downloaded from each site's Linux PC to the central EN Linux server, where it is processed automatically every hour.</s><s>We note that all mole fraction assignments can be re-calculated by the GCWerks software from the archived raw files if required due to a change in filtering or flagging, or in assignment of a standard tank, for example, in the case of a scale change by the CCL.</s><s>The data files exported from GCWerks contain 1-minute, 5-minute, and 20-minute averaged air data, as well as separate files with 1 min, 5 min and 20 min averages of all standard runs.</s><s>Individual or groups of 1-minute data points are flagged manually by EN or NIST researchers in the GCWerks if there is cause (e.g. a site visit that disrupted the sample stream, or a leak in the line, etc.).</s><s>Filtered and flagged points are excluded from the subsequent averaging exported by GCWerks.</s><s>The 1-minute air data files and 20-minute standards data files are post-processed at NIST to calculate hourly averages from each air inlet level, and to assign uncertainties to each hourly average (Section 4).</s><s>Data from the two top-level inlets, when at the same height, are combined for inclusion into the hourly average.</s><s>Thus, because of the 20-minute cycling through the three inlets (Section 3.1), hourly averages at the upper inlet include approximately 40 minutes of measurements, and for the lower inlet only 20 minutes (fewer if a calibration occurs).</s><s>Publicly released hourly data from this second-level processing is contained in separate files for each species and each level for each site.</s><s>The files contain the hourly average mole fraction (i.e.</s></p><p><s>mole fraction) along with its uncertainty, standard deviation, and number of 1-minute air measurements included in that particular hourly average.</s><s>These last two quantities are provided so users can determine the standard error of the hourly means, in terms of the observed atmospheric variability within the hour.</s><s>Observations at higher frequency and standard tank data are available by request.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Comparison with measurements of NOAA whole air samples<p><s>Ongoing whole air sampling in flasks at several of the NEC sites by NOAA Earth System Research Laboratory's Global</s></p><p><s>Monitoring Division (NOAA/GMD) provides a check on the quality of the in-situ measurements.</s><s>The flasks are measured for CO2, CH4, and CO, among a suite of additional trace gases and isotopes which are not discussed here.</s><s>The flask sampling equipment draws air from one of the inlet lines at the top of the tower that is also shared by the in-situ continuous measurement equipment (as indicated by the flask port in Fig. <ref target="#fig_4" type="figure">4</ref>).</s><s>The flask measurements are otherwise independent from the continuous in-situ measurements.</s><s>Flask samples at LEW and MSH are collected over a period of 10-30 seconds <ref target="#b33" type="bibr">(Sweeney et al., 2015;</ref><ref target="#b0" type="bibr">Andrews et al., 2014)</ref>, while flask samples integrated over one hour are collected at TMD, NEB, NWB, and BWD <ref target="#b34" type="bibr">(Turnbull et al., 2012)</ref> specifically as part of the Northeast Corridor project.</s><s>All flask samples are taken in mid-afternoon local time (usually 19 UTC).</s><s>Comparisons at all the sites with available data indicate good agreement with little or no bias in the mean over the time period of the comparison, with the exception of CO at MSH, which shows a consistent bias with a median of 8 nmol mol -1 , which is larger than the 1-sigma uncertainty assigned to either measurement (described in Section 4) and the standard deviation of the offsets themselves (Table <ref target="#tab_1" type="table">2</ref>).</s><s>Target tank residuals for CO in this period range from 1 to 7 nmol mol - 1 , depending on the cylinders installed, indicating that some of this difference at least is caused by the calibration standard assigned value (possibly due to cylinder drift in time between the NOAA calibration and deployment to the site).</s><s>Similar differences between NOAA flasks and in-situ CO measurements were reported in Indianapolis <ref target="#b28" type="bibr">(Richardson et al., 2017)</ref>.</s><s>This result requires further investigation, by sending the cylinders for recalibration and/or deploying different standards to the station.</s><s>A significant bias in the CH4 offset at NWB is also apparent, at a mean of -5.5 nmol mol -1 but a median of -1.7 nmol mol -1 , the result of a single outlier at -30 nmol mol -1 , but with only 17 samples compared.</s><s>BWD did not have any samples at the time of this writing so we compare only LEW, MSH, TMD, NEB, and NWB.</s></p><p><s>Table 2 also reports the mean uncertainty, intended as a metric for comparison of the standard deviation of the offsets.</s><s>For each flask sample, this uncertainty is the quadrature sum of the continuous data uncertainty (described in Section 4) at that hour, the standard deviation of the 1-minute averages in the continuous data during that hour, and the uncertainty expected in the flask measurement, estimated here as 0.04 µmol mol -1 for CO2, 1.12 nmol mol -1 for CH4, and 0.59 nmol mol -1 for CO.</s></p><p><s>The values for the flask uncertainty are from Table <ref target="#tab_0" type="table">1</ref> in <ref target="#b33" type="bibr">Sweeney et al. (2015)</ref>, which reports the average offset between measurements of surface network and 12-pack flasks (such as those used for the NEC) filled with identical air after a shortterm storage test.</s><s>For CO2, flask offsets can be larger than indicated by those dry-air laboratory tests <ref target="#b33" type="bibr">(Sweeney et al., 2015;</ref><ref target="#b0" type="bibr">Andrews et al., 2014;</ref><ref target="#b10" type="bibr">Karion et al., 2013)</ref>, but we use 0.04 µmol mol -1 regardless, because the average uncertainty in Table <ref target="#tab_1" type="table">2</ref> is dominated by the atmospheric variability term and increasing the CO2 uncertainty in the flasks to 0.1 µmol mol -1 (for example) does not change the values significantly.</s></p><p><s>Standard deviations of the offsets (Table <ref target="#tab_1" type="table">2</ref>) show that there is quite a bit of scatter in the results, especially at the more urban sites that exhibit a lot of variability in the continuous data.</s><s>For comparison, <ref type="bibr">Turnbull et al. (2015)</ref> report agreement for CO2 between the same flask system and continuous in-situ measurements in Indianapolis as 0.04 µmol mol -1 (mean) with a standard deviation of 0.38 µmol mol -1 , somewhat smaller than observed at our sites.</s><s>The standard deviation of offsets is usually lower than the average uncertainty, however, with the exception of CO2 at MSH and LEW, the two sites for which the flask samples are not integrated over an hour.</s><s>It is likely that the large variability seen over an hour is the reason for the large scatter in the offsets.</s><s>Because the in-situ continuous measurements do not cover the entire hour of sampling (at the top level, the hourly average is typically the mean of only 40 minutes), the variability may not be captured in the mean uncertainty reported here, and has a larger impact on the comparison than it would if the continuous hourly average was based on the full hour of observations.</s><s>For example, a large plume or spike in concentration during a given hour might occur while the continuous system is sampling from the lower inlet, and thus would not be included in the hourly average from the continuous system, while it would be included in the full one-hour flask sample.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Uncertainty<p><s>The data set includes an uncertainty estimate on each hourly average data point, consistent with recommendations from the <ref type="bibr">WMO (WMO, 2018)</ref>.</s><s>This uncertainty is our estimate of the uncertainty of the measurement itself and does not include atmospheric variability or assess the representativeness of the measurement of a true hourly mean.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Uncertainty of hourly mole fraction data<p><s>Verhulst et al. ( <ref type="formula">2017</ref>) outlined a method for calculating an uncertainty on mole fraction measurements when using the single tank calibration correction (drift correction).</s><s>Here we present a brief overview but refer the reader to that paper for further details.</s><s>All uncertainties are standard uncertainties, i.e. 1-sigma or k=1.</s><s>In the analysis below, we assume independent uncorrelated error components, given no evidence to the contrary and no physical reason to believe that they should be correlated; therefore we sum the various components of the uncertainty in quadrature.</s></p><p><s>The uncertainty on the final mole fractions (Uair) is expressed as the quadrature sum of several uncertainty components:</s></p><formula xml:id="formula_4">(𝑈 ,-. ) J = K𝑈 LM&lt;.,N O J + (𝑈 PJQ ) J + (𝑈 R ) J (7)</formula><p><s>where UH2O is the uncertainty due to the water vapor correction, UM is a measurement uncertainty, and Uextrap is the uncertainty of the calibration fit when assigning values relative to a single standard tank (more detail on this can be found later in this section and in the following section).</s><s>UM encompasses errors due to drifting standard tank measurements (Ub), short-term precision (Up), and error in the calibration standard's mole fraction assignment by the calibration laboratory (Uscale):</s></p><formula xml:id="formula_5">(𝑈 R ) J = K𝑈 N O J + (𝑈 S ) J + (𝑈 ;6,7L ) J .<label>(8)</label></formula><p><s>Here we note that Up for CO2 and CH4 is assigned as described in <ref target="#b36" type="bibr">Verhulst et al. (2017)</ref>, as the standard deviation of the individual measurements during each 1-minute average during a calibration, but for CO it is assigned as the standard error (standard deviation divided by the square root of the number of samples in the mean), based on Allan variance tests (not shown)</s></p><p><s>indicating that the precision of the CO measurement increases with the number of points used in the average.</s><s>If no calibrations have been performed over an entire calendar year, Up is set to the 10 th percentile of the standard deviation of air measurements, and Ub is set to a default value of 0.1 µmol mol -1 , 0.5 nmol mol -1 , and 4 nmol mol -1 for CO2, CH4, and CO respectively.</s><s>This default value for Ub is based on an upper limit of values that are observed in the network; typically, Ub is much smaller than these values <ref target="#b36" type="bibr">(Verhulst et al., 2017)</ref>.</s><s>In the current data set, this has only occurred once: there were no calibrations run at MNC over the entire 2015 calendar year, but we have no knowledge of abnormal operations or changes during this period, with analyser sensitivity being similar before and after this period.</s></p><p><s>Because these uncertainty components are also tested through the use of a target tank, or check standard, the uncertainty UM is assigned as the root-mean-squared of the target tank errors when those exceed the sum of the uncertainties above:</s></p><formula xml:id="formula_6">𝑈 R = 𝑈 TUT = V ∑GK# &gt;?,XYX Z( XYX O [ H \ . (<label>9</label></formula><formula xml:id="formula_7">)</formula><p><s>This residual is calculated by GCWerks, and the root mean square residual is interpolated in time as a moving 10-day average.</s></p><p><s>If a target tank has not been run through the system for 10 days or longer, UTGT is set to a default value that is currently set to 0.2 µmol mol -1 , 1 nmol mol -1 , and 6 nmol mol -1 for CO2, CH4, and CO, respectively, based on typical maximum values for this uncertainty calculated from many sites over several years.</s><s>The target tank in the field generally has a concentration value very similar to the calibration tank, so this residual is a good estimate of the uncertainty caused by the precision, baseline changes, and tank value assignment.</s><s>However, it is not a good indicator of uncertainty at mole fractions different from that of the calibration tank.</s><s>Therefore, we assign an added uncertainty component, Uextrap, indicating the uncertainty that increases as the measurement value moves farther from the value of the calibration tank in the case of a single calibration standard.</s><s>This was found to be a linear relationship for a series of similar model analysers that were tested in a laboratory, and the uncertainty was described as:</s></p><p><s>See <ref target="#b36" type="bibr">Verhulst et al. (2017)</ref> for details on determining the unitless slope of the uncertainty, epsilon (e), which is currently assigned as 0.0025, 0.0031, and 0.0164 for CO2, CH4, and CO, respectively, for all data that is only drift corrected (i.e.</s><s>not using a high standard).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Uncertainty for observations with additional standards available<p><s>When a high standard tank is available and the secondary correction described in Section 3.4 is applied, the uncertainty analysis remains similar, but the uncertainty Uextrap from Eq. ( <ref type="formula">7</ref>) and Eq. ( <ref target="#formula_8" type="formula">10</ref>) is replaced by an uncertainty in the two-point fit, Ufit.</s><s>To estimate this uncertainty for CO2 and CH4, we use the reported uncertainty of the assigned value of the high standard and calibration standard tanks, Uscale, (typically 0.03 µmol mol -1 CO2 and 0.5 nmol mol -1 CH4 at 1-sigma) along with an estimate of the precision of the analyser, Up, to estimate an uncertainty on the drift-corrected sensitivity of the high standard, USDC,hstd, using standard propagation of errors (black error bar, Fig. <ref target="#fig_13" type="figure">7</ref>(a)).</s><s>We note that in the case where the value assigned to the high standard is through a propagation of the WMO scale at NIST, the assigned value has additional uncertainty; i.e.</s><s>Uscale includes both the uncertainty that NOAA assigned to the cylinders used for the assignment and the uncertainty from the laboratory fit at NIST.</s><s>This second uncertainty is equal to the standard deviation of the residuals of the fit and it is added in quadrature to the NOAA uncertainty.</s></p><p><s>We note that the analysis described below assumes uncorrelated independent errors.</s><s>We express the slope of drift corrected sensitivity (m) and the overall drift-corrected sensitivity (SDC) as functions only of the drift-corrected sensitivity of the high standard, SDC,hstd:</s></p><formula xml:id="formula_9">𝑚 = 1 &gt;?,a@AB Zb # ' a@AB # ' $%&amp; c Zb (11) 𝑆 *( = 𝑚 G #2 #2 $%&amp; -1H + 1. (<label>12</label></formula><formula xml:id="formula_10">)</formula><p><s>This second equation uses b=1-m.</s><s>Here we do not include uncertainty in the x-coordinate, i.e.</s><s>X'/X'cal.</s><s>Uncertainty in the slope is thus: We propagate the uncertainty in the drift-corrected sensitivity of the high standard, USDC,hstd, to the overall drift corrected sensitivity of all the air values using Eq. ( <ref type="formula">14</ref>), and then to the two-point corrected air data by propagating through to obtain Eq. ( <ref type="formula">15</ref>).</s></p><formula xml:id="formula_11">𝑈 e = fg</formula><p><s> To evaluate the use of standard propagation of errors, we also use a bootstrap to estimate the uncertainty using the laboratory calibration shown in Fig. <ref target="#fig_8" type="figure">6</ref> by calculating the correction using 1000 randomly selected pairs of tanks from the test (blue shading, Fig. <ref target="#fig_13" type="figure">7</ref>).</s><s>For this test, the calculated 1-sigma uncertainty (red shading) was similar to the 1-sigma bootstrap uncertainty (slightly larger for CO2 and slightly smaller for CH4 (not shown)).</s><s>This comparison indicates that the estimated uncertainty using the equations above compares reasonably well with the uncertainty we would derive from a bootstrap analysis, which</s></p><p><s>gives us confidence in our methodology.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Vertical gradients<p><s>Observations in global trace gas measurement networks (e.g.</s><s>AGAGE, GGRN) are specifically sited far from local sources or strong sinks, to ensure that air reaching the site is representative of the large spatial scales of interest to a global study.</s><s>This allows the observations to be more easily interpreted by a coarser global model (e.g.</s><s><ref target="#b25" type="bibr">Peters et al. (2007)</ref>).</s><s>In urban networks, it is desirable to measure trace gas concentrations closer to sources so that finer spatial gradients can be used to inform emissions estimates at urban scales.</s><s>However, a balance must be struck between the necessity to observe and distinguish sources that are in close proximity to each other and the ability of a transport and dispersion model to simulate the observations.</s></p><p><s>In some instances, novel ways to simulate observations at low heights above ground level and in very dense networks have been used to resolve this problem <ref target="#b2" type="bibr">(Berchet et al., 2017)</ref>.</s><s>In the NEC urban network in Washington DC and Baltimore, the tower sites were selected to be between 50 m and 100 m above the ground given the desire to place a tower in a specific location (as identified in an initial network design study by <ref target="#b15" type="bibr">Lopez-Coto et al. (2017)</ref>).</s><s>Inlets at two (or three, at SFD) heights on the tower give some insight as to the proximity of each tower to sources whose emissions are not always vertically wellmixed by the time they reach the inlets, depending on atmospheric stability conditions.</s><s>Here we report average vertical gradients, determined using the observations at different levels, for the urban sites in our network.</s><s>These gradients were calculated using hourly average data from each level, but because the instruments are only sampling from one level at any https://doi.org/10.5194/essd-2019-206</s></p><p><s>Open given time and cycling between them, there is an assumption of measurements averaged in a given hour to be representative of the entire hour.</s><s>Because different towers have different inlet heights and different vertical spacing between the lower and upper inlet, to compare between sites we use gradients (i.e.</s><s>difference in mole fraction per meter), not absolute differences.</s></p><note type="other">Access Earth System Science Data Discussions Preprint.</note><p><s>We define the gradient as the mole fraction of CO2 or CH4 at the topmost inlet minus that of the lowermost inlet divided by the distance between them, so that a negative gradient indicates a higher concentration at the lower inlet (the most common case).</s><s>The only except is for SFD (inlets at 152, 100, and 50 m), where we use the 100 m and 50 m inlets to define the gradient, to be more consistent with the typical inlet heights of the other rural towers (Table <ref target="#tab_0" type="table">1</ref>).</s><s>Analysis of the diurnal cycle of the vertical gradient at urban sites in the Washington / Baltimore area (Fig. <ref target="#fig_16" type="figure">9</ref>) indicates different characteristics in summer vs. winter.</s><s>These differences are most likely caused by different meteorology and possible seasonal differences in timing of fluxes, especially for sites influenced by the urban biosphere.</s><s>Greater turbulent mixing in summertime boundary layers and different timing in the boundary layer growth and collapse mostly dominate the seasonal differences.</s><s>This analysis shows that the overall wintertime average gradient in mid-afternoon hours (defined based on these figures as 11-16</s></p><p><s>LST) is approximately 0.028 µmol mol -1 m -1 for CO2 (0.2 nmol mol -1 m -1 for CH4), which translates to a 1.4 µmol mol -1 (10.3 nmol mol -1 for CH4) difference between levels spaced 50 m apart; this is not an insignificant gradient.</s><s>These observations can help evaluate vertical mixing in transport and dispersion models that might be used to estimate emissions, or to identify times when modelled and observed vertical gradients agree.</s><s>Large vertical gradients overnight into the early morning at all sites and seasons are indicative of local sources (likely mostly anthropogenic but also including respiration from the biosphere)</s></p><p><s>influencing the observations at these times when there is stable stratification in the boundary layer and concentrations are higher near the surface.</s><s>The larger CO2 gradients overnight in summer compared to winter periods suggest a strong respiration signal at these urban sites, with a large degree of variability between sites indicated by large spread.</s><s>Night-time CH4 gradients are larger in winter than summer, possibly reflecting greater wintertime anthropogenic CH4 emissions, or possibly due to seasonality in mixing layer heights.</s><s>The diurnal cycle of the vertical gradients from the sites identified as background stations for the Washington/Baltimore urban network shows large variability in summertime gradients between the three stations (Fig. <ref target="#fig_17" type="figure">10</ref>).</s><s>Stafford, VA (SFD) shows that the surrounding biosphere causes relatively large gradients in night-time and early morning hours at this low-density surburban site.</s><s>These are apparent at Bucktown, MD (BUC) as well, but much less so at Thurmont, MD (TMD), a forested site in western</s></p><p><s>Maryland.</s><s>The large difference between summertime early morning vertical CO2 gradients at SFD and TMD, despite the similar surrounding land use (mostly deciduous forest, Fig. <ref target="#fig_2" type="figure">3</ref>), might be caused by the elevation difference, as SFD is close to sea level while TMD is on a ridge at 561 m elevation.</s><s>BUC observations show larger CH4 gradients in summer, due to surrounding wetlands and agriculture (Fig. <ref target="#fig_2" type="figure">3</ref>).</s><s>Wintertime gradients are near zero at all hours at all three of these sites, indicating that they are far from local anthropogenic sources of either gas.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Urban and rural differences in seasonal cycles<p><s>Here we continue to describe the network in terms of differences between rural (background) and urban stations, determining typical enhancements from urban influences.</s><s>The seasonal cycles of CO2 and CH4 indicate enhancements in the urban sites in our network relative to the more rural stations throughout the year (Fig. <ref target="#fig_19" type="figure">11</ref>).</s><s>Summertime CH4 at urban sites is not as enhanced compared to the rural sites as it is in winter, possibly due to wetland sources influencing the background station at BUC or lower CH4 emissions from natural gas in urban areas.</s><s>Similarly, for CO2, some of the rural stations surrounded by active vegetation (Fig. <ref target="#fig_2" type="figure">3</ref>) are likely to show stronger influence from biospheric uptake than urban sites in the summer months especially (Fig. <ref target="#fig_17" type="figure">10</ref>).</s><s>We specifically caution against using any of the in-situ data from the NEC rural stations directly as a background for analysis of the urban enhancement without examining these issues.</s><s><ref target="#b31" type="bibr">Sargent et al. (2018)</ref> indicate that for an analysis of CO2 enhancements in the Boston urban area, CO2 observations from upwind stations alone did not represent the  We also have presented our methodology for calibrating the measurements to WMO scales for each gas and determining uncertainties for these measurements, as recommended by the WMO (WMO, 2018).</s><s>We show that analysis of observations at two different inlet heights can be useful for determining the presence of emissions close to the towers, which may be necessary for evaluating the efficacy and choice of transport model used to analyse the data.</s><s>We also note that the tower stations that were established to characterise incoming or background air are not necessarily appropriate for use directly as background for the urban stations, as they often are affected by local fluxes that do not influence the urban stations.</s><s>A more careful treatment of incoming background air is necessary for any given analysis.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data availability<p><s>This data set of hourly-averaged observations from the Northeast Corridor tower-based network is available on the NIST data portal at data.nist.gov</s><s>under the DOI 10.18434/M32126 <ref target="#b11" type="bibr">(Karion et al., 2019)</ref>.</s><s>Initially, the repository will contain data from 23 sites (Table <ref target="#tab_0" type="table">1</ref>) for years spanning 2015-2018; not all years are available for all sites.</s><s>Files are version-dated, and the current plan is to provide annual updates for 2019 and beyond.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>Locations of Northeast Corridor (NEC) established tower-based observations, corresponding to Table 1.</s><s>The red rectangle indicates the modelling analysis domain.</s><s>Light grey shading indicates census-designated urban areas; yellow lines are interstate highways; black boundaries are state lines, with a thinner black line showing the City of Baltimore.</s><s>Green triangles indicate regional sites, red triangles indicate urban sites, while blue triangles are more rural or background sites surrounding the Washington/Baltimore domain.</s><s>(a) Regional map.</s><s>(b) Inset focusing on Washington, D.C., and Baltimore, Maryland.</s><s>All map data layers obtained from either Natural Earth (naturalearthdata.com) or U.S. Government sources (www.census.gov)</s><s>and are in the public domain.</s></p></div></figdesc><graphic coords="4,59.29,137.57,235.19,176.38" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 2. Fraction of developed land cover (from the 2011 National Land Cover Database (NLCD) (Homer et al., 2015)) within 5 km of each observation station in the urban regions of Washington, D.C. and Baltimore, MD.</s></p></div></figdesc><graphic coords="6,46.79,150.21,501.70,248.03" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure 3. Average fraction of land cover type within 5 km of regional tower sites in the Northeast Corridor network, in order of decreasing developed land.</s><s>Several NLCD classifications have been grouped for clarity (e.g.</s><s>Developed includes Open Space, Low, Medium, and High Intensity Developed land).</s><s>SFD, TMD, and BUC are sites established to help characterize background conditions for the Washington D.C. and Baltimore urban network.</s></p></div></figdesc><graphic coords="6,46.79,434.69,501.70,193.53" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>. The sites established to characterize background conditions for the urban network in Washington, D.C. and Baltimore (SFD, TMD, BUC) are in areas with little development: SFD and TMD are both in forested regions, while BUC is near the Chesapeake Bay and large wetland areas.</s><s>The other regional sites span a range of land cover types from urban (MNY in New York City and RIC in Richmond, VA), to mostly rural and forested (DNH in Durham, NH).</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4. Plumbing diagram for the Earth Networks sampling system implemented at the NEC tower stations.</s><s>Figure replicated from Fig. S1 in Verhulst et al. (2017), adapted from Welp et al. (2013).</s></p></div></figdesc><graphic coords="8,46.79,132.97,443.56,319.66" type="bitmap"></graphic></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Figure 5.</s><s>Time series of standard tank run residuals (i.e.</s><s>XDC -C) for CO2 (a,b), CH4 (c,d) and CO (e,f).</s><s>XDC is calculated using a single calibration tank (not shown) and the ratio method (Eq.</s><s>2) on the left (a,c,e) and the difference method (Eq. 3) on the right (b,d,f).</s><s>Assigned tank values are shown in the legend; one tank was not calibrated for CO so only the residuals of the high concentration tank at 315 nmol mol -1 are shown.</s><s>The residual magnitude is smaller for CO2 and CH4 using the ratio method, but the standard deviations (variability) are similar using both methods.</s><s>For CO, both the magnitude of the residual and also the standard deviation are smaller using the difference equation; the ratio equation does not properly account for the drift in the analyser at the start of the time series (May-June).</s><s>Data shown are from MSH; a measurement gap exists in July.</s></p></div></figdesc></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/essd-2019-206</s><s>started: 28 November 2019 c Author(s) 2019.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_8" xmlns="http://www.tei-c.org/ns/1.0">Figure 6 .<label>6</label><figdesc><div><p><s>Figure 6.</s><s>Example of a laboratory calibration of a CRDS analyser with five standards of different assigned CO2 mole fractions.</s><s>(a) Secondary correction of drift-corrected sensitivity using either two (red) or all five (blue) standards.</s><s>Green line at 1 indicates the assumed sensitivity when only a single standard is used.</s><s>(b) Residual of each type of fit; error bars represent 1-sigma reproducibility stated by NOAA/ESRL.</s><s>The simple single-tank drift correction results in the green circles as residuals; these residuals were used in the Verhulst et al. (2017) analysis to estimate the extrapolation uncertainty of the single-point correction.</s><s>Red x symbols are the residuals of a fit to two standards, and blue asterisks the residuals of the fit to all five standards.</s></p></div></figdesc><graphic coords="14,46.79,132.97,501.70,190.48" type="bitmap"></graphic></figure>
+<figure xml:id="fig_11" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>started: 28 November 2019 c Author(s) 2019.</s><s>CC BY 4.0 License.</s><s> LM&lt;.,N = ||` *(,,-.</s><s>- 6,7 `</s></p></div></figdesc></figure>
+<figure xml:id="fig_13" xmlns="http://www.tei-c.org/ns/1.0">Figure 7 .<label>7</label><figdesc><div><p><s>Figure 7. Uncertainty (1-sigma) in fit for two-point calibrations.</s><s>(a) two-point fit to drift-corrected sensitivity (SDC) (red line) with uncertainty (red shading) calculated using the uncertainty in the high standard (black circle with error bar).</s><s>Blue shading shows uncertainty calculated using a bootstrap conducted by randomly selecting sets of two standards from the laboratory test (black circles) to calculate the slope.</s><s>There is no uncertainty at 1 because the drift-corrected sensitivity is defined as equal to one at the value of the calibration standard.</s><s>(b) Uncertainty in final CO2 as a function of raw CO2; red and blue shading as in (a).</s></p></div></figdesc><graphic coords="20,46.79,443.17,501.70,190.48" type="bitmap"></graphic></figure>
+<figure xml:id="fig_14" xmlns="http://www.tei-c.org/ns/1.0">Figure 8 .<label>8</label><figdesc><div><p><s>Figure 8. Data (CO2 and CH4, and CO for MSH only) availability from the various NIST-EN tower sites in the Northeast Corridor network included in this data release.</s><s>Gaps represent data outages due to various failures (analyser, communications, etc.).</s></p></div></figdesc><graphic coords="22,9.48,132.97,559.59,279.82" type="bitmap"></graphic></figure>
+<figure xml:id="fig_15" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Discussion started: 28 November 2019 c Author(s) 2019.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_16" xmlns="http://www.tei-c.org/ns/1.0">Figure 9 .<label>9</label><figdesc><div><p><s>Figure 9.</s><s>Diurnal cycle of vertical gradients in CO2 (a) and CH4 (b) for urban towers in the Washington/Baltimore area, averaged over 2015-2017 in winter (blue) and summer (orange), with shading indicating 1-sigma standard deviation among sites.</s><s>Some of the spread can be caused by sampling in different years at the different sites.</s><s>Sites included are: HAL, ARL, NDC, NEB, NWB, and JES.</s><s>HRD was excluded due to lack of data in this period.</s></p></div></figdesc><graphic coords="23,46.79,253.70,501.70,153.49" type="bitmap"></graphic></figure>
+<figure xml:id="fig_17" xmlns="http://www.tei-c.org/ns/1.0">Figure 10 .<label>10</label><figdesc><div><p><s>Figure 10.</s><s>Diurnal cycle of vertical gradients in CO2 (a) and CH4 (b) at the three background towers for the Washington / Baltimore region, in summer (orange shades) and winter (blue shades).</s></p></div></figdesc><graphic coords="24,46.79,184.71,501.70,153.49" type="bitmap"></graphic></figure>
+<figure xml:id="fig_18" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>correct background.</s><s>Even when the air that reaches an urban tower originates near an upwind rural site, back trajectories (from a Lagrangian Particle Dispersion Model such as STILT, for example) indicate that much of the air may originate from a higher altitude than the upwind station.</s><s>Thus the measurement at an upwind station is not necessarily representative of the proper background, or incoming, concentration, given the large concentration gradients between measurements within the planetary boundary layer and in the free troposphere near background stations with local fluxes.<ref target="#b21" type="bibr">Mueller et al. (2018)</ref> conducted an analysis of the issues concerning background determination for this urban network, mostly concerning the large emissions of both CO2 and CH4 upwind of the region that is difficult to capture by upwind stations.</s><s>We will examine the proper background for investigating urban enhancements in the Washington DC and Baltimore, MD area further in future work.</s></p></div></figdesc></figure>
+<figure xml:id="fig_19" xmlns="http://www.tei-c.org/ns/1.0">Figure 11 .<label>11</label><figdesc><div><p><s>Figure 11.</s><s>Seasonal cycles from urban and rural sites in the Washington DC /Baltimore region with at least one year of observations.</s><s>Mid-afternoon (13-18 LST) daily averages are detrended using a linear fit to the annual trend at Mauna Loa (for CO2) and the global average (for CH4) (data from NOAA/ESRL) and then averaged monthly.</s><s>Rural sites include TMD, SFD, and BUC; urban sites are ARL, NDC, JES, HAL, NEB, and NWB.</s><s>Shading indicates one standard deviation of the averages from all the sites.</s></p></div></figdesc><graphic coords="25,46.79,270.94,501.70,184.63" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1 . Northeast Corridor Site List. *If a station was established prior to the beginning of the project, its established date is listed as 1/2015, the start date of the project. Data prior to this date is not part of the NIST data release. Site Code EN Site ID Location Latitude Longitude Elev. (m)<label>1</label><figdesc></figdesc><table><row><cell>Intake</cell><cell>Measure-</cell><cell>Est.</cell></row><row><cell>Heights</cell><cell>ments</cell><cell>(mm/yyyy)</cell></row><row><cell>(m)</cell><cell></cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">Table 2 . Offsets (in-situ -flask) between continuous in-situ and NOAA/GMD flask measurements. CO2 offsets are reported in µmol mol -1 , CH4 and CO in nmol mol -1 . Continuous in-situ CO is only measured at MSH. The average uncertainty column for each gas indicates the 1-sigma uncertainty (summed in quadrature over flask uncertainty, in-situ uncertainty, and atmospheric variability over the hour) averaged over the flask samples. See text for discussion.<label>2</label><figdesc></figdesc><table><row><cell>Site</cell><cell>Number of flask samples</cell><cell>CO2 mean offset</cell><cell>CO2 median offset</cell><cell>CO2 standard deviation of offsets</cell><cell>CO2 mean unc.</cell><cell>CH4 mean offset</cell><cell>CH4 median offset</cell><cell>CH4 standard deviation of offsets</cell><cell>CH4 mean unc.</cell><cell>CO mean offset</cell><cell>CO median offset</cell><cell>CO standard deviation of offsets</cell><cell>CO mean unc.</cell></row><row><cell>MSH</cell><cell>163</cell><cell>0.02</cell><cell>-0.02</cell><cell>0.65</cell><cell>0.43</cell><cell>-0.2</cell><cell>-0.2</cell><cell>2.3</cell><cell>2.1</cell><cell>-9.0</cell><cell>-8.2</cell><cell>5.9</cell><cell>6.0</cell></row><row><cell>LEW</cell><cell>315</cell><cell>0.01</cell><cell>-0.07</cell><cell>0.88</cell><cell>0.68</cell><cell>1.1</cell><cell>0.4</cell><cell>8.4</cell><cell>7.8</cell><cell>--</cell><cell>--</cell><cell>--</cell><cell>--</cell></row><row><cell>TMD</cell><cell>80</cell><cell>0.17</cell><cell>0.15</cell><cell>0.51</cell><cell>0.69</cell><cell>0.0</cell><cell>0.5</cell><cell>5.5</cell><cell>5.2</cell><cell>--</cell><cell>--</cell><cell>--</cell><cell>--</cell></row><row><cell>NEB</cell><cell>32</cell><cell>-0.09</cell><cell>0.08</cell><cell>0.75</cell><cell>1.02</cell><cell>-0.5</cell><cell>0.6</cell><cell>6.8</cell><cell>13.4</cell><cell>--</cell><cell>--</cell><cell>--</cell><cell>--</cell></row><row><cell>NWB</cell><cell>17</cell><cell>-0.01</cell><cell>0.02</cell><cell>0.73</cell><cell>0.99</cell><cell>-5.5</cell><cell>-1.7</cell><cell>9.8</cell><cell>8.3</cell><cell>--</cell><cell>--</cell><cell>--</cell><cell>--</cell></row></table></figure>
+<note n="1" place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Certain commercial equipment, instruments, or materials are identified in this paper in order to specify the experimental procedure adequately.</s><s>Such identification is not intended to imply recommendation or endorsement by the National Institute of Standards and Technology, nor is it intended to imply that the materials or equipment identified are necessarily the best available for the purpose.</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgements<p><s>We acknowledge the Earth Networks engineering and technical team, including Uran Veseshta, Clayton Fain, Bryan Biggs, Seth Baldelli, Joe Considine, and Charlie Draper.</s><s>We also thank Tamae Wong, Kimberly Mueller, Sharon Gourdji, Subhomoy Ghosh, and Antonio Possolo (NIST) for helpful discussions.</s></p></div>
+</div>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Data Discussions Preprint.</s><s>Discussion started: 28 November 2019 c Author(s) 2019.</s><s>CC BY 4.0 License.</s><s>Data Discussions Preprint.</s><s>Discussion started: 28 November 2019 c Author(s) 2019.</s><s>CC BY 4.0 License.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The uncertainty in SDC leads to the estimate of the fit uncertainty, Ufit, shown in Fig. <ref type="figure">7</ref>(b).</s><s>To implement this uncertainty across all times and towers, we calculate it assuming a fixed nominal value of the high calibration standard of 490.50 µmol mol -1 CO2 and 2560.61 nmol mol -1 CH4.</s><s>This is based on the value of the high standard that was in residence in the Earth Networks laboratory when several of the CRDS analysers were tested and assigned two-point calibration corrections.</s><s>We use the sitespecific (instrument-specific and period-specific) slope and intercept that are applied to the data (which are static over the time period they are applied), and the value of the calibration tank, to calculate the remainder of the values required for the uncertainty analysis.</s></p><p><s>Only one site so far, MSH, measures continuous CO, and the history of standard tanks there indicates significant uncertainty in tank value assignments with high target tank residuals and corresponding UTGT relative to errors in slope.</s><s>We have chosen not to implement the two-point calibration at this site for CO, because the range of slopes of SDC includes one, i.e. the correction is so small that the uncertainty dwarfs the correction.</s></p><p><s>Mean absolute residuals of the two-point fit for nine laboratory calibrations analysed (7 tested at NOAA/ESRL and described in <ref target="#b36" type="bibr">Verhulst et al. (2017)</ref> Table <ref type="table">S2</ref> and two additional units at NIST) average to 0.03 µmol mol -1 for CO2 between the calibration and high standard, and larger for the test that included an even higher-concentration tank, shown in Fig. <ref type="figure">7</ref> at ~711 µmol mol -1 for CO2.</s><s>The fit uncertainty encompasses (at 1-sigma) this residual as well (Fig. <ref type="figure">7(b)</ref>).</s><s>The residuals at lower values can be explained by the uncertainty in the measurement (precision) and uncertainty in value assignment of the tanks.</s><s>For CO, only eight tests were available, with a mean residual inside the range of the calibrations of 1.1 nmol mol -1 , higher than the reported reproducibility from NOAA of 0.4 nmol mol -1 (all values are noted here at 1-sigma although they are given by NOAA at 2sigma).</s><s>This larger residual is likely caused by the lower precision of the analysers for CO but also could be caused by larger uncertainty in the tank assignments, possibly due to drift in the mole fraction of the tanks themselves.</s><s>We intend to conduct additional tests outside the two-point calibration range with additional analysers and tanks to evaluate and possibly update this uncertainty component, Ufit, as needed, and especially focus on CO if/when additional CO measurements are added to our network.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Network observations<p><s>Here we show some observations and time series of CO2 and CH4 from the NEC in-situ tower network, focusing on data coverage, vertical gradients, and observed differences between urban and rural or outer suburban sites.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data coverage and network expansion<p><s>The NEC network is continuously growing, with sites coming online at different times.</s><s>Figure <ref type="figure">8</ref> shows the availability of hourly observations as the various sites have come online.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">CO2, CO, and CH4 measurements from tall towers in the NOAA Earth System Research Laboratory's Global Greenhouse Gas Reference Network: instrumentation, uncertainty analysis, and recommendations for future high-accuracy greenhouse gas monitoring efforts</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">E</forename><surname>Andrews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Kofler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">E</forename><surname>Trudeau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Williams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">H</forename><surname>Neff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Masarie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">Y</forename><surname>Chao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Kitzis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">C</forename><surname>Novelli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">L</forename><surname>Zhao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">J</forename><surname>Dlugokencky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">M</forename><surname>Lang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Crotwell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Fischer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Parker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">T</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">D</forename><surname>Baumann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Desai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">O</forename><surname>Stanier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">F J</forename><surname>De Wekker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">E</forename><surname>Wolfe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Munger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">P</forename><surname>Tans</surname></persname>
+</author>
+<idno type="DOI">10.5194/amt-7-647-2014</idno>
+</analytic>
+<monogr>
+<title level="j">Atmos. Meas. Tech</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope from="647" to="687" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Andrews, A. E., Kofler, J. D., Trudeau, M. E., Williams, J. C., Neff, D. H., Masarie, K. A., Chao, D. Y., Kitzis, D. R., Novelli, P. C., Zhao, C. L., Dlugokencky, E. J., Lang, P. M., Crotwell, M. J., Fischer, M. L., Parker, M. J., Lee, J. T., Baumann, D. D., Desai, A. R., Stanier, C. O., De Wekker, S. F. J., Wolfe, D. E., Munger, J. W., and Tans, P. P.: CO2, CO, and CH4 measurements from tall towers in the NOAA Earth System Research Laboratory's Global Greenhouse Gas Reference Network: instrumentation, uncertainty analysis, and recommendations for future high-accuracy greenhouse gas monitoring efforts, Atmos. Meas. Tech., 7, 647-687, 10.5194/amt-7-647- 2014, 2014.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">The Utah urban carbon dioxide (UUCON) and Uintah Basin greenhouse gas networks: instrumentation, data, and measurement uncertainty</title>
+<author>
+<persname><forename type="first">R</forename><surname>Bares</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Mitchell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Fasoli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Bowling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Catharine</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Garcia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Eng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Ehleringer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Lin</surname></persname>
+</author>
+<idno type="DOI">10.5194/essd-11-1291-2019</idno>
+</analytic>
+<monogr>
+<title level="j">Earth Syst. Sci. Data</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="1291" to="1308" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bares, R., Mitchell, L., Fasoli, B., Bowling, D. R., Catharine, D., Garcia, M., Eng, B., Ehleringer, J., and Lin, J. C.: The Utah urban carbon dioxide (UUCON) and Uintah Basin greenhouse gas networks: instrumentation, data, and measurement uncertainty, Earth Syst. Sci. Data, 11, 1291-1308, 10.5194/essd-11-1291-2019, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">A cost-effective method for simulating city-wide air flow and pollutant dispersion at building resolving scale</title>
+<author>
+<persname><forename type="first">A</forename><surname>Berchet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Zink</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Muller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Oettl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Brunner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Emmenegger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Brunner</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.atmosenv.2017.03.030</idno>
+</analytic>
+<monogr>
+<title level="m">Bureau International des Poids et Mesures: The International System of Units (SI)</title>
+<meeting><address><addrline>Pavillon de breteuil, F-92312 Sevres Cedex, France</addrline></address></meeting>
+<imprint>
+<publisher>BIPM, BIPM</publisher>
+<date type="published" when="2017">2017. 2019</date>
+<biblscope unit="volume">158</biblscope>
+<biblscope from="181" to="196" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Berchet, A., Zink, K., Muller, C., Oettl, D., Brunner, J., Emmenegger, L., and Brunner, D.: A cost-effective method for simulating city-wide air flow and pollutant dispersion at building resolving scale, Atmos. Environ., 158, 181-196, 10.1016/j.atmosenv.2017.03.030, 2017. Bureau International des Poids et Mesures: The International System of Units (SI), 9 ed., edited by: BIPM, BIPM, Pavillon de breteuil, F- 92312 Sevres Cedex, France, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">High-accuracy continuous airborne measurements of greenhouse gases (CO2 and CH4) using the cavity ring-down spectroscopy (CRDS) technique</title>
+<author>
+<persname><forename type="first">H</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Winderlich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Gerbig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Hoefer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">W</forename><surname>Rella</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">R</forename><surname>Crosson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Van Pelt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Steinbach</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Kolle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Beck</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">C</forename><surname>Daube</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">W</forename><surname>Gottlieb</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">Y</forename><surname>Chow</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">W</forename><surname>Santoni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Wofsy</surname></persname>
+</author>
+<idno type="DOI">10.5194/amt-3-375-2010</idno>
+</analytic>
+<monogr>
+<title level="j">Atmos. Meas. Tech</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope from="375" to="386" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chen, H., Winderlich, J., Gerbig, C., Hoefer, A., Rella, C. W., Crosson, E. R., Van Pelt, A. D., Steinbach, J., Kolle, O., Beck, V., Daube, B. C., Gottlieb, E. W., Chow, V. Y., Santoni, G. W., and Wofsy, S. C.: High-accuracy continuous airborne measurements of greenhouse gases (CO2 and CH4) using the cavity ring-down spectroscopy (CRDS) technique, Atmos. Meas. Tech., 3, 375-386, 10.5194/amt-3- 375-2010, 2010.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Conversion of NOAA atmospheric dry air CH4 mole fractions to a gravimetrically prepared standard scale</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">J</forename><surname>Dlugokencky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">C</forename><surname>Myers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">M</forename><surname>Lang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Masarie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Crotwell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">W</forename><surname>Thoning</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">D</forename><surname>Hall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Elkins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Steele</surname></persname>
+</author>
+<idno type="DOI">10.1029/2005JD006035</idno>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">110</biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dlugokencky, E. J., Myers, R. C., Lang, P. M., Masarie, K. A., Crotwell, A. M., Thoning, K. W., Hall, B. D., Elkins, J. W., and Steele, L. P.: Conversion of NOAA atmospheric dry air CH4 mole fractions to a gravimetrically prepared standard scale, Journal of Geophysical Research: Atmospheres, 110, doi:10.1029/2005JD006035, 2005.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">CC BY 4.0 License. Summary</title>
+<author>
+<persname><forename type="first">O</forename><surname>Edenhofer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">P</forename></persname>
+</author>
+<author>
+<persname><forename type="first">-M</forename></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Sokona</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Kadner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Minx</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Brunner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Agrawala</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Baiocchi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">A</forename><surname>Bashmakov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Blanco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Broome</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Bruckner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bustamante</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Clarke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Conte Grand</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Creutzig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Cruz-Núñez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Dhakal</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">K</forename><surname>Dubash</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Eickemeier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Farahani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Fischedick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Fleurbaey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Gerlagh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Gómez-Echeverri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Gupta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Harnisch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Jiang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Jotzo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Kartha</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Klasen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Kolstad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Krey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Kunreuther</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Lucon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Masera</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Mulugetta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">B</forename><surname>Norgaard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Patt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">H</forename><surname>Ravindranath</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Riahi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Roy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Sagar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Schaeffer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Schlömer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">C</forename><surname>Seto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Seyboth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sims</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Som-Anathan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Stavins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Stechow</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Sterner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Sugiyama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Suh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Ürge-Vorsatz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Urama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Venables</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">G</forename><surname>Victor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Weber</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Zhou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Zou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Zwickel</surname></persname>
+</author>
+<idno type="DOI">10.5194/essd-2019-206</idno>
+<ptr target="https://doi.org/10.5194/essd-2019-206"></ptr>
+</analytic>
+<monogr>
+<title level="m">Climate Change 2014: Mitigation of Climate Change: Contribution of Working Group III Contribution to the IPCC Fifth Assessment Report, edited by: Intergovernmental Panel on Climate Change</title>
+<meeting><address><addrline>Cambridge</addrline></address></meeting>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="2014">28 November 2019 c. 2019. 2014</date>
+</imprint>
+</monogr>
+<note type="report_type">Technical</note>
+<note>Earth System Science Data Discussions Preprint</note>
+<note type="raw_reference">Edenhofer O., R. P.-M., Y. Sokona, S. Kadner, J.C. Minx, S. Brunner, S. Agrawala, G. Baiocchi, I.A. Bashmakov, G. Blanco, J. Broome, T. Bruckner, M. Bustamante, L. Clarke, M. Conte Grand, F. Creutzig, X. Cruz-Núñez, S. Dhakal, N.K. Dubash, P. Eickemeier, E. Farahani, M. Fischedick, M. Fleurbaey, R. Gerlagh, L. Gómez-Echeverri, S. Gupta, J. Harnisch, K. Jiang, F. Jotzo, S. Kartha, S. Klasen, C. Kolstad, V. Krey, H. Kunreuther, O. Lucon, O. Masera, Y. Mulugetta, R. B. Norgaard, A. Patt, N. H. Ravindranath, K. Riahi, J. Roy, A. Sagar, R. Schaeffer, S. Schlömer, K. C. Seto, K. Seyboth, R. Sims, P. Smith, E. Som-anathan, R. Stavins, C. von Stechow, T. Sterner, T. Sugiyama, S. Suh, D. Ürge-Vorsatz, K. Urama, A. Venables, D. G. Victor, E. Weber, D. Zhou, J. Zou, and T. Zwickel: Technical https://doi.org/10.5194/essd-2019-206 Open Access Earth System Science Data Discussions Preprint. Discussion started: 28 November 2019 c Author(s) 2019. CC BY 4.0 License. Summary, in: Climate Change 2014: Mitigation of Climate Change: Contribution of Working Group III Contribution to the IPCC Fifth Assessment Report, edited by: Intergovernmental Panel on Climate Change, Cambridge University Press, Cambridge, 2014.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Quantification of Fossil Fuel CO2 Emissions on the Building/Street Scale for a Large US City</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Gurney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Razlivanov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Song</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Zhou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Benes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Abdul-Massih</surname></persname>
+</author>
+<idno type="DOI">10.1021/es3011282</idno>
+</analytic>
+<monogr>
+<title level="j">Environmental Science &amp; Technology</title>
+<imprint>
+<biblscope unit="volume">46</biblscope>
+<biblscope from="12194" to="12202" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gurney, K. R., Razlivanov, I., Song, Y., Zhou, Y. Y., Benes, B., and Abdul-Massih, M.: Quantification of Fossil Fuel CO2 Emissions on the Building/Street Scale for a Large US City, Environmental Science &amp; Technology, 46, 12194-12202, 10.1021/es3011282, 2012.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Comparison of Global Downscaled Versus Bottom-Up Fossil Fuel CO2 Emissions at the Urban Scale in Four U.S. Urban Areas</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Gurney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Liang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>O'keeffe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Patarasuk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Hutchins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Rao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Song</surname></persname>
+</author>
+<idno type="DOI">10.1029/2018jd028859</idno>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">124</biblscope>
+<biblscope from="2823" to="2840" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gurney, K. R., Liang, J., O'Keeffe, D., Patarasuk, R., Hutchins, M., Huang, J., Rao, P., and Song, Y.: Comparison of Global Downscaled Versus Bottom-Up Fossil Fuel CO2 Emissions at the Urban Scale in Four U.S. Urban Areas, Journal of Geophysical Research: Atmospheres, 124, 2823-2840, 10.1029/2018jd028859, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Southern California megacity CO2, CH4, and CO flux estimates using ground-and space-based remote sensing and a Lagrangian model</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">K</forename><surname>Hedelius</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Oda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Maksyutov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Roehl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">T</forename><surname>Iraci</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Podolske</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">W</forename><surname>Hillyard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Liang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Gurney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Wunch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">O</forename><surname>Wennberg</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-18-16271-2018</idno>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope from="16271" to="16291" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hedelius, J. K., Liu, J. J., Oda, T., Maksyutov, S., Roehl, C. M., Iraci, L. T., Podolske, J. R., Hillyard, P. W., Liang, J. M., Gurney, K. R., Wunch, D., and Wennberg, P. O.: Southern California megacity CO2, CH4, and CO flux estimates using ground-and space-based remote sensing and a Lagrangian model, Atmospheric Chemistry and Physics, 18, 16271-16291, 10.5194/acp-18-16271-2018, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Completion of the 2011 National Land Cover Database for the Conterminous United States -Representing a Decade of Land Cover Change Information</title>
+<author>
+<persname><forename type="first">C</forename><surname>Homer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Dewitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Jin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Danielson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Xian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Coulston</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Herold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wickham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Megown</surname></persname>
+</author>
+<idno type="DOI">10.14358/pers.81.5.345</idno>
+</analytic>
+<monogr>
+<title level="j">Photogrammetric Engineering and Remote Sensing</title>
+<imprint>
+<biblscope unit="volume">81</biblscope>
+<biblscope from="345" to="354" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Homer, C., Dewitz, J., Yang, L. M., Jin, S., Danielson, P., Xian, G., Coulston, J., Herold, N., Wickham, J., and Megown, K.: Completion of the 2011 National Land Cover Database for the Conterminous United States -Representing a Decade of Land Cover Change Information, Photogrammetric Engineering and Remote Sensing, 81, 345-354, 10.14358/pers.81.5.345, 2015.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Long-term greenhouse gas measurements from aircraft</title>
+<author>
+<persname><forename type="first">A</forename><surname>Karion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Sweeney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Wolter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Newberger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Andrews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kofler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Neff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Tans</surname></persname>
+</author>
+<idno type="DOI">10.5194/amt-6-511-2013</idno>
+</analytic>
+<monogr>
+<title level="j">Atmos. Meas. Tech</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope from="511" to="526" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Karion, A., Sweeney, C., Wolter, S., Newberger, T., Chen, H., Andrews, A., Kofler, J., Neff, D., and Tans, P.: Long-term greenhouse gas measurements from aircraft, Atmos. Meas. Tech., 6, 511-526, 10.5194/amt-6-511-2013, 2013.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><surname>Karion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Whetstone</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Callahan</surname></persname>
+</author>
+<idno type="DOI">10.18434/M32126</idno>
+<ptr target="https://doi.org/10.18434/M32126"></ptr>
+<title level="m">Observations of CO2, CH4, and CO mole fractions from the NIST Northeast Corridor urban testbed</title>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Karion, A., Whetstone, J. R., and Callahan, W.: Observations of CO2, CH4, and CO mole fractions from the NIST Northeast Corridor urban testbed, https://doi.org/10.18434/M32126, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Direct and Indirect Measurements and Modeling of Methane Emissions in Indianapolis</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">K</forename><surname>Lamb</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">O L</forename><surname>Cambaliza</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Davis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Edburg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">W</forename><surname>Ferrara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Floerchinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M E</forename><surname>Heimburger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Herndon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Lauvaux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Lavoie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Lyon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Miles</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Prasad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Roscioli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">E</forename><surname>Salmon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Shepson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">H</forename><surname>Stirm</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Whetstone</surname></persname>
+</author>
+<idno type="DOI">10.1021/acs.est.6b01198</idno>
+</analytic>
+<monogr>
+<title level="j">Indiana, Environmental Science &amp; Technology</title>
+<imprint>
+<biblscope unit="volume">50</biblscope>
+<biblscope from="8910" to="U8530" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lamb, B. K., Cambaliza, M. O. L., Davis, K. J., Edburg, S. L., Ferrara, T. W., Floerchinger, C., Heimburger, A. M. E., Herndon, S., Lauvaux, T., Lavoie, T., Lyon, D. R., Miles, N., Prasad, K. R., Richardson, S., Roscioli, J. R., Salmon, O. E., Shepson, P. B., Stirm, B. H., and Whetstone, J.: Direct and Indirect Measurements and Modeling of Methane Emissions in Indianapolis, Indiana, Environmental Science &amp; Technology, 50, 8910-U8530, 10.1021/acs.est.6b01198, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">High-resolution atmospheric inversion of urban CO2 emissions during the dormant season of the Indianapolis Flux Experiment (INFLUX)</title>
+<author>
+<persname><forename type="first">T</forename><surname>Lauvaux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">L</forename><surname>Miles</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Deng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">O</forename><surname>Cambaliza</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Davis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Gaudet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Gurney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">H</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>O'keefe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Song</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Karion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Oda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Patarasuk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Razlivanov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Sarmiento</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Shepson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Sweeney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Turnbull</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Wu</surname></persname>
+</author>
+<idno type="DOI">10.1002/2015jd024473</idno>
+</analytic>
+<monogr>
+<title level="j">J. Geophys. Res.-Atmos</title>
+<imprint>
+<biblscope unit="volume">121</biblscope>
+<biblscope from="5213" to="5236" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lauvaux, T., Miles, N. L., Deng, A. J., Richardson, S. J., Cambaliza, M. O., Davis, K. J., Gaudet, B., Gurney, K. R., Huang, J. H., O'Keefe, D., Song, Y., Karion, A., Oda, T., Patarasuk, R., Razlivanov, I., Sarmiento, D., Shepson, P., Sweeney, C., Turnbull, J., and Wu, K.: High-resolution atmospheric inversion of urban CO2 emissions during the dormant season of the Indianapolis Flux Experiment (INFLUX), J. Geophys. Res.-Atmos., 121, 5213-5236, 10.1002/2015jd024473, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">A near-field tool for simulating the upstream influence of atmospheric observations: The Stochastic Time-Inverted Lagrangian Transport (STILT) model</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Lin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Gerbig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Wofsy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">E</forename><surname>Andrews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">C</forename><surname>Daube</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Davis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Grainger</surname></persname>
+</author>
+<idno type="DOI">10.1029/2002JD003161</idno>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">108</biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lin, J. C., Gerbig, C., Wofsy, S. C., Andrews, A. E., Daube, B. C., Davis, K. J., and Grainger, C. A.: A near-field tool for simulating the upstream influence of atmospheric observations: The Stochastic Time-Inverted Lagrangian Transport (STILT) model, Journal of Geophysical Research: Atmospheres, 108, n/a-n/a, 10.1029/2002JD003161, 2003.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Tower-based greenhouse gas measurement network design-The National Institute of Standards and Technology North East Corridor Testbed</title>
+<author>
+<persname><forename type="first">I</forename><surname>Lopez-Coto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ghosh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Prasad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Whetstone</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00376-017-6094-6</idno>
+</analytic>
+<monogr>
+<title level="j">Advances in Atmospheric Sciences</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope from="1095" to="1105" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lopez-Coto, I., Ghosh, S., Prasad, K., and Whetstone, J.: Tower-based greenhouse gas measurement network design-The National Institute of Standards and Technology North East Corridor Testbed, Advances in Atmospheric Sciences, 34, 1095-1105, 10.1007/s00376-017- 6094-6, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<monogr>
+<title level="m" type="main">Assessment of WRF PBL schemes in an urban region and comparison of the impact of the urban heat island</title>
+<author>
+<persname><forename type="first">I</forename><surname>Lopez-Coto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Hicks</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Karion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">K</forename><surname>Sakai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Demoz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Prasad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Whetstone</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note>submitted</note>
+<note type="raw_reference">Lopez-Coto, I., Hicks, M., Karion, A., Sakai, R. K., Demoz, B., Prasad, K., and Whetstone, J.: Assessment of WRF PBL schemes in an urban region and comparison of the impact of the urban heat island, submitted, 2019a.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<monogr>
+<title level="m" type="main">Wintertime CO2, CH4, and CO emissions estimation for the Washington DC / Baltimore metro area using an inverse modeling technique</title>
+<author>
+<persname><forename type="first">I</forename><surname>Lopez-Coto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Ren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">E</forename><surname>Salmon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Karion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Shepson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Dickerson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Stein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Prasad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Whetstone</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2019">2019b</date>
+</imprint>
+</monogr>
+<note>in preparation</note>
+<note type="raw_reference">Lopez-Coto, I., Ren, X., Salmon, O. E., Karion, A., Shepson, P., Dickerson, R. R., Stein, A., Prasad, K., and Whetstone, J.: Wintertime CO2, CH4, and CO emissions estimation for the Washington DC / Baltimore metro area using an inverse modeling technique, in preparation., 2019b.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Evaluation and environmental correction of ambient CO 2 measurements from a low-cost NDIR sensor</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">R</forename><surname>Martin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Zeng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Karion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Dickerson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Ren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">N</forename><surname>Turpie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Weber</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Measurement Techniques</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="page">2383</biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Martin, C. R., Zeng, N., Karion, A., Dickerson, R. R., Ren, X., Turpie, B. N., and Weber, K. J.: Evaluation and environmental correction of ambient CO 2 measurements from a low-cost NDIR sensor, Atmospheric Measurement Techniques, 10, 2383, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Methane emissions from natural gas infrastructure and use in the urban region of Boston, Massachusetts</title>
+<author>
+<persname><forename type="first">K</forename><surname>Mckain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Down</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Raciti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Budney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">R</forename><surname>Hutyra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Floerchinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Herndon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Nehrkorn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">S</forename><surname>Zahniser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">B</forename><surname>Jackson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Phillips</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Wofsy</surname></persname>
+</author>
+<idno type="DOI">10.1073/pnas.1416261112</idno>
+</analytic>
+<monogr>
+<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+<imprint>
+<biblscope unit="volume">112</biblscope>
+<biblscope from="1941" to="1946" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McKain, K., Down, A., Raciti, S. M., Budney, J., Hutyra, L. R., Floerchinger, C., Herndon, S. C., Nehrkorn, T., Zahniser, M. S., Jackson, R. B., Phillips, N., and Wofsy, S. C.: Methane emissions from natural gas infrastructure and use in the urban region of Boston, Massachusetts, Proc. Natl. Acad. Sci. U. S. A., 112, 1941-1946, 10.1073/pnas.1416261112, 2015.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Long-term urban carbon dioxide observations reveal spatial and temporal dynamics related to urban characteristics and growth</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">E</forename><surname>Mitchell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Lin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Bowling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">E</forename><surname>Pataki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Strong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Schauer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Bares</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Bush</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">B</forename><surname>Stephens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Mendoza</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Mallia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Holland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Gurney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Ehleringer</surname></persname>
+</author>
+<idno type="DOI">10.1073/pnas.1702393115</idno>
+</analytic>
+<monogr>
+<title level="j">Proceedings of the National Academy of Sciences</title>
+<imprint>
+<biblscope unit="volume">115</biblscope>
+<biblscope from="2912" to="2917" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mitchell, L. E., Lin, J. C., Bowling, D. R., Pataki, D. E., Strong, C., Schauer, A. J., Bares, R., Bush, S. E., Stephens, B. B., Mendoza, D., Mallia, D., Holland, L., Gurney, K. R., and Ehleringer, J. R.: Long-term urban carbon dioxide observations reveal spatial and temporal dynamics related to urban characteristics and growth, Proceedings of the National Academy of Sciences, 115, 2912-2917, 10.1073/pnas.1702393115, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Siting Background Towers to Characterize Incoming Air for Urban Greenhouse Gas Estimation: A Case Study in the Washington, DC/Baltimore Area</title>
+<author>
+<persname><forename type="first">K</forename><surname>Mueller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Yadav</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Lopez-Coto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Karion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Gourdji</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Martin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Whetstone</surname></persname>
+</author>
+<idno type="DOI">10.1002/2017JD027364</idno>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">123</biblscope>
+<biblscope from="2910" to="2926" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mueller, K., Yadav, V., Lopez-Coto, I., Karion, A., Gourdji, S., Martin, C., and Whetstone, J.: Siting Background Towers to Characterize Incoming Air for Urban Greenhouse Gas Estimation: A Case Study in the Washington, DC/Baltimore Area, Journal of Geophysical Research: Atmospheres, 123, 2910-2926, doi:10.1002/2017JD027364, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Coupled weather research and forecastingstochastic time-inverted lagrangian transport (WRF-STILT) model</title>
+<author>
+<persname><forename type="first">T</forename><surname>Nehrkorn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Eluszkiewicz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Wofsy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Lin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Gerbig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Longo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Freitas</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00703-010-0068-x</idno>
+</analytic>
+<monogr>
+<title level="j">Meteorol. Atmos. Phys</title>
+<imprint>
+<biblscope unit="volume">107</biblscope>
+<biblscope from="51" to="64" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nehrkorn, T., Eluszkiewicz, J., Wofsy, S. C., Lin, J. C., Gerbig, C., Longo, M., and Freitas, S.: Coupled weather research and forecasting- stochastic time-inverted lagrangian transport (WRF-STILT) model, Meteorol. Atmos. Phys., 107, 51-64, 10.1007/s00703-010-0068-x, 2010.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Reanalysis of tropospheric CO trends: Effects of the 1997-1998 wildfires</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">C</forename><surname>Novelli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Masarie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">M</forename><surname>Lang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">D</forename><surname>Hall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">C</forename><surname>Myers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Elkins</surname></persname>
+</author>
+<idno type="DOI">10.1029/2002JD003031</idno>
+<ptr target="https://doi.org/10.5194/essd-2019-206"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">108</biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Novelli, P. C., Masarie, K. A., Lang, P. M., Hall, B. D., Myers, R. C., and Elkins, J. W.: Reanalysis of tropospheric CO trends: Effects of the 1997-1998 wildfires, Journal of Geophysical Research: Atmospheres, 108, doi:10.1029/2002JD003031, 2003. https://doi.org/10.5194/essd-2019-206</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Global demographic trends and future carbon emissions</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">C</forename><surname>O'neill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Dalton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Fuchs</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Jiang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Pachauri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Zigova</surname></persname>
+</author>
+<idno type="DOI">10.1073/pnas.1004581107</idno>
+</analytic>
+<monogr>
+<title level="j">Proceedings of the National Academy of Sciences</title>
+<imprint>
+<biblscope unit="volume">107</biblscope>
+<biblscope from="17521" to="17526" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">O'Neill, B. C., Dalton, M., Fuchs, R., Jiang, L., Pachauri, S., and Zigova, K.: Global demographic trends and future carbon emissions, Proceedings of the National Academy of Sciences, 107, 17521-17526, 10.1073/pnas.1004581107, 2010.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">An atmospheric perspective on North American carbon dioxide exchange: CarbonTracker</title>
+<author>
+<persname><forename type="first">W</forename><surname>Peters</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Jacobson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Sweeney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">E</forename><surname>Andrews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Conway</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Masarie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M P</forename><surname>Bruhwiler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Petron</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">I</forename><surname>Hirsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">E J</forename><surname>Worthy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">R</forename><surname>Van Der Werf</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">T</forename><surname>Randerson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">O</forename><surname>Wennberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Krol</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">P</forename><surname>Tans</surname></persname>
+</author>
+<idno type="DOI">10.1073/pnas.0708986104</idno>
+</analytic>
+<monogr>
+<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+<imprint>
+<biblscope unit="volume">104</biblscope>
+<biblscope from="18925" to="18930" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Peters, W., Jacobson, A. R., Sweeney, C., Andrews, A. E., Conway, T. J., Masarie, K., Miller, J. B., Bruhwiler, L. M. P., Petron, G., Hirsch, A. I., Worthy, D. E. J., van der Werf, G. R., Randerson, J. T., Wennberg, P. O., Krol, M. C., and Tans, P. P.: An atmospheric perspective on North American carbon dioxide exchange: CarbonTracker, Proc. Natl. Acad. Sci. U. S. A., 104, 18925-18930, 10.1073/pnas.0708986104, 2007.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Tracking city CO2 emissions from space using a high-resolution inverse modelling approach: a case study for Berlin, Germany</title>
+<author>
+<persname><forename type="first">D</forename><surname>Pillai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Buchwitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Gerbig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Koch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Reuter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Bovensmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Marshall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Burrows</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-16-9591-2016</idno>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope from="9591" to="9610" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pillai, D., Buchwitz, M., Gerbig, C., Koch, T., Reuter, M., Bovensmann, H., Marshall, J., and Burrows, J. P.: Tracking city CO2 emissions from space using a high-resolution inverse modelling approach: a case study for Berlin, Germany, Atmospheric Chemistry and Physics, 16, 9591-9610, 10.5194/acp-16-9591-2016, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Methane Emissions From the Baltimore-Washington Area Based on Airborne Observation: Comparison to Emissions Inventories</title>
+<author>
+<persname><forename type="first">X</forename><forename type="middle">R</forename><surname>Ren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">E</forename><surname>Salmon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Hansford</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Ahn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Hall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Benish</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">R</forename><surname>Stratton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>He</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sahu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Grimes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M F</forename><surname>Heimburger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">R</forename><surname>Martin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Cohen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Stunder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Salawitch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">H</forename><surname>Ehrman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Shepson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Dickerson</surname></persname>
+</author>
+<idno type="DOI">10.1029/2018jd028851</idno>
+</analytic>
+<monogr>
+<title level="j">J. Geophys. Res.-Atmos</title>
+<imprint>
+<biblscope unit="volume">123</biblscope>
+<biblscope from="8869" to="8882" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ren, X. R., Salmon, O. E., Hansford, J. R., Ahn, D., Hall, D., Benish, S. E., Stratton, P. R., He, H., Sahu, S., Grimes, C., Heimburger, A. M. F., Martin, C. R., Cohen, M. D., Stunder, B., Salawitch, R. J., Ehrman, S. H., Shepson, P. B., and Dickerson, R. R.: Methane Emissions From the Baltimore-Washington Area Based on Airborne Observation: Comparison to Emissions Inventories, J. Geophys. Res.-Atmos., 123, 8869-8882, 10.1029/2018jd028851, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Tower measurement network of in-situ CO2, CH4, and CO in support of the Indianapolis FLUX (INFLUX) Experiment</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">L</forename><surname>Miles</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Davis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Lauvaux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">K</forename><surname>Martins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Turnbull</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Mckain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Sweeney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">O L</forename><surname>Cambaliza</surname></persname>
+</author>
+<idno type="DOI">10.1525/elementa.140</idno>
+</analytic>
+<monogr>
+<title level="j">Elementa-Sci. Anthrop</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="page">14</biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Richardson, S. J., Miles, N. L., Davis, K. J., Lauvaux, T., Martins, D. K., Turnbull, J. C., McKain, K., Sweeney, C., and Cambaliza, M. O. L.: Tower measurement network of in-situ CO2, CH4, and CO in support of the Indianapolis FLUX (INFLUX) Experiment, Elementa- Sci. Anthrop., 5, 14, 10.1525/elementa.140, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Top-Down Estimates of NOx and CO Emissions From Washington, DC-Baltimore During the WINTER Campaign</title>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">E</forename><surname>Salmon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Shepson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Ren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>He</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Hall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Dickerson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">H</forename><surname>Stirm</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">S</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Fibiger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">E</forename><surname>Mcduffie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">L</forename><surname>Campos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Gurney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Thornton</surname></persname>
+</author>
+<idno type="DOI">10.1029/2018jd028539</idno>
+</analytic>
+<monogr>
+<title level="j">J. Geophys. Res.-Atmos</title>
+<imprint>
+<biblscope unit="volume">123</biblscope>
+<biblscope from="7705" to="7724" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Salmon, O. E., Shepson, P. B., Ren, X., He, H., Hall, D. L., Dickerson, R. R., Stirm, B. H., Brown, S. S., Fibiger, D. L., McDuffie, E. E., Campos, T. L., Gurney, K. R., and Thornton, J. A.: Top-Down Estimates of NOx and CO Emissions From Washington, DC-Baltimore During the WINTER Campaign, J. Geophys. Res.-Atmos., 123, 7705-7724, 10.1029/2018jd028539, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Evaluation of the airborne quantum cascade laser spectrometer (QCLS) measurements of the carbon and greenhouse gas suite -CO2, CH4, N2O, and CO -during the CalNex and HIPPO campaigns</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">W</forename><surname>Santoni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">C</forename><surname>Daube</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Kort</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Jimenez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Park</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">V</forename><surname>Pittman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Gottlieb</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Xiang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">S</forename><surname>Zahniser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">D</forename><surname>Nelson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Mcmanus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Peischl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">B</forename><surname>Ryerson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Holloway</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">E</forename><surname>Andrews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Sweeney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Hall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">J</forename><surname>Hintsa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">L</forename><surname>Moore</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Elkins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">F</forename><surname>Hurst</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">B</forename><surname>Stephens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Bent</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Wofsy</surname></persname>
+</author>
+<idno type="DOI">10.5194/amt-7-1509-2014</idno>
+</analytic>
+<monogr>
+<title level="j">Atmos. Meas. Tech</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope from="1509" to="1526" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Santoni, G. W., Daube, B. C., Kort, E. A., Jimenez, R., Park, S., Pittman, J. V., Gottlieb, E., Xiang, B., Zahniser, M. S., Nelson, D. D., McManus, J. B., Peischl, J., Ryerson, T. B., Holloway, J. S., Andrews, A. E., Sweeney, C., Hall, B., Hintsa, E. J., Moore, F. L., Elkins, J. W., Hurst, D. F., Stephens, B. B., Bent, J., and Wofsy, S. C.: Evaluation of the airborne quantum cascade laser spectrometer (QCLS) measurements of the carbon and greenhouse gas suite -CO2, CH4, N2O, and CO -during the CalNex and HIPPO campaigns, Atmos. Meas. Tech., 7, 1509-1526, 10.5194/amt-7-1509-2014, 2014.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Anthropogenic and biogenic CO&lt;sub&gt;2&lt;/sub&gt; fluxes in the Boston urban region</title>
+<author>
+<persname><forename type="first">M</forename><surname>Sargent</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Barrera</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Nehrkorn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">R</forename><surname>Hutyra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">K</forename><surname>Gately</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Mckain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Sweeney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hegarty</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Hardiman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Wofsy</surname></persname>
+</author>
+<idno type="DOI">10.1073/pnas.1803715115</idno>
+</analytic>
+<monogr>
+<title level="j">Proceedings of the National Academy of Sciences</title>
+<imprint>
+<biblscope unit="volume">115</biblscope>
+<biblscope from="7491" to="7496" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sargent, M., Barrera, Y., Nehrkorn, T., Hutyra, L. R., Gately, C. K., Jones, T., McKain, K., Sweeney, C., Hegarty, J., Hardiman, B., Wang, J. A., and Wofsy, S. C.: Anthropogenic and biogenic CO&lt;sub&gt;2&lt;/sub&gt; fluxes in the Boston urban region, Proceedings of the National Academy of Sciences, 115, 7491-7496, 10.1073/pnas.1803715115, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">NOAA's Hysplit Atmospheric Transport and Dispersion Modeling System</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">F</forename><surname>Stein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">R</forename><surname>Draxler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">D</forename><surname>Rolph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J B</forename><surname>Stunder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Cohen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Ngan</surname></persname>
+</author>
+<idno type="DOI">10.1175/Bams-D-14-00110.1</idno>
+</analytic>
+<monogr>
+<title level="j">Bull. Amer. Meteorol. Soc</title>
+<imprint>
+<biblscope unit="volume">96</biblscope>
+<biblscope from="2059" to="2077" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stein, A. F., Draxler, R. R., Rolph, G. D., Stunder, B. J. B., Cohen, M. D., and Ngan, F.: NOAA's Hysplit Atmospheric Transport and Dispersion Modeling System, Bull. Amer. Meteorol. Soc., 96, 2059-2077, 10.1175/Bams-D-14-00110.1, 2015.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Seasonal climatology of CO2 across North America from aircraft measurements in the NOAA/ESRL Global Greenhouse Gas Reference Network</title>
+<author>
+<persname><forename type="first">C</forename><surname>Sweeney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Karion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Wolter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Newberger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Guenther</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Higgs</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">E</forename><surname>Andrews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">M</forename><surname>Lang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Neff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Dlugokencky</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">120</biblscope>
+<biblscope from="5155" to="5190" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sweeney, C., Karion, A., Wolter, S., Newberger, T., Guenther, D., Higgs, J. A., Andrews, A. E., Lang, P. M., Neff, D., and Dlugokencky, E.: Seasonal climatology of CO2 across North America from aircraft measurements in the NOAA/ESRL Global Greenhouse Gas Reference Network, Journal of Geophysical Research: Atmospheres, 120, 5155-5190, 2015.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">An integrated flask sample collection system for greenhouse gas measurements</title>
+<author>
+<persname><forename type="first">J</forename><surname>Turnbull</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Guenther</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Karion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Sweeney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Anderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Andrews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kofler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Miles</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Newberger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Tans</surname></persname>
+</author>
+<idno type="DOI">10.5194/amt-5-2321-2012</idno>
+</analytic>
+<monogr>
+<title level="j">Atmos. Meas. Tech</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope from="2321" to="2327" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Turnbull, J., Guenther, D., Karion, A., Sweeney, C., Anderson, E., Andrews, A., Kofler, J., Miles, N., Newberger, T., Richardson, S., and Tans, P.: An integrated flask sample collection system for greenhouse gas measurements, Atmos. Meas. Tech., 5, 2321-2327, 10.5194/amt-5-2321-2012, 2012.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Synthesis of Urban CO2 Emission Estimates from Multiple Methods from the Indianapolis Flux Project (INFLUX)</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Turnbull</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Karion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Davis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Lauvaux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">L</forename><surname>Miles</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Sweeney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Mckain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Lehman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Gurney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Patarasuk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Liang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Shepson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Heimburger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Harvey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Whetstone</surname></persname>
+</author>
+<idno type="DOI">10.1021/acs.est.8b05552</idno>
+</analytic>
+<monogr>
+<title level="j">Environmental Science &amp; Technology</title>
+<imprint>
+<biblscope unit="volume">53</biblscope>
+<biblscope from="287" to="295" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Turnbull, J. C., Karion, A., Davis, K. J., Lauvaux, T., Miles, N. L., Richardson, S. J., Sweeney, C., McKain, K., Lehman, S. J., Gurney, K. R., Patarasuk, R., Liang, J., Shepson, P. B., Heimburger, A., Harvey, R., and Whetstone, J.: Synthesis of Urban CO2 Emission Estimates from Multiple Methods from the Indianapolis Flux Project (INFLUX), Environmental Science &amp; Technology, 53, 287-295, 10.1021/acs.est.8b05552, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Carbon dioxide and methane measurements from the Los Angeles Megacity Carbon Project -Part 1: calibration, urban enhancements, and uncertainty estimates</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Verhulst</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Karion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">K</forename><surname>Salameh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">F</forename><surname>Keeling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Newman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Sloop</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Pongetti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Rao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Wong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Hopkins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Yadav</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">F</forename><surname>Weiss</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Duren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">E</forename><surname>Miller</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-17-8313-2017</idno>
+</analytic>
+<monogr>
+<title level="j">Atmos. Chem. Phys</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope from="8313" to="8341" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Verhulst, K. R., Karion, A., Kim, J., Salameh, P. K., Keeling, R. F., Newman, S., Miller, J., Sloop, C., Pongetti, T., Rao, P., Wong, C., Hopkins, F. M., Yadav, V., Weiss, R. F., Duren, R. M., and Miller, C. E.: Carbon dioxide and methane measurements from the Los Angeles Megacity Carbon Project -Part 1: calibration, urban enhancements, and uncertainty estimates, Atmos. Chem. Phys., 17, 8313- 8341, 10.5194/acp-17-8313-2017, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Estimating vehicle carbon dioxide emissions from Boulder, Colorado, using horizontal path-integrated column measurements</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">M</forename><surname>Waxman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">C</forename><surname>Cossel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Giorgetta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">W</forename><surname>Truong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">C</forename><surname>Swann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Coddington</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">R</forename><surname>Newbury</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-19-4177-2019</idno>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope from="4177" to="4192" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Waxman, E. M., Cossel, K. C., Giorgetta, F., Truong, G. W., Swann, W. C., Coddington, I., and Newbury, N. R.: Estimating vehicle carbon dioxide emissions from Boulder, Colorado, using horizontal path-integrated column measurements, Atmospheric Chemistry and Physics, 19, 4177-4192, 10.5194/acp-19-4177-2019, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Design and performance of a Nafion dryer for continuous operation at CO2 and CH4 air monitoring sites</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">R</forename><surname>Welp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">F</forename><surname>Keeling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">F</forename><surname>Weiss</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Paplawsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Heckman</surname></persname>
+</author>
+<idno type="DOI">10.5194/amt-6-1217-2013</idno>
+</analytic>
+<monogr>
+<title level="j">Atmos. Meas. Tech</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope from="1217" to="1226" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Welp, L. R., Keeling, R. F., Weiss, R. F., Paplawsky, W., and Heckman, S.: Design and performance of a Nafion dryer for continuous operation at CO2 and CH4 air monitoring sites, Atmos. Meas. Tech., 6, 1217-1226, 10.5194/amt-6-1217-2013, 2013.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<idno>No. 242</idno>
+</analytic>
+<monogr>
+<title level="m">WMO: 19th WMO/IAEA Meeting on Carbon Dioxide, Other Greenhouse Gases and Related Measurement Techniques (GGMT-2017</title>
+<imprint>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="report_type">Report</note>
+<note type="raw_reference">WMO: 19th WMO/IAEA Meeting on Carbon Dioxide, Other Greenhouse Gases and Related Measurement Techniques (GGMT-2017), WMO / GAW Report No. 242, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Monthly trends of methane emissions in Los Angeles from 2011 to 2015 inferred by CLARS-FTS observations</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">K</forename><surname>Wong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Pongetti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Oda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Rao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Gurney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Newman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Duren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">E</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><forename type="middle">L</forename><surname>Yung</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">P</forename><surname>Sander</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-16-13121-2016</idno>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope from="13121" to="13130" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wong, C. K., Pongetti, T. J., Oda, T., Rao, P., Gurney, K. R., Newman, S., Duren, R. M., Miller, C. E., Yung, Y. L., and Sander, S. P.: Monthly trends of methane emissions in Los Angeles from 2011 to 2015 inferred by CLARS-FTS observations, Atmospheric Chemistry and Physics, 16, 13121-13130, 10.5194/acp-16-13121-2016, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Diurnal, synoptic and seasonal variability of atmospheric CO2 in the Paris megacity area</title>
+<author>
+<persname><forename type="first">I</forename><surname>Xueref-Remy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Dieudonne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Vuillemin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Lopez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Lac</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Schmidt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Delmotte</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Chevallier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Ravetta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Perrussel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Ciais</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Breon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Broquet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ramonet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">G</forename><surname>Spain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Ampe</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-18-3335-2018</idno>
+<ptr target="https://doi.org/10.5194/essd-2019-206OpenAccessEarthSystem"></ptr>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope from="3335" to="3362" unit="page"></biblscope>
+<date type="published" when="2018-11-28">2018. 28 November 2019</date>
+</imprint>
+</monogr>
+<note type="report_type">Science Data Discussions Preprint</note>
+<note>c Author(s) 2019. CC BY 4.0 License</note>
+<note type="raw_reference">Xueref-Remy, I., Dieudonne, E., Vuillemin, C., Lopez, M., Lac, C., Schmidt, M., Delmotte, M., Chevallier, F., Ravetta, F., Perrussel, O., Ciais, P., Breon, F. M., Broquet, G., Ramonet, M., Spain, T. G., and Ampe, C.: Diurnal, synoptic and seasonal variability of atmospheric CO2 in the Paris megacity area, Atmospheric Chemistry and Physics, 18, 3335-3362, 10.5194/acp-18-3335-2018, 2018. https://doi.org/10.5194/essd-2019-206 Open Access Earth System Science Data Discussions Preprint. Discussion started: 28 November 2019 c Author(s) 2019. CC BY 4.0 License.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Spatio-temporally Resolved Methane Fluxes From the Los Angeles Megacity</title>
+<author>
+<persname><forename type="first">V</forename><surname>Yadav</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Duren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Mueller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Verhulst</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Nehrkorn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">F</forename><surname>Weiss</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Keeling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sander</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Fischer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Newman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Falk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kuwayama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Hopkins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Rafiq</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Whetstone</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Miller</surname></persname>
+</author>
+<idno type="DOI">10.1029/2018jd030062</idno>
+<idno>2019. 770</idno>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">124</biblscope>
+<biblscope from="5131" to="5148" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Yadav, V., Duren, R., Mueller, K., Verhulst, K. R., Nehrkorn, T., Kim, J., Weiss, R. F., Keeling, R., Sander, S., Fischer, M. L., Newman, S., Falk, M., Kuwayama, T., Hopkins, F., Rafiq, T., Whetstone, J., and Miller, C.: Spatio-temporally Resolved Methane Fluxes From the Los Angeles Megacity, Journal of Geophysical Research: Atmospheres, 124, 5131-5148, 10.1029/2018jd030062, 2019. 770</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">A high precision manometric system for absolute calibrations of CO2 in dry air</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">L</forename><surname>Zhao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">P</forename><surname>Tans</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">W</forename><surname>Thoning</surname></persname>
+</author>
+<idno type="DOI">10.1029/96JD03764</idno>
+<ptr target="https://doi.org/10.5194/essd-2019-206OpenAccessEarthSystemScience"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">102</biblscope>
+<biblscope from="5885" to="5894" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zhao, C. L., Tans, P. P., and Thoning, K. W.: A high precision manometric system for absolute calibrations of CO2 in dry air, Journal of Geophysical Research: Atmospheres, 102, 5885-5894, doi:10.1029/96JD03764, 1997. https://doi.org/10.5194/essd-2019-206 Open Access Earth System Science</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

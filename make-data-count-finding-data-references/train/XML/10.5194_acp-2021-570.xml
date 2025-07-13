@@ -1,0 +1,2710 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">The role of anthropogenic aerosols in the anomalous cooling from 1960 to 1990 in the CMIP6 Earth System Models</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Jie</forename><surname>Zhang</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Beijing Climate Center, China Meteorological Administration, Beijing, China,100081</note>
+<orgname type="department">Beijing Climate Center</orgname>
+<orgname type="institution">China Meteorological Administration</orgname>
+<address>
+<postcode>100081</postcode>
+<settlement>Beijing</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Kalli</forename><surname>Furtado</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Met Office Hadley Centre, Exeter, UK, EX1 3PB</note>
+<orgname type="department">Met Office Hadley Centre</orgname>
+<address>
+<postcode>EX1 3PB</postcode>
+<settlement>Exeter</settlement>
+<country key="GB">UK</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Steven</forename><forename type="middle">T</forename><surname>Turnock</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Met Office Hadley Centre, Exeter, UK, EX1 3PB</note>
+<orgname type="department">Met Office Hadley Centre</orgname>
+<address>
+<postcode>EX1 3PB</postcode>
+<settlement>Exeter</settlement>
+<country key="GB">UK</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Jane</forename><forename type="middle">P</forename><surname>Mulcahy</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Met Office Hadley Centre, Exeter, UK, EX1 3PB</note>
+<orgname type="department">Met Office Hadley Centre</orgname>
+<address>
+<postcode>EX1 3PB</postcode>
+<settlement>Exeter</settlement>
+<country key="GB">UK</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Laura</forename><forename type="middle">J</forename><surname>Wilcox</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> National Centre for Atmospheric Science, Department of Meteorology, University of Reading, Reading, UK</note>
+<orgname key="dep1" type="department">National Centre for Atmospheric Science</orgname>
+<orgname key="dep2" type="department">Department of Meteorology</orgname>
+<orgname type="institution">University of Reading</orgname>
+<address>
+<settlement>Reading</settlement>
+<country key="GB">UK</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Ben</forename><forename type="middle">B</forename><surname>Booth</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Met Office Hadley Centre, Exeter, UK, EX1 3PB</note>
+<orgname type="department">Met Office Hadley Centre</orgname>
+<address>
+<postcode>EX1 3PB</postcode>
+<settlement>Exeter</settlement>
+<country key="GB">UK</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">David</forename><surname>Sexton</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Met Office Hadley Centre, Exeter, UK, EX1 3PB</note>
+<orgname type="department">Met Office Hadley Centre</orgname>
+<address>
+<postcode>EX1 3PB</postcode>
+<settlement>Exeter</settlement>
+<country key="GB">UK</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Tongwen</forename><surname>Wu</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Beijing Climate Center, China Meteorological Administration, Beijing, China,100081</note>
+<orgname type="department">Beijing Climate Center</orgname>
+<orgname type="institution">China Meteorological Administration</orgname>
+<address>
+<postcode>100081</postcode>
+<settlement>Beijing</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Fang</forename><surname>Zhang</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Beijing Climate Center, China Meteorological Administration, Beijing, China,100081</note>
+<orgname type="department">Beijing Climate Center</orgname>
+<orgname type="institution">China Meteorological Administration</orgname>
+<address>
+<postcode>100081</postcode>
+<settlement>Beijing</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Qianxia</forename><surname>Liu</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Beijing Climate Center, China Meteorological Administration, Beijing, China,100081</note>
+<orgname type="department">Beijing Climate Center</orgname>
+<orgname type="institution">China Meteorological Administration</orgname>
+<address>
+<postcode>100081</postcode>
+<settlement>Beijing</settlement>
+<country key="CN">China</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">The role of anthropogenic aerosols in the anomalous cooling from 1960 to 1990 in the CMIP6 Earth System Models</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">7BE52C9F7B193C16E4C44EC3DD56EBE5</idno>
+<idno type="DOI">10.5194/acp-2021-570</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-09-28T21:39+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The Earth System Models (ESMs) that participated in the 6 th Coupled Model Intercomparison Project (CMIP6) tend to simulate excessive cooling in surface air temperature (TAS) between 1960 and 1990.</s><s>The anomalous cooling is pronounced over the Northern Hemisphere (NH) midlatitudes, coinciding with the rapid growth of anthropogenic sulfur dioxide (SO 2 ) emissions, the primary precursor of atmospheric sulphate aerosols.</s><s>Historical simulations with and without anthropogenic aerosol emissions indicate that the anomalous cooling in the ESMs is partly due to overestimating anthropogenic aerosols and aerosol-forcing sensitivity.</s><s>Structural uncertainties between ESMs that contribute to these two factors have a larger impact on the anomalous cooling than internal variability.</s><s>CMIP6 simulations can also help us to quantify the relative contributions of aerosol-forcing-sensitivity by aerosol-radiation interactions (ARI) and by aerosol-cloud interactions (ACI).</s></p><p><s>However, even when the aerosol-forcing-sensitivity is similar between ESMs, the relative contributions of ARI and ACI may be substantially different.</s><s>The ACI accounts for 64 to 87% of the aerosol-forcing-sensitivity and is the main source of differences between the ESMs.</s><s>The ACI can be further decomposed into a cloud-amount term (which depends linearly on cloud fraction) and a cloud-albedo term (which is independent of cloud fraction, to the first order).</s><s>The large uncertainties of cloud-amount term are responsible for the aerosol-forcing-sensitivity differences and further the anomalous cooling differences among ESMs.</s><s>The metrics</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Surface air temperature (TAS) variation is an essential indicator of climate change, and reproducing the evolution of historical TAS is a crucial criterion for model evaluation.</s><s>However, the historical TAS anomaly simulated by the models in the 6 th Coupled Model Intercomparison Project (CMIP6) is on average colder than that observed in the mid-twentieth century, whereas the CMIP5 models tracked the instrumental TAS variation quite well <ref target="#b14" type="bibr">(Flynn and Mauritsen, 2020)</ref>.</s><s>This is surprising because the transient climate response in CMIP6 models is generally higher than in CMIP5 models (e.g., <ref target="#b14" type="bibr">Flynn and Mauritsen, 2020;</ref><ref target="#b21" type="bibr">Meehl et al., 2020)</ref>.</s></p><p><s>As a result of anthropogenic emissions, atmospheric aerosol concentrations increased along with rising greenhouse gases, but with greater decadal variability.</s></p><p><s>Aerosols increased rapidly in the mid-twentieth century, predominantly due to US and European emissions.</s><s>There has been little change in the global total emissions since 1980, but there has been a shift in emission source regions.</s><s>European and US emissions have declined following the introduction of clean air legislation, while Asian emissions have risen due to economic development.</s><s>Although greenhouse warming was concluded to be the dominant forcing for long-term changes (e.g., <ref target="#b35" type="bibr">Weart, 2008;</ref><ref type="bibr">Bindoff et al., 2013)</ref>, multidecadal variability in TAS and the reduced rate of warming in the mid-twentieth century in particular, has been attributed to aerosol forcing (e.g.</s><s><ref target="#b36" type="bibr">Wilcox et al., 2013)</ref>.</s><s><ref target="#b29" type="bibr">Ramanathan and Feng (2009)</ref> noted that the aerosol cooling effect might have masked as much as 47% of the global warming by greenhouse gases in the year 2005, with an uncertainty range of 20~80%.</s><s>The aerosol cooling effect is mainly attributed to the ability of sulphate particles to reflect incoming solar radiation and modify the microphysical properties of clouds (e.g., <ref target="#b6" type="bibr">Charlson et al., 1990;</ref><ref target="#b22" type="bibr">Mitchell et al., 1995;</ref><ref target="#b18" type="bibr">Lohmann and Feichter, 2005)</ref>.</s><s>The increase in anthropogenic aerosols was also responsible for weakening the hydrological cycle between the 1950s and the 1980s <ref target="#b39" type="bibr">(Wu et al., 2013)</ref>.</s></p><p><s>There have been efforts to study the anomalous mid-twentieth century cooling in the CMIP6 models.</s><s><ref target="#b14" type="bibr">Flynn and Mauritsen (2020)</ref> suggested that aerosol cooling is too strong in many CMIP6 models because there is no apparent relationship between the warming trends simulated by models and their transient climate responses <ref type="bibr">(TCRs)</ref> before the 1970s.</s><s>The warming trend is larger than observed post-1970 in CMIP6 models, offsetting the pre-1970s cooling.</s><s><ref target="#b9" type="bibr">Dittus et al. (2020)</ref> found that historical simulations can better capture the observed historical record by reducing the aerosol emissions in HadGEM3-GC3.1,</s><s>demonstrating an overly strong aerosol cooling effect.</s><s>They showed that simulations with large anthropogenic aerosol emissions had greater cooling trends between 1951 and 1980, which were significantly different to the observed trend, while simulations with smaller aerosol forcing were more consistent with observations.</s></p><p><s>In this study we characterize the mid-twentieth century excessive cooling in CMIP6 ESMs.</s><s>In order to quantify the role of aerosol processes in this anomalous cooling, historical experiments with and without anthropogenic aerosol emissions are employed.</s><s>The remainder of the paper is organized as follows.</s><s>Section 2 introduces the models, data, and a quantitative method to separate the aerosol forcing components.</s></p><p><s>The major features of anomalous cooling in CMIP6 ESMs are examined in section 3.</s></p><p><s>Section 4 investigates the possible reasons for the anomalous cooling.</s><s>The relative importance of aerosol-radiation interactions and aerosol-cloud interactions is quantified and discussed in section 5. Conclusion is given in Section 6.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Model, data, and method</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">CMIP6 ESMs<p><s>CMIP6 includes an unprecedented number of models with representations of aerosol-cloud interactions.</s><s>Many also have interactive tropospheric chemistry and https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s><s>aerosol schemes.</s><s>Six such ESMs are employed in this study: BCC-ESM1 <ref target="#b41" type="bibr">(Wu et al., 2020;</ref><ref target="#b44" type="bibr">Zhang et al., 2021)</ref>, EC-Earth-AerChem <ref type="bibr">(Noije et al., 2020)</ref>, GFDL-ESM4 <ref target="#b12" type="bibr">(Dunne et al., 2020)</ref>, MPI-ESM-1-2-HAM <ref target="#b20" type="bibr">(Mauritsen et al., 2019)</ref>, NorESM2-LM <ref type="bibr">(Seland et al., 2020)</ref>, and UKESM1-0-LL <ref target="#b31" type="bibr">(Sellar et al., 2019)</ref>.</s><s>The surface air temperature simulated in corresponding models with lower-complexity are also examined: BCC-CSM2-MR <ref type="bibr">(Wu et al., 2019b)</ref>, EC-Earth3 <ref target="#b10" type="bibr">(Döscher et al., 2021)</ref>, and MPI-ESM1-2-LR <ref target="#b20" type="bibr">(Mauritsen et al., 2019)</ref> with prescribed tropospheric chemistry and aerosol; GFDL-CM4 <ref target="#b16" type="bibr">(Held et al., 2019)</ref>, NorCPM1 <ref target="#b3" type="bibr">(Bethke et al., 2019)</ref>, and HadGEM3-GC31-LL <ref target="#b38" type="bibr">(Williams et al., 2017)</ref> with prescribed tropospheric chemistry and interactive aerosol scheme.</s><s>BCC-CSM2-MR, EC-Earth3, and MPI-ESM1-2-LR prescribe the anthropogenic aerosol forcings using the MACv2-SP parameterization <ref target="#b33" type="bibr">(Stevens et al., 2017)</ref>.</s><s>MACv2-SP approximates the observationally constrained spatial distributions of the monthly mean anthropogenic aerosol optical properties and an associated Twomey effect.</s><s>Except for BCC models, the horizontal resolutions of the ESMs are the same as the corresponding lower-complexity models.</s><s>A brief summary of the ESMs and the lower-complexity models is introduced in Table <ref target="#tab_0" type="table">1</ref>.     <ref target="#tab_2" type="table">2</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data<p><s>The verification data used in this study is HadCRUT5, the monthly 5 o lat by 5 o lon gridded surface temperature <ref target="#b23" type="bibr">(Morice et al., 2021)</ref>, a blend of the Met Office Hadley Centre SST data set HadSST4 <ref target="#b17" type="bibr">(Kennedy et al., 2019)</ref> and the land surface air temperature CRUTEM5 <ref target="#b28" type="bibr">(Osborn et al., 2021)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Method<p><s>By comparing the TAS anomalies in ESMs and the lower-complexity models with HadCRUT5, our study found that TAS anomalies from 1960 to 1990 relative to 1850-1900 in ESMs and most of the lower-complexity models are on average much lower than observed, resembling a "pot-hole" shape.</s><s>This period of anomalous cooling, i.e., the "pot-hole" cooling (PHC), is then quantified as the near-global mean are not considered due to the lack of long-term reliable observations <ref type="bibr">(Wu et al., 2019a)</ref>.</s></p><p><s>The PHC period coincides with a period when global emissions of SO 2, the main precursor of sulphate aerosol, rapidly increased.</s><s>The aerosol cooling due to aerosol-radiation interaction (ARI) is dominated by the contribution of sulphate aerosol as estimated by models and observations (-0.35± 0.5W m -2 for the total ARI and -0.4±0.2W</s><s>m -2 for ARI of sulphate aerosol <ref type="bibr">(Myhre et al., 2013)</ref>.</s><s>We use the evolution of sulphate loading (loadSO4) through the historic simulation as a proxy for total aerosol concentration changes to link estimates of the impact of aerosol-forcing-sensitivity.</s><s>Whilst the overall impact of aerosol forcing will also be driven by other aerosol species, we adopt this approach because the sulphates dominate estimates of aerosol-forcing-sensitivity during this period and other aerosols species can be assumed (as a 1 st order approximation) to have covaried with the SO 2 emissions during this period.</s><s>As such when we present estimates of the aerosol impact/loadSO4 we are presenting the impact of all aerosol species (including absorbing aerosols such as black carbon) as they covary with the sulphate concentrations during the historic period.</s><s>The motivation for presenting it in this way, is we can separate differences in ESM responses to changes in aerosol amount from the differences in aerosol amount (represented by loadSO4) simulated by the ESMs.</s></p><p><s>We can estimate the impact of anthropogenic aerosol by using the difference in OSR between the historical and hist-piAer simulations, ΔOSR.</s><s>ΔOSR is of course involves any differences in planetary albedo, between the two simulations, including clear-sky albedo changes and any adjustments in microphysical or macroscopic properties of clouds.</s><s>The aerosol-forcing-sensitivity can be calculated from a linear fit between the OSR differences and loadSO4 differences between the historical and hist-piAer simulations (ΔOSR /ΔloadSO4).</s><s>The linear fit slope measures the sensitivity of total aerosol forcing.</s><s><ref target="#b37" type="bibr">Wilcox et al. (2015)</ref> found a large diversity of the CMIP5 models in simulating the total aerosol forcing, which arises from the diversity in global load and spatial distribution of sulphate aerosol, and differences in global mean cloud top effective radius, amongst other factors.</s><s>In this study, we diagnose the OSR differences from historical simulations that also capture the temperature response.</s></p><p><s>As such the OSR differences do not represent a measure of only the aerosol forcing impact but combine OSR differences arising from both the aerosol forcing and the  <ref type="formula">1</ref>) therefore contributes to the ACI, specifically it is the part of ACI that is linearly proportional to changes to cloud fraction.</s><s>It is roughly analogous to the "cloud lifetime effect" <ref target="#b1" type="bibr">(Albrecht, 1989)</ref>, but is sensitive to any aerosol-induced cloud fraction changes <ref target="#b18" type="bibr">(Lohmann and Feichter, 2005)</ref>, including any slow adjustments in clouds due to feedbacks within the Earth System.</s></p><p><s>In addition to depending on ΔCLT, ACI is also influenced by any changes in cloud-albedo that might occur independently of cloud-amount changes.</s><s>Such adjustments would include increases in simulated cloud-droplet effective radius without accompanying changes in cloud cover.</s><s>Changes purely in the brightness of clouds, without changes in macroscopic properties of clouds, are difficult to identify from the CMIP6 output because all the bulk-properties of clouds co-vary over the course of the projections.</s><s>However, subtracting ARI and the cloud-amount term from the aerosol-forcing-sensitivity gives a residual that is, by definition, linearly independent of cloud fraction differences (since by construction these have been regressed out).</s><s>This residual can then be interpreted as due to differences in the albedo of clouds between the historical and hist-piAer, and will be called the "cloud-albedo term".</s><s>Note that this method of calculation implies that purely albedo effects cannot be distinguished from general residual terms that result from the linear approximation made.</s></p><p><s>Note that our decomposed ACI does not correspond exactly to the definitions of "first" and "second" aerosol indirect effects.</s><s>For example, the first indirect effect is properly defined as variations of aerosol forcing when cloud droplet number concentration varies at a constant value of the cloud liquid water path.</s><s>This effect cannot be isolated from the available CMIP6 output.</s><s>models with and without interactive chemistry schemes <ref target="#b14" type="bibr">(Flynn and Mauritsen, 2020)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">The "pot-hole" bias in CMIP6 ESMs<p><s>In the ESMs and their ensemble mean (MME), the cold anomaly biases resemble a "pot-hole" shape (Fig. <ref type="figure">1a</ref>), which is relatively small before the 1950s and after the 2000s but expands from the 1960s to 1990s.</s><s>To reduce the impact of cooling responses to the Pinatubo eruption in the early 1990s and the change in the spatial pattern of the emissions, we mainly focus on the excessively cold anomaly from 1960 to 1990 in this study.</s><s>The period of anomalous cold in the global mean from 1960 to 1990 in model simulations is defined as the "pot-hole" cooling (PHC) as described in section 2.3.</s></p><p><s>Table <ref type="table">3</ref> shows the TAS anomaly biases in two typical periods, three decades before the PHC period (1929~1959) and the PHC period (1960~1990).</s><s>The biases are all negative in the previous era; the negative biases increase in the PHC period and become larger than -0.</s><s>The differences between the historical and hist-piAer simulations help to investigate the impact of anthropogenic aerosol emissions and its possible contribution to the PHC biases.</s><s>In this section, we examine the TAS, OSR, and sulphate loading differences, and look in detail at their relationship.</s><s>As shown by the evolution of TAS anomalies in the two experiments (Fig. <ref type="figure">5</ref>, left panel), during the PHC period TAS anomalies in HadCRUT5 (black line) are higher than those in the historical members but lower than those in the hist-piAer members in all ESMs.</s><s>That is, the model responses to anthropogenic aerosol emission are larger than the amplitude of the PHC.</s></p><p><s>The temporal evolution of the OSR corresponds with that of the TAS but occurs in the opposite direction (middle panel).</s><s>The OSR differences between the historical and hist-piAer simulations are larger in the ESMs that show big TAS differences (e.g.</s><s>EC-Earth3-AerChem and UKESM1-0-LL).</s><s>The temporal evolution of the sulphate loading (right panel) corresponds with the changes in anthropogenic surface SO 2 emissions (contours in Fig. <ref type="figure">2</ref>).</s><s>Accordingly, the sulphate loading differences are relatively small in the 19 th Century, mildly increase in the first half of the 20 th Century, grow most rapidly during the PHC period, and remain high afterward.</s><s>In comparison with the TAS and OSR differences, the intra-model spread of sulphate loading for each ESM is relatively small.</s><s>However, the inter-model diversity of sulphate loading is large.</s><s>For example, the sulphate loading difference between the historical and hist-piAer experiments around the year 2000 is about 4 mg m -2 in EC-Earth3-AerChem, almost twice of that in GFDL-ESM4.</s><s>With similar anthropogenic SO 2 emission rates, the lower sulphate loading difference in GFDL-ESM4 indicates it has a shorter sulphate aerosol residence time than that in EC-Earth3-AerChem, which may be due to their different sulphate production and deposition schemes.</s><s>The large inter-model diversity is also evident in CMIP5 models <ref target="#b37" type="bibr">(Wilcox et al., 2015)</ref>.</s></p><p><s>The latitudinal movement of the SO 2 emission center from the 1990s affects the relative strength of aerosol forcing.</s><s>Due to the more rapid oxidation at lower latitudes, an equatorward shift in SO 2 emissions around 1990s result in a more efficient production of sulphate and stronger aerosol forcing <ref target="#b19" type="bibr">(Manktelow et al., 2007)</ref>.</s><s>The northern mid-latitude temperature is also more sensitive to the distribution of aerosols, which is approximately twice as large as the global average <ref target="#b8" type="bibr">(Collins et al., 2013;</ref><ref target="#b32" type="bibr">Shindell and Faluvegi, 2009)</ref>.</s><s>Therefore, we focus on the relationships between TAS, OSR and sulphate loading after 1900 when SO 2 emissions changes are dominated by its anthropogenic component, and before 1990 to reduce the effects of spatial changes in anthropogenic SO 2 emission centers and the uncertainty of model response to the 1991 Mount Pinatubo eruption.</s><s>As shown in Fig. <ref type="figure">6a</ref>, the TAS differences between the historical and hist-piAer simulations vary linearly with the differences in the sulphate loading for each ESM.</s><s>The OSR differences are also linearly correlated with sulphate loading differences for all models except UKESM1-0-LL (Fig. <ref type="figure">6b</ref>).</s><s>It is interesting that this nonlinearity is also observed in HadGEM2, a predecessor of UKESM1 <ref target="#b37" type="bibr">(Wilcox et al., 2015)</ref>.</s><s>The aerosol-forcing-sensitivity may be partly responsible for the PHC bias.</s></p><p><s>Figure <ref type="figure">7a</ref> shows the PHC biases versus the aerosol-forcing-sensitivity (markers) and their intra-model spread (arrows).</s><s>The uncertainty of aerosol-forcing-sensitivity (length of the horizontal arrows) in each ESM is smaller than the PHC bias uncertainty (length of the vertical arrows).</s><s>Despite the intra-model spread, the PHC and aerosol-forcing-sensitivity seem to be negatively correlated.</s><s>GFDL-ESM4 has the weakest aerosol-forcing-sensitivity (~0.60 W mg -1 ) and the smallest PHC (-0.20 o C).</s></p><p><s>The amplitude of PHC in BCC-ESM1, MPI-ESM-1-2-HAM, and NorESM2-LM are generally comparable, as is their aerosol-forcing-sensitivity.</s><s>However, in EC-Earth3-AerChem, the aerosol-forcing-sensitivity is close to those in BCC-ESM1, MPI-ESM-1-2-HAM, and NorESM2-LM, but the PHC is more than 0.1 o C lower than the others.</s><s>In UKESM1-0-LL, the aerosol-forcing-sensitivity is the strongest (~1.5 W mg -1 ) but not the PHC bias.</s><s>Therefore, the aerosol-forcing-sensitivity may be an important contributor to PHC bias but cannot fully explain the inter-model diversity in the PHC bias.</s></p><p><s>As shown by the X-axis in Fig. <ref type="figure">7b</ref>, the sulphate loading differences between the historical and hist-piAer experiments during the PHC period are large among ESMs, which are about 1.5 mg m -2 in GFDL-ESM4 but approximately 2.9 mg m -2 in EC-Earth3-AerChem.</s><s>Examination of the sulphate loading differences during the PHC period and PHC biases shows that the PHC bias is generally larger in models with higher sulphate loading over this period (Fig. <ref type="figure">7b</ref>).</s><s>Therefore, the PHC biases may be also attributable to sulphate loading related structural differences between ESMs.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">The proportions of ARI and ACI<p><s>There are significant differences in the aerosol-forcing-sensitivity among ESMs (Fig. <ref type="figure">6b</ref>).</s><s>The aerosol-forcing-sensitivity in UKESM1-0-L is almost three times of that   The ACI can be estimated from the difference between the aerosol-forcing-sensitivity and the ARI.</s><s>The proportion of the aerosol-forcing-sensitivity arising from the ACI is higher than 64% in all ESMs (Fig. <ref target="#fig_13" type="figure">9</ref>).</s><s>The inter-model variation of the ACI (0.37 W mg -1 ) is much larger than that for the ARI (0.09W mg -1 ).</s><s>For example, the ACI in UKESM1-0-LL (~1.2W mg -1 ) is higher than all the others and is about three times of that in GFDL-ESM4 (0.41 W mg -1 ).</s><s>This demonstrates that differences in the aerosol-forcing-sensitivity across the  Figure <ref target="#fig_15" type="figure">10</ref> shows the evolution of global-mean differences in total cloud amount (ΔCLT) and cloud-top effective droplet radius (Δr eff ) between the historical and hist-piAer experiments.</s><s>The ΔCLT and Δr eff in UKESM1-0-LL are the largest and highly correlated with each other (with a correlation coefficient of -0.93).</s><s>The Δr eff and ΔCLT are generally related to the radiative forcing part and adjustments part of ACI, respectively <ref target="#b1" type="bibr">(Albrecht, 1989;</ref><ref type="bibr">Twomey, 1991)</ref>.</s><s>Therefore, the radiative forcing part and adjustments part of ACI may be closely coupled in UKESM1-0-LL and are hard to separate statistically.</s><s>The strong correlation between cloud amount and r eff response in UKESM1-0-LL indicates that this model is sensitivity to aerosol-cloud interactions, which is likely to contribute to it having the strongest aerosol-forcing-sensitivity of all the CMIP6 models in Fig. <ref type="figure">6b</ref>.</s><s>However, it is still possible to split the ACI into a part that is correlated with cloud amount differences and a residual term.</s><s>This can be done statistically by regressing-out the approximate linear dependence of the differences between historical and hist-piAer simulations of cloudy part OSR (OSRcld_p) on cloud fraction in each ESM (parameter A in Fig. <ref type="figure">8g-8i</ref>).</s><s>We call the degree of linear correlation of ΔOSRcld_p with ΔCLT the "cloud-amount term", and the residual will be referred to as the "cloud-albedo term".</s></p><p><s>However, we reiterate that the so-called "cloud-amount term" may also include Therefore, difference in the cloud-amount terms, across the ESMs, dominates the uncertainties in the aerosol-forcing-sensitivity.</s></p><p><s>Note that, neither do our definitions correspond to the effects measured by using multiple calls to the radiation scheme of a model, with and without aerosols, which measure instaneous radiative effects; multiple calls give a measure of the fast response of clouds to aerosol perturbations in a fixed thermodynamic and dynamical background, allowing for a clear separation between ACI and rapid adjustments (e.g., <ref target="#b2" type="bibr">Bellouin et al., 2013)</ref>.</s><s>This differs from aerosol forcing diagnosed by differencing climate projections with different aerosol forcings, which include the slow effects of other feedbacks.</s><s>For example, differences in climate forcings can lead to different SST patterns, which in turn alter the location and characteristics of clouds.</s><s>Despite these differences, an advantage of our classification is that it provides a possible method for model evaluation since the variables used are also, in principle, available from the observations.</s><s>https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusion<p><s>This study focuses on the reproduction of historical surface air temperature anomalies in six CMIP6 ESMs.</s><s>The ESMs systematically underestimate TAS anomalies relative to 1850 to 1900 in the NH midlatitudes, especially from 1960 to 1990, the "pot-hole" cooling (PHC) period.</s><s>In the global mean, the excessive cooling in models is more pronounced at the surface, which is distinct from the response to greenhouse gases that preferentially heat the tropical upper troposphere.</s><s>Previous studies suggested that aerosol cooling is too strong in many CMIP6 models.</s><s>Our study more specifically found that the PHC is concurrent in time and space with anthropogenic SO 2 emissions, which rapidly increase in the PHC period in NH.</s><s>The In this study, we mainly focus on the ESMs since all of them have the hist-piAer experiment, which allows a simple way of diagnosing the sources of the anomalous cooling and estimates the aerosol-forcing-sensitivity.</s><s>The method to estimate the aerosol-forcing-sensitivity can also be applied to the lower-complexity models.</s></p><p><s>Therefore, if the hist-piAer experiments were available for lower-complexity models, it would be possible to isolate the contributions to aerosol-forcing-sensitivity that is due to the added aerosol complexity in the ESMs.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">(<label></label><figdesc><div><p><s>60 o S to 65 o N) difference in the TAS anomaly between models and HadCRUT5 from 1960 to 1990.</s><s>The variations over the polar regions (north of 65 o N and south of 60 o S)</s></p></div></figdesc></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.temperature</s><s>response to this forcing, which we will refer to in this manuscript as the aerosol-forcing-sensitivity.</s><s>So, the numbers diagnosed here cannot be directly compared to aerosol forcing estimates published elsewhere, but the relative magnitude and time evolution of the aerosol-forcing-sensitivity is informative of the aerosol radiative role in the simulations we explore here.</s><s>The aerosol-forcing-sensitivity can be further partitioned into a contribution from aerosol-radiation interactions (ARI), and aerosol-cloud interactions (ACI).</s><s>ARI quantifies the influence of aerosols on clear-sky radiative fluxes.</s><s>ACI is due to the impact of aerosol-induced changes in the properties of clouds, such as cloud spatial extent (amount), cloud longevity (lifetime), and cloud albedo on radiative fluxes.</s><s>ARI and ACI can be readily estimated from the CMIP6 output because annual mean cloud amount, CLT, and the top-of-atmosphere radiative flux assuming only clear-sky, OSRclr, are available for all the CMIP6 ESMs.</s><s>For each model, the OSR from clouds (OSRcld) can therefore be estimate as OSR-((1-CLT/100.)*OSRclr).</s><s>As shown in the Appendix, the aerosol-forcing-sensitivity can be expressed as: OSRclr_hist are the mean cloud amount (CLT) and clear-sky OSR (OSRclr) in the historical simulation, and M, N and A are empirically determined parameters.</s><s>The parameter M is the slope of a linear fit of ΔOSRclr to ΔloadSO4, and therefore measures the strength of the aerosol-radiation interactions in each model.</s><s>The term (1-CLT_hist/100.)*M</s><s>can therefore be identified with ARI.</s><s>The parameter A is the slope of a linear fit of ΔOSRcld to ΔCLT, and therefore measures the correlation of the short wave radiation reflected by clouds with changes in cloud amount.</s><s>The parameter N is the slope of a linear fit of ΔCLT to ΔloadSO4, and therefore measures the sensitivity of cloud amount to aerosols.</s><s>Note that changes in cloud amount by definition also affect the fraction of clear-sky, hence increases in https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s><s>OSRcld due to increases in CLT (i.e., A*N) can be partly offset by changes in area of clear-sky containing aerosols (OSRclr_hist*N).</s><s>The second term on the right-hand side of Eq. (</s></p></div></figdesc></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Figure 1.</s><s>(a) from HadCR solid color lin lower-comple number of av</s></p></div></figdesc></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0">Figu<label></label><figdesc><div><p><s>Fig.2.</s><s>In HadCRUT5, TAS anomalies are generally positive after the 1940s.</s><s>The most significant TAS anomalies are evident in the late 20 th Century and at the beginning of the 21 st Century, especially over the NH midlatitudes, where the TAS anomalies are larger than 1.0 o C. The results from BCC-CSM2-MR and MPI-ESM1-2-LR agree well with the observations.</s><s>However, the ESMs and the other lower-complexity models simulate pronounced cold anomalies over NH subtropical-to-high latitudes during the PHC period.</s><s>Figure 2 also shows the evolution of surface anthropogenic SO 2 emissions (the contours).</s><s>They rapidly increase during the PHC period.</s><s>The latitudes of the cooling centers are spatially co-located with the SO 2 emission sources -North America and East Asia (at around 30 o N) and Western Europe (at around 50 o N).</s><s>The emission centers generally move south around the 1990s.</s><s>European and NorthAmerican SO 2 emissions have reduced the since the 1980s; East Asian emissions clearly increased from 2000 to 2005, followed by a decrease with large uncertainties<ref target="#b0" type="bibr">(Aas et al., 2020)</ref>.</s></p></div></figdesc></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>FiguMM</s></p></div></figdesc></figure>
+<figure xml:id="fig_8" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_9" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Figu 410 hist-411 MM 412 and a 413 and t 414 411</s></p></div></figdesc></figure>
+<figure xml:id="fig_10" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Figu mg -1 unce</s></p></div></figdesc></figure>
+<figure xml:id="fig_11" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Fig.8a-8c).ch</s><s>ESM, the he ARI is g.9 (Red ba</s></p></div></figdesc></figure>
+<figure xml:id="fig_12" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>/doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_13" xmlns="http://www.tei-c.org/ns/1.0">Figure 9 .<label>9</label><figdesc><div><p><s>Figure 9.</s><s>Total aerosol-forcing-sensitivity from each member in ESMs.</s><s>The number marked on the top is the total aerosol-forcing-sensitivity.</s><s>Partition of aerosol-radiation interaction term, cloud-albedo term, and cloud-amount term are marked in the corresponding color bars.</s><s>Unit: W mg -1 .</s></p></div></figdesc></figure>
+<figure xml:id="fig_14" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>ESMs are dominated by the differences in their individual representation of ACI.</s><s>The intra-model variations in the ACI are also larger than that for the ARI.</s><s>That is because the intra-model variations of the ACI are influenced by the effects of climate system internal variability on aerosol-induced cloud microphysics, with cloud radiative properties and cloud lifetimes varying regionally.</s><s>The intra-model variations are attributable to the differences in atmospheric circulation among different ensemble members, which may affect the geographical distributions of aerosols and clouds and lead to a different magnitude of interactions.</s><s>The quantitative analysis in Fig.9 also indicates that ESMs with similar aerosol-forcing-sensitivity may have different contributions from ARI and ACI.</s><s>The aerosol-forcing-sensitivity is similar in BCC-ESM1, EC-Earth3-AerChem, MPI-ESM-1-2-HAM and NorESM2-LM, but the fractional contribution from the ACI is the largest in NorESM2-LM and its ARI is less than half of that in BCC-ESM1.</s><s>Generally, BCC-ESM1 has the largest fractional ARI contribution (34%), whereas NorESM2-LM has the largest fraction of ACI contribution (86%).</s><s>5.2 The proportions of cloud-amount and cloud-albedo terms https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s><s>doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_15" xmlns="http://www.tei-c.org/ns/1.0">Figure 10<label>10</label><figdesc><div><p><s>Figure 10 (a) Evolutions of global mean cloud amount differences between the historical and hist-piAer simulations in MMMs, units: %.</s><s>(b) is the same as (a), but for cloud-top effective droplet radius (r eff , μm).</s><s>The r eff data is only available for GFDL-ESM4, MPI-ESM-1-2-HAM, and UKESM1-0-LL.</s></p></div></figdesc></figure>
+<figure xml:id="fig_16" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>changes in the reflectivity of clouds if these are correlated with changes in cloud amount.</s><s>Similarly, the cloud-albedo term will contain any sources of cloud amount changes which have not been removed by linearly regressing OSRcld_p against cloud amount.</s><s>As such, we do not intend this nomenclature to indicate a precise separation of the radiative forcing part and adjustments part of ACI.</s><s>Our decomposition allows first order assessment of these terms from historical simulations without the need for extra https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s><s>simulations or calls, and also allows estimates from observations and intermodel comparisons.As described in the section 2.3 and the Appendix, the cloud-amount term is sensitive to two parameters: the cloud amount response (parameter N in Fig.8d-8f) and the sensitivity of OSR reflected from clouds to cloud amount changes (parameter A, Fig.8g-8i).</s><s>As shown in Fig.9, UKESM1-0-LL has the largest contribution of the cloud-amount term to aerosol-forcing-sensitivity (62%, 0.91W mg -1 ); the cloud-amount term is the smallest in GFDL-ESM4 (~0.18W mg -1 ).</s><s>The cloud-albedo term is defined to be linearly independent of cloud-amount changes (adjustments).</s><s>For the CMIP6 ESMs, it can only be estimated as the residual after subtracting the cloud-amount term from the ACI.</s><s>The cloud-albedo term is similar in BCC-ESM1, MPI-ESM-1-2-HAM, and NorESM2-LM.</s><s>The inter-model variation for the cloud-amount term is about twice of that for the cloud-albedo term (0.29W/mg v.s.</s><s>0.16W/mg).</s><s>That is, the variations of cloud-amount term are the major source of inter-model ACI (and the aerosol-forcing-sensitivity) differences between ESMs.</s></p></div></figdesc></figure>
+<figure xml:id="fig_17" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>primary role of aerosol emissions in these biases is further supported by the differences between ESMs and the lower-complexity models.</s><s>Differences between historical simulations and simulations with aerosol emissions fixed at their preindustrial levels (hist-piAer) are used to isolate the impacts of industrial aerosol emission.</s><s>We propose that the overestimated aerosol concentrations and aerosol-forcing-sensitivity in the ESMs account for the spurious drop in TAS in the mid-twentieth century.A large inter-model spread in the aerosol-forcing-sensitivity is evident between CMIP6 models.</s><s>A simple metric is derived for determining the dominant contribution to the aerosol-forcing-sensitivity in any specific model.</s><s>The ARI has a slight intra-model variation.</s><s>The ACI accounts for more than 64% of the aerosol-forcing-sensitivity in all analyzed ESMs.</s><s>The considerable inter-model variation in the aerosol-forcing-sensitivity is mainly attributable to the uncertainty in the ACI within models.</s><s>The ACI can be further decomposed into a cloud-amount term and a cloud-albedo term.</s><s>The cloud-amount term is found to be the major source of inter-model diversity of ACI.Although the TAS anomaly is systematically underestimated in all ESMs, the reasons for the PHC are different among models.</s><s>Therefore, different models require https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s><s>different improvement strategies.</s><s>For example, modifying sulphate deposition processes may reduce the cold biases in EC-Earth3-AerChem, which has a relatively large sulphate loadings; BCC-ESM1 has a relatively large proportion of ARI and may need to focus on the effect of aerosol backscatter; the cloud-amount term (adjustments part of ACI) contributes to more than 60% of the aerosol-forcing-sensitivity in UKESM1-0-LL, which is comparable or even larger than the total aerosol-forcing-sensitivity in the other ESMs.</s><s>Considering the crucial role of cloud properties on the inter-model spread in aerosol-forcing-sensitivity, the aerosol-cloud interactions should be a focus in development of aerosol schemes within ESMs.</s></p></div></figdesc></figure>
+<figure xml:id="fig_18" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s><s>ΔOSRcld_p = A*ΔCLT + cloud-albedo relative changes +residual_cld, where the parameter A =Δ(OSR-OSRclr_p)/ΔCLT is the sentivity of the shortwave flux reflected by clouds to changes in cloud amount.</s><s>The parameter A depends on the baseline cloud albedo (radiative flux per cloud amount unit) and can be estimated by linear fitting of ΔOSRcld_p on ΔCLT.</s><s>Hence, ΔOSRcld_p/ΔloadSO4 = A*ΔCLT/ΔloadSO4 + cloud-albedo term +residual_cld, = A*N + cloud-albedo term +residual_cld, (A4) where N is the parameter defined above.</s><s>The cloud-albedo term on the right-hand side of equation (A4) can be obtained as a residual after subtracting A*N from ΔOSRcld_p/ ΔloadSO4, thereby eliminating any linear dependence of the cloudy-sky shortwave flux response on cloud-amount changes.As with the clear-sky decomposition, residual_cld is a possible non-linear term and is assumed to be small.</s><s>This term cannot in fact be distinguished from the cloud-albedo term, in this analysis: we must therefore accept that cloud-albedo changes could be accompanied by non-linear changes in macroscopic cloud properties (in this framework).</s><s>The total aerosol-forcing-sensitivity can be measured by substituting the dervived values of Δ OSR/ΔloadSO4 from both the clear sky (equation A3) and cloudy (equation A4) parts back into equation (A1): ΔOSR/ΔloadSO4 = (1-CLT_hist/100.)*M</s><s>-OSRclr_hist/100*N +A*N + cloud_albedo_term + residual = (1-CLT_hist/100)*M + (A -OSRclr_hist/100.)*N</s><s>+ cloud_albedo_term + residual_osr.</s><s>(A5) Based on equation (A5), the total aerosol-forcing-sensitivity can therefore be decomposed to the aerosol-radiation interaction term (ARI), (1-CLT_hist/100.)*M,</s><s>cloud-amount term as (A -OSRclr_hist/100.)*N,</s><s>and cloud-albedo term (defined as a residual).</s><s>https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>Information of the ESMs with interactive chemistry and aerosol scheme, as 104 well as the corresponding lower-complexity models.</s></p></div></figdesc><table><row><cell>105</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Modeling group</cell><cell>ESM</cell><cell>Lower-complexity</cell><cell>Prescribed</cell><cell cols="2">Prescribed</cell><cell>Number</cell><cell>References</cell></row><row><cell></cell><cell>(Atmospheric</cell><cell>models</cell><cell cols="2">tropospheric</cell><cell>aerosol</cell><cell>of</cell></row><row><cell></cell><cell>Resolution)</cell><cell>(Atmospheric</cell><cell>chemistry</cell><cell></cell><cell></cell><cell>members</cell></row><row><cell></cell><cell></cell><cell>Resolution)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Beijing Climate Center (BCC)</cell><cell>BCC-ESM1: the BCC Earth System Model version 1 (T42, 26 layers to 2.914 hPa)</cell><cell>BCC-CSM2-MR: the median resolution BCC Climate System Model version 2 (T106, 46 layers</cell><cell>Y</cell><cell></cell><cell>Y</cell><cell>3</cell><cell>Wu et al.(2019b, 2020); Zhang et al. (2021)</cell></row><row><cell></cell><cell></cell><cell>to 1.459 hPa)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>European consortium of meteorological services, research computing centres high-performance institutes, and</cell><cell>to 0.01 hPa) (T255, 91 layers atmospheric chemistry EC-Earth-AerChem: the EC-Earth configuration with interactive aerosols and</cell><cell>EC-Earth3: the EC-Earth version 3 (T255, 91 layers to 0.01 hPa)</cell><cell>Y</cell><cell></cell><cell>Y</cell><cell>1</cell><cell>Noije et al. (2020); Döscher et al. (2021)</cell></row><row><cell>US Department of Commerce/NOAA / Geophysical Fluid Dynamics (GFDL) Laboratory</cell><cell>to 1 hPa) GFDL-ESM4: the GFDL Earth System Model version 4 (C96, 49 layers</cell><cell>to 1 hPa) GFDL-CM4: the GFDL Climate Model version 4 (C96, 33 layers</cell><cell>Y</cell><cell></cell><cell>N</cell><cell>1</cell><cell>Dunne et al. (2020); Held et al. (2019)</cell></row><row><cell>Max Planck Institute for Meteorology (MPI)</cell><cell>MPI-ESM-1-2-HAM: the HAMMOZ-Consortium Model of MPI Earth System</cell><cell>(T63, 47 layers System Model MPI-ESM1-2-LR: the lower-resolution version of MPI Earth</cell><cell>Y</cell><cell></cell><cell>Y</cell><cell>3</cell><cell>Mauritsen et al. (2019);</cell></row><row><cell></cell><cell>(T63, 47 layers</cell><cell>to 0.01 hPa)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>to 0.01 hPa)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Norwegian Climate Center (NCC)</cell><cell>NorESM2-LM: the lower-resolution of Norwegian ESM version 2 (About 2 o , 32 layers</cell><cell>NorCPM1: the Norwegian Climate Prediction Model (About 2 o , 26 layers version 1</cell><cell>Y</cell><cell></cell><cell>N</cell><cell>3</cell><cell>Seland et al. (2020); Bethke et al. (2019)</cell></row><row><cell></cell><cell>to 2 hPa)</cell><cell>to 3 hPa)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Met Office's</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hadley Centre for</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Climate Prediction</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>and Research</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(MOHC)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_2" xmlns="http://www.tei-c.org/ns/1.0">Table 2<label>2</label><figdesc><div><p><s>Variables used in this study.</s></p></div></figdesc><table><row><cell cols="2">https://doi.org/10.5194/acp-2021-570</cell><cell></cell><cell></cell></row><row><cell cols="2">Preprint. Discussion started: 15 July 2021</cell><cell></cell><cell></cell></row><row><cell cols="2">c Author(s) 2021. CC BY 4.0 License.</cell><cell></cell><cell></cell></row><row><cell>Variable</cell><cell>CMIP6</cell><cell>Description</cell><cell>Units</cell></row><row><cell>name</cell><cell>diagnostic label</cell><cell></cell><cell></cell></row><row><cell>TAS</cell><cell>tas</cell><cell>Surface air temperature</cell><cell>o C</cell></row><row><cell>OSR</cell><cell>rsut</cell><cell>All-sky outgoing shortwave radiation at</cell><cell>W m -2</cell></row><row><cell></cell><cell></cell><cell>the top of atmosphere (TOA)</cell><cell></cell></row><row><cell>OSRclr</cell><cell>rsutcs</cell><cell>OSR assuming clear sky</cell><cell>W m -2</cell></row><row><cell>mmrso4</cell><cell>mmrso4</cell><cell>Mass mixing ratio of sulphate aerosol in</cell><cell>kg</cell></row><row><cell></cell><cell></cell><cell>the atmosphere</cell><cell>kg-1</cell></row><row><cell>CLT</cell><cell>clt</cell><cell>Total cloud amount</cell><cell>%</cell></row><row><cell>r eff</cell><cell>reffclwtop</cell><cell>cloud-top effective droplet radius</cell><cell>μm</cell></row><row><cell>loadSO4</cell><cell></cell><cell>Sulphate loading in the atmosphere,</cell><cell>mg</cell></row><row><cell></cell><cell></cell><cell>calculated by mmrso4</cell><cell>m -2</cell></row><row><cell>OSRclr_hist</cell><cell></cell><cell>Mean OSRclr in the historical</cell><cell>W m -2</cell></row><row><cell></cell><cell></cell><cell>simulation from 1850 to 1990</cell><cell></cell></row><row><cell>CLT_hist</cell><cell></cell><cell>Mean CLT in the historical simulation</cell><cell>%</cell></row><row><cell></cell><cell></cell><cell>from 1850 to 1990</cell><cell></cell></row><row><cell cols="4">The CMIP6 historical experiment and hist-piAer experiment are employed. The</cell></row><row><cell cols="4">historical experiment is forced by time-evolving, externally imposed natural and</cell></row><row><cell cols="4">anthropogenic forcings, such as solar variability, volcanic aerosols, greenhouse gases,</cell></row><row><cell cols="4">and aerosol emissions (Eyring et al., 2016). The hist-piAer experiment is designed by</cell></row><row><cell cols="4">the CMIP6-endorsed Aerosol Chemistry Model Intercomparison Project</cell></row><row><cell cols="4">(AerChemMIP; Collins et al., 2017). It is run in parallel with the historical experiment</cell></row><row><cell cols="4">but fixes aerosol and aerosol precursor emissions to pre-industrial conditions.</cell></row><row><cell cols="4">Therefore, the differences between these two experiments are attributable to</cell></row><row><cell cols="4">anthropogenic aerosol emissions. Note that we use the hist-piAer simulations but not</cell></row></table></figure>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgments<p><s>This work was supported by The National Key Research and Development Program of China (Grant no.</s><s>2018YFE0196000 and 2016YFA0602100).</s><s>All the AUTHORS were supported by the UK-China Research &amp; Innovation Partnership Fund through the Met Office Climate Science for Service Partnership (CSSP) China as part of the Newton Fund.</s><s>LJW was supported by the National Environmental Research Council (NERC) "North Atlantic Climate System Integrated Study" (ACSIS) program.</s><s>https://doi.org/10.5194/acp-2021-570</s><s>Preprint.</s><s>Discussion started: 15 July 2021 c Author(s) 2021.</s><s>CC BY 4.0 License.</s></p></div>
+</div>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Data Availability.</s><s>All the model data can be freely downloaded from the Earth System Federation Grid (ESGF) nodes (https://esgf-node.llnl.gov/search/cmip6/).</s><s>The global historical surface temperature anomalies HadCRUT5 dataset is freely available on https://www.metoffice.gov.uk/hadobs/hadcrut5/data/current/download.html.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">Appendix: Decomposition of the Aerosol-radiation interaction and aerosol-cloud interaction<p><s>Considering the dominate role of sulphate aerosol on anthropogenic aerosol forcing, we use the sulphate loading (loadSO4) as a proxy for all aerosol in our analysis.</s><s>The aerosol-forcing-sensitivity (as determined by the difference between the historical and hist-piAer experiments) is estimated by the all-sky OSR differences per sulfate burden unit (ΔOSR/ΔloadSO4) and it is the combination of OSR differences in the clear-sky parts (ΔOSRclr_p/ΔloadSO4) and the cloudy parts (ΔOSRcld_p/Δ loadSO4):</s></p><p><s>The OSRclr_p for a particular experiment can be calculated as:</s></p><p><s>where CLT is the total cloud amount (unit: %), and OSRclr is the OSR assuming all clear sky (unit: W/m 2 ).</s><s>The cloud amount changes (ΔCLT) will modify the propotion</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Author contributions<p><s>The main ideas were formulated by JZ, KF, STT, JPM, and TW.</s><s>JZ, KF, and STT wrote the original draft, and the results were supervised by LJW, BBB, and DS.</s><s>All the authors discussed the results and contributed to the final manuscript.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Competing interests<p><s>The authors declare that they have no conflict of interest.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<author>
+<persname><forename type="first">W</forename><surname>Aas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Mortier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Bowersox</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Cherian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Faluvegi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Fagerli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hand</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Klimont</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Galy-Lacaux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M B</forename><surname>Lehmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">L</forename><surname>Myhre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Myhre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Olivie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Sato</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Quaas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">S P</forename><surname>Rao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Schulz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Shindell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">B</forename><surname>Skeie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Stein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Takemura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Tsyro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Vet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Xu</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41598-020-62441-w</idno>
+</analytic>
+<monogr>
+<title level="m">Global and regional trends of atmospheric sulfur</title>
+<imprint>
+<date type="published" when="2019">2019. 2020</date>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="page">953</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Aas, W., Mortier, A., Bowersox, V., Cherian, R., Faluvegi, G., Fagerli, H., Hand, J., Klimont, Z., Galy-Lacaux, C., Lehmann, C. M. B., Myhre, C. L., Myhre, G., Olivie, D., Sato, K., Quaas, J., Rao, P. S. P., Schulz, M., Shindell, D., Skeie, R. B., Stein, A., Takemura, T., Tsyro, S., Vet, R., and Xu, X.: Global and regional trends of atmospheric sulfur (vol 9, 953, 2019), Scientific Reports, 10, 10.1038/s41598-020-62441-w, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Aerosols, Cloud Microphysics, and Fractional Cloudiness</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">A</forename><surname>Albrecht</surname></persname>
+</author>
+<idno type="DOI">10.1126/science.245.4923.1227</idno>
+</analytic>
+<monogr>
+<title level="j">Science</title>
+<imprint>
+<biblscope unit="volume">245</biblscope>
+<biblscope from="1227" to="1230" unit="page"></biblscope>
+<date type="published" when="1989">1989</date>
+</imprint>
+</monogr>
+<note type="raw_reference">ALBRECHT, B. A.: Aerosols, Cloud Microphysics, and Fractional Cloudiness, Science, 245, 1227-1230, 10.1126/science.245.4923.1227, 1989.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Impact of the modal aerosol scheme GLOMAP-mode on aerosol forcing in the Hadley Centre Global Environmental Model</title>
+<author>
+<persname><forename type="first">N</forename><surname>Bellouin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">W</forename><surname>Mann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">T</forename><surname>Woodhouse</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Johnson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Carslaw</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Dalvi</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-13-3027-2013</idno>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="3027" to="3044" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bellouin, N., Mann, G. W., Woodhouse, M. T., Johnson, C., Carslaw, K. S., and Dalvi, M.: Impact of the modal aerosol scheme GLOMAP-mode on aerosol forcing in the Hadley Centre Global Environmental Model, Atmospheric Chemistry and Physics, 13, 3027-3044, 10.5194/acp-13-3027-2013, 2013.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<monogr>
+<title level="m" type="main">NCC NorCPM1 model output prepared for CMIP6 CMIP, Earth System Grid Federation</title>
+<author>
+<persname><forename type="first">I</forename><surname>Bethke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Counillon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kimmritz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Fransner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Samuelsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">R</forename><surname>Langehaug</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P.-G</forename><surname>Chiu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bentsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Guo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Tjiputra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kirkevåg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J L</forename><surname>Oliviè</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Ø</forename><surname>Seland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Fan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Lawrence</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Eldevik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Keenlyside</surname></persname>
+</author>
+<idno type="DOI">10.22033/ESGF/CMIP6.10843</idno>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bethke, I., Wang, Y., Counillon, F., Kimmritz, M., Fransner, F., Samuelsen, A., Langehaug, H. R., Chiu, P.-G., Bentsen, M., Guo, C., Tjiputra, J., Kirkevåg, A., Oliviè, D. J. L., Seland, Ø., Fan, Y., Lawrence, P., Eldevik, T., and Keenlyside, N.: NCC NorCPM1 model output prepared for CMIP6 CMIP, Earth System Grid Federation [dataset], 10.22033/ESGF/CMIP6.10843, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Detection and Attribution of Climate Change: from Global to Regional</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">L</forename><surname>Bindoff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Stott</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Achutarao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Allen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Gillett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Gutzler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Hansingo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Hegerl</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Climate Change 2013: The Physical Science Basis</title>
+<imprint></imprint>
+</monogr>
+<note>Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</note>
+<note type="raw_reference">Bindoff, N. L., Stott, P. A., AchutaRao, K. M., Allen, M. R., Gillett, N., Gutzler, D., Hansingo, K., Hegerl, G., et al.: Detection and Attribution of Climate Change: from Global to Regional, in: Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change [</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<monogr>
+<title></title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">F</forename><surname>Stocker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Qin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G.-K</forename><surname>Plattner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Tignor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">K</forename><surname>Allen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Boschung</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename></persname>
+</author>
+<editor>Nauels, Y. Xia, V. Bex and P.M. Midgley</editor>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<pubplace>Cambridge, United Kingdom and New York, NY, USA</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Stocker, T.F., D. Qin, G.-K. Plattner, M. Tignor, S.K. Allen, J. Boschung, A. Nauels, Y. Xia, V. Bex and P.M. Midgley (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Sulphate aerosol and climate</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Charlson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Langner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Rodhe</surname></persname>
+</author>
+<idno type="DOI">10.1038/348022a0</idno>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">348</biblscope>
+<biblscope from="22" to="22" unit="page"></biblscope>
+<date type="published" when="1990">1990</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Charlson, R. J., Langner, J., and Rodhe, H.: Sulphate aerosol and climate, Nature, 348, 22-22, 10.1038/348022a0, 1990.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">AerChemMIP: Quantifying the effects of chemistry and aerosols in CMIP6</title>
+<author>
+<persname><forename type="first">W</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-F</forename><surname>Lamarque</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Schulz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Boucher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Eyring</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Hegglin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Maycock</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Myhre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Prather</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Shindell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Smith</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmd-10-585-2017</idno>
+</analytic>
+<monogr>
+<title level="j">Geoscientific Model Development</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope from="585" to="607" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Collins, W., Lamarque, J.-F., Schulz, M., Boucher, O., Eyring, V., Hegglin, M., Maycock, A., Myhre, G., Prather, M., Shindell, D., and Smith, S.: AerChemMIP: Quantifying the effects of chemistry and aerosols in CMIP6, Geoscientific Model Development, 10, 585-607, 10.5194/gmd-10-585-2017, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Global and regional temperature-change potentials for near-term climate forcers</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">J</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">M</forename><surname>Fry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Fuglestvedt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">T</forename><surname>Shindell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>West</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-13-2471-2013</idno>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="2471" to="2485" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Collins, W. J., Fry, M. M., Yu, H., Fuglestvedt, J. S., Shindell, D. T., and West, J. J.: Global and regional temperature-change potentials for near-term climate forcers, Atmospheric Chemistry and Physics, 13, 2471-2485, 10.5194/acp-13-2471-2013, 2013.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Sensitivity of Historical Climate Simulations to Uncertain Aerosol Forcing</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Dittus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Hawkins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">J</forename><surname>Wilcox</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">T</forename><surname>Sutton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">B</forename><surname>Andrews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">M</forename><surname>Forster</surname></persname>
+</author>
+<idno type="DOI">10.1029/2019gl085806</idno>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">47</biblscope>
+<biblscope unit="page">85806</biblscope>
+<date type="published" when="2019">2019. 2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dittus, A. J., Hawkins, E., Wilcox, L. J., Sutton, R. T., Smith, C. J., Andrews, M. B., and Forster, P. M.: Sensitivity of Historical Climate Simulations to Uncertain Aerosol Forcing, Geophysical Research Letters, 47, e2019GL085806, 10.1029/2019gl085806, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<monogr>
+<title></title>
+<author>
+<persname><forename type="first">R</forename><surname>Döscher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Acosta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Alessandri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Anthoni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Arneth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Arsouze</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Bergmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Bernadello</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Bousetta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L.-P</forename><surname>Caron</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Carver</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Castrillo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Catalano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Cvijanovic</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Davini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Dekker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">J</forename><surname>Doblas-Reyes</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-2021-570Preprint</idno>
+<ptr target="https://doi.org/10.5194/acp-2021-570Preprint"></ptr>
+<imprint>
+<date type="published" when="2021-07-15">15 July 2021 c. 2021</date>
+</imprint>
+</monogr>
+<note>Author(s. CC BY 4.0 License</note>
+<note type="raw_reference">Döscher, R., Acosta, M., Alessandri, A., Anthoni, P., Arneth, A., Arsouze, T., Bergmann, T., Bernadello, R., Bousetta, S., Caron, L.-P., Carver, G., Castrillo, M., Catalano, F., Cvijanovic, I., Davini, P., Dekker, E., Doblas-Reyes, F. J., https://doi.org/10.5194/acp-2021-570 Preprint. Discussion started: 15 July 2021 c Author(s) 2021. CC BY 4.0 License.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">The EC-Earth3 Earth System Model for the Climate Model Intercomparison Project 6</title>
+<author>
+<persname><forename type="first">D</forename><surname>Docquier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Echevarria</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Fladrich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Fuentes-Franco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Gröger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hardenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hieronymus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Karami</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-P</forename><surname>Keskinen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Koenigk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Makkonen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Massonnet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ménégoz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Moreno-Chamarro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Nieradzik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Van Noije</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Nolan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>O'donnell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Ollinaho</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Van Den Oord</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Ortega</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">T</forename><surname>Prims</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ramos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Reerink</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Rousset</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Ruprich-Robert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Le Sager</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Schmith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Schrödner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Serva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Sicardi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Sloth Madsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Tian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Tourigny</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Uotila</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Vancoppenolle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Wårlind</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Willén</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Wyser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Yepes-Arbós</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Q</forename><surname>Zhang</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmd-2020-446,inreview</idno>
+<ptr target="https://doi.org/10.5194/gmd-2020-446,inreview"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geosci. Model Dev. Discuss</title>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note>preprint</note>
+<note type="raw_reference">Docquier, D., Echevarria, P., Fladrich, U., Fuentes-Franco, R., Gröger, M., v. Hardenberg, J., Hieronymus, J., Karami, M. P., Keskinen, J.-P., Koenigk, T., Makkonen, R., Massonnet, F., Ménégoz, M., Miller, P. A., Moreno-Chamarro, E., Nieradzik, L., van Noije, T., Nolan, P., O'Donnell, D., Ollinaho, P., van den Oord, G., Ortega, P., Prims, O. T., Ramos, A., Reerink, T., Rousset, C., Ruprich-Robert, Y., Le Sager, P., Schmith, T., Schrödner, R., Serva, F., Sicardi, V., Sloth Madsen, M., Smith, B., Tian, T., Tourigny, E., Uotila, P., Vancoppenolle, M., Wang, S., Wårlind, D., Willén, U., Wyser, K., Yang, S., Yepes-Arbós, X., and Zhang, Q.: The EC-Earth3 Earth System Model for the Climate Model Intercomparison Project 6, Geosci. Model Dev. Discuss. [preprint], https://doi.org/10.5194/gmd-2020-446, in review, 2021.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">The GFDL Earth System Model Version 4.1 (GFDL-ESM 4.1): Overall Coupled Model Description and Simulation Characteristics</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Dunne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">W</forename><surname>Horowitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Adcroft</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Ginoux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">M</forename><surname>Held</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">G</forename><surname>John</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Krasting</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Malyshev</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Naik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Paulot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Shevliakova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Stock</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Zadeh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Balaji</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Blanton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Dunne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dupuis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Durachta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Dussin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">P G</forename><surname>Gauthier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Griffies</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Guo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">W</forename><surname>Hallberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Harrison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>He</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Hurlin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Mchugh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Menzel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">C D</forename><surname>Milly</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Nikonov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Paynter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Ploshay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Radhakrishnan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Rand</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">G</forename><surname>Reichl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Robinson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Schwarzkopf</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">T</forename><surname>Sentman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Underwood</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Vahlenkamp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Winton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">T</forename><surname>Wittenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Wyman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zeng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Zhao</surname></persname>
+</author>
+<idno>.1029/2019ms002015</idno>
+</analytic>
+<monogr>
+<title level="j">J. Adv. Model. Earth Syst</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="page">10</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dunne, J. P., Horowitz, L. W., Adcroft, A. J., Ginoux, P., Held, I. M., John, J. G., Krasting, J. P., Malyshev, S., Naik, V., Paulot, F., Shevliakova, E., Stock, C. A., Zadeh, N., Balaji, V., Blanton, C., Dunne, K. A., Dupuis, C., Durachta, J., Dussin, R., Gauthier, P. P. G., Griffies, S. M., Guo, H., Hallberg, R. W., Harrison, M., He, J., Hurlin, W., McHugh, C., Menzel, R., Milly, P. C. D., Nikonov, S., Paynter, D. J., Ploshay, J., Radhakrishnan, A., Rand, K., Reichl, B. G., Robinson, T., Schwarzkopf, D. M., Sentman, L. T., Underwood, S., Vahlenkamp, H., Winton, M., Wittenberg, A. T., Wyman, B., Zeng, Y., and Zhao, M.: The GFDL Earth System Model Version 4.1 (GFDL-ESM 4.1): Overall Coupled Model Description and Simulation Characteristics, J. Adv. Model. Earth Syst., 12, 10.1029/2019ms002015, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization</title>
+<author>
+<persname><forename type="first">V</forename><surname>Eyring</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Bony</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Meehl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Senior</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Stevens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Stouffer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">E</forename><surname>Taylor</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmd-9-1937-2016</idno>
+</analytic>
+<monogr>
+<title level="j">Geosci. Model Dev</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="1937" to="1958" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Eyring, V., Bony, S., Meehl, G. A., Senior, C. A., Stevens, B., Stouffer, R. J., and Taylor, K. E.: Overview of the Coupled Model Intercomparison Project Phase 6 (CMIP6) experimental design and organization, Geosci. Model Dev., 9, 1937-1958, 10.5194/gmd-9-1937-2016, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">On the climate sensitivity and historical warming evolution in recent coupled model ensembles</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Flynn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Mauritsen</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-20-7829-2020</idno>
+</analytic>
+<monogr>
+<title level="j">Atmos. Chem. Phys</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="7829" to="7842" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Flynn, C. M. and Mauritsen, T.: On the climate sensitivity and historical warming evolution in recent coupled model ensembles, Atmos. Chem. Phys., 20, 7829-7842, 10.5194/acp-20-7829-2020, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">The Detection and Attribution Model Intercomparison Project (DAMIP v1.0) contribution to CMIP6</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">P</forename><surname>Gillett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Shiogama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Funke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Hegerl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Knutti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Matthes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">D</forename><surname>Santer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Stone</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Tebaldi</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmd-9-3685-2016</idno>
+</analytic>
+<monogr>
+<title level="j">Geosci. Model Dev</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="3685" to="3697" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gillett, N. P., Shiogama, H., Funke, B., Hegerl, G., Knutti, R., Matthes, K., Santer, B. D., Stone, D., and Tebaldi, C.: The Detection and Attribution Model Intercomparison Project (DAMIP v1.0) contribution to CMIP6, Geosci. Model Dev., 9, 3685-3697, 10.5194/gmd-9-3685-2016, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Structure and Performance of GFDL's CM4.0 Climate Model</title>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">M</forename><surname>Held</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Guo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Adcroft</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Dunne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">W</forename><surname>Horowitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Krasting</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Shevliakova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Winton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Zhao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bushuk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">T</forename><surname>Wittenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Wyman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Xiang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Anderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Balaji</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Donner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Dunne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Durachta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">P G</forename><surname>Gauthier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Ginoux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Golaz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Griffies</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Hallberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Harris</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Harrison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Hurlin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>John</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Lin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Malyshev</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Menzel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">C D</forename><surname>Milly</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Ming</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Naik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Paynter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Paulot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Rammaswamy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Reichl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Robinson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Rosati</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Seman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">G</forename><surname>Silvers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Underwood</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Zadeh</surname></persname>
+</author>
+<idno type="DOI">10.1029/2019ms001829</idno>
+</analytic>
+<monogr>
+<title level="j">J. Adv. Model. Earth Syst</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="3691" to="3727" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Held, I. M., Guo, H., Adcroft, A., Dunne, J. P., Horowitz, L. W., Krasting, J., Shevliakova, E., Winton, M., Zhao, M., Bushuk, M., Wittenberg, A. T., Wyman, B., Xiang, B., Zhang, R., Anderson, W., Balaji, V., Donner, L., Dunne, K., Durachta, J., Gauthier, P. P. G., Ginoux, P., Golaz, J. C., Griffies, S. M., Hallberg, R., Harris, L., Harrison, M., Hurlin, W., John, J., Lin, P., Lin, S. J., Malyshev, S., Menzel, R., Milly, P. C. D., Ming, Y., Naik, V., Paynter, D., Paulot, F., Rammaswamy, V., Reichl, B., Robinson, T., Rosati, A., Seman, C., Silvers, L. G., Underwood, S., and Zadeh, N.: Structure and Performance of GFDL's CM4.0 Climate Model, J. Adv. Model. Earth Syst., 11, 3691-3727, 10.1029/2019ms001829, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">CC BY 4.0 License. Set of Sea Surface Temperature Change From 1850: The Met Office Hadley Centre HadSST.4.0.0.0 Data Set</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Kennedy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">A</forename><surname>Rayner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">P</forename><surname>Atkinson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">E</forename><surname>Killick</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-2021-570Preprint</idno>
+<idno>10.1029/2018jd029867</idno>
+<ptr target="https://doi.org/10.5194/acp-2021-570Preprint"></ptr>
+</analytic>
+<monogr>
+<title level="m">An Ensemble Data</title>
+<imprint>
+<date type="published" when="2019">July 2021 c Author. 2021. 2019</date>
+<biblscope unit="volume">124</biblscope>
+<biblscope from="7719" to="7763" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Kennedy, J. J., Rayner, N. A., Atkinson, C. P., and Killick, R. E.: An Ensemble Data https://doi.org/10.5194/acp-2021-570 Preprint. Discussion started: 15 July 2021 c Author(s) 2021. CC BY 4.0 License. Set of Sea Surface Temperature Change From 1850: The Met Office Hadley Centre HadSST.4.0.0.0 Data Set, Journal of Geophysical Research-Atmospheres, 124, 7719-7763, 10.1029/2018jd029867, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Global indirect aerosol effects: a review</title>
+<author>
+<persname><forename type="first">U</forename><surname>Lohmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Feichter</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-5-715-2005</idno>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope from="715" to="737" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lohmann, U. and Feichter, J.: Global indirect aerosol effects: a review, Atmospheric Chemistry and Physics, 5, 715-737, 10.5194/acp-5-715-2005, 2005.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Regional and global trends in sulfate aerosol since the 1980s</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">T</forename><surname>Manktelow</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">W</forename><surname>Mann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Carslaw</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">V</forename><surname>Spracklen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Chipperfield</surname></persname>
+</author>
+<idno type="DOI">10.1029/2006gl028668</idno>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Manktelow, P. T., Mann, G. W., Carslaw, K. S., Spracklen, D. V., and Chipperfield, M. P.: Regional and global trends in sulfate aerosol since the 1980s, Geophysical Research Letters, 34, 10.1029/2006gl028668, 2007.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Developments in the MPI-M Earth System Model version 1.2 (MPI-ESM1.2) and Its Response to Increasing CO2</title>
+<author>
+<persname><forename type="first">T</forename><surname>Mauritsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Bader</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Becker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Behrens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bittner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Brokopf</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Brovkin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Claussen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Crueger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Esch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Fast</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Fiedler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Flaeschner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Gayler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Giorgetta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">S</forename><surname>Goll</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Haak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hagemann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Hedemann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Hohenegger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Ilyina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Jahns</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jimenez-De-La-Cuesta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Jungclaus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kleinen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Kloster</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Kracher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Kinne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Kleberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Lasslop</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Kornblueh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Marotzke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Matei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Meraner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Mikolajewicz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Modali</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Moebis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">A</forename><surname>Muellner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E M S</forename><surname>Nabel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">C W</forename><surname>Nam</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Notz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S.-S</forename><surname>Nyawira</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Paulsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Peters</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Pincus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Pohlmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Pongratz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Popp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Raddatz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Rast</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Redler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">H</forename><surname>Reick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Rohrschneider</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Schemann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Schmidt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Schnur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Schulzweida</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">D</forename><surname>Six</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Stein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Stemmler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Stevens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-S</forename><surname>Von Storch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Tian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Voigt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Vrese</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K.-H</forename><surname>Wieners</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Wilkenskjeld</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Winkler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Roeckner</surname></persname>
+</author>
+<idno type="DOI">10.1029/2018ms001400</idno>
+</analytic>
+<monogr>
+<title level="j">J. Adv. Model. Earth Syst</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="998" to="1038" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mauritsen, T., Bader, J., Becker, T., Behrens, J., Bittner, M., Brokopf, R., Brovkin, V., Claussen, M., Crueger, T., Esch, M., Fast, I., Fiedler, S., Flaeschner, D., Gayler, V., Giorgetta, M., Goll, D. S., Haak, H., Hagemann, S., Hedemann, C., Hohenegger, C., Ilyina, T., Jahns, T., Jimenez-de-la-Cuesta, D., Jungclaus, J., Kleinen, T., Kloster, S., Kracher, D., Kinne, S., Kleberg, D., Lasslop, G., Kornblueh, L., Marotzke, J., Matei, D., Meraner, K., Mikolajewicz, U., Modali, K., Moebis, B., Muellner, W. A., Nabel, J. E. M. S., Nam, C. C. W., Notz, D., Nyawira, S.-S., Paulsen, H., Peters, K., Pincus, R., Pohlmann, H., Pongratz, J., Popp, M., Raddatz, T. J., Rast, S., Redler, R., Reick, C. H., Rohrschneider, T., Schemann, V., Schmidt, H., Schnur, R., Schulzweida, U., Six, K. D., Stein, L., Stemmler, I., Stevens, B., von Storch, J.-S., Tian, F., Voigt, A., Vrese, P., Wieners, K.-H., Wilkenskjeld, S., Winkler, A., and Roeckner, E.: Developments in the MPI-M Earth System Model version 1.2 (MPI-ESM1.2) and Its Response to Increasing CO2, J. Adv. Model. Earth Syst., 11, 998-1038, 10.1029/2018ms001400, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Context for interpreting equilibrium climate sensitivity and transient climate response from the CMIP6 Earth system models</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Meehl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Senior</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Eyring</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Flato</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-F</forename><surname>Lamarque</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Stouffer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">E</forename><surname>Taylor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Schlund</surname></persname>
+</author>
+<idno type="DOI">10.1126/sciadv.aba1981</idno>
+</analytic>
+<monogr>
+<title level="j">Science Advances</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Meehl, G. A., Senior, C. A., Eyring, V., Flato, G., Lamarque, J.-F., Stouffer, R. J., Taylor, K. E., and Schlund, M.: Context for interpreting equilibrium climate sensitivity and transient climate response from the CMIP6 Earth system models, Science Advances, 6, 10.1126/sciadv.aba1981, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Climate response to increasing levels of greenhouse gases and sulphate aerosols</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">F B</forename><surname>Mitchell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">C</forename><surname>Johns</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Gregory</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">F B</forename><surname>Tett</surname></persname>
+</author>
+<idno type="DOI">10.1038/376501a0</idno>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">376</biblscope>
+<biblscope from="501" to="504" unit="page"></biblscope>
+<date type="published" when="1995">1995</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mitchell, J. F. B., Johns, T. C., Gregory, J. M., and Tett, S. F. B.: Climate response to increasing levels of greenhouse gases and sulphate aerosols, Nature, 376, 501-504, 10.1038/376501a0, 1995.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">An Updated Assessment of Near-Surface Temperature Change From 1850: The HadCRUT5 Data Set</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">P</forename><surname>Morice</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Kennedy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">A</forename><surname>Rayner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Winn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Hogan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">E</forename><surname>Killick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J H</forename><surname>Dunn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Osborn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">D</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">R</forename><surname>Simpson</surname></persname>
+</author>
+<idno type="DOI">10.1029/2019jd032361</idno>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research-Atmospheres</title>
+<imprint>
+<biblscope unit="volume">126</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Morice, C. P., Kennedy, J. J., Rayner, N. A., Winn, J. P., Hogan, E., Killick, R. E., Dunn, R. J. H., Osborn, T. J., Jones, P. D., and Simpson, I. R.: An Updated Assessment of Near-Surface Temperature Change From 1850: The HadCRUT5 Data Set, Journal of Geophysical Research-Atmospheres, 126, 10.1029/2019jd032361, 2021.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Anthropogenic and Natural Radiative Forcing</title>
+<author>
+<persname><forename type="first">G</forename><surname>Myhre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Shindell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F.-M</forename><surname>Bréon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Fuglestvedt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Koch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-F</forename><surname>Lamarque</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Mendoza</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Nakajima</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Robock</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Stephens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Takemura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Zhang</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Climate Change 2013: The Physical Science Basis</title>
+<imprint></imprint>
+</monogr>
+<note>Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</note>
+<note type="raw_reference">Myhre, G., D. Shindell, F.-M. Bréon, W. Collins, J. Fuglestvedt, J. Huang, D. Koch, J.-F. Lamarque, D. Lee, B. Mendoza, T. Nakajima, A. Robock, G. Stephens, T. Takemura and H. Zhang: Anthropogenic and Natural Radiative Forcing, in: Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change [</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<monogr>
+<title></title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">F</forename><surname>Stocker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Qin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G.-K</forename><surname>Plattner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Tignor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">K</forename><surname>Allen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Boschung</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename></persname>
+</author>
+<editor>Nauels, Y. Xia, V. Bex and P.M. Midgley</editor>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<pubplace>Cambridge, United Kingdom and New York, NY, USA</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Stocker, T.F., D. Qin, G.-K. Plattner, M. Tignor, S.K. Allen, J. Boschung, A. Nauels, Y. Xia, V. Bex and P.M. Midgley (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<monogr>
+<title></title>
+<author>
+<persname><forename type="first">T</forename><surname>Noije</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Bergman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Sager</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>O'donnell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Makkonen</surname></persname>
+</author>
+<author>
+<persname><surname>Gonçalves-Ageitos</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-2021-570Preprint</idno>
+<ptr target="https://doi.org/10.5194/acp-2021-570Preprint"></ptr>
+<imprint>
+<date type="published" when="2021-07-15">15 July 2021 c</date>
+</imprint>
+</monogr>
+<note>Author(s) 2021. CC BY 4.0 License</note>
+<note type="raw_reference">Noije, T., Bergman, T., Sager, P., O'Donnell, D., Makkonen, R., Gonçalves-Ageitos, https://doi.org/10.5194/acp-2021-570 Preprint. Discussion started: 15 July 2021 c Author(s) 2021. CC BY 4.0 License.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">EC-Earth3-AerChem, a global climate model with interactive aerosols and atmospheric chemistry participating</title>
+<author>
+<persname><forename type="first">M</forename><surname>Döscher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Fladrich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Hardenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Keskinen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-P</forename><surname>Korhonen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Laakso</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Myriokefalitakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ollinaho</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Pérez García-Pando</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Reerink</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Schrödner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Wyser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename></persname>
+</author>
+<idno type="DOI">10.5194/gmd-2020-413</idno>
+</analytic>
+<monogr>
+<title level="j">CMIP</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M., Döscher, R., Fladrich, U., Hardenberg, J., Keskinen, J.-P., Korhonen, H., Laakso, A., Myriokefalitakis, S., Ollinaho, P., Pérez García-Pando, C., Reerink, T., Schrödner, R., Wyser, K., and Yang, S.: EC-Earth3-AerChem, a global climate model with interactive aerosols and atmospheric chemistry participating in CMIP6, 10.5194/gmd-2020-413, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Land Surface Air Temperature Variations Across the Globe Updated to 2019: The CRUTEM5 Data Set</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Osborn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">D</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">H</forename><surname>Lister</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">P</forename><surname>Morice</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">R</forename><surname>Simpson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Winn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Hogan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">C</forename><surname>Harris</surname></persname>
+</author>
+<idno type="DOI">10.1029/2019JD032352</idno>
+<ptr target="https://doi.org/10.1029/2019JD032352"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">126</biblscope>
+<biblscope unit="page">32352</biblscope>
+<date type="published" when="2019">2019. 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Osborn, T. J., Jones, P. D., Lister, D. H., Morice, C. P., Simpson, I. R., Winn, J. P., Hogan, E., and Harris, I. C.: Land Surface Air Temperature Variations Across the Globe Updated to 2019: The CRUTEM5 Data Set, Journal of Geophysical Research: Atmospheres, 126, e2019JD032352, https://doi.org/10.1029/2019JD032352, 2021.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Air Pollution, Greenhouse Gases and Climate Change: Global and Regional Perspectives</title>
+<author>
+<persname><forename type="first">V</forename><surname>Ramanathan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Feng</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.atmosenv.2008.09.063</idno>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Environment</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope from="37" to="50" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ramanathan, V. and Feng, Y.: Air Pollution, Greenhouse Gases and Climate Change: Global and Regional Perspectives, Atmospheric Environment, 43, 37-50, 10.1016/j.atmosenv.2008.09.063, 2009.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Overview of the Norwegian Earth System Model (NorESM2) and key climate response of CMIP6 DECK, historical, and scenario simulations</title>
+<author>
+<persname><forename type="first">Ø</forename><surname>Seland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bentsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Olivié</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Toniazzo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gjermundsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">S</forename><surname>Graff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Debernard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">K</forename><surname>Gupta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y.-C</forename><surname>He</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kirkevåg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Schwinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Tjiputra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Aas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Bethke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Fan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Griesfeller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Grini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Guo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ilicak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">H H</forename><surname>Karset</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Landgren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Liakka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">O</forename><surname>Moseid</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Nummelin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Spensberger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Tang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Heinze</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Iversen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Schulz</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmd-13-6165-2020,2020</idno>
+<ptr target="https://doi.org/10.5194/gmd-13-6165-2020,2020"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geosci. Model Dev</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="6165" to="6200" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Seland, Ø., Bentsen, M., Olivié, D., Toniazzo, T., Gjermundsen, A., Graff, L. S., Debernard, J. B., Gupta, A. K., He, Y.-C., Kirkevåg, A., Schwinger, J., Tjiputra, J., Aas, K. S., Bethke, I., Fan, Y., Griesfeller, J., Grini, A., Guo, C., Ilicak, M., Karset, I. H. H., Landgren, O., Liakka, J., Moseid, K. O., Nummelin, A., Spensberger, C., Tang, H., Zhang, Z., Heinze, C., Iversen, T., and Schulz, M.: Overview of the Norwegian Earth System Model (NorESM2) and key climate response of CMIP6 DECK, historical, and scenario simulations, Geosci. Model Dev., 13, 6165-6200, https://doi.org/10.5194/gmd-13-6165-2020, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">UKESM1: Description and Evaluation of the UK Earth System Model</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Sellar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">G</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Mulcahy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Tang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Yool</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Wiltshire</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>O'connor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Stringer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Hill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Palmieri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Woodward</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>De Mora</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kuhlbrodt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">T</forename><surname>Rumbold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">I</forename><surname>Kelley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ellis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">E</forename><surname>Johnson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Walton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">L</forename><surname>Abraham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">B</forename><surname>Andrews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Andrews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">T</forename><surname>Archibald</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Berthou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Burke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Blockley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Carslaw</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Dalvi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Edwards</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Folberth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Gedney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">T</forename><surname>Griffiths</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">B</forename><surname>Harper</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Hendry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Hewitt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Johnson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">D</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Keeble</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Liddicoat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Morgenstern</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Parker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Predoi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Robertson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Siahaan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">S</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Swaminathan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">T</forename><surname>Woodhouse</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Zeng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Zerroukat</surname></persname>
+</author>
+<idno type="DOI">10.1029/2019ms001739</idno>
+</analytic>
+<monogr>
+<title level="j">J. Adv. Model. Earth Syst</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="4513" to="4558" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sellar, A. A., Jones, C. G., Mulcahy, J. P., Tang, Y., Yool, A., Wiltshire, A., O'Connor, F. M., Stringer, M., Hill, R., Palmieri, J., Woodward, S., de Mora, L., Kuhlbrodt, T., Rumbold, S. T., Kelley, D. I., Ellis, R., Johnson, C. E., Walton, J., Abraham, N. L., Andrews, M. B., Andrews, T., Archibald, A. T., Berthou, S., Burke, E., Blockley, E., Carslaw, K., Dalvi, M., Edwards, J., Folberth, G. A., Gedney, N., Griffiths, P. T., Harper, A. B., Hendry, M. A., Hewitt, A. J., Johnson, B., Jones, A., Jones, C. D., Keeble, J., Liddicoat, S., Morgenstern, O., Parker, R. J., Predoi, V., Robertson, E., Siahaan, A., Smith, R. S., Swaminathan, R., Woodhouse, M. T., Zeng, G., and Zerroukat, M.: UKESM1: Description and Evaluation of the UK Earth System Model, J. Adv. Model. Earth Syst., 11, 4513-4558, 10.1029/2019ms001739, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Climate response to regional radiative forcing during the twentieth century</title>
+<author>
+<persname><forename type="first">D</forename><surname>Shindell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Faluvegi</surname></persname>
+</author>
+<idno type="DOI">10.1038/ngeo473</idno>
+</analytic>
+<monogr>
+<title level="j">Nat. Geosci</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="294" to="300" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Shindell, D. and Faluvegi, G.: Climate response to regional radiative forcing during the twentieth century, Nat. Geosci., 2, 294-300, 10.1038/ngeo473, 2009.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">MACv2-SP: a parameterization of anthropogenic aerosol optical properties and an associated Twomey effect for use in CMIP6</title>
+<author>
+<persname><forename type="first">B</forename><surname>Stevens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Fiedler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Kinne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Peters</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Rast</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Muesse</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Mauritsen</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmd-10-433-2017</idno>
+</analytic>
+<monogr>
+<title level="j">Geoscientific Model Development</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope from="433" to="452" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stevens, B., Fiedler, S., Kinne, S., Peters, K., Rast, S., Muesse, J., Smith, S. J., and Mauritsen, T.: MACv2-SP: a parameterization of anthropogenic aerosol optical properties and an associated Twomey effect for use in CMIP6, Geoscientific Model Development, 10, 433-452, 10.5194/gmd-10-433-2017, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Tropospheric temperature trends: history of an ongoing controversy</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">W</forename><surname>Thorne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Lanzante</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">C</forename><surname>Peterson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Seidel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">P</forename><surname>Shine</surname></persname>
+</author>
+<idno type="DOI">10.1002/wcc.80</idno>
+</analytic>
+<monogr>
+<title level="j">Wiley Interdisciplinary Reviews-Climate Change</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="66" to="88" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thorne, P. W., Lanzante, J. R., Peterson, T. C., Seidel, D. J., and Shine, K. P.: Tropospheric temperature trends: history of an ongoing controversy, Wiley Interdisciplinary Reviews-Climate Change, 2, 66-88, 10.1002/wcc.80, 2011.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<monogr>
+<title level="m" type="main">The Discovery of Global Warming, Bibliovault OAI Repository</title>
+<author>
+<persname><forename type="first">S</forename><surname>Weart</surname></persname>
+</author>
+<idno type="DOI">10.2307/3986102</idno>
+<imprint>
+<date type="published" when="2008">2008</date>
+<publisher>the University of Chicago Press</publisher>
+<biblscope unit="volume">9</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Weart, S.: The Discovery of Global Warming, Bibliovault OAI Repository, the University of Chicago Press, 9, 10.2307/3986102, 2008.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">CC BY 4.0 License. aerosol on multi-decadal variations of historical global climate</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">J</forename><surname>Wilcox</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">J</forename><surname>Highwood</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">J</forename><surname>Dunstone</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-2021-570Preprint</idno>
+<idno>10.1088/1748-9326/8/2/024033</idno>
+<ptr target="https://doi.org/10.5194/acp-2021-570Preprint"></ptr>
+</analytic>
+<monogr>
+<title level="m">The influence of anthropogenic</title>
+<imprint>
+<date type="published" when="2013">July 2021 c Author. 2021. 2013</date>
+<biblscope unit="volume">8</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Wilcox, L. J., Highwood, E. J., and Dunstone, N. J.: The influence of anthropogenic https://doi.org/10.5194/acp-2021-570 Preprint. Discussion started: 15 July 2021 c Author(s) 2021. CC BY 4.0 License. aerosol on multi-decadal variations of historical global climate, Environmental Research Letters, 8, 10.1088/1748-9326/8/2/024033, 2013.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Quantifying sources of inter-model diversity in the cloud albedo effect</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">J</forename><surname>Wilcox</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">J</forename><surname>Highwood</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">B B</forename><surname>Booth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Carslaw</surname></persname>
+</author>
+<idno type="DOI">10.1002/2015gl063301</idno>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope from="1568" to="1575" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wilcox, L. J., Highwood, E. J., Booth, B. B. B., and Carslaw, K. S.: Quantifying sources of inter-model diversity in the cloud albedo effect, Geophysical Research Letters, 42, 1568-1575, 10.1002/2015gl063301, 2015.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">The Met Office Global Coupled Model 3.0 and 3.1 (GC3.0 and GC3.1Configurations</title>
+<author>
+<persname><forename type="first">K</forename><surname>Williams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Copsey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Blockley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bodas-Salcedo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Calvert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Comer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Davis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Graham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Hewitt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Hill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Hyder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ineson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Johns</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Keen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Megann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Milton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Rae</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Roberts</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Xavier</surname></persname>
+</author>
+<idno>.1002/2017MS001115</idno>
+</analytic>
+<monogr>
+<title level="j">J. Adv. Model. Earth Syst</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="page">10</biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Williams, K., Copsey, D., Blockley, E., Bodas-Salcedo, A., Calvert, D., Comer, R., Davis, P., Graham, T., Hewitt, H., Hill, R., Hyder, P., Ineson, S., Johns, T., Keen, B., Lee, R., Megann, A., Milton, S., Rae, J., Roberts, M., and Xavier, P.: The Met Office Global Coupled Model 3.0 and 3.1 (GC3.0 and GC3.1Configurations, J. Adv. Model. Earth Syst., 10, 10.1002/2017MS001115, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Anthropogenic impact on Earth's hydrological cycle</title>
+<author>
+<persname><forename type="first">P</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Christidis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Stott</surname></persname>
+</author>
+<idno type="DOI">10.1038/nclimate1932</idno>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope from="807" to="810" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wu, P., Christidis, N., and Stott, P.: Anthropogenic impact on Earth's hydrological cycle, Nature Climate Change, 3, 807-810, 10.1038/nclimate1932, 2013.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">New insights into natural variability and anthropogenic forcing of global/regional climate evolution</title>
+<author>
+<persname><forename type="first">T</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Hu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Gao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Meehl</surname></persname>
+</author>
+<idno>.1038/s41612-019-0075-7</idno>
+</analytic>
+<monogr>
+<title level="j">npj Climate and Atmospheric Science</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="page">10</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wu, T., Hu, A., Gao, F., Zhang, J., and Meehl, G.: New insights into natural variability and anthropogenic forcing of global/regional climate evolution, npj Climate and Atmospheric Science, 2, 10.1038/s41612-019-0075-7, 2019a.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Beijing Climate Center Earth System Model version 1 (BCC-ESM1): model description and evaluation of aerosol simulations</title>
+<author>
+<persname><forename type="first">T</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Jie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Yan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Lu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Tan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Hu</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmd-13-977-2020</idno>
+</analytic>
+<monogr>
+<title level="j">Geosci. Model Dev</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="977" to="1005" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wu, T., Zhang, F., Zhang, J., Jie, W., Zhang, Y., Wu, F., Li, L., Yan, J., Liu, X., Lu, X., Tan, H., Zhang, L., Wang, J., and Hu, A.: Beijing Climate Center Earth System Model version 1 (BCC-ESM1): model description and evaluation of aerosol simulations, Geosci. Model Dev., 13, 977-1005, 10.5194/gmd-13-977-2020, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">The Beijing Climate Center Climate System Model (BCC-CSM): the main progress from CMIP5 to CMIP6</title>
+<author>
+<persname><forename type="first">T</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Lu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Fang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Xin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Jie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Chu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Shi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Wei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Liu</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmd-12-1573-2019</idno>
+</analytic>
+<monogr>
+<title level="j">Geosci. Model Dev</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope from="1573" to="1600" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wu, T., Lu, Y., Fang, Y., Xin, X., Li, L., Li, W., Jie, W., Zhang, J., Liu, Y., Zhang, L., Zhang, F., Zhang, Y., Wu, F., Li, J., Chu, M., Wang, Z., Shi, X., Liu, X., Wei, M., Huang, A., Zhang, Y., and Liu, X.: The Beijing Climate Center Climate System Model (BCC-CSM): the main progress from CMIP5 to CMIP6, Geosci. Model Dev., 12, 1573-1600, 10.5194/gmd-12-1573-2019, 2019b.</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Spin-up of UK Earth System Model 1 (UKESM1) for CMIP6</title>
+<author>
+<persname><forename type="first">A</forename><surname>Yool</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Palmieri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">G</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Sellar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>De Mora</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kuhlbrodt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">E</forename><surname>Popova</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Mulcahy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Wiltshire</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">T</forename><surname>Rumbold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Stringer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">S R</forename><surname>Hill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Tang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Walton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Blaker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J G</forename><surname>Nurser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Coward</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hirschi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Woodward</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">I</forename><surname>Kelley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ellis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Rumbold-Jones</forename></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename></persname>
+</author>
+<idno>.1029/2019ms001933</idno>
+</analytic>
+<monogr>
+<title level="j">J. Adv. Model. Earth Syst</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="page">10</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Yool, A., Palmieri, J., Jones, C. G., Sellar, A. A., de Mora, L., Kuhlbrodt, T., Popova, E. E., Mulcahy, J. P., Wiltshire, A., Rumbold, S. T., Stringer, M., Hill, R. S. R., Tang, Y., Walton, J., Blaker, A., Nurser, A. J. G., Coward, A. C., Hirschi, J., Woodward, S., Kelley, D. I., Ellis, R., and Rumbold-Jones, S.: Spin-up of UK Earth System Model 1 (UKESM1) for CMIP6, J. Adv. Model. Earth Syst., 12, 10.1029/2019ms001933, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">BCC-ESM1 Model Datasets for the CMIP6 Aerosol Chemistry Model Intercomparison Project (AerChemMIP)</title>
+<author>
+<persname><forename type="first">J</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Furtado</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Xin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Shi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Chu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Q</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Yan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Wei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Q</forename><surname>Ma</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00376-020-0151-2</idno>
+<ptr target="https://doi.org/10.5194/acp-2021-570Preprint"></ptr>
+</analytic>
+<monogr>
+<title level="j">Advances in Atmospheric Sciences</title>
+<imprint>
+<biblscope unit="volume">38</biblscope>
+<biblscope from="317" to="328" unit="page"></biblscope>
+<date type="published" when="2021-07-15">2021. 15 July 2021</date>
+</imprint>
+</monogr>
+<note>c Author(s) 2021. CC BY 4.0 License</note>
+<note type="raw_reference">Zhang, J., Wu, T., Zhang, F., Furtado, K., Xin, X., Shi, X., Li, J., Chu, M., Zhang, L., Liu, Q., Yan, J., Wei, M., and Ma, Q.: BCC-ESM1 Model Datasets for the CMIP6 Aerosol Chemistry Model Intercomparison Project (AerChemMIP), Advances in Atmospheric Sciences, 38, 317-328, 10.1007/s00376-020-0151-2, 2021. https://doi.org/10.5194/acp-2021-570 Preprint. Discussion started: 15 July 2021 c Author(s) 2021. CC BY 4.0 License.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

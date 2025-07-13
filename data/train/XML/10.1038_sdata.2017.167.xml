@@ -1,0 +1,599 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="data-paper"><?DTDIdentifier.IdentifierValue -//NPG//DTD XML Article//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName NPG_XML_Article.dtd?><?SourceDTD.Version 2.7.10?><?ConverterInfo.XSLTName nature2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Data</journal-id><journal-id journal-id-type="iso-abbrev">Sci Data</journal-id><journal-title-group><journal-title>Scientific Data</journal-title></journal-title-group><issn pub-type="epub">2052-4463</issn><publisher><publisher-name>Nature Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5663207</article-id><article-id pub-id-type="pii">sdata2017167</article-id><article-id pub-id-type="doi">10.1038/sdata.2017.167</article-id><article-categories><subj-group subj-group-type="heading"><subject>Data Descriptor</subject></subj-group></article-categories><title-group><article-title>A dataset quantifying polypharmacy in the United
+States</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Quinn</surname><given-names>Katie J.</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Shah</surname><given-names>Nigam H.</given-names></name><xref ref-type="aff" rid="a1">1</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9385-7158</contrib-id></contrib><aff id="a1"><label>1</label><institution>Stanford Center for Biomedical Informatics
+Research</institution>, Stanford,
+California, CA 94305,
+<country>USA</country></aff></contrib-group><author-notes><corresp id="c1"><label>a</label>
+K.Q. (email: <email>katiequinn@stanford.edu</email>).</corresp></author-notes><pub-date pub-type="epub"><day>31</day><month>10</month><year>2017</year></pub-date><pub-date pub-type="collection"><year>2017</year></pub-date><volume>4</volume><elocation-id>170167</elocation-id><history><date date-type="received"><day>18</day><month>08</month><year>2017</year></date><date date-type="accepted"><day>29</day><month>09</month><year>2017</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2017, The Author(s)</copyright-statement><copyright-year>2017</copyright-year><copyright-holder>The Author(s)</copyright-holder><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><!--author-paid--><license-p><bold>Open Access</bold> This article is licensed under a Creative
+Commons Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source,
+provide a link to the Creative Commons license, and indicate if changes were
+made. The images or other third party material in this article are included
+in the article&#x02019;s Creative Commons license, unless indicated
+otherwise in a credit line to the material. If material is not included in
+the article&#x02019;s Creative Commons license and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder. To view a copy
+of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> The Creative
+Commons Public Domain Dedication waiver <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link> applies to
+the metadata files made available in this article.
+</license-p></license></permissions><abstract><p>Polypharmacy is increasingly common in the United States, and contributes to the
+substantial burden of drug-related morbidity. Yet real-world polypharmacy
+patterns remain poorly characterized. We have counted the incidence of
+multi-drug combinations observed in four billion patient-months of outpatient
+prescription drug claims from 2007&#x02013;2014 in the Truven Health
+MarketScan&#x000ae; Databases. Prescriptions are grouped into discrete windows
+of concomitant drug exposure, which are used to count exposure incidences for
+combinations of up to five drug ingredients or ATC drug classes. Among patients
+taking any prescription drug, half are exposed to two or more drugs, and 5% are
+exposed to 8 or more. The most common multi-drug combinations treat
+manifestations of metabolic syndrome. Patients are exposed to unique drug
+combinations in 10% of all exposure windows. Our analysis of multi-drug exposure
+incidences provides a detailed summary of polypharmacy in a large US cohort,
+which can prioritize common drug combinations for future safety and efficacy
+studies.</p></abstract><kwd-group kwd-group-type="npg.subject"><title>Subject terms</title><kwd>Data integration</kwd><kwd>Data mining</kwd><kwd>Drug therapy</kwd><kwd>Pharmacology</kwd></kwd-group></article-meta></front><body><sec disp-level="1"><title>Background and Summary</title><p>Concomitant use of multiple prescription drugs (&#x02018;polypharmacy&#x02018;) is
+increasingly common, with 10% of the population<sup><xref ref-type="bibr" rid="b1">1</xref>,<xref ref-type="bibr" rid="b2">2</xref></sup> and 30% of older
+adults in the United States taking five or more drugs simultaneously<sup><xref ref-type="bibr" rid="b1">1&#x02013;3</xref></sup>. Similarly high
+prevalence is reported in other countries (e.g., the United Kingdom<sup><xref ref-type="bibr" rid="b4">4</xref></sup>, Sweden<sup><xref ref-type="bibr" rid="b5">5</xref></sup>, China<sup><xref ref-type="bibr" rid="b6">6</xref></sup>, Brazil<sup><xref ref-type="bibr" rid="b7">7</xref></sup>, and
+India<sup><xref ref-type="bibr" rid="b8">8</xref></sup>. The prevalence of
+polypharmacy is driven by high rates of comorbidities (in the United States in 2012,
+26% of all adults, and 61% of adults over 65 years of age had two or more chronic
+conditions<sup><xref ref-type="bibr" rid="b9">9</xref></sup>), and
+exacerbated by clinical practices enabling overprescription and insufficient
+monitoring<sup><xref ref-type="bibr" rid="b10">10</xref>,<xref ref-type="bibr" rid="b11">11</xref></sup>. Drug-related morbidity has become
+a substantial healthcare burden: in the United States, adverse drug reactions are
+prevalent (causing 4 hospitalizations per 1000 people each year<sup><xref ref-type="bibr" rid="b10">10</xref></sup>), serious (among top 10 common
+causes of death<sup><xref ref-type="bibr" rid="b12">12</xref></sup>), and expensive
+(with associated annual costs estimated at US$30billion<sup><xref ref-type="bibr" rid="b13">13</xref></sup> to US$180billion<sup><xref ref-type="bibr" rid="b14">14</xref></sup>).</p><p>Exposure to multiple drugs puts patients at additive risk of each single
+drug&#x02019;s potential adverse outcomes. In a study of an elderly cohort, the
+strongest predictor of a potentially harmful medication was the number of drug
+prescriptions<sup><xref ref-type="bibr" rid="b15">15</xref></sup>. But drugs
+can also interact to increase risk beyond &#x02018;the sum of the parts&#x02019;,
+either by canceling an intended drug action, enhancing existing risks, or creating
+new risks. It&#x02019;s estimated that over 20% of adverse drug reactions are due to
+underlying drug interactions<sup><xref ref-type="bibr" rid="b16">16</xref>,<xref ref-type="bibr" rid="b17">17</xref></sup>, and that risk of drug interaction
+increases with the number of drugs taken<sup><xref ref-type="bibr" rid="b18">18</xref></sup>. However, despite increasing awareness of morbidity related
+to polypharmacy, multi-drug exposure patterns remain poorly characterized.</p><p>Insurance claims records enable analysis of prescription practices in a large patient
+cohort, even for drug regimens that would be rare in smaller cohorts. The 21st
+Century Cures Act, enacted in December 2016, recognizes the value of, and mandates
+the use of, observational patient-experience data, such as insurance claims, for
+drug surveillance<sup><xref ref-type="bibr" rid="b19">19</xref></sup>. The relative
+strengths of insurance claims for characterizing population-level drug use are that
+data reflect prescriptions that are actually dispensed to the patient, and capture
+prescription information across very large cohorts. As for most sources of drug use
+data, whether patients actually ingested the drugs remains a limitation.</p><p>Here, we publish a dataset of multi-drug exposure incidence in a large insured cohort
+in the United States, both in terms of drug ingredients and drug classes. We analyze
+outpatient prescription drug claims from the Truven Health MarketScan&#x000ae;
+Research Databases, which contain health coverage records for over 100 million
+employees, dependents, and retirees in the United States from 2007&#x02013;2014,
+amounting to over 4 billion months of patient observation. <xref ref-type="table" rid="t1">Table 1</xref> summarizes relevant metrics of the database. Prior to
+our work, Sutherland <italic>et al.</italic> have reported on co-prescription trends
+using self-reported data from a small but nationally-representative cohort of 10,000
+NHANES participants. The frequency of some drug-pair exposures among elderly
+participants was also reported<sup><xref ref-type="bibr" rid="b2">2</xref></sup>. To
+our knowledge, ours is the first study to quantify the incidence of specific
+combinations of more than two drugs. <xref ref-type="fig" rid="f1">Figure 1</xref>
+summarizes our workflow of processing prescription drug claims into discrete
+exposure time-windows, and then counting concomitant drug exposures for drug
+ingredients and ATC-II drug classes.</p><p>This dataset will benefit researchers who study multi-drug safety or efficacy. The
+most common multi-drug combinations can be prioritized for subsequent studies of
+multi-drug safety or efficacy. As a side benefit, by mapping drugs to disease based
+on indications, the dataset can also provide a summary of comorbidities that drive
+the observed prescription trends.</p><p>This dataset will also benefit practitioners by enabling risk stratification of
+patients based on the multi-drug combinations they are on; for example, the dataset
+enables analyses identifying associations of specific drug combinations with health
+outcomes (such as emergency department visits), which could enable patient risk
+stratification at the time of medication reconciliation.</p><p>Ultimately combined analyses spanning both safety and risk stratification will enable
+systematic progress towards safe polypharmacy. With roughly 40 million individuals
+experiencing polypharmacy in the US and as many as 10% of all adults worldwide, the
+existence of such datasets is crucial for a data-driven quantification of which drug
+combinations are risky.</p></sec><sec disp-level="1"><title>Methods</title><sec disp-level="2"><title>Data source</title><p>Prescription drug claim data were derived from the Truven Health MarketScan 2007
+to 2014 Commercial Claims and Encounters and Medicare Supplemental and
+Coordination of Benefits Databases, which were accessed via the Stanford Center
+for Population Health Sciences Data Core. Further details about the Data Core
+and its operating procedures are available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://med.stanford.edu/phs/phs-data-center.html">http://med.stanford.edu/phs/phs-data-center.html</ext-link>. These
+databases represent the health services of approximately 100 million employees,
+dependents, and retirees in the United States with primary or Medicare
+supplemental coverage through privately insured fee-for-service,
+point-of-service, or capitated health plans. The Commercial Claims and
+Encounters, and Medicare Supplemental and Coordination of Benefits populations
+comprise 90 and 10% of the total cohort respectively, with a mean age of 33 and
+73 years and gender fraction of 49 and 45% male, creating a combined cohort with
+a mean age of 37 years and 48% male. Patients are observed for a median of 29
+months. We analyzed the outpatient prescription drug claims of 150 million
+patients over 4.3 billion months of patient enrollment. We focus on outpatient
+prescriptions since 90% of all prescriptions are in the outpatient
+setting<sup><xref ref-type="bibr" rid="b20">20</xref></sup>, and
+inpatient drug treatment patterns differ substantially.</p></sec><sec disp-level="2"><title>Drug list curation and drug mapping</title><p>We curated a set of 1429 drugs, defined by RxNORM ingredient level, by beginning
+with the 1165 drug ingredients occurring in all of DrugBank, RxNORM, and UMLS
+(previously curated in our lab<sup><xref ref-type="bibr" rid="b21">21</xref></sup>), adding drug ingredients occurring commonly in the Truven
+Health MarketScan Databases, and removing vaccines, and vitamins and minerals
+(which are more often obtained over-the-counter than by prescription).</p><p>Of this set of 1429 drug ingredients, 864 occur in the Truven Health MarketScan
+Database prescription claims. Drugs are identified in prescriptions using
+National Drug Codes (NDCs). We built a mapping of NDCs to RxNORM-defined drug
+ingredients using the NLM&#x02019;s RxMix API to match on strings containing
+drug names, first with strict matching (which maps the majority of NDCs with
+very low error), then with approximate string matching (which maps the remaining
+NDCs but requires manual validation of string matches).</p><p>Combination drugs (e.g., Norco) count as exposure to each drug ingredient (e.g.,
+acetaminophen and hydrocodone). The approximate drug cost per day was calculated
+as the median payment-per-days-supply for all patient orders of that drug. Drugs
+are also classified by Anatomical Therapeutic Chemical (ATC) class at the second
+level (&#x02018;therapeutic main group&#x02019;), by mapping RxNORM identifiers
+to ATC codes. The 864 unique drug ingredients in the dataset map to 79 unique
+second-level ATC classes.</p></sec><sec disp-level="2"><title>Extracting discrete exposure windows from drug prescriptions</title><p>To count concomitant drug exposures from prescription claims, we first scanned
+drug prescriptions into discrete exposure windows. We defined exposure periods
+as non-overlapping 30-day windows. We selected a 30-day window because it is the
+most common prescription duration, and thus a natural timescale for
+prescriptions. A patient is considered exposed to a drug starting from the date
+the prescription and for the duration of the days-of-supply. If any of those
+days overlap with a window, the patient is considered exposed in that window
+(<xref ref-type="fig" rid="f2">Fig. 2a</xref>). This method is
+computationally efficient and provides a good approximation of concomitant
+exposure.</p><p>As a known limitation, the method overestimates exposures, and thus concomitant
+exposures, if a patient does not take the prescription for its full duration. As
+shown in <xref ref-type="fig" rid="f2">Fig. 2b</xref>, non-overlapping windows
+introduce error when either: 1) non-concomitant prescriptions are separated by
+less than 30-&#x02009;days yet both overlap with a particular exposure window;
+or conversely 2) when prescriptions separated by only a few days fall into
+different exposure windows. We create exposure windows using a simple integer
+division of patient age-in-days by 30, which is computationally efficient.
+However this creates partial windows of observation at the beginning and end of
+each patient&#x02019;s eligibility period, with a mean duration of 15-days.
+Given that patients are observed for a median of 29 months, this error is
+present only in about 5% of windows. However, these 30-day non-overlapping
+windows simplify computation, with a low error rate, for the purposes of ranking
+the most common multi-drug exposures.</p><p>Using this method, individual patient prescription claims were converted into
+drug exposures in discrete windows (<xref ref-type="fig" rid="f1">Fig.
+1c</xref>), resulting in 5.1 billion drug exposures. This dataset was then used
+to count concomitant drug exposure.</p></sec><sec disp-level="2"><title>Counting concomitant multi-drug exposures</title><p>There are two ways to count multi-drug exposure: exposure to an
+&#x02018;exact&#x02019; set of drugs (and no additional drugs), and exposure to
+&#x02018;at least&#x02019; a particular set of N-drugs (which may or may not be
+taken with additional drugs). Each of these variants captures valuable
+information: &#x02018;exact&#x02019; counts quantify the absolute number of
+concomitant drug exposures, and how many patients are exposed to a precise sets
+of drugs; &#x02018;at least&#x02019; counts are important for knowing all
+patients exposed to any given drug combination. See example shown in <xref ref-type="fig" rid="f1">Fig. 1</xref>: Concomitant exposure to drug
+ingredients A (class Q), B (class Q), and C (class R) will contribute a count to
+A+B+C for &#x02018;exact&#x02019; drug ingredient exposure, and each of A, B, C,
+A+B, A+C, B+C, and A+B+C for &#x02018;at least&#x02019; drug exposure.</p><p>This method counted 220 million unique &#x02018;exact&#x02019; drug combinations
+exposures, with patients exposed to a median of 2 drugs and 95th-percentile of 8
+drugs per window (<xref ref-type="fig" rid="f3">Fig. 3a</xref>). In
+approximately 10% of windows, patients were exposed to a unique set of drugs,
+never observed elsewhere in the entire database. This is in agreement with a
+recent study of treatment pathways that found that 10% of diabetes and
+depression patients and almost 25% of hypertension patients received therapeutic
+regimens that were unique within a 250-million-large patient cohort<sup><xref ref-type="bibr" rid="b22">22</xref></sup>.</p><p>To count &#x02018;at least&#x02019; multi-drug exposures, we created a drug-based
+index to the summarized 220 million &#x02018;exact&#x02019; counts. (This
+required much less computation than indexing on the original 5.1 billion
+exposure windows.) We then performed an intersect operation for each
+&#x02018;at-least&#x02019; drug combination of interest. Counting all possible
+drug combinations is infeasible, and unnecessary since most combinations are
+never observed. The challenge was to create a list of N-drug combinations likely
+to have high concomitant exposures. We achieved this with a
+&#x02018;greedy&#x02019; approach of constructing N-drug combinations from
+N-minus-1 subset drug combinations observed in at least 1000 exposure windows,
+for each of N=2, 3, 4 and 5 drugs.</p><p>An additional metric of interest is the extent to which drug combinations are
+concomitant beyond what would be expected by chance, given their marginal
+frequencies. Drug combinations&#x02019; overrepresentation was defined as the
+ratio of the observed-to-expected drug combination incidence in two ways: first
+(for N&#x0003e;1) based on single-drug frequencies, which gives the overall
+overrepresentation; and second (for N&#x0003e;2) based on the minimum of each of
+N permutations of (N-1)+1 drug subsets, which is greater than the single-drug
+overrepresentation, and gives the overrepresentation of the drug combination
+beyond its subsets. (As an example, the co-incidence of drugs A+B+C is compared
+to the incidence expected by chance based on the incidences of drugs A+B and C,
+A+B and B, and B+C and A. The smallest overrepresentation is reported. The
+second method is only reported for N&#x0003e;2, because the two methods are
+equivalent for N=2.)</p><p>We repeated these computations of &#x02018;exact&#x02019; and &#x02018;at
+least&#x02019; exposure counts, and their overrepresentation, for the 79
+second-level ATC drug classes. Second-level ATC drug class names were extracted
+from the website of the WHO Collaborating Centre for Drug Statistics
+Methodology. Though one drug ingredient can map to multiple ATC classes, we
+count only the primary class. Continuing the example in <xref ref-type="fig" rid="f1">Fig. 1</xref>, concomitant exposure to drugs from classes Q and R
+would be counted as (iii) Q+R for &#x02018;exact&#x02019; drug class exposure,
+and (iv) Q, R, and Q+R for &#x02018;at least&#x02019; drug class exposure. (Note
+that drug classes are counted only once, even if a patient is taking two or more
+drugs from a particular class). This calculation yielded 39 million unique exact
+drug class exposures, with patients exposed to a median of 2 and 95th-percentile
+of 7 drug classes per window (<xref ref-type="fig" rid="f3">Fig. 3b</xref>).</p></sec><sec disp-level="2"><title>Code availability</title><p>Code used to generate the dataset is available on a public github repository
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/katieq/QuantifyingPolypharmacy">https://github.com/katieq/QuantifyingPolypharmacy</ext-link>). To avoid
+disclosing the format of the Truven Health Marketscan Databases, the code begins
+at the step of analyzing prescription data extracted into a data-frame with
+columns for a patient identifier, drug identifier, age of prescription, and days
+of supply.</p></sec></sec><sec disp-level="1"><title>Data Records</title><p>The dataset of exposure counts for drug and drug-class combinations is publicly
+available online at Dryad (Data Citation 1)
+in 12 tab-delimited data files and a README.txt file. The tab-delimited data files
+are outlined below and in <xref ref-type="table" rid="t2">Table 2</xref>. The
+accompanying README.txt file contains filenames and descriptions of file contents.
+Data files can be accessed directly by their associated URLs, for example by reading
+into R with the readr package&#x02019;s read_tsv function. <xref ref-type="table" rid="t2">Table 2</xref> summarizes attributes of the underlying patient claims
+data in the 2007&#x02013;2014 Truven Health MarketScan Commercial and Medicare
+Supplemental Databases.</p><sec disp-level="2"><title>Data Record 1: Drug ingredient combination exposure counts</title><p>Data Record 1 contains the exposure incidences for the most common combinations
+of <italic>N=1-to-5</italic> drugs in five files, with one row per combination.
+All single drugs (N=1) and drug pairs (N=2) are included; for N=3-to-5, drug
+combinations with at least 10,000 exposure counts are included. Exposure counts
+below 100 patient-windows are reported as &#x02018;&#x0003c;100&#x02019; to
+protect patient privacy. Each row contains <italic>N+5</italic> tab-delimited
+columns comprising: the name for each drug ingredient, the count of windows with
+concomitant exposure to this drug combination, potentially concomitant with
+additional drugs (<italic>atleast_exposure_count</italic>), the count of windows
+with concomitant exposure to this drug combination and no additional drugs
+(<italic>exact_exposure_count</italic>), the ratio of the two previous
+columns (<italic>fraction_exact</italic>), the ratio of the
+<italic>atleast_exposure_count</italic> to the total number of observed
+windows with any prescription (<italic>fraction_all_windows</italic>),
+overrepresentation beyond expected based on marginal frequencies of single drugs
+(<italic>observe_per_expect_1s</italic>) and (N-1)+1 drug subsets
+(<italic>observe_per_expect_N1</italic>), and an estimate of the daily cost
+of the drug combination (<italic>estimate_drug_combo_cost_per_day</italic>).</p></sec><sec disp-level="2"><title>Data Record 2: Drug class combination exposure counts</title><p>The contents of Data Record 2 are equivalent to Data Record 1, but for level-II
+ATC drug classes instead of drug ingredients. The record also contains five
+files for combinations of <italic>N=1-to-5</italic> drug classes, with one row
+per combination. As for Data Record 1, all single drug class (N=1) and drug
+class pairs (N=2) are included, and drug class combinations with at least 10,000
+exposure counts are included for N=3-to-5; exact exposure counts of less than
+100 are reported as &#x02018;&#x0003e;100&#x02019;. Columns are equivalent to
+Data Record 1&#x02019;s, with drug class names replacing drug ingredient names.
+However daily cost can not be calculated at the drug class level.</p></sec><sec disp-level="2"><title>Data Record 3: Drug mappings</title><p>Data Record 3 contains two tab-delimited files containing the list of 1429 drug
+ingredients and 93 corresponding ATC level-2 drug classes considered in this
+study. The drug ingredient file contains one drug per row sorted alphabetically
+by drug ingredient name, with five columns for the drug ingredient name, RxNorm
+CUI number, UMLS CUI, Drug Bank ID, ATC code, second-level ATC drug class name,
+and estimated median cost per day. The drug class mappings file contains one ATC
+level-2 drug class per row sorted alpha-numerically by ATC class, with two
+columns for the ATC code and name. (Thus the ATC level-2 class names in the drug
+ingredient file are redundant, but included for convenience).</p></sec></sec><sec disp-level="1"><title>Technical Validation</title><p>We validated our method in three ways. First, we compared our computational
+method&#x02019;s results to manual counting, by reading the dates and days-supply
+for a random sample of ten patients&#x02019; 260 drug prescriptions. The counts of
+concomitant drug exposures matched perfectly, indicating that our method does indeed
+accurately extract concomitant drug exposures as intended without errors in
+arithmetic.</p><p>Second, we conducted a sensitivity analysis on the duration of the discrete exposure
+window, by counting concomitant drug exposures in a random sample of 10,000 patients
+with an exposure window of 10, 20, 30, 40, 50, 60, and 90 days. Since all
+prescriptions are considered &#x02018;exposures&#x02019; for the entire duration of
+the window, longer windows slightly increase the mean drug exposure counts (average
+drug exposure count is 3.1, 3.2 and 3.8 for a 10-, 30-, or 90-day window
+respectively), and thus increase the relative incidence (i.e., ranking) of
+prescriptions with short-durations (e.g., antibiotics or short-term pain relief).
+Thus the choice of exposure window duration <italic>does</italic> affect the Data
+Records. Therefore we set the window duration equal to the most common prescription
+duration. Prescriptions in this claims database are most often for 30 days (50% of
+all prescriptions), with about 20% for 10 or fewer days. Thus a 30-day window is an
+appropriate timescale to capture changes in drug exposures.</p><p>Finally, we tested the sensitivity to cohort size, by comparing the drug combination
+incidence ranking obtained using the entire Truven Health MarketScan cohort
+(approximately 100 million patients) to a random sample of 100,000 (1e5) patients,
+and 1,000,000 (1e6) patients. As expected, analysis of smaller cohorts obtains a
+similar <italic>ranking</italic> of the common drug combinations, but inaccurately
+estimates the incidence, and thus the ranking, of rare drug combinations. In
+addition, smaller cohorts overestimate the patients exposed to unique drug
+combinations, never observed elsewhere in the database: In the complete cohort, 10%
+of drug combinations are observed only once, but in a cohort of 1e5 patients, that
+fraction is 20%. Thus while smaller cohorts are sufficient to rank the incidence of
+common drug combinations, a large patient cohort is required to accurately estimate
+the incidence of drug combinations.</p><sec disp-level="2"><title>Limitations</title><p>The accuracy of this dataset as a summary of multi-drug exposure incidences in
+the United States is limited to some extent by the underlying data source and
+our method of computation. The Truven Health MarketScan Research Databases
+cohort is commercial claims, and not a fully representative sample of the United
+States population. We examine drug exposure based on filled prescriptions, but
+patients may take none or only a fraction of the dispensed drugs. Since there is
+bias on adherence <italic>between</italic> drugs, this will introduce bias in
+the resulting single drug and drug combination incidences. However, billing data
+from filled prescriptions are more accurate than alternative sources, such as
+doctor&#x02019;s notes or prescription orders that may go unfilled.</p><p>We only observe and analyze prescription drugs, but over-the-counter drugs and
+supplements contribute a significant portion of total drug exposures<sup><xref ref-type="bibr" rid="b23">23</xref></sup>. Though patient surveys can
+offer information about exposure to over-the-counter drugs and supplements, they
+rely on patient memory, and lack the cohort size and accuracy of prescription
+records.</p><p>Our method scans prescription drug claims according to 30-day exposure windows.
+Shorter or longer exposure windows would increase or decrease apparent
+multi-drug exposures respectively. The size of the exposure window affects drug
+combinations&#x02019; relative incidence (i.e., ranking), with longer windows
+increasing the apparent incidence of combinations including drugs with short
+prescription durations (e.g., antibiotics or short-term pain relief). However
+the rankings are agnostic to exposure window duration with our choice of a
+window of 30-days, to match the days-of-supply of the majority of
+prescriptions.</p><p>Finally, our analysis uses all data from 2007&#x02013;2014, ignoring the likely
+non-stationarity of prescription patterns<sup><xref ref-type="bibr" rid="b24">24</xref></sup> (as suggested by the increase in prevalence of
+polypharmacy from 8% to 15% between the 1999&#x02013;2000 and 2011&#x02013;2012
+NHANES surveys<sup><xref ref-type="bibr" rid="b23">23</xref>,<xref ref-type="bibr" rid="b25">25</xref></sup>). Nonetheless, our multi-drug
+exposure dataset provides a ranking of common concomitant prescription drug
+exposures for a large population in the United States.</p></sec></sec><sec disp-level="1"><title>Usage Notes</title><p>This summary of multi-drug prescription patterns in a large cohort enables further
+analysis of the trends, safety, or efficacy of multi-drug use.</p><sec disp-level="2"><title>Prioritize common multi-drug combinations for adverse event association
+analysis</title><p>The common multi-drug combinations identified here can now be prioritized for
+analysis of association with adverse health outcomes. An example illustrating
+this use case is identifying which of the common 3-drug combinations in Data
+Record 1 are most overrepresented in the 30-days prior to Emergency Department
+visits (<xref ref-type="table" rid="t3">Table 3</xref>). It is important to note
+that this association tells us nothing about causation, but merely identifies
+drug combinations taken at increased rates by patients prior to ED visits. Thus,
+as indicators of patients&#x02019; health state, multi-drug combinations could
+potentially be used to identify patients at risk of an ED visit in the
+near-future. Similar association analysis can be completed with any desirable or
+undesirable outcome, in any cohort of interest, for various study designs.</p></sec><sec disp-level="2"><title>Identify drugs used concomitantly with a given drug of interest</title><p>This dataset can be used to profile the common co-exposures for any drug
+ingredient or class of interest. <xref ref-type="table" rid="t4">Table 4</xref>
+shows this analysis for the first line diabetes drug metformin and the opioid
+oxycodone. The summary was obtained by extracting rows containing metformin or
+oxycodone from the 2-drug table of Data Record 1, and normalizing by the total
+exposure counts for metformin or oxycodone. Code to perform this analysis for
+any drug ingredient or drug class of interest is provided in the R-script
+<italic>get_codrugs.R</italic> at the code repository (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/katieq/QuantifyingPolypharmacy">https://github.com/katieq/QuantifyingPolypharmacy</ext-link>). This could
+be repeated for larger drug combinations using the 3-, 4-, or 5-drug tables.</p></sec><sec disp-level="2"><title>Stratify patients by risk of adverse health outcomes, based on prescription
+set</title><p>This dataset can now be used to calculate the increased risk of undesirable
+health outcomes associated with a particular set of prescriptions. Such a risk
+estimate can be used to stratify patients according to risk of future adverse
+health events, and then to flag prescription changes that place patients in a
+higher risk category, or to identify prescription combination changes that lower
+patients&#x02019; risk category. Of course, such risk stratification implies no
+causality whatsoever; however, such analyses can provide a succinct report on
+the risks experienced by a cohort of similarly-treated patients.</p></sec></sec><sec disp-level="1"><title>Additional information</title><p><bold>How to cite this article:</bold> Quinn, K. J. &#x00026; Shah, N. H. A dataset
+quantifying polypharmacy in the United States. <italic>Sci. Data</italic> 4:170167
+doi: 10.1038/sdata.2017.167 (2017).</p><p><bold>Publisher&#x02019;s note:</bold> Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional affiliations.</p></sec><sec sec-type="supplementary-material" id="S1"><title>Supplementary Material</title><supplementary-material id="d32e22" content-type="local-data"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sdata2017167-isa1.zip"/></supplementary-material></sec></body><back><ref-list content-type="data-citations"><title>Data Citations</title><ref id="d1"><mixed-citation publication-type="data"><source>Dryad Digital Repository</source><name><surname>Quinn</surname><given-names>K. J.</given-names></name><name><surname>Shah</surname><given-names>N. H.</given-names></name><year>2017</year><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.sm847">http://dx.doi.org/10.5061/dryad.sm847</ext-link></mixed-citation></ref></ref-list><ack><p>Data for this project were accessed using the Stanford Center for Population Health
+Sciences Data Core. The PHS Data Core is supported by a National Institutes of
+Health National Center for Advancing Translational Science Clinical and
+Translational Science Award (UL1 TR001085) and from Internal Stanford funding. The
+content is solely the responsibility of the authors and does not necessarily
+represent the official views of the NIH.</p></ack><ref-list><ref id="b1"><mixed-citation publication-type="journal"><name><surname>Gu</surname><given-names>Q.</given-names></name>,
+<name><surname>Dillon</surname><given-names>C.
+F.</given-names></name> &#x00026;
+<name><surname>Burt</surname><given-names>V.
+L.</given-names></name>
+<article-title>Prescription drug use continues to increase: U.S. prescription
+drug data for 2007-2008</article-title>. <source>NCHS Data Brief</source>
+<fpage>1</fpage>&#x02013;<lpage>8</lpage> (<year>2010</year>).</mixed-citation></ref><ref id="b2"><mixed-citation publication-type="journal"><name><surname>Sutherland</surname><given-names>J.
+J.</given-names></name>
+<italic>et al.</italic>
+<article-title>Co-prescription trends in a large cohort of subjects predict
+substantial drug-drug interactions</article-title>. <source>PLoS
+ONE</source>
+<volume>10</volume>, <fpage>3</fpage> (<year>2015</year>).</mixed-citation></ref><ref id="b3"><mixed-citation publication-type="journal"><name><surname>Bushardt</surname><given-names>R. L.</given-names></name>,
+<name><surname>Massey</surname><given-names>E.
+B.</given-names></name>, <name><surname>Simpson</surname><given-names>T. W.</given-names></name>,
+<name><surname>Ariail</surname><given-names>J.
+C.</given-names></name> &#x00026;
+<name><surname>Simpson</surname><given-names>K.
+N.</given-names></name>
+<article-title>Polypharmacy: misleading, but manageable</article-title>.
+<source>Clin. Interv. Aging</source>
+<volume>3</volume>, <fpage>383</fpage>&#x02013;<lpage>389</lpage>
+(<year>2008</year>).<pub-id pub-id-type="pmid">18686760</pub-id></mixed-citation></ref><ref id="b4"><mixed-citation publication-type="journal"><name><surname>Payne</surname><given-names>R. A.</given-names></name>
+<article-title>The epidemiology of polypharmacy</article-title>. <source>Clin.
+Med.</source>
+<volume>16</volume>, <fpage>465</fpage>&#x02013;<lpage>469</lpage>
+(<year>2016</year>).</mixed-citation></ref><ref id="b5"><mixed-citation publication-type="journal"><name><surname>Hovstadius</surname><given-names>B.</given-names></name>,
+<name><surname>Hovstadius</surname><given-names>K.</given-names></name>,
+<name><surname>Astrand</surname><given-names>B.</given-names></name> &#x00026;
+<name><surname>Petersson</surname><given-names>G.</given-names></name>
+<article-title>Increasing polypharmacy-an individual-based study of the Swedish
+population 2005-2008</article-title>. <source>BMC Clin. Pharmacol.</source>
+<volume>10</volume>, <fpage>16</fpage> (<year>2010</year>).<pub-id pub-id-type="pmid">21122160</pub-id></mixed-citation></ref><ref id="b6"><mixed-citation publication-type="journal"><name><surname>Dong</surname><given-names>L.</given-names></name>,
+<name><surname>Yan</surname><given-names>H.</given-names></name> &#x00026;
+<name><surname>Wang</surname><given-names>D.</given-names></name>
+<article-title>Polypharmacy and its correlates in village health clinics across
+10 provinces of Western China</article-title>. <source>J. Epidemiol.
+Community Health</source>
+<volume>64</volume>, <fpage>549</fpage>&#x02013;<lpage>553</lpage>
+(<year>2010</year>).<pub-id pub-id-type="pmid">19854749</pub-id></mixed-citation></ref><ref id="b7"><mixed-citation publication-type="journal"><name><surname>Oliveira</surname><given-names>M. G.</given-names></name>,
+<name><surname>Amorim</surname><given-names>W.
+W.</given-names></name>, <name><surname>de Jesus</surname><given-names>S. R.</given-names></name>,
+<name><surname>Rodrigues</surname><given-names>V.
+A.</given-names></name> &#x00026;
+<name><surname>Passos</surname><given-names>L.
+C.</given-names></name>
+<article-title>Factors associated with potentially inappropriate medication use
+by the elderly in the Brazilian primary care setting</article-title>.
+<source>Int. J. Clin. Pharm.</source>
+<volume>34</volume>, <fpage>626</fpage>&#x02013;<lpage>632</lpage>
+(<year>2012</year>).<pub-id pub-id-type="pmid">22692715</pub-id></mixed-citation></ref><ref id="b8"><mixed-citation publication-type="journal"><name><surname>Rambhade</surname><given-names>S.</given-names></name>,
+<name><surname>Chakarborty</surname><given-names>A.</given-names></name>,
+<name><surname>Shrivastava</surname><given-names>A.</given-names></name>,
+<name><surname>Patil</surname><given-names>U.
+K.</given-names></name> &#x00026;
+<name><surname>Rambhade</surname><given-names>A.</given-names></name>
+<article-title>A survey on polypharmacy and use of inappropriate
+medications</article-title>. <source>Toxicol. Int</source>
+<volume>19</volume>, <fpage>68</fpage>&#x02013;<lpage>73</lpage>
+(<year>2012</year>).<pub-id pub-id-type="pmid">22736907</pub-id></mixed-citation></ref><ref id="b9"><mixed-citation publication-type="journal"><name><surname>Ward</surname><given-names>B. W.</given-names></name>,
+<name><surname>Schiller</surname><given-names>J.
+S.</given-names></name> &#x00026;
+<name><surname>Goodman</surname><given-names>R.
+A.</given-names></name>
+<article-title>Multiple Chronic Conditions Among US Adults: A 2012
+Update</article-title>. <source>Prev. Chronic Dis</source>
+<volume>11</volume>, <fpage>E62</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24742395</pub-id></mixed-citation></ref><ref id="b10"><mixed-citation publication-type="journal"><name><surname>Shehab</surname><given-names>N.</given-names></name>
+<italic>et al.</italic>
+<article-title>US Emergency Department Visits for Outpatient Adverse Drug
+Events, 2013-2014</article-title>. <source>JAMA</source>
+<volume>316</volume>, <fpage>2115</fpage>&#x02013;<lpage>2125</lpage>
+(<year>2016</year>).<pub-id pub-id-type="pmid">27893129</pub-id></mixed-citation></ref><ref id="b11"><mixed-citation publication-type="journal"><name><surname>Kessler</surname><given-names>C.</given-names></name>,
+<name><surname>Ward</surname><given-names>M.
+J.</given-names></name> &#x00026;
+<name><surname>McNaughton</surname><given-names>C.
+D.</given-names></name>
+<article-title>Reducing Adverse Drug Events: The Need to Rethink Outpatient
+Prescribing</article-title>. <source>JAMA</source>
+<volume>316</volume>, <fpage>2092</fpage>&#x02013;<lpage>2093</lpage>
+(<year>2016</year>).<pub-id pub-id-type="pmid">27893112</pub-id></mixed-citation></ref><ref id="b12"><mixed-citation publication-type="journal"><name><surname>Lazarou</surname><given-names>J.</given-names></name>,
+<name><surname>Pomeranz</surname><given-names>B.
+H.</given-names></name> &#x00026;
+<name><surname>Corey</surname><given-names>P.
+N.</given-names></name>
+<article-title>Incidence of adverse drug reactions in hospitalized patients: a
+meta-analysis of prospective studies</article-title>. <source>JAMA</source>
+<volume>279</volume>, <fpage>1200</fpage>&#x02013;<lpage>1205</lpage>
+(<year>1998</year>).<pub-id pub-id-type="pmid">9555760</pub-id></mixed-citation></ref><ref id="b13"><mixed-citation publication-type="journal"><name><surname>Sultana</surname><given-names>J.</given-names></name>,
+<name><surname>Cutroneo</surname><given-names>P.</given-names></name> &#x00026;
+<name><surname>Trifir&#x000f2;</surname><given-names>G.</given-names></name>
+<article-title>Clinical and economic burden of adverse drug
+reactions</article-title>. <source>J. Pharmacol. Pharmacother</source>
+<volume>4</volume>, <fpage>S73</fpage>&#x02013;<lpage>S77</lpage>
+(<year>2013</year>).<pub-id pub-id-type="pmid">24347988</pub-id></mixed-citation></ref><ref id="b14"><mixed-citation publication-type="journal"><name><surname>Ernst</surname><given-names>F. R.</given-names></name> &#x00026;
+<name><surname>Grizzle</surname><given-names>A.
+J.</given-names></name>
+<article-title>Drug-related morbidity and mortality: updating the
+cost-of-illness model</article-title>. <source>J. Am. Pharm. Assoc.</source>
+<volume>41</volume>, <fpage>192</fpage>&#x02013;<lpage>199</lpage>
+(<year>2001</year>).</mixed-citation></ref><ref id="b15"><mixed-citation publication-type="journal"><name><surname>Jir&#x000f3;n</surname><given-names>M.</given-names></name>
+<italic>et al.</italic>
+<article-title>Trends in Prevalence and Determinants of Potentially
+Inappropriate Prescribing in the United States: 2007 to
+2012</article-title>. <source>J. Am. Geriatr. Soc</source>
+<volume>64</volume>, <fpage>788</fpage>&#x02013;<lpage>797</lpage>
+(<year>2016</year>).<pub-id pub-id-type="pmid">27100575</pub-id></mixed-citation></ref><ref id="b16"><mixed-citation publication-type="journal"><name><surname>Magro</surname><given-names>L.</given-names></name>,
+<name><surname>Moretti</surname><given-names>U.</given-names></name> &#x00026;
+<name><surname>Leone</surname><given-names>R.</given-names></name>
+<article-title>Epidemiology and characteristics of adverse drug reactions caused
+by drug-drug interactions</article-title>. <source>Expert Opin. Drug
+Saf.</source>
+<volume>11</volume>, <fpage>83</fpage>&#x02013;<lpage>94</lpage>
+(<year>2012</year>).<pub-id pub-id-type="pmid">22022824</pub-id></mixed-citation></ref><ref id="b17"><mixed-citation publication-type="journal"><name><surname>Strandell</surname><given-names>J.</given-names></name>,
+<name><surname>Bate</surname><given-names>A.</given-names></name>,
+<name><surname>Lindquist</surname><given-names>M.</given-names></name> &#x00026;
+<name><surname>Edwards</surname><given-names>I.
+R.</given-names></name>
+Swedish, Finnish, Interaction X-referencing
+Drug-drug Interaction Database (SFINX Group).
+<article-title>Drug-drug interactions - a preventable patient safety
+issue?</article-title>
+<source>Br. J. Clin. Pharmacol.</source>
+<volume>65</volume>, <fpage>144</fpage>&#x02013;<lpage>146</lpage>
+(<year>2008</year>).<pub-id pub-id-type="pmid">17635497</pub-id></mixed-citation></ref><ref id="b18"><mixed-citation publication-type="journal"><name><surname>Johnell</surname><given-names>K.</given-names></name> &#x00026;
+<name><surname>Klarin</surname><given-names>I.</given-names></name>
+<article-title>The relationship between number of drugs and potential drug-drug
+interactions in the elderly: a study of over 600,000 elderly patients from
+the Swedish Prescribed Drug Register</article-title>. <source>Drug
+Saf.</source>
+<volume>30</volume>, <fpage>911</fpage>&#x02013;<lpage>918</lpage>
+(<year>2007</year>).<pub-id pub-id-type="pmid">17867728</pub-id></mixed-citation></ref><ref id="b19"><mixed-citation publication-type="other">H.R.34 - 21st Century Cures Act,
+<italic>Congress.gov</italic>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.congress.gov/bill/114th-congress/house-bill/34/text">https://www.congress.gov/bill/114th-congress/house-bill/34/text</ext-link>
+(<year>2016</year>).</mixed-citation></ref><ref id="b20"><mixed-citation publication-type="journal"><name><surname>Schumock</surname><given-names>G. T.</given-names></name>
+<italic>et al.</italic>
+<article-title>National trends in prescription drug expenditures and projections
+for 2016</article-title>. <source>Am. J. Health. Syst. Pharm.</source>
+<volume>73</volume>, <fpage>1058</fpage>&#x02013;<lpage>1075</lpage>
+(<year>2016</year>).<pub-id pub-id-type="pmid">27170624</pub-id></mixed-citation></ref><ref id="b21"><mixed-citation publication-type="journal"><name><surname>Iyer</surname><given-names>S. V.</given-names></name>,
+<name><surname>Harpaz</surname><given-names>R.</given-names></name>,
+<name><surname>LePendu</surname><given-names>P.</given-names></name>,
+<name><surname>Bauer-Mehren</surname><given-names>A.</given-names></name> &#x00026;
+<name><surname>Shah</surname><given-names>N.
+H.</given-names></name>
+<article-title>Mining clinical text for signals of adverse drug-drug
+interactions</article-title>. <source>J. Am. Med. Inform. Assoc</source>
+<volume>21</volume>, <fpage>353</fpage>&#x02013;<lpage>362</lpage>
+(<year>2014</year>).<pub-id pub-id-type="pmid">24158091</pub-id></mixed-citation></ref><ref id="b22"><mixed-citation publication-type="journal"><name><surname>Hripcsak</surname><given-names>G.</given-names></name>
+<italic>et al.</italic>
+<article-title>Characterizing treatment pathways at scale using the OHDSI
+network</article-title>. <source>Proc. Natl. Acad. Sci. USA</source>
+<volume>113</volume>, <fpage>7329</fpage>&#x02013;<lpage>7336</lpage>
+(<year>2016</year>).<pub-id pub-id-type="pmid">27274072</pub-id></mixed-citation></ref><ref id="b23"><mixed-citation publication-type="journal"><name><surname>Qato</surname><given-names>D. M.</given-names></name>,
+<name><surname>Wilder</surname><given-names>J.</given-names></name>,
+<name><surname>Schumm</surname><given-names>L.
+P.</given-names></name>, <name><surname>Gillet</surname><given-names>V.</given-names></name> &#x00026;
+<name><surname>Alexander</surname><given-names>G.
+C.</given-names></name>
+<article-title>Changes in Prescription and Over-the-Counter Medication and
+Dietary Supplement Use Among Older Adults in the United States, 2005 vs
+2011</article-title>. <source>JAMA Intern. Med.</source>
+<volume>176</volume>, <fpage>473</fpage>&#x02013;<lpage>482</lpage>
+(<year>2016</year>).<pub-id pub-id-type="pmid">26998708</pub-id></mixed-citation></ref><ref id="b24"><mixed-citation publication-type="journal"><name><surname>Jung</surname><given-names>K.</given-names></name> &#x00026;
+<name><surname>Shah</surname><given-names>N.
+H.</given-names></name>
+<article-title>Implications of non-stationarity on predictive modeling using
+EHRs</article-title>. <source>J. Biomed. Inform.</source>
+<volume>58</volume>, <fpage>168</fpage>&#x02013;<lpage>174</lpage>
+(<year>2015</year>).<pub-id pub-id-type="pmid">26483171</pub-id></mixed-citation></ref><ref id="b25"><mixed-citation publication-type="journal"><name><surname>Kantor</surname><given-names>E. D.</given-names></name>,
+<name><surname>Rehm</surname><given-names>C.
+D.</given-names></name>, <name><surname>Haas</surname><given-names>J. S.</given-names></name>,
+<name><surname>Chan</surname><given-names>A.
+T.</given-names></name> &#x00026;
+<name><surname>Giovannucci</surname><given-names>E.
+L.</given-names></name>
+<article-title>Trends in Prescription Drug Use Among Adults in the United States
+From 1999-2012</article-title>. <source>JAMA</source>
+<volume>314</volume>, <fpage>1818</fpage>&#x02013;<lpage>1831</lpage>
+(<year>2015</year>).<pub-id pub-id-type="pmid">26529160</pub-id></mixed-citation></ref></ref-list><fn-group><fn fn-type="COI-statement"><p>The authors declare no competing financial interests.</p></fn></fn-group></back><floats-group><fig id="f1"><label>Figure 1</label><caption><title>Data analysis workflow to generate drug combination exposure incidences from
+prescription drug claims.</title><p>Prescription drug claims (<bold>a</bold>) are scanned to create discrete exposure
+windows (<bold>c</bold>) for the set of drugs <bold>(b</bold>). These windows
+are summarized to produce &#x02018;exact&#x02019; exposure incidences at the
+drug ingredient level (<bold>d</bold>). This table is the substrate for counting
+the incidence of exposure to &#x02018;at least&#x02019; drug combinations
+(<bold>e).</bold> Exposure counts for combinations of <italic>N</italic>=1
+to 5 drug ingredients are published in Data Record 1. Exact drug ingredient
+combinations (<bold>d</bold>) are translated to drug class combinations
+(<bold>f</bold>), keeping only unique classes. Again, these are used to
+count the exposure incidence of &#x02018;at least&#x02019; drug class
+combinations (<bold>g</bold>). Exposure counts for combinations of
+<italic>N</italic>=1 to 5 drug classes are published in Data Record 2.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sdata2017167-f1"/></fig><fig id="f2"><label>Figure 2</label><caption><title>Illustration of conversion of drug prescription date of service and days of
+supply into discrete exposures.</title><p>(<bold>a</bold>) Shows three typical prescription patterns, converted to exposure
+in three windows, using non-overlapping 30-day windows. (<bold>b</bold>) Shows
+uncommon prescription patterns that introduce error in interpretation of
+concomitant exposure: While A and B are separated by only a few days, and may be
+considered concomitant, they are not counted as concomitant exposures; While
+Drugs C and D are separated by many days, they are recorded as concomitant
+exposures in Window 2.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sdata2017167-f2"/></fig><fig id="f3"><label>Figure 3</label><caption><title>Distributions of the number of unique concomitant drug exposures per
+patient-months.</title><p>Distributions are for concomitant exposures to (<bold>a</bold>) drug ingredients
+and (<bold>b</bold>) drug classes, truncated at 10, across the 3.0 billion
+observed patient-months, including 1.7 billion with prescription drug exposures.
+(The 43% (=1.3/3 billion) of patient-months with no drug exposures are not shown
+on these plots.) Patients taking any prescription drugs are exposed to a median
+of 2 and 95th-percentile of 8 drug ingredients, and a median of 2 and
+95th-percentile of 7 unique drug classes.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sdata2017167-f3"/></fig><table-wrap position="float" id="t1"><label>Table 1</label><caption><title>Summary of Truven Health MarketScan Research Database prescription data and
+drug combination counts.</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="left"/></colgroup><thead valign="bottom"><tr><th align="left" valign="top" charoff="50"><bold>Prescription claims database summary
+statistics:</bold></th><th align="left" valign="top" charoff="50">&#x000a0;</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" charoff="50">&#x02003;Number of patients</td><td align="left" valign="top" charoff="50">82 million</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;Median months of patient observation</td><td align="left" valign="top" charoff="50">30</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;Range of months of patient observation (10% to
+90%)</td><td align="left" valign="top" charoff="50">8 to 84</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;Number of months of patient
+observation</td><td align="left" valign="top" charoff="50">3.0 billion</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;Number of months with drug exposures</td><td align="left" valign="top" charoff="50">1.7 billion</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;Fraction of all months of patient eligibility with
+any drug exposures</td><td align="left" valign="top" charoff="50">57%</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;Total number of prescription drug
+claims</td><td align="left" valign="top" charoff="50">3.2 billion</td></tr><tr><td align="left" valign="top" charoff="50"><italic>Drug combination counting summary
+statistics</italic>:</td><td align="left" valign="top" charoff="50">&#x000a0;</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;Number of discrete 30-day window drug
+exposures</td><td align="left" valign="top" charoff="50">5.1 billion</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;Number of unique drug ingredient
+combinations</td><td align="left" valign="top" charoff="50">220 million</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;Fraction of windows with unique drug ingredient
+exposure</td><td align="left" valign="top" charoff="50">10%</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;Number unique drug class
+combinations</td><td align="left" valign="top" charoff="50">39 million</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;Fraction of windows with unique drug class
+exposure</td><td align="left" valign="top" charoff="50">2%</td></tr></tbody></table></table-wrap><table-wrap position="float" id="t2"><label>Table 2</label><caption><title>Data Records description.</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="left"/><col align="left"/></colgroup><thead valign="bottom"><tr><th align="left" valign="top" charoff="50">&#x000a0;</th><th align="left" valign="top" charoff="50"><bold>Description</bold></th><th align="left" valign="top" charoff="50"><bold>File or column name</bold></th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Data Record 1: Drug ingredient combination exposure
+counts</td><td align="left" valign="top" charoff="50">&#x000a0;</td></tr><tr><td align="left" valign="top" charoff="50"><italic>Files</italic></td><td align="left" valign="top" charoff="50">5 files, for combinations of N=1-to-5 drug
+ingredients</td><td align="left" valign="top" charoff="50"><italic>db_drugs_Ns.tsv</italic></td></tr><tr><td align="left" valign="top" charoff="50"><italic>Columns</italic></td><td align="left" valign="top" charoff="50">Drug ingredient name (N columns)</td><td align="left" valign="top" charoff="50"><italic>drug_name_A</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Count of windows with concomitant exposure to this drug
+combination: potentially concomitant with additional
+drugs</td><td align="left" valign="top" charoff="50"><italic>atleast_exposure_count</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Count of windows with concomitant exposure to this drug
+combination and no additional drugs</td><td align="left" valign="top" charoff="50"><italic>exact_exposure_count</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Estimate of the daily cost of the drug
+combination</td><td align="left" valign="top" charoff="50"><italic>estimate_drug_cost_per_day</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Fraction of exposure counts that occur with no additional
+drugs (equal to the ratio of the exact to at-least exposure
+counts)</td><td align="left" valign="top" charoff="50"><italic>fraction_exact</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Ratio of the <italic>atleast_exposure_count</italic> to the
+total number of observed windows with any prescription</td><td align="left" valign="top" charoff="50"><italic>fraction_all_windows</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Ratio of the combination&#x02019;s observed to expected
+incidence (<italic>atleast_exposure_count</italic>) based on
+marginal frequencies of single drugs (applicable for
+N&#x0003e;1).</td><td align="left" valign="top" charoff="50"><italic>observe_per_expect_1s</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Ratio of the combination&#x02019;s observed to expected
+incidence (<italic>atleast_exposure_count</italic>) based on
+marginal frequencies of (N-1)+1 subsets (applicable for
+N&#x0003e;2).</td><td align="left" valign="top" charoff="50"><italic>observe_per_expect_N1</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Data Record 2: Drug class combination exposure
+counts</td><td align="left" valign="top" charoff="50">&#x000a0;</td></tr><tr><td align="left" valign="top" charoff="50"><italic>Files</italic></td><td align="left" valign="top" charoff="50">5 files, for combinations of N=1-to-5 drug
+classes</td><td align="left" valign="top" charoff="50"><italic>db_atc_classes_Ns.tsv</italic></td></tr><tr><td align="left" valign="top" charoff="50"><italic>Columns</italic></td><td align="left" valign="top" charoff="50">Drug class code (N columns)</td><td align="left" valign="top" charoff="50"><italic>atc_code_A</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Drug class name (N columns)</td><td align="left" valign="top" charoff="50"><italic>atc_name_A</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Count of windows with concomitant exposure to this drug
+combination: potentially concomitant with additional
+drugs</td><td align="left" valign="top" charoff="50"><italic>atleast_exposure_count</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Count of windows with concomitant exposure to this drug
+combination and no additional drugs</td><td align="left" valign="top" charoff="50"><italic>exact_exposure_count</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Fraction of exposure counts that occur with no additional
+drugs (equal to the ratio of the exact to at-least exposure
+counts)</td><td align="left" valign="top" charoff="50"><italic>fraction_exact</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Ratio of the <italic>atleast_exposure_count</italic> to the
+total number of observed windows with any prescription</td><td align="left" valign="top" charoff="50"><italic>fraction_all_windows</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Ratio of the combination&#x02019;s observed to expected
+incidence (<italic>atleast_exposure_count</italic>) based on
+marginal frequencies of single drugs (applicable for
+N&#x0003e;1).</td><td align="left" valign="top" charoff="50"><italic>observe_per_expect_1s</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Ratio of the combination&#x02019;s observed to expected
+incidence (<italic>atleast_exposure_count</italic>) based on
+marginal frequencies of (N-1)+1 subsets (applicable for
+N&#x0003e;2).</td><td align="left" valign="top" charoff="50"><italic>observe_per_expect_N1</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Data Record 3: Drug mappings</td><td align="left" valign="top" charoff="50">&#x000a0;</td></tr><tr><td align="left" valign="top" charoff="50"><italic>Files</italic></td><td align="left" valign="top" charoff="50">2 files, for the drug ingredient list and drug class
+list</td><td align="left" valign="top" charoff="50">&#x000a0;</td></tr><tr><td align="left" valign="top" charoff="50"><italic>File:</italic></td><td align="left" valign="top" charoff="50">Drug ingredient mappings</td><td align="left" valign="top" charoff="50"><italic>drug_mappings_ingredients.tsv</italic></td></tr><tr><td align="left" valign="top" charoff="50"><italic>Columns</italic></td><td align="left" valign="top" charoff="50">Drug ingredient name</td><td align="left" valign="top" charoff="50"><italic>drug_name</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">RxNORM CUI number</td><td align="left" valign="top" charoff="50"><italic>rxcui</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">ATC code</td><td align="left" valign="top" charoff="50"><italic>atc_code</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Second-level ATC drug class name (redundant, provided for
+convenience)</td><td align="left" valign="top" charoff="50"><italic>atc_name</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Estimated median cost per day</td><td align="left" valign="top" charoff="50"><italic>estimate_drug_cost_per_day</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">UMLS CUI</td><td align="left" valign="top" charoff="50"><italic>UMLS_CUI</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Drug Bank ID</td><td align="left" valign="top" charoff="50"><italic>DrugBankID</italic></td></tr><tr><td align="left" valign="top" charoff="50"><italic>File:</italic></td><td align="left" valign="top" charoff="50">Drug class mappings</td><td align="left" valign="top" charoff="50"><italic>drug_mappings_atc_classes.tsv</italic></td></tr><tr><td align="left" valign="top" charoff="50"><italic>Columns</italic></td><td align="left" valign="top" charoff="50">Second-level ATC code</td><td align="left" valign="top" charoff="50"><italic>atc_class</italic></td></tr><tr><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">Second-level ATC drug class name</td><td align="left" valign="top" charoff="50"><italic>atc_class_name</italic></td></tr></tbody></table></table-wrap><table-wrap position="float" id="t3"><label>Table 3</label><caption><title>Common 3-drug combinations most overrepresented prior to ED visits.</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="char" char="."/></colgroup><thead valign="bottom"><tr><th align="left" valign="top" charoff="50"><bold>Rank</bold></th><th align="left" valign="top" charoff="50"><bold>Drug
+combination</bold></th><th align="center" valign="top" charoff="50"><bold>Relative risk</bold></th><td>&#x000a0;</td><td>&#x000a0;</td></tr></thead><tfoot valign="top"><tr><th align="left" valign="top" charoff="50">Patients prescribed these common 3-drug combinations visit the ED at rates
+approximately 3-fold higher than the general population. Overrepresentation is
+calculated by comparing the incidence of 3-drug combination exposures in the
+30-day window prior to ED visits (based on only the first ED visit per patient)
+to their overall incidence, as recorded in Data Record 1. This table includes
+only common 3-drug combinations, with greater than 5000 occurrences in the
+database.</th><td>&#x000a0;</td><td>&#x000a0;</td><td>&#x000a0;</td><td>&#x000a0;</td></tr></tfoot><tbody valign="top"><tr><td align="left" valign="top" charoff="50"><bold>1</bold></td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" charoff="50">oxycodone</td><td align="center" valign="top" charoff="50">prochlorperazine</td><td align="center" valign="top" char="." charoff="50">3.6</td></tr><tr><td align="left" valign="top" charoff="50"><bold>2</bold></td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" charoff="50">enoxaparin</td><td align="center" valign="top" charoff="50">oxycodone</td><td align="center" valign="top" char="." charoff="50">3.6</td></tr><tr><td align="left" valign="top" charoff="50"><bold>3</bold></td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" charoff="50">hydrocodone</td><td align="center" valign="top" charoff="50">prochlorperazine</td><td align="center" valign="top" char="." charoff="50">3.5</td></tr><tr><td align="left" valign="top" charoff="50"><bold>4</bold></td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" charoff="50">enoxaparin</td><td align="center" valign="top" charoff="50">warfarin</td><td align="center" valign="top" char="." charoff="50">3.5</td></tr><tr><td align="left" valign="top" charoff="50"><bold>5</bold></td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" charoff="50">enoxaparin</td><td align="center" valign="top" charoff="50">hydrocodone</td><td align="center" valign="top" char="." charoff="50">3.4</td></tr><tr><td align="left" valign="top" charoff="50"><bold>6</bold></td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" charoff="50">dexamethasone</td><td align="center" valign="top" charoff="50">oxycodone</td><td align="center" valign="top" char="." charoff="50">3.1</td></tr><tr><td align="left" valign="top" charoff="50"><bold>7</bold></td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" charoff="50">levofloxacin</td><td align="center" valign="top" charoff="50">oxycodone</td><td align="center" valign="top" char="." charoff="50">2.8</td></tr><tr><td align="left" valign="top" charoff="50"><bold>8</bold></td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" charoff="50">ciprofloxacin</td><td align="center" valign="top" charoff="50">phenazopyridine</td><td align="center" valign="top" char="." charoff="50">2.7</td></tr><tr><td align="left" valign="top" charoff="50"><bold>9</bold></td><td align="center" valign="top" charoff="50">ondansetron</td><td align="center" valign="top" charoff="50">sulfamethoxazole</td><td align="center" valign="top" charoff="50">trimethoprim</td><td align="center" valign="top" char="." charoff="50">2.7</td></tr><tr><td align="left" valign="top" charoff="50"><bold>10</bold></td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" charoff="50">codeine</td><td align="center" valign="top" charoff="50">sulfamethoxazole</td><td align="center" valign="top" char="." charoff="50">2.6</td></tr><tr><td align="left" valign="top" charoff="50"><bold>11</bold></td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" charoff="50">levofloxacin</td><td align="center" valign="top" charoff="50">metoprolol</td><td align="center" valign="top" char="." charoff="50">2.6</td></tr><tr><td align="left" valign="top" charoff="50"><bold>12</bold></td><td align="center" valign="top" charoff="50">levofloxacin</td><td align="center" valign="top" charoff="50">sulfamethoxazole</td><td align="center" valign="top" charoff="50">trimethoprim</td><td align="center" valign="top" char="." charoff="50">2.6</td></tr><tr><td align="left" valign="top" charoff="50"><bold>13</bold></td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" charoff="50">codeine</td><td align="center" valign="top" charoff="50">trimethoprim</td><td align="center" valign="top" char="." charoff="50">2.6</td></tr><tr><td align="left" valign="top" charoff="50"><bold>14</bold></td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" charoff="50">ciprofloxacin</td><td align="center" valign="top" charoff="50">sulfamethoxazole</td><td align="center" valign="top" char="." charoff="50">2.6</td></tr><tr><td align="left" valign="top" charoff="50"><bold>15</bold></td><td align="center" valign="top" charoff="50">amoxicillin</td><td align="center" valign="top" charoff="50">clavulanate</td><td align="center" valign="top" charoff="50">ondansetron</td><td align="center" valign="top" char="." charoff="50">2.6</td></tr></tbody></table></table-wrap><table-wrap position="float" id="t4"><label>Table 4</label><caption><title>Summary of the most common and most overrepresented drug ingredient
+co-exposures with metformin and oxycodone.</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="left"/><col align="char" char="."/><col align="char" char="."/></colgroup><thead valign="bottom"><tr><th align="left" valign="top" charoff="50"><bold>Rank</bold></th><th align="left" valign="top" charoff="50"><bold>Drug ingredient</bold></th><th align="center" valign="top" char="." charoff="50"><bold>P(co-exposure |
+exposure)</bold></th><th align="center" valign="top" char="." charoff="50"><bold>Observed/Expected
+Incidence</bold></th></tr></thead><tbody valign="top"><tr><td colspan="4" align="left" valign="top" charoff="50"><italic>Metformin
+co-exposures, top 5, ranked by incidence:</italic><hr/></td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;1</td><td align="center" valign="top" charoff="50">hydrochlorothiazide</td><td align="center" valign="top" char="." charoff="50">0.26</td><td align="center" valign="top" char="." charoff="50">2.2</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;2</td><td align="center" valign="top" charoff="50">lisinopril</td><td align="center" valign="top" char="." charoff="50">0.25</td><td align="center" valign="top" char="." charoff="50">3.0</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;3</td><td align="center" valign="top" charoff="50">simvastatin</td><td align="center" valign="top" char="." charoff="50">0.22</td><td align="center" valign="top" char="." charoff="50">2.7</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;4</td><td align="center" valign="top" charoff="50">atorvastatin</td><td align="center" valign="top" char="." charoff="50">0.15</td><td align="center" valign="top" char="." charoff="50">2.6</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;5</td><td align="center" valign="top" charoff="50">amlodipine</td><td align="center" valign="top" char="." charoff="50">0.13</td><td align="center" valign="top" char="." charoff="50">2.2</td></tr><tr><td colspan="4" align="left" valign="top" charoff="50"><italic>Metformin
+co-exposures, top 5, ranked by
+overrepresentation:</italic><hr/></td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;1</td><td align="center" valign="top" charoff="50">glyburide</td><td align="center" valign="top" char="." charoff="50">0.10</td><td align="center" valign="top" char="." charoff="50">12.6</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;2</td><td align="center" valign="top" charoff="50">saxagliptin</td><td align="center" valign="top" char="." charoff="50">0.02</td><td align="center" valign="top" char="." charoff="50">11.9</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;3</td><td align="center" valign="top" charoff="50">sitagliptin</td><td align="center" valign="top" char="." charoff="50">0.11</td><td align="center" valign="top" char="." charoff="50">11.7</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;4</td><td align="center" valign="top" charoff="50">rosiglitazone</td><td align="center" valign="top" char="." charoff="50">0.03</td><td align="center" valign="top" char="." charoff="50">11.2</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;5</td><td align="center" valign="top" charoff="50">dapaglifozin</td><td align="center" valign="top" char="." charoff="50">&#x0003c;0.01</td><td align="center" valign="top" char="." charoff="50">10.8</td></tr><tr><td colspan="4" align="left" valign="top" charoff="50"><italic>Oxycodone
+co-exposures, top 5, ranked by incidence:</italic><hr/></td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;1</td><td align="center" valign="top" charoff="50">acetaminophen</td><td align="center" valign="top" char="." charoff="50">0.78</td><td align="center" valign="top" char="." charoff="50">11.1</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;2</td><td align="center" valign="top" charoff="50">hydrocodone</td><td align="center" valign="top" char="." charoff="50">0.16</td><td align="center" valign="top" char="." charoff="50">3.1</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;3</td><td align="center" valign="top" charoff="50">hydrochlorothiazide</td><td align="center" valign="top" char="." charoff="50">0.11</td><td align="center" valign="top" char="." charoff="50">0.9</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;4</td><td align="center" valign="top" charoff="50">alprazolam</td><td align="center" valign="top" char="." charoff="50">0.10</td><td align="center" valign="top" char="." charoff="50">3.7</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;5</td><td align="center" valign="top" charoff="50">zolpidem</td><td align="center" valign="top" char="." charoff="50">0.09</td><td align="center" valign="top" char="." charoff="50">3.1</td></tr><tr><td colspan="4" align="left" valign="top" charoff="50"><italic>Oxycodone
+co-exposures, top 5, ranked by
+overrepresentation:</italic><hr/></td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;1</td><td align="center" valign="top" charoff="50">methylnaltrexone</td><td align="center" valign="top" char="." charoff="50">&#x0003c;0.01</td><td align="center" valign="top" char="." charoff="50">23.7</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;2</td><td align="center" valign="top" charoff="50">oxymorphone</td><td align="center" valign="top" char="." charoff="50">0.01</td><td align="center" valign="top" char="." charoff="50">22.1</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;3</td><td align="center" valign="top" charoff="50">fentanyl</td><td align="center" valign="top" char="." charoff="50">0.04</td><td align="center" valign="top" char="." charoff="50">16.7</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;4</td><td align="center" valign="top" charoff="50">morphine</td><td align="center" valign="top" char="." charoff="50">0.04</td><td align="center" valign="top" char="." charoff="50">15.5</td></tr><tr><td align="left" valign="top" charoff="50">&#x02003;5</td><td align="center" valign="top" charoff="50">methadone</td><td align="center" valign="top" char="." charoff="50">0.02</td><td align="center" valign="top" char="." charoff="50">14.6</td></tr></tbody></table></table-wrap></floats-group></article>

@@ -1,0 +1,1850 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Degradation of the 2014-2015 Holuhraun ventproximal edi ce in Iceland</title>
+<funder ref="#_HRkyQ8k">
+<orgname type="full">National Science Foundation Graduate Research Fellowship Program</orgname>
+</funder>
+<funder ref="#_ktpQknX #_NqezAWg #_22zpcRt #_fCHmjXa">
+<orgname type="full">NASA</orgname>
+</funder>
+<funder ref="#_6P7WPXY">
+<orgname type="full">Goddard Instrument Field Team</orgname>
+<orgname type="abbreviated">GIFT</orgname>
+</funder>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2023-10-20">October 20th, 2023</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">Sarah</forename><forename type="middle">S</forename><surname>Sutton</surname></persname>
+<email>ssutton@lpl.arizona.edu</email>
+<affiliation key="aff4">
+<note type="raw_affiliation"> Lunar and Planetary Laboratory, University of Arizona, 1629 E. University Blvd., Tucson, AZ, 85721, USA</note>
+<orgname type="laboratory">Lunar and Planetary Laboratory</orgname>
+<orgname type="institution">University of Arizona</orgname>
+<address>
+<addrline>1629 E. University Blvd</addrline>
+<postcode>85721</postcode>
+<settlement>Tucson</settlement>
+<region>AZ</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Jacob</forename><forename type="middle">A</forename><surname>Richardson</surname></persname>
+<affiliation key="aff5">
+<note type="raw_affiliation"> Planetary Geology, Geophysics and Geochemistry Laboratory, NASA Goddard Space Flight Center, Greenbelt, MD, USA</note>
+<orgname key="lab1" type="laboratory">Planetary Geology</orgname>
+<orgname key="lab2" type="laboratory">Geophysics and Geochemistry Laboratory</orgname>
+<orgname type="institution">NASA Goddard Space Flight Center</orgname>
+<address>
+<settlement>Greenbelt</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Patrick</forename><forename type="middle">L</forename><surname>Whelley</surname></persname>
+<affiliation key="aff5">
+<note type="raw_affiliation"> Planetary Geology, Geophysics and Geochemistry Laboratory, NASA Goddard Space Flight Center, Greenbelt, MD, USA</note>
+<orgname key="lab1" type="laboratory">Planetary Geology</orgname>
+<orgname key="lab2" type="laboratory">Geophysics and Geochemistry Laboratory</orgname>
+<orgname type="institution">NASA Goddard Space Flight Center</orgname>
+<address>
+<settlement>Greenbelt</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+<affiliation key="aff6">
+<note type="raw_affiliation"> Department of Astronomy, University of Maryland College Park, College Park MD, USA</note>
+<orgname type="department">Department of Astronomy</orgname>
+<orgname type="institution">University of Maryland College</orgname>
+<address>
+<settlement>Park, College Park</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Stephen</forename><forename type="middle">P</forename><surname>Scheidt</surname></persname>
+<affiliation key="aff5">
+<note type="raw_affiliation"> Planetary Geology, Geophysics and Geochemistry Laboratory, NASA Goddard Space Flight Center, Greenbelt, MD, USA</note>
+<orgname key="lab1" type="laboratory">Planetary Geology</orgname>
+<orgname key="lab2" type="laboratory">Geophysics and Geochemistry Laboratory</orgname>
+<orgname type="institution">NASA Goddard Space Flight Center</orgname>
+<address>
+<settlement>Greenbelt</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+<affiliation key="aff6">
+<note type="raw_affiliation"> Department of Astronomy, University of Maryland College Park, College Park MD, USA</note>
+<orgname type="department">Department of Astronomy</orgname>
+<orgname type="institution">University of Maryland College</orgname>
+<address>
+<settlement>Park, College Park</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Christopher</forename><forename type="middle">W</forename><surname>Hamilton</surname></persname>
+<affiliation key="aff4">
+<note type="raw_affiliation"> Lunar and Planetary Laboratory, University of Arizona, 1629 E. University Blvd., Tucson, AZ, 85721, USA</note>
+<orgname type="laboratory">Lunar and Planetary Laboratory</orgname>
+<orgname type="institution">University of Arizona</orgname>
+<address>
+<addrline>1629 E. University Blvd</addrline>
+<postcode>85721</postcode>
+<settlement>Tucson</settlement>
+<region>AZ</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<affiliation key="aff0">
+<note type="raw_affiliation">NASA Goddard Space Flight Center</note>
+<orgname type="institution">NASA Goddard Space Flight Center</orgname>
+</affiliation>
+</author>
+<author>
+<affiliation key="aff1">
+<note type="raw_affiliation">NASA Goddard Space Flight Center</note>
+<orgname type="institution">NASA Goddard Space Flight Center</orgname>
+</affiliation>
+</author>
+<author>
+<affiliation key="aff2">
+<note type="raw_affiliation">NASA Goddard Space Flight Center</note>
+<orgname type="institution">NASA Goddard Space Flight Center</orgname>
+</affiliation>
+</author>
+<author>
+<affiliation key="aff3">
+<note type="raw_affiliation">The University of Arizona</note>
+<orgname type="institution">The University of Arizona</orgname>
+</affiliation>
+</author>
+<title level="a" type="main">Degradation of the 2014-2015 Holuhraun ventproximal edi ce in Iceland</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2023-10-20">October 20th, 2023</date>
+</imprint>
+</monogr>
+<idno type="MD5">4664DD86C51603A0FE07A86685C47535</idno>
+<idno type="DOI">10.21203/rs.3.rs-3338732/v1</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.8.0" when="2024-04-04T13:11+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>spatter rampart</term>
+<term>ssure vent</term>
+<term>topographic differencing</term>
+<term>landform modeling</term>
+<term>rockfalls spatter rampart</term>
+<term>fissure vent</term>
+<term>topographic differencing</term>
+<term>landform modeling</term>
+<term>rockfalls</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The earliest stages of volcanic vent degradation are rarely measured, leaving a gap in the knowledge that informs landform degradation models of cinder cones and other monogenetic vent structures.</s><s>We documented the initial degradation of a 500 m long spatter rampart at the primary vent of the 2014-2015 Holuhraun eruption in northern Iceland with high resolution topographic change maps derived from terrestrial laser scanning (TLS) and photogrammetric surveys using an unoccupied aircraft system (UAS).</s><s>Topographic differencing shows a total negative volume change of 55,687 m 3 , and a total positive volume change (basal deposition) of 9,640 m 3 .</s><s>Two distinct styles of volume changes were observed on the interior and exterior of the spatter rampart.</s><s>Material on the interior of the vent was removed from oversteepened slopes by discrete rockfalls, while diffusive processes were qualitatively evident on the exterior slopes.</s><s>We propose a novel conceptual landform evolution model for spatter ramparts that combines rockfall processes on the interior walls, diffusive gravitational sliding on the exterior slopes, and incorporates cooling contraction and compaction over the entire edifice to describe the observed modes of topographic change during the onset of degradation.</s><s>Potential hazards at fresh spatter ramparts are rockfalls at high slope areas of the vent interior walls where contacts between spatter clasts are prone to weakening by fumarolic activity, weathering, and settling.</s><s>To capture such hazards, our data suggest a cadence for monitoring changes yearly for the first few years post-eruption, and at longer intervals thereafter.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Vent-proximal edifices, such as cinder and spatter cones, are characteristic products of monogenetic fissure eruptions.</s><s>Models of cinder and spatter cone erosion have been used to estimate the ages of volcanic edifices and recurrence intervals <ref type="bibr">(Wood 1980a</ref><ref type="bibr">(Wood , 1980b))</ref>.</s><s>However, these estimates rely on assumptions about the initial morphology of the edifice and its degradation rate <ref target="#b11" type="bibr">(Dohrenwend et al. 1986;</ref><ref target="#b40" type="bibr">Pelletier and Cline 2007;</ref><ref target="#b29" type="bibr">Kereszturi et al. 2012;</ref><ref target="#b56" type="bibr">Vitturi and Arrowsmith 2013)</ref>, which can be problematic because direct measurements of the earliest stages of volcanic vent degradation are rarely measured <ref target="#b3" type="bibr">(Bemis and Ferencz 2017)</ref>.</s><s>Moreover, the effects of spatter are not accounted for in the most widely used morphometric models, which assume that the structure is primarily composed of unconsolidated scoria (e.g.</s><s><ref target="#b41" type="bibr">Porter 1972;</ref><ref type="bibr">Wood 1980a;</ref><ref target="#b25" type="bibr">Hooper and Sheridan 1998;</ref><ref target="#b40" type="bibr">Pelletier and Cline 2007)</ref>.</s><s>This paper addresses a gap in the knowledge of how spatter cones and spatter ramparts degrade within the first few years of their history.</s></p><p><s>To quantify the rates and constrain the causes of vent-proximal edifice degradation, we created a time-series of topographic changes spanning a five-year period starting six months after the initial emplacement of the main spatter rampart at the source of the 2014-2015 Holuhraun eruption in northern Iceland.</s><s>We correlate the spatial distribution, types, and rates of topographic change with lithologic facies to explore how vent edifice construction influences post-eruption degradation.</s><s>We investigate factors intrinsic to volcanic processes-including agglutination, slope stability, subsidence, edifice cooling, and compaction.</s><s>These observations inform a conceptual landform evolution model for the initial stages of the degradation of spatter ramparts that incorporates discrete rockfall events and slope diffusion with implications for improving existing models of cinder cone evolution <ref target="#b29" type="bibr">(Kereszturi et al. 2012;</ref><ref target="#b13" type="bibr">Fodor and Németh 2015)</ref> and age estimation (cf.</s><s><ref type="bibr">Wood 1980b)</ref>.</s><s>Our results also have implications for interpreting the morphologies of fissure vent edifices on other planetary bodies <ref target="#b21" type="bibr">(Hauber et al. 2009;</ref><ref target="#b42" type="bibr">Richardson et al. 2021)</ref>.</s></p><p><s>Additionally, the ability to relate the initial modes and rates of spatter cone or rampart degradation to emplacement processes and lava facies is relevant to hazard assessment by highlighting conditions associated with slope failure <ref target="#b17" type="bibr">(González de Vallejo et al. 2020</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Spatter rampart construction<p><s>Spatter is a pyroclastic material produced during lava fountaining.</s><s>Spatter deposits form when clots of erupted magma are hot enough to be deformable upon impact <ref target="#b22" type="bibr">(Head and Wilson 1989;</ref><ref type="bibr">Parfitt and Wilson 2008;</ref><ref target="#b50" type="bibr">Sumner et al. 2005)</ref>.</s><s>Spatter clasts can stick to each other upon contact, becoming welded to different degrees, in a process called agglutination.</s><s>If spatter accumulation rates are rapid enough, hot material will undergo compaction, thereby becoming strongly welded as boundaries between individual clasts to merge and become indistinguishable <ref target="#b50" type="bibr">(Sumner et al. 2005)</ref>.</s><s>Spatter cones, as the name suggests, typically exhibit radial symmetry about a vent, whereas more elongated edifices are generally referred to as spatter ramparts <ref target="#b3" type="bibr">(Bemis and Ferencz 2017)</ref>.</s><s>Low spatter ramparts may only be a few meters high and can form as semi-continuous units parallel to a fissure vent <ref target="#b36" type="bibr">(Moore et al. 1980;</ref><ref target="#b37" type="bibr">Parcheta et al. 2012;</ref><ref target="#b55" type="bibr">Valentine et al. 2017)</ref>, whereas larger spatter ramparts typically result from the coalescence of closely spaced cones that are centered along more productive segments of the source fissure <ref target="#b62" type="bibr">(Witt et al. 2018)</ref>.</s></p><p><s>Eruption characteristics such as lava discharge rate, magma gas content, existing topography, and wind speed and direction influence the edifice geometry and the strength of pyroclastic ramparts <ref type="bibr">(Cas and Wright 1988;</ref><ref target="#b29" type="bibr">Kereszturi et al. 2012)</ref>.</s><s>While there have been many studies that deal with the morphometry of cinder cones (e.g.</s><s><ref target="#b46" type="bibr">Segerstrom 1956;</ref><ref target="#b47" type="bibr">Settle 1979;</ref><ref type="bibr">Wood 1980a</ref><ref type="bibr">Wood 1980b;;</ref><ref target="#b11" type="bibr">Dohrenwend 1986;</ref><ref target="#b40" type="bibr">Pelletier and Cline 2007;</ref><ref target="#b16" type="bibr">Fornaciai et al. 2010;</ref><ref target="#b4" type="bibr">Bemis et al. 2011;</ref><ref target="#b29" type="bibr">Kereszturi et al. 2012;</ref><ref target="#b35" type="bibr">McGuire et al. 2014)</ref>, few have addressed the erosion of spatter-rich vent-proximal edifices, or the effects of spatter on the erosion of vent-proximal edifices.</s><s>During eruptive activity, spatter cones may partially collapse, rafting cone material away from the vent within clastogenic flows <ref target="#b24" type="bibr">(Holm 1987;</ref><ref target="#b49" type="bibr">Sumner 1998)</ref>, or they may erode after the cessation of the eruption <ref target="#b52" type="bibr">(Swanson et al. 1975)</ref>.</s><s>Alternatively, welded spatter interbedded with scoria can form erosion-resistant layers that slow the erosion rate of cinder cones <ref type="bibr">(Wood 1980b;</ref><ref target="#b11" type="bibr">Dohrenwend et al. 1986)</ref>.</s><s>Steep slopes within the crater or capping material composed mostly of welded spatter may also collapse as rockfalls depositing talus, which is different than erosion mechanisms described in models of cinder cone degradation <ref target="#b13" type="bibr">(Fodor and Németh 2015)</ref>.</s><s>It is therefore important to correlate the depositional facies of a spatter-rich vent edifice with the different modes and rates of degradation.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">The 2014-2015 Holuhraun Eruption<p><s>The Holuhraun basaltic fissure eruption occurred in the Northern Volcanic Zone of Iceland, and was active from <ref type="bibr">August 28, 2014</ref><ref type="bibr">, to February 27, 2015</ref><ref target="#b18" type="bibr">(Gudmundsson et al. 2014;</ref><ref target="#b48" type="bibr">Sigmundsson et al. 2015)</ref>.</s><s>Lava fountains erupted along a ~2-km-long fissure that formed coincident with a line of cones from a previous eruption, also called Holuhraun, that occurred during the 1860s <ref target="#b20" type="bibr">(Hartley and Thordarson 2013;</ref><ref target="#b48" type="bibr">Sigmundsson et al. 2015)</ref>.</s><s>Within the first week of the eruption, lava fountaining focused along the fissure to form several cone structures <ref target="#b62" type="bibr">(Witt et al. 2018</ref>).</s><s>The eruption emplaced 1.44 km 3 bulk volume of lava (or 1.2 km 3 dense rock equivalent; <ref target="#b5" type="bibr">Bonny et al. 2018</ref>) in a lava flowfield that extended 18 km, covering 84 km 2 <ref target="#b26" type="bibr">(Hoskuldsson et al. 2016;</ref><ref target="#b39" type="bibr">Pedersen et al. 2017)</ref>.</s><s>A large spatter rampart formed along the main vent, which became the source for most of the lava emplaced during the six-month eruption <ref target="#b39" type="bibr">(Pedersen et al. 2017;</ref><ref target="#b62" type="bibr">Witt et al. 2018)</ref>.</s><s>The largest of the vent-proximal edifices, called Baugur, is an elongate structure that maintained a lava lake that fed the bulk of the Holuhraun lava flow field <ref target="#b12" type="bibr">(Eibl et al. 2017;</ref><ref target="#b39" type="bibr">Pedersen et al. 2017;</ref><ref target="#b62" type="bibr">Witt et al. 2018)</ref>.</s><s>Baugur is made up of at least three cones that coalesced along the fissure, forming a rampart 500 m long within the first several days of the eruption, and ultimately growing to a height of ~50 m <ref target="#b62" type="bibr">(Witt et al. 2018)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data and Methods<p><s>We conducted terrestrial laser scanning (TLS) and unoccupied aircraft system (UAS) surveys of the vent region in the first five years immediately following the cessation of the Holuhraun eruption.</s><s>From these surveys we derived a time series of high-resolution topography, enabling precise measurement of topographic changes.</s><s>Rates and styles of erosion were quantified in change maps derived from topographic differencing.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Time series of LiDAR surveys<p><s>Four TLS surveys were collected during the summers of <ref type="bibr">2015, 2016, 2018, and 2019</ref>.</s><s>Each survey consisted of overlapping scans from a tripod-mounted Riegl VZ-400 laser scanner with a horizontal range of 400 m.</s><s>TLS surveys were generated from individual light detection and ranging (LiDAR) scans geolocated using a Trimble R8 Global Navigation Satellite System (GNSS) base station positioned along the rim of the vent and a matching R8 rover that was mounted on top of the Riegl scanner.</s><s>GNSS receivers communicated during the real-time kinematic (RTK) survey with an internal horizontal positioning accuracy of 0.06-1.40</s><s>cm.</s><s>Individual scans were collected in a 360° cylindrical grid pattern with a vertical extent of 100° (30°-130° from vertical), and an angular separation of laser shots of either 0.02° or 0.04°, resulting in a ~4 or ~7 cm point spacing at 100 m range, respectively.</s><s>Scan positions within the study area were spaced approximately every 50 to 70 m to acquire overlapping coverage and to minimize obscurations due to rugged topography.</s></p><p><s>Scans of the vent interior, within the vent-proximal channel, and of the eastern exterior slope of the ventproximal edifice comprise each year's TLS survey (e.g.</s><s>Fig. <ref target="#fig_1" type="figure">2</ref>.a).</s><s>Point clouds from each scan position were registered to each other to correct for position errors using a least squares matcher on plane patches derived from the point cloud using RiScan Pro Multi-Station Adjustment (MSA).</s><s>Scan registration offsets were minimized using an iterative closest point (ICP) algorithm <ref target="#b44" type="bibr">(Rusinkiewicz and Levoy 2001;</ref><ref target="#b54" type="bibr">Ullrich et al. 2003)</ref>.</s><s>The resulting error of these corrections is described by the standard deviation of the least squares solution for alignment of all scans for a given year, which for our scans ranged from 9-17 mm <ref target="#b60" type="bibr">(Whelley et al. 2023</ref>).</s><s>In addition to the statistics derived from MSA, the quality of the solution was validated by visually inspecting the overlapping portions of the scan point clouds to ensure that the adjustment computed by the software was physically meaningful and correct.</s><s>Finally, the scans were combined into a single point cloud, filtered from the native point density to 2-cm spacing, exported in LAS format, and georeferenced to the UTM Zone 28N (WGS 84 datum) coordinate system using the Point Data Abstraction Library (PDAL Contributors 2020).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Aerial topographic surveys<p><s>To expand photographic and topographic coverage of Baugur, aerial surveys were collected in 2016, 2018, and 2019 using a Trimble UX5-HP fixed-wing UAS <ref target="#b9" type="bibr">(Cosyn and Miller 2013)</ref> equipped with a Sony α7R digital singlelens reflex camera with a 15 mm lens.</s><s>The UAS acquired images at 1-4 cm/pixel from 90-120 m above ground level.</s></p><p><s>Images were precisely georeferenced using differential global positioning system (dGPS) data collected with an onboard GNSS receiver, inertial measurement unit (IMU), and a Trimble R10 base station.</s><s>The aerial images were bundle adjusted in the Trimble Business Center photogrammetry module to generate 20 cm/pixel or 12 cm/pixel digital elevation models (DEM) and 4 cm orthoimage mosaics covering the vent region.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Elevation data synthesis<p><s>Topographic datasets from TLS and UAS were combined into a merged point cloud for <ref type="bibr">2016, 2018 and 2019</ref> providing data coverage of the vent region (Fig. <ref target="#fig_1" type="figure">2</ref>.b-d; <ref target="#b60" type="bibr">Sutton et al 2023)</ref>.</s><s>Topographic dataset merging was performed in CloudCompare v2.11 (CloudCompare 2021).</s><s>For each year, TLS point clouds were imported into CloudCompare, and gridded UAS DEMs were imported as point clouds, where each raster pixel defined a vertex in Cartesian space.</s><s>The cloud-to-cloud (C2C) comparison tool within CloudCompare was used to perform a rigid transformation of the UAS data to align it to the TLS point cloud.</s><s>An initial run of C2C provided preliminary information about areas where topographic changes had likely occurred.</s><s>Subregions of areas where significant topographic changes had occurred were masked out.</s><s>The unmasked regions were run through C2C again, resulting in a transformation matrix that was then applied to the entire UAS point cloud to bring it into alignment with the TLS point cloud.</s><s>The aligned UAS data were then merged with the TLS point clouds to effectively fill any gaps of 10 cm or greater in the TLS dataset, preserving all TLS vertices and extending coverage beyond the TLS surveys.</s><s>Final merged TLS-UAS point clouds underwent minor rotations (&lt;0.5° in X and Y, and &lt;&lt;1° in Z) and translations (on the order of a few meters in X, Y, and Z) to co-register all point clouds.</s><s>The merged TLS-UAS point cloud for 2016 was registered to the 2015 TLS point cloud by default, as the 2016 TLS point cloud was registered to the 2015 TLS point cloud.</s><s>As the extent of the UAS coverage is much greater than the TLS coverage, later point clouds required minor shifts to achieve a relative adjustment for 2018 and 2019 to match the 2016 merged data.</s></p><p><s>Relative error in registering each pair of merged point clouds was determined by performing a statistical analysis of areas where changes were assumed to be minimal.</s><s>These areas are primarily covered only by UAS data.</s></p><p><s>Small portions of the vent floor that showed minimal elevation differences were extracted to include areas with LiDAR-only coverage in the analysis.</s></p><p><s>As a final processing step, to enable year-over-year volume change comparisons, overhangs in the point clouds were removed.</s><s>This was performed by removing points &gt;50 cm lower than the maximum elevation point in a 20-cm planform neighborhood of each point.</s><s>These distances were determined through visual inspection of point clouds in CloudCompare to maximize the identification of underhanging surfaces while minimizing the removal of points at high-sloped but not overhanging surfaces.</s><s>Overhang removal was necessary to calculate volume change, which assumed vertical elevation changes between point clouds were due to mass wasting and not complex topography.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Difference quantification<p><s>Topographic changes were identified by comparing merged point clouds from each year using the CloudCompare plugin Multiscale Model to Model Cloud Comparison (M3C2; <ref target="#b33" type="bibr">Lague et al. 2013</ref>).</s><s>M3C2 has been successfully used to measure topographic changes at landslides <ref target="#b33" type="bibr">(Lague et al. 2013;</ref><ref target="#b28" type="bibr">James et al. 2017;</ref><ref target="#b61" type="bibr">Williams et al. 2019</ref>) and within volcanic vents <ref target="#b19" type="bibr">(Hanagan et al. 2020)</ref>.</s><s>This method has several advantages over other point cloud differencing tools, such as C2C.</s><s>For example, data gaps in either of the two point clouds being compared return no data in the M3C2 difference map, rather than producing an interpolated result.</s><s>For this analysis, elevation differences between the point clouds were calculated in the vertical (+Z) direction.</s><s>We used the M3C2 uncertainty value to filter points at high uncertainty/low density, which corresponded to overhangs and sub-vertical faces where poor UAS coverage provided ambiguous topography.</s><s>A linear filter preserved point density with low uncertainty and filtered out points with high uncertainty.</s></p><p><s>Detectable topographic changes were expected to be at or below the scale of the meter-sized boulders found throughout the vent interior.</s><s>Differences were calculated on a subset of the point cloud (M3C2 "core points") at an effective ground sample spacing of 10 cm, the value chosen to minimize measuring TLS scan position differences rather than actual topographic change.</s><s>Distances between the two point clouds were measured within a diameter of 1 m centered on normal vectors computed at every core point with a maximum depth search column of 20 m.</s><s>The resulting difference maps were projected onto the former and latter years' topography to produce two difference maps for each temporal pair.</s><s>For example, the M3C2 differences projected onto the 2015 topography retained the initial topography before subsequent mass wasting events, so the slopes of the "before" state could be calculated.</s><s>The M3C2 differences projected onto the latter year's topography allowed the post-change slopes to be calculated.</s><s>Changes measured in M3C2 were compared to elevation and slope.</s><s>Calculation of topographic slope was performed on the point clouds within CloudCompare by calculating normal vectors using a planar fit with a 1 m diameter, oriented in the +Z direction.</s><s>Slope was then assigned in degrees (0°-90°) to each point as a scalar value.</s></p><p><s>After vertical changes were calculated using M3C2, the areal footprints of all points were calculated by producing Voronoi diagrams of each study year's point cloud.</s><s>Voronoi diagrams <ref target="#b58" type="bibr">(Voronoi 1907</ref>) are used to calculate tessellated polygonal cells centered on points in 2D (or 3D in this case) space.</s><s>The area of each Voronoi polygon was calculated and assigned to a central point.</s><s>As virtually all points are assigned a scalar value in M3C2 describing vertical elevation change, volume change at each point was calculated through a trivial multiplication of elevation change and polygon area.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results<p><s>We first present an overview of the elevation differences over time, spanning Baugur and the immediate vicinity, to assess the characteristics of areas where changes do and do not occur ( §3.1).</s><s>We then perform a quantitative assessment of volume changes for the interior and exterior of Baugur ( §3.2).</s><s>Section 3.3 considers the volume changes in exterior portion of Baugur.</s><s>In Section 3.4, we present measurements of rockfall events on the interior walls.</s><s>Finally, we correlate rockfall distributions over time with lithologic facies in Section 3.5.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Elevation change time series<p><s>The elevation difference maps output from M3C2 show areas where material has been removed or deposited (Fig. <ref target="#fig_3" type="figure">3</ref>).</s><s>Each difference map illustrates the patterns of mass movement, showing that discrete areas of negative and positive changes dominate the interior, while more diffuse changes of smaller magnitude occur on the exterior slopes.</s></p><p><s>Negative elevation changes along the rim and exterior slopes of the rampart qualitatively appear greatest in the 2016-2018 comparison map (Fig.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">3.e).<p><s>An overall decrease in elevation is visible on both the eastern exterior slopes (where TLS and UAS coverage both exist in 2016-2019) and on the western exterior slopes (which only was covered in the UAS data).</s><s>Areas outside</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Volume change analysis<p><s>We extracted total volume changes (derived from the elevation change maps) for each time step difference map over the area encompassing Baugur.</s><s>We further divided the vent edifice into two subareas: the Vent Interior and the Vent Exterior (Fig. <ref target="#fig_3" type="figure">3f</ref>).</s><s>The channel forms a break in the Vent Exterior unit where it exits the vent to the northeast.</s></p><p><s>The Vent Interior boundary includes the head of the channel but does not extend into the channel.</s><s>The boundary was drawn across the channel outlet to include only areas that relate to the construction of the spatter rampart.</s><s>Channel wall construction was governed by different processes, such as levee formation by overbank flows <ref target="#b34" type="bibr">(Lipman and Banks 1987)</ref>, and therefore are not included in this study.</s></p><p><s>The total sum of volume changes from the Interior and Exterior areas shows the magnitude of the total negative change decreasing over the four-year time span of the study (Fig. <ref target="#fig_5" type="figure">4a</ref>).</s><s>Furthermore, the magnitude of the negative changes is greater than that of the positive changes.</s><s>The magnitude of positive volume change, however,   In general, volume changes decrease in magnitude from year-to-year.</s><s>On the interior, more negative changes occur on higher slopes, with greater positive changes on lower slopes, indicating mass movement from the higher to lower</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Exterior<p><s>Over the cumulative time span of 2015-2019, the elevation along the upper exterior portion of the rampart shows a decrease of &gt;1 m compared to the total deposition at the base of the exterior slope of &lt;0.2 m (Fig. <ref type="figure">6</ref>).</s><s>Volume changes on the exterior slopes correlate strongly with elevation and are greatest during the first timestep (2015-2016; Fig. <ref target="#fig_6" type="figure">5a,</ref><ref type="figure">e</ref>).</s><s>The correlation with slope (Fig. <ref target="#fig_6" type="figure">5b,</ref><ref type="figure">f</ref>) for the exterior is more symmetrical, with the peak negative and positive changes occurring in the 30°-40° range.</s><s>This correlation reflects the topography, as the mean of the exterior slopes for 2016, 2018, and 2019 is 31° with a standard deviation of 11°.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Interior<p><s>We identified rockfalls in the vent interior portion of each change map point cloud as discrete patches of negative change observed above a corresponding area of positive change.</s><s>The UAS-derived orthomosaics from 2016, 2018 and 2019 were used to confirm rockfalls identified in the difference maps.</s><s>Each group of points identified as a rockfall was segmented in CloudCompare by identifying the negative volume changes bounded by areas of no change.</s></p><p><s>The selected 3D points were outlined with a convex hull around a best-fit plane and saved as polygons that could be projected onto a 2D map ( §3.5).</s></p><p><s>Rockfalls generally initiated at higher elevations and on oversteepened slopes (Fig. <ref target="#fig_6" type="figure">5</ref>.b,d), corresponding to areas composed of welded spatter deposited during the later stages of vent construction <ref target="#b62" type="bibr">(Witt et al. 2018)</ref>.</s><s>Most of the upper interior slopes have been affected by rockfalls, which are observed to reoccur at the same location from yearto-year.</s><s>The volumes for all mapped rockfalls range from 0.1 m 3 to 1,918.9 m 3 (Table <ref target="#tab_0" type="table">1</ref>).</s><s>The volume represented by each rockfall patch likely includes multiple events as the temporal resolution of our difference maps only allows for the recording of cumulative effects over one-or two-year intervals <ref target="#b1" type="bibr">(Barlow et al. 2012)</ref>.</s></p><p><s>The material released from each rockfall event is redistributed on talus slopes built up on top of the lava ledges and ramps along the interior walls of the vent (Fig. <ref target="#fig_9" type="figure">8</ref>).</s><s>Minimal amounts of material from rockfalls have reached the vent floor.</s><s>Patches of light-toned mineralization are often visible where wall material has been removed by rockfall events (Fig. <ref target="#fig_9" type="figure">8a</ref>).</s><s>Exposed wall material remains oversteepened, apparently leaving it prone to future failure as evidenced by the overlapping rockfalls mapped from year-to-year.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Correlation with lithologic facies<p><s>We mapped vent facies based on the orthomosaic from the 2018 UAS data produced at 0.04 m/pixel (Fig. Talus piles and rockfalls are a unit that has formed since the end of eruptive activity and are a product of vent degradation.</s><s>The Collapsed Lava unit is composed of dark gray slabs of the lava crust that remained after the lava drained via the northern channel.</s><s>Flat-lying units adjacent to the base of the vent are mapped as Scoria Mantle.</s></p><p><s>Remnant channels are mapped as Rubbly Pahoehoe <ref target="#b30" type="bibr">(Keszthelyi et al. 2004;</ref><ref target="#b57" type="bibr">Voigt et al. 2021)</ref>.</s></p><p><s>Rockfalls correlate strongly with the Agglutinated Spatter unit (Fig.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion<p><s>Observations of topographic changes at Baugur over five years reveal that exterior slopes and interior walls degrade by different processes.</s><s>One of the most notable results of the difference maps is that volume is not conserved (i.e. the negative topographic changes are greater than the positive topographic changes).</s><s>This is an unexpected result, because material removed by erosion (e.g. via rockfalls or gravitational sliding) should be balanced by a corresponding positive volume change (deposition).</s><s>This implies that processes other than the downslope movement of material may be contributing to the observed negative elevation change.</s><s>To separate the part of the signal due to mass wasting from other potential causes of negative elevation change, we first balanced the positive and negative total changes by assuming equal mass balance.</s><s>Ostensibly, the remainder would represent negative elevation changes due to non-mass wasting processes.</s></p><p><s>Negative elevation changes that are not compensated by equivalent positive elevation changes could be due to physical processes such as graben subsidence, cooling contraction, sedimentary compaction, and/or aeolian deflation.</s><s>We have adjusted for uncertainty within our topographic data to a minimum level by only measuring changes larger than the estimated errors.</s><s>The resulting percentage of the negative changes not balanced by positive volume change is 90.6% for <ref type="bibr">2015</ref><ref target="#b7" type="bibr">-2016</ref><ref type="bibr">, 84.5% for 2016</ref><ref type="bibr">-2018</ref><ref type="bibr">, and 38.3% for 2018</ref><ref type="bibr">-2019 (Table 2) (Table 2)</ref>.</s></p><p><s>It is not possible to measure or model every factor that could contribute to the observed excess negative topographic change, but we do consider data processing artifacts ( §4.1), graben subsidence ( §4.2) and thermal contraction ( §4.3).</s><s>In Section 4.4, we examine changes in the rates and magnitudes of rockfalls on the interior of Baugur.</s><s>In Section 4.5, we discuss how observed erosion processes could be incorporated into landform evolution models for volcanic vent edifices, and in Section 4.6 we explore implications of this study for future monitoring of fresh spatter ramparts.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data uncertainties<p><s>Errors in the merging and relative registration of the year-to-year point clouds could contribute to the apparent mass imbalance.</s><s>However, if the larger negative elevation change was solely due to the merging of the LiDAR and UAS data sets, it would be unlikely to appear in the western slopes of the exterior, which were not sampled in the LiDAR surveys.</s><s>The negative elevation change signal does, in fact, appear on both the east and west-facing slopes.</s></p><p><s>The flat-lying terrain surrounding the vent, which was mostly covered only by the UAS data, does not display a strong negative signal; those areas tend to have a mean difference in the M3C2 difference maps that is slightly positive (~0.01 m).</s><s>Minor photogrammetric artifacts appear in the surrounding terrain, but their contribution is accounted for in the error level measured for each difference map (Table <ref target="#tab_1" type="table">2</ref>).</s><s>Other artifacts result from the difference quantification, which overcounts positive value volume changes, particularly at oversteepened slopes of overhangs where the M3C2 search depth parameter unavoidably overshoots the intended reference surface.</s><s>The choice of the M3C2 parameters, particularly the depth search parameter, was a tradeoff between being able to accurately capture the largest negative changes on steep slopes and inadvertently counting complex surfaces as positive changes ( §2.4).</s><s>Thus, data uncertainties cannot account for the observed excessive negative volume change.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Graben subsidence<p><s>Baugur is situated along the western fault boundary of a graben <ref target="#b23" type="bibr">(Hjartardóttir et al. 2015;</ref><ref target="#b32" type="bibr">Kolzenburg et al. 2021)</ref>.</s><s>Subsidence due to drainback of magma along the dike may seem like a candidate factor in the overall lowering of Baugur after the end of the eruption, but graben formation above the dike that sourced the Holuhraun flow was marked by an elevation drop of ~3-4 m between parallel fault lines.</s><s>This drop occurred during the initial stages of the eruption, and thereafter did not exhibit a significant lowering in repeat surveys up to the summer of 2019 <ref target="#b32" type="bibr">(Kolzenburg et al. 2021)</ref>.</s><s>Ongoing graben subsidence therefore seems unlikely to be a major contributing factor to the negative elevation change observed.</s><s>However, apparent subsidence of the edifice could be due to other causes, such as compaction due to thermal contraction and/or settling.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Thermal contraction<p><s>The signal of negative change is confined to the vent edifice, implying a shallow mechanism, such as thermal contraction.</s><s>In studies of the cooling contraction of lava flows (Wittman et al. 2017) and pyroclastic deposits <ref target="#b59" type="bibr">(Whelley et al. 2012)</ref>, thermal contraction was modeled to derive rates of subsidence.</s><s>To investigate the potential magnitude of volume loss at Baugur, we estimate volumetric change due to cooling, and compare the estimates to the difference measurements.</s></p><p><s>The change in volume for an unconstrained material can be estimated to first order simply by multiplying the initial volume, V, by a factor describing the material's response to thermal changes, , and the change in temperature, dT <ref type="bibr">(Turcotte and Schubert 2002;</ref><ref type="bibr">p. 204)</ref>.</s></p><formula xml:id="formula_0">𝑑𝑉 = 𝑉 × 𝛼 × 𝑑𝑇<label>(1)</label></formula><p><s>Similarly, when considering just the change in height (dZ), the formula can be written as</s></p><formula xml:id="formula_1">𝑑𝑍 = 𝑍 × 𝛾𝛼 × 𝑑𝑇<label>(2)</label></formula><p><s>where the scaling coefficient, , would be 1 for the 1D linear function (as in Eqn.</s><s>1), and 3 for the case where the only volumetric contraction is in the height direction <ref type="bibr">(Wittman et al. 2017</ref>).</s><s>However, as the vent edifice is not a slab of constant thickness, and the actual change is likely in three dimensions, we use an intermediate value for  = 1.7, based on <ref target="#b7" type="bibr">Chaussard (2016)</ref>, where  = (1 + )/(1 -), and  is Poisson's ratio of 0.25.</s><s>Our results from the topographic differencing measured in elevation changes (dZ), from which we calculated volume changes (dV).</s><s>For the purposes of comparing the potential contribution of thermal contraction to the overall elevation changes (Fig. <ref type="figure">6</ref>), we can estimate to an order of magnitude what the potential contribution of cooling might be to elevation (height) changes, using Eqn.</s><s>( <ref target="#formula_1" type="formula">2</ref>), with  = 1.7, to obtain a factor that describes a percentage change.</s><s>The magnitude of the thermal response of basalt can vary depending on density, vesicularity, temperature, and composition (Richter and Simmons 1974).</s><s>For the coefficient of thermal expansion of basalt, , we use 8.30 × 10 -6 K -1 , derived from laboratory measurements of Icelandic basalts from the Hekla volcano, which included samples of various porosity over a range of temperatures comparable to the situation at Baugur <ref type="bibr">(Wittman et al. 2017)</ref>.</s><s>The choice for  relies on assumptions based on observations of the initial and final temperatures of the edifice.</s><s>At Holuhraun, the measured eruption temperature was 1195 °C <ref target="#b31" type="bibr">(Kolzenburg et al. 2017)</ref>.</s><s>We observed completely welded deposits lower in the vent, and agglutinated spatter along the upper portion and rim, implying that deposition temperatures were hot enough for clasts to be deformable and sticky, but were lower than the eruption temperature.</s><s>The deposition temperature can be estimated to be near the glass transition temperature of 725 °C <ref target="#b45" type="bibr">(Ryan and Sammis 1981)</ref>.</s><s>When completely cooled, the solidified lava would be at the ambient temperature.</s><s>Although the surface was cool enough to walk on at least as early as six months after the end of the eruption, ongoing fumarolic activity implies that subsurface temperatures in at least some portions of Baugur were at least 100 °C as late as 2019.</s><s>We therefore bracket the range of dT from a maximum of 725 °C -0 °C = 725 °C, to a minimum of 725° -100° = 625 °C.</s><s>We find that the maximum estimated elevation change due to cooling contraction is -0.07 m if the material cooled completely to ambient temperature.</s><s>The more realistic value for dT, 625 °C, yields a maximum elevation change of -0.06 m.</s><s>These estimates compare reasonably well to the observed average decrease in elevation of a few tens of centimeters over the ~50 m height of the rampart, demonstrating that thermal contraction is likely to be responsible for roughly 50% of the observed negative elevation changes (Fig. <ref target="#fig_13" type="figure">10</ref>).</s></p><p><s>Compaction may also contribute to observed volume changes due to settling of unconsolidated tephra or by degassing of residual clastogenic melt within the edifice <ref target="#b59" type="bibr">(Whelley et al. 2012;</ref><ref target="#b7" type="bibr">Chaussard 2016)</ref>.</s><s>Nonetheless, the role of thermal contraction is expected to play an important role in observed volume changes and may serve as a catalyst for mass wasting as cooling causes the development of fine-scale contraction joints that weaken steep welded spatter, thereby enhancing gravitational instability and increasing the likelihood of rockfalls.</s><s>As new surfaces are exposed by rockfalls, it is also possible that the cooling processes that form cracks may be migrating deeper into the edifice, propagating instabilities into the edifice.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Rockfalls<p><s>The number of cataloged rockfall events decreases only slightly from year-to-year, while the total volume and maximum size rockfall both decrease more dramatically.</s><s>Rockfall total volumes decrease from 7,110 m 3 in 2015-2016 to 5,028 m 3 over 2016-2018 (two years), to 1,247 m 3 in 2018-2019 (Table <ref target="#tab_0" type="table">1</ref>).</s><s>It is probable that each mapped rockfall event represents the cumulative effect of multiple smaller events, as they were not observed in real time <ref target="#b27" type="bibr">(Hovius et al. 1997;</ref><ref target="#b1" type="bibr">Barlow et al. 2012)</ref>.</s><s>Even so, the overall trend of decreasing rockfall volume implies that the relative contribution of smaller events is increasing in time.</s><s>This implication is borne out in the complementary cumulative distribution function (CCDF) of rockfall data for each timestep (Fig. <ref target="#fig_15" type="figure">11</ref>) that shows the scaling value (β)</s></p><p><s>of the power law fit is &gt;1 in absolute magnitude <ref target="#b1" type="bibr">(Barlow et al. 2012)</ref>.</s><s>The power law fit is only applied to volumes greater than a calculated cutoff value using the method of <ref target="#b8" type="bibr">Clauset et al. (2009)</ref>.</s><s>Visual inspection of the CCDF shows that using the power law fit to extrapolate to larger volumes could overestimate the likelihood of larger magnitude events occurring in the future as the fit to the distribution is not well correlated at the larger end of the data set.</s><s>The apparent threshold for what would be considered a good fit at the larger end of the distribution is ~200 m 3 within the first three years, and ~70 m 3 in the fourth year.</s><s>The similarity of the plots for the first two time steps <ref type="bibr">(2015-2016 and 2016-2018</ref>, spanning the first three years), and the marked difference thereafter indicates some physical process changed resulting in the decrease the largest rockfall volumes.</s><s>The reduction in rockfall magnitude may be an effect of diminishing supply of available material at exposed over-steepened surfaces (i.e. the largest volumes collapsed within the first three years, reducing the available amount of gravitationally unstable material), or talus is gradually burying the exposed wall faces, which naturally buttresses the exposed, if still oversteepened walls, or it may be a combination of both factors.</s></p><p><s>We observe that rockfalls scars remain over-steepened, and that rockfalls can reoccur at the same locations (Fig. <ref target="#fig_12" type="figure">9</ref>).</s><s>In many cases, rockfall scars appear to expose bright mineral deposits left by fumarolic activity (Fig. <ref target="#fig_9" type="figure">8a</ref>; <ref type="bibr">et al. 2019</ref>).</s><s>This apparent correlation may be explained by fumarolic activity degrading the rock strength by hydrothermal alteration <ref target="#b10" type="bibr">(Darmawan et al. 2022)</ref>.</s><s>Weakly agglutinated spatter contacts in the material deposited in the upper portion of the vent edifice may also be prone to degradation due to fumarolic activity, promoting collapse where there is already instability due to over-steepened slopes (cf.</s><s><ref target="#b19" type="bibr">Hanagan et al. 2020)</ref>.</s></p><formula xml:id="formula_2">Achilles</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Landform evolution synthesis<p><s>Landform evolution models for cinder cones typically assume that diffusion is the dominant degradation process <ref type="bibr">(Wood, 1980b, Pelletier and</ref><ref target="#b40" type="bibr">Cline, 2007)</ref>.</s><s>Diffusion of unconsolidated material from higher to lower elevations by gradual mass movement downslope is nonlinearly related to slope angle <ref target="#b40" type="bibr">(Pelletier and Cline 2007)</ref>.</s></p><p><s>Diffusive processes would be expected to show a signature of balanced positive change (deposition) as non-cohesive material moves from higher to lower elevations <ref target="#b40" type="bibr">(Pelletier and Cline 2007)</ref>.</s><s>In reality, volume may not be conserved locally.</s><s>For example, some loss of volume may be expected due to aeolian removal.</s><s><ref target="#b16" type="bibr">Fornaciai et al. (2010)</ref> noted a deficit in the volume of deposited material of up to 75% of the volume eroded from the upper exterior slopes of Etnean cinder cones, which they attributed to wide dispersal by wind, with lack of agglutination noted as a contributing factor.</s></p><p><s>Our observations suggest that downslope movement of unconsolidated material on the exterior slopes is hindered by the presence of spatter along the upper portion of the edifice.</s><s>However, there is some deposition at the exterior base, due to the downslope movement of scoria from the middle and lower slopes (Fig. <ref type="figure">7</ref>).</s></p><p><s>Over time, rockfalls along the vent interior walls convert coherent pyroclastic deposits (agglutinated spatter) into unconsolidated material.</s><s>The magnitude of elevation change at rockfall locations is on the order of a few meters, with cumulative change from 2015-2019 up to 11 m in some areas.</s><s>As the wall material is removed, the rim has retreated horizontally and vertically by up to ~3 m in places (Fig. <ref target="#fig_16" type="figure">12a</ref>).</s><s>Talus accumulates below the rim, approaching the angle of repose for unconsolidated material.</s><s>The upper walls retreat horizontally but maintain oversteepened slopes.</s></p><p><s>Downslope movement of talus in the vent interior may progress in a two-stage process such that initial deposition occurs onto the ledges by talus until it reaches the angle of repose, at which point material can advance further downslope and begin infilling the crater floor.</s><s>Although we did not observe any significant accumulation of material on the floor of the vent during the five years after the eruption ceased, it may be that once the accommodation space on the ledges is filled, talus will be deposited on the vent floor.</s><s>The mobility of the talus is not well quantified in our data, other than once emplaced, it did not show further downslope movement.</s><s>Over a longer time span, the cumulative effects of episodic interior rockfalls may resemble a more diffusive process (Fig. <ref target="#fig_16" type="figure">12b</ref>).</s><s>Our observations suggest that a hybrid model would better describe the modes of degradation that occur during the earliest stages of evolution of spatter ramparts, rather than a model that relies solely on diffusion.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusions<p><s>We documented the initial stages of degradation of the primary vent (Baugur) of the 2014-2015 Holuhraun eruption in northern Iceland, finding that up to 27,540 m 3 of material was eroded from the interior walls and 28,147 m 3 was removed from the exterior slopes, for a total volume loss of 55,687 m 3 over the period from 2015-2019.</s></p><p><s>Positive volume change (deposition) in the vent interior was 8,004 m 3 , and on the exterior 1,636 m 3 was deposited for a total of 9,640 m 3 .</s><s>Volume changes are a result of two distinct styles of erosion.</s><s>Material in the interior of the vent is removed from oversteepened slopes by discrete rockfalls, burying the ledges below in talus.</s><s>Minimal material had accumulated on the floor of the vent five years after the cessation of the eruption.</s><s>Diffusive processes are qualitatively evident in the topographic change maps, but measurements are below the estimated level of uncertainty.</s><s>Material is hindered from eroding from the rim and upper portions of the exterior slopes by a capping rim of cohesive spatter deposits and interbedded spatter and cinders.</s><s>We estimate that bulk contraction due to cooling could contribute to a maximum of a few tens of centimeters decrease in elevation.</s><s>However, cooling contraction alone cannot fully explain the observed negative volume changes.</s><s>Other mechanisms such as compaction-induced settling of the edifice and/or aeolian transport and deflation are required to explain the mass balance change over the edifice.</s></p><p><s>We propose a conceptual landform evolution model that combines stochastic rockfall processes on the interior walls, diffusive gravitational sliding on the portions of exterior slopes where unconsolidated scoria exists, and that also incorporates cooling contraction and compaction over the entire edifice to better describe the observed modes of degradation the earliest stages of evolution of spatter ramparts, or spatter-rich scoria cones.</s><s>The occurrence of discrete mass wasting events trends towards smaller magnitude events, possibly evolving to more diffusive processes.</s></p><p><s>Our observations support a model where the vent diameter widens relatively quickly after the eruption ceases, inviting comparison to models of impact craters and other steeply sloped, gravitationally unstable landforms in the Solar System <ref target="#b14" type="bibr">(Fassett and Thomson 2014;</ref><ref target="#b15" type="bibr">Fassett et al. 2017)</ref>.</s></p><p><s>Potential hazards at Baugur and similar fresh volcanic vents primarily impact visitors (e.g.</s><s>tourists, researchers, and park staff) hiking in and around the vent area.</s><s>Collapses along the crater rim and rockfalls inside the vent are the greatest hazards that we identified in the data presented here.</s><s>The difference maps show clearly that rockfall events occurred each year and can reoccur at previous rockfall locations.</s><s>Areas of steep slopes are prone to gravitational instability, particularly as the contacts between welded spatter clasts degrade due to a combination of factors including weathering, fumarolic activity, and settling.</s><s>The areas with the highest erosion rates are correlated with the highest elevations (i.e.</s><s>along the interior and exterior of the rim).</s><s>Talus slopes appear to be stable and less prone to further mass wasting.</s><s>The temporal span of this study is not sufficient to make reliable predictions about the ongoing hazard potential.</s><s>However, the data can be used to inform the cadence of repeat surveys that would be sufficient to adequately monitor the evolution of spatter ramparts or similar vent edifices, such as annual surveys conducted for the first few years, followed by repeat surveys at longer intervals thereafter.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Fig. 1<label>1</label><figdesc><div><p><s>Fig. 1 Geologic and geographic context of Holuhraun in the north of Iceland, situated in the volcanic zone just north of the subglacial Bárðarbunga volcano.</s><s>a Landsat 8 Operational Land Imager (OLI) scene acquired July 4, 2020.</s><s>The Holuhraun lava flow is outlined in white, with location of the Baugur vent indicated by the yellow rectangle marked b. b Orthophoto mosaic of Baugur derived from 20 cm unoccupied aircraft system (UAS) data ( §2.2). White solid and dotted lines indicate the boundaries of the Vent Exterior and the Vent Interior, respectively.</s></p></div></figdesc><graphic coords="5,72.00,72.00,468.00,378.10" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Fig. 2<label>2</label><figdesc><div><p><s>Fig. 2 Merged point cloud density by year (points/m 3 , logarithmic color scale) overlaid on a shaded relief map from the 2018 UAS-derived DTM (grayscale).</s><s>Colors represent the number of points/m 3 on a logarithmic scale.</s><s>a 2015 coverage included TLS data only.</s><s>b 2016 merged UAS and TLS data.</s><s>UAS point data is generated from a raster at a grid spacing of ~20 cm (note two ~100 m long data gaps on the west and south flanks).</s><s>c 2018 merged TLS-UAS point cloud (note one small data gap on the south flank).</s><s>d 2019 merged TLS-UAS data, with the UAS point grid spacing at ~12 cm.</s></p></div></figdesc><graphic coords="8,74.50,72.00,422.00,451.00" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>3.b); however, that map encompasses the cumulative differences over two years.</s><s>The cumulative change map from 2015-2019 captures all changes that can be measured where only TLS coverage exists (Fig. 3.d).</s><s>Cumulative changes across the entire structure and surroundings are shown in the 2016-2019 map (Fig.</s></p></div></figdesc></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Fig. 3<label>3</label><figdesc><div><p><s>Fig. 3 Topographic changes in the Z (vertical) direction.</s><s>Maps are shown stretched to the same color ramp, saturated at ±2 m, with each map's minimum and maximum change indicated.</s><s>Blue indicates negative elevation change; red indicates a positive elevation change.</s><s>White indicates no change.</s><s>Change maps are overlaid on merged point clouds from 2018 and 2019 (shown in dark gray) and artificially shaded to indicate relief.</s><s>a-c Year-to-year changes.</s><s>Note b spans two years.</s><s>d Total cumulative change over 2015-2019, which includes TLS coverage only.</s><s>e Cumulative change over 2016-2019, which includes merged UAS and TLS coverage.</s><s>f Outlines of the vent exterior and interior areas drawn on the 2018 orthoimage mosaic, indicating the subset areas analyzed in Figs. 4 and 5.</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>does not show a clear trend; it decreases slightly over the 2016-2018 timestep, but increases in the 2018-2019 timestep.</s><s>The contribution of the interior and exterior negative volume changes is more balanced in 2018-2019 than in other years.</s><s>To account for the lower spatial coverage in the 2015-2016 change map, the sum of volume changes at each timestep was normalized by the area of the point clouds within each segment (Fig. 4b).</s><s>Normalized values show similar trends-the positive changes are several times lower than the negative changes, the negative changes decrease in magnitude over time, and positive changes increase in the 2018-2019 timestep.</s><s>Normalized volume changes show a greater volume loss from the exterior slopes from 2015-2016, decreasing to slightly less than that of the volume loss over the interior slopes during 2016-2018.</s><s>Deposition on the exterior slopes is consistently lower than on interior slopes.</s></p></div></figdesc></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0">Fig. 4<label>4</label><figdesc><div><p><s>Fig. 4 Average volume change per year for the interior and exterior portions of Baugur, showing the larger magnitude of negative change compared to positive change, and the decreasing trend in negative change from year-to-year.</s><s>Also note the magnitude of changes are larger on the vent interior than on the exterior.</s><s>Height of stacked bars represent the total negative or positive volume change.</s><s>a Total change (m 3 /yr).</s><s>b Volume changes normalized by the area of each sub-area (interior or exterior).</s><s>The magnitude of the normalized change can be interpreted as average elevation change per year.</s></p></div></figdesc><graphic coords="12,72.00,382.47,468.00,180.95" type="bitmap"></graphic></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0">Fig. 5<label>5</label><figdesc><div><p><s>Fig. 5 Average volume a-d and elevation e-h change per timestep, binned by elevation (a,c,e,g) and slope (b,d,f,h).</s></p></div></figdesc></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>slopes.</s><s>Exterior changes correlate more strongly with elevation.</s><s>Volume calculations have been shifted by the mean elevation change for each timestep.</s><s>Binned volume changes for 2016-2018 represent averages per year over the 2year timestep.</s><s>Exterior (a,b,e,f) and Interior (c,d,g,h) subareas refer to the outlined areas in Fig. 3. Binned volume changes (a-d) were normalized by dividing by the area within each region (Interior and Exterior) (e-h).</s></p></div></figdesc></figure>
+<figure xml:id="fig_8" xmlns="http://www.tei-c.org/ns/1.0">Fig. 6 Fig. 7<label>67</label><figdesc><div><p><s>Fig. 6 Mean change in elevation versus elevation binned in 5-m increments from the 2019-2015 difference map, over the eastern exterior slopes from the rim to the base.</s><s>The elevation change is negative over nearly the entire slope area, with a slight positive change near the base.</s><s>The change per bin decreases with elevation, exhibiting a concave-down curve, indicating a greater loss in volume over the (vertically) highest part of the edifice.</s><s>Error bars are the standard deviations (1 σ) for each bin.</s></p></div></figdesc><graphic coords="15,72.00,384.88,434.59,237.65" type="bitmap"></graphic></figure>
+<figure xml:id="fig_9" xmlns="http://www.tei-c.org/ns/1.0">Fig. 8 a<label>8</label><figdesc><div><p><s>Fig. 8 a Field photo from 2019 looking towards the interior western wall.</s><s>b Similar perspective view of the volume difference map between 2019 and 2016 point cloud projected onto 2019 topography.</s><s>Volume change colors are saturated at ±0.1 m 3 .</s><s>Blue indicates negative change.</s><s>Red indicates positive change.</s><s>White indicates no change.</s><s>Black indicates no data.</s><s>In both a and b, example rockfall patches are marked with the letter R. Collapsed Lava, Agglutinated Spatter, and Talus units correspond to mapped units in Fig. 9. Dashed lines show selected areas in both scenes.</s><s>The white and black arrows in (a) and (b), respectively, identify a dark patch of spatter, which is unchanged between years.</s></p></div></figdesc><graphic coords="18,72.00,72.00,468.00,280.10" type="bitmap"></graphic></figure>
+<figure xml:id="fig_10" xmlns="http://www.tei-c.org/ns/1.0">9b) .<label>.</label><figdesc><div><p><s>Units were determined by interpreting the images and by delineating areas based on slope and roughness properties derived from the 2018 topographic model.</s><s>Agglutinated Spatter corresponds to areas of higher roughness and steeper slopes (~36°-50°).</s><s>Agglutinated Spatter occurs along the rim and upper slopes of the vent.</s><s>Transitional Spatter is interbedded scoria and spatter and makes up most of the middle section of the outer slopes.</s><s>The slopes of the Transitional Spatter unit range from ~30º-36º.</s><s>The base of the exterior is mapped as Scoria; the slope angles in the scoria unit are at or near the angle of repose for unconsolidated granular material (~25°-30°; Beakawi Al-Hashimi et al. 2018).</s><s>The Talus unit represents rubbly piles of reddish unconsolidated material and primarily occurs along the inner walls of Baugur below the Agglutinated Spatter unit.</s><s>The Talus unit does not extend to the floor of the vent.</s></p></div></figdesc></figure>
+<figure xml:id="fig_11" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>9.b).</s><s>Outlines of the mapped rockfall areas are projected onto the 2D facies map as polygons (Fig. 9.a,b).</s><s>The apparent overlap of polygons from the same year is an artifact of the convex hull fit to the 3D points identified for each rockfall.</s><s>The polygons from different years do overlap, showing that rockfalls can reoccur in the same location.</s><s>The facies mapping and rockfall mapping were conducted independently, lending support to the correspondence of rockfalls to the Agglutinated Spatter unit.</s><s>The majority of talus from the rockfalls has accumulated on the ledges along the interior walls, that thus far has prevented burial and infilling of the vent floor.</s></p></div></figdesc></figure>
+<figure xml:id="fig_12" xmlns="http://www.tei-c.org/ns/1.0">Fig. 9 a<label>9</label><figdesc><div><p><s>Fig. 9 a Rockfall outlines mapped by timestep.</s><s>b Facies map of Baugur and immediate vicinity highlighting spatter, scoria, collapsed lava (interior) and uncollapsed lava (exterior) units.</s><s>c Inset detail of rockfall outlines overlaid on the facies map.</s><s>Mapped rockfalls show a clear correlation between year-to-year rockfalls and the Agglutinated Spatter unit.</s><s>Black dotted and dot-dash outlines indicate the vent interior and exterior analysis areas.</s><s>The basemap in all panels is the shaded relief derived from the 2018 UAS topography.</s><s>The red outline in a indicates the approximate area shown in the perspective view in Fig. 8 as viewed from the location of the eye symbol.</s></p></div></figdesc><graphic coords="19,72.00,252.49,468.00,243.90" type="bitmap"></graphic></figure>
+<figure xml:id="fig_13" xmlns="http://www.tei-c.org/ns/1.0">Fig. 10<label>10</label><figdesc><div><p><s>Fig. 10 Binned elevation change from 2015 to 2019 over the eastern exterior slope (Fig. 6) compared to the estimated contribution of negative elevation change due to thermal contraction.</s><s>The red lines are the result of Eqn. 2 calculatedwith  = 1.7,  = 8.30 × 10 -6 K -1 , and dT = 625° (solid line) and 725° (dashed line).</s></p></div></figdesc></figure>
+<figure xml:id="fig_15" xmlns="http://www.tei-c.org/ns/1.0">Fig. 11<label>11</label><figdesc><div><p><s>Fig. 11Complementary cumulative distribution function of rockfalls normalized by time interval(2015-2016, maroon    circles; 2016-2018, orange squares; 2018-2019, yellow diamonds).</s><s>The beta (β) value is the slope of the power law fitted to each time step (dashed lines) for rockfall volumes greater than the cutoff size, xmin (m 3 ), indicated by the solid vertical lines.</s><s>The minimum cutoff and β values were calculated using code from<ref target="#b8" type="bibr">Clauset et al. (2009)</ref>.</s><s>Gray dashed vertical lines indicate approximate locations where the data deviate from the fitted function at the larger end of the distribution for 2019 (~70 m 3 ) and 2016-2018 (~200 m 3 ).</s></p></div></figdesc></figure>
+<figure xml:id="fig_16" xmlns="http://www.tei-c.org/ns/1.0">Fig. 12 a<label>12</label><figdesc><div><p><s>Fig. 12 a Topographic profiles from A-A' and B-B' indicated on inset overview of change map from 2015-2019.</s><s>The progression of slope changes shows where large rockfalls occurred between 2015 and 2016, with smaller rockfalls occurring in subsequent years.</s><s>b Hypothetical morphological evolution of the spatter rampart over N years based on the observed changes on the interior and exterior slopes within the first five years after the eruption ended.</s></p></div></figdesc><graphic coords="26,125.53,237.56,204.34,204.64" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="11,72.00,114.50,468.00,341.00" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="16,74.50,261.73,462.71,223.35" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="24,72.00,382.47,392.85,337.20" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1<label>1</label><figdesc><div><p><s>Cumulative rockfall mapped volume statistics from each change map.</s><s>Note that the number and volumes of the 2016-2018 interval spans two years.</s></p></div></figdesc><table><row><cell></cell><cell></cell><cell>Total Vol.</cell><cell>Minimum</cell><cell>Maximum</cell><cell>Mean</cell><cell>Std. Dev.</cell></row><row><cell>Timestep</cell><cell>N</cell><cell>(m 3 )</cell><cell>(m 3 )</cell><cell>(m 3 )</cell><cell>(m 3 )</cell><cell>(m 3 )</cell></row><row><cell>2015-2016</cell><cell>169</cell><cell>7110.0</cell><cell>0.49</cell><cell>1,918.9</cell><cell>42.1</cell><cell>167.6</cell></row><row><cell>2016-2018</cell><cell>174</cell><cell>5029.1</cell><cell>0.09</cell><cell>648.7</cell><cell>28.9</cell><cell>75.6</cell></row><row><cell>2018-2019</cell><cell>130</cell><cell>1246.7</cell><cell>0.23</cell><cell>112.9</cell><cell>9.6</cell><cell>18.8</cell></row></table></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">Table 2<label>2</label><figdesc><div><p><s>Estimated negative topographic change (volume and percentage of negative change) for each timestep, above uncertainty levels.</s><s>Year-to-year registration uncertainty of merged TLS and UAS point clouds is reported as the standard deviation of dZ values in non-changing areas.</s></p></div></figdesc><table><row><cell></cell><cell></cell><cell></cell><cell>Total positive</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Estimated</cell><cell>Total negative</cell><cell>volume</cell><cell>Excess negative</cell><cell></cell></row><row><cell></cell><cell>uncertainty</cell><cell>volume change</cell><cell>change</cell><cell>volume change</cell><cell>Excess volume</cell></row><row><cell>Timestep</cell><cell>(m)</cell><cell>(m 3 /yr)</cell><cell>(m 3 /yr)</cell><cell>(m 3 /yr)</cell><cell>change (%)</cell></row><row><cell>2015-2016</cell><cell>0.07</cell><cell>-26,011</cell><cell>2,454</cell><cell>-23,557</cell><cell>90.6</cell></row><row><cell>2016-2018</cell><cell>0.06</cell><cell>-12,049</cell><cell>1,870</cell><cell>-10,179</cell><cell>84.5</cell></row><row><cell>2018-2019</cell><cell>0.09</cell><cell>-5,580</cell><cell>3,445</cell><cell>-2,135</cell><cell>38.3</cell></row></table></figure>
+<back>
+<div type="acknowledgement">
+<div>Acknowledgements<p>Many thanks to those who assisted with LiDAR data collection in the field, including <rs type="person">Shane Byrne</rs>, <rs type="person">Andrew de Wet</rs>, <rs type="person">Debra Needham</rs>, <rs type="person">Lis Gallant</rs>, <rs type="person">Alexandra Huff</rs>, <rs type="person">Joana Voigt</rs>, and the students in the <rs type="programName">Keck Research Experiences</rs> for Undergraduates (REU) program who participated in 2016.Partial support for field work and data analysis was provided by the <rs type="funder">Goddard Instrument Field Team (GIFT)</rs> Internal Scientist Funding Model.SSS was partially supported by the <rs type="funder">National Science Foundation Graduate Research Fellowship Program</rs> (Grant #<rs type="grantNumber">DGE-1746060</rs>).PLW and SPS were supported in part by <rs type="funder">NASA</rs> award #<rs type="grantNumber">80GSFC21M0002</rs>, administered by the <rs type="institution">Center for Research and Exploration in Space Science and Technology, NASA/GSFC, Greenbelt</rs>, MD.PLW was also supported in part by the <rs type="funder">NASA</rs> <rs type="programName">Postdoctoral Program</rs>.CWH was partially supported by the <rs type="funder">NASA</rs> <rs type="programName">Planetary Science and Technology through Analog Research program</rs> (Grant #<rs type="grantNumber">80NSSC21K0011</rs>) and by the <rs type="funder">NASA</rs> <rs type="programName">Planetary Geology and Geophysics program</rs> (Grant #<rs type="grantNumber">NNX14AL54G</rs>).Many thanks to Ármann <rs type="person">Höskuldsson</rs>, <rs type="person">Thorvaldur Thórðarson</rs>, and <rs type="person">Ingibjörg Jónsdóttir</rs>, of the <rs type="affiliation">University of Iceland</rs>, for enabling our access to conduct field work at Holuhraun and Baugur.We also express our gratitude to the rangers at the <rs type="institution">Vatnajökull National Park Service (Vatnajökulsþjóðgarður)</rs> for sharing their expertise, and to the camp wardens at Dreki.This work also benefited from valuable discussions with the Goddard Volcano Writing Group and <rs type="person">Jeffrey Andrews-Hanna</rs>.</p></div>
+</div>
+<listorg type="funding">
+<org type="funding" xml:id="_6P7WPXY">
+<orgname subtype="full" type="program">Keck Research Experiences</orgname>
+</org>
+<org type="funding" xml:id="_HRkyQ8k">
+<idno type="grant-number">DGE-1746060</idno>
+</org>
+<org type="funding" xml:id="_ktpQknX">
+<idno type="grant-number">80GSFC21M0002</idno>
+</org>
+<org type="funding" xml:id="_NqezAWg">
+<orgname subtype="full" type="program">Postdoctoral Program</orgname>
+</org>
+<org type="funding" xml:id="_22zpcRt">
+<idno type="grant-number">80NSSC21K0011</idno>
+<orgname subtype="full" type="program">Planetary Science and Technology through Analog Research program</orgname>
+</org>
+<org type="funding" xml:id="_fCHmjXa">
+<idno type="grant-number">NNX14AL54G</idno>
+<orgname subtype="full" type="program">Planetary Geology and Geophysics program</orgname>
+</org>
+</listorg>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Acidic alteration in a young basaltic lava field: Sulfur-bearing products and implications for Mars</title>
+<author>
+<persname><surname>Cn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Mcadam</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Knudson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">E</forename><surname>Young</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Bleacher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Bower</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Eigenbrode</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Hamilton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Hewagama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Nixon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Scheidt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sutton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Voigt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Wasser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Whelley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Whelley</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">50 th Lunar and Planetary Science Conference</title>
+<imprint>
+<date type="published" when="2019">2019</date>
+<biblscope unit="page">3043</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">CN, McAdam AC, Knudson CA, Young KE, Bleacher J, Bower D, Eigenbrode J, Hamilton C, Hewagama T, Nixon C, Richardson J, Scheidt S, Sutton S, Voigt J, Wasser M, Whelley N, Whelley P (2019) Acidic alteration in a young basaltic lava field: Sulfur-bearing products and implications for Mars. 50 th Lunar and Planetary Science Conference, Abstract #3043.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Modeling cliff erosion using negative power law scaling of rockfalls</title>
+<author>
+<persname><forename type="first">J</forename><surname>Barlow</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Lim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Rosser</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.geomorph.2011.11.006</idno>
+<ptr target="https://doi.org/10.1016/j.geomorph.2011.11.006"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geomorphology</title>
+<imprint>
+<biblscope unit="volume">139</biblscope>
+<biblscope unit="issue">140</biblscope>
+<biblscope from="416" to="424" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Barlow J, Lim M, Rosser N, et al (2012) Modeling cliff erosion using negative power law scaling of rockfalls. Geomorphology 139-140:416-424. https://doi.org/10.1016/j.geomorph.2011.11.006</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">A review on the angle of repose of granular materials</title>
+<author>
+<persname><forename type="first">Beakawi</forename><surname>Al-Hashemi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">M</forename></persname>
+</author>
+<author>
+<persname><forename type="first">Baghabra</forename><surname>Al-Amoudi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">S</forename></persname>
+</author>
+<idno type="DOI">10.1016/j.powtec.2018.02.003</idno>
+<ptr target="https://doi.org/10.1016/j.powtec.2018.02.003"></ptr>
+</analytic>
+<monogr>
+<title level="j">Powder Technol</title>
+<imprint>
+<biblscope unit="volume">330</biblscope>
+<biblscope from="397" to="417" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Beakawi Al-Hashemi HM, Baghabra Al-Amoudi OS (2018) A review on the angle of repose of granular materials. Powder Technol 330:397-417. https://doi.org/10.1016/j.powtec.2018.02.003</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Morphometric analysis of scoria cones: the potential for inferring process from shape</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">G</forename><surname>Bemis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ferencz</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Monogenetic Volcanism</title>
+<editor>
+<persname><forename type="first">K</forename><surname>Németh</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">G</forename><surname>Carrasco-Núñez</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Aranda-Gómez</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">Iem</forename><surname>Smith</surname></persname>
+</editor>
+<meeting><address><addrline>London, London</addrline></address></meeting>
+<imprint>
+<publisher>The Geological Society</publisher>
+<date type="published" when="2017">2017</date>
+<biblscope from="61" to="100" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Bemis KG, Ferencz M (2017) Morphometric analysis of scoria cones: the potential for inferring process from shape. In: Németh K, Carrasco-Núñez G, Aranda-Gómez JJ, Smith IEM (eds) Monogenetic Volcanism. The Geological Society of London, London, pp 61-100</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">The growth and erosion of cinder cones in Guatemala and El Salvador: Models and statistics</title>
+<author>
+<persname><forename type="first">K</forename><surname>Bemis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Walker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Borgia</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jvolgeores.2010.11.007</idno>
+<ptr target="https://doi.org/10.1016/j.jvolgeores.2010.11.007"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Volcanol Geotherm Res</title>
+<imprint>
+<biblscope unit="volume">201</biblscope>
+<biblscope from="39" to="52" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bemis K, Walker J, Borgia A, et al (2011) The growth and erosion of cinder cones in Guatemala and El Salvador: Models and statistics. J Volcanol Geotherm Res 201:39-52. https://doi.org/10.1016/j.jvolgeores.2010.11.007</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">The Volume of Lava Erupted During the 2014 to 2015 Eruption at Holuhraun, Iceland: A Comparison Between Satellite-and Ground-Based Measurements</title>
+<author>
+<persname><forename type="first">E</forename><surname>Bonny</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Thordarson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Wright</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Höskuldsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Jónsdóttir</surname></persname>
+</author>
+<idno type="DOI">10.1029/2017JB015008</idno>
+<ptr target="https://doi.org/10.1029/2017JB015008"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Geophys Res Solid Earth</title>
+<imprint>
+<biblscope unit="volume">123</biblscope>
+<biblscope from="5412" to="5426" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bonny E, Thordarson T, Wright R, Höskuldsson A, Jónsdóttir I (2018) The Volume of Lava Erupted During the 2014 to 2015 Eruption at Holuhraun, Iceland: A Comparison Between Satellite-and Ground-Based Measurements. J Geophys Res Solid Earth 123:5412-5426. https://doi.org/10.1029/2017JB015008</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<monogr>
+<title level="m" type="main">Volcanic successions modern and ancient: A geological approach to processes, products and successions</title>
+<author>
+<persname><forename type="first">R</forename><surname>Cas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wright</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2012">2012</date>
+<publisher>Springer Science &amp; Business Media</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Cas R, Wright J (2012) Volcanic successions modern and ancient: A geological approach to processes, products and successions. Springer Science &amp; Business Media</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Subsidence in the Parícutin lava field: Causes and implications for interpretation of deformation fields at volcanoes</title>
+<author>
+<persname><forename type="first">E</forename><surname>Chaussard</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jvolgeores.2016.04.009</idno>
+<ptr target="https://doi.org/10.1016/j.jvolgeores.2016.04.009"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Volcanol Geotherm Res</title>
+<imprint>
+<biblscope unit="volume">320</biblscope>
+<biblscope from="1" to="11" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chaussard E (2016) Subsidence in the Parícutin lava field: Causes and implications for interpretation of deformation fields at volcanoes. J Volcanol Geotherm Res 320:1-11. https://doi.org/10.1016/j.jvolgeores.2016.04.009</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Power-Law Distributions in Empirical Data</title>
+<author>
+<persname><forename type="first">A</forename><surname>Clauset</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">R</forename><surname>Shalizi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Mej</forename><surname>Newman</surname></persname>
+</author>
+<idno type="DOI">10.1137/070710111CloudCompareversion2.11.3</idno>
+<ptr target="http://www.cloudcompare.org/"></ptr>
+</analytic>
+<monogr>
+<title level="j">SIAM Rev</title>
+<imprint>
+<biblscope unit="volume">51</biblscope>
+<biblscope from="661" to="703" unit="page"></biblscope>
+<date type="published" when="2009">2009. 2021. 3 September 2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Clauset A, Shalizi CR, Newman MEJ (2009) Power-Law Distributions in Empirical Data. SIAM Rev 51:661-703. https://doi.org/10.1137/070710111 CloudCompare version 2.11.3 (2021) GPL software. Retrieved from http://www.cloudcompare.org/. Accessed 3 September 2023</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<monogr>
+<title level="m" type="main">Trimble UX5 Aerial Imaging Solution-A New Standard in Accuracy, Robustness and Performance for Photogrammetric Aerial Mapping</title>
+<author>
+<persname><forename type="first">P</forename><surname>Cosyn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Miller</surname></persname>
+</author>
+<ptr target="https://www.semanticscholar.org/paper/Trimble-UX5-Aerial-Imaging-Solution-Cosyn-Miller/2bd7fad8fb7107eb"></ptr>
+<imprint>
+<date type="published" when="2013">2013. 4e0192d0c95726ad3b639ac5. Accessed 3 September 2023</date>
+</imprint>
+</monogr>
+<note>White Paper</note>
+<note type="raw_reference">Cosyn P, Miller R (2013) Trimble UX5 Aerial Imaging Solution-A New Standard in Accuracy, Robustness and Performance for Photogrammetric Aerial Mapping. White Paper. Available online at https://www.semanticscholar.org/paper/Trimble-UX5-Aerial-Imaging-Solution-Cosyn- Miller/2bd7fad8fb7107eb4e0192d0c95726ad3b639ac5. Accessed 3 September 2023</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Hidden mechanical weaknesses within lava domes provided by buried high-porosity hydrothermal alteration zones</title>
+<author>
+<persname><forename type="first">H</forename><surname>Darmawan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">R</forename><surname>Troll</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">R</forename><surname>Walter</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41598-022-06765-9</idno>
+<ptr target="https://doi.org/10.1038/s41598-022-06765-9"></ptr>
+</analytic>
+<monogr>
+<title level="j">Sci Rep</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="page">3202</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Darmawan H, Troll VR, Walter TR, et al (2022) Hidden mechanical weaknesses within lava domes provided by buried high-porosity hydrothermal alteration zones. Sci Rep 12:3202. https://doi.org/10.1038/s41598-022- 06765-9</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Degradation of Quaternary cinder cones in the Cima volcanic field, Mojave Desert, California</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Dohrenwend</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">G</forename><surname>Wells</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">D</forename><surname>Turrin</surname></persname>
+</author>
+<idno type="DOI">10.1130/0016-7606(1986)97&lt;421:DOQCCI&gt;2.0.CO;2</idno>
+<ptr target="https://doi.org/10.1130/0016-7606(1986)97&lt;421:DOQCCI&gt;2.0.CO;2"></ptr>
+</analytic>
+<monogr>
+<title level="j">GSA Bull</title>
+<imprint>
+<biblscope unit="volume">97</biblscope>
+<biblscope from="421" to="427" unit="page"></biblscope>
+<date type="published" when="1986">1986</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dohrenwend JC, Wells SG, Turrin BD (1986) Degradation of Quaternary cinder cones in the Cima volcanic field, Mojave Desert, California. GSA Bull 97:421-427. https://doi.org/10.1130/0016- 7606(1986)97&lt;421:DOQCCI&gt;2.0.CO;2</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Multiple coincident eruptive seismic tremor sources during the 2014-2015 eruption at Holuhraun, Iceland</title>
+<author>
+<persname><forename type="first">Eps</forename><surname>Eibl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Bean</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Jónsdóttir</surname></persname>
+</author>
+<idno type="DOI">10.1002/2016JB013892</idno>
+<ptr target="https://doi.org/10.1002/2016JB013892"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Geophys Res Solid Earth</title>
+<imprint>
+<biblscope unit="volume">122</biblscope>
+<biblscope from="2972" to="2987" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Eibl EPS, Bean CJ, Jónsdóttir I, et al (2017) Multiple coincident eruptive seismic tremor sources during the 2014- 2015 eruption at Holuhraun, Iceland. J Geophys Res Solid Earth 122:2972-2987. https://doi.org/10.1002/2016JB013892</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Spatter Cone</title>
+<author>
+<persname><forename type="first">E</forename><surname>Fodor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Németh</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Encycl. Planet. Landforms</title>
+<imprint>
+<biblscope from="2028" to="2034" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fodor E, Németh K (2015) Spatter Cone. Encycl. Planet. Landforms 2028-2034</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Crater degradation on the lunar maria: Topographic diffusion and the rate of erosion on the Moon</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">I</forename><surname>Fassett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Thomson</surname></persname>
+</author>
+<idno type="DOI">10.1002/2014JE004698</idno>
+<ptr target="https://doi.org/10.1002/2014JE004698"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Geophys Res Planets</title>
+<imprint>
+<biblscope unit="volume">119</biblscope>
+<biblscope from="2255" to="2271" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fassett CI, Thomson BJ (2014) Crater degradation on the lunar maria: Topographic diffusion and the rate of erosion on the Moon. J Geophys Res Planets 119:2255-2271. https://doi.org/10.1002/2014JE004698</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Evidence for rapid topographic evolution and crater degradation on Mercury from simple crater morphometry</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">I</forename><surname>Fassett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Crowley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Leight</surname></persname>
+</author>
+<idno type="DOI">10.1002/2017GL073769</idno>
+<ptr target="https://doi.org/https://doi.org/10.1002/2017GL073769"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<biblscope unit="volume">44</biblscope>
+<biblscope from="5326" to="5335" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fassett CI, Crowley MC, Leight C, et al. (2017) Evidence for rapid topographic evolution and crater degradation on Mercury from simple crater morphometry. Geophys Res Lett 44:5326-5335. https://doi.org/https://doi.org/10.1002/2017GL073769</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Detecting short-term evolution of Etnean scoria cones: a LIDARbased approach</title>
+<author>
+<persname><forename type="first">A</forename><surname>Fornaciai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Behncke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Favalli</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00445-010-0394-3</idno>
+<ptr target="https://doi.org/10.1007/s00445-010-0394-3"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bull Volcanol</title>
+<imprint>
+<biblscope unit="volume">72</biblscope>
+<biblscope from="1209" to="1222" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fornaciai A, Behncke B, Favalli M, et al (2010) Detecting short-term evolution of Etnean scoria cones: a LIDAR- based approach. Bull Volcanol 72:1209-1222. https://doi.org/10.1007/s00445-010-0394-3</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Rockfall Hazard Assessment in Volcanic Regions Based on ISVS and IRVS</title>
+<author>
+<persname><forename type="first">González</forename><surname>De Vallejo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">I</forename><surname>Hernández-Gutiérrez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">E</forename><surname>Miranda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ferrer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename></persname>
+</author>
+<idno type="DOI">10.3390/geosciences10060220</idno>
+<ptr target="https://doi.org/10.3390/geosciences10060220"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geomechanical Indices</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="page">220</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note>Geosciences</note>
+<note type="raw_reference">González de Vallejo LI, Hernández-Gutiérrez LE, Miranda A, Ferrer M (2020) Rockfall Hazard Assessment in Volcanic Regions Based on ISVS and IRVS. Geomechanical Indices. Geosciences 10:220. https://doi.org/10.3390/geosciences10060220</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Dike emplacement at Bardarbunga, Iceland, induces unusual stress changes, caldera deformation, and earthquakes</title>
+<author>
+<persname><forename type="first">A</forename><surname>Gudmundsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Lecoeur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Mohajeri</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00445-014-0869-8</idno>
+<ptr target="https://doi.org/10.1007/s00445-014-0869-8"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bull Volcanol</title>
+<imprint>
+<biblscope unit="volume">76</biblscope>
+<biblscope from="1" to="7" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gudmundsson A, Lecoeur N, Mohajeri N (2014) Dike emplacement at Bardarbunga, Iceland, induces unusual stress changes, caldera deformation, and earthquakes. Bull Volcanol 76:1-7. https://doi.org/10.1007/s00445-014- 0869-8</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Changes in crater morphology associated with volcanic activity at Telica Volcano, Nicaragua. Geochemistry</title>
+<author>
+<persname><forename type="first">C</forename><surname>Hanagan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">La</forename><surname>Femina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">C</forename><surname>Rodgers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename></persname>
+</author>
+<idno type="DOI">10.1029/2019GC008889</idno>
+<ptr target="https://doi.org/10.1029/2019GC008889"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Geosystems</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope from="1" to="15" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hanagan C, La Femina PC, Rodgers M (2020) Changes in crater morphology associated with volcanic activity at Telica Volcano, Nicaragua. Geochemistry, Geophys Geosystems 21:1-15. https://doi.org/10.1029/2019GC008889</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">The 1874-1876 volcano-tectonic episode at Askja, North Iceland: Lateral flow revisited</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">E</forename><surname>Hartley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Thordarson</surname></persname>
+</author>
+<idno type="DOI">10.1002/ggge.20151</idno>
+<ptr target="https://doi.org/10.1002/ggge.20151"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geochemistry, Geophys Geosystems</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope from="2286" to="2309" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hartley ME, Thordarson T (2013) The 1874-1876 volcano-tectonic episode at Askja, North Iceland: Lateral flow revisited. Geochemistry, Geophys Geosystems 14:2286-2309. https://doi.org/10.1002/ggge.20151</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">The topography and morphology of low shields and associated landforms of plains volcanism in the Tharsis region of Mars</title>
+<author>
+<persname><forename type="first">E</forename><surname>Hauber</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Bleacher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Gwinner</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jvolgeores.2009.04.015</idno>
+<ptr target="https://doi.org/10.1016/j.jvolgeores.2009.04.015"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Volcanol Geotherm Res</title>
+<imprint>
+<biblscope unit="volume">185</biblscope>
+<biblscope from="69" to="95" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hauber E, Bleacher J, Gwinner K, et al (2009) The topography and morphology of low shields and associated landforms of plains volcanism in the Tharsis region of Mars. J Volcanol Geotherm Res 185:69-95. https://doi.org/10.1016/j.jvolgeores.2009.04.015</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Basaltic pyroclastic eruptions: Influence of gas-release patterns and volume fluxes on fountain structure, and the formation of cinder cones, spatter cones, rootless flows, lava ponds and lava flows</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Head</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Wilson</surname></persname>
+</author>
+<idno type="DOI">10.1016/0377-0273(89)90083-8</idno>
+<ptr target="https://doi.org/10.1016/0377-0273(89)90083-8"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Volcanol Geotherm Res</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope from="261" to="271" unit="page"></biblscope>
+<date type="published" when="1989">1989</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Head JW, Wilson L (1989) Basaltic pyroclastic eruptions: Influence of gas-release patterns and volume fluxes on fountain structure, and the formation of cinder cones, spatter cones, rootless flows, lava ponds and lava flows. J Volcanol Geotherm Res 37:261-271. https://doi.org/10.1016/0377-0273(89)90083-8</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Fracture movements and graben subsidence during the 2014 Bárðarbunga dike intrusion in Iceland</title>
+<author>
+<persname><forename type="first">Á</forename><forename type="middle">R</forename><surname>Hjartardóttir</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Einarsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">T</forename><surname>Gudmundsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Högnadóttir</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jvolgeores.2015.12.002</idno>
+<ptr target="https://doi.org/10.1016/j.jvolgeores.2015.12.002"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Volcanol Geotherm Res</title>
+<imprint>
+<biblscope unit="volume">310</biblscope>
+<biblscope from="242" to="252" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hjartardóttir ÁR, Einarsson P, Gudmundsson MT, Högnadóttir T (2015) Fracture movements and graben subsidence during the 2014 Bárðarbunga dike intrusion in Iceland. J Volcanol Geotherm Res 310:242-252. https://doi.org/10.1016/j.jvolgeores.2015.12.002</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Significance of agglutinate mounds on lava flows associated with monogenetic cones: An example at Sunset Crater, northern Arizona</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">F</forename><surname>Holm</surname></persname>
+</author>
+<idno type="DOI">10.1130/0016-7606(1987)99&lt;319:SOAMOL&gt;2.0.CO;2</idno>
+<ptr target="https://doi.org/10.1130/0016-7606(1987)99&lt;319:SOAMOL&gt;2.0.CO;2"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bull Geol Soc Am</title>
+<imprint>
+<biblscope unit="volume">99</biblscope>
+<biblscope from="319" to="324" unit="page"></biblscope>
+<date type="published" when="1987">1987</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Holm RF (1987) Significance of agglutinate mounds on lava flows associated with monogenetic cones: An example at Sunset Crater, northern Arizona. Bull Geol Soc Am 99:319-324. https://doi.org/10.1130/0016- 7606(1987)99&lt;319:SOAMOL&gt;2.0.CO;2</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Computer-simulation models of scoria cone degradation</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Hooper</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">F</forename><surname>Sheridan</surname></persname>
+</author>
+<idno type="DOI">10.1016/S0377-0273(98)00031-6</idno>
+<ptr target="https://doi.org/10.1016/S0377-0273(98)00031-6"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Volcanol Geotherm Res</title>
+<imprint>
+<biblscope unit="volume">83</biblscope>
+<biblscope from="241" to="267" unit="page"></biblscope>
+<date type="published" when="1998">1998</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hooper DM, Sheridan MF (1998) Computer-simulation models of scoria cone degradation. J Volcanol Geotherm Res 83:241-267. https://doi.org/10.1016/S0377-0273(98)00031-6</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Futurvolc and the Bardarbunga eruption 2014-15 Iceland, success in the field and laboratory</title>
+<author>
+<persname><forename type="first">A</forename><surname>Hoskuldsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Jonsdottir</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Thordarson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">EGU General Assembly</title>
+<title level="s">Geophysical Research Abstracts</title>
+<imprint>
+<date type="published" when="2016">2016</date>
+<biblscope unit="page">13687</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Hoskuldsson A, Jonsdottir I, Thordarson T (2016) Futurvolc and the Bardarbunga eruption 2014-15 Iceland, success in the field and laboratory. In: EGU General Assembly, Geophysical Research Abstracts. p 13687</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Sediment flux from a mountain belt derived by landslide mapping</title>
+<author>
+<persname><forename type="first">N</forename><surname>Hovius</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">P</forename><surname>Stark</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Allen</surname></persname>
+</author>
+<idno type="DOI">10.1130/0091-7613(1997)025&lt;0231:SFFAMB&gt;2.3.CO;2</idno>
+<ptr target="https://doi.org/10.1130/0091-7613(1997)025&lt;0231:SFFAMB&gt;2.3.CO;2"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geology</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope from="231" to="234" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hovius N, Stark CP, Allen PA (1997) Sediment flux from a mountain belt derived by landslide mapping. Geology 25:231-234. https://doi.org/10.1130/0091-7613(1997)025&lt;0231:SFFAMB&gt;2.3.CO;2</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">3-D uncertainty-based topographic change detection with structure-frommotion photogrammetry: precision maps for ground control and directly georeferenced surveys</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>James</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Robson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">W</forename><surname>Smith</surname></persname>
+</author>
+<idno type="DOI">10.1002/esp.4125</idno>
+<ptr target="https://doi.org/10.1002/esp.4125"></ptr>
+</analytic>
+<monogr>
+<title level="j">Earth Surf Process Landforms</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope from="1769" to="1788" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">James MR, Robson S, Smith MW (2017) 3-D uncertainty-based topographic change detection with structure-from- motion photogrammetry: precision maps for ground control and directly georeferenced surveys. Earth Surf Process Landforms 42:1769-1788. https://doi.org/10.1002/esp.4125</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Syn-eruptive morphometric variability of monogenetic scoria cones</title>
+<author>
+<persname><forename type="first">G</forename><surname>Kereszturi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Jordan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Németh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">F</forename><surname>Dóniz-Páez</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00445-012-0658-1</idno>
+<ptr target="https://doi.org/10.1007/s00445-012-0658-1"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bull Volcanol</title>
+<imprint>
+<biblscope unit="volume">74</biblscope>
+<biblscope from="2171" to="2185" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kereszturi G, Jordan G, Németh K, Dóniz-Páez JF (2012) Syn-eruptive morphometric variability of monogenetic scoria cones. Bull Volcanol 74:2171-2185. https://doi.org/10.1007/s00445-012-0658-1</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Icelandic analogs to Martian flood lavas</title>
+<author>
+<persname><forename type="first">L</forename><surname>Keszthelyi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Thordarson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Mcewen</surname></persname>
+</author>
+<idno type="DOI">10.1029/2004GC000758</idno>
+<ptr target="https://doi.org/10.1029/2004GC000758"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Geosystems</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="page">11014</biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note>Geochemistry</note>
+<note type="raw_reference">Keszthelyi L, Thordarson T, McEwen A, et al (2004) Icelandic analogs to Martian flood lavas. Geochemistry, Geophys Geosystems 5:Q11014. https://doi.org/10.1029/2004GC000758</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">The rheological evolution of the 2014/2015 eruption at Holuhraun, central Iceland</title>
+<author>
+<persname><forename type="first">S</forename><surname>Kolzenburg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Giordano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Thordarson</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00445-017-1128-6</idno>
+<ptr target="https://doi.org/10.1007/s00445-017-1128-6"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bull Volcanol</title>
+<imprint>
+<biblscope unit="volume">79</biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kolzenburg S, Giordano D, Thordarson T, et al (2017) The rheological evolution of the 2014/2015 eruption at Holuhraun, central Iceland. Bull Volcanol 79. https://doi.org/10.1007/s00445-017-1128-6</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Solid as a rock: Tectonic control of graben extension and dike propagation</title>
+<author>
+<persname><forename type="first">S</forename><surname>Kolzenburg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kubanek</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Dirscherl</surname></persname>
+</author>
+<idno type="DOI">10.1130/G49406</idno>
+<ptr target="https://doi.org/10.1130/G49406"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geology</title>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kolzenburg S, Kubanek J, Dirscherl M, et al (2021) Solid as a rock: Tectonic control of graben extension and dike propagation. Geology. https://doi.org/10.1130/G49406.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Accurate 3D comparison of complex topography with terrestrial laser scanner: Application to the Rangitikei canyon (N-Z)</title>
+<author>
+<persname><forename type="first">D</forename><surname>Lague</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Brodu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Leroux</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.isprsjprs.2013.04.009</idno>
+<ptr target="https://doi.org/10.1016/j.isprsjprs.2013.04.009"></ptr>
+</analytic>
+<monogr>
+<title level="j">ISPRS J Photogramm Remote Sens</title>
+<imprint>
+<biblscope unit="volume">82</biblscope>
+<biblscope from="10" to="26" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lague D, Brodu N, Leroux J (2013) Accurate 3D comparison of complex topography with terrestrial laser scanner: Application to the Rangitikei canyon (N-Z). ISPRS J Photogramm Remote Sens 82:10-26. https://doi.org/10.1016/j.isprsjprs.2013.04.009</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<monogr>
+<title level="m" type="main">AA Flow Dynamics, Mauna Loa 1984, Volcanism in Hawaii</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">W</forename><surname>Lipman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">G</forename><surname>Banks</surname></persname>
+</author>
+<idno>Paper 1350</idno>
+<imprint>
+<date type="published" when="1987">1987</date>
+<publisher>USGS Professional</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Lipman, P.W., Banks, N.G., 1987. AA Flow Dynamics, Mauna Loa 1984, Volcanism in Hawaii, USGS Professional Paper 1350.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Development of topographic asymmetry: Insights from dated cinder cones in the western United States</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">A</forename><surname>Mcguire</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Pelletier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Roering</surname></persname>
+</author>
+<idno type="DOI">10.1002/2014JF003081</idno>
+<ptr target="https://doi.org/10.1002/2014JF003081"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Geophys Res Earth Surf</title>
+<imprint>
+<biblscope unit="volume">119</biblscope>
+<biblscope from="1725" to="1750" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McGuire LA, Pelletier JD, Roering JJ (2014) Development of topographic asymmetry: Insights from dated cinder cones in the western United States. J Geophys Res Earth Surf 119:1725-1750. https://doi.org/10.1002/2014JF003081</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">The 1977 eruption of Kilauea volcano, Hawaii</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">B</forename><surname>Moore</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">T</forename><surname>Helz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Dzurisin</surname></persname>
+</author>
+<idno type="DOI">10.1016/0377-0273(80)90029-3</idno>
+<ptr target="https://doi.org/https://doi.org/10.1016/0377-0273(80)90029-3"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Volcanol Geotherm Res</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope from="189" to="210" unit="page"></biblscope>
+<date type="published" when="1980">1980</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Moore RB, Helz RT, Dzurisin D, et al (1980) The 1977 eruption of Kilauea volcano, Hawaii. J Volcanol Geotherm Res 7:189-210. https://doi.org/https://doi.org/10.1016/0377-0273(80)90029-3</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Hawaiian fissure fountains 1: Decoding deposits-Episode 1 of the 1969-1974 Mauna Ulu eruption</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">E</forename><surname>Parcheta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">F</forename><surname>Houghton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Swanson</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00445-012-0621-1</idno>
+<ptr target="https://doi.org/10.1007/s00445-012-0621-1"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bull Volcanol</title>
+<imprint>
+<biblscope unit="volume">74</biblscope>
+<biblscope from="1729" to="1743" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Parcheta CE, Houghton BF, Swanson DA (2012) Hawaiian fissure fountains 1: Decoding deposits-Episode 1 of the 1969-1974 Mauna Ulu eruption. Bull Volcanol 74:1729-1743. https://doi.org/10.1007/s00445-012-0621-1</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<author>
+<persname><forename type="first">L</forename><surname>Parfitt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Wilson</surname></persname>
+</author>
+<idno type="DOI">10.5281/zenodo.2556738</idno>
+<ptr target="https://doi.org/10.5281/zenodo.2556738"></ptr>
+</analytic>
+<monogr>
+<title level="m">Fundamentals of physical volcanology</title>
+<title level="s">PDAL Point Data Abstraction Library</title>
+<imprint>
+<publisher>John Wiley \&amp; Sons PDAL Contributors</publisher>
+<date type="published" when="2009">2009. 2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Parfitt L, Wilson L (2009) Fundamentals of physical volcanology. John Wiley \&amp; Sons PDAL Contributors (2018) PDAL Point Data Abstraction Library. https://doi.org/10.5281/zenodo.2556738</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Lava field evolution and emplacement dynamics of the 2014 -2015 basaltic fissure eruption at Holuhraun, Iceland</title>
+<author>
+<persname><forename type="first">Gbm</forename><surname>Pedersen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Höskuldsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Dürig</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jvolgeores.2017.02.027</idno>
+<ptr target="https://doi.org/10.1016/j.jvolgeores.2017.02.027"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Volcanol Geotherm Res</title>
+<imprint>
+<biblscope unit="volume">340</biblscope>
+<biblscope from="155" to="169" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pedersen GBM, Höskuldsson A, Dürig T, et al (2017) Lava field evolution and emplacement dynamics of the 2014 -2015 basaltic fissure eruption at Holuhraun, Iceland. J Volcanol Geotherm Res 340:155-169. https://doi.org/10.1016/j.jvolgeores.2017.02.027</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Nonlinear slope-dependent sediment transport in cinder cone evolution</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Pelletier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Cline</surname></persname>
+</author>
+<idno type="DOI">10.1130/G23992A</idno>
+<ptr target="https://doi.org/10.1130/G23992A"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geology</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope from="1067" to="1070" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pelletier JD, Cline ML (2007) Nonlinear slope-dependent sediment transport in cinder cone evolution. Geology 35:1067-1070. https://doi.org/10.1130/G23992A.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Distribution, Morphology, and Size Frequency of Cinder Cones on Mauna Kea Volcano, Hawaii</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Porter</surname></persname>
+</author>
+<idno type="DOI">10.1130/0016-7606(1972)83[3607:DMASFO]2.0.CO</idno>
+<ptr target="https://doi.org/10.1130/0016-7606(1972)83[3607:DMASFO]2.0.CO"></ptr>
+</analytic>
+<monogr>
+<title level="j">GSA Bull</title>
+<imprint>
+<biblscope unit="volume">83</biblscope>
+<biblscope from="3607" to="3612" unit="page"></biblscope>
+<date type="published" when="1972">1972</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Porter SC (1972) Distribution, Morphology, and Size Frequency of Cinder Cones on Mauna Kea Volcano, Hawaii. GSA Bull 83:3607-3612. https://doi.org/10.1130/0016-7606(1972)83[3607:DMASFO]2.0.CO;</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Small Volcanic Vents of the Tharsis Volcanic Province, Mars</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Bleacher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">B</forename><surname>Connor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">S</forename><surname>Glaze</surname></persname>
+</author>
+<idno type="DOI">10.1029/2020JE006620</idno>
+<ptr target="https://doi.org/10.1029/2020JE006620"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Geophys Res Planets</title>
+<imprint>
+<biblscope unit="volume">126</biblscope>
+<biblscope from="1" to="23" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Richardson JA, Bleacher JE, Connor CB, Glaze LS (2021) Small Volcanic Vents of the Tharsis Volcanic Province, Mars. J Geophys Res Planets 126:1-23. https://doi.org/10.1029/2020JE006620</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<monogr>
+<author>
+<persname><forename type="first">Lms</forename><surname>Riegl</surname></persname>
+</author>
+<title level="m">RiSCAN Pro Manual</title>
+<meeting><address><addrline>Riegl</addrline></address></meeting>
+<imprint>
+<publisher>Horn</publisher>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Riegl LMS (2013) RiSCAN Pro Manual. Riegl: Horn.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Efficient variants of the ICP algorithm</title>
+<author>
+<persname><forename type="first">S</forename><surname>Rusinkiewicz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Levoy</surname></persname>
+</author>
+<idno type="DOI">10.1109/IM.2001.924423</idno>
+<ptr target="https://doi.org/10.1109/IM.2001.924423"></ptr>
+</analytic>
+<monogr>
+<title level="m">Proceedings Third International Conference on 3-D Digital Imaging and Modeling</title>
+<meeting>Third International Conference on 3-D Digital Imaging and Modeling</meeting>
+<imprint>
+<date type="published" when="2001">2001</date>
+<biblscope from="145" to="152" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Rusinkiewicz S, Levoy M (2001) Efficient variants of the ICP algorithm. In: Proceedings Third International Conference on 3-D Digital Imaging and Modeling. pp 145-152. https://doi.org/10.1109/IM.2001.924423</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">The glass transition in basalt</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Ryan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">G</forename><surname>Sammis</surname></persname>
+</author>
+<idno type="DOI">10.1029/JB086iB10p09519</idno>
+<ptr target="https://doi.org/10.1029/JB086iB10p09519"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Geophys Res Solid Earth</title>
+<imprint>
+<biblscope unit="volume">86</biblscope>
+<biblscope from="9519" to="9535" unit="page"></biblscope>
+<date type="published" when="1981">1981</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ryan MP, Sammis CG (1981) The glass transition in basalt. J Geophys Res Solid Earth 86:9519-9535. https://doi.org/10.1029/JB086iB10p09519</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Geologic Investigations in the Parícutin Area, Mexico</title>
+<author>
+<persname><forename type="first">K</forename><surname>Segerstrom</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">U.S. Geological Survey Bulletin</title>
+<imprint>
+<biblscope unit="volume">965</biblscope>
+<date type="published" when="1956">1956</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Segerstrom K (1956) Geologic Investigations in the Parícutin Area, Mexico. U.S. Geological Survey Bulletin 965</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">The structure and emplacement of cinder cone fields</title>
+<author>
+<persname><forename type="first">M</forename><surname>Settle</surname></persname>
+</author>
+<idno type="DOI">10.2475/ajs.279.10.1089</idno>
+<ptr target="https://doi.org/10.2475/ajs.279.10.1089"></ptr>
+</analytic>
+<monogr>
+<title level="j">Am J Sci</title>
+<imprint>
+<biblscope unit="volume">279</biblscope>
+<biblscope from="1089" to="1107" unit="page"></biblscope>
+<date type="published" when="1979">1979</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Settle M (1979) The structure and emplacement of cinder cone fields. Am J Sci 279:1089--1107. https://doi.org/10.2475/ajs.279.10.1089</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Segmented lateral dyke growth in a rifting event at Bárðarbunga volcanic system, Iceland</title>
+<author>
+<persname><forename type="first">F</forename><surname>Sigmundsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Hooper</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hreinsdóttir</surname></persname>
+</author>
+<idno type="DOI">10.1038/nature14111</idno>
+<ptr target="https://doi.org/10.1038/nature14111"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">517</biblscope>
+<biblscope unit="page">7533</biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sigmundsson F, Hooper A, Hreinsdóttir S, et al (2015) Segmented lateral dyke growth in a rifting event at Bárðarbunga volcanic system, Iceland. Nature 517:7533. https://doi.org/10.1038/nature14111</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Formation of clastogenic lava flows during fissure eruption and scoria cone collapse: The 1986 eruption of Izu-Oshima Volcano, eastern Japan</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Sumner</surname></persname>
+</author>
+<idno type="DOI">10.1007/s004450050227</idno>
+<ptr target="https://doi.org/10.1007/s004450050227"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bull Volcanol</title>
+<imprint>
+<biblscope unit="volume">60</biblscope>
+<biblscope from="195" to="212" unit="page"></biblscope>
+<date type="published" when="1998">1998</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sumner JM (1998) Formation of clastogenic lava flows during fissure eruption and scoria cone collapse: The 1986 eruption of Izu-Oshima Volcano, eastern Japan. Bull Volcanol 60:195-212. https://doi.org/10.1007/s004450050227</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">Spatter</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Sumner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Blake</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Matela</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Wolff</surname></persname>
+</author>
+<idno type="DOI">10.1016/J.JVOLGEORES.2004.10.013</idno>
+<ptr target="https://doi.org/10.1016/J.JVOLGEORES.2004.10.013"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Volcanol Geotherm Res</title>
+<imprint>
+<biblscope unit="volume">142</biblscope>
+<biblscope from="49" to="65" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sumner JM, Blake S, Matela RJ, Wolff JA (2005) Spatter. J Volcanol Geotherm Res 142:49-65. https://doi.org/10.1016/J.JVOLGEORES.2004.10.013</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<monogr>
+<title level="m" type="main">Repeat surveys of the topography of the main vent of the 2014-2015 eruption at Holuhraun, Iceland: Merged LiDAR and UAS point clouds from 2015</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">S</forename><surname>Sutton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">W</forename><surname>Whelley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">P</forename><surname>Scheidt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">W</forename><surname>Hamilton</surname></persname>
+</author>
+<idno type="DOI">10.25422/azu.data.19680372</idno>
+<ptr target="https://doi.org/10.25422/azu.data.19680372"></ptr>
+<imprint>
+<date type="published" when="2016">2016. 2018. 2019</date>
+</imprint>
+<respstmt>
+<orgname>University of Arizona Research Data Repository</orgname>
+</respstmt>
+</monogr>
+<note>in preparation</note>
+<note type="raw_reference">Sutton SS, Whelley PW, Richardson JA, Scheidt SP, Hamilton CW (in preparation) Repeat surveys of the topography of the main vent of the 2014-2015 eruption at Holuhraun, Iceland: Merged LiDAR and UAS point clouds from 2015, 2016, 2018, and 2019. University of Arizona Research Data Repository. Datasets. https://doi.org/10.25422/azu.data.19680372</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">Linear vent systems and estimated rates of magma production and eruption for the Yakima Basalt on the Columbia Plateau</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Swanson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">L</forename><surname>Wright</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">T</forename><surname>Helz</surname></persname>
+</author>
+<idno type="DOI">10.2475/ajs.275.8.877</idno>
+<ptr target="https://doi.org/10.2475/ajs.275.8.877"></ptr>
+</analytic>
+<monogr>
+<title level="j">Am J Sci</title>
+<imprint>
+<biblscope unit="volume">275</biblscope>
+<biblscope from="877" to="905" unit="page"></biblscope>
+<date type="published" when="1975">1975</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Swanson DA, Wright TL, Helz RT (1975) Linear vent systems and estimated rates of magma production and eruption for the Yakima Basalt on the Columbia Plateau. Am J Sci 275:877-905. https://doi.org/10.2475/ajs.275.8.877</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<monogr>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Turcotte</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Schubert</surname></persname>
+</author>
+<title level="m">Geodynamics, Third</title>
+<meeting><address><addrline>Cambridge, UK</addrline></address></meeting>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Turcotte DL, Schubert G (2014) Geodynamics, Third. Cambridge University Press, Cambridge, UK</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">Using hybrid multi-station adjustment for an integrated camera laser-scanner system</title>
+<author>
+<persname><forename type="first">A</forename><surname>Ullrich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Schwarz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Kager</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Proceedings of Optical 3D Measurement Techniques</title>
+<meeting>Optical 3D Measurement Techniques</meeting>
+<imprint>
+<date type="published" when="2003">2003</date>
+<biblscope from="298" to="304" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Ullrich A, Schwarz R, Kager H (2003) Using hybrid multi-station adjustment for an integrated camera laser-scanner system. In: Proceedings of Optical 3D Measurement Techniques. pp. 298-304</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">Lunar Crater volcanic field (Reveille and Pancake Ranges, Basin and Range Province, Nevada, USA)</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Valentine</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Cortés</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Widom</surname></persname>
+</author>
+<idno type="DOI">10.1130/GES01428</idno>
+<ptr target="https://doi.org/10.1130/GES01428"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geosphere</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="391" to="438" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Valentine GA, Cortés JA, Widom E, et al (2017) Lunar Crater volcanic field (Reveille and Pancake Ranges, Basin and Range Province, Nevada, USA). Geosphere 13:391-438. https://doi.org/10.1130/GES01428.</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">Two-dimensional nonlinear diffusive numerical simulation of geomorphic modifications to cinder cones</title>
+<author>
+<persname><forename type="first">M</forename><surname>Vitturi M De</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Arrowsmith</surname></persname>
+</author>
+<idno type="DOI">10.1002/esp.3423</idno>
+<ptr target="https://doi.org/10.1002/esp.3423"></ptr>
+</analytic>
+<monogr>
+<title level="j">Earth Surf Process Landforms</title>
+<imprint>
+<biblscope unit="volume">38</biblscope>
+<biblscope from="1432" to="1443" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vitturi M de M, Arrowsmith JR (2013) Two-dimensional nonlinear diffusive numerical simulation of geomorphic modifications to cinder cones. Earth Surf Process Landforms 38:1432-1443. https://doi.org/10.1002/esp.3423</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">Surface roughness characterization of the 2014-2015 Holuhraun lava flow-field in Iceland: implications for facies mapping and remote sensing</title>
+<author>
+<persname><forename type="first">Jrc</forename><surname>Voigt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">W</forename><surname>Hamilton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Steinbrügge</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">P</forename><surname>Scheidt</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00445-021-01499-4</idno>
+<ptr target="https://doi.org/10.1007/s00445-021-01499-4"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bull Volcanol</title>
+<imprint>
+<biblscope unit="volume">83</biblscope>
+<biblscope from="1" to="14" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Voigt JRC, Hamilton CW, Steinbrügge G, Scheidt SP (2021) Surface roughness characterization of the 2014-2015 Holuhraun lava flow-field in Iceland: implications for facies mapping and remote sensing. Bull Volcanol 83:1-14. https://doi.org/10.1007/s00445-021-01499-4</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Nouvelles applications des paramètres continus à la thérie des formes quadratiques. premire mémoire: Sur quelques protiétés des formes quadratiques positive parfaites</title>
+<author>
+<persname><forename type="first">G</forename><surname>Voronoi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J Reine Angew Math</title>
+<imprint>
+<biblscope unit="volume">133</biblscope>
+<biblscope from="97" to="178" unit="page"></biblscope>
+<date type="published" when="1907">1907</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Voronoi G (1907) Nouvelles applications des paramètres continus à la thérie des formes quadratiques. premire mémoire: Sur quelques protiétés des formes quadratiques positive parfaites. J Reine Angew Math 133:97-178</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Post-depositional fracturing and subsidence of pumice flow deposits: Lascar Volcano, Chile</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">L</forename><surname>Whelley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Jay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">S</forename><surname>Calder</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00445-011-0545-1</idno>
+<ptr target="https://doi.org/10.1007/s00445-011-0545-1"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bull Volcanol</title>
+<imprint>
+<biblscope unit="volume">74</biblscope>
+<biblscope from="511" to="531" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Whelley PL, Jay J, Calder ES, et al (2012) Post-depositional fracturing and subsidence of pumice flow deposits: Lascar Volcano, Chile. Bull Volcanol 74:511-531. https://doi.org/10.1007/s00445-011-0545-1</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">NASA GIFT Iceland Highlands: 2015-2019 Baugur LiDAR</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">L</forename><surname>Whelley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sutton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Gallant</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Hamilton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Á</forename><surname>Höskuldsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">H</forename><surname>Needham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Byrne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Huff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">De</forename><surname>Wet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename></persname>
+</author>
+<idno type="DOI">10.5066/P9VQPE9W</idno>
+<ptr target="https://doi.org/10.5066/P9VQPE9W"></ptr>
+</analytic>
+<monogr>
+<title level="j">U.S. Geological Survey data release</title>
+<imprint>
+<date type="published" when="2023">2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Whelley PL, Sutton S, Richardson JA, Gallant L, Hamilton C, Höskuldsson Á, Needham DH, Byrne S, Huff A, De Wet A (2023) NASA GIFT Iceland Highlands: 2015-2019 Baugur LiDAR. U.S. Geological Survey data release. https://doi.org/10.5066/P9VQPE9W</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<analytic>
+<title level="a" type="main">The Importance of Monitoring Interval for Rockfall Magnitude-Frequency Estimation</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">G</forename><surname>Williams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">J</forename><surname>Rosser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Hardy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Brain</surname></persname>
+</author>
+<idno type="DOI">10.1029/2019JF005225</idno>
+<ptr target="https://doi.org/10.1029/2019JF005225"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Geophys Res Earth Surf</title>
+<imprint>
+<biblscope unit="volume">124</biblscope>
+<biblscope from="2841" to="2853" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Williams JG, Rosser NJ, Hardy RJ, Brain MJ (2019) The Importance of Monitoring Interval for Rockfall Magnitude-Frequency Estimation. J Geophys Res Earth Surf 124:2841-2853. https://doi.org/10.1029/2019JF005225</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">The Relationship Between Lava Fountaining and Vent Morphology for the 2014-2015 Holuhraun Eruption, Iceland, Analyzed by Video Monitoring and Topographic Mapping</title>
+<author>
+<persname><forename type="first">T</forename><surname>Witt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">R</forename><surname>Walter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Müller</surname></persname>
+</author>
+<idno type="DOI">10.3389/feart.2018.00235</idno>
+<ptr target="https://doi.org/10.3389/feart.2018.00235"></ptr>
+</analytic>
+<monogr>
+<title level="j">Front Earth Sci</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Witt T, Walter TR, Müller D, et al (2018) The Relationship Between Lava Fountaining and Vent Morphology for the 2014-2015 Holuhraun Eruption, Iceland, Analyzed by Video Monitoring and Topographic Mapping. Front Earth Sci 6. https://doi.org/10.3389/feart.2018.00235</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">Morphometric evolution of cinder cones</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Wood</surname></persname>
+</author>
+<idno type="DOI">10.1016/0377-0273(80)90040-2</idno>
+<ptr target="https://doi.org/10.1016/0377-0273(80)90040-2"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Volcanol Geotherm Res</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope from="387" to="413" unit="page"></biblscope>
+<date type="published" when="1980">1980</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wood CA (1980) Morphometric evolution of cinder cones. J Volcanol Geotherm Res 7:387-413. https://doi.org/10.1016/0377-0273(80)90040-2</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<analytic>
+<title level="a" type="main">Morphometric analysis of cinder cone degradation</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Wood</surname></persname>
+</author>
+<idno type="DOI">10.1016/0377-0273(80)90101-8</idno>
+<ptr target="https://doi.org/10.1016/0377-0273(80)90101-8"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Volcanol Geotherm Res</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope from="137" to="160" unit="page"></biblscope>
+<date type="published" when="1980">1980</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wood CA (1980) Morphometric analysis of cinder cone degradation. J Volcanol Geotherm Res 8:137-160. https://doi.org/10.1016/0377-0273(80)90101-8</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

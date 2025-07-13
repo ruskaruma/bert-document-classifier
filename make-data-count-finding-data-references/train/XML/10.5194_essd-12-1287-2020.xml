@@ -1,0 +1,1649 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Quality assurance and control on hydrological data off western Sardinia (2000-2004), western Mediterranean</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2020-06-09">9 June 2020</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">Alberto</forename><surname>Ribotti</surname></persname>
+<email>alberto.ribotti@cnr.it</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Istituto per lo studio degli impatti Antropici e Sostenibilità in ambiente marino (IAS) of CNR, 09170 Oristano, Italy</note>
+<orgname type="department">Istituto per lo studio degli impatti Antropici e Sostenibilità in ambiente marino (IAS) of CNR</orgname>
+<address>
+<postcode>09170</postcode>
+<settlement>Oristano</settlement>
+<country key="IT">Italy</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Roberto</forename><surname>Sorgente</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Istituto per lo studio degli impatti Antropici e Sostenibilità in ambiente marino (IAS) of CNR, 09170 Oristano, Italy</note>
+<orgname type="department">Istituto per lo studio degli impatti Antropici e Sostenibilità in ambiente marino (IAS) of CNR</orgname>
+<address>
+<postcode>09170</postcode>
+<settlement>Oristano</settlement>
+<country key="IT">Italy</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Mireno</forename><surname>Borghini</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Istituto di Scienze Marine (ISMAR) of CNR, 19032 La Spezia, Italy</note>
+<orgname type="department">Istituto di Scienze Marine (ISMAR) of CNR</orgname>
+<address>
+<postcode>19032</postcode>
+<settlement>La Spezia</settlement>
+<country key="IT">Italy</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Quality assurance and control on hydrological data off western Sardinia (2000-2004), western Mediterranean</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2020-06-09">9 June 2020</date>
+</imprint>
+</monogr>
+<idno type="MD5">228774DAA6F410EA650EF73F9B8EE3A5</idno>
+<note type="submission">Received: 24 January 2020 -Discussion started: 4 February 2020 Revised: 21 April 2020 -Accepted: 2 May 2020 -</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-08-14T02:46+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Seven oceanographic cruises in 5 years were organized in the Sea of Sardinia with the repeated collection of physical, chemical and biological data.</s><s>An accurate and sustained quality assurance on physical sensors was enacted through pre-and postcruise calibration and verified during in situ acquisitions with the use of redundant sensors and other instruments.</s><s>Moreover, for dissolved oxygen and conductivity, seawater samples at standard depths were frequently analyzed on board.</s><s>Then an accurate quality control was used to verify all hydrological data profiles, which passed a further quality check following standard procedures.</s><s>Finally all hydrological data have been included in two online public open-access datasets in the SEANOE (SEA scieNtific Open data Edition) repository (https://doi.org/10.17882/59867</s><s>and https://doi.org/10.17882/70340;</s><s>Ribotti et al.,  2019a, b).</s><s>During and after all cruises Chlorophyll a and nutrient analyses were also carried out, but these data</s></p><p><s>are not yet open access; the same applies for water current profiles, both at casts and during vessel moves, and geophysical data.</s><s>These ocean data are the first covering the Sea of Sardinia for its whole extension.</s><s>Here data and assurance and control procedures used are described as they have become standards in deep-sea acquisitions over the years.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Between May 2000 and January 2004 the National Research Council (CNR) of Italy collected hydrodynamic, chemical and biological data in the Sea of Sardinia during seven multidisciplinary oceanographic cruises, MedGOOS 1 to Med-GOOS 7.</s><s>These cruises were the first covering the whole Sea of Sardinia, from the shelf to the open sea, with oceanographic measurements.</s><s>They were realized with the main aim of making a useful contribution to the knowledge of the local upper, intermediate and deep circulation and its interaction with the general Mediterranean circulation.</s></p><p><s>The study area is limited to between 38 and 42 • N in latitude and between 7 • E and the western Sardinian coast in longitude, with an offshore bottom reaching a depth of 2950 m in the abyssal plain.</s><s>The shelf extends from 5.5 km in the north to 37 km in its center with a shelf break at about a 200 m depth <ref type="bibr">(Conforti et al., 2016;</ref><ref type="bibr">Brambilla et al., 2019)</ref>.</s></p><p><s>It is an area of passage of recirculating waters between the two Mediterranean sub-basins and the Atlantic Ocean <ref type="bibr">(Astraldi et al., 19varia99;</ref><ref target="#b16" type="bibr">Millot, 2005;</ref><ref type="bibr">Millot and Taupier-Letage, 2005;</ref><ref type="bibr">Schroeder et al., 2013)</ref> and is strongly influenced by the Algerian large-scale dynamics <ref target="#b4" type="bibr">(Bouzinac and Millot, 1999;</ref><ref target="#b26" type="bibr">Puillat et al., 2002;</ref><ref type="bibr">Pessini et al., 2018)</ref>.</s><s>Very energetic surface fronts, cyclonic and anticyclonic vortices, and up-and downwelling events play an important role in the variability in and transport of physical, biological and chemical characteristics of the water masses <ref target="#b27" type="bibr">(Puillat et al., 2003</ref><ref target="#b28" type="bibr">(Puillat et al., , 2006;;</ref><ref target="#b33" type="bibr">Santinelli et al., 2008;</ref><ref target="#b18" type="bibr">Olita et al., 2013</ref><ref type="bibr">Olita et al., , 2014))</ref>.</s></p><p><s>Here, thanks to the data acquired during the first MedGOOS cruises, <ref target="#b27" type="bibr">Puillat et al. (2003)</ref> and <ref target="#b29" type="bibr">Ribotti et al. (2004)</ref> identified the main water masses usually observed in the rest of the western Mediterranean sea, like the Atlantic Water (AW) in the upper 150 m, the Winter Intermediate Water and its modified version known as the temperature minimum layer <ref type="bibr">(Ben-zohra and Millot, 1995;</ref><ref target="#b27" type="bibr">Sorgente et al., 2003;</ref><ref target="#b0" type="bibr">Allen et al., 2008)</ref> at about 100-120 m depth in the AW, the intermediate waters below to an 800 m depth and the Western Mediterranean Deep Water (WMDW) to the bottom.</s><s>Here, since 2005 the old WMDW has been undermined by the warmest and saltier new WMDW that diffused all over the western Mediterranean sub-basin due to the transfer of the Eastern Mediterranean Transient signal inside.</s><s>This water is characterized by high heat and salt content from the advected Levantine Intermediate Water (LIW), forming the new WMDW in the northwestern Mediterranean sub-basin <ref target="#b9" type="bibr">(Gasparini et al., 2005;</ref><ref target="#b37" type="bibr">Schroeder et al., 2006;</ref><ref target="#b43" type="bibr">Zunino et al., 2012;</ref><ref target="#b30" type="bibr">Ribotti et al., 2016)</ref>.</s></p><p><s>Due to such oceanographic importance, since the 1950s French or Italian unsystematic cruises have been organized in the area, whose data are available in the PANGAEA (https://www.pangaea.de,</s><s>last access: 20 December 2019) and SEANOE (SEA scieNtific Open data Edition) repositories <ref target="#b8" type="bibr">(Dumas et al., 2018)</ref>.</s><s>In 2014, the NATO Science and Technology Organization (STO) Centre for Maritime Research and Experimentation (CMRE), based in La Spezia, organized a 2-week experiment with extensive use of ocean instruments and two research vessels in a limited area (110 km × 110 km).</s><s>Its aims were to improve local ocean numerical simulations and forecasts and study the local ocean variability and structures <ref type="bibr">(Onken, 2017a, b;</ref><ref type="bibr">Knoll et al., 2017;</ref><ref type="bibr">Hemming et al., 2017;</ref><ref type="bibr">Onken et al., 2018;</ref><ref type="bibr">Hernandez-Lasheras and Mourre, 2018)</ref>.</s></p><p><s>Then recent experiments with drifters and deep-sea gliders were realized in the Sea of Sardinia and between Sardinia and the Balearic Islands, partially described by <ref type="bibr">Olita et al. (2014)</ref>.</s></p><p><s>In 2000-2004, instruments, sensors and data passed stringent controls following internationally accepted oceanographic processes necessary to obtain high-quality data.</s><s>These practices included quality assurance, control and assessment according to standards and best practices that have been refined till the present <ref type="bibr">(Hood et al., 2010;</ref><ref type="bibr">Bushnell et al., 2019;</ref><ref target="#b24" type="bibr">Pearlman et al., 2019)</ref>.</s><s>In this paper we describe all the procedures or best practices followed to assure and control the quality of the acquired data during the MedGOOS cruises, the sensors used, and the sensors' calibrations and intercomparisons.</s></p><p><s>Acquired hydrological data are in two datasets stored in an open-access repository, SEANOE <ref type="bibr">(Ribotti et al., 2019a, b)</ref>, linked with the EMODnet data network of marine centers and European thematic data portals like SeaDataNet and EurOBIS.</s></p><p><s>In the following two sections (Sects. 2 and 3) the vessel, instruments and sensors used in the seven cruises are described, with a distinction between data in repositories (Sect.</s><s>2) and not part of any repository (Sect.</s><s>3).</s><s>The calibration of temperature and conductivity sensors is described Sect.</s><s>4, while in Sect. 5 the onboard control of CTD sensor stability is detailed.</s><s>Discussion and conclusions close the paper.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Instrumentation technology<p><s>During the seven cruises, profiles of physical-chemical parameters were acquired at planned stations, whose number varied due to the length of and the strategy adopted in each cruise, the wideness of the covered area, and the sea conditions.</s><s>So the activities range from the 38 stations realized during the 6 d long MedGOOS 1 in 2000 and the 92 during the 21 d long MedGOOS 6 in 2003.</s><s>In September 2001, only the southern part of the Sea of Sardinia with 41 stations was covered due to bad weather conditions.</s></p><p><s>The 61.30 m long R/V Urania of CNR was used in all cruises.</s><s>This was a modern multidisciplinary research vessel equipped with instruments to study physical and chemical water quality parameters and laboratories for biological and geological analyses.</s><s>For its dynamic positioning the vessel was equipped with an integrated navigation system constituting two DGPS antennas and one Loran-C receiver that ensured an optimal use of the scientific equipment during the cruises.</s><s>Such a system was managed through software by Andrews Hydrographics installed on a 33 MHz HP386 PC, which permitted the downloading of navigation and meteorological data in ASCII format with geographic and kilometric coordinates at a frequency of 10 min.</s></p><p><s>On board, an SBE 911plus CTD probe (by Sea-Bird Scientific, Inc.), mounted on a 24 10 L Niskin bottles rosette for water column sampling, was used to acquire hydrological data during all the seven cruises (Fig. <ref target="#fig_0" type="figure">1</ref>).</s></p><p><s>Specifically, the sensors installed on the probe had the following characteristics (Table <ref target="#tab_1" type="table">1</ref>).</s></p><p><s>-Pressure (db).</s><s>A Digiquartz 4000 pressure transducer was used.</s><s>The transducer had a resolution of 0.01 ppm, oscillator frequency of 34-38 KHz and temperature range of 0-125 • C.</s></p><p><s>-Water temperature ( • C).</s><s>An SBE 3F thermometer was used with a response time of 70 ms, temperature range of -5 to +35 • C, accuracy of about 0.004 • C yr -1 and a resolution of 0.0003 • C. The international practical temperature scale known as IPTS-68 was applied on data from MedGOOS 1, 2 and 6, while the international temperature scale of 1990, known as ITS-90, was applied on data from MedGOOS 4 and from MedGOOS 3, 5, 7 on secondary sensors.</s></p><p><s>-Conductivity (mS cm -1 ).</s><s>An SBE 4 sensor was used with a range of 0.0-7 S m -1 , resolution of 0.00004 S m -1 , accuracy of about 0.0003 S m -1 per month, and response time of 0.085sec with pump or 0.17 s without pump.</s></p><p><s>-Dissolved oxygen.</s><s>An SBE 13 Beckman or YSI sensor was used with a range of 0.0-15 mL L -1 , accuracy of 0.1 mL L -1 , resolution of 0.01 mL L -1 and response time of 2 s at a temperature of 25  and 7, an SBE 43 polarographic membrane sensor for pumped CTD applications with titanium (7000 m) housing was used with a range of 120 % of surface saturation in all natural waters and accuracy of ±2 % of saturation.</s></p><p><s>-Fluorescence.</s><s>A Sea Tech Inc. fluorometer was used with the energy emitted by the flash lamp of 0.25 J for the flash, a temperature range of 0-25 • C and a resolution of 0.15 µg L -1 .</s></p><p><s>Redundant or secondary sensors were always used for a data quality assessment (as defined in <ref target="#b6" type="bibr">Bushnell et al., 2019)</ref> of both temperature and salinity measurements, except during the cruise MedGOOS 1 in May-June 2000 (see Table <ref target="#tab_1" type="table">1</ref>).</s></p><p><s>A secondary SBE 43 sensor for dissolved oxygen was also added just in the last three cruises, from MedGOOS 5 to 7.</s><s>These redundant sensors were a useful method of comparison to evaluate the stability of primaries both during the acquisition and at a following visual quality check of profiles.</s></p><p><s>For the same reason, RTM 4002 digital deep-sea reversing thermometers by Sensoren Instrumente Systeme GmbH (SiS) were mounted on Niskin bottles during MedGOOS 4 (three thermometers) and 5 (four thermometers).</s><s>These in-struments acquired sea temperature at depths, defined by the closing of the Niskin bottle they were mounted on, usually sampling near the bottom where temperature is more stable.</s><s>Reversing thermometers had a depth range of up to 10 000 m and a temperature range of between -2 • C and +40 • C.</s><s>They had a resolution of ±0.001 • C between -2.000 and 19.999 • C and of ±0.01 • C between 20.00 and 40.00 • C and a stability of 0.00025 • C per month.</s><s>Its pressure housing was made of a glass tube closed at its ends by metal stoppers, one containing the platinum sensor and the other the battery.</s><s>Its internal mercury switch was activated by inverting the instrument at defined depths.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Other acquisitions<p><s>In some cruises (see Table <ref target="#tab_1" type="table">1</ref>) current meter data were acquired both at a station (lowered acoustic Doppler current profiler or LADCP) and en route (shipborne acoustic Doppler current profiler or SADCP), while geophysical sub-bottom profiler data were just acquired during the cruise Med-GOOS 2. At casts, the real-time display of CTD data made it possible to identify a certain number of stations where to take water samples for the estimation of nutrients (nitrites, nitrates and phosphates), Chlorophyll a, chromophoric dissolved organic matter (CDOM) and dissolved organic carbon (DOC).</s><s>As all these data are not in the two datasets in the SEANOE repository mentioned above <ref type="bibr">(Ribotti et al., 2019a, b)</ref>, they will be shortly described here as part of the cruises data.</s><s>All measures were carried out trying to reconcile the different procedures.</s></p><p><s>The sub-bottom profiler was a GeoPulse Transmitter Model 5430A at frequencies ranging between 2 and 15 kHz with a maximum emitted power of 10 kW.</s><s>It was just used on a small portion of the western Sardinian shelf north of Oristano in April 2001 during the cruise MedGOOS 2.</s></p><p><s>Starting from the cruise MedGOOS 2, profiles of current speed were acquired during CTD casts by two synchronized 300 kHz RDI Workhorse acoustic Doppler current profilers (ADCPs), by RD Instruments Inc. (now Teledyne), USA, configured in "Lowered" mode and installed on the rosette with one looking up (named slave) and the other down (named master).</s><s>They acquired horizontal current data in 20 cells each with a 10 m width from the instrument with an impulse per second.</s><s>Then under the keel of the vessel, a 38 kHz ADCP profiled currents in 8 m wide cells over a 1000 m depth through an impulse per second during transfers between stations.</s><s>Another impulse was used to correct the water speed and obtain its real speed as regards the sea bottom (bottom tracking).</s><s>Configuration of ADCPs used in the two modes, Lowered and Shipborne, in 2001-2004 are in agreement with the more recent internationally recognized GO-SHIP protocols described by <ref type="bibr">Hood et al. (2010)</ref>.</s></p><p><s>For Chlorophyll a (Chl a), CDOM and DOC, all the water samples were filtered on 0.42 µm Whatman GF/F glass</s></p><formula xml:id="formula_0">SBE 13 O 2 sensor X X X X SBE 43 O 2 sensor X X X Fluorescence X X X X X X X LADCP X X X X X SADCP X CTD secondary sensors Secondary temperature X X X X X X Secondary conductivity X X X X X X SBE 43 O 2 X X X</formula><formula xml:id="formula_1">2 X X X X X X Conductivity X X X X X X</formula><p><s>microfiber filters for Chl a and 0.22 µm membrane filter (Sartorius, Minisart, SM 16534 K) for DOC and CDOM; this was to remove the particulate fraction immediately after collection.</s><s>Then filters were frozen at +4 • C to be analyzed at labs following standard procedures described by <ref target="#b14" type="bibr">Lazzara et al. (1990)</ref> for Chl a and by <ref target="#b41" type="bibr">Vignudelli et al. (2004)</ref> and <ref target="#b33" type="bibr">Santinelli et al. (2008)</ref> for CDOM and DOC.</s><s>For nutrients, during the first three MedGOOS cruises, water samples were partially analyzed on board by a Systea µCHEM autoanalyzer, while remaining samples were frozen at -20 • C following <ref target="#b40" type="bibr">Strickland and Parsons (1972)</ref>.</s><s>In the following cruises all water samples were frozen and then analyzed once back in the laboratory.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Pre-and postcruise calibration procedures<p><s>The pre-and postcruise calibration of the sensors of temperature and conductivity was performed at the oceanographic instrument (CTD) calibration facilities of the SACLANT Undersea Research Center (SACLANTCEN, now STO-CMRE) in La Spezia, Italy.</s><s>The center was funded in 1959 initially for submarine warfare, but it developed and maintained an oceanographic instruments test and calibration facility that enabled the acquisition of high-quality ocean data and was unique in Italy for years.</s><s>Two calibration seawater tanks were equipped with two very high precision Neil Brown ATB-1250 platinum resistance thermometer bridges for temperature and two very high precision Neil Brown CSA-1250 conductivity-salinity adaptors for conductivity.</s><s>Seawater samples were analyzed for conductivity by a highprecision 8400B Autosal laboratory salinometer, from Guildline Instruments Ltd., standardized with International Association for the Physical Sciences of the Oceans (IAPSO) Standard Seawater and an accuracy of &lt; 0.002 psu on a range of salinity between 2 and 42 psu.</s><s>Before SBE sensors calibration, the two temperature sensors in the bath were adjusted to a triple-point-of-water cell (TPW) at the temperature of 0.01 • C and a thermometric standard gallium-melting-point cell for the highest value of 29.7646 • C.</s><s>So at SACLANTCEN a calibration of these sensors was realized exceeding World Ocean Circulation Experiment (WOCE) standards <ref target="#b15" type="bibr">(Millard and Yang, 1993)</ref>.</s><s>These two calibrations permitted us to substantially generate a slope correction, used in the configuration file of the SBE Seasoft suite of programs, for data acquired during each cruise, thus improving their quality.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Onboard control of CTD sensors stability<p><s>Despite the calibration of temperature and conductivity sensors before and after each cruise, all sensors can significantly drift over the course of a cruise.</s><s>This can dramatically reduce the quality of the data.</s><s>As high-quality conductivity and oxygen data enable the definition of local water masses with high precision, particularly in the deep sea, then the use of international standards is mandatory in oceanography.</s><s>The stability of conductivity and dissolved oxygen (DO) sensors must be verified on board through a comparison with data from water samples.</s><s>During the cruise all involved personnel and all acquired data are usually together, so it is relatively easy to check and correct repetitive problems before they can further degrade the data.</s></p><p><s>Conductivity data were checked against the onboard analyses by a Guildline 8400B Autosal laboratory salinometer, similar to that described above, while DO data were analyzed using the Winkler titration method with a measured precision in triplicate analyzed samples of 0.01 mL L -1 (expressed in standard deviation units).</s><s>The sampling was at defined depths at the surface; at <ref type="bibr">25, 50, 100, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2500 and 3000 m;</ref> and at the bottom.</s></p><p><s>The Autosal salinometer was operated in a small temperature-regulated room, part of the onboard wet laboratory, and its bath temperature was held at 24 ± 2 • C. The salinometer was standardized daily with the use of IAPSO Standard Seawater provided by 200 mL clear sealed glass bottles, before starting the analyses.</s><s>Seawater for conductivity was taken after that for DO and collected in 250 mL clear bottles with screw caps.</s><s>Each bottle and cap was rinsed three times with the sampled water, and each bottle was filled to its shoulder.</s><s>Then the bottles were stored for no longer than 24 h in the conditioned room before their analyses.</s><s>Niskin bottles collected water at the deepest casts of the cruise and at least once a day.</s></p><p><s>The oxygen sensors used during the cruises were not calibrated, so during each cruise different verifications were realized to verify possible sensors shifts through the Winkler titration method <ref target="#b42" type="bibr">(Winkler, 1888)</ref>.</s><s>This method, used for in situ DO analyses, consists of reacting oxygen in the samples with two reagents (I and II) and with a final titration.</s><s>The reagent I is a solution of MnSO 4 and NaOH, while the reagent II is a solution of NaI and H 2 SO 4 .</s><s>The utmost attention is paid to draw the oxygen samples first from Niskin bottles and into dark glass bottles.</s><s>This avoids the formation of air bubbles during the sampling itself or the execution of the analysis.</s><s>The sampling was realized as for conductivity considering frequency and methodology.</s><s>The water sampled at 100 m of depth was used to obtain three blank solutions in dark glass bottles and one standard solution in a larger plastic bottle.</s><s>So blanks and standards were run often.</s><s>Then different quantities of reagents were added: 0.5 mL (the usual for all samples) of reagent I and reagent II in the first blank, its double in the second blank, and its triple in the third.</s><s>No reagents were initially added in the standard solution.</s><s>All samples and the three blank solutions, not the standard, were left in the dark for at least 2 h and then analyzed within 24 h of their collection.</s><s>During the analysis of the standard solution and reagents I and II, 0.5 mL L -1 of H 2 SO 4 and then of KIO 3 were added.</s><s>The samples have been analyzed through the program TIAMO (TItration And MOre) 2.0 by Metrohm.</s><s>Thanks to the data from the water samples, the possible estimations of changes in slope (Soc) and offset (Voffset), in the linear relationship between oxygen concentration and voltage output that indicate a loss of sensitivity of the sensors, were realized performing a linear regression line of the data calculated from the following Eq.</s><s>( <ref target="#formula_2" type="formula">1</ref>) <ref target="#b23" type="bibr">(Owens and Millard Jr., 1985;</ref><ref target="#b15" type="bibr">Millard and Yang, 1993;</ref><ref type="bibr">SBE, 2008a)</ref>:</s></p><formula xml:id="formula_2">ϕ =Oxsol(T , S) • (1.0 + A • T + B • T 2 + C • T 3 ) • e E•P K ,<label>(1)</label></formula><p><s>where Oxsol(T , S) is the oxygen solubility (mL L -1 ) at a defined temperature and salinity; T and K are the CTD temperatures in • C and in K; P is the CTD pressure (dbar); and A, B, C and E are calibration coefficients.</s><s>At a defined deep station, the regression is calculated by using the measured Winkler oxygen concentration divided by ϕ as a dependent variable and the oxygen sensor output voltage as an independent variable.</s></p><p><s>In Fig. <ref target="#fig_1" type="figure">2</ref> an example of linear regression applied on a deep CTD station with the calculation of the new Soc (0.3936) and the new Voffset = -0.2094/SOC</s><s>= -0.2094/0.3936</s><s>= -0.53201.</s></p><p><s>During cruises from MedGOOS 4 to MedGOOS 7 temperature data were checked at defined depths against reversing thermometers installed that correspond to the bottles numbered 1, 3, 5 and 7 of the rosette sampler.</s></p><p><s>Furthermore CTD and oxygen data were compared with those analyzed on board from samples or acquired with other instruments in order to determine or visually check possible shifts.</s><s>Acquired CTD data were processed through the standardized procedures of the SBE Data Processing software.</s><s>After comparisons and in the case of malfunction, the use of the secondary sensor instead of the primary was evaluated (see in Fig. <ref target="#fig_2" type="figure">3</ref> a plot for conductivity and DO).</s></p><p><s>After the postcruise calibration, if the shift was constant or systematic then an average of all data (primary, secondary, samples, etc) was used to correct data.</s><s>If the shift was random, Soc and Voffset for DO, slope and offset for conductivity and temperature were recalculated and the data corrected following the procedures described in the application note numbers <ref type="bibr">64-2 (SBE, 2008b</ref><ref type="bibr">64-2 (SBE, , 2012) )</ref> and 31 (SBE, 2016), respectively.</s></p><p><s>Chl a fluorescence was calibrated following the instructions given by SBE (2008a) where the Seasoft coefficients for the Sea Tech fluorometer are calculated.</s><s>No validation of the data has been applied after the cruises.</s><s>The fluorescence is reported in relative fluorescence units (RFU) in the datasets.</s><s>Also pressure sensors were not calibrated as they are usually stable, but, if problems occurred, they were sent to SBE Inc. in the United States for calibration.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data availability<p><s>The two datasets described in this study are publicly available free of charge from the SEANOE data repository <ref type="bibr">(Ribotti et al., 2019a, https</ref> The rescue and reprocessing of hydrodynamic data is ongoing in order to reorganize them, in a quality controlled manner, into a database.</s><s>The same will be carried out for the biological parameters.</s><s>A first dataset of nutrients data from more recent cruises (late 2014-2017) is available at https://doi.org/10.5194/essd-2019-136</s><s><ref target="#b2" type="bibr">(Belgacem et al., 2019)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion and conclusion<p><s>Several processes to obtain high-quality ocean data were followed during the 2000-2004 MedGOOS cruises in the Sea of Sardinia, western Mediterranean.</s><s>Quality assurance, control and assessment, according to standard and best practices, defined at international level (see <ref target="#b6" type="bibr">Bushnell et al., 2019)</ref> and after decades of application in ocean data acquisition, were considered during all cruises and are in agreement with recent standardized procedures for all sensors <ref type="bibr">(Hood et al., 2010)</ref>.</s><s>Sensors underwent pre-and postcruise calibration and included redundancies during cruises; results were compared with water samples analyzed on board.</s><s>These efforts have led to the achievement of the standard precision required even today, thanks to the accuracy of the sensors used.</s><s>Uncertainty in measurements, defined as "the quantification of the doubt that exists about results of any measurements", exists in these data but has been reduced by the skill of the same operators or analysts following all the processes at any time for all the included years and cruises.</s><s>Now oceanographic data from seven cruises are collected in two open-access datasets available online, including ocean parameters like conductivity, temperature, DO and Chlorophyll a fluorescence.</s><s>These ocean data are the first available for the Sea of Sardinia and are important for characterizing the general circulation and the dynamics in the western Mediterranean.</s></p><p><s>Author contributions.</s><s>AR led some cruises, organized the two datasets and led the writing of the paper.</s><s>MB led some cruises, finalized quality assurance and quality control procedures described in the paper, and collaborated in the paper writing.</s><s>RS collaborated in the paper writing.</s></p><p><s>Competing interests.</s><s>The authors declare that they have no conflict of interest.</s></p><p><s>Acknowledgements.</s><s>The data used in this work have been collected in the framework of national and European projects like the Italian MIUR project SIMBIOS (Operative Programme of the Marine Environment Plan, Cluster C10, Project no. 13 -D.n.</s><s>778.RIC); the EU Marie Curie Host Fellowship ODASS (HPMD-CT-2001-00075); the EU MAMA (EVR1- <ref type="bibr">CT-2001-20010)</ref>, the EU MF-SPP (MAS3-CT98-0171); and the EU MFSTEP (EVK3- <ref type="bibr">CT-2002-00075)</ref>.</s><s>The authors thank the chiefs and the crews on board the R/V Urania for their essential support during the mentioned cruises, Massimiliano Di Bitetto as CNR cruises leader or coleader and, Silvana Vallerga in charge of some funding projects.</s><s>We also want to thank Giuseppe Maria Rosario Manzella from the Italian National Agency for New Technologies, Energy and Sustainable Economic Development (ENEA) in La Spezia (Italy) for the creation and maintenance of the Mediterranean Marine Database for years.</s><s>This work is dedicated to Gabriele Petrone, who died on 25 August 2015 aboard the R/V Urania.</s></p><p><s>Review statement.</s><s>This paper was edited by Francois Schmitt and reviewed by Sarantis Sofianos and Alain Lefebvre.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>All the CTD casts during the seven cruises in the Sea of Sardinia (western Mediterranean).</s></p></div></figdesc><graphic coords="3,81.92,66.33,170.07,336.32" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 2. Linear regression line calculated for the DO data of a CTD station.</s></p></div></figdesc><graphic coords="5,307.28,66.33,240.94,102.53" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure 3.</s><s>The salinity (a) and DO (b) errors between what was measured by the sensor on the probe and what was measured on board from water samples for the two conductivity and oxygen sensors, 1 and 2, along a vertical profile in a deep station.</s></p></div></figdesc><graphic coords="6,46.49,66.33,240.94,298.64" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>The list of sensors used and activities realized during the seven MedGOOS cruises.</s><s>Numbers in brackets for reversing thermometers are the numbers of the Niskin bottles where installed.</s></p></div></figdesc><table><row><cell></cell><cell cols="7">MedGOOS 1 MedGOOS 2 MedGOOS 3 MedGOOS 4 MedGOOS 5 MedGOOS 6 MedGOOS 7</cell></row><row><cell>Date</cell><cell>28 May-</cell><cell>23 Mar-</cell><cell>10-</cell><cell>4-</cell><cell>31 Oct-</cell><cell>28 Mar-</cell><cell>7-</cell></row><row><cell></cell><cell>2 Jun 2000</cell><cell>3 Apr 2001</cell><cell cols="3">20 Sep 2001 23 May 2002 18 Nov 2002</cell><cell>17 Apr 2003</cell><cell>26 Jan 2004</cell></row><row><cell>No. of days</cell><cell>6</cell><cell>12</cell><cell>11</cell><cell>20</cell><cell>20</cell><cell>21</cell><cell>20</cell></row><row><cell>R/V</cell><cell>Urania</cell><cell>Urania</cell><cell>Urania</cell><cell>Urania</cell><cell>Urania</cell><cell>Urania</cell><cell>Urania</cell></row><row><cell>No. of CTDs</cell><cell>38</cell><cell>67</cell><cell>41</cell><cell>68</cell><cell>42</cell><cell>92</cell><cell>87</cell></row><row><cell>Reversing thermometer (bottle no.)</cell><cell></cell><cell></cell><cell></cell><cell>3 (1, 3, 5)</cell><cell>4 (1, 3, 5, 7)</cell><cell></cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_3" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>://doi.org/10.17882/59867,</s><s>and Ribotti et al., 2019b, https://doi.org/10.17882/70340).</s><s>The presented datasets are composed of CTD data in Ocean Data View (ODV) TXT spreadsheet and collection file formats divided per cruise.</s><s>Metadata are available in TXT, RIS, XLS, RTF and BIBTEX formats.</s></p></div></figdesc><table></table></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Earth Syst.</s><s>Sci.Data, 12, 1287Data, 12,  -1294Data, 12,  , 2020     https://doi.org/10.5194/essd-12-1287-2020</s></p></note>
+<note place="foot" xml:id="foot_1" xmlns="http://www.tei-c.org/ns/1.0"><p><s>https://doi.org/10.5194/essd-12-1287-2020Earth</s><s>Syst.</s><s>Sci.Data, 12, 1287Data, 12,  -1294Data, 12,  , 2020</s></p></note>
+<back>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Eddy transport of Western Mediterranean Intermediate Water to the Alboran Sea</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">T</forename><surname>Allen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Painter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Rixen</surname></persname>
+</author>
+<idno type="DOI">10.1029/2007JC004649</idno>
+<ptr target="https://doi.org/10.1029/2007JC004649"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Geophys. Res</title>
+<imprint>
+<biblscope unit="volume">113</biblscope>
+<biblscope unit="page">4024</biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Allen, J. T., Painter, S. C., and Rixen, M.: Eddy trans- port of Western Mediterranean Intermediate Water to the Alboran Sea, J. Geophys. Res., 113, C04024, https://doi.org/10.1029/2007JC004649, 2008.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">The role of straits and channels in understanding the characteristics of Mediterranean circulation</title>
+<author>
+<persname><forename type="first">M</forename><surname>Astraldi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Balopoulos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Candela</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Font</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Gacic</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">P</forename><surname>Gasparini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Manca</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Theocharis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Tintoré</surname></persname>
+</author>
+<idno type="DOI">10.1029/2007JC004649</idno>
+<ptr target="https://doi.org/10.1016/S0079-6611(99)00021-X,1999"></ptr>
+</analytic>
+<monogr>
+<title level="j">Prog. Oceanogr</title>
+<imprint>
+<biblscope unit="volume">44</biblscope>
+<biblscope from="65" to="108" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Astraldi, M., Balopoulos, S., Candela, J., Font, J., Gacic, M., Gas- parini, G. P., Manca, B., Theocharis, A., and Tintoré, J.: The role of straits and channels in understanding the characteris- tics of Mediterranean circulation, Prog. Oceanogr., 44, 65-108, https://doi.org/10.1016/S0079-6611(99)00021-X, 1999.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Dissolved Inorganic Nutrients in the Western Mediterranean Sea (2004-2017</title>
+<author>
+<persname><forename type="first">M</forename><surname>Belgacem</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Chiggiato</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Borghini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Pavoni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Cerrati</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Acri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Cozzi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ribotti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Alvarez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">K</forename><surname>Lauvset</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Schroeder</surname></persname>
+</author>
+<idno type="DOI">10.1016/S0079-6611(99)00021-X</idno>
+<ptr target="https://doi.org/10.5194/essd-2019-136,inreview"></ptr>
+</analytic>
+<monogr>
+<title level="s">Earth Syst. Sci. Data Discuss.</title>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Belgacem, M., Chiggiato, J., Borghini, M., Pavoni, B., Cerrati, G., Acri, F., Cozzi, S., Ribotti, A., Alvarez, M., Lauvset, S. K., and Schroeder, K.: Dissolved Inorganic Nutrients in the Western Mediterranean Sea (2004-2017), Earth Syst. Sci. Data Discuss., https://doi.org/10.5194/essd-2019-136, in review, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Characteristics and circulation of the surface and intermediate water masses off Algeria</title>
+<author>
+<persname><forename type="first">M</forename><surname>Benzohra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Millot</surname></persname>
+</author>
+<idno type="DOI">10.5194/essd-2019-136</idno>
+<ptr target="https://doi.org/10.1016/0967-0637(95)00043-6"></ptr>
+</analytic>
+<monogr>
+<title level="j">Deep-Sea Res. Pt. I</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope from="1803" to="1830" unit="page"></biblscope>
+<date type="published" when="1995">1995</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Benzohra, M. and Millot, C.: Characteristics and circulation of the surface and intermediate water masses off Algeria, Deep- Sea Res. Pt. I, 42, 1803-1830, https://doi.org/10.1016/0967- 0637(95)00043-6, 1995.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Hydrology and currents observed in the channel of Sardinia during the PRIMO1 experiment from November 1993 to October 1994</title>
+<author>
+<persname><forename type="first">C</forename><surname>Bouzinac</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Millot</surname></persname>
+</author>
+<idno type="DOI">10.1016/0967-0637(95)00043-6</idno>
+<ptr target="https://doi.org/10.1016/S0924-7963(98)00074-8"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Marine Syst</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="333" to="355" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bouzinac, C. and Millot, C.: Hydrology and currents observed in the channel of Sardinia during the PRIMO1 experiment from November 1993 to October 1994, J. Marine Syst., 20, 333-355, https://doi.org/10.1016/S0924-7963(98)00074-8, 1999.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Data set of submerged sand deposits organised in an interoperable spatial data infrastructure (Western Sardinia, Mediterranean Sea)</title>
+<author>
+<persname><forename type="first">W</forename><surname>Brambilla</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Conforti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Simeone</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Carrara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Lanucara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>De Falco</surname></persname>
+</author>
+<idno type="DOI">10.1016/S0924-7963(98)00074-8</idno>
+<ptr target="https://doi.org/10.5194/essd-11-515-2019,2019"></ptr>
+</analytic>
+<monogr>
+<title level="j">Earth Syst. Sci. Data</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="515" to="527" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Brambilla, W., Conforti, A., Simeone, S., Carrara, P., Lanucara, S., and De Falco, G.: Data set of submerged sand deposits organ- ised in an interoperable spatial data infrastructure (Western Sar- dinia, Mediterranean Sea), Earth Syst. Sci. Data, 11, 515-527, https://doi.org/10.5194/essd-11-515-2019, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Quality Assurance of Oceanographic Observations: Standards and Guidance Adopted by an International Partnership</title>
+<author>
+<persname><forename type="first">M</forename><surname>Bushnell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Waldmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Seitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Buckley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Tamburri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hermes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Henslop</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Lara-Lopez</surname></persname>
+</author>
+<idno type="DOI">10.5194/essd-11-515-2019</idno>
+<ptr target="https://doi.org/10.3389/fmars.2019.00706"></ptr>
+</analytic>
+<monogr>
+<title level="j">Front. Mar. Sci</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="page">706</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bushnell, M., Waldmann, C., Seitz, S., Buckley, E., Tamburri, M., Hermes, J., Henslop, E., and Lara-Lopez, A.: Quality Assur- ance of Oceanographic Observations: Standards and Guidance Adopted by an International Partnership, Front. Mar. Sci., 6, 706, https://doi.org/10.3389/fmars.2019.00706, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">A newly discovered Pliocene volcanic field on the western Sardinia continental margin (western Mediterranean)</title>
+<author>
+<persname><forename type="first">A</forename><surname>Conforti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Budillon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Tonielli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>De Falco</surname></persname>
+</author>
+<idno type="DOI">10.3389/fmars.2019.00706</idno>
+<ptr target="https://doi.org/10.1007/s00367-015-0428-0,2016"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geo-Mar. Lett</title>
+<imprint>
+<biblscope unit="volume">36</biblscope>
+<biblscope from="1" to="14" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Conforti, A., Budillon, F., Tonielli, R., and De Falco, G.: A newly discovered Pliocene volcanic field on the western Sardinia con- tinental margin (western Mediterranean), Geo-Mar. Lett., 36, 1- 14, https://doi.org/10.1007/s00367-015-0428-0, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">PROTEVS-MED field experiments: Very High Resolution Hydrographic Surveys in the Western Mediterranean Sea</title>
+<author>
+<persname><forename type="first">F</forename><surname>Dumas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Garreau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Louazel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Correard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Fercoq</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Le Menn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Serpette</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Garnier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Stegner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Vu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Doglioli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gregori</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename></persname>
+</author>
+<idno type="DOI">10.1007/s00367-015-0428-0</idno>
+<ptr target="https://doi.org/10.17882/62352"></ptr>
+</analytic>
+<monogr>
+<title level="j">SEANOE</title>
+<imprint>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dumas, F., Garreau, P., Louazel, S., Correard, S., Fercoq, S., Le Menn, M., Serpette, A., Garnier, V., Stegner, A., Le Vu, B., Doglioli, A., and Gregori, G.: PROTEVS-MED field experiments: Very High Resolution Hydrographic Surveys in the Western Mediterranean Sea, SEANOE, https://doi.org/10.17882/62352, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">The effect of the Eastern Mediterranean Transient on the hydrographic characteristics in the Strait of Sicily and in the Tyrrhenian Sea</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">P</forename><surname>Gasparini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ortona</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Budillon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Astraldi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Sansone</forename></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename></persname>
+</author>
+<idno type="DOI">10.1016/j.dsr.2005.01.001</idno>
+<ptr target="https://doi.org/10.1016/j.dsr.2005.01.001"></ptr>
+</analytic>
+<monogr>
+<title level="j">Deep-Sea Res. Pt. I</title>
+<imprint>
+<biblscope unit="volume">52</biblscope>
+<biblscope from="915" to="935" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gasparini, G. P., Ortona, A., Budillon, G., Astraldi, M., and Sansone, E.: The effect of the Eastern Mediterranean Tran- sient on the hydrographic characteristics in the Strait of Sicily and in the Tyrrhenian Sea, Deep-Sea Res. Pt. I, 52, 915-935, https://doi.org/10.1016/j.dsr.2005.01.001, 2005.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Measuring pH variability using an experimental sensor on an underwater glider</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Hemming</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kaiser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Heywood</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C E</forename><surname>Bakker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Boutin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Shitashima</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Legge</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Onken</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.dsr.2005.01.001</idno>
+<ptr target="https://doi.org/10.5194/os-13-427-2017,2017"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ocean Sci</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="427" to="442" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Hemming, M. P., Kaiser, J., Heywood, K. J., Bakker, D. C. E., Boutin, J., Shitashima, K., Lee, G., Legge, O., and Onken, R.: Measuring pH variability using an experimental sensor on an underwater glider, Ocean Sci., 13, 427-442, https://doi.org/10.5194/os-13-427-2017, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Dense CTD survey versus glider fleet sampling: comparing data assimilation performance in a regional ocean model west of Sardinia</title>
+<author>
+<persname><forename type="first">J</forename><surname>Hernandez-Lasheras</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Mourre</surname></persname>
+</author>
+<idno type="DOI">10.5194/os-13-427-2017</idno>
+<ptr target="https://doi.org/10.5194/os-14-1069-2018,2018"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ocean Sci</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope from="1069" to="1084" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Hernandez-Lasheras, J. and Mourre, B.: Dense CTD survey versus glider fleet sampling: comparing data assimilation performance in a regional ocean model west of Sardinia, Ocean Sci., 14, 1069- 1084, https://doi.org/10.5194/os-14-1069-2018, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">The GO-SHIP Repeat Hydrography Manual: A Collection of Expert Reports and Guidelines</title>
+<idno type="DOI">10.5194/os-14-1069-2018</idno>
+<ptr target="http://www.go-ship.org/HydroMan.html"></ptr>
+</analytic>
+<monogr>
+<title level="j">IOCCP Report</title>
+<editor>
+<persname><forename type="first">E</forename><forename type="middle">M</forename><surname>Hood</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">C</forename><forename type="middle">L</forename><surname>Sabine</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">B</forename><forename type="middle">M</forename><surname>Sloyan</surname></persname>
+</editor>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<date type="published" when="2010">6 June 2020. 1, 2010</date>
+</imprint>
+</monogr>
+<note>ICPO Publication Series</note>
+<note type="raw_reference">Hood, E. M., Sabine, C. L., and Sloyan, B. M. (Eds.): The GO- SHIP Repeat Hydrography Manual: A Collection of Expert Re- ports and Guidelines, IOCCP Report No.14, ICPO Publication Series No.134, available at: http://www.go-ship.org/HydroMan. html (last access: 6 June 2020), version 1, 2010.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Hydrography and circulation west of Sardinia in June 2014</title>
+<author>
+<persname><forename type="first">M</forename><surname>Knoll</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Borrione</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H.-V</forename><surname>Fiekas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Funk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P</forename><surname>Hemming</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kaiser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Onken</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Queste</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Russo</surname></persname>
+</author>
+<idno type="DOI">10.5194/os-13-889-2017,2017</idno>
+<ptr target="https://doi.org/10.5194/os-13-889-2017,2017"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ocean Sci</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="889" to="904" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Knoll, M., Borrione, I., Fiekas, H.-V., Funk, A., Hemming, M. P., Kaiser, J., Onken, R., Queste, B., and Russo, A.: Hydrography and circulation west of Sardinia in June 2014, Ocean Sci., 13, 889-904, https://doi.org/10.5194/os-13-889-2017, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Pigmenti clorofilliani, in: Metodi nell'ecologia del plancton marino</title>
+<author>
+<persname><forename type="first">L</forename><surname>Lazzara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Bianchi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Falcucci</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Hull</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Modich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ribera D'alcalà</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Innamorati</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Ferrari</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Marino</surname></persname>
+</author>
+<idno type="DOI">10.5194/os-13-889-2017</idno>
+</analytic>
+<monogr>
+<title level="j">Nova Thalassia</title>
+<editor>
+<persname><forename type="first">Ribera D'</forename><surname>Alcalà</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">M</forename></persname>
+</editor>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="207" to="223" unit="page"></biblscope>
+<date type="published" when="1990">1990</date>
+<publisher>Edizione LINT</publisher>
+<pubplace>Trieste, Italy</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Lazzara, L., Bianchi, F., Falcucci, M., Hull, V., Modich, M., and Ribera D'Alcalà, M.: Pigmenti clorofilliani, in: Metodi nell'ecologia del plancton marino, Nova Thalassia, 1st Edn., edited by: Innamorati, M., Ferrari, I., Marino, D., and Ribera D'Alcalà, M., Edizione LINT, Trieste, Italy, 11, 207-223, 1990.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">CTD Calibration and Processing Methods Used at Woods Hole Oceanographic Institution</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">C</forename><surname>Millard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Yang</surname></persname>
+</author>
+<idno>WHOI-93-44</idno>
+</analytic>
+<monogr>
+<title level="j">Woods Hole Oceanog. Inst. Tech. Rept</title>
+<imprint>
+<biblscope unit="page">101</biblscope>
+<date type="published" when="1993">1993</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Millard, R. C. and Yang, K.: CTD Calibration and Processing Meth- ods Used at Woods Hole Oceanographic Institution, Woods Hole Oceanog. Inst. Tech. Rept., WHOI-93-44, 101 pp., 1993.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Circulation in the Mediterranean Sea: Evidences, debates and unanswered questions</title>
+<author>
+<persname><forename type="first">C</forename><surname>Millot</surname></persname>
+</author>
+<idno type="DOI">10.3989/scimar.2005.69s15</idno>
+<ptr target="https://doi.org/10.3989/scimar.2005.69s15"></ptr>
+</analytic>
+<monogr>
+<title level="j">Sci. Mar</title>
+<imprint>
+<biblscope unit="volume">69</biblscope>
+<biblscope from="5" to="21" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Millot, C.: Circulation in the Mediterranean Sea: Evidences, debates and unanswered questions, Sci. Mar., 69, 5-21, https://doi.org/10.3989/scimar.2005.69s15, 2005.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Circulation in the Mediterranean Sea, in: The Mediterranean Sea</title>
+<author>
+<persname><forename type="first">C</forename><surname>Millot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Taupier-Letage</surname></persname>
+</author>
+<idno type="DOI">10.3989/scimar.2005.69s15</idno>
+<ptr target="https://doi.org/10.1007/b107143,2005"></ptr>
+</analytic>
+<monogr>
+<title level="m">Handbook of Environmental Chemistry book series</title>
+<editor>
+<persname><forename type="first">A</forename><surname>Saliot</surname></persname>
+</editor>
+<meeting><address><addrline>Berlin-Heidelberg, Germany</addrline></address></meeting>
+<imprint>
+<publisher>Springer</publisher>
+<biblscope unit="volume">5</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Millot, C. and Taupier-Letage, I.: Circulation in the Mediterranean Sea, in: The Mediterranean Sea. Handbook of Environmental Chemistry book series, edited by: Saliot, A., Springer, Berlin- Heidelberg, Germany, 5k, https://doi.org/10.1007/b107143, 2005.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Surface circulation and upwelling in the western Sardinia sea: a numerical study</title>
+<author>
+<persname><forename type="first">A</forename><surname>Olita</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ribotti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Fazioli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Perilli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sorgente</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.csr.2013.10.011</idno>
+<ptr target="https://doi.org/10.1016/j.csr.2013.10.011"></ptr>
+</analytic>
+<monogr>
+<title level="j">Cont. Shelf Res</title>
+<imprint>
+<biblscope unit="volume">71</biblscope>
+<biblscope from="95" to="108" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Olita, A., Ribotti, A., Fazioli, L., Perilli, A., and Sorgente, R.: Surface circulation and upwelling in the western Sar- dinia sea: a numerical study, Cont. Shelf Res., 71, 95-108, https://doi.org/10.1016/j.csr.2013.10.011, 2013.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Observations of a phytoplankton spring bloom onset triggered by a density front in NW Mediterranean</title>
+<author>
+<persname><forename type="first">A</forename><surname>Olita</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sparnocchia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Cusí</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Fazioli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sorgente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Tintoré</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ribotti</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.csr.2013.10.011</idno>
+<ptr target="https://doi.org/10.5194/os-10-657-2014,2014"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ocean Sci</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope from="657" to="666" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Olita, A., Sparnocchia, S., Cusí, S., Fazioli, L., Sorgente, R., Tintoré, J., and Ribotti, A.: Observations of a phytoplankton spring bloom onset triggered by a density front in NW Mediter- ranean, Ocean Sci., 10, 657-666, https://doi.org/10.5194/os-10- 657-2014, 2014.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Validation of an ocean shelf model for the prediction of mixed-layer properties in the Mediterranean Sea west of Sardinia</title>
+<author>
+<persname><forename type="first">R</forename><surname>Onken</surname></persname>
+</author>
+<idno type="DOI">10.5194/os-10-657-2014</idno>
+<ptr target="https://doi.org/10.5194/os-13-235-2017,2017a"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ocean Sci</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="235" to="257" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Onken, R.: Validation of an ocean shelf model for the prediction of mixed-layer properties in the Mediterranean Sea west of Sar- dinia, Ocean Sci., 13, 235-257, https://doi.org/10.5194/os-13- 235-2017, 2017a.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Forecast skill score assessment of a relocatable ocean prediction system, using a simplified objective analysis method</title>
+<author>
+<persname><forename type="first">R</forename><surname>Onken</surname></persname>
+</author>
+<idno type="DOI">10.5194/os-13-235-2017</idno>
+<ptr target="https://doi.org/10.5194/os-13-925-2017,2017b"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ocean Sci</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="925" to="945" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Onken, R.: Forecast skill score assessment of a relocatable ocean prediction system, using a simplified objective analysis method, Ocean Sci., 13, 925-945, https://doi.org/10.5194/os-13-925- 2017, 2017b.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">High-resolution observations in the western Mediterranean Sea: the REP14-MED experiment</title>
+<author>
+<persname><forename type="first">R</forename><surname>Onken</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H.-V</forename><surname>Fiekas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Beguery</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Borrione</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Funk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Hemming</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hernandez-Lasheras</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Heywood</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kaiser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Knoll</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Mourre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Oddo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P.-M</forename><surname>Poulain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">Y</forename><surname>Queste</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Russo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Shitashima</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Siderius</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Thorp Küsel</surname></persname>
+</author>
+<idno type="DOI">10.5194/os-13-925-2017</idno>
+<ptr target="https://doi.org/10.5194/os-14-321-2018,2018"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ocean Sci</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope from="321" to="335" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Onken, R., Fiekas, H.-V., Beguery, L., Borrione, I., Funk, A., Hem- ming, M., Hernandez-Lasheras, J., Heywood, K. J., Kaiser, J., Knoll, M., Mourre, B., Oddo, P., Poulain, P.-M., Queste, B. Y., Russo, A., Shitashima, K., Siderius, M., and Thorp Küsel, E.: High-resolution observations in the western Mediterranean Sea: the REP14-MED experiment, Ocean Sci., 14, 321-335, https://doi.org/10.5194/os-14-321-2018, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">A new algorithm for CTD oxygen calibration</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">B</forename><surname>Owens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">C</forename><surname>Millard</surname><genname>Jr</genname></persname>
+</author>
+<idno type="DOI">10.5194/os-14-321-2018</idno>
+<ptr target="https://doi.org/10.1175/1520-0485(1985)015&lt;0621:ANAFCO&gt;2.0.CO;2"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Phys. Oceanogr</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope from="621" to="631" unit="page"></biblscope>
+<date type="published" when="1985">, 1985</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Owens, W. B. and Millard Jr., R. C.: A new al- gorithm for CTD oxygen calibration, J. Phys. Oceanogr., 5, 621-631, https://doi.org/10.1175/1520- 0485(1985)015&lt;0621:ANAFCO&gt;2.0.CO;2, 1985.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Evolving and Sustaining Ocean Best Practices and Standards the Next Decade</title>
+<author>
+<persname><forename type="first">J</forename><surname>Pearlman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bushnell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Coppola</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Karstensen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">L</forename><surname>Buttigieg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Pearlman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Simpson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Barbier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">E</forename><surname>Muller-Karger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Munoz-Mas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Pissierssens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Chandler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hermes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Heslop</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Jenkyns</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">P</forename><surname>Achterberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bensi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">C</forename><surname>Bittig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Blandin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Bosch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Bourles</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Bozzano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J H</forename><surname>Buck</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">F</forename><surname>Burger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Cano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Cardin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Llorens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Cianca</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Cusack</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Delory</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Garello</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Giovanetti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Harscoat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hartman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Heitsenrether</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Jirka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Lara-Lopez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Lantéri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Leadbetter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">M R</forename><surname>Manzella</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Maso</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Mccurdy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Moussat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ntoumas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Pensieri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Petihakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Pinardi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Pouliquen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Przeslawski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">P</forename><surname>Roden</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Silke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">N</forename><surname>Tamburri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Tang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Tanhua</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Telszewski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Testor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Thomas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Waldmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Whoriskey</surname></persname>
+</author>
+<idno type="DOI">10.1175/1520-0485(1985)015&lt;0621:ANAFCO&gt;2.0.CO;2</idno>
+<ptr target="https://doi.org/10.3389/fmars.2019.00277"></ptr>
+</analytic>
+<monogr>
+<title level="j">Front. Mar. Sci</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="page">277</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pearlman, J., Bushnell, M., Coppola, L., Karstensen, J., Buttigieg, P. L., Pearlman, F., Simpson, P., Barbier, M., Muller-Karger, F. E., Munoz-Mas, C., Pissierssens, P., Chandler, C., Hermes, J., Heslop, E., Jenkyns, R., Achterberg, E. P., Bensi, M., Bittig, H. C., Blandin, J., Bosch, J., Bourles, B., Bozzano, R., Buck, J. J. H., Burger, E. F., Cano, D., Cardin, V., Llorens, M. C., Cianca, A., Chen, H., Cusack, C., Delory, E., Garello, R., Gio- vanetti, G., Harscoat, V., Hartman, S., Heitsenrether, R., Jirka S., Lara-Lopez, A., Lantéri, N., Leadbetter, A., Manzella, G. M. R., Maso, J., McCurdy, A., Moussat, E., Ntoumas, M., Pen- sieri S., Petihakis, G., Pinardi, N., Pouliquen, S., Przeslawski, R., Roden, N. P., Silke J., Tamburri, M. N., Tang H., Tanhua, T., Telszewski, M., Testor, P., Thomas, J., Waldmann, C., and Whoriskey, F.: Evolving and Sustaining Ocean Best Practices and Standards the Next Decade, Front. Mar. Sci., 6, 277, https://doi.org/10.3389/fmars.2019.00277, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Mesoscale eddies in the Algerian Basin: do they differ as a function of their formation site?</title>
+<author>
+<persname><forename type="first">F</forename><surname>Pessini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Olita</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Cotroneo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Perilli</surname></persname>
+</author>
+<idno type="DOI">10.3389/fmars.2019.00277</idno>
+<ptr target="https://doi.org/10.5194/os-14-669-2018,2018"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ocean Sci</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope from="669" to="688" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Pessini, F., Olita, A., Cotroneo, Y., and Perilli, A.: Mesoscale eddies in the Algerian Basin: do they differ as a function of their forma- tion site?, Ocean Sci., 14, 669-688, https://doi.org/10.5194/os- 14-669-2018, 2018.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Algerian Eddies lifetime can near 3 years</title>
+<author>
+<persname><forename type="first">I</forename><surname>Puillat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Taupier-Letage</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Millot</surname></persname>
+</author>
+<idno type="DOI">10.5194/os-14-669-2018</idno>
+<ptr target="https://doi.org/10.1016/S0924-7963(01)00056-2"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Marine Syst</title>
+<imprint>
+<biblscope unit="volume">31</biblscope>
+<biblscope from="245" to="259" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Puillat, I., Taupier-Letage, I., and Millot, C.: Algerian Eddies lifetime can near 3 years, J. Marine Syst., 31, 245-259, https://doi.org/10.1016/S0924-7963(01)00056-2, 2002.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Circulation in the Sardinian Sea: a synergetic approach by in situ data, a three dimensional model and infrared imagery</title>
+<author>
+<persname><forename type="first">I</forename><surname>Puillat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sorgente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ribotti</surname></persname>
+</author>
+<idno type="DOI">10.1016/S0924-7963(01)00056-2</idno>
+</analytic>
+<monogr>
+<title level="m">Abstract Proceedings of the EGS-AGU-EUG Joint Assembly</title>
+<meeting><address><addrline>Nice, France</addrline></address></meeting>
+<imprint>
+<date type="published" when="2003-04-11">6-11 April 2003. 2003</date>
+<biblscope unit="page">13117</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Puillat, I., Sorgente, R., and Ribotti, A.: Circulation in the Sar- dinian Sea: a synergetic approach by in situ data, a three dimen- sional model and infrared imagery. In: Abstract Proceedings of the EGS-AGU-EUG Joint Assembly, Nice, France, 6-11 April 2003, 5, 13117, 2003.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Westward branching of LIW induced by Algerian anticyclonic eddies close to the Sardinian slope</title>
+<author>
+<persname><forename type="first">I</forename><surname>Puillat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sorgente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ribotti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Natale</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Echevin</surname></persname>
+</author>
+<idno type="DOI">10.1080/02757540600670760</idno>
+<ptr target="https://https://doi.org/10.1080/02757540600670760"></ptr>
+</analytic>
+<monogr>
+<title level="j">Chem. Ecol</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope from="293" to="S305" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Puillat, I., Sorgente, R., Ribotti, A., Natale, S., and Echevin, V.: Westward branching of LIW induced by Algerian anticyclonic eddies close to the Sardinian slope, Chem. Ecol., 22, S293-S305, https://https://doi.org/10.1080/02757540600670760, 2006.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Mesoscale circulation in the surface layer off the southern and western Sardinia island in 2000-2002</title>
+<author>
+<persname><forename type="first">A</forename><surname>Ribotti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Puillat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sorgente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Natale</surname></persname>
+</author>
+<idno type="DOI">10.1080/02757540600670760</idno>
+<ptr target="https://doi.org/10.1080/02757540410001727963"></ptr>
+</analytic>
+<monogr>
+<title level="j">Chem. Ecol</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="345" to="363" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ribotti, A., Puillat, I., Sorgente, R., and Natale, S.: Mesoscale circulation in the surface layer off the southern and west- ern Sardinia island in 2000-2002, Chem. Ecol., 20, 345-363, https://doi.org/10.1080/02757540410001727963, 2004.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Indication of recent warming process at intermediate level in the Tyrrhenian Sea from SOOP XBT measurements</title>
+<author>
+<persname><forename type="first">A</forename><surname>Ribotti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sorgente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Olita</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Orilia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Borghini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Reseghetti</surname></persname>
+</author>
+<idno type="DOI">10.1080/02757540410001727963</idno>
+<ptr target="https://doi.org/10.12681/mms.1196"></ptr>
+</analytic>
+<monogr>
+<title level="j">Mediterr. Mar. Sci</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="467" to="483" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ribotti, A., Sorgente, R., Olita, A., Orilia, F., Borghini, M., and Reseghetti, F.: Indication of recent warming process at intermediate level in the Tyrrhenian Sea from SOOP XBT measurements, Mediterr. Mar. Sci., 17/2, 467-483, https://doi.org/10.12681/mms.1196, 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><surname>Ribotti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Di Bitetto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Borghini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sorgente</surname></persname>
+</author>
+<idno type="DOI">10.12681/mms.1196</idno>
+<ptr target="https://doi.org/10.17882/59867,2019a"></ptr>
+<title level="m">CTD profiles in western Sardinia (2000-2004), western Mediterranean, SEANOE database</title>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">Ribotti, A., Di Bitetto, M., Borghini, M., and Sorgente, R.: CTD profiles in western Sardinia (2000-2004), western Mediter- ranean, SEANOE database, https://doi.org/10.17882/59867, 2019a.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Hydrological profiles in the Mediterranean Sea (2002-2006</title>
+<author>
+<persname><forename type="first">A</forename><surname>Ribotti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Perilli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sorgente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Borghini</surname></persname>
+</author>
+<idno type="DOI">10.17882/70340,2019b</idno>
+<ptr target="https://doi.org/10.17882/70340,2019b"></ptr>
+</analytic>
+<monogr>
+<title level="j">SEANOE database</title>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">Ribotti, A., Perilli, A., Sorgente, R., and Borghini, M.: Hydrolog- ical profiles in the Mediterranean Sea (2002-2006), SEANOE database, https://doi.org/10.17882/70340, 2019b.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Coastal dynamics and dissolved organic carbon in the western Sardinian shelf (Western Mediterranean)</title>
+<author>
+<persname><forename type="first">C</forename><surname>Santinelli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ribotti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sorgente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">P</forename><surname>Gasparini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Nannicini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Vignudelli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Seritti</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jmarsys.2007.12.005</idno>
+<ptr target="https://doi.org/10.1016/j.jmarsys.2007.12.005"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Marine Syst</title>
+<imprint>
+<biblscope unit="volume">74</biblscope>
+<biblscope from="167" to="188" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Santinelli, C., Ribotti, A., Sorgente, R., Gasparini, G. P., Nan- nicini, L., Vignudelli, S., and Seritti, A.: Coastal dynam- ics and dissolved organic carbon in the western Sardinian shelf (Western Mediterranean), J. Marine Syst., 74, 167-188, https://doi.org/10.1016/j.jmarsys.2007.12.005, 2008.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Calculating SEASOFT Coefficients for Sea Tech Fluorometer and WET Labs Flash Lamp Fluorometer</title>
+<author>
+<persname><surname>Sbe</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jmarsys.2007.12.005</idno>
+</analytic>
+<monogr>
+<title level="j">FLF)</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note>AN-9</note>
+<note type="raw_reference">SBE: AN-9: Calculating SEASOFT Coefficients for Sea Tech Flu- orometer and WET Labs Flash Lamp Fluorometer (FLF), 1 pp., 2008a.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<monogr>
+<idno>SBE: AN-64-2: AN64-2</idno>
+<title level="m">SBE: AN-64-2: SBE 43 Dissolved Oxygen Sensor Calibration and Data Corrections using Winkler Titrations</title>
+<imprint>
+<date type="published" when="2008">2008. 2012</date>
+<biblscope unit="volume">10</biblscope>
+</imprint>
+</monogr>
+<note>SBE 43 Dissolved Oxygen Sensor Calibration and Data Corrections</note>
+<note type="raw_reference">SBE: AN-64-2: SBE 43 Dissolved Oxygen Sensor Calibration and Data Corrections using Winkler Titrations, 10 pp., 2008b. SBE: AN-64-2: AN64-2: SBE 43 Dissolved Oxygen Sensor Cali- bration and Data Corrections, 5 pp., 2012.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+</analytic>
+<monogr>
+<title level="m">Computing Temperature &amp; Conductivity Slope &amp; Offset Correction Coefficients from Lab Calibration &amp; Salinity Bottle Samples</title>
+<imprint>
+<date type="published" when="2016">2016</date>
+<biblscope unit="volume">8</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">SBE: AN-31: Computing Temperature &amp; Conductivity Slope &amp; Offset Correction Coefficients from Lab Calibration &amp; Salinity Bottle Samples, 8 pp., 2016.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Deep and intermediate water in the western Mediterranean under the influence of the Eastern Mediterranean Transient</title>
+<author>
+<persname><forename type="first">K</forename><surname>Schroeder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">P</forename><surname>Gasparini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Tangherlini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Astraldi</surname></persname>
+</author>
+<idno type="DOI">10.1029/2006GL027121</idno>
+<ptr target="https://doi.org/10.1029/2006GL027121"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys. Res. Lett</title>
+<imprint>
+<biblscope unit="volume">33</biblscope>
+<biblscope unit="page">21607</biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schroeder, K., Gasparini, G. P., Tangherlini, M. and Astraldi, M.: Deep and intermediate water in the western Mediterranean under the influence of the Eastern Mediterranean Transient, Geophys. Res. Lett., 33, L21607, https://doi.org/10.1029/2006GL027121, 2006.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Long-term monitoring programme of the hydrological variability in the Mediterranean Sea: a first overview of the HYDROCHANGES network</title>
+<author>
+<persname><forename type="first">K</forename><surname>Schroeder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Millot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Bengara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ben Ismail</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bensi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Borghini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Budillon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Cardin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Coppola</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Curtil</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Drago</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>El Moumni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Font</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Fuda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>García-Lafuente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">P</forename><surname>Gasparini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Kontoyiannis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Lefevre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Puig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Raimbault</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Rougier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Salat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Sammari</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Sánchez Garrido</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Sanchez-Roman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sparnocchia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Tamburini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Taupier-Letage</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Theocharis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Vargas-Yáñez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Vetrano</surname></persname>
+</author>
+<idno type="DOI">10.5194/os-9-301-2013,2013</idno>
+<ptr target="https://doi.org/10.5194/os-9-301-2013,2013"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ocean Sci</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="301" to="324" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Schroeder, K., Millot, C., Bengara, L., Ben Ismail, S., Bensi, M., Borghini, M., Budillon, G., Cardin, V., Coppola, L., Curtil, C., Drago, A., El Moumni, B., Font, J., Fuda, J. L., García-Lafuente, J., Gasparini, G. P., Kontoyiannis, H., Lefevre, D., Puig, P., Raimbault, P., Rougier, G., Salat, J., Sammari, C., Sánchez Gar- rido, J. C., Sanchez-Roman, A., Sparnocchia, S., Tamburini, C., Taupier-Letage, I., Theocharis, A., Vargas-Yáñez, M., and Vetrano, A.: Long-term monitoring programme of the hydro- logical variability in the Mediterranean Sea: a first overview of the HYDROCHANGES network, Ocean Sci., 9, 301-324, https://doi.org/10.5194/os-9-301-2013, 2013.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Water masses and diagnostic circulation west off Sardinia from March 23rd to April 4th, 2001</title>
+<author>
+<persname><forename type="first">R</forename><surname>Sorgente</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ribotti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Puillat</surname></persname>
+</author>
+<idno type="DOI">10.5194/os-9-301-2013</idno>
+<ptr target="https://doi.org/10.1016/S0422-9894(03)80017-X,2003"></ptr>
+</analytic>
+<monogr>
+<title level="m">Building the European Capacity in Operational Oceanography, Proceedings of the Third International Conference on EuroGOOS</title>
+<meeting><address><addrline>Athens, Greece</addrline></address></meeting>
+<imprint>
+<publisher>Elsevier Oceanography Series</publisher>
+<date type="published" when="2002-12-06">2-6 December 2002</date>
+<biblscope unit="volume">69</biblscope>
+<biblscope from="100" to="104" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Sorgente, R., Ribotti, A., and Puillat, I.: Water masses and di- agnostic circulation west off Sardinia from March 23rd to April 4th, 2001, in: Building the European Capacity in Op- erational Oceanography, Proceedings of the Third Interna- tional Conference on EuroGOOS; Athens, Greece, 2-6 De- cember 2002, Elsevier Oceanography Series, 69, 100-104, https://doi.org/10.1016/S0422-9894(03)80017-X, 2003.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">A practical handbook of seawater analyses</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D H</forename><surname>Strickland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">R</forename><surname>Parsons</surname></persname>
+</author>
+<idno type="DOI">10.1016/S0422-9894(03)80017-X</idno>
+</analytic>
+<monogr>
+<title level="j">Bull. Fish. Research. Bd. Can., Bull</title>
+<editor>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Stevenson</surname></persname>
+</editor>
+<imprint>
+<biblscope unit="volume">167</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope unit="page">310</biblscope>
+<date type="published" when="1972">1972</date>
+<publisher>Minister of Supply and Services</publisher>
+<pubplace>Ottawa Canada</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Strickland, J. D. H. and Parsons, T. R.: A practical handbook of seawater analyses, Bull. Fish. Research. Bd. Can., Bull. 167, 2nd Edn., edited by: Stevenson, J. C., Minister of Supply and Ser- vices, Ottawa Canada, 310 pp., 1972.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Distributions of dissolved organic carbon (DOC) and chromophoric dissolved organic matter (CDOM) in coastal waters of the northern Tyrrhenian Sea (Italy)</title>
+<author>
+<persname><forename type="first">S</forename><surname>Vignudelli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Santinelli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Murru</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Nannicini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Seritti</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.ecss.2003.11.023</idno>
+<ptr target="https://doi.org/10.1016/j.ecss.2003.11.023"></ptr>
+</analytic>
+<monogr>
+<title level="j">Estuar. Coast. Shelf S</title>
+<imprint>
+<biblscope unit="volume">60</biblscope>
+<biblscope from="133" to="149" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vignudelli, S., Santinelli, C., Murru, E., Nannicini, L., and Seritti, A.: Distributions of dissolved organic carbon (DOC) and chro- mophoric dissolved organic matter (CDOM) in coastal waters of the northern Tyrrhenian Sea (Italy), Estuar. Coast. Shelf S., 60, 133-149, https://doi.org/10.1016/j.ecss.2003.11.023, 2004.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">The determination of dissolved oxygen in water</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">W</forename><surname>Winkler</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.ecss.2003.11.023</idno>
+</analytic>
+<monogr>
+<title level="j">Ber. Deut. Chem. Ges</title>
+<imprint>
+<biblscope from="2843" to="2846" unit="page"></biblscope>
+<date type="published" when="1888">1888</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Winkler, L. W.: The determination of dissolved oxygen in water, Ber. Deut. Chem. Ges., 2843-2846, 1888.</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Effects of the Western Mediterranean Transition on the resident water masses: pure warming, pure freshening and pure heaving</title>
+<author>
+<persname><forename type="first">P</forename><surname>Zunino</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Schroeder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Vargas-Yáñez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">P</forename><surname>Gasparini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Coppola</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>García-Martínez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Moya-Ruiz</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jmarsys.2012.01.011</idno>
+<ptr target="https://doi.org/10.1016/j.jmarsys.2012.01.011"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Marine Syst</title>
+<imprint>
+<biblscope unit="volume">96</biblscope>
+<biblscope unit="issue">97</biblscope>
+<biblscope from="15" to="23" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zunino, P., Schroeder, K., Vargas-Yáñez, M., Gasparini, G. P., Coppola, L., García-Martínez, M. C., and Moya-Ruiz, F.: Effects of the Western Mediterranean Transition on the resident water masses: pure warming, pure freshen- ing and pure heaving, J. Marine Syst., 96-97, 15-23, https://doi.org/10.1016/j.jmarsys.2012.01.011, 2012.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

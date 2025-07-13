@@ -1,0 +1,385 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.3" xml:lang="EN" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Cent Sci</journal-id><journal-id journal-id-type="iso-abbrev">ACS Cent Sci</journal-id><journal-id journal-id-type="publisher-id">oc</journal-id><journal-id journal-id-type="coden">acscii</journal-id><journal-title-group><journal-title>ACS Central Science</journal-title></journal-title-group><issn pub-type="ppub">2374-7943</issn><issn pub-type="epub">2374-7951</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">8796300</article-id><article-id pub-id-type="doi">10.1021/acscentsci.1c01109</article-id><article-categories><subj-group><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Accelerated and Scalable C(sp<sup>3</sup>)&#x02013;H
+Amination via Decatungstate Photocatalysis Using a Flow Photoreactor
+Equipped with High-Intensity LEDs</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Wan</surname><given-names>Ting</given-names></name><xref rid="aff1" ref-type="aff">&#x02225;</xref><xref rid="notes4" ref-type="notes">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Wen</surname><given-names>Zhenghui</given-names></name><xref rid="aff1" ref-type="aff">&#x02225;</xref><xref rid="notes4" ref-type="notes">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath3"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-2749-8393</contrib-id><name><surname>Laudadio</surname><given-names>Gabriele</given-names></name><xref rid="aff1" ref-type="aff">&#x02225;</xref><xref rid="notes2" ref-type="notes">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath4"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-7114-267X</contrib-id><name><surname>Capaldo</surname><given-names>Luca</given-names></name><xref rid="aff1" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Lammers</surname><given-names>Rob</given-names></name><xref rid="aff1" ref-type="aff">&#x02225;</xref><xref rid="notes3" ref-type="notes">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>Rinc&#x000f3;n</surname><given-names>Juan A.</given-names></name><xref rid="aff2" ref-type="aff">&#x022a5;</xref></contrib><contrib contrib-type="author" id="ath7"><name><surname>Garc&#x000ed;a-Losada</surname><given-names>Pablo</given-names></name><xref rid="aff2" ref-type="aff">&#x022a5;</xref></contrib><contrib contrib-type="author" id="ath8"><name><surname>Mateos</surname><given-names>Carlos</given-names></name><xref rid="aff2" ref-type="aff">&#x022a5;</xref></contrib><contrib contrib-type="author" id="ath9"><name><surname>Frederick</surname><given-names>Michael O.</given-names></name><xref rid="aff3" ref-type="aff">#</xref></contrib><contrib contrib-type="author" id="ath10"><name><surname>Broersma</surname><given-names>R&#x000e9;my</given-names></name><xref rid="aff4" ref-type="aff">&#x02207;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath11"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-3107-6927</contrib-id><name><surname>No&#x000eb;l</surname><given-names>Timothy</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02225;</xref></contrib><aff id="aff1"><label>&#x02225;</label>Flow
+Chemistry Group, Van &#x02019;t Hoff Institute for Molecular Sciences
+(HIMS), <institution>University of Amsterdam</institution>, Science Park 904, 1098 XH Amsterdam, <country>The Netherlands</country></aff><aff id="aff2"><label>&#x022a5;</label><institution>Centro
+de Investigaci&#x000f3;n Lilly S.A.</institution>, Avda. de la Industria 30, Alcobendas-Madrid 28108, <country>Spain</country></aff><aff id="aff3"><label>#</label>Small Molecule
+Design and Development, <institution>Eli Lilly and Company</institution>, Indianapolis, Indiana 46285, <country>United States</country></aff><aff id="aff4"><label>&#x02207;</label><institution>Signify
+Research</institution>, High Tech Campus
+7, 5656 AE Eindhoven, <country>The Netherlands</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Email: <email>t.noel@uva.nl</email>.</corresp></author-notes><pub-date pub-type="epub"><day>16</day><month>12</month><year>2021</year></pub-date><pub-date pub-type="ppub"><day>26</day><month>01</month><year>2022</year></pub-date><volume>8</volume><issue>1</issue><fpage>51</fpage><lpage>56</lpage><history><date date-type="received"><day>15</day><month>09</month><year>2021</year></date></history><permissions><copyright-statement>&#x000a9; 2021 The Authors. Published by American Chemical Society</copyright-statement><copyright-year>2021</copyright-year><copyright-holder>The Authors</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>Permits non-commercial access and re-use, provided that author attribution and integrity are maintained; but does not permit creation of adaptations or other derivative works (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">https://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link>).</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc1c01109_0006" id="ab-tgr1"/></p><p>Carbon&#x02013;nitrogen
+bonds are ubiquitous in biologically active
+compounds, prompting synthetic chemists to design various methodologies
+for their preparation. Arguably, the ideal synthetic approach is to
+be able to directly convert omnipresent C&#x02013;H bonds in organic
+molecules, enabling even late-stage functionalization of complex organic
+scaffolds. While this approach has been thoroughly investigated for
+C(sp<sup>2</sup>)&#x02013;H bonds, only few examples have been reported
+for the direct amination of aliphatic C(sp<sup>3</sup>)&#x02013;H bonds.
+Herein, we report the use of a newly developed flow photoreactor equipped
+with high intensity chip-on-board LED technology (144 W optical power)
+to trigger the regioselective and scalable C(sp<sup>3</sup>)&#x02013;H
+amination via decatungstate photocatalysis. This high-intensity reactor
+platform enables simultaneously fast results gathering and scalability
+in a single device, thus bridging the gap between academic discovery
+(mmol scale) and industrial production (&#x0003e;2 kg/day productivity).
+The
+photocatalytic transformation is amenable to the conversion of both
+activated and nonactivated hydrocarbons, leading to protected hydrazine
+products by reaction with azodicarboxylates. We further validated
+the robustness of our manifold by designing telescoped flow approaches
+for the synthesis of pyrazoles, phthalazinones and free amines.</p></abstract><abstract abstract-type="short"><p>A high-intensity continuous-flow reactor
+platform enables
+simultaneously fast results gathering and scalability for the decatungstate-enabled
+C(sp<sup>3</sup>)&#x02212;H amination.</p></abstract><funding-group><award-group><funding-source><institution-wrap><institution>H2020 Marie Sk&#x000c3;&#x00085;?odowska-Curie Actions</institution><institution-id institution-id-type="doi">10.13039/100010665</institution-id></institution-wrap></funding-source><award-id>101023615</award-id></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution>Lilly Research Award Program</institution><institution-id institution-id-type="doi">NA</institution-id></institution-wrap></funding-source><award-id>NA</award-id></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution>China Scholarship Council</institution><institution-id institution-id-type="doi">10.13039/501100004543</institution-id></institution-wrap></funding-source><award-id>NA</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>oc1c01109</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>oc1c01109</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>Carbon&#x02013;nitrogen
+bonds are ubiquitous in natural products,
+pharmaceuticals, agrochemicals, and materials, stimulating the interest
+of the synthetic community to develop new amination protocols.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> Especially C(sp<sup>2</sup>)&#x02013;N bonds can
+be readily formed by stitching carbon electrophiles (e.g., aryl halides)
+and various N-based nucleophiles together using transition metal catalysts,<sup><xref ref-type="bibr" rid="ref2">2</xref>&#x02212;<xref ref-type="bibr" rid="ref5">5</xref></sup> with one notable example being the Buchwald&#x02013;Hartwig amination.<sup><xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref7">7</xref></sup></p><p>Currently, small molecules with increased sp<sup>3</sup> hybridization
+are required to reduce the attrition rate in drug discovery and to
+explore new chemical space (so-called &#x0201c;escape-from-flatland
+strategy&#x0201d;).<sup><xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref9">9</xref></sup> C(sp<sup>3</sup>)&#x02013;N bonds
+can be easily forged by rudimentary nucleophilic substitution on alkyl
+halides. However, the direct C(sp<sup>2</sup>)&#x02013;H to C&#x02013;N
+bond conversion has attracted significant amounts of attention as
+it improves the atom efficiency of the overall process.<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> While thermocatalytic approaches have proved
+to be the method of choice for the functionalization of C(sp<sup>2</sup>)&#x02013;H bonds, photocatalysis has rapidly emerged as a powerful
+strategy for the selective activation of C(sp<sup>3</sup>)&#x02013;H
+bonds.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> Two seminal approaches to establish
+these coveted C(sp<sup>3</sup>)&#x02013;N bonds were independently
+reported by Zuo and co-workers<sup><xref ref-type="bibr" rid="ref12">12</xref>&#x02212;<xref ref-type="bibr" rid="ref14">14</xref></sup> and Kokotos et al.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> The methods exploited, respectively, a cerium
+salt<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> and phenylglyoxylic acid<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> to generate H atom abstractors. These species
+are subsequently capable of homolytically cleaving C(sp<sup>3</sup>)&#x02013;H bonds and afford a carbon-centered radical, which is finally
+trapped by an azodicarboxylate to afford the targeted C(sp<sup>3</sup>)&#x02013;N bond.</p><p>Given the importance of this transformation
+and in line with our
+mission to bridge the gap between academic discovery and industrial
+production through technology,<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> we decided
+to design a high-productivity platform for photocatalytic C(sp<sup>3</sup>)&#x02013;H amination. To this end, the intended methodology
+should be (i) robust and reproducible, (ii) easily scalable, and (iii)
+compatible with other chemistries to design telescoped approaches
+to access various useful compounds. To realize a widely applicable
+C(sp<sup>3</sup>)&#x02013;H amination protocol, we selected direct
+hydrogen atom transfer (d-HAT) as the activation strategy and decatungstate
+as a suitable photocatalyst (<xref rid="sch1" ref-type="scheme">Scheme <xref rid="sch1" ref-type="scheme">1</xref></xref>A).<sup><xref ref-type="bibr" rid="ref19">19</xref>,<xref ref-type="bibr" rid="ref20">20</xref></sup> Decatungstate enables efficient
+d-HAT under mild reaction conditions (i.e., room temperature and low-energy
+UV-A light) in both activated and nonactivated organic compounds.<sup><xref ref-type="bibr" rid="ref21">21</xref>&#x02212;<xref ref-type="bibr" rid="ref26">26</xref></sup> Moreover, d-HAT typically requires no additives that might interfere
+with the transformation.<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> As for scalability
+and compatibility, we purposely designed a flow photoreactor equipped
+with high intensity and dimmable chip-on-board (COB) LED technology
+(<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>). Since photochemical
+reaction rates are strongly dependent on the local light intensity,<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> we surmised that the high intensity in combination
+with microscale flow reactors should enable the high productivities
+(kg/day/unit) required for scale-up in pharmaceutical settings (<xref rid="sch1" ref-type="scheme">Scheme <xref rid="sch1" ref-type="scheme">1</xref></xref>B). Hence, this potent
+photochemical reactor enabled both fast results gathering and scalability
+in a single device, thus bridging the gap between academic discovery
+and industrial production (<xref rid="sch1" ref-type="scheme">Scheme <xref rid="sch1" ref-type="scheme">1</xref></xref>B).</p><fig id="sch1" position="float"><label>Scheme 1</label><caption><p id="sch1-fn1">(A) Decatungstate HAT photocatalysis
+enables undirected C(sp<sup>3</sup>)&#x02013;H amination in both activated
+and nonactivated hydrocarbons. (B) Challenges associated with the
+scale-up of photochemical transformations can be alleviated with suitable
+reactor technology in combination with high intensity light sources.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc1c01109_0002" id="gr2" position="float"/></fig><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Signify Eagle Reactor. (A) Reactor coil with cooling fan.
+(B) Entire
+reactor assembly with six LED COB light source modules; each light
+module is individually controllable and dimmable to 1%.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc1c01109_0001" id="gr1" position="float"/></fig></sec><sec id="sec2"><title>Results and Discussion</title><p>Aiming to develop a fast and scalable
+C(sp<sup>3</sup>)&#x02013;H
+amination protocol, we commenced with the development of a new photochemical
+reactor which provides large amounts of photonic flux (Signify Eagle
+Reactor). The reactor consists of a translucent perfluoroalkoxy capillary
+microreactor (PFA, 750 &#x003bc;m ID, 5 mL volume) and is cooled by
+a fan and irradiated with six UV-A 365 nm COBs protected by a quartz
+exit window, providing a maximum of 144 W optical power (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>) (see the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acscentsci.1c01109/suppl_file/oc1c01109_si_001.pdf">Supporting Information</ext-link> (SI)). The light sources
+are attached to a heat dissipation element containing cooling fins
+and a fan, to cool the COBs for an optimized irradiation efficiency.</p><p>Using this powerful photochemical reactor, the C(sp<sup>3</sup>)&#x02013;H amination of cyclohexane (<bold>1a</bold>) with diisopropyl
+azodicarboxylate (<bold>2a</bold>) in the presence of 2 mol % TBADT
+(TBADT: tetrabutylammonium decatungstate, (Bu<sub>4</sub>N)<sub>4</sub>W<sub>10</sub>O<sub>32</sub>) could be realized in only 5 min residence
+time in an excellent GC yield of 85% (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>, entry 1).<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> Notably,
+lowering the catalyst loading to 0.2 mol % resulted in a similar yield
+(<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>, entry 2),
+which is beneficial to minimize trace metal impurities and thus reduce
+the overall cost of the process. Lowering the amount of H-donor (<bold>1a</bold>) from 10 to 5 equiv resulted in a reduction of the yield
+(<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>, entry 3).
+The amination protocol works optimally in a CH<sub>3</sub>CN/0.1 M
+HCl (7:1) solvent mixture (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>, entry 2 vs entries 5 and 6). Finally, control experiments
+revealed that the C(sp<sup>3</sup>)&#x02013;N bond formation is photocatalytic
+in nature as no product was observed in the absence of either photocatalyst
+or light (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>,
+entries 7 and 8).</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Optimization of Reaction Conditions<xref rid="t1fn1" ref-type="table-fn">a</xref></title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc1c01109_0005" id="GRAPHIC-d7e498-autogenerated" position="float"/><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">entry</th><th style="border:none;" align="center">variation from conditions</th><th style="border:none;" align="center">yield (%)<xref rid="t1fn2" ref-type="table-fn">b</xref></th></tr></thead><tbody><tr><td style="border:none;" align="left">1</td><td style="border:none;" align="left">TBADT (2&#x000a0;mol&#x000a0;%)</td><td style="border:none;" align="left">85</td></tr><tr><td style="border:none;" align="left">2</td><td style="border:none;" align="left">none</td><td style="border:none;" align="left">87
+(73)</td></tr><tr><td style="border:none;" align="left">3</td><td style="border:none;" align="left"><bold>1a</bold> (5&#x000a0;equiv)</td><td style="border:none;" align="left">72</td></tr><tr><td style="border:none;" align="left">4</td><td style="border:none;" align="left">solvent: CH<sub>3</sub>CN</td><td style="border:none;" align="left">38</td></tr><tr><td style="border:none;" align="left">5</td><td style="border:none;" align="left">solvent: CH<sub>3</sub>CN/H<sub>2</sub>O 7:1</td><td style="border:none;" align="left">36</td></tr><tr><td style="border:none;" align="left">6</td><td style="border:none;" align="left">solvent: CH<sub>3</sub>CN/1 M HCl 7:1</td><td style="border:none;" align="left">64</td></tr><tr><td style="border:none;" align="left">7</td><td style="border:none;" align="left">no TBADT</td><td style="border:none;" align="left">0</td></tr><tr><td style="border:none;" align="left">8</td><td style="border:none;" align="left">no light</td><td style="border:none;" align="left">0</td></tr></tbody></table><table-wrap-foot><fn id="t1fn1"><label>a</label><p>Reaction conditions
+(1 mmol scale): <bold>2a</bold> (0.1 M), <bold>1a</bold> (10 equiv),
+TBADT (0.2 mol %)
+in CH<sub>3</sub>CN/0.1 M HCl 7:1 (10 mL). Irradiation source: &#x003bb;
+= 365 nm (144 W), residence time: 5 min (see the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acscentsci.1c01109/suppl_file/oc1c01109_si_001.pdf">SI</ext-link> for additional details).</p></fn><fn id="t1fn2"><label>b</label><p>The yield was determined by GC-FID
+using biphenyl as the internal standard. Isolated yield is reported
+in parentheses.</p></fn></table-wrap-foot></table-wrap><p>With these
+optimized reaction conditions established, we sought
+to evaluate the scope of the photocatalytic C(sp<sup>3</sup>)&#x02013;H
+amination methodology (<xref rid="sch2" ref-type="scheme">Scheme <xref rid="sch2" ref-type="scheme">2</xref></xref>). Thus, cyclic alkanes with ring sizes from 5 to 7 underwent
+the C&#x02013;N bond-forming reaction promptly (<bold>3</bold>&#x02013;<bold>5</bold>, 65&#x02013;73%), transforming unactivated alkyl substrates
+into synthetically valuable hydrazines. It is worth noting that polyfunctionalization
+of the hydrocarbon backbone was never observed. Activated allylic
+positions were rapidly converted into the corresponding C&#x02013;N
+bond (<bold>6</bold>, 72%). Also, efficient &#x003b1;-to-O C&#x02013;H
+amination was observed for a variety of cyclic and noncyclic ethers
+(<bold>7</bold>&#x02013;<bold>11</bold>, 46&#x02013;91%) and an acetal
+moiety (<bold>12</bold>, 92%). Similarly, &#x003b1;-to-S and &#x003b1;-to-N
+C&#x02013;H bond functionalization was achieved (<bold>13</bold>&#x02013;<bold>15</bold>, 70&#x02013;77%), with excellent selectivity over competitive
+activation at the &#x003b1;-to-O position (<bold>14</bold>). Tertiary
+C(sp<sup>3</sup>)&#x02013;H bonds were selectively activated over weak,
+yet polarity-mismatched, &#x003b1;-cyano C(sp<sup>3</sup>)&#x02013;H
+bonds (<bold>16</bold>, 66%).<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> Notably,
+aldehydes could be readily activated with decatungstate yielding the
+corresponding hydrazides in good yields (<bold>17</bold>&#x02013;<bold>19</bold>, 47&#x02013;81%).<sup><xref ref-type="bibr" rid="ref30">30</xref>,<xref ref-type="bibr" rid="ref31">31</xref></sup> A cyclic ketone showed
+exclusive selectivity for functionalization of the &#x003b2;-position
+(<bold>20</bold>, 70%).<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> Other dialkyl
+azodicarboxylates (<bold>2b</bold> and <bold>2c</bold>) were equally
+effective as acceptors in this C(sp<sup>3</sup>)&#x02013;H amination
+protocol, delivering the corresponding Boc (<italic>tert-</italic>butoxycarbonyl, <bold>21</bold> and <bold>22</bold>, 68&#x02013;83%)
+or Cbz (benzyloxycarbonyl, <bold>23</bold>&#x02013;<bold>25</bold>,
+69&#x02013;96%) protected hydrazine derivatives.</p><fig id="sch2" position="float"><label>Scheme 2</label><caption><title>Substrate Scope of
+the Decatungstate-Photocatalytic C(sp<sup>3</sup>)&#x02013;H Amination
+in Flow</title><p id="s2fn1">Reaction
+conditions (2 mmol scale): <bold>2a</bold>&#x02013;<bold>c</bold> (0.1
+M), <bold>1</bold> (5 equiv),
+TBADT (0.2 mol %) in CH<sub>3</sub>CN/0.1 M HCl 7:1 (20 mL). Irradiation
+source: &#x003bb; = 365 nm (144 W), residence time: 5 min (see the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acscentsci.1c01109/suppl_file/oc1c01109_si_001.pdf">SI</ext-link> for additional details). Isolated yields are
+given.</p><p id="s2fn2">10 equiv of H-donor.</p><p id="s2fn3">1.4 equiv of H-donor.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc1c01109_0003" id="gr3" position="float"/></fig><p>To demonstrate the utility of the developed methodology
+for the
+synthesis of <italic>N</italic>-based heterocycles, we converted the
+obtained protected hydrazines to pyrazoles via a telescoped Knorr
+pyrazole synthesis (<xref rid="sch3" ref-type="scheme">Scheme <xref rid="sch3" ref-type="scheme">3</xref></xref>A).<sup><xref ref-type="bibr" rid="ref32">32</xref></sup></p><fig id="sch3" position="float"><label>Scheme 3</label><caption><title>Compatibility, Productivity
+Screening, and Scale-Up of Our Platform</title><p id="s3fn1">(A) Two-step flow synthesis
+of
+pyrazoles and phthalazinones. Reported yields are those over the two
+steps.</p><p id="s3fn2">Using 1,1,3,3-tetramethoxypropane
+(<bold>A</bold>, 3 equiv).</p><p id="s3fn3">Using acetylacetone (<bold>B</bold>, 3 equiv).</p><p id="s3fn4">Using 1-phenylbutane-1,3-dione (<bold>C</bold>,
+3 equiv).</p><p id="s3fn5">5 equiv of H-donor;
+only one feed was used for the photochemical reaction (flow rate:
+0.3 mL/min).</p><p id="s3fn6">Using 2-formylbenzoic
+acid (<bold>D</bold>, 3 equiv).</p><p id="s3fn7">Using 5-chloro-2-formylbenzoic acid (<bold>E</bold>, 3 equiv).
+(B) Access to free amines via a three-step protocol. Reported yields
+are for individual steps.</p><p id="s3fn8">Compound <bold>21</bold> was purified before further functionalization
+(see the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acscentsci.1c01109/suppl_file/oc1c01109_si_001.pdf">SI</ext-link> for additional details). Detailed
+description of the reaction conditions are provided in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acscentsci.1c01109/suppl_file/oc1c01109_si_001.pdf">SI</ext-link>. (C) Effect of the optical output on the reaction
+yield. Reaction conditions: <bold>2a</bold> (1.5 M), <bold>1a</bold> (10 equiv), TBADT (2 mol %) in CH<sub>3</sub>CN. Irradiation source:
+&#x003bb; = 365 nm with different optical output power, residence time:
+1 min. See the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acscentsci.1c01109/suppl_file/oc1c01109_si_001.pdf">SI</ext-link> for further information.
+(D) Sketch of the setup adopted for the scale-up. Reaction conditions
+(100 mmol scale): <bold>2a</bold> (1.5 M), <bold>1a</bold> (10 equiv),
+TBADT (2 mol %) in CH<sub>3</sub>CN (67 mL). Irradiation source: &#x003bb;
+= 365 nm (144 W), residence time: 1 min. See the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acscentsci.1c01109/suppl_file/oc1c01109_si_001.pdf">SI</ext-link>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc1c01109_0004" id="gr4" position="float"/></fig><p>A diverse set of alkyl-bearing
+pyrazoles could be obtained in good
+overall yields (<bold>26</bold>&#x02013;<bold>33</bold>, 39&#x02013;75%)
+simply by merging the reaction stream exiting the photochemical reactor
+with a flow containing different 1,3-dicarbonyl derivatives (<bold>A</bold>&#x02013;<bold>C</bold>) in 4 M HCl in dioxane. It should
+be further noted that this two-step flow protocol enables access to
+pyrazoles bearing unactivated alkanes, which could not be prepared
+using our direct decatungstate-mediated C(sp<sup>3</sup>)&#x02013;H
+azolation.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> In addition, by adding 2-formylbenzoic
+acid derivatives (<bold>D</bold>, <bold>E</bold>) instead, the corresponding
+phthalazinones (<bold>34</bold>&#x02013;<bold>37</bold>, 55&#x02013;69%)
+could be obtained by means of this streamlined flow process (<xref rid="sch3" ref-type="scheme">Scheme <xref rid="sch3" ref-type="scheme">3</xref></xref>A). Finally, we also
+demonstrated that the protected hydrazines can be readily converted
+to the corresponding primary amines via hydrogenation (<bold>38</bold>, 87%) (<xref rid="sch3" ref-type="scheme">Scheme <xref rid="sch3" ref-type="scheme">3</xref></xref>B).</p><p>The scaling of photochemical transformations has long been perceived
+as an insurmountable challenge, preventing such activation modes from
+being routinely used in the preparation of complex molecules, such
+as pharmaceuticals and agrochemicals.<sup><xref ref-type="bibr" rid="ref34">34</xref>&#x02212;<xref ref-type="bibr" rid="ref38">38</xref></sup> Since the kinetics of photochemical transformations
+are critically dependent on the amount of photons, the choice of the
+light source is paramount to scale any photon-dependent reaction.<sup><xref ref-type="bibr" rid="ref36">36</xref>,<xref ref-type="bibr" rid="ref39">39</xref></sup> Indeed, when varying the light intensity, an initial linear increase
+of the yield was observed with increasing photon flux (<xref rid="sch3" ref-type="scheme">Scheme <xref rid="sch3" ref-type="scheme">3</xref></xref>C). At high light intensities
+(&#x0003e;120 W optical power), the photocatalytic C(sp<sup>3</sup>)&#x02013;H
+amination reaction becomes ultimately independent of the photon flux
+and thus the reaction mixture is &#x0201c;saturated&#x0201d; with photons.
+However, the linear regime of the curve can be extended either by
+increasing the catalyst loading or by increasing the flow rate (and
+thus reducing the residence/reaction time), which allows to boost
+the throughput in the flow reactor. Both aspects are crucial in our
+scale-up strategy where we increased the catalyst loading to 2 mol
+% and reduced the residence/reaction time to only 1 min (see the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acscentsci.1c01109/suppl_file/oc1c01109_si_001.pdf">Supporting Information</ext-link> for more details). This
+enabled us to reach 314 mmol/h productivity, amounting to a 2.15 kg/day
+in a single microreactor of only 11 mL volume (750 &#x003bc;m ID) (<xref rid="sch3" ref-type="scheme">Scheme <xref rid="sch3" ref-type="scheme">3</xref></xref>D). It should be
+noted that these are quantities that are sufficient to even meet the
+material demand required for clinical trials.<sup><xref ref-type="bibr" rid="ref40">40</xref></sup></p></sec><sec id="sec3"><title>Conclusions</title><p>In conclusion, we have developed a fast and
+scalable decatungstate-catalyzed
+C(sp<sup>3</sup>)&#x02013;H amination protocol, able to convert both
+activated and nonactivated hydrogen donors. The modularity of our
+protocol is exemplified by the possibility to carry out telescoped
+processes for the synthesis of (protected) hydrazines, pyrazoles,
+phthalazinones, and amines. Key in the successful scale-up of the
+transformation is the development of a new photochemical flow reactor
+with high intensity LED light source modules. Our results show that
+essentially the same reactor, requiring only a minimal reoptimization
+of the reaction conditions, is capable of providing the quantities
+needed on both the laboratory (i.e., &#x0223c;2 mmol) and process scale
+(&#x0003e;2 kg/day). We are optimistic that the results presented herein
+can
+inspire others to combine simultaneously synthetic methodology development
+and chemical engineering principles to rapidly transition from initial
+discoveries to applications on a process scale.</p></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/10.1021/acscentsci.1c01109?goto=supporting-info">https://pubs.acs.org/doi/10.1021/acscentsci.1c01109</ext-link>.<list id="silist" list-type="simple"><list-item><p>Experimental procedures,
+characterization data of synthesized
+compounds, NMR spectra (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acscentsci.1c01109/suppl_file/oc1c01109_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc1c01109_si_001.pdf"><caption><p>oc1c01109_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="" id="notes2"><title>Author Present Address</title><p><sup>&#x02020;</sup> Department of Chemistry, Scripps Research, La
+Jolla, California
+92037, United States</p></notes><notes notes-type="" id="notes3"><title>Author Present Address</title><p><sup>&#x02021;</sup> Department
+of Medical Biochemistry, Leiden Institute of Chemistry,
+Leiden University, 2333 CC Leiden, The Netherlands</p></notes><notes notes-type="" id="notes4"><title>Author Contributions</title><p><sup>&#x000a7;</sup> T.W. and Z.W. contributed equally to this work. T.W., G.L., L.C.,
+and R.L. performed and analyzed the experiments on a laboratory scale.
+Z.W. performed the scale up studies with support from T.W. and L.C.
+T.W., Z.W., G.L., L.C., and T.N. designed the experiments. The photochemical
+reactor was developed by R.B. and colleagues from Signify. J.A.R.,
+P.G-L., C.M., and M.O.F. provided intellectual contributions via monthly
+discussions with regard to substrate scope and reaction design. L.C.
+and T.N. prepared this manuscript with input from all coauthors.</p></notes><notes notes-type="COI-statement" id="NOTES-d7e984-autogenerated"><p>The authors declare
+the
+following competing financial interest(s): Signify holds Intellectual
+Property for the light sources.</p></notes><notes notes-type="" id="notes200"><title>Notes</title><p>FAIR data (primary NMR
+FID files) for compounds <bold>3</bold>&#x02013;<bold>38</bold> can
+be found at <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.21942/uva.17040392">https://doi.org/10.21942/uva.17040392</uri>.</p></notes><ack><title>Acknowledgments</title><p>The authors are appreciative of the funding received
+from the Lilly Research Award Program. T.W. and Z.W. have both received
+support from the China Scholarship Council (CSC) for their PhD studies.
+L.C. acknowledges European Union&#x02019;s Horizon 2020 research and
+innovation programme under the Marie Sk&#x00142;odowska-Curie Grant
+Agreement No. 101023615 (Project Name: HAT-TRICK).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Kerru</surname><given-names>N.</given-names></name>; <name><surname>Gummidi</surname><given-names>L.</given-names></name>; <name><surname>Maddila</surname><given-names>S.</given-names></name>; <name><surname>Gangu</surname><given-names>K. K.</given-names></name>; <name><surname>Jonnalagadda</surname><given-names>S. B.</given-names></name>
+<article-title>A Review
+on Recent Advances in Nitrogen-Containing Molecules and Their Biological
+Applications</article-title>. <source>Molecules</source>
+<year>2020</year>, <volume>25</volume>, <fpage>1909</fpage><pub-id pub-id-type="doi">10.3390/molecules25081909</pub-id>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Torborg</surname><given-names>C.</given-names></name>; <name><surname>Beller</surname><given-names>M.</given-names></name>
+<article-title>Recent Applications of Palladium-Catalyzed
+Coupling
+Reactions in the Pharmaceutical, Agrochemical, and Fine Chemical Industries</article-title>. <source>Adv. Synth. Catal.</source>
+<year>2009</year>, <volume>351</volume>, <fpage>3027</fpage>&#x02013;<lpage>3043</lpage>. <pub-id pub-id-type="doi">10.1002/adsc.200900587</pub-id>.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Seifinoferest</surname><given-names>B.</given-names></name>; <name><surname>Tanbakouchian</surname><given-names>A.</given-names></name>; <name><surname>Larijani</surname><given-names>B.</given-names></name>; <name><surname>Mahdavi</surname><given-names>M.</given-names></name>
+<article-title>Ullmann-Goldberg and
+Buchwald-Hartwig C&#x02212;N Cross Couplings: Synthetic Methods to
+Pharmaceutically Potential N-Heterocycles</article-title>. <source>Asian
+J. Org. Chem.</source>
+<year>2021</year>, <volume>10</volume>, <fpage>1319</fpage>&#x02013;<lpage>1344</lpage>. <pub-id pub-id-type="doi">10.1002/ajoc.202100072</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Bariwal</surname><given-names>J.</given-names></name>; <name><surname>Van der Eycken</surname><given-names>E.</given-names></name>
+<article-title>C&#x02013;N Bond Forming Cross-Coupling Reactions: An
+Overview</article-title>. <source>Chem. Soc. Rev.</source>
+<year>2013</year>, <volume>42</volume>, <fpage>9283</fpage><pub-id pub-id-type="doi">10.1039/c3cs60228a</pub-id>.<pub-id pub-id-type="pmid">24077333</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Ruiz-Castillo</surname><given-names>P.</given-names></name>; <name><surname>Buchwald</surname><given-names>S. L.</given-names></name>
+<article-title>Applications of Palladium-Catalyzed C&#x02013;N Cross-Coupling
+Reactions</article-title>. <source>Chem. Rev.</source>
+<year>2016</year>, <volume>116</volume>, <fpage>12564</fpage>&#x02013;<lpage>12649</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemrev.6b00512</pub-id>.<pub-id pub-id-type="pmid">27689804</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Wolfe</surname><given-names>J. P.</given-names></name>; <name><surname>Wagaw</surname><given-names>S.</given-names></name>; <name><surname>Marcoux</surname><given-names>J.-F.</given-names></name>; <name><surname>Buchwald</surname><given-names>S. L.</given-names></name>
+<article-title>Rational Development
+of Practical Catalysts for Aromatic Carbon-Nitrogen Bond Formation</article-title>. <source>Acc. Chem. Res.</source>
+<year>1998</year>, <volume>31</volume>, <fpage>805</fpage>&#x02013;<lpage>818</lpage>. <pub-id pub-id-type="doi">10.1021/ar9600650</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Hartwig</surname><given-names>J.</given-names></name>
+<article-title>Palladium-Catalyzed
+Amination of Aryl Halides: Mechanism and Rational Catalyst Design</article-title>. <source>Synlett</source>
+<year>1997</year>, <volume>1997</volume>, <fpage>329</fpage>&#x02013;<lpage>340</lpage>. <pub-id pub-id-type="doi">10.1055/s-1997-789</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Lovering</surname><given-names>F.</given-names></name>
+<article-title>Escape from
+Flatland 2: Complexity and Promiscuity</article-title>. <source>MedChemComm</source>
+<year>2013</year>, <volume>4</volume>, <fpage>515</fpage>&#x02013;<lpage>519</lpage>. <pub-id pub-id-type="doi">10.1039/c2md20347b</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Lovering</surname><given-names>F.</given-names></name>; <name><surname>Bikker</surname><given-names>J.</given-names></name>; <name><surname>Humblet</surname><given-names>C.</given-names></name>
+<article-title>Escape from
+flatland: Increasing
+saturation as an approach to improving clinical success</article-title>. <source>J. Med. Chem.</source>
+<year>2009</year>, <volume>52</volume>, <fpage>6752</fpage>&#x02013;<lpage>6756</lpage>. <pub-id pub-id-type="doi">10.1021/jm901241e</pub-id>.<pub-id pub-id-type="pmid">19827778</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Park</surname><given-names>Y.</given-names></name>; <name><surname>Kim</surname><given-names>Y.</given-names></name>; <name><surname>Chang</surname><given-names>S.</given-names></name>
+<article-title>Transition Metal-Catalyzed C&#x02013;H Amination: Scope,
+Mechanism, and Applications</article-title>. <source>Chem. Rev.</source>
+<year>2017</year>, <volume>117</volume>, <fpage>9247</fpage>&#x02013;<lpage>9301</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemrev.6b00644</pub-id>.<pub-id pub-id-type="pmid">28051855</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Capaldo</surname><given-names>L.</given-names></name>; <name><surname>Ravelli</surname><given-names>D.</given-names></name>; <name><surname>Fagnoni</surname><given-names>M.</given-names></name>
+<article-title>Direct Photocatalyzed
+Hydrogen Atom
+Transfer (HAT) for Aliphatic C&#x02013;H Bonds Elaboration</article-title>. <source>Chem. Rev.</source>
+<year>2021</year>, <pub-id pub-id-type="doi">10.1021/acs.chemrev.1c00263</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Hu</surname><given-names>A.</given-names></name>; <name><surname>Guo</surname><given-names>J.-J.</given-names></name>; <name><surname>Pan</surname><given-names>H.</given-names></name>; <name><surname>Zuo</surname><given-names>Z.</given-names></name>
+<article-title>Selective Functionalization
+of Methane, Ethane, and Higher Alkanes by Cerium Photocatalysis</article-title>. <source>Science</source>
+<year>2018</year>, <volume>361</volume>, <fpage>668</fpage>&#x02013;<lpage>672</lpage>. <pub-id pub-id-type="doi">10.1126/science.aat9750</pub-id>.<pub-id pub-id-type="pmid">30049785</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Hu</surname><given-names>A.</given-names></name>; <name><surname>Guo</surname><given-names>J. J.</given-names></name>; <name><surname>Pan</surname><given-names>H.</given-names></name>; <name><surname>Tang</surname><given-names>H.</given-names></name>; <name><surname>Gao</surname><given-names>Z.</given-names></name>; <name><surname>Zuo</surname><given-names>Z.</given-names></name>
+<article-title>&#x003b4;-Selective Functionalization of Alkanols Enabled by Visible-Light-Induced
+Ligand-to-Metal Charge Transfer</article-title>. <source>J. Am. Chem.
+Soc.</source>
+<year>2018</year>, <volume>140</volume>, <fpage>1612</fpage>&#x02013;<lpage>1616</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.7b13131</pub-id>.<pub-id pub-id-type="pmid">29381061</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>An</surname><given-names>Q.</given-names></name>; <name><surname>Wang</surname><given-names>Z.</given-names></name>; <name><surname>Chen</surname><given-names>Y.</given-names></name>; <name><surname>Wang</surname><given-names>X.</given-names></name>; <name><surname>Zhang</surname><given-names>K.</given-names></name>; <name><surname>Pan</surname><given-names>H.</given-names></name>; <name><surname>Liu</surname><given-names>W.</given-names></name>; <name><surname>Zuo</surname><given-names>Z.</given-names></name>
+<article-title>Cerium-Catalyzed C-H Functionalizations
+of Alkanes Utilizing Alcohols as Hydrogen Atom Transfer Agents</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2020</year>, <volume>142</volume>, <fpage>6216</fpage>&#x02013;<lpage>6226</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.0c00212</pub-id>.<pub-id pub-id-type="pmid">32181657</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Papadopoulos</surname><given-names>G. N.</given-names></name>; <name><surname>Kokotou</surname><given-names>M. G.</given-names></name>; <name><surname>Spiliopoulou</surname><given-names>N.</given-names></name>; <name><surname>Nikitas</surname><given-names>N. F.</given-names></name>; <name><surname>Voutyritsa</surname><given-names>E.</given-names></name>; <name><surname>Tzaras</surname><given-names>D. I.</given-names></name>; <name><surname>Kaplaneris</surname><given-names>N.</given-names></name>; <name><surname>Kokotos</surname><given-names>C. G.</given-names></name>
+<article-title>Phenylglyoxylic
+Acid: An Efficient Initiator for the Photochemical Hydrogen Atom Transfer
+C-H Functionalization of Heterocycles</article-title>. <source>ChemSusChem</source>
+<year>2020</year>, <volume>13</volume>, <fpage>5934</fpage>&#x02013;<lpage>5944</lpage>. <pub-id pub-id-type="doi">10.1002/cssc.202001892</pub-id>.<pub-id pub-id-type="pmid">32833347</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Zhao</surname><given-names>R.</given-names></name>; <name><surname>Shi</surname><given-names>L.</given-names></name>
+<article-title>A Renaissance of Ligand-to-Metal
+Charge Transfer by Cerium Photocatalysis</article-title>. <source>Org.
+Chem. Front.</source>
+<year>2018</year>, <volume>5</volume>, <fpage>3018</fpage>&#x02013;<lpage>3021</lpage>. <pub-id pub-id-type="doi">10.1039/C8QO00893K</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Sideri</surname><given-names>I.
+K.</given-names></name>; <name><surname>Voutyritsa</surname><given-names>E.</given-names></name>; <name><surname>Kokotos</surname><given-names>C. G.</given-names></name>
+<article-title>Photoorganocatalysis, Small Organic
+Molecules and Light in the Service of Organic Synthesis: The Awakening
+of a Sleeping Giant</article-title>. <source>Org. Biomol. Chem.</source>
+<year>2018</year>, <volume>16</volume>, <fpage>4596</fpage>&#x02013;<lpage>4614</lpage>. <pub-id pub-id-type="doi">10.1039/C8OB00725J</pub-id>.<pub-id pub-id-type="pmid">29888357</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Buglioni</surname><given-names>L.</given-names></name>; <name><surname>Raymenants</surname><given-names>F.</given-names></name>; <name><surname>Slattery</surname><given-names>A.</given-names></name>; <name><surname>Zondag</surname><given-names>S. D. A.</given-names></name>; <name><surname>No&#x000eb;l</surname><given-names>T.</given-names></name>
+<article-title>Technological
+Innovations in Photochemistry for Organic Synthesis: Flow Chemistry,
+High-Throughput Experimentation, Scale-up, and Photoelectrochemistry</article-title>. <source>Chem. Rev.</source>
+<year>2021</year>, <pub-id pub-id-type="doi">10.1021/acs.chemrev.1c00332</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Ryu</surname><given-names>I.</given-names></name>; <name><surname>Tani</surname><given-names>A.</given-names></name>; <name><surname>Fukuyama</surname><given-names>T.</given-names></name>; <name><surname>Ravelli</surname><given-names>D.</given-names></name>; <name><surname>Montanaro</surname><given-names>S.</given-names></name>; <name><surname>Fagnoni</surname><given-names>M.</given-names></name>
+<article-title>Efficient C&#x02013;H/C&#x02013;N and C&#x02013;H/C&#x02013;CO&#x02013;N
+Conversion via Decatungstate-Photoinduced Alkylation of Diisopropyl
+Azodicarboxylate</article-title>. <source>Org. Lett.</source>
+<year>2013</year>, <volume>15</volume>, <fpage>2554</fpage>&#x02013;<lpage>2557</lpage>. <pub-id pub-id-type="doi">10.1021/ol401061v</pub-id>.<pub-id pub-id-type="pmid">23651042</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Bonassi</surname><given-names>F.</given-names></name>; <name><surname>Ravelli</surname><given-names>D.</given-names></name>; <name><surname>Protti</surname><given-names>S.</given-names></name>; <name><surname>Fagnoni</surname><given-names>M.</given-names></name>
+<article-title>Decatungstate Photocatalyzed
+Acylations and Alkylations in Flow via Hydrogen Atom Transfer</article-title>. <source>Adv. Synth. Catal.</source>
+<year>2015</year>, <volume>357</volume>, <fpage>3687</fpage>&#x02013;<lpage>3695</lpage>. <pub-id pub-id-type="doi">10.1002/adsc.201500483</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Mazzarella</surname><given-names>D.</given-names></name>; <name><surname>Pulcinella</surname><given-names>A.</given-names></name>; <name><surname>Bovy</surname><given-names>L.</given-names></name>; <name><surname>Broersma</surname><given-names>R.</given-names></name>; <name><surname>No&#x000eb;l</surname><given-names>T.</given-names></name>
+<article-title>Rapid and
+Direct Photocatalytic C(sp<sup>3</sup>)-H Acylation and Arylation
+in Flow</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2021</year>, <volume>60</volume>, <fpage>21277</fpage>&#x02013;<lpage>21282</lpage>. <pub-id pub-id-type="doi">10.1002/anie.202108987</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Sarver</surname><given-names>P. J.</given-names></name>; <name><surname>Bissonnette</surname><given-names>N. B.</given-names></name>; <name><surname>MacMillan</surname><given-names>D. W. C.</given-names></name>
+<article-title>Decatungstate-Catalyzed C(sp<sup>3</sup>)-H Sulfinylation:
+Rapid Access to Diverse Organosulfur Functionality</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2021</year>, <volume>143</volume>, <fpage>9737</fpage>&#x02013;<lpage>9743</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.1c04722</pub-id>.<pub-id pub-id-type="pmid">34161084</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Laudadio</surname><given-names>G.</given-names></name>; <name><surname>Deng</surname><given-names>Y.</given-names></name>; <name><surname>van der Wal</surname><given-names>K.</given-names></name>; <name><surname>Ravelli</surname><given-names>D.</given-names></name>; <name><surname>Nu&#x000f1;o</surname><given-names>M.</given-names></name>; <name><surname>Fagnoni</surname><given-names>M.</given-names></name>; <name><surname>Guthrie</surname><given-names>D.</given-names></name>; <name><surname>Sun</surname><given-names>Y.</given-names></name>; <name><surname>No&#x000eb;l</surname><given-names>T.</given-names></name>
+<article-title>C(sp<sup>3</sup>)-H Functionalizations of Light Hydrocarbons Using Decatungstate
+Photocatalysis in Flow</article-title>. <source>Science</source>
+<year>2020</year>, <volume>369</volume>, <fpage>92</fpage>&#x02013;<lpage>96</lpage>. <pub-id pub-id-type="doi">10.1126/science.abb4688</pub-id>.<pub-id pub-id-type="pmid">32631892</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Kuang</surname><given-names>Y.</given-names></name>; <name><surname>Cao</surname><given-names>H.</given-names></name>; <name><surname>Tang</surname><given-names>H.</given-names></name>; <name><surname>Chew</surname><given-names>J.</given-names></name>; <name><surname>Chen</surname><given-names>W.</given-names></name>; <name><surname>Shi</surname><given-names>X.</given-names></name>; <name><surname>Wu</surname><given-names>J.</given-names></name>
+<article-title>Visible Light
+Driven Deuteration of Formyl C&#x02013;H and Hydridic
+C(sp<sup>3</sup>)-H Bonds in Feedstock Chemicals and Pharmaceutical
+Molecules</article-title>. <source>Chem. Sci.</source>
+<year>2020</year>, <volume>11</volume>, <fpage>8912</fpage>&#x02013;<lpage>8918</lpage>. <pub-id pub-id-type="doi">10.1039/D0SC02661A</pub-id>.<pub-id pub-id-type="pmid">34123145</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Bonciolini</surname><given-names>S.</given-names></name>; <name><surname>Di Filippo</surname><given-names>M.</given-names></name>; <name><surname>Baumann</surname><given-names>M.</given-names></name>
+<article-title>A scalable continuous photochemical
+process for the generation of aminopropylsulfones</article-title>. <source>Org. Biomol. Chem.</source>
+<year>2020</year>, <volume>18</volume>, <fpage>9428</fpage>&#x02013;<lpage>9432</lpage>. <pub-id pub-id-type="doi">10.1039/D0OB01801E</pub-id>.<pub-id pub-id-type="pmid">32969443</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Ravelli</surname><given-names>D.</given-names></name>; <name><surname>Protti</surname><given-names>S.</given-names></name>; <name><surname>Fagnoni</surname><given-names>M.</given-names></name>
+<article-title>Decatungstate Anion for Photocatalyzed
+&#x0201c;Window Ledge&#x0201d; Reactions</article-title>. <source>Acc.
+Chem. Res.</source>
+<year>2016</year>, <volume>49</volume>, <fpage>2232</fpage>&#x02013;<lpage>2242</lpage>. <pub-id pub-id-type="doi">10.1021/acs.accounts.6b00339</pub-id>.<pub-id pub-id-type="pmid">27648722</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Capaldo</surname><given-names>L.</given-names></name>; <name><surname>Ravelli</surname><given-names>D.</given-names></name>
+<article-title>Hydrogen Atom Transfer (HAT): A Versatile Strategy
+for Substrate Activation in Photocatalyzed Organic Synthesis</article-title>. <source>Eur. J. Org. Chem.</source>
+<year>2017</year>, <volume>2017</volume>, <fpage>2056</fpage>&#x02013;<lpage>2071</lpage>. <pub-id pub-id-type="doi">10.1002/ejoc.201601485</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Cambi&#x000e9;</surname><given-names>D.</given-names></name>; <name><surname>Bottecchia</surname><given-names>C.</given-names></name>; <name><surname>Straathof</surname><given-names>N. J. W.</given-names></name>; <name><surname>Hessel</surname><given-names>V.</given-names></name>; <name><surname>No&#x000eb;l</surname><given-names>T.</given-names></name>
+<article-title>Applications
+of Continuous-Flow Photochemistry in Organic Synthesis, Material Science,
+and Water Treatment</article-title>. <source>Chem. Rev.</source>
+<year>2016</year>, <volume>116</volume>, <fpage>10276</fpage>&#x02013;<lpage>10341</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemrev.5b00707</pub-id>.<pub-id pub-id-type="pmid">26935706</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Ravelli</surname><given-names>D.</given-names></name>; <name><surname>Fagnoni</surname><given-names>M.</given-names></name>; <name><surname>Fukuyama</surname><given-names>T.</given-names></name>; <name><surname>Nishikawa</surname><given-names>T.</given-names></name>; <name><surname>Ryu</surname><given-names>I.</given-names></name>
+<article-title>Site-Selective C&#x02013;H Functionalization
+by Decatungstate Anion
+Photocatalysis: Synergistic Control by Polar and Steric Effects Expands
+the Reaction Scope</article-title>. <source>ACS Catal.</source>
+<year>2018</year>, <volume>8</volume>, <fpage>701</fpage>&#x02013;<lpage>713</lpage>. <pub-id pub-id-type="doi">10.1021/acscatal.7b03354</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Papadopoulos</surname><given-names>G. N.</given-names></name>; <name><surname>Kokotos</surname><given-names>C. G.</given-names></name>
+<article-title>Photoorganocatalytic
+One-Pot Synthesis of Hydroxamic
+Acids from Aldehydes</article-title>. <source>Chem. - Eur. J.</source>
+<year>2016</year>, <volume>22</volume>, <fpage>6964</fpage>&#x02013;<lpage>6967</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201600333</pub-id>.<pub-id pub-id-type="pmid">27038037</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Papadopoulos</surname><given-names>G. N.</given-names></name>; <name><surname>Kokotos</surname><given-names>C. G.</given-names></name>
+<article-title>One-Pot Amide Bond
+Formation from Aldehydes and Amines
+via a Photoorganocatalytic Activation of Aldehydes</article-title>. <source>J. Org. Chem.</source>
+<year>2016</year>, <volume>81</volume>, <fpage>7023</fpage>&#x02013;<lpage>7028</lpage>. <pub-id pub-id-type="doi">10.1021/acs.joc.6b00488</pub-id>.<pub-id pub-id-type="pmid">27227271</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="book" id="cit32"><article-title>Knorr Pyrazole Synthesis</article-title>. In <source>Name Reactions</source>; <publisher-name>Springe-Verlagr</publisher-name>: <publisher-loc>Berlin, Heidelberg</publisher-loc>, <year>2006</year>; pp <fpage>331</fpage>&#x02013;<lpage>334</lpage>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Wan</surname><given-names>T.</given-names></name>; <name><surname>Capaldo</surname><given-names>L.</given-names></name>; <name><surname>Laudadio</surname><given-names>G.</given-names></name>; <name><surname>Nyuchev</surname><given-names>A. V.</given-names></name>; <name><surname>Rinc&#x000f3;n</surname><given-names>J. A.</given-names></name>; <name><surname>Garc&#x000ed;a-Losada</surname><given-names>P.</given-names></name>; <name><surname>Mateos</surname><given-names>C.</given-names></name>; <name><surname>Frederick</surname><given-names>M. O.</given-names></name>; <name><surname>Nu&#x000f1;o</surname><given-names>M.</given-names></name>; <name><surname>No&#x000eb;l</surname><given-names>T.</given-names></name>
+<article-title>Decatungstate-Mediated C(sp<sup>3</sup>)&#x02013;H Heteroarylation via Radical-Polar Crossover in Batch and
+Flow</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2021</year>, <volume>60</volume>, <fpage>17893</fpage>&#x02013;<lpage>17897</lpage>. <pub-id pub-id-type="doi">10.1002/anie.202104682</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Dong</surname><given-names>Z.</given-names></name>; <name><surname>Wen</surname><given-names>Z.</given-names></name>; <name><surname>Zhao</surname><given-names>F.</given-names></name>; <name><surname>Kuhn</surname><given-names>S.</given-names></name>; <name><surname>No&#x000eb;l</surname><given-names>T.</given-names></name>
+<article-title>Scale-up of
+micro- and milli-reactors: An overview of strategies, design principles
+and applications</article-title>. <source>Chem. Eng. Sci. X.</source>
+<year>2021</year>, <volume>10</volume>, <fpage>100097</fpage><pub-id pub-id-type="doi">10.1016/j.cesx.2021.100097</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Donnelly</surname><given-names>K.</given-names></name>; <name><surname>Baumann</surname><given-names>M.</given-names></name>
+<article-title>Scalability of Photochemical
+Reactions in Continuous
+Flow Mode</article-title>. <source>J. Flow Chem.</source>
+<year>2021</year>, <volume>11</volume>, <fpage>223</fpage>&#x02013;<lpage>241</lpage>. <pub-id pub-id-type="doi">10.1007/s41981-021-00168-z</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Corcoran</surname><given-names>E. B.</given-names></name>; <name><surname>McMullen</surname><given-names>J. P.</given-names></name>; <name><surname>L&#x000e9;vesque</surname><given-names>F.</given-names></name>; <name><surname>Wismer</surname><given-names>M. K.</given-names></name>; <name><surname>Naber</surname><given-names>J. R.</given-names></name>
+<article-title>Photon
+Equivalents as a Parameter for Scaling Photoredox Reactions in Flow:
+Translation of Photocatalytic C-N Cross-Coupling from Lab Scale to
+Multikilogram Scale</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2020</year>, <volume>59</volume>, <fpage>11964</fpage>&#x02013;<lpage>11968</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201915412</pub-id>.</mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Harper</surname><given-names>K. C.</given-names></name>; <name><surname>Moschetta</surname><given-names>E. G.</given-names></name>; <name><surname>Bordawekar</surname><given-names>S. V.</given-names></name>; <name><surname>Wittenberger</surname><given-names>S. J.</given-names></name>
+<article-title>A Laser
+Driven Flow Chemistry Platform for Scaling Photochemical Reactions
+with Visible Light</article-title>. <source>ACS Cent. Sci.</source>
+<year>2019</year>, <volume>5</volume>, <fpage>109</fpage>&#x02013;<lpage>115</lpage>. <pub-id pub-id-type="doi">10.1021/acscentsci.8b00728</pub-id>.<pub-id pub-id-type="pmid">30693330</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Beatty</surname><given-names>J. W.</given-names></name>; <name><surname>Douglas</surname><given-names>J. J.</given-names></name>; <name><surname>Miller</surname><given-names>R.</given-names></name>; <name><surname>McAtee</surname><given-names>R. C.</given-names></name>; <name><surname>Cole</surname><given-names>K. P.</given-names></name>; <name><surname>Stephenson</surname><given-names>C. R. J.</given-names></name>
+<article-title>Photochemical
+Perfluoroalkylation with Pyridine N-Oxides:
+Mechanistic Insights and Performance on a Kilogram Scale</article-title>. <source>Chem.</source>
+<year>2016</year>, <volume>1</volume>, <fpage>456</fpage>&#x02013;<lpage>472</lpage>. <pub-id pub-id-type="doi">10.1016/j.chempr.2016.08.002</pub-id>.<pub-id pub-id-type="pmid">28462396</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Buzzetti</surname><given-names>L.</given-names></name>; <name><surname>Crisenza</surname><given-names>G. E. M.</given-names></name>; <name><surname>Melchiorre</surname><given-names>P.</given-names></name>
+<article-title>Mechanistic Studies in Photocatalysis</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2019</year>, <volume>58</volume>, <fpage>3730</fpage>&#x02013;<lpage>3747</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201809984</pub-id>.</mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Lovato</surname><given-names>K.</given-names></name>; <name><surname>Fier</surname><given-names>P. S.</given-names></name>; <name><surname>Maloney</surname><given-names>K. M.</given-names></name>
+<article-title>The Application of Modern Reactions
+in Large-Scale Synthesis</article-title>. <source>Nat. Rev. Chem.</source>
+<year>2021</year>, <volume>5</volume>, <fpage>546</fpage>&#x02013;<lpage>563</lpage>. <pub-id pub-id-type="doi">10.1038/s41570-021-00288-z</pub-id>.</mixed-citation></ref></ref-list></back></article>
