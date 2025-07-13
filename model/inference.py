@@ -3,12 +3,12 @@ from transformers import BertTokenizer
 import joblib
 from model.bert_classifier import BertClassifier
 
-# Load tokenizer and label encoder
+#Loading the tokeniser and label encoder
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 label_encoder = joblib.load("saved_model/label_encoder.joblib")
 
-# Load model
+#For loading the model
 model = BertClassifier(num_classes=len(label_encoder.classes_))
 model.load_state_dict(torch.load("saved_model/model.pt", map_location=device))
 model.to(device)
