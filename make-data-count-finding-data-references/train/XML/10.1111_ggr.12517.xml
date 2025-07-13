@@ -1,0 +1,2289 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Characterisation of Conventional 87 Sr/ 86 Sr Isotope Ratios in Cement, Limestone and Slate Reference Materials Based on an Interlaboratory Comparison Study</title>
+<funder ref="#_P6jk4Gd">
+<orgname type="full">Czech Science Foundation</orgname>
+</funder>
+<funder>
+<orgname type="full">Germany</orgname>
+</funder>
+<funder>
+<orgname type="full">Projekt DEAL</orgname>
+</funder>
+<funder ref="#_nBssQyT">
+<orgname type="full">Land Steiermark Zukunftsfonds</orgname>
+</funder>
+<funder>
+<orgname type="full">Federal Institute for Materials Research and Testing (BAM)</orgname>
+</funder>
+<funder ref="#_m9tnqjG">
+<orgname type="full">International Association of Geoanalysts</orgname>
+<orgname type="abbreviated">IAG</orgname>
+</funder>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Anera</forename><surname>Kazlagić</surname></persname>
+<email>anera.kazlagic@bam.de</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> ) Bundesanstalt für Materialforschung und -prüfung, (BAM), Richard-Willst ätter-Straße 11, 12489 Berlin, Germany (</note>
+<orgname type="department">Bundesanstalt für Materialforschung und -prüfung, (BAM)</orgname>
+<address>
+<addrline>Richard-Willst ätter-Straße 11</addrline>
+<postcode>12489</postcode>
+<settlement>Berlin</settlement>
+<country>Germany (</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Martin</forename><surname>Rosner</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> ) IsoAnalysis UG, Berlin 10829, Germany (</note>
+<orgname type="institution">IsoAnalysis UG</orgname>
+<address>
+<postcode>10829</postcode>
+<settlement>Berlin</settlement>
+<country>Germany (</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Anna</forename><surname>Cipriani</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> ) University of Modena and Reggio Emilia, Modena 41125, Italy (</note>
+<orgname type="institution">University of Modena and Reggio Emilia</orgname>
+<address>
+<postcode>41125</postcode>
+<settlement>Modena</settlement>
+<country>Italy (</country>
+</address>
+</affiliation>
+<affiliation key="aff3">
+<note type="raw_affiliation"> ) Lamont-Doherty Earth Observatory of Columbia University, Palisades, New York 10964, USA (</note>
+<orgname type="department">Lamont-Doherty Earth</orgname>
+<orgname type="institution">Observatory of Columbia University</orgname>
+<address>
+<postcode>10964</postcode>
+<settlement>Palisades</settlement>
+<region>New York</region>
+<country>USA (</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Daniel</forename><forename type="middle">A</forename><surname>Frick</surname></persname>
+<affiliation key="aff4">
+<note type="raw_affiliation"> ) GFZ German Research Centre for Geosciences, Telegrafenberg, 14473 Potsdam, Germany (</note>
+<orgname type="department">GFZ German Research Centre for Geosciences</orgname>
+<address>
+<addrline>Telegrafenberg</addrline>
+<postcode>14473</postcode>
+<settlement>Potsdam</settlement>
+<country>Germany (</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Johannes</forename><surname>Glodny</surname></persname>
+<affiliation key="aff4">
+<note type="raw_affiliation"> ) GFZ German Research Centre for Geosciences, Telegrafenberg, 14473 Potsdam, Germany (</note>
+<orgname type="department">GFZ German Research Centre for Geosciences</orgname>
+<address>
+<addrline>Telegrafenberg</addrline>
+<postcode>14473</postcode>
+<settlement>Potsdam</settlement>
+<country>Germany (</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Elis</forename><forename type="middle">J</forename><surname>Hoffmann</surname></persname>
+<affiliation key="aff5">
+<note type="raw_affiliation"> ) Freie Universit ät Berlin, Malteserstraße 74-100, 12249 Berlin, Germany (</note>
+<orgname type="institution">Freie Universit ät Berlin</orgname>
+<address>
+<addrline>Malteserstraße 74-100</addrline>
+<postcode>12249</postcode>
+<settlement>Berlin</settlement>
+<country>Germany (</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">John</forename><forename type="middle">M</forename><surname>Hora</surname></persname>
+<affiliation key="aff6">
+<note type="raw_affiliation"> ) Czech Geological Survey, Klarov 3, CZ-11821 Prague 1, Czech Republic (</note>
+<orgname type="institution">Czech Geological Survey</orgname>
+<address>
+<addrline>Klarov 3</addrline>
+<postcode>CZ-11821</postcode>
+<settlement>Prague 1</settlement>
+<country>Czech Republic (</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Johanna</forename><surname>Irrgeher</surname></persname>
+<affiliation key="aff7">
+<note type="raw_affiliation"> ) Montanuniversit ät Leoben, Franz-Josef-Straße 18, 8700 Leoben, Austria (</note>
+<orgname type="institution">Montanuniversit ät Leoben</orgname>
+<address>
+<addrline>Franz-Josef-Straße 18</addrline>
+<postcode>8700</postcode>
+<settlement>Leoben</settlement>
+<country key="AT">Austria</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Federico</forename><surname>Lugli</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> ) University of Modena and Reggio Emilia, Modena 41125, Italy (</note>
+<orgname type="institution">University of Modena and Reggio Emilia</orgname>
+<address>
+<postcode>41125</postcode>
+<settlement>Modena</settlement>
+<country>Italy (</country>
+</address>
+</affiliation>
+<affiliation key="aff8">
+<note type="raw_affiliation"> ) University of Bologna, Via degli Ariani 1, 48121 Ravenna, Italy (</note>
+<orgname type="institution">University of Bologna</orgname>
+<address>
+<addrline>Via degli Ariani 1</addrline>
+<postcode>48121</postcode>
+<settlement>Ravenna</settlement>
+<country key="IT">Italy</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Tomas</forename><surname>Magna</surname></persname>
+<affiliation key="aff6">
+<note type="raw_affiliation"> ) Czech Geological Survey, Klarov 3, CZ-11821 Prague 1, Czech Republic (</note>
+<orgname type="institution">Czech Geological Survey</orgname>
+<address>
+<addrline>Klarov 3</addrline>
+<postcode>CZ-11821</postcode>
+<settlement>Prague 1</settlement>
+<country>Czech Republic (</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Thomas</forename><forename type="middle">C</forename><surname>Meisel</surname></persname>
+<affiliation key="aff7">
+<note type="raw_affiliation"> ) Montanuniversit ät Leoben, Franz-Josef-Straße 18, 8700 Leoben, Austria (</note>
+<orgname type="institution">Montanuniversit ät Leoben</orgname>
+<address>
+<addrline>Franz-Josef-Straße 18</addrline>
+<postcode>8700</postcode>
+<settlement>Leoben</settlement>
+<country key="AT">Austria</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Anette</forename><surname>Meixner</surname></persname>
+<affiliation key="aff9">
+<note type="raw_affiliation"> ) Faculty of Geosciences and Marum -Center for Marine Environmental Sciences, University of Bremen, Leobener Strasse 8, 28359 Bremen, Germany (</note>
+<orgname type="department">Faculty of Geosciences and Marum -Center for Marine Environmental Sciences</orgname>
+<orgname type="institution">University of Bremen</orgname>
+<address>
+<addrline>Leobener Strasse 8</addrline>
+<postcode>28359</postcode>
+<settlement>Bremen</settlement>
+<country key="DE">Germany</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Antonio</forename><surname>Possolo</surname></persname>
+<affiliation key="aff10">
+<note type="raw_affiliation"> ) National Institute of Standards and Technology, 100 Bureau Drive, Gaithersburg, 20899,MD, USA (</note>
+<orgname type="institution">National Institute of Standards and Technology</orgname>
+<address>
+<addrline>100 Bureau Drive</addrline>
+<postcode>20899</postcode>
+<settlement>Gaithersburg</settlement>
+<region>MD</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Axel</forename><surname>Pramann</surname></persname>
+<affiliation key="aff11">
+<note type="raw_affiliation"> ) Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig, Germany (</note>
+<orgname type="institution">Physikalisch-Technische Bundesanstalt</orgname>
+<address>
+<addrline>Bundesallee 100</addrline>
+<postcode>38116</postcode>
+<settlement>Braunschweig</settlement>
+<country>Germany (</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Pribil</surname></persname>
+<affiliation key="aff12">
+<note type="raw_affiliation"> ) United States Geological Survey, One Denver Federal Center, Denver, 80225,CO, USA (</note>
+<orgname type="institution">United States Geological Survey</orgname>
+<address>
+<addrline>One Denver Federal Center</addrline>
+<postcode>80225</postcode>
+<settlement>Denver</settlement>
+<region>CO</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Thomas</forename><surname>Prohaska</surname></persname>
+<affiliation key="aff7">
+<note type="raw_affiliation"> ) Montanuniversit ät Leoben, Franz-Josef-Straße 18, 8700 Leoben, Austria (</note>
+<orgname type="institution">Montanuniversit ät Leoben</orgname>
+<address>
+<addrline>Franz-Josef-Straße 18</addrline>
+<postcode>8700</postcode>
+<settlement>Leoben</settlement>
+<country key="AT">Austria</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Anika</forename><surname>Retzmann</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> ) Bundesanstalt für Materialforschung und -prüfung, (BAM), Richard-Willst ätter-Straße 11, 12489 Berlin, Germany (</note>
+<orgname type="department">Bundesanstalt für Materialforschung und -prüfung, (BAM)</orgname>
+<address>
+<addrline>Richard-Willst ätter-Straße 11</addrline>
+<postcode>12489</postcode>
+<settlement>Berlin</settlement>
+<country>Germany (</country>
+</address>
+</affiliation>
+<affiliation key="aff7">
+<note type="raw_affiliation"> ) Montanuniversit ät Leoben, Franz-Josef-Straße 18, 8700 Leoben, Austria (</note>
+<orgname type="institution">Montanuniversit ät Leoben</orgname>
+<address>
+<addrline>Franz-Josef-Straße 18</addrline>
+<postcode>8700</postcode>
+<settlement>Leoben</settlement>
+<country key="AT">Austria</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Olaf</forename><surname>Rienitz</surname></persname>
+<affiliation key="aff11">
+<note type="raw_affiliation"> ) Physikalisch-Technische Bundesanstalt, Bundesallee 100, 38116 Braunschweig, Germany (</note>
+<orgname type="institution">Physikalisch-Technische Bundesanstalt</orgname>
+<address>
+<addrline>Bundesallee 100</addrline>
+<postcode>38116</postcode>
+<settlement>Braunschweig</settlement>
+<country>Germany (</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Daniel</forename><surname>Rutherford</surname></persname>
+<affiliation key="aff12">
+<note type="raw_affiliation"> ) United States Geological Survey, One Denver Federal Center, Denver, 80225,CO, USA (</note>
+<orgname type="institution">United States Geological Survey</orgname>
+<address>
+<addrline>One Denver Federal Center</addrline>
+<postcode>80225</postcode>
+<settlement>Denver</settlement>
+<region>CO</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Gustavo</forename><forename type="middle">M</forename><surname>Paula-Santos</surname></persname>
+<affiliation key="aff9">
+<note type="raw_affiliation"> ) Faculty of Geosciences and Marum -Center for Marine Environmental Sciences, University of Bremen, Leobener Strasse 8, 28359 Bremen, Germany (</note>
+<orgname type="department">Faculty of Geosciences and Marum -Center for Marine Environmental Sciences</orgname>
+<orgname type="institution">University of Bremen</orgname>
+<address>
+<addrline>Leobener Strasse 8</addrline>
+<postcode>28359</postcode>
+<settlement>Bremen</settlement>
+<country key="DE">Germany</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Michael</forename><surname>Tatzel</surname></persname>
+<affiliation key="aff13">
+<note type="raw_affiliation"> ) Georg-August-Universit ät Göttingen, Geoscience Center, Göttingen 37077, Germany (</note>
+<orgname type="department">Geoscience Center</orgname>
+<orgname type="institution">Georg-August-Universit ät Göttingen</orgname>
+<address>
+<postcode>37077</postcode>
+<settlement>Göttingen</settlement>
+<country key="DE">Germany</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Sara</forename><surname>Widhalm</surname></persname>
+<affiliation key="aff7">
+<note type="raw_affiliation"> ) Montanuniversit ät Leoben, Franz-Josef-Straße 18, 8700 Leoben, Austria (</note>
+<orgname type="institution">Montanuniversit ät Leoben</orgname>
+<address>
+<addrline>Franz-Josef-Straße 18</addrline>
+<postcode>8700</postcode>
+<settlement>Leoben</settlement>
+<country key="AT">Austria</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Matthias</forename><surname>Willbold</surname></persname>
+<affiliation key="aff13">
+<note type="raw_affiliation"> ) Georg-August-Universit ät Göttingen, Geoscience Center, Göttingen 37077, Germany (</note>
+<orgname type="department">Geoscience Center</orgname>
+<orgname type="institution">Georg-August-Universit ät Göttingen</orgname>
+<address>
+<postcode>37077</postcode>
+<settlement>Göttingen</settlement>
+<country key="DE">Germany</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Tea</forename><surname>Zuliani</surname></persname>
+<affiliation key="aff14">
+<note type="raw_affiliation"> ) Jožef Stefan Institute, Jamova 39, 1000 Ljubljana, Slovenia</note>
+<orgname type="institution">Jožef Stefan Institute</orgname>
+<address>
+<addrline>Jamova 39</addrline>
+<postcode>1000</postcode>
+<settlement>Ljubljana</settlement>
+<country key="SI">Slovenia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Jochen</forename><surname>Vogl</surname></persname>
+<email>jochen.vogl@bam.de</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> ) Bundesanstalt für Materialforschung und -prüfung, (BAM), Richard-Willst ätter-Straße 11, 12489 Berlin, Germany (</note>
+<orgname type="department">Bundesanstalt für Materialforschung und -prüfung, (BAM)</orgname>
+<address>
+<addrline>Richard-Willst ätter-Straße 11</addrline>
+<postcode>12489</postcode>
+<settlement>Berlin</settlement>
+<country>Germany (</country>
+</address>
+</affiliation>
+</author>
+<author>
+<affiliation key="aff15">
+<note type="raw_affiliation">Christian-Albrechts-Universit ät zu Kiel, Ludewig-Meyn-Straße 10, 24118 Kiel, Germany</note>
+<orgname type="institution">Christian-Albrechts-Universit ät zu Kiel</orgname>
+<address>
+<addrline>Ludewig-Meyn-Straße 10</addrline>
+<postcode>24118</postcode>
+<settlement>Kiel</settlement>
+<country key="DE">Germany</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Characterisation of Conventional 87 Sr/ 86 Sr Isotope Ratios in Cement, Limestone and Slate Reference Materials Based on an Interlaboratory Comparison Study</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">D84015C7B393DE4707FFE92CF6F56FA0</idno>
+<idno type="DOI">10.1111/ggr.12517</idno>
+<note type="submission">Received 17 Apr 23 -Accepted 26 Jun 23</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.8.0" when="2024-08-21T20:33+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>Sr isotope analysis</term>
+<term>isotope ratios</term>
+<term>cement</term>
+<term>geological material</term>
+<term>MC-TIMS</term>
+<term>MC-ICP-MS</term>
+<term>interlaboratory comparison</term>
+<term>measurement uncertainty</term>
+<term>conventional method</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>An interlaboratory comparison (ILC) was organised to characterise 87 Sr/ 86 Sr isotope ratios in geological and industrial reference materials by applying the so-called conventional method for determining 87 Sr/ 86 Sr isotope ratios.</s><s>Four cements (VDZ 100a, VDZ 200a, VDZ 300a, IAG OPC-1), one limestone (IAG CGL ML-3) and one slate (IAG OU-6) reference materials were selected, covering a wide range of naturally occurring Sr isotopic signatures.</s><s>Thirteen laboratories received aliquots of these six reference materials together with a detailed technical protocol.</s><s>The consensus values for the six reference materials and their associated measurement uncertainties were obtained by applying a Gaussian, linear mixed effects model fitted to all the measurement results.</s><s>By combining the consensus values and their uncertainties with an uncertainty contribution for potential heterogeneity, reference values ranging from 0.708134 mol mol -1 to 0.729778 mol mol -1 were obtained with relative expanded uncertainties of ≤ 0.007 %.</s><s>This study represents an ILC on conventional 87 Sr/ 86 Sr isotope ratios, within which metrological principles were considered and the compatibility of measurement results obtained by MC-ICP-MS and by MC-TIMS is demonstrated.</s><s>The materials characterised in this study can be used as reference materials for validation and quality control purposes and to estimate measurement uncertainties in conventional 87 Sr/ 86 Sr isotope ratio measurement.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Comparability and reliability realised by quality control and by applying metrological concepts are the most important attributes especially for chemical and geochemical measurement results.</s><s>For this purpose, reference materials (RMs) are of utmost relevance, as they ensure the highest metrological quality of the measurand to be applied for validating the analytical procedure, determining the measurement uncertainty, and obtaining traceability of the measurement results <ref type="bibr">(Irrgeher and Prohaska 2015a)</ref>.</s><s>Applications of isotope ratio analysis require isotope certified reference materials (iCRMs) either for correction of instrumental isotope fractionation (IIF), usually, but incorrectly called mass bias, for method validation, for quality control or for providing traceability to an internationally accepted basis <ref type="bibr">(Vogl and</ref><ref type="bibr">Pritzkow 2010, Vogl et al. 2013)</ref>.</s><s>Consequently, iCRMs are essential for all isotope ratio measurements to obtain traceable (to the international system of units or internationally accepted standards) and thus comparable isotope results <ref target="#b53" type="bibr">(Vogl et al. 2013)</ref>.</s><s>We distinguish two types of iCRMs, namely primary iCRMs to be used for calibrating absolute isotope ratios and/or anchoring delta scales and matrix-matched iCRMs.</s><s>Besides the need for primary iCRMs essential for correction and calibration of IIF, matrix-matched iCRMs are of increasing importance in validation of analytical procedures and quality control due to the similarity of the sample matrix.</s><s>Due to the lack of suitable matrixmatched iCRMs and concurrent needs of the user community in the past, a number of reference samples were selected by the community, analysed, and isotope ratio data reported.</s><s>These data were then compiled in specific publications <ref target="#b6" type="bibr">(Brand et al. 2014)</ref> or in databases such as GeoReM <ref target="#b26" type="bibr">(Jochum et al. 2005)</ref>.</s><s>While quite useful, these data provide a consensus value for a specific isotope ratio only without evaluating possible measurement biases or uncertainty components attributable to the measurement itself, instrument employed, material instability, or heterogeneity.</s><s>With each new publication or new issue of the database, such data are subject to change <ref target="#b54" type="bibr">(Vogl et al. 2019)</ref>.</s><s>Interlaboratory comparisons (ILCs) can bridge the gap between the scarcity or unavailability of iCRMs and the available but continuously changing values of databases by providing tailor-made suitable matrix materials.</s><s>The results of ILCs can contribute to uncertainty evaluation or validation of the analytical procedure at the participants' laboratory, while remaining units of the matrix material applied in the ILC might become a reference material.</s></p><p><s>In the natural sciences and industrial applications, the demand for Sr isotope ratio data as an analytical tool keeps growing.</s><s>Sr isotope ratios are essential tracers used for solving various problems in different scientific fields rather than in classical geology and geochemistry, including archaeology and anthropology <ref target="#b2" type="bibr">(Bentley 2006)</ref>, food forensics <ref target="#b51" type="bibr">(Voerkelius et al. 2010</ref><ref target="#b49" type="bibr">, Trincherini et al. 2014</ref>) and material provenance <ref target="#b7" type="bibr">(Brilli et al. 2005</ref><ref target="#b18" type="bibr">, Henderson et al. 2015</ref><ref target="#b5" type="bibr">, Boschetti et al. 2017</ref><ref target="#b19" type="bibr">, Hoogewerff et al. 2019)</ref>, as well as environmental studies <ref target="#b16" type="bibr">(Harmon et al. 2016</ref><ref target="#b36" type="bibr">, Nakano 2016)</ref>.</s><s>A major part of Sr isotope analysis is focused on the determination of the radiogenic 87 Sr, more specifically the 87 Sr/ 86 Sr isotope ratio, for Rb-Sr dating of rocks or for provenance or authentication studies <ref target="#b6" type="bibr">(Brand et al. 2014)</ref>.</s><s>The 87 Sr/ 86 Sr isotope ratio of a sample is typically measured using either multi collector thermal ionisation mass spectrometry (MC-TIMS), multicollector inductively coupled plasma-mass spectrometry (MC-ICP-MS) or even single collector ICP-MS with or without Sr-matrix separation.</s><s>Incomplete digestion opens only a part of the Sr reservoirs in a sample to the measurement procedure and thus may lead to biased 87 Sr/ 86 Sr isotope ratios.</s><s>The determination of 87 Sr/ 86 Sr isotope ratios using any of these instrumental techniques suffers from IIF as well as from interferences and matrix-related effectsif present and remain uncorrected for.</s><s>IIF is corrected for by applying an iCRM being certified for its 87 Sr/ 86 Sr isotope ratio such as NIST SRM 987 to calculate correction factors or carry out isotope delta measurements <ref type="bibr">(Irrgeher and Prohaska 2015b)</ref>.</s><s>The most frequently used approach for correcting IIF in Sr isotope ratio measurements, however, is the so-called conventional method for 87 Sr/ 86 Sr isotope ratios.</s><s>This approach is based on the correction of the measured 87 Sr/ 86 Sr ratio by applying a correction factor for IIF, which was obtained from the measured 86 Sr/ 88 Sr ratio, and the conventional 86 Sr/ 88 Sr ratio set at 0.1194 mol mol -1 <ref type="bibr">(Nier 1938, Steiger and</ref><ref target="#b46" type="bibr">J äger 1977)</ref> by using the exponential law or the power law <ref target="#b50" type="bibr">(Vanhaecke and Kyser 2012)</ref>.</s><s>In either case, adequate digestion procedures are a prerequisite to avoid analyte loss due to incomplete digestion or precipitation, which may scavenge a non-negligible proportion of the analyte.</s><s>Even after Sr purification, substantial parts of the matrix may remain or might be formed due to column bleeding which then may affect the 87 Sr/ 86 Sr isotope ratios due to matrix-induced interferences, signal instability, signal suppression and IIF drift <ref target="#b22" type="bibr">(Irrgeher et al. 2013</ref><ref target="#b12" type="bibr">, Fourny et al. 2016</ref><ref target="#b59" type="bibr">, Zimmermann et al. 2019)</ref>.</s><s>These matrix-related effects and those caused by unsuitable digestion procedures may lead to a bias in the 87 Sr/ 86 Sr isotope ratios <ref target="#b12" type="bibr">(Fourny et al. 2016)</ref>.</s><s>Therefore, the analysis of well-characterised matrix-matched RMs is essential to validate the analytical procedure (including digestion, purification, and measurement) for the selected analyte-matrix combination, as well as to enable quality control measures.</s></p><p><s>Reports of reference values for 87 Sr/ 86 Sr isotope ratios in geological materials are limited to a handful of publications, mostly focused on 87 Sr/ 86 Sr isotope characterisation of silicate rock reference materials <ref target="#b43" type="bibr">(Raczek et al. 2003</ref><ref target="#b0" type="bibr">, Balcaen et al. 2005</ref><ref target="#b56" type="bibr">, Weis et al. 2005</ref><ref target="#b57" type="bibr">, Weis et al. 2006</ref><ref target="#b58" type="bibr">, Yang et al. 2010</ref><ref target="#b12" type="bibr">, Fourny et al. 2016</ref><ref target="#b27" type="bibr">, Jo et al. 2021)</ref> and in one case sediments <ref target="#b9" type="bibr">(Chauvel et al. 2011)</ref>.</s><s>In other fields, especially those of construction chemistry and cementitious materials, matrix-matched reference materials with characterised 87 Sr/ 86 Sr isotope ratios are lacking although heavily needed to validate analytical procedures used for provenance studies of these cementitious materials, especially cement, mortar, and concrete <ref target="#b14" type="bibr">(Graham et al. 2000</ref><ref type="bibr">, Kazlagic et al. 2021</ref><ref target="#b30" type="bibr">, Kazlagić et al. 2022)</ref>, and for possible technological procedures during renovation of historical objects.</s></p><p><s>Therefore, an ILC was organised to characterise 87 Sr/ 86 Sr isotope ratios in cement, limestone, and slate reference materials.</s><s>This ILC study is focused on industrial and related geological reference materials, with four of six reference materials being cements.</s><s>Even though the limestone and slate reference materials included in this study are not used specifically to produce the cement materials used in this study, they have very similar matrices to raw materials used for the cement production.</s><s>Their 87 Sr/ 86 Sr isotopic characterisation is deemed useful for quality control assessment in geochemical as well as technical applications.</s><s>The main objective of this ILC is to provide the scientific community with assigned reference values for the conventional 87 Sr/ 86 Sr isotope ratio of three different types of geological and industrial materials that can be used as matrix-matched RMs for validation and quality control.</s><s>A secondary objective is to evaluate any difference in the application of MC-TIMS and MC-ICP-MS for determining conventional 87 Sr/ 86 Sr isotope ratios.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Study design and mandatory measurand</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Study layout<p><s>Thirteen international laboratories were invited to participate in this study to determine the conventional 87 Sr/ 86 Sr isotope ratios of six powdered cement or rock RMs of which 10 g each were provided.</s><s>These laboratories were selected based on their demonstrated ability to perform metrologically valid isotope ratio measurements or based on their demonstrated specific experience in conventional 87 Sr/ 86 Sr isotope ratio determinations.</s><s>Together with the set of bottled and packed reference materials, all participants received a technical protocol and a reporting template (Electronic Supplementary Material ESM).</s><s>The technical protocol contained detailed guidelines, which were mandatory for the participants.</s><s>First, the minimum number of digestions was set to two digestions per reference material with a minimum sample amount of 100 mg per digestion.</s><s>Second, participants were asked to perform a complete digestion of the reference material.</s><s>Third, Sr needed to be separated from the matrix preferably via chromatographic means to remove interfering Rb and matrix elements with reporting Sr recovery and procedural Sr blanks.</s><s>Fourth, 87 Sr/ 86 Sr isotope ratios measurements had to be determined by using MC-ICP-MS or MC-TIMS.</s><s>Additionally, one measurement of the certified isotope reference material NIST SRM 987 (Sr carbonate isotopic standard, NIST, Maryland, USA) was requested per MC-ICP-MS sequence or MC-TIMS turret, at least three measurements in total.</s><s>Fifth, 87 Sr/ 86 Sr isotope ratio measurements needed to be carried out following the conventional 87 Sr/ 86 Sr isotope ratio method as described below.</s><s>Finally, participants were asked to report any additional quality control measures they carried out, such as conventional 87 Sr/ 86 Sr isotope ratio measurement of reference samples or quality control samples.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Mandatory measurand -conventional 87 Sr/ 86 Sr isotope ratio<p><s>According to ISO 17034 an operationally defined measurand is a "measurand that is defined by reference to a widely accepted measurement procedure to which only results obtained by the same procedure can be compared" (ISO 2017).</s><s>Furthermore, the International Vocabulary of Metrology defines a conventional quantity value as a "quantity value attributed by agreement to a quantity for a given purpose" <ref target="#b4" type="bibr">(BIPM et al. 2012)</ref>.</s><s>Based on these two definitions, the commonly determined 87 Sr/ 86 Sr isotope ratio with internal IIF correction completely fulfils the requirements of an operationally defined measurand and is termed 'conventional 87 Sr/ 86 Sr isotope ratio' with the quantity symbol R con ( 87 Sr/ 86 Sr) and the unit mol mol -1 .</s><s>Even though results obtained with the conventional 87 Sr/ 86 Sr isotope ratio method are not traceable to the International System of Units (SI), the unit mol mol -1 applies here, because R con ( 87 Sr/ 86 Sr) is an isotope ratio relating a method defined amount of 87 Sr to a method-defined amount of 86 Sr.</s><s>Values of R con ( 87 Sr/ 86 Sr) are traceable to the conventional 87 Sr/ 86 Sr isotope ratio method provided all steps of the method are followed and an uncertainty budget is available.</s></p><p><s>The internationally agreed-upon guidelines for obtaining conventional 87 Sr/ 86 Sr isotope ratios are described in the following.</s><s>The measurement method basically relies on the application of mass spectrometry (in most cases MC-TIMS or MC-ICP-MS) and the internal (within the sample measurement) correction of IIF (also known as mass bias) of the measured 87 Sr/ 86 Sr ion intensity ratio via the measured 86 Sr/ 88 Sr ion intensity ratio, whereby the 86 Sr/ 88 Sr isotope ratio is set by convention to exactly 0.1194 mol mol -1 <ref type="bibr">(Nier 1938, Steiger and</ref><ref target="#b46" type="bibr">J äger 1977)</ref>.</s><s>The IIF is obtained by dividing the set value R( 86 Sr/ 88 Sr) = 0.1194 mol mol -1 by the measured 86 Sr/ 88 Sr ion intensity ratio and applying it to correct the measured 87 Sr/ 86 Sr ion intensity ratio by using the exponential law or the power law <ref target="#b17" type="bibr">(Hart and</ref><ref type="bibr">Zindler 1989, Habfast 1998)</ref>.</s><s>Here, the application of the exponential law <ref target="#b17" type="bibr">(Hart and Zindler 1989)</ref> and the use of the atomic weight of the isotopes obtained from the Atomic Mass Evaluation 2020 <ref target="#b55" type="bibr">(Wang et al. 2021)</ref> are preferred.</s><s>This step is the main difference of the conventional 87 Sr/ 86 Sr isotope ratio to the absolute isotope ratio n( 87 Sr)/n( 86 Sr), because stable 86 Sr/ 88 Sr isotope variations are obliterated by the internal IIF correction, and an insufficiently accurate value for the 86 Sr/ 88 Sr isotope ratio is used.</s></p><p><s>Furthermore, the 87 Sr/ 86 Sr isotope ratio of NIST SRM 987 determined by the conventional method is widely accepted to be R con ( 87 Sr/ 86 Sr) = 0.71025 mol mol -1 <ref target="#b11" type="bibr">(Faure and</ref><ref type="bibr">Mensing 2013, McArthur et al. 2006)</ref>, in contrast to the certified value n( 87 Sr)/n( 86 Sr) = (0.710 34 AE 0.000 26) mol mol -1 (NIST 2007), which represents an absolute isotope ratio or isotope amount ratio.</s><s>The difference in these values is obvious because they represent two different quantities of one material, on one side R con ( 87 Sr/ 86 Sr) and on the other side the certified n( 87 Sr)/n( 86 Sr).</s><s>In addition, more than 1900 published results listed in the GeoReM database up to 2019 for R con ( 87 Sr/ 86 Sr) of NIST SRM 987 yield a median value with an associated expanded uncertainty (k = 2) of (0.710 250 AE 0.000 001) mol mol -1 (GeoReM 2019), which confirms the above stated value.</s><s>Therefore, whenever a significant bias (beyond the measurement precision) between the measured value of NIST SRM 987 and the conventional isotope ratio R con ( 87 Sr/ 86 Sr) = 0.710 250 mol mol -1 = 0.710 250 mol mol -1 was detected, it was recommended to use this value to obtain a final correction factor to be consequentially applied to all (sample) measurement results.</s><s>Such a final correction factor may compensate for remaining bias (es) caused for example by differences in the detector efficiencies.</s></p><p><s>By following the exactly prescribed procedure described above and by calculating associated measurement uncertainties, traceability to the internationally agreed convention method is established and comparability between all measurement results obtained by the convention method is thus enabled.</s><s>It has to be noted here that neither the conventional 87 Sr/ 86 Sr isotope ratio method nor the absolute Sr isotope ratio method is preferred over the other, but both methods are valid having their specific pros and cons.</s><s>In this work, however, the focus is on the application of the conventional 87 Sr/ 86 Sr isotope ratio method.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Materials<p><s>Six different powdered RMs were selected for this study, four cement materials and two rock materials (limestone and slate) representing two potential raw materials of cement, i.e., limestone and siliceous clay or marl.</s><s>A description of each RM can be found below.</s><s>More details are available following the cited references.</s><s>All six materials are RMs designed to be used for validation and quality control purposes in quantitative analysis of major and trace elements therein.</s><s>Upon arrival of all reference materials to the pilot laboratory, they were opened unit by unit and transferred into smaller pre-cleaned PP-bottles, in batches of approximately 10 g of RM per bottle, so that each bottle can be tracked back to the original RM unit.</s><s>Each bottle was labelled with the original RM's name, the original unit number and the sub-unit number, which corresponds to the lab ID.</s><s>Thereafter each bottle was sealed in polyethylenealuminium-composite foil bags and bottles with identical sub-unit numbers were sorted to sets of six bottles containing one bottle of each reference material.</s><s>After completing this step, the sample sets were shipped to the participants.</s><s>IAG/CGL ML-3 is a powdered limestone from Mongolia, which has been blended before homogenisation with a small amount of clay to increase the silica and trace elemental contents.</s><s>The material contains mainly calcite with a few percent each of magnesite, quartz and albite and trace amounts of muscovite, amphiboles, and magnetite (IAG 2016).</s><s>The material was certified in a joint project between the International Association of Geoanalysts (IAG) and the Central Geological Laboratory of Mongolia for several elemental mass fractions (major as well as trace elements).</s><s>The strontium mass fraction in the certified reference material with its associated expanded uncertainty</s></p><formula xml:id="formula_0">(k = 2) is: w(Sr) = (1018 AE 30) mg kg -1 .</formula><p><s>IAG OPC-1 is an ordinary Portland cement, which was produced by PPC Ltd., Republic of South Africa.</s><s>The material was used in the GeoPT scheme round 26 run by IAG, where the reference values and information values of many major and trace elements resulted from <ref type="bibr">(IAG 2015)</ref>.</s><s>The strontium mass fraction in the reference material with its associated expanded uncertainty (k = 2) is: w(Sr) = (118.2</s><s>AE 2.1) mg kg -1 (IAG 2015).</s><s>was deposited as mud and recrystallised during low grade metamorphism.</s><s>The slate is homogenous except for occasional green reduction spots and crystals of pyrite (IAG 2020).</s></p><p><s>The material was used in the GeoPT scheme round 9 run by IAG, where the reference values and information values of many elements resulted from <ref target="#b28" type="bibr">(Kane 2004</ref>).</s><s>The OU-6 material was certified by the IAG for elemental mass fractions.</s></p><p><s>The strontium mass fraction in the certified reference material with its associated expanded uncertainty (k = 2) is:</s></p><formula xml:id="formula_1">w(Sr) = (132 AE 2) mg kg -1 (IAG 2020).</formula><p><s>VDZ100a is a Portland cement (CEM I 42,5 R), which was characterised for several elemental mass fractions in an interlaboratory comparison run by the Association of German Cement producers (Verein Deutscher Zementwerke e.V., Düsseldorf, Germany (VDZ)).</s><s>The strontium mass fraction in the reference material with its associated expanded uncer-</s></p><formula xml:id="formula_2">tainty (k = 2) is: w(Sr) = (1107 AE 50) mg kg -1 (VDZ 2022a).</formula><p><s>VDZ200a is a Portland-composite-cement (CEM II/B-M (S, LL 32.5 R), which was characterised for several elemental mass fractions in an interlaboratory comparison run by the Association of German Cement producers (VDZ).</s><s>The strontium mass fraction in the reference material with its associated expanded uncertainty (k = 2) is:</s></p><formula xml:id="formula_3">w(Sr) = (1922 AE 394) mg kg -1 (VDZ 2022b).</formula><p><s>VDZ300a is a blast furnace cement (CEM III/B 42.5 N LH/SR/NA), which was characterised for several elemental mass fractions in an interlaboratory comparison run by the Association of German Cement producers (VDZ).</s><s>The strontium mass fraction in the reference material with its associated expanded uncertainty (k = 2) is: w(Sr) = (811 AE 49) mg kg -1 (VDZ 2022c).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Applied methods and procedures</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Analytical procedures and participating laboratories<p><s>All procedures such as weighing, sample dissolution and Sr separation were performed in a clean laboratory environment in the participants' laboratories.</s><s>Procedural blanks for Sr as reported by the majority of the laboratories range from less than 2.7 ng down to 0.006 ng.</s><s>Two laboratories did not report a procedural blank.</s><s>Sample decomposition was realised either by acid digestion carried out in closed Teflon vials on a hot plate and using various acid mixes, assisted by microwave, or using a digestion bomb or by flux fusion (LiBO 2 ).</s><s>The amount of sample used for each independent sample preparation ranged between 100 mg and 600 mg.</s><s>Subsequent isolation of Sr was carried out using either a cationic ion exchange resin (e.g., BioRad AG 50W X8) or extraction chromatographic resins (e.g., Sr Spec or DGA, both Triskem).</s><s>Both manual as well as automated procedures for Sr separation were performed by the participants.</s><s>More details on the applied analytical procedures, including exact sample masses used for dissolution, sample digestion protocols, reagents used, ion exchange chemistry and recovery of Sr during the matrix separation, can be obtained from the online supporting information Appendix S1.</s></p><p><s>The thirteen participating laboratories produced a total of 102 measurement results for the six reference materials, each result comprising a measured value of R con ( 87 Sr/ 86 Sr) and an evaluation of the associated measurement uncertainty.</s><s>Three laboratories (BAM, IA and MUL) performed measurements using both MC-ICP-MS and MC-TIMS.</s><s>USGS provided measurement results obtained by two different MC-ICP-MS instruments (Nu Plasma 3 and a Nu Plasma 1).</s><s>All other participants used either MC-ICP-MS or MC-TIMS.</s><s>Hence, for each material seventeen compound results were obtained.</s><s>Additionally, most of the laboratories provided data on quality control (QC) materials analysed in parallel to the ILC reference materials.</s><s>To enable an evaluation of the QC measurements, reference values were calculated as the median with the associated expanded measurement uncertainty of all data listed in GeoReM as of 14 September 2022.</s><s>Metrological compatibility between measured and reference values was assessed by calculating the so-called normalised error (E n ).</s><s>The mathematical background is presented in Equations ( <ref type="formula">1</ref>) to (3), where x i and x ref represent the measured and the reference value, d i represents the difference of both values, u represents the corresponding standard uncertainties, U the expanded uncertainty and cov represents the covariance.</s><s>Consequentially, two values are metrologically compatible, when their associated E n value is ≤ 1.</s></p><formula xml:id="formula_4">d i ¼ x i Àx ref (1) u 2 d i ð Þ ¼ u 2 x i ð Þ þ u 2 x ref ð ÞÀ2 Á cov x i , x ref ð Þ (2) E n ¼ d i j j U d i ð Þ (3)</formula><p><s>The measured R con ( 87 Sr/ 86 Sr) values of the QC materials are provided in Table <ref type="table">1</ref> together with the corresponding reference values (GeoReM 2022), the associated measurement uncertainties, the normalised errors and the institute acronyms and Lab IDs.</s><s>According to the calculated E n values, which are all below 1, all reported 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) for QC materials are metrologically compatible with the reference values.</s><s>This demonstrates that the applied analytical procedures are validated.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Statistical evaluation and value assignment<p><s>Comparability of the data: ILC studies in measurement science have the task to compare measurement results obtained independently and to produce a consensus value for the common measurand that combines the values measured by the participants <ref target="#b32" type="bibr">(Koepke et al. 2017)</ref>.</s><s>The requirements for such a comparison are that all performed measurements were traceable to the same source or reference, which in turn requires measurement uncertainties associated with the measurement results.</s><s>Both requirements are fulfilled for this study, as all results were accompanied by an uncertainty estimate and are traceable to the conventional method for 87 Sr/ 86 Sr isotope ratio measurements as described above.</s></p><p><s>All participants of this ILC study were asked to provide a measurement uncertainty for each final result submitted.</s><s>Three laboratories have their own strategies available for calculating the measurement uncertainties for R con ( 87 Sr/ 86 Sr), which will be explained in the following.</s><s>Laboratories which had no specific approach for calculating the measurement uncertainty used the calculation approach of Lab 15 (BAM).</s></p><p><s>Lab 06 (MUL) calculated the uncertainty budget for R con ( 87 Sr/ 86 Sr) of the six RMs measured using MC-ICP-MS after flux fusion (LiBO 2 ) using a Kragten approach according to the protocol of <ref target="#b20" type="bibr">Horsky et al. (2016)</ref>.</s><s>Here, the Sr procedure Table <ref type="table">1</ref>.</s><s>Measurement results for R con ( 87 Sr/ 86 Sr) as obtained by the participating laboratories for specific quality control materials, together with the associated expanded measurement uncertainties.</s><s>Laboratory acronyms and Lab IDs are provided as well.</s><s>To assess the measurement results of the quality control materials, the reference values and the corresponding normalised errors, (E n ) are also displayed e For the material BR only two exactly equal values, 0.703 890 mol mol -1 , are listed, which do not allow an uncertainty estimate.</s><s>Therefore, the median of the expanded uncertainties (0.000 007 mol mol -1 ) of the here used reference samples is taken instead.</s></p><formula xml:id="formula_5">LAB ID Lab. Instrument QC material Producer a R con 87=86 (Sr) / (mol mol -1 ) E n Measured U, k = 2 b Reference c U, k = 2 d 1 GZG MC-ICP-MS JCp-1 GSJ 0.</formula><p><s>f For the material COQ-1 two values exist, which does not allow the calculation of the median and the MAD E .</s><s>Therefore, the half of the absolute difference between both values was taken as u.</s></p><p><s>g For the material NASS-6 only one entry exists in GeoReM with a value of 0.709 179 mol mol -1 , which does not enable an uncertainty calculation.</s><s>NASS-6 and IAPSO are both seawater from the open North Atlantic Ocean.</s><s>Therefore, the IAPSO value of (0.709 178 AE 0.000 007) mol mol -1 can be used instead, because open Ocean seawater shows homogenous R con ( 87 Sr/ 86 Sr) values.</s></p><p><s>blank, the Rb correction, the precision of the 86 Sr/ 88 Sr and 87 Sr/ 86 Sr isotope ratios of the sample, as well as the withinrun-repeatability of R con ( 87 Sr/ 86 Sr) of repeatedly measured NIST SRM 987 as proxy for instrument stability were considered as main contributors to the uncertainty budget.</s></p><p><s>In addition, the Nordtest approach according to N äykki et al. (2012) was applied as an uncertainty estimation for R con ( 87 Sr/ 86 Sr) of the six RMs measured using MC-ICP-MS after flux fusion (LiBO 2 ).</s><s>To this end, the result of the QC sample (BHVO-2) was used and its within-laboratory reproducibility (intermediate measurement precision according to BIPM et al. 2012) and its method bias were considered as main contributors to the uncertainty.</s><s>Both, the bottom-up Kragten and the top-down Nordtest approach resulted in comparable relative uncertainties of about 0.014 % (U rel , k = 2) which was mainly the result from the blank contribution of the fusion material (LiBO 2 ).</s></p><p><s>Lab 11 (PTB) used a kind of holistic approach, within which all measured ratios were combined for the final value q and its associated measurement uncertainty u q ð Þ.</s><s>The final value q was calculated as the mean of N k × N j × N i = 3×4×10 = 120 single values q k,j,i .</s><s>The single values were acquired within twelve sequences (N k = 3 aliquots with N j = 4 sequences per aliquot).</s><s>Within each sequence N i = 10 values were measured.</s><s>To denote the aliquot the index k, to denote the particular sequence the index j, and to denote the single measurement within a sequence the index i were used.</s><s>The combined uncertainty u q ð Þ associated with the final value was calculated according to eqn. 4, which basically sums up the mean uncertainty within a sequence and the uncertainty between sequences (Henrion 1998), neglecting any homogeneity contributions (cf.</s><s>figure S1 in the ESM).</s></p><p><s>Please note that every single value of the ten within a single sequence was originally calculated from thirty integration cycles (2 s each) plus the adjacent 2 × 30 two-second-integration cycles of the NIST SRM 987 reference solution bracketing each of the ten measurements within every sequence.</s></p><p><s>Lab 15 (BAM) applied a straightforward and pseudo top-down approach for calculating the measurement uncertainties for R con ( 87 Sr/ 86 Sr) measurements which is based on eqn. 5.</s><s>This uncertainty evaluation is based on the principles as found in the Guide to the Expression of Uncertainty in Measurement <ref target="#b3" type="bibr">(BIPM et al. 2008)</ref>.</s><s>The following five uncertainty components were included in the calculation below: 1) repeatability s R of independently processed homogeneous samples; 5) the bias Δ cert QC ¼ R QC con ÀR cert con of the measured R con ( 87 Sr/ 86 Sr) in the processed QC sample against its reference value R cert con (e.g., value published in GeoReM database).</s><s>This approach was used by all participants who did not have any internal approach to calculate the measurement uncertainty.</s><s>In case the participants were not experienced in these calculations, a scientist from Lab 15 performed the calculations in cooperation with the participant after the measured values had been submitted.</s><s>Tests showed that when using the approaches of either Lab 06 and Lab 15, or Lab 11 and Lab 15, with the same input data, similar measurement uncertainties are obtained.</s></p><formula xml:id="formula_6">u q ð Þ ¼ q Á ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ∑ N k k¼1 ∑ Nj j¼1 ffiffiffiffiffiffiffiffi ffi Ni À1 Ni À3 q ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ∑ N i i¼1 q k,j,i Àq k,j ð Þ 2 N i Á N i À1 ð Þ s q k,j 0 B B B B @ 1 C C C C A 2 N k Á N j þ ∑ 3 k¼1 ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ∑ N j j¼1 q k,j Àq k ð Þ 2 N j À1 s q k 0 B B B B @ 1 C C C C A 2 N k v u u u u u u u u u u t (4) u c,rel R con 87 Sr= 86 Sr ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi s R smp con À Á R smp con 2 þ s R ref con R ref con 0 @ 1 A 2 þ Δ lit ref R lit con ! 2 þ s R smp con R smp con 0 @ 1 A 2 þ Δ cert QC R cert con 2 v u u u t<label>(</label></formula><p><s>The final laboratory values consisting of R con ( 87 Sr/ 86 Sr) for each ILC material and their associated measurement uncertainties (calculated as described above) are the input data (Table <ref target="#tab_2" type="table">2</ref>) for the statistical evaluation.</s><s>All data within this study are presented with six significant digits to enable a better readability and comparability of the values for the reader, although it is known that it violates the GUM guideline <ref target="#b3" type="bibr">(BIPM et al. 2008)</ref> of presenting two significant digits of the uncertainty to some extent.</s></p><p><s>The statistical model: The consensus values for the six RMs in this study are based on a Gaussian, linear mixed effects model fitted to all the measurement results, with fixed effects for the materials and the type of the measuring instrument (MC-TIMS or MC-ICP-MS), and with random effects for the participating laboratories <ref target="#b40" type="bibr">(Pinheiro and Bates 2000)</ref>.</s><s>The modelling choice made for the participants' effects regards them as representative of the community of expert laboratories that are capable to measure this isotope ratio with a comparable reliability.</s></p><p><s>The laboratory effects are modelled as Gaussian random variables with 0 as the mean and standard deviation τ (often called "dark uncertainty" <ref target="#b48" type="bibr">(Thompson and Ellison 2011)</ref> because it becomes apparent only once results obtained by different laboratories working independently are compared).</s><s>The estimate of τ is small but significantly different from 0 according to a likelihood ratio test performed using the facilities provided by R (R Core Team 2022) package RLRsim <ref target="#b44" type="bibr">(Scheipl et al. 2008)</ref>: it amounts to 27 % of the median of the reported uncertainties for R con ( 87 Sr/ 86 Sr).</s></p><p><s>The dark uncertainty can be interpreted as the "extra" uncertainty that is required to make the results mutually consistent.</s><s>The sole material for which the measurement results exhibit marginally significant dark uncertainty is IAG OPC-1 (the corresponding p-value, when the presence of dark uncertainty is tested separately for each material, is 0.046).</s><s>The standard deviation of the measured values of the isotope ratio for this material is 0.000 052 mol mol -1 , while the median of the standard uncertainties reported by the participating laboratories is 0.000 041 mol mol -1 .</s><s>This means that the measured values are more dispersed than their "typical" reported uncertainty suggest that they should be.</s><s>The "excess" dispersion, expressed in mol mol -1 , can be naively quantified thus: sqrt(0.000052 2 -0.000041 2 ) = 0.000032.</s><s>In our statistical model, which takes the results for all materials into account simultaneously, dark uncertainty was estimated in a more sophisticated way, which yielded only 0.000 007 mol mol -1 .</s><s>This is the reason why, in Figure <ref type="figure">3</ref>, the vertical, thin (dark blue) line segments have lengths that are imperceptibly different from the vertical, thick (green) line segments.</s></p><p><s>Similarly to what was noted above for the materialspecific consensus values, this estimate of τ represents an "average" across all materials with the material-specific estimates of τ likely be different.</s><s>The model was fitted using R function "lmer" defined in package "lme4" <ref target="#b1" type="bibr">(Bates et al. 2015)</ref>.</s><s>Examination of the diagnostics, depicted in Figure <ref target="#fig_2" type="figure">1</ref>, QQ-plot of the residuals and plot of the residuals against the fitted values, reveals somewhat excessive heaviness of the tails of the probability distribution of the residuals, and suggests some heterogeneity of the dispersion of the residuals for the different materials.</s></p><p><s>The consensus values (marginal means), their standard uncertainties, and 95 % confidence intervals for their true values (Table <ref type="table">3</ref>) were computed using R function "emmeans" defined in the package of the same name (Length 2022, <ref target="#b45" type="bibr">Searle et al. 1980)</ref>.</s><s>The model for R con ( 87 Sr/ 86 Sr), denoted "r" below, expressed in the stylised notation used in the R environment for statistical computing, is "r ∼ material + inst + (1|lab)", where "inst" denotes the type of instrument used, and "lab" denotes the participating laboratory.</s><s>This stylised notation implies that the model is Table <ref type="table">3</ref>. Consensus values for the 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) for all materials with standard uncertainties u, degrees of freedom, ν char , and with the lower and upper endpoints of 95 % confidence intervals for the consensus values linear, and that "lab" is a random effect.</s><s>The model was fitted using the restricted maximum likelihood criterion (REML) <ref target="#b40" type="bibr">(Pinheiro and Bates 2000)</ref>.</s><s>The laboratory (random) effects were evaluated using facilities provided by R package "merTools" <ref target="#b31" type="bibr">(Knowles and Frederick 2020)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Theoretical</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results and discussion<p><s>Reported 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) and associated uncertainties</s></p><p><s>In total the thirteen participating laboratories reported seventeen datasets and 102 R con ( 87 Sr/ 86 Sr) measurements for the six investigated RMs using the provided Excel template.</s><s>The result together with their associated standard uncertainties are listed in Table <ref target="#tab_2" type="table">2</ref>, while all other data and metadata can be found in Appendix S1.</s></p><p><s>The observed spread of the reported results for each material expressed as the standard deviation s ranges around 0.000 010 mol mol -1 except for IAG OPC-1 and OU-6 where it is 0.000 052 mol mol -1 and 0.000 031 mol mol -1 , respectively.</s><s>Likewise, the reported standard uncertainties for these materials ranging between 0.000 007 mol mol -1 and 0.000 125 mol mol -1 are larger as well, compared with the other materials where they range between values of 0.000 005 mol mol -1 and 0.000 021 mol mol -1 .</s><s>The exception here is laboratory 6 MUL (I) with standard uncertainties from 0.000 045 mol mol -1 to 0.000 062 mol mol -1 , which could easily be explained by the applied flux fusion (LiBO 2 ) for digesting the samples and the related high procedure blank.</s><s>The larger spread of the results and the greater standard uncertainties for IAG OPC-1 and OU-6 point to additional difficulties with the sample material such as a potential heterogeneity or increased difficulty in achieving complete digestion.</s><s>A few of the participating laboratories digestion procedures have been optimised in terms of time and acid combinations to realise complete sample digestion of IAG OPC-1 and OU-6.</s><s>Great care must be taken when applying standard digestion procedures without further testing for these two materials.</s></p><p><s>Further statistical data analysis is carried out in the following subsections focussing on three main questions: (a) Is there a statistically significant difference between MC-ICP-MS and MC-TIMS reported data?</s><s>(b) Do laboratory effects differ significantly from 0 (is there any statistically significant dark uncertainty)?</s><s>(c) What are the consensus values, and associated uncertainties for the six RMs?</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Comparison of MC-ICP-MS and MC-TIMS and assessment of laboratory effects<p><s>To evaluate a significant difference between the measurements made using MC-ICP-MS and MC-TIMS (question (a)), the mean values of both techniques were calculated across the six RMs.</s><s>The means, over all materials and laboratories, consistent with the model, are 0.715 031 mol mol -1 (with a standard uncertainty u = 0.000 002 mol mol -1 on five degrees of freedom) for MC-ICPMS, and 0.715 035 mol mol -1 (u = 0.000 003 mol mol -1 on six degrees of freedom) for MC-TIMS.</s><s>These degrees of freedom were computed using the Kenward-Roger method (Length 2022).</s><s>The standardised difference between these means has an absolute value 1.07 on 10.6 effective degrees of freedom, computed using the Welch-Satterthwaite approximation <ref type="bibr">(BIPM et al. 2008, Annex G.4</ref>).</s><s>The corresponding p-value is 0.3, suggesting that the difference does not differ significantly from 0. Therefore, this result shows that there is no statistically significant difference between the measurements made using MC-ICP-MS and MC-TIMS when they are compared across all six RMs.</s><s>Alternatively, the mean values for MC-ICP-MS and MC-TIMS can be calculated for each material with their associated measurement uncertainties.</s><s>The absolute differences between the mean values of MC-TIMS and MC-ICP-MS are equal to or less than 0.000 006 mol mol -1 for IAG CGL ML3, VDZ-100a, VDZ-200a, and VDZ-300a, while they are 0.000 016 mol mol -1 for IAG OPC-1 and 0.000 026 mol mol -1 for IAG OU-6.</s><s>For all six RMs, however, the individual normalised errors E n for the comparison of MC-ICP-MS with MC-TIMS (for each material) are significantly below 1.</s><s>Thus, 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) for the six RMs are metrologically compatible, in other words indistinguishable and equally valid, regardless of whether it was determined by MC-ICP-MS or MC-TIMS.</s></p><p><s>To answer the question (b), the estimated laboratory effects and their 95 % expanded uncertainties were compared against 0 mol mol -1 , as depicted in Figure <ref target="#fig_4" type="figure">2</ref>. Here, the effect for Lab 05 differs significantly from 0 mol mol -1 , indicating that this laboratory tended to measure "low" on average.</s><s>However, this effect is less than 0.000 015 mol mol -1 in absolute value.</s><s>Laboratory-specific effects are attributable to differences in the sample preparation techniques, in Sr separation methods, and in procedures for correcting the data outputs.</s><s>No other laboratory effects could be observed.</s><s>Sample heterogeneity may influence the laboratory effects as well.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Evaluation of consensus values<p><s>The reported results for 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) for six RMs with their associated standard uncertainties and dark uncertainties are presented in Figure <ref type="figure">3</ref>.</s></p><p><s>The assigned consensus values of the 87 Sr/ 86 Sr ratios R con ( 87 Sr/ 86 Sr) for all materials with associated standard uncertainties (question (c)) were obtained as described in the section 'The statistical model' and plotted in Figure <ref type="figure">3</ref>.</s><s>For IAG CGL ML-3, VDZ 100a, VDZ 200a, and VDZ 300a excellent agreement was realised at the level of the standard uncertainties.</s><s>For IAG OPC-1 and IAG OU-6 the spread of results is significantly larger, pointing to potential difficulties with complete sample digestion and/or sample heterogeneity.</s><s>However, good agreement was achieved for the majority of the labs at the level of the expanded uncertainties (U, k = 2).</s></p><p><s>Since the statistical model was fitted to all the measurement results together, it produces estimates of the consensus values for the 87 Sr/ 86 Sr isotope ratio R con ( 87 Sr/ 86 Sr) that are specific to each RM but average the measured values over the two types of instruments which have no significant differential effects.</s><s>The model also exploits information on the differential effects of the laboratories by averaging them across all RMs.</s><s>If the same model was fitted to the measurement results for each material separately, the consensus values likely would be slightly different from those listed above, and the uncertainties slightly larger.</s><s>The assigned standard uncertainties for the consensus values of the RMs range from 0.000 002 mol mol -1 to 0.000 009 mol mol -1 .</s></p><p><s>The assigned consensus values for the 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) for all RMs with their associated standard uncertainties are listed in Table <ref type="table">3</ref>.</s><s>These results are based on a model fitted to all the measurement results; hence they are averaged over the two types of applied measurement instruments, which have no significant differential effects.</s><s>The entries "lower endpoint" and "upper endpoint" (Table <ref type="table">3</ref>) are the lower and upper endpoints of the 95 % confidence intervals for the consensus values.</s><s>Furthermore, the standard uncertainty and the interval for IAG OPC-1 were computed using the statistical bootstrap via resampling of the model residuals <ref type="bibr">(Davison and Hinckley 1997)</ref>.</s><s>More information, e.g., single measurement values reported by the participants is listed in Appendix S1.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Comparison with other studies<p><s>Based on the literature record no known ILC or proficiency testing for R con ( 87 Sr/ 86 Sr) has been published.</s><s>This includes no metrologically sound comparison of MC-ICP-MS with MC-TIMS on 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) has yet to be conducted.</s><s>Additionally, Sr isotope data are generally compared with published R con ( 87 Sr/ 86 Sr) data of RMs commonly used for QC in geochemistry, although the data were typically generated not following a sufficiently well-documented procedure concerning metrological principles nor were they reported with an uncertainty estimate including all relevant uncertainty contributions.</s><s>A large proportion of publications report 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) but does not explicitly state the specific difference to absolute n( 87 Sr)/n( 86 Sr) isotope ratios or do not present a data evaluation approach for 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) (see above: Mandatory measurand -conventional 87 Sr/ 86 Sr isotope ratio).</s><s>If no detailed statement or methodology regarding R con ( 87 Sr/ 86 Sr) data is provided in a publication, it can be assumed that those data are achieved by internal correction using R( 86 Sr/ 88 Sr) = 0.1194 mol mol -1 ; however, the use of the reference value R con ( 87 Sr/ 86 Sr) = 0.710 250 mol mol -1 for NIST SRM 987 and a correction to this value is not certain.</s><s>When absolute n( 87 Sr)/n( 86 Sr) isotope ratios are reported the methodology is typically described in detail and the isotope ratio term is clearly identified (e.g., <ref target="#b47" type="bibr">Tchaikovsky et al. 2019)</ref>.</s></p><p><s>Rock RMs are the type of material investigated most often for R con ( 87 Sr/ 86 Sr), with reporting an 'external precision' instead of measurement uncertainties.</s><s><ref target="#b12" type="bibr">Fourny et al. (2016)</ref> analysed 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) in geological RMs, including pyroxenite, basalts, diabase, dolerite, norite and anorthosite.</s><s>The reported 'external precision' expressed as 2s, is ≤ 0.000 030 mol mol -1 <ref target="#b12" type="bibr">(Fourny et al. 2016)</ref>.</s><s>Repeatability, also known as "internal precision", expressed as 2s m , and reported by <ref target="#b56" type="bibr">Weis et al. (2005)</ref> in their study on 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) in basalts (BHVO-1 and BHVO-2) was ≤ 0.000 020 mol mol -1 .</s><s>In another study <ref target="#b57" type="bibr">Weis et al. (2006)</ref>  geological RMs (basalts, andesite, rhyolite, syenite, granodiorite, and granite) both by MC-ICP-MS and MC-TIMS and obtained an 'external precision', expressed as 2s, of ≤ 0.000 022 mol mol -1 with the exception of GSP-2 which for 0.000 075 mol mol -1 was reported suspected as inhomogeneity issue at a sample mass level of 100 mg.</s><s>By aliquots of the first releases of the USGS RMs BCR-1, BHVO-1, AGV-1 and GSP-1 as well as in the second release of the RMs BCR-2, BHVO-2, AGV-2 and GSP-2.</s><s>The reported 'external precision' (2s) was 0.000 034 mol mol -1 <ref target="#b43" type="bibr">(Raczek et al. 2003)</ref>.</s><s>Another study on 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) in silicate reference materials was published by <ref target="#b0" type="bibr">Balcaen et al. (2005)</ref>.</s><s>Therein, the MC-ICP-MS results obtained for the RMs G-2, AGV-1 and BCR-1 agreed with the corresponding MC-TIMS values with a difference between both instruments of ≤ 0.000 022 mol mol -1 in all cases.</s><s>In our study the expanded measurement uncertainty, U, of the consensus value corresponds to 95 % confidence.</s><s>For all cases the expanded measurement uncertainty was ≤ 0.000 007 mol mol -1 , except for IAG OPC-1 where it was 0.000 024 mol mol -1 .</s><s>The difference between MC-ICP-MS and MC-TIMS was ≤ 0.000 005 mol mol -1 for IAG CGL ML3, VDZ-100a, VDZ-200a and VDZ-300a, while for IAG OPC-1 and OU-6 the difference was 0.000 016 mol mol -1 and 0.000 027 mol mol -1 , respectively, all covered by the associated measurement uncertainties.</s><s>In terms of pure numbers and ignoring that our study presents measurement reproducibility whilst the cited studies present intermediate measurement precision, the performance of the cited studies was matched or even exceeded.</s><s>By providing measurement uncertainties calculated according to international guidelines with validated analytical procedures quality levels of routine measurements were exceeded, which is one of the requirements for providing reference values.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Homogeneity and minimum sample mass<p><s>With the first screening of the reported results, a larger spread for IAG OPC-1 and OU-6 compared with the other reference materials could be observed.</s><s>As already stated, this might be attributed to material heterogeneity but also to increased difficulties with sample digestion.</s><s>This issue requires additional attention prior to reference value assignment.</s><s>Experiences in reference material production typically show an increase in heterogeneity with decreasing sample mass (also termed 'test portion').</s><s>Therefore, the reproducibility for each material, as reported by each lab, was plotted versus the mean sample mass used for individual digestions (Figure <ref target="#fig_5" type="figure">4</ref>).</s><s>It is obvious that for IAG OPC-1 and OU-6 the reproducibility gets worse with decreasing sample mass, while for the other materials no clear effect can be observed.</s><s>This suggests sample heterogeneity concerning the 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr).</s><s>It has to be noted here, that typically such investigations are performed with one analytical procedure by using different sample masses.</s><s>In the present study different sample preparation procedures have been applied by the individual laboratories and therefore the variability of these is contained in Figure <ref target="#fig_5" type="figure">4</ref> as well.</s><s>In summary it can be stated that a minimum sample mass of 100 mg works well for IAG CGL ML-3, VDZ 100a, VDZ 200a, and VDZ 300a and still provides satisfying results for IAG OPC-1 and OU-6.</s><s>More reproducible 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) can be obtained for IAG OPC-1 and OU-6 with a minimum sample mass of 200 mg; this also accounts for other complex silicate rocks.</s></p><p><s>The findings on the minimum sample mass suggest significant heterogeneity for low sample mass at least for some materials.</s><s>Therefore, an uncertainty contribution for potential heterogeneity is added, when assigning a reference value to all six materials.</s><s>A complete homogeneity study, however, was not possible, because insufficient information on the reference material batch (e.g., batch size, preparation procedure) and too few units of the reference materials were available.</s><s>In the ILC documentation information on all subsamples, the original reference material units they have been derived from, and the laboratory the subsamples have been sent to were available.</s><s>To get an estimate for a potential sample heterogeneity the mean values of each RM unit were calculated and then the means of the RM units were averaged for each RM.</s><s>The associated standard deviations, s i , and the associated degrees of freedom, ν i , were further processed by applying a Bayesian model to estimate the true values of s i and ν i .</s><s>This model involves a gamma likelihood function and a Cauchy prior distribution for the true values of ν i .</s><s>The medians of these posterior distributions give the estimates of the true variances which in turn results in uncertainty contribution due to homogeneity/inhomogeneity, u hom , after calculating the square root (Table <ref target="#tab_5" type="table">4</ref>).</s><s>It has to be noted here that IAG OPC-1 and IAG OU-6 show a larger spread of the between-bottle means compared with all other RMs, which is reflected to some extent in the between-bottle uncertainty contributions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Assignment of reference values<p><s>According to international guidelines and standards (e.g., ISO 17034 and ISO Guide 35) certification is the combination of all available results and data including, but not exclusively: homogeneity, stability, and characterisation in order to assign certified values with their associated uncertainties with the ultimate goal to approve the certificates and the certification report.</s><s>The authors are not capable of conducting any certification of these materials according to ISO 17034 as they do not possess ownership of the RMs.</s><s>However, reference values can be assigned to the investigated reference materials within the scope of this publication.</s><s>An assessment of the homogeneity of the was made in the previous subsection; one on stability is not deemed necessary.</s><s>The main reasons for this are the stability of the matrix under the specified conditions and the stability of the analyte.</s><s>Analyte loss caused by volatile analyte species is not expected and contamination is extremely unlikely.</s><s>Additionally, the isotope ratios do not change as long as no loss or gain of analyte occurs.</s><s>Finally, characterisation of the material concerning the measurand, the 87 Sr/ 86 Sr isotope ratio R con ( 87 Sr/ 86 Sr), was realised within the ILC study.</s><s>Consequentially, the data from the homogeneity assessment and the ILC study are combined for the assignment of reference values to the six materials (Table <ref type="table">5</ref>).</s><s>In fact, the standard uncertainty of the consensus value and the uncertainty from the homogeneity assessment are quadratically added that the square root thereof yields the combined standard uncertainties of the assigned reference value with values ranging between u c = 0.000 003 mol mol -1 and u c = 0.000 022 mol mol -1 .</s><s>The effective degrees of freedom, ν eff , which were obtained using the Welch-Satterthwaite formula <ref type="bibr">(equation G.2, BIPM et al. 2008</ref>) and the data from characterisation and homogeneity assessment, define the coverage factors needed to yield the expanded measurement uncertainty corresponding to a 95 % confidence interval.</s><s>The resulting coverage factors range from k = 2.00 to k = 2.09 yielding relative expanded uncertainties of all RMs of ≤ 0.007 %.</s><s>The 87 Sr/ 86 Sr isotope ratio R con ( 87 Sr/ 86 Sr) = 0.708 246 mol mol -1 of the limestone RM CGL ML3 is consistent with a marine origin of the carbonate raw material used during the RM production.</s><s>Given that the Sr mass fraction of IAG CGL ML3 (w(Sr) = 1018 mg kg -1 ) is high and the Sr mass fraction of silicates can plausibly be assumed to be much lower, it is not very likely (but it cannot be excluded) that the small amount of admixed clay material (≈ 5 %) has shifted the bulk 87 Sr/ 86 Sr isotope ratio R con ( 87 Sr/ 86 Sr) of IAG CGL ML3 away from the original marine carbonate signature, even if the admixed silicate phases contain a radiogenic 87 Sr/ 86 Sr signature.</s><s>Assuming a radiogenic 87 Sr/ 86 Sr signature of the clay admixture, the original carbonate component of the limestone from Mongolia should have a less radiogenic 87 Sr/ 86 Sr isotope ratio R con ( 87 Sr/ 86 Sr) than the bulk RM with R con ( 87 Sr/ 86 Sr) = 0.708 246 mol mol -1 .</s></p><p><s>The slate RM OU-6 resulted in a radiogenic 87 Sr/ 86 Sr isotope ratio R con ( 87 Sr/ 86 Sr) = 0.729 778 mol mol -1 consistent both with the geologically old (Cambrian) deposition age of the rock and the relatively high Rb mass fraction of 121 mg kg -1 .</s><s>In relation to the Sr mass fraction of 132 mg kg -1 this results in a Rb/Sr ratio of approximately 0.92, which caused a significant 87 Sr ingrowth by 87 Rb decay over time.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusion and outlook<p><s>We assigned reference values for 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) to the investigated reference materials of cement, limestone and slate, and evaluated differences in the application of MC-TIMS and MC-ICP-MS.</s><s>Here, no statistically significant effects attributable to differences between the instrumental techniques employed for measuring 87 Sr/ 86 Sr isotope ratios were observed, neither when testing for all RMs together nor when testing for each RM individually.</s><s>Reference values were assigned to the RMs, ranging from low, so-called 'non-radiogenic' signatures, to high, very 'radiogenic' signatures.</s><s>Associated measurement uncertainties were calculated including the uncertainties of the consensus values and uncertainty contributions from homogeneity assessment.</s><s>All 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) measured in this study, but especially the reference values, are traceable to the conventional method, defined and described in detail in this publication.</s><s>Hence, the RMs IAG CGL ML-3, IAG OPC-1, IAG OU6, VDZ 100a, VDZ 200a and VDZ 300a characterised in this study are recommended for use as RMs to verify the performance of instruments, validate analytical procedures including sample digestion and Sr separation, calculate measurement uncertainties as well as for monitoring the measurement trueness and assessing the quality of Sr isotope ratio measurements.</s></p><p><s>In this ILC on 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) metrological principles were considered and the metrological compatibility of R con ( 87 Sr/ 86 Sr) measurement results obtained by MC-ICP-MS and MC-TIMS was demonstrated.</s><s>The work carried out in this study is not considered for informational purposes only, but also to provide the user community with traceable and reliable R con ( 87 Sr/ 86 Sr) values for commonly available RMs.</s><s>Thus, laboratories can use these data, without the need for additional quality assessment and data treatment.</s><s>This interlaboratory comparison study is a sound example of characterising 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) in industrial and geological materials.</s><s>It should serve as an example for future ILC studies and is strongly recommended to be repeated on different matrices and isotope systems.</s><s>Extended information including the technical report, the reporting template, and calculation examples are provided in the electronic supplement (ESM).</s><s>The reference materials can be ordered via the websites of the producers IAG (IAGeo 2023) and VDZ <ref type="bibr">(VDZ 2022a, b, c)</ref>, where information on prices, unit size and availability can be obtained.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>IAG OU-6 Penrhyn Slate was obtained from North Wales and is a fine-grained slate of Cambrian age.</s><s>The material 8 2 4 © 2023 The Authors.</s><s>Geostandards and Geoanalytical Research published by John Wiley &amp; Sons Ltd on behalf of International Association of Geoanalysts.</s></p></div></figdesc></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">©<label></label><figdesc><div><p><s>2023 The Authors.</s><s>Geostandards and Geoanalytical Research published by John Wiley &amp; Sons Ltd on behalf of International Association of Geoanalysts.</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>QQ-plot of the residuals for the linear, Gaussian, random effects model fitted to the results of the interlaboratory study (left panel), and plot of the residuals against the fitted values (right panel).</s></p></div></figdesc></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">©<label></label><figdesc><div><p><s>2023 The Authors.</s><s>Geostandards and Geoanalytical Research published by John Wiley &amp; Sons Ltd on behalf of International Association of Geoanalysts.</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .©<label>2</label><figdesc><div><p><s>Figure 2. Laboratory effects vs. laboratory results as compared with 0 mol mol -1 .</s></p></div></figdesc></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4. Intermediate precision, expressed as standard deviation s, of repeated digestions performed by individual laboratories and plotted for each material against the mean sample mass used for individual digestions.</s></p></div></figdesc></figure>
+<figure type="table" xml:id="tab_2" xmlns="http://www.tei-c.org/ns/1.0">Table 2 .<label>2</label><figdesc><div><p><s>Reported 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) for all materials with standard uncertainties u; u is given in brackets and applies to the last digits</s></p></div></figdesc><table><row><cell>Lab ID</cell><cell>Lab a</cell><cell></cell><cell></cell><cell cols="2">R con ( 87 Sr/ 86 Sr) / (mol mol -1 )</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>IAG CGL ML 3</cell><cell>IAG OPC-1</cell><cell>IAG OU-6</cell><cell>VDZ-100a</cell><cell>VDZ-200a</cell><cell>VDZ-300a</cell></row><row><cell>1</cell><cell>GZG (I)</cell><cell>0.708 249(7)</cell><cell>0.726 462(33)</cell><cell>0.729 782(7)</cell><cell>0.708 129(5)</cell><cell>0.708 252(6)</cell><cell>0.709 319(5)</cell></row><row><cell>3</cell><cell>UB (T)</cell><cell>0.708 245(11)</cell><cell>0.726 484(19)</cell><cell>0.729 778(15)</cell><cell>0.708 130(9)</cell><cell>0.708 253(10)</cell><cell>0.709 318(9)</cell></row><row><cell>4</cell><cell>FUB (T)</cell><cell>0.708 241(9)</cell><cell>0.726 495(61)</cell><cell>0.729 785(54)</cell><cell>0.708 129(11)</cell><cell>0.708 249(18)</cell><cell>0.709 310(16)</cell></row><row><cell>5</cell><cell>GFZ (T)</cell><cell>0.708 227(5)</cell><cell>0.726 483(27)</cell><cell>0.729 749(15)</cell><cell>0.708 115(7)</cell><cell>0.708 248(11)</cell><cell>0.709 308(8)</cell></row><row><cell>6</cell><cell>MUL (I)</cell><cell>0.708 265(45)</cell><cell>0.726 447(55)</cell><cell>0.729 755(55)</cell><cell>0.708 168(45)</cell><cell>0.708 270(45)</cell><cell>0.709 342(62)</cell></row><row><cell>6</cell><cell>MUL (T)</cell><cell>0.708 252(14)</cell><cell>0.726 441(16)</cell><cell>0.729 802(16)</cell><cell>0.708 138(14)</cell><cell>0.708 253(14)</cell><cell>0.709 330(14)</cell></row><row><cell>7</cell><cell>CGS (T)</cell><cell>0.708 262(13)</cell><cell>0.726 537(12)</cell><cell>0.729 777(12)</cell><cell>0.708 151(12)</cell><cell>0.708 266(12)</cell><cell>0.709 330(12)</cell></row><row><cell>8</cell><cell>GFZ (I)</cell><cell>0.708 237(14)</cell><cell>0.726 492(26)</cell><cell>0.729 774(24)</cell><cell>0.708 134(17)</cell><cell>0.708 251(18)</cell><cell>0.709 315(21)</cell></row><row><cell>9</cell><cell>UNIMORE (I)</cell><cell>0.708 256(12)</cell><cell>0.726 629(125)</cell><cell>0.729 715(74)</cell><cell>0.708 146(12)</cell><cell>0.708 258(6)</cell><cell>0.709 325(8)</cell></row><row><cell>10</cell><cell>USGS (I) b</cell><cell>0.708 244(7)</cell><cell>0.726 425(7)</cell><cell>0.729 769(7)</cell><cell>0.708 138(7)</cell><cell>0.708 272(7)</cell><cell>0.709 339(7)</cell></row><row><cell>10</cell><cell>USGS (I) c</cell><cell>0.708 253(17)</cell><cell>0.726 419(15)</cell><cell>0.729 778(16)</cell><cell>0.708 135(19)</cell><cell>0.708 257(14)</cell><cell>0.709 314(17)</cell></row><row><cell>11</cell><cell>PTB (I)</cell><cell>0.708 261(12)</cell><cell>0.726 416(18)</cell><cell>0.729 703(29)</cell><cell>0.708 143(8)</cell><cell>0.708 262(9)</cell><cell>0.709 336(17)</cell></row><row><cell>14</cell><cell>JSI (I)</cell><cell>0.708 246(16)</cell><cell>0.726 507(20)</cell><cell>0.729 749(14)</cell><cell>0.708 142(12)</cell><cell>0.708 254(10)</cell><cell>0.709 327(10)</cell></row><row><cell>15</cell><cell>BAM (I)</cell><cell>0.708 242(11)</cell><cell>0.726 476(17)</cell><cell>0.729 754(45)</cell><cell>0.708 130(11)</cell><cell>0.708 242(10)</cell><cell>0.709 321(12)</cell></row><row><cell>15</cell><cell>BAM (T)</cell><cell>0.708 257(10)</cell><cell>0.726 496(19)</cell><cell>0.729 790(13)</cell><cell>0.708 136(13)</cell><cell>0.708 250(11)</cell><cell>0.709 344(12)</cell></row><row><cell>17</cell><cell>IA (I)</cell><cell>0.708 241(10)</cell><cell>0.726 511(27)</cell><cell>0.729 813(12)</cell><cell>0.708 123(8)</cell><cell>0.708 251(9)</cell><cell>0.709 321(9)</cell></row><row><cell>17</cell><cell>IA (T)</cell><cell>0.708 253(16)</cell><cell>0.726 525(29)</cell><cell>0.729 820(23)</cell><cell>0.708 138(13)</cell><cell>0.708 268(13)</cell><cell>0.709 331(14)</cell></row></table><note><p><s>a In brackets the mass spectrometric technique is noted: 'I' stands for MC-ICP-MS and 'T' stands for MC-TIMS.</s><s>b Nu Plasma 3. c Nu Plasma 1. © 2023 The Authors.</s><s>Geostandards and Geoanalytical Research published by John Wiley &amp; Sons Ltd on behalf of International Association of Geoanalysts.</s></p></note></figure>
+<figure type="table" xml:id="tab_3" xmlns="http://www.tei-c.org/ns/1.0">mol mol -1 ) R con ( 87 Sr/ 86 Sr) (mol mol -1 )<label></label><figdesc></figdesc><table><row><cell>)</cell><cell></cell></row><row><cell>R Sr/ 86 Sr) (mol mol -1 con ( 87 con ( 87 Sr/ 86 Sr) (Consensus</cell><cell>) Sr) (mol mol -1 R R con ( 87 Sr/ 86 con ( 87 Sr/ 86 Sr) (</cell></row><row><cell>R</cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_4" xmlns="http://www.tei-c.org/ns/1.0">mol mol -1 ) R con ( 87 Sr/ 86 Sr) (mol mol -1 )<label></label><figdesc><div><p><s>Figure 3. 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) vs. Lab IDs presented for the six RMs as labelled on the individual diagrams. 87</s><s>Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) (open diamonds) and the associated standard uncertainties (thick, vertical, green line segments) combined in quadrature with the dark uncertainty (thin, vertical, blue line segments).</s><s>Geostandards and Geoanalytical Research published by John Wiley &amp; Sons Ltd on behalf of International Association of Geoanalysts.</s><s>applying MC-TIMS, Raczek et al. (2003) measured 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) in different batches</s></p></div></figdesc><table><row><cell>Thin, dark horizontal line represents the consensus value, and the yellow band represents the consensus value AE one</cell></row><row><cell>standard uncertainty. Red Lab IDs represents data measured by MC-TIMS, blue Lab IDs represent data measured by</cell></row><row><cell>MC-ICP-MS.</cell></row><row><cell>8 2</cell></row></table><note><p><s>© 2023 The Authors.</s></p></note></figure>
+<figure type="table" xml:id="tab_5" xmlns="http://www.tei-c.org/ns/1.0">Table 4 .<label>4</label><figdesc><div><p><s>Results of the homogeneity assessment.</s><s>Unit means for each RM, resulting overall means, standard deviations, s, degrees of freedom, ν hom and standard uncertainties u hom high 87 Sr/ 86 Sr isotope ratio R con ( 87 Sr/ 86 Sr) points to geologically old carbonate and/or silicate raw materials.</s></p></div></figdesc><table></table></figure>
+<note n="8" place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>2 5 © 2023 The Authors.</s><s>Geostandards and Geoanalytical Research published by John Wiley &amp; Sons Ltd on behalf of International Association of Geoanalysts.</s></p></note>
+<note n="8" place="foot" xml:id="foot_1" xmlns="http://www.tei-c.org/ns/1.0"><p><s>2 6 © 2023 The Authors.</s><s>Geostandards and Geoanalytical Research published by John Wiley &amp; Sons Ltd on behalf of International Association of Geoanalysts.</s></p></note>
+<note place="foot" xml:id="foot_2" xmlns="http://www.tei-c.org/ns/1.0"><p><s>© 2023 The Authors.</s><s>Geostandards and Geoanalytical Research published by John Wiley &amp; Sons Ltd on behalf of International Association of Geoanalysts.</s></p></note>
+<note n="8" place="foot" xml:id="foot_3" xmlns="http://www.tei-c.org/ns/1.0"><p><s>3 7 © 2023 The Authors.</s><s>Geostandards and Geoanalytical Research published by John Wiley &amp; Sons Ltd on behalf of International Association of Geoanalysts.</s></p></note>
+<note place="foot" xml:id="foot_4" xmlns="http://www.tei-c.org/ns/1.0"><p><s>1751908x, 2023, 4, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ggr.12517</s><s>by Freie Universitaet Berlin, Wiley Online Library on [19/12/2023].</s><s>See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions)</s><s>on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</s></p></note>
+<back>
+<div type="acknowledgement">
+<div>Acknowledgements<p>This project was supported by the <rs type="funder">International Association of Geoanalysts (IAG)</rs>.The authors would also like to thank the support staff of the participating laboratories, too numerous to name individually, for their assistance.The authors declare no competing interests.This work received funds under the project number <rs type="grantNumber">MIT1-2019-8</rs> from the <rs type="funder">Federal Institute for Materials Research and Testing (BAM)</rs>, <rs type="funder">Germany</rs>.<rs type="person">Tomas Magna</rs> acknowledges support from the <rs type="funder">Czech Science Foundation</rs> project <rs type="grantNumber">19-29124X</rs>.<rs type="projectName">Montanuniversit ät Leoben</rs> (MUL) acknowledges funding received from <rs type="funder">Land Steiermark Zukunftsfonds</rs> (project number: <rs type="grantNumber">PN1115</rs>).Disclaimer: Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the <rs type="institution">U.S. Government</rs>.Open Access funding enabled and organized by <rs type="funder">Projekt DEAL</rs>.</p></div>
+</div>
+<listorg type="funding">
+<org type="funding" xml:id="_m9tnqjG">
+<idno type="grant-number">MIT1-2019-8</idno>
+</org>
+<org type="funded-project" xml:id="_P6jk4Gd">
+<idno type="grant-number">19-29124X</idno>
+<orgname subtype="full" type="project">Montanuniversit ät Leoben</orgname>
+</org>
+<org type="funding" xml:id="_nBssQyT">
+<idno type="grant-number">PN1115</idno>
+</org>
+</listorg>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0">Data availability statement<p><s>The data used to support the findings of this study is available within the article and in Electronic Supplementary</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">Material<p><s>R con ( 87 Sr/ 86 Sr) / (mol mol The measurement uncertainty associated with the assigned reference values is thus influenced by the significantly larger contribution of the homogeneity assessment.</s></p><p><s>Geochemical classification of the 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr)</s></p><p><s>The 87 Sr/ 86 isotope ratios R con ( 87 Sr/ 86 Sr) determined for the limestone RM IAG CGL ML3 and the three cement RMs VDZ-100a, VDZ-200a, VDZ-300a are similar to those of Phanerozoic seawater ranging from 0.706 90 mol mol -1 to 0.709 18 mol mol -1 <ref target="#b2" type="bibr">(Bentley 2006)</ref>, whereas the slate RM IAG OU-6 and the South African cement RM IAG OPC-1 resulted in more radiogenic, 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) of 0.729 778 mol mol -1 and 0.726 458 mol mol -1 , respectively.</s></p><p><s>In general, the cements were produced from a carbonate (e.g., limestone) and a silicate (e.g., clay) component with various additive materials (e.g., gypsum, anhydrite, flue gas desulfurisation gypsum, limestone) <ref target="#b30" type="bibr">(Kazlagić et al. 2022)</ref>.</s><s>Marl contains both the carbonate and the silicate component and is commonly used when marl deposits occur close to the cement production sites.</s><s>It is reasonable to assume that the 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) of cements are dominated by the Sr isotopic signature of the carbonate raw material, due to the typically high Sr mass fractions in the carbonate raw materials (e.g., IAG CGL ML3), the generally much lower Sr mass fractions in the silicate (e.g., IAG OU-6), and the higher proportion of carbonate to silicate.</s><s>The 87 Sr/ 86 Sr isotope ratios R con ( 87 Sr/ 86 Sr) of two of the German cements, RMs VDZ-100a (0.708 134 mol mol -1 ) and VDZ-200a (0.708 257 mol mol -1 ), likely reflect the use of Phanerozoic marine carbonate as raw material.</s><s>Based on the regional geology in Germany, Cretaceous to Devonian limestone or marl deposits are most likely the carbonate sources.</s><s>The mixture of a marine Phanerozoic carbonate signature with Sr derived from the silicate component as well as the various possible additives used in cement production likely resulted in a slightly more radiogenic 87 Sr/ 86 Sr isotope ratio R con ( 87 Sr/ 86 Sr) in the bulk cement.</s><s>The silicate component and most additive materials are on average more radiogenic than the marine carbonate due to their generally higher Rb/Sr ratio and the higher age.</s><s>The 87 Sr/ 86 Sr isotope ratio R con ( 87 Sr/ 86 Sr) = 0.709 326 mol mol -1 of VDZ-300a is slightly higher than that of modern seawater (0.709 18 mol mol -1 , <ref target="#b34" type="bibr">McArthur et al. 2001</ref>) and could reflect admixture of a young marine carbonate component derived from the late Miocene or younger, or it is a consequence of more radiogenic minerals, mostly silicates which is expressed by the higher SiO 2 mass fraction of VDZ300a (SiO 2 mass fractions of VDZ 300a 31.0 %, VDZ 200a 22.5 %, VDZ 100a 20.0 %) containing a higher proportion of radiogenic Sr from silicates.</s><s>In contrast to the German cement RMs the IAG OPC-1 cement RM from South Africa has a strikingly high 87 Sr/ 86 Sr isotope ratio R con ( 87 Sr/ 86 Sr) = 0.726 458 mol mol -1 .</s><s>Consistent with the occurrence of old Proterozoic and Archaean rocks common in much of South Africa, such a Table <ref type="table">5</ref>. Assigned reference values for the 87 Sr/ 86 Sr isotope ratio R con ( 87 Sr/ 86 Sr) with their associated combined uncertainties u c , the effective degrees of freedom, ν eff , the coverage factors, k, and the expanded uncertainties U, obtained from the consensus values of the ILC, their associated uncertainties, u char , the associated degrees of freedom, ν char , and the uncertainty contribution for homogeneity issues, u hom , with the associated degrees of freedom, ν hom Parameter R con ( 87 Sr/ 86 Sr) / (mol mol -1 )</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Supporting information<p><s>The following supporting information may be found in the online version of this article:</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Determination of the 87 Sr/ 86 Sr isotope ratio in USGS silicate reference materials by multi-collector ICP-mass spectrometry</title>
+<author>
+<persname><forename type="first">L</forename><surname>Balcaen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">D</forename><surname>Schrijver</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Moens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Vanhaecke</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">International Journal of Mass Spectrometry</title>
+<imprint>
+<biblscope unit="volume">242</biblscope>
+<biblscope from="251" to="255" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Balcaen L., Schrijver I.D., Moens L. and Vanhaecke F. (2005) Determination of the 87 Sr/ 86 Sr isotope ratio in USGS silicate reference materials by multi-collector ICP-mass spectrometry. International Journal of Mass Spectrometry, 242, 251-255.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Fitting linear mixed-effects models using lme4</title>
+<author>
+<persname><forename type="first">D</forename><surname>Bates</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bolker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Walker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Statistical Software</title>
+<imprint>
+<biblscope unit="volume">67</biblscope>
+<biblscope from="1" to="48" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bates D., M ächler M., Bolker B. and Walker S. (2015) Fitting linear mixed-effects models using lme4. Journal of Statistical Software, 67, 1-48.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Strontium isotopes from the earth to the archaeological skeleton: A review</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Bentley</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Archaeological Method and Theory</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="135" to="187" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bentley R.A. (2006) Strontium isotopes from the earth to the archaeological skeleton: A review. Journal of Archaeological Method and Theory, 13, 135-187.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Evaluation of measurement data: Guide to the expression of uncertainty in measurement</title>
+<author>
+<persname><forename type="first">Iec</forename><surname>Bipm</surname></persname>
+</author>
+<author>
+<persname><surname>Ifcc</surname></persname>
+</author>
+<author>
+<persname><surname>Ilac</surname></persname>
+</author>
+<author>
+<persname><surname>Iso</surname></persname>
+</author>
+<ptr target="https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf/cb0ef43f-baa5-11cf-3f85-4dcd86f77bd6"></ptr>
+</analytic>
+<monogr>
+<title level="m">Joint Committee for Guides in Metrology</title>
+<meeting><address><addrline>JCGM</addrline></address></meeting>
+<imprint>
+<date type="published" when="2008-11-12">2008. 2008. 11/12/2019</date>
+<biblscope unit="volume">100</biblscope>
+</imprint>
+</monogr>
+<note>IUPAC, IUPAP and OIML</note>
+<note type="raw_reference">BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML (2008) Evaluation of measurement data: Guide to the expression of uncertainty in measurement. Joint Committee for Guides in Metrology, JCGM 100:2008. https://www.bipm.org/ documents/20126/2071204/JCGM_100_2008_E.pdf/ cb0ef43f-baa5-11cf-3f85-4dcd86f77bd6 (last accessed 11/12/2019)</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">International vocabulary of metrology | Basic and general concepts and associated terms (VIM)</title>
+<author>
+<persname><forename type="first">Iec</forename><surname>Bipm</surname></persname>
+</author>
+<author>
+<persname><surname>Ifcc</surname></persname>
+</author>
+<author>
+<persname><surname>Ilac</surname></persname>
+</author>
+<author>
+<persname><surname>Iso</surname></persname>
+</author>
+<ptr target="https://www.bipm.org/documents/20126/2071204/JCGM_200_2012.pdf/f0e1ad45-d337-bbeb-53a6-15fe649d0ff1"></ptr>
+</analytic>
+<monogr>
+<title level="m">Joint Committee for Guides in Metrology</title>
+<imprint>
+<date type="published" when="2012-09-28">2012. 2012. (last accessed 28/09/2022</date>
+<biblscope unit="volume">200</biblscope>
+</imprint>
+</monogr>
+<note>IUPAC, IUPAP and OIML. 3rd edition</note>
+<note type="raw_reference">BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP and OIML (2012) International vocabulary of metrology | Basic and general concepts and associated terms (VIM). Joint Committee for Guides in Metrology, JCGM 200:2012. (3rd edition). https://www.bipm.org/documents/20126/2071204/ JCGM_200_2012.pdf/f0e1ad45-d337-bbeb-53a6- 15fe649d0ff1 (last accessed 28/09/2022)</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Mosaic tesserae from Italy and the production of Mediterranean coloured glass (4 th century BCE -4 th century CE). Part II: Isotopic provenance</title>
+<author>
+<persname><forename type="first">C</forename><surname>Boschetti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Henderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Evans</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Archaeological Science: Reports</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope from="647" to="657" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Boschetti C., Henderson J. and Evans J. (2017) Mosaic tesserae from Italy and the production of Mediterranean coloured glass (4 th century BCE -4 th century CE). Part II: Isotopic provenance. Journal of Archaeological Science: Reports, 11, 647-657.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Assessment of international reference materials for isotoperatio analysis (IUPAC Technical Report)</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">A</forename><surname>Brand</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">B</forename><surname>Coplen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Vogl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Rosner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Prohaska</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Pure and Applied Chemistry</title>
+<imprint>
+<biblscope unit="volume">86</biblscope>
+<biblscope from="425" to="467" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brand W.A., Coplen T.B., Vogl J., Rosner M. and Prohaska T. (2014) Assessment of international reference materials for isotope- ratio analysis (IUPAC Technical Report). Pure and Applied Chemistry, 86, 425-467.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">New data of 87 Sr/ 86 Sr ratio in classical marble: An initial database for marble provenance determination</title>
+<author>
+<persname><forename type="first">M</forename><surname>Brilli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Cavazzini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Turi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Archaeological Science</title>
+<imprint>
+<biblscope unit="volume">32</biblscope>
+<biblscope from="1543" to="1551" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brilli M., Cavazzini G. and Turi B. (2005) New data of 87 Sr/ 86 Sr ratio in classical marble: An initial database for marble provenance determination. Journal of Archaeological Science, 32, 1543-1551.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<monogr>
+<author>
+<persname><surname>Ccqm</surname></persname>
+</author>
+<ptr target="https://www.bipm.org/en/"></ptr>
+<title level="m">CCQM/2013-22: Guidance note: Estimation of a consensus KCRV and associated degrees of equivalence</title>
+<imprint>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">CCQM (2013) CCQM/2013-22: Guidance note: Estimation of a consensus KCRV and associated degrees of equivalence. https://www.bipm.org/en/</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Comprehensive chemical and isotopic analyses of basalt and sediment reference materials</title>
+<author>
+<persname><forename type="first">C</forename><surname>Chauvel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Bureau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Poggi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geostandards and Geoanalytical Research</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope from="125" to="143" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chauvel C., Bureau S. and Poggi C. (2011) Comprehensive chemical and isotopic analyses of basalt and sediment reference materials. Geostandards and Geoanalytical Research, 35, 125-143.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<monogr>
+<title level="m" type="main">Bootstrap methods and their applications</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Davison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">V</forename><surname>Hinkley</surname></persname>
+</author>
+<imprint>
+<date type="published" when="1997">1997</date>
+<publisher>Cambridge University Press</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Davison A.C. and Hinkley D.V. (1997) Bootstrap methods and their applications. Cambridge University Press, ISBN 0-521-57471-4.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<monogr>
+<title level="m" type="main">Isotopes: Principles and applications (3rd edition)</title>
+<author>
+<persname><forename type="first">G</forename><surname>Faure</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">M</forename><surname>Mensing</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2013">2013</date>
+<publisher>Wiley</publisher>
+<biblscope unit="page">78</biblscope>
+<pubplace>Hoboken, NJ</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Faure G. and Mensing T.M. (2013) Isotopes: Principles and applications (3rd edition). Wiley (Hoboken, NJ), 78pp.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Comprehensive Pb-Sr-Nd-Hf isotopic, trace element, and mineralogical characterization of mafic to ultramafic rock reference materials</title>
+<author>
+<persname><forename type="first">A</forename><surname>Fourny</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Weis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Scoates</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geochemistry, Geophysics, Geosystems</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope from="739" to="773" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fourny A., Weis D. and Scoates J.S. (2016) Comprehensive Pb-Sr-Nd-Hf isotopic, trace element, and mineralogical characterization of mafic to ultramafic rock reference materials. Geochemistry, Geophysics, Geosystems, 17, 739-773.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<monogr>
+<title></title>
+<author>
+<persname><surname>Georem</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">GeoReM (2019)</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Use of strontium isotopes to determine the origin of cement in concretes: Case examples from New Zealand</title>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">J</forename><surname>Graham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L</forename><surname>Goguel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">St</forename><surname>John</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Cement and Concrete Research</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope from="1105" to="1111" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Graham I.J., Goguel R.L. and St John D.A. (2000) Use of strontium isotopes to determine the origin of cement in concretes: Case examples from New Zealand. Cement and Concrete Research, 30, 1105-1111.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Fractionation correction and multiple collectors in thermal ionization isotope ratio mass spectrometry</title>
+<author>
+<persname><forename type="first">K</forename><surname>Habfast</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">International Journal of Mass Spectrometry</title>
+<imprint>
+<biblscope unit="volume">176</biblscope>
+<biblscope from="133" to="148" unit="page"></biblscope>
+<date type="published" when="1998">1998</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Habfast K. (1998) Fractionation correction and multiple collectors in thermal ionization isotope ratio mass spectrometry. International Journal of Mass Spectrometry, 176, 133-148.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Linking silicate weathering to riverine geochemistry -A case study from a mountainous tropical setting in westcentral Panama</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">S</forename><surname>Harmon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Goldsmith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">T</forename><surname>Harmon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">A</forename><surname>Gardner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">B</forename><surname>Lyons</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">B</forename><surname>Ogden</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">L</forename><surname>Pribil</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Long</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">T</forename><surname>Kern</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geological Society of America Bulletin</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope from="1780" to="1812" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Harmon R.S., W örner G., Goldsmith S.T., Harmon B.A., Gardner C.B., Lyons W.B., Ogden F.L., Pribil M.J, Long D.T., Kern Z. and F órizs I. (2016) Linking silicate weathering to riverine geochemistry -A case study from a mountainous tropical setting in west- central Panama. Geological Society of America Bulletin, 11-12, 1780-1812.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Isotope fractionation laws: A test using calcium</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">R</forename><surname>Hart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Zindler</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">International Journal of Mass Spectrometry and Ion Processes</title>
+<imprint>
+<biblscope unit="volume">89</biblscope>
+<biblscope from="287" to="301" unit="page"></biblscope>
+<date type="published" when="1989">1989</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hart S.R. and Zindler A. (1989) Isotope fractionation laws: A test using calcium. International Journal of Mass Spectrometry and Ion Processes, 89, 287-301.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">In-and off-laboratory sources of uncertainty in the use of a serum standard reference material as a means of accuracy control in cholesterol determination</title>
+<author>
+<persname><forename type="first">J</forename><surname>Henderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Evans</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Bellintani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A.-M</forename><surname>Bietti-Sestieri</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Henrion</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Accreditation and Quality Assurance</title>
+<imprint>
+<biblscope unit="volume">55</biblscope>
+<biblscope from="127" to="130" unit="page"></biblscope>
+<date type="published" when="1998">2015. 1998</date>
+</imprint>
+</monogr>
+<note>Journal of Archaeological Science</note>
+<note type="raw_reference">Henderson J., Evans J., Bellintani P. and Bietti-Sestieri A.- M. (2015) Production, mixing and provenance of Late Bronze Age mixed alkali glasses from northern Italy: An isotopic approach. Journal of Archaeological Science, 55, 1-8. e r e n c e s Henrion A. (1998) In-and off-laboratory sources of uncertainty in the use of a serum standard reference material as a means of accuracy control in cholesterol determination. Accreditation and Quality Assurance, 3, 127-130.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Bioavailable 87 Sr/ 86 Sr in European soils: A baseline for provenancing studies</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Hoogewerff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Reimann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Ueckermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Frei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Frei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Van Aswegen Stirling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Reid</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Clayton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ladenberger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Albanese</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Andersson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Baritz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Batista</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bel-Lan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Birke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Cicchella</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Demetriades</surname></persname>
+</author>
+<author>
+<persname><forename type="first">De</forename><surname>Vivo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>De Vos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Dinelli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Ďuriš</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Dusza-Dobek</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Eggen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">A</forename><surname>Eklund</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ernstsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Filzmoser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Flight</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M A</forename><surname>Forrester</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Fuchs</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Fügedi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Gilucis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gregorauskiene</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>De Groot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Gulan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Halamić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Haslinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Hayoz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Hoffmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Hrvatovic</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Husnjak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Janik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Jordan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Kaminari</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kirby</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kivisilla</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Klos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Krone</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Kwećko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Kuti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Lima</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Locutura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Lucivjansky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">P</forename><surname>Mann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Mackovych</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Matschullat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Mclaughlin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Malyuk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">I</forename><surname>Maquil</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Meuli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">G</forename><surname>Mol</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Negrel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Connor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Oorts</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">K</forename><surname>Ottesen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">T</forename><surname>Pasieczna</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Petersell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Pfleiderer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Poňavič</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Pramuka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Prazeres</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Rauch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Radusinović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Reimann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Sadeghi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Salpeteur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Scanlon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Schedl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Scheib</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Schoeters</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Šefčik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Sellersj</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Skopljak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Slaninka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Soriano-Disla</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Šorša</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Srvkota</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Stafilov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Tarvainen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Trendavilov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Valera</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Verougstraete</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Vidojević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Zissimos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Zomeni</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Science of the Total Environment</title>
+<imprint>
+<biblscope unit="volume">672</biblscope>
+<biblscope from="1033" to="1044" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hoogewerff J.A., Reimann C., Ueckermann H., Frei R., Frei K.M., van Aswegen Stirling C., Reid M., Clayton A., Ladenberger A., Albanese S., Andersson M., Baritz R., Batista M.J., Bel-lan A., Birke M., Cicchella D., Demetriades A., De Vivo B., De Vos W., Dinelli E., Ďuriš M., Dusza-Dobek A., Eggen O.A., Eklund M., Ernstsen V., Filzmoser P., Flight D.M.A., Forrester S., Fuchs M., Fügedi U., Gilucis A., Gregorauskiene V., De Groot W., Gulan A., Halamić J., Haslinger E., Hayoz P., Hoffmann R., Hrvatovic H., Husnjak S., Janik L., Jordan G., Kaminari M., Kirby J., Kivisilla J., Klos V., Krone F., Kwećko F., Kuti L., Lima A., Locutura J., Lucivjansky D.P., Mann A., Mackovych D., Matschullat J., McLaughlin M., Malyuk B.I., Maquil R., Meuli R.G., Mol G., Negrel P., Connor O., Oorts R.K., Ottesen R. T., Pasieczna A., Petersell W., Pfleiderer S., Poňavič M., Pramuka S., Prazeres C., Rauch U., Radusinović S., Reimann C., Sadeghi M., Salpeteur I., Scanlon R., Schedl A., Scheib A. J., Schoeters I., Šefčik P., Sellersj ö E., Skopljak F., Slaninka I., Soriano-Disla J.M., Šorša A., Srvkota R., Stafilov T., Tarvainen T., Trendavilov V., Valera P., Verougstraete V., Vidojević D., Zissimos A. and Zomeni Z. (2019) Bioavailable 87 Sr/ 86 Sr in European soils: A baseline for provenancing studies. Science of the Total Environment, 672, 1033-1044.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Evaluation strategies and uncertainty calculation of isotope amount ratios measured by MC-ICP-MS on the example of Sr</title>
+<author>
+<persname><forename type="first">M</forename><surname>Horsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Irrgeher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Prohaska</surname></persname>
+</author>
+<idno>IAG / CGL 020 -ML-3</idno>
+<ptr target="http://iageo.com/wp-content/uploads/2020/05/IAG-OU-6-revised-May2020v2.pdf"></ptr>
+</analytic>
+<monogr>
+<title level="m">Reference Material Data Sheet. OPC-1 Ordinary Portland Cement</title>
+<imprint>
+<publisher>IAG</publisher>
+<date type="published" when="2015">2016. 2016. 28/09/2022. 2015. 28/09/2022. 2020. 28/09/ 2022. 2023</date>
+<biblscope unit="volume">408</biblscope>
+<biblscope from="351" to="367" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note>IAG CRM 1 -OU-6 (Penrhyn Slate)</note>
+<note type="raw_reference">Horsky M., Irrgeher J. and Prohaska T. (2016) Evaluation strategies and uncertainty calculation of isotope amount ratios measured by MC-ICP-MS on the example of Sr. Analytical and Bioanalytical Chemistry, 408, 351-367. IAG (2016) Certificate of Analysis. IAG / CGL 020 -ML-3 (Limestone). http://iageo.com/wp-content/uploads/2020/08/ML-3- certificate.pdf (last accessed 28/09/2022) IAG (2015) Reference Material Data Sheet. OPC-1 Ordinary Portland Cement. http://iageo.com/wp-content/uploads/2017/ 11/OPC-1-RM-information-sheet-21st-Dec-2015.pdf (last accessed 28/09/2022) IAG (2020) Certificate of Analysis. IAG CRM 1 -OU-6 (Penrhyn Slate). http://iageo.com/wp-content/uploads/2020/05/IAG- OU-6-revised-May2020v2.pdf (last accessed 28/09/ 2022) IAGeo (2023)</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<monogr>
+<author>
+<persname><forename type="first">Iageo</forename><surname>Limited</surname></persname>
+</author>
+<ptr target="https://iageo.com/certified-reference-material/"></ptr>
+<title level="m">Certified reference materials</title>
+<imprint>
+<date type="published" when="2023-01-30">30/01/ 2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">IAGeo Limited. Certified reference materials. https://iageo. com/certified-reference-material/ (last accessed 30/01/ 2023)</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Determination of strontium isotope amount ratios in biological tissues using MC-ICP-MS</title>
+<author>
+<persname><forename type="first">J</forename><surname>Irrgeher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Prohaska</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">E</forename><surname>Sturgeon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Mester</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Yang</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Analytical Methods</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope from="1687" to="1694" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Irrgeher J., Prohaska T., Sturgeon R.E., Mester Z. and Yang L. (2013) Determination of strontium isotope amount ratios in biological tissues using MC-ICP-MS. Analytical Methods, 5, 1687-1694.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Metrology</title>
+<author>
+<persname><forename type="first">J</forename><surname>Irrgeher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Prohaska</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Sector field mass spectrometry for elemental and isotopic analysis</title>
+<editor>
+<persname><forename type="first">T</forename><surname>Prohaska</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">J</forename><surname>Irrgeher</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">A</forename><surname>Zitek</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">N</forename><surname>Jakubowski</surname></persname>
+</editor>
+<meeting><address><addrline>Cambridge</addrline></address></meeting>
+<imprint>
+<publisher>Royal Society of Chemistry</publisher>
+<date type="published" when="2015">2015</date>
+<biblscope from="183" to="198" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Irrgeher J. and Prohaska T. (2015a) Metrology. In: Prohaska T., Irrgeher J., Zitek A. and Jakubowski N. (eds), Sector field mass spectrometry for elemental and isotopic analysis. Royal Society of Chemistry (Cambridge), 183-198.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Instrumental isotope fractionation</title>
+<author>
+<persname><forename type="first">J</forename><surname>Irrgeher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Prohaska</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Sector field mass spectrometry for elemental and isotopic analysis</title>
+<editor>
+<persname><forename type="first">T</forename><surname>Prohaska</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">J</forename><surname>Irrgeher</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">A</forename><surname>Zitek</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">N</forename><surname>Jakubowski</surname></persname>
+</editor>
+<meeting><address><addrline>Cambridge</addrline></address></meeting>
+<imprint>
+<publisher>Royal Society of Chemistry</publisher>
+<date type="published" when="2015">2015</date>
+<biblscope from="107" to="120" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Irrgeher J. and Prohaska T. (2015b) Instrumental isotope fractionation. In: Prohaska T., Irrgeher J., Zitek A. and Jakubowski N. (eds), Sector field mass spectrometry for elemental and isotopic analysis. Royal Society of Chemistry (Cambridge), 107-120.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<monogr>
+<author>
+<persname><surname>Iso</surname></persname>
+</author>
+<idno>ISO 17034</idno>
+<title level="m">General requirements for the competence of reference material producers</title>
+<meeting><address><addrline>Geneva)</addrline></address></meeting>
+<imprint>
+<publisher>International Organization for Standardization</publisher>
+<date type="published" when="2016">2017. 2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">ISO (2017) General requirements for the competence of reference material producers (ISO 17034:2016). International Organization for Standardization (Geneva).</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">GeoReM: A new geochemical database for reference materials and isotopic standards</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">P</forename><surname>Jochum</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Nohl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Herwig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Lammel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Stoll</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geostandards and Geoanalytical Research</title>
+<imprint>
+<biblscope unit="volume">29</biblscope>
+<biblscope from="333" to="338" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jochum K.P., Nohl U., Herwig K., Lammel E., Stoll B. and Hofmann A.W. (2005) GeoReM: A new geochemical database for reference materials and isotopic standards. Geostandards and Geoanalytical Research, 29, 333-338.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Determination of Sr-Nd-Pb isotopic ratios of rock reference materials using column separation techniques and TIMS</title>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">J</forename><surname>Jo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">M</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G.-E</forename><surname>Kim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">M</forename><surname>Choi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kim</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Separations</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope unit="page">213</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jo H.J., Lee H.M., Kim G.-E., Choi W.M. and Kim T. (2021) Determination of Sr-Nd-Pb isotopic ratios of rock reference materials using column separation techniques and TIMS. Separations, 8, 213.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Report of the International Association of Geoanalysts on the certification of Penrhyn Slate, OU-6</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Kane</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geostandards and Geoanalytical Research</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope from="53" to="80" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kane J.S. (2004) Report of the International Association of Geoanalysts on the certification of Penrhyn Slate, OU-6. Geostandards and Geoanalytical Research, 28, 53-80.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Provenancing of cement using elemental analyses and isotope techniques -The state-of-the-art and future perspectives</title>
+<author>
+<persname><forename type="first">A</forename><surname>Kazlagić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Vogl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">J G</forename><surname>Gluth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Stephan</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Analytical Atomic Spectrometry</title>
+<imprint>
+<biblscope unit="volume">36</biblscope>
+<biblscope from="2030" to="2042" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kazlagić A., Vogl J., Gluth G.J.G. and Stephan D. (2021) Provenancing of cement using elemental analyses and isotope techniques -The state-of-the-art and future perspectives. Journal of Analytical Atomic Spectrometry, 36, 2030-2042.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Development of a sample preparation procedure for Sr isotope analysis of Portland cements</title>
+<author>
+<persname><forename type="first">A</forename><surname>Kazlagić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">F</forename><surname>Russo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Vogl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Sturm</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Stephan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">J G</forename><surname>Gluth</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Analytical and Bioanalytical Chemistry</title>
+<imprint>
+<biblscope unit="volume">414</biblscope>
+<biblscope from="4379" to="4389" unit="page"></biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kazlagić A., Russo F.F., Vogl J., Sturm P., Stephan D. and Gluth G.J.G. (2022) Development of a sample preparation procedure for Sr isotope analysis of Portland cements. Analytical and Bioanalytical Chemistry, 414, 4379-4389.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<monogr>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Knowles</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Frederick</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=merTools"></ptr>
+<title level="m">merTools: Tools for analyzing mixed effect regression models</title>
+<imprint>
+<date type="published" when="2020-09-28">2020. 28/09/2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Knowles J.E. and Frederick C. (2020) merTools: Tools for analyzing mixed effect regression models. https://CRAN.R-project.org/package=merTools (last accessed 28/09/2022)</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Consensus building for interlaboratory studies, key comparisons, and meta-analysis</title>
+<author>
+<persname><forename type="first">A</forename><surname>Koepke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Lafarge</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Possolo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Toman</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Metrologia</title>
+<imprint>
+<biblscope unit="volume">54</biblscope>
+<biblscope unit="page">34</biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Koepke A., Lafarge T., Possolo A. and Toman B. (2017) Consensus building for interlaboratory studies, key comparisons, and meta-analysis. Metrologia, 54, S34.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<monogr>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">V</forename><surname>Lenth</surname></persname>
+</author>
+<ptr target="https://cran.r-project.org/web/packages/emmeans/index.html"></ptr>
+<title level="m">emmeans: Estimated marginal means, aka least-squares means</title>
+<imprint>
+<date type="published" when="2022-09-28">2022. 28/09/2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lenth R.V. (2022) emmeans: Estimated marginal means, aka least-squares means. https://cran.r-project.org/web/packages/ emmeans/index.html (last accessed 28/09/2022)</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Strontium isotope stratigraphy: LOWESS version 3: Best fit to the marine Sr-isotope curve for 0-509 Ma and accompanying look-up table for deriving numerical age</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Mcarthur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Howarth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">R</forename><surname>Bailey</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Geology</title>
+<imprint>
+<biblscope unit="volume">109</biblscope>
+<biblscope from="155" to="170" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McArthur J.M., Howarth R.J. and Bailey T.R. (2001) Strontium isotope stratigraphy: LOWESS version 3: Best fit to the marine Sr-isotope curve for 0-509 Ma and accompanying look-up table for deriving numerical age. Journal of Geology, 109, 155-170. r e n c e s</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">A revised Pliocene record for marine 87 Sr/ 86 Sr used to date an interglacial event recorded in the Cockburn Island Formation, Antarctic Peninsula</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Mcarthur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Rio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Massari</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Castradori</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">R</forename><surname>Bailey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Thirlwall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Houghton</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Palaeogeography, Palaeoclimatology, Palaeoecology</title>
+<imprint>
+<biblscope unit="volume">242</biblscope>
+<biblscope from="126" to="136" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McArthur J.M., Rio D., Massari F., Castradori D., Bailey T.R., Thirlwall M. and Houghton S. (2006) A revised Pliocene record for marine 87 Sr/ 86 Sr used to date an interglacial event recorded in the Cockburn Island Formation, Antarctic Peninsula. Palaeogeography, Palaeoclimatology, Palaeoecology, 242, 126-136.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Potential uses of stable isotope ratios of Sr, Nd, and Pb in geological materials for environmental studies</title>
+<author>
+<persname><forename type="first">T</forename><surname>Nakano</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proceedings of the Japan Academy, Series B</title>
+<imprint>
+<biblscope unit="volume">92</biblscope>
+<biblscope from="167" to="184" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nakano T. (2016) Potential uses of stable isotope ratios of Sr, Nd, and Pb in geological materials for environmental studies. Proceedings of the Japan Academy, Series B, 92, 167- 184.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Software support for the Nordtest method of measurement uncertainty evaluation</title>
+<author>
+<persname><forename type="first">T</forename><surname>Virtanen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Leito</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Accreditation and Quality Assurance</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope from="603" to="612" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">N äykki T., Virtanen A. and Leito I. (2012) Software support for the Nordtest method of measurement uncertainty evaluation. Accreditation and Quality Assurance, 17, 603-612.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">The isotopic constitution of strontium, barium, bismuth, thallium and mercury</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">O</forename><surname>Nier</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Physical Review</title>
+<imprint>
+<biblscope unit="volume">54</biblscope>
+<biblscope from="275" to="278" unit="page"></biblscope>
+<date type="published" when="1938">1938</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nier A.O. (1938) The isotopic constitution of strontium, barium, bismuth, thallium and mercury. Physical Review 54, 275-278.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<monogr>
+<title level="m" type="main">Certificate of analysis SRM 987 isotopic standard for strontium</title>
+<ptr target="https://www-s.nist.gov/srmors/certificates/987.pdf"></ptr>
+<imprint>
+<date type="published" when="2007-09-28">2007. 28/09/2022</date>
+<pubplace>Gaithersburg, USA</pubplace>
+</imprint>
+<respstmt>
+<orgname>NIST ; National Institute of Standards and Technology</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">NIST (2007) Certificate of analysis SRM 987 isotopic standard for strontium. National Institute of Standards and Technology (Gaithersburg, USA). https://www-s.nist.gov/srmors/ certificates/987.pdf (last accessed 28/09/2022)</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<monogr>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Pinheiro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Bates</surname></persname>
+</author>
+<idno type="DOI">10.1007/b98882</idno>
+<ptr target="https://doi.org/10.1007/b98882"></ptr>
+<title level="m">Mixed-effects models in S and S-Plus</title>
+<meeting><address><addrline>New York, NY</addrline></address></meeting>
+<imprint>
+<publisher>Springer-Verlag</publisher>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pinheiro J.C. and Bates D.M. (2000) Mixed-effects models in S and S-Plus. Springer-Verlag (New York, NY). ISBN 978-1-4419-0317-4. doi https:// doi.org/10.1007/b98882</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<monogr>
+<title></title>
+<author>
+<orgname type="collaboration">R Core Team</orgname>
+</author>
+<imprint>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">R Core Team (2022)</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">A language and environment for statistical computing</title>
+<author>
+<persname><forename type="first">R</forename></persname>
+</author>
+<ptr target="https://www.R-project.org(lastaccessed28/09/2022"></ptr>
+</analytic>
+<monogr>
+<title level="m">R Foundation for Statistical Computing</title>
+<meeting><address><addrline>Vienna, Austria</addrline></address></meeting>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">R: A language and environment for statistical computing. R Foundation for Statistical Computing (Vienna, Austria). https://www.R-project.org (last accessed 28/09/2022)</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Neodymium and strontium isotope data for USGS reference materials BCR-1, BCR-2, BHVO-1, BHVO-2, AGV-1, AGV-2, GSP-1, GSP-2 and eight MPI-DING reference glasses</title>
+<author>
+<persname><forename type="first">I</forename><surname>Raczek</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">P</forename><surname>Jochum</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geostandards Newsletter: The Journal of Geostandards and Geoanalysis</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope from="173" to="179" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Raczek I., Jochum K.P. and Hofmann A.W. (2003) Neodymium and strontium isotope data for USGS reference materials BCR-1, BCR-2, BHVO-1, BHVO-2, AGV-1, AGV-2, GSP-1, GSP-2 and eight MPI-DING reference glasses. Geostandards Newsletter: The Journal of Geostandards and Geoanalysis, 27, 173-179.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Size and power of tests for a zero random effect variance or polynomial regression in additive and linear mixed models</title>
+<author>
+<persname><forename type="first">F</forename><surname>Scheipl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Greven</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Computational Statistics and Data Analysis</title>
+<imprint>
+<biblscope unit="volume">52</biblscope>
+<biblscope from="3283" to="3299" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Scheipl F., Greven S. and K üchenhoff H. (2008) Size and power of tests for a zero random effect variance or polynomial regression in additive and linear mixed models. Computational Statistics and Data Analysis, 52, 3283-3299.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Population marginal means in the linear model: An alternative to least squares means</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">R</forename><surname>Searle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Speed</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Milliken</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">The American Statistician</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope from="216" to="221" unit="page"></biblscope>
+<date type="published" when="1980">1980</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Searle S.R., Speed F.M. and Milliken G.A. (1980) Population marginal means in the linear model: An alternative to least squares means. The American Statistician, 34, 216-221.</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Subcommission on geochronology: Convention on the use of decay constants in geo-and cosmochronology</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">H</forename><surname>Steiger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Äger</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Earth and Planetary Science Letters</title>
+<imprint>
+<biblscope unit="volume">36</biblscope>
+<biblscope from="359" to="362" unit="page"></biblscope>
+<date type="published" when="1977">1977</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Steiger R.H. and J äger E. (1977) Subcommission on geochronology: Convention on the use of decay constants in geo-and cosmochronology. Earth and Planetary Science Letters, 36, 359-362.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">Chemometric tools for determining site-specific elemental and strontium isotopic fingerprints in raw and salted sturgeon caviar</title>
+<author>
+<persname><forename type="first">A</forename><surname>Tchaikovsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Zitek</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Irrgeher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Opper</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Scheiber</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Moder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Congiu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Prohaska</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">European Food Research and Technology</title>
+<imprint>
+<biblscope unit="volume">245</biblscope>
+<biblscope from="2515" to="2528" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Tchaikovsky A., Zitek A., Irrgeher J., Opper C., Scheiber R., Moder K., Congiu L. and Prohaska T. (2019) Chemometric tools for determining site-specific elemental and strontium isotopic fingerprints in raw and salted sturgeon caviar. European Food Research and Technology, 245, 2515-2528.</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Dark uncertainty</title>
+<author>
+<persname><forename type="first">M</forename><surname>Thompson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L R</forename><surname>Ellison</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Accreditation and Quality Assurance</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope unit="page">483</biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thompson M. and Ellison S.L.R. (2011) Dark uncertainty. Accreditation and Quality Assurance, 16, 483.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Precise determination of strontium isotope ratios by TIMS to authenticate tomato geographical origin</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">R</forename><surname>Trincherini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Baffi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Barbero</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Pizzoglio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Spalla</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Food Chemistry</title>
+<imprint>
+<biblscope unit="volume">145</biblscope>
+<biblscope from="349" to="355" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Trincherini P.R., Baffi C., Barbero P., Pizzoglio E. and Spalla S. (2014) Precise determination of strontium isotope ratios by TIMS to authenticate tomato geographical origin. Food Chemistry, 145, 349-355.</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">The isotopic composition of the elements</title>
+<author>
+<persname><forename type="first">F</forename><surname>Vanhaecke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Kyser</surname></persname>
+</author>
+<ptr target="https://www.vdz-online.de/en/services/laboratory-services/reference-materials"></ptr>
+</analytic>
+<monogr>
+<title level="m">Isotopic analysis: Fundamentals and applications using ICP-MS</title>
+<editor>
+<persname><forename type="first">F</forename><surname>Vanhaecke</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">K</forename><surname>Kyser</surname></persname>
+</editor>
+<meeting><address><addrline>Weinheim, Chichester)</addrline></address></meeting>
+<imprint>
+<publisher>Wiley-VCH</publisher>
+<date type="published" when="2012">2012. 2022. 28/09/2022. 2022. 28/09/2022. 2022c. 28/09/2022</date>
+<biblscope from="15" to="20" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note>Data sheet of reference cement VDZ 100a. Data sheet of reference cement VDZ 200a. Data sheet of reference cement VDZ 300a</note>
+<note type="raw_reference">Vanhaecke F. and Kyser K. (2012) The isotopic composition of the elements. In: Vanhaecke F. and Kyser K. (eds), Isotopic analysis: Fundamentals and applications using ICP-MS. Wiley-VCH (Weinheim, Chichester), 15-20. VDZ (2022a) Data sheet of reference cement VDZ 100a. https://www. vdz-online.de/en/services/laboratory-services/reference- materials (last accessed 28/09/2022) VDZ (2022b) Data sheet of reference cement VDZ 200a. https://www. vdz-online.de/en/services/laboratory-services/reference- materials (last accessed 28/09/2022) VDZ (2022c) Data sheet of reference cement VDZ 300a. https://www. vdz-online.de/en/services/laboratory-services/reference- materials (last accessed 28/09/2022)</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">Strontium isotopic signatures of natural mineral waters, the reference to a simple geological map and its potential for authentication of food</title>
+<author>
+<persname><forename type="first">S</forename><surname>Voerkelius</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">D</forename><surname>Lorenz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Rummel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">R</forename><surname>Quetel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Heiss</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Baxter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Brach-Papa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Deters-Itzelsberger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hoelzl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hoogewerff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Ponzevera</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Van Bocxstaele</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Ueckermann</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Food Chemistry</title>
+<imprint>
+<biblscope unit="volume">118</biblscope>
+<biblscope from="933" to="940" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Voerkelius S., Lorenz G.D., Rummel S., Quetel C.R., Heiss G., Baxter M., Brach-Papa C., Deters-Itzelsberger P., Hoelzl S., Hoogewerff J., Ponzevera E., Van Bocxstaele M. and Ueckermann H. (2010) Strontium isotopic signatures of natural mineral waters, the reference to a simple geological map and its potential for authentication of food. Food Chemistry, 118, 933-940.</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">Isotope reference materials for present and future isotope research</title>
+<author>
+<persname><forename type="first">J</forename><surname>Vogl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Pritzkow</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Analytical Atomic Spectrometry</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope from="923" to="932" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vogl J. and Pritzkow W. (2010) Isotope reference materials for present and future isotope research. Journal of Analytical Atomic Spectrometry, 25, 923-932.</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">The need for new isotope reference materials</title>
+<author>
+<persname><forename type="first">J</forename><surname>Vogl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Rosner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Pritzkow</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Analytical and Bioanalytical Chemistry</title>
+<imprint>
+<biblscope unit="volume">405</biblscope>
+<biblscope from="2763" to="2770" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vogl J., Rosner M. and Pritzkow W. (2013) The need for new isotope reference materials. Analytical and Bioanalytical Chemistry, 405, 2763-2770.</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">Certification of ERM-EB400, the first matrix reference material for lead isotope amount ratios, and ERM-AE142, a lead solution providing a lead isotopic composition at the edge of natural variation</title>
+<author>
+<persname><forename type="first">J</forename><surname>Vogl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><forename type="middle">H</forename><surname>Yim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">S</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Goenaga-Infante</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Malinovskiy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">X</forename><surname>Ren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">D</forename><surname>Vocke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">E</forename><surname>Murphy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Nonose</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Rienitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Noordmann</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geostandards and Geoanalytical Research</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope from="23" to="37" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vogl J., Yim Y.H., Lee K.S., Goenaga-Infante H., Malinovskiy D., Hill S., Ren T.X., Wang J., Vocke R.D., Murphy K.E., Nonose N., Rienitz O. and Noordmann J. (2019) Certification of ERM-EB400, the first matrix reference material for lead isotope amount ratios, and ERM- AE142, a lead solution providing a lead isotopic composition at the edge of natural variation. Geostandards and Geoanalytical Research, 43, 23-37.</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">The AME 2020 atomic mass evaluation (II). Tables, graphs and references</title>
+<author>
+<persname><forename type="first">M</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">J</forename><surname>Huang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">G</forename><surname>Kondev</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Audi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Naimi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Chinese Physics, C</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope unit="page">30003</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wang M., Huang W.J., Kondev F.G., Audi G. and Naimi S. (2021) The AME 2020 atomic mass evaluation (II). Tables, graphs and references. Chinese Physics, C 45, 030003.</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">High-precision Pb-Sr-Nd-Hf isotopic characterization of USGS BHVO-1 and BHVO-2 reference materials</title>
+<author>
+<persname><forename type="first">D</forename><surname>Weis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Kieffer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Maerschalk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Pretorius</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Barling</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geochemistry, Geophysics, Geosystems</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Weis D., Kieffer B., Maerschalk C., Pretorius W. and Barling J. (2005) High-precision Pb-Sr-Nd-Hf isotopic characterization of USGS BHVO-1 and BHVO-2 reference materials. Geochemistry, Geophysics, Geosystems, 6.</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">High-precision isotopic characterization of USGS reference materials by TIMS and MC-ICP-MS</title>
+<author>
+<persname><forename type="first">D</forename><surname>Weis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Kieffer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Maerschalk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Barling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jong</forename><forename type="middle">J</forename><surname>De</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Williams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Hanano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Pretorius</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Mattielli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Scoates</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Goolaerts</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Friedman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Mahoney</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geochemistry, Geophysics, Geosystems</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Weis D., Kieffer B., Maerschalk C., Barling J., de Jong J., Williams G.A., Hanano D., Pretorius W., Mattielli N., Scoates J.S., Goolaerts A., Friedman R.M. and Mahoney J.B. (2006) High-precision isotopic characterization of USGS reference materials by TIMS and MC-ICP-MS. Geochemistry, Geophysics, Geosystems, 7.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Combined chemical separation of Lu, Hf, Rb, Sr, Sm and Nd from a single rock digest and precise and accurate isotope determinations of Lu-Hf, Rb-Sr and Sm-Nd isotope systems using multi-collector ICP-MS and TIMS</title>
+<author>
+<persname><forename type="first">Y</forename><forename type="middle">H</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Chu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">W</forename><surname>Xie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">Y</forename><surname>Wu</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">International Journal of Mass Spectrometry</title>
+<imprint>
+<biblscope unit="volume">290</biblscope>
+<biblscope from="120" to="126" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Yang Y.H., Zhang H.F., Chu Z.Y., Xie L.W. and Wu F.Y. (2010) Combined chemical separation of Lu, Hf, Rb, Sr, Sm and Nd from a single rock digest and precise and accurate isotope determinations of Lu-Hf, Rb-Sr and Sm-Nd isotope systems using multi-collector ICP-MS and TIMS. International Journal of Mass Spectrometry, 290, 120-126.</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Matrix separation of Sr and Pb for isotopic ratio analysis of Ca-rich samples via an automated simultaneous separation procedure</title>
+<author>
+<persname><forename type="first">T</forename><surname>Zimmermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Retzmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Schober</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Pr</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Prohaska</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Irrgeher</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Spectrochimica Acta Part B</title>
+<imprint>
+<biblscope unit="volume">151</biblscope>
+<biblscope from="54" to="64" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zimmermann T., Retzmann A., Schober M., Pr öfrock D., Prohaska T. and Irrgeher J. (2019) Matrix separation of Sr and Pb for isotopic ratio analysis of Ca-rich samples via an automated simultaneous separation procedure. Spectrochimica Acta Part B, 151, 54-64.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

@@ -1,0 +1,706 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Chemistry</journal-id><journal-id journal-id-type="iso-abbrev">Chemistry</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1521-3765</journal-id><journal-id journal-id-type="publisher-id">CHEM</journal-id><journal-title-group><journal-title>Chemistry (Weinheim an Der Bergstrasse, Germany)</journal-title></journal-title-group><issn pub-type="ppub">0947-6539</issn><issn pub-type="epub">1521-3765</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7540601</article-id><article-id pub-id-type="doi">10.1002/chem.202001412</article-id><article-id pub-id-type="publisher-id">CHEM202001412</article-id><article-categories><subj-group subj-group-type="overline"><subject>Communication</subject></subj-group><subj-group subj-group-type="heading"><subject>Communications</subject><subj-group subj-group-type="heading"><subject>Synthetic Methods</subject></subj-group></subj-group></article-categories><title-group><article-title>Iron(0)&#x02010;Mediated Stereoselective (3+2)&#x02010;Cycloaddition of Thiochalcones via a Diradical Intermediate</article-title></title-group><contrib-group><contrib id="chem202001412-cr-0001" contrib-type="author"><name><surname>Buday</surname><given-names>Philipp</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2410-2728</contrib-id><xref ref-type="aff" rid="chem202001412-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="author-notes" rid="chem202001412-note-1001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="chem202001412-cr-0002" contrib-type="author"><name><surname>Seeber</surname><given-names>Phillip</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4968-7726</contrib-id><xref ref-type="aff" rid="chem202001412-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="author-notes" rid="chem202001412-note-1001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="chem202001412-cr-0003" contrib-type="author"><name><surname>Zens</surname><given-names>Clara</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9247-2539</contrib-id><xref ref-type="aff" rid="chem202001412-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="chem202001412-cr-0004" contrib-type="author"><name><surname>Abul&#x02010;Futouh</surname><given-names>Hassan</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="chem202001412-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="chem202001412-cr-0005" contrib-type="author"><name><surname>G&#x000f6;rls</surname><given-names>Helmar</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="chem202001412-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="chem202001412-cr-0006" contrib-type="author"><name><surname>Gr&#x000e4;fe</surname><given-names>Stefanie</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1747-5809</contrib-id><xref ref-type="aff" rid="chem202001412-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="chem202001412-cr-0007" contrib-type="author"><name><surname>Matczak</surname><given-names>Piotr</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-5273-5768</contrib-id><xref ref-type="aff" rid="chem202001412-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="chem202001412-cr-0008" contrib-type="author" corresp="yes"><name><surname>Kupfer</surname><given-names>Stephan</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6428-7528</contrib-id><xref ref-type="aff" rid="chem202001412-aff-0002">
+<sup>2</sup>
+</xref><address><email>stephan.kupfer@uni-jena.de</email></address></contrib><contrib id="chem202001412-cr-0009" contrib-type="author" corresp="yes"><name><surname>Weigand</surname><given-names>Wolfgang</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5177-1006</contrib-id><xref ref-type="aff" rid="chem202001412-aff-0001">
+<sup>1</sup>
+</xref><address><email>wolfgang.weigand@uni-jena.de</email></address></contrib><contrib id="chem202001412-cr-0010" contrib-type="author" corresp="yes"><name><surname>Mloston</surname><given-names>Grzegorz</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3631-3239</contrib-id><xref ref-type="aff" rid="chem202001412-aff-0004">
+<sup>4</sup>
+</xref><address><email>grzegorz.mloston@chemia.uni.lodz.pl</email></address></contrib></contrib-group><aff id="chem202001412-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Institute of Inorganic and Analytical Chemistry</named-content>
+<institution>Friedrich Schiller University Jena</institution>
+<named-content content-type="street">Humboldtstrasse 8</named-content>
+<postal-code>07743</postal-code>
+<city>Jena</city>
+<country country="DE">Germany</country>
+</aff><aff id="chem202001412-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Institute of Physical Chemistry and Abbe Center of Photonics</named-content>
+<institution>Friedrich Schiller University Jena</institution>
+<named-content content-type="street">Helmholtzweg 4</named-content>
+<postal-code>07743</postal-code>
+<city>Jena</city>
+<country country="DE">Germany</country>
+</aff><aff id="chem202001412-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Faculty of Pharmacy</named-content>
+<institution>Al-Zaytoonah University of Jordan</institution>
+<named-content content-type="street">P.O.Box 130</named-content>
+<city>Amman</city>
+<postal-code>11733</postal-code>
+<country country="JO">Jordan</country>
+</aff><aff id="chem202001412-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Faculty of Chemistry</named-content>
+<institution>University of Lodz</institution>
+<named-content content-type="street">Tamka 12</named-content>
+<postal-code>91403</postal-code>
+<city>&#x00141;&#x000f3;d&#x0017a;</city>
+<country country="PL">Poland</country>
+</aff><author-notes><fn id="chem202001412-note-1001"><label>&#x02020;</label><p>These authors contributed equally to the work.</p></fn></author-notes><pub-date pub-type="epub"><day>10</day><month>8</month><year>2020</year></pub-date><pub-date pub-type="ppub"><day>04</day><month>9</month><year>2020</year></pub-date><volume>26</volume><issue>50</issue><issue-id pub-id-type="doi">10.1002/chem.v26.50</issue-id><fpage>11412</fpage><lpage>11416</lpage><history><date date-type="received"><day>22</day><month>3</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2020 Wiley&#x02010;VCH GmbH <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors. Published by Wiley-VCH GmbH</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:CHEM-26-11412.pdf"/><abstract><title>Abstract</title><p>Reactions of &#x003b1;,&#x003b2;&#x02010;unsaturated aromatic thioketones <bold>1</bold> (thiochalcones) with Fe<sub>3</sub>(CO)<sub>12</sub> leading to &#x003b7;<sup>4</sup>&#x02010;1&#x02010;thia&#x02010;1,3&#x02010;diene iron tricarbonyl complexes&#x02005;<bold>2</bold>, [FeFe] hydrogenase mimics <bold>3</bold>, and the thiopyrane adduct <bold>4</bold> are described. Obtained products have been characterized by X&#x02010;ray crystallography and by computational methods. Completely regio&#x02010; and diastereoselective formation of the five&#x02010;membered ring system in products&#x02005;<bold>3</bold>, containing four stereogenic centers, can be explained by an unprecedented, stepwise (3+2)&#x02010;cycloaddition of two thiochalcone molecules mediated by Fe<sub>3</sub>(CO)<sub>12</sub>. Quantum chemical calculations aimed at elucidation of the reaction mechanism, suggest that the formal (3+2)&#x02010;cycloaddition proceeds via sequential intramolecular radical transfer events upon homolytic cleavage of one carbon&#x02010;sulfur bond leading to a diradical intermediate.</p></abstract><abstract abstract-type="graphical"><p>
+<bold>Making the rounds</bold>: A series of new cyclopentenes was obtained from thiochalcones via a Fe<sup>0</sup>&#x02010;mediated formal (3+2)&#x02010;cycloaddition. Reactions occurred diastereoselectively and the postulated reaction mechanism was elucidated by a combined experimental and theoretical approach.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="CHEM-26-11412-g005.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="chem202001412-kwd-0001">cycloaddition</kwd><kwd id="chem202001412-kwd-0002">cyclopentenes</kwd><kwd id="chem202001412-kwd-0003">diastereoselectivity</kwd><kwd id="chem202001412-kwd-0004">iron carbonyls</kwd><kwd id="chem202001412-kwd-0005">quantum chemistry</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Deutsche Forschungsgemeinschaft </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001659</institution-id></institution-wrap></funding-source><award-id>Projektnummer 364549901 - TRR234</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>Alexander von Humboldt-Stiftung </institution><institution-id institution-id-type="open-funder-registry">10.13039/100005156</institution-id></institution-wrap></funding-source><award-id>Institutspartnerschaft</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="0"/><ref-count count="59"/><page-count count="5"/><word-count count="0"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 4, 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.2 mode:remove_FC converted:07.10.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="chem202001412-self">P. Buday, P. Seeber, C. Zens, H. Abul-Futouh, H. G&#x000f6;rls, S. Gr&#x000e4;fe, P. Matczak, S. Kupfer, W. Weigand, G. Mloston, <italic>Chem. Eur. J.</italic>
+<bold>2020</bold>, <italic>26</italic>, 11412.</mixed-citation>
+</p><fn-group id="chem202001412-ntgp-0001"><fn id="chem202001412-note-2001"><p>Dedicated to the memory of Prof. Rolf Huisgen</p></fn></fn-group></notes></front><body><p>In recent four decades, rapid progress in exploring thiocarbonyl compounds such as thioketones and thiochalcones has been observed.<xref rid="chem202001412-bib-0001" ref-type="ref">1</xref> On the one hand, aromatic thioketones were demonstrated to act as highly reactive dipolarophiles, thus R.&#x02005;Huisgen proposed for them the term &#x0201c;superdipolarophiles&#x0201d; based on results of kinetic studies with such 1,3&#x02010;dipoles as nitrones,<xref rid="chem202001412-bib-0002a" ref-type="ref">2a</xref> diazomethanes<xref rid="chem202001412-bib-0002b" ref-type="ref">2b</xref> and thiocarbonyl <italic>S</italic>&#x02010;methanides<xref rid="chem202001412-bib-0002c" ref-type="ref">2c</xref> (Scheme&#x02005;<xref rid="chem202001412-fig-5001" ref-type="fig">1</xref>, top). On the other hand, the observed high reactivity of thioketones in hetero&#x02010;Diels&#x02013;Alder reactions led to the term &#x0201c;superdienophiles&#x0201d; coined by J.&#x02005;Sauer.<xref rid="chem202001412-bib-0003" ref-type="ref">3</xref> Therefore, thiochalcones, easily available by thionation of chalcones with Lawesson's reagent, form a unique class of &#x003b1;,&#x003b2;&#x02010;unsaturated aromatic thioketones which are able to react as heterodienes with olefinic and acetylenic dienophiles yielding six&#x02010;membered thiopyrane derivatives (Scheme&#x02005;<xref rid="chem202001412-fig-5001" ref-type="fig">1</xref>, middle).<xref rid="chem202001412-bib-0004" ref-type="ref">4</xref> Furthermore, thiochalcones were also described as reactive dienophiles towards in situ generated &#x003b1;&#x02010;nitrosoalkenes<xref rid="chem202001412-bib-0005a" ref-type="ref">5a</xref>, <xref rid="chem202001412-bib-0005b" ref-type="ref">5b</xref> and chiral enamines.<xref rid="chem202001412-bib-0005c" ref-type="ref">5c</xref> Unexpectedly, thiochalcones reacted as C=S dipolarophiles in (3+2)&#x02010;cycloadditions with electron deficient fluorinated nitrile imines derived from trifluoroacetonitrile.<xref rid="chem202001412-bib-0006" ref-type="ref">6</xref>
+</p><fig fig-type="Scheme" xml:lang="en" id="chem202001412-fig-5001" orientation="portrait" position="float"><label>Scheme 1</label><caption><p>Reactivity of thioketones (top), reactivity of thiochalcones (middle) and application of thioketones (e.g. thiobenzophenone) for preparation of [FeFe] hydrogenase mimics (bottom).</p></caption><graphic id="nlm-graphic-3" xlink:href="CHEM-26-11412-g003"/></fig><p>Characteristically, in solution, during chromatographic workup, thiochalcones form an equilibrium mixture of the monomeric and two dimeric species, namely 3,4&#x02010;dihydro&#x02010;1,2&#x02010;dithiin (dimer&#x02005;A) as well as 3,4&#x02010;dihydro&#x02010;2<italic>H</italic>&#x02010;thiopyran (dimer&#x02005;B) derivatives, according to the rules of hetero&#x02010;Diels&#x02013;Alder chemistry (Scheme&#x02005;<xref rid="chem202001412-fig-5001" ref-type="fig">1</xref>, middle).<xref rid="chem202001412-bib-0007" ref-type="ref">7</xref> On preparative scale, an efficient separation of these three species is practically unfeasible by chromatographic methods, and therefore they are isolated as so&#x02010;called &#x0201c;thiochalcone fraction&#x0201d;.<xref rid="chem202001412-bib-0005b" ref-type="ref">5b</xref> Depending on the reaction conditions, for example, solvent, temperature, catalyst and the reagent applied for their conversion, thiochalcones can react either as monomers or dimers, thus yielding a variety of different products. For that reason, thiochalcones should be considered as versatile and valuable but also &#x0201c;capricious&#x0201d; building blocks in the organic chemistry of sulfur.</p><p>Along with the cycloaddition chemistry described above, another research field focusses on exploring thioketones in coordination and organometallic chemistry, particularly in the synthesis of [FeFe] hydrogenase mimics.<xref rid="chem202001412-bib-0008" ref-type="ref">8</xref> In recent decades, a great number of such [FeFe] hydrogenase model complexes has been reported.<xref rid="chem202001412-bib-0009" ref-type="ref">9</xref> In this respect, our earlier publications describe the preparation of [2Fe1S] and [2Fe2S] clusters, consi&#x02010; dered as mimics of [FeFe] hydrogenases, via a multi&#x02010;step re&#x02010; action of aromatic thioketones with Fe<sub>3</sub>(CO)<sub>12</sub> (Scheme&#x02005;<xref rid="chem202001412-fig-5001" ref-type="fig">1</xref>, bottom).<xref rid="chem202001412-bib-0008b" ref-type="ref">8b</xref>, <xref rid="chem202001412-bib-0008c" ref-type="ref">8c</xref>, <xref rid="chem202001412-bib-0008d" ref-type="ref">8d</xref>
+</p><p>In contrast to aromatic thioketones, the exploration of thiochalcones in coordination and organometallic chemistry is scarcely reported. For example, unlike extensively studied reactions of 1&#x02010;aza&#x02010;1,3&#x02010;dienes and 1&#x02010;oxa&#x02010;1,3&#x02010;dienes with iron carbonyls,<xref rid="chem202001412-bib-0010" ref-type="ref">10</xref> analogous reactions with 1&#x02010;thia&#x02010;1,3&#x02010;dienes, e.g. monomeric thiochalcones, are almost undiscovered.<xref rid="chem202001412-bib-0011" ref-type="ref">11</xref>
+</p><p>Stimulated by the aforementioned observations on aromatic thioketones, we investigated the reactions of Fe<sub>3</sub>(CO)<sub>12</sub> with diverse aryl&#x02010;, hetaryl&#x02010; and ferrocenyl&#x02010;functionalized thiochalcones in a combined experimental and theoretical study. In extension of the synthetic work, quantum chemical calculations were carried out to unravel the reaction pathway leading to unexpe&#x02010; cted products.</p><p>The first series of experiments was performed starting with Fe<sub>3</sub>(CO)<sub>12</sub> and thiochalcone <bold>1&#x02009;a</bold> (Scheme&#x02005;<xref rid="chem202001412-fig-5002" ref-type="fig">2</xref>) in boiling THF. As the accessible reaction pathways crucially depend on the initial configuration of the thiochalcones, a precise knowledge of the reactants at the molecular level is indispensable. Therefore, LNO&#x02010;CCSD(T)<xref rid="chem202001412-bib-0012" ref-type="ref">12</xref> calculations were performed to elucidate the structural and electronic properties of four conceivable confi&#x02010; gurations of <bold>1&#x02009;a</bold>, that is, a pair of <italic>E</italic> (<bold>E<sub>A</sub></bold> and <bold>E<sub>B</sub></bold>) and <italic>Z</italic> (<bold>Z<sub>A</sub></bold> and <bold>Z<sub>B</sub></bold>) isomers (Scheme&#x02005;<xref rid="chem202001412-fig-5002" ref-type="fig">2</xref>, top). The formation and reactivity of dimers A and B (Scheme&#x02005;<xref rid="chem202001412-fig-5002" ref-type="fig">2</xref>) has already been studied by theoretical methods.<xref rid="chem202001412-bib-0005b" ref-type="ref">5b</xref> The computational results for <bold>1&#x02009;a</bold> clearly indicate the thermodynamic preference of the <italic>E</italic> isomers, of which <bold>E<sub>A</sub></bold> is as much as 6.8&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup> more stable than <bold>E<sub>B</sub></bold>.</p><fig fig-type="Scheme" xml:lang="en" id="chem202001412-fig-5002" orientation="portrait" position="float"><label>Scheme 2</label><caption><p>Reactions of thiochalcones <bold>1&#x02009;a</bold>&#x02013;<bold>e</bold> with Fe<sub>3</sub>(CO)<sub>12</sub> resulting in mono and cyclic dinuclear iron complexes&#x02005;<bold>2&#x02009;a</bold>&#x02013;<bold>e</bold> and <bold>3&#x02009;a</bold>&#x02013;<bold>e</bold>, respectively, as well as in thiopyran complex&#x02005;<bold>4</bold> (isolated for substituents Ar<sup>1</sup>=Ar<sup>2</sup>=2&#x02010;Th<sup>[b]</sup>, only). Relative Gibbs energies of <bold>1&#x02009;a</bold> (in kJ&#x02009;mol<sup>&#x02212;1</sup>) were obtained at the LNO&#x02010;CCSD(T)/cc&#x02010;pVQZ level of theory. [a]&#x02005;Unexpectedly, a second experiment with another sample of <bold>1&#x02009;b</bold> resulted in a better yield of <bold>4</bold>. [b]&#x02005;2&#x02010;Th=thien&#x02010;2&#x02010;yl. [c]&#x02005;Fc=ferrocenyl. [d]&#x02005;Calculated for the reactions of <bold>1&#x02009;a</bold>&#x02013;<bold>e</bold> with Fe<sub>3</sub>(CO)<sub>12</sub> in 1:1 ratio (in the case of 3:1 ratio <bold>2&#x02009;a</bold> was obtained in 22&#x02009;% yield and <bold>3&#x02009;a</bold> in 6&#x02009;% yield).</p></caption><graphic id="nlm-graphic-5" xlink:href="CHEM-26-11412-g004"/></fig><p>Both reagents, the thiochalcone <bold>1&#x02009;a</bold> and Fe<sub>3</sub>(CO)<sub>12</sub>, were applied in a ratio of 3:1. After 1&#x02005;h, <bold>1&#x02009;a</bold> was completely consumed and chromatographic separation of the oily crude material afforded a major fraction as a red solid. The <sup>1</sup>H&#x02005;NMR spectrum revealed the presence of two doublets with <sup>3</sup>
+<italic>J</italic>
+<sub>H,H</sub>=9.4&#x02005;Hz localized at 6.91&#x02005;ppm and 3.34&#x02005;ppm, respectively. The molecular formula C<sub>16</sub>H<sub>10</sub>FeO<sub>3</sub>S<sub>2</sub> was confirmed by elemental analysis and EI&#x02010;MS methods. These data suggest that the structure of the obtained product can be postulated as the &#x003b7;<sup>4</sup>&#x02010;1&#x02010;thia&#x02010;1,3&#x02010;diene iron tricarbonyl complex&#x02005;<bold>2&#x02009;a</bold> (22&#x02009;%, Scheme&#x02005;<xref rid="chem202001412-fig-5002" ref-type="fig">2</xref>). Finally, this structure was unambiguously confirmed by X&#x02010;ray diffraction analysis (Figure&#x02005;S5). The formation of <bold>2&#x02009;a</bold> can be explained by interaction of thiochalcone <bold>1&#x02009;a</bold> with Fe<sub>3</sub>(CO)<sub>12</sub> in a similar fa&#x02010; shion as previously described for analogous (&#x003b7;<sup>4</sup>&#x02010;diene)Fe(CO)<sub>3</sub> complexes.<xref rid="chem202001412-bib-0010b" ref-type="ref">10b</xref> Notably, the structure of <bold>2&#x02009;a</bold> is comparable to those reported for tricarbonyl iron 1:1 complexes derived from &#x003b1;,&#x003b2;&#x02010;unsaturated thioamides and thioesters.<xref rid="chem202001412-bib-0011" ref-type="ref">11</xref>
+</p><p>During the chromatographic separation, a more polar fraction was also isolated as minor product&#x02005;<bold>3&#x02009;a</bold> (6&#x02009;%, Scheme&#x02005;<xref rid="chem202001412-fig-5002" ref-type="fig">2</xref>). In contrast to <bold>2&#x02009;a</bold>, the <sup>1</sup>H&#x02005;NMR spectrum of this product was more complex. For example, two doublets were found at 5.98&#x02005;ppm and 3.85&#x02005;ppm (<sup>3</sup>
+<italic>J</italic>
+<sub>H,H</sub>=2.1&#x02005;Hz and 4.4&#x02005;Hz, respectively). Moreover, two doublets of doublets appeared at 4.08&#x02005;ppm as well as at 3.56&#x02005;ppm. Three <italic>H</italic>C(sp<sup>3</sup>) atoms were identified in COSY and HSQC&#x02005;NMR spectra at 4.08&#x02005;ppm, 3.85&#x02005;ppm and 3.56&#x02005;ppm. The elemental analysis of that fraction allowed to establish the molecular formula as C<sub>32</sub>H<sub>20</sub>Fe<sub>2</sub>O<sub>6</sub>S<sub>4</sub> which was also confirmed in the EI&#x02010;MS by virtue of <italic>m</italic>/<italic>z=</italic>647 [<italic>M</italic>&#x02010;2 CO]<sup>+</sup>. The X&#x02010;ray analysis of <bold>3&#x02009;a</bold> revealed its novel, yet rather unexpected structure, typical of a [FeFe] hydrogenase mimic (Figure&#x02005;<xref rid="chem202001412-fig-0001" ref-type="fig">1</xref>). The molecular structure of <bold>3&#x02009;a</bold>, determined by X&#x02010;ray crystallography, disclosed its relative <italic>R</italic>*<sub>C1</sub>
+<italic>R</italic>*<sub>C2</sub>
+<italic>S</italic>*<sub>C3</sub>
+<italic>S</italic>*<sub>C6</sub> configuration. Structurally, complex&#x02005;<bold>3&#x02009;a</bold> features a five&#x02010;membered cyclopentene ring coordinated via two thiolato sulfur atoms to the Fe<sub>2</sub>(CO)<sub>6</sub> moiety. It was formed in a completely regio&#x02010; and diastereoselective manner, demonstrated by the presence of only one set of signals found in both the <sup>1</sup>H and <sup>13</sup>C{<sup>1</sup>H}&#x02005;NMR spectra of the isolated fraction.
+</p><fig fig-type="Figure" xml:lang="en" id="chem202001412-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Molecular structure and atom labeling scheme of <bold>3&#x02009;a</bold>. The ellipsoids represent a probability of 30&#x02009;%, H atoms are shown with arbitrary radii. Selected bond lengths (in &#x000c5;): Fe(1)&#x02212;Fe(2) 2.5148(4), Fe(1)&#x02212;S(1) 2.2510(5), Fe(1)&#x02212;S(2) 2.2615(5), Fe(2)&#x02212;S(1) 2.2790(5), Fe(2)&#x02212;S(2) 2.2406(5), C(4)&#x02212;C(5) 1.340(2); angles (in &#x000b0;): S(1)&#x02010;Fe(1)&#x02010;S(2) 84.009(17), S(1)&#x02010;Fe(1)&#x02010;Fe(2) 56.811(14), S(2)&#x02010;Fe(1)&#x02010;Fe(2) 55.649(14), Fe(1)&#x02010;S(1)&#x02010;Fe(2) 67.439(15), Fe(2)&#x02010;S(2)&#x02010;Fe(1) 67.914(15).</p></caption><graphic id="nlm-graphic-7" xlink:href="CHEM-26-11412-g001"/></fig><p>In order to elucidate the reaction mechanism leading to the diastereoselective formation of <bold>3&#x02009;a</bold>, quantum chemical calculations were performed (Figure&#x02005;<xref rid="chem202001412-fig-0002" ref-type="fig">2</xref>&#x02009;A). A set of 16 adduct states, originating from the coordination of the four possible isomers of <bold>1&#x02009;a</bold> (<bold>E<sub>A</sub></bold>, <bold>E<sub>B</sub></bold>, <bold>Z<sub>A</sub></bold> and <bold>Z<sub>B</sub></bold>) at the Fe<sub>2</sub>(CO)<sub>6</sub> moiety, was consi&#x02010; dered. Two of these adduct states are sterically conceivable to yield <bold>3&#x02009;a</bold> diastereoselectively (Figure&#x02005;S1 and Table&#x02005;S1). These two states originate from the most stable thiochalcone isomer <bold>E<sub>A</sub></bold>, as well as from the combination of one <bold>E<sub>A</sub></bold> and one <bold>Z<sub>B</sub></bold>. However, to reduce the computational effort, and due to the unfavorable thermodynamic properties of the <italic>Z</italic> isomers, only two <bold>E<sub>A</sub></bold> isomers were used to study the reaction pathway. The reaction path connecting the closed&#x02010;shell optimized structures of the <bold>E<sub>A</sub></bold>&#x02010;<bold>E<sub>A</sub></bold> adduct, denoted <bold>A(E<sub>A</sub>E<sub>A</sub>)</bold>, as well as of the <bold>E<sub>A</sub></bold>&#x02010;<bold>E<sub>A</sub></bold> product, denoted <bold>P(E<sub>A</sub>E<sub>A</sub>)</bold>, was approximated based on the climbing image nudge elastic band (CI&#x02010;NEB<xref rid="chem202001412-bib-0013" ref-type="ref">13</xref>) method (Figure&#x02005;<xref rid="chem202001412-fig-0002" ref-type="fig">2</xref>&#x02009;A).
+</p><fig fig-type="Figure" xml:lang="en" id="chem202001412-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>
+<bold>A</bold>)&#x02005;Reaction profile for the formation of <bold>3&#x02009;a</bold>, connecting adduct <bold>A(E<sub>A</sub>E<sub>A</sub>)</bold> and product <bold>P(E<sub>A</sub>E<sub>A</sub>)</bold>, calculated at the TPSSh/def2&#x02010;SVP level of theory along the closed&#x02010;shell singlet path obtained by the CI&#x02010;NEB method. <bold>B</bold>)&#x02005;Proposed reaction mechanism and spin density upon homolytic cleavage of one carbon&#x02013;sulfur bond.</p></caption><graphic id="nlm-graphic-9" xlink:href="CHEM-26-11412-g002"/></fig><p>Images along the closed&#x02010;shell singlet ground state reaction path were optimized at the TPSSh<xref rid="chem202001412-bib-0014" ref-type="ref">14</xref>/def2&#x02010;SVP<xref rid="chem202001412-bib-0015" ref-type="ref">15</xref> level of theory; additional open&#x02010;shell singlet as well as triplet single point calculations were also performed. Initially, an instantaneous carbon&#x02013;carbon bond formation (C<sup>1</sup>&#x02212;C<sup>1</sup>) was observed (Figure&#x02005;<xref rid="chem202001412-fig-0002" ref-type="fig">2</xref> B, step&#x02005;I). Subsequently, homolytic cleavage of one carbon&#x02013;sulfur bond proceeded, as indicated by the energetically favored open&#x02010;shell singlet solution. This C&#x02212;S bond breaking is accompanied by a partial planarization of the [2Fe2S] cluster from its initial butterfly structure, yielding a diradical intermediate with one unpaired electron mainly localized at the sulfur atom and the other electron delocalized along the &#x003c0;*&#x02010;orbital of the C<sup>1</sup>&#x02010;C<sup>2</sup>&#x02010;C<sup>3</sup> fragment, respectively (step II in Figure&#x02005;<xref rid="chem202001412-fig-0002" ref-type="fig">2</xref>&#x02009;B). The localization of the two unpaired electrons is illu&#x02010; strated by the spin density in the vicinity of the transition state. Consequently, an activation energy of 209&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup> is predicted, which is 10&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup> lower than for a heterolytic C&#x02212;S bond cleavage. In addition to the C&#x02212;S cleavage and the [2Fe2S] planarization, this energy is necessary to facilitate the rotation of the [2Fe2S] cluster around the remaining C&#x02212;S bond hindered by the axial hydrogen atom <italic>H</italic>C<sup>3</sup>. Surprisingly, this barrier is neither reduced considering implicit solvent effects (THF) nor considering an open&#x02010;shell (triplet) path (Figure&#x02005;S2 B&#x02010;C). However, a pronounced stabilization of the opened&#x02010;shell singlet solutions is expected along its optimized reaction path. Unfortunately, such open&#x02010;shell singlet path, connecting the closed&#x02010;shell adduct and product states, cannot be obtained as the corresponding method has not (yet) been implemented in the software packages available. Furthermore, a pronounced stabilization of step&#x02005;II may be anticipated by explicit interaction of <bold>3&#x02009;a</bold> with solvent molecules. As for the interaction between two thiochalcone molecules forming <bold>3&#x02009;a</bold>, the singly&#x02010;occupied &#x003c0;*&#x02010;orbital of the C<sup>1</sup>&#x02010;C<sup>2</sup>&#x02010;C<sup>3</sup> fragment of the first molecule overlaps with the &#x003c0;*&#x02010;orbital of the C<sup>2</sup>&#x02212;C<sup>3</sup> fragment of the second one which illustrates a formal (3+2)&#x02010;cycloaddition. In consequence, this interaction leads to the C&#x02212;C bond formation between C<sup>3</sup> and C<sup>2</sup> atoms of both molecules (Figure&#x02005;<xref rid="chem202001412-fig-0002" ref-type="fig">2</xref> B, step&#x02005;III). This bond formation is accompanied by the transfer of the respective unpaired electron to C<sup>3</sup> of the second thiochalcone molecule. Finally, intramolecular recombination of both radical centers (Figure&#x02005;<xref rid="chem202001412-fig-0002" ref-type="fig">2</xref>&#x02009;B, step&#x02005;IV) leads to a driving force of &#x02212;105&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup> and the selective formation of the cycloadduct <bold>3&#x02009;a</bold>.</p><p>The reaction of <bold>1&#x02009;a</bold> with Fe<sub>3</sub>(CO)<sub>12</sub> was repeated in a 1:1 ratio to increase the reduction equivalents and subsequently the amount of <bold>3&#x02009;a</bold>. In this experiment the yield of <bold>3&#x02009;a</bold> was esta&#x02010; blished to 32&#x02009;% and of <bold>2&#x02009;a</bold> to 7&#x02009;%, respectively.</p><p>The same ratio (1:1) was applied for reactions of thiochalcones <bold>1&#x02009;b</bold>&#x02013;<bold>e</bold> with Fe<sub>3</sub>(CO)<sub>12</sub>. The resulting products <bold>2&#x02009;b</bold>&#x02013;<bold>e</bold> (Figures&#x02005;S5&#x02013;S8) and <bold>3&#x02009;b</bold>&#x02013;<bold>e</bold> were also formed side by side, but their ratios depended on Ar<sup>1</sup> and Ar<sup>2</sup> (Scheme&#x02005;<xref rid="chem202001412-fig-5002" ref-type="fig">2</xref>, bottom). Similar to <bold>3&#x02009;a</bold>, formation of <bold>3&#x02009;b</bold>&#x02013;<bold>e</bold> occurred with complete regio&#x02010; and diastereoselectivity, evident by <sup>1</sup>H and <sup>13</sup>C{<sup>1</sup>H}&#x02005;NMR spectra registered for the isolated fractions. In all cases only one set of signals was observed. In analogy to <bold>3&#x02009;a</bold>, complexes&#x02005;<bold>3&#x02009;d</bold>,<bold>e</bold> (Figures&#x02005;S9, S10) feature the relative configuration of <italic>R</italic>*<sub>C1</sub>
+<italic>R</italic>*<sub>C2</sub>
+<italic>S</italic>*<sub>C3</sub>
+<italic>S</italic>*<sub>C6</sub>. Again, complexes&#x02005;<bold>3</bold> can be considered as mimics of the H&#x02010;cluster of the naturally occurring [FeFe] hydrogenases,<xref rid="chem202001412-bib-0016" ref-type="ref">16</xref> thus they are also of potential interest for the development of catalytic hydrogen production processes. Therefore, their redox properties were evaluated in the absence and presence of a proton source, that is, acetic acid (AcOH), using cyclic voltammetry (CV). These CV experiments showed, that <bold>3&#x02009;a</bold>&#x02013;<bold>e</bold> catalyze the reduction of protons in the presence of AcOH (Figures&#x02005;S12, S13).</p><p>The reaction of <bold>1&#x02009;b</bold> with Fe<sub>3</sub>(CO)<sub>12</sub> deserves a word of comment. In this case, formation of the dinuclear complex&#x02005;<bold>4</bold> along with <bold>2&#x02009;b</bold> and <bold>3&#x02009;b</bold>, was also observed (Scheme&#x02005;<xref rid="chem202001412-fig-5002" ref-type="fig">2</xref>). After isolation, the identity of <bold>4</bold> was proven by spectroscopic methods and X&#x02010;ray analysis (Figure&#x02005;S11). The structure of <bold>4</bold> resembles the product obtained after reaction of 7,7&#x02010;dimethyl&#x02010;6,8&#x02010;dioxa&#x02010;2&#x02010;selenaspiro[3.4]nonane with Fe<sub>3</sub>(CO)<sub>12</sub>.<xref rid="chem202001412-bib-0017" ref-type="ref">17</xref> Most likely, complex&#x02005;<bold>4</bold> was formed via reaction of the corresponding dimer B with Fe<sub>3</sub>(CO)<sub>12</sub>.</p><p>It is worth mentioning that blue colored dimers of type&#x02005;<bold>B</bold> are relatively stable in solution. In extension of the study, dimer&#x02005;B derived from <bold>1&#x02009;c</bold> was isolated and characterized by X&#x02010;ray crystallography (Figure&#x02005;S4).</p><p>In summary, the presented study showed that &#x0201c;capricious&#x0201d; monomeric and dimeric thiochalcones react with Fe<sub>3</sub>(CO)<sub>12</sub> yielding products of type&#x02005;<bold>2</bold>, <bold>3</bold> and <bold>4</bold>. In particular, diastereoselective formation of the five&#x02010;membered ring in complexes&#x02005;<bold>3</bold> containing four stereogenic centers is an intriguing finding. A plausible reaction mechanism involves an unprecedented, stepwise (3+2)&#x02010;cycloaddition of two thiochalcone molecules bonded to Fe<sub>3</sub>(CO)<sub>12</sub> via the sulfur atoms. Quantum chemical calculations suggest that this reaction proceeds via a sequential intramolecular radical transfer initiated by the homolytic cleavage of one carbon&#x02010;sulfur bond resulting in formation of a reactive diradical intermediate. Thus, the described results demonstrate once more the unique ability of the sulfur atom incorporated into the C=S bond to promote diradical mechanisms governing the stepwise cycloaddition reactions of thiocarbonyl compounds.<xref rid="chem202001412-bib-0018" ref-type="ref">18</xref>
+</p><sec disp-level="2" id="chem202001412-sec-0003" sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><p>As a service to our authors and readers, this journal provides supporting information supplied by the authors. Such materials are peer reviewed and may be re&#x02010;organized for online delivery, but are not copy&#x02010;edited or typeset. Technical support issues arising from supporting information (other than missing files) should be addressed to the authors.</p></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplementary</p></caption><media xlink:href="CHEM-26-11412-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="chem202001412-sec-0002"><title>Acknowledgements</title><p>Funding by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) within the TRR <sc>catalight</sc>&#x02013;Projektnummer 364549901&#x02013;TRR234 (projects A2 and C5) is gratefully acknowledged. All calculations have been performed at the Universit&#x000e4;tsrechenzentrum of the Friedrich Schiller University Jena. G.M., P.M. and W.W. acknowledge the Alexander von Humboldt Stiftung (Bonn, Germany) for financial support within the &#x02018;Institutspartnerschaft&#x02019; (Jena&#x02010;Lodz, project 2018&#x02013;2020). H.A.&#x02010;F. thanks the deanship of research, Al&#x02010;Zaytoonah University of Jordan for financial support (Grant No. 18/2018&#x02010;2019).</p></ack><ref-list><ref id="chem202001412-bib-0001"><label>1</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0001">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0001a"><label>1a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0002">
+<string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Grzelak</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Hamera-Faldyga</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Jasinski</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Pipiak</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Urbaniak</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Albrecht</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Hejmanowska</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Heimgartner</surname>
+</string-name>, <source xml:lang="en">Phosphorus Sulfur Silicon Relat. Elem.</source>
+<year>2017</year>, <volume>192</volume>, <fpage>204</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0001b"><label>1b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0003">
+<string-name>
+<given-names>P.</given-names>
+<surname>Matczak</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Hamera-Faldyga</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>G&#x000f6;rls</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Weigand</surname>
+</string-name>, <source xml:lang="en">Molecules</source>
+<year>2019</year>, <volume>24</volume>, <fpage>3950</fpage>.</mixed-citation></ref><ref id="chem202001412-bib-0002"><label>2</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0004">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0002a"><label>2a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0005">
+<string-name>
+<given-names>R.</given-names>
+<surname>Huisgen</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Fisera</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Giera</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Sustmann</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>1995</year>, <volume>117</volume>, <fpage>9671</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0002b"><label>2b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0006">
+<string-name>
+<given-names>R.</given-names>
+<surname>Huisgen</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Langhals</surname>
+</string-name>, <source xml:lang="en">Heteroat. Chem.</source>
+<year>2006</year>, <volume>17</volume>, <fpage>433</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0002c"><label>2c</label><mixed-citation publication-type="journal" id="chem202001412-cit-0007">
+<string-name>
+<given-names>R.</given-names>
+<surname>Huisgen</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Giera</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Langhals</surname>
+</string-name>, <source xml:lang="en">Helv. Chim. Acta</source>
+<year>2001</year>, <volume>84</volume>, <fpage>981</fpage>.</mixed-citation></ref><ref id="chem202001412-bib-0003"><label>3</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0008">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0003a"><label>3a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0009">
+<string-name>
+<given-names>J.</given-names>
+<surname>Breu</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>H&#x000f6;cht</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Rohr</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Schatz</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Sauer</surname>
+</string-name>, <source xml:lang="en">Eur. J. Org. Chem.</source>
+<year>1998</year>, <fpage>2861</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0003b"><label>3b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0010">
+<string-name>
+<given-names>U.</given-names>
+<surname>Rohr</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Schatz</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Sauer</surname>
+</string-name>, <source xml:lang="en">Eur. J. Org. Chem.</source>
+<year>1998</year>, <fpage>2875</fpage>.</mixed-citation></ref><ref id="chem202001412-bib-0004"><label>4</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0011">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0004a"><label>4a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0012">
+<string-name>
+<given-names>G. M.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Niu</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Segi</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Tanaka</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Nakajima</surname>
+</string-name>, <string-name>
+<given-names>R. A.</given-names>
+<surname>Zingaro</surname>
+</string-name>, <string-name>
+<given-names>J. H.</given-names>
+<surname>Reibenspies</surname>
+</string-name>, <string-name>
+<given-names>M. B.</given-names>
+<surname>Hall</surname>
+</string-name>, <source xml:lang="en">J. Org. Chem.</source>
+<year>2000</year>, <volume>65</volume>, <fpage>6601</fpage>;<pub-id pub-id-type="pmid">11052108</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0004b"><label>4b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0013">
+<string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Grzelak</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Heimgartner</surname>
+</string-name>, <source xml:lang="en">J. Sulfur Chem.</source>
+<year>2017</year>, <volume>38</volume>, <fpage>1</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0004c"><label>4c</label><mixed-citation publication-type="journal" id="chem202001412-cit-0014">
+<string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Hamera-Faldyga</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Heimgartner</surname>
+</string-name>, <source xml:lang="en">J. Sulfur Chem.</source>
+<year>2018</year>, <volume>39</volume>, <fpage>322</fpage>.</mixed-citation></ref><ref id="chem202001412-bib-0005"><label>5</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0015">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0005a"><label>5a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0016">
+<string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Urbaniak</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Zimmer</surname>
+</string-name>, <string-name>
+<given-names>H.-U.</given-names>
+<surname>Reissig</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Heimgartner</surname>
+</string-name>, <source xml:lang="en">ChemistrySelect</source>
+<year>2018</year>, <volume>3</volume>, <fpage>11724</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0005b"><label>5b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0017">
+<string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Urbaniak</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Jasinski</surname>
+</string-name>, <string-name>
+<given-names>E.-U.</given-names>
+<surname>W&#x000fc;rthwein</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Heimgartner</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Zimmer</surname>
+</string-name>, <string-name>
+<given-names>H.-U.</given-names>
+<surname>Reissig</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2020</year>, <volume>26</volume>, <fpage>237</fpage>;<pub-id pub-id-type="pmid">31429509</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0005c"><label>5c</label><mixed-citation publication-type="journal" id="chem202001412-cit-0018">
+<string-name>
+<given-names>J.</given-names>
+<surname>Hejmanowska</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Jasinski</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Wojciechowski</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Albrecht</surname>
+</string-name>, <source xml:lang="en">Chem. Commun.</source>
+<year>2017</year>, <volume>53</volume>, <fpage>11472</fpage>.</mixed-citation></ref><ref id="chem202001412-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="chem202001412-cit-0019">
+<string-name>
+<given-names>P.</given-names>
+<surname>Grzelak</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Utecht</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Jasinski</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <source xml:lang="en">Synthesis</source>
+<year>2017</year>, <volume>49</volume>, <fpage>2129</fpage>.</mixed-citation></ref><ref id="chem202001412-bib-0007"><label>7</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0020">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0007a"><label>7a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0021">
+<string-name>
+<given-names>J.-P.</given-names>
+<surname>Pradere</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Bouet</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Quiniou</surname>
+</string-name>, <source xml:lang="en">Tetrahedron Lett.</source>
+<year>1972</year>, <volume>13</volume>, <fpage>3471</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0007b"><label>7b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0022">
+<string-name>
+<given-names>P.</given-names>
+<surname>Beslin</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Lagain</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Vialle</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Minot</surname>
+</string-name>, <source xml:lang="en">Tetrahedron</source>
+<year>1981</year>, <volume>37</volume>, <fpage>3839</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0007c"><label>7c</label><mixed-citation publication-type="journal" id="chem202001412-cit-0023">
+<string-name>
+<given-names>T.</given-names>
+<surname>Karakasa</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Satsumabayashi</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Motoki</surname>
+</string-name>, <source xml:lang="en">Bull. Chem. Soc. Jpn.</source>
+<year>1986</year>, <volume>59</volume>, <fpage>335</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0007d"><label>7d</label><mixed-citation publication-type="journal" id="chem202001412-cit-0024">
+<string-name>
+<given-names>S.</given-names>
+<surname>Motoki</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Saito</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Karakasa</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Matsushita</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Furuno</surname>
+</string-name>, <source xml:lang="en">J. Chem. Soc. Perkin Trans. 1</source>
+<year>1992</year>, <fpage>2943</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0007e"><label>7e</label><mixed-citation publication-type="journal" id="chem202001412-cit-0025">
+<string-name>
+<given-names>A.</given-names>
+<surname>Capperucci</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Degl&#x02032;Innocenti</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Biondi</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Nocentini</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Rinaudo</surname>
+</string-name>, <source xml:lang="en">Tetrahedron Lett.</source>
+<year>2003</year>, <volume>44</volume>, <fpage>2831</fpage>.</mixed-citation></ref><ref id="chem202001412-bib-0008"><label>8</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0026">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0008a"><label>8a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0027">
+<string-name>
+<given-names>H.</given-names>
+<surname>Alper</surname>
+</string-name>, <string-name>
+<given-names>A. S. K.</given-names>
+<surname>Chan</surname>
+</string-name>, <source xml:lang="en">J. Chem. Soc. D</source>
+<year>1971</year>, <fpage>1203</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0008b"><label>8b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0028">
+<string-name>
+<given-names>A. Q.</given-names>
+<surname>Daraosheh</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>G&#x000f6;rls</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>El-khateeb</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Weigand</surname>
+</string-name>, <source xml:lang="en">Eur. J. Inorg. Chem.</source>
+<year>2011</year>, <fpage>349</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0008c"><label>8c</label><mixed-citation publication-type="journal" id="chem202001412-cit-0029">
+<string-name>
+<given-names>A. Q.</given-names>
+<surname>Daraosheh</surname>
+</string-name>, <string-name>
+<given-names>U.-P.</given-names>
+<surname>Apfel</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>G&#x000f6;rls</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Friebe</surname>
+</string-name>, <string-name>
+<given-names>U. S.</given-names>
+<surname>Schubert</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>El-khateeb</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Weigand</surname>
+</string-name>, <source xml:lang="en">Eur. J. Inorg. Chem.</source>
+<year>2012</year>, <fpage>318</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0008d"><label>8d</label><mixed-citation publication-type="journal" id="chem202001412-cit-0030">
+<string-name>
+<given-names>A. Q.</given-names>
+<surname>Daraosheh</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Abul-Futouh</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>G&#x000f6;rls</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Weigand</surname>
+</string-name>, <source xml:lang="en">Inorg. Chim. Acta</source>
+<year>2020</year>, <volume>503</volume>, <elocation-id>119377</elocation-id>.</mixed-citation></ref><ref id="chem202001412-bib-0009"><label>9</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0031">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0009a"><label>9a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0032">
+<string-name>
+<given-names>I. P.</given-names>
+<surname>Georgakaki</surname>
+</string-name>, <string-name>
+<given-names>L. M.</given-names>
+<surname>Thomson</surname>
+</string-name>, <string-name>
+<given-names>E. J.</given-names>
+<surname>Lyon</surname>
+</string-name>, <string-name>
+<given-names>M. B.</given-names>
+<surname>Hall</surname>
+</string-name>, <string-name>
+<given-names>M. Y.</given-names>
+<surname>Darensbourg</surname>
+</string-name>, <source xml:lang="en">Coord. Chem. Rev.</source>
+<year>2003</year>, <volume>238</volume>, <fpage>255</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0009b"><label>9b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0033">
+<string-name>
+<given-names>C.</given-names>
+<surname>Tard</surname>
+</string-name>, <string-name>
+<given-names>C. J.</given-names>
+<surname>Pickett</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>2009</year>, <volume>109</volume>, <fpage>2245</fpage>;<pub-id pub-id-type="pmid">19438209</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0009c"><label>9c</label><mixed-citation publication-type="journal" id="chem202001412-cit-0034">
+<string-name>
+<given-names>W.</given-names>
+<surname>Lubitz</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Ogata</surname>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>R&#x000fc;diger</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Reijerse</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>2014</year>, <volume>114</volume>, <fpage>4081</fpage>;<pub-id pub-id-type="pmid">24655035</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0009d"><label>9d</label><mixed-citation publication-type="book" id="chem202001412-cit-0035">
+<string-name>
+<given-names>U.-P.</given-names>
+<surname>Apfel</surname>
+</string-name>, <string-name>
+<given-names>F. Y.</given-names>
+<surname>Petillon</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Schollhammer</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Talarmin</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Weigand</surname>
+</string-name>, <source xml:lang="en">Bioinspired Catalysis: Metal-Sulfur Complexes</source>, <publisher-name>Wiley-VCH</publisher-name>, <publisher-loc>Weinheim</publisher-loc>, <year>2015</year>, p.&#x02005;<fpage>97</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0009e"><label>9e</label><mixed-citation publication-type="journal" id="chem202001412-cit-0036">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>T. B.</given-names>
+<surname>Rauchfuss</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>2016</year>, <volume>116</volume>, <fpage>7043</fpage>.<pub-id pub-id-type="pmid">27258046</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0010"><label>10</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0037">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0010a"><label>10a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0038">
+<string-name>
+<given-names>W.</given-names>
+<surname>Imhof</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>G&#x000f6;bel</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Braga</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>De Leonardis</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Tedesco</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>
+<year>1999</year>, <volume>18</volume>, <fpage>736</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0010b"><label>10b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0039">
+<string-name>
+<given-names>H.-J.</given-names>
+<surname>Kn&#x000f6;lker</surname>
+</string-name>, <source xml:lang="en">Chem. Soc. Rev.</source>
+<year>1999</year>, <volume>28</volume>, <fpage>151</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0010c"><label>10c</label><mixed-citation publication-type="journal" id="chem202001412-cit-0040">
+<string-name>
+<given-names>H.-J.</given-names>
+<surname>Kn&#x000f6;lker</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>2000</year>, <volume>100</volume>, <fpage>2941</fpage>;<pub-id pub-id-type="pmid">11749311</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0010d"><label>10d</label><mixed-citation publication-type="book" id="chem202001412-cit-0041">
+<string-name>
+<given-names>G. R.</given-names>
+<surname>Stephenson</surname>
+</string-name>, <source xml:lang="en">Science of Synthesis Vol.&#x02005;1</source>, <publisher-name>Thieme Chemistry</publisher-name>, <year>2014</year>, p.&#x02005;<fpage>87</fpage>.</mixed-citation></ref><ref id="chem202001412-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="chem202001412-cit-0042">
+<string-name>
+<given-names>H.</given-names>
+<surname>Alper</surname>
+</string-name>, <string-name>
+<given-names>D. A.</given-names>
+<surname>Brandes</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>
+<year>1991</year>, <volume>10</volume>, <fpage>2457</fpage>.</mixed-citation></ref><ref id="chem202001412-bib-0012"><label>12</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0043">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0012a"><label>12a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0044">
+<string-name>
+<given-names>P. R.</given-names>
+<surname>Nagy</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>K&#x000e1;llay</surname>
+</string-name>, <source xml:lang="en">J. Chem. Theory Comput.</source>
+<year>2019</year>, <volume>15</volume>, <fpage>5275</fpage>;<pub-id pub-id-type="pmid">31465219</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0012b"><label>12b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0045">
+<string-name>
+<given-names>P. R.</given-names>
+<surname>Nagy</surname>
+</string-name>
+<source xml:lang="en">J. Chem. Theory Comput.</source>
+<year>2018</year>, <volume>14</volume>, <fpage>4193</fpage>.<pub-id pub-id-type="pmid">29965753</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0013"><label>13</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0046">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0013a"><label>13a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0047">
+<string-name>
+<given-names>G.</given-names>
+<surname>Henkelman</surname>
+</string-name>, <string-name>
+<given-names>B. P.</given-names>
+<surname>Uberuaga</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Jonsson</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2000</year>, <volume>113</volume>, <fpage>9901</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0013b"><label>13b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0048">
+<string-name>
+<given-names>G.</given-names>
+<surname>Henkelman</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Jonsson</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2000</year>, <volume>113</volume>, <fpage>9978</fpage>.</mixed-citation></ref><ref id="chem202001412-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="chem202001412-cit-0049">
+<string-name>
+<given-names>V. N.</given-names>
+<surname>Staroverov</surname>
+</string-name>, <string-name>
+<given-names>G. E.</given-names>
+<surname>Scuseria</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Tao</surname>
+</string-name>, <string-name>
+<given-names>J. P.</given-names>
+<surname>Perdew</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2003</year>, <volume>119</volume>, <fpage>12129</fpage>.</mixed-citation></ref><ref id="chem202001412-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="chem202001412-cit-0050">
+<string-name>
+<given-names>F.</given-names>
+<surname>Weigend</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Ahlrichs</surname>
+</string-name>, <source xml:lang="en">Phys. Chem. Chem. Phys.</source>
+<year>2006</year>, <volume>8</volume>, <fpage>1057</fpage>.<pub-id pub-id-type="pmid">16633586</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0016"><label>16</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0051">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0016a"><label>16a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0052">
+<string-name>
+<given-names>J. W.</given-names>
+<surname>Peters</surname>
+</string-name>, <string-name>
+<given-names>W. N.</given-names>
+<surname>Lanzilotta</surname>
+</string-name>, <string-name>
+<given-names>B. J.</given-names>
+<surname>Lemon</surname>
+</string-name>, <string-name>
+<given-names>L. C.</given-names>
+<surname>Seefeldt</surname>
+</string-name>, <source xml:lang="en">Science</source>
+<year>1998</year>, <volume>282</volume>, <fpage>1853</fpage>;<pub-id pub-id-type="pmid">9836629</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0016b"><label>16b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0053">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Nicolet</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Piras</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Legrand</surname>
+</string-name>, <string-name>
+<given-names>C. E.</given-names>
+<surname>Hatchikian</surname>
+</string-name>, <string-name>
+<given-names>J. C.</given-names>
+<surname>Fontecilla-Camps</surname>
+</string-name>, <source xml:lang="en">Structure</source>
+<year>1999</year>, <volume>7</volume>, <fpage>13</fpage>.<pub-id pub-id-type="pmid">10368269</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="chem202001412-cit-0054">
+<string-name>
+<given-names>R.</given-names>
+<surname>Trautwein</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Abul-Futouh</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>G&#x000f6;rls</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Imhof</surname>
+</string-name>, <string-name>
+<given-names>L. R.</given-names>
+<surname>Almazahreh</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Weigand</surname>
+</string-name>, <source xml:lang="en">New J. Chem.</source>
+<year>2019</year>, <volume>43</volume>, <fpage>12580</fpage>.</mixed-citation></ref><ref id="chem202001412-bib-0018"><label>18</label><mixed-citation publication-type="miscellaneous" id="chem202001412-cit-0055">&#x000a0;</mixed-citation></ref><ref id="chem202001412-bib-0018a"><label>18a</label><mixed-citation publication-type="journal" id="chem202001412-cit-0056">
+<string-name>
+<given-names>R.</given-names>
+<surname>Huisgen</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Polborn</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Sustmann</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2003</year>, <volume>9</volume>, <fpage>2256</fpage>;<pub-id pub-id-type="pmid">12772300</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0018b"><label>18b</label><mixed-citation publication-type="journal" id="chem202001412-cit-0057">
+<string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Urbaniak</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Linden</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Heimgartner</surname>
+</string-name>, <source xml:lang="en">Helv. Chim. Acta</source>
+<year>2015</year>, <volume>98</volume>, <fpage>453</fpage>;</mixed-citation></ref><ref id="chem202001412-bib-0018c"><label>18c</label><mixed-citation publication-type="journal" id="chem202001412-cit-0058">
+<string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Pipiak</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Heimgartner</surname>
+</string-name>, <source xml:lang="en">Beilstein J. Org. Chem.</source>
+<year>2016</year>, <volume>12</volume>, <fpage>716</fpage>;<pub-id pub-id-type="pmid">27340463</pub-id></mixed-citation></ref><ref id="chem202001412-bib-0018d"><label>18d</label><mixed-citation publication-type="journal" id="chem202001412-cit-0059">
+<string-name>
+<given-names>G.</given-names>
+<surname>Mloston</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Grzelak</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Linden</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Heimgartner</surname>
+</string-name>, <source xml:lang="en">Chem. Heterocycl. Compd.</source>
+<year>2017</year>, <volume>53</volume>, <fpage>518</fpage>.</mixed-citation></ref></ref-list></back></article>

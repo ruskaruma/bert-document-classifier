@@ -1,0 +1,861 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.3" xml:lang="EN" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">10620895</article-id><article-id pub-id-type="doi">10.1021/acsomega.3c06074</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Utilizing Heteroatom
+Types and Numbers from Extensive
+Ligand Libraries to Develop Novel hERG Blocker QSAR Models Using Machine
+Learning-Based Classifiers</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Haddad</surname><given-names>Safa</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Oktay</surname><given-names>Lalehan</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Erol</surname><given-names>Ismail</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath4"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-9056-9000</contrib-id><name><surname>&#x0015e;ahin</surname><given-names>Kader</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath5"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-0426-0905</contrib-id><name><surname>Durdagi</surname><given-names>Serdar</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Computational
+Biology and Molecular Simulations Laboratory, Department of Biophysics,
+School of Medicine, <institution>Bah&#x000e7;e&#x0015f;ehir
+University</institution>, Istanbul 34353, <country>Turkey</country></aff><aff id="aff2"><label>&#x02021;</label>Computational
+Drug Design Center (HITMER), <institution>Bah&#x000e7;e&#x0015f;ehir
+University</institution>, Istanbul 34353, <country>Turkey</country></aff><aff id="aff3"><label>&#x000a7;</label>Department
+of Analytical Chemistry, School of Pharmacy, <institution>Bah&#x000e7;e&#x0015f;ehir University</institution>, Istanbul 34734, <country>Turkey</country></aff><aff id="aff4"><label>&#x02225;</label>Molecular
+Therapy Lab, Department of Pharmaceutical Chemistry, School of Pharmacy, <institution>Bah&#x000e7;e&#x0015f;ehir University</institution>, Istanbul 34353, <country>Turkey</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>Email: <email>serdar.durdagi@bau.edu.tr</email>.</corresp></author-notes><pub-date pub-type="epub"><day>16</day><month>10</month><year>2023</year></pub-date><pub-date pub-type="collection"><day>31</day><month>10</month><year>2023</year></pub-date><volume>8</volume><issue>43</issue><fpage>40864</fpage><lpage>40877</lpage><history><date date-type="received"><day>16</day><month>08</month><year>2023</year></date><date date-type="accepted"><day>13</day><month>09</month><year>2023</year></date></history><permissions><copyright-statement>&#x000a9; 2023 The Authors. Published by American Chemical Society</copyright-statement><copyright-year>2023</copyright-year><copyright-holder>The Authors</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>Permits the broadest form of re-use including for commercial purposes, provided that author attribution and integrity are maintained (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06074_0011" id="ab-tgrw1"/></p><p>The human ether-&#x000e0;-go-go-related gene (hERG) channel
+plays
+a crucial role in membrane repolarization. Any disruptions in its
+function can lead to severe cardiovascular disorders such as long
+QT syndrome (LQTS), which increases the risk of serious cardiovascular
+problems such as tachyarrhythmia and sudden cardiac death. Drug-induced
+LQTS is a significant concern and has resulted in drug withdrawals
+from the market in the past. The main objective of this study is to
+pinpoint crucial heteroatoms present in ligands that initiate interactions
+leading to the effective blocking of the hERG channel. To achieve
+this aim, ligand-based quantitative structure&#x02013;activity relationships
+(QSAR) models were constructed using extensive ligand libraries, considering
+the heteroatom types and numbers, and their associated hERG channel
+blockage pIC<sub>50</sub> values. Machine learning-assisted QSAR models
+were developed to analyze the key structural components influencing
+compound activity. Among the various methods, the KPLS method proved
+to be the most efficient, allowing the construction of models based
+on eight distinct fingerprints. The study delved into investigating
+the influence of heteroatoms on the activity of hERG blockers, revealing
+their significant role. Furthermore, by quantifying the effect of
+heteroatom types and numbers on ligand activity at the hERG channel,
+six compound pairs were selected for molecular docking. Subsequent
+molecular dynamics simulations and per residue MM/GBSA calculations
+were performed to comprehensively analyze the interactions of the
+selected pair compounds.</p></abstract><funding-group><award-group><funding-source><institution-wrap><institution>Istanbul Kalkinma Ajansi</institution><institution-id institution-id-type="doi">10.13039/501100008968</institution-id></institution-wrap></funding-source><award-id>TR10/21/YEP/0133</award-id></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution>Bah&#x000c3;&#x000a7;esehir &#x000c3;&#x0009c;niversitesi</institution><institution-id institution-id-type="doi">10.13039/501100015732</institution-id></institution-wrap></funding-source><award-id>BAP.2022-01.12 EFD-1</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao3c06074</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao3c06074</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><label>1</label><title>Introduction</title><p>Despite advancements in
+diagnosis and treatment, cardiovascular
+diseases (CVD) continue to be the leading cause of death worldwide,
+as highlighted by the World Health Organization (WHO). The mortality
+rate related to CVD is a significant concern, as seen in countries
+like Russia, where the annual rate is 614 deaths per 100,000 individuals,
+placing it among the highest worldwide.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> The human ether-&#x000e0;-go-go-related gene (hERG), which encodes
+voltage-gated potassium ion channels, plays a critical role in the
+repolarization of cardiac action potential in human cardiomyocytes.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> These potassium channels (K<sub>V</sub>) are
+integral membrane proteins that serve vital functions in various physiological
+processes. They are involved in generating nerve impulses, regulating
+neuronal excitability, cardiac pacemaking, and modulating muscular
+contractility. The channels are composed of homotetramers, each with
+six transmembrane segments (S1&#x02013;S6). The voltage sensing domain
+(VSD) comprises segments S1 to S4, while the pore domain (PD) consists
+of S5, S6, the P-loop, and the selectivity filter (SF) that facilitates
+the permeation of K<sup>+</sup> ions (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>).</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>K<sub>v</sub>11.1 (hERG) channel. While S1&#x02013;S4
+helices form
+the voltage sensing domain, S5&#x02013;S6 helices form the pore domain
+region of the channel.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06074_0001" id="gr1" position="float"/></fig><p>Prolonged ventricular repolarization caused by
+hERG channel blockade
+can increase the risk of cardiac damage, as evident by an extended
+QT interval on electrocardiography (ECG). Paradoxically, the use of
+antiarrhythmic medications to prolong QT intervals poses one of the
+highest risk of potentials. This risk has been also observed across
+various drug classes, including antihistamines, antipsychotics, antibiotics,
+and gastrointestinal stimulants.<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> Notably,
+medications such as cisapride (a serotonin receptor agonist), quinidine
+(an antiarrhythmic), astemizole, and terfenadine (both antihistamines)
+have either been withdrawn from the market or highly restricted due
+to their potential cardiotoxicity associated with hERG channel blockage.<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> These regulatory actions emphasize the significance
+of hERG-related risks and underscore the need to monitor and control
+the use of medications that may interfere with cardiac repolarization.
+Consequently, the hERG potassium ion channel has become a crucial
+therapeutic target, leading to the prioritization of screening drugs
+for their interaction with the hERG channel during the early stages
+of drug design. International Conference on Harmonization (ICH) regulations
+now require the evaluation of drug candidates for their ability to
+block the hERG channel during preclinical testing.<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> This evaluation has become a pivotal aspect in the initial
+phases of drug research to ensure the safety and efficacy of new drugs,
+particularly concerning their potential to cause adverse effects on
+cardiac repolarization.<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> By conducting
+a rigorous screening of hERG channel function, researchers can identify
+and eliminate drug candidates with unfavorable interactions, ultimately
+reducing the risk of cardiotoxicity and enhancing patient safety.
+In recent years, multiple mechanisms associated with QT prolongation
+have been discovered, highlighting the complexity beyond hERG channel
+blockade.<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> Despite the long-standing recommendation
+by international regulatory agencies since 2005 to assess the inhibitory
+effect of new drugs on the hERG channel in preclinical settings,<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> research continues to uncover additional factors
+influencing QT prolongation.</p><p>The comprehensive evaluation of
+QT prolongation risk, utilizing
+the multiple ion channel effect model that considers sodium and calcium
+channel blocking alongside the hERG channel assay, proves to be more
+robust than relying solely on the hERG assay for assessing drug safety.
+However, a significant number of currently available drugs undergo
+evaluation using only the hERG assay during the preclinical stage.
+As a result, efforts have been made to assess the risk of drug-induced
+QT prolongation at the preclinical and clinical level. Despite initiatives
+like <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://crediblemeds.org">crediblemeds.org</uri>, which
+aims to provide an updated list of QT-prolonging drugs, there are
+still instances where drugs with unknown risks of QT prolongation
+continue to be prescribed.<sup><xref ref-type="bibr" rid="ref9">9</xref></sup></p><p>Presently,
+the assessment of hERG-associated cardiac toxicity involves
+employing <italic>in vitro</italic> and <italic>in vivo</italic> techniques
+to study the impact of potential hERG channel blockers and to understand
+their effects on channel permeability. While <italic>in vivo</italic> experiments offer comprehensive drug evaluations, their high cost,
+inefficiency, and conflict with the 3R principle (i.e., reduction,
+and refinement in animal studies) highlight the need to minimize their
+use. In recent years, <italic>in vitro</italic> assays have made progress
+in terms of duration and cost-effectiveness.<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref11">11</xref></sup> However, these methods also have limitations in investigating the
+underlying structural mechanisms responsible for observed outcomes.
+To address this challenge, computational techniques have emerged as
+a promising approach in drug design and development for evaluating
+the hERG-blocking potential of small compounds before conducting experiments.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> Computational methods provide insights into
+the structural basis of the hERG channel blockade and can complement
+experimental approaches, contributing to a more efficient and informed
+drug discovery process. By utilizing computational modeling and simulations,
+researchers can prioritize and optimize potential drug candidates,
+reducing reliance on resource-intensive <italic>in vitro</italic> and <italic>in vivo</italic> experiments and ultimately accelerating the development
+of safer and more effective medications.<sup><xref ref-type="bibr" rid="ref13">13</xref>&#x02212;<xref ref-type="bibr" rid="ref15">15</xref></sup></p><p><italic>In silico</italic> strategies, such as machine learning
+(ML)-based classifiers and structure-based modeling, offer valuable
+and reliable complements to experimental approaches in addressing
+the issue of hERG-associated cardiac toxicity.<sup><xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> These computational methods leverage large data sets and advanced
+algorithms to analyze the structural and functional properties of
+hERG channels and their interactions with potential blockers. By training
+machine learning models on experimental data, researchers can accurately
+predict the hERG-blocking potential of novel compounds. Additionally,
+structure-based modeling techniques enable detailed exploration of
+the binding interactions between compounds and hERG channels, providing
+insights into the mechanisms of channel blockade. Integrating <italic>in silico</italic> approaches with experimental studies not only
+enhances the understanding of hERG-associated cardiac toxicity but
+also facilitates the identification of safer and more effective drug
+candidates in a more efficient and cost-effective manner.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> While ligand-based models can offer effective
+predictive performance, their utility in screening diverse compound
+classes could be constrained due to limitations in their applicability
+domain.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> This restriction arises from
+their reliance on training sets with a limited number of closely related
+analogs. In this scenario, the utilization of target-driven based
+methods, which are known for enhanced interpretability, becomes a
+valuable strategy.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> These approaches can
+be effectively integrated into consensus strategies alongside ligand-based
+classifiers.<sup><xref ref-type="bibr" rid="ref20">20</xref>,<xref ref-type="bibr" rid="ref21">21</xref></sup> Notably, over recent years, target-driven
+approaches such as molecular docking have gained prominence as an
+effective technique for developing classification models within the
+realm of predictive toxicology. This computational approach has found
+extensive usage in elucidating interactions between small-molecule
+ligands and the hERG channel. It is frequently employed in conjunction
+with additional computational techniques such as molecular dynamics
+(MD) simulations<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> and experimental methods
+like mutagenesis studies.<sup><xref ref-type="bibr" rid="ref23">23</xref>,<xref ref-type="bibr" rid="ref24">24</xref></sup> These combined efforts
+enable the pinpointing of specific residues responsible for drug binding
+within the hERG central cavity. Notably, residues such as Thr623,
+Ser624, Val625, Gly648, Tyr652, Phe656, and Phe557 have been identified
+as important amino acids for ligand interactions at the central cavity
+of the hERG channel.<sup><xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref25">25</xref></sup></p><p>In the current study, ligand-based
+QSAR models were constructed
+using data on heteroatom types and numbers derived from extensive
+ligand libraries, incorporating information about chemical constitution
+and hERG channel blockage (i.e., pIC<sub>50</sub> values). The QSAR
+models, developed using various methods, proved effective in identifying
+essential structural components influencing the compound activity.
+The investigation of heteroatoms highlighted their role in the hERG
+activity of blockers. By quantifying the impact of heteroatom types
+and number in a compound on the pIC<sub>50</sub> value, six compound
+pairs were selected for docking followed by molecular dynamics (MD)
+simulations and MM/GBSA calculations for a comprehensive analysis.</p></sec><sec id="sec2"><label>2</label><title>Methods</title><p>The overall methodology of
+this study is summarized in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>, which gives an
+overview of the employed approaches and techniques during the study.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Overview
+of the employed methodology in this study.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06074_0002" id="gr2" position="float"/></fig><sec id="sec2.1"><label>2.1</label><title>Construction of Ligand Databases from ChEMBL</title><p>The ChEMBL database (<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ebi.ac.uk/chembl/">https://www.ebi.ac.uk/chembl/</uri>) was employed to gather structural
+and biological activity data of known hERG blockers. As of November
+2022, the database contained 14,364 available compounds with their
+corresponding IC<sub>50</sub> values at the hERG channel. To standardize
+the activity values, the IC<sub>50</sub> values were transformed into
+pIC<sub>50</sub> by taking the negative logarithm (base 10) of each
+IC<sub>50</sub> value. pIC<sub>50</sub> is a widely used pharmacological
+indicator that quantifies the potency of a substance by measuring
+the concentration of a ligand required to inhibit a specific biological
+activity. To manage the extensive database, a subset of 508 compounds
+was selected among 14,364 compounds. In order to construct a subset
+database, a normal distribution curve was generated, encompassing
+a range of pIC<sub>50</sub> values spanning from 2.07 to 9.85 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Figure S1</ext-link>). This subset included compounds with
+varying levels of activity, providing a balanced representation of
+low, moderate, and high activity within the smaller database (508
+compounds).</p></sec><sec id="sec2.2"><label>2.2</label><title>Building QSAR Models</title><p>Schrodinger&#x02019;s
+AutoQSAR module was employed to develop QSAR models, initially using
+DeepChem.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> ML methods were used to create
+predictive models for the target data. To compare its efficiency with
+that of DeepChem, a similar process was repeated using the traditional
+QSAR method. Additionally, the CANVAS cheminformatics package was
+utilized to build QSAR models. Physicochemical descriptors were calculated
+from the molecular properties of the 508 structures to enhance model
+generation. For model generation, multiple linear regression (MLR),
+partial least-squares (PLS) regression, and kernel-based PLS regression
+(KPLS) were employed. The statistical results of the constructed models,
+such as <italic>R</italic><sup>2</sup> and <italic>Q</italic><sup>2</sup>, were assessed to determine the most effective method. KPLS
+models were developed by using various types of fingerprints. The
+models that exhibited high scores for each fingerprint were selected,
+and scatter plots were used for visualization and atomic contribution
+analysis to identify influential substructures affecting activity
+of the compound.</p></sec><sec id="sec2.3"><label>2.3</label><title>Investigating the Heteroatom Types and Numbers</title><p>To identify heteroatom types and numbers that significantly influence
+hERG blockage, the CANVAS chemoinformatics package was utilized on
+each of the chemical structure of the ligand. To ensure statistical
+reliability, the compound clusters that contain at least 5 compounds
+were only considered for subsequent analyses. Median pIC<sub>50</sub> values were calculated for each data set, and a Python script in
+the Spyder IDE<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> was executed to perform
+correlation analysis. The script examines how changes in specific
+heteroatom types and numbers, in the presence of other heteroatoms,
+correlate with changes in the pIC<sub>50</sub> value. The resulting
+graphs illustrate the correlation between the pIC<sub>50</sub> value
+and the number and types of heteroatoms. Comparisons and calculations
+were conducted between clusters (sets) with the same number of other
+heteroatoms while observing the variations in the specific heteroatom&#x02019;s
+count within the structure. To determine significant effects, the
+number of other heteroatoms was kept constant, and the impact of a
+particular heteroatom count was examined. If a substantial effect
+of at least around one log unit was detected between the median pIC<sub>50</sub> values of the compared sets, the compound with the highest
+pIC<sub>50</sub> value was selected from the set with the higher median
+pIC<sub>50</sub> value, while the compound with the lowest pIC<sub>50</sub> value was chosen from the set with the lowest median pIC<sub>50</sub> value.</p></sec><sec id="sec2.4"><label>2.4</label><title>Ligand Preparation</title><p>The LigPrep module
+of the Maestro molecular modeling package was employed to prepare
+the 508 ligands.<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> During the ligand preparation
+process, the protonation states of the compounds were calculated within
+a pH range of 7.0 &#x000b1; 2.0 using the Epik module.<sup><xref ref-type="bibr" rid="ref29">29</xref>,<xref ref-type="bibr" rid="ref30">30</xref></sup> Compounds with chiral centers generated up to four distinct stereoisomers,
+and ionization states were considered for each molecule. To ensure
+accurate representation of molecular characteristics, the OPLS3e<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> force field was applied.</p></sec><sec id="sec2.5"><label>2.5</label><title>Protein Preparation</title><p>The cryo-EM structure
+of the hERG K<sup>+</sup> channel (PDB ID: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="PDB" xlink:href="5VA1">5VA1</ext-link>) was obtained from the RCSB Protein Data
+Bank.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> In this structure, the ion channel
+is in an open-like state (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="PDB" xlink:href="5VA1">5VA1</ext-link>), and the voltage sensors exhibit a depolarized shape.
+Despite its relatively small size, the central cavity contains four
+deep hydrophobic pockets, which may explain the heightened sensitivity
+of the hERG channel to diverse ligand structures. To enable molecular
+docking and MD simulations, the channel was prepared using the Protein
+Preparation tool in the Maestro molecular modeling suite.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> Before the MD simulations, three potassium ions
+and two water molecules were added to the SF of the channel. Additionally,
+missing side chains and loops were filled. The Maestro&#x02019;s Prime
+module,<sup><xref ref-type="bibr" rid="ref34">34</xref>,<xref ref-type="bibr" rid="ref35">35</xref></sup> was employed to incorporate the missing
+loops and side chains into the residues. PROPKA<sup><xref ref-type="bibr" rid="ref36">36</xref>,<xref ref-type="bibr" rid="ref37">37</xref></sup> was used to add hydrogen atoms to the protein at physiological pH,
+ensuring accurate ionization states of amino acid residues. Structural
+optimization was then performed by using the OPLS3 force field with
+a convergence criterion of 0.3 &#x000c5; RMSD for heavy atoms.</p></sec><sec id="sec2.6"><label>2.6</label><title>Receptor Grid Generation</title><p>The generation
+of a receptor grid is a crucial step in grid-based docking studies.
+It involves creating a 3D grid that represents the binding site of
+the receptor, which is necessary to evaluate the binding energy of
+ligands during docking simulations. The Receptor Grid Generation tool
+was utilized to identify the binding pocket (active site) in the structure.<sup><xref ref-type="bibr" rid="ref38">38</xref></sup> The grid was generated by specifying key residues
+(i.e., Thr623, Ser624, Tyr652, Ala653, and Phe656) located at the
+centroid of selected residues (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>A). The coordinates for the center of the grid were
+determined as (2.86, &#x02212;5.97, &#x02212;1.27) in the (<italic>x</italic>, <italic>y</italic>, <italic>z</italic>) coordinate system, respectively.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>(A) Docking
+pose of CHEMBL1782574 in the central cavity of the
+hERG channel. (B) hERG channel (PDB ID: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="PDB" xlink:href="5VA1">5VA1</ext-link>) merged with the POPC membrane bilayer.
+The figure represents water molecules as the surface.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06074_0003" id="gr3" position="float"/></fig></sec><sec id="sec2.7"><label>2.7</label><title>Molecular Docking</title><p>The docking simulations
+were conducted using the grid-base Glide docking algorithm,<sup><xref ref-type="bibr" rid="ref39">39</xref>&#x02212;<xref ref-type="bibr" rid="ref41">41</xref></sup> which systematically explores the lowest energy conformation of
+the docked compound at the binding site of the receptor. The ligands
+underwent hierarchical filtration to assess the complementarity of
+the ligand&#x02013;receptor system. Ligands that passed this phase
+underwent energy minimization and were assigned scores. Two docking
+protocols, Glide/SP and Glide/XP, were employed in this study. Standard
+parameters, including ligand sampling with nitrogen inversions and
+ring conformations, bias sampling of torsion for amides, and postdocking
+minimization of 5 poses for each ligand, were considered. On the other
+hand, Glide/XP performed deeper sampling, beginning with SP sampling
+before utilizing its own anchor-and-grow technique. It utilizes a
+more complex scoring algorithm, demanding a higher ligand&#x02013;receptor
+shape complementarity. The Glide/XP docking is employed with standard
+settings using flexible ligand sampling, Epik state penalties incorporated
+into the docking score, and postdocking minimization of 10 poses.
+The docked poses were ranked based on docking scores, and only the
+top-scoring poses were selected for further analysis using MD simulations.</p></sec><sec id="sec2.8"><label>2.8</label><title>Molecular Dynamics (MD) Simulations</title><p>The molecules with the highest docking scores were subjected to MD
+simulations using Desmond.<sup><xref ref-type="bibr" rid="ref42">42</xref></sup> The membrane-embedded
+structure (PDB ID: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="PDB" xlink:href="5VA1">5VA1</ext-link>) was obtained from the OPM database.<sup><xref ref-type="bibr" rid="ref43">43</xref></sup> The system builder placed the hERG channel protein in an orthorhombic
+solvation box using the TIP3P solvent model<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> and a POPC membrane model at 310 K, <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>B. The simulations were conducted in the
+NPT ensemble at 310 K with a pressure of 1.01325 bar, maintained using
+a Nose&#x02013;Hoover thermostat<sup><xref ref-type="bibr" rid="ref45">45</xref></sup> and Martyina&#x02013;Tobias&#x02013;Klein
+barostat.<sup><xref ref-type="bibr" rid="ref46">46</xref></sup> The system was balanced by
+adding Cl<sup>&#x02013;</sup> ions and 0.15 M NaCl solution to achieve
+a pH of 7.4 and neutralize the simulation medium. Prior to the simulations,
+energy minimization and relaxation of the structure were employed
+in Desmond. Each MD simulation was conducted for 200 ns production
+run which generates 1000 trajectory frames. The relevant MD simulations
+data were collected individually and saved in trajectory files.</p></sec><sec id="sec2.9"><label>2.9</label><title>Molecular Mechanics Generalized Born Surface
+Area (MM/GBSA) Calculations</title><p>To calculate average binding
+free energy of each compound at the hERG channel used in MD simulations
+and to better understand the main differences between weak and strong
+inhibitors, MM/GBSA analysis was performed using Maestro&#x02019;s
+Prime module.<sup><xref ref-type="bibr" rid="ref34">34</xref>,<xref ref-type="bibr" rid="ref35">35</xref></sup> A systematic approach was employed,
+wherein MM/GBSA calculations were performed using one frame out of
+every ten frames. The dielectric constant was defined using the VSGB
+2.0 implicit solvation model,<sup><xref ref-type="bibr" rid="ref47">47</xref></sup>. After
+the calculations for each complex, the average MM/GBSA value and standard
+deviations for each compound were computed. Furthermore, to gain insight
+into the contribution of individual residues in the four chains of
+the hERG channel to the inhibitory activity and frequency of ligand&#x02013;protein
+contacts, per-residue MM/GBSA analysis was conducted to calculate
+binding free energies on a residue level. This analysis provides more
+detailed information about the role of specific residues in the interaction
+between the ligands and the protein.</p></sec></sec><sec id="sec3"><label>3</label><title>Results and Discussion</title><p>The main objective
+of this study is to create ligand-based QSAR
+models by utilizing heteroatom types and numbers from extensive ligand
+libraries, which encompass information about the chemical structure
+of ligands and their respective hERG channel blockage IC<sub>50</sub> values. Furthermore, the study seeks to explore atomic-level features
+that enhance the affinity with the hERG channel and influence the
+inhibitory activity of compounds. A data set consisting of 14,364
+hERG blocker compounds was collected from the ChEMBL database. In
+order to manage easily the constructed models, a smaller subset database
+was considered among 14,364 hERG blockers. For this aim, an evenly
+distributed biological activity of compounds was selected, which involved
+508 compounds (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Figure S1</ext-link>). To ensure the
+reliability of the collected IC<sub>50</sub>/pIC<sub>50</sub> values,
+they were also cross-checked from scientific literature. These 508
+compounds were selected to generate a normal distribution curve, which
+provides insights into the distribution of hERG-blocking potential
+within the data set. The pIC<sub>50</sub> values for these compounds
+ranged from 2.07 to 9.85. QSAR models were constructed to investigate
+the relationship between the structure and activity of the hERG blocker
+compounds, providing valuable insights into the crucial structural
+elements that influence their activity. Various QSAR modeling techniques
+were employed to assess their effectiveness on the given data set.
+The results revealed that the models developed using traditional methods
+exhibited elevated <italic>R</italic><sup>2</sup> and <italic>Q</italic><sup>2</sup> values, indicating superior precision and predictability,
+albeit with lower or moderate ranking score values (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Table S1</ext-link>). Similarly, models developed using the DeepChem
+method also performed well in terms of <italic>R</italic><sup>2</sup> and <italic>Q</italic><sup>2</sup> values but with lower ranking
+score values (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Table S2</ext-link>). When constructing
+the QSAR models, having a reliable objective function, or &#x0201c;score&#x02033;,
+becomes essential to distinguish between effective (i.e., stable)
+and ineffective QSAR models. In AutoQSAR, the quality of the models
+is evaluated based on their performance on specific training and test
+sets. The accuracy of a model is represented by a value between 0
+and 1, where 1 indicates perfect predictions and 0 signifies entirely
+incorrect predictions. The model M is then scored accordingly:<disp-formula id="ueq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06074_m001" position="anchor"/></disp-formula></p><p>This formula is designed to provide
+favorable scores to models
+that demonstrate high accuracy on both the training and test sets.
+Conversely, it penalizes models that exhibit low accuracy on either
+or both sets, as well as models that show substantial discrepancies
+in accuracy between the two sets.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup></p><p>Consistency in the effectiveness of the models was observed across
+various descriptor sets and molecular fingerprints. Among the different
+methods compared, the KPLS approach outperformed PLS and MLR (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Table S3</ext-link>). Consequently, QSAR models utilizing
+machine learning-based classifiers were developed using the KPLS method
+along with eight different fingerprints (atom pairs, atom triplets,
+dendritic, linear, MACCS, mol_print, radial, and topological). To
+assess the impact of each fingerprint type on the statistical scores
+of the constructed QSAR models, we employed the CANVAS tool. The same
+data set containing 508 hERG blocker compounds with their corresponding
+pIC<sub>50</sub> values was used in CANVAS. The results showed that
+the KPLS approach, when using atom_triplets, MACCS, radial, and dendritic
+fingerprints, yielded low <italic>Q</italic><sup>2</sup> values (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>). However, other
+fingerprints like topological, mol_print, linear, and atom_pairs produced
+both high <italic>R</italic><sup>2</sup> and <italic>Q</italic><sup>2</sup> values. The models with superior statistical results for
+each fingerprint type are presented in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Performance Evaluation of Top KPLS-Based
+Fingerprint Models Generated by CANVAS</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="&#x02212;"/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">fingerprint
+type</th><th style="border:none;" align="center" char="&#x02212;">training set/test set ratio</th><th style="border:none;" align="center" char="."><italic>R</italic><sup>2</sup></th><th style="border:none;" align="center" char="."><italic>Q</italic><sup>2</sup></th></tr></thead><tbody><tr><td style="border:none;" align="left">atom_pairs</td><td style="border:none;" align="char" char="&#x02212;">85%&#x02013;15%</td><td style="border:none;" align="char" char=".">0.94</td><td style="border:none;" align="char" char=".">0.60</td></tr><tr><td style="border:none;" align="left">linear</td><td style="border:none;" align="char" char="&#x02212;">85%&#x02013;15%</td><td style="border:none;" align="char" char=".">0.90</td><td style="border:none;" align="char" char=".">0.54</td></tr><tr><td style="border:none;" align="left">topological</td><td style="border:none;" align="char" char="&#x02212;">85%&#x02013;15%</td><td style="border:none;" align="char" char=".">0.65</td><td style="border:none;" align="char" char=".">0.53</td></tr><tr><td style="border:none;" align="left">mol_print</td><td style="border:none;" align="char" char="&#x02212;">75%&#x02013;25%</td><td style="border:none;" align="char" char=".">0.56</td><td style="border:none;" align="char" char=".">0.50</td></tr><tr><td style="border:none;" align="left">dendritic</td><td style="border:none;" align="char" char="&#x02212;">75%&#x02013;25%</td><td style="border:none;" align="char" char=".">0.98</td><td style="border:none;" align="char" char=".">0.49</td></tr><tr><td style="border:none;" align="left">radial</td><td style="border:none;" align="char" char="&#x02212;">75%&#x02013;25%</td><td style="border:none;" align="char" char=".">0.70</td><td style="border:none;" align="char" char=".">0.49</td></tr><tr><td style="border:none;" align="left">MACCS</td><td style="border:none;" align="char" char="&#x02212;">85%&#x02013;15%</td><td style="border:none;" align="char" char=".">0.40</td><td style="border:none;" align="char" char=".">0.27</td></tr><tr><td style="border:none;" align="left">atom_triplets</td><td style="border:none;" align="char" char="&#x02212;">80%&#x02013;20%</td><td style="border:none;" align="char" char=".">0.99</td><td style="border:none;" align="char" char=".">0.17</td></tr></tbody></table></table-wrap><p>Overall, these findings underscore the significance
+of successful
+QSAR modeling techniques, particularly the KPLS approach, in elucidating
+the structure&#x02013;activity relationships of hERG blocker compounds.
+These models offer valuable insights into designing potent and precise
+molecules. The use of different fingerprints and modeling methods
+allows for a comprehensive analysis, leading to a better understanding
+of the data set&#x02019;s characteristics. The QSAR models displayed
+a strong correlation between predicted and observed pIC<sub>50</sub> values (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>).
+These models effectively predicted the activity of both the training
+and test sets, demonstrating their efficacy in predicting the potency
+of hERG blocker compounds.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Scatter plots of observed and predicted pIC<sub>50</sub> values
+of the hERG blockers based on the KPLS model with (A) atom_pairs,
+(B) linear, (C) topological, and (D) mol_print fingerprints.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06074_0004" id="gr4" position="float"/></fig><p>Additionally, an investigation into the influence
+of heteroatoms
+on the functionality of hERG inhibitors was undertaken, focusing on
+the quantity and variety of heteroatoms present in the compounds.
+Heteroatoms give rise to structures known as functional groups. These
+functional groups serve as points where molecules interact and where
+chemical reactivity occurs between distinct compounds. Thus, heteroatoms
+have the potential to bring about noteworthy changes in both the properties
+and reactivity of a molecule.<sup><xref ref-type="bibr" rid="ref48">48</xref></sup> The LigFilter
+descriptors were computed using the CANVAS<sup><xref ref-type="bibr" rid="ref49">49</xref>,<xref ref-type="bibr" rid="ref50">50</xref></sup> excluding carbon and hydrogen atoms (i.e., considering only heteroatoms).
+This allowed for the determination of the number of heteroatoms in
+a data set comprising 508 compounds (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Tables S4&#x02013;S7</ext-link>), providing valuable insights into the heteroatom composition within
+the compounds under study. The analysis revealed that oxygen, nitrogen,
+chlorine, and sulfur atoms were particularly important heteroatoms
+in the 508 selected compounds, modulating the inhibition activity
+of the hERG blockers. Oxygen atoms exhibited an inverse relationship
+with activity, as an increase in their number within the compounds
+led to decreased inhibition (<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>). <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref> depicts pIC<sub>50</sub> values of selected compounds at
+the hERG channel versus the number of oxygen atoms within each compound.
+Compounds are selected based on the compound that their pIC<sub>50</sub> values fit to the mean value in each set. Similarly, an increase
+in the chlorine atom number resulted in a slight decrease in activity
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Figure S2</ext-link>). On the other hand, the presence
+of sulfur atoms displayed a positive correlation with activity, indicating
+that as the sulfur atom content increased within a compound, the pIC<sub>50</sub> value also tended to increase (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Figure S3</ext-link>). However, the presence of nitrogen atoms did not show a
+discernible impact on the biological activity, with no clear correlation
+between the pIC<sub>50</sub> value and the number of nitrogen atoms
+in the compound. Nevertheless, a closer examination revealed that
+an increase in the number of nitrogen atoms from 1 to 3 within a compound
+resulted in a decrease in pIC<sub>50</sub> values, but when the number
+of nitrogen atoms exceeded 3, the trend in pIC<sub>50</sub> values
+showed an increase. Furthermore, when there were more than 5 nitrogen
+atoms in a compound, the pIC<sub>50</sub> trend was not stable (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Figure S4</ext-link>). These findings provide valuable insights
+into the structure&#x02013;activity relationships of hERG blockers,
+particularly concerning the influence of heteroatom types and numbers.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Influence
+of heteroatoms on the activity of the hERG blockers.
+(A) Effect of the number of oxygen atoms on the hERG blockage activity
+(pIC<sub>50</sub>). (B) Detailed analyses on the influence of the
+oxygen atoms on the pIC<sub>50</sub> values.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06074_0005" id="gr5" position="float"/></fig><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Illustrative example demonstrating an activity decrease
+with elevated
+oxygen levels within the structures.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06074_0006" id="gr6" position="float"/></fig><p>To further investigate the correlation between
+heteroatoms and
+the pIC<sub>50</sub> value, additional analyses were conducted by
+grouping compounds with the same number of a specific heteroatom type.
+This approach allowed for a more targeted analysis of how biological
+activity (pIC<sub>50</sub>) evolves with changes in the quantity of
+a particular heteroatom type while keeping the total count of heteroatoms
+in the molecular structure constant. <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Figures S2B, S3B, and S4B</ext-link> depict these grouped analyses, offering a clearer understanding
+of the relationship between heteroatoms and activity. Further statistical
+analysis was performed to examine the quantitative impact of heteroatoms
+on pIC<sub>50</sub> activity, focusing on changes of approximately
+1 log unit or more for the effect of a specific atom on the activity.
+To ensure reliable sampling, a threshold of five members in a cluster
+was set, and clusters containing fewer than five compounds were excluded
+from the analysis. By evaluating the increase or decrease in the number
+of a specific heteroatom while keeping the number of other heteroatoms
+constant, significant effects on the activity were observed. To gain
+a deeper understanding of these effects, compounds with the highest
+and lowest pIC<sub>50</sub> values were selected from each cluster,
+encompassing both strong and weak inhibitors, providing a comprehensive
+view of the differences influencing the activity. As a result, six
+pairs of molecules were identified, each pair consisting of a strong
+and weak inhibitor (<xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>). This approach enabled a comprehensive investigation of
+the discrepancies among these molecules and facilitated subsequent
+analyses.</p><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Quantitative Analysis of the Influence
+of Heteroatoms on the pIC<sub>50</sub> Values</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="char" char="."/><col align="left"/><col align="char" char="."/><col align="left"/><col align="left"/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">Molecular formula of the compound representing
+the <bold>weakest</bold> inhibition within the set and its CHEMBL
+ID</th><th style="border:none;" align="center">pIC<sub>50</sub> value of the compound
+representing
+the <bold>weakest</bold> inhibition within the set</th><th style="border:none;" align="center">Heteroatom type and number representing the <bold>weakest</bold> inhibition within the set</th><th style="border:none;" align="center">Total number
+of heteroatoms representing the <bold>weakest</bold> inhibition within
+the set</th><th style="border:none;" align="center" char=".">Mean pIC<sub>50</sub> value for
+the <bold>weak</bold> inhibition set</th><th style="border:none;" align="center">Molecular formula of the compound representing
+the <bold>strongest</bold> inhibition within the set</th><th style="border:none;" align="center" char=".">pIC<sub>50</sub> value of the compound representing
+the <bold>strongest</bold> inhibition within the set</th><th style="border:none;" align="center">Heteroatom type and number representing the <bold>strongest</bold> inhibition within the set</th><th style="border:none;" align="center">Total number
+of heteroatoms representing the <bold>strong</bold> inhibition within
+the set</th><th style="border:none;" align="center" char=".">Mean pIC<sub>50</sub> value for
+the strong inhibition
+set</th><th style="border:none;" align="center" char=".">log unit difference between median
+values</th></tr></thead><tbody><tr><td style="border:none;" align="left">C<sub>17</sub>H<sub>19</sub>NO<sub>3</sub> (70)</td><td style="border:none;" align="left">3</td><td style="border:none;" align="left">1 N</td><td style="border:none;" align="left">4</td><td style="border:none;" align="char" char=".">4.89</td><td style="border:none;" align="left">C<sub>22</sub>H<sub>26</sub>N<sub>2</sub>O<sub>2</sub> (1257821)</td><td style="border:none;" align="char" char=".">9.85</td><td style="border:none;" align="left">2 N</td><td style="border:none;" align="left">4</td><td style="border:none;" align="char" char=".">5.92</td><td style="border:none;" align="char" char=".">1.03</td></tr><tr><td style="border:none;" align="left">C<sub>15</sub>H<sub>23</sub>N<sub>3</sub>O<sub>2</sub> (1097)</td><td style="border:none;" align="left">4</td><td style="border:none;" align="left">3 N</td><td style="border:none;" align="left">5</td><td style="border:none;" align="char" char=".">5.175</td><td style="border:none;" align="left">C<sub>26</sub>H<sub>31</sub>NO<sub>4</sub> (572163)</td><td style="border:none;" align="char" char=".">7.42</td><td style="border:none;" align="left">1 N</td><td style="border:none;" align="left">5</td><td style="border:none;" align="char" char=".">6.1</td><td style="border:none;" align="char" char=".">0.93</td></tr><tr><td style="border:none;" align="left">C<sub>15</sub>H<sub>23</sub>N<sub>3</sub>O<sub>2</sub> (1097)</td><td style="border:none;" align="left">4</td><td style="border:none;" align="left">3 N</td><td style="border:none;" align="left">5</td><td style="border:none;" align="char" char=".">5.175</td><td style="border:none;" align="left">C<sub>20</sub>H<sub>24</sub>N<sub>2</sub>O<sub>2</sub>S (1257578)</td><td style="border:none;" align="char" char=".">9.59</td><td style="border:none;" align="left">2 N</td><td style="border:none;" align="left">5</td><td style="border:none;" align="char" char=".">6.17</td><td style="border:none;" align="char" char=".">0.99</td></tr><tr><td style="border:none;" align="left">C<sub>23</sub>H<sub>35</sub>F<sub>3</sub>N<sub>4</sub>O<sub>3</sub>S (1782574)</td><td style="border:none;" align="left">2.41</td><td style="border:none;" align="left">4 N</td><td style="border:none;" align="left">11</td><td style="border:none;" align="char" char=".">4.81</td><td style="border:none;" align="left">C<sub>26</sub>H<sub>26</sub>F<sub>3</sub>N<sub>5</sub>O<sub>3</sub> (3422978)</td><td style="border:none;" align="char" char=".">9.41</td><td style="border:none;" align="left">5 N</td><td style="border:none;" align="left">11</td><td style="border:none;" align="char" char=".">5.76</td><td style="border:none;" align="char" char=".">0.95</td></tr><tr><td style="border:none;" align="left">C<sub>24</sub>H<sub>26</sub>FN<sub>5</sub>O<sub>4</sub> (2424928)</td><td style="border:none;" align="left">3.51</td><td style="border:none;" align="left">0
+S</td><td style="border:none;" align="left">10</td><td style="border:none;" align="char" char=".">4.96</td><td style="border:none;" align="left">C<sub>28</sub>H<sub>31</sub>F<sub>3</sub>N<sub>6</sub>S (390649)</td><td style="border:none;" align="char" char=".">7.5</td><td style="border:none;" align="left">1 S</td><td style="border:none;" align="left">10</td><td style="border:none;" align="char" char=".">5.9</td><td style="border:none;" align="char" char=".">0.94</td></tr><tr><td style="border:none;" align="left">C<sub>15</sub>H<sub>23</sub>N<sub>3</sub>O<sub>2</sub> (1097)</td><td style="border:none;" align="left">4</td><td style="border:none;" align="left">0 Cl</td><td style="border:none;" align="left">5</td><td style="border:none;" align="char" char=".">5.22</td><td style="border:none;" align="left">C<sub>24</sub>H<sub>27</sub>ClN<sub>2</sub>OS (195180)</td><td style="border:none;" align="char" char=".">7.52</td><td style="border:none;" align="left">1 Cl</td><td style="border:none;" align="left">5</td><td style="border:none;" align="char" char=".">6.72</td><td style="border:none;" align="char" char=".">1.5</td></tr></tbody></table></table-wrap><p>To gain deeper insights into the impact of the type
+and number
+of heteroatom in these selected representative compound pairs, molecular
+docking analyses were carried out by using the Glide/SP and Glide/XP
+algorithms. These chosen molecules were docked to the pore domain
+region of the hERG channel. The outcomes of these simulations, comprising
+the ligand&#x02013;protein interactions (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>) and docking scores obtained from Glide/SP
+and Glide/XP, are presented in <xref rid="tbl3" ref-type="other">Table <xref rid="tbl3" ref-type="other">3</xref></xref>.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Investigating ligand&#x02013;protein interactions within
+the intracavitary
+pore domain of the channel: Examination of the docking pose of the
+CHEMBL1782574 compound with 2D and 3D insights.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06074_0007" id="gr7" position="float"/></fig><table-wrap id="tbl3" position="float"><label>Table 3</label><caption><title>Docking Scores from Glide/SP and XP
+of the Top Selected Ligands in the hERG Binding Site (Central Cavity)</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center" char=".">&#x000a0;</th><th colspan="2" align="center" char=".">Glide (kcal/mol)<hr/></th></tr><tr><th style="border:none;" align="center">pair number</th><th style="border:none;" align="center">CHEMBL
+ID</th><th style="border:none;" align="center" char=".">pIC<sub>50</sub></th><th style="border:none;" align="center" char=".">SP</th><th style="border:none;" align="center" char=".">XP</th></tr></thead><tbody><tr><td rowspan="2" style="border:none;" align="left">pair 1</td><td style="border:none;" align="left">CHEMBL70</td><td style="border:none;" align="char" char=".">3.00</td><td style="border:none;" align="char" char=".">&#x02013;5.33</td><td style="border:none;" align="char" char=".">&#x02013;5.14</td></tr><tr><td style="border:none;" align="left">CHEMBL1257821</td><td style="border:none;" align="char" char=".">9.85</td><td style="border:none;" align="char" char=".">&#x02013;6.84</td><td style="border:none;" align="char" char=".">&#x02013;6.12</td></tr><tr><td rowspan="2" style="border:none;" align="left">pair 2</td><td style="border:none;" align="left">CHEMBL572163</td><td style="border:none;" align="char" char=".">7.42</td><td style="border:none;" align="char" char=".">&#x02013;6.34</td><td style="border:none;" align="char" char=".">&#x02013;4.12</td></tr><tr><td style="border:none;" align="left">CHEMBL1097</td><td style="border:none;" align="char" char=".">4.00</td><td style="border:none;" align="char" char=".">&#x02013;3.95</td><td style="border:none;" align="char" char=".">&#x02013;5.21</td></tr><tr><td rowspan="2" style="border:none;" align="left">pair 3</td><td style="border:none;" align="left">CHEMBL1257578</td><td style="border:none;" align="char" char=".">9.59</td><td style="border:none;" align="char" char=".">&#x02013;6.79</td><td style="border:none;" align="char" char=".">&#x02013;5.87</td></tr><tr><td style="border:none;" align="left">CHEMBL1097</td><td style="border:none;" align="char" char=".">4.00</td><td style="border:none;" align="char" char=".">&#x02013;3.95</td><td style="border:none;" align="char" char=".">&#x02013;5.21</td></tr><tr><td rowspan="2" style="border:none;" align="left">pair 4</td><td style="border:none;" align="left">CHEMBL1782574</td><td style="border:none;" align="char" char=".">2.41</td><td style="border:none;" align="char" char=".">&#x02013;5.34</td><td style="border:none;" align="char" char=".">&#x02013;4.42</td></tr><tr><td style="border:none;" align="left">CHEMBL3422978</td><td style="border:none;" align="char" char=".">9.41</td><td style="border:none;" align="char" char=".">&#x02013;7.08</td><td style="border:none;" align="char" char=".">&#x02013;6.29</td></tr><tr><td rowspan="2" style="border:none;" align="left">pair 5</td><td style="border:none;" align="left">CHEMBL2424928</td><td style="border:none;" align="char" char=".">3.51</td><td style="border:none;" align="char" char=".">&#x02013;6.69</td><td style="border:none;" align="char" char=".">&#x02013;5.21</td></tr><tr><td style="border:none;" align="left">CHEMBL390649</td><td style="border:none;" align="char" char=".">7.5</td><td style="border:none;" align="char" char=".">&#x02013;4.92</td><td style="border:none;" align="char" char=".">&#x02013;5.24</td></tr><tr><td rowspan="2" style="border:none;" align="left">pair 6</td><td style="border:none;" align="left">CHEMBL1097</td><td style="border:none;" align="char" char=".">4.00</td><td style="border:none;" align="char" char=".">&#x02013;3.95</td><td style="border:none;" align="char" char=".">&#x02013;5.21</td></tr><tr><td style="border:none;" align="left">CHEMBL195180</td><td style="border:none;" align="char" char=".">7.52</td><td style="border:none;" align="char" char=".">&#x02013;6.84</td><td style="border:none;" align="char" char=".">&#x02013;5.01</td></tr></tbody></table></table-wrap><p>Following the selection of the top docking scores,
+the compounds
+were subjected to further analysis by using MD simulations. A total
+of 6 pairs, representing both strong and weak inhibitors, were utilized
+in 200 ns all-atom MD simulations. The resulting trajectories from
+each simulation were collected and subjected to analysis. To assess
+the structural stabilities of each ligand pair at the binding pocket,
+the root-mean-square deviation (RMSD) of the ligands was measured
+in comparison to their initial positions (i.e., Glide/XP). A higher
+ligand RMSD value generally indicates a deviation from the initial
+binding pose, while a lower RMSD value suggests that the molecule
+maintains its initial conformation throughout the simulations. As
+expected, the results from <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref> validate these assumptions, as the RMSD values consistently
+remain lower for the strong inhibitors and higher for the weak inhibitors.
+However, it is worth noting that only one pair of molecules CHEMBL70
+(pIC<sub>50</sub>, 3) and CHEMBL1257821 (pIC<sub>50</sub>, 9.85) deviates
+from this trend.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>Ligand RMSD analyses. (A) Normal distribution of ligand
+RMSDs.
+(B) Change of RMSD values of heavy atoms of ligands based on their
+initial positions at the binding pocket of the channel (LigFitProt).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06074_0008" id="gr8" position="float"/></fig><p>These findings provide valuable insights into the
+structural dynamics
+and binding characteristics of the inhibitors, emphasizing the significance
+of heteroatom types and numbers in achieving a strong or weak inhibitory
+profile. The ligand&#x02013;protein interactions were analyzed through
+the generation of a simulation interaction diagram. Throughout the
+200 ns all-atom MD simulations, various contacts between the ligand
+and the protein were observed and recorded. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Figures S5 to S10</ext-link> present detailed interactions between the ligand
+atoms and the protein, focusing on interactions that occurred for
+more than 15% of the simulation time. These analyses shed light on
+the complex interactions between the ligands and the protein, further
+contributing to our understanding of the structure&#x02013;activity
+relationships and binding mechanisms of the inhibitors.</p><p>The
+MM/GBSA results were thoroughly examined alongside the experimental
+pIC<sub>50</sub> data for each pair of molecules. <xref rid="tbl4" ref-type="other">Table <xref rid="tbl4" ref-type="other">4</xref></xref> presents the average MM/GBSA
+binding free energy values between the selected ligand pairs and the
+hERG channel.</p><table-wrap id="tbl4" position="float"><label>Table 4</label><caption><title>Average MM/GBSA Values for the Selected
+Compounds</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center"><bold>Pair number</bold></th><th style="border:none;" align="center">CHEMBL ID</th><th style="border:none;" align="center" char=".">Average MM/GBSA (kcal/mol)</th><th style="border:none;" align="center" char=".">Std. Dev. (kcal/mol)</th><th style="border:none;" align="center" char=".">pIC<sub>50</sub></th></tr></thead><tbody><tr><td rowspan="2" style="border:none;" align="left">pair 1</td><td style="border:none;" align="left">CHEMBL70</td><td style="border:none;" align="char" char=".">&#x02013;53.20</td><td style="border:none;" align="char" char=".">4.63</td><td style="border:none;" align="char" char=".">3.00</td></tr><tr><td style="border:none;" align="left">CHEMBL1257821</td><td style="border:none;" align="char" char=".">&#x02013;53.09</td><td style="border:none;" align="char" char=".">6.80</td><td style="border:none;" align="char" char=".">9.85</td></tr><tr><td rowspan="2" style="border:none;" align="left">pair 2</td><td style="border:none;" align="left">CHEMBL572163</td><td style="border:none;" align="char" char=".">&#x02013;64.71</td><td style="border:none;" align="char" char=".">6.70</td><td style="border:none;" align="char" char=".">7.42</td></tr><tr><td style="border:none;" align="left">CHEMBL1097</td><td style="border:none;" align="char" char=".">&#x02013;44.65</td><td style="border:none;" align="char" char=".">6.46</td><td style="border:none;" align="char" char=".">4.00</td></tr><tr><td rowspan="2" style="border:none;" align="left">pair 3</td><td style="border:none;" align="left">CHEMBL1257578</td><td style="border:none;" align="char" char=".">&#x02013;70.80</td><td style="border:none;" align="char" char=".">8.00</td><td style="border:none;" align="char" char=".">9.59</td></tr><tr><td style="border:none;" align="left">CHEMBL1097</td><td style="border:none;" align="char" char=".">&#x02013;44.65</td><td style="border:none;" align="char" char=".">6.46</td><td style="border:none;" align="char" char=".">4.00</td></tr><tr><td rowspan="2" style="border:none;" align="left">pair 4</td><td style="border:none;" align="left">CHEMBL1782574</td><td style="border:none;" align="char" char=".">&#x02013;58.90</td><td style="border:none;" align="char" char=".">7.23</td><td style="border:none;" align="char" char=".">2.41</td></tr><tr><td style="border:none;" align="left">CHEMBL3422978</td><td style="border:none;" align="char" char=".">&#x02013;70.99</td><td style="border:none;" align="char" char=".">5.84</td><td style="border:none;" align="char" char=".">9.41</td></tr><tr><td rowspan="2" style="border:none;" align="left">pair 5</td><td style="border:none;" align="left">CHEMBL2424928</td><td style="border:none;" align="char" char=".">&#x02013;62.32</td><td style="border:none;" align="char" char=".">7.16</td><td style="border:none;" align="char" char=".">3.51</td></tr><tr><td style="border:none;" align="left">CHEMBL390649</td><td style="border:none;" align="char" char=".">&#x02013;63.61</td><td style="border:none;" align="char" char=".">10.96</td><td style="border:none;" align="char" char=".">7.5</td></tr><tr><td rowspan="2" style="border:none;" align="left">pair 6</td><td style="border:none;" align="left">CHEMBL1097</td><td style="border:none;" align="char" char=".">&#x02013;44.65</td><td style="border:none;" align="char" char=".">6.47</td><td style="border:none;" align="char" char=".">4.00</td></tr><tr><td style="border:none;" align="left">CHEMBL195180</td><td style="border:none;" align="char" char=".">&#x02013;70.07</td><td style="border:none;" align="char" char=".">6.29</td><td style="border:none;" align="char" char=".">7.52</td></tr></tbody></table></table-wrap><p>As anticipated, the average MM/GBSA outcomes revealed
+a clear correlation
+between the binding energy and activity. Molecules with higher pIC<sub>50</sub> values exhibited more negative binding energy values, indicating
+stronger interactions and a better fit with the pore domain of the
+ion channel. Conversely, molecules with lower pIC<sub>50</sub> values
+showed less negative binding energy values, suggesting weaker binding
+and less favorable interactions, categorizing them as weak inhibitors.
+The overall agreement between the MM/GBSA results and experimental
+data substantiated the predictive capability of the MM/GBSA method.
+However, it is crucial to acknowledge that the MM/GBSA results for
+the pair of molecules CHEMBL70 and CHEMBL1257821 did not align well
+with the experimental data. This discrepancy signals the necessity
+for further investigation to comprehend the underlying factors contributing
+to the observed deviation in this specific pair of molecules. While
+CHEMBL70, a kappa opioid receptor antagonist, was anticipated to have
+a smaller RMSD and a more negative average MM/GBSA score compared
+to CHEMBL1257821, the latter displayed a strong inhibitory effect
+at the hERG channel with a pIC<sub>50</sub> value of 9.85. However,
+the mismatched results observed for this pair may be attributed to
+the state of the hERG channel. The hERG channel can exist in either
+an open state or an open-inactivated state for hosting the blockers,
+and different drugs may have varying affinities depending on the specific
+state. It is plausible that CHEMBL1257821 and CHEMBL70 interact differently
+with the hERG channel due to variations in the conformational state
+of the channel. To explore this hypothesis, an open-inactivated state
+model of the hERG channel that we have reported previously<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> was utilized for docking the two compounds (i.e.,
+CHEMBL1257821 and CHEMBL70), employing the consistent Glide/SP and
+Glide/XP docking protocols. Although the weak inhibitor CHEMBL70 demonstrates
+docking scores of &#x02212;6.44 and &#x02212;6.77 kcal/mol when employed
+with the Glide/SP and Glide/XP modules in the open-inactivated state,
+the corresponding outcomes for the strong inhibitor CHEMBL1257821
+are &#x02212;8.84 and &#x02212;8.27 kcal/mol, as determined by the Glide/SP
+and Glide/XP approaches, respectively (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Table S8</ext-link>). Further investigations and studies are warranted to explore the
+specific binding mechanisms and interactions of these compounds with
+the hERG channel in different states. Understanding these nuances
+can provide crucial insights into the design and development of more
+effective hERG inhibitors.</p><p>In this study, a comprehensive MM/GBSA
+analysis was also conducted
+to identify the crucial residues within the hERG channel that significantly
+impact the inhibition activity. The goal of this analysis was to pinpoint
+the residues that establish strong interactions with the ligands compared
+to others. The results of the MM/GBSA per-residue study, depicted
+in <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">Figures S11&#x02013;S19</ext-link>. The findings of the per-residue
+analysis shed light on the essential residues responsible for governing
+the inhibitory function of the hERG channel. Notably, the hERG channel
+contains two sets of aryl residues, Tyr652 and Phe656, at the central
+cavity.<sup><xref ref-type="bibr" rid="ref51">51</xref>,<xref ref-type="bibr" rid="ref52">52</xref></sup> These residues collectively exert control
+over the dynamic processes of potassium channel gating and subsequent
+potassium ion conduction. As expected, residues (Tyr652 and Phe656)
+were also identified as key contributors in the per-residue interaction
+analysis, forming strong contacts with the ligands (<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>). The intricate modulation
+of these essential functions underscores their critical role in the
+overall channel activity. Notably, these specific residues offer potential
+interaction sites for various chemical compounds, carrying the capacity
+to influence hERG blockage.<sup><xref ref-type="bibr" rid="ref53">53</xref></sup> Comparing
+with existing literature, our results align well with previous studies
+highlighting the importance of Tyr652 and Phe656 in hERG channel function.
+These residues consistently emerge as vital players. The robust residue&#x02013;ligand
+interactions reinforce their relevance. This coherence validates our
+findings and underscores their crucial role in the hERG modulation.
+Interestingly, each ligand at the pore domain also exhibited additional
+interactions with specific residues that played a role in binding
+to the hERG channel. For example, compound CHEMBL1257578 showed that
+Val625 from Chain-A, Leu650 from Chain-B, Thr623, Val625, Met645,
+and Val659 from Chain-C, and Met645 from Chain-D were significant
+contributors to the binding energy, in addition to Tyr652 and Phe656
+(<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>). The findings
+align consistently with established literature, for the residues Thr623
+and Val625, situated in proximity to the pore helix, which were found
+to be implicated in hERG binding for many tested drugs.<sup><xref ref-type="bibr" rid="ref54">54</xref></sup> These polar amino acids might have the capability
+to engage with the polar tails found in numerous potent hERG blockers<sup><xref ref-type="bibr" rid="ref55">55</xref>&#x02212;<xref ref-type="bibr" rid="ref57">57</xref></sup> followed by Met645, which was determined in another study as one
+of the vital binding elements contributing to the stabilization of
+vesnarinone.<sup><xref ref-type="bibr" rid="ref58">58</xref></sup> An investigation that used
+a combination of alanine-scanning and site-directed mutagenesis, alongside
+protein modeling, potential energy mapping, and docking studies, discovered
+that among the residues implicated in drug binding, Thr623, Val625,
+and Val659 play a significant role.<sup><xref ref-type="bibr" rid="ref59">59</xref>,<xref ref-type="bibr" rid="ref60">60</xref></sup></p><fig id="fig9" position="float"><label>Figure 9</label><caption><p>Per-residue
+MM/GBSA analyses for the CHEMBL1257578 compound.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06074_0009" id="gr9" position="float"/></fig></sec><sec id="sec4"><label>4</label><title>Conclusions</title><p>In conclusion, this study
+provides valuable insights into the structure&#x02013;activity
+relationships of hERG blockers and the substructures that influence
+their inhibition activity. The development of ligand-based QSAR models
+based on heteroatom numbers from extensive ligand libraries proved
+to be effective, with CANVAS-created QSAR models showing high <italic>R</italic><sup>2</sup> and <italic>Q</italic><sup>2</sup> values.
+Among the various QSAR modeling techniques employed, the KPLS method
+demonstrated superior performance, enabling the development of QSAR
+models using multiple fingerprints. The investigation of heteroatoms
+revealed significant correlations among the number of oxygen, nitrogen,
+chlorine, and sulfur atoms in the chemical structure of the inhibitors
+and their pIC<sub>50</sub> values. The increase in the quantity of
+oxygen and chlorine atom numbers demonstrated an inverse correlation
+with inhibitory activity, whereas the increased number of sulfur atoms
+displayed a parallel relationship. However, the impact of nitrogen
+atoms on the hERG channel blocking activity proved to be more complex.
+It was observed that when the number of nitrogen atoms increased from
+1 to 3 within a compound, the pIC<sub>50</sub> values showed a decreasing
+trend. However, when the number of nitrogen atoms exceeded 3, a reverse
+trend emerged, with pIC<sub>50</sub> values increasing. Furthermore,
+having more than 5 nitrogen atoms in a compound did not show a stable
+pIC<sub>50</sub> trend. These findings underscore the importance of
+heteroatoms in influencing the activity of hERG blockers. The study
+highlights the significant role that specific heteroatom types and
+their respective quantities play in modulating the inhibitory effects
+on the hERG channel. Understanding these relationships can contribute
+to the design and optimization of potent and selective hERG inhibitors.</p><p>The utilization of MD simulations and MM/GBSA calculations enabled
+comprehensive analysis of compound pairs, facilitating a comparison
+between strong and weak inhibitors.<sup><xref ref-type="bibr" rid="ref61">61</xref>&#x02212;<xref ref-type="bibr" rid="ref63">63</xref></sup> The results aligned
+perfectly with expectations as strong inhibitors displayed lower ligand
+RMSD values and more negative average MM/GBSA binding energy values,
+indicating stronger binding to the hERG channel. On the other hand,
+weak inhibitors exhibited higher ligand RMSD values and less negative
+average MM/GBSA values, indicating a weaker binding affinity. Moreover,
+the MM/GBSA per-residue analysis identified critical residues in the
+four chains of the hERG channel that play a significant role in the
+blockage activity. Notably, Tyr652 and Phe656 emerged as key residues,
+demonstrating consistent and diverse interactions with all of the
+studied inhibitor ligands. Specifically, Tyr652 engaged in the highest
+number of interactions, accounting for over 50% of the simulation
+time, primarily driven by hydrophobic forces. Additionally, other
+crucial residues such as Thr623, Ser624, and Ser660 were found to
+actively participate in ligand interactions throughout the simulation
+period. These findings highlight the pivotal role of Tyr652 and Phe656
+and other residues in establishing and modulating inhibitor&#x02013;ligand
+interactions, providing valuable insights into the design and optimization
+of targeted therapeutics.</p><p>In summary, this study enhances our
+comprehension of hERG channel
+blockage and offers valuable insights that can aid in the design of
+more effective hERG blockers. The presented findings play a crucial
+role in advancing drug discovery and provide significant considerations
+for the development of targeted therapeutics.</p></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information
+is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/10.1021/acsomega.3c06074?goto=supporting-info">https://pubs.acs.org/doi/10.1021/acsomega.3c06074</ext-link>.<list id="silist" list-type="simple"><list-item><p>Statistical results of the top AutoQSAR traditional
+and DeepChem method models; results of the MLR and PLS method models
+from CANVAS; influence of chlorine, oxygen, nitrogen, and sulfur atoms
+on the pIC<sub>50</sub> activity values; docking results for mismatched
+compound pairs between the open and open-inactivated states of the
+hERG channel; normal distribution analysis of hERG blockers in a subset
+of 508 compounds; influence of heteroatoms on the activity of the
+hERG blockers; protein&#x02013;ligand interaction for pairs; per-residue
+interaction analyses (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06074/suppl_file/ao3c06074_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06074_si_001.pdf"><caption><p>ao3c06074_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d14e1343-autogenerated"><p>The
+authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This study was funded by the Scientific Research
+Projects Commission of Bah&#x000e7;e&#x0015f;ehir University (BAU),
+project number BAP.2022-01.12 EFD-1. This study was also funded by
+the T.C. Istanbul Development Agency, project no. TR10/21/YEP/0133.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Durdagi</surname><given-names>S.</given-names></name>; <name><surname>Subbotina</surname><given-names>J.</given-names></name>; <name><surname>Lees-Miller</surname><given-names>J.</given-names></name>; <name><surname>Guo</surname><given-names>J.</given-names></name>; <name><surname>Duff</surname><given-names>H. J.</given-names></name>; <name><surname>Noskov</surname><given-names>S. Y.</given-names></name>
+<article-title>Insights into the Molecular Mechanism of HERG1 Channel
+Activation and Blockade by Drugs</article-title>. <source>Curr. Med.
+Chem.</source>
+<year>2010</year>, <volume>17</volume> (<issue>30</issue>), <fpage>3514</fpage>&#x02013;<lpage>3532</lpage>. <pub-id pub-id-type="doi">10.2174/092986710792927886</pub-id>.<pub-id pub-id-type="pmid">20738248</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Smith</surname><given-names>P. L.</given-names></name>; <name><surname>Baukrowitz</surname><given-names>T.</given-names></name>; <name><surname>Yellen</surname><given-names>G.</given-names></name>
+<article-title>The Inward Rectification Mechanism
+of the HERG Cardiac Potassium Channel</article-title>. <source>Nature</source>
+<year>1996</year>, <volume>379</volume> (<issue>6568</issue>), <fpage>833</fpage>&#x02013;<lpage>836</lpage>. <pub-id pub-id-type="doi">10.1038/379833a0</pub-id>.<pub-id pub-id-type="pmid">8587608</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Creanza</surname><given-names>T.
+M.</given-names></name>; <name><surname>Delre</surname><given-names>P.</given-names></name>; <name><surname>Ancona</surname><given-names>N.</given-names></name>; <name><surname>Lentini</surname><given-names>G.</given-names></name>; <name><surname>Saviano</surname><given-names>M.</given-names></name>; <name><surname>Mangiatordi</surname><given-names>G. F.</given-names></name>
+<article-title>Structure-Based
+Prediction of HERG-Related Cardiotoxicity:
+A Benchmark Study</article-title>. <source>J. Chem. Inf. Model.</source>
+<year>2021</year>, <volume>61</volume> (<issue>9</issue>), <fpage>4758</fpage>&#x02013;<lpage>4770</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jcim.1c00744</pub-id>.<pub-id pub-id-type="pmid">34506150</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Shan</surname><given-names>M.</given-names></name>; <name><surname>Jiang</surname><given-names>C.</given-names></name>; <name><surname>Chen</surname><given-names>J.</given-names></name>; <name><surname>Qin</surname><given-names>L.-P.</given-names></name>; <name><surname>Qin</surname><given-names>J.-J.</given-names></name>; <name><surname>Cheng</surname><given-names>G.</given-names></name>
+<article-title>Predicting
+HERG Channel Blockers with Directed Message Passing Neural
+Networks</article-title>. <source>RSC Adv.</source>
+<year>2022</year>, <volume>12</volume> (<issue>6</issue>), <fpage>3423</fpage>&#x02013;<lpage>3430</lpage>. <pub-id pub-id-type="doi">10.1039/D1RA07956E</pub-id>.<pub-id pub-id-type="pmid">35425351</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Darpo</surname><given-names>B.</given-names></name>; <name><surname>Nebout</surname><given-names>T.</given-names></name>; <name><surname>Sager</surname><given-names>P. T.</given-names></name>
+<article-title>Clinical
+Evaluation of QT/QTc Prolongation
+and Proarrhythmic Potential for Nonantiarrhythmic Drugs: The International
+Conference on Harmonization of Technical Requirements for Registration
+of Pharmaceuticals for Human Use E14 Guideline</article-title>. <source>J. Clin. Pharmacol.</source>
+<year>2006</year>, <volume>46</volume> (<issue>5</issue>), <fpage>498</fpage>&#x02013;<lpage>507</lpage>. <pub-id pub-id-type="doi">10.1177/0091270006286436</pub-id>.<pub-id pub-id-type="pmid">16638733</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Kim</surname><given-names>H.</given-names></name>; <name><surname>Park</surname><given-names>M.</given-names></name>; <name><surname>Lee</surname><given-names>I.</given-names></name>; <name><surname>Nam</surname><given-names>H.</given-names></name>
+<article-title>BayeshERG: A Robust,
+Reliable and Interpretable Deep Learning Model for Predicting HERG
+Channel Blockers</article-title>. <source>Brief. Bioinf.</source>
+<year>2022</year>, <volume>23</volume> (<issue>4</issue>), <fpage>bbac211</fpage><pub-id pub-id-type="doi">10.1093/bib/bbac211</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Recanatini</surname><given-names>M.</given-names></name>; <name><surname>Poluzzi</surname><given-names>E.</given-names></name>; <name><surname>Masetti</surname><given-names>M.</given-names></name>; <name><surname>Cavalli</surname><given-names>A.</given-names></name>; <name><surname>De Ponti</surname><given-names>F.</given-names></name>
+<article-title>QT Prolongation
+through HERG K(+) Channel Blockade: Current Knowledge and Strategies
+for the Early Prediction during Drug Development</article-title>. <source>Med. Res. Rev.</source>
+<year>2005</year>, <volume>25</volume> (<issue>2</issue>), <fpage>133</fpage>&#x02013;<lpage>166</lpage>. <pub-id pub-id-type="doi">10.1002/med.20019</pub-id>.<pub-id pub-id-type="pmid">15389727</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Durdagi</surname><given-names>S.</given-names></name>; <name><surname>Erol</surname><given-names>I.</given-names></name>; <name><surname>Salmas</surname><given-names>R. E.</given-names></name>; <name><surname>Patterson</surname><given-names>M.</given-names></name>; <name><surname>Noskov</surname><given-names>S. Y.</given-names></name>
+<article-title>First Universal Pharmacophore Model for HERG1 K+ Channel
+Activators: ActhER</article-title>. <source>J. Mol. Graphics Model.</source>
+<year>2017</year>, <volume>74</volume>, <fpage>153</fpage>&#x02013;<lpage>170</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmgm.2017.03.020</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Woosley</surname><given-names>R. L.</given-names></name>; <name><surname>Black</surname><given-names>K.</given-names></name>; <name><surname>Heise</surname><given-names>C. W.</given-names></name>; <name><surname>Romero</surname><given-names>K.</given-names></name>
+<article-title>CredibleMeds.Org: What
+Does It Offer?</article-title>. <source>Trends Cardiovasc. Med.</source>
+<year>2018</year>, <volume>28</volume> (<issue>2</issue>), <fpage>94</fpage>&#x02013;<lpage>99</lpage>. <pub-id pub-id-type="doi">10.1016/j.tcm.2017.07.010</pub-id>.<pub-id pub-id-type="pmid">28801207</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Priest</surname><given-names>B.</given-names></name>; <name><surname>Bell</surname><given-names>I. M.</given-names></name>; <name><surname>Garcia</surname><given-names>M.</given-names></name>
+<article-title>Role of HERG Potassium Channel Assays
+in Drug Development</article-title>. <source>Channels</source>
+<year>2008</year>, <volume>2</volume> (<issue>2</issue>), <fpage>87</fpage>&#x02013;<lpage>93</lpage>. <pub-id pub-id-type="doi">10.4161/chan.2.2.6004</pub-id>.<pub-id pub-id-type="pmid">18849661</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Dorn</surname><given-names>A.</given-names></name>; <name><surname>Hermann</surname><given-names>F.</given-names></name>; <name><surname>Ebneth</surname><given-names>A.</given-names></name>; <name><surname>Bothmann</surname><given-names>H.</given-names></name>; <name><surname>Trube</surname><given-names>G.</given-names></name>; <name><surname>Christensen</surname><given-names>K.</given-names></name>; <name><surname>Apfel</surname><given-names>C.</given-names></name>
+<article-title>Evaluation of a High-Throughput Fluorescence
+Assay Method for HERG Potassium Channel Inhibition</article-title>. <source>J. Biomol. Screening</source>
+<year>2005</year>, <volume>10</volume> (<issue>4</issue>), <fpage>339</fpage>&#x02013;<lpage>347</lpage>. <pub-id pub-id-type="doi">10.1177/1087057104272045</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Durdagi</surname><given-names>S.</given-names></name>; <name><surname>Deshpande</surname><given-names>S.</given-names></name>; <name><surname>Duff</surname><given-names>H. J.</given-names></name>; <name><surname>Noskov</surname><given-names>S. Y.</given-names></name>
+<article-title>Modeling of Open,
+Closed, and Open-Inactivated States of the HERG1 Channel: Structural
+Mechanisms of the State-Dependent Drug Binding</article-title>. <source>J. Chem. Inf. Modell.</source>
+<year>2012</year>, <volume>52</volume>, <fpage>2760</fpage>&#x02013;<lpage>2774</lpage>. <pub-id pub-id-type="doi">10.1021/ci300353u</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Bannigan</surname><given-names>P.</given-names></name>; <name><surname>Aldeghi</surname><given-names>M.</given-names></name>; <name><surname>Bao</surname><given-names>Z.</given-names></name>; <name><surname>H&#x000e4;se</surname><given-names>F.</given-names></name>; <name><surname>Aspuru-Guzik</surname><given-names>A.</given-names></name>; <name><surname>Allen</surname><given-names>C.</given-names></name>
+<article-title>Machine Learning Directed Drug Formulation
+Development</article-title>. <source>Adv. Drug Delivery Rev.</source>
+<year>2021</year>, <volume>175</volume>, <elocation-id>113806</elocation-id><pub-id pub-id-type="doi">10.1016/j.addr.2021.05.016</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="book" id="cit14"><person-group person-group-type="allauthors"><name><surname>Wolf P&#x000e9;rez</surname><given-names>A.-M.</given-names></name>; <name><surname>Lorenzen</surname><given-names>N.</given-names></name>; <name><surname>Vendruscolo</surname><given-names>M.</given-names></name>; <name><surname>Sormanni</surname><given-names>P.</given-names></name></person-group><article-title>Assessment
+of Therapeutic Antibody Developability by Combinations of In Vitro
+and In Silico Methods</article-title>. In <source>Therapeutic Antibodies:
+Methods and Protocols</source>; <person-group person-group-type="editor"><name><surname>Houen</surname><given-names>G.</given-names></name></person-group>, Ed.; Methods in Molecular Biology; <publisher-name>Springer US</publisher-name>: <publisher-loc>New York, NY</publisher-loc>, <year>2022</year>;
+pp <fpage>57</fpage>&#x02013;<lpage>113</lpage><pub-id pub-id-type="doi">10.1007/978-1-0716-1450-1_4</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Carracedo-Reboredo</surname><given-names>P.</given-names></name>; <name><surname>Li&#x000f1;ares-Blanco</surname><given-names>J.</given-names></name>; <name><surname>Rodr&#x000ed;guez-Fern&#x000e1;ndez</surname><given-names>N.</given-names></name>; <name><surname>Cedr&#x000f3;n</surname><given-names>F.</given-names></name>; <name><surname>Novoa</surname><given-names>F. J.</given-names></name>; <name><surname>Carballal</surname><given-names>A.</given-names></name>; <name><surname>Maojo</surname><given-names>V.</given-names></name>; <name><surname>Pazos</surname><given-names>A.</given-names></name>; <name><surname>Fernandez-Lozano</surname><given-names>C.</given-names></name>
+<article-title>A Review on
+Machine Learning Approaches and Trends in Drug Discovery</article-title>. <source>Comput. Struct. Biotechnol. J.</source>
+<year>2021</year>, <volume>19</volume>, <fpage>4538</fpage>&#x02013;<lpage>4558</lpage>. <pub-id pub-id-type="doi">10.1016/j.csbj.2021.08.011</pub-id>.<pub-id pub-id-type="pmid">34471498</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>AlRawashdeh</surname><given-names>S.</given-names></name>; <name><surname>Chandrasekaran</surname><given-names>S.</given-names></name>; <name><surname>Barakat</surname><given-names>K. H.</given-names></name>
+<article-title>Structural Analysis of HERG Channel
+Blockers and the Implications for Drug Design</article-title>. <source>J. Mol. Graphics Model.</source>
+<year>2023</year>, <volume>120</volume>, <elocation-id>108405</elocation-id><pub-id pub-id-type="doi">10.1016/j.jmgm.2023.108405</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Zhang</surname><given-names>X.</given-names></name>; <name><surname>Mao</surname><given-names>J.</given-names></name>; <name><surname>Wei</surname><given-names>M.</given-names></name>; <name><surname>Qi</surname><given-names>Y.</given-names></name>; <name><surname>Zhang</surname><given-names>J. Z. H.</given-names></name>
+<article-title>HergSPred: Accurate
+Classification of HERG Blockers/Nonblockers with Machine-Learning
+Models</article-title>. <source>J. Chem. Inf. Model.</source>
+<year>2022</year>, <volume>62</volume> (<issue>8</issue>), <fpage>1830</fpage>&#x02013;<lpage>1839</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jcim.2c00256</pub-id>.<pub-id pub-id-type="pmid">35404051</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Gadaleta</surname><given-names>D.</given-names></name>; <name><surname>Mangiatordi</surname><given-names>G. F.</given-names></name>; <name><surname>Catto</surname><given-names>M.</given-names></name>; <name><surname>Carotti</surname><given-names>A.</given-names></name>; <name><surname>Nicolotti</surname><given-names>O.</given-names></name>
+<article-title>Applicability
+Domain for QSAR Models: Where Theory Meets Reality</article-title>. <source>Int. J. Quant. Struct.-Prop. Relat.</source>
+<year>2016</year>, <volume>1</volume> (<issue>1</issue>), <fpage>45</fpage>&#x02013;<lpage>63</lpage>. <pub-id pub-id-type="doi">10.4018/IJQSPR.2016010102</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Cavalluzzi</surname><given-names>M. M.</given-names></name>; <name><surname>Imbrici</surname><given-names>P.</given-names></name>; <name><surname>Gualdani</surname><given-names>R.</given-names></name>; <name><surname>Stefanachi</surname><given-names>A.</given-names></name>; <name><surname>Mangiatordi</surname><given-names>G. F.</given-names></name>; <name><surname>Lentini</surname><given-names>G.</given-names></name>; <name><surname>Nicolotti</surname><given-names>O.</given-names></name>
+<article-title>Human Ether-&#x000e0;-Go-Go-Related
+Potassium Channel: Exploring SAR to Improve Drug Design</article-title>. <source>Drug Discovery Today</source>
+<year>2020</year>, <volume>25</volume> (<issue>2</issue>), <fpage>344</fpage>&#x02013;<lpage>366</lpage>. <pub-id pub-id-type="doi">10.1016/j.drudis.2019.11.005</pub-id>.<pub-id pub-id-type="pmid">31756511</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Mansouri</surname><given-names>K.</given-names></name>; <name><surname>Abdelaziz</surname><given-names>A.</given-names></name>; <name><surname>Rybacka</surname><given-names>A.</given-names></name>; <name><surname>Roncaglioni</surname><given-names>A.</given-names></name>; <name><surname>Tropsha</surname><given-names>A.</given-names></name>; <name><surname>Varnek</surname><given-names>A.</given-names></name>; <name><surname>Zakharov</surname><given-names>A.</given-names></name>; <name><surname>Worth</surname><given-names>A.</given-names></name>; <name><surname>Richard</surname><given-names>A. M.</given-names></name>; <name><surname>Grulke</surname><given-names>C. M.</given-names></name>; <name><surname>Trisciuzzi</surname><given-names>D.</given-names></name>; <name><surname>Fourches</surname><given-names>D.</given-names></name>; <name><surname>Horvath</surname><given-names>D.</given-names></name>; <name><surname>Benfenati</surname><given-names>E.</given-names></name>; <name><surname>Muratov</surname><given-names>E.</given-names></name>; <name><surname>Wedebye</surname><given-names>E. B.</given-names></name>; <name><surname>Grisoni</surname><given-names>F.</given-names></name>; <name><surname>Mangiatordi</surname><given-names>G. F.</given-names></name>; <name><surname>Incisivo</surname><given-names>G. M.</given-names></name>; <name><surname>Hong</surname><given-names>H.</given-names></name>; <name><surname>Ng</surname><given-names>H. W.</given-names></name>; <name><surname>Tetko</surname><given-names>I. V.</given-names></name>; <name><surname>Balabin</surname><given-names>I.</given-names></name>; <name><surname>Kancherla</surname><given-names>J.</given-names></name>; <name><surname>Shen</surname><given-names>J.</given-names></name>; <name><surname>Burton</surname><given-names>J.</given-names></name>; <name><surname>Nicklaus</surname><given-names>M.</given-names></name>; <name><surname>Cassotti</surname><given-names>M.</given-names></name>; <name><surname>Nikolov</surname><given-names>N. G.</given-names></name>; <name><surname>Nicolotti</surname><given-names>O.</given-names></name>; <name><surname>Andersson</surname><given-names>P. L.</given-names></name>; <name><surname>Zang</surname><given-names>Q.</given-names></name>; <name><surname>Politi</surname><given-names>R.</given-names></name>; <name><surname>Beger</surname><given-names>R. D.</given-names></name>; <name><surname>Todeschini</surname><given-names>R.</given-names></name>; <name><surname>Huang</surname><given-names>R.</given-names></name>; <name><surname>Farag</surname><given-names>S.</given-names></name>; <name><surname>Rosenberg</surname><given-names>S. A.</given-names></name>; <name><surname>Slavov</surname><given-names>S.</given-names></name>; <name><surname>Hu</surname><given-names>X.</given-names></name>; <name><surname>Judson</surname><given-names>R. S.</given-names></name>
+<article-title>CERAPP: Collaborative
+Estrogen Receptor Activity Prediction Project</article-title>. <source>Environ. Health Perspect.</source>
+<year>2016</year>, <volume>124</volume> (<issue>7</issue>), <fpage>1023</fpage>&#x02013;<lpage>1033</lpage>. <pub-id pub-id-type="doi">10.1289/ehp.1510267</pub-id>.<pub-id pub-id-type="pmid">26908244</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Mansouri</surname><given-names>K.</given-names></name>; <name><surname>Kleinstreuer</surname><given-names>N.</given-names></name>; <name><surname>Abdelaziz</surname><given-names>A. M.</given-names></name>; <name><surname>Alberga</surname><given-names>D.</given-names></name>; <name><surname>Alves</surname><given-names>V. M.</given-names></name>; <name><surname>Andersson</surname><given-names>P. L.</given-names></name>; <name><surname>Andrade</surname><given-names>C. H.</given-names></name>; <name><surname>Bai</surname><given-names>F.</given-names></name>; <name><surname>Balabin</surname><given-names>I.</given-names></name>; <name><surname>Ballabio</surname><given-names>D.</given-names></name>; <name><surname>Benfenati</surname><given-names>E.</given-names></name>; <name><surname>Bhhatarai</surname><given-names>B.</given-names></name>; <name><surname>Boyer</surname><given-names>S.</given-names></name>; <name><surname>Chen</surname><given-names>J.</given-names></name>; <name><surname>Consonni</surname><given-names>V.</given-names></name>; <name><surname>Farag</surname><given-names>S.</given-names></name>; <name><surname>Fourches</surname><given-names>D.</given-names></name>; <name><surname>Garc&#x000ed;a-Sosa</surname><given-names>A.
+T.</given-names></name>; <name><surname>Gramatica</surname><given-names>P.</given-names></name>; <name><surname>Grisoni</surname><given-names>F.</given-names></name>; <name><surname>Grulke</surname><given-names>C. M.</given-names></name>; <name><surname>Hong</surname><given-names>H.</given-names></name>; <name><surname>Horvath</surname><given-names>D.</given-names></name>; <name><surname>Hu</surname><given-names>X.</given-names></name>; <name><surname>Huang</surname><given-names>R.</given-names></name>; <name><surname>Jeliazkova</surname><given-names>N.</given-names></name>; <name><surname>Li</surname><given-names>J.</given-names></name>; <name><surname>Li</surname><given-names>X.</given-names></name>; <name><surname>Liu</surname><given-names>H.</given-names></name>; <name><surname>Manganelli</surname><given-names>S.</given-names></name>; <name><surname>Mangiatordi</surname><given-names>G. F.</given-names></name>; <name><surname>Maran</surname><given-names>U.</given-names></name>; <name><surname>Marcou</surname><given-names>G.</given-names></name>; <name><surname>Martin</surname><given-names>T.</given-names></name>; <name><surname>Muratov</surname><given-names>E.</given-names></name>; <name><surname>Nguyen</surname><given-names>D.-T.</given-names></name>; <name><surname>Nicolotti</surname><given-names>O.</given-names></name>; <name><surname>Nikolov</surname><given-names>N. G.</given-names></name>; <name><surname>Norinder</surname><given-names>U.</given-names></name>; <name><surname>Papa</surname><given-names>E.</given-names></name>; <name><surname>Petitjean</surname><given-names>M.</given-names></name>; <name><surname>Piir</surname><given-names>G.</given-names></name>; <name><surname>Pogodin</surname><given-names>P.</given-names></name>; <name><surname>Poroikov</surname><given-names>V.</given-names></name>; <name><surname>Qiao</surname><given-names>X.</given-names></name>; <name><surname>Richard</surname><given-names>A. M.</given-names></name>; <name><surname>Roncaglioni</surname><given-names>A.</given-names></name>; <name><surname>Ruiz</surname><given-names>P.</given-names></name>; <name><surname>Rupakheti</surname><given-names>C.</given-names></name>; <name><surname>Sakkiah</surname><given-names>S.</given-names></name>; <name><surname>Sangion</surname><given-names>A.</given-names></name>; <name><surname>Schramm</surname><given-names>K.-W.</given-names></name>; <name><surname>Selvaraj</surname><given-names>C.</given-names></name>; <name><surname>Shah</surname><given-names>I.</given-names></name>; <name><surname>Sild</surname><given-names>S.</given-names></name>; <name><surname>Sun</surname><given-names>L.</given-names></name>; <name><surname>Taboureau</surname><given-names>O.</given-names></name>; <name><surname>Tang</surname><given-names>Y.</given-names></name>; <name><surname>Tetko</surname><given-names>I. V.</given-names></name>; <name><surname>Todeschini</surname><given-names>R.</given-names></name>; <name><surname>Tong</surname><given-names>W.</given-names></name>; <name><surname>Trisciuzzi</surname><given-names>D.</given-names></name>; <name><surname>Tropsha</surname><given-names>A.</given-names></name>; <name><surname>Van Den
+Driessche</surname><given-names>G.</given-names></name>; <name><surname>Varnek</surname><given-names>A.</given-names></name>; <name><surname>Wang</surname><given-names>Z.</given-names></name>; <name><surname>Wedebye</surname><given-names>E. B.</given-names></name>; <name><surname>Williams</surname><given-names>A. J.</given-names></name>; <name><surname>Xie</surname><given-names>H.</given-names></name>; <name><surname>Zakharov</surname><given-names>A. V.</given-names></name>; <name><surname>Zheng</surname><given-names>Z.</given-names></name>; <name><surname>Judson</surname><given-names>R. S.</given-names></name>
+<article-title>CoMPARA: Collaborative Modeling Project for Androgen
+Receptor Activity</article-title>. <source>Environ. Health Perspect.</source>
+<year>2020</year>, <volume>128</volume> (<issue>2</issue>), <fpage>27002</fpage><pub-id pub-id-type="doi">10.1289/EHP5580</pub-id>.<pub-id pub-id-type="pmid">32074470</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Luo</surname><given-names>F.</given-names></name>; <name><surname>Gu</surname><given-names>J.</given-names></name>; <name><surname>Chen</surname><given-names>L.</given-names></name>; <name><surname>Xu</surname><given-names>X.</given-names></name>
+<article-title>Molecular Docking and Molecular Dynamics
+Studies on the Structure&#x02013;Activity Relationship of Fluoroquinolone
+for the HERG Channel</article-title>. <source>Mol. Biosyst.</source>
+<year>2014</year>, <volume>10</volume> (<issue>11</issue>), <fpage>2863</fpage>&#x02013;<lpage>2869</lpage>. <pub-id pub-id-type="doi">10.1039/C4MB00396A</pub-id>.<pub-id pub-id-type="pmid">25100024</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Hosaka</surname><given-names>Y.</given-names></name>; <name><surname>Iwata</surname><given-names>M.</given-names></name>; <name><surname>Kamiya</surname><given-names>N.</given-names></name>; <name><surname>Yamada</surname><given-names>M.</given-names></name>; <name><surname>Kinoshita</surname><given-names>K.</given-names></name>; <name><surname>Fukunishi</surname><given-names>Y.</given-names></name>; <name><surname>Tsujimae</surname><given-names>K.</given-names></name>; <name><surname>Hibino</surname><given-names>H.</given-names></name>; <name><surname>Aizawa</surname><given-names>Y.</given-names></name>; <name><surname>Inanobe</surname><given-names>A.</given-names></name>; <name><surname>Nakamura</surname><given-names>H.</given-names></name>; <name><surname>Kurachi</surname><given-names>Y.</given-names></name>
+<article-title>Mutational Analysis
+of Block and Facilitation of HERG Current by a Class III Anti-Arrhythmic
+AgentNifekalant</article-title>. <source>Channels</source>
+<year>2007</year>, <volume>1</volume> (<issue>3</issue>), <fpage>198</fpage>&#x02013;<lpage>208</lpage>. <pub-id pub-id-type="doi">10.4161/chan.4691</pub-id>.<pub-id pub-id-type="pmid">18690032</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Melgari</surname><given-names>D.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>El Harchi</surname><given-names>A.</given-names></name>; <name><surname>Dempsey</surname><given-names>C. E.</given-names></name>; <name><surname>Hancox</surname><given-names>J. C.</given-names></name>
+<article-title>Molecular
+Basis of HERG Potassium Channel Blockade by the Class Ic Antiarrhythmic
+Flecainide</article-title>. <source>J. Mol. Cell. Cardiol.</source>
+<year>2015</year>, <volume>86</volume>, <fpage>42</fpage>&#x02013;<lpage>53</lpage>. <pub-id pub-id-type="doi">10.1016/j.yjmcc.2015.06.021</pub-id>.<pub-id pub-id-type="pmid">26159617</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Vandenberg</surname><given-names>J. I.</given-names></name>; <name><surname>Perozo</surname><given-names>E.</given-names></name>; <name><surname>Allen</surname><given-names>T. W.</given-names></name>
+<article-title>Towards
+a Structural View of Drug
+Binding to HERG K+ Channels</article-title>. <source>Trends Pharmacol.
+Sci.</source>
+<year>2017</year>, <volume>38</volume> (<issue>10</issue>), <fpage>899</fpage>&#x02013;<lpage>907</lpage>. <pub-id pub-id-type="doi">10.1016/j.tips.2017.06.004</pub-id>.<pub-id pub-id-type="pmid">28711156</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Dixon</surname><given-names>S. L.</given-names></name>; <name><surname>Duan</surname><given-names>J.</given-names></name>; <name><surname>Smith</surname><given-names>E.</given-names></name>; <name><surname>Von Bargen</surname><given-names>C. D.</given-names></name>; <name><surname>Sherman</surname><given-names>W.</given-names></name>; <name><surname>Repasky</surname><given-names>M. P.</given-names></name>
+<article-title>AutoQSAR: An Automated Machine Learning
+Tool for Best-Practice Quantitative Structure-Activity Relationship
+Modeling</article-title>. <source>Future Med. Chem.</source>
+<year>2016</year>, <volume>8</volume> (<issue>15</issue>), <fpage>1825</fpage>&#x02013;<lpage>1839</lpage>. <pub-id pub-id-type="doi">10.4155/fmc-2016-0093</pub-id>.<pub-id pub-id-type="pmid">27643715</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="undeclared" id="cit27"><person-group person-group-type="allauthors"><name><surname>Raybaut</surname><given-names>P.</given-names></name></person-group><source>Spyder-Documentation</source>. Available online at: <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://pythonhosted.org">pythonhosted.org</uri>. <year>2009</year>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="undeclared" id="cit28"><person-group person-group-type="allauthors"><name><surname>LigPrep</surname><given-names>Schr&#x000f6;dinger</given-names></name></person-group>, <year>2023</year>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Greenwood</surname><given-names>J. R.</given-names></name>; <name><surname>Calkins</surname><given-names>D.</given-names></name>; <name><surname>Sullivan</surname><given-names>A. P.</given-names></name>; <name><surname>Shelley</surname><given-names>J. C.</given-names></name>
+<article-title>Towards the Comprehensive,
+Rapid, and Accurate Prediction of the Favorable Tautomeric States
+of Drug-like Molecules in Aqueous Solution</article-title>. <source>J. Comput. Aided Mol. Des.</source>
+<year>2010</year>, <volume>24</volume> (<issue>6</issue>), <fpage>591</fpage>&#x02013;<lpage>604</lpage>. <pub-id pub-id-type="doi">10.1007/s10822-010-9349-1</pub-id>.<pub-id pub-id-type="pmid">20354892</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Shelley</surname><given-names>J. C.</given-names></name>; <name><surname>Cholleti</surname><given-names>A.</given-names></name>; <name><surname>Frye</surname><given-names>L. L.</given-names></name>; <name><surname>Greenwood</surname><given-names>J. R.</given-names></name>; <name><surname>Timlin</surname><given-names>M. R.</given-names></name>; <name><surname>Uchimaya</surname><given-names>M.</given-names></name>
+<article-title>Epik: A Software Program
+for PKaprediction
+and Protonation State Generation for Drug-like Molecules</article-title>. <source>J. Comput. Aided Mol. Des.</source>
+<year>2007</year>, <volume>21</volume> (<issue>12</issue>), <fpage>681</fpage>&#x02013;<lpage>691</lpage>. <pub-id pub-id-type="doi">10.1007/s10822-007-9133-z</pub-id>.<pub-id pub-id-type="pmid">17899391</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Roos</surname><given-names>K.</given-names></name>; <name><surname>Wu</surname><given-names>C.</given-names></name>; <name><surname>Damm</surname><given-names>W.</given-names></name>; <name><surname>Reboul</surname><given-names>M.</given-names></name>; <name><surname>Stevenson</surname><given-names>J. M.</given-names></name>; <name><surname>Lu</surname><given-names>C.</given-names></name>; <name><surname>Dahlgren</surname><given-names>M. K.</given-names></name>; <name><surname>Mondal</surname><given-names>S.</given-names></name>; <name><surname>Chen</surname><given-names>W.</given-names></name>; <name><surname>Wang</surname><given-names>L.</given-names></name>; <name><surname>Abel</surname><given-names>R.</given-names></name>; <name><surname>Friesner</surname><given-names>R. A.</given-names></name>; <name><surname>Harder</surname><given-names>E. D.</given-names></name>
+<article-title>OPLS3e: Extending
+Force Field Coverage for Drug-Like Small Molecules</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2019</year>, <volume>15</volume> (<issue>3</issue>), <fpage>1863</fpage>&#x02013;<lpage>1874</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jctc.8b01026</pub-id>.<pub-id pub-id-type="pmid">30768902</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Wang</surname><given-names>W.</given-names></name>; <name><surname>MacKinnon</surname><given-names>R.</given-names></name>
+<article-title>Cryo-EM Structure
+of the Open Human Ether-&#x000e0;-Go-Go-Related
+K+ Channel HERG</article-title>. <source>Cell</source>
+<year>2017</year>, <volume>169</volume> (<issue>3</issue>), <fpage>422</fpage>&#x02013;<lpage>430.e10</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2017.03.048</pub-id>.<pub-id pub-id-type="pmid">28431243</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Madhavi
+Sastry</surname><given-names>G.</given-names></name>; <name><surname>Adzhigirey</surname><given-names>M.</given-names></name>; <name><surname>Day</surname><given-names>T.</given-names></name>; <name><surname>Annabhimoju</surname><given-names>R.</given-names></name>; <name><surname>Sherman</surname><given-names>W.</given-names></name>
+<article-title>Protein and Ligand Preparation: Parameters, Protocols,
+and Influence on Virtual Screening Enrichments</article-title>. <source>J. Comput. Aided Mol. Des.</source>
+<year>2013</year>, <volume>27</volume> (<issue>3</issue>), <fpage>221</fpage>&#x02013;<lpage>234</lpage>. <pub-id pub-id-type="doi">10.1007/s10822-013-9644-8</pub-id>.<pub-id pub-id-type="pmid">23579614</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Jacobson</surname><given-names>M. P.</given-names></name>; <name><surname>Friesner</surname><given-names>R. A.</given-names></name>; <name><surname>Xiang</surname><given-names>Z.</given-names></name>; <name><surname>Honig</surname><given-names>B.</given-names></name>
+<article-title>On the Role of the
+Crystal Environment in Determining Protein Side-Chain Conformations</article-title>. <source>J. Mol. Biol.</source>
+<year>2002</year>, <volume>320</volume> (<issue>3</issue>), <fpage>597</fpage>&#x02013;<lpage>608</lpage>. <pub-id pub-id-type="doi">10.1016/S0022-2836(02)00470-9</pub-id>.<pub-id pub-id-type="pmid">12096912</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Jacobson</surname><given-names>M. P.</given-names></name>; <name><surname>Pincus</surname><given-names>D. L.</given-names></name>; <name><surname>Rapp</surname><given-names>C. S.</given-names></name>; <name><surname>Day</surname><given-names>T. J. F.</given-names></name>; <name><surname>Honig</surname><given-names>B.</given-names></name>; <name><surname>Shaw</surname><given-names>D. E.</given-names></name>; <name><surname>Friesner</surname><given-names>R. A.</given-names></name>
+<article-title>A Hierarchical
+Approach to All-Atom
+Protein Loop Prediction</article-title>. <source>Proteins</source>
+<year>2004</year>, <volume>55</volume> (<issue>2</issue>), <fpage>351</fpage>&#x02013;<lpage>367</lpage>. <pub-id pub-id-type="doi">10.1002/prot.10613</pub-id>.<pub-id pub-id-type="pmid">15048827</pub-id></mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Olsson</surname><given-names>M. H. M.</given-names></name>; <name><surname>S&#x000f8;ndergaard</surname><given-names>C. R.</given-names></name>; <name><surname>Rostkowski</surname><given-names>M.</given-names></name>; <name><surname>Jensen</surname><given-names>J. H.</given-names></name>
+<article-title>PROPKA3: Consistent Treatment of
+Internal and Surface
+Residues in Empirical PKa Predictions</article-title>. <source>J. Chem.
+Theory Comput.</source>
+<year>2011</year>, <volume>7</volume> (<issue>2</issue>), <fpage>525</fpage>&#x02013;<lpage>537</lpage>. <pub-id pub-id-type="doi">10.1021/ct100578z</pub-id>.<pub-id pub-id-type="pmid">26596171</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>S&#x000f8;ndergaard</surname><given-names>C. R.</given-names></name>; <name><surname>Olsson</surname><given-names>M. H. M.</given-names></name>; <name><surname>Rostkowski</surname><given-names>M.</given-names></name>; <name><surname>Jensen</surname><given-names>J. H.</given-names></name>
+<article-title>Improved Treatment
+of Ligands and Coupling Effects in Empirical Calculation and Rationalization
+of PKa Values</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2011</year>, <volume>7</volume> (<issue>7</issue>), <fpage>2284</fpage>&#x02013;<lpage>2295</lpage>. <pub-id pub-id-type="doi">10.1021/ct200133y</pub-id>.<pub-id pub-id-type="pmid">26606496</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Halgren</surname><given-names>T.
+A.</given-names></name>; <name><surname>Murphy</surname><given-names>R. B.</given-names></name>; <name><surname>Friesner</surname><given-names>R. A.</given-names></name>; <name><surname>Beard</surname><given-names>H. S.</given-names></name>; <name><surname>Frye</surname><given-names>L. L.</given-names></name>; <name><surname>Pollard</surname><given-names>W. T.</given-names></name>; <name><surname>Banks</surname><given-names>J. L.</given-names></name>
+<article-title>Glide: A New Approach for Rapid,
+Accurate Docking and Scoring. 2. Enrichment Factors in Database Screening</article-title>. <source>J. Med. Chem.</source>
+<year>2004</year>, <volume>47</volume> (<issue>7</issue>), <fpage>1750</fpage>&#x02013;<lpage>1759</lpage>. <pub-id pub-id-type="doi">10.1021/jm030644s</pub-id>.<pub-id pub-id-type="pmid">15027866</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Friesner</surname><given-names>R. A.</given-names></name>; <name><surname>Banks</surname><given-names>J. L.</given-names></name>; <name><surname>Murphy</surname><given-names>R. B.</given-names></name>; <name><surname>Halgren</surname><given-names>T. A.</given-names></name>; <name><surname>Klicic</surname><given-names>J. J.</given-names></name>; <name><surname>Mainz</surname><given-names>D. T.</given-names></name>; <name><surname>Repasky</surname><given-names>M. P.</given-names></name>; <name><surname>Knoll</surname><given-names>E. H.</given-names></name>; <name><surname>Shelley</surname><given-names>M.</given-names></name>; <name><surname>Perry</surname><given-names>J. K.</given-names></name>; <name><surname>Shaw</surname><given-names>D. E.</given-names></name>; <name><surname>Francis</surname><given-names>P.</given-names></name>; <name><surname>Shenkin</surname><given-names>P. S.</given-names></name>
+<article-title>Glide:
+A New Approach for Rapid, Accurate Docking and Scoring. 1. Method
+and Assessment of Docking Accuracy</article-title>. <source>J. Med.
+Chem.</source>
+<year>2004</year>, <volume>47</volume> (<issue>7</issue>), <fpage>1739</fpage>&#x02013;<lpage>1749</lpage>. <pub-id pub-id-type="doi">10.1021/jm0306430</pub-id>.<pub-id pub-id-type="pmid">15027865</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Friesner</surname><given-names>R. A.</given-names></name>; <name><surname>Murphy</surname><given-names>R. B.</given-names></name>; <name><surname>Repasky</surname><given-names>M. P.</given-names></name>; <name><surname>Frye</surname><given-names>L. L.</given-names></name>; <name><surname>Greenwood</surname><given-names>J. R.</given-names></name>; <name><surname>Halgren</surname><given-names>T. A.</given-names></name>; <name><surname>Sanchagrin</surname><given-names>P. C.</given-names></name>; <name><surname>Mainz</surname><given-names>D. T.</given-names></name>
+<article-title>Extra Precision
+Glide: Docking and Scoring Incorporating a Model of Hydrophobic Enclosure
+for Protein&#x02013;Ligand Complexes</article-title>. <source>J. Med.
+Chem.</source>
+<year>2006</year>, <volume>49</volume> (<issue>21</issue>), <fpage>6177</fpage>&#x02013;<lpage>6196</lpage>. <pub-id pub-id-type="doi">10.1021/jm051256o</pub-id>.<pub-id pub-id-type="pmid">17034125</pub-id></mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Farid</surname><given-names>R.</given-names></name>; <name><surname>Day</surname><given-names>T.</given-names></name>; <name><surname>Friesner</surname><given-names>R. A.</given-names></name>; <name><surname>Pearlstein</surname><given-names>R. A.</given-names></name>
+<article-title>New Insights about HERG Blockade
+Obtained from Protein Modeling, Potential Energy Mapping, and Docking
+Studies</article-title>. <source>Bioorg. Med. Chem.</source>
+<year>2006</year>, <volume>14</volume> (<issue>9</issue>), <fpage>3160</fpage>&#x02013;<lpage>3173</lpage>. <pub-id pub-id-type="doi">10.1016/j.bmc.2005.12.032</pub-id>.<pub-id pub-id-type="pmid">16413785</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="book" id="cit42"><person-group person-group-type="allauthors"><name><surname>Kurzweil</surname><given-names>R.</given-names></name></person-group><article-title>Keynote Speech:
+Raymond Kurzweil</article-title>. In <source>Proceedings of the 2006
+ACM/IEEE conference on Supercomputing</source>; SC&#x02019;06;<publisher-name>Association for Computing Machinery</publisher-name>: <publisher-loc>New York, NY, USA</publisher-loc>, <year>2006</year>; pp <fpage>0-es</fpage><pub-id pub-id-type="doi">10.1145/1188455.1198315</pub-id>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Lomize</surname><given-names>M. A.</given-names></name>; <name><surname>Pogozheva</surname><given-names>I. D.</given-names></name>; <name><surname>Joo</surname><given-names>H.</given-names></name>; <name><surname>Mosberg</surname><given-names>H. I.</given-names></name>; <name><surname>Lomize</surname><given-names>A. L.</given-names></name>
+<article-title>OPM Database
+and PPM Web Server: Resources for Positioning of Proteins in Membranes</article-title>. <source>Nucleic Acids Res.</source>
+<year>2012</year>, <volume>40</volume>, <fpage>D370</fpage>&#x02013;<lpage>376</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkr703</pub-id>.<pub-id pub-id-type="pmid">21890895</pub-id></mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Mark</surname><given-names>P.</given-names></name>; <name><surname>Nilsson</surname><given-names>L.</given-names></name>
+<article-title>Structure and Dynamics of Liquid Water with Different
+Long-Range Interaction Truncation and Temperature Control Methods
+in Molecular Dynamics Simulations</article-title>. <source>J. Comput.
+Chem.</source>
+<year>2002</year>, <volume>23</volume> (<issue>13</issue>), <fpage>1211</fpage>&#x02013;<lpage>1219</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.10117</pub-id>.<pub-id pub-id-type="pmid">12210146</pub-id></mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Evans</surname><given-names>D. J.</given-names></name>; <name><surname>Holian</surname><given-names>B. L.</given-names></name>
+<article-title>The Nose&#x02013;Hoover Thermostat</article-title>. <source>J. Chem. Phys.</source>
+<year>1985</year>, <volume>83</volume> (<issue>8</issue>), <fpage>4069</fpage>&#x02013;<lpage>4074</lpage>. <pub-id pub-id-type="doi">10.1063/1.449071</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Martyna</surname><given-names>G. J.</given-names></name>; <name><surname>Tobias</surname><given-names>D. J.</given-names></name>; <name><surname>Klein</surname><given-names>M. L.</given-names></name>
+<article-title>Constant
+Pressure Molecular Dynamics
+Algorithms</article-title>. <source>J. Chem. Phys.</source>
+<year>1994</year>, <volume>101</volume> (<issue>5</issue>), <fpage>4177</fpage>&#x02013;<lpage>4189</lpage>. <pub-id pub-id-type="doi">10.1063/1.467468</pub-id>.</mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Li</surname><given-names>J.</given-names></name>; <name><surname>Abel</surname><given-names>R.</given-names></name>; <name><surname>Zhu</surname><given-names>K.</given-names></name>; <name><surname>Cao</surname><given-names>Y.</given-names></name>; <name><surname>Zhao</surname><given-names>S.</given-names></name>; <name><surname>Friesner</surname><given-names>R. A.</given-names></name>
+<article-title>The VSGB 2.0 Model: A next Generation
+Energy Model
+for High Resolution Protein Structure Modeling</article-title>. <source>Proteins: Struct. Funct. Bioinf.</source>
+<year>2011</year>, <volume>79</volume> (<issue>10</issue>), <fpage>2794</fpage>&#x02013;<lpage>2812</lpage>. <pub-id pub-id-type="doi">10.1002/prot.23106</pub-id>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="weblink" id="cit48"><source>Chemical compound - Functional Groups | Britannica</source>. <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.britannica.com/science/chemical-compound/Functional-groups">https://www.britannica.com/science/chemical-compound/Functional-groups</uri> (accessed 2023&#x02013;08&#x02013;10).</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Duan</surname><given-names>J.</given-names></name>; <name><surname>Dixon</surname><given-names>S. L.</given-names></name>; <name><surname>Lowrie</surname><given-names>J. F.</given-names></name>; <name><surname>Sherman</surname><given-names>W.</given-names></name>
+<article-title>Analysis and Comparison
+of 2D Fingerprints: Insights into Database Screening Performance Using
+Eight Fingerprint Methods</article-title>. <source>J. Mol. Graphics
+Model.</source>
+<year>2010</year>, <volume>29</volume> (<issue>2</issue>), <fpage>157</fpage>&#x02013;<lpage>170</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmgm.2010.05.008</pub-id>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Sastry</surname><given-names>M.</given-names></name>; <name><surname>Lowrie</surname><given-names>J. F.</given-names></name>; <name><surname>Dixon</surname><given-names>S. L.</given-names></name>; <name><surname>Sherman</surname><given-names>W.</given-names></name>
+<article-title>Large-Scale
+Systematic
+Analysis of 2D Fingerprint Methods and Parameters to Improve Virtual
+Screening Enrichments</article-title>. <source>J. Chem. Inf. Model.</source>
+<year>2010</year>, <volume>50</volume> (<issue>5</issue>), <fpage>771</fpage>&#x02013;<lpage>784</lpage>. <pub-id pub-id-type="doi">10.1021/ci100062n</pub-id>.<pub-id pub-id-type="pmid">20450209</pub-id></mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="book" id="cit51"><person-group person-group-type="allauthors"><name><surname>Leishman</surname><given-names>D. J.</given-names></name>; <name><surname>Rankovic</surname><given-names>Z.</given-names></name></person-group><article-title>Drug Discovery
+vs HERG</article-title>. In <source>Tactics in Contemporary Drug Design</source>; <person-group person-group-type="editor"><name><surname>Meanwell</surname><given-names>N. A.</given-names></name></person-group>, Ed.; Topics in
+Medicinal Chemistry; <publisher-name>Springer</publisher-name>: <publisher-loc>Berlin, Heidelberg</publisher-loc>, <year>2015</year>; pp <fpage>225</fpage>&#x02013;<lpage>259</lpage>, <pub-id pub-id-type="doi">10.1007/7355_2014_38</pub-id>.</mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Villoutreix</surname><given-names>B. O.</given-names></name>; <name><surname>Taboureau</surname><given-names>O.</given-names></name>
+<article-title>Computational
+Investigations of HERG Channel Blockers:
+New Insights and Current Predictive Models</article-title>. <source>Adv. Drug Delivery Rev.</source>
+<year>2015</year>, <volume>86</volume>, <fpage>72</fpage>&#x02013;<lpage>82</lpage>. <pub-id pub-id-type="doi">10.1016/j.addr.2015.03.003</pub-id>.</mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Zhang</surname><given-names>C.</given-names></name>; <name><surname>Zhou</surname><given-names>Y.</given-names></name>; <name><surname>Gu</surname><given-names>S.</given-names></name>; <name><surname>Wu</surname><given-names>Z.</given-names></name>; <name><surname>Wu</surname><given-names>W.</given-names></name>; <name><surname>Liu</surname><given-names>C.</given-names></name>; <name><surname>Wang</surname><given-names>K.</given-names></name>; <name><surname>Liu</surname><given-names>G.</given-names></name>; <name><surname>Li</surname><given-names>W.</given-names></name>; <name><surname>Lee</surname><given-names>P. W.</given-names></name>; <name><surname>Tang</surname><given-names>Y.</given-names></name>
+<article-title>In Silico Prediction of HERG Potassium
+Channel Blockage by Chemical
+Category Approaches</article-title>. <source>Toxicol. Res.</source>
+<year>2016</year>, <volume>5</volume> (<issue>2</issue>), <fpage>570</fpage>&#x02013;<lpage>582</lpage>. <pub-id pub-id-type="doi">10.1039/C5TX00294J</pub-id>.</mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal" id="cit54"><name><surname>Aronov</surname><given-names>A. M.</given-names></name>
+<article-title>Predictive
+in Silico Modeling for HERG Channel Blockers</article-title>. <source>Drug Discovery Today</source>
+<year>2005</year>, <volume>10</volume> (<issue>2</issue>), <fpage>149</fpage>&#x02013;<lpage>155</lpage>. <pub-id pub-id-type="doi">10.1016/S1359-6446(04)03278-7</pub-id>.<pub-id pub-id-type="pmid">15718164</pub-id></mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="journal" id="cit55"><name><surname>Pearlstein</surname><given-names>R.</given-names></name>; <name><surname>Vaz</surname><given-names>R.</given-names></name>; <name><surname>Rampe</surname><given-names>D.</given-names></name>
+<article-title>Understanding
+the Structure&#x02013;Activity Relationship
+of the Human Ether-a-Go-Go-Related Gene Cardiac K+ Channel. A Model
+for Bad Behavior</article-title>. <source>J. Med. Chem.</source>
+<year>2003</year>, <volume>46</volume> (<issue>11</issue>), <fpage>2017</fpage>&#x02013;<lpage>2022</lpage>. <pub-id pub-id-type="doi">10.1021/jm0205651</pub-id>.<pub-id pub-id-type="pmid">12747773</pub-id></mixed-citation></ref><ref id="ref56"><mixed-citation publication-type="journal" id="cit56"><name><surname>Mitcheson</surname><given-names>J. S.</given-names></name>; <name><surname>Perry</surname><given-names>M. D.</given-names></name>
+<article-title>Molecular
+Determinants of High-Affinity Drug Binding
+to HERG Channels</article-title>. <source>Curr. Opin. Drug Discovery
+Devel.</source>
+<year>2003</year>, <volume>6</volume> (<issue>5</issue>), <fpage>667</fpage>&#x02013;<lpage>674</lpage>.</mixed-citation></ref><ref id="ref57"><mixed-citation publication-type="journal" id="cit57"><name><surname>Pearlstein</surname><given-names>R. A.</given-names></name>; <name><surname>Vaz</surname><given-names>R. J.</given-names></name>; <name><surname>Kang</surname><given-names>J.</given-names></name>; <name><surname>Chen</surname><given-names>X.-L.</given-names></name>; <name><surname>Preobrazhenskaya</surname><given-names>M.</given-names></name>; <name><surname>Shchekotikhin</surname><given-names>A. E.</given-names></name>; <name><surname>Korolev</surname><given-names>A. M.</given-names></name>; <name><surname>Lysenkova</surname><given-names>L. N.</given-names></name>; <name><surname>Miroshnikova</surname><given-names>O. V.</given-names></name>; <name><surname>Hendrix</surname><given-names>J.</given-names></name>; <name><surname>Rampe</surname><given-names>D.</given-names></name>
+<article-title>Characterization of
+HERG Potassium Channel Inhibition Using CoMSiA 3D QSAR and Homology
+Modeling Approaches</article-title>. <source>Bioorg. Med. Chem. Lett.</source>
+<year>2003</year>, <volume>13</volume> (<issue>10</issue>), <fpage>1829</fpage>&#x02013;<lpage>1835</lpage>. <pub-id pub-id-type="doi">10.1016/S0960-894X(03)00196-3</pub-id>.<pub-id pub-id-type="pmid">12729675</pub-id></mixed-citation></ref><ref id="ref58"><mixed-citation publication-type="journal" id="cit58"><name><surname>Kay&#x00131;k</surname><given-names>G.</given-names></name>; <name><surname>T&#x000fc;z&#x000fc;n</surname><given-names>N. &#x0015e;.</given-names></name>; <name><surname>Durdagi</surname><given-names>S.</given-names></name>
+<article-title>Structural Investigation
+of Vesnarinone at the Pore Domains of Open and Open-Inactivated States
+of HERG1 K+ Channel</article-title>. <source>J. Mol. Graphics Model.</source>
+<year>2017</year>, <volume>77</volume>, <fpage>399</fpage>&#x02013;<lpage>412</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmgm.2017.08.017</pub-id>.</mixed-citation></ref><ref id="ref59"><mixed-citation publication-type="journal" id="cit59"><name><surname>Thai</surname><given-names>K.-M.</given-names></name>; <name><surname>Ecker</surname><given-names>G. F.</given-names></name>
+<article-title>A Binary QSAR Model
+for Classification of HERG Potassium
+Channel Blockers</article-title>. <source>Bioorg. Med. Chem.</source>
+<year>2008</year>, <volume>16</volume> (<issue>7</issue>), <fpage>4107</fpage>&#x02013;<lpage>4119</lpage>. <pub-id pub-id-type="doi">10.1016/j.bmc.2008.01.017</pub-id>.<pub-id pub-id-type="pmid">18243713</pub-id></mixed-citation></ref><ref id="ref60"><mixed-citation publication-type="journal" id="cit60"><name><surname>Kamiya</surname><given-names>K.</given-names></name>; <name><surname>Niwa</surname><given-names>R.</given-names></name>; <name><surname>Mitcheson</surname><given-names>J. S.</given-names></name>; <name><surname>Sanguinetti</surname><given-names>M. C.</given-names></name>
+<article-title>Molecular
+Determinants of HERG Channel Block</article-title>. <source>Mol. Pharmacol.</source>
+<year>2006</year>, <volume>69</volume> (<issue>5</issue>), <fpage>1709</fpage>&#x02013;<lpage>1716</lpage>. <pub-id pub-id-type="doi">10.1124/mol.105.020990</pub-id>.<pub-id pub-id-type="pmid">16474003</pub-id></mixed-citation></ref><ref id="ref61"><mixed-citation publication-type="journal" id="cit61"><name><surname>Durdagi</surname><given-names>S.</given-names></name>; <name><surname>Orhan</surname><given-names>M. D.</given-names></name>; <name><surname>Aksoydan</surname><given-names>B.</given-names></name>; <name><surname>Calis</surname><given-names>S.</given-names></name>; <name><surname>Dogan</surname><given-names>B.</given-names></name>; <name><surname>Sahin</surname><given-names>K.</given-names></name>; <name><surname>Shahraki</surname><given-names>A.</given-names></name>; <name><surname>Iyison</surname><given-names>N. B.</given-names></name>; <name><surname>Avsar</surname><given-names>T.</given-names></name>
+<article-title>Screening
+of Clinically Approved and Investigation Drugs as Potential Inhibitors
+of SARS-CoV-2: A Combined in silico and in vitro Study</article-title>. <source>Mol. Inform.</source>
+<year>2022</year>, <volume>41</volume> (<issue>2</issue>), <elocation-id>e2100062</elocation-id><pub-id pub-id-type="doi">10.1002/minf.202100062</pub-id>.<pub-id pub-id-type="pmid">34529322</pub-id></mixed-citation></ref><ref id="ref62"><mixed-citation publication-type="journal" id="cit62"><name><surname>Aksoydan</surname><given-names>B.</given-names></name>; <name><surname>Durdagi</surname><given-names>S.</given-names></name>
+<article-title>Molecular simulations
+reveal the impact of RAMP1 on
+ligand binding and dynamics of calcitonin gene-related peptide receptor
+(CGRPR) heterodimer</article-title>. <source>Comput. Biol. Med.</source>
+<year>2022</year>, <volume>141</volume>, <elocation-id>105130</elocation-id><pub-id pub-id-type="doi">10.1016/j.compbiomed.2021.105130</pub-id>.<pub-id pub-id-type="pmid">34923287</pub-id></mixed-citation></ref><ref id="ref63"><mixed-citation publication-type="journal" id="cit63"><name><surname>Is</surname><given-names>Y. S.</given-names></name>; <name><surname>Durdagi</surname><given-names>S.</given-names></name>; <name><surname>Aksoydan</surname><given-names>B.</given-names></name>; <name><surname>Yurtsever</surname><given-names>M.</given-names></name>
+<article-title>Proposing
+Novel MAO-B Hit Inhibitors Using Multidimensional Molecular Modeling
+Approaches and Application of Binary QSAR Models for Prediction of
+Their Therapeutic Activity, Pharmacokinetic and Toxicity Properties</article-title>. <source>ACS Chem. Neurosci.</source>
+<year>2018</year>, <volume>9</volume> (<issue>7</issue>), <fpage>1768</fpage>&#x02013;<lpage>1782</lpage>. <pub-id pub-id-type="doi">10.1021/acschemneuro.8b00095</pub-id>.<pub-id pub-id-type="pmid">29671581</pub-id></mixed-citation></ref></ref-list></back></article>

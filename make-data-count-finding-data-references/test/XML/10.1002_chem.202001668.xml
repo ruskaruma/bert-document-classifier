@@ -1,0 +1,1048 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Chemistry</journal-id><journal-id journal-id-type="iso-abbrev">Chemistry</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1521-3765</journal-id><journal-id journal-id-type="publisher-id">CHEM</journal-id><journal-title-group><journal-title>Chemistry (Weinheim an Der Bergstrasse, Germany)</journal-title></journal-title-group><issn pub-type="ppub">0947-6539</issn><issn pub-type="epub">1521-3765</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7540276</article-id><article-id pub-id-type="doi">10.1002/chem.202001668</article-id><article-id pub-id-type="publisher-id">CHEM202001668</article-id><article-categories><subj-group subj-group-type="overline"><subject>Full Paper</subject></subj-group><subj-group subj-group-type="heading"><subject>Full Papers</subject><subj-group subj-group-type="heading"><subject>Supramolecular Chemistry</subject></subj-group></subj-group></article-categories><title-group><article-title>The First Use of a ReX<sub>5</sub> Synthon to Modulate Fe<sup>III</sup> Spin Crossover via Supramolecular Halogen&#x022c5;&#x022c5;&#x022c5;Halogen Interactions</article-title></title-group><contrib-group><contrib id="chem202001668-cr-0001" contrib-type="author"><name><surname>Busch</surname><given-names>Rebecca</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="chem202001668-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="author-notes" rid="chem202001668-note-1001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="chem202001668-cr-0002" contrib-type="author"><name><surname>Carter</surname><given-names>Anthony B.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4641-6055</contrib-id><xref ref-type="aff" rid="chem202001668-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="chem202001668-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="author-notes" rid="chem202001668-note-1001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="chem202001668-cr-0003" contrib-type="author"><name><surname>Konidaris</surname><given-names>Konstantis F.</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-7366-5682</contrib-id><xref ref-type="aff" rid="chem202001668-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="chem202001668-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="chem202001668-cr-0004" contrib-type="author"><name><surname>K&#x000fc;hne</surname><given-names>Irina A.</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-0006-404X</contrib-id><xref ref-type="aff" rid="chem202001668-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="chem202001668-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="chem202001668-cr-0005" contrib-type="author" corresp="yes"><name><surname>Gonz&#x000e1;lez</surname><given-names>Ricardo</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="chem202001668-aff-0005">
+<sup>5</sup>
+</xref><address><email>rgonzale@fq.edu.uy</email></address></contrib><contrib id="chem202001668-cr-0006" contrib-type="author"><name><surname>Anson</surname><given-names>Christopher E.</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-7992-7797</contrib-id><xref ref-type="aff" rid="chem202001668-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="chem202001668-cr-0007" contrib-type="author" corresp="yes"><name><surname>Powell</surname><given-names>Annie K.</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3944-7427</contrib-id><xref ref-type="aff" rid="chem202001668-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="chem202001668-aff-0006">
+<sup>6</sup>
+</xref><address><email>annie.powell@kit.edu</email></address></contrib></contrib-group><aff id="chem202001668-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Institute of Inorganic Chemistry</named-content>
+<institution>Karlsruhe Institute of Technology</institution>
+<named-content content-type="street">Engesserstrasse 15</named-content>
+<postal-code>76131</postal-code>
+<city>Karlsruhe</city>
+<country country="DE">Germany</country>
+</aff><aff id="chem202001668-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">School of Chemistry</named-content>
+<institution>University of Southampton</institution>
+<named-content content-type="street">University Road</named-content>
+<city>Southampton</city>
+<postal-code>SO17 1BJ</postal-code>
+<country country="GB">UK</country>
+</aff><aff id="chem202001668-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Pharmacy</named-content>
+<institution>University of Patras</institution>
+<postal-code>26504</postal-code>
+<city>Patras</city>
+<country country="GR">Greece</country>
+</aff><aff id="chem202001668-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">School of Physics</named-content>
+<institution>University College Dublin (UCD)</institution>
+<named-content content-type="street">Belfield</named-content>
+<city>Dublin</city>
+<postal-code>4</postal-code>
+<country country="IE">Ireland</country>
+</aff><aff id="chem202001668-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">C&#x000e1;tedra de Qu&#x000ed;mica Inorg&#x000e1;nica</named-content>
+<named-content content-type="organisation-division">Departamento Estrella Campos</named-content>
+<named-content content-type="organisation-division">Facultadde Qu&#x000ed;mica</named-content>
+<institution>Universidad de la Rep&#x000fa;blica</institution>
+<named-content content-type="street">Avda. General Flores 2124</named-content>
+<postal-code>CC 1157</postal-code>
+<city>Montevideo</city>
+<country country="UY">Uruguay</country>
+</aff><aff id="chem202001668-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Institute of Nanotechnology</named-content>
+<institution>Karlsruhe Institute of Technology</institution>
+<named-content content-type="street">Hermann von Helmholtz Platz 1</named-content>
+<postal-code>76344</postal-code>
+<city>Eggenstein-Leopoldshafen</city>
+<country country="DE">Germany</country>
+</aff><author-notes><fn id="chem202001668-note-1001"><label>&#x02020;</label><p>These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="epub"><day>13</day><month>8</month><year>2020</year></pub-date><pub-date pub-type="ppub"><day>10</day><month>9</month><year>2020</year></pub-date><volume>26</volume><issue>51</issue><issue-id pub-id-type="doi">10.1002/chem.v26.51</issue-id><fpage>11835</fpage><lpage>11840</lpage><history><date date-type="received"><day>07</day><month>4</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2020 Wiley&#x02010;VCH GmbH <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors. Published by Wiley-VCH GmbH</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:CHEM-26-11835.pdf"/><abstract><title>Abstract</title><p>We have added the {Re<sup>IV</sup>X<sub>5</sub>}<sup>&#x02212;</sup> (X=Br, Cl) synthon to a pocket&#x02010;based ligand to provide supramolecular design using halogen&#x022c5;&#x022c5;&#x022c5;halogen interactions within an Fe<sup>III</sup> system that has the potential to undergo spin crossover (SCO). By removing the solvent from the crystal lattice, we &#x0201c;switch on&#x0201d; halogen&#x022c5;&#x022c5;&#x022c5;halogen interactions between neighboring molecules, providing a supramolecular cooperative pathway for SCO. Furthermore, changes to the halogen&#x02010;based interaction allow us to modify the temperature and nature of the SCO event.</p></abstract><abstract abstract-type="graphical"><p>
+<bold>Inorganic synthon controls SCO behavior</bold>: Incorporating an {Re<sup>IV</sup>X<sub>5</sub>}<sup>&#x02212;</sup> synthon into an Fe<sup>III</sup> system provides a highly directional supramolecular design using halogen&#x022c5;&#x022c5;&#x022c5;halogen interactions. Removal of solvent from the crystal lattice &#x0201c;switches on&#x0201d; these interactions, providing a long&#x02010;range cooperative pathway ideal for an SCO event.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="CHEM-26-11835-g007.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="chem202001668-kwd-0001">cooperative effects</kwd><kwd id="chem202001668-kwd-0002">halogen bonding</kwd><kwd id="chem202001668-kwd-0003">noncovalent interactions</kwd><kwd id="chem202001668-kwd-0004">self-assembly</kwd><kwd id="chem202001668-kwd-0005">spin crossover</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Deutsche Forschungsgemeinschaft </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001659</institution-id></institution-wrap></funding-source><award-id>SFB/TRR 88 "3MET"</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>Engineering and Physical Sciences Research Council </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100000266</institution-id></institution-wrap></funding-source><award-id>EP/K039466/1, EP/N009185/1 &#x00026; P/K014382/1</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="1"/><ref-count count="68"/><page-count count="6"/><word-count count="0"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 10, 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.2 mode:remove_FC converted:07.10.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="chem202001668-self">R. Busch, A. B. Carter, K. F. Konidaris, I. A. K&#x000fc;hne, R. Gonz&#x000e1;lez, C. E. Anson, A. K. Powell, <italic>Chem. Eur. J.</italic>
+<bold>2020</bold>, <italic>26</italic>, 11835.</mixed-citation>
+</p></notes></front><body><sec id="chem202001668-sec-0001"><title>Introduction</title><p>Supramolecular chemistry is a rapidly expanding area of research,<xref rid="chem202001668-bib-0001" ref-type="ref">1</xref> having seen the award of two Nobel prizes within the last 30 years.<xref rid="chem202001668-bib-0002" ref-type="ref">2</xref> Whilst this means the phenomenon is well known, the important role it plays within inorganic structural chemistry is only beginning to be fully appreciated. The most common supramolecular interaction utilized is hydrogen bonding, which is fundamental for all life by allowing liquid water to exist over a wide range of temperatures and pressures.<xref rid="chem202001668-bib-0003" ref-type="ref">3</xref> In addition to hydrogen bonding, there are other intermolecular interactions such as &#x003c0;&#x02013;&#x003c0;,<xref rid="chem202001668-bib-0004" ref-type="ref">4</xref> van der Waals,<xref rid="chem202001668-bib-0005" ref-type="ref">5</xref> and the less common halogen,<xref rid="chem202001668-bib-0006" ref-type="ref">6</xref> chalcogen,<xref rid="chem202001668-bib-0007" ref-type="ref">7</xref> tetrel,<xref rid="chem202001668-bib-0008" ref-type="ref">8</xref> or pnictogen bonds.<xref rid="chem202001668-bib-0009" ref-type="ref">9</xref> Spin crossover (SCO) complexes are a class of materials which exhibit molecular bistability where both the high spin (HS) and low spin (LS) electronic configurations of certain d<sup>4</sup>&#x02013;d<sup>7</sup> transition metal complexes can be accessed in response to external stimuli such as light, temperature, or pressure.<xref rid="chem202001668-bib-0010" ref-type="ref">10</xref> In solid systems the nature of the spin&#x02010;transition is steered by the local coordination sphere as well as the long&#x02010;range order (supramolecular bonds).<xref rid="chem202001668-bib-0011" ref-type="ref">11</xref> The latter can be removed by isolating the molecules, either through crystal engineering approaching or dissolution.<xref rid="chem202001668-bib-0012" ref-type="ref">12</xref> The role that supramolecular interactions play in SCO complexes is well established, with both the strength and direction of these leading to extensive changes,<xref rid="chem202001668-bib-0013" ref-type="ref">13</xref> in particular solvent mediated interactions have been recognized as important.<xref rid="chem202001668-bib-0014" ref-type="ref">14</xref> It has recently been recognized that halogen bonds are a significant noncovalent bonding pathway for transmitting or supporting information transfer, whilst also providing stability to supramolecular systems.<xref rid="chem202001668-bib-0015" ref-type="ref">15</xref> The high directionality associated with halogen bonds should prove a useful tool in SCO research, allowing systems to be designed with a high degree of control over the direction of information propagation. In recent years studies by Fourmigu&#x000e9; have pointed towards this direction, demonstrating the potential for halogen&#x02010;based supramolecular interactions within SCO research.<xref rid="chem202001668-bib-0016" ref-type="ref">16</xref>
+</p><p>In an attempt to produce a bimetallic 3d&#x02013;5d molecule using a {ReX<sub>5</sub>}<sup>&#x02212;</sup> synthon and a Schiff&#x02010;base contacting ligand with flexible binding pockets, similar to those previously used by our group<xref rid="chem202001668-bib-0017" ref-type="ref">17</xref> (Scheme&#x02005;<xref rid="chem202001668-fig-5001" ref-type="fig">1</xref>), we produced a family of new heterometallic Fe<sup>III</sup>&#x02010;5d systems. In practice we found that the transition metal preferentially occupies pocket 2, giving a <italic>mer</italic>&#x02010;coordinated system with the general formula [Re<sup>IV</sup>
+<styled-content style="color:#ff0000"><italic>X</italic></styled-content>
+<sub>5</sub>(&#x003bc;&#x02010;<styled-content style="color:#0000ff"><italic>R</italic></styled-content>pch)Fe(<styled-content style="color:#e57f4c"><italic>R&#x02019;</italic></styled-content>&#x02010;Im)<sub>3</sub>] where H<sub>2</sub>
+<styled-content style="color:#0000ff"><italic>R</italic></styled-content>pch has the formula (<italic>E</italic>)&#x02010;<italic>N</italic>&#x02019;&#x02010;(2&#x02010;hydroxy&#x02010;3&#x02010;<styled-content style="color:#0000ff"><italic>R</italic></styled-content>&#x02010;benzylidene)pyrazine&#x02010;2&#x02010;carbohydrazide, and <styled-content style="color:#e57f4c"><italic>R&#x02019;</italic></styled-content>&#x02010;Im has the formula 1&#x02010;<styled-content style="color:#e57f4c"><italic>R&#x02019;</italic></styled-content>&#x02010;imidazole (Figure&#x02005;<xref rid="chem202001668-fig-0001" ref-type="fig">1</xref>, Table <xref rid="chem202001668-tbl-0001" ref-type="table">1</xref>).</p><fig fig-type="Scheme" xml:lang="en" id="chem202001668-fig-5001" orientation="portrait" position="float"><label>Scheme 1</label><caption><p>Synthetic route for the preparation of ligands (<bold>9</bold>)&#x02013;(<bold>11</bold>), [Re<styled-content style="color:#ff0000"><italic>X</italic></styled-content>
+<sub>5</sub>(<styled-content style="color:#0000ff"><italic>R</italic></styled-content>pch)]<sup>&#x02212;</sup> (containing the a {ReX<sub>5</sub>}<sup>&#x02212;</sup> synthon), and the complexes (<bold>1</bold>)&#x02013;(<bold>4</bold>).</p></caption><graphic id="nlm-graphic-3" xlink:href="CHEM-26-11835-g006"/></fig><fig fig-type="Figure" xml:lang="en" id="chem202001668-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>The molecular structure in the desolvated compound (<bold>1</bold>)d_100.</p></caption><graphic id="nlm-graphic-5" xlink:href="CHEM-26-11835-g001"/></fig><p>Whilst the use of the {ReX<sub>5</sub>}<sup>&#x02212;</sup> synthon has been seldom reported<xref rid="chem202001668-bib-0018" ref-type="ref">18</xref> we noted that by removing competing intermolecular interactions such as hydrogen bonds we promote halogen&#x022c5;&#x022c5;&#x022c5; halogen interactions, allowing us to switch on supramolecular interactions which enable SCO events. A careful multipronged investigation involving modifications to the halogen, the ligand and co&#x02010;ligand, as well as the synthesis of the analogous Co<sup>III</sup> compounds (<bold>5</bold>)&#x02010;(<bold>8</bold>) (see ESI), showed that the SCO properties of the Fe<sup>III</sup> center could be readily modified. Crystal structures are labelled with the general name &#x0201c;(<bold>Compound</bold>)w/d_TEMP&#x0201d;, where w or d denotes &#x0201c;wet&#x0201d; (solvated) or &#x0201c;dry&#x0201d; (desolvated) crystals, and TEMP is the temperature of the structural determination.</p></sec><sec id="chem202001668-sec-0002"><title>Results and Discussion</title><p>Single crystal X&#x02010;ray analysis of complex (<bold>1</bold>)w_100 shows that the complex crystallizes in the space group <italic>C</italic>2/<italic>c</italic> with <italic>Z</italic>=8. Complex (<bold>1</bold>) was chosen as a representative of the series with structural details of complexes (<bold>1</bold>)&#x02013;(<bold>4</bold>) including halogen bond parameters in the ESI. The asymmetric unit contains a [Re<styled-content style="color:#ff0000"><italic>Br</italic></styled-content>
+<sub>5</sub>(&#x003bc;&#x02010;<styled-content style="color:#0000ff"><italic>Me</italic>O</styled-content>pch)Fe(<styled-content style="color:#e57f4c"><italic>Me</italic></styled-content>&#x02010;Im)<sub>3</sub>] complex with the {Re<sup>IV</sup>Br<sub>5</sub>} synthon bound to a nitrogen atom of the pyrazine ring of the deprotonated <styled-content style="color:#0000ff">MeO</styled-content>pch ligand. The central Fe<sup>III</sup> ion is coordinated to the ligand through an azine nitrogen (N1), a carbonyl oxygen (O3), and a hydroxy oxygen (O1), whilst three additional Me&#x02010;Im co&#x02010;ligands complete the coordination sphere through nitrogen atoms N5, N9, and N7. In addition to this there were two interstitial MeCN molecules within the lattice connected through nonclassical hydrogen bonds. The shortest intermolecular Br&#x022c5;&#x022c5;&#x022c5;Br distance was 4.663&#x02005;&#x000c5; and is therefore too long to be considered a halogen bond, and is unlikely to contribute to information exchange.<xref rid="chem202001668-bib-0019" ref-type="ref">19</xref> The N<sub>4</sub>O<sub>2</sub> coordination sphere of the Fe<sup>III</sup> ion is often observed in SCO active compounds,<xref rid="chem202001668-bib-0020" ref-type="ref">20</xref> so this complex warranted further investigation and a structure was collected at 280&#x02005;K, (<bold>1</bold>)w_280. Fe<sup>III</sup>&#x02212;N bond lengths are characteristic of the spin state (LS&#x02248;1.95&#x02005;&#x000c5; and HS&#x02248;2.15&#x02005;&#x000c5;)<xref rid="chem202001668-bib-0021" ref-type="ref">21</xref> and crystallographic analysis of the complex showed that the system was in the HS state at both temperatures, with the average Fe&#x02212;N bonds being 2.098&#x02005;&#x000c5; and 2.114&#x02005;&#x000c5; at 100&#x02005;K and 230&#x02005;K, respectively. However, magnetic analysis of complex (<bold>1</bold>) using a SQUID magnetometer revealed an SCO active system with an incomplete transition occurring between 220&#x02005;K and 90&#x02005;K, from fully HS to only 22&#x02009;% of molecules in the HS electronic configuration with T<sub>1/2</sub>=155&#x02005;K (Figure&#x02005;<xref rid="chem202001668-fig-0002" ref-type="fig">2</xref>). This initial result was surprising given that single crystal X&#x02010;ray diffraction data had indicated a HS state at 100&#x02005;K. The sample was removed from the SQUID and new single crystal X&#x02010;ray diffraction data were collected. The sample (<bold>1</bold>)d_100 crystallized in the same space group, <italic>C</italic>2/<italic>c</italic>, with the same neutral metal complex in the asymmetric unit. However, the average Fe&#x02212;N bond length (1.982&#x02005;&#x000c5;) indicated the complex was now at least partially in the LS state; it was also observed that the sample had desolvated (between measurements) with loss of the interstitial MeCN molecules (confirmed by elemental analysis) whilst retaining crystallinity. Crystallographic data were also collected at 140, 180, 230 and 280&#x02005;K and by plotting the adjusted change in unit cell volume (see ESI for details) against the temperature the SCO event clearly correlates with the changes in the crystal structure (Figure&#x02005;<xref rid="chem202001668-fig-0002" ref-type="fig">2</xref>).
+</p><fig fig-type="Figure" xml:lang="en" id="chem202001668-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>
+<italic>&#x003c7;T</italic> plot with overlaid adjusted unit cell volume (see ESI) for complex (<bold>1</bold>) showing the close correspondence of the values. Magnetic data collected under an applied DC field of 0.1&#x02005;T.</p></caption><graphic id="nlm-graphic-7" xlink:href="CHEM-26-11835-g002"/></fig><p>A more detailed investigation revealed that, by removing the lattice solvent and therefore the hydrogen bonding, halogen&#x022c5;&#x022c5;&#x022c5;halogen interactions become the dominant supramolecular effect (Figure&#x02005;<xref rid="chem202001668-fig-0003" ref-type="fig">3</xref>). In the original solvated sample, the longer Br&#x022c5;&#x022c5;&#x022c5;Br distances and Re&#x02010;Br&#x022c5;&#x022c5;&#x022c5;Br angle blocks the formation of a bond (Br2&#x022c5;&#x022c5;&#x022c5;Br2&#x02019;=4.663&#x02005;&#x000c5;, &#x02220;Re&#x02010;Br&#x022c5;&#x022c5;&#x022c5;Br=160&#x000b0;, R<sub>XB</sub>=1.217), however the loss of the solvent leads to reorientation of molecules in the crystal resulting in a significant shortening of the Br&#x022c5;&#x022c5;&#x022c5;Br distances, &#x0201c;switching on&#x0201d; a type I halogen bond (Br2&#x022c5;&#x022c5;&#x022c5;Br2&#x02019;=3.733&#x02005;&#x000c5;, &#x02220;Re&#x02010;Br&#x022c5;&#x022c5;&#x022c5;Br=176&#x000b0;, R<sub>XB</sub>=1.009).<xref rid="chem202001668-bib-0022" ref-type="ref">22</xref>
+</p><fig fig-type="Figure" xml:lang="en" id="chem202001668-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Packing rearrangement of (<bold>1</bold>) before (left) and after (right) loss of solvent molecules, both crystal structures measured at 100&#x02005;K.</p></caption><graphic id="nlm-graphic-9" xlink:href="CHEM-26-11835-g003"/></fig><p>Complexes (<bold>2</bold>)&#x02013;(<bold>4</bold>) were then synthesized to characterize the importance of these halogen&#x022c5;&#x022c5;&#x022c5;halogen interactions. The modifications are summarized in Table&#x02005;<xref rid="chem202001668-tbl-0001" ref-type="table">1</xref> and Figure&#x02005;<xref rid="chem202001668-fig-0001" ref-type="fig">1</xref> and were designed to provide additional insight. The replacement of a bromide for a chloride resulted in complex (<bold>2</bold>). Complex (<bold>2</bold>)w_100 also crystallized in the space group <italic>C</italic>2/<italic>c</italic> with the neutral metal complex now [Re<styled-content style="color:#ff0000"><italic>Cl</italic></styled-content>
+<sub>5</sub>(&#x003bc;&#x02010;<styled-content style="color:#0000ff"><italic>Me</italic>O</styled-content>pch)Fe(<styled-content style="color:#e57f4c"><italic>Me</italic></styled-content>&#x02010;Im)<sub>3</sub>] together with two MeCN molecules in the asymmetric unit. Analysis of the Fe&#x02212;N bond lengths (average: 2.111&#x02005;&#x000c5;) shows the iron(III) center to be in the HS state at 100&#x02005;K. In this solvated sample there is again no appreciable halogen&#x022c5;&#x022c5;&#x022c5;halogen interaction, with the shortest Cl&#x022c5;&#x022c5;&#x022c5;Cl distance at 4.539&#x02005;&#x000c5;. Despite the apparent HS structure, magnetic investigation revealed that at 100&#x02005;K the Fe<sup>III</sup> is mostly LS (74&#x02009;% LS) (Figure&#x02005;<xref rid="chem202001668-fig-0004" ref-type="fig">4</xref>). Elemental analysis confirmed the crystal had lost the interstitial MeCN molecules indicating a similar effect to that seen in complex (<bold>1</bold>) with the halogen bond &#x0201c;switching on&#x0201d; upon loss of solvent. Since this sample lost crystal quality during desolvation, the exact nature of the halogen&#x022c5;&#x022c5;&#x022c5;halogen interaction could not be clearly defined. Previous work has ordered the strength of halogen bonds as F &#x0003c; Cl &#x0003c;Br &#x0003c; I.<xref rid="chem202001668-bib-0023" ref-type="ref">23</xref> It is also well established that a decrease in cooperativity between metal centers results in less abrupt spin transitions.<xref rid="chem202001668-bib-0024" ref-type="ref">24</xref> By exchanging the bromide ion with chloride, a weaker halogen bond has been induced; it is therefore expected that a transition would be more gradual. We can quantify the gradual nature of this transition when comparing it with complex (<bold>1</bold>). Both events start at 230&#x02005;K from a <italic>&#x003c7;T</italic> value of &#x02248;5.8&#x02005;cm<sup>3</sup>&#x02009;mol<sup>&#x02212;1</sup>&#x02005;K, however the T<sub>1/2</sub> value is 33&#x02005;K lower (T<sub>1/2</sub>=124&#x02005;K) for (<bold>2</bold>) consistent with the gradual nature of the crossover which occurs over a wider temperature range (130&#x02005;K and 170&#x02005;K for (<bold>1</bold>) and (<bold>2</bold>), respectively).
+</p><table-wrap id="chem202001668-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>The formula of the reported compounds (<bold>1</bold>)&#x02013;(<bold>4</bold>) colored for clarity.<sup>[a]</sup>
+</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th valign="top" rowspan="1" colspan="1">
+<p>Compound</p>
+</th><th valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#ff0000">X=</styled-content>
+</p>
+</th><th valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#0000ff">R=</styled-content>
+</p>
+</th><th valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#e57f4c">R&#x02019;=</styled-content>
+</p>
+</th></tr></thead><tbody><tr><td valign="top" rowspan="1" colspan="1">
+<p>(<bold>1</bold>)</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#ff0000">Br</styled-content>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#0000ff">MeO</styled-content>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#e57f4c">Me</styled-content>
+</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>(<bold>2</bold>)</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#ff0000">Cl</styled-content>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#0000ff">MeO</styled-content>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#e57f4c">Me</styled-content>
+</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>(<bold>3</bold>)</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#ff0000">Br</styled-content>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#0000ff">EtO</styled-content>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#e57f4c">Me</styled-content>
+</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>(<bold>4</bold>)</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#ff0000">Br</styled-content>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#0000ff">MeO</styled-content>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>
+<styled-content style="color:#e57f4c">Et</styled-content>
+</p>
+</td></tr></tbody></table><table-wrap-foot><fn id="chem202001668-tnote-0001"><p>[a]&#x02005;Note: Compounds (<bold>5</bold>)&#x02013;(<bold>8</bold>) are the Co<sup>III</sup> analogues of (<bold>1</bold>)&#x02013;(<bold>4</bold>), respectively.</p></fn></table-wrap-foot><permissions><copyright-holder>Wiley&#x02010;VCH Verlag GmbH &#x00026; Co. KGaA</copyright-holder></permissions></table-wrap><fig fig-type="Figure" xml:lang="en" id="chem202001668-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>
+<italic>&#x003c7;T</italic> plots from the iron containing complexes (<bold>1</bold>)&#x02014;(<bold>4</bold>) Data collected under an applied DC field of 0.1&#x02005;T.</p></caption><graphic id="nlm-graphic-11" xlink:href="CHEM-26-11835-g004"/></fig><p>Complex (<bold>3</bold>) was produced by changing the non&#x02010;coordinated <styled-content style="color:#0000ff">MeO</styled-content> group on the primary&#x02010;ligand for the sterically larger <styled-content style="color:#0000ff">EtO</styled-content> group. (<bold>3</bold>)w_180 crystallized with a similar unit cell and packing, but in <italic>P</italic>2<sub>1</sub>/<italic>n</italic> due to loss of <italic>C</italic>&#x02010;centering. The asymmetric unit thus contains two [Re<styled-content style="color:#ff0000"><italic>Br</italic></styled-content>
+<sub>5</sub>(&#x003bc;&#x02010;<styled-content style="color:#0000ff"><italic>Et</italic>O</styled-content>pch)Fe(<styled-content style="color:#e57f4c"><italic>Me</italic></styled-content>&#x02010;Im)<sub>3</sub>] complexes and a single molecule of MeCN. Both crystallographically independent complexes appear to be HS at 180&#x02005;K with the average Fe&#x02010;N lengths of 2.116&#x02005;&#x000c5; and 2.101&#x02005;&#x000c5; for Fe1 and Fe2, respectively. In the complex containing Fe2 there is evidence of a weak type II halogen bond (Br7&#x022c5;&#x022c5;&#x022c5;Br10&#x02019; = 4.099&#x02005;&#x000c5;, &#x02220;Re&#x02010;Br&#x022c5;&#x022c5;&#x022c5;Br = 131 &#x00026; 119&#x000b0;, R<sub>XB</sub> = 1.108), which is missing for the molecule containing Fe1, thus only half the molecules in the crystal lattice can utilize a halogen bond mediated process. Upon complete solvent loss, sample (<bold>3</bold>)d_180 undergoes a transformation to a structure with only one [Re<styled-content style="color:#ff0000"><italic>Br</italic></styled-content>
+<sub>5</sub>(&#x003bc;&#x02010;<styled-content style="color:#0000ff"><italic>Et</italic>O</styled-content>pch)Fe(<styled-content style="color:#e57f4c"><italic>Me</italic></styled-content>&#x02010;Im)<sub>3</sub>] molecule in the asymmetric unit. In this case the halogen&#x022c5;&#x022c5;&#x022c5;halogen interaction is stronger than previously observed (Br5&#x022c5;&#x022c5;&#x022c5;Br5&#x02019;=3.888&#x02005;&#x000c5;, &#x02220;Re&#x02010;Br&#x022c5;&#x022c5;&#x022c5;Br=121&#x000b0;, R<sub>XB</sub>=1.051) involving all molecules in the crystal. SCO events are highly sensitive and this slight change in peripheral substituent from <styled-content style="color:#0000ff">MeO</styled-content> to <styled-content style="color:#0000ff">EtO</styled-content> is enough to modify the SCO properties.<xref rid="chem202001668-bib-0025" ref-type="ref">25</xref> The magnetic data for the desolvated compound demonstrates a more abrupt incomplete SCO with 61&#x02009;% of the metal centers reaching the LS occurring between 140&#x02005;K to 60&#x02005;K (80&#x02005;K range) with a T<sub>1/2</sub>=98&#x02005;K (Figure&#x02005;<xref rid="chem202001668-fig-0004" ref-type="fig">4</xref>). The dramatic change in T<sub>1/2</sub> highlights the suitability of this system to tune the SCO event towards a desired temperature.</p><p>Finally, complex (<bold>4</bold>) which replaces the methyl group on the imidazole&#x02010;based secondary ligand, <styled-content style="color:#e57f4c"><italic>R&#x02019;</italic></styled-content>, with a larger ethyl group crystallizes without interstitial solvent, (<bold>4</bold>)d_180. In the case of (<bold>3</bold>) only one additional CH<sub>2</sub> unit was added to the molecule in a position placing it at a maximum distance from the {ReX<sub>5</sub>}<sup>&#x02212;</sup> synthon. However, in complex (<bold>4</bold>) a total of three additional CH<sub>2</sub> units were introduced pushing the molecules further apart. In addition, a methyl group on one imidazole points directly into the {ReX<sub>5</sub>}<sup>&#x02212;</sup> synthon (Figure&#x02005;<xref rid="chem202001668-fig-0005" ref-type="fig">5</xref>) hindering the formation of a halogen bond (Br1&#x022c5;&#x022c5;&#x022c5;Br1&#x02019;=4.455&#x02005;&#x000c5;, &#x02220;Re&#x02010;Br&#x022c5;&#x022c5;&#x022c5;Br=167&#x000b0;, R<sub>XB</sub>=1.204). This results in a desolvated complex lacking halogen&#x022c5;&#x022c5;&#x022c5;halogen interactions and therefore without the desired SCO behavior (Figure&#x02005;<xref rid="chem202001668-fig-0004" ref-type="fig">4</xref>).
+</p><fig fig-type="Figure" xml:lang="en" id="chem202001668-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Representation of (<bold>4</bold>)d_180 (left) and (<bold>1</bold>)d_100 (right) shown in ball and stick with the &#x0201c;{ReX<sub>5</sub>}&#x0201d; and &#x0201c;imidazole <styled-content style="color:#e57f4c"><italic>R&#x02019;</italic></styled-content> group&#x0201d; in space filling mode demonstrating the steric hindrance induced by the ethyl group.</p></caption><graphic id="nlm-graphic-13" xlink:href="CHEM-26-11835-g005"/></fig><p>The results for the desolvated complex (<bold>4</bold>) rule out the possibility that removing solvent alone is enough to induce SCO properties and provide further evidence that in these systems a halogen&#x022c5;&#x022c5;&#x022c5;halogen interaction is required. This highlights the key role of halogen bond mediated information exchange and demonstrates the potential for halogen bonding within SCO research.</p><p>As a classic halogen bond is defined as an attractive dipolar interaction between nucleophilic and electrophilic halogen centers, the symmetrical ReBr<sub>5</sub>&#x022c5;&#x022c5;&#x022c5;ReBr<sub>5</sub> interactions we report here will clearly not be as strong, which is why we describe them as interactions rather than bonds. However, examination of the intermolecular geometries suggests that they can be validly described as weak halogen interactions. This is shown when they are &#x0201c;switched on&#x0201d; by solvent loss through a decrease in the Br&#x022c5;&#x022c5;&#x022c5;Br distances to what amounts approximately to the sum of their Van der Waals radii and the fact that the Re&#x02010;Br&#x02010;Br angles switch from 110&#x02013;140&#x000b0; to values close to linear. These concomitant changes provide good evidence that for the relevance of these halogen&#x022c5;&#x022c5;&#x022c5;halogen interactions in these systems. Incorporating additional halogen interaction/bonding motifs offers a fruitful avenue of research into providing increased cooperativity between the Fe<sup>III</sup> centers.</p></sec><sec id="chem202001668-sec-0003"><title>Conclusions</title><p>Our systematic approach which utilizes magnetic measurements and detailed structural investigations to observe compare and contrast the properties of similar systems showing the presence or absence of halogen&#x022c5;&#x022c5;&#x022c5;halogen interactions leads to a clear and concise understanding of the role which non&#x02010;typical supramolecular interactions can play in magnetic switching. The use of the {ReX<sub>5</sub>}<sup>&#x02212;</sup> synthon in conjunction with a pocket ligand enabled us to provide an ideal Fe<sup>III</sup> SCO environment coupled with the possibility to switch on halogen&#x022c5;&#x022c5;&#x022c5; halogen interactions through desolvation of the crystals. This engendered long&#x02010;range noncovalent interactions. The successful implementation of this approach to providing a facile way to include highly directional supramolecular interactions paves the way for future research into the role of such interactions within SCO and magnetically interesting compounds.</p></sec><sec id="chem202001668-sec-0004"><title>Experimental Section</title><p>The experimental section below covers the ligands (<bold>9</bold>) to (<bold>11</bold>) and compounds (<bold>1</bold>) to (<bold>4</bold>), with the Co<sup>III</sup> analogues, compounds (<bold>5</bold>) to (<bold>8</bold>), presented in the ESI along with the full details of the analytical equipment.</p><sec id="chem202001668-sec-0005"><title>Synthesis of the (NBu<sub>4</sub>)[Re<sup>IV</sup>Br<sub>5</sub>(H<sub>2</sub>MeOpch)] ligand (9)</title><p>(NBu<sub>4</sub>)<sub>2</sub>ReBr<sub>6</sub> (1.61&#x02005;g, 1.40&#x02005;mmol) and H<sub>2</sub>MeOpch (2.29&#x02005;g, 8.40&#x02005;mmol) were dissolved in a mixture of 2&#x02010;propanol/acetone (2:1, v/v, 150&#x02005;mL) and heated to 75&#x02009;&#x000b0;C for 2 hours. After cooling to room temperature, the solvent volume was reduced to &#x02248;80&#x02005;mL and the orange precipitate collected via filtration and dried in vacuo. Yield: 1.34&#x02005;g (87&#x02009;%). C<sub>29</sub>H<sub>48</sub>Br<sub>5</sub>N<sub>5</sub>O<sub>3</sub>Re (1098.44&#x02005;g&#x02009;mol<sup>&#x02212;1</sup>): Calculated C: 31.7&#x02009;%, H: 4.4&#x02009;%, N: 6.4&#x02009;%, Found: C: 31.0&#x02009;%, H: 4.3&#x02009;%, N: 6.1&#x02009;%. IR (<mml:math id="nlm-math-1"><mml:mover accent="true"><mml:mi>&#x003bd;</mml:mi><mml:mo>&#x002dc;</mml:mo></mml:mover></mml:math>
+cm<sup>&#x02212;1</sup>): 2960 (m), 2932 (w), 2872 (w), 1683 (s), 1608 (w), 1528 (m), 1462 (s), 1406 (m), 1377 (m), 1353 (m), 1244 (vs), 1148 (s), 1077 (s), 968 (m), 952 (m), 905 (m), 881 (m), 781 (m), 629 (w), 482 (m). UV/Vis: (MeCN) (<italic>&#x003bb;</italic> nm)=201, 220, 305, 339, 357 (sh), 590.</p></sec><sec id="chem202001668-sec-0006"><title>Synthesis of the (NBu<sub>4</sub>)[Re<sup>IV</sup>Cl<sub>5</sub>(H<sub>2</sub>MeOpch)] ligand (10)</title><p>(NBu<sub>4</sub>)<sub>2</sub>ReCl<sub>6</sub> (0.088&#x02005;g, 0.10&#x02005;mmol) and H<sub>2</sub>MeOpch (0.163&#x02005;mg, 0.6&#x02005;mmol) were dissolved in a mixture of 2&#x02010;propanol/acetone (2:1, v/v, 30&#x02005;mL) and heated to 75&#x02009;&#x000b0;C for 6 hours. After cooling to room temperature, the solution was filtered and left to stand under an inert atmosphere. After six days orange needles were collected via filtration and dried in vacuo. Yield: 0.067&#x02005;g (67&#x02009;%). C<sub>29</sub>H<sub>48</sub>Cl<sub>5</sub>N<sub>5</sub>O<sub>3</sub>Re (997.35&#x02005;g&#x02009;mol<sup>&#x02212;1</sup>): Calculated C: 42.2&#x02009;%, H: 6.4&#x02009;%, N: 7.0&#x02009;%, Found: C: 40.9&#x02009;%, H: 6.4&#x02009;%, N: 7.0&#x02009;%. IR (<mml:math id="nlm-math-2"><mml:mover accent="true"><mml:mi>&#x003bd;</mml:mi><mml:mo>&#x002dc;</mml:mo></mml:mover></mml:math>
+cm<sup>&#x02212;1</sup>): 3490 (vw), 2960 (s), 2932 (m), 2873 (m), 1682 (vs), 1608 (m), 1576 (w), 1533 (s), 1464 (vs), 1407 (m), 1377 (m), 1354 (s), 1282 (s), 1246 (vs), 1147 (vs), 1076 (s), 1024 (m), 952 (s), 906 (m), 881 (m), 835 (w), 817 (w), 783 (m), 739 (vs), 486 (m), 344 (s). UV/Vis: (MeCN) (<italic>&#x003bb;</italic> nm)=200, 221, 292, 353 (sh).</p></sec><sec id="chem202001668-sec-0007"><title>Synthesis of the (NBu<sub>4</sub>)[Re<sup>IV</sup>Br<sub>5</sub>(H<sub>2</sub>EtOpch)] ligand (11)</title><p>(NBu<sub>4</sub>)<sub>2</sub>ReBr<sub>6</sub> (0.080&#x02005;g, 0.07&#x02005;mmol) and H<sub>2</sub>EtOpch (0.120&#x02005;g, 0.42&#x02005;mmol) were dissolved in a mixture of 2&#x02010;propanol/acetone (2:1, v/v, 30&#x02005;mL) and heated to 70&#x02009;&#x000b0;C for 3 hours. After cooling to room temperature, the solvent volume was reduced to &#x02248;10&#x02005;mL and the orange precipitate collected via filtration and dried in vacuo. Yield: 0.064&#x02005;g (82&#x02009;%). C<sub>30</sub>H<sub>49</sub>Br<sub>5</sub>N<sub>5</sub>O<sub>3</sub>Re (1113.48&#x02005;g&#x02009;mol<sup>&#x02212;1</sup>): Calculated C: 32.4&#x02009;%, H: 4.4&#x02009;%, N: 6.3&#x02009;%, Found: C: 32.6&#x02009;%, H: 4.5&#x02009;%, N: 6.3&#x02009;%. IR (<mml:math id="nlm-math-3"><mml:mover accent="true"><mml:mi>&#x003bd;</mml:mi><mml:mo>&#x002dc;</mml:mo></mml:mover></mml:math>
+cm<sup>&#x02212;1</sup>): 3298 (vw), 2953 (w), 2928 (w), 2868 (w), 1708 (s), 1607 (m), 1513 (s), 1461 (s), 1403 (s), 1377 (m), 1354 (m), 1255 (vs), 1153 (vs), 1111 (m), 1057 (s), 1023 (s), 948 (m), 922 (w), 882 (s), 778 (m), 732 (vs), 581 (s), 486 (s), 443 (w). UV/Vis: (MeCN) (<italic>&#x003bb;</italic> nm)=221, 265, 305, 339, 357 (sh).</p></sec><sec id="chem202001668-sec-0008"><title>Synthesis of [ReBr<sub>5</sub>(&#x003bc;&#x02010;MeOpch)Fe(Me&#x02010;Im)<sub>3</sub>] (1)</title><p>A solution of Fe(ClO<sub>4</sub>)<sub>2</sub>&#x022c5;6&#x02009;H<sub>2</sub>0 (7&#x02005;mg, 0.02&#x02005;mmol) in MeCN (5&#x02005;mL) was slowly added to a solution of (NBu<sub>4</sub>)[ReBr<sub>5</sub>(H<sub>2</sub>MeOpch)] (<bold>9</bold>) (12&#x02005;mg, 0.01&#x02005;mmol) and 1&#x02010;Me&#x02010;Im (4&#x02005;mg, 0.04&#x02005;mmol) in MeCN (5&#x02005;mL). The reddish&#x02010;brown clear solution was sealed and left to stand for three weeks until dark brown needle crystals were formed. Yield: 5&#x02005;mg (48&#x02009;%). C<sub>25</sub>H<sub>28</sub>Br<sub>5</sub>FeN<sub>10</sub>O<sub>3</sub>Re (1158.2&#x02005;g&#x02009;mol<sup>&#x02212;1</sup>): Calculated C: 25.9&#x02009;%, H: 2.4&#x02009;%, N: 12.1&#x02009;%, Found: C: 26.5&#x02009;%, H: 2.7&#x02009;%, N: 12.7&#x02009;%. IR (<mml:math id="nlm-math-4"><mml:mover accent="true"><mml:mi>&#x003bd;</mml:mi><mml:mo>&#x002dc;</mml:mo></mml:mover></mml:math>
+cm<sup>&#x02212;1</sup>): 3123 (w), 1589 (m), 1536 (m), 1515 (m), 1466 (w), 1431 (s), 1349 (s), 1287 (m), 1252 (s), 1231 (m),1213 (m), 1156 (m), 1087 (vs), 1020 (w), 969 (w), 948 (m), 923 (w), 825 (w), 785 (w), 750 (vs), 655 (s), 618 (m), 584 (s), 509 (w), 416 (s), 370 (m). UV/Vis: (MeCN) (<italic>&#x003bb;</italic> nm)=216, 281, 337, 350, 360.</p></sec><sec id="chem202001668-sec-0009"><title>Synthesis of [ReCl<sub>5</sub>(&#x003bc;&#x02010;MeOpch)Fe(Me&#x02010;Im)<sub>3</sub>] (2)</title><p>A solution of Fe(ClO<sub>4</sub>)<sub>2</sub>&#x022c5;6&#x02009;H<sub>2</sub>0 (7&#x02005;mg, 0.02&#x02005;mmol) in MeCN (5&#x02005;mL) was slowly added to a solution of (NBu<sub>4</sub>)[ReCl<sub>5</sub>(H<sub>2</sub>MeOpch)] (<bold>10</bold>) (12&#x02005;mg, 0.01&#x02005;mmol) and 1&#x02010;Me&#x02010;Im (3&#x02005;mg, 0.03&#x02005;mmol) in MeCN (5&#x02005;mL). The reddish&#x02010;brown clear solution was sealed and left to stand for eight days until dark brown needle crystals were formed. Yield: 6&#x02005;mg (54&#x02009;%). C<sub>25</sub>H<sub>28</sub>Cl<sub>5</sub>FeN<sub>10</sub>O<sub>3</sub>Re (1158.2&#x02005;g&#x02009;mol<sup>&#x02212;1</sup>): Calculated C: 32.1&#x02009;%, H: 3.0&#x02009;%, N: 15.0&#x02009;%, Found: C: 31.2&#x02009;%, H: 3.0&#x02009;%, N: 14.7&#x02009;%. IR (<mml:math id="nlm-math-5"><mml:mover accent="true"><mml:mi>&#x003bd;</mml:mi><mml:mo>&#x002dc;</mml:mo></mml:mover></mml:math>
+cm<sup>&#x02212;1</sup>): 2959 (vw), 2932 (vw), 2834 (vw), 1599 (s), 1548(s), 1509 (m), 1436 (s), 1354 (s), 1298 (m), 1242 (s), 1219 (vs), 1157 (s), 1081 (m), 1020 (w), 971 (w), 921 (w), 856 (m), 741 (vs), 629 (w), 552 (m), 492 (w), 442 (m), 404 (m), 360 (w). UV/Vis: (MeCN) (<italic>&#x003bb;</italic> nm)=205, 282, 326 (sh), 338, 381, 477.</p></sec><sec id="chem202001668-sec-0010"><title>Synthesis of [ReBr<sub>5</sub>(&#x003bc;&#x02010;EtOpch)Fe(Me&#x02010;Im)<sub>3</sub>] (3)</title><p>A solution of Fe(ClO<sub>4</sub>)<sub>2</sub>&#x022c5;6&#x02009;H<sub>2</sub>0 (35&#x02005;mg, 0.12&#x02005;mmol) in MeCN (10&#x02005;mL) was slowly added to a solution of (NBu<sub>4</sub>)[ReBr<sub>5</sub>(H<sub>2</sub>EtOpch)] (<bold>11</bold>) (60&#x02005;mg, 0.06&#x02005;mmol) and 1&#x02010;Me&#x02010;Im (20&#x02005;mg, 0.24&#x02005;mmol) in MeCN (10&#x02005;mL). The reddish&#x02010;brown clear solution was sealed and left to stand for four days until dark brown block crystals were formed. Yield: 5&#x02005;mg (48&#x02009;%). C<sub>26</sub>H<sub>31</sub>Br<sub>5</sub>FeN<sub>10</sub>O<sub>3</sub>Re (1172.67&#x02005;g&#x02009;mol<sup>&#x02212;1</sup>): Calculated C: 26.6&#x02009;%, H: 2.6&#x02009;%, N: 11.9&#x02009;%, Found: C: 26.1&#x02009;%, H: 2.4&#x02009;%, N: 12.1&#x02009;%. IR (<mml:math id="nlm-math-6"><mml:mover accent="true"><mml:mi>&#x003bd;</mml:mi><mml:mo>&#x002dc;</mml:mo></mml:mover></mml:math>
+cm<sup>&#x02212;1</sup>): 3117 (w), 1606 (w), 1588 (m), 1532 (w), 1433 (m), 1391 (m), 1350 (m), 1280 (w), 1254 (s), 1211 (m), 1157 (m), 1086 (vs), 1023 (m), 946 (m), 901 (w), 844 (m), 783 (w), 741 (vs), 655 (s), 616 (m), 569 (m), 510 (m), 463 (w), 432 (m), 365 (w). UV/Vis: (MeCN) (<italic>&#x003bb;</italic> nm)=195, 208, 221, 307, 335, 355, 388 (sh).</p></sec><sec id="chem202001668-sec-0011"><title>Synthesis of [ReBr<sub>5</sub>(&#x003bc;&#x02010;MeOpch)Fe(Et&#x02010;Im)<sub>3</sub>] (4)</title><p>A solution of Fe(ClO<sub>4</sub>)<sub>2</sub>&#x022c5;6&#x02009;H<sub>2</sub>0 (22&#x02005;mg, 0.06&#x02005;mmol) in MeCN (10&#x02005;mL) was slowly added to a solution of (NBu<sub>4</sub>)[ReBr<sub>5</sub>(H<sub>2</sub>MeOpch)] (<bold>9</bold>) (60&#x02005;mg, 0.06&#x02005;mmol) and 1&#x02010;Et&#x02010;Im (12&#x02005;mg, 0.12&#x02005;mmol) in MeCN (15&#x02005;mL). The reddish&#x02010;brown clear solution was sealed and left to stand for one day until dark brown block crystals were formed. Yield: 31&#x02005;mg (43&#x02009;%). C<sub>28</sub>H<sub>34</sub>Br<sub>5</sub>CoN<sub>10</sub>O<sub>3</sub>Re (1153.26&#x02005;g&#x02009;mol<sup>&#x02212;1</sup>): Calculated C: 26.9&#x02009;%, H: 2.6&#x02009;%, N: 11.3&#x02009;%, Found: C: 26.6&#x02009;%, H: 2.7&#x02009;%, N: 11.3&#x02009;%. IR (<mml:math id="nlm-math-7"><mml:mover accent="true"><mml:mi>&#x003bd;</mml:mi><mml:mo>&#x002dc;</mml:mo></mml:mover></mml:math>
+cm<sup>&#x02212;1</sup>): 3118 (w), 2976 (vw), 934 (vw), 1589 (m), 1550 (m), 1531 (m), 1462 (m), 1426 (m), 1350 (s), 1278 (m), 1245 (m), 1230 (m), 1215 (m), 1182 (w), 1158 (m), 1087 (vs), 1020 (m), 958 (m), 945 (m), 838 (m), 798 (w), 744 (vs), 660 (s), 590 (m), 567 (m), 512 (m), 431 (m), 359 (s). UV/Vis: (MeCN) (<italic>&#x003bb;</italic> nm)=191, 209, 274 (sh), 338, 363, 392.</p><p>
+<ext-link ext-link-type="uri" xlink:href="https://www.ccdc.cam.ac.uk/services/structures?id=doi:10.1002/chem.202001668">Deposition Numbers 1978010, 1978011, 1978012, 1978013, 1978014, 1978015, 1978016, 1978017, 1978018, 1978019, 1978020, 1978021, 1978022, 1978023, 1978024, 1978025, 1978026, 1978027, 1978028, and 1978029</ext-link> contain the supplementary crystallographic data for this paper. These data are provided free of charge by the joint Cambridge Crystallographic Data Centre and Fachinformationszentrum Karlsruhe Access Structures service <ext-link ext-link-type="uri" xlink:href="https://www.ccdc.cam.ac.uk/structures/?">www.ccdc.cam.ac.uk/structures</ext-link>.</p></sec></sec><sec sec-type="COI-statement" id="chem202001668-sec-0013"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><p>As a service to our authors and readers, this journal provides supporting information supplied by the authors. Such materials are peer reviewed and may be re&#x02010;organized for online delivery, but are not copy&#x02010;edited or typeset. Technical support issues arising from supporting information (other than missing files) should be addressed to the authors.</p></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplementary</p></caption><media xlink:href="CHEM-26-11835-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="chem202001668-sec-0012"><title>Acknowledgements</title><p>This work was supported by the: DFG through SFB/TRR 88 &#x0201c;3MET&#x0201d;; the Helmholtz foundation POF&#x02010;STN; the EPSRC through grant references EP/K039466/1, EP/N009185/1 &#x00026; P/K014382/1s. We acknowledge the Synchrotron Light Source ANKA for provision of instruments at the SCD beamline. R.B. thanks the Karlsruhe House of Young Scientist (KHYS) for supporting a visit to Universidad de la Rep&#x000fa;blica (Uruguay). K.F.K. is grateful to Karlsruhe Institute of Technology for a Re&#x02010;Invitation Grant (2019). Open access funding enabled and organized by Projekt DEAL.</p></ack><ref-list><ref id="chem202001668-bib-0001"><label>1</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0001">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0001a"><label>1a</label><mixed-citation publication-type="journal" id="chem202001668-cit-0002">
+<string-name>
+<given-names>F.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name>
+<given-names>E. V.</given-names>
+<surname>Anslyn</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>2015</year>, <volume>115</volume>, <fpage>6999</fpage>&#x02013;<lpage>7000</lpage>;<pub-id pub-id-type="pmid">26263840</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0001b"><label>1b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0003">
+<string-name>
+<given-names>I. V.</given-names>
+<surname>Kolesnichenko</surname>
+</string-name>, <string-name>
+<given-names>E. V.</given-names>
+<surname>Anslyn</surname>
+</string-name>, <source xml:lang="en">Chem. Soc. Rev.</source>
+<year>2017</year>, <volume>46</volume>, <fpage>2385</fpage>&#x02013;<lpage>2390</lpage>;<pub-id pub-id-type="pmid">28317053</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0001c"><label>1c</label><mixed-citation publication-type="journal" id="chem202001668-cit-0004">
+<string-name>
+<given-names>A. B.</given-names>
+<surname>Carter</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>I. A.</given-names>
+<surname>K&#x000fc;hne</surname>
+</string-name>, <string-name>
+<given-names>T. D.</given-names>
+<surname>Keene</surname>
+</string-name>, <string-name>
+<given-names>A. K.</given-names>
+<surname>Powell</surname>
+</string-name>, <string-name>
+<given-names>J. A.</given-names>
+<surname>Kitchen</surname>
+</string-name>, <source xml:lang="en">ChemistrySelect</source>
+<year>2019</year>, <volume>4</volume>, <fpage>1850</fpage>&#x02013;<lpage>1856</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0001d"><label>1d</label><mixed-citation publication-type="journal" id="chem202001668-cit-0005">
+<string-name>
+<given-names>P. M. J.</given-names>
+<surname>Szell</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Zablotny</surname>
+</string-name>, <string-name>
+<given-names>D. L.</given-names>
+<surname>Bryce</surname>
+</string-name>, <source xml:lang="en">Nat. Commun.</source>
+<year>2019</year>, <volume>10</volume>, <fpage>916</fpage>.<pub-id pub-id-type="pmid">30796220</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0002"><label>2</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0006">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0002a"><label>2a</label><mixed-citation publication-type="journal" id="chem202001668-cit-0007">
+<string-name>
+<given-names>J.-M.</given-names>
+<surname>Lehn</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed. Eng.</source>
+<year>1988</year>, <volume>27</volume>, <fpage>89</fpage>&#x02013;<lpage>112</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0002b"><label>2b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0008">
+<string-name>
+<given-names>D. J.</given-names>
+<surname>Cram</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed. Eng.</source>
+<year>1988</year>, <volume>27</volume>, <fpage>1009</fpage>&#x02013;<lpage>1020</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0002c"><label>2c</label><mixed-citation publication-type="journal" id="chem202001668-cit-0009">
+<string-name>
+<given-names>J. F.</given-names>
+<surname>Stoddart</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2017</year>, <volume>56</volume>, <fpage>11094</fpage>&#x02013;<lpage>11125</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="chem202001668-cit-0010">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2017</year>, <volume>129</volume>, <fpage>11244</fpage>&#x02013;<lpage>11277</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0002d"><label>2d</label><mixed-citation publication-type="journal" id="chem202001668-cit-0011">
+<string-name>
+<given-names>J.-P.</given-names>
+<surname>Sauvage</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2017</year>, <volume>56</volume>, <fpage>11080</fpage>&#x02013;<lpage>11093</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="chem202001668-cit-0012">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2017</year>, <volume>129</volume>, <fpage>11228</fpage>&#x02013;<lpage>11242</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0002e"><label>2e</label><mixed-citation publication-type="journal" id="chem202001668-cit-0013">
+<string-name>
+<given-names>B. L.</given-names>
+<surname>Feringa</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2017</year>, <volume>56</volume>, <fpage>11060</fpage>&#x02013;<lpage>11078</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="chem202001668-cit-0014">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2017</year>, <volume>129</volume>, <fpage>11206</fpage>&#x02013;<lpage>11226</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="chem202001668-cit-0015">
+<string-name>
+<given-names>P. G.</given-names>
+<surname>Debenedetti</surname>
+</string-name>, <source xml:lang="en">J. Phys. Condens. Matter</source>
+<year>2003</year>, <volume>15</volume>, <fpage>R1669</fpage>&#x02013;<lpage>R1726</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0004"><label>4</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0016">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0004a"><label>4a</label><mixed-citation publication-type="journal" id="chem202001668-cit-0017">
+<string-name>
+<given-names>C. A.</given-names>
+<surname>Hunter</surname>
+</string-name>, <string-name>
+<given-names>J. K. M.</given-names>
+<surname>Sanders</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>1990</year>, <volume>112</volume>, <fpage>5525</fpage>&#x02013;<lpage>5534</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0004b"><label>4b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0018">
+<string-name>
+<given-names>C. G.</given-names>
+<surname>Claessens</surname>
+</string-name>, <string-name>
+<given-names>J. F.</given-names>
+<surname>Stoddart</surname>
+</string-name>, <source xml:lang="en">J. Phys. Org. Chem.</source>
+<year>1997</year>, <volume>10</volume>, <fpage>254</fpage>&#x02013;<lpage>272</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0005"><label>5</label><mixed-citation publication-type="book" id="chem202001668-cit-0019">
+<string-name>
+<given-names>V. A.</given-names>
+<surname>Parsegian</surname>
+</string-name>, <source xml:lang="en">Van der Waals Forces: A Handbook for Biologists, Chemists, Engineers, and Physicists</source>, <publisher-name>Cambridge University Press</publisher-name>, <publisher-loc>New York</publisher-loc>, <year>2006</year>.</mixed-citation></ref><ref id="chem202001668-bib-0006"><label>6</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0020">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0006a"><label>6a</label><mixed-citation publication-type="book" id="chem202001668-cit-0021">
+<string-name>
+<given-names>R.</given-names>
+<surname>Desiraju Gautam</surname>
+</string-name>, <string-name>
+<given-names>P. S.</given-names>
+<surname>Ho</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Kloo</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Legon Anthony</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Marquardt</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Metrangolo</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Politzer</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Resnati</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Rissanen</surname>
+</string-name>, <source xml:lang="en">Pure and Applied Chemistry, Vol.&#x02005;85</source>, <year>2013</year>, p.&#x02009;<fpage>1711</fpage>;</mixed-citation></ref><ref id="chem202001668-bib-0006b"><label>6b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0022">
+<string-name>
+<given-names>P.</given-names>
+<surname>Metrangolo</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Neukirch</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Pilati</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Resnati</surname>
+</string-name>, <source xml:lang="en">Acc. Chem. Res.</source>
+<year>2005</year>, <volume>38</volume>, <fpage>386</fpage>&#x02013;<lpage>395</lpage>.<pub-id pub-id-type="pmid">15895976</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0007"><label>7</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0023">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0007a"><label>7a</label><mixed-citation publication-type="journal" id="chem202001668-cit-0024">
+<string-name>
+<given-names>L.</given-names>
+<surname>Vogel</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Wonner</surname>
+</string-name>, <string-name>
+<given-names>S. M.</given-names>
+<surname>Huber</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2019</year>, <volume>58</volume>, <fpage>1880</fpage>&#x02013;<lpage>1891</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="chem202001668-cit-0025">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2019</year>, <volume>131</volume>, <fpage>1896</fpage>&#x02013;<lpage>1907</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0007b"><label>7b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0026">
+<string-name>
+<given-names>P.</given-names>
+<surname>Scilabra</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Terraneo</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Resnati</surname>
+</string-name>, <source xml:lang="en">Acc. Chem. Res.</source>
+<year>2019</year>, <volume>52</volume>, <fpage>1313</fpage>&#x02013;<lpage>1324</lpage>;<pub-id pub-id-type="pmid">31082186</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0007c"><label>7c</label><mixed-citation publication-type="journal" id="chem202001668-cit-0027">
+<string-name>
+<given-names>K. F.</given-names>
+<surname>Konidaris</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Pilati</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Terraneo</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Politzer</surname>
+</string-name>, <string-name>
+<given-names>J. S.</given-names>
+<surname>Murray</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Scilabra</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Resnati</surname>
+</string-name>, <source xml:lang="en">New J. Chem.</source>
+<year>2018</year>, <volume>42</volume>, <fpage>10463</fpage>&#x02013;<lpage>10466</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="chem202001668-cit-0028">
+<string-name>
+<given-names>A.</given-names>
+<surname>Bauz&#x000e1;</surname>
+</string-name>, <string-name>
+<given-names>T. J.</given-names>
+<surname>Mooibroek</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Frontera</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2013</year>, <volume>52</volume>, <fpage>12317</fpage>&#x02013;<lpage>12321</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="chem202001668-cit-0029">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2013</year>, <volume>125</volume>, <fpage>12543</fpage>&#x02013;<lpage>12547</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="chem202001668-cit-0030">
+<string-name>
+<given-names>P.</given-names>
+<surname>Scilabra</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Terraneo</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Resnati</surname>
+</string-name>, <source xml:lang="en">J. Fluor. Chem.</source>
+<year>2017</year>, <volume>203</volume>, <fpage>62</fpage>&#x02013;<lpage>74</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0010"><label>10</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0031">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0010a"><label>10a</label><mixed-citation publication-type="book" id="chem202001668-cit-0032">
+<string-name>
+<given-names>M. A.</given-names>
+<surname>Halcrow</surname>
+</string-name>, <source xml:lang="en">Spin-Crossover Materials: Properties and Applications</source>, <publisher-name>Wiley&#x02013;Blackwell</publisher-name>, <publisher-loc>Oxford</publisher-loc>, <year>2013</year>;</mixed-citation></ref><ref id="chem202001668-bib-0010b"><label>10b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0033">
+<string-name>
+<given-names>A.</given-names>
+<surname>Bousseksou</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Moln&#x000e1;r</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Salmon</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Nicolazzi</surname>
+</string-name>, <source xml:lang="en">Chem. Soc. Rev.</source>
+<year>2011</year>, <volume>40</volume>, <fpage>3313</fpage>&#x02013;<lpage>3335</lpage>;<pub-id pub-id-type="pmid">21544283</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0010c"><label>10c</label><mixed-citation publication-type="journal" id="chem202001668-cit-0034">
+<string-name>
+<given-names>O.</given-names>
+<surname>Kahn</surname>
+</string-name>, <source xml:lang="en">Curr. Op. Sol. State Mater. Sci.</source>
+<year>1996</year>, <volume>1</volume>, <fpage>547</fpage>&#x02013;<lpage>554</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0010d"><label>10d</label><mixed-citation publication-type="journal" id="chem202001668-cit-0035">
+<string-name>
+<given-names>K.</given-names>
+<surname>Senthil Kumar</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ruben</surname>
+</string-name>, <source xml:lang="en">Coord. Chem. Rev.</source>
+<year>2017</year>, <volume>346</volume>, <fpage>176</fpage>&#x02013;<lpage>205</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="chem202001668-cit-0036">
+<string-name>
+<given-names>M. A.</given-names>
+<surname>Halcrow</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Capel Berdiell</surname>
+</string-name>, <string-name>
+<given-names>C. M.</given-names>
+<surname>Pask</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Kulmaczewski</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>2019</year>, <volume>58</volume>, <fpage>9811</fpage>&#x02013;<lpage>9821</lpage>.<pub-id pub-id-type="pmid">31335133</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0012"><label>12</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0037">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0012a"><label>12a</label><mixed-citation publication-type="journal" id="chem202001668-cit-0038">
+<string-name>
+<given-names>R. G.</given-names>
+<surname>Miller</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Brooker</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>5398</fpage>&#x02013;<lpage>5409</lpage>;<pub-id pub-id-type="pmid">25970648</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0012b"><label>12b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0039">
+<string-name>
+<given-names>R.</given-names>
+<surname>Saha</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Biswas</surname>
+</string-name>, <string-name>
+<given-names>I. M.</given-names>
+<surname>Steele</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Dey</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Mostafa</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>
+<year>2011</year>, <volume>40</volume>, <fpage>3166</fpage>&#x02013;<lpage>3175</lpage>;<pub-id pub-id-type="pmid">21340091</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0012c"><label>12c</label><mixed-citation publication-type="journal" id="chem202001668-cit-0040">
+<string-name>
+<given-names>A. B.</given-names>
+<surname>Carter</surname>
+</string-name>, <string-name>
+<given-names>R. J.</given-names>
+<surname>Laverick</surname>
+</string-name>, <string-name>
+<given-names>D. J.</given-names>
+<surname>Wales</surname>
+</string-name>, <string-name>
+<given-names>S. O.</given-names>
+<surname>Akponasa</surname>
+</string-name>, <string-name>
+<given-names>A. J.</given-names>
+<surname>Scott</surname>
+</string-name>, <string-name>
+<given-names>T. D.</given-names>
+<surname>Keene</surname>
+</string-name>, <string-name>
+<given-names>J. A.</given-names>
+<surname>Kitchen</surname>
+</string-name>, <source xml:lang="en">Cryst. Growth Des.</source>
+<year>2017</year>, <volume>17</volume>, <fpage>5129</fpage>&#x02013;<lpage>5144</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0012d"><label>12d</label><mixed-citation publication-type="journal" id="chem202001668-cit-0041">
+<string-name>
+<given-names>S.</given-names>
+<surname>Zaiter</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Kirk</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Taylor</surname>
+</string-name>, <string-name>
+<given-names>Y. M.</given-names>
+<surname>Klein</surname>
+</string-name>, <string-name>
+<given-names>C. E.</given-names>
+<surname>Housecroft</surname>
+</string-name>, <string-name>
+<given-names>N. F.</given-names>
+<surname>Sciortino</surname>
+</string-name>, <string-name>
+<given-names>J. E.</given-names>
+<surname>Clements</surname>
+</string-name>, <string-name>
+<given-names>R. I.</given-names>
+<surname>Cooper</surname>
+</string-name>, <string-name>
+<given-names>C. J.</given-names>
+<surname>Kepert</surname>
+</string-name>, <string-name>
+<given-names>S. M.</given-names>
+<surname>Neville</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>
+<year>2019</year>, <volume>48</volume>, <fpage>7337</fpage>&#x02013;<lpage>7343</lpage>;<pub-id pub-id-type="pmid">30882806</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0012e"><label>12e</label><mixed-citation publication-type="journal" id="chem202001668-cit-0042">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Sunatsuki</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Ohta</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Kojima</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Ikuta</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Goto</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Matsumoto</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Iijima</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Akashi</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Kaizaki</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Dahan</surname>
+</string-name>, <string-name>
+<given-names>J.-P.</given-names>
+<surname>Tuchagues</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>2004</year>, <volume>43</volume>, <fpage>4154</fpage>&#x02013;<lpage>4171</lpage>.<pub-id pub-id-type="pmid">15236527</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0013"><label>13</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0043">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0013a"><label>13a</label><mixed-citation publication-type="journal" id="chem202001668-cit-0044">
+<string-name>
+<given-names>B.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>R.-J.</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Tao</surname>
+</string-name>, <string-name>
+<given-names>R.-B.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name>
+<given-names>L.-S.</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Zheng</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2010</year>, <volume>132</volume>, <fpage>1558</fpage>&#x02013;<lpage>1566</lpage>;<pub-id pub-id-type="pmid">20085322</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0013b"><label>13b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0045">
+<string-name>
+<given-names>S.</given-names>
+<surname>Rodr&#x000ed;guez-Jim&#x000e9;nez</surname>
+</string-name>, <string-name>
+<given-names>H. L. C.</given-names>
+<surname>Feltham</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Brooker</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2016</year>, <volume>55</volume>, <fpage>15067</fpage>&#x02013;<lpage>15071</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="chem202001668-cit-0046">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2016</year>, <volume>128</volume>, <fpage>15291</fpage>&#x02013;<lpage>15295</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0013c"><label>13c</label><mixed-citation publication-type="journal" id="chem202001668-cit-0047">
+<string-name>
+<given-names>J. S.</given-names>
+<surname>Costa</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Rodr&#x000ed;guez-Jim&#x000e9;nez</surname>
+</string-name>, <string-name>
+<given-names>G. A.</given-names>
+<surname>Craig</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Barth</surname>
+</string-name>, <string-name>
+<given-names>C. M.</given-names>
+<surname>Beavers</surname>
+</string-name>, <string-name>
+<given-names>S. J.</given-names>
+<surname>Teat</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Arom&#x000ed;</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2014</year>, <volume>136</volume>, <fpage>3869</fpage>&#x02013;<lpage>3874</lpage>;<pub-id pub-id-type="pmid">24555786</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0013d"><label>13d</label><mixed-citation publication-type="journal" id="chem202001668-cit-0048">
+<string-name>
+<given-names>A. D.</given-names>
+<surname>Naik</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Robeyns</surname>
+</string-name>, <string-name>
+<given-names>C. F.</given-names>
+<surname>Meunier</surname>
+</string-name>, <string-name>
+<given-names>A. F.</given-names>
+<surname>L&#x000e9;onard</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Rotaru</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Tinant</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Filinchuk</surname>
+</string-name>, <string-name>
+<given-names>B. L.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Garcia</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>2014</year>, <volume>53</volume>, <fpage>1263</fpage>&#x02013;<lpage>1265</lpage>.<pub-id pub-id-type="pmid">24417443</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0014"><label>14</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0049">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0014a"><label>14a</label><mixed-citation publication-type="journal" id="chem202001668-cit-0050">
+<string-name>
+<given-names>D.</given-names>
+<surname>Gentili</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Demitri</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Sch&#x000e4;fer</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Liscio</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Bergenti</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Ruani</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ruben</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Cavallini</surname>
+</string-name>, <source xml:lang="en">J. Mater. Chem. C</source>
+<year>2015</year>, <volume>3</volume>, <fpage>7836</fpage>&#x02013;<lpage>7844</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0014b"><label>14b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0051">
+<string-name>
+<given-names>W.</given-names>
+<surname>Phonsri</surname>
+</string-name>, <string-name>
+<given-names>C. G.</given-names>
+<surname>Davies</surname>
+</string-name>, <string-name>
+<given-names>G. N. L.</given-names>
+<surname>Jameson</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Moubaraki</surname>
+</string-name>, <string-name>
+<given-names>K. S.</given-names>
+<surname>Murray</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2016</year>, <volume>22</volume>, <fpage>1322</fpage>&#x02013;<lpage>1333</lpage>;<pub-id pub-id-type="pmid">26662933</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0014c"><label>14c</label><mixed-citation publication-type="journal" id="chem202001668-cit-0052">
+<string-name>
+<given-names>F.-L.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>W.-H.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name>
+<given-names>J.-H.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>X.-M.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name>
+<given-names>Y.-H.</given-names>
+<surname>Shi</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Shen</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>
+<year>2019</year>, <volume>48</volume>, <fpage>231</fpage>&#x02013;<lpage>241</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0014d"><label>14d</label><mixed-citation publication-type="journal" id="chem202001668-cit-0053">
+<string-name>
+<given-names>N.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>J.-P.</given-names>
+<surname>Xue</surname>
+</string-name>, <string-name>
+<given-names>J.-L.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>Y.-Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>Z.-S.</given-names>
+<surname>Yao</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Tao</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>
+<year>2020</year>, <volume>49</volume>, <fpage>998</fpage>&#x02013;<lpage>1001</lpage>.<pub-id pub-id-type="pmid">31930274</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0015"><label>15</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0054">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0015a"><label>15a</label><mixed-citation publication-type="journal" id="chem202001668-cit-0055">
+<string-name>
+<given-names>G.</given-names>
+<surname>Cavallo</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Metrangolo</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Milani</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Pilati</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Priimagi</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Resnati</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Terraneo</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>2016</year>, <volume>116</volume>, <fpage>2478</fpage>&#x02013;<lpage>2601</lpage>;<pub-id pub-id-type="pmid">26812185</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0015b"><label>15b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0056">
+<string-name>
+<given-names>J.</given-names>
+<surname>&#x00158;ez&#x000e1;&#x0010d;</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>de la Lande</surname>
+</string-name>, <source xml:lang="en">Phys. Chem. Chem. Phys.</source>
+<year>2017</year>, <volume>19</volume>, <fpage>791</fpage>&#x02013;<lpage>803</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0016"><label>16</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0057">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0016a"><label>16a</label><mixed-citation publication-type="journal" id="chem202001668-cit-0058">
+<string-name>
+<given-names>I.-R.</given-names>
+<surname>Jeon</surname>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>Jeannin</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Cl&#x000e9;rac</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Rouzi&#x000e8;res</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Fourmigu&#x000e9;</surname>
+</string-name>, <source xml:lang="en">Chem. Commun.</source>
+<year>2017</year>, <volume>53</volume>, <fpage>4989</fpage>&#x02013;<lpage>4992</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0016b"><label>16b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0059">
+<string-name>
+<given-names>I.-R.</given-names>
+<surname>Jeon</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Mathoni&#x000e8;re</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Cl&#x000e9;rac</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Rouzi&#x000e8;res</surname>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>Jeannin</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Trzop</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Collet</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Fourmigu&#x000e9;</surname>
+</string-name>, <source xml:lang="en">Chem. Commun.</source>
+<year>2017</year>, <volume>53</volume>, <fpage>10283</fpage>&#x02013;<lpage>10286</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0017"><label>17</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0060">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0017a"><label>17a</label><mixed-citation publication-type="journal" id="chem202001668-cit-0061">
+<string-name>
+<given-names>I. A.</given-names>
+<surname>K&#x000fc;hne</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Ungur</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Esien</surname>
+</string-name>, <string-name>
+<given-names>A. B.</given-names>
+<surname>Carter</surname>
+</string-name>, <string-name>
+<given-names>J. D.</given-names>
+<surname>Gordon</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Pauly</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>M&#x000fc;ller-Bunz</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Felton</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Zerulla</surname>
+</string-name>, <string-name>
+<given-names>G. G.</given-names>
+<surname>Morgan</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>
+<year>2019</year>, <volume>48</volume>, <fpage>15679</fpage>&#x02013;<lpage>15686</lpage>;<pub-id pub-id-type="pmid">31512699</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0017b"><label>17b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0062">
+<string-name>
+<given-names>R. J.</given-names>
+<surname>Laverick</surname>
+</string-name>, <string-name>
+<given-names>A. B.</given-names>
+<surname>Carter</surname>
+</string-name>, <string-name>
+<given-names>H. A.</given-names>
+<surname>Klein</surname>
+</string-name>, <string-name>
+<given-names>A. J.</given-names>
+<surname>Fitzpatrick</surname>
+</string-name>, <string-name>
+<given-names>T. D.</given-names>
+<surname>Keene</surname>
+</string-name>, <string-name>
+<given-names>G. G.</given-names>
+<surname>Morgan</surname>
+</string-name>, <string-name>
+<given-names>J. A.</given-names>
+<surname>Kitchen</surname>
+</string-name>, <source xml:lang="en">Inorg. Chim. Acta</source>
+<year>2017</year>, <volume>463</volume>, <fpage>126</fpage>&#x02013;<lpage>133</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0018"><label>18</label><mixed-citation publication-type="miscellaneous" id="chem202001668-cit-0063">&#x000a0;</mixed-citation></ref><ref id="chem202001668-bib-0018a"><label>18a</label><mixed-citation publication-type="journal" id="chem202001668-cit-0064">
+<string-name>
+<given-names>A.</given-names>
+<surname>Cuevas</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Kremer</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Hummert</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Schumann</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Lloret</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Julve</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Faus</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>
+<year>2007</year>, <fpage>342</fpage>&#x02013;<lpage>350</lpage>;<pub-id pub-id-type="pmid">17200754</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0018b"><label>18b</label><mixed-citation publication-type="journal" id="chem202001668-cit-0065">
+<string-name>
+<given-names>L.</given-names>
+<surname>Arizaga</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Gonz&#x000e1;lez</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Armentano</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>De Munno</surname>
+</string-name>, <string-name>
+<given-names>M. A.</given-names>
+<surname>Novak</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Lloret</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Julve</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Kremer</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Chiozzone</surname>
+</string-name>, <source xml:lang="en">Eur. J. Inorg. Chem.</source>
+<year>2016</year>, <fpage>1835</fpage>&#x02013;<lpage>1845</lpage>;</mixed-citation></ref><ref id="chem202001668-bib-0018c"><label>18c</label><mixed-citation publication-type="journal" id="chem202001668-cit-0066">
+<string-name>
+<given-names>C.</given-names>
+<surname>Pejo</surname>
+</string-name>, <string-name>
+<given-names>G. P.</given-names>
+<surname>Guedes</surname>
+</string-name>, <string-name>
+<given-names>M. A.</given-names>
+<surname>Novak</surname>
+</string-name>, <string-name>
+<given-names>N. L.</given-names>
+<surname>Speziali</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Chiozzone</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Julve</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Lloret</surname>
+</string-name>, <string-name>
+<given-names>M. G. F.</given-names>
+<surname>Vaz</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Gonz&#x000e1;lez</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2015</year>, <volume>21</volume>, <fpage>8696</fpage>&#x02013;<lpage>8700</lpage>;<pub-id pub-id-type="pmid">25916407</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0018d"><label>18d</label><mixed-citation publication-type="journal" id="chem202001668-cit-0067">
+<string-name>
+<given-names>J.</given-names>
+<surname>Mart&#x000ed;nez-Lillo</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Armentano</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Marino</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Arizaga</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Chiozzone</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Gonz&#x000e1;lez</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Kremer</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Cano</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Faus</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>
+<year>2008</year>, <fpage>4585</fpage>&#x02013;<lpage>4594</lpage>.<pub-id pub-id-type="pmid">19024357</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="chem202001668-cit-0068">
+<string-name>
+<given-names>M.</given-names>
+<surname>Borovina</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Kodrin</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>&#x00110;akovi&#x00107;</surname>
+</string-name>, <source xml:lang="en">CrystEngComm</source>
+<year>2018</year>, <volume>20</volume>, <fpage>539</fpage>&#x02013;<lpage>549</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="chem202001668-cit-0069">
+<string-name>
+<given-names>D. J.</given-names>
+<surname>Harding</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Harding</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Phonsri</surname>
+</string-name>, <source xml:lang="en">Coord. Chem. Rev.</source>
+<year>2016</year>, <volume>313</volume>, <fpage>38</fpage>&#x02013;<lpage>61</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="chem202001668-cit-0070">
+<string-name>
+<given-names>J. D.</given-names>
+<surname>Oliver</surname>
+</string-name>, <string-name>
+<given-names>D. F.</given-names>
+<surname>Mullica</surname>
+</string-name>, <string-name>
+<given-names>B. B.</given-names>
+<surname>Hutchinson</surname>
+</string-name>, <string-name>
+<given-names>W. O.</given-names>
+<surname>Milligan</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>1980</year>, <volume>19</volume>, <fpage>165</fpage>&#x02013;<lpage>169</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="chem202001668-cit-0071">
+<string-name>
+<given-names>C.</given-names>
+<surname>von Essen</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Rissanen</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Puttreddy</surname>
+</string-name>, <source xml:lang="en">Materials</source>
+<year>2019</year>, <volume>12</volume>, <fpage>3305</fpage>.</mixed-citation></ref><ref id="chem202001668-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="chem202001668-cit-0072">
+<string-name>
+<given-names>P.</given-names>
+<surname>Politzer</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Lane</surname>
+</string-name>, <string-name>
+<given-names>M. C.</given-names>
+<surname>Concha</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name>
+<given-names>J. S.</given-names>
+<surname>Murray</surname>
+</string-name>, <source xml:lang="en">J. Mol. Model.</source>
+<year>2007</year>, <volume>13</volume>, <fpage>305</fpage>&#x02013;<lpage>311</lpage>.<pub-id pub-id-type="pmid">17013631</pub-id></mixed-citation></ref><ref id="chem202001668-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="chem202001668-cit-0073">
+<string-name>
+<given-names>P.</given-names>
+<surname>G&#x000fc;tlich</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Garcia</surname>
+</string-name>, <string-name>
+<given-names>H. A.</given-names>
+<surname>Goodwin</surname>
+</string-name>, <source xml:lang="en">Chem. Soc. Rev.</source>
+<year>2000</year>, <volume>29</volume>, <fpage>419</fpage>&#x02013;<lpage>427</lpage>.</mixed-citation></ref><ref id="chem202001668-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="chem202001668-cit-0074">
+<string-name>
+<given-names>R. W.</given-names>
+<surname>Hogue</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Brooker</surname>
+</string-name>, <source xml:lang="en">Chem. Soc. Rev.</source>
+<year>2018</year>, <volume>47</volume>, <fpage>7303</fpage>&#x02013;<lpage>7338</lpage>.<pub-id pub-id-type="pmid">30124687</pub-id></mixed-citation></ref></ref-list></back></article>

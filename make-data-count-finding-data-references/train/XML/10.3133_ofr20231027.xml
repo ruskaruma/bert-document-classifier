@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Atmospheric</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Gregory</forename><forename type="middle">A</forename><surname>Wetherbee</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation">consin State Laboratory of Hygiene, University of Wisconsin,</note>
+<orgname type="department">consin State Laboratory of Hygiene</orgname>
+<orgname type="institution">University of Wisconsin</orgname>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation">: Madison, Wis., Wisconsin State Laboratory of Hygiene, University of Wisconsin,</note>
+<orgname type="laboratory">State Laboratory of Hygiene</orgname>
+<orgname type="institution">University of Wisconsin</orgname>
+<address>
+<settlement>Madison</settlement>
+<region>Wis., Wisconsin</region>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Atmospheric</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">FEF37F33CA87E4C63272559F52A880E7</idno>
+<idno type="DOI">10.1579/0044-7447-31.2.60.</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-09-22T12:18+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Deposition of Inorganic Reactive Nitrogen at the Rocky Flats National Wildlife Refuge, 2017-19 monitored ions, including the Nr components NO 3 -and NH 4 +</s></p><p><s>. From these data, total Nr concentrations were calculated, in milligrams per liter (mg/L).</s><s>Precipitation depth was measured by a continuously recording precipitation gage (Wetherbee and others, 2021).</s><s>Measured amounts of annual precipitation were multiplied by the Nr concentrations to calculate total, annual loads of Nr-defined as the mass of Nr contamination deposited to the RFNWR ecosystem by precipitation.</s></p><p><s>Sources of Nr in air pollution deposited in precipitation at the CO86 monitoring site were evaluated.</s><s>The National Oceanic and Atmospheric Administration's computer model HYSPLIT (Stein and others, 2015)  was used to determine the paths air masses traveled enroute to the RFNWR for various altitudes for 24 hours prior to each precipitation occurrence that contributed to samples collected at CO86.</s><s>The paths, known as back trajectories, point back to regions where Nr pollution was entrained into the atmosphere.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">What Was Found and Learned?<p><s>Annual precipitation depth was slightly below normal in 2017 (48.8 millimeters [mm]), followed by a drier year in 2018 (42.2 mm), and then the wettest of the study period was 2019 (54.5 mm; National Weather Service, 2019).</s><s>Fewer days with rain and snowstorms occurred during 2017 and 2018 than during 2019 (fig.</s><s><ref target="#fig_1" type="figure">2</ref>).</s></p><p><s>Annual measurements (in units of kilograms per hectare) of wet-deposited ions are shown in figure <ref type="figure">3</ref>.</s><s>These are the amounts of each measured constituent deposited onto the RFNWR land and water surfaces as either dissolved or on particles smaller than 0.45 microns in the precipitation.</s><s>Measured Nr deposition increased between 2017-19, even though 2018 was not as wet as 2017 (fig.</s><s><ref target="#fig_1" type="figure">2</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Urban Deposition Monitoring<p><s>Site CO86 is in an urban location by NADP standards because the population density is greater than 400 people per square kilometer (km 2 ) within 15 km of the site (NADP, 2023).</s><s>As such, the NADP/NTN data for CO86 wet deposition are excluded from Total Deposition of Atmospheric Nitrogen (TDep) maps to prevent broad interpolation of urban measurements into nonurban regions of the maps (NADP, 2019).</s><s>However, this protocol causes the maps to underrepresent Nr deposition in urban ecosystems like the RFNWR.</s></p><p><s>The TDep maps are often used to determine critical load exceedances for the National Critical Loads Database <ref type="bibr">(CLAD, 2021)</ref>.</s><s>A critical load is the threshold amount of deposited air contaminants, when exceeded, can cause harm to ecosystem resources (U.S. Environmental Protection Agency, 2021).</s><s>Results of back-trajectory modeling of storm directions, shown in figure <ref target="#fig_2" type="figure">5</ref>, indicate the greatest deposits of Nr predominantly came from storms tracking from north and northeast of the RFNWR.</s><s>This region has many urban, agricultural, and other industrial Nr emission sources (Wetherbee and others, 2019).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusions<p><s>Rocky Flats National Wildlife Refuge has rural characteristics, but its unique habitats receive atmospheric nitrogen (N) deposition in excess of the critical loads for herbaceous plants and shrubs.</s><s>Back trajectory modeling indicates nearby urban and agricultural areas northeast of the refuge as likely source regions of nitrogen emissions.</s><s>This study demonstrates the value of including urban monitoring data for wet deposition of inorganic, reactive nitrogen in regionally interpolated maps of total atmospheric N deposition for protection of natural resources.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Background<p><s>Inorganic reactive nitrogen (Nr) is emitted to the atmosphere as nitrate (NO 3 -) and ammonium (NH 4 +</s></p><p><s>) by many combustion and agricultural sources, thus forming air pollution <ref type="bibr">(Galloway and others, 2002)</ref>.</s><s>Atmospheric deposition of air pollution by precipitation (known as wet deposition) back to the Earth's surface can harm ecosystems <ref type="bibr">(Clark and Tilman, 2008)</ref>.</s><s>The Nr is used by plants as a nutrient, but too much of this nutrient can cause invasive species, such as weeds, to grow more rapidly than native grasses and shrubs, which can change natural ecosystems (Padgett and Allen, 1999).</s><s>The Rocky Flats National Wildlife Refuge (RFNWR) in Colorado is home to increasingly rare, xeric tallgrass prairie (Nelson, 2010) and it is also located near many sources of Nr air pollution.</s><s>This study shows how the RFNWR ecosystem is affected by atmospheric Nr deposition derived from these sources.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Monitoring Wet Deposition of Inorganic Reactive Nitrogen from Air Pollution<p><s>Wet deposition (by rain and snow) of atmospheric Nr and other pollutants was measured at RFNWR during 2017-19 (study period) at the CO86 monitoring site in figure <ref type="figure">1</ref>.</s><s>The CO86 site was operated by the U.S. Geological Survey (USGS) as part of the National Atmospheric Deposition Program/National Trends Network (NADP/NTN).</s><s>The NADP/NTN has served as the Nation's wet-deposition monitoring network since 1978 <ref type="bibr">(NADP, 2023)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Methods<p><s>Weekly composite samples of wet-deposited pollutants were collected, processed, and analyzed by standard NADP methods (NADP, 2023).</s><s>Samples were filtered (0.45 microns) and then analyzed for concentrations of  Annual wet deposition, in kilograms per hectare</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Figure 4 shows when data from the CO86 site are inserted into the 2017-19 TDep maps (CO86 measured wet Nr plus TDep dry N), critical load exceedances are indicated, whereas excluding CO86 data indicates no exceedances (U.S. Environmental Protection Agency, 2021).</s></p></div></figdesc></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 1.</s><s>Monitoring site CO86 (Rocky Flats National Wildlife Refuge, Colorado) within the National Atmospheric Deposition Program/National Trends Network (NADP, 2023), used for monitoring wet deposition (by precipitation) of inorganic reactive nitrogen and other pollutants to the Earth's surface.</s><s>[Photograph by Gregory Wetherbee, U.S. Geological Survey]</s></p></div></figdesc><graphic coords="1,256.52,1810.03,455.92,310.45" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 5 .<label>5</label><figdesc><div><p><s>Figure 5. Pollution rose diagrams showing HYSPLIT (Stein and others, 2015) modeled back trajectories of storms and associated weekly inorganic reactive nitrogen concentrations and wet depositions for precipitation samples collected at monitoring site CO86, Rocky Flats National Wildlife Refuge (Colorado), 2017-19.</s><s>[NADP, National Atmospheric Deposition Program; Nr, inorganic reactive nitrogen; N, nitrogen; mg/L, milligrams per liter; kg ha -1 , kilograms per hectare]</s></p></div></figdesc></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .Figure 4 .<label>34</label><figdesc><div><p><s>Figure 3. Annual wet depositions (2017-19) of atmospheric ions at Rocky Flats National Wildlife Refuge, Colorado, including inorganic reactive nitrogen at monitoring site CO86 within the National Atmospheric Deposition Program/National Trends Network (NADP, 2023).</s></p></div></figdesc></figure>
+<back>
+<div type="references">
+<listbibl></listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

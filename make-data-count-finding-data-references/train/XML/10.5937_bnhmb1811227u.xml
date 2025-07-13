@@ -1,0 +1,2181 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">DISTRIBUTION AND DIVERSITY OF BROWN FROGS (RANA SPP., ANURA, AMPHIBIA) IN SERBIA</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Aleksandar</forename><surname>Urošević</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> University of Belgrade, Institute for Biological Research "Siniša Stanković", Bulevar Despota Stefana 142, 11000 Belgrade, Serbia,</note>
+<orgname type="department">Institute for Biological Research "Siniša Stanković"</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Bulevar Despota Stefana 142</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><surname>Ljiljana Tomović</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> University of Belgrade, Faculty of Biology, Institute of Zoology, Studentski trg 16, 11000 Belgrade, Serbia</note>
+<orgname key="dep1" type="department">Faculty of Biology</orgname>
+<orgname key="dep2" type="department">Institute of Zoology</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Studentski trg 16</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Imre</forename><surname>Krizmanić</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> University of Belgrade, Faculty of Biology, Institute of Zoology, Studentski trg 16, 11000 Belgrade, Serbia</note>
+<orgname key="dep1" type="department">Faculty of Biology</orgname>
+<orgname key="dep2" type="department">Institute of Zoology</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Studentski trg 16</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Marko</forename><surname>Anđelković</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> University of Belgrade, Institute for Biological Research "Siniša Stanković", Bulevar Despota Stefana 142, 11000 Belgrade, Serbia,</note>
+<orgname type="department">Institute for Biological Research "Siniša Stanković"</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Bulevar Despota Stefana 142</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Ana</forename><surname>Golubović</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> University of Belgrade, Faculty of Biology, Institute of Zoology, Studentski trg 16, 11000 Belgrade, Serbia</note>
+<orgname key="dep1" type="department">Faculty of Biology</orgname>
+<orgname key="dep2" type="department">Institute of Zoology</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Studentski trg 16</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Marko</forename><surname>Maričić</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> Scientific Research Society of Biology and Ecology Students "Josif Pančić", Trg Dositeja Obradovića 2, 21000 Novi Sad, Serbia</note>
+<orgname type="department">Scientific Research Society of Biology and Ecology Students "Josif Pančić"</orgname>
+<address>
+<addrline>Trg Dositeja Obradovića 2</addrline>
+<postcode>21000</postcode>
+<settlement>Novi Sad</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Rastko</forename><surname>Ajtić</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> Institute for Nature Conservation of Serbia, Dr Ivana Ribara 91, 11070 Belgrade, Serbia.</note>
+<orgname type="department">Institute for Nature Conservation of Serbia</orgname>
+<address>
+<addrline>Dr Ivana Ribara 91</addrline>
+<postcode>11070</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Jelena</forename><surname>Ćorović</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> University of Belgrade, Institute for Biological Research "Siniša Stanković", Bulevar Despota Stefana 142, 11000 Belgrade, Serbia,</note>
+<orgname type="department">Institute for Biological Research "Siniša Stanković"</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Bulevar Despota Stefana 142</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Tijana</forename><surname>Čubrić</surname></persname>
+<affiliation key="aff4">
+<note type="raw_affiliation"> University of Niš, Department of Biology and Ecology, Faculty of Sciences and Mathematics, Višegradska 33, 18000 Niš, Serbia</note>
+<orgname key="dep1" type="department">Department of Biology and Ecology</orgname>
+<orgname key="dep2" type="department">Faculty of Sciences and Mathematics</orgname>
+<orgname type="institution">University of Niš</orgname>
+<address>
+<addrline>Višegradska 33</addrline>
+<postcode>18000</postcode>
+<settlement>Niš</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Nataša</forename><surname>Tomašević- Kolarov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Milena</forename><surname>Cvijanović</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> University of Belgrade, Institute for Biological Research "Siniša Stanković", Bulevar Despota Stefana 142, 11000 Belgrade, Serbia,</note>
+<orgname type="department">Institute for Biological Research "Siniša Stanković"</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Bulevar Despota Stefana 142</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Tanja</forename><surname>Vukov</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> University of Belgrade, Institute for Biological Research "Siniša Stanković", Bulevar Despota Stefana 142, 11000 Belgrade, Serbia,</note>
+<orgname type="department">Institute for Biological Research "Siniša Stanković"</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Bulevar Despota Stefana 142</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Bogdan</forename><surname>Jovanović</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> University of Belgrade, Institute for Biological Research "Siniša Stanković", Bulevar Despota Stefana 142, 11000 Belgrade, Serbia,</note>
+<orgname type="department">Institute for Biological Research "Siniša Stanković"</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Bulevar Despota Stefana 142</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Tijana</forename><surname>Vučić</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> University of Belgrade, Institute for Biological Research "Siniša Stanković", Bulevar Despota Stefana 142, 11000 Belgrade, Serbia,</note>
+<orgname type="department">Institute for Biological Research "Siniša Stanković"</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Bulevar Despota Stefana 142</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> University of Belgrade, Faculty of Biology, Institute of Zoology, Studentski trg 16, 11000 Belgrade, Serbia</note>
+<orgname key="dep1" type="department">Faculty of Biology</orgname>
+<orgname key="dep2" type="department">Institute of Zoology</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Studentski trg 16</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Maja</forename><surname>Ajduković</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> University of Belgrade, Institute for Biological Research "Siniša Stanković", Bulevar Despota Stefana 142, 11000 Belgrade, Serbia,</note>
+<orgname type="department">Institute for Biological Research "Siniša Stanković"</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Bulevar Despota Stefana 142</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Ivan</forename><surname>Tot</surname></persname>
+<affiliation key="aff5">
+<note type="raw_affiliation"> Association for Sustainable Development and Habitat Protection in Serbia "HabiProt", Bulevar Oslobođenja 106/34, 11040 Belgrade, Serbia</note>
+<orgname type="department">Association for Sustainable Development and Habitat Protection in Serbia "HabiProt"</orgname>
+<address>
+<addrline>Bulevar Oslobođenja 106/34</addrline>
+<postcode>11040</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Bojana</forename><surname>Nadaždin</surname></persname>
+<affiliation key="aff5">
+<note type="raw_affiliation"> Association for Sustainable Development and Habitat Protection in Serbia "HabiProt", Bulevar Oslobođenja 106/34, 11040 Belgrade, Serbia</note>
+<orgname type="department">Association for Sustainable Development and Habitat Protection in Serbia "HabiProt"</orgname>
+<address>
+<addrline>Bulevar Oslobođenja 106/34</addrline>
+<postcode>11040</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Nenad</forename><surname>Labus</surname></persname>
+<affiliation key="aff6">
+<note type="raw_affiliation"> University of Priština, Faculty of Science and Mathematics, Biology Department, Lole Ribara 29, 38220 Kosovska Mitrovica, Serbia</note>
+<orgname key="dep1" type="department">Faculty of Science and Mathematics</orgname>
+<orgname key="dep2" type="department">Biology Department</orgname>
+<orgname type="institution">University of Priština</orgname>
+<address>
+<addrline>Lole Ribara 29</addrline>
+<postcode>38220</postcode>
+<settlement>Kosovska Mitrovica</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Georg</forename><surname>Džukić</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> University of Belgrade, Institute for Biological Research "Siniša Stanković", Bulevar Despota Stefana 142, 11000 Belgrade, Serbia,</note>
+<orgname type="department">Institute for Biological Research "Siniša Stanković"</orgname>
+<orgname type="institution">University of Belgrade</orgname>
+<address>
+<addrline>Bulevar Despota Stefana 142</addrline>
+<postcode>11000</postcode>
+<settlement>Belgrade</settlement>
+<country key="RS">Serbia</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">DISTRIBUTION AND DIVERSITY OF BROWN FROGS (RANA SPP., ANURA, AMPHIBIA) IN SERBIA</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">C6A893FAD5569EB5FB748F26A22307E7</idno>
+<idno type="DOI">10.5937/bnhmb1811227U</idno>
+<note type="submission">Received 02 Sep 2018; Accepted 02 Dec 2018.</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-09-30T12:05+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>Distribution</term>
+<term>diversity</term>
+<term>Rana</term>
+<term>zoogeography</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>In this study, we present updated distribution data for all three brown frog species (Rana spp.) inhabiting Serbia.</s><s>The data provided consists of newly collected field records and compiled data previously published in literature or via Internet.</s><s>Of the three species found in Serbia, Rana dalmatina is the most widespread, present in all three altitudinal regions and all biogeographical regions.</s><s>Rana graeca is confined to Mountain-valley altitudinal region in permanent fastflowing rivers or streams and it reaches its northern range boundaries in Serbia.</s><s>Rana temporaria is the rarest of the three, with fragmented range restricted to the high mountains or few isolated lowland populations, and in the north-eastern Serbia, it is vicariant with R. graeca in canyons and gorges of montane rivers.</s><s>The presence of Rana arvalis in Serbia is mentioned in literature but was not confirmed during the subsequent field surveys, so we consider it only as a potential species for the Serbian batrachofauna.</s><s>The brown frog faunal composition of Serbia is identical to that of Albania, Bosnia and Herzegovina, Bulgaria, Greece, Macedonia and Montenegro, while it is somewhat different from that of Hungary and Romania and the most different from Croatia and Slovenia.</s><s>Serbian brown frogs belong to European (R. temporaria) and South-European (R. dalmatina, R. graeca) chorotypes.</s><s>All species of brown frogs present or potentially present in Serbia and their habitats are identified as great conservation priorities.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">INTRODUCTION<p><s>Reporting of precise and accurate specimen sightings is paramount in biogeographical studies <ref target="#b66" type="bibr">(Wallace 1852</ref><ref target="#b40" type="bibr">, Meiri 2018)</ref>.</s><s>During the last decade, the number of studies on herpetofaunal distribution and diversity in the Balkans has exponentially grown <ref type="bibr">(Cogălniceanu et al. 2013a</ref><ref type="bibr">, 2013b</ref><ref target="#b65" type="bibr">, Vukov et al. 2013</ref><ref target="#b51" type="bibr">, Sterijovski et al. 2014</ref><ref target="#b55" type="bibr">, Tomović et al. 2014</ref><ref type="bibr">, 2015</ref><ref type="bibr">, 2018</ref><ref type="bibr">, Krizmanić et al. 2015</ref><ref type="bibr">, Ljubisavljević et al. 2014</ref><ref type="bibr">, 2015</ref><ref type="bibr">, 2016</ref><ref type="bibr">, 2018</ref><ref type="bibr">, Urošević et al. 2015</ref><ref type="bibr">, 2016</ref><ref target="#b53" type="bibr">, Szabolcs et al. 2017)</ref>.</s><s>Such studies provide data needed as a basis for the conservation purposes (implementation of Natura 2000 network, estimation of the conservation status for national Red Lists and Red Books), ecological, evolutionary or systematic research of certain taxa or biogeographical studies in broader context <ref target="#b28" type="bibr">(Jetz et al. 2011</ref><ref target="#b68" type="bibr">, Zachos &amp; Habel 2011)</ref> as well as faunal taxonomic distinctiveness <ref target="#b67" type="bibr">(Warwick &amp; Clarke 1995</ref><ref target="#b6" type="bibr">, Clarke &amp; Warwick 1999)</ref>.</s><s>As the Balkan Peninsula is recognized as one of the main European centres of endemism and speciation <ref target="#b20" type="bibr">(Gaston &amp; David 1994</ref><ref target="#b15" type="bibr">, Džukić 1995</ref><ref target="#b12" type="bibr">, Džukić &amp; Kalezić 2004)</ref> such studies are of great importance on all taxonomic levels.</s><s>The whole Balkan Peninsula was also an important glacial refugium during the Pleistocene, and one of the sources for the subsequent recolonisation of Europe <ref target="#b24" type="bibr">(Guillaume et al. 1997</ref><ref target="#b12" type="bibr">, Džukić &amp; Kalezić 2004</ref><ref target="#b3" type="bibr">, Böhme et al. 2007</ref>).</s><s>Since Serbia is situated in the central parts of the Balkan Peninsula, it can be viewed as a transitional zone, with various biogeographic phenomena being observed <ref target="#b12" type="bibr">(Džukić &amp; Kalezić 2004)</ref>.</s></p><p><s>Brown frogs (Rana spp.) also known as the true frogs are a group of species ranging throughout the Palaearctic and sharing similar morphology -medium size, prominent dorsolateral folds, brown colour and dark facial masks <ref target="#b22" type="bibr">(Green &amp; Borkin 1993)</ref>.</s><s>These frogs are mostly terrestrial, quietvoiced and tend to be early spring explosive breeders <ref target="#b0" type="bibr">(Arnold &amp; Ovenden 2002)</ref>.</s><s>The distribution pattern of Palaearctic brown frogs is specific, with some species widespread throughout Europe and Eurasia (two of them reaching Arctic Circle), and others being endemics restricted to specific habitats in the Iberian, Apennine and Balkan Peninsulas and Asia Minor <ref target="#b63" type="bibr">(Veith et al. 2003)</ref>.</s><s>Rana arvalis morphologically and ecologically fits well in this group.</s><s>It has a reduced set of chromosomes, 24 contrary to the typical 26 of the R. temporaria group <ref target="#b21" type="bibr">(Green 1983</ref><ref target="#b42" type="bibr">, Mensi et al. 1992</ref><ref target="#b22" type="bibr">, Green &amp; Borkin 1993)</ref>.</s><s>However, more recent molecular studies of the Western Palaearctic brown frogs showed that R. arvalis is closely related to R. temporaria and that Western Palaearctic brown frogs are indeed a monophyletic group <ref target="#b63" type="bibr">(Veith et al. 2003)</ref>.</s><s>This group went through a process of adaptive radiation into five major clades about four million years ago, and southern mountain endemics, such as R. graeca most likely originated from populations which remained "trapped" in their glacial refugia <ref target="#b63" type="bibr">(Veith et al. 2003)</ref>.</s></p><p><s>The published information on brown frog species inhabiting Serbia is relatively scarce <ref target="#b29" type="bibr">(Karaman 1948</ref><ref target="#b47" type="bibr">, Radovanović 1951</ref><ref target="#b44" type="bibr">, Pasuljević 1966</ref><ref target="#b13" type="bibr">, Džukić 1968</ref><ref target="#b14" type="bibr">, Džukić 1972</ref><ref target="#b17" type="bibr">, Džukić &amp; Pasuljević 1979</ref><ref target="#b54" type="bibr">, Tadijan &amp; Mikeš 1984</ref><ref target="#b45" type="bibr">, Perić &amp; Stanković 2005</ref><ref target="#b26" type="bibr">, Ivančević et al. 2007</ref><ref target="#b9" type="bibr">, Crnobrnja-Isailović et al. 2012</ref><ref target="#b51" type="bibr">, Sterijovski 2014</ref>) and often restricted to findings of single, extralimital populations <ref target="#b16" type="bibr">(Džukić 2004</ref>).</s><s>The studies presenting confirmed and potential distribution ranges in Serbia <ref target="#b65" type="bibr">(Vukov et al. 2013)</ref> do not provide precise spatial data or georeferenced localities.</s></p><p><s>The aim of this study is to provide a survey of the known distribution of brown frogs in Serbia, georeference data at the 10 x 10 km standardized UTM grid and analyze diversity patterns.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">MATERIALS AND METHODS<p><s>We gathered data from published literature records (60), published data from the Batrachological Collection of the Institute for the Biological Research "Siniša Stanković" (242), verifiable online records from field herpetology and biodiversity websites (157) and previously unpublished field observations gathered by co-authors (626).</s><s>All unpublished field data are listed with locality names in Appendix 1.</s><s>The complete list of literature records, including the Batrachological Collection, is given in the Appendix 2. In the case of still unconfirmed species for Serbia, we treated literature record without later verification in the field as doubtful.</s><s>When using data from the Internet, namely websites Balcanica <ref type="bibr">(Balej &amp; Jablonski 2015</ref><ref type="bibr">), iNaturalist (iNaturalist.org 2018a</ref><ref type="bibr">, 2018b)</ref>, Bioras <ref target="#b41" type="bibr">(Mesaroš, 2018)</ref> and Biologer <ref target="#b38" type="bibr">(Maričić &amp; Golubović 2018)</ref> we complied with terms and conditions of websites, and asked site administrators and contributors for permissions to cite their entries.</s><s>The complete website data with individual citations and authorship for each entry are provided in Appendix 3.</s></p><p><s>The studied species were identified according to standard herpetological literature, by visual inspection of diagnostic characters on preserved specimens, in voucher photographs or in the field <ref target="#b0" type="bibr">(Arnold &amp; Ovenden 2002)</ref>.</s><s>For the species with specific habitat requirements (e.g.</s><s>R. graeca, R. temporaria) recognition of adequate habitats or their fragments was essential for finding and identification of animals <ref target="#b47" type="bibr">(Radovanović 1951</ref><ref target="#b13" type="bibr">, Džukić 1968</ref><ref target="#b0" type="bibr">, Arnold &amp; Ovenden 2002)</ref>.</s></p><p><s>All entries were mapped in the 10 × 10 km UTM (Universal Transverse Mercator) geographic coordinate grid system to facilitate interpretation of our maps and avoid sampling bias.</s><s>Because of the lack of systematic efforts to cover all territory of Serbia, lack of records of certain species from some areas does not necessarily imply their physical absence.</s><s>Species richness of brown frogs was assessed on a regional level, according to the main altitudinal and biogeographical regions.</s><s>The territory of Serbia encompasses three altitudinal regions: (1) parts of the Great Pannonian plain in the Vojvodina province in the north (0-200 m a.s.l.), (2) the Peripannonian lowlands and hills along southern banks of the Sava and Danube rivers and in the Velika Morava River valley (200-600 m a.s.l.), and (3) the Mountain-valley region (600-2,650 m a.s.l.) <ref target="#b39" type="bibr">(Marković 1970</ref>) (Fig. <ref type="figure">1</ref>).</s><s>The recognized biogeographic regions of Serbia according to <ref target="#b39" type="bibr">Marković 1970 and</ref><ref target="#b52" type="bibr">Stevanović 1992</ref> are: Bačka (Ba), Banat (Bt), Srem (Sr), Pomoravlje (Po), Šumadija (Š), central Serbia (C), north-eastern Serbia (NE), eastern Serbia (E), north-western Serbia (NW), south-eastern Serbia (SE), western Serbia (W), south-western Serbia (SW), southern Serbia (S), Kosovo (K), and Metohija (M) (Fig. <ref type="figure">1</ref>).</s><s>Also, we evaluated similarities between Serbia and the neighbouring countries, using the Bray-Curtis dissimilarity index <ref target="#b5" type="bibr">(Bray &amp; Curtis 1957)</ref>.</s><s>Species distribution and diversity data for Albania, Bosnia and Herzegovina, Bulgaria, Croatia, Greece, Macedonia, Hungary, Montenegro, Romania and Slovenia were given according to the contemporary literature <ref target="#b19" type="bibr">(Gasc et al. 1997</ref><ref target="#b27" type="bibr">, Jablonski et al. 2012</ref><ref type="bibr">, Cogălniceanu et al. 2013a</ref><ref target="#b49" type="bibr">, Sillero et al. 2014)</ref>.</s></p><p><s>For the zoogeographic analysis, chorotypes of brown frogs were identified, according to Vigna Taglianti et al. <ref type="bibr">(1999)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">RESULTS<p><s>The list of brown frogs that inhabit Serbia includes three species.</s><s>Of these three species, the Agile frog, Rana dalmatina is the most widespread, and its presence has been confirmed in all biogeographic regions (Fig. <ref target="#fig_1" type="figure">2</ref>).</s><s>The Balkan stream frog, R. graeca is roughly confined to the Mountainvalley parts of Serbia, apart from some populations that reach Peripannonia in north-western Serbia and Šumadija.</s><s>In the eastern parts of Serbia, its distribution limits are further south, reaching Suva Planina mountain (Fig. <ref type="figure">3</ref>).</s><s>Fig. <ref type="figure">3</ref>. -Records of R. graeca from Serbia (National grid UTM 10 × 10 km Reference).</s><s>black circles -published records, red circles -new (field) records, concentric red and black circles -published and field data, ?</s><s>-doubtful field or literature data.</s><s>Common frog, R. temporaria is the rarest of the three species present in Serbia, and its range is highly fragmented, mostly restricted to the subalpine and alpine habitats in high mountains, but there are populations in north-eastern and north-western Serbia that inhabit canyons and gorges of montane rivers at lower altitudes, and scattered lowland populations have been detected in the southern Banat (Fig. <ref target="#fig_2" type="figure">4</ref>).</s><s>According to the Bray-Curtis index, the brown frog faunal composition of Serbia is identical to that of Albania, Bosnia and Herzegovina, Bulgaria, Greece, Macedonia and Montenegro.</s><s>The faunas of Romania and Hungary are more distinct due to the presence of R. arvalis and the absence of R. graeca.</s><s>Slovenia and Croatia have the brown frog faunas that are the most different from Serbian, due to the absence of R. graeca and presence of R. arvalis and R. latastei (Fig. <ref target="#fig_3" type="figure">5</ref>).</s><s>Brown frogs in Serbia belong to two chorotypes, European (R. temporaria) and South-European (R. dalmatina, R. graeca).</s><s>Rana graeca is endemic for the Balkans and reaches its northern distribution limits in Serbia, while R. temporaria has a fragmented range in Serbia (Tab.</s><s>1).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">DISCUSSION<p><s>Agile frog (R. dalmatina) inhabits parts of the Western and Central Europe, Apennine and Balkan peninsulas and northern Asia Minor <ref target="#b0" type="bibr">(Arnold &amp; Ovenden, 2002)</ref>.</s><s>In Serbia, it is the most common and widespread brown frog, which can be found in all three altitudinal regions -Pannonian, Peripannonian and Mountain-valley, and also the only species commonly found in the Pannonian and Peripannonian regions.</s><s>It is found mostly in open deciduous forests and damp meadows but also in all habitats with suitable shallow or ephemeral ponds, including steppe fragments, rural habitats, parks and edges of agricultural land.</s><s>It is an explosive breeder in early spring, emerging as soon as mid-February and spawning in shallow water <ref target="#b47" type="bibr">(Radovanović, 1951)</ref>.</s><s>It is terrestrial throughout the rest of the year and can be found very far from water.</s><s>The map shows that this species is evenly distributed throughout Serbia, and distribution gaps can be interpreted more as a result of lack of systematic faunistic research rather than inferred absence of the species.</s></p><p><s>The Balkan stream frog (R. graeca) is endemic to the Balkan Peninsula, with distribution range from central Bosnia and Herzegovina in the west, through Serbia, Montenegro, Macedonia, Albania, Greece, and southern Bulgaria, to Turkish Thrace in the east <ref target="#b43" type="bibr">(Nöllert &amp; Nöllert 1992</ref><ref target="#b1" type="bibr">, Asimakopoulos 2004</ref>).</s><s>In Serbia, it is widely distributed in the Mountainvalley region, between 200 and 1000 m a.s.l.</s><s><ref target="#b47" type="bibr">(Radovanović 1951</ref><ref type="bibr">, 1964</ref><ref target="#b65" type="bibr">, Vukov et al. 2013)</ref>.</s><s>The Balkan stream frog typically inhabits permanent, fast-flowing streams, springs or small rivers with sparse vegetation in deciduous or mixed forests <ref target="#b47" type="bibr">(Radovanović 1951</ref><ref target="#b0" type="bibr">, Arnold &amp; Ovenden 2002)</ref>.</s><s>It prefers relatively cold and moist microclimate while avoiding regions with long, cold winters and regions with dry and warm climate.</s><s>The reproductive period usually lasts from February to April <ref target="#b62" type="bibr">(Valakos et al. 2008)</ref>.</s></p><p><s>The Common frog (R. temporaria) is distributed throughout Europe, from northern Spain in the west to the Urals and western Siberia in the east <ref target="#b43" type="bibr">(Nöllert &amp; Nöllert 1992</ref><ref target="#b23" type="bibr">, Grossenbacher 2004</ref>) with altitudinal distribution that ranges from the sea level (in northern portions of the range) to 2760 m a.s.l.</s><s><ref target="#b50" type="bibr">(Sindaco et al. 2006)</ref>.</s><s>Its distribution in the Balkan Peninsula is disjunct and restricted to high mountains <ref target="#b0" type="bibr">(Arnold &amp; Ovenden 2002)</ref>.</s><s>In Serbia, this species is considered rare (it inhabits less than 50% of the territory: <ref target="#b65" type="bibr">Vukov et al. 2013)</ref>, with range highly fragmented and restricted to high mountains, with some isolated populations at lower altitudes in North-Eastern Serbia and scattered lowland populations in Banat.</s><s>Although the common frog occupies a wide spectrum of habitats <ref target="#b32" type="bibr">(Kuzmin, 1999</ref><ref target="#b33" type="bibr">, 2013</ref><ref target="#b0" type="bibr">, Arnold &amp; Ovenden 2002)</ref>, in the southern part of the range it is restricted to high mountains and moist habitats, near water bodies <ref target="#b47" type="bibr">(Radovanović 1951</ref><ref target="#b32" type="bibr">, Kuzmin 1999</ref><ref target="#b0" type="bibr">, Arnold &amp; Ovenden 2002)</ref>.</s><s>In Serbia, this species inhabits mountainous and alpine coniferous forests, meadows and pastures, with some exceptions such as canyons and gorges or wetlands in the remaining forest-steppe fragments.</s><s>Reproduction occurs in shallow waters, in a wide spectrum of temporary and permanent stagnant or slowly flowing waters <ref target="#b32" type="bibr">(Kuzmin 1999)</ref>.</s><s>In Serbia, distribution of this species is much narrower than expected, due to severe habitat fragmentation and the species' preference for specific habitats.</s></p><p><s>Although R. arvalis inhabits neighbouring countries of Croatia, Hungary and Romania, with some localities being close to the Serbian border, and adequate habitats are present in the extreme northern parts of our country, until now only one literature entry (village Svetozar Miletić near Hungarian border) without later reconfirmation exists <ref target="#b10" type="bibr">(Dely 1953</ref><ref type="bibr">, 1964</ref><ref target="#b4" type="bibr">, Böhme 2014)</ref>.</s><s>There are still no new field records for this species apart from occasional misidentification of R. dalmatina.</s></p><p><s>The phenomenon of vicariance is characteristic for brown frogs, due to their complex evolutionary history and allopatric speciation in isolated montane refugia <ref target="#b63" type="bibr">(Veith et al. 2003)</ref>.</s><s>In Serbia, this phenomenon can be observed in north-eastern Serbia, where R. temporaria is vicariant with R. graeca, i.e. it inhabits canyons and gorges of fast-flowing montane rivers and streams at lower altitudes <ref target="#b15" type="bibr">(Džukić 1995</ref><ref target="#b65" type="bibr">, Vukov et al. 2013)</ref>.</s><s>Rana graeca can be considered very significant for the Serbian fauna, since it is the Balkan endemic species and also reaches its northern range borders in Serbia.</s><s>Peripheral populations are important in the evolutionary sense since they have a great potential for further diversification of the species <ref target="#b12" type="bibr">(Džukić &amp; Kalezić 2004)</ref>.</s><s>Rana temporaria can be considered a glacial relict in parts of the Balkan Peninsula <ref target="#b18" type="bibr">(Fet &amp; Popov 2007)</ref>.</s><s>Its fragmented populations in Serbia are also very important for the genetic diversity of the species and as a source of possible allopatric speciation or cryptic differentiation.</s></p><p><s>All brown frog species in Serbia are strictly protected by law ("Official Gazette of the Republic of Serbia", No. 5/2010 &amp; 47/2011).</s><s>At the global level, all three species are considered least concern.</s><s>However, at the national level, R. graeca and R. temporaria can be considered as threatened according to at least one set of criteria <ref type="bibr">(Urošević &amp; Džukić 2015a</ref><ref type="bibr">, 2015b)</ref> (Tab.</s><s>2).</s><s>Populations of R. graeca which are associated with running water are especially threatened by habitat degradation -deforestation, water draining, dam building, captations and micro-hydro-electric plants.</s><s>This species is also susceptible to climate change, especially temperature extremes and natural disasters such as droughts or floods <ref type="bibr">(Urošević &amp; Džukić 2015a</ref>).</s><s>Populations of R. temporaria in Serbia are isolated due to the range fragmentation and very sensitive to anthropogenic threats, habitat degradation and climate change.</s><s>Introduction of predatory fish into montane lakes can jeopardize spawn and tadpoles, and long migrations to breeding sites make Common frog vulnerable to road traffic <ref type="bibr">(Urošević &amp; Džukić, 2015b)</ref>.</s><s>Protection of brown frogs and their habitats in Serbia should be of very high priority.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">CONCLUSIONS<p><s>Although this study presents a systematized account on distribution of brown frogs, more methodical field research is needed in order to fill in distribution gaps and provide a more complete insight of distribution patterns.</s><s>The further research should be concentrated at the northern parts of our country, for possible confirmation of the presence of R. arvalis and finding of more relict, lowland R. temporaria populations, but also in the marginal zones of the known R. graeca range, which could possibly be expanded further north.</s><s>Since brown frogs reach peak of their annual activity in the early spring, during the reproductive season, the field research should be the most intensive from February to April, depending on the altitude.</s><s>Mirč, Neva Škrabar and Neda Bogdanović for help in the field.</s><s>Field data of the late professor Gojko Pasuljević were also included in this study.</s><s>Some field data were provided by the members of the Serbian Herpetological Society "Milutin Radovanović", BID "Josif Pančić", NIDSBE "Josif Pančić" and the research station "Petnica".</s><s>од фауне Хрватске и Словеније.</s><s>Мрке жабе Србије припадају европском (R. temporaria) и јужноевропском хоротипу (R. dalmatina, R. graeca).</s><s>Све врсте мрких жаба присутне или потенцијално присутне у Србији као и њихова станишта препознати су као конзервациони приоритети.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Fig. 1. -Altitudinal and biogeographic regions of Serbia.</s><s>Altitudinal regions: green -Pannonian, yellow -Peripannonian, orange -Mountain-Valley.</s><s>Biogeographic regions: Bč -Bačka, Bt -Banat, Sr -Srem, Po -Pomoravlje, Š -Šumadija, C. -central Serbia, NE -north-eastern Serbia, NW -north-western Serbia, E -eastern Serbia, W -western Serbia, SE -south-eastern Serbia, SW -south-western Serbia, S -southern Serbia, K -Kosovo and M -Metohija.</s></p></div></figdesc><graphic coords="5,136.08,110.75,209.70,298.08" type="vector_box"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Fig. 2 .<label>2</label><figdesc><div><p><s>Fig. 2. -Records of R. dalmatina from Serbia (National grid UTM 10 × 10 km Reference).</s><s>black circles -published records, red circles -new (field) records, concentric red and black circles -published and field data.</s></p></div></figdesc><graphic coords="6,83.22,87.59,313.86,437.52" type="vector_box"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Fig. 4 .<label>4</label><figdesc><div><p><s>Fig. 4. -Records of R. temporaria from Serbia (National grid UTM 10 × 10 km Reference).</s><s>black circles -published records, red circles -new (field) records, concentric red and black circles -published and field data, ?doubtful field or literature data.</s></p></div></figdesc><graphic coords="8,84.42,137.99,309.54,431.52" type="vector_box"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Fig. 5 .<label>5</label><figdesc><div><p><s>Fig. 5. -Cluster diagram of Bray-Curtis similarity Index of brown frog fauna for the neighbouring countries.</s></p></div></figdesc></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>-Species list of Serbian brown frogs with chorotype, marginality, endemicity status for Balkans and range fragmentation.</s></p></div></figdesc><table><row><cell>Species</cell><cell>Chorotype</cell><cell cols="2">Marginal zone Endemic for the Balkans Fragmented</cell></row><row><cell>Rana dalmatina</cell><cell>South-European</cell><cell></cell><cell></cell></row><row><cell>Rana graeca</cell><cell>South-European</cell><cell>+</cell><cell>+</cell></row><row><cell cols="2">Rana temporaria European</cell><cell>+</cell><cell></cell></row></table></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">Table 2 .<label>2</label><figdesc><div><p><s>-Conservation status of the Serbian brown frogs according to the IUCN criteria (international), IUCN and DELH criteria (national), EU Habitats directive and Bern convention.</s></p></div></figdesc><table><row><cell></cell><cell>Conservation status</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Species</cell><cell cols="4">IUCN (International) IUCN (National) DELH(National) Habitats</cell><cell>Bern</cell></row><row><cell>R. dalmatina</cell><cell>LC</cell><cell>LC</cell><cell>LC</cell><cell cols="2">Annex IV Appendix II</cell></row><row><cell>R. graeca</cell><cell>LC</cell><cell>LC</cell><cell>EN</cell><cell cols="2">Annex IV Appendix III</cell></row><row><cell>R. temporaria</cell><cell>LC</cell><cell>NT</cell><cell>LC</cell><cell cols="2">Annex V Appendix III</cell></row></table></figure>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgements<p><s>This research was partly financed by the Ministry of Education, Science and Technological Development of Republic of Serbia -Grants No. 173025 (J.Ć., B.J., T.Č) and 173043 (A.U., Lj.T., M.A., A.G., N.T-K., M.C., T.V., T. V., G.Dž.); National Park "Kopaonik" -project Monitoring vodozemaca i gmizavaca na prostoru Nacionalnog parka Kopaonik 2018.</s><s>We gratefully acknowledge Miloš Kalezić, Ana Ivanović, Miroslav Marković, Luka Rubinjoni, Aleksandar Ćetković, Boris Kryštufek, Aleksandar Stevanović and Željko Tomanović for sharing their field data and Nenad Preradović, Dejan Bogdanović, Mira Stojković, Gorana Danon, Marko</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<monogr>
+<author>
+<persname><forename type="first">N</forename><surname>Arnold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Ovenden</surname></persname>
+</author>
+<title level="m">A Field Guide to the Reptiles and Amphibians of Britain and Europe</title>
+<meeting><address><addrline>London</addrline></address></meeting>
+<imprint>
+<publisher>Harper Collins Publishers</publisher>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Arnold, N., Ovenden, D. (2002): A Field Guide to the Reptiles and Amphibians of Britain and Europe. -Harper Collins Publishers, London.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<monogr>
+<title level="m" type="main">Atlas of Amphibians and Reptiles in Europe</title>
+<author>
+<persname><forename type="first">B</forename><surname>Asimakopoulos</surname></persname>
+</author>
+<editor>Gasc, J. P., Cabela, A., Crnobrnja-Isailović, J., Dolmen, D., Grossenbacher, K., Haffner, P., Lescure, J., Martens, H., Martínez Rica, J. P., Maurin, H., Oliveira, M. E., Sofianidou, T. S., Veith, M., Zuiderwijk, A.</editor>
+<imprint>
+<date type="published" when="2004">2004</date>
+<publisher>Societas Europea Herpetologica &amp; Museum National d'Histoire Naturelle</publisher>
+<biblscope from="286" to="287" unit="page"></biblscope>
+<pubplace>Paris</pubplace>
+</imprint>
+</monogr>
+<note>Rana graeca</note>
+<note type="raw_reference">Asimakopoulos, B. (2004): Rana graeca. In: Gasc, J. P., Cabela, A., Crnobrnja- Isailović, J., Dolmen, D., Grossenbacher, K., Haffner, P., Lescure, J., Martens, H., Martínez Rica, J. P., Maurin, H., Oliveira, M. E., Sofianidou, T. S., Veith, M., Zuiderwijk, A. (ed.): Atlas of Amphibians and Reptiles in Europe.: 286- 287. -Societas Europea Herpetologica &amp; Museum National d'Histoire Naturelle, Paris.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<monogr>
+<author>
+<persname><forename type="first">P</forename><surname>Balej</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jablonski</surname></persname>
+</author>
+<ptr target="http://www.balcanica.cz/"></ptr>
+<title level="m">Balcanica</title>
+<imprint>
+<date type="published" when="2006">2006-2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Balej, P., Jablonski, D. (2006-2015): Balcanica.info. [http://www.balcanica.cz/]</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Phylogeography and cryptic variation within the Lacerta viridis complex (Lacertidae, Reptilia)</title>
+<author>
+<persname><forename type="first">M</forename><surname>Böhme</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Fritz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kotenko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Ljubisavljević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Tzankov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Berendonk</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Zoologica Scripta</title>
+<imprint>
+<biblscope unit="volume">36</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="119" to="131" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Böhme, M., Fritz, U., Kotenko, T., Džukić, G., Ljubisavljević, K., Tzankov, N., Berendonk, T. (2007): Phylogeography and cryptic variation within the Lacerta viridis complex (Lacertidae, Reptilia). -Zoologica Scripta 36(2): 119-131.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Rana arvalis Nilsson, 1842 -Moorfrosch</title>
+<author>
+<persname><forename type="first">W</forename><surname>Böhme</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Handbuch der Reptilien und Amphibien Europas-Band 5/III A: Froschlurche (Anura) III A (Ranidae I)</title>
+<editor>
+<persname><forename type="first">W</forename><surname>Böhme</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">K</forename><forename type="middle">G</forename><surname>Grossenbacher</surname></persname>
+</editor>
+<meeting><address><addrline>Wiebelsheim</addrline></address></meeting>
+<imprint>
+<publisher>Aula-Verlag</publisher>
+<date type="published" when="2014">2014</date>
+<biblscope from="11" to="113" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Böhme, W. (2014): Rana arvalis Nilsson, 1842 -Moorfrosch. In: Böhme, W., Grossenbacher, K. G. (ed.): Handbuch der Reptilien und Amphibien Europas- Band 5/III A: Froschlurche (Anura) III A (Ranidae I): 11-113. -Aula-Verlag, Wiebelsheim.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">An ordination of upland forest communities of southern Wisconsin</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Bray</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">T</forename><surname>Curtis</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecological Monographs</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="325" to="349" unit="page"></biblscope>
+<date type="published" when="1957">1957</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bray, J. R., Curtis, J. T. (1957): An ordination of upland forest communities of southern Wisconsin. -Ecological Monographs 27(4): 325-349.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">The taxonomic distinctness measure of biodiversity: weighting of step lengths between hierarchical levels</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Clarke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Warwick</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Marine Ecology Progress Series</title>
+<imprint>
+<biblscope unit="volume">184</biblscope>
+<biblscope from="21" to="29" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Clarke, K. R., Warwick, R. M. (1999): The taxonomic distinctness measure of biodiversity: weighting of step lengths between hierarchical levels. -Marine Ecology Progress Series 184: 21-29.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Diversity and distribution of amphibians in Romania</title>
+<author>
+<persname><forename type="first">D</forename><surname>Cogălniceanu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Székely</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Samoilă</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Ruben</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Tudor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Plăiaşu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Stănescu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Rozylowicz</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">ZooKeys</title>
+<imprint>
+<biblscope unit="volume">296</biblscope>
+<biblscope from="35" to="57" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cogălniceanu, D., Székely, P., Samoilă, C., Ruben, I., Tudor, M., Plăiaşu, R., Stănescu, F., Rozylowicz, L. (2013a): Diversity and distribution of amphibians in Romania. -ZooKeys 296: 35-57.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Diversity and distribution of reptiles in Romania</title>
+<author>
+<persname><forename type="first">D</forename><surname>Cogălniceanu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Rozylowicz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Székely</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Samoilă</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Stănescu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Tudor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Székely</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Iosif</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">ZooKeys</title>
+<imprint>
+<biblscope unit="volume">341</biblscope>
+<biblscope from="49" to="76" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cogălniceanu, D., Rozylowicz, L., Székely, P., Samoilă, C., Stănescu, F., Tudor, M., Székely, D., Iosif, R. (2013b): Diversity and distribution of reptiles in Romania. -ZooKeys 341: 49-76.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<monogr>
+<author>
+<persname><forename type="first">J</forename><surname>Crnobrnja-Isailović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Jelić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Stanisavljević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Ćosić</surname></persname>
+</author>
+<title level="m">Vodozemci i gmizavci Beograda</title>
+<meeting><address><addrline>Beograd</addrline></address></meeting>
+<imprint>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note>Ekološko društvo Endemit</note>
+<note type="raw_reference">Crnobrnja-Isailović, J., Jelić, I., Stanisavljević, B., Ćosić, N. (2012): Vodozemci i gmizavci Beograda. -Ekološko društvo Endemit, Beograd.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Examen systématique et osteo-biométrique de la Rana arvalis Nilss. et de la var. wolterstorffi Fejérváry</title>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">G</forename><surname>Dely</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Annales Historico-naturales Musei Nationalis Hungarici</title>
+<imprint>
+<biblscope unit="volume">44</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="231" to="243" unit="page"></biblscope>
+<date type="published" when="1953">1953</date>
+</imprint>
+</monogr>
+<note>series nova</note>
+<note type="raw_reference">Dely, O. G. (1953): Examen systématique et osteo-biométrique de la Rana arvalis Nilss. et de la var. wolterstorffi Fejérváry. -Annales Historico-naturales Musei Nationalis Hungarici 44 (series nova 3): 231-243.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Contribution a l'étude systematique, zoogéographique et génétique de Rana arvalis et R. arvalis wolterstorffi</title>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">G</forename><surname>Dely</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Acta Zoologica Hungarica</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="issue">3-4</biblscope>
+<biblscope from="309" to="361" unit="page"></biblscope>
+<date type="published" when="1964">1964</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dely, O. G. (1964): Contribution a l'étude systematique, zoogéographique et génétique de Rana arvalis et R. arvalis wolterstorffi. -Acta Zoologica Hungarica 10(3-4): 309-361.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">The biodiversity of amphibians and reptiles in the Balkan Peninsula</title>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kalezić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Balkan Biodiversity. Pattern and Process in the European Hotspot</title>
+<editor>
+<persname><forename type="first">H</forename><surname>Griffiths</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">B</forename><surname>Krystufek</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Reed</surname></persname>
+</editor>
+<meeting><address><addrline>Dordrecht</addrline></address></meeting>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="2004">2004</date>
+<biblscope from="1" to="26" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Džukić, G., Kalezić, M. (2004): The biodiversity of amphibians and reptiles in the Balkan Peninsula. In: Griffiths, H., Krystufek, B., Reed, J. M. (ed.): Balkan Biodiversity. Pattern and Process in the European Hotspot: 1-26. -Springer, Dordrecht.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">New records of distribution and ecology of Rana graeca Boulenger, 1891 and Rana ridibunda Pallas, 1771 in Yugoslavia. In: Biogeography and Ecology of Bulgaria. -Monographiae Biologicae</title>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Gent. -Arhiv bioloških nauka</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope unit="issue">1/2</biblscope>
+<biblscope from="5" to="6" unit="page"></biblscope>
+<date type="published" when="1968">1968</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Džukić, G. (1968): New records of distribution and ecology of Rana graeca Boulenger, 1891 and Rana ridibunda Pallas, 1771 in Yugoslavia. In: Biogeo- graphy and Ecology of Bulgaria. -Monographiae Biologicae, Gent. -Arhiv bioloških nauka 20(1/2): 5-6.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Herpetological collection of the Belgrade Museum of Natural History]. -Glasnik Prirodnjačkog muzeja</title>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ser. B</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope from="165" to="180" unit="page"></biblscope>
+<date type="published" when="1972">1972</date>
+</imprint>
+</monogr>
+<note>Herpetološka zbirka Prirodnjačkog muzeja u Beogradu</note>
+<note type="raw_reference">Džukić, G. (1972): Herpetološka zbirka Prirodnjačkog muzeja u Beogradu. [Herpetological collection of the Belgrade Museum of Natural History]. - Glasnik Prirodnjačkog muzeja, Ser. B 27: 165-180.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Diverzitet vodozemaca (Amphibia) i gmizavaca (Reptilia) Jugoslavije, sa pregledom vrsta od međunarodnog značaja</title>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Biodiverzitet Jugoslavije sa pregledom vrsta od međunarodnog značaja</title>
+<editor>
+<persname><forename type="first">V</forename><surname>Stevanović</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">V</forename><surname>Vasić</surname></persname>
+</editor>
+<meeting><address><addrline>Beograd</addrline></address></meeting>
+<imprint>
+<publisher>Biološki fakultet &amp; Ecolibri</publisher>
+<date type="published" when="1995">1995</date>
+<biblscope from="447" to="469" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Džukić, G. (1995): Diverzitet vodozemaca (Amphibia) i gmizavaca (Reptilia) Jugoslavije, sa pregledom vrsta od međunarodnog značaja. In: Stevanović, V., Vasić, V. (ed.): Biodiverzitet Jugoslavije sa pregledom vrsta od međunarodnog značaja: 447-469. -Biološki fakultet &amp; Ecolibri, Beograd.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">travnjača (Rana temporaria)</title>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Gea</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="page">44</biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Džukić, G. (2004): Žaba travnjača (Rana temporaria). -Gea 4: 44.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">O rasprostranjenju ljuskavog gustera Algyroides nigropunctatus (Dumeril et Bibron, 1839) (Reptilia, Lacertidae)</title>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Pasuljević</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biosistematika</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope from="61" to="70" unit="page"></biblscope>
+<date type="published" when="1979">1979</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Džukić, G., Pasuljević, G. (1979): O rasprostranjenju ljuskavog gustera Algyroides nigropunctatus (Dumeril et Bibron, 1839) (Reptilia, Lacertidae). -Biosistema- tika 5: 61-70.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<monogr>
+<title></title>
+<author>
+<persname><forename type="first">V</forename><surname>Fet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Popov</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fet, V., Popov, A. (2007):</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Atlas of Amphibians and Reptiles in Europe</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Gasc</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Cabela</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Crnobrnja-Isailovic</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Dolmen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Grossenbacher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Haffner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Lescure</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Martens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Martinez Rica</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Maurin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">E</forename><surname>Oliveira</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">S</forename><surname>Sofianidou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Veith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Zuiderwijk</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Societas Europea Herpetologica &amp; Museum National d'Histoire Naturelle</title>
+<imprint>
+<date type="published" when="1997">1997</date>
+<pubplace>Paris</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Gasc, J. P., Cabela, A., Crnobrnja-Isailovic, J., Dolmen, D., Grossenbacher, K., Haffner, P., Lescure, J., Martens, H., Martinez Rica, J. P., Maurin, H., Oliveira, M. E., Sofianidou, T. S., Veith, M., Zuiderwijk, A. (1997): Atlas of Amphibians and Reptiles in Europe. -Societas Europea Herpetologica &amp; Museum National d'Histoire Naturelle, Paris.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Hotspots across Europe</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Gaston</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>David</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Biodiversity Letters</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="108" to="116" unit="page"></biblscope>
+<date type="published" when="1994">1994</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gaston, K. J., David, R. (1994): Hotspots across Europe. -Biodiversity Letters 2: 108-116.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Evidence for chromosome number reduction and chromosomal homosequentiality in the 24-chromosome Korean frog, Rana dybowskii</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Green</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Chromosoma</title>
+<imprint>
+<biblscope unit="volume">88</biblscope>
+<biblscope from="222" to="226" unit="page"></biblscope>
+<date type="published" when="1983">1983</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Green, D. M. (1983): Evidence for chromosome number reduction and chromoso- mal homosequentiality in the 24-chromosome Korean frog, Rana dybowskii. - Chromosoma 88: 222-226.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Evolutionary relationships of eastern Palearctic brown frogs, genus Rana: Paraphyly of the 24-chromosome species group and the significance of chromosome number change</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Green</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">J</forename><surname>Borkin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Zoological Journal of the Linnean Society</title>
+<imprint>
+<biblscope unit="volume">109</biblscope>
+<biblscope from="1" to="25" unit="page"></biblscope>
+<date type="published" when="1993">1993</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Green, D. M., Borkin, L. J. (1993): Evolutionary relationships of eastern Palearctic brown frogs, genus Rana: Paraphyly of the 24-chromosome species group and the significance of chromosome number change. -Zoological Journal of the Linnean Society 109: 1-25.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<monogr>
+<title level="m" type="main">Atlas of amphibians and reptiles in Europe</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">;</forename><surname>Grossenbacher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Martínez Rica</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Maurin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">E</forename><surname>Oliveira</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">S</forename><surname>Sofianidou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Veith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Zuiderwijk</surname></persname>
+</author>
+<editor>Gasc, J. P., Cabela, A., Crnobrnja-Isailović, J., Dolmen, D., Grossenbacher, K., Haffner, P., Lescure, J., Martens, H</editor>
+<imprint>
+<date type="published" when="2004">2004</date>
+<biblscope from="86" to="287" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note>Rana temporaria</note>
+<note type="raw_reference">Grossenbacher, K. (2004): Rana temporaria. In: Gasc, J. P., Cabela, A., Crnobrnja- Isailović, J., Dolmen, D., Grossenbacher, K., Haffner, P., Lescure, J., Martens, H., Martínez Rica, J. P., Maurin, H., Oliveira, M. E., Sofianidou, T. S., Veith, M., Zuiderwijk, A. (ed.): Atlas of amphibians and reptiles in Europe: 86-287.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Biogeography of Lacerta (Zootoca) vivipara: reproductive mode and enzyme phenotypes in Bulgaria</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">P</forename><surname>Guillaume</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Heulin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Beshkov</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecography</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="240" to="246" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Guillaume, C. P., Heulin, B., Beshkov, V. (1997): Biogeography of Lacerta (Zootoca) vivipara: reproductive mode and enzyme phenotypes in Bulgaria. - Ecography 20(3): 240-246.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Rana dalmatina</title>
+<author>
+<persname><surname>Inaturalist</surname></persname>
+</author>
+<idno type="DOI">10.15468/dl.ize4xxiNaturalist.org(2018b):Ranagraeca.GBIF.org</idno>
+<ptr target="https://doi.org/10.15468/dl"></ptr>
+</analytic>
+<monogr>
+<title level="j">GBIF</title>
+<imprint>
+<date type="published" when="2018-03-15">2018. 15 th March 2018. 16 th March 2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">iNaturalist.org (2018a): Rana dalmatina. GBIF.org (15 th March 2018) GBIF Occurrence Download https://doi.org/10.15468/dl.ize4xx iNaturalist.org (2018b): Rana graeca. GBIF.org (16 th March 2018) GBIF Occur- rence Download https://doi.org/10.15468/dl.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Pregled vrsta Stare planine u Srbiji</title>
+<author>
+<persname><forename type="first">B</forename><surname>Ivančević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Savić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Sabovljević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Niketić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Tomović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Zlatković</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Ranđelović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Lakušić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Ćetković</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Pavićević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Krpo-Ćetković</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Crnobrnja-Isailović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Puzović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Paunović</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Biodiverzitet Stare planine u Srbiji</title>
+<editor>
+<persname><forename type="first">D</forename><surname>Lakušić</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">A</forename><surname>Ćetković</surname></persname>
+</editor>
+<meeting><address><addrline>Beograd</addrline></address></meeting>
+<imprint>
+<publisher>Regionalni centar za životnu sredinu za Centralnu i Istočnu Evropu, Kancelarija u Srbiji</publisher>
+<date type="published" when="2007">2007</date>
+<biblscope from="159" to="219" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Ivančević, B., Savić, S., Sabovljević, M., Niketić, M., Tomović, G., Zlatković, B., Ranđelović, V., Lakušić, D., Ćetković, A., Pavićević, D., Krpo-Ćetković, J., Crnobrnja-Isailović, J., Puzović, S., Paunović, M. (2007): Pregled vrsta Stare planine u Srbiji. In: Lakušić, D., Ćetković, A. (ed.): Biodiverzitet Stare planine u Srbiji: 159-219. -Regionalni centar za životnu sredinu za Centralnu i Istočnu Evropu, Kancelarija u Srbiji, Beograd.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">New records and zoogeographic classification of amphibians and reptiles from Bosnia and Herzegovina</title>
+<author>
+<persname><forename type="first">D</forename><surname>Jablonski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jandzik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Gvoždik</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">North-Western Journal of Zoology</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="324" to="337" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jablonski, D., Jandzik, D., Gvoždik, V. (2012): New records and zoogeographic classification of amphibians and reptiles from Bosnia and Herzegovina. - North-Western Journal of Zoology 8(2): 324-337.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Integrating biodiversity distribution knowledge: toward a global map of life</title>
+<author>
+<persname><forename type="first">W</forename><surname>Jetz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Mcpherson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">P</forename><surname>Guralnick</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Trends in Ecology &amp; Evolution</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope from="151" to="159" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jetz, W., McPherson, J. M., Guralnick, R. P. (2011): Integrating biodiversity distribution knowledge: toward a global map of life. -Trends in Ecology &amp; Evolution 27: 151-159.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Prilog herpetologiji sjeverne Srbije. -Prirodoslovna istraživanja</title>
+<author>
+<persname><forename type="first">S</forename><surname>Karaman</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Zagreb</title>
+<imprint>
+<biblscope unit="volume">24</biblscope>
+<biblscope from="51" to="74" unit="page"></biblscope>
+<date type="published" when="1948">1948</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Karaman, S. (1948): Prilog herpetologiji sjeverne Srbije. -Prirodoslovna istraživa- nja, Zagreb 24: 51-74.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Updated distribution of the European pond turtle Emys orbicularis (Linnaeus, 1758) and its conservation issues in Serbia</title>
+<author>
+<persname><forename type="first">I</forename><surname>Krizmanić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Urošević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Simović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Krstić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ajtić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Anđelković</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Slijepčević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Đorđević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Golubović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Žikić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Archives of Biological Sciences</title>
+<imprint>
+<biblscope unit="volume">67</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="1043" to="1053" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Krizmanić, I., Urošević, A., Simović, A., Krstić, M., Jović, D., Ajtić, R., Anđelković, M., Slijepčević, M., Đorđević, S., Golubović, A., Žikić, V., Džukić, G. (2015): Updated distribution of the European pond turtle Emys orbicularis (Linnaeus, 1758) and its conservation issues in Serbia. -Archives of Biological Sciences 67(3): 1043-1053.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<monogr>
+<author>
+<persname><forename type="first">B</forename><surname>Kovačević</surname></persname>
+</author>
+<title level="m">Turizam Šajkaške. -Univerzitet u Novom Sadu, PMF, Departman za geografiju, turizam i hotelijerstvo</title>
+<meeting><address><addrline>Novi Sad</addrline></address></meeting>
+<imprint>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="report_type">PhD Thesis</note>
+<note type="raw_reference">Kovačević, B. (2014): Turizam Šajkaške. -Univerzitet u Novom Sadu, PMF, Departman za geografiju, turizam i hotelijerstvo, Novi Sad. PhD Thesis</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<monogr>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Kuzmin</surname></persname>
+</author>
+<title level="m">The Amphibians of the Former Soviet Union</title>
+<meeting><address><addrline>Sofia-Moscow</addrline></address></meeting>
+<imprint>
+<publisher>Pensoft</publisher>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kuzmin, S. L. (1999): The Amphibians of the Former Soviet Union. -Pensoft, Sofia-Moscow.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<monogr>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Kuzmin</surname></persname>
+</author>
+<ptr target="http://amphibiaweb.org/"></ptr>
+<title level="m">AmphibiaWeb: Information on amphibian biology and conservation</title>
+<meeting><address><addrline>Berkeley, California</addrline></address></meeting>
+<imprint>
+<publisher>AmphibiaWeb</publisher>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note>Rana temporaria</note>
+<note type="raw_reference">Kuzmin, S. L. (2013): Rana temporaria. In: AmphibiaWeb: Information on amphibian biology and conservation. -Berkeley, California. AmphibiaWeb. http://amphibiaweb.org/.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Distribution patterns of Hermann's tortoise Testudo hermanni Gmelin,1789, in the region of former Yugoslavia (Testudines: Testudinidae)</title>
+<author>
+<persname><forename type="first">K</forename><surname>Ljubisavljević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">D</forename><surname>Vukov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Kalezić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Herpetozoa</title>
+<imprint>
+<biblscope unit="volume">26</biblscope>
+<biblscope from="125" to="138" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ljubisavljević, K., Džukić, G., Vukov, T. D., Kalezić, M. L. (2014): Distribution patterns of Hermann's tortoise Testudo hermanni Gmelin,1789, in the region of former Yugoslavia (Testudines: Testudinidae). -Herpetozoa 26: 125-138.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Distribution of the Snake-eyed skink Ablepharus kitaibelii Bibron and Bory, 1833 (Squamata: Scincidae) in Serbia</title>
+<author>
+<persname><forename type="first">K</forename><surname>Ljubisavljević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lj</forename><surname>Tomović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Simović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Krizmanić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ajtić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Urošević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Labus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Đorđević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Golubović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Anđelković</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecologica Montenegrina</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="247" to="254" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ljubisavljević, K., Tomović, Lj., Simović, A., Krizmanić, I., Ajtić, R., Jović, D., Urošević, A., Labus, N., Đorđević, S., Golubović, A., Anđelković, M., Džukić, G. (2015): Distribution of the Snake-eyed skink Ablepharus kitaibelii Bibron and Bory, 1833 (Squamata: Scincidae) in Serbia. -Ecologica Montenegrina 2: 247-254.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">New records and updated distribution of the endemic Balkan rock lizards Dinarolacerta spp</title>
+<author>
+<persname><forename type="first">K</forename><surname>Ljubisavljević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Polović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Iković</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Vuksanović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Zagora</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Urošević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lj</forename><surname>Tomović</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Montenegro . -Ecologica Montenegrina</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="46" to="50" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ljubisavljević, K., Polović, L., Iković, V., Vuksanović, S., Zagora, V., Urošević, A., Tomović, Lj. (2016): New records and updated distribution of the endemic Balkan rock lizards Dinarolacerta spp. in Montenegro . -Ecologica Montene- grina 9: 46-50.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Species diversity and distribution of lizards in Montenegro</title>
+<author>
+<persname><forename type="first">K</forename><surname>Ljubisavljević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lj</forename><surname>Tomović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Urošević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Gvozdenović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Iković</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Zagora</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Labus</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Acta Herpetologica</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="3" to="11" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ljubisavljević, K., Tomović, Lj., Urošević, A., Gvozdenović, S., Iković, V., Zagora, V., Labus, N. (2018): Species diversity and distribution of lizards in Montenegro. -Acta Herpetologica 13(1): 3-11.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Amphibia</title>
+<author>
+<persname><forename type="first">M</forename><surname>Maričić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Golubović</surname></persname>
+</author>
+<ptr target="https://biologer.org."></ptr>
+</analytic>
+<monogr>
+<title level="m">Biologer.org</title>
+<editor>
+<persname><forename type="first">M</forename><surname>Popović</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">A</forename><surname>Golubović</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">N</forename><surname>Živanović</surname></persname>
+</editor>
+<imprint>
+<date type="published" when="2018-12">2018. December 2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Maričić, M., Golubović, A. (2018): Amphibia. In: Popović, M., Golubović, A., Živanović, N. (ed.): Biologer.org. https://biologer.org. (December 2018)</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">Đ</forename><surname>Marković</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Geografske oblasti Socijalističke Federativne Republike Jugoslavije</title>
+<title level="s">Zavod za udžbenike i nastavna sredstva Srbije</title>
+<meeting><address><addrline>Beograd</addrline></address></meeting>
+<imprint>
+<date type="published" when="1970">1970</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Marković, J. Đ. (1970): Geografske oblasti Socijalističke Federativne Republike Jugoslavije. -Zavod za udžbenike i nastavna sredstva Srbije, Beograd.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">The smartphone fallacy -when spatial data are reported at spatial scales finer than the organisms themselves</title>
+<author>
+<persname><forename type="first">S</forename><surname>Meiri</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Frontiers in Biogeography</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope unit="page">e38642</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Meiri, S. (2018): The smartphone fallacy -when spatial data are reported at spatial scales finer than the organisms themselves. -Frontiers in Biogeography 10.1: e38642.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<monogr>
+<author>
+<persname><forename type="first">G</forename><surname>Mesaroš</surname></persname>
+</author>
+<ptr target="http://www.bioras.petnica.rs"></ptr>
+<title level="m">Portal za kartiranje biološke raznovrsnosti Srbije -BioRas</title>
+<imprint>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mesaroš, G. (2018): Portal za kartiranje biološke raznovrsnosti Srbije -BioRas. http://www.bioras.petnica.rs</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Taxonomy and evolution of European brown frogs</title>
+<author>
+<persname><forename type="first">P</forename><surname>Mensi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Lattes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Macario</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Salvidio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Giacoma</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Baletto</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Zoological Journal of the Linnean Society</title>
+<imprint>
+<biblscope unit="volume">104</biblscope>
+<biblscope from="293" to="311" unit="page"></biblscope>
+<date type="published" when="1992">1992</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mensi, P., Lattes, A., Macario, B., Salvidio, S., Giacoma, C., Baletto, E. (1992): Taxonomy and evolution of European brown frogs. -Zoological Journal of the Linnean Society 104: 293-311.</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><surname>Nöllert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Nöllert</surname></persname>
+</author>
+<title level="m">Die Amphibien Europas</title>
+<meeting><address><addrline>Stuttgart</addrline></address></meeting>
+<imprint>
+<publisher>Franckh-Kosmos Verlags-GmbH and Company</publisher>
+<date type="published" when="1992">1992</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nöllert, A., Nöllert, C. (1992): Die Amphibien Europas. -Franckh-Kosmos Verlags-GmbH and Company, Stuttgart.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Nova nalazišta Rana temporaria u Jugoslaviji</title>
+<author>
+<persname><forename type="first">G</forename><surname>Pasuljević</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Zbornik filozofskog fakulteta u Prištini</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope from="453" to="457" unit="page"></biblscope>
+<date type="published" when="1966">1966</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pasuljević, G. (1966): Nova nalazišta Rana temporaria u Jugoslaviji. -Zbornik filozofskog fakulteta u Prištini 3: 453-457.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Prilog poznavanju faune vodozemaca i gmizavaca na teritoriji opštine Apatin</title>
+<author>
+<persname><forename type="first">R</forename><surname>Perić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Stanković</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Zbornik radova EcoIst</title>
+<imprint>
+<biblscope unit="volume">05</biblscope>
+<biblscope unit="issue">04</biblscope>
+<biblscope from="43" to="80" unit="page"></biblscope>
+<date type="published" when="2005">2005. 2005</date>
+</imprint>
+</monogr>
+<note>Bor</note>
+<note type="raw_reference">Perić, R., Stanković, M. (2005): Prilog poznavanju faune vodozemaca i gmizavaca na teritoriji opštine Apatin. In: Zbornik radova EcoIst'05 Bor 01.-04.06.2005: 43-37.</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">svet Jegričke</title>
+<author>
+<persname><forename type="first">E</forename><surname>Popović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Kostić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Monografija Jegrička</title>
+<editor>
+<persname><forename type="first">V</forename><surname>Lazić</surname></persname>
+</editor>
+<meeting><address><addrline>Novi Sad</addrline></address></meeting>
+<imprint>
+<publisher>PČESA</publisher>
+<date type="published" when="1996">1996</date>
+<biblscope from="79" to="86" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Popović, E., Kostić, D. (1996): Životinjski svet Jegričke. In: Lazić, V. (ed.): Monografija Jegrička: 79-86. -Tija voda, PČESA, Novi Sad.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<author>
+<persname><forename type="first">M</forename><surname>Radovanović</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Vodozemci i gmizavci naše zemlje</title>
+<title level="s">Naučna knjiga</title>
+<meeting><address><addrline>Beograd</addrline></address></meeting>
+<imprint>
+<date type="published" when="1951">1951</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Radovanović, M. (1951): Vodozemci i gmizavci naše zemlje. -Naučna knjiga, Beograd.</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Die Verbreitung der Amphibien und Reptilien in Jugoslawien</title>
+<author>
+<persname><forename type="first">M</forename><surname>Radovanović</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Senckbergiana biologica</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope from="553" to="561" unit="page"></biblscope>
+<date type="published" when="1964">1964</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Radovanović, M. (1964): Die Verbreitung der Amphibien und Reptilien in Jugoslawien. -Senckbergiana biologica 45: 553-561.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Updated distribution and biogeography of amphibians and reptiles of Europe</title>
+<author>
+<persname><forename type="first">N</forename><surname>Sillero</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Campos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bonardi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Corti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Creemers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P-A</forename><surname>Crochet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Crnobrnja Isailović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Denoël</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">F</forename><surname>Ficetola</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Gonçalves</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Kuzmin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Lymberakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>De Pous</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Rodríguez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sindaco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Speybroeck</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Toxopeus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Vieites</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Vences</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Amphibia-Reptilia</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope from="1" to="31" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sillero, N., Campos, J., Bonardi, A., Corti, C., Creemers, R., Crochet, P-A., Crno- brnja Isailović, J., Denoël, M., Ficetola, G. F., Gonçalves, J., Kuzmin, S., Lymberakis, P., de Pous, P., Rodríguez, A., Sindaco, R., Speybroeck, J., Toxopeus, B., Vieites, D. R., Vences, M. (2014): Updated distribution and bio- geography of amphibians and reptiles of Europe. -Amphibia-Reptilia 35: 1-31.</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<monogr>
+<title level="m" type="main">Atlas of Italian amphibians and reptiles (Atlante degli Anfibi e dei Rettili d'Italia). -Societas Herpetologica Italica</title>
+<author>
+<persname><forename type="first">R</forename><surname>Sindaco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Doria</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Razzetti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Bernini</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2006">2006</date>
+<publisher>Edizioni Polistampa</publisher>
+<pubplace>Firenze</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Sindaco, R., Doria, G., Razzetti, E., Bernini, F. (2006): Atlas of Italian amphibians and reptiles (Atlante degli Anfibi e dei Rettili d'Italia). -Societas Herpetolo- gica Italica, Edizioni Polistampa, Firenze.</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">Systematic survey of amphibian and reptile fauna in the Bosilegrad region of southern Serbia</title>
+<author>
+<persname><forename type="first">B</forename><surname>Sterijovski</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Beograd. -Biologia Serbica</title>
+<editor>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Sarić</surname></persname>
+</editor>
+<imprint>
+<biblscope unit="volume">36</biblscope>
+<biblscope unit="issue">1-2</biblscope>
+<biblscope from="65" to="68" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note>Flora Srbije 1. -Srpska akademija nauka i umetnosti</note>
+<note type="raw_reference">Sterijovski, B. (2014): Systematic survey of amphibian and reptile fauna in the Bo- silegrad region of southern Serbia. In: Sarić, M. R. (ed.): Flora Srbije 1. -Srp- ska akademija nauka i umetnosti, Beograd. -Biologia Serbica 36(1-2): 65-68.</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<monogr>
+<title level="m" type="main">Floristička podela teritorije Srbije sa pregledom viših horiona i odgovarajućih flornih elemenata</title>
+<author>
+<persname><forename type="first">V</forename><surname>Stevanović</surname></persname>
+</author>
+<imprint>
+<date type="published" when="1992">1992</date>
+<biblscope from="47" to="56" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Stevanović, V. (1992): Floristička podela teritorije Srbije sa pregledom viših horiona i odgovarajućih flornih elemenata.: 47-56.</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">Distribution and diversity of amphibians in Albania: new data and foundations of a comprehensive database</title>
+<author>
+<persname><forename type="first">M</forename><surname>Szabolcs</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Mizsei</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jablonski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Vági</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Master</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Végvári</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Lengyel</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Amphibia -Reptililia</title>
+<imprint>
+<biblscope unit="volume">38</biblscope>
+<biblscope from="435" to="448" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Szabolcs, M., Mizsei, E., Jablonski, D., Vági, B., Master, B., Végvári, Z., Lengyel, S. (2017): Distribution and diversity of amphibians in Albania: new data and foundations of a comprehensive database. -Amphibia -Reptililia 38: 435-448.</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">Herpetološka osmatranja na Fruškoj Gori</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Tadijan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Mikeš</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Zbornik studentskih radova, Institut za biologiju PMF</title>
+<meeting><address><addrline>Novi Sad</addrline></address></meeting>
+<imprint>
+<publisher>Prirodnomatematički fakultet</publisher>
+<date type="published" when="1984">1984</date>
+<biblscope from="41" to="50" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Tadijan, Z., Mikeš, M. (1984): Herpetološka osmatranja na Fruškoj Gori. In: Zbornik studentskih radova, Institut za biologiju PMF: 41-50. -Prirodnomate- matički fakultet, Novi Sad.</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">Reptiles in Serbia-Distribution and Diversity Patterns</title>
+<author>
+<persname><forename type="first">Lj</forename><surname>Tomović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ajtić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Ljubisavljević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Urošević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Krizmanić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Labus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Đorđević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Kalezić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Vukov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bulletin of the Natural History Museum</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope from="129" to="158" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Tomović, Lj., Ajtić, R., Ljubisavljević, K., Urošević, A., Jović, D., Krizmanić, I., Labus, N., Đorđević, S., Kalezić, M. L., Vukov, T., Džukić, G. (2014): Reptiles in Serbia-Distribution and Diversity Patterns. -Bulletin of the Natural History Museum 7: 129-158.</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">Contribution to the Knowledge of Distribution of Colubrid Snakes in Serbia</title>
+<author>
+<persname><forename type="first">Lj</forename><surname>Tomović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Urošević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ajtić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Krizmanić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Simović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Labus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Krstić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Đorđević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Anđelković</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Golubović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecologica Montenegrina</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="162" to="186" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Tomović, Lj., Urošević, A., Ajtić, R., Krizmanić, I., Simović, A., Labus, N., Jović, D., Krstić, M., Đorđević, S., Anđelković, M., Golubović, A., Džukić, G. (2015): Contribution to the Knowledge of Distribution of Colubrid Snakes in Serbia. -Ecologica Montenegrina 2(3): 162-186.</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">Contribution to the herpetofauna of Serbia -Distribution of Reptiles in Kosovo and Metohija Province</title>
+<author>
+<persname><forename type="first">Lj</forename><surname>Tomović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Timotijević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ajtić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Krizmanić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Labus</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">University Thought</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="1" to="6" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Tomović, Lj., Timotijević, M., Ajtić, R., Krizmanić, I., Labus, N. (2018): Contribution to the herpetofauna of Serbia -Distribution of Reptiles in Kosovo and Metohija Province. -University Thought 8(2): 1-6.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Rana graeca</title>
+<author>
+<persname><forename type="first">A</forename><surname>Urošević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Crvena knjiga faune Srbije I: Vodozemci</title>
+<editor>
+<persname><forename type="first">M</forename><surname>Kalezić</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">Lj</forename><surname>Tomović</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</editor>
+<meeting><address><addrline>Beograd</addrline></address></meeting>
+<imprint>
+<date type="published" when="2015">2015</date>
+<biblscope from="186" to="191" unit="page"></biblscope>
+</imprint>
+<respstmt>
+<orgname>Univerzitet u Beogradu -Biološki fakultet i Zavod za zaštitu prirode Srbije</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">Urošević, A., Džukić, G. (2015a): Rana graeca. In: Kalezić, M., Tomović, Lj., Džukić, G. (ed.): Crvena knjiga faune Srbije I: Vodozemci: 186-191. - Univerzitet u Beogradu -Biološki fakultet i Zavod za zaštitu prirode Srbije, Beograd.</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Rana temporaria</title>
+<author>
+<persname><forename type="first">A</forename><surname>Urošević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Crvena knjiga faune Srbije I: Vodozemci</title>
+<editor>
+<persname><forename type="first">M</forename><surname>Kalezić</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">Lj</forename><surname>Tomović</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</editor>
+<meeting><address><addrline>Beograd</addrline></address></meeting>
+<imprint>
+<publisher>Univerzitet u Beogradu -Biološki fakultet i Zavod za zaštitu prirode Srbije</publisher>
+<date type="published" when="2015">2015</date>
+<biblscope from="192" to="198" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Urošević, A., Džukić, G. (2015b): Rana temporaria. In: Kalezić, M., Tomović, Lj., Džukić, G. (ed.): Crvena knjiga faune Srbije I: Vodozemci: 192-198. - Univerzitet u Beogradu -Biološki fakultet i Zavod za zaštitu prirode Srbije, Beograd.</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">Contribution to the Knowledge of Distribution and Diversity of Lacertid Lizards in Serbia</title>
+<author>
+<persname><forename type="first">A</forename><surname>Urošević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Ljubisavljević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lj</forename><surname>Tomović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Krizmanić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ajtić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Simović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Labus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Golubović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Anđelković</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecologica Montenegrina</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="197" to="227" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Urošević, A., Ljubisavljević, K., Tomović, Lj., Krizmanić, I., Ajtić, R., Simović, A., Labus, N., Jović, D., Golubović, A., Anđelković, M., Džukić, G. (2015): Contribution to the Knowledge of Distribution and Diversity of Lacertid Lizards in Serbia. -Ecologica Montenegrina 2 (3): 197-227.</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<analytic>
+<title level="a" type="main">Alterations in the Reptilian Fauna of Serbia: Introduction of Exotic and Anthropogenic Range Expansion of Native Species</title>
+<author>
+<persname><forename type="first">A</forename><surname>Urošević</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lj</forename><surname>Tomović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ajtić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Simović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Herpetozoa</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope unit="issue">3/4</biblscope>
+<biblscope from="115" to="132" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Urošević, A., Tomović, Lj., Ajtić, R., Simović, A., Džukić, G. (2016): Alterations in the Reptilian Fauna of Serbia: Introduction of Exotic and Anthropogenic Range Expansion of Native Species. -Herpetozoa 28(3/4): 115-132.</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<monogr>
+<title level="m" type="main">The amphibians and reptiles of Greece. -Chimaira</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">D</forename><surname>Valakos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Pafilis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Sotiropoulos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Lymberakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Maragous</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Foufopoulos</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2008">2008</date>
+<pubplace>Frankfurt am Main</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Valakos, E. D., Pafilis, P., Sotiropoulos, K., Lymberakis, P., Maragous, P., Foufopoulos, J. (2008): The amphibians and reptiles of Greece. -Chimaira, Frankfurt am Main.</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">Climatic oscillations triggered post-Messinian speciation of Western Palearctic brown frogs (Amphibia, Ranidae)</title>
+<author>
+<persname><forename type="first">M</forename><surname>Veith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kosuch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Vences</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Molecular Phylogenetics and Evolution</title>
+<imprint>
+<biblscope unit="volume">26</biblscope>
+<biblscope from="310" to="327" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Veith, M., Kosuch, J., Vences, M. (2003): Climatic oscillations triggered post- Messinian speciation of Western Palearctic brown frogs (Amphibia, Ranidae). -Molecular Phylogenetics and Evolution 26: 310-327.</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<monogr>
+<title level="m" type="main">A proposal for a chorotype classification of the Near East fauna, in the framework of the western Palearctic region</title>
+<author>
+<persname><forename type="first">A</forename><surname>Vigna Taglianti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Audisio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Biondi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bologna</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Carpaneto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>De Biase</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Fattorini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Piattella</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Sindaco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Venchi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Zapparoli</surname></persname>
+</author>
+<imprint>
+<date type="published" when="1999">1999</date>
+<biblscope from="31" to="59" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Vigna Taglianti, A., Audisio, P., Biondi, M., Bologna, M., Carpaneto, G., De Biase, A., Fattorini, S., Piattella, E., Sindaco, R., Venchi, A., Zapparoli, M. (1999): A proposal for a chorotype classification of the Near East fauna, in the framework of the western Palearctic region.: 31-59.</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<analytic>
+<title level="a" type="main">Amphibians in Serbia -distribution and diversity patterns</title>
+<author>
+<persname><forename type="first">T</forename><surname>Vukov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Kalezić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Lj</forename><surname>Tomović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Krizmanić</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Jović</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Labus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Džukić</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bulletin of the Natural History Museum</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope from="90" to="112" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vukov, T., Kalezić, M. L., Tomović, Lj., Krizmanić, I., Jović, D., Labus, N., Džukić, G (2013): Amphibians in Serbia -distribution and diversity patterns. - Bulletin of the Natural History Museum 6: 90-112.</note>
+</biblstruct>
+<biblstruct xml:id="b66">
+<analytic>
+<title level="a" type="main">On the monkeys of the Amazon</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Wallace</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Annals and Magazine of Natural History</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope from="451" to="454" unit="page"></biblscope>
+<date type="published" when="1852">1852</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wallace, A. R. (1852): On the monkeys of the Amazon. -Annals and Magazine of Natural History 14: 451-454.</note>
+</biblstruct>
+<biblstruct xml:id="b67">
+<analytic>
+<title level="a" type="main">New 'biodiversity' measures reveal a decrease in taxonomic distinctness with increasing stress</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Warwick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Clarke</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Marine Ecology Progress Series</title>
+<imprint>
+<biblscope unit="volume">129</biblscope>
+<biblscope from="301" to="305" unit="page"></biblscope>
+<date type="published" when="1995">1995</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Warwick, R. M., Clarke, K. R. (1995): New 'biodiversity' measures reveal a decrease in taxonomic distinctness with increasing stress. -Marine Ecology Progress Series 129: 301-305.</note>
+</biblstruct>
+<biblstruct xml:id="b68">
+<monogr>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">E</forename><surname>Zachos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Habel</surname></persname>
+</author>
+<title level="m">Biodiversity Hotspots -Distribution and Protection of Conservation Priority Areas</title>
+<meeting><address><addrline>Berlin-Heidelberg</addrline></address></meeting>
+<imprint>
+<publisher>Springer-Verlag</publisher>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zachos, F. E., Habel, J. C. (2011): Biodiversity Hotspots -Distribution and Protection of Conservation Priority Areas. -Springer-Verlag, Berlin-Heidelberg.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

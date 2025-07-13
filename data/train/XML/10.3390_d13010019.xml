@@ -1,0 +1,2612 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Trait-Based Investigation Reveals Patterns of Community Response to Nutrient Enrichment in Coastal Mesic Grassland</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2021-01-06">6 January 2021</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Joseph</forename><forename type="middle">K</forename><surname>Brown</surname></persname>
+<email>brownjk5@vcu.edu</email>
+<idno type="ORCID">0000-0002-3828-4729</idno>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Integrative Life Sciences Doctoral Program, Virginia Commonwealth University, 1000 West Cary Street, Richmond, VA 23284, USA;</note>
+<orgname type="department">Integrative Life Sciences Doctoral Program</orgname>
+<orgname type="institution">Virginia Commonwealth University</orgname>
+<address>
+<addrline>1000 West Cary Street</addrline>
+<postcode>23284</postcode>
+<settlement>Richmond</settlement>
+<region>VA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Department of Biology, Virginia Commonwealth University, 1000 West Cary Street, Richmond, VA 23284, USA</note>
+<orgname type="department">Department of Biology</orgname>
+<orgname type="institution">Virginia Commonwealth University</orgname>
+<address>
+<addrline>1000 West Cary Street</addrline>
+<postcode>23284</postcode>
+<settlement>Richmond</settlement>
+<region>VA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Julie</forename><forename type="middle">C</forename><surname>Zinnert</surname></persname>
+<email>jczinnert@vcu.edu</email>
+<idno type="ORCID">0000-0003-2578-7236</idno>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Department of Biology, Virginia Commonwealth University, 1000 West Cary Street, Richmond, VA 23284, USA</note>
+<orgname type="department">Department of Biology</orgname>
+<orgname type="institution">Virginia Commonwealth University</orgname>
+<address>
+<addrline>1000 West Cary Street</addrline>
+<postcode>23284</postcode>
+<settlement>Richmond</settlement>
+<region>VA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Trait-Based Investigation Reveals Patterns of Community Response to Nutrient Enrichment in Coastal Mesic Grassland</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2021-01-06">6 January 2021</date>
+</imprint>
+</monogr>
+<idno type="MD5">57693BB02048C0B86FCD09CC10DB3590</idno>
+<idno type="DOI">10.3390/d13010019</idno>
+<note type="submission">Received: 17 November 2020 Accepted: 30 December 2020</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-09-25T13:21+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>coastal grassland</term>
+<term>low-productivity system</term>
+<term>nutrient enrichment</term>
+<term>trait-based plant community</term>
+<term>nitrogen deposition</term>
+<term>phosphorus deposition</term>
+<term>nutrient co-limitation</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Despite recent advances, we still do not understand how chronic nutrient enrichment impacts coastal plant community structure and function.</s><s>We aimed to clarify such impacts by testing for differences in ecosystem productivity and multiple community metrics in response to fertilization.</s><s>We established plots in 2015 consisting of control (C), nitrogen (N), phosphorus (P), and nitrogen + phosphorus (NP) treatments in a mid-Atlantic coastal grassland.</s><s>In 2017 we collected aboveground biomass, functional traits, and species abundance for each plot.</s><s>Our findings indicate a synergistic colimitation, such that NP plots were more productive than all other treatments.</s><s>A combination of traits responsible for competition and nutrient uptake (i.e., height and δ 15 N) caused trait-based divergence of N and NP plots from C and P plots.</s><s>Functional trait-based composition patterns differed from species composition and lifeform abundance patterns, highlighting complexities of community response to nutrient enrichment.</s><s>While trait-based functional alpha-diversity did not differ among nutrient treatments, it was positively correlated with biomass production, suggesting nutrients may impact functional alpha-diversity indirectly through increased productivity.</s><s>Increased functional alpha-diversity could be a mechanism of co-existence emerging as productivity increases.</s><s>These results have important implications for understanding how plant communities in low-productivity coastal systems are altered by fertilization.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Global scale research has revealed effects of nutrient additions on productivity, species diversity/composition, and functional trait expressions of plant communities <ref target="#b0" type="bibr">[1]</ref><ref target="#b1" type="bibr">[2]</ref><ref target="#b2" type="bibr">[3]</ref><ref target="#b3" type="bibr">[4]</ref>.</s><s>It is recognized that anthropogenic activity alters global nutrient availability and deposition, most notably nitrogen (N) and phosphorus (P) <ref target="#b4" type="bibr">[5,</ref><ref target="#b5" type="bibr">6]</ref>.</s><s>Anthropogenic sources now surpass any natural process contributing to nutrient deposition <ref target="#b0" type="bibr">[1,</ref><ref target="#b6" type="bibr">7,</ref><ref target="#b7" type="bibr">8]</ref>.</s><s>Rapidly increasing rates of N and P addition through anthropogenic sources result in the emergence of questions regarding the effects nutrients, both individually and synergistically, have on the plant community and ecosystem dynamics.</s></p><p><s>Elser et al. <ref target="#b8" type="bibr">[9]</ref> and Fay et al. <ref target="#b0" type="bibr">[1]</ref> detail synergistic effects of N and P, demonstrating that in terrestrial ecosystems, simultaneous addition of N and P (NP) causes a larger response than either nutrient does individually.</s><s>Studies have shown increased deposition affects more than just productivity.</s><s>For example, increases in vegetative biomass after three years of nutrient addition cause subsequent decreases in sub-canopy light availability <ref target="#b3" type="bibr">[4,</ref><ref target="#b9" type="bibr">10]</ref>, often resulting in plant species loss <ref target="#b10" type="bibr">[11]</ref><ref target="#b11" type="bibr">[12]</ref><ref target="#b12" type="bibr">[13]</ref><ref target="#b13" type="bibr">[14]</ref>.</s><s>Studies investigating plant community response to nutrient additions indicate that nutrient enrichment can change community spatial and temporal variability, as well as alter succession patterns and community structure <ref target="#b14" type="bibr">[15]</ref><ref target="#b15" type="bibr">[16]</ref><ref target="#b16" type="bibr">[17]</ref>.</s></p><p><s>La Pierre and Smith <ref target="#b2" type="bibr">[3]</ref> found that species experiencing chronic fertilization express differences in functional traits compared to species in ambient conditions.</s><s>These previous works highlight the importance of investigating plant traits to understand mechanisms altering community structure in response to chronic nutrient enrichment <ref target="#b17" type="bibr">[18]</ref><ref target="#b18" type="bibr">[19]</ref><ref target="#b19" type="bibr">[20]</ref>.</s><s>Although the aforementioned research has laid the foundation regarding potential effects of nutrient enrichment on global change, gaps remain.</s><s>For example, a number of studies have investigated trait-based community patterns in response to nutrient enrichment <ref target="#b20" type="bibr">[21,</ref><ref target="#b21" type="bibr">22]</ref>, but uncertainties still remain regarding effects of nutrient enrichment on functional trait-based diversity (i.e., diversity of traits).</s></p><p><s>Limitations using species diversity to express plant diversity have increased interest in quantifying functional trait-based diversity (functional diversity) to answer questions regarding plant community organization, species interactions, and response to disturbances <ref target="#b22" type="bibr">[23,</ref><ref target="#b23" type="bibr">24]</ref>.</s><s>Functional diversity has become an important metric for understanding how species, as dynamic parts of a community, change organismal traits through interactions with the environment, which can impact ecosystem functioning <ref target="#b24" type="bibr">[25,</ref><ref target="#b25" type="bibr">26]</ref>.</s><s>Functional diversity metrics are indicators of community structural response to environmental perturbations <ref target="#b26" type="bibr">[27]</ref> and can be measured across multiple scales <ref target="#b27" type="bibr">[28]</ref>.</s><s>Both functional alphaand beta-diversity are computed using quantitative functional trait data collected on members of the plant community.</s><s>Here we define functional beta-diversity as the site-to-site variation among functional trait defined communities, while functional alpha-diversity is defined as functional trait diversity at the local-scale (i.e., within a plot).</s><s>These diversity metrics, along with analysis of specific differences in functional trait expression, can help decipher mechanisms of altered trait-based community structure in response to nutrient enrichment and increased productivity.</s><s>Current research focusing on functional diversity does not identify unified patterns of plant communities in response to nutrient enrichment, suggesting that responses may be dependent on combinations of nutrient treatments and regional or local pressures <ref target="#b28" type="bibr">[29]</ref><ref target="#b29" type="bibr">[30]</ref><ref target="#b30" type="bibr">[31]</ref>.</s></p><p><s>Most prominent nutrient enrichment studies have been conducted in agroecosystems or prairie grasslands with different soil profiles than coastal grasslands.</s><s>Coastal grassland soils are characterized by their highly leached sandy composition resulting in low nutrient content and low water holding capacity <ref target="#b31" type="bibr">[32]</ref>.</s><s>Increased N deposition is expected to occur in coastal ecosystems <ref target="#b32" type="bibr">[33,</ref><ref target="#b33" type="bibr">34]</ref>, and previous work has highlighted the need to understand how nutrients influence coastal plant communities <ref target="#b34" type="bibr">[35,</ref><ref target="#b35" type="bibr">36]</ref>.</s><s>Focusing on the coastal system response to nutrient accumulation will identify mechanisms altering coastal plant community function, leading to improved predictions of community trajectory and future functional change <ref target="#b33" type="bibr">[34,</ref><ref target="#b34" type="bibr">35]</ref>.</s><s>This is especially true for barrier island systems, where plant communities are tied closely to disturbance response <ref target="#b36" type="bibr">[37]</ref>.</s></p><p><s>Barrier islands are coastal systems occurring along 15% of coastlines globally with most occurring in the northern hemisphere <ref target="#b37" type="bibr">[38]</ref>.</s><s>Geographic areas where barrier islands are common coincide with areas expected to experience increased synthetic fertilizer use <ref target="#b32" type="bibr">[33,</ref><ref target="#b38" type="bibr">39]</ref>.</s><s>By 2100, N enrichment in the continental U.S. is expected to increase by 19%, with the Atlantic coast experiencing the largest regional increase <ref target="#b38" type="bibr">[39]</ref>.</s><s>High nutrient enrichment from run-off and atmospheric deposition is a major influence on barrier island plant communities given the prominence of sandy-soil compositions and high N limitation <ref target="#b31" type="bibr">[32,</ref><ref target="#b35" type="bibr">36]</ref>.</s><s>Nutrient enrichment studies on coastal dune systems show that N addition causes long-term plant community change <ref target="#b35" type="bibr">[36]</ref>, yet P has not been identified as a limiting nutrient in terrestrial coastal systems <ref target="#b39" type="bibr">[40,</ref><ref target="#b40" type="bibr">41]</ref>.</s><s>Patterns revealing NP synergistic co-limitation at global scales necessitates investigation of both nutrients in coastal systems <ref target="#b0" type="bibr">[1,</ref><ref target="#b8" type="bibr">9]</ref>.</s><s>We build upon previous research by investigating effects of nutrient enrichment on trait-based communities of a mid-Atlantic coastal mesic grassland.</s></p><p><s>Our goal was twofold.</s><s>First, we tested how chronic (3 year) nutrient addition affects trait-based community structure and function.</s><s>Specifically, we tested whether N, P, and NP enrichment increases community-level biomass and/or modifies specific functional trait expressions.</s><s>We hypothesize that, due to N limitation in coastal systems, biomass will show notable increase under N and NP treatments, with NP prompting a co-limitation effect such that biomass produced after NP fertilization will be significantly higher than biomass produced by N or P alone.</s><s>Furthermore, we predict that functional traits promoting resource acquisition (e.g., height, specific leaf area, and leaf N traits) will be expressed in N and NP treatments, due to increased competition for light in nutrient-rich environments.</s><s>Second, we investigated community-level functional trait change using trait-based community composition and trait diversity (functional alpha-and beta-diversity).</s><s>We hypothesize that N and NP treatments will alter trait-based community composition and that such changes will be accompanied by increased functional alpha-and beta-diversity.</s><s>Furthermore, we expect that functional alpha-and beta-diversity will have a significant relationship with biomass productivity.</s><s>Identifying how nutrients impact productivity, specific functional trait expressions, and trait-based community composition and diversity may improve predictions of trait-based vegetation change in sand-based coastal grasslands as global change drivers like nutrient enrichment persist.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Materials and Methods</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Study Site<p><s>Hog Island (37.417</s><s>N, 75.686</s><s>W) is one of 13 barrier islands in the Virginia Coast Reserve (VCR) Long-Term Ecological Research site along the US Atlantic coast.</s><s>The VCR is experiencing shrub encroachment by Morella cerifera on a landscape scale <ref target="#b41" type="bibr">[42]</ref>.</s><s>M. cerifera is a N-fixing shrub that dominates later successional swales and may be facilitated by the presence of a grass canopy <ref target="#b42" type="bibr">[43,</ref><ref target="#b43" type="bibr">44]</ref>.</s><s>Due to extensive shrub cover on the northern end of Hog Island, plots were established on the southern end in a recently developed swale (i.e., dune slack) composed of perennial grass and annual/biennial forb species.</s><s>Dominant graminoids at our grassland site included Spartina patens, Setaria parvifolia, Andropogon virginicus, and Ammophila breviligulata, which is a common dune grass in this region but also occurs frequently in swales <ref target="#b42" type="bibr">[43]</ref>.</s><s>Other graminoid species like Fimbrystylis castanea and Cyperus esculentes were less abundant but were also found at the site.</s><s>Forb species were generally less dominant but included Solidago sempervirens and Conyza canadensis.</s><s>Soils at our nutrient enrichment plots are sandy and well-drained, and relatively young due to high overwash occurrence in the early 2000s.</s><s>Untreated areas indicate that %N in the soils ranged from 0.02-0.03%,</s><s>while P ranged from 6-10 ppm.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Plot Establishment and Nutrient Application<p><s>Nutrient enrichment plots were installed on Hog Island in 2015 <ref target="#b44" type="bibr">[45]</ref>.</s><s>Plots followed a randomized design modified from the Nutrient Network (https://nutnet.org/) to include three treatments (N = nitrogen, P = phosphorus, NP = nitrogen + phosphorus, and C = Control), replicated five times per treatment (N = 20 total experimental units, n = 5 per treatment).</s><s>Each unit was 3 m 2 with 1 m walkways, which were not recognized as usable plot space.</s><s>Units were subdivided into four 1 m 2 subplots.</s><s>Nutrient applications were completed twice per growing season (May and June) from 2015-2017.</s><s>Annual N and P application totaled 10 g m -2 yr -1 , while NP plots totaled 20 g m -2 yr -1 (10 g m -2 of N and 10 g m -2 of P).</s><s>Phosphorus was applied as triple super phosphate, while N was applied as ammonium nitrate in particulate solid form.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Biomass and Species Composition Sampling<p><s>Biomass was defined as all aboveground vegetation at the end of the 2017 growing season (September 2017) and was collected to assess ecosystem productivity.</s><s>Aboveground vegetation was harvested from one subplot to ground level within a haphazardly placed 0.1 × 1 m frame and extrapolated to represent plot level productivity (g m -2 ).</s><s>Samples were oven-dried for 72 h at 60 • C and weighed (g).</s><s>Species composition was sampled using areal cover estimation (%) of each species, bare ground, and dead plant material, such that total cover of each plot summed to 100%.</s><s>In July of 2017, species cover was assessed in a subplot that had not previously been used for destructive sampling.</s><s>For logistical purposes, the five most abundant species in each plot were used for trait sampling.</s><s>The top five species accounted for ~75% of the relative vegetation cover in all plots.</s><s>Spartina patens and A. breviligulata were consistently the most dominant species in each plot.</s><s>The annual forb C. canadensis had top five abundance in C and N plots but not in P or NP plots.</s><s>This was the only difference in lifeform of the top five species as all other species were graminoids.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Functional Trait Selection and Sampling<p><s>Functional traits were selected to best understand the mechanisms of plant response to ecological dynamics including environmental and biotic interactions.</s><s>Aboveground traits we selected highlight some trade-offs between rapid growth and resource conservatism.</s><s>Investigating plant traits that exist on a resource use spectrum aids in understanding mechanisms of survival for plants in areas of different limiting factors <ref target="#b45" type="bibr">[46]</ref>.</s><s>Maximum height was selected as a competitive trait, as it likely indicates plant response to low light from shading during increased biomass productivity <ref target="#b46" type="bibr">[47]</ref>.</s><s>Height covaries with other plant growth traits including photosynthetic rate, relative growth rate, and leaf lifespan <ref target="#b47" type="bibr">[48]</ref>.</s><s>Leaf traits including specific leaf area (SLA) leaf nitrogen content (%N), and leaf carbon content (%C) indicate trade-offs between rapid growth and resource conservation in highly productive and resource-limited communities <ref target="#b48" type="bibr">[49,</ref><ref target="#b49" type="bibr">50]</ref>.</s><s>Last, 15 N: 14 N (δ 15 N) was selected to investigate mechanisms of nutrient uptake or fixation through symbiotic relationships <ref target="#b50" type="bibr">[51]</ref><ref target="#b51" type="bibr">[52]</ref><ref target="#b52" type="bibr">[53]</ref>.</s></p><p><s>Maximum height was measured in cm before harvesting by extending the longest leaf of the three tallest individuals for each species.</s><s>Aboveground samples were harvested for one randomly selected individual for each of the top five species in each plot.</s><s>Samples were immediately wrapped in the moist paper towel, stored in a plastic bag, and were stored in a dark refrigerator while processing took place.</s><s>One leaf from each plant was re-hydrated and used to measure SLA using a computer scanning method to digitize leaf samples and capture projected leaf area (cm 2 ).</s><s>Leaf samples were then oven-dried at 60 • C for 72 h and weighed (g).</s><s>Dried leaf samples were ground into powder with a Wiley Mini-Mill and shipped to the Cornell Isotope Laboratory (COIL, Ithaca, New York, USA) for carbon and nitrogen elemental analysis (%C and %N) and isotope analysis (δ 15 N).</s><s>All samples for aforementioned foliar traits were collected in the summer of 2017.</s><s>Species abundance was used to calculate community-weighted means (CWMs) for each functional trait:</s></p><formula xml:id="formula_0">CWM = R ∑ i p i t i (<label>1</label></formula><formula xml:id="formula_1">)</formula><p><s>where R is the number of samples, p i is the relative abundance of species i, and t i is the mean trait value of species i [54].</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Statistical Analysis<p><s>All analyses conducted as part of this study were performed using R (R Core Team, v. 3.5.0,</s><s>2018).</s><s>To determine the effect of nutrient enrichment on plot scale productivity, we performed a one-way ANOVA on mean biomass production in 2017 (α = 0.05).</s><s>Tukey HSD was performed to test for pairwise differences among treatments.</s><s>Similarly, after confirming assumptions of normality and equal variance, we used ANOVAs to determine whether any CWM functional traits differed among treatment groups (α = 0.05).</s><s>When significant differences existed between groups, Tukey HSD was used as a post-hoc test to determine which treatments differed significantly.</s></p><p><s>Principal components analysis (PCA) ordination was used to visualize how nutrient enrichment affected community-level variation in CWM functional trait profiles (solution checked using scree plot).</s><s>CWM traits were standardized to a mean of zero and unit variance to ensure no single trait would over-influence plot relationships in the trait space.</s><s>We used the envfit function in vegan to create a vector overlay of CWM trait values indicating how specific traits are influencing plot position in trait space <ref target="#b54" type="bibr">[55]</ref>.</s><s>Centroids were calculated for each of the convex hulled treatment groups.</s></p><p><s>Species community composition was visualized using non-metric multidimensional scaling (NMDS) ordination.</s><s>We utilized Bray-Curtis distance measure to calculate a distance matrix of relative species abundance for each treatment replicate.</s><s>The NMDS was run to a minimized stress value (stress &lt; 0.2) using 3 dimensions (maximum iteration = 999).</s><s>We performed the ordination in the vegan R package <ref target="#b54" type="bibr">[55]</ref>.</s><s>For purposes of interpretation, a PCA rotation was applied to the finalized NMDS, such that NMDS axis 1 and 2 represent maximum variation of the data.</s></p><p><s>For both trait and species composition analysis, treatment groups were tested using a permutational MANOVA (PERMANOVA) to determine if nutrient enrichment significantly changed CWM trait and/or species composition <ref target="#b55" type="bibr">[56]</ref> (max iteration = 999; α = 0.05).</s><s>PERMANOVA makes no assumptions about the distribution of response variables or dissimilarities and is robust to assess heterogeneity of variances when used on balanced designs <ref target="#b55" type="bibr">[56]</ref>.</s><s>Post-hoc pairwise testing was conducted to determine which treatments significantly differed in CWM trait composition (α = 0.05, FDR adjustment).</s></p><p><s>To satisfy assumptions of normality and variance we log transformed our cover data prior to performing a two-way ANOVA on % cover of graminoid and forb lifeforms among nutrient treatments (α = 0.05) to determine whether lifeform abundance differed among communities receiving different nutrient treatments.</s><s>We found no significant lifeform x treatment interaction, and thus proceeded to testing for significant differences of main effects.</s><s>Tukey HSD was used as a post-hoc test when appropriate (α = 0.05).</s></p><p><s>Functional alpha-diversity was calculated as Rao's quadratic entropy (FD Q ).</s><s>We selected FD Q because it handles multiple trait variables and aims to estimate species dispersion in multidimensional trait space at the plot level, weighting solutions by relative abundance <ref target="#b56" type="bibr">[57,</ref><ref target="#b57" type="bibr">58]</ref>.</s><s>Functional alpha-diversity indices were calculated using the FD package <ref target="#b58" type="bibr">[59]</ref>.</s><s>Functional beta-diversity was calculated using betadisper in the R vegan package which calculates beta dispersion, or the distance of each plot to the mean center of each treatment group <ref target="#b54" type="bibr">[55]</ref>.</s><s>Beta dispersion tests for homogeneity of group dispersion and is a common quantitative metric of beta-diversity <ref target="#b59" type="bibr">[60,</ref><ref target="#b60" type="bibr">61]</ref>.</s><s>We used ANOVA (with Tukey HSD post-hoc) and simple linear regression analysis (α = 0.05) to determine the impact of nutrients on functional diversity and the relationship between functional diversity and biomass, respectively.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Biomass Response to Nutrients<p><s>Biomass production significantly differed among nutrient treatments (Figure <ref type="figure">1</ref>; F 3, 16 = 18.5, p &lt; 0.0001).</s><s>Of all the nutrient treatment groups, NP had the highest biomass production with the lowest biomass production occurring in C and P plots (Figure <ref type="figure">1</ref>).</s><s>NP plots were significantly more productive than both P and N plots (Figure <ref type="figure">1</ref>), suggesting a nutrient synergistic co-limitation.</s><s>Although N plots produced lower biomass than NP plots, we found that mean biomass was still significantly higher than P and C plots, with mean productivity approximately three to four times higher (Figure <ref type="figure">1</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Community-Level Trait Response</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Individual Trait Differences Among Treatments<p><s>Community-weighted functional traits varied across nutrient treatments.</s><s>Communityweighted height was significantly different among nutrient treatments (F 3, 16 = 72.2,</s><s>p &lt; 0.0001), with N and NP plots having the tallest communities on average (Figure <ref target="#fig_2" type="figure">2A</ref>).</s><s>We found that N and NP fertilization increased community-weighted plant height between 34-55% compared to P and C plots.</s><s>There was no significant treatment effect on SLA (Figure <ref target="#fig_2" type="figure">2B</ref>).</s><s>Although aboveground tissue in NP plots was enriched in 15 N isotope, the difference was not significant compared to C and P plots (Figure <ref target="#fig_2" type="figure">2C</ref>).</s><s>Aboveground tissues in N plots had enriched 15 N isotope levels compared to C and P plots, shifting δ 15 N from below 0 to above 3 ppt (Figure <ref target="#fig_2" type="figure">2C</ref>).</s><s>Values of foliar %C showed a small but significant increase in N plots compared to C plots (+4.6%, Figure <ref target="#fig_2" type="figure">2D</ref>).</s><s>Leaf %N did not differ among treatments (Figure <ref target="#fig_2" type="figure">2E</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Community-Level Trait Response</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Individual Trait Differences Among Treatments<p><s>Community-weighted functional traits varied across nutrient treatments.</s><s>Community-weighted height was significantly different among nutrient treatments (F3, 16 = 72.2,</s><s>p &lt; 0.0001), with N and NP plots having the tallest communities on average (Figure <ref target="#fig_2" type="figure">2A</ref>).</s><s>We found that N and NP fertilization increased community-weighted plant height between 34-55% compared to P and C plots.</s><s>There was no significant treatment effect on SLA (Figure <ref target="#fig_2" type="figure">2B</ref>).</s><s>Although aboveground tissue in NP plots was enriched in 15 N isotope, the difference was not significant compared to C and P plots (Figure <ref target="#fig_2" type="figure">2C</ref>).</s><s>Aboveground tissues in N plots had enriched 15 N isotope levels compared to C and P plots, shifting δ 15 N from below 0 to above 3 ppt (Figure <ref target="#fig_2" type="figure">2C</ref>).</s><s>Values of foliar %C showed a small but significant increase in N plots compared to C plots (+4.6%, Figure <ref target="#fig_2" type="figure">2D</ref>).</s><s>Leaf %N did not differ among treatments (Figure <ref target="#fig_2" type="figure">2E</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Trait, Species, and Lifeform Composition<p><s>A total of 68.9% of the variation in our data was explained by the functional trait metrics used in the PCA (PC1 = 40.9%,</s><s>PC2 = 28.0%).</s><s>We found that nutrient treatments resulted in significantly different trait-based community composition (Figure <ref target="#fig_4" type="figure">3</ref>, PER-MANOVA: F 3, 16 = 4.65, p &lt; 0.001).</s><s>Trait-based communities of N and NP plots occupied significantly different functional trait space compared to C and P plots, primarily diverging along PC1 (Figure <ref target="#fig_4" type="figure">3</ref>, Table <ref target="#tab_0" type="table">1</ref>).</s><s>All traits were significantly correlated with PC1 and/or PC2 and can be used to indicate how nutrients drive trait-based community position in trait space (Table <ref target="#tab_1" type="table">S1</ref>).</s><s>For example, height, δ 15 N, and %C, were strongly correlated with PC1, indicating plots treated with N/NP are separate from C/P-treated plots because N-and NP-treated communities are taller and have higher levels of foliar δ 15 N and %C (Table <ref target="#tab_1" type="table">S1</ref>, Figure <ref target="#fig_4" type="figure">3</ref>).</s><s>Our multivariate analysis shows more clearly how traits like foliar δ 15 N and %C impact the dissimilarity of N/NP communities and C/P communities compared to investigations of these traits using univariate analysis alone.</s><s>Likewise, SLA had a strong positive correlation with PC2, while %N and %C had negative correlations with PC2, influencing separation of N and NP plots in trait space (Table <ref target="#tab_1" type="table">S1</ref>, Figure <ref target="#fig_4" type="figure">3</ref>), a pattern that is not as clear after investigating univariate trait response of SLA, %N, and %C.</s><s>indicate that trait, species, and lifeform composition provide different perspectives regarding community-level response to nutrient addition in a coastal mesic grassland.</s><s><ref target="#tab_1" type="table">S1</ref>).</s><s>Neither functional alpha-nor beta-diversity of trait-based communities were significantly different based on nutrient treatment (Figure <ref target="#fig_8" type="figure">4A</ref>,B, ANOVA: F3, 16 = 1.42, p = 0.2746 and F3, 16 = 1.91, p = 0.1693, respectively).</s><s>However, there was a significant positive correlation between aboveground biomass and functional alpha-diversity (Figure <ref target="#fig_8" type="figure">4C</ref>), while the relationship between functional beta-diversity and biomass was weak and non-significant (Figure <ref target="#fig_8" type="figure">4D</ref>).</s><s>This pattern indicates that functional alpha-diversity is not so much  <ref target="#tab_1" type="table">S1</ref>).</s></p><p><s>Differences in species composition were also found among treatments (Figure <ref type="figure">S1</ref>, PER-MANOVA: F 3, 16 = 4.52, p &lt; 0.001).</s><s>Species composition was significantly different among all treatments, despite the similarities we find in functional composition of N/NP and C/P communities (Table <ref type="table">S2</ref>).</s><s>We also found that, across all treatments, mean graminoid cover was significantly higher than mean forb cover (Figure <ref target="#fig_2" type="figure">S2</ref>, ANOVA: F 3, 16 = 77.65,</s><s>p &lt; 0.0001).</s><s>However, abundance of lifeforms did not differ among communities experiencing different nutrient enrichment treatments (Figure <ref target="#fig_2" type="figure">S2</ref>; ANOVA: F 1, 16 = 0.53, p &gt; 0.05).</s><s>For example, graminoid abundance did not differ among treatment groups.</s><s>These results indicate that trait, species, and lifeform composition provide different perspectives regarding community-level response to nutrient addition in a coastal mesic grassland.</s><s>Neither functional alpha-nor beta-diversity of trait-based communities were significantly different based on nutrient treatment (Figure <ref target="#fig_8" type="figure">4A</ref>,B, ANOVA: F 3, 16 = 1.42, p = 0.2746 and F 3, 16 = 1.91, p = 0.1693, respectively).</s><s>However, there was a significant positive correlation between aboveground biomass and functional alpha-diversity (Figure <ref target="#fig_8" type="figure">4C</ref>), while the relationship between functional beta-diversity and biomass was weak and non-significant (Figure <ref target="#fig_8" type="figure">4D</ref>).</s><s>This pattern indicates that functional alpha-diversity is not so much influenced by nutrient treatment as it is linked to biomass production in each plot, which is significantly higher in N and NP plots (Figure <ref target="#fig_8" type="figure">4C</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion<p><s>We show the influence of chronic (3 year) nutrient enrichment on community-level biomass, specific functional trait expressions, and trait-based community composition and diversity in a coastal grassland.</s><s>It is clear that N enrichment had significant impacts</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion<p><s>We show the influence of chronic (3 year) nutrient enrichment on community-level biomass, specific functional trait expressions, and trait-based community composition and diversity in a coastal grassland.</s><s>It is clear that N enrichment had significant impacts on community biomass production.</s><s>NP exhibited a synergistic co-limitation effect on biomass production such that NP treatments produced higher biomass than either N or P treatments individually.</s><s>These findings are consistent with previous studies showing synergistic nutrient effects in other terrestrial systems <ref target="#b0" type="bibr">[1,</ref><ref target="#b8" type="bibr">9]</ref>.</s><s>However, it is interesting that P alone had no effect on productivity because it has been shown to increase productivity in other grassland systems <ref target="#b0" type="bibr">[1]</ref>.</s><s>This is particularly surprising at our grassland site because, according to our NMDS results, P alters community species composition, even without evidence of causing differences in productivity or functional trait-based composition.</s><s>We found that biomass production in N and NP plots are on average four and seven times higher than C plots, respectively.</s><s>This follows global scale trends which indicate that N and NP deposition increases biomass production by, on average, 18% and 40% compared to C plots, respectively <ref target="#b0" type="bibr">[1]</ref>.</s><s>Considering the extent of coastal grassland distribution worldwide, our findings emphasize the importance of including more coastal grasslands when investigating response to nutrient enrichment at the global scale.</s></p><p><s>Our investigation of specific functional traits shows that some functional trait expressions associated with competition and altered nutrient acquisition (i.e., height and δ 15 N) were significantly higher in N and NP plots, similar to other nutrient enrichment studies <ref target="#b19" type="bibr">[20,</ref><ref target="#b61" type="bibr">62]</ref>.</s><s>Differences in plant height are likely driven by increased competition for light, as N and NP increase aboveground biomass production <ref target="#b19" type="bibr">[20,</ref><ref target="#b61" type="bibr">62]</ref>.</s><s>It is important to note that increased height can also be a result of higher N acquisition, allowing for species to grow more prolifically than if they were in an N-limited environment.</s><s>We found that other traits remained unchanged among nutrient enrichment treatments (i.e., %N and SLA), indicating that certain traits are conserved in coastal systems regardless of nutrient additions.</s><s>These trait responses stray from what global patterns have shown, such as those found by Firn et al. <ref target="#b18" type="bibr">[19]</ref>, which identify leaf N content as an important indicator of nutrient inputs.</s><s>As leaf N was not affected by fertilization, investigating root traits in future studies may inform aboveground responses.</s><s>Previous research highlights that increased N acquisition by roots may affect other functional traits, like δ 15 N, which correlates with leaf N content <ref target="#b62" type="bibr">[63]</ref>.</s></p><p><s>Foliar δ 15 N is traditionally used as the primary metric for whole plant δ 15 N and varies as a result of multiple environmental changes including N deposition <ref target="#b63" type="bibr">[64]</ref>.</s><s>Increased availability and uptake of N can result in δ 15 N enrichment in plant tissues <ref target="#b62" type="bibr">[63,</ref><ref target="#b64" type="bibr">65,</ref><ref target="#b65" type="bibr">66]</ref>, most typically through mechanisms of decreasing plant dependence on fungal and microbial associates to capture and fix N <ref target="#b51" type="bibr">[52,</ref><ref target="#b66" type="bibr">67]</ref>.</s><s>In our study, we found that CWM δ 15 N values in C plots was ~0 ppt, which could suggest plants in untreated communities rely on N 2 fixation through symbiotic rhizosphere relationships, a mechanism found in the dominant coastal shrub M. cerifera <ref target="#b67" type="bibr">[68,</ref><ref target="#b68" type="bibr">69]</ref>.</s><s>Symbiotic relationships are an important N acquisition strategy in N-limited coastal systems <ref target="#b69" type="bibr">[70]</ref> and may be disrupted by N additions.</s><s>While we did not specifically test for changes in microbial communities associated with plant root systems, increased δ 15 N enrichment has been linked to plant dissociation from N-fixing bacteria, mycorrhizal fungi, or both when N becomes more readily available during fertilization <ref target="#b70" type="bibr">[71]</ref><ref target="#b71" type="bibr">[72]</ref><ref target="#b72" type="bibr">[73]</ref>.</s><s>Previous research has also shown that soil microbial communities can be directly affected by nutrient inputs <ref target="#b73" type="bibr">[74,</ref><ref target="#b74" type="bibr">75]</ref>.</s><s>If microbial community changes occur in a way that effectively decreases microbial support to plants, functional trait differences could emerge as plants compensate for the loss of microbial relationships.</s><s>Further studies are necessary to understand how nutrient enrichment impacts microbial communities and their plant associations in coastal soils.</s></p><p><s>Surprisingly, we found that different patterns emerged depending on whether we analyzed trait-based composition, species composition, or lifeform abundance.</s><s>As hypothesized, trait-based community analysis provided evidence that N and NP treatments filter trait combinations that favor survival when biomass is high (i.e., in biotically competitive scenarios).</s><s>Directional divergence of communities experiencing different nutrient enrichment treatments (in multivariate trait space) indicates the importance of incorporating multiple aboveground trait combinations when investigating drivers of trait-based community composition.</s><s>In contrast with these trait-based patterns, we uncovered distinct differences in species composition among our nutrient treatments, such that all communities were significantly different from one another, while abundance of different lifeforms in each treatment community exhibit yet another pattern, in which all treatments were similar in relative forb and graminoid cover.</s><s>Contrasting patterns between trait, species, and lifeform response presents an important complexity that has lacked focus in nutrient enrichment studies.</s><s>It is critical to determine how each type of community investigation technique contributes to our understanding of plant community response to nutrient enrichment.</s><s>While we did not specifically test why these community-level analyses differ in their response to nutrient enrichment, we recognize that contrasting patterns among trait, species, and lifeform analyses could be relevant to questions that are currently being pursued in other investigations of plant community response to nutrient enrichment.</s><s>For this reason, we highlight two possible explanations for such community responses below and encourage future work emphasizing these points.</s></p><p><s>First, these patterns could indicate that nutrient enrichment influences functional traits, species composition, and lifeform abundance independently.</s><s>For example, it is possible that functional trait responses would not match species composition changes if nutrient treatments are not causing complete species turnover.</s><s>Global change drivers like nutrient enrichment can influence species composition in a plethora of ways including species rank and evenness changes <ref target="#b75" type="bibr">[76]</ref>.</s><s>If differences in species composition among nutrient treatments are caused by reordering of subordinate species or increased dominance of the most abundant species, we may not see differences reflected in community level functional traits because the dominant species still contribute most to the community functional trait expression.</s></p><p><s>Second, to fully understand how nutrient additions impact plant communities, it is of interest to determine whether altered functional trait expressions lead to changes in species composition, or vice versa.</s><s>In our coastal grassland system, it is possible that functional traits, species composition, and lifeform abundance may change sequentially.</s><s>Such a phenomenon could exist because nutrient additions play a critical role in increasing biomass production which consequentially changes plant competitive interactions through modified functional traits of community members.</s><s>This mechanism leads to competitive exclusion of certain species under a new highly productive community, resulting in altered species composition.</s><s>However, the inverse relationship could also be true.</s><s>Nutrients could reorganize species abundances by opening a niche space for species that would otherwise be unable to germinate and colonize a given resources space, resulting in new plant species contributing to community-level functional trait compositions.</s><s>Given these complexities, we encourage the use of other community-level functional trait metrics to disentangle changes in functional trait compositions, like functional alpha-and beta-diversity which we tested at our coastal grassland site.</s></p><p><s>We did not find that functional alpha-diversity varied significantly among nutrient treatments.</s><s>However, we did find a significant positive correlation signifying that functional alpha-diversity is coupled with increased biomass production which is caused by N and NP enrichment.</s><s>The coupled response of biomass and functional alpha-diversity response is likely a critical piece in identifying mechanisms of local-scale co-existence.</s><s>In this case, when biomass is high, competitive interactions result in dissimilar trait values for co-occurring species at the alpha-level <ref target="#b76" type="bibr">[77]</ref>.</s><s>However, it is surprising that the pattern of increased alpha-diversity was only seen in relation to biomass and not among different nutrient enrichment treatments.</s><s>This pattern may indicate an indirect influence of nutrient enrichment on functional diversity at the alpha-level.</s><s>For example, nutrient enrichment may have an influence on specific functional trait responses, but the diversity of traits at the plot level are more influenced by biomass productivity.</s><s>This information supports that functional diversity at the alpha-level can help determine how modified functional trait expressions influence species compositions as varying nutrient treatments increase biomass production.</s><s>Similar findings have been found in other grassland communities <ref target="#b46" type="bibr">[47]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusions and Implications for Coastal Systems<p><s>Combined deposition of N and P effectively releases plant communities from an environmental filter (i.e., an abiotic factor influencing species success/establishment) and drives feedbacks between altered plant functional trait expressions and community productivity.</s><s>As biomass increased with nutrient enrichment, we found functional alpha-diversity also increased.</s><s>The positive relationship between functional alpha-diversity and aboveground biomass may be evidence of a species co-occurrence mechanism stemming from limiting functional trait similarity among species <ref target="#b46" type="bibr">[47]</ref>.</s><s>Limiting similarity of functional traits between co-occurring species in relatively high productivity environments is a common mechanism promoting species co-existence <ref target="#b77" type="bibr">[78]</ref>.</s><s>The increase in functional diversity at the local scale in our system can contribute to our understanding of processes governing community assembly (i.e., competition vs. environmental filtering), which has not been comprehensively investigated through manipulation experiments in high-disturbance, low-productivity coastal systems.</s><s>Functional alpha-diversity can also specify how environmental perturbations relevant to coastal systems (i.e., nutrient enrichment) influence community structure and ecosystem functions like productivity and resilience <ref target="#b26" type="bibr">[27,</ref><ref target="#b77" type="bibr">78]</ref>.</s></p><p><s>It is important to recognize that while certain individual functional trait responses may be more unified in response to nutrient enrichment at global scales, others are likely driven by overarching environmental variability specific to certain ecosystem types.</s><s>For example, we find certain traits (e.g., plant height) follow patterns uncovered in many other systems <ref target="#b78" type="bibr">[79]</ref><ref target="#b79" type="bibr">[80]</ref><ref target="#b80" type="bibr">[81]</ref>, but traits like leaf N content, SLA, and others, do not follow patterns seen in other systems or at global scales <ref target="#b2" type="bibr">[3,</ref><ref target="#b18" type="bibr">19,</ref><ref target="#b19" type="bibr">20]</ref>.</s><s>Recognition of site-specific influences on functional trait expressions emphasizes the importance of continued nutrient enrichment studies across multiple spatial scales.</s></p><p><s>Understanding mechanisms of trait-based community change by investigating diversity metrics and specific functional trait expressions sheds light on how low-productivity coastal systems are affected by recurring nutrient enrichment.</s><s>Such mechanisms feedback to vegetative biomass, leading to increased productivity in N and NP plots that are four to six times higher than C plots.</s><s>Understanding mechanisms of change and subsequent effects of nutrient enrichment is especially important in these low-production coastal systems, as models project increased nutrient loading by 2100 which will increase overall productivity and ultimately increase coastal resistance at large scales <ref target="#b38" type="bibr">[39,</ref><ref target="#b81" type="bibr">82]</ref>.</s><s>We acknowledge barrier islands are unique systems and respond individualistically to long-and short-term environmental forcings across varying spatial scales <ref target="#b36" type="bibr">[37]</ref>.</s><s>However, coastal systems are increasingly vulnerable to climate-associated disturbance, making it critical to understand plant community change in response to nutrient enrichment.</s><s>In order to test our results in other regions, we encourage the establishment of more nutrient manipulation studies in low-nutrient coastal grasslands around the globe, especially those located in other barrier island systems.</s><s>A higher focus on these areas will lead to better predictions of vegetation change as nutrient enrichment continues.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Supplementary Materials:<p><s>The following are available online at https://www.mdpi.com/1424-2</s><s>818/13/1/19/s1, Figure <ref type="figure">S1</ref>: Species composition NMDS, Figure <ref target="#fig_2" type="figure">S2</ref>: Lifeform abundance, Table <ref target="#tab_1" type="table">S1</ref>: Functional trait PCA correlations and permutation test results, Table <ref type="table">S2</ref>: PERMANOVA results of species composition NMDS.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">ity 2020, 12 , x 6 of 15 Figure 1 .<label>12151</label><figdesc><div><p><s>Figure 1.</s><s>Total biomass (mean ± SE) for each nutrient treatment (C = control, P = phosphorus, N = nitrogen, and NP = nitrogen + phosphorus) on a barrier island grassland community.</s><s>Letters indicate significant differences based on Tukey HSD pairwise comparison results.</s><s>Bars with different letters are significantly different (p &lt; 0.05).</s></p></div></figdesc><graphic coords="6,75.92,437.60,442.56,295.20" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 . 15 Figure 2 .<label>1152</label><figdesc><div><p><s>Figure 1.</s><s>Total biomass (mean ± SE) for each nutrient treatment (C = control, P = phosphorus, N = nitrogen, and NP = nitrogen + phosphorus) on a barrier island grassland community.</s><s>Letters indicate significant differences based on Tukey HSD pairwise comparison results.</s><s>Bars with different letters are significantly different (p &lt; 0.05).</s><s>Diversity 2020, 12, x 7 of 15</s></p></div></figdesc><graphic coords="6,111.14,146.01,372.48,248.64" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 2. Mean ± SE of community-weighted height (A), specific leaf area (B), leaf nitrogen isotope ratio (C), leaf carbon content (D), and leaf nitrogen content (E) for each nutrient treatment (C = control, P = phosphorus, N = nitrogen, and NP = nitrogen + phosphorus) on a barrier island grassland community.</s><s>Connecting letters indicate significant differences based on Tukey HSD pairwise comparison results.</s><s>Bars that do not share the same letter are significantly different (p &lt; 0.05).</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure 3. Principal components analysis (PCA) of trait-based community composition grouped in convex hulls by nutrient treatment type on a barrier island grassland community.</s><s>Points represent individual experimental plots in functional trait space with asterisks indicating centroids for each group.</s><s>Colors and symbols are matched to nutrient treatment (C = control, P = phosphorus, N = nitrogen, and NP = nitrogen + phosphorus).</s><s>Centroids can be viewed as mean trait-based community composition.</s><s>Vectors indicate functional trait correlations with each axis.</s><s>Vectors are labeled with the functional trait they represent, and lengths indicate goodness of fit (TableS1).</s></p></div></figdesc><graphic coords="7,166.31,323.28,326.73,233.69" type="bitmap"></graphic></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure 3. Principal components analysis (PCA) of trait-based community composition grouped in convex hulls by nutrient treatment type on a barrier island grassland community.</s><s>Points represent individual experimental plots in functional trait space with asterisks indicating centroids for each group.</s><s>Colors and symbols are matched to nutrient treatment (C = control, P = phosphorus, N = nitrogen, and NP = nitrogen + phosphorus).</s><s>Centroids can be viewed as mean trait-based community composition.</s><s>Vectors indicate functional trait correlations with each axis.</s><s>Vectors are labeled with the functional trait they represent, and lengths indicate goodness of fit (TableS1).</s></p></div></figdesc></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Diversity 2020, 12, x 9 of 15</s></p></div></figdesc></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4. (A,B): Mean (± SE) of functional alpha (FDQ) and beta-diversity (beta-dispersion) for each nutrient treatment (C = control, P = phosphorus, N = nitrogen, and NP = nitrogen + phosphorus).</s><s>(C,D)-relationship between total aboveground biomass and functional alpha-diversity (C) and functional beta-diversity.</s><s>Regression coefficients and p-value are reported at the top of each panel.</s></p></div></figdesc></figure>
+<figure xml:id="fig_8" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4. (A,B): Mean (± SE) of functional alpha (FD Q ) and beta-diversity (beta-dispersion) for each nutrient treatment (C = control, P = phosphorus, N = nitrogen, and NP = nitrogen + phosphorus).</s><s>(C,D)-relationship between total aboveground biomass and functional alpha-diversity (C) and functional beta-diversity.</s><s>Regression coefficients and p-value are reported at the top of each panel.</s></p></div></figdesc></figure>
+<figure xml:id="fig_9" xmlns="http://www.tei-c.org/ns/1.0">Author Contributions:<label></label><figdesc><div><p><s>Author contributions to the article are as follows: Conceptualization: J.K.B. and J.C.Z.; methodology: J.C.Z.; formal analysis: J.K.B.; investigation: J.K.B. and J.C.Z.; data curation: J.K.B. and J.C.Z.; writing-original draft preparation: J.K.B.; writing-review and editing: J.C.Z.;</s></p></div></figdesc></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>Pairwise comparisons via PERMANOVA results for trait-based communities between nutrient enrichment treatments on coastal grassland.</s><s>Bold indicates p &lt; 0.05, using FDR correction.</s></p></div></figdesc><table><row><cell>Comparison</cell><cell>F-Value</cell><cell>p-Value</cell></row><row><cell>C vs. P</cell><cell>0.9</cell><cell>0.5260</cell></row><row><cell>C vs. N</cell><cell>6.8</cell><cell>0.0135</cell></row><row><cell>C vs. NP</cell><cell>5.2</cell><cell>0.0135</cell></row><row><cell>P vs. N</cell><cell>7.4</cell><cell>0.0135</cell></row><row><cell>P vs. NP</cell><cell>5.4</cell><cell>0.0135</cell></row><row><cell>N vs. NP</cell><cell>2.4</cell><cell>0.1236</cell></row></table><note><p><s>3.2.3.</s><s>Trait-based Alpha and Beta Diversity</s></p></note></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>Pairwise comparisons via PERMANOVA results for trait-based communities between nutrient enrichment treatments on coastal grassland.</s><s>Bold indicates p &lt; 0.05, using FDR correction.</s></p></div></figdesc><table><row><cell>Comparison</cell><cell>F-Value</cell><cell>p-Value</cell></row><row><cell>C vs. P</cell><cell>0.9</cell><cell>0.5260</cell></row><row><cell>C vs. N</cell><cell>6.8</cell><cell>0.0135</cell></row><row><cell>C vs. NP</cell><cell>5.2</cell><cell>0.0135</cell></row><row><cell>P vs. N</cell><cell>7.4</cell><cell>0.0135</cell></row><row><cell>P vs. NP</cell><cell>5.4</cell><cell>0.0135</cell></row><row><cell>N vs. NP</cell><cell>2.4</cell><cell>0.1236</cell></row><row><cell cols="2">3.2.3. Trait-Based Alpha and Beta Diversity</cell><cell></cell></row></table></figure>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgments:<p><s>We extend thanks to The Nature Conservancy, Virginia Coast Reserve, the University of Virginia Coastal Research Center, and the Nutrient Network for permitting, logistical, and research support.</s><s>Valuable field assistance and editorial feedback was provided by Ashley Moulton, Rima Franklin, J. Anthony Stallins, and the students and post-docs of the Coastal Plant Ecology Lab at Virginia Commonwealth University.</s></p></div>
+</div>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Data Availability Statement: Data for this project are available on the Virginia Coast Reserve data portal: Brown, J. and J. Zinnert.</s><s>2017.</s><s>Functional Trait Data for a Nutrient Experiment on Hog Island, VA 2017.</s><s>Virginia Coast Reserve Long-Term Ecological Research Project Data Publication knblter-vcr.310.2 (http://www.vcrlter.virginia.educgi-bin/showDataset.cgi?docid=knb-lter-vcr.310.2).</s><s>Zinnert, J., Brown, J. and A. Moulton.</s><s>2018.</s><s>Long-Term Fertilization Plots in Swale Vegetation on Hog Island, VA 2015.</s><s>Virginia Coast Reserve Long-Term Ecological Research Project Data Publication knb-lter-vcr.311.3 (http://doi:10.6073/pasta/eeb59ddf840c51b93c4bc7b765d4d59f).</s></p></div>
+</div>
+<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Funding: This research was funded by National Science Foundation, grant number 1237733 and Virginia Commonwealth University.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>visualization: J.K.B.; supervision: J.C.Z.; project administration: J.C.Z.; funding acquisition: J.C.Z.</s><s>All authors have read and agreed to the published version of the manuscript.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conflicts of Interest:<p><s>The authors declare no conflict of interest.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Grassland productivity limited by multiple nutrients</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Fay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Prober</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">S</forename><surname>Harpole</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M H</forename><surname>Knops</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Bakker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">T</forename><surname>Borer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">M</forename><surname>Lind</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">S</forename><surname>Macdougall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">W</forename><surname>Seabloom</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">D</forename><surname>Wragg</surname></persname>
+</author>
+<idno type="DOI">10.1038/nplants.2015.80</idno>
+</analytic>
+<monogr>
+<title level="j">Nat. Plants</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fay, P.A.; Prober, S.M.; Harpole, W.S.; Knops, J.M.H.; Bakker, J.D.; Borer, E.T.; Lind, E.M.; MacDougall, A.S.; Seabloom, E.W.; Wragg, P.D.; et al. Grassland productivity limited by multiple nutrients. Nat. Plants 2015, 1. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Addition of multiple limiting resources reduces grassland diversity</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">S</forename><surname>Harpole</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">L</forename><surname>Sullivan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">M</forename><surname>Lind</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Firn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Adler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">T</forename><surname>Borer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Chase</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Fay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Hautier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Hillebrand</surname></persname>
+</author>
+<idno type="DOI">10.1038/nature19324</idno>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">537</biblscope>
+<biblscope from="93" to="96" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Harpole, W.S.; Sullivan, L.L.; Lind, E.M.; Firn, J.; Adler, P.B.; Borer, E.T.; Chase, J.; Fay, P.A.; Hautier, Y.; Hillebrand, H.; et al. Addition of multiple limiting resources reduces grassland diversity. Nature 2016, 537, 93-96. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Functional trait expression of grassland species shift with short-and long-term nutrient additions</title>
+<author>
+<persname><forename type="first">La</forename><surname>Pierre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename></persname>
+</author>
+<idno type="DOI">10.1007/s11258-014-0438-4</idno>
+</analytic>
+<monogr>
+<title level="j">Plant. Ecol</title>
+<imprint>
+<biblscope unit="volume">216</biblscope>
+<biblscope from="307" to="318" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">La Pierre, K.J.; Smith, M.D. Functional trait expression of grassland species shift with short-and long-term nutrient additions. Plant. Ecol. 2015, 216, 307-318. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Herbivores and nutrients control grassland plant diversity via light limitation</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">T</forename><surname>Borer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">W</forename><surname>Seabloom</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">S</forename><surname>Gruner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">S</forename><surname>Harpole</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Hillebrand</surname></persname>
+</author>
+<idno type="DOI">10.1038/nature13144</idno>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">508</biblscope>
+<biblscope from="517" to="520" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Borer, E.T.; Seabloom, E.W.; Gruner, D.S.; Harpole, W.S.; Hillebrand, H. Herbivores and nutrients control grassland plant diversity via light limitation. Nature 2014, 508, 517-520. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Global distribution of atmospheric phosphorus sources, concentrations and deposition rates, and anthropogenic impacts</title>
+<author>
+<persname><forename type="first">N</forename><surname>Mahowald</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">D</forename><surname>Jickells</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Baker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Artaxo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">R</forename><surname>Benitez-Nelson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Bergametti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">C</forename><surname>Bond</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">D</forename><surname>Cohen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Herut</surname></persname>
+</author>
+<idno type="DOI">10.1029/2008GB003240</idno>
+</analytic>
+<monogr>
+<title level="j">Glob. Biogeochem. Cycles</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope from="1" to="19" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mahowald, N.; Jickells, T.D.; Baker, A.R.; Artaxo, P.; Benitez-Nelson, C.R.; Bergametti, G.; Bond, T.C.; Chen, Y.; Cohen, D.D.; Herut, B.; et al. Global distribution of atmospheric phosphorus sources, concentrations and deposition rates, and anthropogenic impacts. Glob. Biogeochem. Cycles 2008, 22, 1-19. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Human alteration of the global nitrogen cycle: Source and consequences</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">M</forename><surname>Vitousek</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Aber</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">H</forename><surname>Howarth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">E</forename><surname>Likens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Matson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Schindler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">H</forename><surname>Schlesinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">G</forename><surname>Tilman</surname></persname>
+</author>
+<idno type="DOI">10.1890/1051-0761(1997)007[0737:HAOTGN]2.0.CO;2</idno>
+</analytic>
+<monogr>
+<title level="j">Ecol. Appl</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope from="737" to="750" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vitousek, P.M.; Aber, J.D.; Howarth, R.H.; Likens, G.E.; Matson, P.A.; Schindler, D.W.; Schlesinger, W.H.; Tilman, D.G. Human alteration of the global nitrogen cycle: Source and consequences. Ecol. Appl. 1997, 7, 737-750. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">The Nitrogen Cascade</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">N</forename><surname>Galloway</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Aber</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Erisman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">P</forename><surname>Seitzinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">W</forename><surname>Howarth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">B</forename><surname>Cowling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Cosby</surname></persname>
+</author>
+<idno type="DOI">10.1641/0006-3568(2003)053[0341:TNC]2.0.CO;2</idno>
+</analytic>
+<monogr>
+<title level="j">Bioscience</title>
+<imprint>
+<biblscope unit="volume">53</biblscope>
+<biblscope from="341" to="356" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Galloway, J.N.; Aber, J.D.; Erisman, J.W.; Seitzinger, S.P.; Howarth, R.W.; Cowling, E.B.; Cosby, B.J. The Nitrogen Cascade. Bioscience 2003, 53, 341-356. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Planetary Boundaries: Exploring the Safe Operating Space for Humanity</title>
+<author>
+<persname><forename type="first">J</forename><surname>Rockström</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Steffen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Noone</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Å</forename><surname>Persson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">S</forename><surname>Chapin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Lambin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">M</forename><surname>Lenton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Scheffer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Folke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">J</forename><surname>Schellnuber</surname></persname>
+</author>
+<idno type="DOI">10.5751/ES-03180-140232</idno>
+</analytic>
+<monogr>
+<title level="j">Ecol. Soc</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope unit="page">32</biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rockström, J.; Steffen, W.; Noone, K.; Persson, Å.; Chapin, F.S.; Lambin, E.; Lenton, T.M.; Scheffer, M.; Folke, C.; Schellnuber, H.J.; et al. Planetary Boundaries: Exploring the Safe Operating Space for Humanity. Ecol. Soc. 2009, 14, 32. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Global analysis of nitrogen and phosphorus limitation of primary producers in freshwater, marine and terrestrial ecosystems</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Elser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">E S</forename><surname>Bracken</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">E</forename><surname>Cleland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">S</forename><surname>Gruner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">S</forename><surname>Harpole</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Hillebrand</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">T</forename><surname>Ngai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">W</forename><surname>Seabloom</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Shurin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Smith</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1461-0248.2007.01113.x</idno>
+</analytic>
+<monogr>
+<title level="j">Ecol. Lett</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope from="1135" to="1142" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Elser, J.J.; Bracken, M.E.S.; Cleland, E.E.; Gruner, D.S.; Harpole, W.S.; Hillebrand, H.; Ngai, J.T.; Seabloom, E.W.; Shurin, J.B.; Smith, J.E. Global analysis of nitrogen and phosphorus limitation of primary producers in freshwater, marine and terrestrial ecosystems. Ecol. Lett. 2007, 10, 1135-1142. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Out of the shadows: Multiple nutrient limitations drive relationships among biomass, light and plant diversity</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">S</forename><surname>Harpole</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">L</forename><surname>Sullivan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">M</forename><surname>Lind</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Firn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Adler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">T</forename><surname>Borer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Chase</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Fay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Hautier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Hillebrand</surname></persname>
+</author>
+<idno type="DOI">10.1111/1365-2435.12967</idno>
+</analytic>
+<monogr>
+<title level="j">Funct. Ecol</title>
+<imprint>
+<biblscope unit="volume">31</biblscope>
+<biblscope from="1839" to="1846" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Harpole, W.S.; Sullivan, L.L.; Lind, E.M.; Firn, J.; Adler, P.B.; Borer, E.T.; Chase, J.; Fay, P.A.; Hautier, Y.; Hillebrand, H.; et al. Out of the shadows: Multiple nutrient limitations drive relationships among biomass, light and plant diversity. Funct. Ecol. 2017, 31, 1839-1846. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Interactive effects of fertilization and disturbance on community structure and resource availability in an old-field plant community</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">D</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Tilman</surname></persname>
+</author>
+<idno type="DOI">10.1007/BF00328404</idno>
+</analytic>
+<monogr>
+<title level="j">Oecologia</title>
+<imprint>
+<biblscope unit="volume">88</biblscope>
+<biblscope from="61" to="71" unit="page"></biblscope>
+<date type="published" when="1991">1991</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wilson, S.D.; Tilman, D. Interactive effects of fertilization and disturbance on community structure and resource availability in an old-field plant community. Oecologia 1991, 88, 61-71. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Environmental and plant community determinants of species loss following nitrogen enrichment</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Clark</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">E</forename><surname>Cleland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Fargione</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Gough</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">L</forename><surname>Gross</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">C</forename><surname>Pennings</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">N</forename><surname>Suding</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Grace</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1461-0248.2007.01053.x</idno>
+</analytic>
+<monogr>
+<title level="j">Ecol. Lett</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope from="596" to="607" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Clark, C.M.; Cleland, E.E.; Collins, S.L.; Fargione, J.E.; Gough, L.; Gross, K.L.; Pennings, S.C.; Suding, K.N.; Grace, J.B. Environmental and plant community determinants of species loss following nitrogen enrichment. Ecol. Lett. 2007, 10, 596-607. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Competition for light causes plant biodiversity loss after eutrophication</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Hautier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Niklaus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Hector</surname></persname>
+</author>
+<idno type="DOI">10.1126/science.1169640</idno>
+</analytic>
+<monogr>
+<title level="j">Science</title>
+<imprint>
+<biblscope unit="volume">324</biblscope>
+<biblscope from="636" to="638" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hautier, Y.; Niklaus, P.A.; Hector, A. Competition for light causes plant biodiversity loss after eutrophication. Science 2009, 324, 636-638. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Light competition explains diversity decline better than niche dimensionality</title>
+<author>
+<persname><forename type="first">N</forename><surname>Demalach</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kadmon</surname></persname>
+</author>
+<idno type="DOI">10.1111/1365-2435.12841</idno>
+</analytic>
+<monogr>
+<title level="j">Funct. Ecol</title>
+<imprint>
+<biblscope unit="volume">31</biblscope>
+<biblscope from="1834" to="1838" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Demalach, N.; Kadmon, R. Light competition explains diversity decline better than niche dimensionality. Funct. Ecol. 2017, 31, 1834-1838. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Succession in Old-Field Plant Communities: Effects of Contrasting Types of Nutrient Enrichment</title>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">P</forename><surname>Carson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">W</forename><surname>Barrett</surname></persname>
+</author>
+<idno type="DOI">10.2307/1941253</idno>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">69</biblscope>
+<biblscope from="984" to="994" unit="page"></biblscope>
+<date type="published" when="1988">1988</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Carson, W.P.; Barrett, G.W. Succession in Old-Field Plant Communities: Effects of Contrasting Types of Nutrient Enrichment. Ecology 1988, 69, 984-994. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Loss of plant species after chronic low-level nitrogen deposition to prairie grasslands</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Clark</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Tilman</surname></persname>
+</author>
+<idno type="DOI">10.1038/nature06503</idno>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">451</biblscope>
+<biblscope from="712" to="715" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Clark, C.M.; Tilman, D. Loss of plant species after chronic low-level nitrogen deposition to prairie grasslands. Nature 2008, 451, 712-715. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Nutrient additions cause divergence of tallgrass prairie plant communities resulting in loss of ecosystem stability</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Koerner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Avolio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>La Pierre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Wilcox</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Collins</surname></persname>
+</author>
+<idno type="DOI">10.1111/1365-2745.12610</idno>
+</analytic>
+<monogr>
+<title level="j">J. Ecol</title>
+<imprint>
+<biblscope unit="volume">104</biblscope>
+<biblscope from="1478" to="1487" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Koerner, S.E.; Avolio, M.L.; La Pierre, K.J.; Wilcox, K.R.; Smith, M.D.; Collins, S.L. Nutrient additions cause divergence of tallgrass prairie plant communities resulting in loss of ecosystem stability. J. Ecol. 2016, 104, 1478-1487. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Functional-and abundance-based mechanisms explain diversity loss due to N fertilization</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">N</forename><surname>Suding</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Gough</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Clark</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">E</forename><surname>Cleland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">L</forename><surname>Gross</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">G</forename><surname>Milchunas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Pennings</surname></persname>
+</author>
+<idno type="DOI">10.1073/pnas.0408648102</idno>
+</analytic>
+<monogr>
+<title level="j">Proc. Natl. Acad. Sci</title>
+<imprint>
+<biblscope unit="volume">102</biblscope>
+<biblscope from="4387" to="4392" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+<pubplace>USA</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Suding, K.N.; Collins, S.L.; Gough, L.; Clark, C.; Cleland, E.E.; Gross, K.L.; Milchunas, D.G.; Pennings, S. Functional-and abundance-based mechanisms explain diversity loss due to N fertilization. Proc. Natl. Acad. Sci. USA 2005, 102, 4387-4392. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Leaf nutrients, not specific leaf area, are consistent indicators of elevated nutrient inputs</title>
+<author>
+<persname><forename type="first">J</forename><surname>Firn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Mcgree</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Harvey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Flores-Moreno</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Schütz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><forename type="middle">M</forename><surname>Buckley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">T</forename><surname>Borer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">W</forename><surname>Seabloom</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>La Pierre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Macdougall</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41559-018-0790-1</idno>
+</analytic>
+<monogr>
+<title level="j">Nat. Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope from="400" to="406" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Firn, J.; McGree, J.M.; Harvey, E.; Flores-Moreno, H.; Schütz, M.; Buckley, Y.M.; Borer, E.T.; Seabloom, E.W.; La Pierre, K.J.; MacDougall, A.M.; et al. Leaf nutrients, not specific leaf area, are consistent indicators of elevated nutrient inputs. Nat. Ecol. Evol. 2019, 3, 400-406. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Nitrogen addition and ecosystem functioning: Both species abundances and traits alter community structure and function</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Tatarko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M H</forename><surname>Knops</surname></persname>
+</author>
+<idno type="DOI">10.1002/ecs2.2087</idno>
+</analytic>
+<monogr>
+<title level="j">Ecosphere</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="page">e02087</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Tatarko, A.R.; Knops, J.M.H. Nitrogen addition and ecosystem functioning: Both species abundances and traits alter community structure and function. Ecosphere 2018, 9, e02087. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">A trait-based analysis of the role of phosphorus vs. nitrogen enrichment in plant species loss across North-west European grasslands</title>
+<author>
+<persname><forename type="first">T</forename><surname>Ceulemans</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Merckx</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Hens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Honnay</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-2664.2011.02023.x</idno>
+</analytic>
+<monogr>
+<title level="j">J. Appl. Ecol</title>
+<imprint>
+<biblscope unit="volume">48</biblscope>
+<biblscope from="1155" to="1163" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ceulemans, T.; Merckx, R.; Hens, M.; Honnay, O. A trait-based analysis of the role of phosphorus vs. nitrogen enrichment in plant species loss across North-west European grasslands. J. Appl. Ecol. 2011, 48, 1155-1163. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Trait identity and functional diversity co-drive response of ecosystem productivity to nitrogen enrichment</title>
+<author>
+<persname><forename type="first">D</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Peng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Zhou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Yang</surname></persname>
+</author>
+<idno type="DOI">10.1111/1365-2745.13184</idno>
+</analytic>
+<monogr>
+<title level="j">J. Ecol</title>
+<imprint>
+<biblscope unit="volume">107</biblscope>
+<biblscope from="2402" to="2414" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zhang, D.; Peng, Y.; Li, F.; Yang, G.; Wang, J.; Yu, J.; Zhou, G.; Yang, Y. Trait identity and functional diversity co-drive response of ecosystem productivity to nitrogen enrichment. J. Ecol. 2019, 107, 2402-2414. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Functional diversity versus species diversity: Relationships with habitat heterogeneity at multiple scales in a subtropical evergreen broad-leaved forest</title>
+<author>
+<persname><forename type="first">G</forename><surname>Hu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Jin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Yu</surname></persname>
+</author>
+<idno type="DOI">10.1007/s11284-014-1178-6</idno>
+</analytic>
+<monogr>
+<title level="j">Ecol. Res</title>
+<imprint>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hu, G.; Jin, Y.; Liu, J.; Yu, M. Functional diversity versus species diversity: Relationships with habitat heterogeneity at multiple scales in a subtropical evergreen broad-leaved forest. Ecol. Res. 2014. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Functional traits and niche-based tree community assembly in an Amazonian forest</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">J B</forename><surname>Kraft</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Valencia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">D</forename><surname>Ackerly</surname></persname>
+</author>
+<idno type="DOI">10.1126/science.1160662</idno>
+</analytic>
+<monogr>
+<title level="j">Science</title>
+<imprint>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kraft, N.J.B.; Valencia, R.; Ackerly, D.D. Functional traits and niche-based tree community assembly in an Amazonian forest. Science 2008. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Towards a Definition of Functional Ecology</title>
+<author>
+<persname><forename type="first">P</forename><surname>Calow</surname></persname>
+</author>
+<idno type="DOI">10.2307/2389358</idno>
+</analytic>
+<monogr>
+<title level="j">Funct. Ecol</title>
+<imprint>
+<date type="published" when="1987">1987</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Calow, P. Towards a Definition of Functional Ecology. Funct. Ecol. 1987. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Functional diversity: An overview of its history and applicability</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M O</forename><surname>Laureto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">V</forename><surname>Cianciaruso</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">S M</forename><surname>Samia</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.ncon.2015.11.001</idno>
+</analytic>
+<monogr>
+<title level="j">Nat. Conserv</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="112" to="116" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Laureto, L.M.O.; Cianciaruso, M.V.; Samia, D.S.M. Functional diversity: An overview of its history and applicability. Nat. Conserv. 2015, 13, 112-116. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Niche-assembly vs. dispersal-assembly rules in coastal fish metacommunities: Implications for management of biodiversity in brackish lagoons</title>
+<author>
+<persname><forename type="first">D</forename><surname>Mouillot</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-2664.2007.01330.x</idno>
+</analytic>
+<monogr>
+<title level="j">J. Appl. Ecol</title>
+<imprint>
+<biblscope unit="volume">44</biblscope>
+<biblscope from="760" to="767" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mouillot, D. Niche-assembly vs. dispersal-assembly rules in coastal fish metacommunities: Implications for management of biodiversity in brackish lagoons. J. Appl. Ecol. 2007, 44, 760-767. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Traits without Borders: Integrating Functional Diversity across Scales</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">P</forename><surname>Carmona</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>De Bello</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">W H</forename><surname>Mason</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Lepš</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.tree.2016.02.003</idno>
+</analytic>
+<monogr>
+<title level="j">Trends Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">31</biblscope>
+<biblscope from="382" to="394" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Carmona, C.P.; de Bello, F.; Mason, N.W.H.; Lepš, J. Traits without Borders: Integrating Functional Diversity across Scales. Trends Ecol. Evol. 2016, 31, 382-394. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Changes in coexistence mechanisms along a long-term soil chronosequence revealed by functional trait diversity</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">W H</forename><surname>Mason</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Peltzer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>De Bello</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Wardle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">B</forename><surname>Allen</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-2745.2012.01965.x</idno>
+</analytic>
+<monogr>
+<title level="j">J. Ecol</title>
+<imprint>
+<biblscope unit="volume">100</biblscope>
+<biblscope from="678" to="689" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mason, N.W.H.; Richardson, S.J.; Peltzer, D.A.; de Bello, F.; Wardle, D.A.; Allen, R.B. Changes in coexistence mechanisms along a long-term soil chronosequence revealed by functional trait diversity. J. Ecol. 2012, 100, 678-689. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Fertilization decreases species diversity but increases functional diversity: A three-year experiment in a Tibetan alpine meadow</title>
+<author>
+<persname><forename type="first">K</forename><surname>Niu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Choler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>De Bello</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Mirotchnick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Du</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sun</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.agee.2013.07.015</idno>
+</analytic>
+<monogr>
+<title level="j">Agric. Ecosyst. Environ</title>
+<imprint>
+<biblscope unit="volume">182</biblscope>
+<biblscope from="106" to="112" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Niu, K.; Choler, P.; de Bello, F.; Mirotchnick, N.; Du, G.; Sun, S. Fertilization decreases species diversity but increases functional diversity: A three-year experiment in a Tibetan alpine meadow. Agric. Ecosyst. Environ. 2014, 182, 106-112. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Increasing Soil Nutrient Loads of European Semi-natural Grasslands Strongly Alter Plant Functional Diversity Independently of Species Loss</title>
+<author>
+<persname><forename type="first">K</forename><surname>Helsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Ceulemans</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Stevens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Honnay</surname></persname>
+</author>
+<idno type="DOI">10.1007/s10021-013-9714-8</idno>
+</analytic>
+<monogr>
+<title level="j">Ecosystems</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope from="169" to="181" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Helsen, K.; Ceulemans, T.; Stevens, C.J.; Honnay, O. Increasing Soil Nutrient Loads of European Semi-natural Grasslands Strongly Alter Plant Functional Diversity Independently of Species Loss. Ecosystems 2014, 17, 169-181. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Dynamics and processes of barrier island vegetation</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">G</forename><surname>Ehrenfeld</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Rev. Aquat. Sci</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="437" to="480" unit="page"></biblscope>
+<date type="published" when="1990">1990</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ehrenfeld, J.G. Dynamics and processes of barrier island vegetation. Rev. Aquat. Sci. 1990, 2, 437-480.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Global patterns of dissolved inorganic and particulate nitrogen inputs to coastal systems: Recent conditions and future projections</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">P</forename><surname>Seitzinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Kroeze</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">F</forename><surname>Bouwman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Caraco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Dentener</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">V</forename><surname>Styles</surname></persname>
+</author>
+<idno type="DOI">10.1007/BF02804897</idno>
+</analytic>
+<monogr>
+<title level="j">Estuaries</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope from="640" to="655" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Seitzinger, S.P.; Kroeze, C.; Bouwman, A.F.; Caraco, N.; Dentener, F.; Styles, R.V. Global patterns of dissolved inorganic and particulate nitrogen inputs to coastal systems: Recent conditions and future projections. Estuaries 2002, 25, 640-655. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Does atmospheric nitrogen deposition lead to greater nitrogen and</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J S</forename><surname>Aggenbach</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Kooijman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Fujita</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Van Der Hagen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Van Til</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Cooper</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Jones</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.biocon.2016.12.007</idno>
+</analytic>
+<monogr>
+<title level="j">Biol. Conserv</title>
+<imprint>
+<biblscope unit="volume">212</biblscope>
+<biblscope from="416" to="422" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Aggenbach, C.J.S.; Kooijman, A.M.; Fujita, Y.; van der Hagen, H.; van Til, M.; Cooper, D.; Jones, L. Does atmospheric nitrogen deposition lead to greater nitrogen and. Biol. Conserv. 2017, 212, 416-422. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Long-term impacts of nitrogen deposition on coastal plant</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Pakeman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Alexander</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Brooker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Cummins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Fielding</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Gore</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Hewison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Mitchell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Moore</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Orford</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.envpol.2016.01.084</idno>
+</analytic>
+<monogr>
+<title level="j">Environ. Pollut</title>
+<imprint>
+<biblscope unit="volume">212</biblscope>
+<biblscope from="337" to="347" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pakeman, R.J.; Alexander, J.; Brooker, R.; Cummins, R.; Fielding, D.; Gore, S.; Hewison, R.; Mitchell, R.; Moore, E.; Orford, K.; et al. Long-term impacts of nitrogen deposition on coastal plant. Environ. Pollut. 2016, 212, 337-347. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Long-term effects of nitrogen fertilization on plant community structure on a coastal barrier island dune chronosequence</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">P</forename><surname>Day</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Conn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Crawford</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Stevenson</surname></persname>
+</author>
+<idno type="DOI">10.2112/1551-5036(2004)20[722:LEONFO]2.0.CO;2</idno>
+</analytic>
+<monogr>
+<title level="j">J. Coast. Res</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="722" to="730" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Day, F.P.; Conn, C.; Crawford, E.; Stevenson, M. Long-term effects of nitrogen fertilization on plant community structure on a coastal barrier island dune chronosequence. J. Coast. Res. 2004, 20, 722-730. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Crossing scales: The complexity of barrier-island processes for predicting future change</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Zinnert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Stallins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">T</forename><surname>Brantley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Young</surname></persname>
+</author>
+<idno type="DOI">10.1093/biosci/biw154</idno>
+</analytic>
+<monogr>
+<title level="j">Bioscience</title>
+<imprint>
+<biblscope unit="volume">67</biblscope>
+<biblscope from="39" to="52" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zinnert, J.C.; Stallins, J.A.; Brantley, S.T.; Young, D.R. Crossing scales: The complexity of barrier-island processes for predicting future change. Bioscience 2017, 67, 39-52. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">A Review of Global Barrier Island Distribution</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Stutz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">H</forename><surname>Pilkey</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Coast. Res</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope from="15" to="22" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stutz, M.L.; Pilkey, O.H. A Review of Global Barrier Island Distribution. J. Coast. Res. 2001, 34, 15-22.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Eutrophication will increase during the 21st century as a result of precipitation changes</title>
+<author>
+<persname><forename type="first">E</forename><surname>Sinha</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Michalak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Balaji</surname></persname>
+</author>
+<idno type="DOI">10.1126/science.aan2409</idno>
+</analytic>
+<monogr>
+<title level="j">Science</title>
+<imprint>
+<biblscope unit="volume">357</biblscope>
+<biblscope from="1" to="5" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sinha, E.; Michalak, A.M.; Balaji, V. Eutrophication will increase during the 21st century as a result of precipitation changes. Science 2017, 357, 1-5. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Eutrophication: Impacts of excess nutrient inputs on freshwater, marine, and terrestrial ecosystems</title>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">H</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">D</forename><surname>Tilman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Nekola</surname></persname>
+</author>
+<idno type="DOI">10.1016/S0269-7491(99)00091-3</idno>
+</analytic>
+<monogr>
+<title level="j">Environ. Pollut</title>
+<imprint>
+<biblscope unit="volume">100</biblscope>
+<biblscope from="179" to="196" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Smith, V.H.; Tilman, G.D.; Nekola, J.C. Eutrophication: Impacts of excess nutrient inputs on freshwater, marine, and terrestrial ecosystems. Environ. Pollut. 1999, 100, 179-196. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Factors controlling aboveground Spartina alterniflora (Smooth cordgrass) tissue element composition and production in different-age barrier island marshes</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">T</forename><surname>Osgood</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Zieman</surname></persname>
+</author>
+<idno type="DOI">10.2307/1352440</idno>
+</analytic>
+<monogr>
+<title level="j">Estuaries</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope from="815" to="826" unit="page"></biblscope>
+<date type="published" when="1993">1993</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Osgood, D.T.; Zieman, J.C. Factors controlling aboveground Spartina alterniflora (Smooth cordgrass) tissue element composition and production in different-age barrier island marshes. Estuaries 1993, 16, 815-826. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Spatial-Temporal Dynamics in Barrier Island Upland Vegetation: The Overlooked Coastal Landscape</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Zinnert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Shiflett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Via</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Bissett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Dows</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Manley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Young</surname></persname>
+</author>
+<idno type="DOI">10.1007/s10021-016-9961-6</idno>
+</analytic>
+<monogr>
+<title level="j">Ecosystems</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope from="685" to="697" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zinnert, J.C.; Shiflett, S.A.; Via, S.; Bissett, S.; Dows, B.; Manley, P.; Young, D.R. Spatial-Temporal Dynamics in Barrier Island Upland Vegetation: The Overlooked Coastal Landscape. Ecosystems 2016, 19, 685-697. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Landscape position and habitat polygons in a dynamic coastal environment</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Young</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">T</forename><surname>Brantley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Zinnert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">K</forename><surname>Vick</surname></persname>
+</author>
+<idno type="DOI">10.1890/ES10-00186.1</idno>
+</analytic>
+<monogr>
+<title level="j">Ecosphere</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Young, D.R.; Brantley, S.T.; Zinnert, J.C.; Vick, J.K. Landscape position and habitat polygons in a dynamic coastal environment. Ecosphere 2011, 2. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Seasonal facilitative and competitive trade-offs between shrub seedlings and coastal grasses</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">N</forename><surname>Sinclair</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">N</forename><surname>Woods</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Zinnert</surname></persname>
+</author>
+<idno type="DOI">10.1002/ecs2.2995</idno>
+</analytic>
+<monogr>
+<title level="j">Ecosphere</title>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sinclair, M.N.; Woods, N.N.; Zinnert, J.C. Seasonal facilitative and competitive trade-offs between shrub seedlings and coastal grasses. Ecosphere 2020. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><surname>Moulton</surname></persname>
+</author>
+<title level="m">Short-Term Effects of Nutrients on a Barrier Island Grassland Community</title>
+<meeting><address><addrline>Richmond, VA, USA</addrline></address></meeting>
+<imprint>
+<publisher>Virginia Commonwealth University</publisher>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Moulton, A. Short-Term Effects of Nutrients on a Barrier Island Grassland Community; Virginia Commonwealth University: Richmond, VA, USA, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Revisiting the Holy Grail: Using plant functional traits to understand ecological processes</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Funk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Larson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">M</forename><surname>Ames</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Butterfield</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Cavender-Bares</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Firn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">C</forename><surname>Laughlin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">E</forename><surname>Sutton-Grier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Williams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wright</surname></persname>
+</author>
+<idno type="DOI">10.1111/brv.12275</idno>
+</analytic>
+<monogr>
+<title level="j">Biol. Rev</title>
+<imprint>
+<biblscope unit="volume">92</biblscope>
+<biblscope from="1156" to="1173" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Funk, J.L.; Larson, J.E.; Ames, G.M.; Butterfield, B.J.; Cavender-Bares, J.; Firn, J.; Laughlin, D.C.; Sutton-Grier, A.E.; Williams, L.; Wright, J. Revisiting the Holy Grail: Using plant functional traits to understand ecological processes. Biol. Rev. 2016, 92, 1156-1173. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Contrasting effects of productivity and disturbance on plant functional diversity at local and metacommunity scales</title>
+<author>
+<persname><forename type="first">E</forename><surname>Laliberté</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Norton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Scott</surname></persname>
+</author>
+<idno type="DOI">10.1111/jvs.12044</idno>
+</analytic>
+<monogr>
+<title level="j">J. Veg. Sci</title>
+<imprint>
+<biblscope unit="volume">24</biblscope>
+<biblscope from="834" to="842" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Laliberté, E.; Norton, D.A.; Scott, D. Contrasting effects of productivity and disturbance on plant functional diversity at local and metacommunity scales. J. Veg. Sci. 2013, 24, 834-842. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">The worldwide leaf economics spectrum</title>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">J</forename><surname>Wright</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Reich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Westoby</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">D</forename><surname>Ackerly</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Baruch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Bongers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Cavender-Bares</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Chapin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">H C</forename><surname>Cornellssen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Diemer</surname></persname>
+</author>
+<idno type="DOI">10.1038/nature02403</idno>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">428</biblscope>
+<biblscope from="821" to="827" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wright, I.J.; Reich, P.B.; Westoby, M.; Ackerly, D.D.; Baruch, Z.; Bongers, F.; Cavender-Bares, J.; Chapin, T.; Cornellssen, J.H.C.; Diemer, M.; et al. The worldwide leaf economics spectrum. Nature 2004, 428, 821-827. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">A comparison of specific leaf area, chemical composition and leaf construction costs of field plants from 15 habitats differing in productivity</title>
+<author>
+<persname><forename type="first">H</forename><surname>Poorter</surname></persname>
+</author>
+<author>
+<persname><surname>De</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Jong</surname></persname>
+</author>
+<idno type="DOI">10.1046/j.1469-8137.1999.00428.x</idno>
+</analytic>
+<monogr>
+<title level="j">New Phytol</title>
+<imprint>
+<biblscope unit="volume">143</biblscope>
+<biblscope from="163" to="176" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Poorter, H.; De Jong, R. A comparison of specific leaf area, chemical composition and leaf construction costs of field plants from 15 habitats differing in productivity. New Phytol. 1999, 143, 163-176. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">The plant traits that drive ecosystems: Evidence from three continents</title>
+<author>
+<persname><forename type="first">S</forename><surname>Díaz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">G</forename><surname>Hodgson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Thompson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Cabido</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">H C</forename><surname>Cornelissen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Jalili</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Montserrat-Martí</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Grime</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Zarrinkamar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Asri</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1654-1103.2004.tb02266.x</idno>
+</analytic>
+<monogr>
+<title level="j">J. Veg. Sci</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope from="295" to="304" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Díaz, S.; Hodgson, J.G.; Thompson, K.; Cabido, M.; Cornelissen, J.H.C.; Jalili, A.; Montserrat-Martí, G.; Grime, J.P.; Zarrinkamar, F.; Asri, Y.; et al. The plant traits that drive ecosystems: Evidence from three continents. J. Veg. Sci. 2004, 15, 295-304. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">Leaf characters of Ulmus elongata in fragmented habitats: Implications for conservation</title>
+<author>
+<persname><forename type="first">X</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Xu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Ma</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Gao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Liu</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.chnaes.2017.05.001</idno>
+</analytic>
+<monogr>
+<title level="j">Acta Ecol. Sin</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope from="346" to="353" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Liu, X.; Xu, G.; Wu, Y.; Ma, L.; Gao, J.; Zhang, Y.; Liu, P. Leaf characters of Ulmus elongata in fragmented habitats: Implications for conservation. Acta Ecol. Sin. 2017, 37, 346-353. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">Nitrogen isotopes link mycorrhizal fungi and plants to nitrogen dynamics</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Hobbie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Högberg</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1469-8137.2012.04300.x</idno>
+</analytic>
+<monogr>
+<title level="j">New Phytol</title>
+<imprint>
+<biblscope unit="volume">196</biblscope>
+<biblscope from="367" to="382" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hobbie, E.A.; Högberg, P. Nitrogen isotopes link mycorrhizal fungi and plants to nitrogen dynamics. New Phytol. 2012, 196, 367-382. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">Evidence from the real world:15N natural abundances reveal enhanced nitrogen use at high plant diversity in Central European grasslands</title>
+<author>
+<persname><forename type="first">T</forename><surname>Kleinebecker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Hölzel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Prati</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Schmitt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Fischer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">H</forename><surname>Klaus</surname></persname>
+</author>
+<idno type="DOI">10.1111/1365-2745.12202</idno>
+</analytic>
+<monogr>
+<title level="j">J. Ecol</title>
+<imprint>
+<biblscope unit="volume">102</biblscope>
+<biblscope from="456" to="465" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kleinebecker, T.; Hölzel, N.; Prati, D.; Schmitt, B.; Fischer, M.; Klaus, V.H. Evidence from the real world:15N natural abundances reveal enhanced nitrogen use at high plant diversity in Central European grasslands. J. Ecol. 2014, 102, 456-465. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">Plant functional markers capture ecosystem properties during secondary succession</title>
+<author>
+<persname><forename type="first">E</forename><surname>Garnier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Cortez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Billès</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Navas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Roumet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Debussche</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Laurent</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Blanchard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Aubry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bellmann</surname></persname>
+</author>
+<idno type="DOI">10.1890/03-0799</idno>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">85</biblscope>
+<biblscope from="2630" to="2637" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Garnier, E.; Cortez, J.; Billès, G.; Navas, M.L.; Roumet, C.; Debussche, M.; Laurent, G.; Blanchard, A.; Aubry, D.; Bellmann, A.; et al. Plant functional markers capture ecosystem properties during secondary succession. Ecology 2004, 85, 2630-2637. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<monogr>
+<title level="m" type="main">Community Ecology Package. R Package Version 2</title>
+<author>
+<persname><forename type="first">J</forename><surname>Oksanen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">G</forename><surname>Blanchet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Friendly</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kindt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Legendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Mcglinn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">R</forename><surname>Minchin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">B</forename><surname>O'hara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">L</forename><surname>Simpson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Solymos</surname></persname>
+</author>
+<ptr target="https://cran.r-project.org/web/packages/vegan/index.html"></ptr>
+<imprint>
+<date type="published" when="2019-04-15">2019. 15 April 2020</date>
+<biblscope from="5" to="9" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Oksanen, J.; Blanchet, F.G.; Friendly, M.; Kindt, R.; Legendre, P.; Mcglinn, D.; Minchin, P.R.; O'hara, R.B.; Simpson, G.L.; Solymos, P.; et al. Vegan: Community Ecology Package. R Package Version 2.5-4. 2019. Available online: https://cran.r-project.org/web/ packages/vegan/index.html (accessed on 15 April 2020).</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">Permutational Multivariate Analysis of Variance (PERMANOVA)</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Anderson</surname></persname>
+</author>
+<idno type="DOI">10.1002/9781118445112.stat07841</idno>
+<ptr target="https://onlinelibrary.wiley.com/doi/full/10.1002/9781118445112.stat07841"></ptr>
+</analytic>
+<monogr>
+<title level="j">Wiley StatsRef: Statistics Reference Online</title>
+<imprint>
+<date type="published" when="2017-09-19">2017. 19 September 2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Anderson, M.J. Permutational Multivariate Analysis of Variance (PERMANOVA). In Wiley StatsRef: Statistics Reference Online; 2017. Available online: https://onlinelibrary.wiley.com/doi/full/10.1002/9781118445112.stat07841 (accessed on 19 September 2020).</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">Rao's quadratic entropy as a measure of functional diversity based on multiple traits</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Botta-Dukát</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1654-1103.2005.tb02393.x</idno>
+</analytic>
+<monogr>
+<title level="j">J. Veg. Sci</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope from="533" to="540" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Botta-Dukát, Z. Rao's quadratic entropy as a measure of functional diversity based on multiple traits. J. Veg. Sci. 2005, 16, 533-540. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">A distance-based framework for measuring functional diversity from multiple traits</title>
+<author>
+<persname><forename type="first">E</forename><surname>Laliberte</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Legendre</surname></persname>
+</author>
+<idno type="DOI">10.1890/08-2244.1</idno>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">91</biblscope>
+<biblscope from="299" to="305" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Laliberte, E.; Legendre, P. A distance-based framework for measuring functional diversity from multiple traits. Ecology 2010, 91, 299-305. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Measuring Functional Diversity from Multiple Traits, and other Tools for Functional Ecology</title>
+<author>
+<persname><forename type="first">E</forename><surname>Laliberté</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Legendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Shipley</surname></persname>
+</author>
+<author>
+<persname><surname>Fd</surname></persname>
+</author>
+<ptr target="https://cran.r-project.org/web/packages/FD/FD.pdf"></ptr>
+</analytic>
+<monogr>
+<title level="m">R Package</title>
+<imprint>
+<date type="published" when="2015-04-15">2015. 15 April 2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Laliberté, E.; Legendre, P.; Shipley, B. FD: Measuring Functional Diversity from Multiple Traits, and other Tools for Functional Ecology. R Package. 2015. Available online: https://cran.r-project.org/web/packages/FD/FD.pdf (accessed on 15 April 2020).</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Multivariate dispersion as a measure of beta diversity</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Anderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">E</forename><surname>Ellingsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">H</forename><surname>Mcardle</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1461-0248.2006.00926.x</idno>
+</analytic>
+<monogr>
+<title level="j">Ecol. Lett</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="683" to="693" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Anderson, M.J.; Ellingsen, K.E.; McArdle, B.H. Multivariate dispersion as a measure of beta diversity. Ecol. Lett. 2006, 9, 683-693. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">Distance-based tests for homogeneity of multivariate dispersions</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Anderson</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1541-0420.2005.00440.x</idno>
+</analytic>
+<monogr>
+<title level="j">Biometrics</title>
+<imprint>
+<biblscope unit="volume">62</biblscope>
+<biblscope from="245" to="253" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Anderson, M.J. Distance-based tests for homogeneity of multivariate dispersions. Biometrics 2006, 62, 245-253. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<analytic>
+<title level="a" type="main">Intraspecific trait variation drives functional responses of old-field plant communities to nutrient enrichment</title>
+<author>
+<persname><forename type="first">A</forename><surname>Siefert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">E</forename><surname>Ritchie</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00442-016-3563-z</idno>
+</analytic>
+<monogr>
+<title level="j">Oecologia</title>
+<imprint>
+<biblscope unit="volume">181</biblscope>
+<biblscope from="245" to="255" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Siefert, A.; Ritchie, M.E. Intraspecific trait variation drives functional responses of old-field plant communities to nutrient enrichment. Oecologia 2016, 181, 245-255. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">Correlations between foliar δ15N and nitrogen concentrations may indicate-plantmycorrhizal interactions</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Hobbie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Macko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Williams</surname></persname>
+</author>
+<idno type="DOI">10.1007/PL00008856</idno>
+</analytic>
+<monogr>
+<title level="j">Oecologia</title>
+<imprint>
+<biblscope unit="volume">122</biblscope>
+<biblscope from="273" to="283" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hobbie, E.A.; Macko, S.A.; Williams, M. Correlations between foliar δ15N and nitrogen concentrations may indicate-plant- mycorrhizal interactions. Oecologia 2000, 122, 273-283. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">Ecological interpretations of nitrogen isotope ratios of terrestrial plants and soils</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Craine</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">N J</forename><surname>Brookshire</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Cramer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">J</forename><surname>Hasselquist</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Koba</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Marin-Spiotta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Wang</surname></persname>
+</author>
+<idno type="DOI">10.1007/s11104-015-2542-1</idno>
+</analytic>
+<monogr>
+<title level="j">Plant. Soil</title>
+<imprint>
+<biblscope unit="volume">396</biblscope>
+<biblscope from="1" to="26" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Craine, J.M.; Brookshire, E.N.J.; Cramer, M.D.; Hasselquist, N.J.; Koba, K.; Marin-Spiotta, E.; Wang, L. Ecological interpretations of nitrogen isotope ratios of terrestrial plants and soils. Plant. Soil 2015, 396, 1-26. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<analytic>
+<title level="a" type="main">Anthropogenic impacts on natural nitrogen isotope variations in Pinus sylvestris stands in an industrially polluted area</title>
+<author>
+<persname><forename type="first">K</forename><surname>Jung</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Gebauer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Gehre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Hofmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Weißflog</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Schüürmann</surname></persname>
+</author>
+<idno type="DOI">10.1016/S0269-7491(97)00053-5</idno>
+</analytic>
+<monogr>
+<title level="j">Environ. Pollut</title>
+<imprint>
+<biblscope unit="volume">97</biblscope>
+<biblscope from="175" to="181" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jung, K.; Gebauer, G.; Gehre, M.; Hofmann, D.; Weißflog, L.; Schüürmann, G. Anthropogenic impacts on natural nitrogen isotope variations in Pinus sylvestris stands in an industrially polluted area. Environ. Pollut. 1997, 97, 175-181. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<analytic>
+<title level="a" type="main">Vascular plant 15N natural abundance in heath and forest tundra ecosystems is closely correlated with presence and type of mycorrhizal fungi in roots</title>
+<author>
+<persname><forename type="first">A</forename><surname>Michelsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Quarmby</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Sleep</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Jonasson</surname></persname>
+</author>
+<idno type="DOI">10.1007/s004420050535</idno>
+</analytic>
+<monogr>
+<title level="j">Oecologia</title>
+<imprint>
+<biblscope unit="volume">115</biblscope>
+<biblscope from="406" to="418" unit="page"></biblscope>
+<date type="published" when="1998">1998</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Michelsen, A.; Quarmby, C.; Sleep, D.; Jonasson, S. Vascular plant 15N natural abundance in heath and forest tundra ecosystems is closely correlated with presence and type of mycorrhizal fungi in roots. Oecologia 1998, 115, 406-418. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b66">
+<analytic>
+<title level="a" type="main">Recovery of ectomycorrhiza after "nitrogen saturation" of a conifer forest</title>
+<author>
+<persname><forename type="first">P</forename><surname>Högberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Johannisson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Yarwood</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Callesen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Näsholm</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">D</forename><surname>Myrold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">N</forename><surname>Högberg</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1469-8137.2010.03485.x</idno>
+</analytic>
+<monogr>
+<title level="j">New Phytol</title>
+<imprint>
+<biblscope unit="volume">189</biblscope>
+<biblscope from="515" to="525" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Högberg, P.; Johannisson, C.; Yarwood, S.; Callesen, I.; Näsholm, T.; Myrold, D.D.; Högberg, M.N. Recovery of ectomycorrhiza after "nitrogen saturation" of a conifer forest. New Phytol. 2011, 189, 515-525. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b67">
+<analytic>
+<title level="a" type="main">δ15N as an integrator of the nitrogen cycle</title>
+<author>
+<persname><forename type="first">D</forename><surname>Robinson</surname></persname>
+</author>
+<idno type="DOI">10.1016/S0169-5347(00)02098-X</idno>
+</analytic>
+<monogr>
+<title level="j">Trends Ecol. Evol</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope from="153" to="162" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Robinson, D. δ15N as an integrator of the nitrogen cycle. Trends Ecol. Evol. 2001, 16, 153-162. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b68">
+<analytic>
+<title level="a" type="main">Fixation of Nitrogen by Higher Plants Other than Legumes</title>
+<author>
+<persname><forename type="first">G</forename><surname>Bond</surname></persname>
+</author>
+<idno type="DOI">10.1146/annurev.pp.18.060167.000543</idno>
+</analytic>
+<monogr>
+<title level="j">Annu. Rev. Plant. Physiol</title>
+<imprint>
+<date type="published" when="1967">1967</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bond, G. Fixation of Nitrogen by Higher Plants Other than Legumes. Annu. Rev. Plant. Physiol. 1967. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b69">
+<analytic>
+<title level="a" type="main">Spatial relationships of Frankia and Myrica cerifera on a Virginia, USA Barrier Island</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Young</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Sande</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Peters</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Symbiosis</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope from="209" to="220" unit="page"></biblscope>
+<date type="published" when="1992">1992</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Young, D.R.; Sande, E.; Peters, G.A. Spatial relationships of Frankia and Myrica cerifera on a Virginia, USA Barrier Island. Symbiosis 1992, 12, 209-220.</note>
+</biblstruct>
+<biblstruct xml:id="b70">
+<analytic>
+<title level="a" type="main">Global patterns of foliar nitrogen isotopes and their relationships with climate, mycorrhizal fungi, foliar nutrient concentrations, and nitrogen availability</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Craine</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Elmore</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">P M</forename><surname>Aidar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bustamante</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">E</forename><surname>Dawson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Hobbie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kahmen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Mack</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">K</forename><surname>Mclauchlan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Michelsen</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1469-8137.2009.02917.x</idno>
+</analytic>
+<monogr>
+<title level="j">New Phytol</title>
+<imprint>
+<biblscope unit="volume">183</biblscope>
+<biblscope from="980" to="992" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Craine, J.M.; Elmore, A.J.; Aidar, M.P.M.; Bustamante, M.; Dawson, T.E.; Hobbie, E.A.; Kahmen, A.; MacK, M.C.; McLauchlan, K.K.; Michelsen, A.; et al. Global patterns of foliar nitrogen isotopes and their relationships with climate, mycorrhizal fungi, foliar nutrient concentrations, and nitrogen availability. New Phytol. 2009, 183, 980-992. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b71">
+<analytic>
+<title level="a" type="main">Nitrogen enrichment alters mycorrhizal allocation at five mesic to semiarid grasslands</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">C</forename><surname>Johnson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Rowland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Corkidi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M</forename><surname>Egerton-Warburton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">B</forename><surname>Allen</surname></persname>
+</author>
+<idno type="DOI">10.1890/0012-9658(2003)084[1895:NEAMAA]2.0.CO;2</idno>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">84</biblscope>
+<biblscope from="1895" to="1908" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Johnson, N.C.; Rowland, D.L.; Corkidi, L.; Egerton-Warburton, L.M.; Allen, E.B. Nitrogen enrichment alters mycorrhizal allocation at five mesic to semiarid grasslands. Ecology 2003, 84, 1895-1908. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b72">
+<analytic>
+<title level="a" type="main">Resource availability and imbalance affect plant-mycorrhizal interactions: A field test of three hypotheses</title>
+<author>
+<persname><forename type="first">E</forename><surname>Grman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">M P</forename><surname>Robinson</surname></persname>
+</author>
+<idno type="DOI">10.1890/12-0385.1</idno>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">94</biblscope>
+<biblscope from="62" to="71" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Grman, E.; Robinson, T.M.P. Resource availability and imbalance affect plant-mycorrhizal interactions: A field test of three hypotheses. Ecology 2013, 94, 62-71. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b73">
+<analytic>
+<title level="a" type="main">Plant diversity is coupled with beta not alpha diversity of soil fungal communities following N enrichment in a semi-arid grassland</title>
+<author>
+<persname><forename type="first">W</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Xu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Wu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Hu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Yuan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Zhou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Tan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Fan</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.soilbio.2017.10.039</idno>
+</analytic>
+<monogr>
+<title level="j">Soil Biol. Biochem</title>
+<imprint>
+<biblscope unit="volume">116</biblscope>
+<biblscope from="388" to="398" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chen, W.; Xu, R.; Wu, Y.; Chen, J.; Zhang, Y.; Hu, T.; Yuan, X.; Zhou, L.; Tan, T.; Fan, J. Plant diversity is coupled with beta not alpha diversity of soil fungal communities following N enrichment in a semi-arid grassland. Soil Biol. Biochem. 2018, 116, 388-398. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b74">
+<analytic>
+<title level="a" type="main">Impacts of urea N addition on soil microbial community in a semi-arid temperate steppe in northern China</title>
+<author>
+<persname><forename type="first">N</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Wan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Bi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Zhao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Ma</surname></persname>
+</author>
+<idno type="DOI">10.1007/s11104-008-9650-0</idno>
+</analytic>
+<monogr>
+<title level="j">Plant. Soil</title>
+<imprint>
+<biblscope unit="volume">311</biblscope>
+<biblscope from="19" to="28" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zhang, N.; Wan, S.; Li, L.; Bi, J.; Zhao, M.; Ma, K. Impacts of urea N addition on soil microbial community in a semi-arid temperate steppe in northern China. Plant. Soil 2008, 311, 19-28. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b75">
+<analytic>
+<title level="a" type="main">A comprehensive approach to analyzing community dynamics using rank abundance curves</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Avolio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">T</forename><surname>Carroll</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">R</forename><surname>Houseman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M</forename><surname>Hallett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Isbell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Koerner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Komatsu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Wilcox</surname></persname>
+</author>
+<idno type="DOI">10.1002/ecs2.2881</idno>
+</analytic>
+<monogr>
+<title level="j">Ecosphere</title>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Avolio, M.L.; Carroll, I.T.; Collins, S.L.; Houseman, G.R.; Hallett, L.M.; Isbell, F.; Koerner, S.E.; Komatsu, K.J.; Smith, M.D.; Wilcox, K.R. A comprehensive approach to analyzing community dynamics using rank abundance curves. Ecosphere 2019. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b76">
+<analytic>
+<title level="a" type="main">Phylogenetic and functional alpha and beta diversity in temperate and tropical tree communities</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">G</forename><surname>Swenson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Erickson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Mi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">A</forename><surname>Bourg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Forero-Montana</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Ge</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Howe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">K</forename><surname>Lake</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Liu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Ma</surname></persname>
+</author>
+<idno type="DOI">10.1890/11-1180.1</idno>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">93</biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Swenson, N.G.; Erickson, D.L.; Mi, X.; Bourg, N.A.; Forero-Montana, J.; Ge, X.; Howe, R.; Lake, J.K.; Liu, X.; Ma, K.; et al. Phylogenetic and functional alpha and beta diversity in temperate and tropical tree communities. Ecology 2012, 93. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b77">
+<analytic>
+<title level="a" type="main">Limiting similarity and functional diversity along environmental gradients</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Schwilk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">D</forename><surname>Ackerly</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1461-0248.2004.00720.x</idno>
+</analytic>
+<monogr>
+<title level="j">Ecol. Lett</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope from="272" to="281" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schwilk, D.W.; Ackerly, D.D. Limiting similarity and functional diversity along environmental gradients. Ecol. Lett. 2005, 8, 272-281. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b78">
+<analytic>
+<title level="a" type="main">Plant functional diversity can be independent of species diversity: Observations based on the impact of 4-yrs of nitrogen and phosphorus additions in an alpine meadow</title>
+<author>
+<persname><forename type="first">W</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Cheng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">L</forename><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">E</forename><surname>Epstein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Guo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">H</forename><surname>Jing</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Zhao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">Z</forename><surname>Du</surname></persname>
+</author>
+<idno type="DOI">10.1371/journal.pone.0136040</idno>
+</analytic>
+<monogr>
+<title level="j">PLoS ONE</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="page">136040</biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Li, W.; Cheng, J.M.; Yu, K.L.; Epstein, H.E.; Guo, L.; Jing, G.H.; Zhao, J.; Du, G.Z. Plant functional diversity can be independent of species diversity: Observations based on the impact of 4-yrs of nitrogen and phosphorus additions in an alpine meadow. PLoS ONE 2015, 10, e0136040. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b79">
+<analytic>
+<title level="a" type="main">Nutrient addition and drought interact to change the structure and decrease the functional diversity of a Mediterranean grassland</title>
+<author>
+<persname><forename type="first">C</forename><surname>Nogueira</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Nunes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">N</forename><surname>Bugalho</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Branquinho</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L</forename><surname>Mcculley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Caldeira</surname></persname>
+</author>
+<idno type="DOI">10.3389/fevo.2018.00155</idno>
+</analytic>
+<monogr>
+<title level="j">Front. Ecol. Evol</title>
+<imprint>
+<biblscope unit="page">6</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nogueira, C.; Nunes, A.; Bugalho, M.N.; Branquinho, C.; McCulley, R.L.; Caldeira, M.C. Nutrient addition and drought interact to change the structure and decrease the functional diversity of a Mediterranean grassland. Front. Ecol. Evol. 2018, 6. [CrossRef]</note>
+</biblstruct>
+<biblstruct xml:id="b80">
+<analytic>
+<title level="a" type="main">Light asymmetry explains the effect of nutrient enrichment on grassland diversity</title>
+<author>
+<persname><forename type="first">N</forename><surname>Demalach</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Zaady</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kadmon</surname></persname>
+</author>
+<idno type="DOI">10.1111/ele.12706</idno>
+</analytic>
+<monogr>
+<title level="j">Ecol. Lett</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="60" to="69" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">DeMalach, N.; Zaady, E.; Kadmon, R. Light asymmetry explains the effect of nutrient enrichment on grassland diversity. Ecol. Lett. 2017, 20, 60-69. [CrossRef] [PubMed]</note>
+</biblstruct>
+<biblstruct xml:id="b81">
+<analytic>
+<title level="a" type="main">Are low-productive plant communities responsive to nutrient addition? Evidence from sand pioneer grassland</title>
+<author>
+<persname><forename type="first">C</forename><surname>Storm</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Süss</surname></persname>
+</author>
+<idno type="DOI">10.3170/2008-8-18374</idno>
+</analytic>
+<monogr>
+<title level="j">J. Veg. Sci</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope from="343" to="354" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Storm, C.; Süss, K. Are low-productive plant communities responsive to nutrient addition? Evidence from sand pioneer grassland. J. Veg. Sci. 2008, 19, 343-354. [CrossRef]</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

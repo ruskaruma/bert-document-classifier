@@ -1,0 +1,639 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">European J Org Chem</journal-id><journal-id journal-id-type="iso-abbrev">European J Org Chem</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1099-0690</journal-id><journal-id journal-id-type="publisher-id">EJOC</journal-id><journal-title-group><journal-title>European Journal of Organic Chemistry</journal-title></journal-title-group><issn pub-type="ppub">1434-193X</issn><issn pub-type="epub">1099-0690</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7508174</article-id><article-id pub-id-type="doi">10.1002/ejoc.202000916</article-id><article-id pub-id-type="publisher-id">EJOC202000916</article-id><article-categories><subj-group subj-group-type="overline"><subject>Full Paper</subject></subj-group><subj-group subj-group-type="heading"><subject>Full Papers</subject><subj-group subj-group-type="heading"><subject>Aziridine Opening</subject></subj-group></subj-group></article-categories><title-group><article-title>Ammonium Salt&#x02010;Catalyzed Ring&#x02010;Opening of Aryl&#x02010;Aziridines with &#x003b2;&#x02010;Keto Esters</article-title><alt-title alt-title-type="left-running-head">V. Haider, V. Kreuzer, M. Tiffner, B. Spingler, M. Waser</alt-title><alt-title alt-title-type="right-running-head">Ammonium Salt&#x02010;Catalyzed Ring&#x02010;Opening of Aryl&#x02010;Aziridines with &#x003b2;&#x02010;Keto Esters</alt-title></title-group><contrib-group><contrib id="ejoc202000916-cr-0001" contrib-type="author"><name><surname>Haider</surname><given-names>Victoria</given-names></name><xref ref-type="aff" rid="ejoc202000916-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ejoc202000916-cr-0002" contrib-type="author"><name><surname>Kreuzer</surname><given-names>Viktoria</given-names></name><xref ref-type="aff" rid="ejoc202000916-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ejoc202000916-cr-0003" contrib-type="author"><name><surname>Tiffner</surname><given-names>Maximilian</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="ejoc202000916-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ejoc202000916-cr-0004" contrib-type="author"><name><surname>Spingler</surname><given-names>Bernhard</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3402-2016</contrib-id><xref ref-type="aff" rid="ejoc202000916-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ejoc202000916-cr-0005" contrib-type="author" corresp="yes"><name><surname>Waser</surname><given-names>Mario</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8421-8642</contrib-id><xref ref-type="aff" rid="ejoc202000916-aff-0001">
+<sup>1</sup>
+</xref><address><email>mario.waser@jku.at</email><ext-link ext-link-type="uri" xlink:href="https://www.jku.at/orc/waser">https://www.jku.at/orc/waser</ext-link></address></contrib></contrib-group><aff id="ejoc202000916-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Institute of Organic Chemistry</named-content>
+<institution>Johannes Kepler University Linz</institution>
+<named-content content-type="street">Altenbergerstr. 69</named-content>
+<postal-code>4040</postal-code>
+<city>Linz</city>
+<country country="AT">Austria</country>
+</aff><aff id="ejoc202000916-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Chemistry</named-content>
+<institution>University of Zurich</institution>
+<named-content content-type="street">Winterthurerstrasse 190</named-content>
+<postal-code>8057</postal-code>
+<city>Zurich</city>
+<country country="CH">Switzerland</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label>
+Institute of Organic Chemistry, Johannes Kepler University Linz, Altenbergerstr. 69, 4040 Linz, Austria<break/>
+E&#x02010;mail: <email>mario.waser@jku.at</email><break/><ext-link ext-link-type="uri" xlink:href="https://www.jku.at/orc/waser">https://www.jku.at/orc/waser</ext-link><break/></corresp></author-notes><pub-date pub-type="epub"><day>10</day><month>8</month><year>2020</year></pub-date><pub-date pub-type="ppub"><day>31</day><month>8</month><year>2020</year></pub-date><volume>2020</volume><issue>32</issue><issue-id pub-id-type="doi">10.1002/ejoc.v2020.32</issue-id><fpage>5173</fpage><lpage>5177</lpage><history><date date-type="received"><day>30</day><month>6</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2020 Wiley&#x02010;VCH GmbH <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors published by Wiley&#x02010;VCH GmbH</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:EJOC-2020-5173.pdf"/><abstract><p>We herein report an ammonium salt&#x02010;catalyzed protocol for the regioselective ring opening of aryl&#x02010;aziridines with &#x003b2;&#x02010;keto esters. The reaction gives access to a variety of highly functionalized target molecules with two consecutive stereogenic centers and can be rendered enantioselective (up to <italic>e.r</italic>. = 91:9) by using bifunctional chiral ammonium salt catalysts.</p></abstract><abstract abstract-type="graphical"><p>The quaternary ammonium salt&#x02010;catalyzed addition of &#x003b2;&#x02010;keto esters to aryl&#x02010;aziridines gives access to structurally diverse target molecules with two consecutive stereocenters.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="EJOC-2020-5173-g005.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ejoc202000916-kwd-0001">Organocatalysis</kwd><kwd id="ejoc202000916-kwd-0002">Bifunctional ammonium salt</kwd><kwd id="ejoc202000916-kwd-0003">Aziridine opening</kwd><kwd id="ejoc202000916-kwd-0004">Alkylation</kwd><kwd id="ejoc202000916-kwd-0005">Regioselectivity</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Austrian Science Fund </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100002428</institution-id></institution-wrap></funding-source><award-id>P30237</award-id></award-group></funding-group><counts><fig-count count="4"/><table-count count="1"/><page-count count="5"/><word-count count="0"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>August 31, 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.0 mode:remove_FC converted:11.09.2020</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="ejoc202000916-sec-0010"><title>Introduction</title><p>Aziridines have been established as interesting building blocks for a variety of (asymmetric) transformations and their synthetic versatility can be attributed to the fact that they easily undergo ring opening reactions with a variety of different nucleophiles<xref rid="ejoc202000916-bib-0001" ref-type="ref">1</xref> In addition, a broad variety of (chiral) aziridines can be accessed straightforwardly (racemic or enantiopure) by established synthesis strategies starting from simple precursors,<xref rid="ejoc202000916-bib-0001" ref-type="ref">1</xref>, <xref rid="ejoc202000916-bib-0002" ref-type="ref">2</xref> making approaches relying on aziridine opening reactions very appealing. The reactions of aziridines with C&#x02010;nucleophiles, i.e. enolate species, can lead to interesting &#x003b3;&#x02010;amino&#x02010;carbonyl targets which are not easily accessible by other strategies. In addition, depending on the aziridine substitution pattern, rather complex structural motives containing two or even three consecutive stereogenic centers can be accessed (Scheme <xref rid="ejoc202000916-fig-0001" ref-type="fig">1</xref>A) and the use of a chiral catalyst may allow to control such reactions in a stereoselective manner.<xref rid="ejoc202000916-bib-0001" ref-type="ref">1</xref>, <xref rid="ejoc202000916-bib-0003" ref-type="ref">3</xref>, <xref rid="ejoc202000916-bib-0004" ref-type="ref">4</xref>, <xref rid="ejoc202000916-bib-0005" ref-type="ref">5</xref>, <xref rid="ejoc202000916-bib-0006" ref-type="ref">6</xref>
+</p><fig fig-type="Scheme" xml:lang="en" id="ejoc202000916-fig-0001" orientation="portrait" position="float"><label>Scheme 1</label><caption><p>General reactivity of aziridines towards nucleophilic attack (A), our recently developed asymmetric &#x003b1;&#x02010;hydroxylation of &#x003b2;&#x02010;keto esters <bold>1</bold> with oxaziridines <bold>2</bold> (B), and the herein investigated addition of compounds <bold>1</bold> to aryl&#x02010;aziridines <bold>4</bold> (C).</p></caption><graphic id="nlm-graphic-3" xlink:href="EJOC-2020-5173-g002"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig><p>Our group has a strong interest in asymmetric ion pairing catalysis<xref rid="ejoc202000916-bib-0007" ref-type="ref">7</xref>, <xref rid="ejoc202000916-bib-0008" ref-type="ref">8</xref>, <xref rid="ejoc202000916-bib-0009" ref-type="ref">9</xref>, <xref rid="ejoc202000916-bib-0010" ref-type="ref">10</xref> and we recently reported that bifunctional ammonium salt catalysts<xref rid="ejoc202000916-bib-0008" ref-type="ref">8</xref> containing a (thio)&#x02010;urea H&#x02010;bonding motive (i.e. catalysts <bold>A</bold>) can be used for the asymmetric &#x003b1;&#x02010;hydroxylation of &#x003b2;&#x02010;keto esters <bold>1</bold> by using racemic oxaziridines <bold>2</bold> as the O&#x02010;transfer reagents (accompanied by a simultaneous resolution of the oxaziridines <bold>2</bold> as outlined in Scheme <xref rid="ejoc202000916-fig-0001" ref-type="fig">1</xref>B).<xref rid="ejoc202000916-bib-0010" ref-type="ref">10</xref> Based on the general interest in aziridine&#x02010;opening reactions and given our focus on asymmetric ammonium salt catalysis we now wanted to explore if ammonium salt catalysts (like compounds <bold>A</bold>) may also facilitate the addition of pronucleophiles <bold>1</bold> to aryl&#x02010;aziridines <bold>4</bold>. In general, the asymmetric ring&#x02010;opening of aziridines with &#x003b2;&#x02010;keto esters <bold>1</bold> using chiral ammonium salt catalysts has been well&#x02010;investigated, i.e. by the groups of Dixon and J&#x000f8;rgenson.<xref rid="ejoc202000916-bib-0004" ref-type="ref">4</xref> However, in those cases no aryl&#x02010;aziridines <bold>4</bold> were used and to the best of our knowledge there are only very few reports in general, where enolate precursors were added to such aziridines in an asymmetric manner.<xref rid="ejoc202000916-bib-0005" ref-type="ref">5</xref> Interestingly, some previous reports describing the addition of malonates to such aziridines in the absence of a chiral catalyst showed that these reagents predominately undergo nucleophile addition to the benzylic position of the aziridine, and that these reactions proceed via a stereospecific ring&#x02010;opening pathway with inversion of configuration of the benzylic stereogenic center.<xref rid="ejoc202000916-bib-0006" ref-type="ref">6</xref> We thus wondered if we could introduce a protocol for the regio&#x02010; and stereoselective addition of pronucleophiles <bold>1</bold> to (racemic) aziridines <bold>4</bold>, which would result in the formation of the highly functionalized target molecules <bold>5</bold> (Scheme <xref rid="ejoc202000916-fig-0001" ref-type="fig">1</xref>C).</p></sec><sec id="ejoc202000916-sec-0020"><title>Results and Discussion</title><p>We started our investigations by carrying out the reaction between the <italic>tert</italic>&#x02010;butyl ester <bold>1a</bold> and the phenyl aziridine <bold>4a</bold>. The reason why we opted for the <italic>N</italic>&#x02010;tosyl protected <bold>4a</bold> was because we previously (during the hydroxylation of <bold>1</bold> with oxaziridines <bold>2</bold>) realized that sulfonamide groups provide a very good point of coordination for our bifunctional ammonium salts <bold>A</bold>.<xref rid="ejoc202000916-bib-0010" ref-type="ref">10</xref> Besides our own catalysts <bold>A</bold>
+<xref rid="ejoc202000916-bib-0010" ref-type="ref">10</xref>, <xref rid="ejoc202000916-bib-0011" ref-type="ref">11</xref> (on which we put our main focus), we also compared the other classical and well&#x02010;established ammonium salt catalysts <bold>B</bold>
+<xref rid="ejoc202000916-bib-0007" ref-type="ref">7</xref>, <xref rid="ejoc202000916-bib-0012" ref-type="ref">12</xref> and <bold>C</bold>
+<xref rid="ejoc202000916-bib-0007" ref-type="ref">7</xref>, <xref rid="ejoc202000916-bib-0013" ref-type="ref">13</xref> and the recently reported bifunctional Cinchona alkaloid derivative <bold>D</bold>.<xref rid="ejoc202000916-bib-0014" ref-type="ref">14</xref>
+</p><p>First experiments without any catalyst (entry 1) and in the presence of a simple achiral ammonium salt (entry 2) clearly proved the beneficial effect of the phase&#x02010;transfer catalyst and showed that the reaction proceeds via addition to the benzylic carbon of the aziridine (giving <bold>5a</bold>). The relative configuration of the major diastereomer of product <bold>5a</bold> was assigned by single&#x02010;crystal X&#x02010;ray analysis<xref rid="ejoc202000916-bib-0015" ref-type="ref">15</xref> and in all further experiments the <italic>unlike</italic> diastereomer was found to be the main product. We then carried out a first base screening with our urea&#x02010;containing catalyst <bold>A1</bold> (entries 3&#x02013;6) and found that the targeted product <bold>5a</bold> could be obtained in a reasonable yield of 79&#x02009;% and with promising enantio&#x02010; and diastereoselectivities (<italic>d.r</italic>. = 6:1; <italic>e.r</italic>. = 89:11) after 24 h when using two equivalents of solid Cs<sub>2</sub>CO<sub>3</sub> (entry 6). The use of aqueous bases on the other hand significantly slowed down the conversion (entry 4) and stronger bases (e.g. NaOH) were found to be not suited at all (results not given in the table ), i.e. as the aziridine decomposed significantly under these conditions. Interestingly, while the major diastereomer could be obtained with a good enantiomeric ratio of 89:11, the minor diastereomer was formed in an almost racemic manner (entry 6).</p><p>We then tested other derivatives of the bifunctional ammonium salts <bold>A</bold> (entries 7&#x02013;9 give three representative examples), but neither the use of a thiourea (entry 7), nor using sterically more bulky systems (entry 9) resulted in any improvement. When using the well&#x02010;established Maruoka catalyst <bold>B</bold> next (entry 10),<xref rid="ejoc202000916-bib-0007" ref-type="ref">7</xref>, <xref rid="ejoc202000916-bib-0012" ref-type="ref">12</xref> the reaction stalled after around 50&#x02009;% conversion and the observed diastereoselectivity was rather low (<italic>d.r</italic>. = 1.5:1). In sharp contrast to ammonium salt <bold>A1</bold> however, catalyst <bold>B</bold> allowed for higher enantioselectivities of the minor diastereomer (favoring the same major enantiomers of both diastereomers as <bold>A1</bold>). The classical Cinchona alkaloid ammonium salts <bold>C</bold> were found to be less suited for this reaction (entries 11 and 12), while the bifunctional catalyst <bold>D</bold>
+<xref rid="ejoc202000916-bib-0014" ref-type="ref">14</xref> gave at least some levels of selectivity (entry 13), although clearly not as promising as compounds <bold>A</bold>.</p><p>Based on these results, which support a beneficial effect of the bifunctional nature of the catalyst, we then tried to further optimize the reaction conditions using <bold>A1</bold> (entries 14&#x02013;18). While non&#x02010;aromatic solvents were found to be less suited (entries 14, 15), the use of a lower amount of base resulted in a slightly increased enantioselectivity of 91:9 (compare entries 16 and 6). However, the yield was noticeable lower, and we found that actually this reaction stalled after around 60&#x02009;% conversion, requiring addition of more base to proceed to completion. When carrying out the reaction under more concentrated conditions, the yield improved slightly, while the enantioselectivity decreased (entry 17). This result is in line with our recent observations for the &#x003b1;&#x02010;hydroxylation of compounds <bold>1</bold>, where higher dilution was beneficial for high enantioselectivities as well.<xref rid="ejoc202000916-bib-0010" ref-type="ref">10</xref> Finally, lowering the catalyst loading to 5 mol&#x02010;% resulted in a slightly lower selectivity but in a noteworthy reduced yield. Again, the reaction stalled after a while and addition of more catalyst was necessary in those cases, while longer reaction times were not beneficial. This phenomenon was generally observed in all the other reactions that did not show a satisfying conversion after 24 h (compare with entries 4, 10, and 16). Lower temperatures were tried as well but the reactions became very slow with unreliable conversions and no benefit in enantioselectivity.</p><p>Unfortunately, during these optimization attempts we observed a very strong influence of the starting material quality on the stereoselectivity of the reaction. First, the aziridine <bold>4</bold> has to be rather clean and especially even very minor quantities of iodine residues originating from the synthesis route<xref rid="ejoc202000916-bib-0016" ref-type="ref">16</xref> lead to a significant decrease of the <italic>e.r</italic>. In addition, the used &#x003b2;&#x02010;keto ester <bold>1</bold> has to be &#x0201c;perfectly clean&#x0201d; as well, as we observed that batches of <bold>1a</bold> that contained very small quantities of unidentified impurities (less than 1&#x02009;% by <sup>1</sup>H NMR) resulted in reduced enantioselectivities down to <italic>e.r</italic>. = 75:25 under otherwise identical conditions (in addition the yields were a bit higher here, demonstrating the notable influence of these unknown impurities on the reaction performance). Thus, use tests of each batch of the starting materials had to be made during all these optimizations. In sharp contrast to this pronounced sensitivity on the starting material quality observed for the synthesis of <bold>5</bold>, use tests of different keto ester <bold>1a</bold> batches for other reactions catalyzed by catalysts <bold>A</bold> (like the above mentioned &#x003b1;&#x02010;hydroxylation<xref rid="ejoc202000916-bib-0010" ref-type="ref">10</xref> or analogous &#x003b1;&#x02010;halogenations<xref rid="ejoc202000916-bib-0017" ref-type="ref">17</xref>) revealed no measurable dependency of selectivity and/or yield therein. Accordingly, this rather unpractical sensitivity, where seemingly small impurities or changes in the reagent's quality affected the outcome significantly, required a tedious purification of the starting materials for all asymmetric experiments. As a consequence, the results given in entries 6 and 16 in Table <xref rid="ejoc202000916-tbl-0001" ref-type="table">1</xref> are the best we could obtain with carefully purified reagents only. On the other hand, it should be noted that with given qualities of a single batch of <bold>1a</bold> and/or <bold>4a</bold> reproducible results were obtained when repeating the experiments several times.</p><table-wrap id="ejoc202000916-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Catalyst screening and optimization of the asymmetric reaction conditions<xref ref-type="fn" rid="ejoc202000916-note-0001">a</xref>
+</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead><tr><th colspan="7" style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="middle" align="center" rowspan="1">
+<chem-struct-wrap id="ejoc202000916-disp-0001" position="float" orientation="portrait"><chem-struct><graphic id="nlm-graphic-5" xlink:href="EJOC-2020-5173-g001"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></chem-struct></chem-struct-wrap>
+</th></tr><tr><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Entry</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Catalyst [mol&#x02010;%]</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Solvent</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Base</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Yield [%]<xref ref-type="fn" rid="ejoc202000916-note-0002">b</xref>
+</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<italic>d.r</italic>.<xref ref-type="fn" rid="ejoc202000916-note-0003">c</xref>
+</th><th style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<italic>e.r</italic>.<sub>major</sub>
+<xref ref-type="fn" rid="ejoc202000916-note-0004">d</xref>
+</th></tr></thead><tbody><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">K<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x0003c; 5</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">2</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>TBAB</bold>
+<xref ref-type="fn" rid="ejoc202000916-note-0005">e</xref> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">K<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">49</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">3:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">&#x02013;</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">3</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>A1</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">K<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">66</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">3.5:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">85:15</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">4</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>A1</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">K<sub>2</sub>CO<sub>3</sub> (50&#x02009;% aq.; 2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">21<xref ref-type="fn" rid="ejoc202000916-note-0006">f</xref>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">4:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">86:14</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">5</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>A1</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">K<sub>2</sub>HPO<sub>4</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">71</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">2:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">76:24</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">6</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>A1</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">79</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">6:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">89:11 (56:44)<xref ref-type="fn" rid="ejoc202000916-note-0007">g</xref>
+</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">7</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>A2</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">60</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">2.5:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">63:37</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">8</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>A3</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">72</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">1.5:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">81:19</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">9</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>A4</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">54</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">2:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">82:18</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">10</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>B</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">39<xref ref-type="fn" rid="ejoc202000916-note-0006">f</xref>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">1.5:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">70:30 (86:14)<xref ref-type="fn" rid="ejoc202000916-note-0007">g</xref>
+</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">11</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>C1</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">89</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">2:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">52:48</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">12</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>C2</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">90</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">3:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">50:50</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">13</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>D</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">82</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">3:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">64:36</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">14</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>A1</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">MTBE</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">75</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">4:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">87:13</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">15</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>A1</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">CH<sub>2</sub>Cl<sub>2</sub>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">84</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">3:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">66:34</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">16</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>A1</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (1&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">56</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">8:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">91:9</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">17</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>A1</bold> (10&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene<xref ref-type="fn" rid="ejoc202000916-note-0008">h</xref>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">83</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">5:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">81:19</td></tr><tr><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">18</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">
+<bold>A1</bold> (5&#x02009;%)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">toluene</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">Cs<sub>2</sub>CO<sub>3</sub> (2&#x02009;&#x000d7;)</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">36<xref ref-type="fn" rid="ejoc202000916-note-0006">f</xref>
+</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">7:1</td><td style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" valign="top" rowspan="1" colspan="1">87:13</td></tr></tbody></table><table-wrap-foot><fn id="ejoc202000916-note-0001"><label>a</label><p>All reactions were run at room temperature using 0.1 mmol <bold>1a</bold> and 0.2 mmol <italic>rac</italic>&#x02010;<bold>4a</bold> for 24 h in the indicated solvent (0.02 <sc>m</sc> with respect to <bold>1a</bold>) unless otherwise stated.</p></fn><fn id="ejoc202000916-note-0002"><label>b</label><p>Isolated yields of both diastereomers.</p></fn><fn id="ejoc202000916-note-0003"><label>c</label><p>Determined by <sup>1</sup>H NMR and/or HPLC analysis of the crude product.</p></fn><fn id="ejoc202000916-note-0004"><label>d</label><p>Determined by HPLC using a chiral stationary phase.</p></fn><fn id="ejoc202000916-note-0005"><label>e</label><p>Tetrabutylammonium bromide.</p></fn><fn id="ejoc202000916-note-0006"><label>f</label><p>Less than 50&#x02013;60&#x02009;% conversion.</p></fn><fn id="ejoc202000916-note-0007"><label>g</label><p>
+<italic>e.r</italic>. of the minor diastereomer.</p></fn><fn id="ejoc202000916-note-0008"><label>h</label><p>0.1 <sc>m</sc> with respect to <bold>1a</bold>.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>During our <bold>A1</bold>&#x02010;catalyzed &#x003b1;&#x02010;hydroxylation of <bold>1</bold> with oxaziridines <bold>2</bold> we also observed a practical simultaneous kinetic resolution of compounds <bold>2</bold> (up to <italic>s</italic> = 45)<xref rid="ejoc202000916-bib-0010" ref-type="ref">10</xref> and we therefore speculated that a resolution may be possible for our herein used aziridine <bold>4a</bold> too. We thus carried out the addition of <bold>1a</bold> to <italic>rac</italic>&#x02010;<bold>4a</bold> (2 equiv.) under the optimized conditions (entry 16, Table <xref rid="ejoc202000916-tbl-0001" ref-type="table">1</xref>) and observed some moderate enantioenrichment of recovered <bold>4a</bold> as well [<italic>e.r</italic>. = 60:40 for (<italic>S</italic>)&#x02010;<bold>4a</bold> after 25&#x02009;% conversion; <italic>s</italic> = 4.8]. Giving the significantly lower stereoselectivity in the synthesis of <bold>5a</bold> compared to our previous synthesis of <bold>3</bold>, this lower efficiency for the simultaneous resolution of <bold>4a</bold> comes as no surprise, but nevertheless this result supports our initial hypothesis.</p><p>To gather further information about this aziridine&#x02010;opening reaction, we next carried out the addition of <bold>1a</bold> to enantiopure (<italic>R</italic>)&#x02010;<bold>4a</bold>
+<xref rid="ejoc202000916-bib-0018" ref-type="ref">18</xref> in the presence of either (<italic>R,R</italic>)&#x02010;<bold>A1</bold> or (<italic>S,S</italic>)&#x02010;<bold>A1</bold> as a catalyst (Scheme <xref rid="ejoc202000916-fig-0002" ref-type="fig">2</xref>).</p><fig fig-type="Scheme" xml:lang="en" id="ejoc202000916-fig-0002" orientation="portrait" position="float"><label>Scheme 2</label><caption><p>Match/mismatch scenario in the addition of <bold>1a</bold> to (<italic>R</italic>)&#x02010;<bold>4a</bold> in the presence of both enantiomers of the catalyst <bold>A1</bold> and the proposed match&#x02010;transition state.</p></caption><graphic id="nlm-graphic-7" xlink:href="EJOC-2020-5173-g003"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig><p>In both cases, the two diastereomers of <bold>5a</bold> were formed with complete enantiospecifity, supporting an S<sub>N</sub>2&#x02010;mechansim for the ring opening, as observed by others as well.<xref rid="ejoc202000916-bib-0006" ref-type="ref">6</xref> The use of the (<italic>R,R</italic>)&#x02010;catalyst enantiomer (which was also used during the screening summarized in Table <xref rid="ejoc202000916-tbl-0001" ref-type="table">1</xref>) lead to a reasonable diastereoselectivity of 6:1 in favor of the major <italic>unlike</italic> diastereomer with high yield (match case). On the other hand, the reaction with the (<italic>S,S</italic>)&#x02010;catalyst proceeded significantly slower and with much lower diastereoselectivity (mismatch case). In our previous investigations on the use of catalysts <bold>A</bold> for reactions of &#x003b2;&#x02010;keto esters <bold>1</bold> we observed that the (<italic>S,S</italic>)&#x02010;catalyst enantiomers always favor <italic>Re</italic>&#x02010;face addition of the nucleophile.<xref rid="ejoc202000916-bib-0010" ref-type="ref">10</xref>, <xref rid="ejoc202000916-bib-0017" ref-type="ref">17</xref> In addition, previous DFT calculations of the <bold>A1</bold>&#x02010;catalyzed &#x003b1;&#x02010;hydroxylation of <bold>1a</bold> with <bold>2</bold> support a transition state where the enolate is H&#x02010;bonded to the urea moiety, while the electrophile is coordinated to the ammonium group.<xref rid="ejoc202000916-bib-0010" ref-type="ref">10</xref>, <xref rid="ejoc202000916-bib-0019" ref-type="ref">19</xref> Based on these previous observations, the herein observed pronounced match/mismatch behavior in the stereospecific addition to enantiopure aziridine <bold>4a</bold>, and the unambiguously determined relative configuration of <bold>4a</bold>,<xref rid="ejoc202000916-bib-0015" ref-type="ref">15</xref> the (<italic>R,R</italic>)&#x02010;catalyst is supposed to interact with both starting materials <bold>1a</bold> and <bold>4a</bold> in an organized bifunctional manner as illustrated in Scheme <xref rid="ejoc202000916-fig-0002" ref-type="fig">2</xref>, rationalizing formation of the observed favored major stereoisomer (<italic>S,R</italic>)&#x02010;<bold>5a</bold>. Based on this model it can also be proposed that the slightly preferred enantiomer of the minor <italic>like</italic> diastereomer is (<italic>S,S</italic>)&#x02010;<bold>5a</bold>.</p><p>Summing these investigations up, it was demonstrated that the stereoselective addition of pronucleophile <bold>1a</bold> to aziridine <bold>4a</bold> can be controlled by using the bifunctional ammonium salts <bold>A</bold>. Unfortunately however, because of the unexpected pronounced sensitivity that we observed during all these test reactions, and despite the promising selectivities up to <italic>e.r</italic>. = 91:9, this reaction as such is far from being as robust and practical as other chiral ammonium salt catalyzed reactions that we investigated recently.<xref rid="ejoc202000916-bib-0009" ref-type="ref">9</xref>, <xref rid="ejoc202000916-bib-0010" ref-type="ref">10</xref>, <xref rid="ejoc202000916-bib-0017" ref-type="ref">17</xref>
+</p><p>Considering the novelty of the products <bold>5</bold> that are accessible by this strategy in general, but keeping in mind the practical limitations of the asymmetric protocol, i.e. the sensitivity to the starting material qualities, we thus investigated the application scope for the racemic phase transfer&#x02010;catalyzed addition of various &#x003b2;&#x02010;keto esters <bold>1</bold> to aryl&#x02010;aziridines <bold>4</bold> only.</p><p>As shown in Scheme <xref rid="ejoc202000916-fig-0003" ref-type="fig">3</xref>, a variety of differently functionalized pronucleophiles <bold>1</bold> and acceptors <bold>4</bold> were reacted for three days in the presence of benzyltriethylammonium chloride (TEBAC) using Cs<sub>2</sub>CO<sub>3</sub> (a) or K<sub>3</sub>PO<sub>4</sub> (b) as the base. Interestingly, mesylated aziridines did not react well (see the result given for product <bold>5b</bold>) and when using <italic>N</italic>&#x02010;Boc aziridines no reaction was observed at all. On the other hand, the use of methyl or benzyl esters revealed a strong influence of this group on the overall outcome, as both of them resulted in the direct formation of the spirocyclic &#x003b3;&#x02010;lactam <bold>6</bold> upon addition to aziridine <bold>4a</bold>. Different substituents on the donor side were tolerated (see products <bold>5e</bold>&#x02013;<bold>i</bold>), although in some of these cases the use of K<sub>3</sub>PO<sub>4</sub> was found to be beneficial over Cs<sub>2</sub>CO<sub>3</sub> (in the latter case significant amounts of decomposition products were observed). On the other hand, variations of the acceptor aryl group were generally well accepted in the 4&#x02010;position, independent of the nature of the base, while the 3&#x02010;position was lower yielding (see product <bold>55</bold>) and in this case again significant amounts of unidentified decomposition products were formed. Nevertheless, the racemic protocol generally gives access to a variety of differently functionalized products <bold>5</bold> with relatively good yields and reasonable diastereoselectivities under these operationally simple ammonium salt&#x02010;catalyzed conditions.</p><fig fig-type="Scheme" xml:lang="en" id="ejoc202000916-fig-0003" orientation="portrait" position="float"><label>Scheme 3</label><caption><p>Application scope of the racemic ammonium salt&#x02010;catalyzed ring&#x02010;opening of aryl&#x02010;aziridines <bold>4</bold> with &#x003b2;&#x02010;keto esters <bold>1</bold>.</p></caption><graphic id="nlm-graphic-9" xlink:href="EJOC-2020-5173-g004"><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></graphic></fig></sec><sec id="ejoc202000916-sec-0030"><title>Conclusions</title><p>Summing these investigations up, we have shown that &#x003b2;&#x02010;keto esters <bold>1</bold> react with aryl&#x02010;aziridines <bold>4</bold> under (chiral) ammonium salt catalysis giving access to highly functionalized products <bold>5</bold>. In principle a catalytic and reasonably enantioselective protocol could be developed by using the bifunctional ammonium salt catalysts <bold>A</bold>. Unfortunately, however, this reaction was found to be very sensitive towards the quality of the starting materials. Nevertheless, control experiments showed a pronounced match/mismatch behavior of the bifunctional catalyst and the used aziridine, thus pointing towards a mechanism where the catalyst simultaneously activates both of the reaction partners.</p></sec><sec id="ejoc202000916-sec-0040"><title>Experimental Section</title><p>General experimental and analytical details as well as the characterization data of all the novel compounds can be found in the online supporting information.</p><p>
+<bold>Racemic Protocol:</bold> A mixture of 0.1 mmol &#x003b2;&#x02010;keto ester <bold>1</bold> (1 equiv.), 2.2 mg of TEBAC (0.01 mmol, 10 mol&#x02010;%) and 0.2 mmol base (2 equiv.) was dissolved in 5 mL of toluene (Ar&#x02010;atmosphere). Then 0.2 mmol of aziridine <bold>4</bold> (2 equiv.) were added in one portion. After a reaction time of three days the mixture was filtered through a plug of Na<sub>2</sub>SO<sub>4</sub> and washed with DCM. The crude product, obtained after evaporation of the solvent, was subjected to column chromatography (silica gel, heptanes:EtOAc = 5:1) to isolate products <bold>5</bold> and <bold>6</bold> as mixtures of diastereomers. The diastereomers were in some cases separated using preparative HPLC (Grace Alltima Silica 10 &#x000b5;m 250&#x02009;&#x000d7;&#x02009;10 mm, <italic>n</italic>&#x02010;hexane/EtOAc, 5 mL/min).</p><p>
+<bold>Enantioselective Screening Protocol:</bold> A mixture of the &#x003b2;&#x02010;keto ester <bold>1a</bold> (0.1 mmol, 1 equiv.), catalyst <bold>A1</bold> (7.6 mg, 0.01 mmol, 10 mol&#x02010;%) and 0.2 mmol of the tested base (2 equiv.) were dissolved in 5 mL of the given solvent (argon atmosphere, room temperature). Then 48 mg of 2&#x02010;phenyltosylaziridine <bold>4a</bold> (0.2 mmol, 2 equiv.) were added in one portion. After a reaction time of one day the mixture was filtered through a plug of Na<sub>2</sub>SO<sub>4</sub> and washed with DCM. The crude product, obtained after evaporation of the solvent under reduced pressure, was then subjected to column chromatography purification (silica gel, heptanes:EtOAc = 2:1) to isolate product <bold>5a</bold> as a mixture of two diastereomers (<italic>d.r</italic>. up to 8:1) in yields up to 84&#x02009;%. The diastereomers were separated using preparative HPLC (Grace Alltima Silica 10 &#x000b5;m 250&#x02009;&#x000d7;&#x02009;10 mm, <italic>n</italic>&#x02010;hexane/EtOAc = 9:1, 5 mL/min, retention times: 39.1 min major, 46.8 min minor). The enantiomeric excess of the minor diastereomer was determined by HPLC using a YMC Amylose SA column (<italic>n</italic>&#x02010;hexane/<italic>i</italic>PrOH = 3:1, 1 mL/min, 10 &#x000b0;C, retention times: 21.0 and 35.5 min). The enantiomeric excess of the major diastereomer was determined by HPLC using a YMC Cellulose SB column (<italic>n</italic>&#x02010;hexane/<italic>i</italic>PrOH = 10:1, 1 mL/min, 10 &#x000b0;C, retention times: 22.2 min major, 20.2 min minor).</p><p>
+<bold>Analytical Details for Compound 5a:</bold> HRMS (ESI): <italic>m/z</italic> calculated for C<sub>29</sub>H<sub>32</sub>NO<sub>5</sub>S<sup>+</sup>: 506.2001 [M + H]<sup>+</sup>, found 506.1992. <italic>Major Diastereomer</italic>: <sup>1</sup>H&#x02010;NMR (700 MHz, CDCl<sub>3</sub>, 298.0 K): <italic>&#x003b4;</italic> /ppm = 7.67 (d, <italic>J</italic> = 8.2 Hz, 2H), 7.49 (d, <italic>J</italic> = 7.7 Hz, 1H), 7.46 (t, <italic>J</italic> = 7.2 Hz, 1H), 7.32 (d, <italic>J</italic> = 7.7 Hz, 1H), 7.28 (d, <italic>J</italic> = 8.2 Hz, 2H), 7.21 (t, <italic>J</italic> = 7.2 Hz, 1H), 7.11&#x02013;7.05 (m, 5H), 4.42&#x02013;4.40 (m, 1H), 3.87 (dd, <italic>J</italic>
+<sub>1</sub> = 9.7 Hz, <italic>J</italic>
+<sub>2</sub> = 5.7 Hz, 1H), 3.69 (d, <italic>J</italic> = 17.2 Hz, 1H), 3.65&#x02013;3.61 (m, 1H), 3.38&#x02013;3.34 (m, 1H), 3.22 (d, <italic>J</italic> = 17.2 Hz, 1H), 2.43 (s, 3H), 1.37 (s, 9H); <sup>13</sup>C&#x02010;NMR (176 MHz, CDCl<sub>3</sub>, 298.0 K): <italic>&#x003b4;</italic> /ppm = 200.7, 169.0, 153.2, 143.6, 137.2, 136.2, 135.2, 135.0, 129.9, 129.6, 128.7, 127.8, 127.6, 127.3, 126.0, 124.7, 83.1, 65.4, 48.0, 44.4, 33.3, 27.8, 21.6. <italic>Minor Diastereomer</italic>: <sup>1</sup>H&#x02010;NMR (700 MHz, CDCl<sub>3</sub>, 298.0 K): <italic>&#x003b4;</italic> /ppm = 7.73 (d, <italic>J</italic> = 7.5 Hz, 2H), 7.56 (d, <italic>J</italic> = 8.1 Hz, 2H), 7.56&#x02013;7.54 (m, 1H), 7.37&#x02013;7.34 (m, 2H), 7.22&#x02013;7.18 (m, 5H), 7.11&#x02013;7.08 (m, 2H), 4.20&#x02013;4.18 (m, 1H), 3.90&#x02013;3.88 (m, 1H), 3.64 (d, <italic>J</italic> = 16.8 Hz, 1H), 3.40&#x02013;3.36 (m, 1H), 3.33&#x02013;3.29 (m, 1H), 3.27 (d, <italic>J</italic> = 16.8 Hz, 1H), 2.40 (s, 3H), 1.20 (s, 9H); <sup>13</sup>C&#x02010;NMR (176 MHz, CDCl<sub>3</sub>, 298.0 K): <italic>&#x003b4;</italic> /ppm = 202.1, 168.5, 153.2, 143.4, 137.9, 137.0, 135.7, 135.4, 129.8, 129.2, 128.8, 127.9, 127.8, 127.2, 126.3, 124.7, 82.8, 65.2, 49.0, 45.5, 34.7, 27.6, 21.6.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><caption><p>Supporting Information</p></caption><media xlink:href="EJOC-2020-5173-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ejoc202000916-sec-0050"><title>Acknowledgements</title><p>This work was generously supported by the Austrian Science Funds (FWF): Project No. P30237 (financed by the Austrian National Foundation for Research, Technology and Development and the Research Department of the State of Upper Austria). The used NMR spectrometers were acquired in collaboration with the University of South Bohemia (CZ) with financial support from the European Union through the EFRE INTERREG IV ETC&#x02010;AT&#x02010;CZ program (project M00146, &#x0201c;RERI&#x02010;uasb&#x0201d;). We are grateful to DI Thomas B&#x000f6;gl and Prof. Markus Himmelsbach (JKU Linz) for support with HRMS analysis.</p></ack><ref-list id="ejoc202000916-bibl-0001"><title>References</title><ref id="ejoc202000916-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0001">Selected reviews: a) <string-name>
+<given-names>D.</given-names>
+<surname>Tanner</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed. Engl</source>, <year>1994</year>, <volume>33</volume>, <fpage>599</fpage>&#x02013;<lpage>619</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0002">
+<source xml:lang="en">Angew. Chem</source>, <year>1994</year>, <volume>106</volume>, <fpage>625</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0003">b) <string-name>
+<given-names>J. B.</given-names>
+<surname>Sweeney</surname>
+</string-name>, <source xml:lang="en">Chem. Soc. Rev</source>, <year>2002</year>, <volume>31</volume>, <fpage>247</fpage>&#x02013;<lpage>258</lpage>;<pub-id pub-id-type="pmid">12357722</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0004">c) <string-name>
+<given-names>X. E.</given-names>
+<surname>Hu</surname>
+</string-name>, <source xml:lang="en">Tetrahedron</source>, <year>2004</year>, <volume>60</volume>, <fpage>2701</fpage>&#x02013;<lpage>2743</lpage>;</mixed-citation><mixed-citation publication-type="book" id="ejoc202000916-cit-0005">d) <source xml:lang="en">Aziridines and Epoxides in Organic Synthesis</source> (Ed.: <person-group person-group-type="editor"><name name-style="western"><surname>Yudin</surname><given-names>A. K.</given-names></name></person-group>), <publisher-name>Wiley&#x02010;VCH</publisher-name>, <publisher-loc>Weinheim</publisher-loc>, <year>2006</year>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0006">e) <string-name>
+<given-names>A.</given-names>
+<surname>Padwa</surname>
+</string-name> and <string-name>
+<given-names>S. S.</given-names>
+<surname>Murphree</surname>
+</string-name>, <source xml:lang="en">ARKIVOC</source>, <year>2006</year>, <fpage>6</fpage>&#x02013;<lpage>33</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0007">f) <string-name>
+<given-names>I. D. G.</given-names>
+<surname>Watson</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Yu</surname>
+</string-name> and <string-name>
+<given-names>A. K.</given-names>
+<surname>Yudin</surname>
+</string-name>, <source xml:lang="en">Acc. Chem. Res</source>, <year>2006</year>, <volume>39</volume>, <fpage>194</fpage>&#x02013;<lpage>206</lpage>;<pub-id pub-id-type="pmid">16548508</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0008">g) <string-name>
+<given-names>G. S.</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>D'hooghe</surname>
+</string-name> and <string-name>
+<given-names>N.</given-names>
+<surname>De Kimpe</surname>
+</string-name>, <source xml:lang="en">Chem. Rev</source>, <year>2007</year>, <volume>107</volume>, <fpage>2080</fpage>&#x02013;<lpage>2135</lpage>;<pub-id pub-id-type="pmid">17488062</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0009">h) <string-name>
+<given-names>S.</given-names>
+<surname>Stankovic</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>D'hooghe</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Catak</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Eum</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Waroquier</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>van Speybroeck</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>De Kimpe</surname>
+</string-name> and <string-name>
+<given-names>H.&#x02010;J.</given-names>
+<surname>Ha</surname>
+</string-name>, <source xml:lang="en">Chem. Soc. Rev</source>, <year>2012</year>, <volume>41</volume>, <fpage>643</fpage>&#x02013;<lpage>665</lpage>;<pub-id pub-id-type="pmid">21894345</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0010">i) <string-name>
+<given-names>P.&#x02010;A.</given-names>
+<surname>Wang</surname>
+</string-name>, <source xml:lang="en">Beilstein J. Org. Chem</source>, <year>2013</year>, <volume>9</volume>, <fpage>1677</fpage>&#x02013;<lpage>1695</lpage>;<pub-id pub-id-type="pmid">24062828</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0011">j) <string-name>
+<given-names>M.</given-names>
+<surname>Nonn</surname>
+</string-name>, <string-name>
+<given-names>A. M.</given-names>
+<surname>Remete</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>F&#x000fc;l&#x000f6;p</surname>
+</string-name> and <string-name>
+<given-names>L.</given-names>
+<surname>Kiss</surname>
+</string-name>, <source xml:lang="en">Tetrahedron</source>, <year>2017</year>, <volume>73</volume>, <fpage>5461</fpage>&#x02013;<lpage>5483</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0012">k) <string-name>
+<given-names>R.</given-names>
+<surname>Akhtar</surname>
+</string-name>, <string-name>
+<given-names>S. A. R.</given-names>
+<surname>Naqvi</surname>
+</string-name>, <string-name>
+<given-names>A. F.</given-names>
+<surname>Zahoor</surname>
+</string-name> and <string-name>
+<given-names>S.</given-names>
+<surname>Saleem</surname>
+</string-name>, <source xml:lang="en">Mol. Diversity</source>, <year>2018</year>, <volume>22</volume>, <fpage>447</fpage>&#x02013;<lpage>501</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0013">l) <string-name>
+<given-names>S.</given-names>
+<surname>Sabir</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Kumar</surname>
+</string-name>, <string-name>
+<given-names>V. P.</given-names>
+<surname>Verma</surname>
+</string-name> and <string-name>
+<given-names>J. L.</given-names>
+<surname>Jat</surname>
+</string-name>, <source xml:lang="en">ChemistrySelect</source>, <year>2018</year>, <volume>3</volume>, <fpage>3702</fpage>&#x02013;<lpage>3711</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0014">m) <string-name>
+<given-names>Z.</given-names>
+<surname>Chai</surname>
+</string-name>, <source xml:lang="en">Synthesis</source>, <year>2020</year>, <volume>52</volume>, <fpage>1738</fpage>&#x02013;<lpage>1750</lpage>.</mixed-citation></ref><ref id="ejoc202000916-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0015">Illustrative reviews on aziridine syntheses: a) <string-name>
+<given-names>H.</given-names>
+<surname>Pellissier</surname>
+</string-name>, <source xml:lang="en">Adv. Synth. Catal</source>, <year>2014</year>, <volume>356</volume>, <fpage>1899</fpage>&#x02013;<lpage>1935</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0016">b) <string-name>
+<given-names>L.</given-names>
+<surname>Degennaro</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Trinchera</surname>
+</string-name> and <string-name>
+<given-names>R.</given-names>
+<surname>Luisi</surname>
+</string-name>, <source xml:lang="en">Chem. Rev</source>, <year>2014</year>, <volume>114</volume>, <fpage>7881</fpage>&#x02013;<lpage>7929</lpage>;<pub-id pub-id-type="pmid">24823261</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0017">c) <string-name>
+<given-names>A.</given-names>
+<surname>Hameed</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Javed</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Noreen</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Huma</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Iqbal</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Umbreen</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Gulzar</surname>
+</string-name> and <string-name>
+<given-names>T.</given-names>
+<surname>Farooq</surname>
+</string-name>, <source xml:lang="en">Molecules</source>, <year>2017</year>, <volume>22</volume>, <fpage>1691</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0018">d) <string-name>
+<given-names>G. S.</given-names>
+<surname>Singh</surname>
+</string-name>, <source xml:lang="en">Adv. Heterocycl. Chem</source>, <year>2019</year>, <volume>129</volume>, <fpage>245</fpage>&#x02013;<lpage>335</lpage>.</mixed-citation></ref><ref id="ejoc202000916-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0019">a) <string-name>
+<given-names>E. V.</given-names>
+<surname>Blyumin</surname>
+</string-name>, <string-name>
+<given-names>H. J.</given-names>
+<surname>Gallon</surname>
+</string-name> and <string-name>
+<given-names>A. K.</given-names>
+<surname>Yudin</surname>
+</string-name>, <source xml:lang="en">Org. Lett</source>, <year>2007</year>, <volume>9</volume>, <fpage>4677</fpage>&#x02013;<lpage>4680</lpage>;<pub-id pub-id-type="pmid">17929932</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0020">b) <string-name>
+<given-names>T. A.</given-names>
+<surname>Moss</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Alba</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Hepworth</surname>
+</string-name> and <string-name>
+<given-names>D. J.</given-names>
+<surname>Dixon</surname>
+</string-name>, <source xml:lang="en">Chem. Commun</source>, <year>2008</year>, <fpage>2474</fpage>&#x02013;<lpage>2476</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0021">c) <string-name>
+<given-names>Y.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Kanai</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Matsunaga</surname>
+</string-name> and <string-name>
+<given-names>M.</given-names>
+<surname>Shibasaki</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc</source>, <year>2011</year>, <volume>133</volume>, <fpage>5791</fpage>&#x02013;<lpage>5793</lpage>;<pub-id pub-id-type="pmid">21443197</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0022">d) <string-name>
+<given-names>V. K.</given-names>
+<surname>Rai</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Sharma</surname>
+</string-name> and <string-name>
+<given-names>A.</given-names>
+<surname>Kumar</surname>
+</string-name>, <source xml:lang="en">Synlett</source>, <year>2013</year>, <volume>24</volume>, <fpage>97</fpage>&#x02013;<lpage>101</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0023">e) <string-name>
+<given-names>S.</given-names>
+<surname>Xing</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Ren</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Cui</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Xia</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Zhang</surname>
+</string-name> and <string-name>
+<given-names>D.</given-names>
+<surname>Wang</surname>
+</string-name>, <source xml:lang="en">Adv. Synth. Catal</source>, <year>2016</year>, <volume>358</volume>, <fpage>3093</fpage>&#x02013;<lpage>3099</lpage>.</mixed-citation></ref><ref id="ejoc202000916-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0024">a) <string-name>
+<given-names>T. A.</given-names>
+<surname>Moss</surname>
+</string-name>, <string-name>
+<given-names>D. R.</given-names>
+<surname>Fenwick</surname>
+</string-name> and <string-name>
+<given-names>D. J.</given-names>
+<surname>Dixon</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc</source>, <year>2008</year>, <volume>130</volume>, <fpage>10076</fpage>&#x02013;<lpage>10077</lpage>;<pub-id pub-id-type="pmid">18616245</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0025">b) <string-name>
+<given-names>M. W.</given-names>
+<surname>Paixao</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Nielsen</surname>
+</string-name>, <string-name>
+<given-names>C. B.</given-names>
+<surname>Jacobsen</surname>
+</string-name> and <string-name>
+<given-names>K. A.</given-names>
+<surname>J&#x000f8;rgenson</surname>
+</string-name>, <source xml:lang="en">Org. Biomol. Chem</source>, <year>2008</year>, <volume>6</volume>, <fpage>3467</fpage>&#x02013;<lpage>3470</lpage>;<pub-id pub-id-type="pmid">19082146</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0026">c) <string-name>
+<given-names>T. A.</given-names>
+<surname>Moss</surname>
+</string-name>, <string-name>
+<given-names>D. M.</given-names>
+<surname>Barber</surname>
+</string-name>, <string-name>
+<given-names>A. F.</given-names>
+<surname>Kyle</surname>
+</string-name> and <string-name>
+<given-names>D. J.</given-names>
+<surname>Dixon</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J</source>, <year>2013</year>, <volume>19</volume>, <fpage>3071</fpage>&#x02013;<lpage>3081</lpage>.<pub-id pub-id-type="pmid">23335289</pub-id></mixed-citation></ref><ref id="ejoc202000916-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0027">
+<string-name>
+<given-names>K.</given-names>
+<surname>Ohmatsu</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Ando</surname>
+</string-name> and <string-name>
+<given-names>T.</given-names>
+<surname>Ooi</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc</source>, <year>2013</year>, <volume>135</volume>, <fpage>18706</fpage>&#x02013;<lpage>18709</lpage>.<pub-id pub-id-type="pmid">24304152</pub-id></mixed-citation></ref><ref id="ejoc202000916-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0028">a) <string-name>
+<given-names>A.</given-names>
+<surname>Onistschenko</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Buchholz</surname>
+</string-name> and <string-name>
+<given-names>H.</given-names>
+<surname>Stamm</surname>
+</string-name>, <source xml:lang="en">Chem. Ber</source>, <year>1986</year>, <volume>119</volume>, <fpage>2678</fpage>&#x02013;<lpage>2680</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0029">b) <string-name>
+<given-names>M. K.</given-names>
+<surname>Ghorai</surname>
+</string-name> and <string-name>
+<given-names>D. P.</given-names>
+<surname>Tiwari</surname>
+</string-name>, <source xml:lang="en">J. Org. Chem</source>, <year>2010</year>, <volume>75</volume>, <fpage>6173</fpage>&#x02013;<lpage>6181</lpage>;<pub-id pub-id-type="pmid">20707384</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0030">c) <string-name>
+<given-names>X.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Chang</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name> and <string-name>
+<given-names>W.</given-names>
+<surname>Wie</surname>
+</string-name>, <source xml:lang="en">J. Mol. Catal. A</source>, <year>2012</year>, <volume>363&#x02013;364</volume>, <fpage>446</fpage>&#x02013;<lpage>450</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0031">d) <string-name>
+<given-names>X.</given-names>
+<surname>Xing</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Gu</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Xing</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Wang</surname>
+</string-name> and <string-name>
+<given-names>B.</given-names>
+<surname>Zhu</surname>
+</string-name>, <source xml:lang="en">Org. Lett</source>, <year>2018</year>, <volume>20</volume>, <fpage>5680</fpage>&#x02013;<lpage>5683</lpage>.<pub-id pub-id-type="pmid">30188133</pub-id></mixed-citation></ref><ref id="ejoc202000916-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0032">Selected reviews on asymmetric ion pairing catalysis: a) <string-name>
+<given-names>J.&#x02010;F.</given-names>
+<surname>Bri&#x000e8;re</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Oudeyer</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Dalla</surname>
+</string-name> and <string-name>
+<given-names>V.</given-names>
+<surname>Levacher</surname>
+</string-name>, <source xml:lang="en">Chem. Soc. Rev</source>, <year>2012</year>, <volume>41</volume>, <fpage>1696</fpage>&#x02013;<lpage>1707</lpage>;<pub-id pub-id-type="pmid">22045014</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0033">b) <string-name>
+<given-names>S.</given-names>
+<surname>Shirakawa</surname>
+</string-name> and <string-name>
+<given-names>K.</given-names>
+<surname>Maruoka</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed</source>, <year>2013</year>, <volume>52</volume>, <fpage>4312</fpage>&#x02013;<lpage>4348</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0034">
+<source xml:lang="en">Angew. Chem</source>, <year>2013</year>, <volume>125</volume>, <fpage>4408</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0035">c) <string-name>
+<given-names>K.</given-names>
+<surname>Brak</surname>
+</string-name> and <string-name>
+<given-names>E. N.</given-names>
+<surname>Jacobsen</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed</source>, <year>2013</year>, <volume>52</volume>, <fpage>534</fpage>&#x02013;<lpage>561</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0036">
+<source xml:lang="en">Angew. Chem</source>, <year>2013</year>, <volume>125</volume>, <fpage>558</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0037">d) <string-name>
+<given-names>J.</given-names>
+<surname>Tan</surname>
+</string-name> and <string-name>
+<given-names>N.</given-names>
+<surname>Yasuda</surname>
+</string-name>, <source xml:lang="en">Org. Process Res. Dev</source>, <year>2015</year>, <volume>19</volume>, <fpage>1731</fpage>&#x02013;<lpage>1746</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0038">e) <string-name>
+<given-names>L.</given-names>
+<surname>Zong</surname>
+</string-name> and <string-name>
+<given-names>C.&#x02010;H.</given-names>
+<surname>Tan</surname>
+</string-name>, <source xml:lang="en">Acc. Chem. Res</source>, <year>2017</year>, <volume>50</volume>, <fpage>842</fpage>&#x02013;<lpage>856</lpage>;<pub-id pub-id-type="pmid">28379012</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0039">f) <string-name>
+<given-names>D.</given-names>
+<surname>Qia</surname>
+</string-name> and <string-name>
+<given-names>J.</given-names>
+<surname>Sun</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J</source>, <year>2019</year>, <volume>25</volume>, <fpage>3740</fpage>&#x02013;<lpage>3751</lpage>;<pub-id pub-id-type="pmid">30358913</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0040">g) <string-name>
+<given-names>T.</given-names>
+<surname>Nakamura</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Okuno</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Nishiyori</surname>
+</string-name> and <string-name>
+<given-names>S.</given-names>
+<surname>Shirakawa</surname>
+</string-name>, <source xml:lang="en">Chem. Asian J</source>, <year>2020</year>, <volume>15</volume>, <fpage>463</fpage>&#x02013;<lpage>472</lpage>.<pub-id pub-id-type="pmid">31903725</pub-id></mixed-citation></ref><ref id="ejoc202000916-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0041">Reviews on bifunctional ammonium salt catalysis: a) <string-name>
+<given-names>J.</given-names>
+<surname>Novacek</surname>
+</string-name> and <string-name>
+<given-names>M.</given-names>
+<surname>Waser</surname>
+</string-name>, <source xml:lang="en">Eur. J. Org. Chem</source>, <year>2013</year>, <fpage>637</fpage>&#x02013;<lpage>648</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0042">b) <string-name>
+<given-names>H.</given-names>
+<surname>Wang</surname>
+</string-name>, <source xml:lang="en">Catalysts</source>, <year>2019</year>, <volume>9</volume>, <fpage>244</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0043">c) <string-name>
+<given-names>H.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Zheng</surname>
+</string-name> and <string-name>
+<given-names>G.</given-names>
+<surname>Zhao</surname>
+</string-name>, <source xml:lang="en">Chin. J. Chem</source>, <year>2019</year>, <volume>37</volume>, <fpage>1111</fpage>&#x02013;<lpage>1119</lpage>.</mixed-citation></ref><ref id="ejoc202000916-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0044">For two recent examples: a) <string-name>
+<given-names>A.</given-names>
+<surname>Eitzinger</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Winter</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Sch&#x000f6;rgenhumer</surname>
+</string-name> and <string-name>
+<given-names>M.</given-names>
+<surname>Waser</surname>
+</string-name>, <source xml:lang="en">Chem. Commun</source>, <year>2020</year>, <volume>56</volume>, <fpage>579</fpage>&#x02013;<lpage>582</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0045">b) <string-name>
+<given-names>A.</given-names>
+<surname>Eitzinger</surname>
+</string-name>, <string-name>
+<given-names>J.&#x02010;F.</given-names>
+<surname>Bri&#x000e8;re</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Cahard</surname>
+</string-name> and <string-name>
+<given-names>M.</given-names>
+<surname>Waser</surname>
+</string-name>, <source xml:lang="en">Org. Biomol. Chem</source>, <year>2020</year>, <volume>18</volume>, <fpage>405</fpage>&#x02013;<lpage>408</lpage>.<pub-id pub-id-type="pmid">31915785</pub-id></mixed-citation></ref><ref id="ejoc202000916-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0046">
+<string-name>
+<given-names>J.</given-names>
+<surname>Novacek</surname>
+</string-name>, <string-name>
+<given-names>J. A.</given-names>
+<surname>Izzo</surname>
+</string-name>, <string-name>
+<given-names>M. J.</given-names>
+<surname>Vetticatt</surname>
+</string-name> and <string-name>
+<given-names>M.</given-names>
+<surname>Waser</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J</source>, <year>2016</year>, <volume>22</volume>, <fpage>17339</fpage>&#x02013;<lpage>17344</lpage>.<pub-id pub-id-type="pmid">27763714</pub-id></mixed-citation></ref><ref id="ejoc202000916-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0047">For a recent report on the use of similar catalysts by others: <string-name>
+<given-names>M.</given-names>
+<surname>Yasui</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Yamada</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Tsukano</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Hamza</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Papai</surname>
+</string-name> and <string-name>
+<given-names>Y.</given-names>
+<surname>Takemoto</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2020</year>, DOI: <pub-id pub-id-type="doi">10.1002/anie.202002129</pub-id>.</mixed-citation></ref><ref id="ejoc202000916-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0048">Seminal reports: a) <string-name>
+<given-names>T.</given-names>
+<surname>Ooi</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Kameda</surname>
+</string-name> and <string-name>
+<given-names>K.</given-names>
+<surname>Maruoka</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc</source>, <year>1999</year>, <volume>121</volume>, <fpage>6519</fpage>&#x02013;<lpage>6520</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0049">b) <string-name>Ooi</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Takeuchi</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Kameda</surname>
+</string-name> and <string-name>
+<given-names>K.</given-names>
+<surname>Maruoka</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc</source>, <year>2000</year>, <volume>122</volume>, <fpage>5228</fpage>&#x02013;<lpage>5229</lpage>.</mixed-citation></ref><ref id="ejoc202000916-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0050">Pioneering studies: a) <string-name>
+<given-names>R.</given-names>
+<surname>Helder</surname>
+</string-name>, <string-name>
+<given-names>J. C.</given-names>
+<surname>Hummelen</surname>
+</string-name>, <string-name>
+<given-names>R. W. P. M.</given-names>
+<surname>Laane</surname>
+</string-name>, <string-name>
+<given-names>J. S.</given-names>
+<surname>Wiering</surname>
+</string-name> and <string-name>
+<given-names>H.</given-names>
+<surname>Wynberg</surname>
+</string-name>, <source xml:lang="en">Tetrahedron Lett</source>, <year>1976</year>, <volume>17</volume>, <fpage>1831</fpage>&#x02013;<lpage>1834</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0051">b) <string-name>
+<given-names>S.</given-names>
+<surname>Colonna</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Hiemstra</surname>
+</string-name> and <string-name>
+<given-names>H.</given-names>
+<surname>Wynberg</surname>
+</string-name>, <source xml:lang="en">J. Chem. Soc., Chem. Commun</source>, <year>1978</year>, <fpage>238</fpage>&#x02013;<lpage>239</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0052">c) <string-name>
+<given-names>U. H.</given-names>
+<surname>Dolling</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Davis</surname>
+</string-name> and <string-name>
+<given-names>E. J. J.</given-names>
+<surname>Grabowski</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc</source>, <year>1984</year>, <volume>106</volume>, <fpage>446</fpage>&#x02013;<lpage>447</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0053">d) <string-name>
+<given-names>M. J.</given-names>
+<surname>O'Donnell</surname>
+</string-name>, <string-name>
+<given-names>W. D.</given-names>
+<surname>Bennett</surname>
+</string-name> and <string-name>
+<given-names>S.</given-names>
+<surname>Wu</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc</source>, <year>1989</year>, <volume>111</volume>, <fpage>2353</fpage>&#x02013;<lpage>2355</lpage>.</mixed-citation></ref><ref id="ejoc202000916-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0054">a) <string-name>
+<given-names>P.</given-names>
+<surname>Bernal</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Fern&#x000e1;ndez</surname>
+</string-name> and <string-name>
+<given-names>J. M.</given-names>
+<surname>Lassaletta</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J</source>, <year>2010</year>, <volume>16</volume>, <fpage>7714</fpage>&#x02013;<lpage>7718</lpage>;<pub-id pub-id-type="pmid">20533468</pub-id></mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0055">b) <string-name>
+<given-names>J.</given-names>
+<surname>Sch&#x000f6;rgenhumer</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Otte</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Haider</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Novacek</surname>
+</string-name> and <string-name>
+<given-names>M.</given-names>
+<surname>Waser</surname>
+</string-name>, <source xml:lang="en">Tetrahedron</source>
+<year>2020</year>, DOI: <pub-id pub-id-type="doi">10.1016/j.tet.2019.130816</pub-id>.</mixed-citation></ref><ref id="ejoc202000916-bib-0015"><label>15</label><mixed-citation publication-type="miscellaneous" id="ejoc202000916-cit-0056">
+<ext-link ext-link-type="uri" xlink:href="https://www.ccdc.cam.ac.uk/services/structures?id=doi:10.1002/ejoc.202000916">Deposition Number 2012449</ext-link> (for <bold>5a</bold>) contains the supplementary crystallographic data for this paper. These data are provided free of charge by the joint Cambridge Crystallographic Data Centre and Fachinformationszentrum Karlsruhe Access Structures service <ext-link ext-link-type="uri" xlink:href="http://www.ccdc.cam.ac.uk/structures">www.ccdc.cam.ac.uk/structures</ext-link>.</mixed-citation></ref><ref id="ejoc202000916-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0057">
+<string-name>
+<given-names>H.</given-names>
+<surname>Rubin</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Cockrell</surname>
+</string-name> and <string-name>
+<given-names>J. B.</given-names>
+<surname>Morgan</surname>
+</string-name>, <source xml:lang="en">J. Org. Chem</source>, <year>2013</year>, <volume>78</volume>, <fpage>8865</fpage>&#x02013;<lpage>8871</lpage>.<pub-id pub-id-type="pmid">23944974</pub-id></mixed-citation></ref><ref id="ejoc202000916-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0058">a) <string-name>
+<given-names>J.</given-names>
+<surname>Novacek</surname>
+</string-name> and <string-name>
+<given-names>M.</given-names>
+<surname>Waser</surname>
+</string-name>, <source xml:lang="en">Eur. J. Org. Chem</source>, <year>2014</year>, <fpage>802</fpage>&#x02013;<lpage>809</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="ejoc202000916-cit-0059">b) <string-name>
+<given-names>J.</given-names>
+<surname>Novacek</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Monkowius</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Himmelsbach</surname>
+</string-name> and <string-name>
+<given-names>M.</given-names>
+<surname>Waser</surname>
+</string-name>, <source xml:lang="en">Monatsh. Chem</source>, <year>2016</year>, <volume>147</volume>, <fpage>533</fpage>&#x02013;<lpage>538</lpage>.</mixed-citation></ref><ref id="ejoc202000916-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="ejoc202000916-cit-0060">
+<string-name>
+<given-names>R. A.</given-names>
+<surname>Craig</surname>
+<suffix>II</suffix>
+</string-name>, <string-name>
+<given-names>N. R.</given-names>
+<surname>O'Connor</surname>
+</string-name>, <string-name>
+<given-names>A. F. G.</given-names>
+<surname>Goldberg</surname>
+</string-name> and <string-name>
+<given-names>B. M.</given-names>
+<surname>Stoltz</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J</source>, <year>2014</year>, <volume>20</volume>, <fpage>4806</fpage>&#x02013;<lpage>4813</lpage>.<pub-id pub-id-type="pmid">24604740</pub-id></mixed-citation></ref><ref id="ejoc202000916-bib-0019"><label>19</label><mixed-citation publication-type="miscellaneous" id="ejoc202000916-cit-0061">For a recent review on H&#x02010;bonding catalysis with (amm)&#x02010;onium salts: See ref.[<xref rid="ejoc202000916-bib-0007" ref-type="ref">7g</xref>].</mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,2027 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Statistical Forecasting of Current and Future Circum-Arctic Ground Temperatures and Active Layer Thickness</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2018">16 MAY 2018</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">J</forename><surname>Aalto</surname></persname>
+<email>juha.aalto@helsinki.fi</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Department of Geosciences and Geography, University of Helsinki, Helsinki, Finland,</note>
+<orgname type="department">Department of Geosciences and Geography</orgname>
+<orgname type="institution">University of Helsinki</orgname>
+<address>
+<settlement>Helsinki</settlement>
+<country key="FI">Finland</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Finnish Meteorological Institute, Helsinki, Finland,</note>
+<orgname type="institution">Finnish Meteorological Institute</orgname>
+<address>
+<settlement>Helsinki</settlement>
+<country key="FI">Finland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Karjalainen</surname></persname>
+<idno type="ORCID">0000-0001-6819-4911</idno>
+<affiliation key="aff2">
+<note type="raw_affiliation"> Geography Research Unit, University of Oulu, Oulu, Finland</note>
+<orgname type="department">Geography Research Unit</orgname>
+<orgname type="institution">University of Oulu</orgname>
+<address>
+<settlement>Oulu</settlement>
+<country key="FI">Finland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hjort</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> Geography Research Unit, University of Oulu, Oulu, Finland</note>
+<orgname type="department">Geography Research Unit</orgname>
+<orgname type="institution">University of Oulu</orgname>
+<address>
+<settlement>Oulu</settlement>
+<country key="FI">Finland</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Luoto</surname></persname>
+<idno type="ORCID">0000-0002-4521-2088</idno>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Department of Geosciences and Geography, University of Helsinki, Helsinki, Finland,</note>
+<orgname type="department">Department of Geosciences and Geography</orgname>
+<orgname type="institution">University of Helsinki</orgname>
+<address>
+<settlement>Helsinki</settlement>
+<country key="FI">Finland</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Statistical Forecasting of Current and Future Circum-Arctic Ground Temperatures and Active Layer Thickness</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2018">16 MAY 2018</date>
+</imprint>
+</monogr>
+<idno type="MD5">C414C4D167622F18E7FF922343FE1F52</idno>
+<idno type="DOI">10.1029/2018GL078007</idno>
+<note type="submission">Received 23 MAR 2018 Accepted 27 APR 2018 Accepted article online 7 MAY 2018</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-10-03T04:49+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Mean annual ground temperature (MAGT) and active layer thickness (ALT) are key to understanding the evolution of the ground thermal state across the Arctic under climate change.</s><s>Here a statistical modeling approach is presented to forecast current and future circum-Arctic MAGT and ALT in relation to climatic and local environmental factors, at spatial scales unreachable with contemporary transient modeling.</s><s>After deploying an ensemble of multiple statistical techniques, distance-blocked cross validation between observations and predictions suggested excellent and reasonable transferability of the MAGT and ALT models, respectively.</s><s>The MAGT forecasts indicated currently suitable conditions for permafrost to prevail over an area of 15.1 ± 2.8 × 10 6 km 2 .</s><s>This extent is likely to dramatically contract in the future, as the results showed consistent, but region-specific, changes in ground thermal regime due to climate change.</s><s>The forecasts provide new opportunities to assess future Arctic changes in ground thermal state and biogeochemical feedback.</s></p><p><s>Plain Language Summary Modeling of circum-Arctic ground thermal regime is critical to better predict the local climate change impacts on Arctic ecosystems and societies, thus supporting effective mitigation strategies.</s><s>In this study we present a new approach to create ground temperature and active layer thickness (i.e.</s><s>seasonally thawed ground layer on the top of permafrost) data layers over northern hemisphere at unprecedented fine spatial resolution (ca.</s><s>1km), that is unreachable with contemporary models.</s><s>Our data indicate currently suitable conditions for permafrost to prevail over an area of 15.1 ± 2.8 × 10 6 km 2 .</s><s>However, this extent is likely to dramatically contract in the future, as our results suggest consistent, but region-specific, alterations in ground thermal conditions due to climate change.</s><s>Our results provide new opportunities to estimate future changes in Arctic ground thermal state, which has important implications on greenhouse gas fluxes and infrastructure hazards due to permafrost degradation.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>General circulation models predict global warming and associated Arctic amplification (Intergovernmental Panel on Climate Change [IPCC], 2013; <ref target="#b55" type="bibr">Screen &amp; Simmonds, 2010)</ref>.</s><s>A growing body of literature projects alterations in ground thermal regime (mean annual ground temperature, MAGT) and active layer thickness (ALT, seasonally thawing surface layer on top of permafrost) due to climate change (Arctic Monitoring and Assessment Programme, 2017; <ref target="#b21" type="bibr">Grosse et al., 2016;</ref><ref target="#b32" type="bibr">Hipp et al., 2012;</ref><ref type="bibr">IPCC, 2013;</ref><ref target="#b37" type="bibr">Koven et al., 2011)</ref>.</s><s>These anticipated changes are likely to affect the functioning of Arctic ecosystems through changes in ground ice, hydrology, and nutrient cycling <ref target="#b15" type="bibr">(Fountain et al., 2012;</ref><ref target="#b40" type="bibr">Liljedahl et al., 2016;</ref><ref target="#b50" type="bibr">Post et al., 2009)</ref>.</s><s>They will amplify climate warming through various surface-atmosphere feedback such as release of greenhouse gases (CO 2 , CH 4 , and N 2 O) from warming soils and changes in ground reflectance <ref target="#b10" type="bibr">(Christensen et al., 2004;</ref><ref target="#b54" type="bibr">Schuur et al., 2009)</ref>.</s><s>Thawing of perennially frozen ground is also likely to pose threats to man-made infrastructure with potentially severe economic consequences <ref target="#b45" type="bibr">(Melvin et al., 2017;</ref><ref target="#b48" type="bibr">Nelson et al., 2001)</ref>.</s></p><p><s>Ground thermal regime, and consequently permafrost occurrence, has commonly been investigated using mechanistic transient models that are based on solving physically based equations describing processes such as heat conductance and hydraulic movements in n-dimensional soil matrix <ref target="#b19" type="bibr">(Gisnås et al., 2017;</ref><ref target="#b24" type="bibr">Guo &amp; Wang, 2016;</ref><ref target="#b66" type="bibr">Westermann et al., 2013</ref><ref target="#b65" type="bibr">Westermann et al., , 2015))</ref>.</s><s>Whereas such models are useful tools for producing physically consistent estimates of MAGT and thus increasing the knowledge of the mechanisms controlling ground thermal regime, they are often tedious to parameterize, computationally heavy to conduct and provide forecasts at relatively coarse spatial scales (&gt;10 km) in hemispheric-scale explorations <ref target="#b24" type="bibr">(Guo &amp; Wang, 2016)</ref>.</s><s>Despite rapid increase in computational facilities and modeling algorithms <ref type="bibr">(Westermann et</ref>  • Supporting Information S1</s></p><p><s>• Table <ref type="table">S1</ref> • Table <ref type="table">S2</ref> 2016), contemporary transient ground thermal modeling is still a trade-off between modeling resolution and the size of geographical domain, potentially limiting their applicability in regional and/or global studies <ref target="#b13" type="bibr">(Etzelmüller, 2013)</ref>.</s></p><p><s>Empirical techniques rely on statistical associations between dependent variable (i.e., response) and one or multiple explanatory variables (hereafter predictors; <ref target="#b23" type="bibr">Guisan &amp; Zimmermann, 2000)</ref>.</s><s>They are increasingly used in environmental research especially among practitioners and show high potential for modeling ground thermal conditions over broad geographical regions <ref target="#b9" type="bibr">(Chadburn et al., 2017;</ref><ref target="#b22" type="bibr">Gruber, 2012;</ref><ref target="#b33" type="bibr">Hjort &amp; Luoto, 2013)</ref>.</s><s>They are computationally more cost-efficient than transient modeling and can readily account for environmental conditions related to topography and land cover (data available as geographical layers) that could be difficult to physically parameterize <ref target="#b13" type="bibr">(Etzelmüller, 2013)</ref>.</s><s>Statistical models are often criticized for their correlative nature, which may (1) hinder the interpretation of the response-predictor relationships (cf.</s><s>causality) and ( <ref type="formula">2</ref>) cause uncertainty when extrapolating to environmental conditions outside the range of observation data (e.g., climate change; <ref target="#b27" type="bibr">Heikkinen et al., 2006)</ref>.</s><s>Such issues can be partly controlled by assuring that observation data cover investigated environmental gradients and by using ensembles of different statistical algorithms <ref target="#b1" type="bibr">(Aalto et al., 2014;</ref><ref target="#b17" type="bibr">Gallien et al., 2012;</ref><ref target="#b41" type="bibr">Marmion et al., 2009)</ref>.</s></p><p><s>Ground thermal regime is strongly coupled with average atmospheric conditions and is often characterized by using average annual air temperature or cumulative temperature sums (e.g., freeze and thaw days; <ref target="#b9" type="bibr">Chadburn et al., 2017;</ref><ref target="#b22" type="bibr">Gruber, 2012;</ref><ref target="#b59" type="bibr">Smith, 1975)</ref>.</s><s>In addition, precipitation conditions affect ground surface temperatures through water infiltration to soil column causing advective heat transfer and modifying thermal properties of the soil (heat capacity and thermal conductivity; <ref target="#b62" type="bibr">Weismüller et al., 2011;</ref><ref target="#b63" type="bibr">Westermann et al., 2011)</ref>.</s><s>Thermal conditions in near-surface ground layers (&lt;10-20 m) respond well to the changes in climate at decadal level.</s><s>Local environmental conditions related to topography, soil characteristics, and water bodies are likely to create heterogeneity in ground thermal regime <ref target="#b8" type="bibr">(Burn, 2005;</ref><ref target="#b13" type="bibr">Etzelmüller, 2013;</ref><ref target="#b14" type="bibr">Fagan &amp; Nelson, 2017;</ref><ref target="#b18" type="bibr">Gangodagamage et al., 2014)</ref>.</s><s>These effects derive from, for example, varying exposure of ground surface to incoming solar radiation (controlling energy input) and soil type (affecting heat conductance and water movement).</s><s>Moreover, topography controls snow distribution, which influences offset between atmospheric and ground temperatures <ref target="#b20" type="bibr">(Gisnås et al., 2016;</ref><ref target="#b69" type="bibr">Zhang, 2005)</ref>.</s></p><p><s>Here a statistical modeling approach is presented to create high-quality MAGT and ALT data layers covering circum-Arctic domain at fine spatial resolution (30 arc sec) that is unreachable with contemporary transient ground thermal models.</s><s>First, current MAGT and ALT estimates are produced using extensive borehole data and ALT measurements, and ensemble of forecasts generated with multiple statistical techniques.</s><s>Second, the modeling framework is used to assess future MAGT and ALT forced by the change in climate conditions as predicted by downscaled global climate simulations.</s><s>Finally, a regional inspection is carried out to highlight the magnitude of MAGT and ALT change over the circum-Arctic.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Materials and Methods</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Ground Temperature Data<p><s>Standardized observations of MAGT (n = 797) from the land areas &gt;30°N (cf.</s><s>northern hemisphere domain, NHM) were compiled mainly from the Global Terrestrial Network for Permafrost (GTN-P) database <ref target="#b5" type="bibr">(Biskaborn et al., 2015</ref>; Figure <ref target="#fig_0" type="figure">1</ref> and Table <ref type="table">S1</ref>).</s><s>MAGT observations at or near the depth of zero annual amplitude (ZAA, annual temperature variation &lt;0.1°C) were used <ref target="#b53" type="bibr">(Romanovsky et al., 2010)</ref>.</s><s>However, as the exact depth of ZAA was not explicitly reported for the majority of observations in the databases, the ZAA depths were manually determined using data in the GTN-P and additional databases available by examining the temperature variations at various depths.</s><s>A significant portion of the boreholes without confirmed depth of ZAA was based on a single-time temperature measurement.</s><s>In these cases, a value at or the closest to 15 m below the ground surface was used <ref target="#b3" type="bibr">(Barry &amp; Gan, 2011;</ref><ref target="#b25" type="bibr">Harris et al., 2009)</ref>.</s><s>All measurement sites influenced by strong disturbances (e.g., forest fires and anthropogenic heat source) were omitted from the data.</s><s>A minimum location precision of two decimal degrees (&lt;1 km within the study domain, mostly &lt;100 m) was adopted to ascertain that borehole locations and geospatial data match spatially.</s></p><p><s>The temporal focus was limited to a period of 2000-2014 for obtaining reasonable long-term averages with maximum number of observation sites.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">10.1029/2018GL078007<p><s>Geophysical Research Letters</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Active Layer Thickness Data<p><s>A total of 303 ALT observation sites were compiled from the GTN-P database <ref target="#b5" type="bibr">(Biskaborn et al., 2015)</ref> and additional data sets (Figure <ref target="#fig_0" type="figure">1</ref> and Table <ref type="table">S2</ref>).</s><s>The ALT measurements are based on either mechanical probing in grids or transects, or single-point depth values from thaw tubes or soil temperature profiles <ref target="#b7" type="bibr">(Brown et al., 2000;</ref><ref target="#b49" type="bibr">Nelson et al., 2004)</ref>.</s><s>Grids and transects included multiple individual ALT measurements, from which a mean value was calculated to represent ALT at the site.</s><s>While acknowledging the high spatial variability of ALT over short distances <ref target="#b67" type="bibr">(Westermann et al., 2010)</ref>, a liberal location-precision criterion of an arc minute was used to avoid for omitting a large part of the observations.</s><s>Any documented anomalous measurement sites (postfire measurements and imprecise depths) were not considered to represent undisturbed observations.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Climate Data: Current and Past Conditions<p><s>To obtain spatially detailed climate data for current conditions <ref type="bibr">(2000)</ref><ref type="bibr">(2001)</ref><ref type="bibr">(2002)</ref><ref type="bibr">(2003)</ref><ref type="bibr">(2004)</ref><ref type="bibr">(2005)</ref><ref type="bibr">(2006)</ref><ref type="bibr">(2007)</ref><ref type="bibr">(2008)</ref><ref type="bibr">(2009)</ref><ref type="bibr">(2010)</ref><ref type="bibr">(2011)</ref><ref type="bibr">(2012)</ref><ref type="bibr">(2013)</ref><ref type="bibr">(2014)</ref>, the WorldClim (WC, version 1) data set <ref target="#b30" type="bibr">(Hijmans et al., 2005)</ref> with a spatial resolution of 30 arc sec was used.</s><s>The WC data are representative of period of 1950-2000, thus not coinciding the temporal frame of this study.</s><s>Therefore, an adjustment scheme was applied where external coarse scale data were used to account for changes in the climatic parameters between the two time periods.</s><s>The adjustment was made using the Global Meteorological Forcing Dataset for land surface modeling (GMFD, version 2; <ref target="#b57" type="bibr">Sheffield et al., 2006</ref>, spatial resolution of 0.5°).</s><s>The GMFD data were processed to represent monthly average temperature and precipitation over the time period of 2000-2014, but also for past conditions of <ref type="bibr">1970-1984 and 1985-1999</ref> for model validation.</s><s>The GMFD data were resampled using nearest neighbor interpolation to match the spatial resolution of the WC data.</s><s>Finally, the WC data were adjusted by the amount of locally smoothed (a moving average of 3 × 3 pixels) difference between the coarser-scale GMFD data (i.e., representing 2000-2014) and WC data.</s></p><p><s>Four predictors were calculated from the adjusted climate data: freezing and thawing degree-days (°C, FDD and TDD, respectively; <ref target="#b65" type="bibr">Westermann et al., 2015)</ref>, and snow precipitation (i.e., precipitation sum in millimeter for months below 0°C, Prec T ≤ 0°C ) and water (i.e., precipitation sum for months above 0°C, Prec T &gt; 0°C ).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Climate Data: Future Conditions<p><s>Climate projections for the 21st century are based on an ensemble of 18 global climate models from the Coupled Model Intercomparison Project phase 5 archive <ref target="#b60" type="bibr">(Taylor et al., 2012)</ref>, which are included in the WC data set <ref target="#b30" type="bibr">(Hijmans et al., 2005)</ref>.</s><s>The data represent downscaled and bias-corrected monthly mean temperatures and precipitation over two time periods (2041-2060 and 2061-2080) and three Representative Concentration Pathway (RCP) scenarios <ref target="#b46" type="bibr">(Moss et al., 2010</ref>; RCP2.6,</s><s>RCP4.5, and RCP8.5, roughly corresponding global CO 2 levels of 440, 570, and 1250 ppm by the end of this century, respectively).</s><s>The four climate variables (TDD, FDD, Prec T ≤ 0°C , and Prec T &gt; 0°C ) were recalculated for each time period and RCP scenario.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Local Environmental Predictors<p><s>The topography-derived potential incoming solar radiation (PISR, MJ • cm À2 • a À1 ) was computed using the National Aeronautics and Space Administration Shuttle Radar Topography Mission (U.S. Geological <ref type="bibr">Survey, 2004)</ref> digital elevation model at a 30 arc sec spatial resolution following <ref target="#b43" type="bibr">McCune &amp; Keon (2002)</ref>.</s><s>To account the effect of organic material on ground thermal regime <ref target="#b25" type="bibr">(Harris et al., 2009)</ref>, we included soil organic carbon (SOC, g • kg À1 ) content information from global SoilGrids1km data <ref target="#b29" type="bibr">(Hengl et al., 2014)</ref> <ref type="formula">2016</ref>) allowed us to determine the percentage cover of waterbodies inside each 30 arc sec grid cell.</s><s>All the data layers were resampled to the matching spatial resolution (30 arc sec) and extent (&gt;30°N).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Statistical Modeling<p><s>The observed MAGT and ALT were related to the climate and local environmental predictors using four statistical modeling techniques: generalized linear modeling (GLM; <ref target="#b42" type="bibr">McCullagh &amp; Nelder, 1989)</ref>, generalized additive modeling (GAM; <ref target="#b26" type="bibr">Hastie &amp; Tibshirani, 1990)</ref> as implemented in R package mgcv <ref target="#b68" type="bibr">(Wood, 2011)</ref>, generalized boosting method (GBM; <ref target="#b12" type="bibr">Elith et al., 2008)</ref> based on R package dismo <ref target="#b31" type="bibr">(Hijmans et al., 2016)</ref>, and random forest <ref target="#b6" type="bibr">(Breiman, 2001)</ref>, R package randomForest (RF; <ref target="#b39" type="bibr">Liaw &amp; Wiener, 2002)</ref>.</s><s>The detailed information of the modeling techniques, and their parameters, is provided in Text S1 <ref target="#b16" type="bibr">(Friedman, 2002;</ref><ref target="#b51" type="bibr">R Core Team, 2016)</ref>.</s><s>To show the effects of local environmental predictors on MAGT and ALT, the models were fitted using two sets of predictors: (1) climate variables (Climate only model) and (2) climate variables with topography and soil included (Full model):</s></p><formula xml:id="formula_0">MAGT and ALT ¼ TDD þ FDD þ Prec T≤0°C þ Prec T&gt;0°C<label>(1)</label></formula><p><s>(Climate-only model)</s></p><formula xml:id="formula_1">MAGT ¼ TDD þ FDD þ Prec T≤0°C þ Prec T&gt;0°C þ PISR þ SOC þ water cover (2) (MAGT Full model) ALT ¼ TDD þ FDD þ Prec T≤0°C þ Prec T&gt;0°C þ PISR þ SOC (3) (ALT Full model)</formula><p><s>The water cover predictor was not considered in ALT Full models due to low amount of variation of water cover in the data, which did not allow establishing a clear correlation between the two variables.</s><s>The Full models were consequently used to forecast MAGT and ALT across the NHM domain and three focus areas representing different ground thermal regimes (Fennoscandia, number 1 in Figure <ref target="#fig_0" type="figure">1</ref>; Northern continental Canada (2); and Central Siberia (3), each 2.9 × 10 6 km 2 ) in both baseline and future climates.</s><s>In order to reduce uncertainties related to the choice of modeling technique, ensembles of predictions were compiled using the median over the four individual predictions <ref target="#b17" type="bibr">(Gallien et al., 2012)</ref>.</s></p><p><s>10.1029/2018GL078007</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Geophysical Research Letters<p><s>Predictive performance (cf.</s><s>transferability) of the models was assessed with a repeated cross-validation (CV) scheme, where the models were fitted 1,000 times at each round using a random sample of 95% of the data (with no replacement) and subsequently evaluated against the remaining 5%.</s><s>Distance-block (hereafter h-block) of 500 km was specified to omit model calibration data being located at the vicinity of the evaluation data, which could lead to overly optimistic CV statistics due to spatial autocorrelation <ref target="#b52" type="bibr">(Roberts et al., 2016)</ref>.</s><s>The use of h-block led on average 450 (out of 757 from the initial data split) observation available for MAGT model calibration (150 [out of 288] for ALT) and 50 for evaluation (25 for ALT) per CV round.</s><s>After each CV run and for all modeling techniques and their ensemble median, the predicted and observed MAGT and ALT were compared in the terms of root-mean-square error (RMSE), mean difference (cf.</s><s>bias), and adjusted Rsquared (R 2 ; <ref target="#b20" type="bibr">Gisnås et al., 2016)</ref>.</s><s>Model transferability was also evaluated over past <ref type="bibr">MAGT and ALT observations (cf. hindcasting, periods of 1970</ref><ref type="bibr">-1984</ref><ref type="bibr">and 1985</ref><ref type="bibr">-1999</ref>, no h-block was specified).</s><s>For ALT, comparison for 1970-1984 was not possible due to the low number of observations available (n = 16).</s></p><p><s>The forecasts' uncertainty in both present and future conditions were assessed using a repeated random resampling procedure <ref target="#b0" type="bibr">(Aalto et al., 2016)</ref>, where 1,000 predictions over 100,000 randomly chosen pixels within NHM domain were created using bootstrap sampling of the observations (Text S2; <ref target="#b11" type="bibr">Efron &amp; Tibshirani, 1994;</ref><ref target="#b38" type="bibr">Lahiri, 2013;</ref><ref target="#b56" type="bibr">Selle &amp; Hannah, 2010)</ref>.</s><s>Then 95% prediction intervals (PI) for each pixel over the repeats were calculated (Figure <ref target="#fig_0" type="figure">S1</ref>).</s><s>The uncertainty was summarized over two percentiles of the PI distribution; median uncertainty (PI50, used to depict uncertainty in subsequent analyses) and 95th percentile uncertainty (PI95, indicating anomalous forecasts) across all 100,000 pixels.</s><s>Note that the uncertainty measure is independent of the predictive performance measure (see Text S2).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results<p><s>The Full models were significantly more accurate in forecasting present MAGT than Climate-only models (ensemble approach; p ≤ 0.001, paired one-sided t test, n = 1,000).</s><s>The ensemble median over the four techniques provided the highest predictive performance (Full model mean RMSE = 1.6°C, n = 1,000; Figure <ref target="#fig_2" type="figure">S2</ref>).</s></p><p><s>Similarly, the ALT models significantly benefitted from the consideration of local environmental predictors (except for GAM) with RF showing higher predictive performance (RMSE = 89 cm) than ensemble (RMSE = 104 cm).</s><s>The hindcasting suggested good transferability of the Full MAGT models over time (Figure <ref target="#fig_2" type="figure">2</ref> <ref type="bibr">(cf. hindcasting, 1970-1984 and 1985-1999)</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Geophysical Research Letters<p><s>GLM and GAM resulted in the lowest median uncertainty (PI50 = ±0.82 and 0.83°C, respectively) associated with the MAGT forecasts under baseline conditions (Figure <ref target="#fig_3" type="figure">3</ref>).</s><s>For ALT the most robust technique was GBM (PI50 = ±25 cm, baseline), while the ensemble and RF showed relatively similar uncertainty (±35 and ±37 cm, respectively).</s><s>The ensemble approach notably reduced the largest deviations among the forecasts (PI95) especially for MAGT.</s><s>Spatial forecasts highlighted substantial local variation in MAGT and ALT, and the fine resolution of the analyses (Figures <ref target="#fig_4" type="figure">4</ref> and<ref target="#fig_3" type="figure">S3-S6</ref>).</s><s>The results suggested pronounced, but region-specific, future changes in MAGT and ALT due to climate change; the average MAGTs over the NHM were predicted to increase from 4.1 to 6.2°C by 2061-2080 (RCP2.6), and further up to 8.4°C under RCP8.5 (Figure <ref type="figure">S7</ref> and Table <ref type="table">S3</ref>).</s><s>In the Fennoscandia the increase in average MAGT was limited to ~4°C (from present to 2061-2080 RCP8.5, ALT increase of 47 cm), whereas the corresponding increase in Central Siberia was found to be from À6.0 to nearly 0°C (ALT increase from 79 to 90 cm).</s><s>Over the NHM, ALT was predicted to increase from 102 <ref type="bibr">(2000)</ref><ref type="bibr">(2001)</ref><ref type="bibr">(2002)</ref><ref type="bibr">(2003)</ref><ref type="bibr">(2004)</ref><ref type="bibr">(2005)</ref><ref type="bibr">(2006)</ref><ref type="bibr">(2007)</ref><ref type="bibr">(2008)</ref><ref type="bibr">(2009)</ref><ref type="bibr">(2010)</ref><ref type="bibr">(2011)</ref><ref type="bibr">(2012)</ref><ref type="bibr">(2013)</ref><ref type="bibr">(2014)</ref> to 118 cm (2061-2080 RCP8.5).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion<p><s>This study integrates ground thermal observations, global spatial data, and multiple statistical modeling techniques to produce high-resolution spatial forecasts of current and future MAGT and ALT.</s><s>The reliability of the  <ref type="figure">(c</ref> and<ref type="figure">d</ref>) active layer thickness in present and predicted future time periods/Representative Concentration Pathway (RCP) scenarios.</s><s>The uncertainty (median and 95th percentile uncertainty, PI50 and PI95, respectively) is presented for each of the four statistical modeling technique and their ensemble median, and it is quantified using a repeated (n = 1,000) bootstrap sampling procedure over a random subset of pixels (n = 100,000) inside the study domain <ref type="bibr">(Figure S1 and Text S2)</ref>.</s><s>GLM = generalized linear model, GAM = generalized additive model, GBM = generalized boosting method, RF = random forest.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">10.1029/2018GL078007</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Geophysical Research Letters<p><s>forecasts was supported by the relatively low uncertainty and hindcasting that showed good transferability of the MAGT models.</s><s>The uncertainty of the models was only slightly affected by the change in climate parameters, indicating that the model calibration data were representative of the climatological gradients controlling MAGT and ALT.</s><s>For MAGT the benefits of using the ensemble modeling approach were evident; the median of the four techniques resulted in both the highest cross-validation statistics and the lowest 95th percentile uncertainty <ref target="#b41" type="bibr">(Marmion et al., 2009)</ref>.</s><s>For ALT the cross-validation errors remained high across the modeling techniques, suggesting that the approach used was capable of detecting only general ALT trends.</s><s>The low number of observation made ALT model calibration highly sensitive to single observations <ref target="#b34" type="bibr">(Hjort &amp; Marmion, 2008)</ref>, causing a wide spread in forecasts' uncertainty among the techniques.</s><s>Thus, the analyses suggest that when extrapolating to future climate conditions, the use of an ensemble framework does not necessarily produce the most robust predictions.</s><s>Here for ALT, the GBM appears to provide a good balance between model complexity and parsimony (low errors and uncertainty).</s><s>Similarly, the parametric GLM reduces the risk of overfitting (and thus the most spurious forecasts) providing relatively low 95th percentile uncertainty, but with a cost of modeling accuracy <ref target="#b28" type="bibr">(Heikkinen et al., 2012)</ref>.</s><s>Interestingly, for both MAGT and ALT, the uncertainty was greatly reduced after considering areas &gt;60°N (Figure <ref type="figure">S8</ref>) where most permafrost in the northern hemisphere occurs.</s></p><p><s>The modeling links MAGT and ALT mainly to the prevailing climate conditions, indicated by the relatively low increase in model transferability after accounting for local environmental predictors.</s><s>This suggests that climatic factors determine the main spatial trends in ground thermal regimes <ref target="#b18" type="bibr">(Gangodagamage et al., 2014;</ref><ref target="#b22" type="bibr">Gruber, 2012)</ref>.</s><s>Coarser-scale MAGT and ALT patterns were locally mediated by topography, soil characteristics, and water covers reflecting, for example, soil microclimatic effects driven by differences in incoming solar radiation and land surface thermal-hydrological conditions <ref target="#b13" type="bibr">(Etzelmüller, 2013;</ref><ref target="#b47" type="bibr">Nelson et al., 1997)</ref>.</s><s>Predictors that could locally improve the forecasts, but were not considered here, are vegetation <ref target="#b47" type="bibr">(Nelson et al., 1997;</ref><ref target="#b58" type="bibr">Shur &amp; Jorgenson, 2007)</ref> and anthropogenic land use, which can alter the energy exchange between ground and atmosphere <ref target="#b36" type="bibr">(Jorgenson et al., 2010)</ref>.</s><s>These factors were excluded from the analyses due to their presumably spatio-temporally dynamic nature that hinders the ability to develop future land Geophysical Research Letters cover scenarios.</s><s>Soil texture and grain size information were not considered in the models due to the missing data, which would have caused the model domain to notably contract.</s></p><p><s>The forecasts indicate potential for substantial near-and long-term alterations in MAGT and ALT over the northern hemisphere domain due to climate change.</s><s>Based on the MAGT forecast, currently suitable conditions for permafrost occurrence prevail over an area of 15.1 ± 2.8 × 10 6 km 2 (± uncertainty; Figures <ref target="#fig_4" type="figure">4</ref> and<ref type="figure">S9</ref>), which closely corresponds to recent modeling estimates <ref target="#b9" type="bibr">(Chadburn et al., 2017;</ref><ref target="#b24" type="bibr">Guo &amp; Wang, 2016;</ref><ref target="#b44" type="bibr">McGuire et al., 2016)</ref>.</s><s>This extent was predicted to dramatically shrink; under RCP8.5, the corresponding extents were 8.0 × 10 6 km 2 (6.0-10.0</s><s>× 10 6 km 2 ) by 2041-2060 and 5.4 × 10 6 km 2 (3.5-7.4 × 10 6 km 2 ) by 2061-2080.</s><s>The regional response of ground thermal regime to climate change is controlled by differences in atmospheric warming (generally increasing poleward; <ref target="#b9" type="bibr">Chadburn et al., 2017)</ref>, and the current ground thermal state <ref target="#b24" type="bibr">(Guo &amp; Wang, 2016)</ref>.</s><s>The results suggest that areas currently associated with high predicted climate warming and low MAGT (e.g., Central Siberia) can experience the relatively highest MAGT increase over the three focus areas.</s><s>Similarly, the increase in ALT is likely to be pronounced at regions currently underlain by discontinuous or sporadic permafrost (here Fennoscandia).</s><s>A large amount of uncertainty is embedded in the forecasts, including equilibrium assumption in statistical modeling, the location accuracy of ALT measurements (representative of a very small area) further to gridded climate data, and general circulation model outputs regarding future precipitation state and amount, although main climatic trends of circum-Arctic are well established <ref target="#b4" type="bibr">(Bintanja &amp; Andry, 2017;</ref><ref type="bibr">IPCC, 2013)</ref>.</s></p><p><s>The presented modeling and uncertainty analyses call for further development of ground thermal monitoring network over the circum-Arctic for sharpening the picture of local MAGT and ALT variations <ref target="#b7" type="bibr">(Brown et al., 2000;</ref><ref target="#b14" type="bibr">Fagan &amp; Nelson, 2017)</ref>.</s><s>Large uncertainties in the ALT forecasts indicate that at present, the ALT observation network is insufficient for characterizing active layer dynamics at hemisphere scale.</s><s>Similar spatial uncertainty measure to that presented here could be used as a starting point to identify critical locations for new boreholes and ALT observatories (Figure <ref target="#fig_0" type="figure">S10</ref>).</s><s>This is important since the Arctic is in the center of environmental change and economic activities, and new infrastructure are being planned to areas that are likely to undergo drastic changes, for example, in ground bearing capacity due to permafrost thaw <ref target="#b45" type="bibr">(Melvin et al., 2017)</ref>.</s><s>Therefore, the created data sets serve as a valuable source of information to support future Earth system science, and sustainable development of circum-Arctic region.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusions<p><s>Here a statistical approach was presented to forecast circum-Arctic ground temperature and ALT in relation to climate and local environmental factors at unprecedented fine spatial scale.</s><s>The used cross-validation analyses suggested an excellent and reasonable transferability of the MAGT and ALT models, respectively.</s><s>The results display both theoretical and applied advancements in increasing the understanding of circum-Arctic ground thermal modeling; first, the capability of statistical modeling framework was confirmed for characterizing ground thermal conditions over large geographical domains.</s><s>Second, the results indicate substantial, but region-specific, changes in MAGT and ALT due to climate change.</s><s>These predicted changes in ground thermal state will have inevitable consequences on multiple aspects of land surface dynamics through alterations in permafrost, surface hydrology, and vegetation.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgments<p><s>Authors were funded by the Academy of Finland <ref type="bibr">(projects 307761, 285040, and 286950)</ref>.</s><s>The MAGT and ALT observation data are available from the literature cited, and the forecasts are available via Dryad data repository (https://doi.org/10.5061/</s><s>dryad.886pr72).</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>The spatial extent of the mean annual ground temperature (MAGT, borehole, n = 797) and active layer thickness (ALT, n = 303) measurement sites and the study domain used in this study (cf.</s><s>northern hemisphere domain).</s><s>The black polygons depict the three focus areas (1 = Fennoscandia, 2 = Northern Continental Canada, 3 = Central Siberia).</s><s>FDD = freezing degree days (°C).</s></p></div></figdesc><graphic coords="3,228.47,102.89,296.78,296.18" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>), showing larger error in 1970-1984 (RMSE = 1.9°C,</s><s>R 2 = 0.90) compared to 1985-1999 (RMSE = 1.6°C,</s><s>R 2 = 0.93).</s><s>Similarly, the modeled ALT agreed relatively well with the past observations (RMSE = 53 cm and R 2 = 0.70 for 1985-1999), indicating a reasonable transferability of the models.</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 2. The agreement between the observed and predicted (a) mean annual ground temperature (MAGT) and (b) active layer thickness (ALT) in past conditions(cf.</s><s>hindcasting, 1970-1984 and 1985-1999)  based on ensemble median of four statistical techniques (the Full model).</s><s>ALT hindcasting analysis for the period of 1970-1984 was omitted due to low number of observations (n = 16).</s><s>The predictive performance was measured in terms of bias (mean difference), rootmean-square error (RMSE), and adjusted R-squared (R</s></p></div></figdesc></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure3.</s><s>The uncertainty related to the spatial forecasts of (a and b) mean annual ground temperatures and (c and d) active layer thickness in present and predicted future time periods/Representative Concentration Pathway (RCP) scenarios.</s><s>The uncertainty (median and 95th percentile uncertainty, PI50 and PI95, respectively) is presented for each of the four statistical modeling technique and their ensemble median, and it is quantified using a repeated (n = 1,000) bootstrap sampling procedure over a random subset of pixels (n = 100,000) inside the study domain(Figure S1 and Text S2).</s><s>GLM = generalized linear model, GAM = generalized additive model, GBM = generalized boosting method, RF = random forest.</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4. Forecasted mean annual ground temperatures (MAGT) and active layer thickness (ALT) across study domain for two periods and their differences: present climate 2000-2014 and predicted near-future conditions 2041-2060 (RCP4.5;</s><s>see Figures S3 and S4 for other time periods/scenarios), at the spatial resolution of 30 arc sec.</s><s>The forecasts are based on ensemble median of four statistical techniques (the Full model step).</s></p></div></figdesc><graphic coords="7,123.59,107.45,409.10,251.90" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>al.,</s></p></div></figdesc><table><row><cell cols="2">Geophysical Research Letters</cell></row><row><cell cols="2">RESEARCH LETTER</cell></row><row><cell cols="2">10.1029/2018GL078007</cell></row><row><cell>Key Points:</cell><cell></cell></row><row><cell cols="2">• A correlative approach to model</cell></row><row><cell cols="2">circum-Arctic ground thermal</cell></row><row><cell cols="2">conditions at unprecedented fine</cell></row><row><cell cols="2">spatial scale is presented</cell></row><row><cell cols="2">• Statistical forecasting accompanied</cell></row><row><cell cols="2">with rigorous uncertainty estimates</cell></row><row><cell cols="2">yields current permafrost extent of</cell></row><row><cell>15.1 ± 2.8 × 10</cell><cell>6 km</cell></row></table><note><p><s>2• Forecasts indicate severe and region-specific near-term changes in ground thermal regime due to climate change Supporting Information:</s></p></note></figure>
+<figure type="table" xml:id="tab_2" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>based on ensemble median of four statistical techniques (the Full model).</s><s>ALT hindcasting analysis for the period of 1970-1984 was omitted due to low number of observations (n = 16).</s><s>The predictive performance was measured in terms of bias (mean difference), rootmean-square error (RMSE), and adjusted R-squared (R</s></p></div></figdesc><table><row><cell>10.1029/2018GL078007</cell></row><row><cell>2 ) between observed and predicted values. The dashed black line</cell></row><row><cell>indicates 1:1.</cell></row></table></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>19448007, 2018, 10, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2018GL078007,</s><s>Wiley Online Library on [01/09/2023].</s><s>See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions)</s><s>on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</s></p></note>
+<back>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">New gridded daily climatology of Finland: Permutation-based uncertainty estimates and temporal trends in climate</title>
+<author>
+<persname><forename type="first">J</forename><surname>Aalto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Pirinen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Jylhä</surname></persname>
+</author>
+<idno type="DOI">10.1002/2015JD024651</idno>
+<ptr target="https://doi.org/10.1002/2015JD024651"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">121</biblscope>
+<biblscope from="3807" to="3823" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Aalto, J., Pirinen, P., &amp; Jylhä, K. (2016). New gridded daily climatology of Finland: Permutation-based uncertainty estimates and temporal trends in climate. Journal of Geophysical Research: Atmospheres, 121, 3807-3823. https://doi.org/10.1002/2015JD024651</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Potential for extreme loss in high-latitude Earth surface processes due to climate change</title>
+<author>
+<persname><forename type="first">J</forename><surname>Aalto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Venäläinen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">K</forename><surname>Heikkinen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Luoto</surname></persname>
+</author>
+<idno type="DOI">10.1002/2014GL060095</idno>
+<ptr target="https://doi.org/10.1002/2014GL060095"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">41</biblscope>
+<biblscope from="3914" to="3924" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Aalto, J., Venäläinen, A., Heikkinen, R. K., &amp; Luoto, M. (2014). Potential for extreme loss in high-latitude Earth surface processes due to climate change. Geophysical Research Letters, 41, 3914-3924. https://doi.org/10.1002/2014GL060095</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<monogr>
+<title level="m">Snow, water, ice and permafrost in the Arctic: Summary for policy-makers</title>
+<meeting><address><addrline>Oslo, Norway</addrline></address></meeting>
+<imprint>
+<publisher>AMAP</publisher>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note>Arctic Monitoring and Assessment Programme</note>
+<note type="raw_reference">Arctic Monitoring and Assessment Programme (2017). Snow, water, ice and permafrost in the Arctic: Summary for policy-makers. Oslo, Norway: Arctic Monitoring and Assessment Programme (AMAP).</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<monogr>
+<author>
+<persname><forename type="first">R</forename><surname>Barry</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">Y</forename><surname>Gan</surname></persname>
+</author>
+<idno type="DOI">10.1017/CBO9780511977947</idno>
+<ptr target="https://doi.org/10.1017/CBO9780511977947"></ptr>
+<title level="m">The global cryosphere: Past, present and future</title>
+<meeting><address><addrline>Cambridge</addrline></address></meeting>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Barry, R., &amp; Gan, T. Y. (2011). The global cryosphere: Past, present and future. Cambridge: Cambridge University Press. https://doi.org/10.1017/ CBO9780511977947</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Towards a rain-dominated Arctic</title>
+<author>
+<persname><forename type="first">R</forename><surname>Bintanja</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Andry</surname></persname>
+</author>
+<idno type="DOI">10.1038/NCLIMATE3240</idno>
+<ptr target="https://doi.org/10.1038/NCLIMATE3240"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="263" to="267" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bintanja, R., &amp; Andry, O. (2017). Towards a rain-dominated Arctic. Nature Climate Change, 7(4), 263-267. https://doi.org/10.1038/ NCLIMATE3240</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<monogr>
+<title level="m" type="main">Quality assessment of permafrost thermal state and active layer thickness data in GTN-P</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">K</forename><surname>Biskaborn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Lantuit</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Dressler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Lanckman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Johannsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Romanovsky</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Biskaborn, B. K., Lantuit, H., Dressler, A., Lanckman, J., Johannsson, H., Romanovsky, V., et al. (2015). Quality assessment of permafrost thermal state and active layer thickness data in GTN-P.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Random forests</title>
+<author>
+<persname><forename type="first">L</forename><surname>Breiman</surname></persname>
+</author>
+<idno type="DOI">10.1023/A:1010933404324</idno>
+<ptr target="https://doi.org/10.1023/A:1010933404324"></ptr>
+</analytic>
+<monogr>
+<title level="j">Machine Learning</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="5" to="32" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Breiman, L. (2001). Random forests. Machine Learning, 45(1), 5-32. https://doi.org/10.1023/A:1010933404324</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">The circumpolar active layer monitoring (calm) program: Research designs and initial results 1</title>
+<author>
+<persname><forename type="first">J</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Hinkel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Nelson</surname></persname>
+</author>
+<idno type="DOI">10.1080/10889370009377698</idno>
+<ptr target="https://doi.org/10.1080/1088937000937769810.1029/2018GL078007GeophysicalResearchLetters"></ptr>
+</analytic>
+<monogr>
+<title level="j">Polar Geography</title>
+<imprint>
+<biblscope unit="volume">24</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="166" to="258" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brown, J., Hinkel, K. M., &amp; Nelson, F. (2000). The circumpolar active layer monitoring (calm) program: Research designs and initial results 1. Polar Geography, 24(3), 166-258. https://doi.org/10.1080/10889370009377698 10.1029/2018GL078007 Geophysical Research Letters</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Lake-bottom thermal regimes, western Arctic coast, Canada</title>
+<author>
+<persname><forename type="first">C</forename><surname>Burn</surname></persname>
+</author>
+<idno type="DOI">10.1002/ppp.542</idno>
+<ptr target="https://doi.org/10.1002/ppp.542"></ptr>
+</analytic>
+<monogr>
+<title level="j">Permafrost and Periglacial Processes</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="355" to="367" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Burn, C. (2005). Lake-bottom thermal regimes, western Arctic coast, Canada. Permafrost and Periglacial Processes, 16(4), 355-367. https://doi. org/10.1002/ppp.542</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">An observation-based constraint on permafrost loss as a function of global warming</title>
+<author>
+<persname><forename type="first">S</forename><surname>Chadburn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Burke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Cox</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Friedlingstein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Hugelius</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Westermann</surname></persname>
+</author>
+<idno type="DOI">10.1038/NCLIMATE3262</idno>
+<ptr target="https://doi.org/10.1038/NCLIMATE3262"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="340" to="344" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chadburn, S., Burke, E., Cox, P., Friedlingstein, P., Hugelius, G., &amp; Westermann, S. (2017). An observation-based constraint on permafrost loss as a function of global warming. Nature Climate Change, 7(5), 340-344. https://doi.org/10.1038/NCLIMATE3262</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Thawing sub-arctic permafrost: Effects on vegetation and methane emissions</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">R</forename><surname>Christensen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">R</forename><surname>Johansson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">J</forename><surname>Akerman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Mastepanov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Malmer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Friborg</surname></persname>
+</author>
+<idno type="DOI">10.1029/2003GL018680</idno>
+<ptr target="https://doi.org/10.1029/2003GL018680"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">31</biblscope>
+<biblscope unit="page">4501</biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Christensen, T. R., Johansson, T. R., Akerman, H. J., Mastepanov, M., Malmer, N., Friborg, T., et al. (2004). Thawing sub-arctic permafrost: Effects on vegetation and methane emissions. Geophysical Research Letters, 31, L04501. https://doi.org/10.1029/2003GL018680</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<monogr>
+<author>
+<persname><forename type="first">B</forename><surname>Efron</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Tibshirani</surname></persname>
+</author>
+<title level="m">An introduction to the bootstrap</title>
+<meeting><address><addrline>New York</addrline></address></meeting>
+<imprint>
+<publisher>CRC Press</publisher>
+<date type="published" when="1994">1994</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Efron, B., &amp; Tibshirani, R. J. (1994). An introduction to the bootstrap. New York: CRC Press.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">A working guide to boosted regression trees</title>
+<author>
+<persname><forename type="first">J</forename><surname>Elith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Leathwick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Hastie</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-2656.2008.01390.x</idno>
+<ptr target="https://doi.org/10.1111/j.1365-2656.2008.01390.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Animal Ecology</title>
+<imprint>
+<biblscope unit="volume">77</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="802" to="813" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Elith, J., Leathwick, J. R., &amp; Hastie, T. (2008). A working guide to boosted regression trees. Journal of Animal Ecology, 77(4), 802-813. https://doi. org/10.1111/j.1365-2656.2008.01390.x</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Recent advances in mountain permafrost research</title>
+<author>
+<persname><forename type="first">B</forename><surname>Etzelmüller</surname></persname>
+</author>
+<idno type="DOI">10.1002/ppp.1772</idno>
+<ptr target="https://doi.org/10.1002/ppp.1772EuropeanSpace"></ptr>
+</analytic>
+<monogr>
+<title level="m">Global Land Cover Maps v1.6.1 &amp; Water Bodies v4</title>
+<imprint>
+<date type="published" when="2013">2013. 2016</date>
+<biblscope unit="volume">24</biblscope>
+<biblscope from="99" to="107" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note>Agency Climate Change Initiative</note>
+<note type="raw_reference">Etzelmüller, B. (2013). Recent advances in mountain permafrost research. Permafrost and Periglacial Processes, 24(2), 99-107. https://doi.org/ 10.1002/ppp.1772 European Space Agency Climate Change Initiative (2016). Global Land Cover Maps v1.6.1 &amp; Water Bodies v4.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Spatial sampling design in the circumpolar active layer monitoring programme</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Fagan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">E</forename><surname>Nelson</surname></persname>
+</author>
+<idno type="DOI">10.1002/ppp.1904</idno>
+<ptr target="https://doi.org/10.1002/ppp.1904"></ptr>
+</analytic>
+<monogr>
+<title level="j">Permafrost and Periglacial Processes</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="42" to="51" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fagan, J. D., &amp; Nelson, F. E. (2017). Spatial sampling design in the circumpolar active layer monitoring programme. Permafrost and Periglacial Processes, 28(1), 42-51. https://doi.org/10.1002/ppp.1904</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">The disappearing cryosphere: Impacts and ecosystem responses to rapid cryosphere loss</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">G</forename><surname>Fountain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Campbell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A G</forename><surname>Schuur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Stammerjohn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">W</forename><surname>Williams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">W</forename><surname>Ducklow</surname></persname>
+</author>
+<idno type="DOI">10.1525/j.bio.2012.62.4.11</idno>
+<ptr target="https://doi.org/10.1525/j.bio.2012.62.4.11"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bioscience</title>
+<imprint>
+<biblscope unit="volume">62</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="405" to="415" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fountain, A. G., Campbell, J. L., Schuur, E. A. G., Stammerjohn, S. E., Williams, M. W., &amp; Ducklow, H. W. (2012). The disappearing cryosphere: Impacts and ecosystem responses to rapid cryosphere loss. Bioscience, 62(4), 405-415. https://doi.org/10.1525/j.bio.2012.62.4.11</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Stochastic gradient boosting</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">H</forename><surname>Friedman</surname></persname>
+</author>
+<idno type="DOI">10.1016/S0167-9473(01)00065-2</idno>
+<ptr target="https://doi.org/10.1016/S0167-9473(01)00065-2"></ptr>
+</analytic>
+<monogr>
+<title level="j">Computational Statistics and Data Analysis</title>
+<imprint>
+<biblscope unit="volume">38</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="367" to="378" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Friedman, J. H. (2002). Stochastic gradient boosting. Computational Statistics and Data Analysis, 38(4), 367-378. https://doi.org/10.1016/ S0167-9473(01)00065-2</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Invasive species distribution models-How violating the equilibrium assumption can create new insights</title>
+<author>
+<persname><forename type="first">L</forename><surname>Gallien</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Douzet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Pratte</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">E</forename><surname>Zimmermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Thuiller</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1466-8238.2012.00768.x</idno>
+<ptr target="https://doi.org/10.1111/j.1466-8238.2012.00768.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Global Ecology and Biogeography</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope from="1126" to="1136" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gallien, L., Douzet, R., Pratte, S., Zimmermann, N. E., &amp; Thuiller, W. (2012). Invasive species distribution models-How violating the equilibrium assumption can create new insights. Global Ecology and Biogeography, 21(11), 1126-1136. https://doi.org/10.1111/ j.1466-8238.2012.00768.x</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Extrapolating active layer thickness measurements across Arctic polygonal terrain using LiDAR and NDVI data sets</title>
+<author>
+<persname><forename type="first">C</forename><surname>Gangodagamage</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Rowland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">S</forename><surname>Hubbard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">P</forename><surname>Brumby</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">K</forename><surname>Liljedahl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Wainwright</surname></persname>
+</author>
+<idno type="DOI">10.1002/2013WR014283</idno>
+<ptr target="https://doi.org/10.1002/2013WR014283"></ptr>
+</analytic>
+<monogr>
+<title level="j">Water Resources Research</title>
+<imprint>
+<biblscope unit="volume">50</biblscope>
+<biblscope from="6339" to="6357" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gangodagamage, C., Rowland, J. C., Hubbard, S. S., Brumby, S. P., Liljedahl, A. K., Wainwright, H., et al. (2014). Extrapolating active layer thickness measurements across Arctic polygonal terrain using LiDAR and NDVI data sets. Water Resources Research, 50, 6339-6357. https:// doi.org/10.1002/2013WR014283</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Permafrost map for Norway, Sweden and Finland</title>
+<author>
+<persname><forename type="first">K</forename><surname>Gisnås</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Etzelmüller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Lussana</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hjort</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">B K</forename><surname>Sannel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Isaksen</surname></persname>
+</author>
+<idno type="DOI">10.1002/ppp.1922</idno>
+<ptr target="https://doi.org/10.1002/ppp.1922"></ptr>
+</analytic>
+<monogr>
+<title level="j">Permafrost and Periglacial Processes</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="359" to="378" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gisnås, K., Etzelmüller, B., Lussana, C., Hjort, J., Sannel, A. B. K., Isaksen, K., et al. (2017). Permafrost map for Norway, Sweden and Finland. Permafrost and Periglacial Processes, 28(2), 359-378. https://doi.org/10.1002/ppp.1922</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Small-scale variation of snow in a regional permafrost model</title>
+<author>
+<persname><forename type="first">K</forename><surname>Gisnås</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Westermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">V</forename><surname>Schuler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Melvold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Etzelmüller</surname></persname>
+</author>
+<idno type="DOI">10.5194/tc-10-1201-2016</idno>
+<ptr target="https://doi.org/10.5194/tc-10-1201-2016"></ptr>
+</analytic>
+<monogr>
+<title level="j">The Cryosphere</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="1201" to="1215" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gisnås, K., Westermann, S., Schuler, T. V., Melvold, K., &amp; Etzelmüller, B. (2016). Small-scale variation of snow in a regional permafrost model. The Cryosphere, 10(3), 1201-1215. https://doi.org/10.5194/tc-10-1201-2016</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Changing permafrost in a warming world and feedbacks to the Earth system</title>
+<author>
+<persname><forename type="first">G</forename><surname>Grosse</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Goetz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Mcguire</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">E</forename><surname>Romanovsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Schuur</surname></persname>
+</author>
+<idno type="DOI">10.1088/1748-9326/11/4/040201</idno>
+<ptr target="https://doi.org/10.1088/1748-9326/11/4/040201"></ptr>
+</analytic>
+<monogr>
+<title level="j">Environmental Research Letters</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope unit="page">40201</biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Grosse, G., Goetz, S., McGuire, A. D., Romanovsky, V. E., &amp; Schuur, E. A. (2016). Changing permafrost in a warming world and feedbacks to the Earth system. Environmental Research Letters, 11(4), 040201. https://doi.org/10.1088/1748-9326/11/4/040201</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Derivation and analysis of a high-resolution estimate of global permafrost zonation</title>
+<author>
+<persname><forename type="first">S</forename><surname>Gruber</surname></persname>
+</author>
+<idno type="DOI">10.5194/tc-6-221-2012</idno>
+<ptr target="https://doi.org/10.5194/tc-6-221-2012"></ptr>
+</analytic>
+<monogr>
+<title level="j">The Cryosphere</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="221" to="233" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gruber, S. (2012). Derivation and analysis of a high-resolution estimate of global permafrost zonation. The Cryosphere, 6(1), 221-233. https:// doi.org/10.5194/tc-6-221-2012</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Predictive habitat distribution models in ecology</title>
+<author>
+<persname><forename type="first">A</forename><surname>Guisan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">E</forename><surname>Zimmermann</surname></persname>
+</author>
+<idno type="DOI">10.1016/S0304-3800(00)00354-9</idno>
+<ptr target="https://doi.org/10.1016/S0304-3800(00)00354-9"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ecological Modelling</title>
+<imprint>
+<biblscope unit="volume">135</biblscope>
+<biblscope unit="issue">2-3</biblscope>
+<biblscope from="147" to="186" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Guisan, A., &amp; Zimmermann, N. E. (2000). Predictive habitat distribution models in ecology. Ecological Modelling, 135(2-3), 147-186. https:// doi.org/10.1016/S0304-3800(00)00354-9</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">CMIP5 permafrost degradation projection: A comparison among different regions</title>
+<author>
+<persname><forename type="first">D</forename><surname>Guo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Wang</surname></persname>
+</author>
+<idno type="DOI">10.1002/2015JD024108</idno>
+<ptr target="https://doi.org/10.1002/2015JD024108"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">121</biblscope>
+<biblscope from="4499" to="4517" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Guo, D., &amp; Wang, H. (2016). CMIP5 permafrost degradation projection: A comparison among different regions. Journal of Geophysical Research: Atmospheres, 121, 4499-4517. https://doi.org/10.1002/2015JD024108</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Permafrost and climate in Europe: Monitoring and modelling thermal, geomorphological and geotechnical responses</title>
+<author>
+<persname><forename type="first">C</forename><surname>Harris</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">U</forename><surname>Arenson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">H</forename><surname>Christiansen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Etzelmüller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Frauenfelder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Gruber</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.earscirev.2008.12.002</idno>
+<ptr target="https://doi.org/10.1016/j.earscirev.2008.12.002"></ptr>
+</analytic>
+<monogr>
+<title level="j">Earth-Science Reviews</title>
+<imprint>
+<biblscope unit="volume">92</biblscope>
+<biblscope unit="issue">3-4</biblscope>
+<biblscope from="117" to="171" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Harris, C., Arenson, L. U., Christiansen, H. H., Etzelmüller, B., Frauenfelder, R., Gruber, S., et al. (2009). Permafrost and climate in Europe: Monitoring and modelling thermal, geomorphological and geotechnical responses. Earth-Science Reviews, 92(3-4), 117-171. https://doi. org/10.1016/j.earscirev.2008.12.002</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<monogr>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Hastie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Tibshirani</surname></persname>
+</author>
+<title level="m">Generalized Additive Models</title>
+<meeting><address><addrline>London</addrline></address></meeting>
+<imprint>
+<publisher>CRC Press</publisher>
+<date type="published" when="1990">1990</date>
+<biblscope unit="volume">43</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Hastie, T. J., &amp; Tibshirani, R. J. (1990). Generalized Additive Models (Vol. 43). London: CRC Press.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Methods and uncertainties in bioclimatic envelope modelling under climate change</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">K</forename><surname>Heikkinen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Luoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">B</forename><surname>Araujo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Virkkala</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Thuiller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">T</forename><surname>Sykes</surname></persname>
+</author>
+<idno type="DOI">10.1177/0309133306071957</idno>
+<ptr target="https://doi.org/10.1177/0309133306071957"></ptr>
+</analytic>
+<monogr>
+<title level="j">Progress in Physical Geography</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="751" to="777" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Heikkinen, R. K., Luoto, M., Araujo, M. B., Virkkala, R., Thuiller, W., &amp; Sykes, M. T. (2006). Methods and uncertainties in bioclimatic envelope modelling under climate change. Progress in Physical Geography, 30(6), 751-777. https://doi.org/10.1177/0309133306071957</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Does the interpolation accuracy of species distribution models come at the expense of transferability?</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">K</forename><surname>Heikkinen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Marmion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Luoto</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1600-0587.2011.06999.x</idno>
+<ptr target="https://doi.org/10.1111/j.1600-0587.2011.06999.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ecography</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="276" to="288" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Heikkinen, R. K., Marmion, M., &amp; Luoto, M. (2012). Does the interpolation accuracy of species distribution models come at the expense of transferability? Ecography, 35(3), 276-288. https://doi.org/10.1111/j.1600-0587.2011.06999.x</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">SoilGrids1km-Global soil information based on automated mapping</title>
+<author>
+<persname><forename type="first">T</forename><surname>Hengl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>De Jesus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Macmillan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">H</forename><surname>Batjes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">B</forename><surname>Heuvelink</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Ribeiro</surname></persname>
+</author>
+<idno type="DOI">10.1371/journal.pone.0105992</idno>
+<ptr target="https://doi.org/10.1371/journal.pone.0105992"></ptr>
+</analytic>
+<monogr>
+<title level="j">PLoS One</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope unit="page">105992</biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hengl, T., de Jesus, J. M., MacMillan, R. A., Batjes, N. H., Heuvelink, G. B., Ribeiro, E., et al. (2014). SoilGrids1km-Global soil information based on automated mapping. PLoS One, 9(8), e105992. https://doi.org/10.1371/journal.pone.0105992</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Very high resolution interpolated climate surfaces for global land areas</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Hijmans</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Cameron</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Parra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">G</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Jarvis</surname></persname>
+</author>
+<idno type="DOI">10.1002/joc.1276</idno>
+<ptr target="https://doi.org/10.1002/joc.1276"></ptr>
+</analytic>
+<monogr>
+<title level="j">International Journal of Climatology</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope unit="issue">15</biblscope>
+<biblscope from="1965" to="1978" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hijmans, R. J., Cameron, S. E., Parra, J. L., Jones, P. G., &amp; Jarvis, A. (2005). Very high resolution interpolated climate surfaces for global land areas. International Journal of Climatology, 25(15), 1965-1978. https://doi.org/10.1002/joc.1276</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Package 'dismo</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Hijmans</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Phillips</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Leathwick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Elith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R J</forename><surname>Hijmans</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Circles</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="page">1</biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hijmans, R. J., Phillips, S., Leathwick, J., Elith, J., &amp; Hijmans, M. R. J. (2016). Package 'dismo'. Circles, 9, 1.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Modelling borehole temperatures in southern Norway-Insights into permafrost dynamics during the 20th and 21st century</title>
+<author>
+<persname><forename type="first">T</forename><surname>Hipp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Etzelmüller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Farbrot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">V</forename><surname>Schuler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Westermann</surname></persname>
+</author>
+<idno type="DOI">10.5194/tc-6-553-2012</idno>
+<ptr target="https://doi.org/10.5194/tc-6-553-2012"></ptr>
+</analytic>
+<monogr>
+<title level="j">The Cryosphere</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="553" to="571" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hipp, T., Etzelmüller, B., Farbrot, H., Schuler, T. V., &amp; Westermann, S. (2012). Modelling borehole temperatures in southern Norway-Insights into permafrost dynamics during the 20th and 21st century. The Cryosphere, 6(3), 553-571. https://doi.org/10.5194/tc-6-553-2012</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Statistical methods for geomorphic distribution modeling</title>
+<author>
+<persname><forename type="first">J</forename><surname>Hjort</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Luoto</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Treatise on Geomorphology</title>
+<editor>
+<persname><forename type="first">J</forename><surname>Shroder</surname><genname>Jr</genname></persname>
+</editor>
+<meeting><address><addrline>San Diego</addrline></address></meeting>
+<imprint>
+<publisher>Academic Press</publisher>
+<date type="published" when="2013">2013</date>
+<biblscope from="59" to="73" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Hjort, J., &amp; Luoto, M. (2013). Statistical methods for geomorphic distribution modeling. In J. Shroder, Jr. (Ed.), Treatise on Geomorphology (pp. 59-73). San Diego: Academic Press.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Effects of sample size on the accuracy of geomorphological models</title>
+<author>
+<persname><forename type="first">J</forename><surname>Hjort</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Marmion</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.geomorph.2008.04.006</idno>
+<ptr target="https://doi.org/10.1016/j.geomorph.2008.04.006"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geomorphology</title>
+<imprint>
+<biblscope unit="volume">102</biblscope>
+<biblscope unit="issue">3-4</biblscope>
+<biblscope from="341" to="350" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hjort, J., &amp; Marmion, M. (2008). Effects of sample size on the accuracy of geomorphological models. Geomorphology, 102(3-4), 341-350. https://doi.org/10.1016/j.geomorph.2008.04.006</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Summary for policymakers</title>
+<author>
+<orgname type="collaboration">IPCC</orgname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</title>
+<editor>
+<persname><forename type="first">T</forename><forename type="middle">F</forename><surname>Stocker</surname></persname>
+</editor>
+<meeting><address><addrline>Cambridge, United Kingdom and New York, NY</addrline></address></meeting>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="2013">2013</date>
+<biblscope from="3" to="29" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">IPCC (2013). Summary for policymakers. In T. F. Stocker, et al. (Eds.), Climate Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change (pp. 3-29). Cambridge, United Kingdom and New York, NY: Cambridge University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Resilience and vulnerability of permafrost to climate change. This article is one of a selection of papers from The dynamics of change in Alaska's boreal forests: Resilience and vulnerability in response to climate warming</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">T</forename><surname>Jorgenson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Romanovsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Harden</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Shur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>O'donnell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A G</forename><surname>Schuur</surname></persname>
+</author>
+<idno type="DOI">10.1139/X10-060</idno>
+<ptr target="https://doi.org/10.1139/X10-060"></ptr>
+</analytic>
+<monogr>
+<title level="j">Canadian Journal of Forest Research</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope unit="issue">7</biblscope>
+<biblscope from="1219" to="1236" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jorgenson, M. T., Romanovsky, V., Harden, J., Shur, Y., O'Donnell, J., Schuur, E. A. G., et al. (2010). Resilience and vulnerability of per- mafrost to climate change. This article is one of a selection of papers from The dynamics of change in Alaska's boreal forests: Resilience and vulnerability in response to climate warming. Canadian Journal of Forest Research, 40(7), 1219-1236. https://doi.org/ 10.1139/X10-060</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Permafrost carbon-climate feedbacks accelerate global warming</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">D</forename><surname>Koven</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Ringeval</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Friedlingstein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Ciais</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Cadule</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Khvorostyanov</surname></persname>
+</author>
+<idno type="DOI">10.1073/pnas.1103910108</idno>
+<ptr target="https://doi.org/10.1073/pnas.1103910108"></ptr>
+</analytic>
+<monogr>
+<title level="j">Proceedings of the National Academy of Sciences</title>
+<imprint>
+<biblscope unit="volume">108</biblscope>
+<biblscope unit="issue">36</biblscope>
+<biblscope unit="page">774</biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Koven, C. D., Ringeval, B., Friedlingstein, P., Ciais, P., Cadule, P., Khvorostyanov, D., et al. (2011). Permafrost carbon-climate feedbacks accelerate global warming. Proceedings of the National Academy of Sciences, 108(36), 14,769-14,774. https://doi.org/10.1073/ pnas.1103910108</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<monogr>
+<title level="m" type="main">Resampling methods for dependent data</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">N</forename><surname>Lahiri</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2013">2013</date>
+<publisher>Springer Science &amp; Business Media</publisher>
+<pubplace>New York</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Lahiri, S. N. (2013). Resampling methods for dependent data. New York: Springer Science &amp; Business Media.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Classification and regression by randomForest</title>
+<author>
+<persname><forename type="first">A</forename><surname>Liaw</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Wiener</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">R news</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="18" to="22" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Liaw, A., &amp; Wiener, M. (2002). Classification and regression by randomForest. R news, 2(3), 18-22.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Pan-Arctic ice-wedge degradation in warming permafrost and its influence on tundra hydrology</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">K</forename><surname>Liljedahl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Boike</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">P</forename><surname>Daanen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">N</forename><surname>Fedorov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">V</forename><surname>Frost</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Grosse</surname></persname>
+</author>
+<idno type="DOI">10.1038/ngeo2674</idno>
+<ptr target="https://doi.org/10.1038/ngeo2674"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature Geoscience</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="312" to="318" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Liljedahl, A. K., Boike, J., Daanen, R. P., Fedorov, A. N., Frost, G. V., Grosse, G., et al. (2016). Pan-Arctic ice-wedge degradation in warming permafrost and its influence on tundra hydrology. Nature Geoscience, 9(4), 312-318. https://doi.org/10.1038/ngeo2674</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Statistical consensus methods for improving predictive geomorphology maps</title>
+<author>
+<persname><forename type="first">M</forename><surname>Marmion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hjort</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Thuiller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Luoto</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.cageo.2008.02.024</idno>
+<ptr target="https://doi.org/10.1016/j.cageo.2008.02.024"></ptr>
+</analytic>
+<monogr>
+<title level="j">Computers &amp; Geosciences</title>
+<imprint>
+<biblscope unit="volume">35</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="615" to="625" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Marmion, M., Hjort, J., Thuiller, W., &amp; Luoto, M. (2009). Statistical consensus methods for improving predictive geomorphology maps. Computers &amp; Geosciences, 35(3), 615-625. https://doi.org/10.1016/j.cageo.2008.02.024</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Generalized linear models</title>
+<author>
+<persname><forename type="first">P</forename><surname>Mccullagh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Nelder</surname></persname>
+</author>
+<idno type="DOI">10.1029/2018GL078007</idno>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<date type="published" when="1989">1989</date>
+<publisher>CRS Press</publisher>
+<pubplace>London</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">McCullagh, P., &amp; Nelder, J. (1989). Generalized linear models (Vol. 37). London: CRS Press. 10.1029/2018GL078007 Geophysical Research Letters</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Equations for potential annual direct incident radiation and heat load</title>
+<author>
+<persname><forename type="first">B</forename><surname>Mccune</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Keon</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1654-1103.2002.tb02087.x</idno>
+<ptr target="https://doi.org/10.1111/j.1654-1103.2002.tb02087.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Vegetation Science</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="603" to="606" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McCune, B., &amp; Keon, D. (2002). Equations for potential annual direct incident radiation and heat load. Journal of Vegetation Science, 13(4), 603-606. https://doi.org/10.1111/j.1654-1103.2002.tb02087.x</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Variability in the sensitivity among model simulations of permafrost and carbon dynamics in the permafrost region between 1960 and 2009</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Mcguire</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Koven</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Lawrence</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Clein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Xia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Beer</surname></persname>
+</author>
+<idno type="DOI">10.1002/2016GB005405</idno>
+<ptr target="https://doi.org/10.1002/2016GB005405"></ptr>
+</analytic>
+<monogr>
+<title level="j">Global Biogeochemical Cycles</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope from="1015" to="1037" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McGuire, A. D., Koven, C., Lawrence, D. M., Clein, J. S., Xia, J., Beer, C., et al. (2016). Variability in the sensitivity among model simulations of permafrost and carbon dynamics in the permafrost region between 1960 and 2009. Global Biogeochemical Cycles, 30, 1015-1037. https:// doi.org/10.1002/2016GB005405</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Climate change damages to Alaska public infrastructure and the economics of proactive adaptation</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Melvin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Larsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Boehlert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Neumann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Chinowsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Espinet</surname></persname>
+</author>
+<idno type="DOI">10.1073/pnas.1611056113</idno>
+<ptr target="https://doi.org/10.1073/pnas.1611056113"></ptr>
+</analytic>
+<monogr>
+<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+<imprint>
+<biblscope unit="volume">114</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="122" to="E131" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Melvin, A. M., Larsen, P., Boehlert, B., Neumann, J. E., Chinowsky, P., Espinet, X., et al. (2017). Climate change damages to Alaska public infrastructure and the economics of proactive adaptation. Proceedings of the National Academy of Sciences of the United States of America, 114(2), E122-E131. https://doi.org/10.1073/pnas.1611056113</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">The next generation of scenarios for climate change research and assessment</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">H</forename><surname>Moss</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Edmonds</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Hibbard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Manning</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">K</forename><surname>Rose</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">P</forename><surname>Van Vuuren</surname></persname>
+</author>
+<idno type="DOI">10.1038/nature08823</idno>
+<ptr target="https://doi.org/10.1038/nature08823"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">463</biblscope>
+<biblscope unit="issue">7282</biblscope>
+<biblscope from="747" to="756" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Moss, R. H., Edmonds, J. A., Hibbard, K. A., Manning, M. R., Rose, S. K., Van Vuuren, D. P., et al. (2010). The next generation of scenarios for climate change research and assessment. Nature, 463(7282), 747-756. https://doi.org/10.1038/nature08823</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">Estimating active-layer thickness over a large region: Kuparuk River basin, Alaska, USA</title>
+<author>
+<persname><forename type="first">F</forename><surname>Nelson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Shiklomanov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Mueller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Hinkel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Walker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Bockheim</surname></persname>
+</author>
+<idno type="DOI">10.2307/1551985</idno>
+<ptr target="https://doi.org/10.2307/1551985"></ptr>
+</analytic>
+<monogr>
+<title level="j">Arctic and Alpine Research</title>
+<imprint>
+<biblscope unit="volume">29</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="367" to="378" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nelson, F., Shiklomanov, N., Mueller, G., Hinkel, K., Walker, D., &amp; Bockheim, J. (1997). Estimating active-layer thickness over a large region: Kuparuk River basin, Alaska, USA. Arctic and Alpine Research, 29(4), 367-378. https://doi.org/10.2307/1551985</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Subsidence risk from thawing permafrost</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">E</forename><surname>Nelson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">A</forename><surname>Anisimov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">I</forename><surname>Shiklomanov</surname></persname>
+</author>
+<idno type="DOI">10.1038/35073746</idno>
+<ptr target="https://doi.org/10.1038/35073746"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">410</biblscope>
+<biblscope unit="issue">6831</biblscope>
+<biblscope from="889" to="890" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nelson, F. E., Anisimov, O. A., &amp; Shiklomanov, N. I. (2001). Subsidence risk from thawing permafrost. Nature, 410(6831), 889-890. https://doi. org/10.1038/35073746</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">The Circumpolar Active Layer Monitoring (CALM) workshop and the CALM II program</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">E</forename><surname>Nelson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">I</forename><surname>Shiklomanov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Hinkel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">H</forename><surname>Christiansen</surname></persname>
+</author>
+<idno type="DOI">10.1080/789610205</idno>
+<ptr target="https://doi.org/10.1080/789610205"></ptr>
+</analytic>
+<monogr>
+<title level="j">Polar Geography</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="253" to="266" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nelson, F. E., Shiklomanov, N. I., Hinkel, K. M., &amp; Christiansen, H. H. (2004). The Circumpolar Active Layer Monitoring (CALM) workshop and the CALM II program. Polar Geography, 28(4), 253-266. https://doi.org/10.1080/789610205</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">Ecological dynamics across the Arctic associated with recent climate change</title>
+<author>
+<persname><forename type="first">E</forename><surname>Post</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Forchhammer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">S</forename><surname>Bret-Harte</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">V</forename><surname>Callaghan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">R</forename><surname>Christensen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Elberling</surname></persname>
+</author>
+<idno type="DOI">10.1126/science.1173113</idno>
+<ptr target="https://doi.org/10.1126/science.1173113"></ptr>
+</analytic>
+<monogr>
+<title level="j">Science</title>
+<imprint>
+<biblscope unit="volume">325</biblscope>
+<biblscope unit="issue">5946</biblscope>
+<biblscope from="1355" to="1358" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Post, E., Forchhammer, M. C., Bret-Harte, M. S., Callaghan, T. V., Christensen, T. R., Elberling, B., et al. (2009). Ecological dynamics across the Arctic associated with recent climate change. Science, 325(5946), 1355-1358. https://doi.org/10.1126/science.1173113</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">R: A language and environment for statistical computing</title>
+<author>
+<persname><forename type="first">Team</forename><surname>Core</surname></persname>
+</author>
+<ptr target="https://www.r-project.org/"></ptr>
+</analytic>
+<monogr>
+<title level="m">R Foundation for Statistical Computing</title>
+<meeting><address><addrline>Vienna, Austria</addrline></address></meeting>
+<imprint>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">R Core Team (2016). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. Retrieved from https://www.r-project.org/</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Roberts</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Bahn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ciuti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">S</forename><surname>Boyce</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Elith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Guillera-Arroita</surname></persname>
+</author>
+<idno type="DOI">10.1111/ecog.02881</idno>
+<ptr target="https://doi.org/10.1111/ecog.02881"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ecography</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope from="913" to="929" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Roberts, D. R., Bahn, V., Ciuti, S., Boyce, M. S., Elith, J., Guillera-Arroita, G., et al. (2016). Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure. Ecography, 40(8), 913-929. https://doi.org/10.1111/ecog.02881</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">Permafrost thermal state in the polar northern hemisphere during the international polar year 2007-2009: A synthesis</title>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">E</forename><surname>Romanovsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">H</forename><surname>Christiansen</surname></persname>
+</author>
+<idno type="DOI">10.1002/ppp.689</idno>
+<ptr target="https://doi.org/10.1002/ppp.689"></ptr>
+</analytic>
+<monogr>
+<title level="j">Permafrost and Periglacial Processes</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="106" to="116" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Romanovsky, V. E., Smith, S. L., &amp; Christiansen, H. H. (2010). Permafrost thermal state in the polar northern hemisphere during the international polar year 2007-2009: A synthesis. Permafrost and Periglacial Processes, 21(2), 106-116. https://doi.org/10.1002/ppp.689</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">The effect of permafrost thaw on old carbon release and net carbon exchange from tundra</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Schuur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">G</forename><surname>Vogel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">G</forename><surname>Crummer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">O</forename><surname>Sickman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">E</forename><surname>Osterkamp</surname></persname>
+</author>
+<idno type="DOI">10.1038/nature08031</idno>
+<ptr target="https://doi.org/10.1038/nature08031"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">459</biblscope>
+<biblscope unit="issue">7246</biblscope>
+<biblscope from="556" to="559" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schuur, E. A., Vogel, J. G., Crummer, K. G., Lee, H., Sickman, J. O., &amp; Osterkamp, T. E. (2009). The effect of permafrost thaw on old carbon release and net carbon exchange from tundra. Nature, 459(7246), 556-559. https://doi.org/10.1038/nature08031</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">The central role of diminishing sea ice in recent Arctic temperature amplification</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Screen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Simmonds</surname></persname>
+</author>
+<idno type="DOI">10.1038/nature09051</idno>
+<ptr target="https://doi.org/10.1038/nature09051"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">464</biblscope>
+<biblscope unit="issue">7293</biblscope>
+<biblscope from="1334" to="1337" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Screen, J. A., &amp; Simmonds, I. (2010). The central role of diminishing sea ice in recent Arctic temperature amplification. Nature, 464(7293), 1334-1337. https://doi.org/10.1038/nature09051</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">A bootstrap approach to assess parameter uncertainty in simple catchment models</title>
+<author>
+<persname><forename type="first">B</forename><surname>Selle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Hannah</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.envsoft.2010.03.005</idno>
+<ptr target="https://doi.org/10.1016/j.envsoft.2010.03.005"></ptr>
+</analytic>
+<monogr>
+<title level="j">Environmental Modelling &amp; Software</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope from="919" to="926" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Selle, B., &amp; Hannah, M. (2010). A bootstrap approach to assess parameter uncertainty in simple catchment models. Environmental Modelling &amp; Software, 25(8), 919-926. https://doi.org/10.1016/j.envsoft.2010.03.005</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">Development of a 50-year high-resolution global dataset of meteorological forcings for land surface modeling</title>
+<author>
+<persname><forename type="first">J</forename><surname>Sheffield</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Goteti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">F</forename><surname>Wood</surname></persname>
+</author>
+<idno type="DOI">10.1175/JCLI3790.1</idno>
+<ptr target="https://doi.org/10.1175/JCLI3790"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope unit="issue">13</biblscope>
+<biblscope from="3088" to="3111" unit="page"></biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sheffield, J., Goteti, G., &amp; Wood, E. F. (2006). Development of a 50-year high-resolution global dataset of meteorological forcings for land surface modeling. Journal of Climate, 19(13), 3088-3111. https://doi.org/10.1175/JCLI3790.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Patterns of permafrost formation and degradation in relation to climate and ecosystems</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Shur</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Jorgenson</surname></persname>
+</author>
+<idno type="DOI">10.1002/ppp.582</idno>
+<ptr target="https://doi.org/10.1002/ppp.582"></ptr>
+</analytic>
+<monogr>
+<title level="j">Permafrost and Periglacial Processes</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="7" to="19" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Shur, Y., &amp; Jorgenson, M. (2007). Patterns of permafrost formation and degradation in relation to climate and ecosystems. Permafrost and Periglacial Processes, 18(1), 7-19. https://doi.org/10.1002/ppp.582</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Microclimatic influences on ground temperatures and permafrost distribution, Mackenzie Delta, Northwest Territories</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">W</forename><surname>Smith</surname></persname>
+</author>
+<idno type="DOI">10.1139/e75-129</idno>
+<ptr target="https://doi.org/10.1139/e75-129"></ptr>
+</analytic>
+<monogr>
+<title level="j">Canadian Journal of Earth Sciences</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope from="1421" to="1438" unit="page"></biblscope>
+<date type="published" when="1975">1975</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Smith, M. W. (1975). Microclimatic influences on ground temperatures and permafrost distribution, Mackenzie Delta, Northwest Territories. Canadian Journal of Earth Sciences, 12(8), 1421-1438. https://doi.org/10.1139/e75-129</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">An overview of CMIP5 and the experiment design</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">E</forename><surname>Taylor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Stouffer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Meehl</surname></persname>
+</author>
+<idno type="DOI">10.1175/BAMS-D-11-00094.1</idno>
+<ptr target="https://doi.org/10.1175/BAMS-D-11-00094"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bulletin of the American Meteorological Society</title>
+<imprint>
+<biblscope unit="volume">93</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="485" to="498" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Taylor, K. E., Stouffer, R. J., &amp; Meehl, G. A. (2012). An overview of CMIP5 and the experiment design. Bulletin of the American Meteorological Society, 93(4), 485-498. https://doi.org/10.1175/BAMS-D-11-00094.</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<monogr>
+<title level="m">Shuttle radar topography mission. Global land cover facility</title>
+<meeting><address><addrline>, Maryland</addrline></address></meeting>
+<imprint>
+<publisher>U.S. Geological Survey</publisher>
+<date type="published" when="2000">2004. February 2000</date>
+</imprint>
+<respstmt>
+<orgname>University of Maryland, College park</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">U.S. Geological Survey (2004). Shuttle radar topography mission. Global land cover facility, University of Maryland, College park, Maryland, February 2000.</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">Modeling the thermal dynamics of the active layer at two contrasting permafrost sites on Svalbard and on the Tibetan Plateau</title>
+<author>
+<persname><forename type="first">J</forename><surname>Weismüller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Wollschläger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Boike</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Pan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Q</forename><surname>Yu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Roth</surname></persname>
+</author>
+<idno type="DOI">10.5194/tc-5-741-2011</idno>
+<ptr target="https://doi.org/10.5194/tc-5-741-2011"></ptr>
+</analytic>
+<monogr>
+<title level="j">The Cryosphere</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="741" to="757" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Weismüller, J., Wollschläger, U., Boike, J., Pan, X., Yu, Q., &amp; Roth, K. (2011). Modeling the thermal dynamics of the active layer at two contrasting permafrost sites on Svalbard and on the Tibetan Plateau. The Cryosphere, 5(3), 741-757. https://doi.org/10.5194/tc-5-741-2011</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">Modeling the impact of wintertime rain events on the thermal regime of permafrost</title>
+<author>
+<persname><forename type="first">S</forename><surname>Westermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Boike</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Langer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">V</forename><surname>Schuler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Etzelmüller</surname></persname>
+</author>
+<idno type="DOI">10.5194/tcd-5-1697-2011</idno>
+<ptr target="https://doi.org/10.5194/tcd-5-1697-2011"></ptr>
+</analytic>
+<monogr>
+<title level="j">The Cryosphere</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="1697" to="1736" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Westermann, S., Boike, J., Langer, M., Schuler, T. V., &amp; Etzelmüller, B. (2011). Modeling the impact of wintertime rain events on the thermal regime of permafrost. The Cryosphere, 5(3), 1697-1736. https://doi.org/10.5194/tcd-5-1697-2011</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<analytic>
+<title level="a" type="main">Simulating the thermal regime and thaw processes of ice-rich permafrost ground with the land-surface model CryoGrid 3</title>
+<author>
+<persname><forename type="first">S</forename><surname>Westermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Langer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Boike</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Heikenfeld</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Peter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Etzelmüller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Krinner</surname></persname>
+</author>
+<idno type="DOI">10.5194/gmd-9-523-2016-supplement</idno>
+<ptr target="https://doi.org/10.5194/gmd-9-523-2016-supplement"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geoscientific Model Development Discussion</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="523" to="546" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Westermann, S., Langer, M., Boike, J., Heikenfeld, M., Peter, M., Etzelmüller, B., &amp; Krinner, G. (2016). Simulating the thermal regime and thaw processes of ice-rich permafrost ground with the land-surface model CryoGrid 3. Geoscientific Model Development Discussion, 9(2), 523-546. https://doi.org/10.5194/gmd-9-523-2016-supplement</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<analytic>
+<title level="a" type="main">A ground temperature map of the North Atlantic permafrost region based on remote sensing and reanalysis data</title>
+<author>
+<persname><forename type="first">S</forename><surname>Westermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Østby</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Gisnås</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Schuler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Etzelmüller</surname></persname>
+</author>
+<idno type="DOI">10.5194/tc-9-1303-2015</idno>
+<ptr target="https://doi.org/10.5194/tc-9-1303-2015"></ptr>
+</analytic>
+<monogr>
+<title level="j">The Cryosphere</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="1303" to="1319" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Westermann, S., Østby, T., Gisnås, K., Schuler, T., &amp; Etzelmüller, B. (2015). A ground temperature map of the North Atlantic permafrost region based on remote sensing and reanalysis data. The Cryosphere, 9(3), 1303-1319. https://doi.org/10.5194/tc-9-1303-2015</note>
+</biblstruct>
+<biblstruct xml:id="b66">
+<analytic>
+<title level="a" type="main">Transient thermal modeling of permafrost conditions in southern Norway</title>
+<author>
+<persname><forename type="first">S</forename><surname>Westermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Schuler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Gisnås</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Etzelmüller</surname></persname>
+</author>
+<idno type="DOI">10.5194/tc-7-719-2013</idno>
+<ptr target="https://doi.org/10.5194/tc-7-719-2013"></ptr>
+</analytic>
+<monogr>
+<title level="j">The Cryosphere</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="719" to="739" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Westermann, S., Schuler, T., Gisnås, K., &amp; Etzelmüller, B. (2013). Transient thermal modeling of permafrost conditions in southern Norway. The Cryosphere, 7(2), 719-739. https://doi.org/10.5194/tc-7-719-2013</note>
+</biblstruct>
+<biblstruct xml:id="b67">
+<analytic>
+<title level="a" type="main">Monitoring of active layer dynamics at a permafrost site on Svalbard using multi-channel ground-penetrating radar</title>
+<author>
+<persname><forename type="first">S</forename><surname>Westermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Wollschläger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Boike</surname></persname>
+</author>
+<idno type="DOI">10.5194/tc-4-475-2010</idno>
+<ptr target="https://doi.org/10.5194/tc-4-475-2010"></ptr>
+</analytic>
+<monogr>
+<title level="j">The Cryosphere</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="475" to="487" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Westermann, S., Wollschläger, U., &amp; Boike, J. (2010). Monitoring of active layer dynamics at a permafrost site on Svalbard using multi-channel ground-penetrating radar. The Cryosphere, 4(4), 475-487. https://doi.org/10.5194/tc-4-475-2010</note>
+</biblstruct>
+<biblstruct xml:id="b68">
+<analytic>
+<title level="a" type="main">Fast stable restricted maximum likelihood and marginal likelihood estimation of semiparametric generalized linear models</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">N</forename><surname>Wood</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1467-9868.2010.00749.x</idno>
+<ptr target="https://doi.org/10.1111/j.1467-9868.2010.00749.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Royal Statistical Society, Series B: Statistical Methodology</title>
+<imprint>
+<biblscope unit="volume">73</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="3" to="36" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wood, S. N. (2011). Fast stable restricted maximum likelihood and marginal likelihood estimation of semiparametric generalized linear models. Journal of the Royal Statistical Society, Series B: Statistical Methodology, 73(1), 3-36. https://doi.org/10.1111/ j.1467-9868.2010.00749.x</note>
+</biblstruct>
+<biblstruct xml:id="b69">
+<analytic>
+<title level="a" type="main">Influence of the seasonal snow cover on the ground thermal regime: An overview</title>
+<author>
+<persname><forename type="first">T</forename><surname>Zhang</surname></persname>
+</author>
+<idno type="DOI">10.1029/2004RG000157</idno>
+<ptr target="https://doi.org/10.1029/2004RG00015710.1029/2018GL078007Geophysical"></ptr>
+</analytic>
+<monogr>
+<title level="j">Reviews of Geophysics</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope unit="page">4002</biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note>Research Letters</note>
+<note type="raw_reference">Zhang, T. (2005). Influence of the seasonal snow cover on the ground thermal regime: An overview. Reviews of Geophysics, 43, RG4002. https://doi.org/10.1029/2004RG000157 10.1029/2018GL078007 Geophysical Research Letters</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

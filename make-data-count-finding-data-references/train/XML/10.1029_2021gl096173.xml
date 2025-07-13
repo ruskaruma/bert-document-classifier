@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="fr">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Satellite Observations of the Impact of Individual Aircraft on Ice Crystal Number in Thin Cirrus Clouds</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">Sajedeh</forename><surname>Marjani</surname></persname>
+<email>sajedeh.marjani@uni-leipzig.de</email>
+<affiliation key="aff0">
+<note type="raw_affiliation">1 , , , , , , , - -</note>
+</affiliation>
+<affiliation key="aff0">
+<note type="raw_affiliation">1 , , , , , , , - -</note>
+</affiliation>
+<affiliation key="aff0">
+<note type="raw_affiliation">1 , , , , , , , - -</note>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Matthias</forename><surname>Tesche</surname></persname>
+<idno type="ORCID">0000-0002-2891-8361</idno>
+<affiliation key="aff0">
+<note type="raw_affiliation">1 , , , , , , , - -</note>
+</affiliation>
+<affiliation key="aff0">
+<note type="raw_affiliation">1 , , , , , , , - -</note>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Peter</forename><surname>Bräuer</surname></persname>
+<idno type="ORCID">0000-0003-0096-4785</idno>
+<affiliation key="aff0">
+<note type="raw_affiliation">1 , , , , , , , - -</note>
+</affiliation>
+<affiliation key="aff0">
+<note type="raw_affiliation">1 , , , , , , , - -</note>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Odran</forename><surname>Sourdeval</surname></persname>
+<idno type="ORCID">0000-0002-3815-7631</idno>
+<affiliation key="aff0">
+<note type="raw_affiliation">1 , , , , , , , - -</note>
+</affiliation>
+<affiliation key="aff0">
+<note type="raw_affiliation">1 , , , , , , , - -</note>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Johannes</forename><surname>Quaas</surname></persname>
+<idno type="ORCID">0000-0002-2822-5303</idno>
+<affiliation key="aff0">
+<note type="raw_affiliation">1 , , , , , , , - -</note>
+</affiliation>
+<affiliation key="aff0">
+<note type="raw_affiliation">1 , , , , , , , - -</note>
+</affiliation>
+</author>
+<title level="a" type="main">Satellite Observations of the Impact of Individual Aircraft on Ice Crystal Number in Thin Cirrus Clouds</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">1763FA9F78C909DEF2FEB84FEB2C9477</idno>
+<idno type="DOI">10.1029/2021GL096173</idno>
+<note type="submission">Submitted on 2 Jun 2022 Received 29 SEP 2021 Accepted 11 FEB 2022 10.1029</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-11-07T15:55+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>de niveau recherche, publiés ou non, émanant des établissements d'enseignement et de recherche français ou étrangers, des laboratoires publics ou privés.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="fr">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Aviation outflow is the only anthropogenic source of pollution that is directly emitted into the upper troposphere.</s><s>This emission has the potential to modify the cloudiness directly by forming linear contrails and indirectly by injecting water vapor and aerosols <ref target="#b31" type="bibr">(Minnis et al., 1999</ref><ref target="#b30" type="bibr">(Minnis et al., , 2013;;</ref><ref target="#b26" type="bibr">Lee et al., 2021)</ref>, on which ice crystals may form homogeneously or heterogeneously if aerosols act as ice nucleating particles (INP).</s><s>Depending on meteorological and aircraft parameters, early contrail evolution may potentially affect the microphysical properties of evolving contrail even hours later <ref target="#b46" type="bibr">(Unterstrasser &amp; Gierens, 2010)</ref>.</s><s>The number of surviving ice particles due to adiabatic heating in the downward moving vortices depends strongly on ambient relative humidity with respect to ice (RH i ) and temperature <ref target="#b44" type="bibr">(Unterstrasser, 2014;</ref><ref target="#b47" type="bibr">Unterstrasser &amp; Sölch, 2010)</ref>.</s><s>The initial RH i may also impact contrail structure in which low RH i can lead to sublimation of all ice crystals inside the vortices even before the primary wake ceases <ref target="#b14" type="bibr">(Huebsch &amp; Lewellen, 2006;</ref><ref target="#b44" type="bibr">Unterstrasser, 2014;</ref><ref target="#b47" type="bibr">Unterstrasser &amp; Sölch, 2010)</ref>.</s><s>According to the work by <ref target="#b44" type="bibr">Unterstrasser (2014)</ref>, once the environment is cold and moist enough more ice crystals will survive in the primary wake and a contrail reaches its full vertical extent of about 450 m after about 5 min.</s><s>By performing an idealized simulation of a single contrail cluster and studying its microphysical process rates, <ref type="bibr">Bock and Burkhardt (2016b)</ref> showed that young contrail cirrus and natural cirrus are very distinct in microphysical properties, with a large number of small ice crystal concentration (diameter &lt;1 μm) in young contrails while a smaller number of large ice crystals (diameter greater than 5-10 μm) in natural cirrus.</s><s>According to their work, contrail cirrus resembles natural cirrus regarding their ice crystal number concentration and size after 5-7 hr.</s></p><p><s>Abstract Contrails can persist in cloud-free supersaturated air, increasing high-cloud cover, and inside natural cirrus cloud, modifying the microphysical properties of them.</s><s>The latter effect is almost unknown, partly because of the lack of height-resolved measurements and the capability of measurements to penetrate inside the cloud.</s><s>New retrievals of the ice crystal number concentration from combined satellite cloud radar and lidar measurements (CloudSat/CALIPSO; DARDAR-Nice algorithm) now allow for satellite-based assessment inside the clouds.</s><s>We investigate this issue at intersections between the aircraft flight tracks and these retrieval profiles.</s><s>Regions behind the aircraft inside the flight track were compared to the adjacent regions and to ahead of the aircraft, along the satellites' profiles, where DARDAR-Nice identify geometrically thin cirrus clouds.</s><s>This comparison revealed a statistically significant increase of 25% and 54% in the concentration of ice crystals with the minimum size of 5 μm around 300-540-m beneath an aircraft's flight altitude.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Plain Language Summary<p><s>Aircraft emissions are the only human-made source of pollution that is directly injected into the upper troposphere.</s><s>Aircraft can form trails of ice crystals in a cloud-free atmosphere and therefore change the high-cloud cover.</s><s>If they form inside the already existing cirrus clouds, they will modify the cloud microphysical properties, an effect that is not well quantified so far.</s><s>In this study, we use a new retrieval of ice crystal number concentration from satellite lidar and radar, which provides height resolved information.</s><s>We analyze intersections between the aircraft flight tracks and the swath of the satellite by comparing the ice crystal concentration in the regions affected by aviation with the neighboring regions and those ahead of the aircraft.</s><s>The result of this work reveals a statistically significant increase in ice crystal concentration within clouds a few hundred meters beneath the flight height.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">MARJANI ET AL.<p><s>MARJANI ET AL.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">10.1029/2021GL096173<p><s>2 of 9 Contrail ice particles grow by the uptake of moisture from the surrounding atmosphere.</s><s>Using a coupled model, <ref target="#b40" type="bibr">Schumann et al. (2015)</ref> found that the mass of water in aged contrails may be 10 3 -10 6 times larger than the water emitted from aircraft.</s><s><ref target="#b23" type="bibr">Knollenberg (1972)</ref> used measurements for a single aircraft and found this value exceeded at least four orders of magnitude.</s><s>This causes drying at flight levels and redistributing the humidity to lower levels <ref type="bibr">(Fahey &amp; Schumann, 1999;</ref><ref target="#b40" type="bibr">Schumann et al., 2015)</ref> and therefore a significant decrease in natural cloudiness <ref target="#b6" type="bibr">(Burkhardt &amp; Kärcher, 2011;</ref><ref target="#b40" type="bibr">Schumann et al., 2015)</ref>.</s><s><ref target="#b12" type="bibr">Gierens (2012)</ref> investigated contrail development within cirrus clouds by means of analytical calculations and found that embedded contrails lead to a local decrease in mean crystal radius and a local increase in mean ice crystal number concentration compared to the unperturbed cloud.</s><s>However, according to their analysis cirrus ice crystals as the ambient atmosphere of the contrail, have a negligible contribution during contrail formation and may only play a role in dispersing contrails some hours after formation by aggregating small contrail ice crystals via falling large cirrus ice crystals.</s></p><p><s>Aviation soot aerosols that are directly emitted at cirrus altitudes have been shown to act as INP <ref target="#b18" type="bibr">(Kanji et al., 2017)</ref>.</s><s>However, the indirect effect of aviation soot on cirrus clouds is subject to considerable uncertainties, especially due to the uncertainty in the ice nucleation efficiency of aircraft soot particles.</s><s>A recent laboratory study observed that the ice active fraction of aviation soot would increase significantly by increasing its porosity.</s><s>They found that if soot aggregates contain mesopores, they can contribute to ice formation even below homogeneous freezing conditions of solution droplets <ref target="#b29" type="bibr">(Mahrt et al., 2020)</ref>.</s><s>Applying a high-resolution cirrus column model revealed that at most, 1% of the contrail-processed soot particles are ice active <ref target="#b21" type="bibr">(Kärcher et al., 2021)</ref>.</s><s><ref target="#b34" type="bibr">Righi et al. (2021)</ref> conducted sensitivity experiments with a global aerosol-climate model exploring the uncertainties in the effect of aviation soot on cirrus clouds.</s><s>They showed that depending on the assumptions on critical ice saturation ratio and active fraction of aviation soot, the radiative forcing (RF) from the aviation soot-cirrus effect ranged from -35 to 13 mW m -2 .</s></p><p><s>Radiative impact of contrails and contrail cirrus has been studied by introducing them as an independent cloud class in global climate models <ref type="bibr">(Bock &amp; Burkhardt, 2016a</ref><ref type="bibr">, 2016b</ref><ref type="bibr">, 2019;</ref><ref target="#b5" type="bibr">Burkhardt &amp; Kärcher, 2009</ref><ref target="#b6" type="bibr">, 2011;</ref><ref target="#b11" type="bibr">Gettelman &amp; Chen, 2013)</ref> or by coupling contrail cirrus simulation models with reanalysis data <ref target="#b39" type="bibr">(Schumann &amp; Graf, 2013)</ref>.</s><s>Aviation-induced RF due to the effects on cirrus has had an increasing trend since 2011 with its contribution being greater than aviation CO 2 emission <ref target="#b20" type="bibr">(Kärcher, 2018)</ref>.</s><s>Contrails and contrail cirrus are found to have a warming effect on the atmosphere <ref type="bibr">(Bock &amp; Burkhardt, 2016b</ref><ref type="bibr">, 2019;</ref><ref target="#b4" type="bibr">Boucher, 1999;</ref><ref target="#b19" type="bibr">Kärcher, 2017</ref><ref target="#b20" type="bibr">Kärcher, , 2018;;</ref><ref target="#b38" type="bibr">Schumann, 2005)</ref>.</s><s>However, there is still a large range of uncertainty about aviation-induced cloud RF <ref target="#b26" type="bibr">(Lee et al., 2021)</ref>, even though the observations before and during the aircraft shutdown related to the COVID-19 pandemic shed some light on the overall effect <ref target="#b33" type="bibr">(Quaas et al., 2021)</ref>.</s></p><p><s>Observational studies of contrails and contrail cirrus are mostly based on passive remote sensing from space <ref target="#b9" type="bibr">(Duda et al., 2013</ref><ref target="#b8" type="bibr">(Duda et al., , 2019;;</ref><ref target="#b31" type="bibr">Minnis et al., 1999</ref><ref target="#b30" type="bibr">Minnis et al., , 2013))</ref>.</s><s>These measurements generally relate to conditions at cloud top or to cloud columnar properties.</s><s>Therefore, they cannot be used to investigate the conditions at the flight level of a passing aircraft inside the existing cirrus cloud.</s><s>Observational results of lidar instruments that are capable of detecting optically very thin or sub-visible cirrus clouds, suggest that most persistent contrails are embedded within pre-existing cirrus clouds <ref target="#b15" type="bibr">(Immler et al., 2008;</ref><ref target="#b16" type="bibr">Iwabuchi et al., 2012;</ref><ref target="#b35" type="bibr">Sassen, 1997)</ref>.</s><s>This is because ice supersaturation, which is needed for cirrus formation, is also required for contrail persistence <ref target="#b37" type="bibr">(Schumann, 1996)</ref>.</s><s>These embedded contrails can be recognized as backscatter peaks in airborne lidar observations <ref target="#b17" type="bibr">(Jones et al., 2012;</ref><ref target="#b45" type="bibr">Unterstrasser, 2016;</ref><ref target="#b48" type="bibr">Voigt et al., 2017)</ref>.</s><s><ref target="#b35" type="bibr">Sassen (1997)</ref> presented the first lidar-based investigation of embedded contrails and confirmed that contrails within clouds increase cloud optical thickness (COT).</s><s>Furthermore, <ref target="#b30" type="bibr">Minnis et al. (2013)</ref> show that contrails can also decrease the mean particle size of existing cirrus clouds.</s></p><p><s>Active remote-sensing measurements with spaceborne lidar or radar can be used not only to obtain the base and top heights of cirrus clouds but also to derive height-resolved information of their optical and microphysical properties <ref target="#b13" type="bibr">(Hong &amp; Liu, 2015;</ref><ref target="#b16" type="bibr">Iwabuchi et al., 2012)</ref>.</s><s>The first work that quantified the effect of contrails on the COT of already existing cirrus clouds statistically was by <ref target="#b43" type="bibr">Tesche et al. (2016)</ref>.</s><s>According to their work, COT increases significantly when a contrail forms in an already existing cirrus.</s><s>While optically thin cirrus can have a warming effect on the earth system, optically thick cirrus has a net cooling effect due to the dominance of the solar albedo effect <ref target="#b13" type="bibr">(Hong &amp; Liu, 2015)</ref>.</s><s>Therefore, the increment of COT has the potential of overturning the sign of ice cloud RF from net warming to net cooling <ref target="#b13" type="bibr">(Hong &amp; Liu, 2015;</ref><ref target="#b49" type="bibr">Zhang et al., 1999)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">10.1029/2021GL096173<p><s>3 of 9 Even though the situation that an aircraft flies through a natural cirrus is one of the highly probable situations in the upper troposphere, its subsequent impact is unclear with the present state of knowledge.</s><s>Quantifying such impact is necessary if we are to properly account for the influence of aviation on climate.</s><s>One main limitation preventing us to better identify these impacts is the lack of microphysical measurements inside the cirrus clouds.</s><s>Ice crystal number concentration (N i ) is one of the essential radiative and microphysical properties of ice clouds.</s><s>However, its estimation based on remote-sensing techniques is still very challenging.</s><s>In the present work, we investigate effects of aviation on N i of already existing cirrus clouds using the joint observation by CloudSat radar and CALIPSO lidar (DARDAR-Nice, see next section) retrievals and by applying the methodology introduced by <ref target="#b43" type="bibr">Tesche et al. (2016)</ref>.</s><s>Almost all previous studies on aviation lack the possibility to look deep into the clouds, but here these retrievals provide unprecedented possibility to investigate N i with vertically resolved values in details.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data Description<p><s>This work presents results based on a novel approach to estimate ice number concentration (N i ) from combined Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO; <ref type="bibr">Winker et al., 2009)</ref> and <ref type="bibr">Cloud-Sat (Stephens et al., 2002</ref><ref target="#b20" type="bibr">, 2018)</ref> measurements, called DARDAR-Nice (liDAR-raDAR-number concentration of ICE particles, <ref type="bibr">Sourdeval et al., 2018a)</ref>.</s><s>These N i are retrieved based on the VarCloud algorithm <ref target="#b7" type="bibr">(Delanoë &amp; Hogan, 2010)</ref>, along the CloudSat footprint with a vertical resolution of 60 m and horizontal resolution of 1 km.</s><s>They provided ice crystal concentration with the minimum size of 5 μm and are available from 2006 to 2017.</s><s>A major strength of merging spaceborne lidar and radar measurements is that it allows for providing vertical profiles of the ice crystal number concentration for a large variety of ice cloud types.</s><s>The product has been evaluated against theoretical considerations and in situ measurements and the best agreement is found at temperatures below -30°C, as the retrievals are more accurate due to the dominance of unimodal ice crystal size distribution and reduced ambiguity in the cloud phase <ref type="bibr">(Sourdeval et al., 2018a)</ref>.</s><s>We use the data set of intercepts between individual aircraft and the track of the CALIPSO satellite produced by <ref target="#b43" type="bibr">Tesche et al. (2016)</ref>.</s><s>The flight tracks for these aircraft passages are between the west coast of the continental United States (Seattle, San Francisco, and Los Angeles) and Hawaii (within the area 15-55°N and 115-155°W) which took place during 2010 and 2011.</s><s>For further information please refer to <ref target="#b43" type="bibr">Tesche et al. (2016)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Methodology<p><s>The approach in this research is built upon testing the null hypothesis that "Aviation pollution within natural cirrus clouds in the upper troposphere has no measurable immediate effect on ice crystal number concentrations."</s><s>If our null hypothesis is true, then there should be no statistically significant differences in the number of ice crystals between part of the clouds that are affected by the aircraft and other parts of the cloud.</s><s>If there is a statistically significant difference between affected and clean parts of the cirrus clouds, the null hypothesis is rejected and we conclude that aviation pollution within natural cirrus clouds has an immediate effect on ice crystal number concentrations.</s></p><p><s>The basis of choosing some appropriate aircraft cases to analyze their impact on already existing cirrus clouds is the identification of intersection coordinates between individual aircraft and height-resolved spaceborne lidar observations.</s><s>Furthermore, for the scope of this work, some constraints needed to be applied on discovered collocated pixels, like considering the effect of advection and the pre-existence of cirrus clouds.</s><s>Intercepts between aircraft flight track and the track of the satellite are classified into two groups.</s><s>In the first group, called here "behind" the aircraft, first the aircraft passes from the intersection coordinate and then the satellite passes.</s><s>Therefore, the satellite recorded information about cloudy air parcels behind the aircraft, i.e., affected by the aircraft.</s><s>In the second group named as "ahead" of the aircraft, the aircraft passes the intersection point after the satellite overpass, so the satellite profile is not affected by this aircraft.</s><s>As our intention is to dissect the natural cirrus clouds that are affected by aviation, existence of cirrus cloud at flight level in the collocated pixels is also one of the main conditions that is considered in the selection of the cases by <ref target="#b43" type="bibr">Tesche et al. (2016)</ref>.</s></p><p><s>Examples for a height-resolved view of the embedded contrail of an aircraft in cirrus cloud are illustrated in Figure <ref target="#fig_0" type="figure">1</ref>.</s><s>The turbulent nature of the clouds implies that it is virtually impossible to distinguish aviation traits by looking into just a few cases.</s><s>Instead, a statistical analysis of several to many cases is required.</s><s>This chaotic intrinsic variability is even stronger for geometrically thick cirrus (Figures <ref target="#fig_0" type="figure">1a</ref> and<ref target="#fig_0" type="figure">1b</ref>), i.e., clouds that are more usually related to fast updrafts or convective systems <ref target="#b24" type="bibr">(Krämer et al., 2016</ref><ref target="#b25" type="bibr">(Krämer et al., , 2020))</ref>.</s><s>Therefore, in order to identify any aviation impact on already existing cirrus clouds, the focus here is only on thin cirrus clouds, defined here as cirrus clouds with geometrical thickness of &lt;2 km (Figures <ref target="#fig_0" type="figure">1c</ref> and<ref target="#fig_0" type="figure">1d</ref>).</s><s>As investigated by <ref target="#b24" type="bibr">Krämer et al. (2016)</ref>, we can interpret that in situ origin cirrus clouds (forming in slow updraft) are mainly investigated in this study rather than liquid-origin cirrus clouds.</s><s>The geometrical thickness of cirrus clouds in this study is distributed between 900 and 2,000 m.</s></p><p><s>Using this methodology, an overall number of 26 cases are selected, including 12 cases ahead of an aircraft (control case) and 14 cases behind an aircraft (perturbed case with possible aircraft impact on cirrus).</s><s>These cases are a subset of intercepts that were used in <ref target="#b43" type="bibr">Tesche et al. (2016)</ref>, though we examined them in a different data product.</s><s>Table <ref type="table">1</ref> shows the intersection coordinates, the atmospheric temperature of the selected cases, and the absolute time difference between aircraft and CALIPSO arrival time, which is &lt;30 min for all cases.</s><s>For the selection of cirrus clouds, <ref target="#b43" type="bibr">Tesche et al. (2016)</ref> considered sevens 5 km CALIOP data points to the north and south of the intersection coordinate.</s><s>Which means 35 km on both sides of the intersection coordinate.</s><s>Moreover, according to <ref target="#b43" type="bibr">Tesche et al. (2016)</ref>, here, we just considered cases associated with &lt;30 km advection displacement (advection displacement for most of the cases are even &lt;20 km).</s><s>Therefore, with the assumption that the effect of a passing aircraft is observable in close neighborhood to the flight track, we define grid points on the satellite profile with &lt;20-km distance from the center as inside the flight track and the next 15 km both sides as outside the flight track.</s><s>Accordingly, our selected cases are classified into four categories (schematic illustration in Figure <ref target="#fig_2" type="figure">2</ref>); (I) ahead the aircraft inside the flight track, (II) ahead the aircraft outside the flight track, (III) behind the aircraft inside the flight track, and (IV) behind the aircraft outside the flight track.</s><s>As in <ref target="#b43" type="bibr">Tesche et al. (2016)</ref>, we test our proposed null hypothesis in two complementary manners.</s><s>First by comparing affected part of the cirrus clouds with adjacent regions on the cloud (categories III to IV), the latter category is outside the flight track and assumed as unperturbed region and second by comparing affected part of the cloud with cirrus clouds ahead of the aircraft (categories III to I), this latter category is located inside the flight track but aircraft will reach this region in &lt;30 min.</s><s>Therefore, this category is also assumed as unperturbed region but from a different perspective.</s><s>If the null hypothesis is true and aviation has no measurable immediate effect on the number of ice crystals then there should be no statistically significant differences in the number of ice crystals between the category that is affected by the aircraft and other categories that are not affected.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results<p><s>Statistics of N i are shown in Figure <ref target="#fig_3" type="figure">3a</ref>, comparing the affected part of the cirrus clouds (category III, in red) with neighboring regions (category IV, in black).</s><s>As we wanted to investigate inside the cloud, distances &gt;540-m beneath the flight height are not considered owing to the fact that, if we go further below, the cloud base will be reach in some cases.</s><s>Notable differences are recorded in the three lowest illustrated height levels, i.e., between 300-m and 540-m beneath the flight height.</s><s>These differences are prominent in the upper quartiles and upper extremes, arising from increasing values in category III while decreasing values in category IV as distancing from the flight level.</s><s>As will be shown in Figure <ref target="#fig_4" type="figure">4</ref>, the average N i in category III (aviation affected cirrus) is 25% greater than category IV (natural cirrus), at 300-540-m beneath the flight height.</s><s>This result suggests that the local effect of an embedded contrail on the assessed N i as retrieved by DARDAR-Nice is more substantial a few hundred meters beneath the flight height.</s><s>Even though the p-value of our analyses 300-m beneath the flight height is greater than the conventionally predefined threshold of 0.05, these numbers reveal that the confidence levels for the rejection of the proposed null hypothesis are &gt;95% and 99%, at 420-m and 540-m beneath the flight height respectively.</s></p><p><s>1. p-value &gt; 0.05 → null hypothesis valid → no effect of aviation on cirrus 2. p-value &lt; 0.05 → null hypothesis rejected → effect of aviation on cirrus Comparing cirrus clouds holding contrails (category III, in red) with those located ahead of the aircraft (category I, in black) in Figure <ref target="#fig_3" type="figure">3b</ref> shows a similar pattern of result as that in Figure <ref target="#fig_3" type="figure">3a</ref>.</s><s>Box and whiskers show higher values in category III, at 300-540-m beneath the flight level compared to counterpart heights ahead of the aircraft.</s><s>The average value in category III is 54% greater than in category I, at 300-540-m beneath the flight height (Figure <ref target="#fig_4" type="figure">4</ref>).</s><s>p-Values for the three lowest illustrated height levels are even &lt;0.01,</s><s>implying that these two groups of clouds have a difference that is statistically significant with a confidence level of &gt;99%.</s><s>It should be noted that, when category III is compared to category IV, every single case has a counterpart in the other category, which are taken under the similar meteorological situation.</s><s>Accordingly, despite the lower p-values in Figure <ref target="#fig_3" type="figure">3b</ref>, these differences could partly arise from different background effects of the cases.</s></p><p><s>Average profiles of N i in Figure <ref target="#fig_4" type="figure">4a</ref> show a decreasing trend from flight level to the lower altitudes in both categories I (ahead aircraft, inside flight track) and II (ahead aircraft, outside flight track).</s><s>When looking at average values in behind the aircraft (Figure <ref target="#fig_4" type="figure">4b</ref>), the vertical trend increases from flight level to the lower altitudes in category III (behind aircraft, inside flight track: aviation affected cirrus), whereas, averages decline from flight level to nearby lower altitudes in category IV (behind aircraft, outside flight track).</s><s>Vertical variability in category III (aviation affected cirrus) is different from all other categories.</s><s>This difference probably arises from the presence of embedded contrails inside the clouds.</s><s>When considering average N i values for individual cases, the chaotic nature of cirrus clouds manifests in the large intraindividual variability in each group of cases (thin lines in Figures <ref target="#fig_4" type="figure">4a</ref> and<ref target="#fig_4" type="figure">4b</ref>).</s><s>It is interesting to note that even when we consider all the available cases irrespective of their thicknesses (26 cases ahead of the aircraft and 33 cases behind the aircraft) we identified the same signal though far weaker signal.</s><s>Therefore, considering the statistically significant difference in the number of ice crystals between category III with categories I and IV.</s><s>Our null  Note.</s><s>The first column marks whether or not a cloud was observed before or after the passage of an aircraft.</s><s>Embedded contrails are only considered in the latter cases.</s><s>hypothesis is rejected and we can conclude that the passage of aircraft through an already existing cirrus cloud have an immediate effect on the number of ice crystals and will increase the number of ice crystals greater than 5 μm a few hundred meters beneath the flight height.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Table 1 Characteristics of Selected Cases in Terms of<p><s>These findings are consistent with previous studies of three-dimensional simulations, which show that in a cold and humid enough environment, contrails can reach a vertical extent of &gt;450 m during the vortex phase (Unterstrasser, 2014).</s><s>In another word, if the supersaturation at cruising altitude is high enough, most of those ice crystals that are trapped inside the aircraft vortices will survive during the descending vortex phase <ref target="#b14" type="bibr">(Huebsch &amp; Lewellen, 2006;</ref><ref target="#b27" type="bibr">Lewellen &amp; Lewellen, 2001;</ref><ref target="#b28" type="bibr">Lewellen et al., 2014)</ref> and consequently a certain fraction of contrail ice crystals will be displaced a few hundred meters beneath the flight level.</s><s>Given that we study inside the already existing cirrus clouds which ice supersaturation is the presumption for their existence, we can conclude that the saturation at aircraft altitude is high enough for the young contrails to develop and reach the full vertical extension during the vortex phase.</s><s>Furthermore, considering the time delay between the aircraft and satellite passage, these contrails are young enough to be further controlled by aircraft induced flow rather than the atmospheric parameters (i.e., mostly affected by vortex phase rather than dissipation phase).</s><s>Mean diameter of ice crystals in young contrails (up to 1 hr) is typically smaller than 10 μm <ref type="bibr">(Bock &amp; Burkhardt, 2016b;</ref><ref target="#b36" type="bibr">Schröder et al., 2000)</ref>.</s><s>It is even less than in the young cirrus clouds, which were found to be 10-20 μm <ref target="#b36" type="bibr">(Schröder et al., 2000)</ref>.</s><s>Therefore, it is possible that we have lost information about a certain fraction of contrail's ice crystals, those which are smaller than the retrieved threshold of 5 μm in DARDAR-Nice product.</s><s>Considering that the contrails in this study are all younger than 30 min and given that the sedimentation velocity of ice crystals is prolonged in ice clouds <ref target="#b22" type="bibr">(Khvorostyanov &amp; Curry, 2002;</ref><ref target="#b32" type="bibr">Nee et al., 2016)</ref>, high concentration of small ice crystals may exist in closer distances to flight altitude due to contrail formation.</s><s>Therefore, the reason why N i increment in this work is just identified a few hundred meters beneath the flight height but not at closer distances could be because of the lack MARJANI ET AL.</s></p><p><s>10.1029/2021GL096173</s></p><p><s>7 of 9 of information about ice crystals smaller than 5 μm.</s><s>Larger contrail ice crystals can be located toward the bottom of the cloud, partly because smaller crystals sublimate during the adiabatic heating in descending vortices which in turn help to preserve the saturation for growth of the larger crystals and partly due to the aggregation processes during the descending vortex flow.</s><s>Hence, it should be noticed that if the amount of ice crystals smaller than 5 μm in the contrail is larger in the closer vertical distances to flight height than the overall contrail ice crystals in the farther distances (here 300-540-m beneath the flight height), the maximum difference of N i , between the categories, could be found in a different height and with a different quantity of increment.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusion<p><s>This study evaluates the immediate effect of aviation effluent on the number of ice crystals within geometrically thin natural cirrus clouds by exploiting satellite observations.</s><s>With this aim, we used DARDAR-Nice retrievals that provide height-resolved product of N i from spaceborne radar and lidar observations at the location of intercepts with individual flight tracks.</s><s>These flights took place between the west coast of the continental United States (Seattle, San Francisco, and Los Angeles) and Hawaii during 2010 and 2011, as identified in <ref target="#b43" type="bibr">Tesche et al. (2016)</ref>.</s></p><p><s>Comparing ice crystals with minimum diameter of 5 μm in cloudy air behind the aircraft inside the flight track to the adjacent regions and to ahead of the aircraft revealed a notable difference in ice number concentration at 300-540-m beneath the flight height.</s><s>These differences are derived from the reduction of ice number concentrations as we proceed toward the cloud base in regions unaffected by aviation (regions I, II, and IV) and the increase of ice crystals as we distance a few hundreds of meters beneath the flight level in the regions affected by aviation (region III).</s><s>The differences are particularly pronounced for the upper percentiles of the distribution.</s></p><p><s>In some cases, thus, there is a very large perturbation of N i due to the aircraft (almost a factor of two), while on average, the effects are only 25% and 54% in comparison to neighboring regions and ahead the aircraft respectively.</s><s>p-Values also confirm that these differences are statistically significant with the confidence level of &gt;99%, except between regions III and IV, 300-m beneath the flight altitude, which exhibited a confidence level of 82%.</s><s>In this work, we just considered ice crystals with minimum diameter of 5 μm, due to the limitations of the satellite observations that cannot retrieve smaller ice crystals.</s><s>However, previous studies have revealed that ice crystals in young contrails are diminutive and myriad, i.e., smaller and more numerous than in natural cirrus clouds <ref target="#b0" type="bibr">(Baumgardner &amp; Gandrud, 1998;</ref><ref type="bibr">Bock &amp; Burkhardt, 2016b;</ref><ref target="#b35" type="bibr">Sassen, 1997;</ref><ref target="#b37" type="bibr">Schumann, 1996)</ref>.</s><s>Thus, it should be noted that depending on the concentration of ice crystals smaller than 5 μm, the ice crystal increment due to aviation impact could be found distinctly, i.e., instead of 300-540-m beneath the flight height, an increment of N i from flight altitude to 540-m beneath that could be discovered.</s><s>Therefore, this result is only valid for the ice crystal larger than 5 μm.</s><s>Furthermore, while the data presented here are based on a limited number of cases, the findings are statistically significant.</s><s>But in the future, more robust studies will need to be based on much larger data sets of intercepts between satellites and the tracks of individual aircraft.</s><s>Work that is currently underway at the authors' home institution.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>Examples of ice crystal number concentration profiles from DARDAR-Nice product, displaying geometrically thick cirrus clouds ahead and behind the aircraft (a and b) and geometrically thin cirrus clouds ahead and behind the aircraft (c and d).</s><s>Vertical axis represents the altitude and horizontal axis depicts the track of the CALIPSO footprint in latitude and longitude.</s><s>Black cross in each profile represents the coordinate of aircraft passage.</s></p></div></figdesc><graphic coords="5,52.77,89.02,494.40,223.20" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 2. Schematic representation of how ahead/behind the aircraft and inside/outside the flight track is defined on the swath of the satellite.</s><s>The big rectangle is part of the satellite swath, which is covered by cirrus cloud.</s><s>The red star indicates intersection coordinate and the thin black arrow shows flight direction.</s><s>Category III is where the natural cirrus cloud is directly affected by aircraft.</s></p></div></figdesc><graphic coords="6,37.93,596.50,238.08,71.52" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure 3. DARDAR-Nice ice crystal number concentration as a function of height as summary statistics over all cases.</s><s>Centered 3-point moving average values over 60-m intervals of height levels are used to produce box-whisker diagrams.</s><s>Vertical axis represents height relative to the aircraft altitude.</s><s>Boxes show the 25th-75th percentiles of the data, whiskers the 5th-95th percentiles; the middle bar is the median value.</s><s>In both panels, the red boxes are the same, namely category III (behind the aircraft, inside flight track).</s><s>In (a), the black boxes are category IV (behind the aircraft, outside the flight track), in (b) category I (ahead the aircraft, inside the flight track), i.e., two different choices for the control case.</s><s>Two-tailed p-values calculated from t-score are indicated in right-hand side of each height level.</s><s>If the p-value is less than the significance level of 0.05, the null hypothesis is rejected (i.e., aviation do have effect on already existing cirrus).</s></p></div></figdesc><graphic coords="7,196.64,89.02,344.16,268.80" type="bitmap"></graphic></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4. Average DARDAR-Nice ice crystal number concentration as a function of height.</s><s>Panels (a) and (b) show the mean values calculated using centered 3-point moving average values over 60-m intervals for all cases investigated as thin lines in ahead and behind the aircraft, respectively.</s><s>Thick lines are the averages over all cases.</s><s>Red/blue lines represent inside/ outside the flight track.</s></p></div></figdesc><graphic coords="8,196.64,89.02,344.16,263.52" type="bitmap"></graphic></figure>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgments<p><s>We wish to thank the three anonymous reviewers for their constructive comments and suggestions which improved this manuscript greatly.</s><s>This work was supported by the EU Horizon 2020 under ACACIA project (Grant Number 875036).</s><s>Open access funding enabled and organized by Projekt DEAL.</s></p></div>
+</div>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0">Data Availability Statement<p><s>DARDAR-Nice collection <ref target="#b42" type="bibr">(Sourdeval et al., 2018b)</ref> is freely accessible at AERIS/ICARE data center, via https://www.icare.univ-lille.fr/data-access/data-archive-access/?dir=CLOUDSAT/DARDAR-NICE_L2-PRO.</s><s>v1.00/.</s><s>Archiving the associated data set for this research that may be useful in producing the authors' work is available via DRYAD Digital Repository for sharing purposes (https://datadryad.org/stash/share/</s><s>exYZnfhUnvOFfjOvnMV4os7WO4ErfrGhwxFBAR-jUZA).</s></p></div>
+</div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">A comparison of the microphysical and optical properties of particles in an aircraft contrail and mountain wave cloud</title>
+<author>
+<persname><forename type="first">D</forename><surname>Baumgardner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">E</forename><surname>Gandrud</surname></persname>
+</author>
+<idno type="DOI">10.1029/98GL00035</idno>
+<ptr target="https://doi.org/10.1029/98GL00035"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope from="1129" to="1132" unit="page"></biblscope>
+<date type="published" when="1998">1998</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Baumgardner, D., &amp; Gandrud, B. E. (1998). A comparison of the microphysical and optical properties of particles in an aircraft contrail and mountain wave cloud. Geophysical Research Letters, 25(8), 1129-1132. https://doi.org/10.1029/98GL00035</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Reassessing properties and radiative forcing of contrail cirrus using a climate model</title>
+<author>
+<persname><forename type="first">L</forename><surname>Bock</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Burkhardt</surname></persname>
+</author>
+<idno type="DOI">10.1002/2016JD025112</idno>
+<ptr target="https://doi.org/10.1002/2016JD025112"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">121</biblscope>
+<biblscope from="9717" to="9736" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bock, L., &amp; Burkhardt, U. (2016a). Reassessing properties and radiative forcing of contrail cirrus using a climate model. Journal of Geophysical Research: Atmospheres, 121, 9717-9736. https://doi.org/10.1002/2016JD025112</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">The temporal evolution of a long-lived contrail cirrus cluster: Simulations with a global climate model</title>
+<author>
+<persname><forename type="first">L</forename><surname>Bock</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Burkhardt</surname></persname>
+</author>
+<idno type="DOI">10.1002/2015JD024475</idno>
+<ptr target="https://doi.org/10.1002/2015JD024475"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">121</biblscope>
+<biblscope from="3548" to="3565" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bock, L., &amp; Burkhardt, U. (2016b). The temporal evolution of a long-lived contrail cirrus cluster: Simulations with a global climate model. Jour- nal of Geophysical Research: Atmospheres, 121, 3548-3565. https://doi.org/10.1002/2015JD024475</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Contrail cirrus radiative forcing for future air traffic</title>
+<author>
+<persname><forename type="first">L</forename><surname>Bock</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Burkhardt</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-19-8163-2019</idno>
+<ptr target="https://doi.org/10.5194/acp-19-8163-2019"></ptr>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope from="8163" to="8174" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bock, L., &amp; Burkhardt, U. (2019). Contrail cirrus radiative forcing for future air traffic. Atmospheric Chemistry and Physics, 19(12), 8163-8174. https://doi.org/10.5194/acp-19-8163-2019</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Air traffic may increase cirrus cloudiness</title>
+<author>
+<persname><forename type="first">O</forename><surname>Boucher</surname></persname>
+</author>
+<idno type="DOI">10.1038/16169</idno>
+<ptr target="https://doi.org/10.1038/16169"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">397</biblscope>
+<biblscope from="10" to="11" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Boucher, O. (1999). Air traffic may increase cirrus cloudiness. Nature, 397, 10-11. https://doi.org/10.1038/16169</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Process-based simulation of contrail cirrus in a global climate model</title>
+<author>
+<persname><forename type="first">U</forename><surname>Burkhardt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Kärcher</surname></persname>
+</author>
+<idno type="DOI">10.1029/2008JD011491</idno>
+<ptr target="https://doi.org/10.1029/2008JD011491"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research</title>
+<imprint>
+<biblscope unit="volume">114</biblscope>
+<biblscope unit="page">16201</biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Burkhardt, U., &amp; Kärcher, B. (2009). Process-based simulation of contrail cirrus in a global climate model. Journal of Geophysical Research, 114, D16201. https://doi.org/10.1029/2008JD011491</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Global radiative forcing from contrail cirrus</title>
+<author>
+<persname><forename type="first">U</forename><surname>Burkhardt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Kärcher</surname></persname>
+</author>
+<idno type="DOI">10.1038/nclimate1068</idno>
+<ptr target="https://doi.org/10.1038/nclimate1068"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature Climate Change</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="54" to="58" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Burkhardt, U., &amp; Kärcher, B. (2011). Global radiative forcing from contrail cirrus. Nature Climate Change, 1(1), 54-58. https://doi.org/10.1038/ nclimate1068</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Combined CloudSat-CALIPSO-MODIS retrievals of the properties of ice clouds</title>
+<author>
+<persname><forename type="first">J</forename><surname>Delanoë</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Hogan</surname></persname>
+</author>
+<idno type="DOI">10.1029/2009JD012346</idno>
+<ptr target="https://doi.org/10.1029/2009JD012346"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research</title>
+<imprint>
+<biblscope unit="volume">115</biblscope>
+<biblscope from="00H" to="29" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Delanoë, J., &amp; Hogan, R. J. (2010). Combined CloudSat-CALIPSO-MODIS retrievals of the properties of ice clouds. Journal of Geophysical Research, 115, D00H29. https://doi.org/10.1029/2009JD012346</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Northern Hemisphere contrail properties derived from Terra and Aqua MODIS data for 2006 and 2012</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">P</forename><surname>Duda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">T</forename><surname>Bedka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Minnis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Spangenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Khlopenkov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Chee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">L</forename><surname>Smith</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-19-5313-2019</idno>
+<ptr target="https://doi.org/10.5194/acp-19-5313-2019"></ptr>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope from="5313" to="5330" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Duda, D. P., Bedka, S. T., Minnis, P., Spangenberg, D., Khlopenkov, K., Chee, T., &amp; Smith, W. L. (2019). Northern Hemisphere contrail prop- erties derived from Terra and Aqua MODIS data for 2006 and 2012. Atmospheric Chemistry and Physics, 19(8), 5313-5330. https://doi. org/10.5194/acp-19-5313-2019</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Estimation of 2006 Northern Hemisphere contrail coverage using MODIS data</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">P</forename><surname>Duda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Minnis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Khlopenkov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">L</forename><surname>Chee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Boeke</surname></persname>
+</author>
+<idno type="DOI">10.1002/grl.50097</idno>
+<ptr target="https://doi.org/10.1002/grl.50097"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope from="612" to="617" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Duda, D. P., Minnis, P., Khlopenkov, K., Chee, T. L., &amp; Boeke, R. (2013). Estimation of 2006 Northern Hemisphere contrail coverage using MODIS data. Geophysical Research Letters, 40, 612-617. https://doi.org/10.1002/grl.50097</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Aviation-produced aerosols and cloudiness</title>
+<author>
+<persname><forename type="first">D</forename><surname>Fahey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Schumann</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Aviation and the global atmosphere. IPCC special report</title>
+<editor>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Penner</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">D</forename><forename type="middle">H</forename><surname>Lister</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Griggs</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Dokken</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">M</forename><surname>Mc-Farland</surname></persname>
+</editor>
+<meeting><address><addrline>New York, NY</addrline></address></meeting>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="1999">1999</date>
+<biblscope from="65" to="120" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Fahey, D., &amp; Schumann, U. (1999). Aviation-produced aerosols and cloudiness. In J. E.Penner, D. H.Lister, D. J.Griggs, D. J.Dokken, &amp; M.Mc- Farland (Eds.), Aviation and the global atmosphere. IPCC special report (pp. 65-120). New York, NY: Cambridge University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">The climate impact of aviation aerosols</title>
+<author>
+<persname><forename type="first">A</forename><surname>Gettelman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Chen</surname></persname>
+</author>
+<idno type="DOI">10.1002/grl.50520</idno>
+<ptr target="https://doi.org/10.1002/grl.50520"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope from="2785" to="2789" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gettelman, A., &amp; Chen, C. (2013). The climate impact of aviation aerosols. Geophysical Research Letters, 40, 2785-2789. https://doi.org/10.1002/ grl.50520</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Selected topics on the interaction between cirrus clouds and embedded contrails</title>
+<author>
+<persname><forename type="first">K</forename><surname>Gierens</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-12-11943-2012</idno>
+<ptr target="https://doi.org/10.5194/acp-12-11943-2012"></ptr>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="issue">24</biblscope>
+<biblscope from="11943" to="11949" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gierens, K. (2012). Selected topics on the interaction between cirrus clouds and embedded contrails. Atmospheric Chemistry and Physics, 12(24), 11943-11949. https://doi.org/10.5194/acp-12-11943-2012</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">The characteristics of ice cloud properties derived from CloudSat and CALIPSO measurements</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Hong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Liu</surname></persname>
+</author>
+<idno type="DOI">10.1175/JCLI-D-14-00666.1</idno>
+<ptr target="https://doi.org/10.1175/JCLI-D-14-00666"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Climate</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope unit="issue">9</biblscope>
+<biblscope from="3880" to="3901" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hong, Y., &amp; Liu, G. (2015). The characteristics of ice cloud properties derived from CloudSat and CALIPSO measurements. Journal of Climate, 28(9), 3880-3901. https://doi.org/10.1175/JCLI-D-14-00666.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Sensitivity study on contrail evolution</title>
+<author>
+<persname><forename type="first">W</forename><surname>Huebsch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Lewellen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">36th AIAA fluid dynamics conference and exhibit</title>
+<imprint>
+<date type="published" when="2006">2006</date>
+<biblscope unit="page">3749</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Huebsch, W., &amp; Lewellen, D. (2006). Sensitivity study on contrail evolution. In 36th AIAA fluid dynamics conference and exhibit (p. 3749).</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Cirrus, contrails, and ice supersaturated regions in high pressure systems at northern mid latitudes</title>
+<author>
+<persname><forename type="first">F</forename><surname>Immler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Treffeisen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Engelbart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Krüger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Schrems</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-8-1689-2008</idno>
+<ptr target="https://doi.org/10.5194/acp-8-1689-2008"></ptr>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="1689" to="1699" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Immler, F., Treffeisen, R., Engelbart, D., Krüger, K., &amp; Schrems, O. (2008). Cirrus, contrails, and ice supersaturated regions in high pressure systems at northern mid latitudes. Atmospheric Chemistry and Physics, 8(6), 1689-1699. https://doi.org/10.5194/acp-8-1689-2008</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Physical and optical properties of persistent contrails: Climatology and interpretation</title>
+<author>
+<persname><forename type="first">H</forename><surname>Iwabuchi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Yang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">N</forename><surname>Liou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Minnis</surname></persname>
+</author>
+<idno type="DOI">10.1029/2011JD017020</idno>
+<ptr target="https://doi.org/10.1029/2011JD017020"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research</title>
+<imprint>
+<biblscope unit="volume">117</biblscope>
+<biblscope unit="page">6215</biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Iwabuchi, H., Yang, P., Liou, K. N., &amp; Minnis, P. (2012). Physical and optical properties of persistent contrails: Climatology and interpretation. Journal of Geophysical Research, 117, D06215. https://doi.org/10.1029/2011JD017020</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">A methodology for in-situ and remote sensing of microphysical and radiative properties of contrails as they evolve into cirrus</title>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">M</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Haywood</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Marenco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>O'sullivan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Meyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Thorpe</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-12-8157-2012</idno>
+<ptr target="https://doi.org/10.5194/acp-12-8157-2012"></ptr>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="issue">17</biblscope>
+<biblscope from="8157" to="8175" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jones, H. M., Haywood, J., Marenco, F., O'Sullivan, D., Meyer, J., Thorpe, R., et al. (2012). A methodology for in-situ and remote sensing of microphysical and radiative properties of contrails as they evolve into cirrus. Atmospheric Chemistry and Physics, 12(17), 8157-8175. https:// doi.org/10.5194/acp-12-8157-2012</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Overview of ice nucleating particles</title>
+<author>
+<persname><forename type="first">Z</forename><forename type="middle">A</forename><surname>Kanji</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">A</forename><surname>Ladino</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Wex</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Boose</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Burkert-Kohn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Cziczo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Krämer</surname></persname>
+</author>
+<idno type="DOI">10.1175/amsmonographs-d-16-0006.1</idno>
+<ptr target="https://doi.org/10.1175/amsmonographs-d-16-0006"></ptr>
+</analytic>
+<monogr>
+<title level="j">Meteorological Monographs</title>
+<imprint>
+<biblscope unit="volume">58</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="1" to="1" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kanji, Z. A., Ladino, L. A., Wex, H., Boose, Y., Burkert-Kohn, M., Cziczo, D. J., &amp; Krämer, M. (2017). Overview of ice nucleating particles. Meteorological Monographs, 58, 1.1-1.33. https://doi.org/10.1175/amsmonographs-d-16-0006.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Cirrus clouds and their response to anthropogenic activities</title>
+<author>
+<persname><forename type="first">B</forename><surname>Kärcher</surname></persname>
+</author>
+<idno type="DOI">10.1007/s40641-017-0060-3</idno>
+<ptr target="https://doi.org/10.1007/s40641-017-0060-3"></ptr>
+</analytic>
+<monogr>
+<title level="j">Current Climate Change Reports</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="45" to="57" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kärcher, B. (2017). Cirrus clouds and their response to anthropogenic activities. Current Climate Change Reports, 3(1), 45-57. https://doi. org/10.1007/s40641-017-0060-3</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Formation and radiative forcing of contrail cirrus</title>
+<author>
+<persname><forename type="first">B</forename><surname>Kärcher</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41467-018-04068-0</idno>
+<ptr target="https://doi.org/10.1038/s41467-018-04068-010.1029/2021GL0961739of9"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature Communications</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope unit="page">1824</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kärcher, B. (2018). Formation and radiative forcing of contrail cirrus. Nature Communications, 9(1), 1824. https://doi.org/10.1038/ s41467-018-04068-0 10.1029/2021GL096173 9 of 9</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Process-oriented analysis of aircraft soot-cirrus interactions constrains the climate impact of aviation</title>
+<author>
+<persname><forename type="first">B</forename><surname>Kärcher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Mahrt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Marcolli</surname></persname>
+</author>
+<idno type="DOI">10.1038/s43247-021-00175-x</idno>
+<ptr target="https://doi.org/10.1038/s43247-021-00175-x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Communications Earth &amp; Environment</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope unit="page">113</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kärcher, B., Mahrt, F., &amp; Marcolli, C. (2021). Process-oriented analysis of aircraft soot-cirrus interactions constrains the climate impact of avia- tion. Communications Earth &amp; Environment, 2(1), 113. https://doi.org/10.1038/s43247-021-00175-x</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Terminal velocities of droplets and crystals: Power laws with continuous parameters over the size spectrum</title>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">I</forename><surname>Khvorostyanov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Curry</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of the Atmospheric Sciences</title>
+<imprint>
+<biblscope unit="volume">59</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope from="1872" to="1884" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Khvorostyanov, V. I., &amp; Curry, J. A. (2002). Terminal velocities of droplets and crystals: Power laws with continuous parameters over the size spectrum. Journal of the Atmospheric Sciences, 59(11), 1872-1884.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Measurements of the growth of the ice budget in a persisting contrail</title>
+<author>
+<persname><forename type="first">R</forename><surname>Knollenberg</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of the Atmospheric Sciences</title>
+<imprint>
+<biblscope unit="volume">29</biblscope>
+<biblscope unit="issue">7</biblscope>
+<biblscope from="1367" to="1374" unit="page"></biblscope>
+<date type="published" when="1972">1972</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Knollenberg, R. (1972). Measurements of the growth of the ice budget in a persisting contrail. Journal of the Atmospheric Sciences, 29(7), 1367-1374.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">A microphysics guide to cirrus clouds-Part 1: Cirrus types</title>
+<author>
+<persname><forename type="first">M</forename><surname>Krämer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Rolf</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Luebke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Afchine</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Spelten</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Costa</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-16-3463-2016</idno>
+<ptr target="https://doi.org/10.5194/acp-16-3463-2016"></ptr>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="3463" to="3483" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Krämer, M., Rolf, C., Luebke, A., Afchine, A., Spelten, N., Costa, A., et al. (2016). A microphysics guide to cirrus clouds-Part 1: Cirrus types. Atmospheric Chemistry and Physics, 16(5), 3463-3483. https://doi.org/10.5194/acp-16-3463-2016</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">A microphysics guide to cirrus-Part II: Climatologies of clouds and humidity from observations</title>
+<author>
+<persname><forename type="first">M</forename><surname>Krämer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Rolf</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Spelten</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Afchine</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Fahey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Jensen</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-20-12569-2020</idno>
+<ptr target="https://doi.org/10.5194/acp-20-12569-2020"></ptr>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="12569" to="12608" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Krämer, M., Rolf, C., Spelten, N., Afchine, A., Fahey, D., Jensen, E., et al. (2020). A microphysics guide to cirrus-Part II: Climatologies of clouds and humidity from observations. Atmospheric Chemistry and Physics, 20, 12569-12608. https://doi.org/10.5194/acp-20-12569-2020</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">The contribution of global aviation to anthropogenic climate forcing for 2000 to 2018</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">S</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Fahey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Skowron</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">R</forename><surname>Allen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Burkhardt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Q</forename><surname>Chen</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.atmosenv.2020.117834</idno>
+<ptr target="https://doi.org/10.1016/j.atmosenv.2020.117834"></ptr>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Environment</title>
+<imprint>
+<biblscope unit="volume">244</biblscope>
+<biblscope unit="page">117834</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lee, D. S., Fahey, D. W., Skowron, A., Allen, M. R., Burkhardt, U., Chen, Q., et al. (2021). The contribution of global aviation to anthropogenic climate forcing for 2000 to 2018. Atmospheric Environment, 244, 117834. https://doi.org/10.1016/j.atmosenv.2020.117834</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">The effects of aircraft wake dynamics on contrail development</title>
+<author>
+<persname><forename type="first">D</forename><surname>Lewellen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Lewellen</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of the Atmospheric Sciences</title>
+<imprint>
+<biblscope unit="volume">58</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="390" to="406" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lewellen, D., &amp; Lewellen, W. (2001). The effects of aircraft wake dynamics on contrail development. Journal of the Atmospheric Sciences, 58(4), 390-406.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Persistent contrails and contrail cirrus. part i: Large-eddy simulations from inception to demise</title>
+<author>
+<persname><forename type="first">D</forename><surname>Lewellen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Meza</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Huebsch</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of the Atmospheric Sciences</title>
+<imprint>
+<biblscope unit="volume">71</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope from="4399" to="4419" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lewellen, D., Meza, O., &amp; Huebsch, W. (2014). Persistent contrails and contrail cirrus. part i: Large-eddy simulations from inception to demise. Journal of the Atmospheric Sciences, 71(12), 4399-4419.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">The impact of cloud processing on the ice nucleation abilities of soot particles at cirrus temperatures</title>
+<author>
+<persname><forename type="first">F</forename><surname>Mahrt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Kilchhofer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Marcolli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Grönquist</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">O</forename><surname>David</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Rösch</surname></persname>
+</author>
+<idno type="DOI">10.1029/2019JD030922</idno>
+<ptr target="https://doi.org/10.1029/2019JD030922"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">125</biblscope>
+<biblscope unit="page">30922</biblscope>
+<date type="published" when="2019">2020. 2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mahrt, F., Kilchhofer, K., Marcolli, C., Grönquist, P., David, R. O., Rösch, M., et al. (2020). The impact of cloud processing on the ice nucle- ation abilities of soot particles at cirrus temperatures. Journal of Geophysical Research: Atmospheres, 125, e2019JD030922. https://doi. org/10.1029/2019JD030922</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Linear contrail and contrail cirrus properties determined from satellite data</title>
+<author>
+<persname><forename type="first">P</forename><surname>Minnis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">T</forename><surname>Bedka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">P</forename><surname>Duda</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Bedka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Chee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">K</forename><surname>Ayers</surname></persname>
+</author>
+<idno type="DOI">10.1002/grl.50569</idno>
+<ptr target="https://doi.org/10.1002/grl.50569"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope from="3220" to="3226" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Minnis, P., Bedka, S. T., Duda, D. P., Bedka, K. M., Chee, T., Ayers, J. K., et al. (2013). Linear contrail and contrail cirrus properties determined from satellite data. Geophysical Research Letters, 40, 3220-3226. https://doi.org/10.1002/grl.50569</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Global distribution of contrail radiative forcing</title>
+<author>
+<persname><forename type="first">P</forename><surname>Minnis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Schumann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Doelling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Gierens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Fahey</surname></persname>
+</author>
+<idno type="DOI">10.1029/1999GL900358</idno>
+<ptr target="https://doi.org/10.1029/1999GL900358"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">26</biblscope>
+<biblscope unit="issue">13</biblscope>
+<biblscope from="1853" to="1856" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Minnis, P., Schumann, U., Doelling, D. R., Gierens, K. M., &amp; Fahey, D. W. (1999). Global distribution of contrail radiative forcing. Geophysical Research Letters, 26(13), 1853-1856. https://doi.org/10.1029/1999GL900358</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Measurements of terminal velocities of cirrus clouds in the upper trosphere</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Nee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Chiang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Das</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">EPJ Web of Conferences</title>
+<imprint>
+<biblscope unit="volume">119</biblscope>
+<biblscope unit="page">16004</biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nee, J. B., Chen, W., Chiang, C., &amp; Das, S. (2016). Measurements of terminal velocities of cirrus clouds in the upper trosphere. EPJ Web of Conferences, 119, 16004.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Climate impact of aircraft-induced cirrus assessed from satellite observations before and during COVID-19</title>
+<author>
+<persname><forename type="first">J</forename><surname>Quaas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Gryspeerdt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Vautard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Boucher</surname></persname>
+</author>
+<idno type="DOI">10.1088/1748-9326/abf686</idno>
+<ptr target="https://doi.org/10.1088/1748-9326/abf686"></ptr>
+</analytic>
+<monogr>
+<title level="j">Environmental Research Letters</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope unit="page">64051</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Quaas, J., Gryspeerdt, E., Vautard, R., &amp; Boucher, O. (2021). Climate impact of aircraft-induced cirrus assessed from satellite observations before and during COVID-19. Environmental Research Letters, 16, 064051. https://doi.org/10.1088/1748-9326/abf686</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Exploring the uncertainties in the aviation soot-cirrus effect</title>
+<author>
+<persname><forename type="first">M</forename><surname>Righi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hendricks</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">G</forename><surname>Beer</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope unit="issue">23</biblscope>
+<biblscope from="17267" to="17289" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Righi, M., Hendricks, J., &amp; Beer, C. G. (2021). Exploring the uncertainties in the aviation soot-cirrus effect. Atmospheric Chemistry and Physics, 21(23), 17267-17289.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Contrail-cirrus and their potential for regional climate change</title>
+<author>
+<persname><forename type="first">K</forename><surname>Sassen</surname></persname>
+</author>
+<idno type="DOI">10.1175/1520-0477(1997)078%3c1885:CCATPF%3e2.0.CO;2</idno>
+<ptr target="https://doi.org/10.1175/1520-0477(1997)078%3c1885:CCATPF%3e2.0.CO"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bulletin of the American Meteorological Society</title>
+<imprint>
+<biblscope unit="volume">78</biblscope>
+<biblscope unit="issue">9</biblscope>
+<biblscope from="1885" to="1903" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sassen, K. (1997). Contrail-cirrus and their potential for regional climate change. Bulletin of the American Meteorological Society, 78(9), 1885- 1903. https://doi.org/10.1175/1520-0477(1997)078%3c1885:CCATPF%3e2.0.CO;</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">On the transition of contrails into cirrus clouds</title>
+<author>
+<persname><forename type="first">F</forename><surname>Schröder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Kärcher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Duroure</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Ström</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Petzold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-F</forename><surname>Gayet</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of the Atmospheric Sciences</title>
+<imprint>
+<biblscope unit="volume">57</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="464" to="480" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schröder, F., Kärcher, B., Duroure, C., Ström, J., Petzold, A., Gayet, J.-F., et al. (2000). On the transition of contrails into cirrus clouds. Journal of the Atmospheric Sciences, 57(4), 464-480.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">On conditions for contrail formation from aircraft exhausts</title>
+<author>
+<persname><forename type="first">U</forename><surname>Schumann</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Meteorologische Zeitschrift</title>
+<imprint>
+<biblscope from="4" to="23" unit="page"></biblscope>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schumann, U. (1996). On conditions for contrail formation from aircraft exhausts. Meteorologische Zeitschrift, 4-23.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Formation, properties and climatic effects of contrails</title>
+<author>
+<persname><forename type="first">U</forename><surname>Schumann</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.crhy.2005.05.002</idno>
+<ptr target="https://doi.org/10.1016/j.crhy.2005.05.002"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comptes Rendus Physique</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope from="549" to="565" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schumann, U. (2005). Formation, properties and climatic effects of contrails. Comptes Rendus Physique, 6, 549-565. https://doi.org/10.1016/j. crhy.2005.05.002</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Aviation-induced cirrus and radiation changes at diurnal timescales</title>
+<author>
+<persname><forename type="first">U</forename><surname>Schumann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Graf</surname></persname>
+</author>
+<idno type="DOI">10.1002/jgrd.50184</idno>
+<ptr target="https://doi.org/10.1002/jgrd.50184"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">118</biblscope>
+<biblscope from="2404" to="2421" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schumann, U., &amp; Graf, K. (2013). Aviation-induced cirrus and radiation changes at diurnal timescales. Journal of Geophysical Research: Atmos- pheres, 118, 2404-2421. https://doi.org/10.1002/jgrd.50184</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Dehydration effects from contrails in a coupled contrail-climate model</title>
+<author>
+<persname><forename type="first">U</forename><surname>Schumann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Penner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Chen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Zhou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Graf</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope unit="issue">19</biblscope>
+<biblscope from="11179" to="11199" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Schumann, U., Penner, J. E., Chen, Y., Zhou, C., &amp; Graf, K. (2015). Dehydration effects from contrails in a coupled contrail-climate model. Atmospheric Chemistry and Physics, 15(19), 11179-11199</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Ice crystal number concentration estimates from lidar-radar satellite remote sensing-Part 1: Method and evaluation</title>
+<author>
+<persname><forename type="first">O</forename><surname>Sourdeval</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Gryspeerdt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Krämer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Goren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Delanoë</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Afchine</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="issue">19</biblscope>
+<biblscope from="14327" to="14350" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sourdeval, O., Gryspeerdt, E., Krämer, M., Goren, T., Delanoë, J., Afchine, A., et al. (2018a). Ice crystal number concentration estimates from lidar-radar satellite remote sensing-Part 1: Method and evaluation. Atmospheric Chemistry and Physics, 18(19), 14327-14350.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Ice crystal number concentration from satellite lidar-radar observations (DARDAR-Nice)</title>
+<author>
+<persname><forename type="first">O</forename><surname>Sourdeval</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Gryspeerdt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Krämer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Goren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Delanoë</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Afchine</surname></persname>
+</author>
+<idno type="DOI">10.25326/09</idno>
+<ptr target="https://doi.org/10.25326/09"></ptr>
+</analytic>
+<monogr>
+<title level="j">AERIS</title>
+<imprint>
+<date type="published" when="2018">2018b</date>
+</imprint>
+</monogr>
+<note>Data Set</note>
+<note type="raw_reference">Sourdeval, O., Gryspeerdt, E., Krämer, M., Goren, T., Delanoë, J., Afchine, A., et al. (2018b). Ice crystal number concentration from satellite lidar-radar observations (DARDAR-Nice). [Data Set]. AERIS. https://doi.org/10.25326/09</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Aviation effects on already-existing cirrus clouds</title>
+<author>
+<persname><forename type="first">M</forename><surname>Tesche</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Achtert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Glantz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Noone</surname></persname>
+</author>
+<idno type="DOI">10.1038/ncomms12016</idno>
+<ptr target="https://doi.org/10.1038/ncomms12016"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature Communications</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="page">12016</biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Tesche, M., Achtert, P., Glantz, P., &amp; Noone, K. J. (2016). Aviation effects on already-existing cirrus clouds. Nature Communications, 7, 12016. https://doi.org/10.1038/ncomms12016</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Large-eddy simulation study of contrail microphysics and geometry during the vortex phase and consequences on contrail-to-cirrus transition</title>
+<author>
+<persname><forename type="first">S</forename><surname>Unterstrasser</surname></persname>
+</author>
+<idno type="DOI">10.1002/2013JD021418</idno>
+<ptr target="https://doi.org/10.1002/2013JD021418"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Atmospheres</title>
+<imprint>
+<biblscope unit="volume">119</biblscope>
+<biblscope from="7537" to="7555" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Unterstrasser, S. (2014). Large-eddy simulation study of contrail microphysics and geometry during the vortex phase and consequences on contrail-to-cirrus transition. Journal of Geophysical Research: Atmospheres, 119, 7537-7555. https://doi.org/10.1002/2013JD021418</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Properties of young contrails-A parametrisation based on large-eddy simulations</title>
+<author>
+<persname><forename type="first">S</forename><surname>Unterstrasser</surname></persname>
+</author>
+<idno type="DOI">10.5194/acp-16-2059-2016</idno>
+<ptr target="https://doi.org/10.5194/acp-16-2059-2016"></ptr>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">16</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="2059" to="2082" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Unterstrasser, S. (2016). Properties of young contrails-A parametrisation based on large-eddy simulations. Atmospheric Chemistry and Physics, 16(4), 2059-2082. https://doi.org/10.5194/acp-16-2059-2016</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Numerical simulations of contrail-to-cirrus transition-Part 2: Impact of initial ice crystal number, radiation, stratification, secondary nucleation and layer depth</title>
+<author>
+<persname><forename type="first">S</forename><surname>Unterstrasser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Gierens</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="2037" to="2051" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Unterstrasser, S., &amp; Gierens, K. (2010). Numerical simulations of contrail-to-cirrus transition-Part 2: Impact of initial ice crystal number, radi- ation, stratification, secondary nucleation and layer depth. Atmospheric Chemistry and Physics, 10(4), 2037-2051.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">Study of contrail microphysics in the vortex phase with a Lagrangian particle tracking model</title>
+<author>
+<persname><forename type="first">S</forename><surname>Unterstrasser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Sölch</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Chemistry and Physics</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope unit="issue">20</biblscope>
+<biblscope from="10003" to="10015" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Unterstrasser, S., &amp; Sölch, I. (2010). Study of contrail microphysics in the vortex phase with a Lagrangian particle tracking model. Atmospheric Chemistry and Physics, 10(20), 10003-10015.</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">The airborne experiment on natural cirrus and contrail cirrus with the high-Altitude long-range research aircraft halo</title>
+<author>
+<persname><forename type="first">C</forename><surname>Voigt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">U</forename><surname>Schumann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Minikin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Abdelmonem</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Afchine</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Borrmann</surname></persname>
+</author>
+<idno type="DOI">10.1175/BAMS-D-15-00213.1</idno>
+<ptr target="https://doi.org/10.1175/BAMS-D-15-00213"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bulletin of the American Meteorological Society</title>
+<imprint>
+<biblscope unit="volume">98</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="271" to="288" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Voigt, C., Schumann, U., Minikin, A., Abdelmonem, A., Afchine, A., Borrmann, S., et al. (2017). The airborne experiment on natural cirrus and contrail cirrus with the high-Altitude long-range research aircraft halo. Bulletin of the American Meteorological Society, 98(2), 271-288. https://doi.org/10.1175/BAMS-D-15-00213.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Effect of crystal size spectrum and crystal shape on stratiform cirrus radiative forcing</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Macke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Albers</surname></persname>
+</author>
+<idno type="DOI">10.1016/S0169-8095(99)00026-5</idno>
+<ptr target="https://doi.org/10.1016/S0169-8095(99)00026-5"></ptr>
+</analytic>
+<monogr>
+<title level="j">Atmospheric Research</title>
+<imprint>
+<biblscope unit="volume">52</biblscope>
+<biblscope from="59" to="75" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zhang, Y., MacKe, A., &amp; Albers, F. (1999). Effect of crystal size spectrum and crystal shape on stratiform cirrus radiative forcing. Atmospheric Research, 52, 59-75. https://doi.org/10.1016/S0169-8095(99)00026-5</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

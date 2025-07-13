@@ -1,0 +1,778 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Angew Chem Int Ed Engl</journal-id><journal-id journal-id-type="iso-abbrev">Angew Chem Int Ed Engl</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1521-3773</journal-id><journal-id journal-id-type="publisher-id">ANIE</journal-id><journal-title-group><journal-title>Angewandte Chemie (International Ed. in English)</journal-title></journal-title-group><issn pub-type="ppub">1433-7851</issn><issn pub-type="epub">1521-3773</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">7540271</article-id><article-id pub-id-type="doi">10.1002/anie.202007717</article-id><article-id pub-id-type="publisher-id">ANIE202007717</article-id><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject><subj-group subj-group-type="heading"><subject>Dynamic Covalent Chemistry | Hot Paper</subject></subj-group></subj-group></article-categories><title-group><article-title>Metal&#x02013;Ligand Cooperativity of the Calix[4]pyrrolato Aluminate: Triggerable C&#x02212;C Bond Formation and Rate Control in Catalysis</article-title></title-group><contrib-group><contrib id="anie202007717-cr-0001" contrib-type="author"><name><surname>Ebner</surname><given-names>Fabian</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5741-8262</contrib-id><xref ref-type="aff" rid="anie202007717-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="anie202007717-cr-0002" contrib-type="author"><name><surname>Sigmund</surname><given-names>Lukas Maximilian</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-2667-2342</contrib-id><xref ref-type="aff" rid="anie202007717-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="anie202007717-cr-0003" contrib-type="author" corresp="yes"><name><surname>Greb</surname><given-names>Lutz</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-5253-419X</contrib-id><xref ref-type="aff" rid="anie202007717-aff-0001">
+<sup>1</sup>
+</xref><address><email>greb@uni-heidelberg.de</email></address></contrib></contrib-group><aff id="anie202007717-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Anorganisch-Chemisches Institut</named-content>
+<institution>Ruprecht-Karls-Universit&#x000e4;t Heidelberg</institution>
+<named-content content-type="street">Im Neuenheimer Feld 270</named-content>
+<postal-code>69120</postal-code>
+<city>Heidelberg</city>
+<country country="DE">Germany</country>
+</aff><pub-date pub-type="epub"><day>18</day><month>8</month><year>2020</year></pub-date><pub-date pub-type="ppub"><day>21</day><month>9</month><year>2020</year></pub-date><volume>59</volume><issue>39</issue><issue-id pub-id-type="doi">10.1002/anie.v59.39</issue-id><fpage>17118</fpage><lpage>17124</lpage><history><date date-type="received"><day>29</day><month>5</month><year>2020</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2020 Wiley&#x02010;VCH GmbH <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2020 The Authors. Published by Wiley-VCH GmbH</copyright-statement><license license-type="creativeCommonsBy-nc-nd"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non&#x02010;commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ANIE-59-17118.pdf"/><abstract><title>Abstract</title><p>Metal&#x02010;ligand cooperativity (MLC) had a remarkable impact on transition metal chemistry and catalysis. By use of the calix[4]pyrrolato aluminate, [<bold>1</bold>]<sup>&#x02212;</sup>, which features a square&#x02010;planar Al<sup>III</sup>, we transfer this concept into the <italic>p</italic>&#x02010;block and fully elucidate its mechanisms by experiment and theory. Complementary to transition metal&#x02010;based MLC (<italic>aromatization</italic> upon substrate binding), substrate binding in [<bold>1</bold>]<sup>&#x02212;</sup> occurs by <italic>dearomatization</italic> of the ligand. The aluminate trapps carbonyls by the formation of C&#x02212;C and Al&#x02212;O bonds, but the products maintain full reversibility and outstanding dynamic exchange rates. Remarkably, the C&#x02212;C bonds can be formed or cleaved by the addition or removal of lithium cations, permitting unprecedented control over the system's constitutional state. Moreover, the metal&#x02010;ligand cooperative substrate interaction allows to twist the kinetics of catalytic hydroboration reactions in a unique sense. Ultimately, this work describes the evolution of an <italic>anti&#x02010;van't Hoff/Le Bel</italic> species from their being as a structural curiosity to their application as a reagent and catalyst.</p></abstract><abstract abstract-type="graphical"><p>The calix[4]pyrrolato aluminate enables a transfer of metal&#x02013;ligand cooperativity from the <italic>d</italic>&#x02010; into the <italic>p</italic>&#x02010;block. The compound traps carbonyls and delivers products that are showing highly dynamic&#x02013;covalent behavior. Lithium ions provide full control over the formation and cleavage of C&#x02212;C bonds. The adjustability in substrate activation enables a unique concept for rate control in catalysis.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="ANIE-59-17118-g007.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="anie202007717-kwd-0001">aluminum</kwd><kwd id="anie202007717-kwd-0002">calix[4]pyrrole</kwd><kwd id="anie202007717-kwd-0003">dynamic covalent chemistry</kwd><kwd id="anie202007717-kwd-0004">metal-ligand cooperativity</kwd><kwd id="anie202007717-kwd-0005">structural constraint</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Deutsche Forschungsgemeinschaft </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001659</institution-id></institution-wrap></funding-source><award-id>GR5007/2-1</award-id></award-group><award-group id="funding-0002"><funding-source>Stiftung der deutschen Wirtschaft</funding-source></award-group></funding-group><counts><fig-count count="7"/><table-count count="0"/><ref-count count="72"/><page-count count="7"/><word-count count="0"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 21, 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.9.2 mode:remove_FC converted:07.10.2020</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="anie202007717-self">F. Ebner, L. M. Sigmund, L. Greb, <italic>Angew. Chem. Int. Ed.</italic>
+<bold>2020</bold>, <italic>59</italic>, 17118.</mixed-citation>
+</p></notes></front><body><sec id="anie202007717-sec-0001"><title>Introduction</title><p>Metal&#x02010;ligand cooperativity (MLC) within transition metal complexes has become an indispensable tool for bond activation chemistry and homogeneous catalysis.<xref rid="anie202007717-bib-0001" ref-type="ref">1</xref> Due to enormous research efforts, e.g., by the Milstein group, a variety of atom&#x02010;economic and waste&#x02010;free catalytic processes have been developed.<xref rid="anie202007717-bib-0002" ref-type="ref">2</xref> A particular impetus was provided by the aromatization/dearomatization strategy, which operates by reversible aromatization of the ligand backbone upon interaction with the substrates.<xref rid="anie202007717-bib-0002c" ref-type="ref">2c</xref> The herein often encountered scenario involves the synergistic binding of unsaturated substrates (carbonyls, CO<sub>2</sub>, or nitriles) to the metal center and ligand backbone (Figure&#x02005;<xref rid="anie202007717-fig-0001" ref-type="fig">1</xref>&#x02009;A). Although this type of reactivity does not require oxidation&#x02010;state changes, consistently, redox&#x02010;active metals of the <italic>d</italic>&#x02010;block, such as manganese,<xref rid="anie202007717-bib-0003" ref-type="ref">3</xref> molybdenum,<xref rid="anie202007717-bib-0004" ref-type="ref">4</xref> ruthenium,<xref rid="anie202007717-bib-0005" ref-type="ref">5</xref> rhodium,<xref rid="anie202007717-bib-0006" ref-type="ref">6</xref> iridium<xref rid="anie202007717-bib-0007" ref-type="ref">7</xref> or rhenium<xref rid="anie202007717-bib-0008" ref-type="ref">8</xref> were used. Surprisingly, a transfer of the aromatization/dearomatization concept to the <italic>p</italic>&#x02010;block is still at its beginnings.<xref rid="anie202007717-bib-0009" ref-type="ref">9</xref> Even the much more general field of MLC with <italic>p</italic>&#x02010;block elements is developing hesitantly only.<xref rid="anie202007717-bib-0009b" ref-type="ref">9b</xref>, <xref rid="anie202007717-bib-0010" ref-type="ref">10</xref> A possible reason for this limited success might be the low inherent reactivity of <italic>p</italic>&#x02010;block elements in their conventional oxidation and saturated valence states. Structural constraint offers a promising alternative to amplify reactivity by exposing space for substrate coordination and alteration of the frontier molecular orbital energies.<xref rid="anie202007717-bib-0011" ref-type="ref">11</xref>
+</p><fig fig-type="Figure" xml:lang="en" id="anie202007717-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>A)&#x02005;MLC by the aromatization/dearomatization strategy within transition&#x02010;metal complexes (exemplified for aldehyde binding). B)&#x02005;Complementary MLC reactivity of the calix[4]pyrrolato aluminate [<bold>1</bold>]<sup>&#x02212;</sup> described in this work (DCC=dynamic covalent chemistry).</p></caption><graphic id="nlm-graphic-3" xlink:href="ANIE-59-17118-g001"/></fig><p>We recently reported the anti&#x02010;van't Hoff/Le Bel&#x02010;configurated <italic>meso</italic>&#x02010;octamethylcalix[4]pyrrolato aluminate ([<bold>1</bold>]<sup>&#x02212;</sup>) with a square&#x02010;planar coordinated aluminum(III) atom (Figure&#x02005;<xref rid="anie202007717-fig-0001" ref-type="fig">1</xref>&#x02009;B).<xref rid="anie202007717-bib-0012" ref-type="ref">12</xref> Planarization not only provokes a LUMO energy lowering in [<bold>1</bold>]<sup>&#x02212;</sup> but also raises the energy of the ligand&#x02010;based HOMO in comparison to the tetrahedral counterpart Al(pyrrolato)<sub>4</sub>
+<sup>&#x02212;</sup>.<xref rid="anie202007717-bib-0012" ref-type="ref">12</xref> Thus, [<bold>1</bold>]<sup>&#x02212;</sup> provides a small HOMO&#x02013;LUMO gap with an electron&#x02010;deficient metal center and a nearby electron&#x02010;rich pyrrole moiety&#x02014;ideally setting the scene for MLC reactivity. Herein, we report the MLC binding of C=O&#x02010;containing substrates at [<bold>1</bold>]<sup>&#x02212;</sup>, the highly dynamic covalent features of the products and its implications for catalysis.</p></sec><sec id="anie202007717-sec-0002"><title>Results and Discussion</title><p>Exposing [PPh<sub>4</sub>][<bold>1</bold>] to 2&#x02005;bar CO<sub>2</sub> in dichloromethane at room temperature resulted in a color change from colorless to yellow within seconds. The <sup>1</sup>H&#x02005;NMR spectrum revealed a clean and quantitative reaction. Strongly downfield&#x02010;shifted signals of two pyrrolic protons indicate the dearomatization of one pyrrole unit (Figure&#x02005;<xref rid="anie202007717-fig-0002" ref-type="fig">2</xref>&#x02009;A). The initial <italic>D</italic>
+<sub>2<italic>d</italic></sub>&#x02010;symmetry of [<bold>1</bold>]<sup>&#x02212;</sup> is lowered to <italic>C<sub>1</sub></italic>, resulting in eight chemically inequivalent pyrrolic and methyl positions. Yellow crystals suitable for SCXRD analysis were obtained from a dichloromethane/toluene/THF solution at room temperature. The measurements illustrate the structure of [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;CO<sub>2</sub>] (Figure&#x02005;<xref rid="anie202007717-fig-0002" ref-type="fig">2</xref>&#x02009;C, in the following, <bold>*</bold> designates a dearomatized state of one pyrrole unit in the ligand). Binding of CO<sub>2</sub> occurs in a bidentate fashion by the formation of a C&#x02212;C bond (155.8(6)&#x02005;pm) and Al&#x02212;O bond (184.8(3)&#x02005;pm). The Al&#x02212;O bond is in the range of other higher coordinated aluminum centres,<xref rid="anie202007717-bib-0013" ref-type="ref">13</xref> whereas the C1&#x02010;C29 bond is elongated in comparison to common sp<sup>3</sup>&#x02010;sp<sup>2</sup> C&#x02212;C single bonds.<xref rid="anie202007717-bib-0014" ref-type="ref">14</xref> The shortened C4&#x02010;N1 and C2&#x02010;C3 bonds verify the dearomatization of the pyrrole ring. This MLC&#x02010;type 1,2&#x02010;addition process is in striking contrast to the commonly observed insertion of CO<sub>2</sub> into polar metal&#x02010;nitrogen bonds,<xref rid="anie202007717-bib-0015" ref-type="ref">15</xref> or reported reactivities of Al&#x02010;porphyrin complexes,<xref rid="anie202007717-bib-0016" ref-type="ref">16</xref> but manifests the electron&#x02010;rich ligand as nucleophilic reaction side.
+</p><fig fig-type="Figure" xml:lang="en" id="anie202007717-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>A)&#x02005;Synthesis of [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;CO<sub>2</sub>] with in situ <sup>1</sup>H&#x02005;NMR spectra of the pyrrole region. B)&#x02005;The observed color change. C)&#x02005;SCXRD structure of [<bold>1*</bold>&#x02010;CO<sub>2</sub>]<sup>&#x02212;</sup> (cation and hydrogen atoms omitted for clarity, ellipsoids are drawn at the 50&#x02009;% probability level) Selected bond lengths [pm]: Al&#x02013;O1 184.8(3), C1&#x02013;C29 155.8(6), N1&#x02013;Al 197.0(3), C29&#x02013;O1 129.7(5), C29&#x02013;O2 121.8(4), N1&#x02013;C4 129.3(5), C2&#x02013;C3 135.1(6).<xref rid="anie202007717-bib-0024" ref-type="ref">24</xref>
+</p></caption><graphic id="nlm-graphic-5" xlink:href="ANIE-59-17118-g002"/></fig><p>Although calix[4]pyrroles have been extensively studied as ligands for transition metals, this mode of reactivity was observed only with Ti<sup>IV</sup> and has not been followed any further.<xref rid="anie202007717-bib-0017" ref-type="ref">17</xref> It strongly resembles the MLC binding of CO<sub>2</sub> with transition metal complexes.<xref rid="anie202007717-bib-0003" ref-type="ref">3</xref>&#x02013;,<xref rid="anie202007717-bib-0005c" ref-type="ref">5c</xref>, <xref rid="anie202007717-bib-0005d" ref-type="ref">5d</xref>, <xref rid="anie202007717-bib-0005e" ref-type="ref">5e</xref>, <xref rid="anie202007717-bib-0005f" ref-type="ref">5f</xref>, <xref rid="anie202007717-bib-0006" ref-type="ref">6</xref>, <xref rid="anie202007717-bib-0007" ref-type="ref">7</xref>, <xref rid="anie202007717-bib-0008" ref-type="ref">8</xref>
+</p><p>Appealed by the ease and purity of this reaction, [PPh<sub>4</sub>][<bold>1</bold>] was subjected to cyclohexane carboxaldehyde (CyA), <italic>para</italic>&#x02010;methylbenzaldehyde (<italic>p</italic>Me&#x02010;BA) and <italic>para</italic>&#x02010;nitrobenzaldehyde (<italic>p</italic>NO<sub>2</sub>&#x02010;BA) under analog conditions as for CO<sub>2</sub>. Quantitative conversions to the 1,2&#x02010;addition products were detected by <sup>1</sup>H&#x02005;NMR spectroscopy immediately after aldehyde addition showing similar spectroscopic features of a dearomatized ligand pyrrole unit (Figure&#x02005;<xref rid="anie202007717-fig-0003" ref-type="fig">3</xref>&#x02009;A). Suitable yellow crystals of [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;CyA], [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;<italic>p</italic>NO<sub>2</sub>&#x02010;BA] and [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;<italic>p</italic>Me&#x02010;BA] for SCXRD were obtained from saturated dichloromethane/toluene solutions at room temperature. Generally, those structures illustrate the same 1,2&#x02010;carboalumination pattern as for CO<sub>2</sub> (Figure&#x02005;<xref rid="anie202007717-fig-0003" ref-type="fig">3</xref>&#x02009;B). Again, the formed Al&#x02212;O bond lengths are in the range of common Al&#x02010;<italic>O</italic>&#x02010;bonds (Al&#x02010;O distances [pm]: [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;CyA]: 176.7(2), [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;<italic>p</italic>MeBA]: 179.0(2), [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;<italic>p</italic>NO<sub>2</sub>BA]: 180.0(1)) and the C&#x02212;C bonds slightly elongated (C&#x02212;C distances [pm]: [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;CyA]: 159.9(3), [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;<italic>p</italic>MeBA]: 159.6(4), [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;<italic>p</italic>NO<sub>2</sub>BA]: 160.1(2)). All adducts exhibit Al&#x02010;N distances in a range of 189&#x02013;196&#x02005;pm for the aromatic pyrroles but elongated dative Al&#x02212;N bonds (Al&#x02010;N<sub>dearom</sub>.=197&#x02013;199&#x02005;pm) for the dearomatized pyrrole rings. During the addition process, the formation of diastereomers was observed. All stereochemical aspects are discussed in section&#x02005;12.2 of the supporting information.
+</p><fig fig-type="Figure" xml:lang="en" id="anie202007717-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>A)&#x02005;Synthesis of the aldehyde 1,2&#x02010;adducts. B)&#x02005;Representative SCXRD structures of 1,2&#x02010;adducts (cation and hydrogens omitted for clarity; ellipsoids are drawn at the 50&#x02009;% probability level). Selected bond lengths [pm] for [<bold>1*</bold>&#x02010;<italic>p</italic>NO<sub>2</sub>&#x02010;BA]<sup>&#x02212;</sup>: Al&#x02013;O1 180.0(1), C1&#x02013;C29 160.1(2), N1&#x02013;Al 199.1(1), C29&#x02013;O1 139.6(2), N1&#x02013;C4 129.0(2), C2&#x02013;C3 133.9(2). [<bold>1*</bold>&#x02010;CyA]<sup>&#x02212;</sup>: Al&#x02013;O1 176.7(2), C1&#x02013;C29 159.9(3).<xref rid="anie202007717-bib-0024" ref-type="ref">24</xref>
+</p></caption><graphic id="nlm-graphic-7" xlink:href="ANIE-59-17118-g003"/></fig><p>Given the formation of enthalpically strong C&#x02212;C and Al&#x02212;O bonds and the liberation of a square&#x02010;planar aluminum center from its unique coordination environment, one would expect tight and irreversible binding of the substrates considered so far. However, in all cases, full reversibility of the addition process was observed. Adding 2&#x02005;bar of CO<sub>2</sub> to a <sup>13</sup>C&#x02010;labeled adduct [Li(thf)<sub><italic>n</italic></sub>][<bold>1*</bold>&#x02010;<sup>13</sup>CO<sub>2</sub>] in dichloromethane resulted in a smooth exchange of <sup>13</sup>CO<sub>2</sub> over 18&#x02005;h at room temperature, again in close similarity with PNN&#x02010; or PNP complexes of Ru<sup>II</sup> or Re<sup>I</sup> (Figure&#x02005;<xref rid="anie202007717-fig-0004" ref-type="fig">4</xref>&#x02009;A).<xref rid="anie202007717-bib-0005a" ref-type="ref">5a</xref>, <xref rid="anie202007717-bib-0005e" ref-type="ref">5e</xref>, <xref rid="anie202007717-bib-0008" ref-type="ref">8</xref> Moreover, CO<sub>2</sub> was readily replaced by the addition of most aldehydes to [<bold>1*</bold>&#x02010;CO<sub>2</sub>]<sup>&#x02212;</sup>, yielding the aldehyde adducts in a remarkable purity (Figure&#x02005;<xref rid="anie202007717-fig-0004" ref-type="fig">4</xref>&#x02009;B). Even the aldehyde binding products maintain dynamic covalent bonding. For example, <italic>p</italic>NO<sub>2</sub>&#x02010;BA quantitatively replaces <italic>p</italic>Me&#x02010;BA from [<bold>1*</bold>&#x02010;<italic>p</italic>Me&#x02010;BA]<sup>&#x02212;</sup> (for a full list of substrate replacement assays, see Table&#x02005;S1). Generally, aldehydes with lower resonance stabilization energy of the C=O bonds (electron&#x02010;poor aromatics)<xref rid="anie202007717-bib-0018" ref-type="ref">18</xref> readily replace aldehydes with more stabilized C=O bonds&#x02014;in perfect agreement with the computational results (vide infra). In line with this trend, the more electron&#x02010;rich <italic>para</italic>&#x02010;dimethylaminobenzaldehyde (<italic>p</italic>DMA&#x02010;BA) binds weaker to [<bold>1</bold>]<sup>&#x02212;</sup>. Upon mixing [PPh<sub>4</sub>][<bold>1</bold>] and <italic>p</italic>DMA&#x02010;BA in dichloromethane at room temperature, broad signals were observed in the <sup>1</sup>H&#x02005;NMR spectrum, pointing on a fast exchange on NMR timescale. Only by cooling this solution to &#x02212;25&#x02009;&#x000b0;C, signals for the 1,2&#x02010;adduct developed (Figure&#x02005;S4). Besides, other adduct forms were observed at low temperature, that will become of importance during the mechanistic studies of the process (vide infra).
+</p><fig fig-type="Figure" xml:lang="en" id="anie202007717-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>A)&#x02005;<sup>13</sup>C{<sup>1</sup>H} NMR spectra of <sup>13/12</sup>CO<sub>2</sub> exchange in CD<sub>2</sub>Cl<sub>2</sub>. B)&#x02005;CO<sub>2</sub> replacement by aldehydes and aldehyde cross&#x02010;exchange. C)&#x02005;Selected <sup>1</sup>H EXSY cross signals for a mixture of [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;CyA] and CyA; mixing time 400&#x02005;ms, 295&#x02005;K.</p></caption><graphic id="nlm-graphic-9" xlink:href="ANIE-59-17118-g004"/></fig><p>Next, we inspected the kinetics of the aldehyde&#x02010;aldehyde exchange process in detail. The substitution of <italic>p</italic>Me&#x02010;BA by adding <italic>p</italic>NO<sub>2</sub>&#x02010;BA to [<bold>1*</bold>&#x02010;<italic>p</italic>Me&#x02010;BA]<sup>&#x02212;</sup> proceeded in &#x0003c;1&#x02005;ms at &#x02212;80&#x02009;&#x000b0;C in dichloromethane and its kinetics were not even measurable with a stopped&#x02010;flow UV/Vis&#x02010;setup. However, such high reaction rates enable studies by dynamic NMR spectroscopy.</p><p>Indeed, a mixture of CyA and [PPh<sub>4</sub>][<bold>1*</bold>&#x02010;CyA] revealed self&#x02010;exchange detectable by phase&#x02010;sensitive EXSY&#x02010;NMR spectroscopy in CD<sub>2</sub>Cl<sub>2</sub> (Figure&#x02005;<xref rid="anie202007717-fig-0004" ref-type="fig">4</xref>&#x02009;C). Based on the measured rate constant k=0.08&#x02005;s<sup>&#x02212;1</sup> at 298.15&#x02005;K, a value for &#x00394;<italic>G</italic>
+<sup>&#x02260;</sup>=79.4&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup> was obtained and found in good agreement with DFT calculations of the rate&#x02010;determining step for the overall process (see computational section). An even lower barrier is demarcated by the broad signals and fast exchange regime with <italic>p</italic>DMA&#x02010;BA at room temperature (&#x00394;<italic>G</italic>
+<sup>&#x02260;</sup>&#x0003c;50&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup>), as described above. EXSY&#x02010;measurements with varying aldehyde concentrations revealed no effect on the reaction rate (Figure&#x02005;S13). This is an important finding, as it allowed us to characterize the process as dissociative and legitimates the neglect of associative pathways in the computational evaluation. Overall, these systems undergo the fastest reversible carbon&#x02010;carbon bond formation reactions ever determined, surpassing even the most rapid Diels Alder reactions with highly activated diene/dienophile combinations.<xref rid="anie202007717-bib-0019" ref-type="ref">19</xref> Given the exceptional rates and the high selectivity of this process, the ideal basis for applications in the field of dynamic covalent chemistry (DCC) is at hand.<xref rid="anie202007717-bib-0020" ref-type="ref">20</xref>
+</p><p>After having obtained the fundamental thermodynamic and kinetic parameters for the binding process, further mechanistic insights were collected. The 1,2&#x02010;adduct formation can be conceived either as a step&#x02010;wise Al&#x02212;O=C&#x02212;R &#x003c3;&#x02010;adduct formation/C&#x02212;C bond formation or as a concerted process. First, the low&#x02010;temperature NMR spectroscopic results of the mixture of [PPh<sub>4</sub>][<bold>1</bold>] and <italic>p</italic>DMA&#x02010;BA were reconsidered. As mentioned above, besides the 1,2&#x02010;adduct, other species were observed at &#x02212;25&#x02009;&#x000b0;C. The apparent solution state symmetry of the second principal component indicated a local <italic>C</italic>
+<sub>2<italic>v</italic></sub> symmetry at the [<bold>1</bold>]<sup>&#x02212;</sup> entity, known from our previous studies with pure &#x003c3;&#x02010;donors (Figure&#x02005;S5).<xref rid="anie202007717-bib-0012" ref-type="ref">12</xref> The observation of a clear EXSY exchange peak between the 1,2&#x02010;adduct and this &#x003c3;&#x02010;adduct further substantiated its putative role as intermediate in the reaction sequence (Figure&#x02005;S8). The use of substrates with less reactive C=O bonds provided further insights. The reaction of [PPh<sub>4</sub>][<bold>1</bold>] with acetone led to broad <sup>1</sup>H&#x02005;NMR signals, similar to the <italic>p</italic>DMA&#x02010;BA case (Figure&#x02005;S3). The characteristic signals of a &#x003c3;&#x02010;adduct and the formation of the 1,2&#x02010;adducts occurred at a lower temperature (&#x02212;50&#x02009;&#x000b0;C). Noteworthy, this latter reaction disclosed that the reversible carbonyl binding is not restricted to aldehydes but holds likewise for ketones. By using formamide or dimethylformamide as substrates with even larger resonance stabilization energy of the C=O bond, the &#x003c3;&#x02010;adduct formation was readily observed by <sup>1</sup>H&#x02005;NMR spectroscopy (Figure&#x02005;S20), but the 1,2&#x02010;adduct formation did not occur. Having collected sufficient spectroscopic evidence, we were pleased to obtain unambiguous proof for the &#x003c3;&#x02010;adducts also by SCXRD analysis.</p><sec id="anie202007717-sec-0003"><title>Computational Section</title><p>After having spotted the participation of &#x003c3;&#x02010;adducts, quantum&#x02010;theoretical studies gained a further understanding. For all substrates, the full reaction path, including &#x003c3;&#x02010;adduct, the final 1,2&#x02010;adduct, and the corresponding transition states, were identified at the PW6B95&#x02010;D3(BJ), COSMO&#x02010;RS(CH<sub>2</sub>Cl<sub>2</sub>)/def2&#x02010;QZVPP//PBEh&#x02010;3c level of theory (Figure&#x02005;<xref rid="anie202007717-fig-0005" ref-type="fig">5</xref>&#x02009;A). First, the reaction process is illustrated for acetone, for which the &#x003c3;&#x02010;adduct and the 1,2&#x02010;adduct have been observed by <sup>1</sup>H&#x02005;NMR spectroscopy. In agreement with the experiment, the &#x003c3;&#x02010;adduct between acetone and [<bold>1</bold>]<sup>&#x02212;</sup> was found as a global minimum at (&#x00394;<italic>G</italic>=&#x02212;5.9&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup>), with the 1,2&#x02010;adduct lying higher in energy (&#x00394;<italic>G</italic>=23.1&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup>). The reaction barrier to the <italic>&#x003c3;</italic>&#x02010;adduct is caused by the bending of the calix[4]pyrrolato ligand during the entrance of the carbonyl in the coordination sphere of the planar aluminate [<bold>1</bold>]<sup>&#x02212;</sup>. The formation of the C&#x02212;C bond and the dearomatization of one pyrrole unit provokes the second reaction barrier. Intrinsic reaction coordinate (IRC) calculations were performed, and the intrinsic bond orbitals (IBOs)<xref rid="anie202007717-bib-0021" ref-type="ref">21</xref> were calculated along the path (Figure&#x02005;<xref rid="anie202007717-fig-0005" ref-type="fig">5</xref>&#x02009;B).
+</p><fig fig-type="Figure" xml:lang="en" id="anie202007717-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>A)&#x02005;Computed Gibbs free energies (298.15&#x02005;K) of <italic>&#x003c3;</italic>&#x02010;adducts&#x02010;B, 1,2&#x02010;adducts&#x02010;B and transition states (PW6B95&#x02010;D3(BJ), COSMO&#x02010;RS(CH<sub>2</sub>Cl<sub>2</sub>)/def2&#x02010;QZVPP//PBEh&#x02010;3c). B)&#x02005;Intrinsic bond orbital representation of the 1,2&#x02010;adduct formation process for acetone with emphasis on the dearomatization.</p></caption><graphic id="nlm-graphic-11" xlink:href="ANIE-59-17118-g005"/></fig><p>They nicely illustrate the transformation of the aromatic pyrrole bond (blue IBO) into the C&#x02212;C &#x003c3;&#x02010;bond and the dearomatization of the pyrrole ring. A comparison of the thermodynamics and reaction barriers for all substrates was accomplished next (Figure&#x02005;<xref rid="anie202007717-fig-0005" ref-type="fig">5</xref>&#x02009;A). The more electron&#x02010;deficient the carbonyl functionality and the less sterically hindered, the more favorable is the 1,2&#x02010;adduct formation over the &#x003c3;&#x02010;adduct&#x02014;in agreement with the experimental findings. For the most electron&#x02010;deficient aldehyde <italic>p</italic>NO<sub>2</sub>&#x02010;BA, no stable &#x003c3;&#x02010;adduct was found on the PES. The 1,2&#x02010;adducts of CyA and <italic>p</italic>Me&#x02010;BA are almost thermoneutral to each other. In line with that, it was observed experimentally that a mixture of [PPh4][<bold>1*</bold>&#x02010;<italic>p</italic>Me&#x02010;BA] and CyA immediately developed a dynamic mixture of [PPh4][<bold>1*</bold>&#x02010;CyA], [PPh4][<bold>1*</bold>&#x02010;<italic>p</italic>Me&#x02010;BA], free CyA and free <italic>p</italic>Me&#x02010;BA (Figure&#x02005;S39). Generally, the first reaction barriers for the &#x003c3;&#x02010;adduct formation (&#x00394;<italic>G</italic>
+<sup>&#x02260;</sup>
+<sub>TS1</sub>) do not differ significantly between the various substrates. Surprisingly, they are higher as for the C&#x02212;C bond formation step (&#x00394;<italic>G</italic>
+<sup>&#x02260;</sup>
+<sub>TS2</sub>), confirming the experimental non&#x02010;observability of the &#x003c3;&#x02010;adduct intermediates for most cases. Importantly, for all aldehydes, two diastereomeric &#x003c3;&#x02010;adducts and 1,2&#x02010;adducts have to be considered (a full discussion can be found in the supporting information, section&#x02005;12.2). To conclude, the computed thermodynamics of the reaction products and intermediates ideally match with the experimental product distributions and the calculated reaction barriers are in good agreement with the experimentally derived values (e.g., for CyA: &#x00394;<italic>G</italic>
+<sup>&#x02260;</sup>
+<sub>exp</sub>=79.4&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup>/&#x00394;<italic>G</italic>
+<sup>&#x02260;</sup>
+<sub>comp</sub>=63.7&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup>).</p></sec><sec id="anie202007717-sec-0004"><title>Influence of the Countercation&#x02014;Providing a Trigger for C&#x02212;C Bond Formation and Catalytic Reaction Control</title><p>The previous sections clarified the binding of carbonyls with the [PPh<sub>4</sub>][<bold>1</bold>] system. Now, the influence of the counteraction to [<bold>1</bold>]<sup>&#x02212;</sup> was studied. Cases in which the <italic>&#x003c3;</italic>&#x02010;adduct formation with [PPh<sub>4</sub>][<bold>1</bold>] was favored were of particular interest. The addition of lithium iodide to the <italic>&#x003c3;</italic>&#x02010;adduct of <italic>p</italic>DMA&#x02010;BA with [PPh<sub>4</sub>][<bold>1</bold>] in [D<sub>2</sub>]dichloromethane induced the quantitative transformation to the 1,2&#x02010;adducts (Figure&#x02005;<xref rid="anie202007717-fig-0006" ref-type="fig">6</xref>&#x02009;A and Figures&#x02005;S15). The process can be followed by the naked eye, as both adduct forms differ in their coloration.
+</p><fig fig-type="Figure" xml:lang="en" id="anie202007717-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>A)&#x02005;Locking of the 1,2&#x02010;adducts by addition of a soluble Li<sup>+</sup> salt and unlocking by addition of 12&#x02010;crown&#x02010;4. B,C)&#x02005;SCXRD analysis of <italic>&#x003c3;</italic>&#x02010;adducts of <italic>p</italic>DMA&#x02010;BA and [Li(thf)<sub>2</sub>][<bold>1*</bold>&#x02010;<italic>p</italic>DMA&#x02010;BA]; (cations and hydrogen atoms omitted for clarity, ellipsoids are drawn at the 50&#x02009;% probability level), selected bond lengths [pm]: <italic>&#x003c3;</italic>&#x02010;<italic>p</italic>DMA&#x02010;BA&#x02010;[<bold>1</bold>]<sup>&#x02212;</sup>: Al&#x02010;O1 189.8(2), C29&#x02010;O1 125.8(2); Al&#x02010;N: 194.1(2)&#x02013;194.7(2). [Li(thf)<sub>2</sub>][<bold>1*</bold>&#x02010;<italic>p</italic>DMA&#x02010;BA] (the two THF units at Li omitted for clarity): Al&#x02010;O1 182.2(1), C1&#x02010;C29 158.5(2), Al&#x02010;N1 196.7(1), C19&#x02010;Li 263.6(4), C18&#x02010;Li 266.0(4), N4&#x02010;Li 275.5(4), Li&#x02010;O1 198.3(3).<xref rid="anie202007717-bib-0024" ref-type="ref">24</xref> D)&#x02005;Dependence of catalytic hydroboration rates for three substrates with 0.05&#x02009;% mol catalyst loading of either [PPh<sub>4</sub>][<bold>1</bold>] or [Li(thf)<sub>4</sub>][<bold>1</bold>&#x02010;thf] (abbreviated as [Li][<bold>1</bold>]). In the <italic>p</italic>NO<sub>2</sub>&#x02010;BA curves, the slow background reaction was subtracted.</p></caption><graphic id="nlm-graphic-13" xlink:href="ANIE-59-17118-g006"/></fig><p>In addition to NMR spectroscopy, this behavior was validated by SCXRD analysis of [Li(thf)<sub>2</sub>][<bold>1*</bold>&#x02010;<italic>p</italic>DMA&#x02010;BA] (Figure&#x02005;<xref rid="anie202007717-fig-0006" ref-type="fig">6</xref>&#x02009;C). Herein the Li<sup>+</sup> is &#x003b7;<sup>5</sup>&#x02010;coordinated to an aromatic pyrrole ring and bridges to the oxygen atom of the bound CO moiety. The Al&#x02212;O and C&#x02212;C bond lengths are similar to the spontaneously formed 1,2&#x02010;adducts, shown in Figure&#x02005;<xref rid="anie202007717-fig-0003" ref-type="fig">3</xref>. The same sequence is found with the <italic>&#x003c3;</italic>&#x02010;adduct of [PPh<sub>4</sub>][<bold>1</bold>] and acetone or cyclopentanone upon the addition of lithium iodide or use of [Li&#x02010;(thf)<sub>4</sub>][<bold>1</bold>&#x02010;thf] (for SCXRD see SI and Figures&#x02005;S13&#x02013;S16). Strikingly, the lithium ion&#x02010;induced C&#x02212;C bond formation can be reversed. After the addition of 12&#x02010;crown&#x02010;4 as a complexation agent for Li<sup>+</sup>, the original broad signals of the <italic>&#x003c3;</italic>&#x02010;adducts reappear in the <sup>1</sup>H&#x02005;NMR spectrum. By the addition of further lithium iodide, the process can be repeated (Figure&#x02005;S21). Quantum chemical calculations fully supported our observations. The coordination of a [Li&#x02010;dme]<sup>+</sup> fragment to the [<bold>1</bold>*&#x02010;carbonyl] adducts leads to a computed stabilization of the 1,2&#x02010;adduct by 20&#x02013;70&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup> (Figure&#x02005;S104). In the case of acetone and <italic>p</italic>DMA&#x02010;BA, this effect indeed turns the process from endergonic to exergonic. <italic>Hence, the addition of a lithium cation offers quantitative yet reversible control over the formation of a C&#x02212;C bond</italic>. Such a straightforward and mild trigger is, to the best of our knowledge, unprecedented. Given the very clean reaction outcome, achievable within seconds by merely combining easy to handle crystalline solids, it constitutes a <italic>triggerable reversible click reaction</italic>.<xref rid="anie202007717-bib-0022" ref-type="ref">22</xref> It offers a stimulus to steer the constitutional state and covalent dynamics of systems, attractive for the controlled release of conjugated cargo, or as a temporary protecting group. The possibility for reversal permits to &#x0201c;lock&#x02010;and&#x02010;unlock&#x0201d; the constitutional dynamics of the system at will. Given the strongly altered physicochemical properties of the &#x003c3;&#x02010; vs. the 1,2&#x02010;adduct (e.g., dipole moment, light absorption), it might allow introducing features like visual feedback, responsiveness, and self&#x02010;healing into new functional materials.</p><p>Eager to identify a model catalytic application that is influenced by the MLC binding mode of [<bold>1</bold>]<sup>&#x02212;</sup>
+<sub>,</sub> the hydroboration of aldehydes with pinacolborane was probed (Figure&#x02005;<xref rid="anie202007717-fig-0006" ref-type="fig">6</xref>&#x02009;D). The most activated aldehyde <italic>p</italic>NO<sub>2</sub>&#x02010;BA undergoes slow hydroboration already in the absence of a catalyst (Figure&#x02005;S46), but the other considered C=O containing substrates were unreactive without a catalyst under the given conditions (Figures&#x02005;S48/51). However, in the presence of 0.05&#x02005;mol&#x02009;% of [PPh<sub>4</sub>][<bold>1</bold>], all compounds were catalytically hydroborated. Although not competing with the most efficient hydroboration catalysts,<xref rid="anie202007717-bib-0023" ref-type="ref">23</xref> it is more the effect of MLC on the kinetics that makes this system interesting from a conceptual point of view.</p><p>With 0.05&#x02005;mol&#x02009;% of [PPh<sub>4</sub>][<bold>1</bold>] in [D<sub>8</sub>]THF, <italic>p</italic>DMA&#x02010;BA is hydroborated only slowly (20&#x02009;% conversion after 2&#x02005;h, Figure&#x02005;<xref rid="anie202007717-fig-0006" ref-type="fig">6</xref>&#x02009;D, light blue curve). However, with the lithium salt [Li(thf)<sub>4</sub>][<bold>1</bold>&#x02010;thf] as the catalyst, the efficiency is boosted dramatically, and the reaction went to completion within 20&#x02005;min under the same conditions (dark blue curve). The role of lithium cations as the catalytically active species was ruled out by employing 0.1&#x02005;mol&#x02009;% LiOTf or LiI (without [<bold>1</bold>]<sup>&#x02212;</sup>), in which case no reaction occurred (Figure&#x02005;S54). For acetone, a more than 50&#x02010;fold increase in reaction rate was observed between [PPh<sub>4</sub>][<bold>1</bold>] (dotted yellow curve) and [Li(thf)<sub>4</sub>][<bold>1</bold>&#x02010;thf] (thick yellow curve). Thus, with 0.05&#x02005;mol&#x02009;% of the [Li(thf)<sub>4</sub>][<bold>1</bold>&#x02010;thf] catalyst system in [D<sub>8</sub>]THF, remarkable TOFs of &#x0003e;4500&#x02005;h<sup>&#x02212;1</sup> for <italic>p</italic>DMA&#x02010;BA and 2000&#x02005;h<sup>&#x02212;1</sup> for acetone were achieved. In [D<sub>2</sub>]dichloromethane as a solvent, even a &#x0003e;100&#x02010;fold rate increase was noted (Figure&#x02005;S42). In stark contrast, a much less pronounced increase of the reaction rate for the catalyzed hydroboration of <italic>p</italic>NO<sub>2</sub>&#x02010;BA happened with [Li(thf)<sub>4</sub>][<bold>1</bold>&#x02010;thf] in comparison to [PPh<sub>4</sub>][<bold>1</bold>] (Figure&#x02005;<xref rid="anie202007717-fig-0006" ref-type="fig">6</xref>&#x02009;D, red curves). Noteworthily, <italic>p</italic>NO<sub>2</sub>&#x02010;BA forms the 1,2&#x02010;adduct with both salts of [<bold>1</bold>]<sup>&#x02212;</sup>. Since the 1,2&#x02010;bound states in <italic>d</italic>&#x02010;block MLC&#x02010;catalysis represent resting states,<xref rid="anie202007717-bib-0005d" ref-type="ref">5d</xref>, <xref rid="anie202007717-bib-0005g" ref-type="ref">5g</xref> it was concluded that also in the present case, the 1,2&#x02010;form represents a deactivated state in the hydroboration cycle. However, the partial release of the 1,2&#x02010;mode into the &#x003c3;&#x02010;adduct in the case of acetone and <italic>p</italic>DMA&#x02010;BA delivers a highly reactive form that is activated both by the Lewis acidic aluminum center and the nearby lithium cation. Hence, the considerable rate&#x02010;increase for only two substrates (<italic>p</italic>DMA&#x02010;BA and acetone) and the relatively small effect for the most activated substrate (<italic>p</italic>NO<sub>2</sub>&#x02010;BA) showcases the unique impact of MLC on the reaction kinetics. Usually, strongly activated substrates show high turnover frequencies with conventional catalysts (such as with Lewis acid or Lewis base catalysts).<xref rid="anie202007717-bib-0023" ref-type="ref">23</xref> However, in the case of [<bold>1</bold>]<sup>&#x02212;</sup> as the catalyst, such substrates (<italic>p</italic>NO<sub>2</sub>&#x02010;BA in our case) get effectively blocked by the MLC 1,2&#x02010;binding mode and allow the less activated substrates such as <italic>p</italic>DMA&#x02010;BA and acetone to outpace. In other words, the MLC&#x02010;dependent mode of substrate interaction allows to twist common selectivity trends and might enable a novel mode to steer regioselectivities in more complex substrates.</p></sec></sec><sec id="anie202007717-sec-0005"><title>Conclusion</title><p>A successful transfer of the d&#x02010;block MLC&#x02010;concept into the <italic>p</italic>&#x02010;block would allow to couple the abundance of metals such as aluminum with the vast range of established d&#x02010;block MLC catalytic transformations. Understanding the mechanistic details of MLC with main group elements is vital for this transfer. The herein presented work provides critical steps in such a direction. The calix[4]pyrrolato aluminate offers exceptionally high rates in the capture and release of C=O containing substrates. These features promptly raise the question on the driving force, that facilitates rapid transformations by cleavage of a C&#x02212;C and Al&#x02212;O bond. In contrast to the aromatization/dearomatization process observed in transition metal complexes, [<bold>1</bold>]<sup>&#x02212;</sup> operates by a reversed dearomatization/aromatization sequence. Thus, qualitatively, the regain of aromaticity in a pyrrole ring governs the behavior in the substrate bound state. The full reversibility paired with the substantial alteration of the substrates&#x02019; electronic structures upon binding provides an ideal starting point for catalytic applications. By now, it permits unique control over reaction kinetics if applied as a hydroboration catalyst. We believe that the hereby developed perspectives will serve exemplary for exciting progress and retrofit the fields of MLC and DCC with the beneficial earth abundance of aluminum.</p></sec><sec sec-type="COI-statement" id="anie202007717-sec-0007"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><p>As a service to our authors and readers, this journal provides supporting information supplied by the authors. Such materials are peer reviewed and may be re&#x02010;organized for online delivery, but are not copy&#x02010;edited or typeset. Technical support issues arising from supporting information (other than missing files) should be addressed to the authors.</p></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplementary</p></caption><media xlink:href="ANIE-59-17118-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="anie202007717-sec-0006"><title>Acknowledgements</title><p>We thank Prof. H.&#x02010;J. Himmel for his support and Prof. M. Enders for discussion. Financial support was provided by the FCI (Liebig fellowship, L.G.), the DFG (Emmy&#x02010;Noether program, GR 5007/2&#x02010;1, L.G.) and the Foundation of German Business (sdw, F.E.). The BWFor/BWUniCluster are acknowledged for computational resources, funded by the DFG. Open access funding enabled and organized by Projekt DEAL.</p></ack><ref-list><ref id="anie202007717-bib-0001"><label>1</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0001">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0001a"><label>1a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0002">
+<string-name>
+<given-names>J. R.</given-names>
+<surname>Khusnutdinova</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>12236</fpage>&#x02013;<lpage>12273</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie202007717-cit-0003">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2015</year>, <volume>127</volume>, <fpage>12406</fpage>&#x02013;<lpage>12445</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0001b"><label>1b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0004">
+<string-name>
+<given-names>T.</given-names>
+<surname>Higashi</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Kusumoto</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Nozaki</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>2019</year>, <volume>119</volume>, <fpage>10393</fpage>&#x02013;<lpage>10402</lpage>.<pub-id pub-id-type="pmid">31408323</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0002"><label>2</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0005">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0002a"><label>2a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0006">
+<string-name>
+<given-names>C.</given-names>
+<surname>Gunanathan</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">Acc. Chem. Res.</source>
+<year>2011</year>, <volume>44</volume>, <fpage>588</fpage>&#x02013;<lpage>602</lpage>;<pub-id pub-id-type="pmid">21739968</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0002b"><label>2b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0007">
+<string-name>
+<given-names>C.</given-names>
+<surname>Gunanathan</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">Science</source>
+<year>2013</year>, <volume>341</volume>, <elocation-id>1229712</elocation-id>;<pub-id pub-id-type="pmid">23869021</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0002c"><label>2c</label><mixed-citation publication-type="journal" id="anie202007717-cit-0008">
+<string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">Philos. Trans. R. Soc. London Ser. A</source>
+<year>2015</year>, <volume>373</volume>, <elocation-id>20140189</elocation-id>;</mixed-citation></ref><ref id="anie202007717-bib-0002d"><label>2d</label><mixed-citation publication-type="journal" id="anie202007717-cit-0009">
+<string-name>
+<given-names>T.</given-names>
+<surname>Zell</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">Acc. Chem. Res.</source>
+<year>2015</year>, <volume>48</volume>, <fpage>1979</fpage>&#x02013;<lpage>1994</lpage>.<pub-id pub-id-type="pmid">26079678</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0003"><label>3</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0010">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0003a"><label>3a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0011">
+<string-name>
+<given-names>A.</given-names>
+<surname>Mukherjee</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Nerush</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Leitus</surname>
+</string-name>, <string-name>
+<given-names>L. J. W.</given-names>
+<surname>Shimon</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Ben David</surname>
+</string-name>, <string-name>
+<given-names>N. A.</given-names>
+<surname>Espinosa Jalapa</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2016</year>, <volume>138</volume>, <fpage>4298</fpage>&#x02013;<lpage>4301</lpage>;<pub-id pub-id-type="pmid">26924231</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0003b"><label>3b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0012">
+<string-name>
+<given-names>A.</given-names>
+<surname>Kumar</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Daw</surname>
+</string-name>, <string-name>
+<given-names>N. A.</given-names>
+<surname>Espinosa-Jalapa</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Leitus</surname>
+</string-name>, <string-name>
+<given-names>L. J. W.</given-names>
+<surname>Shimon</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Ben-David</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>
+<year>2019</year>, <volume>48</volume>, <fpage>14580</fpage>&#x02013;<lpage>14584</lpage>.<pub-id pub-id-type="pmid">31517365</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="anie202007717-cit-0013">
+<string-name>
+<given-names>D.</given-names>
+<surname>Sieh</surname>
+</string-name>, <string-name>
+<given-names>D. C.</given-names>
+<surname>Lacy</surname>
+</string-name>, <string-name>
+<given-names>J. C.</given-names>
+<surname>Peters</surname>
+</string-name>, <string-name>
+<given-names>C. P.</given-names>
+<surname>Kubiak</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2015</year>, <volume>21</volume>, <fpage>8497</fpage>&#x02013;<lpage>8503</lpage>.<pub-id pub-id-type="pmid">25924730</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0005"><label>5</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0014">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0005a"><label>5a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0015">
+<string-name>
+<given-names>M.</given-names>
+<surname>Vogt</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Gargir</surname>
+</string-name>, <string-name>
+<given-names>M. A.</given-names>
+<surname>Iron</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Diskin-Posner</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Ben-David</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2012</year>, <volume>18</volume>, <fpage>9194</fpage>&#x02013;<lpage>9197</lpage>;<pub-id pub-id-type="pmid">22736579</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0005b"><label>5b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0016">
+<string-name>
+<given-names>M.</given-names>
+<surname>Montag</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2012</year>, <volume>134</volume>, <fpage>10325</fpage>&#x02013;<lpage>10328</lpage>;<pub-id pub-id-type="pmid">22703115</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0005c"><label>5c</label><mixed-citation publication-type="journal" id="anie202007717-cit-0017">
+<string-name>
+<given-names>C. A.</given-names>
+<surname>Huff</surname>
+</string-name>, <string-name>
+<given-names>J. W.</given-names>
+<surname>Kampf</surname>
+</string-name>, <string-name>
+<given-names>M. S.</given-names>
+<surname>Sanford</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>
+<year>2012</year>, <volume>31</volume>, <fpage>4643</fpage>&#x02013;<lpage>4645</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0005d"><label>5d</label><mixed-citation publication-type="journal" id="anie202007717-cit-0018">
+<string-name>
+<given-names>G. A.</given-names>
+<surname>Filonenko</surname>
+</string-name>, <string-name>
+<given-names>M. P.</given-names>
+<surname>Conley</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Cop&#x000e9;ret</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Lutz</surname>
+</string-name>, <string-name>
+<given-names>E. J. M.</given-names>
+<surname>Hensen</surname>
+</string-name>, <string-name>
+<given-names>E. A.</given-names>
+<surname>Pidko</surname>
+</string-name>, <source xml:lang="en">ACS Catal.</source>
+<year>2013</year>, <volume>3</volume>, <fpage>2522</fpage>&#x02013;<lpage>2526</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0005e"><label>5e</label><mixed-citation publication-type="journal" id="anie202007717-cit-0019">
+<string-name>
+<given-names>C. A.</given-names>
+<surname>Huff</surname>
+</string-name>, <string-name>
+<given-names>M. S.</given-names>
+<surname>Sanford</surname>
+</string-name>, <source xml:lang="en">ACS Catal.</source>
+<year>2013</year>, <volume>3</volume>, <fpage>2412</fpage>&#x02013;<lpage>2416</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0005f"><label>5f</label><mixed-citation publication-type="journal" id="anie202007717-cit-0020">
+<string-name>
+<given-names>C. A.</given-names>
+<surname>Huff</surname>
+</string-name>, <string-name>
+<given-names>J. W.</given-names>
+<surname>Kampf</surname>
+</string-name>, <string-name>
+<given-names>M. S.</given-names>
+<surname>Sanford</surname>
+</string-name>, <source xml:lang="en">Chem. Commun.</source>
+<year>2013</year>, <volume>49</volume>, <fpage>7147</fpage>&#x02013;<lpage>7149</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0005g"><label>5g</label><mixed-citation publication-type="journal" id="anie202007717-cit-0021">
+<string-name>
+<given-names>J.</given-names>
+<surname>Bruffaerts</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>von Wolff</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Diskin-Posner</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Ben-David</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2019</year>, <volume>141</volume>, <fpage>16486</fpage>&#x02013;<lpage>16493</lpage>.<pub-id pub-id-type="pmid">31532664</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="anie202007717-cit-0022">
+<string-name>
+<given-names>I.</given-names>
+<surname>Heuermann</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Heitmann</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Stichauer</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Duvinage</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Vogt</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>
+<year>2019</year>, <volume>38</volume>, <fpage>1787</fpage>&#x02013;<lpage>1799</lpage>.</mixed-citation></ref><ref id="anie202007717-bib-0007"><label>7</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0023">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0007a"><label>7a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0024">
+<string-name>
+<given-names>M.</given-names>
+<surname>Feller</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Gellrich</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Anaby</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Diskin-Posner</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2016</year>, <volume>138</volume>, <fpage>6445</fpage>&#x02013;<lpage>6454</lpage>;<pub-id pub-id-type="pmid">27124097</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0007b"><label>7b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0025">
+<string-name>
+<given-names>M.</given-names>
+<surname>Feller</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Ben-Ari</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Diskin-Posner</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">J. Coord. Chem.</source>
+<year>2018</year>, <volume>71</volume>, <fpage>1679</fpage>&#x02013;<lpage>1689</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0007c"><label>7c</label><mixed-citation publication-type="journal" id="anie202007717-cit-0026">
+<string-name>
+<given-names>J.</given-names>
+<surname>Langer</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Hamza</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>P&#x000e1;pai</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2018</year>, <volume>57</volume>, <fpage>2455</fpage>&#x02013;<lpage>2458</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie202007717-cit-0027">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2018</year>, <volume>130</volume>, <fpage>2480</fpage>&#x02013;<lpage>2483</lpage>.</mixed-citation></ref><ref id="anie202007717-bib-0008"><label>8</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0028">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0008a"><label>8a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0029">
+<string-name>
+<given-names>M.</given-names>
+<surname>Vogt</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Nerush</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Diskin-Posner</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Ben-David</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">Chem. Sci.</source>
+<year>2014</year>, <volume>5</volume>, <fpage>2043</fpage>&#x02013;<lpage>2051</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0008b"><label>8b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0030">
+<string-name>
+<given-names>R.</given-names>
+<surname>Stichauer</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Helmers</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Bremer</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Rohdenburg</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Wark</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Lork</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Vogt</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>
+<year>2017</year>, <volume>36</volume>, <fpage>839</fpage>&#x02013;<lpage>848</lpage>.</mixed-citation></ref><ref id="anie202007717-bib-0009"><label>9</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0031">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0009a"><label>9a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0032">
+<string-name>
+<given-names>U.</given-names>
+<surname>Gellrich</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Diskin-Posner</surname>
+</string-name>, <string-name>
+<given-names>L. J. W.</given-names>
+<surname>Shimon</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2016</year>, <volume>138</volume>, <fpage>13307</fpage>&#x02013;<lpage>13313</lpage>;<pub-id pub-id-type="pmid">27629234</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0009b"><label>9b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0033">
+<string-name>
+<given-names>U.</given-names>
+<surname>Gellrich</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2018</year>, <volume>57</volume>, <fpage>4779</fpage>&#x02013;<lpage>4782</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie202007717-cit-0034">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2018</year>, <volume>130</volume>, <fpage>4869</fpage>&#x02013;<lpage>4872</lpage>.</mixed-citation></ref><ref id="anie202007717-bib-0010"><label>10</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0035">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0010a"><label>10a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0036">
+<string-name>
+<given-names>T. W.</given-names>
+<surname>Myers</surname>
+</string-name>, <string-name>
+<given-names>L. A.</given-names>
+<surname>Berben</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2013</year>, <volume>135</volume>, <fpage>9988</fpage>&#x02013;<lpage>9990</lpage>;<pub-id pub-id-type="pmid">23799284</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0010b"><label>10b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0037">
+<string-name>
+<given-names>I. L.</given-names>
+<surname>Fedushkin</surname>
+</string-name>, <string-name>
+<given-names>A. S.</given-names>
+<surname>Nikipelov</surname>
+</string-name>, <string-name>
+<given-names>K. A.</given-names>
+<surname>Lyssenko</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2010</year>, <volume>132</volume>, <fpage>7874</fpage>&#x02013;<lpage>7875</lpage>;<pub-id pub-id-type="pmid">20486702</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0010c"><label>10c</label><mixed-citation publication-type="journal" id="anie202007717-cit-0038">
+<string-name>
+<given-names>I. L.</given-names>
+<surname>Fedushkin</surname>
+</string-name>, <string-name>
+<given-names>M. V.</given-names>
+<surname>Moskalev</surname>
+</string-name>, <string-name>
+<given-names>A. N.</given-names>
+<surname>Lukoyanov</surname>
+</string-name>, <string-name>
+<given-names>A. N.</given-names>
+<surname>Tishkina</surname>
+</string-name>, <string-name>
+<given-names>E. V.</given-names>
+<surname>Baranov</surname>
+</string-name>, <string-name>
+<given-names>G. A.</given-names>
+<surname>Abakumov</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2012</year>, <volume>18</volume>, <fpage>11264</fpage>&#x02013;<lpage>11276</lpage>;<pub-id pub-id-type="pmid">22847958</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0010d"><label>10d</label><mixed-citation publication-type="journal" id="anie202007717-cit-0039">
+<string-name>
+<given-names>J. A. B.</given-names>
+<surname>Abdalla</surname>
+</string-name>, <string-name>
+<given-names>I. M.</given-names>
+<surname>Riddlestone</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Tirfoin</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Aldridge</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>5098</fpage>&#x02013;<lpage>5102</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie202007717-cit-0040">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2015</year>, <volume>127</volume>, <fpage>5187</fpage>&#x02013;<lpage>5191</lpage>.</mixed-citation></ref><ref id="anie202007717-bib-0011"><label>11</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0041">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0011a"><label>11a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0042">
+<string-name>
+<given-names>S. A.</given-names>
+<surname>Culley</surname>
+</string-name>, <string-name>
+<given-names>A. J.</given-names>
+<surname>Arduengo</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>1984</year>, <volume>106</volume>, <fpage>1164</fpage>&#x02013;<lpage>1165</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0011b"><label>11b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0043">
+<string-name>
+<given-names>N. L.</given-names>
+<surname>Dunn</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ha</surname>
+</string-name>, <string-name>
+<given-names>A. T.</given-names>
+<surname>Radosevich</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2012</year>, <volume>134</volume>, <fpage>11330</fpage>&#x02013;<lpage>11333</lpage>;<pub-id pub-id-type="pmid">22746974</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0011c"><label>11c</label><mixed-citation publication-type="journal" id="anie202007717-cit-0044">
+<string-name>
+<given-names>T. P.</given-names>
+<surname>Robinson</surname>
+</string-name>, <string-name>
+<given-names>D. M.</given-names>
+<surname>De Rosa</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Aldridge</surname>
+</string-name>, <string-name>
+<given-names>J. M.</given-names>
+<surname>Goicoechea</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>13758</fpage>&#x02013;<lpage>13763</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie202007717-cit-0045">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2015</year>, <volume>127</volume>, <fpage>13962</fpage>&#x02013;<lpage>13967</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0011d"><label>11d</label><mixed-citation publication-type="journal" id="anie202007717-cit-0046">
+<string-name>
+<given-names>J. C.</given-names>
+<surname>Gilhula</surname>
+</string-name>, <string-name>
+<given-names>A. T.</given-names>
+<surname>Radosevich</surname>
+</string-name>, <source xml:lang="en">Chem. Sci.</source>
+<year>2019</year>, <volume>10</volume>, <fpage>7177</fpage>&#x02013;<lpage>7182</lpage>.<pub-id pub-id-type="pmid">31588285</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="anie202007717-cit-0047">
+<string-name>
+<given-names>F.</given-names>
+<surname>Ebner</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Wadepohl</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Greb</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2019</year>, <volume>141</volume>, <fpage>18009</fpage>&#x02013;<lpage>18012</lpage>.<pub-id pub-id-type="pmid">31665601</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="anie202007717-cit-0048">
+<string-name>
+<given-names>M. C.</given-names>
+<surname>Cruickshank</surname>
+</string-name>, <string-name>
+<given-names>L. S. D.</given-names>
+<surname>Glasser</surname>
+</string-name>, <source xml:lang="en">J. Chem. Soc. Chem. Commun.</source>
+<year>1985</year>, <fpage>84</fpage>&#x02013;<lpage>85</lpage>.</mixed-citation></ref><ref id="anie202007717-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="anie202007717-cit-0049">
+<string-name>
+<given-names>F. H.</given-names>
+<surname>Allen</surname>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>Kennard</surname>
+</string-name>, <string-name>
+<given-names>D. G.</given-names>
+<surname>Watson</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Brammer</surname>
+</string-name>, <string-name>
+<given-names>A. G.</given-names>
+<surname>Orpen</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Taylor</surname>
+</string-name>, <source xml:lang="en">J. Chem. Soc. Perkin Trans. 2</source>
+<year>1987</year>, <fpage>S1</fpage>&#x02013;<lpage>S19</lpage>.</mixed-citation></ref><ref id="anie202007717-bib-0015"><label>15</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0050">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0015a"><label>15a</label><mixed-citation publication-type="book" id="anie202007717-cit-0051">
+<string-name>
+<given-names>M. F.</given-names>
+<surname>Lappert</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Prokai</surname>
+</string-name> in <source xml:lang="en">Advances in Organometallic Chemistry, Vol.&#x02005;5</source> (Eds.: <person-group person-group-type="editor"><string-name>F.&#x02005;G.&#x02005;A. Stone, W. Robert</string-name></person-group>), <publisher-name>Academic Press</publisher-name>, <publisher-loc>New York</publisher-loc>, <year>1967</year>, pp.&#x02005;<fpage>225</fpage>&#x02013;<lpage>319</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0015b"><label>15b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0052">
+<string-name>
+<given-names>X.</given-names>
+<surname>Yin</surname>
+</string-name>, <string-name>
+<given-names>J. R.</given-names>
+<surname>Moss</surname>
+</string-name>, <source xml:lang="en">Coord. Chem. Rev.</source>
+<year>1999</year>, <volume>181</volume>, <fpage>27</fpage>&#x02013;<lpage>59</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0015c"><label>15c</label><mixed-citation publication-type="journal" id="anie202007717-cit-0053">
+<string-name>
+<given-names>T.</given-names>
+<surname>Habereder</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>N&#x000f6;th</surname>
+</string-name>, <string-name>
+<given-names>R. T.</given-names>
+<surname>Paine</surname>
+</string-name>, <source xml:lang="en">Eur. J. Inorg. Chem.</source>
+<year>2007</year>, <fpage>4298</fpage>&#x02013;<lpage>4305</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0015d"><label>15d</label><mixed-citation publication-type="journal" id="anie202007717-cit-0054">
+<string-name>
+<given-names>F.</given-names>
+<surname>Hengesbach</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Jin</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Hepp</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Wibbeling</surname>
+</string-name>, <string-name>
+<given-names>E.-U.</given-names>
+<surname>W&#x000fc;rthwein</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Uhl</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2013</year>, <volume>19</volume>, <fpage>13901</fpage>&#x02013;<lpage>13909</lpage>;<pub-id pub-id-type="pmid">24038438</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0015e"><label>15e</label><mixed-citation publication-type="book" id="anie202007717-cit-0055">
+<string-name>
+<given-names>K.</given-names>
+<surname>Kraushaar</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Schmidt</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Schwarzer</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Kroke</surname>
+</string-name> in <source xml:lang="en">Advances in Inorganic Chemistry, Vol.&#x02005;66</source> (Eds.: <person-group person-group-type="editor"><string-name>M. Aresta, R. van&#x02005;Eldik</string-name></person-group>), <publisher-name>Academic Press</publisher-name>, <publisher-loc>New York</publisher-loc>, <year>2014</year>, pp.&#x02005;<fpage>117</fpage>&#x02013;<lpage>162</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0015f"><label>15f</label><mixed-citation publication-type="journal" id="anie202007717-cit-0056">
+<string-name>
+<given-names>H. S.</given-names>
+<surname>Zijlstra</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Pahl</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Penafiel</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Harder</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>
+<year>2017</year>, <volume>46</volume>, <fpage>3601</fpage>&#x02013;<lpage>3610</lpage>.<pub-id pub-id-type="pmid">28243643</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0016"><label>16</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0057">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0016a"><label>16a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0058">
+<string-name>
+<given-names>T.</given-names>
+<surname>Aida</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Inoue</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>1983</year>, <volume>105</volume>, <fpage>1304</fpage>&#x02013;<lpage>1309</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0016b"><label>16b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0059">
+<string-name>
+<given-names>F.</given-names>
+<surname>Kojima</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Aida</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Inoue</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>1986</year>, <volume>108</volume>, <fpage>391</fpage>&#x02013;<lpage>395</lpage>.<pub-id pub-id-type="pmid">22175453</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0017"><label>17</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0060">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0017a"><label>17a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0061">
+<string-name>
+<given-names>C.</given-names>
+<surname>Floriani</surname>
+</string-name>, <source xml:lang="en">Pure Appl. Chem.</source>
+<year>1996</year>, <volume>68</volume>, <fpage>1</fpage>&#x02013;<lpage>8</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0017b"><label>17b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0062">
+<string-name>
+<given-names>G.</given-names>
+<surname>Solari</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Solari</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Lemercier</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Floriani</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Chiesi-Villa</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Rizzoli</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>1997</year>, <volume>36</volume>, <fpage>2691</fpage>&#x02013;<lpage>2695</lpage>;</mixed-citation></ref><ref id="anie202007717-bib-0017c"><label>17c</label><mixed-citation publication-type="journal" id="anie202007717-cit-0063">
+<string-name>
+<given-names>L.</given-names>
+<surname>Cuesta</surname>
+</string-name>, <string-name>
+<given-names>J. L.</given-names>
+<surname>Sessler</surname>
+</string-name>, <source xml:lang="en">Chem. Soc. Rev.</source>
+<year>2009</year>, <volume>38</volume>, <fpage>2716</fpage>&#x02013;<lpage>2729</lpage>.<pub-id pub-id-type="pmid">19690749</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="anie202007717-cit-0064">
+<string-name>
+<given-names>C.</given-names>
+<surname>Hansch</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Leo</surname>
+</string-name>, <string-name>
+<given-names>R. W.</given-names>
+<surname>Taft</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>1991</year>, <volume>91</volume>, <fpage>165</fpage>&#x02013;<lpage>195</lpage>.</mixed-citation></ref><ref id="anie202007717-bib-0019"><label>19</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0065">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0019a"><label>19a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0066">
+<string-name>
+<given-names>X.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>M. A.</given-names>
+<surname>Dam</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Ono</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Mal</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Shen</surname>
+</string-name>, <string-name>
+<given-names>S. R.</given-names>
+<surname>Nutt</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Sheran</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Wudl</surname>
+</string-name>, <source xml:lang="en">Science</source>
+<year>2002</year>, <volume>295</volume>, <fpage>1698</fpage>&#x02013;<lpage>1702</lpage>;<pub-id pub-id-type="pmid">11872836</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0019b"><label>19b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0067">
+<string-name>
+<given-names>R. C.</given-names>
+<surname>Boutelle</surname>
+</string-name>, <string-name>
+<given-names>B. H.</given-names>
+<surname>Northrop</surname>
+</string-name>, <source xml:lang="en">J. Org. Chem.</source>
+<year>2011</year>, <volume>76</volume>, <fpage>7994</fpage>&#x02013;<lpage>8002</lpage>;<pub-id pub-id-type="pmid">21866976</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0019c"><label>19c</label><mixed-citation publication-type="journal" id="anie202007717-cit-0068">
+<string-name>
+<given-names>N.</given-names>
+<surname>Roy</surname>
+</string-name>, <string-name>
+<given-names>J.-M.</given-names>
+<surname>Lehn</surname>
+</string-name>, <source xml:lang="en">Chem. Asian J.</source>
+<year>2011</year>, <volume>6</volume>, <fpage>2419</fpage>&#x02013;<lpage>2425</lpage>.<pub-id pub-id-type="pmid">21744504</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="anie202007717-cit-0069">
+<string-name>
+<given-names>S. J.</given-names>
+<surname>Rowan</surname>
+</string-name>, <string-name>
+<given-names>S. J.</given-names>
+<surname>Cantrill</surname>
+</string-name>, <string-name>
+<given-names>G. R. L.</given-names>
+<surname>Cousins</surname>
+</string-name>, <string-name>
+<given-names>J. K. M.</given-names>
+<surname>Sanders</surname>
+</string-name>, <string-name>
+<given-names>J. F.</given-names>
+<surname>Stoddart</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2002</year>, <volume>41</volume>, <fpage>898</fpage>&#x02013;<lpage>952</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie202007717-cit-0070">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2002</year>, <volume>114</volume>, <fpage>938</fpage>&#x02013;<lpage>993</lpage>.</mixed-citation></ref><ref id="anie202007717-bib-0021"><label>21</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0071">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0021a"><label>21a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0072">
+<string-name>
+<given-names>G.</given-names>
+<surname>Knizia</surname>
+</string-name>, <source xml:lang="en">J. Chem. Theory Comput.</source>
+<year>2013</year>, <volume>9</volume>, <fpage>4834</fpage>&#x02013;<lpage>4843</lpage>;<pub-id pub-id-type="pmid">26583402</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0021b"><label>21b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0073">
+<string-name>
+<given-names>G.</given-names>
+<surname>Knizia</surname>
+</string-name>, <string-name>
+<given-names>J. E. M. N.</given-names>
+<surname>Klein</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>5518</fpage>&#x02013;<lpage>5522</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie202007717-cit-0074">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2015</year>, <volume>127</volume>, <fpage>5609</fpage>&#x02013;<lpage>5613</lpage>.</mixed-citation></ref><ref id="anie202007717-bib-0022"><label>22</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0075">&#x000a0;</mixed-citation></ref><ref id="anie202007717-bib-0022a"><label>22a</label><mixed-citation publication-type="journal" id="anie202007717-cit-0076">
+<string-name>
+<given-names>S.</given-names>
+<surname>Billiet</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>De Bruycker</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Driessen</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Goossens</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Van Speybroeck</surname>
+</string-name>, <string-name>
+<given-names>J. M.</given-names>
+<surname>Winne</surname>
+</string-name>, <string-name>
+<given-names>F. E.</given-names>
+<surname>Du Prez</surname>
+</string-name>, <source xml:lang="en">Nat. Chem.</source>
+<year>2014</year>, <volume>6</volume>, <fpage>815</fpage>&#x02013;<lpage>821</lpage>;<pub-id pub-id-type="pmid">25143218</pub-id></mixed-citation></ref><ref id="anie202007717-bib-0022b"><label>22b</label><mixed-citation publication-type="journal" id="anie202007717-cit-0077">
+<string-name>
+<given-names>K. L.</given-names>
+<surname>Diehl</surname>
+</string-name>, <string-name>
+<given-names>I. V.</given-names>
+<surname>Kolesnichenko</surname>
+</string-name>, <string-name>
+<given-names>S. A.</given-names>
+<surname>Robotham</surname>
+</string-name>, <string-name>
+<given-names>J. L.</given-names>
+<surname>Bachman</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Zhong</surname>
+</string-name>, <string-name>
+<given-names>J. S.</given-names>
+<surname>Brodbelt</surname>
+</string-name>, <string-name>
+<given-names>E. V.</given-names>
+<surname>Anslyn</surname>
+</string-name>, <source xml:lang="en">Nat. Chem.</source>
+<year>2016</year>, <volume>8</volume>, <fpage>968</fpage>&#x02013;<lpage>973</lpage>.</mixed-citation></ref><ref id="anie202007717-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="anie202007717-cit-0078">
+<string-name>
+<given-names>M. L.</given-names>
+<surname>Shegavi</surname>
+</string-name>, <string-name>
+<given-names>S. K.</given-names>
+<surname>Bose</surname>
+</string-name>, <source xml:lang="en">Catal. Sci. Technol.</source>
+<year>2019</year>, <volume>9</volume>, <fpage>3307</fpage>&#x02013;<lpage>3336</lpage>.</mixed-citation></ref><ref id="anie202007717-bib-0024"><label>24</label><mixed-citation publication-type="miscellaneous" id="anie202007717-cit-0079">
+<ext-link ext-link-type="uri" xlink:href="https://www.ccdc.cam.ac.uk/services/structures?id=doi:10.1002/anie.202007717">Deposition Numbers 1989029, 1989030, 1989031, 1989032, 1989033, 1989034, 1989035, 1989036</ext-link> contain the supplementary crystallographic data for this paper. These data are provided free of charge by the joint Cambridge Crystallographic Data Centre and Fachinformationszentrum Karlsruhe Access Structures service <ext-link ext-link-type="uri" xlink:href="https://www.ccdc.cam.ac.uk/structures/?">www.ccdc.cam.ac.uk/structures</ext-link>.</mixed-citation></ref></ref-list></back></article>

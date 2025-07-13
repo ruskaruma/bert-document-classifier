@@ -1,0 +1,602 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6706183</article-id><article-id pub-id-type="doi">10.1002/ece3.5395</article-id><article-id pub-id-type="publisher-id">ECE35395</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>&#x0201c;Closer&#x02010;to&#x02010;home&#x0201d; strategy benefits juvenile survival in a long&#x02010;distance migratory bird</article-title><alt-title alt-title-type="left-running-head">CHENG et al.</alt-title></title-group><contrib-group><contrib id="ece35395-cr-0001" contrib-type="author" corresp="yes"><name><surname>Cheng</surname><given-names>Yachang</given-names></name><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-2108-7227</contrib-id><address><email>ycheng@ab.mpg.de</email></address><xref ref-type="aff" rid="ece35395-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece35395-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece35395-cr-0002" contrib-type="author"><name><surname>Fiedler</surname><given-names>Wolfgang</given-names></name><xref ref-type="aff" rid="ece35395-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece35395-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece35395-cr-0003" contrib-type="author"><name><surname>Wikelski</surname><given-names>Martin</given-names></name><xref ref-type="aff" rid="ece35395-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece35395-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="ece35395-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ece35395-cr-0004" contrib-type="author" corresp="yes"><name><surname>Flack</surname><given-names>Andrea</given-names></name><contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-9099-2802</contrib-id><address><email>aflack@ab.mpg.de</email></address><xref ref-type="aff" rid="ece35395-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ece35395-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="ece35395-aff-0003">
+<sup>3</sup>
+</xref></contrib></contrib-group><aff id="ece35395-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Migration</named-content>
+<institution>Max Planck Institute of Animal Behavior</institution>
+<named-content content-type="city">Radolfzell</named-content>
+<country country="DE">Germany</country>
+</aff><aff id="ece35395-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Biology</named-content>
+<institution>University of Konstanz</institution>
+<named-content content-type="city">Konstanz</named-content>
+<country country="DE">Germany</country>
+</aff><aff id="ece35395-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Centre for the Advanced Study of Collective Behaviour</named-content>
+<institution>University of Konstanz</institution>
+<named-content content-type="city">Konstanz</named-content>
+<country country="DE">Germany</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Yachang Cheng and Andrea Flack, Department of Migration, Max Planck Institute of Animal Behavior, D&#x02010;78315 Radolfzell, Germany.<break/>
+Emails: <email>ycheng@ab.mpg.de</email> (YC) and <email>aflack@ab.mpg.de</email> (AF)<break/></corresp></author-notes><pub-date pub-type="epub"><day>23</day><month>7</month><year>2019</year></pub-date><pub-date pub-type="collection"><month>8</month><year>2019</year></pub-date><volume>9</volume><issue>16</issue><issue-id pub-id-type="doi">10.1002/ece3.v9.16</issue-id><fpage>8945</fpage><lpage>8952</lpage><history><date date-type="received"><day>18</day><month>4</month><year>2019</year></date><date date-type="rev-recd"><day>28</day><month>5</month><year>2019</year></date><date date-type="accepted"><day>04</day><month>6</month><year>2019</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:ECE3-9-8945.pdf"/><abstract id="ece35395-abs-0001"><title>Abstract</title><p>Human&#x02010;induced changes in the climate and environment that occur at an unprecedented speed are challenging the existence of migratory species. Faced with these new challenges, species with diverse and flexible migratory behaviors may suffer less from population decline, as they may be better at responding to these changes by altering their migratory behavior. At the individual level, variations in migratory behavior may lead to differences in fitness and subsequently influence the population's demographic dynamics. Using lifetime GPS bio&#x02010;logging data from 169 white storks (<italic>Ciconia ciconia</italic>), we explore whether the recently shortened migration distance of storks affects their survival during different stages of their juvenile life. We also explore how other variations in migratory decisions (i.e., time, destination), movement activity (measured using overall body dynamic acceleration), and early life conditions influence juvenile survival. We observed that their first autumn migration was the riskiest period for juvenile white storks. Individuals that migrated shorter distances and fledged earlier experienced lower mortality risks. In addition, higher movement activity and overwintering &#x0201c;closer&#x02010;to&#x02010;home&#x0201d; (with 84.21% of the tracked individuals stayed Europe or North Africa) were associated with higher survival. Our study shows how avian migrants can change life history decisions over only a few decades, and thus it helps us to understand and predict how migrants respond to the rapidly changing world.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece35395-kwd-0001">bio&#x02010;logging</kwd><kwd id="ece35395-kwd-0002">long&#x02010;distant migration</kwd><kwd id="ece35395-kwd-0003">migration strategy</kwd><kwd id="ece35395-kwd-0004">ODBA</kwd><kwd id="ece35395-kwd-0005">survival</kwd></kwd-group><counts><fig-count count="2"/><table-count count="0"/><page-count count="8"/><word-count count="5722"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>ece35395</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>August 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.6.7 mode:remove_FC converted:22.08.2019</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece35395-cit-1001">
+<string-name>
+<surname>Cheng</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Fiedler</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Wikelski</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Flack</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>&#x0201c;Closer&#x02010;to&#x02010;home&#x0201d; strategy benefits juvenile survival in a long&#x02010;distance migratory bird</article-title>. <source xml:lang="en">Ecol Evol</source>. <year>2019</year>;<volume>9</volume>:<fpage>8945</fpage>&#x02013;<lpage>8952</lpage>. <pub-id pub-id-type="doi">10.1002/ece3.5395</pub-id>
+</mixed-citation>
+</p><fn-group id="ece35395-ntgp-0001"><fn fn-type="" id="ece35395-note-0001"><p>
+<bold>Data Availability Statement:</bold> The data used for this study are available through the Movebank Data Repository (<ext-link ext-link-type="uri" xlink:href="https://www.movebank.org">https://www.movebank.org</ext-link>): with <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5441/001/1.v1cs4nn0">https://doi.org/10.5441/001/1.v1cs4nn0</ext-link>, <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5441/001/1.c42j3js7">https://doi.org/10.5441/001/1.c42j3js7</ext-link>, <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5441/001/1.4192t2j4">https://doi.org/10.5441/001/1.4192t2j4</ext-link>, <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5441/001/1.ck04mn78">https://doi.org/10.5441/001/1.ck04mn78</ext-link>, <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5441/001/1.71r7pp6q">https://doi.org/10.5441/001/1.71r7pp6q</ext-link>.</p></fn></fn-group></notes></front><body><sec id="ece35395-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Migration is a ubiquitous phenomenon that has evolved as an adaptation to seasonally changing environments (Newton, <xref rid="ece35395-bib-0033" ref-type="ref">2008</xref>). But within the same species, or even population, we often observe tremendous variation in specific migration features (Chapman, Br&#x000f6;nmark, Nilsson, &#x00026; Hansson, <xref rid="ece35395-bib-0004" ref-type="ref">2011</xref>; Flack et al., <xref rid="ece35395-bib-0015" ref-type="ref">2016</xref>). This may be the outcome of trade&#x02010;offs between the costs and benefits of different migration strategies, leading to differences in individual fitness, and subsequently influencing demographic dynamics (Lok, Overdijk, &#x00026; Piersma, <xref rid="ece35395-bib-0027" ref-type="ref">2015</xref>; Palac&#x000ed;n, Alonso, Mart&#x000ed;n, &#x00026; Alonso, <xref rid="ece35395-bib-0036" ref-type="ref">2017</xref>). Life in the Anthropocene is challenging many ancient evolutionary adaptations including migration. Selection pressures change quickly, favoring individuals that are better adapted to human&#x02010;modified landscapes (Otto, <xref rid="ece35395-bib-0035" ref-type="ref">2018</xref>). These human&#x02010;shaped selection pressures are caused by hunting, poisoning, electrocution, food subsidies or global habitat and climate change, and many more (Oro, Genovart, Tavecchia, Fowler, &#x00026; Mart&#x000ed;nez&#x02010;Abra&#x000ed;n, <xref rid="ece35395-bib-0034" ref-type="ref">2013</xref>; Otto, <xref rid="ece35395-bib-0035" ref-type="ref">2018</xref>), and may indeed force migrants to respond quickly to survive. In recent years, numerous studies have shown that birds alter their migratory behavior by changing their routes and/or timing, dynamically altering their wintering strategies, or even becoming residents (Fiedler, <xref rid="ece35395-bib-0009" ref-type="ref">2003</xref>; Palac&#x000ed;n et al., <xref rid="ece35395-bib-0036" ref-type="ref">2017</xref>; Visser, Perdeck, Balen, &#x00026; Both, <xref rid="ece35395-bib-0048" ref-type="ref">2009</xref>). Species with more diverse migratory behavior or higher overall flexibility seem to suffer less from population decline as they are better at adjusting to these changes (Gilroy, Gill, Butchart, Jones, &#x00026; Franco, <xref rid="ece35395-bib-0020" ref-type="ref">2016</xref>; Saino et al., <xref rid="ece35395-bib-0040" ref-type="ref">2011</xref>), and human&#x02010;altered selection forces might favor individuals with certain behavioral or conditional traits (Otto, <xref rid="ece35395-bib-0035" ref-type="ref">2018</xref>). Thus, if an individual's behavioral traits or its decisions during ontogeny allow us to explain patterns of longevity, we will gain insights into basic life history evolution and understand how migrants respond to the changing world. It will also allow us to develop a toolset for conservation managers to anticipate changes in populations of wild birds.</p><p>One frequently studied migrant is the white stork <italic>Ciconia ciconia</italic>. Many studies provide detailed knowledge on this widely distributed, opportunistic species: European white storks were exclusively migratory, but in the last three decades, it has been reported that the subpopulation that migrates on the western flyway between Central Europe, Iberia, and western Africa is shortening its migratory distances. New wintering and resident behavior emerged on the Iberian Peninsula (Tortosa, Manez, &#x00026; Barcell, <xref rid="ece35395-bib-0047" ref-type="ref">1995</xref>), resulting in larger numbers of wintering storks in Europe (Arizaga et al., <xref rid="ece35395-bib-0002" ref-type="ref">2018</xref>). New and stable food sources like open landfills or the invasive red swamp crayfish <italic>Procambarus clarkii</italic> may be contributing to the resident behavior of storks (Gilbert et al., <xref rid="ece35395-bib-0018" ref-type="ref">2016</xref>; Tortosa, Caballero, &#x00026; Reyes&#x02010;L&#x000f3;pez, <xref rid="ece35395-bib-0046" ref-type="ref">2002</xref>). In addition, wintering in Europe may require less energy in terms of movement costs and foraging efforts (Flack et al., <xref rid="ece35395-bib-0015" ref-type="ref">2016</xref>; Rotics et al., <xref rid="ece35395-bib-0039" ref-type="ref">2017</xref>). Thus, the question emerges: is long&#x02010;distance migration in white storks decreasing or even disappearing? Current studies which investigated the relationship between changes in migration strategy and breeding performance were inconsistent (Gilbert et al., <xref rid="ece35395-bib-0018" ref-type="ref">2016</xref>; Massemin&#x02010;Challet et al., <xref rid="ece35395-bib-0029" ref-type="ref">2006</xref>). Here we hypothesize that these current changes in the white stork's migratory behavior will be reflected in their overall fitness (i.e., individuals with shorter migratory distance have higher survival), and thereby influence the entire population's demography.</p><p>Like in many long&#x02010;lived birds, the first year of life is the most challenging period for a stork (Rotics et al., <xref rid="ece35395-bib-0037" ref-type="ref">2016</xref>; Sergio et al., <xref rid="ece35395-bib-0043" ref-type="ref">2011</xref>). Thus, due to this high mortality, we expect a strong selective pressure on white stork juveniles with differing traits. Thanks to technical and methodological improvements in bio&#x02010;logging, we now have the opportunity to reveal the relationship between migratory decisions and fitness consequences in the context of global changes (Kays, Crofoot, Jetz, &#x00026; Wikelski, <xref rid="ece35395-bib-0024" ref-type="ref">2015</xref>; Wilmers et al., <xref rid="ece35395-bib-0049" ref-type="ref">2015</xref>). And because bio&#x02010;logging devices also have integrated sensors that monitor animal movement activity precisely, we may also gain insights into the birds' internal states and processes (Wilson et al., <xref rid="ece35395-bib-0050" ref-type="ref">2014</xref>). Here, we used the lifetime tracks of 169 white stork juveniles to link migratory decisions (i.e., time, distance, and destination), movement activity, and individual traits to their subsequent survival probabilities.</p></sec><sec sec-type="methods" id="ece35395-sec-0002"><label>2</label><title>METHODS</title><sec id="ece35395-sec-0003"><label>2.1</label><title>Dataset</title><p>From 2013 to 2017, we equipped a total of 193 juvenile white storks from five different regions in Germany and Austria with solar GPS&#x02010;ACC loggers (e&#x02010;obs GmbH). The total weight of transmitter and harness was 66&#x000a0;g, corresponding to approximately 2% of the mean body mass of white storks (for details see Flack et al., <xref rid="ece35395-bib-0015" ref-type="ref">2016</xref>). All tags recorded GPS locations and three&#x02010;dimensional body acceleration for 18&#x000a0;hr a day (between 2:00 and 20:00 UTC). GPS positions were recorded at intervals ranging from 1&#x000a0;s to 20&#x000a0;min; three&#x02010;axial body acceleration data (hereafter ACC) were collected in short bursts (lengths ranging from 1.2 to 4.1&#x000a0;s) every 0.5&#x02013;10&#x000a0;min at 10.54&#x02013;33.33&#x000a0;Hz. Data were stored on the device until downloaded via an ultra&#x02010;high&#x02010;frequency radio link or sent via the mobile phone network. We excluded (a) 13 of the tagged chicks that did not fledge; (b) five individuals from Bavaria which migrated along the eastern migration route (i.e., through Eastern Europe and Israel to East Africa); (c) five individuals with broken tags, or a too tight harness (which we identified after removing the harness of the captured bird); and (d) one bird that departed unusually late (departed at day of the year 277, population mean&#x000a0;&#x000b1;&#x000a0;<italic>SD</italic>: 228.824&#x000a0;&#x000b1;&#x000a0;11.120). Overall, 169 fledglings were included in this study, see details of tagging year and location in Appendix <xref rid="ece35395-sup-0001" ref-type="supplementary-material">S1</xref>: Table S1. Permits for tagging and tracking were issued by the authorities of the corresponding Federal States of Germany.</p></sec><sec id="ece35395-sec-0004"><label>2.2</label><title>Hazard factors influencing survival</title><p>We examined the effect of the following migration decisions on survival: departure date, movement distances, wintering region, and overall movement activity. Migration departure date was defined as the first day with a latitudinal difference of &#x02212;0.38&#x000b0;, representing a southward movement of approximately 50&#x000a0;km. We calculated the daily displacement distances (hereafter daily distance) as the distance between the first GPS locations of two consecutive days. Daily distances were log&#x02010;transformed. Wintering region was defined as the most southern point of the birds' first winter and grouped in three categories, that is, Europe (north of the Strait of Gibraltar), North Africa (between Strait of Gibraltar and 20&#x000b0;N), and Sub&#x02010;Saharan Africa (between 12 and 20&#x000b0;N). Additionally, we examined how different individual traits in early life influence juvenile survival. These included hatching rank, number of siblings, sex, and fledging date (defined as the first of two consecutive days during which the distance to the nest exceeded 500&#x000a0;m). Fledging and departure dates were converted to day of the year (DOY, i.e., 1&#x02013;366).</p><p>To delineate physical movement characteristics, we estimated movement activity levels using overall dynamic body acceleration (hereafter ODBA), often used as a proxy for energy expenditure and a potential indicator of an animal's internal state (Wilson et al., <xref rid="ece35395-bib-0051" ref-type="ref">2006</xref>). To calculate ODBA, we subtracted the daily mean of each acceleration axis from the corresponding raw values to remove the static component of ACC (Wilson et al., <xref rid="ece35395-bib-0051" ref-type="ref">2006</xref>). The sum of all three axes provided a series of ODBA values for each burst. Then we standardized the ODBA value of each burst by dividing it with the product of ACC sampling frequency and burst duration, and calculated the median ODBA per day as daily ODBA. The ODBA calculation was performed using the &#x0201c;moveACC&#x0201d; package in R v. 3.3.3 (Scharf, <xref rid="ece35395-bib-0042" ref-type="ref">2018</xref>).</p></sec><sec id="ece35395-sec-0005"><label>2.3</label><title>Survival analysis</title><p>We defined three life phases to examine which factors impacted survival during these specific life history stages: postfledging period&#x02014;after fledging and before migration onset; migration period&#x02014;between departure date and September 30; and wintering period&#x02014;between October 1 and February 28 of the following year (Rotics et al., <xref rid="ece35395-bib-0039" ref-type="ref">2017</xref>; Sanz&#x02010;Aguilar, Jovani, Meli&#x000e1;n, Pradel, &#x00026; Tella, <xref rid="ece35395-bib-0041" ref-type="ref">2015</xref>). Individuals that vanished or were alive by the end of the specific time periods were censored (Therneau &#x00026; Grambsch, <xref rid="ece35395-bib-0045" ref-type="ref">2013</xref>).</p><p>After visualizing GPS and ACC data, we identified an individual as dead when one of the following criteria was met: (a) accelerometer data showed a flat line for more than 24&#x000a0;hr; (b) GPS positions were located inside a radius of 100&#x000a0;m for more than three consecutive days; or (c) we observed GPS locations along, near, or inside anthropogenic structures before the animal disappeared (e.g., houses, yards, roads identified using Google Earth). We confirmed or detected mortality by localizing the carcass in the field whenever possible. For each mortality event, we defined the death day as the first stationary or motionless day. Individuals that disappeared without any death criteria being met were marked as vanished. In total, 64 individuals survived until the end of their first winter; we identified 58 deaths in the field, 21 deaths using GPS and ACC data, six instances by locating the stork near to human structures (death event criteria iii), and 20 storks vanished due to unknown reasons. We had no incidents of birds losing their loggers. Also, we considered different tagging locations as a metapopulation and not differentiated them.</p><p>We used the Kaplan&#x02013;Meier estimator (Collett, <xref rid="ece35395-bib-0005" ref-type="ref">2015</xref>) to illustrate the overall survival pattern, estimate median survival day and survival rates (since fledging) for each of the specific life history stages. To examine the relationship between survival and the above&#x02010;mentioned covariates, we used a Cox proportional hazards regression model (hereafter Cox model), as it is the most widely used multivariate survival analysis for continuous time&#x02010;to&#x02010;event data (Therneau &#x00026; Grambsch, <xref rid="ece35395-bib-0045" ref-type="ref">2013</xref>). Because the covariates might influence survival differently during different life history stages, we built separate Cox models for each of the three stages. Daily ODBA and daily distances were summarized for each stage by calculating medians. We used restricted cubic splines (three degrees of freedom) to specify fledging and departure date (Harrell, <xref rid="ece35395-bib-0021" ref-type="ref">2015</xref>). We stratified tagging year to control for potential interannual variation. Because conditions in one season may influence subsequent seasons through carry&#x02010;over effects (Klaassen et al., <xref rid="ece35395-bib-0026" ref-type="ref">2014</xref>), we included stage&#x02010;specific covariates into the models of subsequent life stages. The three initial full models are described in detail in Appendix <xref rid="ece35395-sup-0001" ref-type="supplementary-material">S1</xref>: Table S2.</p><p>Regularization and variable selection using Elastic Net were performed using the &#x0201c;glmnet&#x0201d; package in R v.3.3.3 (Friedman, Hastie, &#x00026; Tibshirani, <xref rid="ece35395-bib-0017" ref-type="ref">2009</xref>). If any nonlinear effects were selected, we included all knots of the restricted cubic spline term. Covariates with nonzero coefficients were refitted to the model with the &#x0201c;rms&#x0201d; package, and redundant predictors were dropped (Harrell, <xref rid="ece35395-bib-0021" ref-type="ref">2015</xref>). We used likelihood ratio tests to determine the models' overall statistical significance and Wald tests to determine <italic>p</italic>&#x02010;values of the individual covariates. All diagnostics were performed and plotted using the &#x0201c;survival&#x0201d; and &#x0201c;rms&#x0201d; packages in R v.3.3.3 (Harrell, <xref rid="ece35395-bib-0022" ref-type="ref">2018</xref>; Therneau, <xref rid="ece35395-bib-0044" ref-type="ref">2015</xref>). Visualizations of log&#x02010;relative hazard for each covariate were adjusted by the other covariates of the model, and we used data between the 0.05 and 0.95 quantiles. Detailed information on model diagnostics can be found in Appendix <xref rid="ece35395-sup-0002" ref-type="supplementary-material">S2</xref>. We found the proportional hazard assumption did not hold true for one covariate (Appendix <xref rid="ece35395-sup-0002" ref-type="supplementary-material">S2</xref>: Table S2). We therefore tested the potential causes of the nonproportional hazard and added the interaction term in the final migration stage Cox model (Keele, <xref rid="ece35395-bib-0025" ref-type="ref">2010</xref>).</p><p>Finally, we determined how sensitive the models are to any potential bias caused by nonrandom censoring (Collett, <xref rid="ece35395-bib-0005" ref-type="ref">2015</xref>). Although we found that vanished birds were not randomly distributed, that is, vanished birds had a higher migration distance compared to alive birds (<italic>t</italic>&#x000a0;=&#x000a0;&#x02212;3.355, <italic>df</italic>&#x000a0;=&#x000a0;16.107, <italic>p</italic>&#x000a0;=&#x000a0;0.004), and similar distances as dead individuals (<italic>t</italic>&#x000a0;=&#x000a0;&#x02212;0.066, <italic>df</italic>&#x000a0;=&#x000a0;21.472, <italic>p</italic>&#x000a0;=&#x000a0;0.948), a sensitivity analysis suggested that our findings are robust to dependent censoring (see detailed discussion in Appendix <xref rid="ece35395-sup-0002" ref-type="supplementary-material">S2</xref>).</p></sec></sec><sec sec-type="results" id="ece35395-sec-0006"><label>3</label><title>RESULTS</title><sec id="ece35395-sec-0007"><label>3.1</label><title>Overall migration and survival pattern</title><p>All juvenile white storks migrated along the well&#x02010;described western route, through the western European continent, and many crossed the Gibraltar Strait to reach finally the Sahel region or the coast of West Africa. The majority of deaths (84.88%) occurred on the European continent (Figure <xref rid="ece35395-fig-0001" ref-type="fig">1</xref>). Migration was the riskiest period for juvenile storks as it exhibited the steepest decrease in the survival probability curve (insert Figure <xref rid="ece35395-fig-0001" ref-type="fig">1</xref>, day 31&#x02013;79). This sharp decrease of survival probability slowed down during winter. Cumulated survival rates since fledging for the postfledging period, migration, and winter were 0.875 (95% CI&#x000a0;=&#x000a0;0.827&#x02013;0.927), 0.609 (95% CI&#x000a0;=&#x000a0;0.538&#x02013;0.689), and 0.457 (95% CI&#x000a0;=&#x000a0;0.384&#x02013;0.543), respectively. Median survival time, that is, time point by which half of the storks were expected to survive, was 177&#x000a0;days (corresponding to early January).</p><fig fig-type="Figure" xml:lang="en" id="ece35395-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Movement trajectories of storks during the study period (i.e., postfledging time, first autumn migration, and wintering period). Filled circles indicate the death locations. Trajectories ending with open circles indicate censored individuals (alive or vanished). Trajectories are color&#x02010;coded based on the total number of survival days. The bottom right insert shows the survival curve with 95% confidence interval (shaded area). Short vertical lines indicate censored events. Dashed lines correspond to median survival time. (Background map from Natural Earth)</p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-9-8945-g001"/></fig></sec><sec id="ece35395-sec-0008"><label>3.2</label><title>Hazard factors</title><p>During the postfledging period, 18 of 169 storks died. However, none of the covariates influenced survival during that period significantly. Thus, we mainly focus on migration and the wintering period.</p><p>We found that survival during migration was influenced by daily movement activities (ODBA), daily migration distance, fledging date (as nonlinear effect), and the interaction between daily distance and fledging date (Appendix <xref rid="ece35395-sup-0002" ref-type="supplementary-material">S2</xref>: Table S3, <italic>df</italic>&#x000a0;=&#x000a0;8, <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;0.453, log&#x02010;ratio test <italic>p</italic>&#x000a0;=&#x000a0;0.000). Larger daily ODBA, shorter daily migration distance, and early fledging dates were linked to reduced mortality risks during migration (Figure <xref rid="ece35395-fig-0002" ref-type="fig">2</xref>a&#x02013;c). In addition, the relationship between migration distance and mortality was influenced by fledging date (Figure <xref rid="ece35395-fig-0002" ref-type="fig">2</xref>d), showing that survival was relatively independent of migration distance around the median fledging date July 15th. Storks that fledged earlier and migrated less than the median of the population had the lowest mortality risk.</p><fig fig-type="Figure" xml:lang="en" id="ece35395-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Estimated log&#x02010;relative hazard of each covariate of the Cox model for the first autumn migration (a&#x02013;d) and first winter (e, f), with histogram of data distribution at the bottom: (a) median daily migration overall dynamic body acceleration (ODBA), (b) fledging date, (c) median daily migration distance, (d) interaction between fledging date and migration distance, (e) median daily wintering ODBA, and (f) wintering region, that is, Europe (EU), North Africa (NA), and Sub&#x02010;Saharan Africa (SA). Black line or points represent the predicted values adjusted by the mean or the reference level of other model covariates. Gray bands or bars correspond to the 95% confidence limit. Dashed vertical or horizontal lines show the median value of covariates. DOY&#x02010;day of the year</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-9-8945-g002"/></fig><p>We found that during winter, median ODBA and wintering region affected juvenile survival (Appendix <xref rid="ece35395-sup-0002" ref-type="supplementary-material">S2</xref>: Table S5, <italic>df</italic>&#x000a0;=&#x000a0;3, <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;0.202, log&#x02010;ratio test <italic>p</italic>&#x000a0;=&#x000a0;0.007). Similar to migration, larger median daily ODBA reduced the mortality risk, after controlling for wintering regions (Figure <xref rid="ece35395-fig-0002" ref-type="fig">2</xref>e). Individuals overwintering in Europe and North Africa had lower mortality hazards compared to those staying in the traditional wintering grounds of Sub&#x02010;Saharan Africa (Figure <xref rid="ece35395-fig-0002" ref-type="fig">2</xref>f).</p></sec></sec><sec sec-type="discussion" id="ece35395-sec-0009"><label>4</label><title>DISCUSSION</title><p>By exploring the lifetime tracks of juvenile white storks, we obtained a robust estimation of true survival rates and identified hazard factors in the early life stages of this long&#x02010;lived migrant. Our results showed that the first southward migration is the riskiest period for juvenile white storks. In agreement with our hypothesis, we found that mortality risk increases with migration distance, a finding that is in accordance with other long&#x02010;distance migrants (Klaassen et al., <xref rid="ece35395-bib-0026" ref-type="ref">2014</xref>; Lok et al., <xref rid="ece35395-bib-0027" ref-type="ref">2015</xref>). This relationship was also reflected in the effect of the chosen wintering region. Low survival probabilities of storks overwintering in Sub&#x02010;Saharan Africa may drive the overall change in migration strategy that has been observed in the last three decades. It may also explain why only a small number of our study individuals (15.79%) moved toward Sub&#x02010;Saharan Africa, whereas the majority of juveniles adopted the &#x0201c;closer&#x02010;to&#x02010;home&#x0201d; strategy, that is, terminated their migratory journey on the Iberian Peninsula (55.26%) or in North Africa (28.95%), where they experienced lower mortality rate during winter.</p><p>Even though successful storks migrate shorter distances and benefitting from sufficient food and warmer temperatures in these southerly European regions (Mart&#x000ed;n, Onrubia, &#x00026; Ferrer, <xref rid="ece35395-bib-0028" ref-type="ref">2016</xref>), we observed that higher movement activities (ODBA) during migration and wintering lowered their mortality risks. Because the flight costs for soaring migrants are relatively low (Duriez et al., <xref rid="ece35395-bib-0007" ref-type="ref">2014</xref>), we suggest that high values of daily ODBA point toward more intensive foraging behavior during both the migration and wintering period. Previous studies found that storks with lower flight ODBA survive better (Rotics et al., <xref rid="ece35395-bib-0037" ref-type="ref">2016</xref>), or travel further (Flack, Nagy, Fiedler, Couzin, &#x00026; Wikelski, <xref rid="ece35395-bib-0016" ref-type="ref">2018</xref>), but our findings cannot be directly linked to individual flight performance, as our metric for median daily ODBA did not only include flight but the birds' overall activities.</p><p>Like in other species (Menu, Gauthier, &#x00026; Reed, <xref rid="ece35395-bib-0030" ref-type="ref">2005</xref>; Naef&#x02010;Daenzer, Widmer, &#x00026; Nuber, <xref rid="ece35395-bib-0031" ref-type="ref">2001</xref>), later fledging juveniles experienced higher mortality risks. This relationship was influenced by migration distance: if individuals fledged before or after the median fledging date, their survival was influenced more strongly by migratory distance, indicating that their optimal migratory strategy was state&#x02010;dependent (Figure <xref rid="ece35395-fig-0002" ref-type="fig">2</xref>d). None of the other examined individual traits, that is, sex, hatch rank, numbers of siblings, or departure date influenced short&#x02010;term survival. This may be because storks can potentially compensate for differences in nestling body conditions later on in life (Aguirre &#x00026; Vergara, <xref rid="ece35395-bib-0001" ref-type="ref">2007</xref>), although we did not observe a relationship between hatching rank and migratory distance, as suggested in that study.</p><p>As an opportunistic species, white storks exhibit high levels of behavioral flexibility and can potentially adapt relatively fast to changing environments (Cuadrado, S&#x000e1;nchez, Barcell, &#x00026; Armario, <xref rid="ece35395-bib-0006" ref-type="ref">2016</xref>; Mart&#x000ed;n et al., <xref rid="ece35395-bib-0028" ref-type="ref">2016</xref>). In the mid&#x02010;twentieth century, droughts in the Sahel region had a strong negative effect on the western subpopulation of white stork. Although precipitation conditions gradually improved (Nevoux, Barbraud, &#x00026; Barbraud, <xref rid="ece35395-bib-0032" ref-type="ref">2008</xref>), hunting pressure has increased drastically in this region (Zwarts, Bijlsma, Kamp, &#x00026; Wymenga, <xref rid="ece35395-bib-0052" ref-type="ref">2012</xref>), representing a new significant threat to migrating birds. Our data show that 41.67% of the storks that overwintered in Sub&#x02010;Saharan Africa died due to hunting (five out of 12). Thus, given the effect of wintering region on survival, we expect that the number of juveniles overwintering in Europe keeps increasing. It has also been suggested that adults which overwinter closer to home or even stay completely at their breeding grounds might experience benefits during the upcoming breeding season (Arizaga et al., <xref rid="ece35395-bib-0002" ref-type="ref">2018</xref>; Rotics et al., <xref rid="ece35395-bib-0038" ref-type="ref">2018</xref>) and that migratory distance of white storks decreases with age (Fiedler, <xref rid="ece35395-bib-0008" ref-type="ref">2001</xref>). We therefore suggest that both the potential breeding benefits for adults and the higher juvenile survival contribute to the increasing number of wintering white storks in Europe and that a shortening of migratory distance could be the optimal migration strategy for the current western European white stork population.</p><p>In the past few decades, we have witnessed that white storks change their behavior as a response to human&#x02010;caused alterations in their environmental surroundings, yet the future development of these behavioral changes is unclear. The number of white storks overwintering in Portugal has already increased tenfold in the last two decades (Catry et al., <xref rid="ece35395-bib-0003" ref-type="ref">2017</xref>). It has also been documented that an increasing number of individuals of the Spanish subpopulation use their nests all year round (Gilbert et al., <xref rid="ece35395-bib-0018" ref-type="ref">2016</xref>), suggesting an intensified competition among breeders. Density&#x02010;dependent intraspecific competitions and the foreseeable closure of landfill locations (Gilbert et al., <xref rid="ece35395-bib-0018" ref-type="ref">2016</xref>; Sanz&#x02010;Aguilar et al., <xref rid="ece35395-bib-0041" ref-type="ref">2015</xref>) might cause further alterations of white stork migration and survival patterns. Although for Egypt vultures <italic>Neophron percnopterus</italic> no negative short&#x02010;term effects of the landfill closures have been documented (Katzenberger et al., <xref rid="ece35395-bib-0023" ref-type="ref">2017</xref>), it is hard to predict the future consequences for white storks. Their highly flexible behavior might enable them to regain a long&#x02010;distance migratory strategy once selection pressures change again. Thus, further studies are essential to investigate how environmental or social conditions influence the life history strategies of white storks from different populations (Chapman et al., <xref rid="ece35395-bib-0004" ref-type="ref">2011</xref>; Gillis, Green, Middleton, &#x00026; Morrissey, <xref rid="ece35395-bib-0019" ref-type="ref">2008</xref>).</p></sec><sec sec-type="COI-statement" id="ece35395-sec-0010"><title>CONFLICT OF INTEREST</title><p>None declared.</p></sec><sec id="ece35395-sec-0011"><title>AUTHORS' CONTRIBUTION</title><p>All authors contributed to study design, conception and gave approval for publication. W.F. and A.F collected data. Y.C and A.F conducted the analysis and wrote the manuscript in collaboration with all.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ece35395-sup-0001"><caption><p>&#x02009;</p></caption><media xlink:href="ECE3-9-8945-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="ece35395-sup-0002"><caption><p>&#x02009;</p></caption><media xlink:href="ECE3-9-8945-s002.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ece35395-sec-0014"><title>ACKNOWLEDGMENTS</title><p>We sincerely thank all the collaborators, researchers, and volunteers who helped with tagging white storks, confirming death events in the field and retrieving the tags. We thank Anne Scharf for her help in processing the acceleration data, Shawn T. O'Neil for his help with statistics, Adriana Maldonado Chaparro, Wouter Vansteelant and Michael Chimento for constructive discussions. Thanks to Simeon Lisovski and Alex Jahn for their important and helpful comments. We thank the DFG Centre of Excellence 2117 &#x0201c;Centre for the Advanced Study of Collective Behaviour" (ID: 422037984). Y.C. acknowledges supports from the Chinese Scholarship Council, Max Planck Society, and IMPRS for Organismal Biology. A.F. was supported by the German Aerospace Center (DLR) and the Christiane N&#x000fc;sslein&#x02010;Volhard Stiftung.</p></ack><sec sec-type="data-availability" id="ece35395-sec-2019"><title>DATA ACCESSIBILITY</title><p>The data used for this study are available through the Movebank Data Repository (<ext-link ext-link-type="uri" xlink:href="https://www.movebank.org">https://www.movebank.org</ext-link>): with <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5441/001/1.v1cs4nn0">https://doi.org/10.5441/001/1.v1cs4nn0</ext-link>, <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5441/001/1.c42j3js7">https://doi.org/10.5441/001/1.c42j3js7</ext-link>, <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5441/001/1.4192t2j4">https://doi.org/10.5441/001/1.4192t2j4</ext-link>, <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5441/001/1.ck04mn78">https://doi.org/10.5441/001/1.ck04mn78</ext-link>, <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5441/001/1.71r7pp6q">https://doi.org/10.5441/001/1.71r7pp6q</ext-link> (Fiedler, Flack, Sch&#x000e4;fle, et al., <xref rid="ece35395-bib-0010" ref-type="ref">2019</xref>; Fiedler, Flack, Schmid, Reinhard, &#x00026; Wikelski, <xref rid="ece35395-bib-0011" ref-type="ref">2019</xref>; Fiedler, Hilsendegen, et al., <xref rid="ece35395-bib-0012" ref-type="ref">2019</xref>; Fiedler, Leppelsack, et al., <xref rid="ece35395-bib-0013" ref-type="ref">2019</xref>; Fiedler, Niederer, Sch&#x000f6;nenberger, Flack, &#x00026; Wikelski, <xref rid="ece35395-bib-0014" ref-type="ref">2019</xref>).</p></sec><ref-list content-type="cited-references" id="ece35395-bibl-0001"><title>REFERENCES</title><ref id="ece35395-bib-0001"><mixed-citation publication-type="journal" id="ece35395-cit-0001">
+<string-name>
+<surname>Aguirre</surname>, <given-names>J. I.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Vergara</surname>, <given-names>P.</given-names>
+</string-name> (<year>2007</year>). <article-title>Younger, weaker white stork (<italic>Ciconia ciconia</italic>) nestlings become the best breeders</article-title>. <source xml:lang="en">Evolutionary Ecology Research</source>, <volume>9</volume>, <fpage>355</fpage>&#x02013;<lpage>364</lpage>.</mixed-citation></ref><ref id="ece35395-bib-0002"><mixed-citation publication-type="journal" id="ece35395-cit-0002">
+<string-name>
+<surname>Arizaga</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Resano&#x02010;Mayor</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Villan&#x000fa;a</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Alonso</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Barbarin</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Herrero</surname>, <given-names>A.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Rodr&#x000ed;guez</surname>, <given-names>R.</given-names>
+</string-name> (<year>2018</year>). <article-title>Importance of artificial stopover sites through avian migration flyways: A landfill&#x02010;based assessment with the White Stork <italic>Ciconia ciconia</italic>
+</article-title>. <source xml:lang="en">Ibis</source>, <volume>160</volume>, <fpage>542</fpage>&#x02013;<lpage>553</lpage>.</mixed-citation></ref><ref id="ece35395-bib-0003"><mixed-citation publication-type="journal" id="ece35395-cit-0003">
+<string-name>
+<surname>Catry</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Encarna&#x000e7;&#x000e3;o</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Pacheco</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Catry</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Tenreiro</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>da Silva</surname>, <given-names>L. P.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Moreira</surname>, <given-names>F.</given-names>
+</string-name> (<year>2017</year>). <article-title>Recent changes on migratory behaviour of the White stork (<italic>Ciconia ciconia</italic>) in Portugal: Towards the end of migration?</article-title>
+<source xml:lang="en">Airo</source>, <volume>24</volume>, <fpage>28</fpage>&#x02013;<lpage>35</lpage>.</mixed-citation></ref><ref id="ece35395-bib-0004"><mixed-citation publication-type="journal" id="ece35395-cit-0004">
+<string-name>
+<surname>Chapman</surname>, <given-names>B. B.</given-names>
+</string-name>, <string-name>
+<surname>Br&#x000f6;nmark</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Nilsson</surname>, <given-names>J.&#x02010;&#x000c5;.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hansson</surname>, <given-names>L.&#x02010;A.</given-names>
+</string-name> (<year>2011</year>). <article-title>The ecology and evolution of partial migration</article-title>. <source xml:lang="en">Oikos</source>, <volume>120</volume>, <fpage>1764</fpage>&#x02013;<lpage>1775</lpage>. <pub-id pub-id-type="doi">10.1111/j.1600-0706.2011.20131.x</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0005"><mixed-citation publication-type="book" id="ece35395-cit-0005">
+<string-name>
+<surname>Collett</surname>, <given-names>D.</given-names>
+</string-name> (<year>2015</year>). <source xml:lang="en">Modelling survival data in medical research</source> (<edition>3rd ed.</edition>). <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Chapman and Hall/CRC</publisher-name>.</mixed-citation></ref><ref id="ece35395-bib-0006"><mixed-citation publication-type="journal" id="ece35395-cit-0006">
+<string-name>
+<surname>Cuadrado</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>S&#x000e1;nchez</surname>, <given-names>&#x000cd;.</given-names>
+</string-name>, <string-name>
+<surname>Barcell</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Armario</surname>, <given-names>M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Reproductive data and analysis of recoveries in a population of white stork, <italic>Ciconia ciconia</italic>, in southern Spain: A 24 &#x02013; year study</article-title>. <source xml:lang="en">Animal Biodiversity and Conservation</source>, <volume>39</volume>, <fpage>37</fpage>&#x02013;<lpage>44</lpage>.</mixed-citation></ref><ref id="ece35395-bib-0007"><mixed-citation publication-type="journal" id="ece35395-cit-0007">
+<string-name>
+<surname>Duriez</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Kato</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Tromp</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Dell'Omo</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Vyssotski</surname>, <given-names>A. L.</given-names>
+</string-name>, <string-name>
+<surname>Sarrazin</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ropert&#x02010;Coudert</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2014</year>). <article-title>How cheap is soaring flight in raptors? A preliminary investigation in freely&#x02010;flying vultures</article-title>. <source xml:lang="en">PLoS ONE</source>, <volume>9</volume>, <elocation-id>e84887</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0084887</pub-id>
+<pub-id pub-id-type="pmid">24454760</pub-id></mixed-citation></ref><ref id="ece35395-bib-0008"><mixed-citation publication-type="journal" id="ece35395-cit-0008">
+<string-name>
+<surname>Fiedler</surname>, <given-names>W.</given-names>
+</string-name> (<year>2001</year>). <article-title>Large&#x02010;scale ringing recovery analysis of European white storks (<italic>Ciconia ciconia</italic>)</article-title>. <source xml:lang="en">The Ring</source>, <volume>23</volume>, <fpage>73</fpage>&#x02013;<lpage>79</lpage>.</mixed-citation></ref><ref id="ece35395-bib-0009"><mixed-citation publication-type="book" id="ece35395-cit-0009">
+<string-name>
+<surname>Fiedler</surname>, <given-names>W.</given-names>
+</string-name> (<year>2003</year>). <chapter-title>Recent changes in migratory behaviour of birds: A compilation of field observations and ringing data</chapter-title> In <person-group person-group-type="editor"><name><surname>Berthold</surname><given-names>P.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Gwinner</surname><given-names>E.</given-names></name></person-group> &#x00026; <person-group person-group-type="editor"><name><surname>Sonnenschein</surname><given-names>E.</given-names></name></person-group> (Eds.), <source xml:lang="en">Avian migration</source> (pp. <fpage>21</fpage>&#x02013;<lpage>38</lpage>). <publisher-loc>Berlin, Heidelberg. Germany</publisher-loc>: <publisher-name>Springer</publisher-name>.</mixed-citation></ref><ref id="ece35395-bib-0010"><mixed-citation publication-type="journal" id="ece35395-cit-0010">
+<string-name>
+<surname>Fiedler</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Flack</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Sch&#x000e4;fle</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Keeves</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Quetting</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Eid</surname>, <given-names>B.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Wikelski</surname>, <given-names>M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Data from: LifeTrack White Stork Southwest Germany</article-title>. <source xml:lang="en">Movebank Data Repository</source>, <pub-id pub-id-type="doi">10.5441/001/1.ck04mn78</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0011"><mixed-citation publication-type="journal" id="ece35395-cit-0011">
+<string-name>
+<surname>Fiedler</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Flack</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Schmid</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Reinhard</surname>, <given-names>U.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wikelski</surname>, <given-names>M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Data from: LifeTrack White Stork Oberschwaben</article-title>. <source xml:lang="en">Movebank Data Repository</source>, <pub-id pub-id-type="doi">10.5441/001/1.c42j3js7</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0012"><mixed-citation publication-type="journal" id="ece35395-cit-0012">
+<string-name>
+<surname>Fiedler</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Hilsendegen</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Reis</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Lehmann</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Hilsendegen</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Schmid</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wikelski</surname>, <given-names>M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Data from: LifeTrack White Stork Rheinland&#x02010;Pfalz</article-title>. <source xml:lang="en">Movebank Data Repository</source>, <pub-id pub-id-type="doi">10.5441/001/1.4192t2j4</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0013"><mixed-citation publication-type="journal" id="ece35395-cit-0013">
+<string-name>
+<surname>Fiedler</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Leppelsack</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Leppelsack</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Stahl</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Wieding</surname>, <given-names>O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wikelski</surname>, <given-names>M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Data from: LifeTrack White Stork Bavaria</article-title>. <source xml:lang="en">Movebank Data Repository</source>, <pub-id pub-id-type="doi">10.5441/001/1.v1cs4nn0</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0014"><mixed-citation publication-type="journal" id="ece35395-cit-0014">
+<string-name>
+<surname>Fiedler</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Niederer</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Sch&#x000f6;nenberger</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Flack</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wikelski</surname>, <given-names>M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Data from: LifeTrack White Stork Vorarlberg</article-title>. <source xml:lang="en">Movebank Data Repository</source>, <pub-id pub-id-type="doi">10.5441/001/1.71r7pp6q</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0015"><mixed-citation publication-type="journal" id="ece35395-cit-0015">
+<string-name>
+<surname>Flack</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Fiedler</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Blas</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Pokrovsky</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Kaatz</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Mitropolsky</surname>, <given-names>M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Wikelski</surname>, <given-names>M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Costs of migratory decisions: A comparison across eight white stork populations</article-title>. <source xml:lang="en">Science Advances</source>, <volume>2</volume>, <elocation-id>e1500931</elocation-id>
+<pub-id pub-id-type="doi">10.1126/sciadv.1500931</pub-id>
+<pub-id pub-id-type="pmid">26844294</pub-id></mixed-citation></ref><ref id="ece35395-bib-0016"><mixed-citation publication-type="journal" id="ece35395-cit-0016">
+<string-name>
+<surname>Flack</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Nagy</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Fiedler</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Couzin</surname>, <given-names>I. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wikelski</surname>, <given-names>M.</given-names>
+</string-name> (<year>2018</year>). <article-title>From local collective behavior to global migratory patterns in white storks</article-title>. <source xml:lang="en">Science</source>, <volume>360</volume>, <fpage>911</fpage>&#x02013;<lpage>914</lpage>. <pub-id pub-id-type="doi">10.1126/science.aap7781</pub-id>
+<pub-id pub-id-type="pmid">29798883</pub-id></mixed-citation></ref><ref id="ece35395-bib-0017"><mixed-citation publication-type="book" id="ece35395-cit-0017">
+<string-name>
+<surname>Friedman</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Hastie</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Tibshirani</surname>, <given-names>R.</given-names>
+</string-name> (<year>2009</year>). <source xml:lang="en">glmnet: Lasso and elastic&#x02010;net regularized generalized linear models</source>. R package version 1.</mixed-citation></ref><ref id="ece35395-bib-0018"><mixed-citation publication-type="journal" id="ece35395-cit-0018">
+<string-name>
+<surname>Gilbert</surname>, <given-names>N. I.</given-names>
+</string-name>, <string-name>
+<surname>Correia</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Silva</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name>
+<surname>Pacheco</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Catry</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Atkinson</surname>, <given-names>P. W.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Franco</surname>, <given-names>A. M. A.</given-names>
+</string-name> (<year>2016</year>). <article-title>Are white storks addicted to junk food? Impacts of landfill use on the movement and behaviour of resident white storks (<italic>Ciconia ciconia</italic>) from a partially migratory population</article-title>. <source xml:lang="en">Movement Ecology</source>, <volume>4</volume>, <fpage>7</fpage>
+<pub-id pub-id-type="doi">10.1186/s40462-016-0070-0</pub-id>
+<pub-id pub-id-type="pmid">26981250</pub-id></mixed-citation></ref><ref id="ece35395-bib-0019"><mixed-citation publication-type="journal" id="ece35395-cit-0019">
+<string-name>
+<surname>Gillis</surname>, <given-names>E. A.</given-names>
+</string-name>, <string-name>
+<surname>Green</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<surname>Middleton</surname>, <given-names>H. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Morrissey</surname>, <given-names>C. A.</given-names>
+</string-name> (<year>2008</year>). <article-title>Life history correlates of alternative migratory strategies in American dippers</article-title>. <source xml:lang="en">Ecology</source>, <volume>89</volume>, <fpage>1687</fpage>&#x02013;<lpage>1695</lpage>. <pub-id pub-id-type="doi">10.1890/07-1122.1</pub-id>
+<pub-id pub-id-type="pmid">18589532</pub-id></mixed-citation></ref><ref id="ece35395-bib-0020"><mixed-citation publication-type="journal" id="ece35395-cit-0020">
+<string-name>
+<surname>Gilroy</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name>
+<surname>Gill</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Butchart</surname>, <given-names>S. H. M.</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>, <given-names>V. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Franco</surname>, <given-names>A. M. A.</given-names>
+</string-name> (<year>2016</year>). <article-title>Migratory diversity predicts population declines in birds</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>19</volume>, <fpage>308</fpage>&#x02013;<lpage>317</lpage>. <pub-id pub-id-type="doi">10.1111/ele.12569</pub-id>
+<pub-id pub-id-type="pmid">26807694</pub-id></mixed-citation></ref><ref id="ece35395-bib-0021"><mixed-citation publication-type="book" id="ece35395-cit-0021">
+<string-name>
+<surname>Harrell</surname>, <given-names>F. E.</given-names>
+</string-name> (<year>2015</year>). <source xml:lang="en">Regression modeling strategies: With applications to linear models, logistic and ordinal regression, and survival analysis</source> (<edition>2nd ed.</edition>). <publisher-loc>Basel, Switzerland</publisher-loc>: <publisher-name>Springer International Publishing AG</publisher-name>.</mixed-citation></ref><ref id="ece35395-bib-0022"><mixed-citation publication-type="book" id="ece35395-cit-0022">
+<string-name>
+<surname>Harrell</surname>, <given-names>F. E.</given-names>
+</string-name> (<year>2018</year>). <source xml:lang="en">rms: Regression modeling strategies</source>. R package version 5.1&#x02010;2.</mixed-citation></ref><ref id="ece35395-bib-0023"><mixed-citation publication-type="journal" id="ece35395-cit-0023">
+<string-name>
+<surname>Katzenberger</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Tabur</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>&#x0015e;en</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Isfendiyaro&#x0011f;lu</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Erkol</surname>, <given-names>I. L.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Oppel</surname>, <given-names>S.</given-names>
+</string-name> (<year>2017</year>). <article-title>No short&#x02010;term effect of closing a rubbish dump on reproductive parameters of an Egyptian vulture population in Turkey</article-title>. <source xml:lang="en">Bird Conservation International</source>, <volume>29</volume>(<issue>1</issue>), <fpage>71</fpage>&#x02013;<lpage>82</lpage>. <pub-id pub-id-type="doi">10.1017/S0959270917000326</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0024"><mixed-citation publication-type="journal" id="ece35395-cit-0024">
+<string-name>
+<surname>Kays</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Crofoot</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name>
+<surname>Jetz</surname>, <given-names>W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wikelski</surname>, <given-names>M.</given-names>
+</string-name> (<year>2015</year>). <article-title>Terrestrial animal tracking as an eye on life and planet</article-title>. <source xml:lang="en">Science</source>, <volume>348</volume>, <fpage>aaa2478</fpage>
+<pub-id pub-id-type="doi">10.1126/science.aaa2478</pub-id>
+<pub-id pub-id-type="pmid">26068858</pub-id></mixed-citation></ref><ref id="ece35395-bib-0025"><mixed-citation publication-type="journal" id="ece35395-cit-0025">
+<string-name>
+<surname>Keele</surname>, <given-names>L.</given-names>
+</string-name> (<year>2010</year>). <article-title>Proportionally difficult: Testing for nonproportional hazards in cox models</article-title>. <source xml:lang="en">Political Analysis</source>, <volume>18</volume>, <fpage>189</fpage>&#x02013;<lpage>205</lpage>. <pub-id pub-id-type="doi">10.1093/pan/mpp044</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0026"><mixed-citation publication-type="journal" id="ece35395-cit-0026">
+<string-name>
+<surname>Klaassen</surname>, <given-names>R. H. G.</given-names>
+</string-name>, <string-name>
+<surname>Hake</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Strandberg</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Koks</surname>, <given-names>B. J.</given-names>
+</string-name>, <string-name>
+<surname>Trierweiler</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Exo</surname>, <given-names>K.&#x02010;M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Alerstam</surname>, <given-names>T.</given-names>
+</string-name> (<year>2014</year>). <article-title>When and where does mortality occur in migratory birds? Direct evidence from long&#x02010;term satellite tracking of raptors</article-title>. <source xml:lang="en">Journal of Animal Ecology</source>, <volume>83</volume>, <fpage>176</fpage>&#x02013;<lpage>184</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2656.12135</pub-id>
+<pub-id pub-id-type="pmid">24102110</pub-id></mixed-citation></ref><ref id="ece35395-bib-0027"><mixed-citation publication-type="journal" id="ece35395-cit-0027">
+<string-name>
+<surname>Lok</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Overdijk</surname>, <given-names>O.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Piersma</surname>, <given-names>T.</given-names>
+</string-name> (<year>2015</year>). <article-title>The cost of migration: Spoonbills suffer higher mortality during trans&#x02010;Saharan spring migrations only</article-title>. <source xml:lang="en">Biology Letters</source>, <volume>11</volume>, <fpage>20140944</fpage>
+<pub-id pub-id-type="doi">10.1098/rsbl.2014.0944</pub-id>
+<pub-id pub-id-type="pmid">25589489</pub-id></mixed-citation></ref><ref id="ece35395-bib-0028"><mixed-citation publication-type="journal" id="ece35395-cit-0028">
+<string-name>
+<surname>Mart&#x000ed;n</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Onrubia</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Ferrer</surname>, <given-names>M.</given-names>
+</string-name> (<year>2016</year>). <article-title>Migration timing responses to climate change differ between adult and juvenile white storks across Western Europe</article-title>. <source xml:lang="en">Climate Research</source>, <volume>69</volume>, <fpage>9</fpage>&#x02013;<lpage>23</lpage>. <pub-id pub-id-type="doi">10.3354/cr01390</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0029"><mixed-citation publication-type="journal" id="ece35395-cit-0029">
+<string-name>
+<surname>Massemin&#x02010;Challet</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Gendner</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name>
+<surname>Samtmann</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Pichegru</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Wulgu&#x000e9;</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Le Maho</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2006</year>). <article-title>The effect of migration strategy and food availability on white stork <italic>Ciconia ciconia</italic> breeding success</article-title>. <source xml:lang="en">Ibis</source>, <volume>148</volume>, <fpage>503</fpage>&#x02013;<lpage>508</lpage>. <pub-id pub-id-type="doi">10.1111/j.1474-919X.2006.00550.x</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0030"><mixed-citation publication-type="journal" id="ece35395-cit-0030">
+<string-name>
+<surname>Menu</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Gauthier</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Reed</surname>, <given-names>A.</given-names>
+</string-name> (<year>2005</year>). <article-title>Survival of young greater snow geese (<italic>Chen caerulescens atlantica</italic>) during fall migration</article-title>. <source xml:lang="en">The Auk</source>, <volume>122</volume>, <fpage>479</fpage>&#x02013;<lpage>496</lpage>. <pub-id pub-id-type="doi">10.1642/0004-8038(2005)122[0479:SOYGSG]2.0.CO;2</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0031"><mixed-citation publication-type="journal" id="ece35395-cit-0031">
+<string-name>
+<surname>Naef&#x02010;Daenzer</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Widmer</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Nuber</surname>, <given-names>M.</given-names>
+</string-name> (<year>2001</year>). <article-title>Differential post&#x02010;fledging survival of great and coal tits in relation to their condition and fledging date</article-title>. <source xml:lang="en">Journal of Animal Ecology</source>, <volume>70</volume>, <fpage>730</fpage>&#x02013;<lpage>738</lpage>. <pub-id pub-id-type="doi">10.1046/j.0021-8790.2001.00533.x</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0032"><mixed-citation publication-type="journal" id="ece35395-cit-0032">
+<string-name>
+<surname>Nevoux</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Barbraud</surname>, <given-names>J.&#x02010;C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Barbraud</surname>, <given-names>C.</given-names>
+</string-name> (<year>2008</year>). <article-title>Nonlinear impact of climate on survival in a migratory white stork population</article-title>. <source xml:lang="en">Journal of Animal Ecology</source>, <volume>77</volume>, <fpage>1143</fpage>&#x02013;<lpage>1152</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2656.2008.01435.x</pub-id>
+<pub-id pub-id-type="pmid">18624741</pub-id></mixed-citation></ref><ref id="ece35395-bib-0033"><mixed-citation publication-type="book" id="ece35395-cit-0033">
+<string-name>
+<surname>Newton</surname>, <given-names>I.</given-names>
+</string-name> (<year>2008</year>). <source xml:lang="en">The migration ecology of birds</source>. <publisher-loc>London, UK</publisher-loc>: <publisher-name>Academic Press</publisher-name>.</mixed-citation></ref><ref id="ece35395-bib-0034"><mixed-citation publication-type="journal" id="ece35395-cit-0034">
+<string-name>
+<surname>Oro</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Genovart</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Tavecchia</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Fowler</surname>, <given-names>M. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Mart&#x000ed;nez&#x02010;Abra&#x000ed;n</surname>, <given-names>A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Ecological and evolutionary implications of food subsidies from humans</article-title>. <source xml:lang="en">Ecology Letters</source>, <volume>16</volume>, <fpage>1501</fpage>&#x02013;<lpage>1514</lpage>. <pub-id pub-id-type="doi">10.1111/ele.12187</pub-id>
+<pub-id pub-id-type="pmid">24134225</pub-id></mixed-citation></ref><ref id="ece35395-bib-0035"><mixed-citation publication-type="journal" id="ece35395-cit-0035">
+<string-name>
+<surname>Otto</surname>, <given-names>S. P.</given-names>
+</string-name> (<year>2018</year>). <article-title>Adaptation, speciation and extinction in the Anthropocene</article-title>. <source xml:lang="en">Proceedings of the Royal Society B: Biological Sciences</source>, <volume>285</volume>, <fpage>20182047</fpage>.</mixed-citation></ref><ref id="ece35395-bib-0036"><mixed-citation publication-type="journal" id="ece35395-cit-0036">
+<string-name>
+<surname>Palac&#x000ed;n</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Alonso</surname>, <given-names>J. C.</given-names>
+</string-name>, <string-name>
+<surname>Mart&#x000ed;n</surname>, <given-names>C. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Alonso</surname>, <given-names>J. A.</given-names>
+</string-name> (<year>2017</year>). <article-title>Changes in bird&#x02010;migration patterns associated with human&#x02010;induced mortality</article-title>. <source xml:lang="en">Conservation Biology</source>, <volume>31</volume>, <fpage>106</fpage>&#x02013;<lpage>115</lpage>. <pub-id pub-id-type="doi">10.1111/cobi.12758</pub-id>
+<pub-id pub-id-type="pmid">27189508</pub-id></mixed-citation></ref><ref id="ece35395-bib-0037"><mixed-citation publication-type="journal" id="ece35395-cit-0037">
+<string-name>
+<surname>Rotics</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kaatz</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Resheff</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Turjeman</surname>, <given-names>S. F.</given-names>
+</string-name>, <string-name>
+<surname>Zurell</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Sapir</surname>, <given-names>N.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Nathan</surname>, <given-names>R.</given-names>
+</string-name> (<year>2016</year>). <article-title>The challenges of the first migration: Movement and behaviour of juvenile vs. adult white storks with insights regarding juvenile mortality</article-title>. <source xml:lang="en">Journal of Animal Ecology</source>, <volume>85</volume>, <fpage>938</fpage>&#x02013;<lpage>947</lpage>.<pub-id pub-id-type="pmid">27046512</pub-id></mixed-citation></ref><ref id="ece35395-bib-0038"><mixed-citation publication-type="journal" id="ece35395-cit-0038">
+<string-name>
+<surname>Rotics</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kaatz</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Turjeman</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Zurell</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Wikelski</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Sapir</surname>, <given-names>N.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Nathan</surname>, <given-names>R.</given-names>
+</string-name> (<year>2018</year>). <article-title>Early arrival at breeding grounds: Causes, costs and a trade&#x02010;off with overwintering latitude</article-title>. <source xml:lang="en">Journal of Animal Ecology</source>, <volume>87</volume>, <fpage>1627</fpage>&#x02013;<lpage>1638</lpage>. <pub-id pub-id-type="doi">10.1111/1365-2656.12898</pub-id>
+<pub-id pub-id-type="pmid">30120893</pub-id></mixed-citation></ref><ref id="ece35395-bib-0039"><mixed-citation publication-type="journal" id="ece35395-cit-0039">
+<string-name>
+<surname>Rotics</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Turjeman</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kaatz</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Resheff</surname>, <given-names>Y. S.</given-names>
+</string-name>, <string-name>
+<surname>Zurell</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Sapir</surname>, <given-names>N.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Nathan</surname>, <given-names>R.</given-names>
+</string-name> (<year>2017</year>). <article-title>Wintering in Europe instead of Africa enhances juvenile survival in a long&#x02010;distance migrant</article-title>. <source xml:lang="en">Animal Behaviour</source>, <volume>126</volume>, <fpage>79</fpage>&#x02013;<lpage>88</lpage>. <pub-id pub-id-type="doi">10.1016/j.anbehav.2017.01.016</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0040"><mixed-citation publication-type="journal" id="ece35395-cit-0040">
+<string-name>
+<surname>Saino</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Ambrosini</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Rubolini</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>von Hardenberg</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Provenzale</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>H&#x000fc;ppop</surname>, <given-names>K.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Sokolov</surname>, <given-names>L.</given-names>
+</string-name> (<year>2011</year>). <article-title>Climate warming, ecological mismatch at arrival and population decline in migratory birds</article-title>. <source xml:lang="en">Proceedings of the Royal Society B: Biological Sciences</source>, <volume>278</volume>, <fpage>835</fpage>&#x02013;<lpage>842</lpage>. <pub-id pub-id-type="doi">10.1098/rspb.2010.1778</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0041"><mixed-citation publication-type="journal" id="ece35395-cit-0041">
+<string-name>
+<surname>Sanz&#x02010;Aguilar</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Jovani</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Meli&#x000e1;n</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name>
+<surname>Pradel</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Tella</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2015</year>). <article-title>Multievent capture&#x02010;recapture analysis reveals individual foraging specialisation in a generalist species</article-title>. <source xml:lang="en">Ecology</source>, <volume>96</volume>, <fpage>1650</fpage>&#x02013;<lpage>1660</lpage>.</mixed-citation></ref><ref id="ece35395-bib-0042"><mixed-citation publication-type="book" id="ece35395-cit-0042">
+<string-name>
+<surname>Scharf</surname>, <given-names>A.</given-names>
+</string-name> (<year>2018</year>). <source xml:lang="en">moveACC: Analysis and handling of acceleration data</source>. R package. Retrieved from <ext-link ext-link-type="uri" xlink:href="https://gitlab.com/anneks/moveACC">https://gitlab.com/anneks/moveACC</ext-link>
+</mixed-citation></ref><ref id="ece35395-bib-0043"><mixed-citation publication-type="journal" id="ece35395-cit-0043">
+<string-name>
+<surname>Sergio</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Tavecchia</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Blas</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>L&#x000f3;pez</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Tanferna</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hiraldo</surname>, <given-names>F.</given-names>
+</string-name> (<year>2011</year>). <article-title>Variation in age&#x02010;structured vital rates of a long&#x02010;lived raptor: Implications for population growth</article-title>. <source xml:lang="en">Basic and Applied Ecology</source>, <volume>12</volume>, <fpage>107</fpage>&#x02013;<lpage>115</lpage>. <pub-id pub-id-type="doi">10.1016/j.baae.2010.11.004</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0044"><mixed-citation publication-type="book" id="ece35395-cit-0044">
+<string-name>
+<surname>Therneau</surname>, <given-names>T.</given-names>
+</string-name> (<year>2015</year>). <source xml:lang="en">A Package for survival analysis in S</source> (p. <fpage>version 2.38.</fpage>).</mixed-citation></ref><ref id="ece35395-bib-0045"><mixed-citation publication-type="book" id="ece35395-cit-0045">
+<string-name>
+<surname>Therneau</surname>, <given-names>T. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Grambsch</surname>, <given-names>P. M.</given-names>
+</string-name> (<year>2013</year>). <source xml:lang="en">Modeling survival data extending the cox model</source>. <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Springer Science &#x00026; Business Media</publisher-name>.</mixed-citation></ref><ref id="ece35395-bib-0046"><mixed-citation publication-type="journal" id="ece35395-cit-0046">
+<string-name>
+<surname>Tortosa</surname>, <given-names>F. S.</given-names>
+</string-name>, <string-name>
+<surname>Caballero</surname>, <given-names>J. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Reyes&#x02010;L&#x000f3;pez</surname>, <given-names>J.</given-names>
+</string-name> (<year>2002</year>). <article-title>Effect of rubbish dumps on breeding success in the white stork in Southern Spain</article-title>. <source xml:lang="en">Waterbirds</source>, <volume>25</volume>, <fpage>39</fpage>&#x02013;<lpage>43</lpage>. <pub-id pub-id-type="doi">10.1675/1524-4695(2002)025[0039:EORDOB]2.0.CO;2</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0047"><mixed-citation publication-type="journal" id="ece35395-cit-0047">
+<string-name>
+<surname>Tortosa</surname>, <given-names>F. S.</given-names>
+</string-name>, <string-name>
+<surname>Manez</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Barcell</surname>, <given-names>M.</given-names>
+</string-name> (<year>1995</year>). <article-title>Wintering white storks (<italic>Ciconia ciconia</italic>) in south west Spain in the years 1991 and 1992</article-title>. <source xml:lang="en">Vogelwarte</source>, <volume>38</volume>, <fpage>41</fpage>&#x02013;<lpage>45</lpage>.</mixed-citation></ref><ref id="ece35395-bib-0048"><mixed-citation publication-type="journal" id="ece35395-cit-0048">
+<string-name>
+<surname>Visser</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name>
+<surname>Perdeck</surname>, <given-names>A. C.</given-names>
+</string-name>, <string-name>
+<surname>van Balen</surname>, <given-names>J. H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Both</surname>, <given-names>C.</given-names>
+</string-name> (<year>2009</year>). <article-title>Climate change leads to decreasing bird migration distances</article-title>. <source xml:lang="en">Global Change Biology</source>, <volume>15</volume>, <fpage>1859</fpage>&#x02013;<lpage>1865</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2486.2009.01865.x</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0049"><mixed-citation publication-type="journal" id="ece35395-cit-0049">
+<string-name>
+<surname>Wilmers</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name>
+<surname>Nickel</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Bryce</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Wheat</surname>, <given-names>R. E.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Yovovich</surname>, <given-names>V.</given-names>
+</string-name> (<year>2015</year>). <article-title>The golden age of bio&#x02010;logging: How animal&#x02010;borne sensors are advancing the frontiers of ecology</article-title>. <source xml:lang="en">Ecology</source>, <volume>96</volume>, <fpage>1741</fpage>&#x02013;<lpage>1753</lpage>. <pub-id pub-id-type="doi">10.1890/14-1401.1</pub-id>
+<pub-id pub-id-type="pmid">26378296</pub-id></mixed-citation></ref><ref id="ece35395-bib-0050"><mixed-citation publication-type="journal" id="ece35395-cit-0050">
+<string-name>
+<surname>Wilson</surname>, <given-names>R. P.</given-names>
+</string-name>, <string-name>
+<surname>Grundy</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Massy</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Soltis</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Tysse</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Holton</surname>, <given-names>M.</given-names>
+</string-name>, &#x02026; <string-name>
+<surname>Butt</surname>, <given-names>T.</given-names>
+</string-name> (<year>2014</year>). <article-title>Wild state secrets: Ultra&#x02010;sensitive measurement of micro&#x02010;movement can reveal internal processes in animals</article-title>. <source xml:lang="en">Frontiers in Ecology and the Environment</source>, <volume>12</volume>, <fpage>582</fpage>&#x02013;<lpage>587</lpage>. <pub-id pub-id-type="doi">10.1890/140068</pub-id>
+</mixed-citation></ref><ref id="ece35395-bib-0051"><mixed-citation publication-type="journal" id="ece35395-cit-0051">
+<string-name>
+<surname>Wilson</surname>, <given-names>R. P.</given-names>
+</string-name>, <string-name>
+<surname>White</surname>, <given-names>C. R.</given-names>
+</string-name>, <string-name>
+<surname>Quintana</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Halsey</surname>, <given-names>L. G.</given-names>
+</string-name>, <string-name>
+<surname>Liebsch</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Martin</surname>, <given-names>G. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Butler</surname>, <given-names>P. J.</given-names>
+</string-name> (<year>2006</year>). <article-title>Moving towards acceleration for estimates of activity&#x02010;specific metabolic rate in free&#x02010;living animals: The case of the cormorant</article-title>. <source xml:lang="en">Journal of Animal Ecology</source>, <volume>75</volume>, <fpage>1081</fpage>&#x02013;<lpage>1090</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2656.2006.01127.x</pub-id>
+<pub-id pub-id-type="pmid">16922843</pub-id></mixed-citation></ref><ref id="ece35395-bib-0052"><mixed-citation publication-type="book" id="ece35395-cit-0052">
+<string-name>
+<surname>Zwarts</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Bijlsma</surname>, <given-names>R. G.</given-names>
+</string-name>, <string-name>
+<surname>van der Kamp</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wymenga</surname>, <given-names>E.</given-names>
+</string-name> (<year>2012</year>). <source xml:lang="en">Living on the edge: Wetlands and birds in a changing Sahel</source>. <publisher-loc>Zeist, the Netherlands</publisher-loc>: <publisher-name>KNNV Publishing</publisher-name>.</mixed-citation></ref></ref-list></back></article>

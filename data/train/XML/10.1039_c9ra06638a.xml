@@ -1,0 +1,391 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.2?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">RSC Adv</journal-id><journal-id journal-id-type="iso-abbrev">RSC Adv</journal-id><journal-id journal-id-type="publisher-id">RA</journal-id><journal-id journal-id-type="coden">RSCACL</journal-id><journal-title-group><journal-title>RSC Advances</journal-title></journal-title-group><issn pub-type="epub">2046-2069</issn><publisher><publisher-name>The Royal Society of Chemistry</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">9070769</article-id><article-id pub-id-type="publisher-id">c9ra06638a</article-id><article-id pub-id-type="doi">10.1039/c9ra06638a</article-id><article-categories><subj-group subj-group-type="heading"><subject>Chemistry</subject></subj-group></article-categories><title-group><article-title>Diaminophosphinoboranes: effective reagents for phosphinoboration of CO<sub>2</sub><xref rid="fn1" ref-type="fn">&#x02020;</xref></article-title><fn-group><fn id="fn1"><label>&#x02020;</label><p>Electronic supplementary information (ESI) available: Experimental, crystallographic, spectroscopic and computational details. CCDC <uri>1906496</uri> and <uri>1906498&#x02013;1906500</uri>. For ESI and crystallographic data in CIF or other electronic format see DOI: <uri>10.1039/c9ra06638a</uri></p></fn></fn-group></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2390-2512</contrib-id><name><surname>Szynkiewicz</surname><given-names>Natalia</given-names></name><xref rid="affa" ref-type="aff"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2422-0203</contrib-id><name><surname>Ordyszewska</surname><given-names>Anna</given-names></name><xref rid="affa" ref-type="aff"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2453-8214</contrib-id><contrib-id contrib-id-type="resid" authenticated="false">D-9235-2011</contrib-id><name><surname>Chojnacki</surname><given-names>Jaros&#x00142;aw</given-names></name><xref rid="affa" ref-type="aff"/></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6965-2304</contrib-id><name><surname>Grubba</surname><given-names>Rafa&#x00142;</given-names></name><xref rid="affa" ref-type="aff"/></contrib><aff id="affa">
+<institution>Department of Inorganic Chemistry, Faculty of Chemistry, Gda&#x00144;sk University of Technology</institution>
+<addr-line>G. Narutowicza St. 11/12. PL-80-233</addr-line>
+<city>Gdansk</city>
+<country>Poland</country>
+<email>rafal.grubba@pg.edu.pl</email>
+</aff></contrib-group><pub-date publication-format="electronic" date-type="pub" iso-8601-date="2019-09-03"><day>3</day><month>9</month><year>2019</year></pub-date><pub-date publication-format="electronic" date-type="collection" iso-8601-date="2019-09-03"><day>3</day><month>9</month><year>2019</year></pub-date><pub-date pub-type="pmc-release"><day>3</day><month>9</month><year>2019</year></pub-date><!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.--><volume>9</volume><issue>48</issue><fpage>27749</fpage><lpage>27753</lpage><history><date date-type="received" iso-8601-date="2019-08-23"><day>23</day><month>8</month><year>2019</year></date><date date-type="accepted" iso-8601-date="2019-08-27"><day>27</day><month>8</month><year>2019</year></date></history><permissions><copyright-statement>This journal is &#x000a9; The Royal Society of Chemistry</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>The Royal Society of Chemistry</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense" start_date="2019-09-03">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref></license></permissions><abstract><p>The monomeric diaminophosphinoboranes readily react with CO<sub>2</sub> under mild conditions to cleanly form products of the general formula <inline-graphic xlink:href="c9ra06638a-t1.jpg" id="ugt1"/> in the absence of a catalyst. The isolated products from the CO<sub>2</sub>-phosphinoboration were fully characterized by NMR spectroscopy, IR spectroscopy, and X-ray diffraction. The mechanism of CO<sub>2</sub> phosphinoboration with diaminophosphinoboranes was elucidated by DFT calculations.</p></abstract><abstract abstract-type="toc"><p>We present the activation of CO<sub>2</sub> by aminophosphinoboranes along with the mechanism of CO<sub>2</sub> phosphinoboration.<graphic xlink:href="c9ra06638a-ga.jpg" id="ga" position="float"/></p></abstract><funding-group><award-group><funding-source>
+<institution-wrap><institution>Narodowe Centrum Nauki</institution><institution-id institution-id-type="doi">10.13039/501100004281</institution-id></institution-wrap>
+</funding-source><award-id>2016/21/B/ST5/03088</award-id></award-group></funding-group><counts><page-count count="5"/></counts><custom-meta-group><custom-meta><meta-name>pubstatus</meta-name><meta-value>Paginated Article</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>Introduction</title><p>Increasingly stringent environmental standards are prompting us to look for clean and efficient methods for the synthesis of organic compounds. In recent years, much attention has been focused on reactions employing simple, nonmetallic P,B-based<sup><xref rid="cit1" ref-type="bibr">1&#x02013;6</xref></sup> systems that can activate waste gases such as CO,<sup><xref rid="cit7" ref-type="bibr">7,8</xref></sup> CO<sub>2</sub>,<sup><xref rid="cit9" ref-type="bibr">9&#x02013;13</xref></sup> NO<sub><italic toggle="yes">x</italic></sub>,<sup><xref rid="cit10" ref-type="bibr">10,14</xref></sup> SO<sub>2</sub>,<sup><xref rid="cit14" ref-type="bibr">14,15</xref></sup> or even H<sub>2</sub>.<sup><xref rid="cit5" ref-type="bibr">5,9,16&#x02013;19</xref></sup> These metal-free reactions not only involve easily accessible and inexpensive gaseous reagents as the feedstock but also enable the straightforward and efficient synthesis of organic compounds through the functionalization of small inorganic molecules.<sup><xref rid="cit20" ref-type="bibr">20&#x02013;26</xref></sup> The resulting products can be directly used as substrates for the synthesis of more complex systems that are difficult or impossible to obtain by other means.</p><p>The largest portion of reports are those devoted to CO<sub>2</sub>&#x02009;<sup><xref rid="cit11" ref-type="bibr">11,12,17,22,27</xref></sup> and its incorporation into organic molecules under mild conditions. While highly nucleophilic phosphines form stable adducts with CO<sub>2</sub>,<sup><xref rid="cit11" ref-type="bibr">11</xref></sup> boranes capture CO<sub>2</sub> only in the presence of a Lewis base<sup><xref rid="cit12" ref-type="bibr">12</xref></sup> that can act as either a stoichiometric<sup><xref rid="cit4" ref-type="bibr">4,27</xref></sup> or catalytic<sup><xref rid="cit23" ref-type="bibr">23</xref></sup> coreagent or as the site of the ambiphilic molecule. One of the most common systems of this kind is frustrated Lewis pairs (FLPs), involving inter- or intramolecular combinations of sterically encumbered Lewis acids and bases that cannot quench each other.<sup><xref rid="cit18" ref-type="bibr">18</xref></sup> In the reaction of P,B-based FLPs with CO<sub>2</sub>, the synergistic interactions of the P-center with a carbon atom and the B-center with an oxygen atom lead to the formation of P&#x02013;C and B&#x02013;O bonds, respectively, giving zwitterionic products with the formula <inline-graphic xlink:href="c9ra06638a-t2.jpg" id="ugt2"/>.<sup><xref rid="cit27" ref-type="bibr">27</xref></sup> In the vast majority of FLPs, the presence of highly electron-withdrawing substituents to increase the acidity of the B atom is crucial for efficient CO<sub>2</sub> fixation. However, it was shown that geminal FLPs, in which the donor and acceptor sites are separated by one atom, can activate CO<sub>2</sub> despite the mild Lewis acidity of the boron center.<sup><xref rid="cit28" ref-type="bibr">28,29</xref></sup></p><p>These reports inspired us to go one step further and investigate whether systems in which the B atom is directly bound to the phosphorus atom also activate CO<sub>2</sub>. Hence, we focused on monomeric phosphinoboranes, which are another type of ambiphilic P,B-based molecules.<sup><xref rid="cit30" ref-type="bibr">30,31</xref></sup> A recent very comprehensive review<sup><xref rid="cit31" ref-type="bibr">31</xref></sup> by Pringle <italic toggle="yes">et al.</italic> classifies these species containing a single P&#x02013;B bond with a pyramidal P atom and the general formula R<sub>2</sub>P&#x02013;BR<sub>2</sub> as borylphosphines<sup><xref rid="cit30" ref-type="bibr">30,32,33</xref></sup> and those with a double P<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><!-- PBM data was replaced with SVG by xgml2pxml:
+<glyph-data id="z.dbd" format="PBM" resolution="300" x-size="8" y-size="10" xml:space="preserve">
+00000000
+00000000
+00000000
+00000000
+11111111
+00000000
+11111111
+00000000
+00000000
+00000000
+</glyph-data>
+-->
+<glyph-data id="z.dbd" format="SVG" resolution="300" x-size="8" y-size="10" xml:space="preserve">
+<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="13.200000pt" height="16.000000pt" viewBox="0 0 13.200000 16.000000" preserveAspectRatio="xMidYMid meet"><metadata>
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+</metadata><g transform="translate(1.000000,15.000000) scale(0.017500,-0.017500)" fill="currentColor" stroke="none"><path d="M0 440 l0 -40 320 0 320 0 0 40 0 40 -320 0 -320 0 0 -40z M0 280 l0 -40 320 0 320 0 0 40 0 40 -320 0 -320 0 0 -40z"/></g></svg>
+]]>
+</glyph-data></private-char>B bond and trigonal planar P atom and the general formula <inline-graphic xlink:href="c9ra06638a-t3.jpg" id="ugt3"/> as phosphinoboranes.<sup><xref rid="cit34" ref-type="bibr">34&#x02013;36</xref></sup> Notably, we found that there are a limited number of reports on the reactivity of P&#x02013;B bond systems towards small molecules. Phosphinoboranes R<sub>2</sub>P<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>B(C<sub>6</sub>F<sub>5</sub>)<sub>2</sub> (R = <italic toggle="yes">t</italic>Bu, Cy) exhibit FLP-like reactivity towards H<sub>2</sub>.<sup><xref rid="cit34" ref-type="bibr">34,37</xref></sup> The Westcott group explored the chemistry of phosphinoboronate ester Ph<sub>2</sub>P&#x02013;Bpin<sup><xref rid="cit38" ref-type="bibr">38</xref></sup> (pin = 1,2-O<sub>2</sub>C<sub>2</sub>Me<sub>4</sub>), which effectively functionalizes a wide variety of heterorganic systems, such as carbonyls,<sup><xref rid="cit38" ref-type="bibr">38,39</xref></sup> N-heterocycles,<sup><xref rid="cit40" ref-type="bibr">40</xref></sup> aldimines,<sup><xref rid="cit38" ref-type="bibr">38,39</xref></sup> carbodiimides<sup><xref rid="cit41" ref-type="bibr">41</xref></sup> and isocyanates.<sup><xref rid="cit41" ref-type="bibr">41</xref></sup> Very recently Wescott and Stephan tested reactivity of R<sub>2</sub>PBpin (R = Ph, <italic toggle="yes">t</italic>Bu), R<sub>2</sub>PBMes<sub>2</sub> (R = Ph, <italic toggle="yes">t</italic>Bu), and R<sub>2</sub>PBcat (R = Ph, <italic toggle="yes">t</italic>Bu, Mes) towards CO<sub>2</sub>, where the reactions with the first and the second group of phosphinoboranes gave R<sub>2</sub>PCO<sub>2</sub>Bpin and R<sub>2</sub>PCO<sub>2</sub>BMes respectively, whereas the reaction involving R<sub>2</sub>PBcat yielded (R<sub>2</sub>P)<sub>2</sub>CO and O(Bcat)<sub>2</sub>.<sup><xref rid="cit42" ref-type="bibr">42</xref></sup></p><p>As a part of our research program on applying P&#x02013;P bond systems to the activation of small molecules, we recently reported the first example of CO<sub>2</sub> diphosphination by unsymmetrical diphosphanes<sup><xref rid="cit43" ref-type="bibr">43</xref></sup> in the presence of BPh<sub>3</sub>. Herein, a weak Lewis acid catalyzes the insertion of CO<sub>2</sub> into the P&#x02013;P bond of the Lewis basic component with the formation of P&#x02013;C and P&#x02013;O bonds in a reversible manner (<xref rid="sch1" ref-type="fig">Scheme 1</xref>).<sup><xref rid="cit44" ref-type="bibr">44</xref></sup></p><fig position="float" id="sch1" fig-type="scheme"><label>Scheme 1</label><caption><title>Diphosphination of CO<sub>2</sub> by unsymmetrical diphosphanes.<sup><xref rid="cit44" ref-type="bibr">44</xref></sup></title></caption><graphic xlink:href="c9ra06638a-s1" position="float"/></fig><p>Our studies revealed that the presence of long and polarized P&#x02013;P bonds is crucial for the activation of CO<sub>2</sub> by diphosphanes. Herein, we decided to apply this synthetic approach to trivalent phosphorus and boron compounds with direct P&#x02013;B bonds.</p></sec><sec><title>Results and discussion</title><p>To this end, we designed and synthesized a series of new phosphinoboranes 1&#x02013;3, which are structural analogs of unsymmetrical diphosphanes where one P atom has been replaced by a B atom (<xref rid="sch2" ref-type="fig">Scheme 2</xref>). The first step of the synthesis was the reaction of BBr<sub>3</sub> with a four-fold excess of iPr<sub>2</sub>NH in petroleum ether with the elimination of an ammonium salt and formation of the bromo(diamino)borane. Then, the obtained product was used in the equimolar reaction with the corresponding lithium phosphide (RR&#x02032;PLi) in toluene at &#x02212;50 &#x000b0;C. Diaminophosphinoboranes 1&#x02013;3 were isolated by removal of the LiBr followed by evaporation of the solvent, giving analytically pure products in high yields (83&#x02013;88%).</p><fig position="float" id="sch2" fig-type="scheme"><label>Scheme 2</label><caption><title>Synthesis of diaminophosphinoboranes 1&#x02013;3.</title></caption><graphic xlink:href="c9ra06638a-s2" position="float"/></fig><p>The <sup>31</sup>P{<sup>1</sup>H} NMR spectra of 1, 2 and 3 show broad singlets at &#x02212;8.0 ppm, &#x02212;26.2 ppm and &#x02212;36.1 ppm, respectively. The upfield resonances in the <sup>31</sup>P{<sup>1</sup>H} NMR spectra of 1&#x02013;3 indicate a lack of significant P&#x02013;B &#x003c0;-interaction within these molecules. The <sup>11</sup>B NMR spectra of 1&#x02013;3 each exhibit only one broad singlet (39.5 ppm (1); 40.4 ppm (2); and 38.8 ppm (3)) at values typical for trivalent <inline-graphic xlink:href="c9ra06638a-t4.jpg" id="ugt4"/> species.<sup><xref rid="cit30" ref-type="bibr">30,31</xref></sup> The broadness of the signals in the <sup>31</sup>P{<sup>1</sup>H} and <sup>11</sup>B spectra can be explained by the quadrupolar nature of boron. Moreover, the <sup>1</sup><italic toggle="yes">J</italic><sub>P&#x02013;B</sub> coupling is not visible likely because of the small value of this coupling constant and mentioned broadness of the signals. The crystallization from petroleum ether at &#x02212;20 &#x000b0;C resulted in colorless crystals of 2 and 3. The X-ray structures of 2 and 3 are presented in <xref rid="fig1" ref-type="fig">Fig. 1</xref>. The most characteristic structural features of 2 and 3 are the planar geometry of the N and B atoms with the sum of the angles being close to 360&#x000b0;, the pyramidal geometry of the P atom (sum 323.8&#x000b0; (2); 316.95 (3)) and the very long B&#x02013;P distance (1.983(2) &#x000c5; (2); 1.984(1) &#x000c5; (3)). The B&#x02013;P bond lengths in 2 and 3 are among the longest distances reported for phosphinoboranes,<sup><xref rid="cit30" ref-type="bibr">30,31</xref></sup> and they are even slightly longer than the sum of the single covalent bond radii of B and P (1.96 &#x000c5;).<sup><xref rid="cit45" ref-type="bibr">45</xref></sup></p><fig position="float" id="fig1"><label>Fig. 1</label><caption><title>Molecular structures of 2 and 3.</title></caption><graphic xlink:href="c9ra06638a-f1" position="float"/></fig><p>Moreover, the shortening of the B&#x02013;N bonds in 2 and 3 to B&#x02013;N distances in the range of 1.425(1)&#x02013;1.442(3) &#x000c5; (sum of the single covalent bond radii of B and N: 1.56 &#x000c5;; sum of the double covalent bond radii for B and N: 1.38 &#x000c5;) was observed.&#x02009;<sup><xref rid="cit45" ref-type="bibr">45,46</xref></sup> This feature, together with the planar geometry of the N atom, indicates significant B&#x02013;N &#x003c0;-bonding. NBO analysis of these species provided further insight into the electronic structures of 1&#x02013;3. The strong interaction between the lone pairs on the N atoms and the formally empty p-orbital of the B atom resulting from the formation of B&#x02013;N &#x003c0;-bonds is clearly visible. Otherwise, donor&#x02013;acceptor interactions between the P and B centers are very weak. Hence, the lone pair on the P atom is accessible for reactions with electrophilic compounds. The nucleophilic and electrophilic properties of 1&#x02013;3 were studied by analysis of the condensed Fukui functions. In general, 1&#x02013;3 have strong nucleophilic character with the nucleophilicity centered at the P atom. The nucleophilicity of the diaminophosphinoboranes increases in the order 3 &#x0003c; 2 &#x0003c; 1, where the values of <italic toggle="yes">f</italic><sub>N</sub> for the P atoms are 0.175, 0.198 and 0.277, respectively. Interestingly, boron is neither a nucleophilic nor an electrophilic center; the values of both the <italic toggle="yes">f</italic><sub>N</sub> and <italic toggle="yes">f</italic><sub>E</sub> Fukui functions are close to zero. Taking into account the results of all the structural and NBO analyses, 1&#x02013;3 can be described as nucleophilic borylphosphine-like species.</p><p>Next, we studied the reactivity of diaminophosphinoboranes 1&#x02013;3 towards CO<sub>2</sub>. The reactions of 1, 2 or 3 with CO<sub>2</sub> (1 atm) at room temperature in toluene resulted in the formation of phosphinoboration products 1a, 2a and 3a, respectively (<xref rid="sch3" ref-type="fig">Scheme 3</xref>). <fig position="float" id="sch3" fig-type="scheme"><label>Scheme 3</label><caption><title>Phosphinoboration of CO<sub>2</sub>.</title></caption><graphic xlink:href="c9ra06638a-s3" position="float"/></fig>The reaction progress was monitored by <sup>31</sup>P{<sup>1</sup>H} and <sup>11</sup>B NMR spectroscopy. The complete conversions of 1 into 1a and 2 into 2a took 3 hours. In contrast to experiments involving 1 and 2, the reaction of less nucleophilic 3 with CO<sub>2</sub> is much slower and was complete after 65 days.</p><p>The analytically pure 1a, 2a, and 3a were isolated in high yields (87&#x02013;94%) by evaporation of the solvent as colorless oils solidified below &#x02212;20 &#x000b0;C. The <sup>31</sup>P{<sup>1</sup>H} spectra of 1a, 2a and 3a exhibit sharp singlets at 52.4 ppm, 23.5 and &#x02212;1.0 ppm, respectively. The signals are strongly downfield shifted in comparison to the corresponding resonance of the parent diaminophosphinoboranes, indicating a change in the coordination environment of the P atom. 1a, 2a, and 3a have very similar <sup>11</sup>B NMR spectra, which show one resonance at a shift of approximately 27 ppm. Furthermore, the <sup>13</sup>C{<sup>1</sup>H} spectra of the reaction products show a downfield doublet in the range of 180.2&#x02013;177.9 ppm with <sup>1</sup><italic toggle="yes">J</italic><sub>PC</sub> (30.9&#x02013;7.3 Hz). Notably, the <sup>31</sup>P{<sup>1</sup>H} and <sup>13</sup>C{<sup>1</sup>H} NMR data of 3a are very similar to those reported for Ph<sub>2</sub>P&#x02013;C(O)&#x02013;O&#x02013;Bpin.<sup><xref rid="cit41" ref-type="bibr">41</xref></sup> Moreover, the IR data for 1a and 2a showed absorption bands at 1644 cm<sup>&#x02212;1</sup> and 1664 cm<sup>&#x02212;1</sup>, respectively, which are very characteristic for carbonyl groups.</p><p>X-ray diffraction studies of 1a and 2a unambiguously confirmed that the CO<sub>2</sub> molecule is incorporated between the B and P atoms (<xref rid="fig2" ref-type="fig">Fig. 2</xref>). The X-ray structures of 1a and 2a are very similar and will be discussed collectively. The CO<sub>2</sub> moiety is bound to the phosphanyl group <italic toggle="yes">via</italic> a carbon atom, whereas one oxygen atom links this moiety with the boryl group. In comparison to parent compounds 1 and 2, the planar geometries of the B and N atoms and the pyramidal geometry of the P atom are retained. The geometry of C1 is also planar. The P1&#x02013;C1 (1.863(1) &#x000c5; (1a), 1.851(5) &#x000c5; (2a)) and B1&#x02013;O1 (1.459(2) &#x000c5; (1a), 1.452(6) &#x000c5; (2a)) bonds values are consistent with single covalent bonds.<sup><xref rid="cit45" ref-type="bibr">45</xref></sup> The P1&#x02013;C1 distances in 1a and 2a are very similar to corresponding bond distances in Ph<sub>2</sub>PCO<sub>2</sub>Bpin and Ph<sub>2</sub>PCO<sub>2</sub>BMes<sub>2</sub>, however B1&#x02013;O1 bond lengths in 1a and 2a are about 0.05 &#x000c5; longer than in mentioned compounds.<sup><xref rid="cit42" ref-type="bibr">42</xref></sup> The C1&#x02013;O1 (1.345(2) &#x000c5; (1a), 1.351(5) &#x000c5; (2a)) and C2<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>O2 (1.215(2) (1a), 1.218(6) &#x000c5; (2a)) bond distances are very similar to those observed for carboxylic esters (&#x0223c;1.33&#x02013;1.41 &#x000c5; and &#x0223c;1.19&#x02013;1.20 &#x000c5;, respectively).<sup><xref rid="cit47" ref-type="bibr">47</xref></sup> The B&#x02013;N bond lengths in 1a and 2a are in the range of 1.408(1)&#x02013;1.438(2) &#x000c5; and are slightly shorter than the corresponding distances in parent species 1 and 2. The structures of 1a and 2a differ significantly from known structures of CO<sub>2</sub> activation products; typically, inter- and intramolecular P,B-based frustrated Lewis pairs form zwitterionic adducts containing tetra-coordinated P and B centers.<sup><xref rid="cit27" ref-type="bibr">27</xref></sup> Compounds 1a, 2a, and 3a are stable under argon or vacuum, and even heating these products up to 60 &#x000b0;C did not regenerate the parent diaminophosphinoboranes.</p><fig position="float" id="fig2"><label>Fig. 2</label><caption><title>Molecular structures of 1a and 2a.</title></caption><graphic xlink:href="c9ra06638a-f2" position="float"/></fig><p>To investigate the mechanism of CO<sub>2</sub> capture by the diaminophosphinoboranes and elucidate the differences in their reactivities, we carried out DFT calculations. According to the Gibbs energy profile, the insertion of carbon dioxide into the P&#x02013;B bond of 1 proceeds <italic toggle="yes">via</italic> a simple two-step mechanism (<xref rid="fig3" ref-type="fig">Fig. 3</xref>).</p><fig position="float" id="fig3"><label>Fig. 3</label><caption><title>The Gibbs energy profile of the formation of 1a.</title></caption><graphic xlink:href="c9ra06638a-f3" position="float"/></fig><p>The reaction starts with a nucleophilic attack of P on the electrophilic <bold>C</bold>O<sub>2</sub> atom. Upon attachment of <bold>C</bold> to the <bold>P</bold><italic toggle="yes">t</italic>Bu<sub>2</sub> atom, the electron density shifts towards the PCO<sub>2</sub> moiety; the value of the <bold>B</bold>(iPr<sub>2</sub>N)<sub>2</sub> electrophilic Fukui function, <italic toggle="yes">f</italic><sub>E</sub>, increases from 0.001 for 1 to 0.152 for I (Table S10<xref rid="fn1" ref-type="fn">&#x02020;</xref>). Consequently, the <bold>B</bold>(iPr<sub>2</sub>N)<sub>2</sub> atom becomes the electrophilic center of the molecule, facilitating the formation of the B&#x02013;O bond, and the simultaneous cleavage of the P&#x02013;B bond leads to the generation of 1a. Although the values of the free energies (&#x00394;<italic toggle="yes">G</italic><sub>298</sub>) confirmed that in the reaction with CO<sub>2</sub>, all three systems form stable products <italic toggle="yes">via</italic> exergonic processes, the kinetics of these reactions are notably different (<xref rid="tab1" ref-type="table">Table 1</xref>).</p><table-wrap position="float" id="tab1"><caption><title>Free energies (&#x00394;<italic toggle="yes">G</italic>) and activation free energies (&#x00394;<italic toggle="yes">G</italic><sup>&#x02021;</sup>) for the capture of CO<sub>2</sub> by 1&#x02013;3<xref rid="tab1fna" ref-type="table-fn">a</xref></title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Reaction</th><th rowspan="1" colspan="1">&#x00394;<italic toggle="yes">G</italic><sup>&#x02021;</sup> [kcal mol<sup>&#x02212;1</sup>]</th><th rowspan="1" colspan="1">&#x00394;<italic toggle="yes">G</italic> [kcal mol<sup>&#x02212;1</sup>]</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">1a</td><td align="char" char="." rowspan="1" colspan="1">27.3</td><td rowspan="1" colspan="1">&#x02212;20.1</td></tr><tr><td rowspan="1" colspan="1">2a</td><td align="char" char="." rowspan="1" colspan="1">26.4</td><td rowspan="1" colspan="1">&#x02212;17.8</td></tr><tr><td rowspan="1" colspan="1">3a</td><td align="char" char="." rowspan="1" colspan="1">30.2</td><td rowspan="1" colspan="1">&#x02212;10.8</td></tr></tbody></table><table-wrap-foot><fn id="tab1fna"><label>a</label><p>&#x003c9;B97XD/6-31G+(d,p).</p></fn></table-wrap-foot></table-wrap><p>In general, as the nucleophilicity of the phosphorus atom in 1&#x02013;3 decreases, the energy barrier &#x00394;<italic toggle="yes">G</italic><sup>&#x02021;</sup> increases. A small aberration is observed for 2a; <bold>P</bold><italic toggle="yes">t</italic>BuPh is less nucleophilic than <bold>P</bold><italic toggle="yes">t</italic>Bu<sub>2</sub> but is also less sterically hindered, and therefore, the value of &#x00394;<italic toggle="yes">G</italic><sup>&#x02021;</sup> is slightly lower for 2a (Fig. S41<xref rid="fn1" ref-type="fn">&#x02020;</xref>). While 1 and 2 react with CO<sub>2</sub> in an analogous manner involving the generation of adduct I, a PES scan of 3a revealed that the corresponding intermediate is not formed along the reaction path (Fig. S42<xref rid="fn1" ref-type="fn">&#x02020;</xref>). In this case, the activation of CO<sub>2</sub> proceeds <italic toggle="yes">via</italic> a single four-membered ring transition state. This path requires the simultaneous interaction of both reactive centers with CO<sub>2</sub>, which in conjunction with the <bold>P</bold>Ph<sub>2</sub> atom being the least nucleophilic, justifies the highest energy barrier and the extremely long reaction time for 3.</p><p>We found it very interesting to compare the reactivities of trivalent species containing single and double boron-phosphorus bonds (<xref rid="sch4" ref-type="fig">Scheme 4</xref>). <fig position="float" id="sch4" fig-type="scheme"><label>Scheme 4</label><caption><title>Comparison of the reactivities of species possessing P&#x02013;B or P<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>B bonds towards H<sub>2</sub> and CO<sub>2</sub>.</title></caption><graphic xlink:href="c9ra06638a-s4" position="float"/></fig>Stephan and coworkers revealed that phosphinoboranes R<sub>2</sub>P<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>B(C<sub>6</sub>F<sub>5</sub>)<sub>2</sub> (R = <italic toggle="yes">t</italic>Bu, Cy) can activate dihydrogen<sup><xref rid="cit34" ref-type="bibr">34,37</xref></sup> (<xref rid="sch4" ref-type="fig">Scheme 4</xref>, bottom left); however, we did not find any reports on the reactivity of such species towards CO<sub>2</sub>.</p><p>For this reason, we reacted a representative species, <italic toggle="yes">t</italic>Bu<sub>2</sub>P<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>B(C<sub>6</sub>F<sub>5</sub>)<sub>2</sub>&#x02009;<sup><xref rid="cit34" ref-type="bibr">34,37</xref></sup> (A), with CO<sub>2</sub> under the same conditions as described for 1. The monitoring of the reaction mixture by <sup>31</sup>P{<sup>1</sup>H} and <sup>11</sup>B spectroscopy showed that compound A does not activate CO<sub>2</sub>. Furthermore, in the reaction of 1 with H<sub>2</sub> conducted under the same conditions, the <sup>31</sup>P{<sup>1</sup>H} and <sup>11</sup>B NMR spectra revealed only signals of unreacted 1. The differences in the reactivity of 1 and <italic toggle="yes">t</italic>Bu<sub>2</sub>P<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>B(C<sub>6</sub>F<sub>5</sub>)<sub>2</sub> towards H<sub>2</sub> and CO<sub>2</sub> can be explained by their electronic structures. According to the mechanism of H<sub>2</sub> activation proposed by Stephan, the reaction starts with the addition of H<sub>2</sub> (H&#x02013;H bond acts as a Lewis base) to the Lewis acidic B-center of <italic toggle="yes">t</italic>Bu<sub>2</sub>P<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>B(C<sub>6</sub>F<sub>5</sub>)<sub>2</sub>.<sup><xref rid="cit34" ref-type="bibr">34,37</xref></sup> In the case of 1, the Lewis acidity of boron is quenched due to the strong donation from both N atoms, which explains its lack of reactivity towards H<sub>2</sub>. In regard to CO<sub>2</sub>, our mechanistic study reveals that the presence of a strong nucleophilic P center with an accessible lone pair is crucial for the activation of electrophilic CO<sub>2</sub>. While compound 1 meets these conditions, in the case of <italic toggle="yes">t</italic>Bu<sub>2</sub>P<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>B(C<sub>6</sub>F<sub>5</sub>)<sub>2</sub>, the lone pair on the P atom is involved in a strong donor&#x02013;acceptor interaction with the B atom, resulting in &#x003c0;-bonding.</p></sec><sec><title>Conclusions</title><p>We have synthesized a series of novel monomeric diaminophosphinoboranes which are not only effective species for functionalization of CO<sub>2</sub> but are also promising systems for activation of other small molecules. Our studies revealed which factors are crucial for the activation of small molecules by trivalent phosphorus and boron species with direct P&#x02013;B bond and how to design effective systems of this kind. Studies on the reactivity of diaminophosphinoboranes towards a wide range of small, electrophilic molecules are currently in progress.</p></sec><sec sec-type="COI-statement"><title>Conflicts of interest</title><p>There are no conflicts to declare.</p></sec><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material id="RA-009-C9RA06638A-s001" position="float" content-type="local-data"><label>RA-009-C9RA06638A-s001</label><media xlink:href="RA-009-C9RA06638A-s001.pdf" id="d64e932" position="anchor"/></supplementary-material><supplementary-material id="RA-009-C9RA06638A-s002" position="float" content-type="local-data"><label>RA-009-C9RA06638A-s002</label><media xlink:href="RA-009-C9RA06638A-s002.cif" id="d64e935" position="anchor"/></supplementary-material></sec></body><back><ack><p>R. G., N. S., and A. O. thank the National Science Centre NCN, Poland (Grant 2016/21/B/ST5/03088) for their financial support. The authors thank TASK Computational Center for access to computational resources.</p></ack><ref-list><title>Notes and references</title><ref id="cit1"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Fontaine</surname><given-names>F. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Courtemanche</surname><given-names>M. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>L&#x000e9;gar&#x000e9;</surname><given-names>M. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rochette</surname><given-names>&#x000c9;.</given-names></name>
+</person-group><source>Coord. Chem. Rev.</source><year>2017</year><volume>334</volume><fpage>124</fpage><lpage>135</lpage><pub-id pub-id-type="doi">10.1016/j.ccr.2016.05.005</pub-id></element-citation></ref><ref id="cit2"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Scott</surname><given-names>D. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Fuchter</surname><given-names>M. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ashley</surname><given-names>A. E.</given-names></name>
+</person-group><source>Chem. Soc. Rev.</source><year>2017</year><volume>46</volume><fpage>5689</fpage><lpage>5700</lpage><pub-id pub-id-type="doi">10.1039/C7CS00154A</pub-id><?supplied-pmid 28692084?><pub-id pub-id-type="pmid">28692084</pub-id></element-citation></ref><ref id="cit3"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Greb</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>O&#x000f1;a-Burgos</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Schirmer</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Grimme</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Paradies</surname><given-names>J.</given-names></name>
+</person-group><source>Angew. Chem., Int. Ed.</source><year>2012</year><volume>51</volume><fpage>10164</fpage><lpage>10168</lpage><pub-id pub-id-type="doi">10.1002/anie.201204007</pub-id></element-citation></ref><ref id="cit4"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2015</year><volume>137</volume><fpage>10018</fpage><lpage>10032</lpage><pub-id pub-id-type="doi">10.1021/jacs.5b06794</pub-id><pub-id pub-id-type="pmid">26214241</pub-id></element-citation></ref><ref id="cit5"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mummadi</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Unruh</surname><given-names>D. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhao</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Krempner</surname><given-names>C.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2016</year><volume>138</volume><fpage>3286</fpage><lpage>3289</lpage><pub-id pub-id-type="doi">10.1021/jacs.5b13545</pub-id><?supplied-pmid 26899711?><pub-id pub-id-type="pmid">26899711</pub-id></element-citation></ref><ref id="cit6"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><source>Acc. Chem. Res.</source><year>2015</year><volume>48</volume><fpage>306</fpage><lpage>316</lpage><pub-id pub-id-type="doi">10.1021/ar500375j</pub-id><?supplied-pmid 25535796?><pub-id pub-id-type="pmid">25535796</pub-id></element-citation></ref><ref id="cit7"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Theuergarten</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bannenberg</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Walter</surname><given-names>M. D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Holschumacher</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Freytag</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Daniliuc</surname><given-names>C. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jones</surname><given-names>P. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tamm</surname><given-names>M.</given-names></name>
+</person-group><source>Dalton Trans.</source><year>2014</year><volume>43</volume><fpage>1651</fpage><lpage>1662</lpage><pub-id pub-id-type="doi">10.1039/C3DT52742E</pub-id><?supplied-pmid 24217215?><pub-id pub-id-type="pmid">24217215</pub-id></element-citation></ref><ref id="cit8"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Dureen</surname><given-names>M. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2010</year><volume>132</volume><fpage>13559</fpage><lpage>13568</lpage><pub-id pub-id-type="doi">10.1021/ja1064153</pub-id><pub-id pub-id-type="pmid">20809578</pub-id></element-citation></ref><ref id="cit9"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>M&#x000e9;nard</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2010</year><volume>132</volume><fpage>1796</fpage><lpage>1797</lpage><pub-id pub-id-type="doi">10.1021/ja9104792</pub-id><?supplied-pmid 20088527?><pub-id pub-id-type="pmid">20088527</pub-id></element-citation></ref><ref id="cit10"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Tolman</surname><given-names>W. B.</given-names></name>
+</person-group>, <source>Activation of Small Molecules</source>, <publisher-name>Wiley</publisher-name>, <year>2006</year></mixed-citation></ref><ref id="cit11"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bu&#x000df;</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mehlmann</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>M&#x000fc;ck-Lichtenfeld</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bergander</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Dielmann</surname><given-names>F.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2016</year><volume>138</volume><fpage>1840</fpage><lpage>1843</lpage><pub-id pub-id-type="pmid">26824487</pub-id></element-citation></ref><ref id="cit12"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bontemps</surname><given-names>S.</given-names></name>
+</person-group><source>Coord. Chem. Rev.</source><year>2016</year><volume>308</volume><fpage>117</fpage><lpage>130</lpage><pub-id pub-id-type="doi">10.1016/j.ccr.2015.06.003</pub-id></element-citation></ref><ref id="cit13"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sabet-Sarvestani</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Izadyar</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Eshghi</surname><given-names>H.</given-names></name>
+</person-group><source>J. CO2 Util.</source><year>2017</year><volume>21</volume><fpage>459</fpage><lpage>466</lpage><pub-id pub-id-type="doi">10.1016/j.jcou.2017.08.015</pub-id></element-citation></ref><ref id="cit14"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Erker</surname><given-names>G.</given-names></name>
+</person-group><source>Chem. Sci.</source><year>2014</year><volume>5</volume><fpage>2625</fpage><lpage>2641</lpage><pub-id pub-id-type="doi">10.1039/C4SC00395K</pub-id></element-citation></ref><ref id="cit15"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sajid</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Klose</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Birkmann</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Liang</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Schirmer</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wiegand</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Eckert</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lough</surname><given-names>A. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Fr&#x000f6;hlich</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Daniliuc</surname><given-names>C. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Grimme</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kehr</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Erker</surname><given-names>G.</given-names></name>
+</person-group><source>Chem. Sci.</source><year>2013</year><fpage>213</fpage><lpage>219</lpage><pub-id pub-id-type="doi">10.1039/C2SC21161K</pub-id></element-citation></ref><ref id="cit16"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chase</surname><given-names>P. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><source>Angew. Chem., Int. Ed.</source><year>2008</year><volume>47</volume><fpage>7433</fpage><lpage>7437</lpage><pub-id pub-id-type="doi">10.1002/anie.200802596</pub-id><?supplied-pmid 18655208?><pub-id pub-id-type="pmid">18655208</pub-id></element-citation></ref><ref id="cit17"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Erker</surname><given-names>G.</given-names></name>
+</person-group><source>Angew. Chem., Int. Ed.</source><year>2010</year><volume>49</volume><fpage>46</fpage><lpage>76</lpage><pub-id pub-id-type="doi">10.1002/anie.200903708</pub-id><?supplied-pmid 20025001?><pub-id pub-id-type="pmid">20025001</pub-id></element-citation></ref><ref id="cit18"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Welch</surname><given-names>G. C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Juan</surname><given-names>R. R. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Masuda</surname><given-names>J. D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><source>Science</source><year>2006</year><volume>314</volume><fpage>1124</fpage><lpage>1126</lpage><pub-id pub-id-type="doi">10.1126/science.1134230</pub-id><?supplied-pmid 17110572?><pub-id pub-id-type="pmid">17110572</pub-id></element-citation></ref><ref id="cit19"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Rokob</surname><given-names>T. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bak&#x000f3;</surname><given-names>I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stirling</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Hamza</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>P&#x000e1;pai</surname><given-names>I.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2013</year><volume>135</volume><fpage>4425</fpage><lpage>4437</lpage><pub-id pub-id-type="doi">10.1021/ja312387q</pub-id><pub-id pub-id-type="pmid">23432375</pub-id></element-citation></ref><ref id="cit20"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Courtemanche</surname><given-names>M. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>L&#x000e9;gar&#x000e9;</surname><given-names>M. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Maron</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Fontaine</surname><given-names>F. G.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2014</year><volume>136</volume><fpage>10708</fpage><lpage>10717</lpage><pub-id pub-id-type="doi">10.1021/ja5047846</pub-id><?supplied-pmid 24948159?><pub-id pub-id-type="pmid">24948159</pub-id></element-citation></ref><ref id="cit21"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Mahdi</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2014</year><volume>136</volume><fpage>15809</fpage><lpage>15812</lpage><pub-id pub-id-type="doi">10.1021/ja508829x</pub-id><?supplied-pmid 25333657?><pub-id pub-id-type="pmid">25333657</pub-id></element-citation></ref><ref id="cit22"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Declercq</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bouhadir</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bourissou</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>L&#x000e9;gar&#x000e9;</surname><given-names>M. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Courtemanche</surname><given-names>M. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Nahi</surname><given-names>K. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bouchard</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Fontaine</surname><given-names>F. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Maron</surname><given-names>L.</given-names></name>
+</person-group><source>ACS Catal.</source><year>2015</year><volume>5</volume><fpage>2513</fpage><lpage>2520</lpage><pub-id pub-id-type="doi">10.1021/acscatal.5b00189</pub-id></element-citation></ref><ref id="cit23"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><source>Chem. Commun.</source><year>2014</year><volume>50</volume><fpage>7007</fpage><lpage>7010</lpage><pub-id pub-id-type="doi">10.1039/C4CC02103G</pub-id><?supplied-pmid 24844447?><pub-id pub-id-type="pmid">24844447</pub-id></element-citation></ref><ref id="cit24"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Privalov</surname><given-names>T.</given-names></name>
+</person-group><source>Chem.&#x02013;Eur. J.</source><year>2009</year><volume>15</volume><fpage>1825</fpage><lpage>1829</lpage><pub-id pub-id-type="doi">10.1002/chem.200802320</pub-id><?supplied-pmid 19123227?><pub-id pub-id-type="pmid">19123227</pub-id></element-citation></ref><ref id="cit25"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>W.-H.</given-names></name>
+</person-group>, <person-group person-group-type="author"><name><surname>Feng</surname><given-names>X.</given-names></name></person-group> and <person-group person-group-type="author"><name><surname>Bao</surname><given-names>M.</given-names></name></person-group>, in <source>SpringerBriefs in Molecular Science</source>, <year>2018</year>, pp. 7&#x02013;42</mixed-citation></ref><ref id="cit26"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Klankermayer</surname><given-names>J.</given-names></name>
+</person-group><source>Angew. Chem., Int. Ed.</source><year>2010</year><volume>49</volume><fpage>9475</fpage><lpage>9478</lpage></element-citation></ref><ref id="cit27"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>M&#x000f6;mming</surname><given-names>C. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Otten</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kehr</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Fr&#x000f6;hlich</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Grimme</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Erker</surname><given-names>G.</given-names></name>
+</person-group><source>Angew. Chem., Int. Ed.</source><year>2009</year><volume>48</volume><fpage>6643</fpage><lpage>6646</lpage></element-citation></ref><ref id="cit28"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bertini</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lyaskovskyy</surname><given-names>V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Timmer</surname><given-names>B. J. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>de Kanter</surname><given-names>F. J. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lutz</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ehlers</surname><given-names>A. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Slootweg</surname><given-names>J. C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lammertsma</surname><given-names>K.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2012</year><volume>134</volume><fpage>201</fpage><lpage>204</lpage><pub-id pub-id-type="pmid">22185581</pub-id></element-citation></ref><ref id="cit29"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>Z. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>H.</given-names></name>
+</person-group><source>RSC Adv.</source><year>2018</year><volume>8</volume><fpage>26271</fpage><lpage>26276</lpage><pub-id pub-id-type="doi">10.1039/C8RA05108A</pub-id></element-citation></ref><ref id="cit30"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Paine</surname><given-names>R. T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>N&#x000f6;th</surname><given-names>H.</given-names></name>
+</person-group><source>Chem. Rev.</source><year>1995</year><volume>95</volume><fpage>343</fpage><lpage>379</lpage></element-citation></ref><ref id="cit31"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bailey</surname><given-names>J. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Pringle</surname><given-names>P. G.</given-names></name>
+</person-group><source>Coord. Chem. Rev.</source><year>2015</year><volume>297&#x02013;298</volume><fpage>77</fpage><lpage>90</lpage><pub-id pub-id-type="doi">10.1016/j.ccr.2015.02.001</pub-id></element-citation></ref><ref id="cit32"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bailey</surname><given-names>J. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ploeger</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Pringle</surname><given-names>P. G.</given-names></name>
+</person-group><source>Inorg. Chem.</source><year>2014</year><volume>53</volume><fpage>7763</fpage><lpage>7769</lpage><pub-id pub-id-type="pmid">24975933</pub-id></element-citation></ref><ref id="cit33"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kaaz</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>B&#x000e4;ucker</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Deimling</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>K&#x000f6;nig</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Schlindwein</surname><given-names>S. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bender</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Nieger</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gudat</surname><given-names>D.</given-names></name>
+</person-group><source>Eur. J. Inorg. Chem.</source><year>2017</year><volume>2017</volume><fpage>4525</fpage><lpage>4532</lpage><pub-id pub-id-type="doi">10.1002/ejic.201700559</pub-id></element-citation></ref><ref id="cit34"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Geier</surname><given-names>S. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gilbert</surname><given-names>T. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><source>Inorg. Chem.</source><year>2011</year><volume>50</volume><fpage>336</fpage><lpage>344</lpage><pub-id pub-id-type="doi">10.1021/ic102003x</pub-id><?supplied-pmid 21126055?><pub-id pub-id-type="pmid">21126055</pub-id></element-citation></ref><ref id="cit35"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Power</surname><given-names>P. P.</given-names></name>
+</person-group><source>Angew. Chem., Int. Ed. Engl.</source><year>1990</year><volume>29</volume><fpage>449</fpage><lpage>460</lpage><pub-id pub-id-type="doi">10.1002/anie.199004491</pub-id></element-citation></ref><ref id="cit36"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pestana</surname><given-names>D. C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Power</surname><given-names>P. P.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>1991</year><volume>113</volume><fpage>8426</fpage><lpage>8437</lpage><pub-id pub-id-type="doi">10.1021/ja00022a034</pub-id></element-citation></ref><ref id="cit37"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Geier</surname><given-names>S. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gilbert</surname><given-names>T. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2008</year><volume>130</volume><fpage>12632</fpage><lpage>12633</lpage><pub-id pub-id-type="doi">10.1021/ja805493y</pub-id><?supplied-pmid 18754584?><pub-id pub-id-type="pmid">18754584</pub-id></element-citation></ref><ref id="cit38"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Daley</surname><given-names>E. N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Vogels</surname><given-names>C. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Geier</surname><given-names>S. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Decken</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Doherty</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Westcott</surname><given-names>S. A.</given-names></name>
+</person-group><source>Angew. Chem., Int. Ed.</source><year>2015</year><volume>54</volume><fpage>2121</fpage><lpage>2125</lpage><pub-id pub-id-type="doi">10.1002/anie.201410033</pub-id><?supplied-pmid 25558017?><pub-id pub-id-type="pmid">25558017</pub-id></element-citation></ref><ref id="cit39"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Kindervater</surname><given-names>M. B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Binder</surname><given-names>J. F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Baird</surname><given-names>S. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Vogels</surname><given-names>C. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Geier</surname><given-names>S. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Macdonald</surname><given-names>C. L. B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Westcott</surname><given-names>S. A.</given-names></name>
+</person-group><source>J. Organomet. Chem.</source><year>2019</year><volume>880</volume><fpage>378</fpage><lpage>385</lpage></element-citation></ref><ref id="cit40"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Geier</surname><given-names>S. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Vogels</surname><given-names>C. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mellonie</surname><given-names>N. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Daley</surname><given-names>E. N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Decken</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Doherty</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Westcott</surname><given-names>S. A.</given-names></name>
+</person-group><source>Chem.&#x02013;Eur. J.</source><year>2017</year><volume>23</volume><fpage>14485</fpage><lpage>14499</lpage><pub-id pub-id-type="pmid">28800381</pub-id></element-citation></ref><ref id="cit41"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Geier</surname><given-names>S. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Lafortune</surname><given-names>J. H. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhu</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kosnik</surname><given-names>S. C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Macdonald</surname><given-names>C. L. B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Westcott</surname><given-names>S. A.</given-names></name>
+</person-group><source>Dalton Trans.</source><year>2017</year><volume>46</volume><fpage>10876</fpage><lpage>10885</lpage><pub-id pub-id-type="pmid">28766623</pub-id></element-citation></ref><ref id="cit42"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lafortune</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Qu</surname><given-names>Z.-W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bamford</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Trofimova</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Westcott</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Stephan</surname><given-names>D. W.</given-names></name>
+</person-group><source>Chem.&#x02013;A Eur. J.</source><year>2019</year><pub-id pub-id-type="doi">10.1002/chem.201903407</pub-id></element-citation></ref><ref id="cit43"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Szynkiewicz</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ponikiewski</surname><given-names>&#x00141;.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Grubba</surname><given-names>R.</given-names></name>
+</person-group><source>Dalton Trans.</source><year>2018</year><volume>47</volume><fpage>16885</fpage><lpage>16894</lpage><pub-id pub-id-type="pmid">30444246</pub-id></element-citation></ref><ref id="cit44"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Szynkiewicz</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ponikiewski</surname><given-names>&#x00141;.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Grubba</surname><given-names>R.</given-names></name>
+</person-group><source>Chem. Commun.</source><year>2019</year><volume>55</volume><fpage>2928</fpage><lpage>2931</lpage><pub-id pub-id-type="doi">10.1039/C9CC00621D</pub-id><?supplied-pmid 30775750?><pub-id pub-id-type="pmid">30775750</pub-id></element-citation></ref><ref id="cit45"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pyykk&#x000f6;</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Atsumi</surname><given-names>M.</given-names></name>
+</person-group><source>Chem.&#x02013;Eur. J.</source><year>2009</year><volume>15</volume><fpage>186</fpage><lpage>197</lpage><pub-id pub-id-type="pmid">19058281</pub-id></element-citation></ref><ref id="cit46"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pyykk&#x000f6;</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Atsumi</surname><given-names>M.</given-names></name>
+</person-group><source>Chem.&#x02013;Eur. J.</source><year>2009</year><volume>15</volume><fpage>12770</fpage><lpage>12779</lpage><pub-id pub-id-type="pmid">19856342</pub-id></element-citation></ref><ref id="cit47"><mixed-citation publication-type="book">
+<person-group person-group-type="author">
+<name><surname>Allen</surname><given-names>F. H.</given-names></name>
+</person-group>, <person-group person-group-type="author"><name><surname>Watson</surname><given-names>D. G.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Brammer</surname><given-names>L.</given-names></name></person-group>, <person-group person-group-type="author"><name><surname>Orpen</surname><given-names>A. G.</given-names></name></person-group> and <person-group person-group-type="author"><name><surname>Taylor</surname><given-names>R.</given-names></name></person-group>, in <source>International Tables for Crystallography</source>, ed. <person-group person-group-type="editor"><string-name>T. Hahn</string-name></person-group>, <publisher-name>International Union of Crystallography</publisher-name>, <publisher-loc>Chester, England</publisher-loc>, <year>2006</year>, <volume>vol. A</volume>, pp. 790&#x02013;811</mixed-citation></ref></ref-list></back></article>

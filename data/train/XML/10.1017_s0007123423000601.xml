@@ -1,0 +1,1729 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">A New Dilemma of Social Democracy? The British Labour Party, the White Working Class and Ethnic Minority Representation</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">Zack</forename><surname>Grant</surname></persname>
+<email>zack.grant@nuffield.ox.ac.uk</email>
+<affiliation key="aff0">
+<note type="raw_affiliation">Nuffield College, University of Oxford, Oxford, UK</note>
+<orgname type="department">Nuffield College</orgname>
+<orgname type="institution">University of Oxford</orgname>
+<address>
+<settlement>Oxford</settlement>
+<country key="GB">UK</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Geoffrey</forename><surname>Evans</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation">Nuffield College, University of Oxford, Oxford, UK</note>
+<orgname type="department">Nuffield College</orgname>
+<orgname type="institution">University of Oxford</orgname>
+<address>
+<settlement>Oxford</settlement>
+<country key="GB">UK</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">A New Dilemma of Social Democracy? The British Labour Party, the White Working Class and Ethnic Minority Representation</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">0BA71981F7C9BF5D76CB1117550136CD</idno>
+<idno type="DOI">10.1017/S0007123423000601</idno>
+<note type="submission">Received 18 September 2022; revised 13 July 2023; accepted 3 October 2023</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.8.0" when="2024-05-05T23:32+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>social democracy</term>
+<term>identity politics</term>
+<term>social class</term>
+<term>race</term>
+<term>representation</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Like much of the European centre-left, Britain's Labour Party has struggled to appeal to its former core working class support base in recent years.</s><s>However, this is largely a failure to connect with the 'white working class' (WWC) specifically, whereas support among ethnic minorities remains robust.</s><s>We hypothesise that Labour could be experiencing a 'trade-off', whereby efforts to cater to minorities harm its perceived ability to represent WWC interests.</s><s>We test this thesis by examining whether WWC voters are more likely to view minority and working class representation in zero-sum terms and shun Labour when they associate the party with minority interests.</s><s>We show that the WWC are somewhat less likely to view working class and ethnic minority representation as strongly correlated, and Labour's perceived ability to represent minorities is negatively associated with WWC support.</s><s>This is not (primarily) about ethnocentrism.</s><s>Instead, we suggest that 'relative political deprivation' is crucial.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>The last few electoral cycles in Europe have been unkind to the continent's historic centre-left, with social democrats in Austria (2019), <ref type="bibr">Belgium (2019)</ref>, <ref type="bibr">France (2017)</ref>, Germany (2017), Ireland (2020), and the Netherlands (2019) all registering post-war electoral nadirs.</s><s>Britain's Labour Party is no exception.</s><s>In 2019, Labour gained its lowest seat share since 1935, losing several symbolically important 'heartland' constituencies held almost continuously since the adoption of universal suffrage <ref target="#b31" type="bibr">(Goes 2020)</ref>.</s><s>Autopsies of the campaign revealed disproportionate losses among manual workers and those with low incomes <ref target="#b25" type="bibr">(Fieldhouse et al. 2023;</ref><ref target="#b32" type="bibr">Goodwin and Heath 2020;</ref><ref target="#b61" type="bibr">McDonnell and Curtis 2019)</ref>; painful statistics considering that these were the exact groups for whom the party was founded to represent (Labour Party 2021a; <ref type="bibr">Thorpe 2015, 8-35)</ref>.</s><s>For many, Labour had alienated its working class base once too often in recent decades, with equivocation over 'Brexit' being the final straw <ref target="#b9" type="bibr">(Bickerton 2019;</ref><ref target="#b32" type="bibr">Goodwin and Heath 2020</ref>).</s><s>Yet, the narrative of a working class exodus from Labour perhaps oversimplifies things.</s><s>Among UK parliamentary constituencies in the top quintile of deprivationa composite measure encompassing average attainment in income, employment, housing, etc. -Labour did indeed lose traditional, underprivileged strongholds like Stoke-on-Trent North and Bishop Auckland.</s><s>However, it held others, such as Bradford West and Bethnal Green, with increased majorities (Rae 2021; <ref target="#b89" type="bibr">Wainwright 2019</ref>).</s><s>There is one obvious difference between these four working class constituencies: while the first two are over 90 per cent white, the latter are over 50 per cent black and Asian <ref target="#b6" type="bibr">(Barton 2020)</ref>.</s><s>Data from the British Election Study Internet Panel (BESIP) following the 2019 election establishes an ethnic divide among the working class.</s><s>Among lower technical, routine and semi-routine employees (encompassing service workers such as cleaners and carers, as well as industrial workers), Labour support was around 59 per cent among ethnic minorities, but only 29 per cent among whites. 1</s><s>Labour failed to connect with the white working class (WWC) specifically.</s></p><p><s>This paper investigates whether perceptions of the party's representation of different demographics can help explain this puzzle.</s><s>Evidence suggests that Labour has maintained its reputation as the party for minorities more successfully than its reputation as the party for the (white) working class <ref type="bibr">(Heath et al. 2013, 13)</ref>.</s><s>Others argue that Labour's focus on ethnic minority interests (among other 'new' social movements) has reduced its standing among WWC voters <ref target="#b19" type="bibr">(Ehsan and Stokes 2021;</ref><ref target="#b65" type="bibr">O'Neill 2021)</ref>.</s><s>Similar claims have been made about the Democratic Party in America <ref target="#b28" type="bibr">(Fukuyama 2018;</ref><ref target="#b54" type="bibr">Lilla 2016)</ref>.</s><s>These authors allege a shift in the priorities of social democrats from addressing class-based economic issues to 'identity politics' and the mobilization of a range of sociocultural grievances associated with historically marginalized, principally non-economic, social groups, such as ethnic minorities <ref target="#b8" type="bibr">(Berman and Snegovaya 2019)</ref>.</s><s>This has, the argument goes, eroded attachment to the centre-left among 'traditional' supporters, who view efforts to represent such groups as, at best, competition for attention and, at worst, actually harmful to their interests <ref target="#b54" type="bibr">(Lilla 2016)</ref>.</s></p><p><s>This argument echoes <ref target="#b69" type="bibr">Przeworski and Sprague's (1986)</ref> identification of a 'dilemma of electoral socialism'.</s><s>Reaching out to middle class voters in response to the declining size of their working class base would reduce the latter's loyalty to the centre-left by eroding the parties' pro-working class brand (see also <ref target="#b21" type="bibr">Evans and Tilley (2017)</ref>, <ref target="#b40" type="bibr">Heath (2015)</ref>, and <ref target="#b86" type="bibr">Thau (2021)</ref>).</s><s>Thus far, however, few, if any, have explored whether perceptions of social democratic attempts to represent non-whites have had a similarly demobilising effect on WWC support.</s><s>Is this a new dilemma of electoral socialism?</s><s>Do WWC voters view Labour as disproportionately focused on minorities to the exclusion of their interests?</s><s>While feelings of displacement have been ascribed to WWC subjects in influential ethnographies <ref type="bibr">(Gest 2016, 39;</ref><ref type="bibr">Hochschild 2016, 137-39)</ref>, we are unaware of any study that has investigated these questions directly.</s></p><p><s>We proceed as follows.</s><s>First, we note that Labour's electoral coalition has changed from one dominated by the WWC to a tripolar alliance highly reliant on non-whites and white graduates.</s><s>We hypothesize that the WWC, more so than their graduate co-ethnics, may react negatively to the party's greater association with non-white representation.</s><s>We distinguish between 'ethnocentrism' and 'relative political deprivation' based explanations for this.</s><s>We then test these claims using BESIP data.</s><s>Our findings partially support the thesis that associations with minority interests can undermine social democrat WWC support.</s><s>First, the WWC are more likely than others to say that Labour represents minorities better than the working class.</s><s>Second, subjective ratings of how well Labour represents both groups are less positively correlated among WWC respondents.</s><s>Third, net of several attitudinal controls, the WWC are less likely to support Labour when they associate the party with minority interests.</s><s>These results cannot be fully explained by the WWC's higher average levels of ethnocentrism.</s><s>Instead, we argue that a substantial proportion of the WWC believe they have been relatively deprived of representation vis-à-vis other Labour coalition members in recent years and have reacted negatively.</s><s>We conclude by discussing the implications of our findings and the extent to which they might be generalizable. 1 Authors' calculations from BESIP Wave 19 data <ref type="bibr">(non-voters excluded)</ref>.</s><s>The initial 30-point gap between white (n = 3,255) and non-white (n = 91) working class voters remains at 18 points after controlling for age, education, income, and homeownership.</s></p><p><s>A New Dilemma of Electoral Socialism?</s><s>Analysts of British politics often claim that Labour, like other European centre-left parties, is struggling to hold together its twenty-first-century coalition of, on the one hand, industrial and lower-skilled service workers and, on the other, an increasingly large cohort of university graduates <ref target="#b1" type="bibr">(Abou-Chadi and Wagner 2020;</ref><ref target="#b26" type="bibr">Ford and Goodwin 2017;</ref><ref target="#b30" type="bibr">Gingrich 2017;</ref><ref target="#b38" type="bibr">Harris 2022;</ref><ref target="#b64" type="bibr">Oesch and Rennwald 2018;</ref><ref target="#b67" type="bibr">Piketty 2020)</ref>.</s><s>Following <ref type="bibr">Sobolewska and Ford (2020, 70-3)</ref>, we conceptualize Labour's support as having changed over time from domination by the (formerly, overwhelmingly white) working class to a 'tripolar' coalition between a reduced white working class (WWC), and also white graduates and ethnic minorities.</s></p><p><s>We define the first group as white, lower technical, routine or semi-routine employees without a university degree; the second as white university graduates and current students; and the last as all non-white or mixed-race respondents regardless of occupation or education. 2</s><s>Using nationally representative British Election Study (BES) data from 1987 and 2019 (two defeats where the party gained roughly one-third of votes nationally), Fig. <ref target="#fig_0" type="figure">1</ref> details the percentage of the entire electorate and Labour voters who belonged to each group in either year.</s><s>In 1987, over half of Labour's votes came from the WWC, despite this group making up less than two-fifths of the overall electorate.</s><s>Graduates and non-whitesdespite the latter being heavily pro-Labourcollectively contributed just 17 per cent of the party's votes due to their relative scarcity.</s><s>In 2019, after three decades of post-industrialization, educational expansion, rising diversity, and, consequently, shifting Labour Party strategy <ref target="#b21" type="bibr">(Evans and Tilley 2017;</ref><ref target="#b30" type="bibr">Gingrich 2017;</ref><ref target="#b82" type="bibr">Sobolewska and Ford 2020)</ref>, this had all changed.</s><s>While these three groups collectively contributed over two-thirds of the party's support, just as in 1987, the relative contribution of each had shifted dramatically.</s><s>Due to dwindling numbers, rising abstention, and increased support for rival parties, only 18 per cent of Labour supporters were from the WWC, a statistical underrepresentation.</s><s>By contrast, the enlarged white graduate and minority voter blocs were now overrepresented, making up 26 per cent and 13 per cent of the entire British electorate but 38 per cent and 20 per cent of Labour supporters.</s><s>Labour had moved from near dependency on a single constituency to a diverse, 'tripolar' coalition.</s></p><p><s>Labour's tripolar coalition is large but potentially fragile, given that its members differ in their values.</s><s>In line with previous studies <ref type="bibr">(Evans and Tilley 2017, 83;</ref><ref target="#b38" type="bibr">Harris 2022;</ref><ref target="#b82" type="bibr">Sobolewska and Ford 2020)</ref>, Appendix 1 shows that the three groups are ideologically similar on economic leftright issues, but the WWC are notably more authoritarian and ethnocentric.</s><s>The relative social conservatism of ethnic majority working class populations has long been recognized <ref target="#b55" type="bibr">(Lipset 1959)</ref>.</s><s>However, many analysts have highlighted that, as the political salience of immigration and international integration has risen, tensions between social democratic parties and their base have become full-on schisms, and some working class voters have drifted toward conservative and right-wing populist parties that better represent their positions on these issues <ref target="#b27" type="bibr">(Ford and Jennings 2020;</ref><ref target="#b43" type="bibr">Hooghe and Marks 2018;</ref><ref target="#b50" type="bibr">Kriesi et al. 2008;</ref><ref target="#b64" type="bibr">Oesch and Rennwald 2018;</ref><ref target="#b74" type="bibr">Rydgren 2013</ref>; although, see Abou-Chadi, Mitteregger, and Mudde 2021 for a critique of this narrative).</s><s>Indeed, Labour's WWC problem can partially be explained by their recent positions on several controversial 'sociocultural' issues <ref target="#b26" type="bibr">(Ford and Goodwin 2017)</ref>.</s><s><ref target="#b82" type="bibr">Sobolewska and Ford (2020)</ref> and <ref type="bibr">Evans and Tilley (2017, 83)</ref> demonstrate that the working class have long displayed Euroscepticism and opposition to immigration, putting them at odds with the rhetoric and policy of recent Labour leaders and most graduate voters.</s><s>Given that Britain's ethnic minority population are more liberal on border regulations and were notably less likely than whites to support leaving the EU <ref type="bibr">(Clarke, Goodwin, and Whiteley 2017, 154-5;</ref><ref type="bibr">Heath et al. 2013, 66-7)</ref>, one could surmise that the black and Asian working class were less disillusioned with Labour's increasing internationalism since the 1980s.</s></p><p><s>That said, particular divisive issues are only partially explanatory.</s><s>First, Labour's leadership and positions have always been more socially liberal than their prototypical supporters.</s><s>In the 1960s, Labour was far more popular among the working class than the more socially tolerant middle classes, despite abolishing the death penalty, legalizing homosexuality and abortion, and enacting several landmark race relations acts <ref type="bibr">(Evans and Tilley 2017, 68-79;</ref><ref type="bibr">Sobolewska and Ford 2020, 190-8;</ref><ref type="bibr">Thorpe 2015, 173-80)</ref>.</s><s>Second, Labour's social liberalism poorly serves its average non-white supporter in other ways.</s><s>While ethnic minorities are relatively permissive on issues of immigration and policing, they are more conservative on questions of gender and homosexuality <ref type="bibr">(Collins, Drinkwater, and Jennings 2020, 23;</ref><ref type="bibr">Sobolewska and Ford 2020, 70-2)</ref>, yet there has been no similar anti-Labour backlash from this community <ref target="#b58" type="bibr">(Martin 2019)</ref>.</s></p><p><s>We do not deny that the role of high-profile 'issues' is a challenge that Labour and other social democratic parties face in trying to maintain their modern electoral coalition.</s><s>However, considering the shifting balance of power within the party's electorate, we contend there is also the potential for an even deeper conflict over exactly who Labour fundamentally belongs to, whose interests it should prioritize, and how achievable positive sum representation of different social groups is in practice.</s><s>In a nutshell, we argue that the rising importance of non-white voters to Labour's overall vote share and subsequent increased efforts by Labour to portray itself as the party for ethnic minorities may alienate WWC voters.</s></p><p><s>This perspective is not entirely novel.</s><s>Popular understandings of parties as defenders of specific social groups rather than custodians of particular ideological traditions have long been acknowledged <ref target="#b10" type="bibr">(Butler and Stokes 1974;</ref><ref target="#b11" type="bibr">Campbell et al. 1960)</ref>, and such theories have resurged in recent years <ref target="#b44" type="bibr">(Huddy 2013)</ref>, especially within the USA where associations of 'Democrat' or 'Republican' with particular ethnoreligious identities are deeply ingrained <ref target="#b3" type="bibr">(Achen and Bartels 2017)</ref>.</s><s>Put simply, awareness of the 'sort of people' that each party tends to help is often more widespread than accurate knowledge of politicians' stances, ideology, and policies <ref target="#b3" type="bibr">(Achen and Bartels 2017;</ref><ref type="bibr">Butler and Stokes 1974, 336-7;</ref><ref target="#b11" type="bibr">Campbell et al. 1960;</ref><ref target="#b80" type="bibr">Smith 2019)</ref>, and assessments of the links between parties and social groups seem to help shape political identities <ref target="#b4" type="bibr">(Ahler and Sood 2018)</ref>.</s><s>When a voter believes that a party is more closely associated with an 'outgroup' they dislikewhether because they deem it a rival for resources or because of base prejudicethe likelihood of them supporting the said party declines <ref type="bibr">(Kane, Mason, and Wronski 2021;</ref><ref type="bibr">Mason, Wronski, and Kane 2021;</ref><ref target="#b91" type="bibr">Zhirkov and Valentino 2022)</ref>.</s></p><p><s>In consequence, the public's understanding of who 'fits' where politically is not just influenced by policy and high profile 'issues' but also by cheaper heuristics such as a party referring to one's group in speeches, nominating co-group candidates and, crucially, avoiding associating itself with the representatives, emblems, and stances of rival groups <ref target="#b21" type="bibr">(Evans and Tilley 2017;</ref><ref target="#b40" type="bibr">Heath 2015;</ref><ref target="#b57" type="bibr">Lupu 2016;</ref><ref target="#b73" type="bibr">Robison et al. 2021)</ref>.</s><s>This makes group voting distinct from policy voting per se.</s><s>For instance, in Europe, social democrats' appeals to the growing middle classes are argued to have undermined working class perceptions that these were parties 'for them' <ref target="#b21" type="bibr">(Evans and Tilley 2017;</ref><ref target="#b69" type="bibr">Przeworski and Sprague 1986)</ref>.</s><s>It was not just more centrist policies on tax and redistribution that demobilized the working class, however, but also the changing demographic make-up of the party elite and their abandonment of references to workers' lifestyles and challenges in their rhetoric <ref target="#b21" type="bibr">(Evans and Tilley 2017;</ref><ref target="#b40" type="bibr">Heath 2015;</ref><ref target="#b73" type="bibr">Robison et al. 2021;</ref><ref target="#b85" type="bibr">Thau 2019</ref><ref target="#b86" type="bibr">, Thau 2021)</ref>.</s><s>In Britain, the change was dramatic.</s><s>While widespread in the mid-twentieth century <ref target="#b10" type="bibr">(Butler and Stokes 1974)</ref>, perceptions of Labour as a party for the working class declined substantially during the 1990s and 2000s <ref type="bibr">(Evans and Tilley 2017, 43;</ref><ref type="bibr">130-5)</ref>.</s></p><p><s>Having previously alienated sections of its working class electorate by appearing too closely linked with middle class aspirations and interests, might Labour be in danger of losing the remainder over its appeals to minorities?</s><s>Labour has certainly redoubled efforts to appeal to the non-white electorate.</s><s>The party greatly expanded their stock of minority MPs, established and granted executive committee representation to an affiliated society for all non-white members ('Labour BAME'), and made increasingly explicit appeals to the challenges facing non-white Britons, including vocal support for the Black Lives Matter campaign <ref target="#b35" type="bibr">(Gregory 2020;</ref><ref type="bibr">Labour Party 2021b;</ref><ref type="bibr">BBC News 2019)</ref>.</s><s>Critics argue that Labour's alleged fixation with non-white voters undermines its ability to adequately represent its traditional constituencies, with the relative paucity of references to the working class in recent party publications being highlighted as indicative <ref target="#b19" type="bibr">(Ehsan and Stokes 2021)</ref>.</s><s>Working class understandings of representation as a zero-sum game may also have been enhanced because minority representation in parliament accelerated when the number of WWC MPs declined precipitously <ref type="bibr">(Campbell and Heath 2021, 1;</ref><ref type="bibr">710-11)</ref>.</s><s>Whatever the exact cause, in 2010, only 63 per cent of white British people believed that Labour looked after working class interests 'very' or 'fairly' well, whereas 80 per cent said this of the party's representation of black and Asian people <ref type="bibr">(Heath et al. 2013, 93-4)</ref>.</s></p><p><s>A non-trivial proportion of whites saw Labour as a party for ethnic minorities rather than the working classes per se, but did this erode attachments to Labour?</s><s>Surprisingly, the relevance of a new (racialized) dilemma of electoral socialism has not been directly tested.</s><s>True, several observational and experimental studies have examined the impact of socially liberal positions on race and immigration on centre-left support, with some reporting a positive effect (Abou-Chadi and Wagner 2020; <ref target="#b39" type="bibr">Häusermann et al. 2021</ref>) and others uncovering more negative outcomes <ref target="#b5" type="bibr">(Angelucci and Vittori 2023)</ref>.</s><s>However, these studies cannot answer our research questions because they measure responses to observed or experimentally manipulated positions on policies rather than assessments of how well parties represent different groups.</s><s>More relevantly, <ref target="#b16" type="bibr">Dancygier (2010)</ref> argues that the potential political power of non-whites can exacerbate ethnic tension because natives may fear that local politicians will no longer be responsive to their needs.</s><s>However, neither that nor her subsequent research on the 'inclusion dilemma' facing centre-left parties who field Muslim candidates <ref target="#b17" type="bibr">(Dancygier 2017</ref>) explicitly measure the extent to which native working class populations associate these parties with minorities.</s><s>We fill this gap by directly measuring voters' associations of the Labour Party with different social groups.</s><s>We hypothesize that the association of the centre-left with non-whites will erode their WWC support; however, we also advance previous discussions theoretically by distinguishing between two potential mechanisms. <ref target="#foot_2" type="foot">3</ref> First, underlying hostility to other racial groups (ethnocentrism) and, second, fear of losing representation of one's own group (relative political deprivation).</s></p><p><s>Why Might Minority Representation Reduce the Centre-Left's White Working Class Support?</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Ethnocentrism<p><s>Ethnocentrism is the tendency 'to reduce society to us and them' <ref type="bibr">(Kinder and Kam 2009, 37)</ref> and to combine 'a positive attitude toward one's own ethnic/cultural group … with a negative attitude toward the other' (Adorno 1950 in <ref type="bibr">Motyl 2001, 153-4)</ref>.</s><s>Ethnocentric voters may simply react negatively to Labour's attempts at improving the standing of non-whites due to outgroup prejudice.</s><s>Ethnocentrism is a reliable predictor of political behaviour in America, particularly increasing Republican support among lower-status whites <ref target="#b46" type="bibr">(Kam and Kinder 2012;</ref><ref target="#b49" type="bibr">Kinder and Kam 2009)</ref>.</s><s>Furthermore, animus towards social groups commonly associated with a rival partywhich, in America, often means particular races or religionshas been shown to drive the recent hardening of partisan division and polarization in US politics <ref type="bibr">(Kane, Mason, and Wronski 2021;</ref><ref type="bibr">Mason, Wronski, and Kane 2021;</ref><ref target="#b72" type="bibr">Robison and Moskowitz 2019;</ref><ref target="#b91" type="bibr">Zhirkov and Valentino 2022)</ref>.</s><s>Conversely, ethnocentrism is rarely measured in Britain, where the small size and heterogeneous nature of the minority population, in addition to its early enfranchisement, has historically limited the political capital available from mobilizing racial grievances <ref target="#b53" type="bibr">(Laniyonu 2019;</ref><ref type="bibr">Sobolewska and Ford 2020, 15-16)</ref>.</s><s>That said, given evidence of racial prejudice in contemporary Britain <ref type="bibr">(Sobolewska and Ford 2020, 61)</ref> and accusations of racism being commonly levelled at critics of social movements such as Black Lives Matter <ref target="#b59" type="bibr">(Mason 2021)</ref>, it is prudent to control for the possibility that ethnocentrism drives WWC suspicion of minority representation.</s></p><p><s>Any gap between the WWC and white graduates in their response to associations of Labour with non-white representation should dissipate once controlling for ethnocentrism if that is the cause.</s><s>Firstly, graduates are often less attached to their own ethnic 'in-group' than the working class, possibly because a higher social status reduces the psychological need to base one's identity and esteem on the achievements of the broader national community <ref target="#b48" type="bibr">(Kaufmann 2018;</ref><ref target="#b77" type="bibr">Shayo 2009;</ref><ref type="bibr">Sobolewska and Ford 2020, 66-8)</ref>.</s><s>Secondly, copious research links university education with reduced hostility to ethnic 'out-groups', although the exact mechanism is disputed <ref target="#b76" type="bibr">(Scott 2022;</ref><ref type="bibr">Sobolewska and Ford 2020, 66-8)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Relative Political Deprivation<p><s>Relative deprivation is a psychological concept denoting feelings of resentment and frustration that emerge when one believes that one's in-group has been unfairly deprived of resources relative to others <ref target="#b36" type="bibr">(Gurr 1970;</ref><ref target="#b79" type="bibr">Siroky et al. 2020;</ref><ref target="#b83" type="bibr">Stouffer et al. 1949)</ref>.</s><s>While these resources are often material, such as jobs and housing <ref target="#b16" type="bibr">(Dancygier 2010;</ref><ref target="#b36" type="bibr">Gurr 1970;</ref><ref target="#b66" type="bibr">Pettigrew et al. 2008)</ref>, it is possible that perceptions of another group enjoying greater responsiveness from (ostensibly) one's own representatives could catalyze specific feelings of relative political deprivation.</s><s>Members of the WWC, in whose interests the party was founded and from whose ranks many party representatives were once sourced <ref target="#b21" type="bibr">(Evans and Tilley 2017;</ref><ref type="bibr">Labour Party 2021a;</ref><ref type="bibr">Thorpe 2015, 8-35)</ref>, may feel aggrieved that a 'new' social group appears to be usurping their position as Labour's primary constituency.</s><s>Moreover, particularly following the loss of descriptive and substantive representation to the middle classes since the 1980s <ref target="#b21" type="bibr">(Evans and Tilley 2017;</ref><ref target="#b40" type="bibr">Heath 2015)</ref>, it is possible that WWC voters may come to interpret social group representation in zero-sum terms, where any further attention given to other groups comes directly at their expense <ref target="#b63" type="bibr">(Norton and Sommers 2011)</ref>.</s><s>Such feelings would be compatible with the broader sense of displacement and of having fallen behind others 'cutting in line', as ascribed to the subjects of <ref type="bibr">Gest (2016, 39)</ref> <ref type="table"></ref>and<ref target="#tab_2" type="table">Hochschild's (2016, 137-9</ref>) ethnographies of the WWC in East London and rural Louisiana, respectively.</s></p><p><s>Crucially, we do not expect the rest of Labour's electoral coalitionnon-whites and graduates to necessarily perceive a trade-off or react negatively when they associate Labour with minority interests.</s><s>Black and Asian voters may simply view the 'working class' and 'ethnic minorities' as largely synonymous rather than as rivals.</s><s>Even if they do not, they have a clear self-interest in Labour positioning itself foremost as a party for non-whites.</s><s>White graduates have several reasons to be more comfortable with Labour's focus on ethnic minority interests (apart from their aforementioned social liberalism).</s><s>First, they should not personally feel any sense of political deprivation vis-à-vis minorities: in recent decades, substantive and descriptive representation of graduates within the party has increased substantially <ref target="#b21" type="bibr">(Evans and Tilley 2017;</ref><ref target="#b70" type="bibr">Quilter-Pinner et al. 2022)</ref>.</s><s>Second, left-wing critics of 'identity politics' have argued that wealthier groups may even derive material benefits from social democrats associating more closely with minorities than the working class, given that they have less to fear from a politics centred on symbolic gestures and representation rather than competing economic interests <ref target="#b54" type="bibr">(Lilla 2016;</ref><ref target="#b90" type="bibr">Walters 2006</ref>).</s><s>Third, experimental evidence from America suggests that whites who are cognisant of the historical injustice and barriers facing minorities can become less sympathetic to problems facing poorer members of the 'advantaged' ethnic majority <ref target="#b15" type="bibr">(Cooley et al. 2019</ref>).</s><s>Accordingly, higherstatus whites might believe the prioritization of blacks and Asians over the WWC is ethically justifiable.</s><s>Accordingly, WWC concerns about relative political deprivation are unlikely to be shared by other members of Labour's coalition.</s><s>Indeed, research indicates that graduates are generally more supportive of increasing the number of Muslims and non-whites in parliament than are working-class identifiers <ref target="#b11" type="bibr">(Campbell and</ref><ref type="bibr">Heath 2021, 1719)</ref>.</s></p><p><s>Accordingly, our hypotheses are as follows.</s><s>Relative to white graduates and ethnic minorities, we expect that: H1: White working class (WWC) voters are more likely to perceive Labour as better representing ethnic minorities than the working class.</s><s>H2: WWC voters are more likely to perceive a trade-off between minority and working class interest representation.</s><s>H3a: WWC voters are less likely to support Labour if they perceive the party to be closely associated with minority representation.</s><s>H3b: WWC voters are particularly less likely to support Labour if they perceive the party to be more closely associated with the representation of minorities than with working class interests.</s></p><p><s>And, lastly, if our thesis about relative political deprivation is accurate:</s></p><p><s>H4: The distinctiveness of WWC voters in H1-H3 is not reducible to their higher levels of ethnocentrism.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Measurement and Modelling<p><s>To test our hypotheses, we must know whether individuals associate Labour with particular social groups and their level of ethnocentrism.</s><s>Suitable measures of both are available in the BESIP study <ref target="#b24" type="bibr">(Fieldhouse et al. 2021)</ref>, a longitudinal online survey that has, since 2014, been periodically fielded to nationally representative samples of around 30,000 British adults recruited by the leading British internet polling company, YouGov. 4</s><s> Perceptions of Labour's ability to represent particular groups are taken from successive BESIP items asking respondents 'how closely [do they] think the Labour Party looks after the interests of' "working class", "black and Asian", and, to help capture the "classic" dilemma of electoral socialism, "middle class" people, from 0 ("not at all closely") to 3 ("very closely").</s><s>Ideally, we would measure the perceived representation of 'white working class people' specifically, but, unfortunately, no such survey item exists.</s><s>That said, our general 'working class' item is a suitable proxy.</s><s>As bemoaned by left-wing activists, class in Britain is regularly discussed as a particular (racialized) cultural tradition (flat caps, northern accents) rather than as an economic classification, with ethnic minorities often treated as a classless collective outside this group rather than (an increasingly large) part of it <ref target="#b75" type="bibr">(Sandhu 2018)</ref>.</s><s>Similarly, Labour's appeals to a distinct ethnic minority community (Labour Party 2021b) may also encourage perceptions that this group fundamentally differs from the party's conventional clientele (that is, the working class).</s><s>Furthermore, asking a separate question about perceptions of 'black and Asian interest' representation may encourage respondents to focus on the white population when considering working class representation.</s><s>When modelling the effects of Labour's perceived representation of minorities relative to the working class (rather than perceptions of absolute representation of either group), we subtract the ratings of working class representation from evaluations of how well Labour represents blacks and Asians.</s><s>This generates a -3 to +3 scale where higher values indicate that representation is relatively biased towards minorities. <ref target="#foot_3" type="foot">5</ref></s><s>hile these questions were fielded to some respondents in several waves, we mainly use the measures taken in Wave 10 of the BESIP (December 2016), as this is proximate to the wave containing our measure of ethnocentrism (see below) and, unlike other waves, it also fielded the questions on representation to the full sample.</s><s>In the final part of our analysis, however, we use multiple waves to conduct a longitudinal analysis to demonstrate the robustness of our findings.</s><s>Appendix 4 presents analyses using a pooled sample of all BESIP waves containing questions about perceived group representation <ref type="bibr">(2016)</ref><ref type="bibr">(2017)</ref><ref type="bibr">(2018)</ref><ref type="bibr">(2019)</ref><ref type="bibr">(2020)</ref><ref type="bibr">(2021)</ref> to demonstrate that our models that do not include the ethnocentrism control are fully replicable when using a broader sample.</s></p><p><s>The absence of ethnocentrism items in most British social science surveys has been bemoaned <ref type="bibr">(Sobolewska and Ford 2020, 338)</ref>.</s><s>While immigration items are common, they are not ideal.</s><s>Firstly, immigration preferences are also affected by non-racial considerations about economic ramifications <ref target="#b16" type="bibr">(Dancygier 2010)</ref>.</s><s>Secondly, preferences for restricting new arrivals may themselves be driven by perceptions of oneself as relatively deprived compared to the existing population.</s><s>Conversely, ethnocentrism is usually conceived of as a stable, underlying personality trait leading one to prefer in-group members to out-groups, independent of short-term factors <ref type="bibr">(Motyl 2001, 153-4;</ref><ref type="bibr">Sobolewska and Ford 2020, 36-41)</ref>.</s></p><p><s>Fortunately, in Wave 11 (April-May 2017), the BESIP respondents were asked to 'rate [their] feeling towards people from different groups born in Britain'white people, Asian people, and black peopleon a scale of 0 ('very cold') to 100 ('very warm'), following similar longstanding items in the American National Election Study.</s><s>Following <ref type="bibr">Hainmueller and Hopkins (2015, 542)</ref> and <ref type="bibr">Kinder and Kam (2009, 42-61)</ref>, we averaged the respondents' feelings towards blacks and Asians and subtracted this figure from the score given to whites to capture both positive in-group and negative out-group sentiment.</s><s>Dividing this product by 10 produced a final 4 YouGov ensure that their samples can be weighted to be representative of the wider adult population in terms of age, gender, education, social class, vote choice and political attention.</s><s>More information about YouGov's methodology can be found at https://yougov.co.uk/about/panel-methodology/, and information about the BESIP can be found at https://www.</s><s>britishelectionstudy.com/wp-content/uploads/2022/10/Bes_wave23Documentation_V2-1.pdf.</s></p><p><s>variable ranging from -10 to +10, where higher values indicate greater closeness to whites relative to non-whites.</s><s>If the association of Labour with minorities substantially repels WWC voters, even when controlling for ethnocentrism, this suggests that relative political deprivation may be important.</s><s>We provide evidence for the construct validity of our measure of ethnocentrism in the Appendix and demonstrate its broader utility as a predictor of British political behaviour. 6</s><s> Kinder and <ref type="bibr">Kam (2009, 66-8</ref>) also provide evidence of this measure's within-person over-time stability in the United States.</s><s>Appendixes 12-17 demonstrate the robustness of all our results to controlling for attitudes to immigration or the European Union instead.</s></p><p><s>Again, our analysis distinguishes between white (occupationally) working class, white graduates, ethnic minorities, and 'other white' respondents. 7</s><s>All our models control for the respondents' age group <ref type="bibr">(18-25; 26-44; 45-64; 65+)</ref>, gender, and country (England; Wales; Scotland). <ref target="#foot_5" type="foot">8</ref></s><s>Where possible, we also present models controlling for respondents' values on validated economic left-right and social liberal-authoritarianism measures <ref target="#b23" type="bibr">(Evans, Heath, and Lalljee 1996)</ref>.</s><s>These are two additive scales of five items that capture attitudes towards inequality and class conflict, and traditional values and maintaining order, respectively.</s><s>Both are predictive of vote choice, linked to class and educational attainment and, in the latter case, plausibly related to ethnocentrism <ref target="#b21" type="bibr">(Evans and Tilley 2017;</ref><ref target="#b49" type="bibr">Kinder and Kam 2009;</ref><ref target="#b82" type="bibr">Sobolewska and Ford 2020)</ref>.</s><s>Appendix 23 details the construction of all variables.</s></p><p><s>In what follows, we first present descriptive evidence that the WWC are more likely to believe that Labour does a better (worse) job at representing black and Asian people (the working class) than graduates and ethnic minorities.</s><s>Second, we run OLS regressions to demonstrate the association between perceptions of how well Labour represents minorities and the working class.</s><s>Third, we use logistic regressions to examine whether these perceptions predict Labour support among different voters.</s><s>We then examine the consequences of Labour's perceived focus on ethnic minorities and their relative focus on this group versus the working class.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Do WWC respondents consider themselves relatively deprived of representation by Labour?<p><s>Based on OLS regression models presented in Appendix 24, which controlled for age, gender, UK country, and survey year, Fig. <ref target="#fig_1" type="figure">2a</ref> shows the mean predicted evaluation of how closely Labour represents working class, middle class, and black and Asian interests for WWC, white graduate, and non-white respondents, respectively, using pooled data from Waves 10, 19, 20, and 21 of the BESIP (December 2016 to May 2021).</s><s>Crucially, while all three types of respondents believe that Labour represents the middle class least closely, the WWC evaluate Labour's working class representation less favourably than do minorities and graduates, and they are unique in believing that Labour most closely represents black and Asian Britons.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">6<p><s>Appendix 5 shows that our scale predicts anti-immigration and anti-European Union sentiment, two attitudes linked to ethnocentrism elsewhere <ref target="#b82" type="bibr">(Sobolewska and Ford 2020)</ref>.</s><s>Appendixes 6-9 show that, as one would expect, the association of Labour with ethnic minority interests is a positive predictor of support for the party and evaluations of how well it represents the working class only among non-ethnocentrics.</s><s>Appendix 10 also shows that white ethnocentrism is itself a negative predictor of Labour support.</s><s>Finally, Appendix 11 confirms that the WWC are, in general, more ethnocentric than others (especially graduates).</s><s>7 Given our focus on the 'tripolar' dilemma facing social democrats, we have chosen to contrast the attitudes and behaviour of the white 'objective' working class with white graduates and ethnic minorities, who are similarly attached to Labour but substantially more liberal on race and identity issues.</s><s>A comparison between the white 'subjective' working and middle classes would make less sense, as the white subjective middle class are neither part of Labour's historic or contemporary electoral coalition nor notably socially liberal.</s><s>That said, Appendices 18-19 demonstrates that our main conclusionsthat the WWC are more likely to reject Labour when they associate the parties with the representation of non-whitesis robust to defining 'working class' in subjective rather than objective terms.</s></p><p><s>Figure <ref target="#fig_1" type="figure">2b</ref> clarifies this picture.</s><s>The bars here present the predicted values from an almost identical regression model in which the dependent variable was a measure of Labour's perceived relative focus on the working class or non-whites.</s><s>This was calculated by subtracting evaluations of Labour's working class representation from evaluations of the party's black and Asian Note: Based on several OLS regression models, Fig. <ref target="#fig_1" type="figure">2a</ref> presents, for white working class (red), white graduate (blue), and ethnic minority (dark grey) respondents, predicted evaluations (+95% confidence intervals) of Labour's representation of (a) 'working class people', (b) 'black and Asian people', and (c) 'middle class people', on a scale from 0 ('not at all close') to 3 ('very close').</s><s>Fig. <ref target="#fig_1" type="figure">2b</ref> presents the results of a different OLS model predicting the extent to which Labour is perceived to represent blacks and Asians better than the working class.</s><s>This was calculated by subtracting evaluations of Labour's representation of the latter group from the former.</s><s>All models controlled for respondents' age, gender, and UK country, alongside a fixed effect for the survey wave.</s><s>Raw regression coefficients are available in Appendix 24.</s></p><p><s>representation, which varied from -3 (very close to the working class, not at all close to minorities) to +3 (the reverse).</s><s>In all other respects, the model specification was identical to Fig. <ref target="#fig_1" type="figure">2a</ref>.</s><s>Crucially, the WWC see Labour as relatively more 'pro-minority' than 'pro-working class'; white graduates and ethnic minorities say the opposite.</s><s>In accordance with H1, the WWC does, on average, see themselves as relatively deprived politically.</s><s>Importantly, using data from Waves 10 and 11 (December 2016 -April 2017) of the BESIP, Appendix 25 demonstrates that the greater tendency of WWC respondents to judge Labour as closer to minorities than the working class is not, primarily, driven by higher white ethnocentrism or different left-right or libertarian-authoritarian values.</s><s>Variation in all three variables can explain about 40 per cent of the gap between the WWC's ratings and those of white graduates and about 36 per cent of the difference between the ratings of the WWC and those of ethnic minority respondents.</s></p><p><s>To what extent does the WWC view Labour's social group representation in zero-sum terms?</s><s>Do they think focusing on minorities harms Labour's ability to represent itself?</s><s>Table <ref target="#tab_0" type="table">1</ref> presents a series of OLS regression models testing this.</s><s>Ratings of Labour's working class representation ('Labour WC') are regressed on ratings of Labour's black and Asian ('Labour BME') representation interacted with the respondent's social background.</s><s>If WWC people are more likely to perceive a trade-off between representing either group, this interaction effect should be positive for all other groups when the WWC is the baseline.</s><s>This is indeed what Model A shows.</s><s>For WWC respondents, the net marginal 'effect' of a one-unit improvement in evaluations of Labour's BME representation is only associated with a small increase (0.11 units) in positivity about Labour's working class representation, but this relationship is 3 and 3.5 times larger for white graduates and minority respondents, respectively.</s><s>Importantly, these interaction effects are robust to controlling for underlying group differences in ethnocentrism (Model B), as well as left-right and libertarian-authoritarian values and the strength of Labour partisanship (Model C).</s><s>While the impact of evaluations of Labour's minority representation on its perceived working class representation is not negative for WWC respondents (which would indicate entirely zero-sum attitudes to representation), the relationship between evaluations is unusually modest.</s></p><p><s>Using data from Table <ref target="#tab_0" type="table">1</ref> (Model C), Fig. <ref target="#fig_2" type="figure">3</ref> visualizes the association between evaluations of Labour's representation of different groups for the WWC (red), white graduates (blue), and ethnic minority respondents (black), holding all else constant.</s><s>Our model predicts that WWC, white graduate, and ethnic minority respondents who assigned Labour a 1/3 for how closely they represent non-whites (that is 'not very closely')the first score for which we have many observationswould all be predicted to give the party around 1.5/3 for working class representation.</s><s>However, if the same respondents gave the party a maximum 3/3 score for BME representation, the model would predict that white graduates and minorities would score Labour's working class representation 2.1/3 and the WWC just 1.7.</s><s>Contrary to H2, therefore, it is not the case that the WWC believe that Labour cannot represent both the working class and minorities simultaneously; however, they are less likely to perceive a positive sum game than other parts of Labour's coalition.</s><s>Furthermore, as per H4, this is not reducible to ethnocentrism. 9  Do people factor Labour's proximity to different social groups into their vote choice?</s><s>Table <ref target="#tab_1" type="table">2</ref> presents a series of logistic regression models where the dependent variable is support for Labour (1) versus any other party (0), according to vote intention in BESIP Wave 10. 10 This is regressed onto perceptions of the party's representation of blacks and Asians and the middle and working 9 This result does not reflect a more generalisable phenomenon in which the WWC are simply less likely to believe their interests are strongly compatible with any other group.</s><s>Appendices 26 and 27 replicate Table 1 using evaluations of Labour's middle class representation as the predictor.</s><s>There is no interaction with WWC status. 10 Our results are robust to using several alternative dependent variables.</s><s>Firstly, a version of our dichotomous vote intention variable that also includes non-voters as non-Labour supporters (Appendix 28).</s><s>Secondly, an interval measure of Labour support based on subjective likelihood of ever supporting the party (Appendix 29).</s><s>Thirdly, a different version of this interval measure that omits those who gave a 0/10 likelihood of ever supporting the party to focus on only 'potential' Labour voters (Appendix 30).</s><s>classes (Model A).</s><s>All ratings are interacted with the respondent's social background, holding constant age, gender, and country.</s><s>Subsequently, we add controls for ethnocentrism (Model B) and left-right and libertarian-authoritarian values (Model C).</s></p><p><s>The models corroborate H3a: WWC respondents (and, to a lesser extent, other non-graduate whites) are less likely to support Labour when they associate the party with non-white interests; however, graduates and ethnic minorities are more likely to do so.</s><s>Importantly, the differences between the WWC and other groups are barely altered when controlling for ethnocentrism and other potential attitudinal confounders.</s><s>Therefore, prejudice alone is unlikely to drive the WWC's aversion to the Labour-minority nexus.</s><s>Unsurprisingly, the strongest predictor of WWC support for Labour is the perception of how well the party looks after the working class.</s><s>However, it is notable that, unlike minority representation, perceptions of how well Labour looks after middle class interests are also positively associated with WWC support for the party. 11</s><s>Based on the data here, it is the 'new' dilemma of electoral socialism and the difficulty of reconciling WWC supporters to minority representation that is more pressing for Labour than the 'old' electoral dilemma of appealing to both the working and middle classes (cf.</s><s><ref target="#b69" type="bibr">Przeworski and Sprague 1986)</ref>.</s></p><p><s>How large are these effects?</s><s>Based on data from Table <ref target="#tab_1" type="table">2</ref> (Model C), Fig. <ref target="#fig_3" type="figure">4</ref> presents the predicted probability of WWC, white graduate, and ethnic minority respondents supporting Labour given a particular evaluation of the party's representation of the working class (top left panel), black and Asians (top right panel), and the middle class (bottom left panel).</s><s>The figure demonstrates that there is something unique about minority representation as opposed to other types of social constituencies.</s><s>Moving evaluations of both working and middle class representation from their most negative Appendix 18 shows that restricting our sample to whites with a working-class identity yielded almost identical results.</s><s>We cannot rule out the fact that some members of the working class aspire one day to be middle class themselves, however, and this leads them to view Labour's representation of the middle class positively.</s><s>Alternatively, some may see 'middle class' as synonymous with 'average person'.</s></p><p><s>to their most positive increases the likelihood of a WWC voter choosing Labour by around 49 percentage points; however, equivalent improvements in the ratings of how well Labour represents minorities produce a 44 percentage point decrease in the likelihood of WWC support for the party.</s><s>The equivalent figures for white graduates are + 25, + 43, and -3 percentage points, respectively, and + 1, + 29, and + 6 percentage points, respectively, for non-white respondents.<ref target="#foot_6" type="foot">12</ref></s><s>Therefore, the most reliably strong predictor of respondents' proclivity to support Labour is their perception of how well the party represents middle class interests.</s><s>It is plausible that this is because some respondents now view 'middle class' as synonymous with 'average person'.</s><s>The net positive 'effect' of working class representation is strong for the WWC and, to a lesser extent, white graduates.</s><s>However, holding all else constant, it plays a small role in the average vote calculation of non-whites.</s></p><p><s>The generally weak associations of social group representation with non-white voting behaviour are worth noting.</s><s>Previous research in Britain and America has indicated that non-white support for the centre-left tends to be very high regardless of economic status, given that minorities tend to hold the issue of non-discrimination salient above all other considerations <ref target="#b18" type="bibr">(Dawson 1994;</ref><ref target="#b41" type="bibr">Heath et al. 2013)</ref>.</s><s>It may also be that, in a majoritarian system such as that in the UK, there Source: BESIP Wave 10 (November-December 2016).</s><s>Note: Figure <ref target="#fig_2" type="figure">3</ref> presents predicted evaluations of how well Labour looks after working class people's interests (0-3) based on coefficients from Table <ref target="#tab_0" type="table">1</ref> (Model C).</s><s>The estimates demonstrate how this variable's values are predicted to change depending on evaluations of Labour's black and Asian representation among white working class (red), white graduate (blue), and ethnic minority (black) respondents, respectively.</s><s>The estimates are for a middle-aged, non-Labour identifying English male, with the sample average values on the left-right, libertarian-authoritarian, and ethnocentrism scales.</s><s>95% confidence intervals are provided for each point estimate.</s><s>Histograms display the distribution of evaluations of Labour's black and Asian representation overall.</s></p><p><s>are few credible alternative 'pro-minority' parties for a non-white voter to defect to even when they deem the major social democratic party to be doing poorly in representing their interests.</s></p><p><s>In general, however, these models clearly corroborate H3a and H4.</s><s>WWC respondents are most likely to perceive Labour as closer to minority interests than working class ones.</s><s>But what are the electoral consequences of such beliefs?</s><s>Using the same BESIP Wave 10 dataset, Models A and B of Table <ref target="#tab_2" type="table">3</ref> contain logistic regressions of Labour vote intention on perceptions of the extent to which respondents think that the party more closely represents non-white interests than working class interests (-3 to + 3), where higher values denote perceived pro-minority bias.</s><s>The variable is again interacted with respondents' social background.</s><s>As per H3b and H4, such beliefs exert a greater negative effect on the probability of the WWC supporting Labour than they do for other groups, regardless of controls. 13</s><s>In Model C, we replicated this finding, albeit for a much smaller sample, using evaluations of Labour's relative emphasis on minority representation and vote choice in the December 2019 General Election (BESIP Wave 19).</s><s>WWC respondents who believed Labour were more 'pro-minority' than 'pro-working class' were less likely Our results are also robust to controlling for an additional scale capturing the sum of respondents' evaluations of the party's black and Asian and working class representation, rather than the difference (Appendix 31).</s><s>This is an attempt to ensure that we are not simply picking up on perceptions of Labour's 'absolute' ability to represent social groups rather than their 'relative' ability to represent different demographics.</s><s>That said, we acknowledge that a survey item that explicitly asked respondents to indicate which group they believed that Labour was closer to would be a more useful measure in this regard.</s></p><p><s>to support Labour in that contest and were also less likely to do so than white graduates who believed the same thing.</s><s>In Model D, we add our control for ethnocentrism, which was measured only in Wave 11 (April 2017) of the BESIP.</s><s>Consequently, we further reduced our sample by half and introduced a panel weight to take account of non-random patterns of attrition.<ref target="#foot_7" type="foot">14</ref></s><s>That said, despite the different time periods and a great reduction in statistical power, our key finding holds up.</s><s>Where both consider Labour to be closer to minorities than the working class, a WWC voter is more likely to reject Labour than a white graduate.</s><s>In fact, according to this model, a perceived pro-minority bias has essentially no effect on white graduate support for the party.</s><s>Given the control for ethnocentrism, this seems to be a partial corroboration for our thesis that a sense of relative political deprivation is pushing WWC supporters away from Labour.</s></p><p><s>Using the panel element of the BESIP, Models E and F further demonstrate the robustness of this relationship by adding a lagged dependent variable to the model.</s><s>That is, we regress support for Labour in 2019 (Wave 19) on the extent to which the party is perceived to represent nonwhites more closely than the working class, controlling for whether the respondent supported Labour in the 2017 General Election (Wave 13).</s><s>This means that we effectively predict loyalty to Labour versus defection.</s><s>This has two advantages.</s><s>Firstly, it might (partly) assuage fears that unmeasured longstanding affection for Labour is driving both support for the party and ratings of its performance on a variety of topics, including working class representation.</s><s>Secondly, by focusing on the 2017-19 period, when the defection of working class supporters was widely highlighted <ref target="#b25" type="bibr">(Fieldhouse et al. 2023;</ref><ref target="#b31" type="bibr">Goes 2020)</ref>, we can also show that feelings of relative political deprivation are associated with real world changes in support for Labour, rather than (potentially) just longstanding opposition.</s><s>We adopt panel weights to adjust for non-random patterns of survey attrition, and Model F also incorporates the same ethnocentrism control as before.</s></p><p><s>Examining Models E and F reveals that (even net of ethnocentrism) WWC respondents who believed that Labour better represented minorities than the working class were indeed more likely to defect from the party between the 2017 and 2019 contests.</s><s>By contrast, belief in a pro-minority bias had essentially no effect at all on white graduate support and, if anything, is positively associated with loyalty from non-white voters themselves.</s><s>Thus, these results largely corroborate H3b and H4.</s><s>The substantive size of the association between perceived relative group representation and Labour support is visualized in Fig. <ref target="#fig_4" type="figure">5</ref>. Holding all other Model F variables constant, a WWC 2017 Labour voter who perceives the party's relative group representation to be slightly biased (-1) towards the working class is predicted to have a 1 in 10 chance of defection to another party in 2019.</s><s>By contrast, the same voter has just over a 1 in 3 chance of abandoning the party if they think it is slightly biased towards representing non-whites (+1).</s><s>In contrast, the chance of defection by a white graduate 2017 Labour supporter barely changes across that range of values, and the chance of defection from an ethnic minority supporter decreases from roughly 1 in 5 to just 1 in 10.</s><s>On average, loyalty across all three groups is highest when Labour is perceived to represent both groups equally or when they are slightly biased towards representing the working class rather than blacks and Asians.</s><s>Perceptions of Labour being disproportionately pro-minority quickly polarize the party's 2017 coalition.</s><s>Given the controls for ethnocentrism and the lagged dependent variable, this finding does not seem to be an artefact of WWC racial animus or confounding longstanding Labour (non-) support.<ref target="#foot_8" type="foot">15</ref> <ref target="#tab_2" type="table">3</ref> (Model F).</s><s>The figure shows how the likelihood of Labour support changes depending on the extent to which the respondent believes that the party 'looks after' working class or black and Asian interests more closely among white working class (red), white graduate (blue) and ethnic minority (black) respondents.</s><s>The probabilities are for a middle-aged English male with average levels of white ethnocentrism who supported Labour in the 2017 General Election.</s><s>95% CIs are provided for each point estimate.</s><s>The histograms display the distribution of evaluations of Labour's relative representation of the working class and blacks and Asians.</s><s>No estimate is provided for ethnic minority respondents who believe that Labour's representation is strongly biased toward the working class, as there were no such observations.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion and Conclusion<p><s>Are the white working classes really rejecting social democrats because they associate these parties with ethnic minority interests?</s><s>Despite widespread concern about the impact of 'identity politics' on centre-left party support ( Nor have efforts been undertaken to ascertain why this might occur.</s><s>Is it simply because of underlying hostility to the well-being of racial outgroups (ethnocentrism), or does it instead stem from the WWC's widely discussed <ref target="#b21" type="bibr">(Evans and Tilley 2017;</ref><ref type="bibr">Gest 2016, 39;</ref><ref type="bibr">Hochschild 2016, 137-9)</ref> feelings of displacement by other groups at the forefront of politician's priorities and their fears about falling yet further down the agenda (relative political deprivation)?</s></p><p><s>In this paper, we examined these questions using recent BESIP data measuring perceptions of how well Labour represents particular social groups.</s><s>First, we showed that the WWC generally believe that Labour more closely looks after non-white interests than working class interests per se, particularly in comparison to other members of the party's new electoral coalition (graduates and minorities themselves).</s><s>Second, while the WWC do not generally view working class and minority representation in stark zero-sum terms, it is true that members of this community view the link between representing working class and ethnic minority interests as weaker than others do.</s><s>Third, while the WWC are more supportive of Labour when they associate the party with both working and middle class interests, positive evaluations of Labour's minority interest representation are a negative predictor of this group's support.</s><s>Finally, the belief that Labour represents minorities more closely than the working class is robustly associated with WWC voters shunning the party.</s><s>The same does not appear to be true for white graduates or ethnic minorities, who are either indifferent or slightly positively inclined, respectively, to a disproportionate focus on non-white interests.</s><s>Importantly, all of these results are robust to controlling for underlying levels of white ethnocentrism, suggesting that it is not just the WWC's greater distance from racial 'outgroups' that is driving these effects; relative political deprivation is also politically consequential. <ref target="#foot_9" type="foot">16</ref></s><s>Rather than the dilemma of appealing to the middle class without losing working class support <ref target="#b21" type="bibr">(Evans and Tilley 2017;</ref><ref target="#b69" type="bibr">Przeworski and Sprague 1986)</ref>, the evidence here suggests that the most important conundrum facing social democrats is reconciling their remaining white working class voters with ethnic minorities and more liberal white graduates <ref target="#b1" type="bibr">(Abou-Chadi and Wagner 2020;</ref><ref target="#b38" type="bibr">Harris 2022;</ref><ref target="#b48" type="bibr">Kaufmann 2018;</ref><ref target="#b82" type="bibr">Sobolewska and Ford 2020)</ref>.</s></p><p><s>While various studies show that the demographics of political representatives influence attitudes towards parties <ref target="#b12" type="bibr">(Campbell and Heath 2021;</ref><ref target="#b17" type="bibr">Dancygier 2017;</ref><ref target="#b21" type="bibr">Evans and Tilley 2017;</ref><ref target="#b40" type="bibr">Heath 2015)</ref>, we further demonstrate that overall evaluations of parties' abilities to represent different social groups may affect the size and composition of social democratic electorates.</s><s>Our study thus upholds the relevance of copious American research to European political systems <ref target="#b4" type="bibr">(Ahler and Sood 2018;</ref><ref type="bibr">Kane, Mason, and Wronski 2021;</ref><ref type="bibr">Mason, Wronski, and Kane 2021;</ref><ref target="#b72" type="bibr">Robison and Moskowitz 2019;</ref><ref target="#b91" type="bibr">Zhirkov and Valentino 2022)</ref>.</s><s>In addition, our application of established American measures of ethnocentrism <ref type="bibr">(Hainmueller and Hopkins 2015, 542;</ref><ref type="bibr">Kinder and Kam 2009, 42-61)</ref> to the study of British political behaviour is a notable secondary contribution <ref type="bibr">(Sobolewska and Ford 2020, 338)</ref>.</s><s>The results presented here and in our online appendices indicate that ethnocentrism does seem to play a role in the rejection of the Labour we might expect given the greater social conservatism of the former and their recent populist appeals to working class voters <ref target="#b22" type="bibr">(Evans et al. 2023;</ref><ref target="#b45" type="bibr">Jennings and Stoker 2017)</ref>.</s></p><p><s>Party by segments of the WWC.</s><s>However, as we have shown, this is far from the only factor at play in this regard.</s></p><p><s>There are clearly ways that our study could be improved and extended.</s><s>First, it would be prudent to ascertain which factors influence working class and ethnic minorities perceptions of representation.</s><s>If certain policies or campaign strategies increase subjective feelings of representation for both groups, this will reduce concerns about potential trade-offs in appealing to these communities.</s><s>Second, it would be useful to gather data on whether white respondents think of 'white working class' people specifically when judging the quality of Labour's representation or if they are open to a more inclusive definition that also encompasses the growing non-white working class population.</s><s>Current studies of the factors that lead respondents to sort others into different class categories have not studied the role of ethnicity <ref target="#b84" type="bibr">(Stubager et al. 2018</ref>), but reconciling minority and working class interests is trickier if the latter group really is treated as a placeholder for white working class interests more specifically <ref target="#b75" type="bibr">(Sandhu 2018)</ref>.</s><s>We lacked the survey items to fully test perceptions of the intersectionality of race and class in political representation in this regard.</s></p><p><s>It is worth reflecting on the provisional implications of our study for Labour.</s><s>The finding that WWC respondents can react negatively when they perceive that parties are disproportionately dominated by ethnic minority interests demands careful consideration.</s><s>While some have argued that a retreat from 'identity liberalism' may be unnecessary given the rapidly expanding graduate and minority electorates <ref type="bibr">(Sobolewska and Ford 2020, 338-44</ref>; see also Abou-Chadi, Mitteregger, and Mudde 2021), we are more sceptical.</s><s>First, our findings (particularly Figs. <ref target="#fig_3" type="figure">4</ref> and<ref target="#fig_4" type="figure">5</ref>) suggest that the additional average marginal impact of ethnic minority representation on boosting nonwhite and graduate support for the party is fairly weak and outweighed by the comparatively large WWC counter-reaction.</s><s>Second, even if white graduates and minorities did react more positively, one cannot completely overlook the WWC electorate.</s><s>Under Britain's majoritarian electoral system, their votes are likely to be more electorally consequential than those cast by non-white Britons and graduates concentrated in densely-populated urban constituencies that Labour already monopolize <ref target="#b45" type="bibr">(Jennings and Stoker 2017;</ref><ref target="#b87" type="bibr">Thompson et al. 2022)</ref>.</s><s>Third, if the mobilization of racial 'identity politics' is not an obviously successful strategy for the American Democratic Party <ref target="#b28" type="bibr">(Fukuyama 2018;</ref><ref target="#b54" type="bibr">Lilla 2016</ref>) in a country that is, as of 2017, around 40 per cent non-white (Poston Jr and Sáenz 2020), it is likely even less viable in a country such as Britain that is not predicted to reach this level of diversity till at least the 2060s <ref target="#b56" type="bibr">(Lomax et al. 2020)</ref>.</s><s>This is particularly likely if, as under Boris Johnson, the Conservatives can make successful populist appeals to WWC voters <ref target="#b22" type="bibr">(Evans, de Geus, and Green 2023)</ref>.</s></p><p><s>Elsewhere in Europe, the story is more complicated.</s><s>On the one hand, many countries have smaller non-white populations and more restrictive enfranchisement legislation <ref target="#b16" type="bibr">(Dancygier 2010;</ref><ref target="#b17" type="bibr">Dancygier 2017;</ref><ref target="#b27" type="bibr">Ford and Jennings 2020)</ref>, reducing the likelihood that identity politics can benefit social democrats in much of the continent.</s><s>Furthermore, the widespread use of proportional representation (PR) further reduces the extent to which spatially concentrated and less well-integrated ethnic minorities become pivotal players in parties' seat-maximizing strategies <ref target="#b17" type="bibr">(Dancygier 2017)</ref>.</s><s>It is also conceivable that, under PR, competition for WWC voters could be even more pronounced given the larger radical right parties <ref target="#b74" type="bibr">(Rydgren 2013)</ref>.</s><s>Conversely, PR systems allow social democrats to be challenged from the left if they backtrack too hard on minority representation.</s><s>Indeed, very permissive electoral systems may gradually witness ethnic minorities developing their own vehicles for representationfor instance, the Netherlands' DENK party <ref target="#b78" type="bibr">(Siegel 2016)</ref>.</s><s>In addition, while we have uncovered no evidence to suggest white graduates in Britain reject the centre-left when they associate these parties with weaker representation of minorities, it is possible that the story could be different where there is a larger and more electorally credible left-liberal alternative to the social democrats, such as the Green Party (Abou-Chadi, Mitteregger, and Mudde 2021; <ref target="#b64" type="bibr">Oesch and Rennwald 2018)</ref>.</s><s>Of course, it may still prove easier for (more socially conservative) social democrats to form a post-election coalition with these other parties rather than trying to unite all these voters under one party</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>Different class-ethnicity groups as a percentage of the electorate and Labour vote.</s><s>Source: British Election Study 1987 and 2019.</s><s>Data was weighted using standard post-election survey probability weights.</s><s>Note: The figure shows, for the General Elections of 1987 and 2019, the percentage of the 'British Electorate' belonging to each class-ethnicity group, as well as the percentage of those who specifically voted Labour ('Labour Electorate').</s></p></div></figdesc><graphic coords="4,56.69,65.03,391.18,216.34" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 2. Predicted evaluations of how closely Labour represents different social groups according to different class-ethnicity groups: (a) 'How Closely Does Labour Look After the Interests of…?' and (b) 'Does Labour More Closely Represent Black and Asian or Working Class Interests'?</s><s>Source: BESIP, Waves 10, 19, 20, and 21 (December 2016 to May 2021).</s><s>N = 49,584 -54,545.</s><s>Data was weighed using cross-sectional survey weights: standard errors were clustered by respondent.Note: Based on several OLS regression models, Fig.2apresents, for white working class (red), white graduate (blue), and ethnic minority (dark grey) respondents, predicted evaluations (+95% confidence intervals) of Labour's representation of (a) 'working class people', (b) 'black and Asian people', and (c) 'middle class people', on a scale from 0 ('not at all close') to 3 ('very close').</s><s>Fig.2bpresents the results of a different OLS model predicting the extent to which Labour is perceived to represent blacks and Asians better than the working class.</s><s>This was calculated by subtracting evaluations of Labour's representation of the latter group from the former.</s><s>All models controlled for respondents' age, gender, and UK country, alongside a fixed effect for the survey wave.</s><s>Raw regression coefficients are available in Appendix 24.</s></p></div></figdesc><graphic coords="10,60.72,65.03,383.49,410.23" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure 3.</s><s>The impact of evaluations of Labour's black and Asian representation on evaluations of Labour's working class representation by respondent class-ethnicity group.</s></p></div></figdesc><graphic coords="13,45.92,65.03,390.23,275.75" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4.</s><s>The impact of evaluations of Labour's social group representation on support for Labour by respondent class-ethnicity group: (a) the impact of working class representation, (b) black and Asian representation, and (c) middle class representation.</s><s>Source: BESIP Wave 10 (November-December 2016).</s><s>Note: Figure 4 presents the predicted probabilities of hypothetical individuals intending to vote for Labour versus any other party using Table 2 (Model C) data.</s><s>The estimates demonstrate how the likelihood of Labour support is predicted to change depending on evaluations of how closely Labour 'look[s] after the interests of' (a) working class, (b) black and Asian, and (c) middle class people amongwhite working class (red), white graduate (blue), and ethnic minority (black) respondents.</s><s>95% confidence intervals are provided for each point estimate.</s><s>The estimates are for a middle-aged English male with average sample values on the ethnocentrism, left-right and libertarian-authoritarian value scales.</s><s>Note that how well one believes Labour represents the other two social groups is also held constant at the average value in any set of predicted probabilities.</s><s>The histograms display the distribution of evaluations of how well Labour looks after the different groups.</s></p></div></figdesc><graphic coords="15,45.92,65.03,390.23,265.66" type="bitmap"></graphic></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 5 .<label>5</label><figdesc><div><p><s>Figure 5.</s><s>The impact of evaluations of Labour's relative representation of working class and black and Asian people on loyalty to Labour between the 2017 and 2019 general elections by respondent class-ethnicity group.</s><s>Source: BESIP Wave 13 (June 2017)-19 (December 2019) for the vote choice variables and Wave 11 (April 2017) for ethnocentrism.</s><s>Note: The figure indicates the likelihood of a Labour vote intention (versus any other party) in the December 2019 General Election, conditional on having supported Labour in the 2017 General Election.</s><s>The figure was derived from the coefficients in Table3(Model F).</s><s>The figure shows how the likelihood of Labour support changes depending on the extent to which the respondent believes that the party 'looks after' working class or black and Asian interests more closely among white working class (red), white graduate (blue) and ethnic minority (black) respondents.</s><s>The probabilities are for a middle-aged English male with average levels of white ethnocentrism who supported Labour in the 2017 General Election.</s><s>95% CIs are provided for each point estimate.</s><s>The histograms display the distribution of evaluations of Labour's relative representation of the working class and blacks and Asians.</s><s>No estimate is provided for ethnic minority respondents who believe that Labour's representation is strongly biased toward the working class, as there were no such observations.</s></p></div></figdesc><graphic coords="17,45.35,65.03,391.18,281.03" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1 .<label>1</label><figdesc><div><p><s>The impact of evaluations of Labour's black and Asian representation on evaluations of Labour's working class representation interacted with respondent class-ethnicity group BESIP Data (Wave 10 -November/December 2016)</s></p></div></figdesc><table><row><cell>Model A</cell><cell>Model B</cell><cell>Model C</cell></row></table><note><p><s>Source: BESIP Wave 10 (Nov-Dec 2016) for all variables except ethnocentrism, which was recorded in BESIP Wave 11 (April 2017).Data are weighted using the standard BESIP Wave 10 survey weight.*</s><s>p-value &lt;0.05; ** p-value &lt;0.01.Note: Each model presents the results from a different OLS regression predicting evaluations of how closely the Labour Party 'look[s] after working class interests' (0-3).Perceived Labour BME representation is measured on the same scale.Demographic Controls: Age, Gender, Country.11</s></p></note></figure>
+<figure type="table" xml:id="tab_1" xmlns="http://www.tei-c.org/ns/1.0">Table 2 .<label>2</label><figdesc><div><p><s>The impact of evaluations of Labour's black and Asian (BME), middle class (MC), and working class (WC) representation on support for Labour by respondent class-ethnicity group BESIP Data (Wave 10 -November/December 2016)</s></p></div></figdesc><table><row><cell></cell><cell>Model A</cell><cell>Model B</cell><cell>Model C</cell></row><row><cell>Labour BME representation rating</cell><cell>-0.78 (0.15)**</cell><cell>-0.79 (0.15)**</cell><cell>-0.76 (0.16)**</cell></row><row><cell>Labour MC representation rating</cell><cell>1.13 (0.13)**</cell><cell>1.15 (0.14)**</cell><cell>0.96 (0.14)**</cell></row><row><cell>Labour WC representation rating</cell><cell>1.30 (0.13)**</cell><cell>1.26 (0.13)**</cell><cell>1.34 (0.14)**</cell></row><row><cell>Respondent group</cell><cell></cell><cell></cell><cell></cell></row><row><cell>White graduates</cell><cell>0.24 (0.47)</cell><cell>0.03 (0.47)</cell><cell>-0.02 (0.48)</cell></row><row><cell>Ethnic minorities</cell><cell>2.67 (0.62)**</cell><cell>2.39 (0.62)**</cell><cell>2.65 (0.62)**</cell></row><row><cell>Other whites</cell><cell>0.42 (0.45)</cell><cell>0.26 (0.45)</cell><cell>0.33 (0.46)</cell></row><row><cell>(Ref: White working class)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>White graduate × Labour representation ratings</cell><cell></cell><cell></cell><cell></cell></row><row><cell>White graduate × Labour BME</cell><cell>0.57 (0.16)**</cell><cell>0.62 (0.17)**</cell><cell>0.68 (0.18)**</cell></row><row><cell>White graduate × Labour MC</cell><cell>0.11 (0.15)</cell><cell>0.06 (0.15)</cell><cell>-0.08 (0.16)</cell></row><row><cell>White graduates × Labour WC</cell><cell>-0.77 (0.15)**</cell><cell>-0.74 (0.15)**</cell><cell>-0.71 (0.16)**</cell></row><row><cell>Ethnic minority × Labour representation ratings</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Ethnic minority × Labour BME</cell><cell>0.89 (0.25)**</cell><cell>0.90 (0.26)**</cell><cell>0.83 (0.27)**</cell></row><row><cell>Ethnic minority × Labour MC</cell><cell>-0.60 (0.24)*</cell><cell>-0.63 (0.24)**</cell><cell>-0.55 (0.26)*</cell></row><row><cell>Ethnic minority × Labour WC</cell><cell>-1.31 (0.23)**</cell><cell>-1.29 (0.24)**</cell><cell>-1.32 (0.26)**</cell></row><row><cell>Other whites × Labour representation ratings</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Other whites × Labour BME</cell><cell>0.27 (0.16)</cell><cell>0.32 (0.16)*</cell><cell>0.29 (0.17)</cell></row><row><cell>Other whites × Labour MC</cell><cell>-0.09 (0.14)</cell><cell>-0.12 (0.15)</cell><cell>-0.10 (0.15)</cell></row><row><cell>Other whites × Labour WC</cell><cell>-0.54 (0.14)**</cell><cell>-0.54 (0.14)**</cell><cell>-0.51 (0.15)**</cell></row><row><cell>White ethnocentrism scale</cell><cell></cell><cell>-0.14 (0.02)**</cell><cell>-0.08 (0.02)**</cell></row><row><cell>Left-right economic value scale</cell><cell></cell><cell></cell><cell>-0.42 (0.02)**</cell></row><row><cell>Liberal-authoritarian social value scale</cell><cell></cell><cell></cell><cell>-0.17 (0.02)**</cell></row><row><cell>Demographic controls</cell><cell>X</cell><cell>X</cell><cell>X</cell></row><row><cell>Constant</cell><cell>-3.19 (0.44)**</cell><cell>-3.01 (0.44)**</cell><cell>-1.10 (0.45)**</cell></row><row><cell>N -Respondents</cell><cell>11,433</cell><cell>11,433</cell><cell>11,433</cell></row></table><note><p><s>Source: BESIP Wave 10 (November-December 2016) for all variables except ethnocentrism, which was recorded in BESIP Wave 11 (April 2017).Data are weighted using the standard BESIP Wave 10 survey weight.*p-value</s><s>&lt;0.05; **p-value &lt;0.01.Note: Each model presents the results from different logistic regressions predicting support for Labour (1) v. any other party (0).Demographic Controls: Age, Gender, Country.13</s></p></note></figure>
+<figure type="table" xml:id="tab_2" xmlns="http://www.tei-c.org/ns/1.0">Table 3 .<label>3</label><figdesc><div><p><s>The impact of evaluations of Labour's relative representation of working class (WC) and black and Asian (BME) people on support for Labour by respondent class-ethnicity group BESIP Wave 10 Data (DV = Labour vote intention 2016) BESIP Wave 19 Data (DV = Labour Vote 2019 General Election)</s></p></div></figdesc><table><row><cell></cell><cell>Model A</cell><cell>Model B</cell><cell>Model C</cell><cell>Model D</cell><cell>Model E</cell><cell>Model F</cell></row><row><cell>Labour BME -Labour WC</cell><cell cols="6">-0.90 (0.09)** -0.93 (0.11)** -0.49 (0.11)** -0.57 (0.14)** -0.64 (0.15)** -0.76 (0.20)**</cell></row><row><cell>Representation rating</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Respondent group</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>White graduates</cell><cell>-0.13 (0.10)</cell><cell cols="3">-0.33 (0.11)** 0.57 (0.14)** 0.29 (0.20)</cell><cell>0.25 (0.30)</cell><cell>0.13 (0.30)</cell></row><row><cell>Ethnic minorities</cell><cell cols="5">0.80 (0.16)** 0.74 (0.18)** 1.34 (0.22)** 1.28 (0.41)** 0.76 (0.48)</cell><cell>0.52 (0.52)</cell></row><row><cell>Other whites</cell><cell cols="3">-0.38 (0.09)** -0.34 (0.10)** 0.07 (0.14)</cell><cell>-0.14 (0.20)</cell><cell>0.09 (0.28)</cell><cell>-0.04 (0.28)</cell></row><row><cell>(Ref: White working class)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Respondent group × Labour</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">BME -WC Rating interaction</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>White graduate ×</cell><cell cols="3">0.56 (0.10)** 0.59 (0.12)** 0.32 (0.12)*</cell><cell cols="3">0.54 (0.17)** 0.61 (0.19)** 0.73 (0.23)**</cell></row><row><cell>Labour BME -WC</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Ethnic minority ×</cell><cell cols="3">0.87 (0.17)** 0.87 (0.19)** 0.19 (0.24)</cell><cell>0.29 (0.49)</cell><cell>0.81 (0.46)</cell><cell>1.10 (0.51)*</cell></row><row><cell>Labour BME -WC</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Other whites × Labour</cell><cell cols="3">0.35 (0.10)** 0.34 (0.11)** 0.10 (0.12)</cell><cell>0.35 (0.17)*</cell><cell>0.46 (0.18)*</cell><cell>0.58 (0.23)*</cell></row><row><cell>BME -WC</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>White ethnocentrism</cell><cell></cell><cell>-0.10 (0.02)**</cell><cell></cell><cell>-0.21 (0.05)**</cell><cell></cell><cell>-0.17 (0.08)*</cell></row><row><cell>scale</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Left-right economic value</cell><cell></cell><cell>-0.47 (0.02)**</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>scale</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Liberal-authoritarian</cell><cell></cell><cell>-0.19 (0.01)**</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>social value scale</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Lagged Labour vote</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">3.66 (0.17)** 3.62 (0.18)**</cell></row><row><cell>(2017)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Demographic controls</cell><cell>X</cell><cell>X</cell><cell>X</cell><cell>X</cell><cell>X</cell><cell>X</cell></row><row><cell>Constant</cell><cell>-0.22 (0.14)</cell><cell cols="2">1.86 (0.18)** -0.30 (0.21)</cell><cell>-0.67 (0.64)</cell><cell cols="2">-3.00 (0.59)** -2.95 (0.67)**</cell></row><row><cell>N -Respondents</cell><cell>11,486</cell><cell>11,486</cell><cell>5,612</cell><cell>2,297</cell><cell>2,775</cell><cell>2,231</cell></row><row><cell cols="7">Source: Models A-B: BESIP Wave 10 (Nov-Dec 2016) for all variables except ethnocentrism, which was recorded in BESIP Wave 11 (April 2017).</cell></row><row><cell cols="7">Models C-F: BESIP Wave 19 (Dec 2019) for all variables except ethnocentrism, which was recorded in BESIP Wave 11 (April 2017), and the</cell></row><row><cell cols="7">lagged dependent variable, Labour Vote (2017), which was measured in BESIP Wave 13 (June 2017). Models A and B are weighted using the</cell></row><row><cell cols="7">standard Wave 10 BESIP survey weight, Model C with the standard Wave 19 weight, and Models D-F with the Wave 13 to Wave 19 panel</cell></row><row><cell cols="2">weight. *p-value &lt;0.05; **p-value &lt;0.01.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p><s>Note: Each model presents the results from different logistic regressions predicting support for Labour (1) versus any other party (0).</s><s>Demographic Controls: Age, Gender, Country.</s></p></note></figure>
+<figure type="table" xml:id="tab_3" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>(Abou-Chadi, Mitteregger, and Mudde 2021;Abou-Chadi and Wagner 2020;Häusermann et al. 2021;Sobolewska and Ford 2020) hypothesis empirically or the corollary proposition that 'identity politics' appeals might solidify social democrat support among the growing white graduate and ethnic minority electorates(Abou-Chadi, Mitteregger, and Mudde 2021;Abou-Chadi and Wagner 2020;Häusermann et al. 2021;Sobolewska and Ford 2020).</s></p></div></figdesc><table></table></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>https://doi.org/10.1017/S0007123423000601</s><s>Published online by Cambridge University Press</s></p></note>
+<note place="foot" xml:id="foot_1" xmlns="http://www.tei-c.org/ns/1.0"><p><s>British Journal of Political Science</s></p></note>
+<note n="3" place="foot" xml:id="foot_2" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Crucially, while we are investigating whether the WWC themselves perceive a trade-off, we do not make any normative claims about the compatibility of these groups' interests in principle.</s><s>Many black and Asian Britons are themselves working class and suffer from the same problems (poor pay, housing, and health etc.) that face their white counterparts.</s></p></note>
+<note n="5" place="foot" xml:id="foot_3" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Appendices 2 and 3 present frequency distributions for all these variables by social group and survey wave.</s></p></note>
+<note place="foot" xml:id="foot_4" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Zack Grant and Geoffrey Evans https://doi.org/10.1017/S0007123423000601</s><s>Published online by Cambridge University Press</s></p></note>
+<note n="8" place="foot" xml:id="foot_5" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Our results are also robust to controlling for religiosity and trade union status (Appendices 20-2).British Journal of Political Science</s></p></note>
+<note n="12" place="foot" xml:id="foot_6" xmlns="http://www.tei-c.org/ns/1.0"><p><s>For 'other whites', the figures are +30, +40, and -24.</s></p></note>
+<note n="14" place="foot" xml:id="foot_7" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Left-right and libertarian-authoritarian value scales were not included in Waves 13 or 19.British Journal of Political Science</s></p></note>
+<note n="15" place="foot" xml:id="foot_8" xmlns="http://www.tei-c.org/ns/1.0"><p><s>Once again, Table3's results are robust to including non-voters as non-Labour supporters (Appendix 31).</s><s>We also ran supplementary analysis showingusing a multinomial modelwhich alternative parties Labour's WWC defectors opted for (Appendix 32).</s><s>WWC voters who believed Labour to be closer to minorities were more likely to defect to right-leaning parties (Conservatives or the Brexit Party), than left-leaning ones (the Liberal Democrats, Greens, or the Scottish National Party), as</s></p></note>
+<note n="16" place="foot" xml:id="foot_9" xmlns="http://www.tei-c.org/ns/1.0"><p><s>An alternative explanation would be that the WWC perceive 'black and Asian' interests to be a small, factional, concern, whereas 'middle class' interests are seen as a synonym for most people in Britain (and hence not viewed so negatively).</s><s>Future research should further investigate the exact mechanism behind the WWC backlash here.</s></p></note>
+<back>
+<div type="acknowledgement">
+<div><p>Acknowledgements.We want to thank the anonymous reviewers of this article for their valuable insights and suggestions, in addition to <rs type="person">Rune Stubager</rs> and <rs type="person">Chitralekha Basu</rs>, who provided very useful comments on earlier drafts.Previous versions of this manuscript were presented at the 2021 Elections, Public Opinion, and Parties (EPOP) annual conference, the 2022 <rs type="institution">European Political Science Association (EPSA)</rs>, and the <rs type="institution">European Consortium for Political Research (ECPR)</rs> general conferences, and at separate talks at the <rs type="institution">Nuffield Early Career Researchers' Workshop</rs> and the <rs type="institution">Juan March Institute</rs> (both in 2022).We are very grateful for the thoughtful comments of all those who attended these events.Any remaining errors are our own.Financial support.None.</p></div>
+</div> <div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>pre-election, as Labour has attempted.</s><s>More research will be needed to understand how things play out in multiparty European systems.</s></p><p><s>Our findings should not be considered a justification for ignoring the well-being of ethnic minority communities, especially as the WWC does not appear to view representation of black and Asian and working class interests in strict zero-sum terms.</s><s>Rather, working class whites must be assured that any increase in the political attention and resources devoted to the minority community is met with a renewed focus on the issues facing their own social group, and not at their own expense.</s><s>Where possible, centre-left parties might attempt to establish positive-sum gains.</s><s>For instance, nominating more ethnic minority candidates from unambiguously working class backgrounds might help improve both ethnic minority and working class perceptions of representation <ref target="#b70" type="bibr">(Quilter-Pinner et al. 2022)</ref>.</s><s>Elsewhere, perceptions that a party is primarily trying to represent minorities rather than the working class could be blunted if care was taken to frame and justify policies principally benefiting minorities in race-neutral terms.</s><s>This means avoiding the impression that economically underprivileged non-white communities are being targeted for assistance because they are non-white rather than because they belong to a wider class of economically disadvantaged communities <ref target="#b0" type="bibr">(Abbott et al. 2021;</ref><ref type="bibr">English and Kalla 2021;</ref><ref target="#b81" type="bibr">Sniderman et al. 1996)</ref>.</s></p><p><s>Supplementary material.</s><s>The supplementary material for this article can be found at https://doi.org/10.1017/</s><s>S0007123423000601.</s></p><p><s>Data availability statement.</s><s>Replication data for this article can be found in Harvard Dataverse at: https://doi.org/10.7910/</s><s>DVN/FWCKSE Competing interests.</s><s>None.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<monogr>
+<title level="m" type="main">Commonsense Solidarity: How a Working-Class Coalition Can Be Built, and Maintained</title>
+<author>
+<persname><forename type="first">J</forename><surname>Abbott</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note>Jacobin -Centre for Working Class Politics</note>
+<note type="raw_reference">Abbott J et al. (2021) Commonsense Solidarity: How a Working-Class Coalition Can Be Built, and Maintained. Jacobin - Centre for Working Class Politics.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Electoral fortunes of social democratic parties: Do second dimension positions matter</title>
+<author>
+<persname><forename type="first">T</forename><surname>Abou-Chadi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Wagner</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of European Public Policy</title>
+<imprint>
+<biblscope unit="volume">27</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="246" to="272" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Abou-Chadi T and Wagner M (2020) Electoral fortunes of social democratic parties: Do second dimension positions matter? Journal of European Public Policy 27(2), 246-72.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<monogr>
+<title level="m" type="main">Left Behind by the Working Class? Social Democracy's Electoral Crisis and the Rise of the Radical Right</title>
+<author>
+<persname><forename type="first">T</forename><surname>Abou-Chadi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Mitteregger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Mudde</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2021">2021</date>
+<publisher>Friedrich-Ebert-Stiftung</publisher>
+<pubplace>Berlin</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Abou-Chadi T, Mitteregger R and Mudde C (2021) Left Behind by the Working Class? Social Democracy's Electoral Crisis and the Rise of the Radical Right. Berlin: Friedrich-Ebert-Stiftung.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<monogr>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">H</forename><surname>Achen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M</forename><surname>Bartels</surname></persname>
+</author>
+<title level="m">Democracy for Realists</title>
+<meeting><address><addrline>Oxford</addrline></address></meeting>
+<imprint>
+<publisher>Princeton University Press</publisher>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Achen CH and Bartels LM (2017) Democracy for Realists. Oxford: Princeton University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">The parties in our heads: Misperceptions about party composition and their consequences</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Ahler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Sood</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Politics</title>
+<imprint>
+<biblscope unit="volume">80</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="964" to="981" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ahler DJ and Sood G (2018) The parties in our heads: Misperceptions about party composition and their consequences. Journal of Politics 80(3), 964-81.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Look where you're going: The cultural and economic explanations of class voting decline</title>
+<author>
+<persname><forename type="first">D</forename><surname>Angelucci</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Vittori</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">West European Politics</title>
+<imprint>
+<biblscope unit="volume">46</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="122" to="147" unit="page"></biblscope>
+<date type="published" when="2023">2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Angelucci D and Vittori D (2023) Look where you're going: The cultural and economic explanations of class voting decline. West European Politics 46(1), 122-47.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<monogr>
+<author>
+<persname><forename type="first">C</forename><surname>Barton</surname></persname>
+</author>
+<ptr target="https://commonslibrary.parliament.uk/ge2019-how-did-demographics-affect-the-result/"></ptr>
+<title level="m">GE2019: How Did Demographics Affect the Result? House of Commons Library</title>
+<imprint>
+<date type="published" when="2020-01-12">2020. 12 January 2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Barton C (2020) GE2019: How Did Demographics Affect the Result? House of Commons Library. Available from https:// commonslibrary.parliament.uk/ge2019-how-did-demographics-affect-the-result/ (Accessed 12 January 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Election 2019: Britain's Most Diverse Parliament</title>
+<ptr target="https://www.bbc.co.uk/news/election-2019-50808536"></ptr>
+</analytic>
+<monogr>
+<title level="j">BBC News Online</title>
+<imprint>
+<date type="published" when="2019-01-21">2019. 21 January 2022</date>
+<publisher>BBC News</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">BBC News (2019) Election 2019: Britain's Most Diverse Parliament. BBC News Online. Available from https://www.bbc.co. uk/news/election-2019-50808536 (Accessed 21 January 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Populism and the decline of social democracy</title>
+<author>
+<persname><forename type="first">S</forename><surname>Berman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Snegovaya</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Democracy</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="5" to="19" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Berman S and Snegovaya M (2019) Populism and the decline of social democracy. Journal of Democracy 30(3), 5-19.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<monogr>
+<author>
+<persname><forename type="first">C</forename><surname>Bickerton</surname></persname>
+</author>
+<ptr target="https://www.theguardian.com/commentisfree/2019/dec/19/labour-working-class-voters-brexit"></ptr>
+<title level="m">Labour's Lost Working-Class Voters Have Gone for Good</title>
+<imprint>
+<publisher>The Guardian</publisher>
+<date type="published" when="2019-01-12">2019. 12 January 2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bickerton C (2019) Labour's Lost Working-Class Voters Have Gone for Good. The Guardian. Available from https://www. theguardian.com/commentisfree/2019/dec/19/labour-working-class-voters-brexit (Accessed 12 January 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<monogr>
+<author>
+<persname><forename type="first">D</forename><surname>Butler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">E</forename><surname>Stokes</surname></persname>
+</author>
+<title level="m">Political Change in Britain</title>
+<meeting><address><addrline>London</addrline></address></meeting>
+<imprint>
+<publisher>Macmillan</publisher>
+<date type="published" when="1974">1974</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Butler D and Stokes DE (1974) Political Change in Britain. London: Macmillan.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><surname>Campbell</surname></persname>
+</author>
+<title level="m">The American Voter</title>
+<meeting><address><addrline>Chicago</addrline></address></meeting>
+<imprint>
+<publisher>University of Chicago Press</publisher>
+<date type="published" when="1960">1960</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Campbell A et al. (1960) The American Voter. Chicago: University of Chicago Press.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Fueling the populist divide: Nativist and cosmopolitan preferences for representation at the elite and mass level</title>
+<author>
+<persname><forename type="first">R</forename><surname>Campbell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Heath</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Political Behavior</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope from="1707" to="1729" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Campbell R and Heath O (2021) Fueling the populist divide: Nativist and cosmopolitan preferences for representation at the elite and mass level. Political Behavior 43, 1707-29.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<monogr>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">D</forename><surname>Clarke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Goodwin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Whiteley</surname></persname>
+</author>
+<title level="m">Brexit: Why Britain Voted to Leave the European Union</title>
+<meeting><address><addrline>Cambridge</addrline></address></meeting>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Clarke HD, Goodwin MJ and Whiteley P (2017) Brexit: Why Britain Voted to Leave the European Union. Cambridge: Cambridge University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Drinkwater</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Jennings</surname></persname>
+</author>
+<title level="m">Working Paper -Quantitative Political Economy Research Group Selectively Liberal? Socio-Economic Change and Attitudes Toward Homosexual Relations</title>
+<meeting><address><addrline>London</addrline></address></meeting>
+<imprint>
+<publisher>QPE Working Paper</publisher>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note>King's College</note>
+<note type="raw_reference">Collins A, Drinkwater S and Jennings C (2020) Working Paper -Quantitative Political Economy Research Group Selectively Liberal? Socio-Economic Change and Attitudes Toward Homosexual Relations. King's College London: QPE Working Paper.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Complex intersections of race and class</title>
+<author>
+<persname><forename type="first">E</forename><surname>Cooley</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Experimental Psychology: General</title>
+<imprint>
+<biblscope unit="volume">148</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope from="2218" to="2228" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cooley E et al. (2019) Complex intersections of race and class. Journal of Experimental Psychology: General 148(12), 2218-28.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<monogr>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Dancygier</surname></persname>
+</author>
+<title level="m">Immigration and Conflict in Europe</title>
+<meeting><address><addrline>Cambridge</addrline></address></meeting>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dancygier RM (2010) Immigration and Conflict in Europe. Cambridge: Cambridge University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<monogr>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">M</forename><surname>Dancygier</surname></persname>
+</author>
+<title level="m">Dilemmas of Inclusion: Muslims in European Politics</title>
+<meeting><address><addrline>Princeton</addrline></address></meeting>
+<imprint>
+<publisher>Princeton University Press</publisher>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dancygier RM (2017) Dilemmas of Inclusion: Muslims in European Politics. Princeton: Princeton University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<monogr>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Dawson</surname></persname>
+</author>
+<title level="m">Behind the Mule: Race and Class in African-American Politics</title>
+<meeting><address><addrline>Princeton</addrline></address></meeting>
+<imprint>
+<publisher>Princeton University Press</publisher>
+<date type="published" when="1994">1994</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dawson MC (1994) Behind the Mule: Race and Class in African-American Politics. Princeton: Princeton University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<monogr>
+<author>
+<persname><forename type="first">R</forename><surname>Ehsan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Stokes</surname></persname>
+</author>
+<ptr target="https://thecritic.co.uk/issues/may-2021/poor-white-men-and-labours-identity-trap/"></ptr>
+<title level="m">Poor White Men and Labour's Identity Trap</title>
+<imprint>
+<date type="published" when="2021-11-05">2021. 5 November 2021</date>
+</imprint>
+</monogr>
+<note>The Critic</note>
+<note type="raw_reference">Ehsan R and Stokes D (2021) Poor White Men and Labour's Identity Trap. The Critic. Available from https://thecritic.co.uk/ issues/may-2021/poor-white-men-and-labours-identity-trap/ (Accessed 5 November 2021).</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Racial Equality Frames and Public Policy Support: Survey Experimental Evidence</title>
+<author>
+<persname><forename type="first">Kalla</forename><surname>Jl</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Working Paper -OSF Preprints</title>
+<imprint>
+<biblscope from="1" to="15" unit="page"></biblscope>
+<date type="published" when="2021-04-23">2021. 23rd April 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M and Kalla JL (2021) Racial Equality Frames and Public Policy Support: Survey Experimental Evidence. Working Paper -OSF Preprints, 23rd April 2021: 1-15.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<monogr>
+<title level="m" type="main">The New Politics of Class</title>
+<author>
+<persname><forename type="first">G</forename><surname>Evans</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Tilley</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2017">2017</date>
+<publisher>Oxford University Press</publisher>
+<pubplace>Oxford</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Evans G and Tilley J (2017) The New Politics of Class. Oxford: Oxford University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Boris Johnson to the rescue? How the Conservatives won the radical-right vote in the 2019 General Election</title>
+<author>
+<persname><forename type="first">G</forename><surname>Evans</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>De Geus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Green</surname></persname>
+</author>
+<idno type="DOI">10.1177/00323217211051191</idno>
+<ptr target="https://doi.org/10.1177/00323217211051191"></ptr>
+</analytic>
+<monogr>
+<title level="j">Political Studies</title>
+<imprint>
+<biblscope unit="volume">71</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="984" to="1005" unit="page"></biblscope>
+<date type="published" when="2023">2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Evans G, de Geus R and Green J (2023) Boris Johnson to the rescue? How the Conservatives won the radical-right vote in the 2019 General Election. Political Studies 71(4), 984-1005. https://doi.org/10.1177/00323217211051191</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Measuring left-right and libertarian-authoritarian values in the British electorate</title>
+<author>
+<persname><forename type="first">G</forename><surname>Evans</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Heath</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Lalljee</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">The British Journal of Sociology</title>
+<imprint>
+<biblscope unit="volume">47</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="93" to="112" unit="page"></biblscope>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Evans G, Heath A and Lalljee M (1996) Measuring left-right and libertarian-authoritarian values in the British electorate. The British Journal of Sociology 47(1), 93-112.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<monogr>
+<author>
+<persname><forename type="first">E</forename><surname>Fieldhouse</surname></persname>
+</author>
+<ptr target="https://www.britishelectionstudy.com/data-objects/panel-study-data/"></ptr>
+<title level="m">British Election Study Combined Wave 1-20 Internet Panel Legacy</title>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fieldhouse E et al. (2021) British Election Study Combined Wave 1-20 Internet Panel Legacy. Available from https://www. britishelectionstudy.com/data-objects/panel-study-data/</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Volatility, realignment and electoral shocks: Brexit and the UK General Election of 2019</title>
+<author>
+<persname><forename type="first">E</forename><surname>Fieldhouse</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">PS: Political Science</title>
+<imprint>
+<biblscope unit="volume">56</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="537" to="545" unit="page"></biblscope>
+<date type="published" when="2023">2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fieldhouse E et al. (2023) Volatility, realignment and electoral shocks: Brexit and the UK General Election of 2019. PS: Political Science 56(4), 537-45.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Britain after Brexit: A nation divided</title>
+<author>
+<persname><forename type="first">R</forename><surname>Ford</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Goodwin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Democracy</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="17" to="30" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ford R and Goodwin MJ (2017) Britain after Brexit: A nation divided. Journal of Democracy 28(1), 17-30.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">The changing cleavage politics of Western Europe</title>
+<author>
+<persname><forename type="first">R</forename><surname>Ford</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Jennings</forename><forename type="middle">W</forename></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Annual Review of Political Science</title>
+<imprint>
+<biblscope unit="volume">23</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="295" to="314" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ford R and Jennings W (2020) The changing cleavage politics of Western Europe. Annual Review of Political Science 23(1), 295-314.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Against identity politics: The new tribalism and the crisis of democracy</title>
+<author>
+<persname><forename type="first">F</forename><surname>Fukuyama</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Foreign Affairs</title>
+<imprint>
+<biblscope unit="volume">97</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="90" to="114" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fukuyama F (2018) Against identity politics: The new tribalism and the crisis of democracy. Foreign Affairs 97(5), 90-114.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<monogr>
+<author>
+<persname><forename type="first">J</forename><surname>Gest</surname></persname>
+</author>
+<title level="m">The New Minority: White Working-Class Politics in an Age of Immigration</title>
+<meeting><address><addrline>Oxford</addrline></address></meeting>
+<imprint>
+<publisher>Oxford University Press</publisher>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gest J (2016) The New Minority: White Working-Class Politics in an Age of Immigration. Oxford: Oxford University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">A New progressive coalition? The European left in a time of change</title>
+<author>
+<persname><forename type="first">J</forename><surname>Gingrich</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Political Quarterly</title>
+<imprint>
+<biblscope unit="volume">88</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="39" to="51" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gingrich J (2017) A New progressive coalition? The European left in a time of change. Political Quarterly 88(1), 39-51.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Labour's 2019 campaign: A defeat of epic proportions</title>
+<author>
+<persname><forename type="first">E</forename><surname>Goes</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Parliamentary Affairs</title>
+<imprint>
+<biblscope unit="volume">73</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="84" to="102" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Goes E (2020) Labour's 2019 campaign: A defeat of epic proportions. Parliamentary Affairs 73(1), 84-102.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<monogr>
+<title level="m" type="main">Low-Income Voters, the 2019 General Election and the Future of British Politics</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Goodwin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Heath</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2020">2020</date>
+<pubplace>York</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Goodwin MJ and Heath O (2020) Low-Income Voters, the 2019 General Election and the Future of British Politics. York:</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<monogr>
+<title></title>
+<author>
+<persname><forename type="first">Joseph</forename><surname>Rowntree</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Foundation</forename></persname>
+</author>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">Joseph Rowntree Foundation.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<monogr>
+<title level="m" type="main">Replication Data for: A New Dilemma of Social Democracy? The British Labour Party, the White Working Class and Ethnic Minority Representation</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Grant</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Evans</surname></persname>
+</author>
+<idno type="DOI">10.7910/DVN/FWCKSE</idno>
+<ptr target="Dataverse"></ptr>
+<imprint>
+<date type="published" when="2023">2023</date>
+<biblscope unit="volume">1</biblscope>
+</imprint>
+<respstmt>
+<orgname>Harvard</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">Grant Z and Evans G (2023) Replication Data for: A New Dilemma of Social Democracy? The British Labour Party, the White Working Class and Ethnic Minority Representation. Available from https://doi.org/10.7910/DVN/FWCKSE, Harvard Dataverse, V1.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><surname>Gregory</surname></persname>
+</author>
+<ptr target="https://www.independent.co.uk/news/uk/politics/black-lives-matter-keir-starmer-labour-take-knee-george-floyd-funeral-a9557166.html"></ptr>
+<title level="m">Black Lives Matter: Keir Starmer Takes the Knee. The Independent</title>
+<imprint>
+<date type="published" when="2020-05-29">2020. 29 May 2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gregory A (2020) Black Lives Matter: Keir Starmer Takes the Knee. The Independent. Available from https://www.independent. co.uk/news/uk/politics/black-lives-matter-keir-starmer-labour-take-knee-george-floyd-funeral-a9557166.html (Accessed 29 May 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<monogr>
+<author>
+<persname><forename type="first">T</forename><surname>Gurr</surname></persname>
+</author>
+<title level="m">Why Men Rebel</title>
+<meeting><address><addrline>Princeton</addrline></address></meeting>
+<imprint>
+<publisher>Princeton University Press</publisher>
+<date type="published" when="1970">1970</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gurr T (1970) Why Men Rebel. Princeton: Princeton University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">The hidden American immigration consensus: A conjoint analysis of attitudes toward immigrants</title>
+<author>
+<persname><forename type="first">J</forename><surname>Hainmueller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Hopkins</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">American Journal of Political Science</title>
+<imprint>
+<biblscope unit="volume">59</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="529" to="548" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hainmueller J and Hopkins DJ (2015) The hidden American immigration consensus: A conjoint analysis of attitudes toward immigrants. American Journal of Political Science 59(3), 529-48.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Educational divides and class coalitions: How mainstream party voters divide and unite over immigration issues</title>
+<author>
+<persname><forename type="first">E</forename><surname>Harris</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Ethnic and Migration Studies</title>
+<imprint>
+<biblscope unit="volume">49</biblscope>
+<biblscope unit="issue">17</biblscope>
+<biblscope from="1" to="20" unit="page"></biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Harris E (2022) Educational divides and class coalitions: How mainstream party voters divide and unite over immigration issues. Journal of Ethnic and Migration Studies 49(17), 1-20.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<monogr>
+<title level="m" type="main">Transformation of the Left: The Resonance of Progressive Programs among the Potential Social Democratic Electorate</title>
+<author>
+<persname><forename type="first">S</forename><surname>Häusermann</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2021">2021</date>
+<publisher>Friedrich-Ebert-Stiftung</publisher>
+<pubplace>Berlin</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Häusermann S et al. (2021) Transformation of the Left: The Resonance of Progressive Programs among the Potential Social Democratic Electorate. Berlin: Friedrich-Ebert-Stiftung.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Policy representation, social representation and class voting in Britain</title>
+<author>
+<persname><forename type="first">O</forename><surname>Heath</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">British Journal of Political Science</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="173" to="193" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Heath O (2015) Policy representation, social representation and class voting in Britain. British Journal of Political Science 45(1), 173-93.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">F</forename><surname>Heath</surname></persname>
+</author>
+<title level="m">The Political Integration of Ethnic Minorities in Britain</title>
+<meeting><address><addrline>Oxford</addrline></address></meeting>
+<imprint>
+<publisher>Oxford University Press</publisher>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Heath AF et al. (2013) The Political Integration of Ethnic Minorities in Britain. Oxford: Oxford University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Hochschild</surname></persname>
+</author>
+<title level="m">Strangers in Their Own Land</title>
+<meeting><address><addrline>New York City</addrline></address></meeting>
+<imprint>
+<publisher>The New Press</publisher>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hochschild AR (2016) Strangers in Their Own Land. New York City: The New Press.</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Cleavage theory meets Europe's crises: Lipset, Rokkan, and the transnational cleavage</title>
+<author>
+<persname><forename type="first">L</forename><surname>Hooghe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Marks</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of European Public Policy</title>
+<imprint>
+<biblscope unit="volume">25</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="109" to="135" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hooghe L and Marks G (2018) Cleavage theory meets Europe's crises: Lipset, Rokkan, and the transnational cleavage. Journal of European Public Policy 25(1), 109-35.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">From group identity to political cohesion and commitment</title>
+<author>
+<persname><forename type="first">L</forename><surname>Huddy</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">The Oxford Handbook of Political Psychology</title>
+<editor>
+<persname><forename type="first">D</forename><forename type="middle">O</forename><surname>Sears</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Levy</surname></persname>
+</editor>
+<meeting><address><addrline>Oxford</addrline></address></meeting>
+<imprint>
+<publisher>Oxford University Press</publisher>
+<date type="published" when="2013">2013</date>
+<biblscope from="737" to="773" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Huddy L (2013) From group identity to political cohesion and commitment. In Sears DO and Levy JS (eds), The Oxford Handbook of Political Psychology. Oxford: Oxford University Press, 737-73.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Tilting towards the cosmopolitan axis? Political change in England and the 2017 General Election</title>
+<author>
+<persname><forename type="first">Jennings</forename><forename type="middle">W</forename><surname>Stoker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Political Quarterly</title>
+<imprint>
+<biblscope unit="volume">88</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="359" to="369" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jennings W and Stoker G (2017) Tilting towards the cosmopolitan axis? Political change in England and the 2017 General Election. Political Quarterly 88(3), 359-69.</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Ethnocentrism as a short-term force in the 2008 American presidential election</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">D</forename><surname>Kam</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Kinder</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">American Journal of Political Science</title>
+<imprint>
+<biblscope unit="volume">56</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="326" to="340" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kam CD and Kinder DR (2012) Ethnocentrism as a short-term force in the 2008 American presidential election. American Journal of Political Science 56(2), 326-40.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">Who's at the party? Group sentiments, knowledge, and partisan identity</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">V</forename><surname>Kane</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Mason</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wronski</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">The Journal of Politics</title>
+<imprint>
+<biblscope unit="volume">83</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="1783" to="1799" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kane JV, Mason L and Wronski J (2021) Who's at the party? Group sentiments, knowledge, and partisan identity. The Journal of Politics 83(4), 1783-99.</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<monogr>
+<author>
+<persname><forename type="first">E</forename><surname>Kaufmann</surname></persname>
+</author>
+<title level="m">Whiteshift</title>
+<meeting><address><addrline>London</addrline></address></meeting>
+<imprint>
+<publisher>Penguin</publisher>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kaufmann E (2018) Whiteshift. London: Penguin.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<monogr>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Kinder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">D</forename><surname>Kam</surname></persname>
+</author>
+<title level="m">Us Versus Them: Ethnocentrism Foundations of American Opinion</title>
+<meeting><address><addrline>Chicago</addrline></address></meeting>
+<imprint>
+<publisher>University of Chicago Press</publisher>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kinder DR and Kam CD (2009) Us Versus Them: Ethnocentrism Foundations of American Opinion. Chicago: University of Chicago Press.</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<monogr>
+<author>
+<persname><forename type="first">H</forename><surname>Kriesi</surname></persname>
+</author>
+<title level="m">West European Politics in the Age of Globalisation</title>
+<meeting><address><addrline>Cambridge</addrline></address></meeting>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kriesi H et al. (2008) West European Politics in the Age of Globalisation. Cambridge: Cambridge University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<monogr>
+<ptr target="https://labour.org.uk/about/labours-legacy/"></ptr>
+<title level="m">Labour's Legacy. Labour Party Website</title>
+<imprint>
+<publisher>Labour Party</publisher>
+<date type="published" when="2021-01-12">2021. 12 January 2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Labour Party (2021a) Labour's Legacy. Labour Party Website. Available from https://labour.org.uk/about/labours-legacy/ (Accessed 12 January 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<ptr target="https://labour.org.uk/members/take-part/bame-communities/"></ptr>
+</analytic>
+<monogr>
+<title level="m">Black, Asian and Minority Ethnic (BAME) Communities and the Labour Movement</title>
+<imprint>
+<date type="published" when="2021-01-19">2021. 19 January 2022</date>
+</imprint>
+</monogr>
+<note>Labour Party</note>
+<note type="raw_reference">Labour Party (2021b) Black, Asian and Minority Ethnic (BAME) Communities and the Labour Movement. Labour.org.uk. Available from https://labour.org.uk/members/take-part/bame-communities/ (Accessed 19 January 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">A comparative analysis of black racial group consciousness in the United States and Britain</title>
+<author>
+<persname><forename type="first">A</forename><surname>Laniyonu</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Race, Ethnicity and Politics</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="117" to="147" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Laniyonu A (2019) A comparative analysis of black racial group consciousness in the United States and Britain. Journal of Race, Ethnicity and Politics 4(1), 117-47.</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<monogr>
+<title level="m" type="main">The End to Identity Liberalism</title>
+<author>
+<persname><forename type="first">M</forename><surname>Lilla</surname></persname>
+</author>
+<ptr target="https://www.nytimes.com/2016/11/20/opinion/sunday/the-end-of-identity-liberalism.html"></ptr>
+<imprint>
+<date type="published" when="2016-01-14">2016. 14 January 2022</date>
+<pubplace>New York Times</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Lilla M (2016) The End to Identity Liberalism. New York Times. Available from https://www.nytimes.com/2016/11/20/ opinion/sunday/the-end-of-identity-liberalism.html (Accessed 14 January 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">Democracy and working-class authoritarianism</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Lipset</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">American Sociological Review</title>
+<imprint>
+<biblscope unit="volume">24</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="482" to="501" unit="page"></biblscope>
+<date type="published" when="1959">1959</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lipset SM (1959) Democracy and working-class authoritarianism. American Sociological Review 24(4), 482-501.</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">The impacts of international migration on the UK's ethnic populations</title>
+<author>
+<persname><forename type="first">N</forename><surname>Lomax</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Ethnic and Migration Studies</title>
+<imprint>
+<biblscope unit="volume">46</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="177" to="199" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lomax N et al. (2020) The impacts of international migration on the UK's ethnic populations. Journal of Ethnic and Migration Studies 46(1), 177-99.</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<monogr>
+<author>
+<persname><forename type="first">N</forename><surname>Lupu</surname></persname>
+</author>
+<title level="m">Party Brands in Crisis</title>
+<meeting><address><addrline>Cambridge</addrline></address></meeting>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lupu N (2016) Party Brands in Crisis. Cambridge: Cambridge University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Ethnic minority voters in the UK 2015 General Election: A breakthrough for the Conservative Party?</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">S</forename><surname>Martin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Electoral Studies</title>
+<imprint>
+<biblscope unit="volume">57</biblscope>
+<biblscope from="174" to="185" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Martin NS (2019) Ethnic minority voters in the UK 2015 General Election: A breakthrough for the Conservative Party? Electoral Studies 57, 174-85.</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<monogr>
+<author>
+<persname><forename type="first">P</forename><surname>Mason</surname></persname>
+</author>
+<ptr target="https://medium.com/mosquito-ridge/booing-the-knee-this-is-the-moment-to-take-back-football-from-the-racists-8b5cb5cb281a"></ptr>
+<title level="m">Booing the Knee? This Is the Moment to Take Back Football from the Racists. Medium</title>
+<imprint>
+<date type="published" when="2021-01-17">2021. 17 January 2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mason P (2021) Booing the Knee? This Is the Moment to Take Back Football from the Racists. Medium. Available from https://medium.com/mosquito-ridge/booing-the-knee-this-is-the-moment-to-take-back-football-from-the-racists-8b5cb5c b281a (Accessed 17 January 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">Activating animus: The uniquely social roots of trump support</title>
+<author>
+<persname><forename type="first">L</forename><surname>Mason</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wronski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">V</forename><surname>Kane</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">American Political Science Review</title>
+<imprint>
+<biblscope unit="volume">115</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="1508" to="1516" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mason L, Wronski J and Kane JV (2021) Activating animus: The uniquely social roots of trump support. American Political Science Review 115(4), 1508-16.</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<monogr>
+<title level="m" type="main">How Britain Voted in the 2019 General Election</title>
+<author>
+<persname><forename type="first">A</forename><surname>Mcdonnell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Curtis</surname></persname>
+</author>
+<ptr target="https://yougov.co.uk/topics/politics/articles-reports/2019/12/17/how-britain-voted-2019-general-election"></ptr>
+<imprint>
+<date type="published" when="2019-11-21">2019. Accessed 21 November 2021</date>
+<publisher>YouGov</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">McDonnell A and Curtis C (2019) How Britain Voted in the 2019 General Election. YouGov. Available from https://yougov. co.uk/topics/politics/articles-reports/2019/12/17/how-britain-voted-2019-general-election (Accessed 21 November 2021).</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">Ethnocentrism</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Motyl</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="s">Encyclopedia of Nationalism</title>
+<editor>
+<persname><forename type="first">Alexander</forename><forename type="middle">J</forename><surname>Motyl</surname></persname>
+</editor>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="152" to="153" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+<publisher>Academic Press</publisher>
+<pubplace>London</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Motyl AJ (2001) Ethnocentrism. In Alexander J. Motyl (ed.) Encyclopedia of Nationalism -Volume 2, London: Academic Press, 152-3.</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">Whites see racism as a zero-sum game that they are now losing</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">I</forename><surname>Norton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">R</forename><surname>Sommers</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Perspectives on Psychological Science</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="215" to="218" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Norton MI and Sommers SR (2011) Whites see racism as a zero-sum game that they are now losing. Perspectives on Psychological Science 6(3), 215-8.</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<analytic>
+<title level="a" type="main">Electoral competition in Europe's new tripolar political space</title>
+<author>
+<persname><forename type="first">D</forename><surname>Oesch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Rennwald</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">European Journal of Political Research</title>
+<imprint>
+<biblscope unit="volume">57</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="783" to="807" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Oesch D and Rennwald L (2018) Electoral competition in Europe's new tripolar political space. European Journal of Political Research 57(4), 783-807.</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<analytic>
+<author>
+<persname><forename type="first">O'</forename><surname>Neill</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename></persname>
+</author>
+<ptr target="https://www.spiked-online.com/2021/05/07/the-working-class-revolt-against-labour/"></ptr>
+</analytic>
+<monogr>
+<title level="m">The working-class revolt against Labour</title>
+<imprint>
+<date type="published" when="2021-01-14">2021. 14 January 2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">O'Neill B (2021) The working-class revolt against Labour. Spiked Online. Available from https://www.spiked-online.com/ 2021/05/07/the-working-class-revolt-against-labour/ (Accessed 14 January 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b66">
+<analytic>
+<title level="a" type="main">Relative deprivation and intergroup attitudes</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">F</forename><surname>Pettigrew</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Social Issues</title>
+<imprint>
+<biblscope unit="volume">64</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="385" to="401" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pettigrew TF et al. (2008) Relative deprivation and intergroup attitudes. Journal of Social Issues 64(2), 385-401.</note>
+</biblstruct>
+<biblstruct xml:id="b67">
+<monogr>
+<author>
+<persname><forename type="first">T</forename><surname>Piketty</surname></persname>
+</author>
+<title level="m">Capital and Ideology</title>
+<meeting><address><addrline>Cambridge, MA</addrline></address></meeting>
+<imprint>
+<publisher>Harvard University Press</publisher>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Piketty T (2020) Capital and Ideology. Cambridge, MA: Harvard University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b68">
+<monogr>
+<author>
+<persname><forename type="first">Poston</forename><surname>Jr</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Sáenz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename></persname>
+</author>
+<ptr target="https://theconversation.com/the-us-white-majority-will-soon-disappear-forever-115894"></ptr>
+<title level="m">The US White Majority Will Soon Disappear Forever. The Conversation</title>
+<imprint>
+<date type="published" when="2020-12-01">2020. 1 December 2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Poston Jr DJ and Sáenz R (2020) The US White Majority Will Soon Disappear Forever. The Conversation. Available from https://theconversation.com/the-us-white-majority-will-soon-disappear-forever-115894 (Accessed 1 December 2020).</note>
+</biblstruct>
+<biblstruct xml:id="b69">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><surname>Przeworski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Sprague</surname></persname>
+</author>
+<title level="m">Paper Stones: A History of Electoral Socialism</title>
+<meeting><address><addrline>Chicago</addrline></address></meeting>
+<imprint>
+<publisher>University of Chicago Press</publisher>
+<date type="published" when="1986">1986</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Przeworski A and Sprague JD (1986) Paper Stones: A History of Electoral Socialism. Chicago: University of Chicago Press.</note>
+</biblstruct>
+<biblstruct xml:id="b70">
+<monogr>
+<title level="m" type="main">Closing the Gap: Parliament, Representation and the Working Class</title>
+<author>
+<persname><forename type="first">H</forename><surname>Quilter-Pinner</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2022">2022</date>
+<publisher>Institute for Public Policy (IPPR)</publisher>
+<pubplace>London</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Quilter-Pinner H et al. (2022) Closing the Gap: Parliament, Representation and the Working Class. London: Institute for Public Policy (IPPR).</note>
+</biblstruct>
+<biblstruct xml:id="b71">
+<monogr>
+<author>
+<persname><forename type="first">Rae</forename><forename type="middle">A</forename></persname>
+</author>
+<ptr target="http://www.statsmapsnpix.com/2021/05/far-too-many-words-about-chart.html"></ptr>
+<title level="m">UK Constituencies By Deprivation. Statsmapsnpix.com</title>
+<imprint>
+<date type="published" when="2021-01-12">2021. 12 January 2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rae A (2021) UK Constituencies By Deprivation. Statsmapsnpix.com. Available from http://www.statsmapsnpix.com/2021/ 05/far-too-many-words-about-chart.html (Accessed 12 January 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b72">
+<analytic>
+<title level="a" type="main">The group basis of partisan affective polarization</title>
+<author>
+<persname><forename type="first">J</forename><surname>Robison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L</forename><surname>Moskowitz</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Politics</title>
+<imprint>
+<biblscope unit="volume">81</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="1075" to="1079" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Robison J and Moskowitz RL (2019) The group basis of partisan affective polarization. Journal of Politics 81(3), 1075-9.</note>
+</biblstruct>
+<biblstruct xml:id="b73">
+<analytic>
+<title level="a" type="main">Does class-based campaigning work? How working class appeals attract and polarize voters</title>
+<author>
+<persname><forename type="first">J</forename><surname>Robison</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Comparative Political Studies</title>
+<imprint>
+<biblscope unit="volume">54</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="723" to="752" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Robison J et al. (2021) Does class-based campaigning work? How working class appeals attract and polarize voters. Comparative Political Studies 54(5), 723-52.</note>
+</biblstruct>
+<biblstruct xml:id="b74">
+<analytic>
+<title level="a" type="main">Introduction: Class politics and the radical right</title>
+<author>
+<persname><forename type="first">J</forename><surname>Rydgren</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Class Politics and the Radical Right</title>
+<editor>
+<persname><forename type="first">Jens</forename><surname>Rydgren</surname></persname>
+</editor>
+<meeting><address><addrline>Abingdon</addrline></address></meeting>
+<imprint>
+<publisher>Routledge</publisher>
+<date type="published" when="2013">2013</date>
+<biblscope from="1" to="9" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Rydgren J (2013) Introduction: Class politics and the radical right. In Jens Rydgren (ed.) Class Politics and the Radical Right. Abingdon: Routledge, 1-9.</note>
+</biblstruct>
+<biblstruct xml:id="b75">
+<monogr>
+<author>
+<persname><forename type="first">K</forename><surname>Sandhu</surname></persname>
+</author>
+<ptr target="https://newint.org/features/2018/03/01/working-class-in-britain"></ptr>
+<title level="m">Working Class in Britain? You Must Be White</title>
+<imprint>
+<date type="published" when="2018-01-14">2018. 14 January 2022</date>
+</imprint>
+</monogr>
+<note>New Internationalist</note>
+<note type="raw_reference">Sandhu K (2018) Working Class in Britain? You Must Be White. New Internationalist. Available from https://newint.org/ features/2018/03/01/working-class-in-britain (Accessed 14 January 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b76">
+<analytic>
+<title level="a" type="main">Does university make you more liberal? Estimating the within-individual effects of higher education on political values</title>
+<author>
+<persname><forename type="first">R</forename><surname>Scott</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Electoral Studies</title>
+<imprint>
+<biblscope unit="volume">77</biblscope>
+<biblscope unit="page">102471</biblscope>
+<date type="published" when="2021">2022. June 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Scott R (2022) Does university make you more liberal? Estimating the within-individual effects of higher education on political values. Electoral Studies 77 (June 2021), 102471.</note>
+</biblstruct>
+<biblstruct xml:id="b77">
+<analytic>
+<title level="a" type="main">A model of social identity with an application to political economy: Nation, class, and redistribution</title>
+<author>
+<persname><forename type="first">M</forename><surname>Shayo</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">American Political Science Review</title>
+<imprint>
+<biblscope unit="volume">103</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="147" to="174" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Shayo M (2009) A model of social identity with an application to political economy: Nation, class, and redistribution. American Political Science Review 103(2), 147-74.</note>
+</biblstruct>
+<biblstruct xml:id="b78">
+<monogr>
+<title level="m" type="main">A Pro-Immigrant Party Rises in the Netherlands</title>
+<author>
+<persname><forename type="first">N</forename><surname>Siegel</surname></persname>
+</author>
+<ptr target="https://www.nytimes.com/2016/07/30/world/europe/dutch-denk-party.html"></ptr>
+<imprint>
+<date type="published" when="2016-09-14">2016. 14 September 2022</date>
+<pubplace>New York Times</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Siegel N (2016) A Pro-Immigrant Party Rises in the Netherlands. New York Times. Available from https://www.nytimes.com/ 2016/07/30/world/europe/dutch-denk-party.html (Accessed 14 September 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b79">
+<analytic>
+<title level="a" type="main">Grievances and rebellion: Comparing relative deprivation and horizontal inequality</title>
+<author>
+<persname><forename type="first">D</forename><surname>Siroky</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Conflict Management and Peace Science</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="694" to="715" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Siroky D et al. (2020) Grievances and rebellion: Comparing relative deprivation and horizontal inequality. Conflict Management and Peace Science 37(6), 694-715.</note>
+</biblstruct>
+<biblstruct xml:id="b80">
+<monogr>
+<author>
+<persname><forename type="first">M</forename><surname>Smith</surname></persname>
+</author>
+<ptr target="https://yougov.co.uk/topics/politics/articles-reports/2019/08/13/left-wing-vs-right-wing-its-complicated"></ptr>
+<title level="m">Left-Wing vs Right-Wing: It's Complicated</title>
+<imprint>
+<publisher>YouGov</publisher>
+<date type="published" when="2019-09-27">2019. 27 September 2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Smith M (2019) Left-Wing vs Right-Wing: It's Complicated. YouGov. Available from https://yougov.co.uk/topics/politics/ articles-reports/2019/08/13/left-wing-vs-right-wing-its-complicated (Accessed 27 September 2019).</note>
+</biblstruct>
+<biblstruct xml:id="b81">
+<analytic>
+<title level="a" type="main">Beyond race: Social justice as a race neutral ideal</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">M</forename><surname>Sniderman</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">American Journal of Political Science</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="33" to="55" unit="page"></biblscope>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sniderman PM et al. (1996) Beyond race: Social justice as a race neutral ideal. American Journal of Political Science 40(1), 33-55.</note>
+</biblstruct>
+<biblstruct xml:id="b82">
+<monogr>
+<author>
+<persname><forename type="first">M</forename><surname>Sobolewska</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Ford</surname></persname>
+</author>
+<title level="m">Brexitland</title>
+<meeting><address><addrline>Cambridge</addrline></address></meeting>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sobolewska M and Ford R (2020) Brexitland. Cambridge: Cambridge University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b83">
+<monogr>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Stouffer</surname></persname>
+</author>
+<title level="m">The American Soldier: Adjustment to Army Life</title>
+<meeting><address><addrline>Princeton</addrline></address></meeting>
+<imprint>
+<publisher>Princeton University Press</publisher>
+<date type="published" when="1949">1949</date>
+<biblscope unit="volume">1</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Stouffer SA et al. (1949) The American Soldier: Adjustment to Army Life, Vol. 1. Princeton: Princeton University Press.</note>
+</biblstruct>
+<biblstruct xml:id="b84">
+<analytic>
+<title level="a" type="main">In the eye of the beholder: What determines how people sort others into social classes?</title>
+<author>
+<persname><forename type="first">R</forename><surname>Stubager</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Social Science Research</title>
+<imprint>
+<biblscope unit="volume">76</biblscope>
+<biblscope from="132" to="143" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stubager R et al. (2018) In the eye of the beholder: What determines how people sort others into social classes? Social Science Research 76, 132-43.</note>
+</biblstruct>
+<biblstruct xml:id="b85">
+<analytic>
+<title level="a" type="main">How political parties use group-based appeals: Evidence from Britain 1964-2015</title>
+<author>
+<persname><forename type="first">M</forename><surname>Thau</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Political Studies</title>
+<imprint>
+<biblscope unit="volume">67</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="63" to="82" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thau M (2019) How political parties use group-based appeals: Evidence from Britain 1964-2015. Political Studies 67(1), 63-82.</note>
+</biblstruct>
+<biblstruct xml:id="b86">
+<analytic>
+<title level="a" type="main">The social divisions of politics: How parties' group-based appeals influence social group differences in vote choice</title>
+<author>
+<persname><forename type="first">M</forename><surname>Thau</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Journal of Politics</title>
+<imprint>
+<biblscope unit="volume">83</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="675" to="688" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thau M (2021) The social divisions of politics: How parties' group-based appeals influence social group differences in vote choice. Journal of Politics 83(2), 675-88.</note>
+</biblstruct>
+<biblstruct xml:id="b87">
+<analytic>
+<title level="a" type="main">Class composition, Labour's strategy and the politics of work</title>
+<author>
+<persname><forename type="first">P</forename><surname>Thompson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">The Political Quarterly</title>
+<imprint>
+<biblscope unit="volume">93</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="142" to="149" unit="page"></biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thompson P et al. (2022) Class composition, Labour's strategy and the politics of work. The Political Quarterly 93(1), 142-9.</note>
+</biblstruct>
+<biblstruct xml:id="b88">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><surname>Thorpe</surname></persname>
+</author>
+<title level="m">A History of the British Labour Party</title>
+<meeting><address><addrline>London</addrline></address></meeting>
+<imprint>
+<publisher>Palgrave Macmillan</publisher>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Thorpe A (2015) A History of the British Labour Party. London: Palgrave Macmillan.</note>
+</biblstruct>
+<biblstruct xml:id="b89">
+<analytic>
+<author>
+<persname><forename type="first">D</forename><surname>Wainwright</surname></persname>
+</author>
+<ptr target="https://www.bbc.co.uk/news/election-2019-50771014"></ptr>
+</analytic>
+<monogr>
+<title level="m">General Election 2019: How Labour's "Red Wall" Turned Blue</title>
+<imprint>
+<date type="published" when="2019-01-12">2019. 12 January 2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Wainwright D (2019) General Election 2019: How Labour's "Red Wall" Turned Blue. BBC News Online. Available from https://www.bbc.co.uk/news/election-2019-50771014 (Accessed 12 January 2022).</note>
+</biblstruct>
+<biblstruct xml:id="b90">
+<monogr>
+<title level="m" type="main">The Trouble with Diversity</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">B</forename><surname>Walters</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2006">2006</date>
+<publisher>Palgrave Macmillan</publisher>
+<pubplace>Basingstoke</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Walters MB (2006) The Trouble with Diversity. Basingstoke: Palgrave Macmillan.</note>
+</biblstruct>
+<biblstruct xml:id="b91">
+<analytic>
+<title level="a" type="main">The origins and consequences of racialized schemas about U.S. Parties</title>
+<author>
+<persname><forename type="first">K</forename><surname>Zhirkov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">A</forename><surname>Valentino</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">The Journal of Race, Ethnicity, and Politics</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="484" to="504" unit="page"></biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zhirkov K and Valentino NA (2022) The origins and consequences of racialized schemas about U.S. Parties. The Journal of Race, Ethnicity, and Politics 7(3), 484-504.</note>
+</biblstruct>
+<biblstruct xml:id="b92">
+<analytic>
+<title level="a" type="main">A New Dilemma of Social Democracy? The British Labour Party, the White Working Class and Ethnic Minority Representation</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Grant</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Evans</surname></persname>
+</author>
+<idno type="DOI">10.1017/S0007123423000601</idno>
+<ptr target="https://doi.org/10.1017/"></ptr>
+</analytic>
+<monogr>
+<title level="j">British Journal of Political Science</title>
+<imprint>
+<biblscope from="1" to="23" unit="page"></biblscope>
+<date type="published" when="2023">2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cite this article: Grant Z, Evans G (2023). A New Dilemma of Social Democracy? The British Labour Party, the White Working Class and Ethnic Minority Representation. British Journal of Political Science 1-23. https://doi.org/10.1017/</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

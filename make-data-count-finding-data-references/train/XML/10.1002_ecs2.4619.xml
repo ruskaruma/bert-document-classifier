@@ -1,0 +1,2054 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Interactions between temperature and predation impact insect emergence in alpine lakes</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">Caroline</forename><forename type="middle">H</forename><surname>Owens</surname></persname>
+<email>owens@ucsb.edu</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Department of Ecology Evolution and Marine Biology, University of California, Santa Barbara, Santa Barbara, California, USA</note>
+<orgname type="department">Department of Ecology Evolution and Marine Biology</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>Santa Barbara</addrline>
+<settlement>Santa Barbara</settlement>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Michelle</forename><forename type="middle">J</forename><surname>Lee</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Department of Ecology Evolution and Marine Biology, University of California, Santa Barbara, Santa Barbara, California, USA</note>
+<orgname type="department">Department of Ecology Evolution and Marine Biology</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>Santa Barbara</addrline>
+<settlement>Santa Barbara</settlement>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">|</forename><forename type="middle">Melissa</forename><surname>Grim</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Department of Ecology Evolution and Marine Biology, University of California, Santa Barbara, Santa Barbara, California, USA</note>
+<orgname type="department">Department of Ecology Evolution and Marine Biology</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>Santa Barbara</addrline>
+<settlement>Santa Barbara</settlement>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Department of Environmental Science and Policy, University of California, Davis, Davis, California, USA</note>
+<orgname type="department">Department of Environmental Science and Policy</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<settlement>Davis, Davis</settlement>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">John</forename><surname>Schroeder</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Department of Ecology Evolution and Marine Biology, University of California, Santa Barbara, Santa Barbara, California, USA</note>
+<orgname type="department">Department of Ecology Evolution and Marine Biology</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>Santa Barbara</addrline>
+<settlement>Santa Barbara</settlement>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Hillary</forename><forename type="middle">S</forename><surname>Young</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Department of Ecology Evolution and Marine Biology, University of California, Santa Barbara, Santa Barbara, California, USA</note>
+<orgname type="department">Department of Ecology Evolution and Marine Biology</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>Santa Barbara</addrline>
+<settlement>Santa Barbara</settlement>
+<region>California</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Manuel</forename><forename type="middle">T</forename><surname>Lerdau</surname></persname>
+</author>
+<author>
+<affiliation key="aff2">
+<note type="raw_affiliation">National Science Foundation; University of California Natural Reserve System;</note>
+<orgname type="department">National Science Foundation</orgname>
+<orgname type="institution">University of California Natural Reserve System</orgname>
+</affiliation>
+</author>
+<author>
+<affiliation key="aff3">
+<note type="raw_affiliation">University of California, Santa Barbara</note>
+<orgname type="institution">University of California</orgname>
+<address>
+<settlement>Santa Barbara</settlement>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Interactions between temperature and predation impact insect emergence in alpine lakes</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">F2F7500916F3AF962CD5777F6FE931C2</idno>
+<idno type="DOI">10.1002/ecs2.4619</idno>
+<note type="submission">Received: 12 May 2023 Accepted: 25 May 2023</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-08-29T23:38+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>alpine lakes</term>
+<term>benthic macroinvertebrates</term>
+<term>emerging insects</term>
+<term>global change</term>
+<term>interaction effects</term>
+<term>predator introduction</term>
+<term>subsidies</term>
+<term>trout</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>While insect populations are simultaneously threatened by many local-and global-scale stressors, the interacting effects of these factors remain poorly understood.</s><s>These interactions between stressors, whether additive or antagonistic, may have profound effects on our assumptions about and predictions for any given system.</s><s>Here we address this gap by exploring the interactive effects of introduced predators and elevated temperatures on emerging aquatic insects across alpine lakes.</s><s>Using a crossed factorial field survey, we examine whether warmer temperatures either directly affect the magnitude or diversity of insect emergence, or mediate the impacts of predation via interactions with predator presence.</s><s>Based on data from more than 11,000 insects collected across a two-year period, we find a 71% reduction in insect emergence associated with an additional 3.6 C of water temperature in oligotrophic alpine lakes.</s><s>While our work confirms prior findings that predator presence drives strong reductions in insect emergence, we find that the effects of predation are significantly weaker in warmer lakes (2% reduction in warmest lakes studied vs. 75% reduction in coldest).</s><s>Combining our results with regional studies of predator communities to identify mechanisms suggests that the interaction effects between temperature and predator presence are likely due to changes in predator behavior across temperatures.</s><s>Critically, to fully understand the multiple stressors that impact insect populations and predict their future effects, we must consider the interactions between stressors across spatial scales.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">INTRODUCTION<p><s>Insects make up as much as 30% of terrestrial animal biomass <ref target="#b2" type="bibr">(Bar-On et al., 2018)</ref> and play critical roles in many ecosystem functions.</s><s>One group of particular ecological importance and concern is emerging aquatic insects: taxa with aquatic nymph and terrestrial adult life stages.</s><s>These insects feed primarily in aquatic systems before emerging as flying adults that cross habitat boundaries, providing nutrition to terrestrial consumers.</s><s>In the process, they deliver an important subsidy from freshwaters to nearshore environments <ref target="#b23" type="bibr">(Hoekman et al., 2011;</ref><ref target="#b53" type="bibr">Polis et al., 1997)</ref>.</s><s>As a crucial vector of habitat connectivity, emerging insects have been shown to support increased biodiversity, abundance, and health of consumers in recipient systems <ref target="#b16" type="bibr">(Epanchin et al., 2010;</ref><ref target="#b30" type="bibr">Knapp et al., 2001;</ref><ref target="#b33" type="bibr">Kowarik et al., 2021)</ref>, as well as to increase terrestrial primary production via fertilization <ref target="#b14" type="bibr">(Dreyer et al., 2015;</ref><ref target="#b67" type="bibr">Wesner et al., 2019)</ref>.</s></p><p><s>Because emerging insects rely on two habitats to complete their life cycle, they are particularly vulnerable to global change via disruptions in both their producing (donor) and their recipient ecosystems (S anchez- <ref target="#b61" type="bibr">Bayo &amp; Wyckhuys, 2019)</ref>.</s><s>Such disruptions can be regional in scale, like rising temperatures <ref target="#b56" type="bibr">(Robinet &amp; Roques, 2010)</ref>, or more localized, like predator introductions or point source pollution <ref target="#b57" type="bibr">(Rochlin et al., 2016;</ref><ref target="#b58" type="bibr">Rudman et al., 2016)</ref>.</s><s>While these perturbations rarely occur in isolation, most ecological studies so far have focused on the responses of emerging insects to one factor at a time.</s><s>Studies of zooplankton have found strong and surprising effects from interacting stressors <ref target="#b40" type="bibr">(MacLennan et al., 2015)</ref>, indicating the importance of this research.</s><s>However, predicting the responses of emerging insect populations and the functions they fulfill to multiple interacting factors remains an outstanding problem.</s><s>To address this gap, we considered the independent and joint effects of a local factor (trout introduction) and a regional-scale factor (increased temperatures) on the abundance, biomass, and composition of emerging insect communities.</s><s>We conducted this work in the Sierra Nevada of California, USA, an alpine environment where the ecological importance of emerging insects for habitat connectivity is well established and where both localand regional-scale environmental disruptions are prominent features.</s></p><p><s>Alpine lakes and their associated biotic communities have been considered "sentinels" of global change <ref target="#b44" type="bibr">(Moser et al., 2019)</ref>.</s><s>Despite the remote and physically protected nature of many alpine lakes, these systems are relatively vulnerable to environmental factors due to their steep and sparsely vegetated catchments, dynamic weather, and intense flushing rates <ref target="#b38" type="bibr">(Loria et al., 2020)</ref>.</s><s>High-elevation lakes are among the fastest warming freshwater systems worldwide <ref target="#b34" type="bibr">(Kraemer et al., 2017)</ref> and are important refugia for endemic species and hot spots of biogeochemical cycling.</s><s>While individual alpine lakes are often small, together they form an important portion of global freshwater systems: about 10% of lake area on Earth lies 2000 m or more above sea level (asl) <ref target="#b65" type="bibr">(Verpoorter et al., 2014)</ref>.</s><s>In the Sierra Nevada, there are thousands of oligotrophic alpine lakes along several gradients of size, elevation, and connectivity, all of which share an underlying climate and geology.</s><s>In addition, many biotic populations have been well surveyed in Sierra lakes, providing regional context for trophic interactions <ref target="#b31" type="bibr">(Knapp et al., 2020)</ref>.</s><s>Thus, further sampling in the context of this well-studied system can produce results with relevance to important alpine systems in other regions.</s></p><p><s>As a local threat in Sierra lakes, we focused on predator introductions because of their strong impacts and global prevalence.</s><s>Salmonidae (salmon and trout) are a predator taxon commonly introduced into lake systems, due partly to their high value for fishing and aquaculture.</s><s>The introduction of salmonid taxa is associated with a wide range of ecosystem effects in many lake regions <ref target="#b12" type="bibr">(Cucherousset &amp; Olden, 2011)</ref>.</s><s>Predator introductions disrupt the emergence of insects from both lake and stream systems, with cascading consequences up and down food chains <ref target="#b4" type="bibr">(Baxter et al., 2004;</ref><ref target="#b45" type="bibr">Nakano &amp; Murakami, 2001)</ref>.</s><s>In the Sierra Nevada of California, lakes stocked with introduced trout have fewer benthic insect larvae compared with fishless lakes <ref target="#b28" type="bibr">(Knapp et al., 2005)</ref>, with reductions disproportionally among the larger taxa <ref target="#b27" type="bibr">(Knapp, 1996)</ref>.</s><s>At stocked lakes, compared with fishless lakes, fewer birds nest around the shoreline due to lower mayfly emergence <ref target="#b16" type="bibr">(Epanchin et al., 2010)</ref> and insectivorous bats exert higher foraging effort, possibly indicating lower quality prey <ref target="#b20" type="bibr">(Gruenstein et al., 2021)</ref>.</s><s>Introduced fish drive out endemic taxa, which ordinarily would rely on the same prey as the trout, such as the mountain yellow-legged frog in the Sierra <ref target="#b29" type="bibr">(Knapp &amp; Matthews, 2000)</ref>, and displace the native fish that feed terrestrial bear, otter, and osprey populations in Yellowstone National Park <ref target="#b32" type="bibr">(Koel et al., 2019)</ref>.</s></p><p><s>As a broader scale threat to lake ecosystems, we focused on changing water temperatures, since temperature is driven by regional climate and affects many aspects of aquatic systems.</s><s>Recent reviews have shown that in mountain lakes, hydrological regime <ref target="#b43" type="bibr">(Medina &amp; Westbrook, 2021)</ref>, zooplankton production and diversity <ref target="#b11" type="bibr">(Caldwell et al., 2020)</ref>, and phytoplankton abundance <ref target="#b38" type="bibr">(Loria et al., 2020)</ref> can all respond to shifts in temperature.</s><s>However, in contrast to established effects of predators on insect emergence, the effects of changing lake temperature on emergence are complex and generally less well understood.</s><s>Higher mean water temperatures may directly alter insect community composition and abundance through effects on habitat suitability or consumerresource interactions <ref target="#b63" type="bibr">(Toro et al., 2020)</ref>, enhance or depress their food sources by changing within-lake processing of nutrients and organic matter <ref target="#b7" type="bibr">(Bergström et al., 2013;</ref><ref target="#b19" type="bibr">Greig et al., 2012;</ref><ref target="#b23" type="bibr">Hoekman et al., 2011)</ref>, or shift the timing of emergence differentially across taxa <ref target="#b6" type="bibr">(Belitz et al., 2021;</ref><ref target="#b47" type="bibr">O'Gorman, 2016)</ref>.</s><s>Insects experiencing warmer temperatures may develop faster with smaller bodies <ref target="#b13" type="bibr">(Dickson &amp; Walker, 2015;</ref><ref target="#b37" type="bibr">Li et al., 2011;</ref><ref target="#b41" type="bibr">Maier et al., 1990)</ref> or grow to a larger adult size than low-temperature controls <ref target="#b18" type="bibr">(Gregory et al., 2000;</ref><ref target="#b46" type="bibr">Nelson et al., 2020)</ref>.</s></p><p><s>Importantly, we also focused on the interaction between these two stressors.</s><s>A meta-analysis of field data from lakes in the Canadian Rockies and Klamath Range showed that insect emergence was lowest and predator introduction was least impactful at warm (low elevation) sites <ref target="#b51" type="bibr">(Piovia-Scott et al., 2016)</ref>, while controlled mesocosm studies in tanks modeled on alpine ponds led to an apparently opposite conclusion that warming both increases insect emergence and magnifies the effect of predatory fish <ref target="#b19" type="bibr">(Greig et al., 2012)</ref>.</s><s>The contradiction between these findings is a reminder that context-dependent interaction effects often cause systems to respond in unexpected ways <ref target="#b25" type="bibr">(Jackson et al., 2016)</ref>.</s><s>Mesocosm studies, while often critical to determine mechanistic effects of one or two factors, may not be directly comparable with real systems.</s><s>Given the multiple and overlaid nature of disruptions from global change, it is critical to understand how these threats will interact to shape ecological systems in the future.</s></p><p><s>To better understand the interactions between co-occurring perturbations, this study leveraged a natural experiment of predator introduction and removal across temperature gradients to identify and separate the effects of water temperature and predator presence on insect emergence from lakes.</s><s>Specifically, we took advantage of the varied nature and high number of Sierran lakes to establish a crossed factorial field survey to determine whether increased temperatures can either directly affect the magnitude or diversity of insect emergence from lentic systems, or mediate the impacts of predation via an interactive effect with trout presence.</s><s>We addressed these questions by measuring the abundance, biomass, average body size, and diversity of emerging insects over the course of two summers from six lakes in Humphreys Basin in the south-central Sierra Nevada, selected for their overall similarity except in temperature and predator presence.</s></p><p><s>We predicted that the abundance and biomass of emerging insects would be (1) negatively associated with predator presence, (2) positively associated with warmer temperatures, and (3) less impacted by predator presence in warmer lakes, following the results of <ref target="#b51" type="bibr">Piovia-Scott et al. (2016)</ref>.</s><s>We also compared insect community composition across lakes, expecting that compositional shifts might help explain any observed changes in insect biomass.</s><s>We predicted that warmer lakes would support a higher abundance and diversity of insects (following <ref target="#b19" type="bibr">Greig et al., 2012)</ref> and of other invertebrates (surveyed in the Sierra Lakes Inventory Project; <ref target="#b31" type="bibr">Knapp et al., 2020)</ref>, potentially leading to predator satiation or preventing the introduced predators from effectively capturing all the insect larvae.</s><s>Results from this work provide specific insight into some of the mechanistic drivers of insect emergence and how increased water temperatures, changes in predator assemblage, or their interaction should be expected to affect emerging insects and the subsidies they provide.</s><s>More broadly, these results highlight the critical interactions between regional and local stressors in predicting the magnitude and even direction of impacts from a particular factor on at-risk insect populations and the services they provide.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">METHODS</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Study sites<p><s>The Sierra Nevada of California is a mountain range located near the western coast of North America, containing more than 4000 high-elevation lakes which provide an ideal laboratory to examine the interacting effects of multiple global changes.</s><s>Much of the mountain range is protected as wilderness, preventing many direct impacts of anthropogenic development, but the system is still vulnerable to both local and regional stressors.</s><s>Sierran lakes at high elevation lack endemic fish populations due to physical barriers to dispersal.</s><s>Many of the lakes have been stocked over the past hundred years with trout species (Oncorhynchus mykiss and Salvelina fontinalis) to improve recreational fishing opportunities.</s><s>In addition, temperature in these lakes is largely regulated by snowpack and duration of winter ice cover <ref target="#b60" type="bibr">(Sadro et al., 2018)</ref>, and therefore varies with elevation and catchment characteristics as well as interannually.</s></p><p><s>We surveyed six oligotrophic lakes in the Sierra, three with and three without fish populations, across an elevation range between 3400 and 3650 masl that represent a gradient of temperature (Figure <ref type="figure">1D</ref>).</s><s>These lakes are within the same catchment (Humphreys Basin, California, USA, Sierra National Forest; 37.26 N, 118.70 W) to facilitate comparison, and have been considered as pairs in previous studies on fish effects due to similarities in depth, substrata, and catchment features <ref target="#b16" type="bibr">(Epanchin et al., 2010;</ref><ref target="#b54" type="bibr">Pope et al., 2009)</ref>.</s><s>We conducted surveys of lake substrata and sampled water quality to confirm similarity (Appendices S3 and S4).</s><s>All lakes were oligotrophic and dilute, with predominantly rocky catchments and littoral zones and little to no emergent vegetation.</s><s>Principal components analysis (PCA) confirmed that the presence of fish and the temperature gradient were not confounded with other abiotic factors such as lake depth, size, or catchment area.</s><s>Lakes with fish had previously been stocked with S. fontinalis (the coldest lake) or O. mykiss (middle and warmest lakes), both omnivorous visual predators with similar effects on insect prey, and now contain sustaining populations of one or both species <ref target="#b17" type="bibr">(Erdman, 2013)</ref> at comparable densities, with the fewest fish per hectare in the coldest lake <ref target="#b1" type="bibr">(Armstrong &amp; Knapp, 2004)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Abiotic parameters<p><s>To quantify lake temperature, we deployed Onset HOBO temperature loggers by anchoring them at approximately 0.5-1 m depth underwater near the outlet of each lake in F I G U R E 1 Location, timing, and methods of emergent insect sampling.</s><s>(A) Location, fish status, and relative water temperature of six study lakes along an elevation gradient in the central Sierra Nevada.</s><s>Lake names are provided in Appendix S1: Table <ref type="table">S1</ref>.</s><s>(B) Bathymetric map of one study lake (cold, with fish) and approximate distribution of emergence traps in the littoral zone.</s><s>(C) Image of the floating traps (area 0.27 m 2 ) used to capture insects from the littoral zone of each lake.</s><s>(D) Water temperatures recorded in the epilimnion of each lake over the course of 2019 and 2021 sampling periods (lines), along with the dates at which samples were collected from each lake (circles).</s><s>Blue boxes show the approximate dates in each year when the study lakes became ice-free.</s></p><p><s>both 2019 and 2021 (as early as June and as late as September across the two years), where they experienced temperatures roughly equivalent to an integrated average of the lake epilimnion and recorded them at 10-15 min intervals.</s><s>We used these readings to calculate mean daily temperatures for each lake, as well as to determine the peak water temperature reached by each lake in each year.</s><s>We conducted sensitivity analyses that confirmed that neither the choice of temperature variables (mean vs. minimum, maximum, or range) nor any potential solar heating of the loggers affected the direction or significance of our results.</s><s>In addition, we used visual inspection of daily satellite imagery (Planet Labs Team, 2017) to determine approximate dates of ice-off at each lake by finding the first day without visible ice at each lake.</s><s>In cases where there was no clear imagery of a day with ice followed directly by a day without ice, we supplemented with field notes or selected the midpoint of the window between the last image with ice and the first ice-free image.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Insect trapping<p><s>During the summers of 2019 and 2021, we used floating emergence traps (Figure <ref type="figure">1C</ref>, modified from <ref target="#b54" type="bibr">Pope et al., 2009)</ref> to collect adult insects as they emerged from the surface of each lake.</s><s>We deployed traps for 24 h to capture the full diel cycle of emergence; in addition, we anchored them over a variety of substrata (cobble, sediment, boulders, and gravel) to collect a sample of emergence from the various lake littoral habitats.</s><s>A total of eight traps per lake were deployed on each sampling date, with two traps placed in 1-2 m of water at each cardinal direction of the lake during each visit.</s><s>Each trap covered 0.27 m 2 of the lake area.</s><s>Samples were collected on the same day from pairs of lakes (one with and one without fish) to control for daily variation in weather.</s><s>In 2019, we visited each lake pair 3-6 times between ice-off (mid-July) to late summer (early September) in order to capture seasonal trends in emergence.</s><s>In 2021, we focused our sampling closer to the seasonal peak in emergence identified during 2019; specifically, we visited each lake pair three times across early to mid-summer (mid-June-late July), with approximately 2 weeks between each visit.</s><s>All sampling was conducted in fair weather (i.e., not during thunderstorms, rainstorms, or high wind events).</s></p><p><s>We aspirated all visible insects (minimum size is approximately 0.75 mm) from each trap and preserved them in 70% ethanol.</s><s>All samples were then stored at -20 C to further protect against degradation prior to sorting and identification.</s><s>Insects were identified to taxonomic order using a dissecting scope (magnification 8×-63×) and dichotomous keys <ref target="#b5" type="bibr">(Behm &amp; Seltmann, 2019;</ref><ref target="#b64" type="bibr">Usinger &amp; Bentinck, 1974)</ref>.</s><s>We identified Diptera to family or genus using the same methods and resources.</s><s>For Dipteran taxa where finer taxonomic resolution was difficult (e.g., Chironomidae), we assigned specimens to size classes (0.75-1.5 mm, &gt;1.5-3 mm, &gt;3-5 mm, and &gt;5 mm length) based on their length from head to abdomen measured via handheld micrometer or calipers.</s><s>For each taxonomic group or size class, we measured the head-to-abdomen length of at least 10 individuals using a handheld micrometer and dissecting scope at a magnification of 8×-63×.</s><s>We used these values to calculate biomasses following the methods of <ref target="#b59" type="bibr">Sabo et al. (2002)</ref>.</s><s>We scaled all measurements of emergence to the surface area of the traps (0.27 m 2 ) and reported results as a rate of emergence per square meter of lake per day.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Statistical analyses</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Model fitting and selection<p><s>Annual peak lake water temperature was selected as the best variable to describe between-lake climate differences, as it provided the most consistent comparison across sites and years with differing lengths of temperature records (Figure <ref type="figure">1D</ref>) and is the most directly interpretable measurement of temperature effects on insect populations; however, models run with alternative climate variables such as lake elevation, ice-off date, or duration of ice cover gave similar results.</s><s>Similarly, using daily mean water temperature, daily maximum temperature, nightly mean temperature, or number of days since ice-off as an indicator for seasonality all resulted in similar conclusions, so daily mean water temperature was used for simplicity across all models.</s><s>We checked for collinearity between all predictors before conducting analyses and used PCA to check for additional confounding variables (Appendix S1).</s><s>Because multiple traps were deployed during each sampling date, dates were spread across two years, and insect emergence depends on weather conditions, we assumed a violation of independence between data points collected on the same date.</s><s>This assumption was confirmed by clumped patterns in the residuals when a linear model was fit to the data.</s><s>We therefore fit generalized linear mixed models (GLMMs) with a random effect of sampling date to our response variables of emerging insect biomass, abundance, and body size to determine which environmental variables best predicted insect emergence after taking this within-day and within-year correlation into account.</s><s>Each model included a fixed effect for climate (peak annual water temperature), seasonality (daily mean water temperature), fish status, and the interaction between fish status and peak temperature.</s><s>The model structure was as follows:</s></p><p><s>Emergence fish status × peak temperature + daily temperature + 1jsampling date ð Þ</s></p><p><s>Insect biomass and individual body size were log or square root transformed to obtain normal residuals and modeled with a Gaussian error structure.</s><s>Because abundance was a count variable with high dispersion and relatively few zeroes, we used a truncated negative binomial distribution with a constant zero-inflation term to model insect abundance.</s><s>We used the R packages glmmTMB, DHARMa, and MuMIn to construct, evaluate, and compare models for each response <ref target="#b3" type="bibr">(Barton, 2020;</ref><ref target="#b9" type="bibr">Brooks et al., 2017;</ref><ref target="#b22" type="bibr">Hartig, 2022)</ref> in R versions 3.6 and 4.1.2</s><s>(R Core Team, 2021).</s><s>We used the DHARMa functions testResiduals and testQuantiles to eliminate any models that violated dispersion or homoscedasticity assumptions, and then used backward stepwise selection to find the best model for each response (lowest corrected Akaike information criterion [AIC c ]). Marginal mean effects of peak water temperature and fish presence were calculated for each model using the emmeans package in R (Lenth, 2022) (Figure <ref type="figure">2</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Ordination<p><s>To determine whether emerging insect communities differed between lakes, we performed nonmetric multidimensional scaling (NMDS) using the vegan package in R <ref target="#b48" type="bibr">(Oksanen et al., 2022)</ref>.</s><s>We pooled samples by year from each lake and plotted rarefaction curves in order to ensure that each lake-year combination had been adequately sampled (Appendix S5).</s><s>We standardized the insect counts across taxa from each pooled community using Wisconsin and square root transformations to reduce the influence of outlying taxa.</s><s>We then calculated the Bray-Curtis distances between the 12 standardized lake communities and input the resulting distance matrix into the metaMDS function with autotransform turned off to create NMDS plots.</s><s>We also ran a permutational multivariate analysis of variance (PERMANOVA) using the adonis function <ref target="#b0" type="bibr">(Anderson, 2017;</ref><ref target="#b48" type="bibr">Oksanen et al., 2022)</ref> on the same distance matrix using fish status, peak lake temperature, and their interaction as predictors in order to determine whether any of those environmental variables were significant drivers of differences in community composition.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">RESULTS</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Specimen collections<p><s>In total, we collected 11,427 individual insects from 335 traps (221 traps in 2019, and 110 traps in 2021) over 50 separate lake-nights (34 in 2019 and 16 in 2021, Figure <ref type="figure">1D</ref>).</s><s>Some traps failed during deployment and were therefore excluded from the analysis.</s><s>The vast majority (96.6%) of insects collected from emergence traps were Diptera (flies), while 0.8% were Trichoptera (caddisflies) and Ephemeroptera (mayflies).</s><s>Within Diptera, 85% of total insects collected belonged to the Chironomidae, with 40% of traps capturing only Chironomidae.</s><s>Other Diptera families collected included Culicidae, Tipulidae, and Simuliidae.</s><s>We omitted fully terrestrial specimens (2.6% of collections) such as Coleoptera (flower beetles and weevils), Arachnidae (spiders), and Hemiptera (true bugs, mostly leafhoppers) from our statistical analyses.</s><s>Odonata (dragonflies and damselflies) were not captured and are generally absent from the Sierra above 3000 m <ref target="#b51" type="bibr">(Piovia-Scott et al., 2016)</ref>.</s></p><p><s>At each lake, emergence was low shortly after ice-off and at the end of the summer and peaked between 25 and 40 days after ice-off in both years (Appendix S1: Figure <ref type="figure">S1</ref>).</s><s>The total number of insects captured in each trap varied widely, from 0 to over 1500, with a median of 7 (Figure <ref type="figure">2D</ref>).</s><s>Maximum mean daily water temperature ranged from 14.1 to 17.7 C across lakes and years (Figure <ref type="figure">1D</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Abundance, biomass, and body size across lakes<p><s>Across all temperatures, presence of an introduced predator (trout) was associated with 65% lower rates of emerging biomass (Table <ref type="table">1</ref>, Figure <ref type="figure">2A</ref>).</s><s>From the coolest lakes to the warmest lakes, we observed a 71% lower daily emerging biomass of insects that coincided with the 3.6 C increase in annual peak water temperature (Table <ref type="table">1</ref>, Figure <ref type="figure">2A</ref>), contrary to our hypothesis.</s><s>The interactive effect of temperature and predator presence on rates of emerging biomass approached significance (p = 0.069, Table <ref type="table">1</ref>), suggesting that predator presence mattered more for insect biomass in cold lakes.</s></p><p><s>Predator presence and peak water temperature were each also negatively associated with daily numerical abundance of emerging insects (Figure <ref type="figure">2B</ref>).</s><s>The lower abundances associated with higher temperatures were attributable to reduced numbers of emerging Diptera.</s><s>There was a strong interactive effect of temperature and predator presence on the numerical abundance of emerging insects and of Diptera in particular (Figure <ref type="figure">2D</ref>, Table <ref type="table">1</ref>).</s><s>While predators always reduced the abundance of emerging Diptera, this effect size was larger in cold lakes than in warmer lakes (Figure <ref type="figure">2B</ref>, Table <ref type="table">1</ref>).</s><s>Because the largest effect size occurred in the lakes with lowest trout densities and biomass, the interaction between trout presence and temperature would likely have been even more pronounced if calculated for equivalent biomasses of fish.</s></p><p><s>Predator presence was associated with reduced body size among Ephemeroptera and Trichoptera, but had no significant effect on the mean body size of Diptera.</s><s>Peak water temperature was positively associated with larger individual body size for all measured insect groups (Table <ref type="table">1</ref>, Figure <ref type="figure">2B,</ref><ref type="figure">C</ref>).</s><s>There were no interactive effects of temperature and predator presence on body size for any taxa.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Species composition across lakes<p><s>NMDS analysis followed by PERMANOVA revealed that predator presence and peak water temperature, but not T A B L E 1 Coefficients (β) and their significances (p values from t tests) for the best fit models of each response, selected from appropriately specified options based on smallest corrected Akaike information criterion (AIC c ) (Equation <ref target="#formula_0" type="formula">1</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Modeled response variable<p><s>Transf Note: ΔAIC c column shows the change in AIC c that resulted from adding the interaction between fish status and peak annual temperature to the model.</s><s>Each response was transformed to obtain normal residuals and was predicted using a generalized linear mixed model with Gaussian error structure, except for abundance (counts), which were not transformed and were fit with zero-inflated truncated negative binomial family structure to account for zero-deflation and overdispersion.</s><s>"Transf.</s><s>used" column indicates which transformation was used for each response.</s><s>All models included a random effect of sampling date within sampling year (Equation <ref target="#formula_0" type="formula">1</ref>).</s><s>EPT stands for Ephemeroptera, Plecoptera, and Trichoptera (large-bodied, sensitive invertebrate taxa).</s></p><p><s>a Fish was not a significant predictor of Diptera body size, but had to be kept in the model to obtain appropriately distributed residuals.</s></p><p><s>their interaction, were significant correlates of emerging insect community composition (Figure <ref type="figure">3</ref>).</s><s>NMDS with two dimensions was sufficient to represent the variation in communities (stress = 0.088).</s><s>Lakes without fish tended to have fewer Simuliidae, but more Ephemeroptera.</s><s>While Ephemeroptera and Trichoptera accounted only for 0.95% of individuals in traps from lakes without fish, they accounted for 52.6% of biomass in those traps due to their larger body sizes.</s><s>Warmer lakes had more Culicidae than cooler lakes.</s><s>Cooler lakes had more medium-sized Chironomidae and more of the smallest size class of Diptera (≤1.5 mm length, various taxa).</s><s>Other taxa also differed along the axis of temperature, but not significantly (Figure <ref type="figure">3</ref>).</s><s>Large Chironomidae were a small proportion of the insect community, but were more important in warmer lakes.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">DISCUSSION<p><s>We found that emerging insect communities in warmer lakes had lower abundances, larger bodied Diptera, and less responsiveness to predator presence than those in cooler lakes.</s><s>This was likely due to metabolic limits on predator behavior, as trout forage less effectively in warmer waters.</s><s>Additionally, data from regional surveys showed that warmer lakes had larger populations of small grazers such as rotifers and copepods (Appendix S2).</s><s>These taxa could have competed with the smaller Diptera taxa and caused the observed shift in the insect community toward larger bodied individuals.</s><s>While our findings contradicted some of our initial hypotheses, they link together results from previous studies and provide insight into the potential responses of oligotrophic lakes to global change.</s></p><p><s>The presence of introduced predators (fish) was associated with a mean 65% reduction in emerging insect biomass across temperatures (Figure <ref type="figure">2A</ref>).</s><s>Such observed decreases align with other studies that have documented similar decreases in emergence associated with introduced trout taxa <ref target="#b16" type="bibr">(Epanchin et al., 2010;</ref><ref target="#b30" type="bibr">Knapp et al., 2001;</ref><ref target="#b54" type="bibr">Pope et al., 2009)</ref>.</s><s>We additionally found that the effect of predators varied with lake temperature, with the effect of fish on the numerically dominant group, Diptera, weaker in warm lakes than in cold (Table <ref type="table">1</ref>).</s></p><p><s>F I G U R E 3 Nonmetric multidimensional scaling (NMDS) plot showing the community composition of insects emerging from each lake in 2019 and 2021.</s><s>NMDS stress = 0.088 over two axes.</s><s>Ellipses represent the 95% CI for sites with fish (solid line) and without fish (dotted line).</s><s>Taxa labeled in plot were all significant drivers of community variation at a significance level of 0.05.</s><s>NMDS was performed on a Bray-Curtis distance matrix of standardized community counts.</s><s>Peak temperature and fish status were both significant drivers of differences in community composition based on a permutational multivariate analysis of variance, while year was not.</s></p><p><s>While the brook trout species in the coldest lake may be more effective predators than the rainbow trout in the warmer lakes, the interaction term between temperature and fish presence remained important when models were fit without the coldest pair.</s><s>The brook trout-containing lake also had greater overall abundances of emerging insects than the warmer rainbow trout-containing lakes, further suggesting that predation differences between trout taxa were unlikely to drive our results.</s></p><p><s>The 3.6 C gradient in peak lake temperature across this study was associated with a reduction in total emerging insect biomass of 71% at warmer temperatures (Figure <ref type="figure">2A</ref>, Table <ref type="table">1</ref>).</s><s>While less well studied than predation effects, the relation of temperature to emerging insect abundance has proved to be divergent with work suggesting both decreases <ref target="#b24" type="bibr">(Hogg &amp; Williams, 1996)</ref> and increases <ref target="#b19" type="bibr">(Greig et al., 2012)</ref> in insect emergence from mesocosms warmed by 2-3.5 C above ambient temperatures.</s><s>Although temperature effects could have been related to minor differences in the availability of shallow littoral habitat, we find this unlikely as previous work has shown that lake mean depth does not alter the impact of trout predation on chironomid taxa <ref target="#b66" type="bibr">(Weidman et al., 2011)</ref> and our PCA found no significant association of temperature with lake depth (Appendix S1: Figure <ref type="figure">S2</ref>).</s><s>Cumulatively, these results show that the temperature gradient observed in our study-well within projections for future warming of freshwater systems worldwide <ref target="#b49" type="bibr">(O'Reilly et al., 2015)</ref>-is biologically relevant to freshwater invertebrates.</s><s>Alpine lakes are therefore highly vulnerable to the effects of warming despite their remote nature and physical protection.</s></p><p><s>The reduction in emerging biomass that accompanied warmer temperatures in our study lakes was attributable to a lower abundance of emerging insects (Figure <ref type="figure">2D</ref>), which outbalanced the simultaneous increase in mean individual body size across all measured groups (Figure <ref type="figure">2B,</ref><ref type="figure">C</ref>).</s><s>A significant negative effect of temperature on abundance of emerging Diptera, the most numerically abundant group, supports this conclusion.</s><s>This biomass reduction, likely driven by increased competition and changes in predator behavior, is consistent with patterns of biomass loss from other aquatic and marine systems <ref target="#b8" type="bibr">(Bowler et al., 2017)</ref>.</s><s>For example, ensemble projections from six models predicted a 5% drop in total animal biomass in global oceans for each degree Celsius of future warming <ref target="#b39" type="bibr">(Lotze et al., 2019)</ref>.</s><s>Specific to emerging insects, experimental stream and pond warming studies have found a significant reduction in the abundance of Chironomidae at 2-3.5 C above ambient temperatures <ref target="#b24" type="bibr">(Hogg &amp; Williams, 1996;</ref><ref target="#b26" type="bibr">Jonsson et al., 2015)</ref>.</s><s>If common emerging insect taxa are likely to decrease in abundance under moderate warming, then many near-term global change scenarios will lead to significant reductions in emergence-even in the absence of local stressors such as predator introduction.</s></p><p><s>We also found consistent interactive effects between temperature and predator presence on total biomass, driven by Diptera abundance: predator presence had less of an effect on biomass and on Diptera abundance in warmer lakes (Table <ref type="table">1</ref>).</s><s>This result differs from conclusions of a mesocosm study where the temperature of stocked cattle tanks was manipulated <ref target="#b19" type="bibr">(Greig et al., 2012)</ref>.</s><s>In that study, both emerging insect biomass and the negative effect of predators increased with warming.</s><s>The discrepancy between these findings and ours suggests that perhaps in the mesocosm study, increased individual body size with temperature was not balanced by a reduction in emerging insect abundance as it was in actual lakes.</s><s>Lower abundance of insects emerging from the warmer lakes in this study must therefore have been driven by trophic-or organismal-level mechanisms that differ along a temperature gradient, not solely by the abiotic mechanisms that are the most obvious results of warming.</s><s>We find the most likely explanation to be changes in predator behavior, which we explore along with alternatives below.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Behavioral and metabolic explanations<p><s>The most likely explanations for our otherwise unexpected findings are behavioral changes that separate predators spatially from their invertebrate prey.</s><s>Data from Castle Lake in California, a mesotrophic alpine lake with similar fish and invertebrate communities, show that warm temperatures (above ~15 C) can prevent fish from foraging as much in the littoral benthic zone, as the warmer water there is less metabolically favorable for them <ref target="#b11" type="bibr">(Caldwell et al., 2020)</ref>.</s><s>That study showed that in warmer years, fish relied more on planktonic food sources and less on benthic invertebrates-despite little or no change in the population abundances of those prey from the colder years when they were highly important to fish populations.</s></p><p><s>Such a behavioral shift among introduced trout could contribute to the findings from this study that predation exerted a greater negative impact on emerging Diptera in cooler than in warmer lakes.</s><s>It may also suggest why predation effects on Trichoptera and Ephemeroptera were constant across temperatures because these larger, more rewarding prey items might have led predators to forage in the littoral zone despite the less favorable higher temperatures.</s><s>Our data therefore suggest that understanding systemic responses to global change requires considering behavioral responses as well as trophic and physical ones.</s></p><p><s>Another organismal-level explanation, metabolic requirements of predators or prey that scale differently with temperature, was less likely to explain the interaction effects we found.</s><s>For ectothermic predators such as trout, warmer temperatures lead to higher baseline metabolic rates and therefore higher caloric needs <ref target="#b10" type="bibr">(Brown et al., 2004;</ref><ref target="#b15" type="bibr">Durhack et al., 2021)</ref>.</s><s>When invertebrate metabolic rates increase under warmer conditions, the individuals may sometimes mature faster or grow larger <ref target="#b18" type="bibr">(Gregory et al., 2000)</ref>, or conversely, reach reproductive maturity at a smaller size <ref target="#b35" type="bibr">(Larsen et al., 2016;</ref><ref target="#b37" type="bibr">Li et al., 2011)</ref>.</s><s>This increase in predator metabolic and foraging rates with warmer temperatures, not necessarily matched by an increase in available larval prey, would predict a strong interactive effect such that introduced predator effects were more important in warmer lakes <ref target="#b21" type="bibr">(Hammock &amp; Johnson, 2014)</ref>.</s><s>However, contrary to this expectation, the negative effect of introduced predators was weaker in warmer lakes than in colder lakes.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Abiotic mechanisms<p><s>While previous studies have suggested potential abiotic mechanisms for a reduction in emerging abundance with warmer temperatures, we were largely able to rule out these factors and demonstrate little evidence for abiotic mechanisms.</s><s>Specifically, factors such as hypoxia and changes in nutrient status, which can be directly related to water temperatures and stratification, and can determine the suitability of habitat for various insect taxa <ref target="#b24" type="bibr">(Hogg &amp; Williams, 1996)</ref>, did not contribute to the results of this study.</s><s>All six sites had similar low nutrient status, clear water column (Secchi depth at or near the benthos), and dissolved oxygen near or above saturation throughout daylight hours throughout the summer (Appendix S3), so variation in these parameters is unlikely to explain the patterns observed.</s><s>In addition, a PCA of abiotic lake variables showed no significant portion of variance correlated to the presence of fish (Appendix S1: Figure <ref type="figure">S2</ref>).</s></p><p><s>Other field surveys conducted over large elevation gradients suggest that warmer (lower) lakes tend to have more habitat structure (largely terrestrial detritus) or more extensive shallow areas, meaning that more refugia are available for prey taxa to avoid predation <ref target="#b30" type="bibr">(Knapp et al., 2001;</ref><ref target="#b51" type="bibr">Piovia-Scott et al., 2016)</ref>.</s><s>However, no major differences in substrata, area of shallows, or structure were observed between the six lakes in this study (Appendix S4).</s><s>Furthermore, if habitat structure were a major factor, then it should have also led to differences in non-Dipteran abundance across the temperature range, as those larger bodied insects are more vulnerable to predation.</s><s>No such trend was observed in this study.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Trophic mechanisms<p><s>Indirect explanations for reduced emergence in warmer lakes include temperature-driven changes to interspecific dynamics such as predation and competition.</s><s>We found no evidence of support for increased predation, but some evidence for increased competition, in warmer lakes.</s><s>To rule out the hypothesis that predator compensation-that is, nontrout predators that would also exert top-down control on insect populations-reduced overall insect abundance as well as the relative effect of fish presence, we used data from the Sierra Lakes Inventory Project dataset <ref target="#b31" type="bibr">(Knapp et al., 2020)</ref>, discussed in Appendix S2.</s><s>This analysis revealed that most amphibian predators of invertebrates should be less common in warmer lakes.</s><s>Therefore, predator compensation is not likely to explain our findings.</s></p><p><s>Our data provide limited support for the hypothesis that reduced abundance in warmer lakes could be due to within-lake competition between Diptera larvae and other grazers.</s><s>Some zooplankton grazers, such as rotifers and copepods, are more common at lakes lower within this elevation range (Appendix S2: Figure <ref type="figure">S1</ref>) while benthic algae and detritus had no significant variation with lake temperature in our study (Appendix S4).</s><s>This could mean that less food is available to Diptera larvae, reducing the overall survival and emergence probability of subsidy vectors.</s><s>However, this explanation is not well supported by the body size data collected.</s><s>Starvation should have led to reduced individual body sizes as well as abundance.</s><s>Instead, warmer lakes contained Diptera with larger average bodies (Figure <ref type="figure">2B</ref>).</s><s>Because Diptera were not identified to species, whether the changes in body size were due to a compositional shift or to a change in adult body size within each species is not knowable within the scope of this project.</s><s>However, the shift in mean body size observed across temperatures (from &lt;1 to 8 mm) would be improbable within species, indicating that we may have captured a shift in species prevalence.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">CONCLUSIONS<p><s>We found that an additional 3.6 C of water temperature in oligotrophic alpine lakes was associated with a significant reduction in insect emergence, an increase in Diptera body size, and a reduced impact of predator presence on insect emergence.</s><s>Our results suggest that these effects are more likely to stem from changes in predator behavior and habitat use than from metabolic, abiotic, or trophic mechanisms.</s></p><p><s>Studies of interacting stressors need to account for behavioral and spatial effects that may be challenging to recreate in mesocosms.</s><s>Additionally, insect population size structure is known to affect subsidy transfer from lake and stream systems <ref target="#b26" type="bibr">(Jonsson et al., 2015;</ref><ref target="#b42" type="bibr">McKie et al., 2018;</ref><ref target="#b62" type="bibr">Stenroth et al., 2015)</ref>.</s><s>Given the importance of insect subsidies and the relevance of their size structure, further work is needed to understand the effects of temperature on insect population size structure across systems.</s><s>To provide the greatest benefit to emerging insects and the linked systems that rely on them, these results suggest eradication of introduced trout should be prioritized in habitats that will remain relatively cool under future climate scenarios.</s><s>More generally, protection of climate refugia should to whatever extent possible account for resistance to multiple types and scales of change.</s></p><p><s>While our findings are specific to oligotrophic alpine lakes, our conclusions also have global and forward-looking relevance.</s><s>This study contributes to a detailed body of knowledge on interacting stressors and extends our understanding of impacts to ecosystems that serve as sentinels of global change.</s><s>Furthermore, we expect that with increasing variability in snowpack forecasted, Sierra lakes will experience more warm years in the future-as will freshwater systems worldwide, whose temperatures are rising as much as two times faster than air temperatures <ref target="#b49" type="bibr">(O'Reilly et al., 2015)</ref>.</s><s>This work adds to our understanding that protecting threatened populations, such as insect populations that are experiencing declines worldwide, will require the simultaneous management of both local-and global-scale stressors as well as consideration of behavioral patterns.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">F<label></label><figdesc><div><p><s>I G U R E 2 Effects plots for models based on data from individual traps (n = 311).</s><s>Lines represent the influence of peak water temperature (x-axes), introduced predator presence (color + line type), and their interaction on various metrics of emergence from six lakes across two years.</s><s>Points represent mean data values for each year and lake.</s><s>(A) Temperature and predator introduction both decrease the overall biomass of subsidies from these lakes.</s><s>(B, C) Temperature increases the mean body size of emerging insects, while predator introduction decreases mean body size only among Ephemeroptera (Ephem.)</s><s>and Trichoptera (Trich.).</s><s>(D) Temperature and predator introduction both decrease the abundance of emerging Diptera, and their interaction moderates this effect.</s></p></div></figdesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="8,46.60,45.98,502.28,290.55" type="bitmap"></graphic></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>21508925, 2023, 7, Downloaded from https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.4619 by Readcube (Labtiva Inc.), Wiley Online Library on [21/07/2023].</s><s>See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions)</s><s>on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</s></p></note>
+<note n="4" place="foot" xml:id="foot_1" xmlns="http://www.tei-c.org/ns/1.0"><p><s>of 14 OWENS ET AL. 21508925, 2023, 7, Downloaded from https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.4619 by Readcube (Labtiva Inc.), Wiley Online Library on [21/07/2023].</s><s>See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions)</s><s>on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</s></p></note>
+<note n="6" place="foot" xml:id="foot_2" xmlns="http://www.tei-c.org/ns/1.0"><p><s>of 14</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">ACKNOWLEDGMENTS<p><s>Fieldwork for this study was conducted on unceded homelands of the Mono and Northern Paiute people, under permits from California Dept. of Fish and Wildlife (SC-12998) and Sierra National Forest (HSD1333).</s><s>Many scientists contributed to the collection of field data for this manuscript, including Anne Bilse, Kathryn Culhane, Jagger Joyner, Tiger Lao, Thomas Lenihan, Michael Maniscalco, Yadi Galindo Salazar, Chelsea Steel, Asher Thompson, Charlie Thrift, Donica Washington, and Wilma Wei.</s><s>Nuzha Baksh, Madeleine Pacheco, and Emily Wapman assisted with sample processing.</s><s>The manuscript was greatly improved thanks to the attention and edits of John Melack, Tom Smith, and Jennifer King.</s></p></div>
+</div>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>DATA AVAILABILITY STATEMENT Data and novel code <ref target="#b50" type="bibr">(Owens et al., 2023)</ref> are available from Dryad: https://doi.org/10.25349/D9QW5X.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">CONFLICT OF INTEREST STATEMENT<p><s>The authors declare no conflicts of interest.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">SUPPORTING INFORMATION<p><s>Additional supporting information can be found online in the Supporting Information section at the end of this article.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Permutational Multivariate Analysis of Variance (PERMANOVA)</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Anderson</surname></persname>
+</author>
+<idno type="DOI">10.1002/9781118445112.stat07841</idno>
+<ptr target="https://doi.org/10.1002/9781118445112.stat07841"></ptr>
+</analytic>
+<monogr>
+<title level="s">Wiley StatsRef: Statistics Reference Online</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<biblscope unit="issue">15</biblscope>
+<date type="published" when="2017">2017</date>
+<publisher>John Wiley &amp; Sons, Ltd</publisher>
+<pubplace>New York</pubplace>
+</imprint>
+</monogr>
+<note type="raw_reference">Anderson, M. J. 2017. "Permutational Multivariate Analysis of Variance (PERMANOVA)." In Wiley StatsRef: Statistics Reference Online 1-15. New York: John Wiley &amp; Sons, Ltd. https://doi.org/10.1002/9781118445112.stat07841.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">Response by Trout Populations in Alpine Lakes to an Experimental Halt to Stocking</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">W</forename><surname>Armstrong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Knapp</surname></persname>
+</author>
+<idno type="DOI">10.1139/f04-144</idno>
+<ptr target="https://doi.org/10.1139/f04-144"></ptr>
+</analytic>
+<monogr>
+<title level="j">Canadian Journal of Fisheries and Aquatic Sciences</title>
+<imprint>
+<biblscope unit="volume">61</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope from="2025" to="2037" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Armstrong, T. W., and R. A. Knapp. 2004. "Response by Trout Populations in Alpine Lakes to an Experimental Halt to Stocking." Canadian Journal of Fisheries and Aquatic Sciences 61(11): 2025-37. https://doi.org/10.1139/f04-144.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">The Biomass Distribution on Earth</title>
+<author>
+<persname><forename type="first">Y</forename><forename type="middle">M</forename><surname>Bar-On</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Phillips</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Milo</surname></persname>
+</author>
+<idno type="DOI">10.1073/pnas.1711842115</idno>
+<ptr target="https://doi.org/10.1073/pnas.1711842115"></ptr>
+</analytic>
+<monogr>
+<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+<imprint>
+<biblscope unit="volume">115</biblscope>
+<biblscope unit="issue">25</biblscope>
+<biblscope from="6506" to="6511" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bar-On, Y. M., R. Phillips, and R. Milo. 2018. "The Biomass Distribution on Earth." Proceedings of the National Academy of Sciences of the United States of America 115(25): 6506-11. https://doi.org/10.1073/pnas.1711842115.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">MuMIn: Multi-Model Inference</title>
+<author>
+<persname><forename type="first">K</forename><surname>Barton</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=MuMIn"></ptr>
+</analytic>
+<monogr>
+<title level="m">R</title>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Barton, K. 2020. "MuMIn: Multi-Model Inference." R. https:// CRAN.R-project.org/package=MuMIn.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Fish Invasion Restructures Stream and Forest Food Webs by Interrupting Reciprocal Prey Subsidies</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">V</forename><surname>Baxter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">D</forename><surname>Fausch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Murakami</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">L</forename><surname>Chapman</surname></persname>
+</author>
+<idno type="DOI">10.1890/04-138</idno>
+<ptr target="https://doi.org/10.1890/04-138"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">85</biblscope>
+<biblscope unit="issue">10</biblscope>
+<biblscope from="2656" to="2663" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Baxter, C. V., K. D. Fausch, M. Murakami, and P. L. Chapman. 2004. "Fish Invasion Restructures Stream and Forest Food Webs by Interrupting Reciprocal Prey Subsidies." Ecology 85(10): 2656-63. https://doi.org/10.1890/04-138.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">A Key to Common Adult Insect Taxa</title>
+<author>
+<persname><forename type="first">R</forename><surname>Behm</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Seltmann</surname></persname>
+</author>
+<ptr target="https://escholarship.org/uc/item/7b91g0mz"></ptr>
+</analytic>
+<monogr>
+<title level="m">Santa Barbara, CA: Cheadle Center for Biodiversity and Ecological Restoration</title>
+<imprint>
+<publisher>UC Santa Barbara</publisher>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Behm, R., and K. Seltmann. 2019. A Key to Common Adult Insect Taxa. Santa Barbara, CA: Cheadle Center for Biodiversity and Ecological Restoration, UC Santa Barbara. https:// escholarship.org/uc/item/7b91g0mz.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Climate Drivers of Adult Insect Activity Are Conditioned by Life History Traits</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">W</forename><surname>Belitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Barve</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Doby</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">M</forename><surname>Hantak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Larsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Oswald</surname></persname>
+</author>
+<idno type="DOI">10.1111/ele.13889</idno>
+<ptr target="https://doi.org/10.1111/ele.13889"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ecology Letters</title>
+<imprint>
+<biblscope unit="volume">24</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope from="2687" to="2699" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Belitz, M. W., V. Barve, J. R. Doby, M. M. Hantak, E. A. Larsen, D. Li, J. A. Oswald, et al. 2021. "Climate Drivers of Adult Insect Activity Are Conditioned by Life History Traits." Ecology Letters 24(12): 2687-99. https://doi.org/10.1111/ele.13889.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Nitrogen Deposition and Warming -Effects on Phytoplankton Nutrient Limitation in Subarctic Lakes</title>
+<author>
+<persname><forename type="first">A.-K</forename><surname>Bergström</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Faithfull</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Karlsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Karlsson</surname></persname>
+</author>
+<idno type="DOI">10.1111/gcb.12234</idno>
+<ptr target="https://doi.org/10.1111/gcb.12234"></ptr>
+</analytic>
+<monogr>
+<title level="j">Global Change Biology</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope from="2557" to="2568" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bergström, A.-K., C. Faithfull, D. Karlsson, and J. Karlsson. 2013. "Nitrogen Deposition and Warming -Effects on Phytoplankton Nutrient Limitation in Subarctic Lakes." Global Change Biology 19(8): 2557-68. https://doi.org/10.1111/ gcb.12234.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Cross-Taxa Generalities in the Relationship between Population Abundance and Ambient Temperatures</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">E</forename><surname>Bowler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Haase</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Hof</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Kröncke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Baert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Dekoninck</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Domisch</surname></persname>
+</author>
+<idno type="DOI">10.1098/rspb.2017.0870</idno>
+<ptr target="https://doi.org/10.1098/rspb.2017.0870"></ptr>
+</analytic>
+<monogr>
+<title level="j">Proceedings of the Royal Society B: Biological Sciences</title>
+<imprint>
+<biblscope unit="volume">284</biblscope>
+<biblscope unit="page">20170870</biblscope>
+<date type="published" when="1863">2017. 1863</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bowler, D. E., P. Haase, C. Hof, I. Kröncke, L. Baert, W. Dekoninck, S. Domisch, et al. 2017. "Cross-Taxa Generalities in the Relationship between Population Abundance and Ambient Temperatures." Proceedings of the Royal Society B: Biological Sciences 284(1863): 20170870. https://doi.org/10.1098/rspb.2017.0870.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">glmmTMB Balances Speed and Flexibility among Packages for Zero-Inflated Generalized Linear Mixed Modeling</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">E</forename><surname>Brooks</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Kristensen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Van Benthem</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Magnusson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">W</forename><surname>Berg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Nielsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">J</forename><surname>Skaug</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Maechler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">M</forename><surname>Bolker</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">The R Journal</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="378" to="400" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brooks, M. E., K. Kristensen, K. J. van Benthem, A. Magnusson, C. W. Berg, A. Nielsen, H. J. Skaug, M. Maechler, and B. M. Bolker. 2017. "glmmTMB Balances Speed and Flexibility among Packages for Zero-Inflated Generalized Linear Mixed Modeling." The R Journal 9(2): 378-400.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Toward a Metabolic Theory of Ecology</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">H</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">F</forename><surname>Gillooly</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">P</forename><surname>Allen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">M</forename><surname>Savage</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">B</forename><surname>West</surname></persname>
+</author>
+<idno type="DOI">10.1890/03-9000</idno>
+<ptr target="https://doi.org/10.1890/03-9000"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">85</biblscope>
+<biblscope unit="issue">7</biblscope>
+<biblscope from="1771" to="1789" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brown, J. H., J. F. Gillooly, A. P. Allen, V. M. Savage, and G. B. West. 2004. "Toward a Metabolic Theory of Ecology." Ecology 85(7): 1771-89. https://doi.org/10.1890/03-9000.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Ecosystem Response to Earlier Ice Break-Up Date: Climate-Driven Changes to Water Temperature, Lake-Habitat-Specific Production, and Trout Habitat and Resource Use</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Caldwell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Chandra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Feher</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Simmons</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Hogan</surname></persname>
+</author>
+<idno type="DOI">10.1111/gcb.15258</idno>
+<ptr target="https://doi.org/10.1111/gcb.15258"></ptr>
+</analytic>
+<monogr>
+<title level="j">Global Change Biology</title>
+<imprint>
+<biblscope unit="volume">26</biblscope>
+<biblscope unit="issue">10</biblscope>
+<biblscope from="5475" to="5491" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Caldwell, T. J., S. Chandra, K. Feher, J. B. Simmons, and Z. Hogan. 2020. "Ecosystem Response to Earlier Ice Break-Up Date: Climate-Driven Changes to Water Temperature, Lake-Habitat-Specific Production, and Trout Habitat and Resource Use." Global Change Biology 26(10): 5475-91. https:// doi.org/10.1111/gcb.15258.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Ecological Impacts of Nonnative Freshwater Fishes</title>
+<author>
+<persname><forename type="first">J</forename><surname>Cucherousset</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Olden</surname></persname>
+</author>
+<idno type="DOI">10.1080/03632415.2011.574578</idno>
+<ptr target="https://doi.org/10.1080/03632415.2011.574578"></ptr>
+</analytic>
+<monogr>
+<title level="j">Fisheries</title>
+<imprint>
+<biblscope unit="volume">36</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="215" to="230" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cucherousset, J., and J. D. Olden. 2011. "Ecological Impacts of Nonnative Freshwater Fishes." Fisheries 36(5): 215-230. https://doi.org/10.1080/03632415.2011.574578.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Midge (Diptera: Chironomidae and Ceratopogonidae) Emergence Responses to Temperature: Experiments to Assess Midges' Capacity as Paleotemperature Indicators</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">R</forename><surname>Dickson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">R</forename><surname>Walker</surname></persname>
+</author>
+<idno type="DOI">10.1007/s10933-014-9814-2</idno>
+<ptr target="https://doi.org/10.1007/s10933-014-9814-2"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Paleolimnology</title>
+<imprint>
+<biblscope unit="volume">53</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="165" to="176" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dickson, T. R., and I. R. Walker. 2015. "Midge (Diptera: Chironomidae and Ceratopogonidae) Emergence Responses to Temperature: Experiments to Assess Midges' Capacity as Paleotemperature Indicators." Journal of Paleolimnology 53(2): 165-176. https://doi.org/10.1007/s10933-014-9814-2.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Quantifying Aquatic Insect Deposition from Lake to Land</title>
+<author>
+<persname><forename type="first">J</forename><surname>Dreyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Townsend</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">C</forename><surname>Hook</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Iii</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">V</forename><surname>David Hoekman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Zanden</surname></persname>
+</author>
+<author>
+<persname><surname>Gratton</surname></persname>
+</author>
+<idno type="DOI">10.1890/14-0704.1</idno>
+<ptr target="https://doi.org/10.1890/14-0704"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">96</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="499" to="509" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dreyer, J., P. A. Townsend, J. C. Hook, III, M. David Hoekman, J. V. Zanden, and C. Gratton. 2015. "Quantifying Aquatic Insect Deposition from Lake to Land." Ecology 96(2): 499-509. https://doi.org/10.1890/14-0704.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Life through a Wider Scope: Brook Trout (Salvelinus fontinalis) Exhibit Similar Aerobic Scope across a Broad Temperature Range</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">C</forename><surname>Durhack</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">J</forename><surname>Mochnacz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Macnaughton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">C</forename><surname>Enders</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Treberg</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jtherbio.2021.102929</idno>
+<ptr target="https://doi.org/10.1016/j.jtherbio.2021.102929"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Thermal Biology</title>
+<imprint>
+<biblscope unit="volume">99</biblscope>
+<biblscope unit="page">102929</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Durhack, T. C., N. J. Mochnacz, C. J. Macnaughton, E. C. Enders, and J. R. Treberg. 2021. "Life through a Wider Scope: Brook Trout (Salvelinus fontinalis) Exhibit Similar Aerobic Scope across a Broad Temperature Range." Journal of Thermal Biology 99: 102929. https://doi.org/10.1016/j.jtherbio.2021.102929.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Nonnative Trout Impact an Alpine-Nesting Bird by Altering Aquatic-Insect Subsidies</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">N</forename><surname>Epanchin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Knapp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">P</forename><surname>Lawler</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">91</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope unit="page">10</biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Epanchin, P. N., R. A. Knapp, and S. P. Lawler. 2010. "Nonnative Trout Impact an Alpine-Nesting Bird by Altering Aquatic-Insect Subsidies." Ecology 91(8): 10.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<monogr>
+<author>
+<persname><forename type="first">J</forename><surname>Erdman</surname></persname>
+</author>
+<ptr target="https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5410679.pdf"></ptr>
+<title level="m">Inland Deserts Region 6: State of California Natural Resources Agency Department of Fish and Game</title>
+<imprint>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note>Eastern Sierra Back Country Fishing Guide</note>
+<note type="raw_reference">Erdman, J. 2013. "Eastern Sierra Back Country Fishing Guide." Inland Deserts Region 6: State of California Natural Resources Agency Department of Fish and Game. https://www.fs.usda. gov/Internet/FSE_DOCUMENTS/stelprdb5410679.pdf.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Effect of Springtime Water Temperature on the Time of Emergence and Size of Pteronarcys californica in the Henry's Fork Catchment, Idaho, U.S.A</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Gregory</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">S</forename><surname>Beesley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">W</forename><surname>Van Kirk</surname></persname>
+</author>
+<idno type="DOI">10.1046/j.1365-2427.2000.00619.x</idno>
+<ptr target="https://doi.org/10.1046/j.1365-2427.2000.00619.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Freshwater Biology</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="75" to="83" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gregory, J. S., S. S. Beesley, and R. W. Van Kirk. 2000. "Effect of Springtime Water Temperature on the Time of Emergence and Size of Pteronarcys californica in the Henry's Fork Catchment, Idaho, U.S.A." Freshwater Biology 45(1): 75-83. https://doi.org/ 10.1046/j.1365-2427.2000.00619.x.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Warming, Eutrophication, and Predator Loss Amplify Subsidies between Aquatic and Terrestrial Ecosystems</title>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">S</forename><surname>Greig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Kratina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">L</forename><surname>Thompson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">J</forename><surname>Palen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Shurin</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-2486.2011.02540.x</idno>
+<ptr target="https://doi.org/10.1111/j.1365-2486.2011.02540.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Global Change Biology</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="504" to="514" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Greig, H. S., P. Kratina, P. L. Thompson, W. J. Palen, J. S. Richardson, and J. B. Shurin. 2012. "Warming, Eutrophication, and Predator Loss Amplify Subsidies between Aquatic and Terrestrial Ecosystems." Global Change Biology 18(2): 504-514. https://doi.org/10.1111/j.1365-2486.2011.02540.x.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Bat Foraging Response to Introduced Fish in the Sierra Nevada</title>
+<author>
+<persname><forename type="first">E</forename><surname>Gruenstein</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">S</forename><surname>Johnston</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Bros</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Western Wildlife</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope from="30" to="40" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gruenstein, E., D. S. Johnston, and S. M. Bros. 2021. "Bat Foraging Response to Introduced Fish in the Sierra Nevada." Western Wildlife 8: 30-40.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Trout Reverse the Effect of Water Temperature on the Foraging of a Mayfly</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">G</forename><surname>Hammock</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Johnson</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00442-014-2955-1</idno>
+<ptr target="https://doi.org/10.1007/s00442-014-2955-1"></ptr>
+</analytic>
+<monogr>
+<title level="j">Oecologia</title>
+<imprint>
+<biblscope unit="volume">175</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="997" to="1003" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hammock, B. G., and M. L. Johnson. 2014. "Trout Reverse the Effect of Water Temperature on the Foraging of a Mayfly." Oecologia 175(3): 997-1003. https://doi.org/10.1007/s00442- 014-2955-1.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<monogr>
+<author>
+<persname><forename type="first">F</forename><surname>Hartig</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=DHARMa"></ptr>
+<title level="m">DHARMa: Residual Diagnostics for Hierarchical (Multi-Level/Mixed) Regression Models</title>
+<editor>
+<persname><forename type="first">R</forename></persname>
+</editor>
+<imprint>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hartig, F. 2022. "DHARMa: Residual Diagnostics for Hierarchical (Multi-Level/Mixed) Regression Models." R. https://CRAN. R-project.org/package=DHARMa.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Lake to Land Subsidies: Experimental Addition of Aquatic Insects Increases Terrestrial Arthropod Densities</title>
+<author>
+<persname><forename type="first">D</forename><surname>Hoekman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Dreyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">D</forename><surname>Jackson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Townsend</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Gratton</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">92</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope from="2063" to="2072" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hoekman, D., J. Dreyer, R. D. Jackson, P. A. Townsend, and C. Gratton. 2011. "Lake to Land Subsidies: Experimental Addition of Aquatic Insects Increases Terrestrial Arthropod Densities." Ecology 92(11): 2063-72.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Response of Stream Invertebrates to a Global-Warming Thermal Regime: An Ecosystem-Level Manipulation</title>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">D</forename><surname>Hogg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">D</forename><surname>Williams</surname></persname>
+</author>
+<idno type="DOI">10.2307/2265617</idno>
+<ptr target="https://doi.org/10.2307/2265617"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ecology</title>
+<imprint>
+<biblscope unit="volume">77</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="395" to="407" unit="page"></biblscope>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hogg, I. D., and D. D. Williams. 1996. "Response of Stream Invertebrates to a Global-Warming Thermal Regime: An Ecosystem-Level Manipulation." Ecology 77(2): 395-407. https://doi.org/10.2307/2265617.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Net Effects of Multiple Stressors in Freshwater Ecosystems: A Meta-Analysis</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">C</forename><surname>Jackson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J G</forename><surname>Loewen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">D</forename><surname>Vinebrooke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">T</forename><surname>Chimimba</surname></persname>
+</author>
+<idno type="DOI">10.1111/gcb.13028</idno>
+<ptr target="https://doi.org/10.1111/gcb.13028"></ptr>
+</analytic>
+<monogr>
+<title level="j">Global Change Biology</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="180" to="189" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jackson, M. C., C. J. G. Loewen, R. D. Vinebrooke, and C. T. Chimimba. 2016. "Net Effects of Multiple Stressors in Freshwater Ecosystems: A Meta-Analysis." Global Change Biology 22(1): 180-89. https://doi.org/10.1111/gcb.13028.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Climate Change Modifies the Size Structure of Assemblages of Emerging Aquatic Insects</title>
+<author>
+<persname><forename type="first">M</forename><surname>Jonsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Hedström</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Stenroth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">R</forename><surname>Hotchkiss</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">R</forename><surname>Vasconcelos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Karlsson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Byström</surname></persname>
+</author>
+<idno type="DOI">10.1111/fwb.12468</idno>
+<ptr target="https://doi.org/10.1111/fwb.12468"></ptr>
+</analytic>
+<monogr>
+<title level="j">Freshwater Biology</title>
+<imprint>
+<biblscope unit="volume">60</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="78" to="88" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Jonsson, M., P. Hedström, K. Stenroth, E. R. Hotchkiss, F. R. Vasconcelos, J. Karlsson, and P. Byström. 2015. "Climate Change Modifies the Size Structure of Assemblages of Emerging Aquatic Insects." Freshwater Biology 60(1): 78-88. https://doi.org/10.1111/fwb.12468.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Non-Native Trout in Natural Lakes of the Sierra Nevada: An Analysis of Their Distribution and Impacts on Native Aquatic Biota</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Knapp</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">III. Assessments and Scientific Basis for Management Options</title>
+<meeting><address><addrline>Davis, CA</addrline></address></meeting>
+<imprint>
+<publisher>University of California, Centers for Water and Wildland Resources</publisher>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Knapp, R. A. 1996. "Non-Native Trout in Natural Lakes of the Sierra Nevada: An Analysis of Their Distribution and Impacts on Native Aquatic Biota." In III. Assessments and Scientific Basis for Management Options. Davis, CA: University of California, Centers for Water and Wildland Resources.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Fauna of Yosemite National Park Lakes Has Low Resistance but High Resilience to Fish Introductions</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Knapp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">P</forename><surname>Hawkins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Ladau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">G</forename><surname>Mcclory</surname></persname>
+</author>
+<idno type="DOI">10.1890/04-0619</idno>
+<ptr target="https://doi.org/10.1890/04-0619"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ecological Applications</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="835" to="847" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Knapp, R. A., C. P. Hawkins, J. Ladau, and J. G. McClory. 2005. "Fauna of Yosemite National Park Lakes Has Low Resistance but High Resilience to Fish Introductions." Ecological Applications 15(3): 835-847. https://doi.org/10.1890/04-0619.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Non-Native Fish Introductions and the Decline of the Mountain Yellow-Legged Frog from Within Protected Areas</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Knapp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Matthews</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Conservation Biology</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope from="428" to="438" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Knapp, R. A., and K. R. Matthews. 2000. "Non-Native Fish Introductions and the Decline of the Mountain Yellow-Legged Frog from Within Protected Areas." Conservation Biology 14: 428-438.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Resistance and Resilience of Alpine Lake Fauna to Fish Introductions</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Knapp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">R</forename><surname>Matthews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Sarnelle</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Ecological Monographs</title>
+<imprint>
+<biblscope unit="volume">71</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope unit="page">21</biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Knapp, R. A., K. R. Matthews, and O. Sarnelle. 2001. "Resistance and Resilience of Alpine Lake Fauna to Fish Introductions." Ecological Monographs 71(3): 21.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">The Sierra Lakes Inventory Project: Non-Native Fish and Community Composition of Lakes and Ponds in the Sierra Nevada, California</title>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Knapp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Pavelka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">E</forename><surname>Hegeman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">C</forename><surname>Smith</surname></persname>
+</author>
+<idno type="DOI">10.6073/PASTA/D835832D7FD00D9E4466E44EEA87FAB3</idno>
+<ptr target="https://doi.org/10.6073/PASTA/D835832D7FD00D9E4466E44EEA87FAB3"></ptr>
+</analytic>
+<monogr>
+<title level="s">Environmental Data Initiative</title>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Knapp, R. A., C. Pavelka, E. E. Hegeman, and T. C. Smith. 2020. "The Sierra Lakes Inventory Project: Non-Native Fish and Community Composition of Lakes and Ponds in the Sierra Nevada, California." Environmental Data Initiative. https://doi.org/10. 6073/PASTA/D835832D7FD00D9E4466E44EEA87FAB3.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Predatory Fish Invasion Induces within and across Ecosystem Effects in Yellowstone National Park</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">M</forename><surname>Koel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">M</forename><surname>Tronstad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Arnold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Gunther</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Syslo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>White</surname></persname>
+</author>
+<idno type="DOI">10.1126/sciadv.aav1139</idno>
+<ptr target="https://doi.org/10.1126/sciadv.aav1139"></ptr>
+</analytic>
+<monogr>
+<title level="j">Science Advances</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope unit="page">1139</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Koel, T. M., L. M. Tronstad, J. L. Arnold, K. A. Gunther, D. W. Smith, J. M. Syslo, and P. J. White. 2019. "Predatory Fish Invasion Induces within and across Ecosystem Effects in Yellowstone National Park." Science Advances 5(3): eaav1139. https://doi.org/10.1126/sciadv.aav1139.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Cross-Ecosystem Linkages: Transfer of Polyunsaturated Fatty Acids from Streams to Riparian Spiders via Emergent Insects</title>
+<author>
+<persname><forename type="first">C</forename><surname>Kowarik</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Martin-Creuzburg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">T</forename><surname>Robinson</surname></persname>
+</author>
+<idno type="DOI">10.3389/fevo.2021.707570</idno>
+<ptr target="https://doi.org/10.3389/fevo.2021.707570"></ptr>
+</analytic>
+<monogr>
+<title level="j">Frontiers in Ecology and Evolution</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="page">438</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kowarik, C., D. Martin-Creuzburg, and C. T. Robinson. 2021. "Cross-Ecosystem Linkages: Transfer of Polyunsaturated Fatty Acids from Streams to Riparian Spiders via Emergent Insects." Frontiers in Ecology and Evolution 9: 438. https://doi.org/10. 3389/fevo.2021.707570.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Global Patterns in Lake Ecosystem Responses to Warming Based on the Temperature Dependence of Metabolism</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">M</forename><surname>Kraemer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Chandra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">I</forename><surname>Dell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Dix</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Kuusisto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Livingstone</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">Geoffrey</forename><surname>Schladow</surname></persname>
+</author>
+<idno type="DOI">10.1111/gcb.13459</idno>
+<ptr target="https://doi.org/10.1111/gcb.13459"></ptr>
+</analytic>
+<monogr>
+<title level="j">Global Change Biology</title>
+<imprint>
+<biblscope unit="volume">23</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="1881" to="1890" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kraemer, B. M., S. Chandra, A. I. Dell, M. Dix, E. Kuusisto, D. M. Livingstone, S. Geoffrey Schladow, et al. 2017. "Global Patterns in Lake Ecosystem Responses to Warming Based on the Temperature Dependence of Metabolism." Global Change Biology 23(5): 1881-90. https://doi.org/10.1111/gcb.13459.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Resource Subsidies between Stream and Terrestrial Ecosystems under Global Change</title>
+<author>
+<persname><forename type="first">S</forename><surname>Larsen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Muehlbauer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Marti</surname></persname>
+</author>
+<idno type="DOI">10.1111/gcb.13182</idno>
+<ptr target="https://doi.org/10.1111/gcb.13182"></ptr>
+</analytic>
+<monogr>
+<title level="j">Global Change Biology</title>
+<imprint>
+<biblscope unit="volume">22</biblscope>
+<biblscope unit="issue">7</biblscope>
+<biblscope from="2489" to="2504" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Larsen, S., J. D. Muehlbauer, and E. Marti. 2016. "Resource Subsidies between Stream and Terrestrial Ecosystems under Global Change." Global Change Biology 22(7): 2489-2504. https://doi.org/10.1111/gcb.13182.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<monogr>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">V</forename><surname>Lenth</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=emmeans"></ptr>
+<title level="m">Emmeans: Estimated Marginal Means, Aka Least-Squares Means</title>
+<imprint>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lenth, R. V. 2022. "Emmeans: Estimated Marginal Means, Aka Least-Squares Means." R. https://CRAN.R-project.org/ package=emmeans.</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Three Responses to Small Changes in Stream Temperature by Autumn-Emerging Aquatic Insects</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Johnson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Sobota</surname></persname>
+</author>
+<idno type="DOI">10.1899/10-024.1</idno>
+<ptr target="https://doi.org/10.1899/10-024"></ptr>
+</analytic>
+<monogr>
+<title level="j">North American Benthological Society</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="474" to="484" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Li, J. L., S. L. Johnson, and J. B. Sobota. 2011. "Three Responses to Small Changes in Stream Temperature by Autumn-Emerging Aquatic Insects." North American Benthological Society 30(2): 474-484. https://doi.org/10.1899/10-024.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">The Life Aquatic in High Relief: Shifts in the Physical and Biological Characteristics of Alpine Lakes along an Elevation Gradient in the Rocky Mountains, USA</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Loria</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Mcknight</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Ragar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">T J</forename><surname>Johnson</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00027-019-0684-6</idno>
+<ptr target="https://doi.org/10.1007/s00027-019-0684-6"></ptr>
+</analytic>
+<monogr>
+<title level="j">Aquatic Sciences</title>
+<imprint>
+<biblscope unit="volume">82</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope unit="page">11</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Loria, K. A., D. McKnight, D. M. Ragar, and P. T. J. Johnson. 2020. "The Life Aquatic in High Relief: Shifts in the Physical and Biological Characteristics of Alpine Lakes along an Elevation Gradient in the Rocky Mountains, USA." Aquatic Sciences 82(1): 11. https://doi.org/10.1007/s00027-019-0684-6.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Global Ensemble Projections Reveal Trophic Amplification of Ocean Biomass Declines with Climate Change</title>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">K</forename><surname>Lotze</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">P</forename><surname>Tittensor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bryndum-Buchholz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">D</forename><surname>Eddy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">W L</forename><surname>Cheung</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">D</forename><surname>Galbraith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Barange</surname></persname>
+</author>
+<idno type="DOI">10.1073/pnas.1900194116</idno>
+<ptr target="https://doi.org/10.1073/pnas.1900194116"></ptr>
+</analytic>
+<monogr>
+<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+<imprint>
+<biblscope unit="volume">116</biblscope>
+<biblscope unit="issue">26</biblscope>
+<biblscope from="12907" to="12912" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lotze, H. K., D. P. Tittensor, A. Bryndum-Buchholz, T. D. Eddy, W. W. L. Cheung, E. D. Galbraith, M. Barange, et al. 2019. "Global Ensemble Projections Reveal Trophic Amplification of Ocean Biomass Declines with Climate Change." Proceedings of the National Academy of Sciences of the United States of America 116(26): 12907-12. https://doi.org/10.1073/pnas. 1900194116.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Invasive Trout Increase the Climatic Sensitivity of Zooplankton Communities in Naturally Fishless Lakes</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">M</forename><surname>Maclennan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dings-Avery</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">D</forename><surname>Vinebrooke</surname></persname>
+</author>
+<idno type="DOI">10.1111/fwb.12583</idno>
+<ptr target="https://doi.org/10.1111/fwb.12583"></ptr>
+</analytic>
+<monogr>
+<title level="j">Freshwater Biology</title>
+<imprint>
+<biblscope unit="volume">60</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope from="1502" to="1513" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">MacLennan, M. M., C. Dings-Avery, and R. D. Vinebrooke. 2015. "Invasive Trout Increase the Climatic Sensitivity of Zooplankton Communities in Naturally Fishless Lakes." Freshwater Biology 60(8): 1502-13. https://doi.org/10.1111/ fwb.12583.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Culture of Chironomus decorus (Diptera: Chironomidae) and the Effect of Temperature on Its Life History</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Maier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Kosalwat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">W</forename><surname>Knight</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Environmental Entomology</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="1681" to="1688" unit="page"></biblscope>
+<date type="published" when="1990">1990</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Maier, K. J., P. Kosalwat, and A. W. Knight. 1990. "Culture of Chironomus decorus (Diptera: Chironomidae) and the Effect of Temperature on Its Life History." Environmental Entomology 19(6): 1681-88.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Species Traits Reveal Effects of Land Use, Season and Habitat on the Potential Subsidy of Stream Invertebrates to Terrestrial Food Webs</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">G</forename><surname>Mckie</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Sandin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">E</forename><surname>Carlson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">K</forename><surname>Johnson</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00027-018-0565-4</idno>
+<ptr target="https://doi.org/10.1007/s00027-018-0565-4"></ptr>
+</analytic>
+<monogr>
+<title level="j">Aquatic Sciences</title>
+<imprint>
+<biblscope unit="volume">80</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope unit="page">15</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">McKie, B. G., L. Sandin, P. E. Carlson, and R. K. Johnson. 2018. "Species Traits Reveal Effects of Land Use, Season and Habitat on the Potential Subsidy of Stream Invertebrates to Terrestrial Food Webs." Aquatic Sciences 80(2): 15. https://doi.org/10. 1007/s00027-018-0565-4.</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">Climate Change Impact on the Hydrological Functioning of the Mountain Lakes: A Conceptual Framework</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Medina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Westbrook</surname></persname>
+</author>
+<idno type="DOI">10.5194/egusphere-egu21-998</idno>
+<ptr target="https://doi.org/10.5194/egusphere-egu21-998"></ptr>
+</analytic>
+<monogr>
+<title level="s">Copernicus Meetings</title>
+<imprint>
+<biblscope unit="volume">998</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Medina, D. A., and C. Westbrook. 2021. "Climate Change Impact on the Hydrological Functioning of the Mountain Lakes: A Conceptual Framework." Vol. 998. EGU21. Online: Copernicus Meetings. https://doi.org/10.5194/egusphere- egu21-998.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Mountain Lakes: Eyes on Global Environmental Change</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Moser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Baron</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Brahney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">A</forename><surname>Oleksy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Saros</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">J</forename><surname>Hundey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Sadro</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.gloplacha.2019.04.001</idno>
+<ptr target="https://doi.org/10.1016/j.gloplacha.2019.04.001"></ptr>
+</analytic>
+<monogr>
+<title level="j">Global and Planetary Change</title>
+<imprint>
+<biblscope unit="volume">178</biblscope>
+<biblscope from="77" to="95" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Moser, K. A., J. S. Baron, J. Brahney, I. A. Oleksy, J. E. Saros, E. J. Hundey, S. A. Sadro, et al. 2019. "Mountain Lakes: Eyes on Global Environmental Change." Global and Planetary Change 178: 77-95. https://doi.org/10.1016/ j.gloplacha.2019.04.001.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Reciprocal Subsidies: Dynamic Interdependence between Terrestrial and Aquatic Food Webs</title>
+<author>
+<persname><forename type="first">S</forename><surname>Nakano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Murakami</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+<imprint>
+<biblscope unit="volume">98</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="166" to="170" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nakano, S., and M. Murakami. 2001. "Reciprocal Subsidies: Dynamic Interdependence between Terrestrial and Aquatic Food Webs." Proceedings of the National Academy of Sciences of the United States of America 98(1): 166-170.</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Contrasting Responses of Black Fly Species (Diptera: Simuliidae) to Experimental Whole-Stream Warming</title>
+<author>
+<persname><forename type="first">D</forename><surname>Nelson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">P</forename><surname>Benstead</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Huryn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">F</forename><surname>Cross</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Hood</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">W</forename><surname>Johnson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Junker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">M</forename><surname>Gíslason</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Ólafsson</surname></persname>
+</author>
+<idno type="DOI">10.1111/fwb.13583</idno>
+<ptr target="https://doi.org/10.1111/fwb.13583"></ptr>
+</analytic>
+<monogr>
+<title level="j">Freshwater Biology</title>
+<imprint>
+<biblscope unit="volume">65</biblscope>
+<biblscope from="1793" to="1805" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Nelson, D., J. P. Benstead, A. D. Huryn, W. F. Cross, J. M. Hood, P. W. Johnson, J. R. Junker, G. M. Gíslason, and J. S. Ólafsson. 2020. "Contrasting Responses of Black Fly Species (Diptera: Simuliidae) to Experimental Whole-Stream Warming." Freshwater Biology 65: 1793-1805. https://doi.org/10.1111/fwb. 13583.</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">It's Only a Matter of Time: The Altered Role of Subsidies in a Warming World</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">J</forename><surname>O'gorman</surname></persname>
+</author>
+<idno type="DOI">10.1111/1365-2656.12560</idno>
+<ptr target="https://doi.org/10.1111/1365-2656.12560"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Animal Ecology</title>
+<imprint>
+<biblscope unit="volume">85</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="1133" to="1135" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">O'Gorman, E. J. 2016. "It's Only a Matter of Time: The Altered Role of Subsidies in a Warming World." Journal of Animal Ecology 85(5): 1133-35. https://doi.org/10.1111/1365-2656.12560.</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<monogr>
+<author>
+<persname><forename type="first">J</forename><surname>Oksanen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">L</forename><surname>Simpson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">Guillaume</forename><surname>Blanchet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kindt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Legendre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">R</forename><surname>Minchin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">B</forename><surname>O'hara</surname></persname>
+</author>
+<ptr target="https://CRAN.R-project.org/package=vegan"></ptr>
+<title level="m">Vegan: Community Ecology Package</title>
+<imprint>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Oksanen, J., G. L. Simpson, F. Guillaume Blanchet, R. Kindt, P. Legendre, P. R. Minchin, R. B. O'Hara, et al. 2022. "Vegan: Community Ecology Package." https://CRAN.R-project.org/ package=vegan.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Rapid and Highly Variable Warming of Lake Surface Waters around the Globe</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>O'reilly</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sharma</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">K</forename><surname>Gray</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">E</forename><surname>Hampton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Read</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Rowley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Schneider</surname></persname>
+</author>
+<idno type="DOI">10.1002/2015GL066235</idno>
+<ptr target="https://doi.org/10.1002/2015GL066235"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope unit="issue">24</biblscope>
+<biblscope from="10773" to="10781" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">O'Reilly, C. M., S. Sharma, D. K. Gray, S. E. Hampton, J. S. Read, R. J. Rowley, P. Schneider, et al. 2015. "Rapid and Highly Variable Warming of Lake Surface Waters around the Globe." Geophysical Research Letters 42(24): 10773-81. https://doi.org/ 10.1002/2015GL066235.</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">Data for: Interactions between Temperature and Predation Impact Insect Emergence in Alpine Lakes</title>
+<author>
+<persname><forename type="first">C</forename><surname>Owens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Grim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Schroeder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Young</surname></persname>
+</author>
+<idno type="DOI">10.25349/D9QW5X</idno>
+<ptr target="https://doi.org/10.25349/D9QW5X"></ptr>
+</analytic>
+<monogr>
+<title level="j">Dryad. Dataset</title>
+<imprint>
+<date type="published" when="2023">2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Owens, C., M. Lee, M. Grim, J. Schroeder, and H. Young. 2023. "Data for: Interactions between Temperature and Predation Impact Insect Emergence in Alpine Lakes." Dryad. Dataset. https://doi.org/10.25349/D9QW5X.</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">Variation in Reciprocal Subsidies between Lakes and Land: Perspectives from the Mountains of California</title>
+<author>
+<persname><forename type="first">J</forename><surname>Piovia-Scott</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Sadro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Knapp</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Sickman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">L</forename><surname>Pope</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Chandra</surname></persname>
+</author>
+<idno type="DOI">10.1139/cjfas-2015-0549</idno>
+<ptr target="https://doi.org/10.1139/cjfas-2015-0549"></ptr>
+</analytic>
+<monogr>
+<title level="j">Canadian Journal of Fisheries and Aquatic Sciences</title>
+<imprint>
+<biblscope unit="volume">73</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope from="1691" to="1701" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Piovia-Scott, J., S. Sadro, R. A. Knapp, J. Sickman, K. L. Pope, and S. Chandra. 2016. "Variation in Reciprocal Subsidies between Lakes and Land: Perspectives from the Mountains of California." Canadian Journal of Fisheries and Aquatic Sciences 73(11): 1691-1701. https://doi.org/10.1139/cjfas-2015- 0549.</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<monogr>
+<ptr target="https://api.planet.com"></ptr>
+<title level="m">Planet Application Program Interface: In Space for Life on Earth</title>
+<meeting><address><addrline>San Francisco, CA</addrline></address></meeting>
+<imprint>
+<publisher>Planet Team</publisher>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Planet Team. 2017. "Planet Application Program Interface: In Space for Life on Earth." San Francisco, CA. https://api.planet.com.</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">Toward an Integration of Landscape and Food Web Ecology: The Dynamics of Spatially Subsidized Food Webs</title>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Polis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">B</forename><surname>Anderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">D</forename><surname>Holt</surname></persname>
+</author>
+<idno type="DOI">10.1146/annurev.ecolsys.28.1.289</idno>
+<ptr target="https://doi.org/10.1146/annurev.ecolsys.28.1.289"></ptr>
+</analytic>
+<monogr>
+<title level="j">Annual Review of Ecology and Systematics</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="289" to="316" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Polis, G. A., W. B. Anderson, and R. D. Holt. 1997. "Toward an Integration of Landscape and Food Web Ecology: The Dynamics of Spatially Subsidized Food Webs." Annual Review of Ecology and Systematics 28(1): 289-316. https://doi.org/10. 1146/annurev.ecolsys.28.1.289.</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">Changes in Aquatic Insect Emergence in Response to Whole-Lake Experimental Manipulations of Introduced Trout</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">L</forename><surname>Pope</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Piovia-Scott</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">P</forename><surname>Lawler</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-2427.2008.02145.x</idno>
+<ptr target="https://doi.org/10.1111/j.1365-2427.2008.02145.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Freshwater Biology</title>
+<imprint>
+<biblscope unit="volume">54</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="982" to="993" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pope, K. L., J. Piovia-Scott, and S. P. Lawler. 2009. "Changes in Aquatic Insect Emergence in Response to Whole-Lake Experimental Manipulations of Introduced Trout." Freshwater Biology 54(5): 982-993. https://doi.org/10.1111/j.1365-2427. 2008.02145.x.</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">R: A Language and Environment for Statistical Computing</title>
+<author>
+<persname><forename type="first">Team</forename><surname>Core</surname></persname>
+</author>
+<ptr target="https://www.r-project.org"></ptr>
+</analytic>
+<monogr>
+<title level="m">R Foundation for Statistical Computing</title>
+<meeting><address><addrline>Vienna</addrline></address></meeting>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">R Core Team. 2021. R: A Language and Environment for Statistical Computing. Vienna: R Foundation for Statistical Computing. https://www.r-project.org.</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">Direct Impacts of Recent Climate Warming on Insect Populations</title>
+<author>
+<persname><forename type="first">C</forename><surname>Robinet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Roques</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1749-4877.2010.00196.x</idno>
+<ptr target="https://doi.org/10.1111/j.1749-4877.2010.00196.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Integrative Zoology</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="132" to="142" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Robinet, C., and A. Roques. 2010. "Direct Impacts of Recent Climate Warming on Insect Populations." Integrative Zoology 5(2): 132-142. https://doi.org/10.1111/j.1749-4877. 2010.00196.x.</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">Anthropogenic Impacts on Mosquito Populations in North America over the Past Century</title>
+<author>
+<persname><forename type="first">I</forename><surname>Rochlin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Faraji</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">V</forename><surname>Ninivaggi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Barker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">Marm</forename><surname>Kilpatrick</surname></persname>
+</author>
+<idno type="DOI">10.1038/ncomms13604</idno>
+<ptr target="https://doi.org/10.1038/ncomms13604"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature Communications</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope unit="page">13604</biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rochlin, I., A. Faraji, D. V. Ninivaggi, C. M. Barker, and A. Marm Kilpatrick. 2016. "Anthropogenic Impacts on Mosquito Populations in North America over the Past Century." Nature Communications 7(1): 13604. https://doi. org/10.1038/ncomms13604.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Piscivore Addition Causes a Trophic Cascade within and across Ecosystem Boundaries</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">M</forename><surname>Rudman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Heavyside</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Rennison</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Schluter</surname></persname>
+</author>
+<idno type="DOI">10.1111/oik.03204</idno>
+<ptr target="https://doi.org/10.1111/oik.03204"></ptr>
+</analytic>
+<monogr>
+<title level="j">Oikos</title>
+<imprint>
+<biblscope unit="volume">125</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope from="1782" to="1789" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rudman, S. M., J. Heavyside, D. J. Rennison, and D. Schluter. 2016. "Piscivore Addition Causes a Trophic Cascade within and across Ecosystem Boundaries." Oikos 125(12): 1782-89. https://doi.org/10.1111/oik.03204.</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Length-Mass Relationships for Adult Aquatic and Terrestrial Invertebrates in a California Watershed</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Sabo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Bastow</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">E</forename><surname>Power</surname></persname>
+</author>
+<idno type="DOI">10.2307/1468420</idno>
+<ptr target="https://doi.org/10.2307/1468420"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the North American Benthological Society</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="336" to="343" unit="page"></biblscope>
+<date type="published" when="2002">2002</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sabo, J. L., J. L. Bastow, and M. E. Power. 2002. "Length-Mass Relationships for Adult Aquatic and Terrestrial Invertebrates in a California Watershed." Journal of the North American Benthological Society 21(2): 336-343. https://doi.org/10.2307/ 1468420</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">Effects of Climate Variability on Snowmelt and Implications for Organic Matter in a High-Elevation Lake</title>
+<author>
+<persname><forename type="first">S</forename><surname>Sadro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">O</forename><surname>Sickman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Melack</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Skeen</surname></persname>
+</author>
+<idno type="DOI">10.1029/2017WR022163</idno>
+<ptr target="https://doi.org/10.1029/2017WR022163"></ptr>
+</analytic>
+<monogr>
+<title level="j">Water Resources Research</title>
+<imprint>
+<biblscope unit="volume">54</biblscope>
+<biblscope unit="issue">7</biblscope>
+<biblscope from="4563" to="4578" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sadro, S., J. O. Sickman, J. M. Melack, and K. Skeen. 2018. "Effects of Climate Variability on Snowmelt and Implications for Organic Matter in a High-Elevation Lake." Water Resources Research 54(7): 4563-78. https://doi.org/10. 1029/2017WR022163.</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<analytic>
+<title level="a" type="main">Worldwide Decline of the Entomofauna: A Review of Its Drivers</title>
+<author>
+<persname><forename type="first">F</forename><surname>Bayo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A G</forename><surname>Wyckhuys</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.biocon.2019.01.020</idno>
+<ptr target="https://doi.org/10.1016/j.biocon.2019.01.020"></ptr>
+</analytic>
+<monogr>
+<title level="j">Biological Conservation</title>
+<imprint>
+<biblscope unit="volume">232</biblscope>
+<biblscope from="8" to="27" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S anchez-Bayo, F., and K. A. G. Wyckhuys. 2019. "Worldwide Decline of the Entomofauna: A Review of Its Drivers." Biological Conservation 232: 8-27. https://doi.org/10.1016/ j.biocon.2019.01.020.</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">Land-Use Effects on Terrestrial Consumers through Changed Size Structure of Aquatic Insects</title>
+<author>
+<persname><forename type="first">K</forename><surname>Stenroth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">E</forename><surname>Polvi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Fältström</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Jonsson</surname></persname>
+</author>
+<idno type="DOI">10.1111/fwb.12476</idno>
+<ptr target="https://doi.org/10.1111/fwb.12476"></ptr>
+</analytic>
+<monogr>
+<title level="j">Freshwater Biology</title>
+<imprint>
+<biblscope unit="volume">60</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="136" to="149" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Stenroth, K., L. E. Polvi, E. Fältström, and M. Jonsson. 2015. "Land-Use Effects on Terrestrial Consumers through Changed Size Structure of Aquatic Insects." Freshwater Biology 60(1): 136-149. https://doi.org/10.1111/fwb.12476.</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">Response of the Aquatic Invertebrate Community to the Eradication of an Exotic Invasive Fish 30 Years after Its Introduction into an Iberian Alpine Lake</title>
+<author>
+<persname><forename type="first">M</forename><surname>Toro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Granados</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Á</forename><surname>Rubio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Camacho</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Sab As</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ventura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Montes</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00027-020-00728-w</idno>
+<ptr target="https://doi.org/10.1007/s00027-020-00728-w"></ptr>
+</analytic>
+<monogr>
+<title level="j">Aquatic Sciences</title>
+<imprint>
+<biblscope unit="volume">82</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope unit="page">55</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Toro, M., I. Granados, Á. Rubio, A. Camacho, I. Sab as, M. Ventura, and C. Montes. 2020. "Response of the Aquatic Invertebrate Community to the Eradication of an Exotic Invasive Fish 30 Years after Its Introduction into an Iberian Alpine Lake." Aquatic Sciences 82(3): 55. https://doi.org/10.1007/s00027-020- 00728-w.</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<monogr>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">L</forename><surname>Usinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">C</forename><surname>Bentinck</surname></persname>
+</author>
+<title level="m">Aquatic Insects of California: With Keys to North American Genera and California Species</title>
+<meeting><address><addrline>Berkeley, CA</addrline></address></meeting>
+<imprint>
+<publisher>University of California Press</publisher>
+<date type="published" when="1974">1974</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Usinger, R. L., and W. C. Bentinck. 1974. Aquatic Insects of California: With Keys to North American Genera and California Species. Berkeley, CA: University of California Press.</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<analytic>
+<title level="a" type="main">A Global Inventory of Lakes Based on High-Resolution Satellite Imagery</title>
+<author>
+<persname><forename type="first">C</forename><surname>Verpoorter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kutser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Seekell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">J</forename><surname>Tranvik</surname></persname>
+</author>
+<idno type="DOI">10.1002/2014GL060641</idno>
+<ptr target="https://doi.org/10.1002/2014GL060641"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">41</biblscope>
+<biblscope unit="issue">18</biblscope>
+<biblscope from="6396" to="6402" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Verpoorter, C., T. Kutser, D. A. Seekell, and L. J. Tranvik. 2014. "A Global Inventory of Lakes Based on High-Resolution Satellite Imagery." Geophysical Research Letters 41(18): 6396-6402. https://doi.org/10.1002/ 2014GL060641.</note>
+</biblstruct>
+<biblstruct xml:id="b66">
+<analytic>
+<title level="a" type="main">Pelagic Food Web Interactions among Benthic Invertebrates and Trout in Mountain Lakes</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">R</forename><surname>Weidman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Schindler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">D</forename><surname>Vinebrooke</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-2427.2010.02552.x</idno>
+<ptr target="https://doi.org/10.1111/j.1365-2427.2010.02552.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Freshwater Biology</title>
+<imprint>
+<biblscope unit="volume">56</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="1081" to="1094" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Weidman, P. R., D. W. Schindler, and R. D. Vinebrooke. 2011. "Pelagic Food Web Interactions among Benthic Invertebrates and Trout in Mountain Lakes." Freshwater Biology 56(6): 1081-94. https://doi.org/10.1111/j.1365-2427. 2010.02552.x.</note>
+</biblstruct>
+<biblstruct xml:id="b67">
+<analytic>
+<title level="a" type="main">Pulsed Salmonfly Emergence and Its Potential Contribution to Terrestrial Detrital Pools</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">S</forename><surname>Wesner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Walters</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">E</forename><surname>Zuellig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Melissa</forename><surname>Grim</surname></persname>
+</author>
+<author>
+<persname><forename type="first">John</forename><surname>Schroeder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Hillary</forename><forename type="middle">S</forename><surname>Young</surname></persname>
+</author>
+<idno type="DOI">10.1002/ecs2.4619</idno>
+<ptr target="https://doi.org/10.1002/ecs2.4619"></ptr>
+</analytic>
+<monogr>
+<title level="j">Food Webs</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="issue">7</biblscope>
+<biblscope unit="page">4619</biblscope>
+<date type="published" when="2019">2019. 2023</date>
+</imprint>
+</monogr>
+<note>Ecosphere</note>
+<note type="raw_reference">Wesner, J. S., D. M. Walters, and R. E. Zuellig. 2019. "Pulsed Salmonfly Emergence and Its Potential Contribution to Terrestrial Detrital Pools." Food Webs 18: e00105. https://doi. org/10.1016/j.fooweb.2018.e00105. How to cite this article: Owens, Caroline H., Michelle J. Lee, Melissa Grim, John Schroeder, and Hillary S. Young. 2023. "Interactions between Temperature and Predation Impact Insect Emergence in Alpine Lakes." Ecosphere 14(7): e4619. https://doi.org/10.1002/ecs2.4619</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

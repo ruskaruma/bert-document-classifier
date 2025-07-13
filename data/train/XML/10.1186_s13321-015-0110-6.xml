@@ -1,0 +1,1070 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d2 20140930//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//Springer-Verlag//DTD A++ V2.4//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName A++V2.4.dtd?><?SourceDTD.Version 2.4?><?ConverterInfo.XSLTName springer2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Cheminform</journal-id><journal-id journal-id-type="iso-abbrev">J Cheminform</journal-id><journal-title-group><journal-title>Journal of Cheminformatics</journal-title></journal-title-group><issn pub-type="epub">1758-2946</issn><publisher><publisher-name>Springer International Publishing</publisher-name><publisher-loc>Cham</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4696267</article-id><article-id pub-id-type="publisher-id">110</article-id><article-id pub-id-type="doi">10.1186/s13321-015-0110-6</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Accurate and efficient target prediction using a potency-sensitive influence-relevance voter</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Lusci</surname><given-names>Alessandro</given-names></name><address><email>luscia@uci.edu</email></address><xref ref-type="aff" rid="Aff1"/></contrib><contrib contrib-type="author"><name><surname>Browning</surname><given-names>Michael</given-names></name><address><email>mrbrowning@distopia.net</email></address><xref ref-type="aff" rid="Aff2"/></contrib><contrib contrib-type="author"><name><surname>Fooshee</surname><given-names>David</given-names></name><address><email>dfooshee@uci.edu</email></address><xref ref-type="aff" rid="Aff1"/></contrib><contrib contrib-type="author"><name><surname>Swamidass</surname><given-names>Joshua</given-names></name><address><email>swamidass@wustl.edu</email></address><xref ref-type="aff" rid="Aff2"/></contrib><contrib contrib-type="author" corresp="yes"><name><surname>Baldi</surname><given-names>Pierre</given-names></name><address><email>pfbaldi@uci.edu</email></address><xref ref-type="aff" rid="Aff1"/></contrib><aff id="Aff1"><label/>School of Information and Computer Sciences, University of California, Irvine, Irvine, USA </aff><aff id="Aff2"><label/>Pathology and Immunology, Washington University in St. Louis, St. Louis, USA </aff></contrib-group><pub-date pub-type="epub"><day>29</day><month>12</month><year>2015</year></pub-date><pub-date pub-type="pmc-release"><day>29</day><month>12</month><year>2015</year></pub-date><pub-date pub-type="collection"><year>2015</year></pub-date><volume>7</volume><elocation-id>63</elocation-id><history><date date-type="received"><day>11</day><month>8</month><year>2015</year></date><date date-type="accepted"><day>2</day><month>12</month><year>2015</year></date></history><permissions><copyright-statement>&#x000a9; Lusci et al. 2015</copyright-statement><license license-type="OpenAccess"><license-p>
+<bold>Open Access</bold>This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated.</license-p></license></permissions><abstract id="Abs1"><sec><title>Background</title><p>A number of algorithms have been 
+proposed to predict the biological targets of diverse molecules. Some are structure-based, but the most common are ligand-based and use chemical fingerprints and the notion of chemical similarity. These methods tend to be computationally faster than others, making them particularly attractive tools as the amount of available data grows.</p></sec><sec><title>Results</title><p>Using a ChEMBL-derived database covering 490,760 molecule-protein interactions and 3236 protein targets, we conduct a large-scale assessment of the performance of several target-prediction algorithms at predicting drug-target activity. We assess algorithm performance using three validation procedures: standard tenfold cross-validation, tenfold cross-validation in a simulated screen that includes random inactive molecules, and validation on an external test set composed of molecules not present in our database.</p></sec><sec><title>Conclusions</title><p>We present two improvements over current practice. First, using a modified version of the influence-relevance voter (IRV), we show that using molecule potency data can improve target prediction. Second, we demonstrate that random inactive molecules added during training can boost the accuracy of several algorithms in realistic target-prediction experiments. Our potency-sensitive version of the IRV (PS-IRV) obtains the best results on large test sets in most of the experiments. Models and software are publicly accessible through the chemoinformatics portal at <ext-link ext-link-type="uri" xlink:href="http://chemdb.ics.uci.edu/">http://chemdb.ics.uci.edu/</ext-link></p></sec><sec><title>Electronic supplementary material</title><p>The online version of this article (doi:10.1186/s13321-015-0110-6) contains supplementary material, which is available to authorized users.</p></sec></abstract><kwd-group xml:lang="en"><title>Keywords</title><kwd>Target-prediction</kwd><kwd>Large-scale</kwd><kwd>Fingerprints</kwd><kwd>Molecular potency</kwd><kwd>Random inactive molecules</kwd><kwd>Influence-relevance voter</kwd></kwd-group><funding-group><award-group><funding-source><institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000001</institution-id><institution>National Science Foundation (US)</institution></institution-wrap></funding-source><award-id>IIS-0513376</award-id><principal-award-recipient><name><surname>Baldi</surname><given-names>Pierre</given-names></name></principal-award-recipient></award-group><award-group><funding-source><institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000002</institution-id><institution>National Institutes of Health (US)</institution></institution-wrap></funding-source><award-id>LM010235</award-id><principal-award-recipient><name><surname>Baldi</surname><given-names>Pierre</given-names></name></principal-award-recipient></award-group><award-group><funding-source><institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100000002</institution-id><institution>National Institutes of Health (US)</institution></institution-wrap></funding-source><award-id>T15 LM07443</award-id><principal-award-recipient><name><surname>Baldi</surname><given-names>Pierre</given-names></name></principal-award-recipient></award-group><award-group><funding-source><institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/100006785</institution-id><institution>Google (US)</institution></institution-wrap></funding-source><award-id>Faculty Research Award</award-id><principal-award-recipient><name><surname>Baldi</surname><given-names>Pierre</given-names></name></principal-award-recipient></award-group></funding-group><custom-meta-group><custom-meta><meta-name>issue-copyright-statement</meta-name><meta-value>&#x000a9; The Author(s) 2015</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="Sec1"><title>Background</title><p>Several groups have proposed a wide range of algorithms capable of predicting the biomolecular targets of diverse molecules (see, for instance, Refs. [<xref ref-type="bibr" rid="CR1">1</xref>&#x02013;<xref ref-type="bibr" rid="CR12">12</xref>]). These include protein structure-based methods [<xref ref-type="bibr" rid="CR13">13</xref>, <xref ref-type="bibr" rid="CR14">14</xref>], and ligand-based methods such as pharmacophore searching [<xref ref-type="bibr" rid="CR3">3</xref>], substructural analysis [<xref ref-type="bibr" rid="CR15">15</xref>], and similarity searching [<xref ref-type="bibr" rid="CR4">4</xref>]. Some methods, such as similarity searching using fingerprints [<xref ref-type="bibr" rid="CR16">16</xref>, <xref ref-type="bibr" rid="CR17">17</xref>], are computationally faster than others, and can therefore be applied more efficiently to larger repositories of molecules [<xref ref-type="bibr" rid="CR18">18</xref>, <xref ref-type="bibr" rid="CR19">19</xref>].</p><p>We can treat the virtual high-throughput screening (vHTS) task as a classification problem. Given a body of labeled training data&#x02014;molecules known to be active or inactive&#x02014;we want to classify untested molecules into one of those two groups. One approach is to represent each molecule by its fingerprint vector, placing it at some location in a high-dimensional space. We can then train a predictor (e.g., a neural network) which takes these fingerprint &#x0201c;coordinates&#x0201d; as inputs and decides on a class. This approach assumes the fingerprints contain information about the classification decision.</p><p>A second approach is to compute a similarity measure between each of the compounds, defining a &#x0201c;geometry&#x0201d; over the training molecules. Given a new molecule, we can compute N similarities of the molecule to those in the training set, and base our decision on these numbers. K-nearest neighbors (kNN) is a simple example of this approach. It looks at the <italic>k</italic> most similar neighbors and decides based on the majority class among them. This is a weak algorithm because it discards all other points outside of the <italic>k</italic>-neighborhood. Furthermore, it discards all of the N similarity values within that neighborhood. Contrast this with, say, a deep neural network that considers all N similarity values to make its decision. A slightly simpler version of such an approach would be an algorithm that looks at the N similarity values within the <italic>k</italic>-neighborhood, as is done by the influence relevance voter (IRV), an algorithm previously developed by our group [<xref ref-type="bibr" rid="CR5">5</xref>]. The IRV is a shallow neural network that considers all of the similarities within the <italic>k</italic> closest neighbors to make its prediction. Incorporating this additional information about not only which neighbors a molecule is similar to, but how similar it is to each of them, allows the IRV to achieve state of the art results on benchmark data sets.</p><p>Various vHTS methods have predicted, and subsequent experiments have confirmed, drug-target interactions that were previously unknown. For example, Shoichet et al. [<xref ref-type="bibr" rid="CR2">2</xref>] predicted thousands of unanticipated interactions by comparing 3665 FDA drugs against hundreds of targets. Thirty of these interactions were tested experimentally, and 23 new drug-target associations were confirmed. The methodology involved quantifying similarities as E values using the Similarity Ensemble Approach (SEA) [<xref ref-type="bibr" rid="CR20">20</xref>] in order to build drug-target networks by linking drug-target interactions in accordance with the similarity values. Drugs were selected from the MDL Comprehensive Medicinal Chemistry database, while ligands were selected from the MDL Drug Data Report, WOMBAT [<xref ref-type="bibr" rid="CR21">21</xref>], and StARlite databases. Molecules were represented as 2048-bit Daylight and 1024-bit folded ECFP-4 [<xref ref-type="bibr" rid="CR20">20</xref>] topological fingerprints. Targets were represented as sets of ligands.</p><p>Similarly, Mestres et al. [<xref ref-type="bibr" rid="CR22">22</xref>] used drug-target networks to model the relationships between diseases, genes, proteins, and molecules. They found that drugs targeting aminergic G protein-coupled receptors (GPRCs) showed the most promiscuous pharmacological profile. Molecules were described as sets of low-dimension descriptors called SHED [<xref ref-type="bibr" rid="CR23">23</xref>]. Similarities were computed as euclidean distances.</p><p>Nadhi et al. [<xref ref-type="bibr" rid="CR24">24</xref>] developed a model based on Bayesian statistics to allow the simultaneous evaluation of the biological effect of multiple compounds on multiple targets. Using data from WOMBAT, they reported 77&#x000a0;% accuracy for their predictions.</p><p>Meslamani et al. [<xref ref-type="bibr" rid="CR7">7</xref>] presented an automated workflow to browse the target-ligand space. Their prediction system uses four ligand-based methods (SVM classification, SVR affinity prediction, nearest neighbors interpolation, and shape similarity) and two structure-based methods (docking and pharmacophore match). About 72&#x000a0;% of 189 clinical candidates were correctly identified by the proposed workflow. Ligand-based methods outperformed the accuracy of the structure-based ones, with no preference for any method in particular. The authors also showed that the quality of the predictions gradually increased with the number of compounds per target.</p><p>This work makes several contributions to the field. First, to the best of our knowledge, this is the first study that compares the performance of 5 well-established ligand-based methods to the recently introduced IRV. Second, this study not only confirms the findings of Meslamani et al. [<xref ref-type="bibr" rid="CR7">7</xref>] regarding the relationship between number of ligands and prediction performance, but also brings deeper insight to the problem by demonstrating in greater detail how performance varies with the number of ligands. Third, this study introduces a potency-sensitive version of the IRV algorithm and shows that, in many cases, it is the best performing method among those tested, when the number of examples is large. This is an important result considering that the number of tested ligands per target in the ChEMBL dataset is expected to increase [<xref ref-type="bibr" rid="CR25">25</xref>]. Fourth, we show performance improvements achieved by including random negatives during training. As an easily implemented strategy to boost the performance of SVM, RF, and IRV algorithms, this is also an important result.</p></sec><sec id="Sec2"><title>Methods</title><sec id="Sec3"><title>Protein-molecule datasets</title><p>We use a dataset containing 490,760 molecule-protein interactions selected from the ChEMBL database [<xref ref-type="bibr" rid="CR26">26</xref>] (version 13, February 2012), consisting of IC50 and EC50 values&#x02013;the concentrations at which 50&#x000a0;% of target inhibition or activation is observed, respectively. As a measure of potency, we will refer to EC50 hereafter.</p><p>This is similar data to that used in several other studies [<xref ref-type="bibr" rid="CR6">6</xref>&#x02013;<xref ref-type="bibr" rid="CR12">12</xref>]. The data from PubChem is excluded because it often does not include EC50 potency data. Molecules were labeled inactive using three different cutoffs: 1, 5, and <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M2"><mml:mrow><mml:mn>10</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq1.gif"/></alternatives></inline-formula> concentrations. The entire dataset contains 3236 protein targets (cf. Additional file <xref rid="MOESM1" ref-type="media">1</xref> containing the list of corresponding ChEMBL IDs). However, for 1128 of these protein targets, there are fewer than 10 active molecules. These were discarded for being too sparse to enable proper learning, but also because they cannot be used properly in the tenfold cross-validation experiments described below. That left 2108 protein targets with at least 10 molecules each. For 695 of these proteins, the corresponding datasets contain 100 molecules or more. The distribution of the dataset sizes associated with each protein is shown in Fig. <xref rid="Fig1" ref-type="fig">1</xref>.</p><p>There are several benchmark datasets available in the literature, but most of these datasets (1) do not contain potency data, (2) include data on only a small number of proteins, and (3) only contain closely-related molecules. ChEMBL is the most complete publicly available dataset for target prediction. It covers a large number of proteins and a large, diverse set of molecules, and a good portion of this data includes potency information. There are several errors in the ChEMBL data arising from both annotation mistakes and discrepancies in the literature. It is, however, a very common source of data for virtual screening. In particular, the highest quality data with the fewest discrepancies is the high potency actives data. There are commercial databases with similar data available but they require a licensing fee to access. For these reasons, ChEMBL is an ideal dataset on which to benchmark target prediction methods.</p><p>We extracted an external validation set from a newer version of ChEMBL (version 19, July 2014). The same protocol was used to extract all the new data-points added between version 13 and 19. These data-points were used as an independent set on which to test performance. The dataset consisted of 123,218 molecule-protein interactions, covering 66,707 different molecules, and 1016 protein targets.</p><p>In cases where multiple drug-target interactions were found, we used the average of the activities. We applied this protocol to the sets we used for both tenfold cross-validation and tenfold cross-validation with random negatives. However, we included multiple drug-target interactions in the external validation set.</p></sec><sec id="Sec4"><title>Activity and cutoffs</title><p>Each protein target (identified by its ChEMBL ID) in the dataset is associated with a certain number of molecules, together with the corresponding EC50 values expressed in <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M4"><mml:mrow><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq2.gif"/></alternatives></inline-formula>. A small EC50 value corresponds to high potency, i.e., only a small concentration of drug is required for EC50 bioactivity. A molecule is considered active against a certain target if its EC50 is lower than a certain cutoff value [<xref ref-type="bibr" rid="CR27">27</xref>]. Unfortunately there is no agreement on which cutoff value should be chosen for a generic target-prediction problem, since the same cutoff could refer to different bioactivities in different assays. For example, a <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M6"><mml:mrow><mml:mn>10</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq3.gif"/></alternatives></inline-formula> cutoff could represent very active molecules in some assays, while also including only marginally active molecules [<xref ref-type="bibr" rid="CR28">28</xref>]. Moreover, we wanted to ensure that our results were not overly dependent on a specific cutoff choice. For this reason, we decided to use three cutoff values: 1, 5 and <inline-formula id="IEq4"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M8"><mml:mrow><mml:mn>10</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq4.gif"/></alternatives></inline-formula>. A molecule is labeled active if the corresponding EC50 is smaller than the selected cutoff, and inactive otherwise. As we will see, very similar results are observed across all cutoff values. In practice, the <inline-formula id="IEq5"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M10"><mml:mrow><mml:mn>1</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq5.gif"/></alternatives></inline-formula> cutoff may be most important because its data has the least noise.</p></sec><sec id="Sec5"><title>Random negative molecules</title><p>Active molecules are rare. Usually, less than one percent of molecules interact with a given protein. From the ChEMBL database, we selected a set of 10,000 molecules that do not bind any of the proteins in our study, and used them as random negatives during training as well as assessment. We refer to this set as the Random ChEMBL or &#x0201c;RC&#x0201d; dataset. RC was randomly split into two subsets: Train-RC including 1000 molecules, and Test-RC including the remaining 9000 molecules. Obviously this dataset can occasionally produce a false negative, however the advantages it provides in training and assessment outweigh the drawback of introducing a few false negatives. Note that some level of noise also exists among the positive molecules, due to inevitable variability in experimental methods.</p></sec><sec id="Sec6"><title>Molecular similarity</title><p>The more similar two molecules are, the more likely they are to have similar properties [<xref ref-type="bibr" rid="CR29">29</xref>]. Fingerprint similarity is widely used in chemical informatics as a way of quantifying similarity between molecules [<xref ref-type="bibr" rid="CR5">5</xref>, <xref ref-type="bibr" rid="CR30">30</xref>].</p><p>Fingerprints are vectors encoding the occurrence of certain substructures within a molecular graph. Each component of a fingerprint is a single bit which indicates either the presence (1-bit) or absence (0-bit) of a particular structure in the graph. We use a fingerprint very similar to the Extended Connectivity Fingerprint (ECFP) commonly used in the field. We use circular substructures [<xref ref-type="bibr" rid="CR30">30</xref>, <xref ref-type="bibr" rid="CR31">31</xref>] of depth <italic>d</italic> up to 2 bonds, where atoms are labeled with their element and their connectivity (e.g., C3 for a carbon with three heavy atoms attached). Bonds are labeled according to their type (single, double, triple, or aromatic). Fingerprints tend to be very sparse and are easily compressible. In this paper, we used a lossless compression algorithm based on entropy encoding [<xref ref-type="bibr" rid="CR32">32</xref>]. Similarity between fingerprints was measured using the Tanimoto metric [<xref ref-type="bibr" rid="CR33">33</xref>].</p><p>The choice of fingerprint and its parameters affects the performance of all methods used in this study. However, the scope of this work does not include picking the optimal fingerprint. Instead it focuses on the machine learning component of target prediction. We control for the effect of fingerprints by using the exact same fingerprint across all methods.</p></sec><sec id="Sec7"><title>Mean similarity (MeanSim)</title><p>A commonly used and easily implemented way of classifying molecules is to score them by their average similarity to all known active molecules. This approach was extensively studied by Shoichet et al. [<xref ref-type="bibr" rid="CR2">2</xref>] and ranks molecules identically to the method they ultimately propose. The Shoichet algorithm computes a new score, which orders molecules identically to MeanSim, and appropriately quantifies the statistical significance of each molecule-target association. The new score more accurately ranks targets associated with a test molecule than MeanSim. However, for a given target, it ranks collections of test molecules in the exact same order as MeanSim. Therefore, the performance of MeanSim in separating active and inactive molecules (the primary focus of this study) is exactly identical to the Shoichet algorithm.</p></sec><sec id="Sec8"><title>Maximum similarity (MaxSim)</title><p>Another commonly used and easily implemented way of classifying molecules based on known activities is Maximum Similarity. In this method, molecules are scored by their similarity to the most similar known active molecule. MaxSim is straightforward to implement, does not require any parameter tuning, has been well studied [<xref ref-type="bibr" rid="CR34">34</xref>, <xref ref-type="bibr" rid="CR35">35</xref>], and is intuitively simple. The resulting predictions allow one to rank query molecules and examine the active molecule most similar to the query molecule, along with the corresponding similarity score, to gain some insights into the rationale behind a prediction.</p><p>In prior work, MaxSim has consistently outperformed MeanSim [<xref ref-type="bibr" rid="CR36">36</xref>]. This is likely because MeanSim makes an implicit assumption that all the active molecules are in a single cluster in similarity space. MaxSim does not make this overly restrictive assumption, and thus can better capture cases where more than one class of molecules is active. Consequently, we expect MaxSim to outperform MeanSim.</p></sec><sec id="Sec9"><title>K nearest neighbors (kNN)</title><p>Another commonly used approach is <italic>k</italic> nearest neighbors. In contrast with MaxSim and MeanSim, kNN and the following methods use both active and inactive molecules to make predictions. Here, molecules are scored by the proportion of known actives amongst the <italic>k</italic> closest neighbors in the training set. For this study, we use <inline-formula id="IEq6"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k = 11$$\end{document}</tex-math><mml:math id="M12"><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>11</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq6.gif"/></alternatives></inline-formula>, <inline-formula id="IEq7"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k = 31$$\end{document}</tex-math><mml:math id="M14"><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>31</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq7.gif"/></alternatives></inline-formula> and <inline-formula id="IEq8"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k = 51$$\end{document}</tex-math><mml:math id="M16"><mml:mrow><mml:mi>k</mml:mi><mml:mo>=</mml:mo><mml:mn>51</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq8.gif"/></alternatives></inline-formula>. Using these values we can investigate whether larger sets of neighbors lead to better performance.</p></sec><sec id="Sec10"><title>Support vector machines (SVM)</title><p>One of the most commonly used machine learning methods in virtual screening is Support Vector Machines (SVM) [<xref ref-type="bibr" rid="CR37">37</xref>, <xref ref-type="bibr" rid="CR38">38</xref>]. SVMs are not easily implemented from scratch, but there are several good open source packages available. Part of their power comes from being able to use Tanimoto similarity between fingerprints explicitly [<xref ref-type="bibr" rid="CR39">39</xref>]. SVMs frequently use the full training set of active and inactive molecules, and achieve nearly optimal performance. Our implementation of SVM uses the publicly available SVMTorch software [<xref ref-type="bibr" rid="CR40">40</xref>]. The C and epsilon parameters were determined using the built-in parameter optimizer of the SVMTorch library that iterates over several possible values to pick the optimal choice.</p></sec><sec id="Sec11"><title>Random forest (RF)</title><p>A random forest [<xref ref-type="bibr" rid="CR41">41</xref>] is an ensemble of decision trees, and is also commonly used in chemoinformatics to predict molecule activity. Given a training set {<inline-formula id="IEq9"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\mathbf {x}}}_{{{\mathbf {i}}}}$$\end{document}</tex-math><mml:math id="M18"><mml:msub><mml:mi mathvariant="bold">x</mml:mi><mml:mi mathvariant="bold">i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq9.gif"/></alternatives></inline-formula>, <inline-formula id="IEq10"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y_{i}$$\end{document}</tex-math><mml:math id="M20"><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq10.gif"/></alternatives></inline-formula>}, where <inline-formula id="IEq11"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y_{i}$$\end{document}</tex-math><mml:math id="M22"><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq11.gif"/></alternatives></inline-formula> is a molecular label (active, not active) and <inline-formula id="IEq12"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\mathbf {x}}} \in {{\mathbb {R}}}^{D}$$\end{document}</tex-math><mml:math id="M24"><mml:mrow><mml:mi mathvariant="bold">x</mml:mi><mml:mo>&#x02208;</mml:mo><mml:msup><mml:mrow><mml:mi mathvariant="double-struck">R</mml:mi></mml:mrow><mml:mi>D</mml:mi></mml:msup></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq12.gif"/></alternatives></inline-formula> is a vector of features of length <italic>D</italic>, the first step consists of choosing a value for the parameter <italic>m</italic>, the number of tried attributes <inline-formula id="IEq13"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$0&#x0003c;m &#x0003c; D$$\end{document}</tex-math><mml:math id="M26"><mml:mrow><mml:mn>0</mml:mn><mml:mo>&#x0003c;</mml:mo><mml:mi>m</mml:mi><mml:mo>&#x0003c;</mml:mo><mml:mi>D</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq13.gif"/></alternatives></inline-formula>, which is used to determine the splits at each node of each tree. Then <italic>k</italic> decision trees are grown using the training set and <italic>k</italic> random initialization seeds. The result is an ensemble of tree-structured classifiers {<inline-formula id="IEq14"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$h({{\mathbf {x}}}_{{{\mathbf {i}}}}$$\end{document}</tex-math><mml:math id="M28"><mml:mrow><mml:mi>h</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi mathvariant="bold">x</mml:mi><mml:mi mathvariant="bold">i</mml:mi></mml:msub></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq14.gif"/></alternatives></inline-formula>, <inline-formula id="IEq15"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$y_{i})$$\end{document}</tex-math><mml:math id="M30"><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq15.gif"/></alternatives></inline-formula>} where the output of the ensemble is the majority vote of the individual classifiers.</p><p>RFs have been applied in chemoinformatics to QSAR/QSPR modeling, and molecular classification problems [<xref ref-type="bibr" rid="CR42">42</xref>&#x02013;<xref ref-type="bibr" rid="CR44">44</xref>]. Among the attractive features of the Random Forest approach are robustness and simplicity, including hyperparameter simplicity which corresponds essentially to choosing a single parameter (<italic>m</italic>). In practice, it has been shown that <inline-formula id="IEq16"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$m = \sqrt{D}$$\end{document}</tex-math><mml:math id="M32"><mml:mrow><mml:mi>m</mml:mi><mml:mo>=</mml:mo><mml:msqrt><mml:mi>D</mml:mi></mml:msqrt></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq16.gif"/></alternatives></inline-formula> is a good choice [<xref ref-type="bibr" rid="CR45">45</xref>].</p><p>In this study, the input vector <inline-formula id="IEq17"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\mathbf {x}}}_{{{\mathbf {i}}}}$$\end{document}</tex-math><mml:math id="M34"><mml:msub><mml:mi mathvariant="bold">x</mml:mi><mml:mi mathvariant="bold">i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq17.gif"/></alternatives></inline-formula> for each molecule <italic>i</italic>, is generated according to the following procedure: compute the Tanimoto similarity between <italic>i</italic> and each molecule <italic>j</italic> in the training set; sort the similarity values in descending order; take the first N values and multiply them by a binary activity coefficient <inline-formula id="IEq18"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$c_{j}$$\end{document}</tex-math><mml:math id="M36"><mml:msub><mml:mi>c</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq18.gif"/></alternatives></inline-formula> defined as follows:<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} c_{j} = \left\{ \begin{array}{ll} 1 &#x00026;{}\quad \text{ if }\,j\,\text{ is } \text{ active } \\ -1 &#x00026;{} \quad \text{ if }\,j\,\text{ is } \text{ not } \text{ active } \\ \end{array}\right. \end{aligned}$$\end{document}</tex-math><mml:math id="M38" display="block"><mml:mrow><mml:mtable columnspacing="0.5ex"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mi>j</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfenced close="" open="{" separators=""><mml:mrow><mml:mtable columnspacing="0.5ex"><mml:mtr><mml:mtd columnalign="left"><mml:mn>1</mml:mn></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mspace width="1em"/><mml:mspace width="0.333333em"/><mml:mtext>if</mml:mtext><mml:mspace width="0.333333em"/><mml:mspace width="0.166667em"/><mml:mi>j</mml:mi><mml:mspace width="0.166667em"/><mml:mspace width="0.333333em"/><mml:mtext>is</mml:mtext><mml:mspace width="0.333333em"/><mml:mspace width="0.333333em"/><mml:mtext>active</mml:mtext><mml:mspace width="0.333333em"/></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mo>-</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mspace width="1em"/><mml:mspace width="0.333333em"/><mml:mtext>if</mml:mtext><mml:mspace width="0.333333em"/><mml:mspace width="0.166667em"/><mml:mi>j</mml:mi><mml:mspace width="0.166667em"/><mml:mspace width="0.333333em"/><mml:mtext>is</mml:mtext><mml:mspace width="0.333333em"/><mml:mspace width="0.333333em"/><mml:mtext>not</mml:mtext><mml:mspace width="0.333333em"/><mml:mspace width="0.333333em"/><mml:mtext>active</mml:mtext><mml:mspace width="0.333333em"/></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="13321_2015_110_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula>After some exploration, we chose the following set of parameters: <inline-formula id="IEq19"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D = 10$$\end{document}</tex-math><mml:math id="M40"><mml:mrow><mml:mi>D</mml:mi><mml:mo>=</mml:mo><mml:mn>10</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq19.gif"/></alternatives></inline-formula>, <inline-formula id="IEq20"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$K = 200$$\end{document}</tex-math><mml:math id="M42"><mml:mrow><mml:mi>K</mml:mi><mml:mo>=</mml:mo><mml:mn>200</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq20.gif"/></alternatives></inline-formula>, and <inline-formula id="IEq21"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$m =3 \approx \sqrt{D}$$\end{document}</tex-math><mml:math id="M44"><mml:mrow><mml:mi>m</mml:mi><mml:mo>=</mml:mo><mml:mn>3</mml:mn><mml:mo>&#x02248;</mml:mo><mml:msqrt><mml:mi>D</mml:mi></mml:msqrt></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq21.gif"/></alternatives></inline-formula>. Our implementation of Random Forests is based on the <italic>sklearn.ensemble</italic> library for Python [<xref ref-type="bibr" rid="CR46">46</xref>].</p></sec><sec id="Sec12"><title>Influence-relevance voter (IRV)</title><p>The IRV was introduced by Swamidass et al. [<xref ref-type="bibr" rid="CR5">5</xref>] and is not commonly used. However, it has several advantages over other methods. First, unlike RFs and SVMs, its predictions are easily interpretable in a manner similar to kNNs and MaxSim. Second, as we will see, it can be modified to take into account the potency of molecules in the training set. Third, it often outperforms SVM and RF methods.</p><p>Like kNN, the IRV looks at the neighborhood of <italic>k</italic> nearest neighbors. However it uses a neural network with shared weights to compute a more sophisticated function of this neighborhood, as opposed to the very simple majority membership used by kNN. Its output is defined as<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} z({{\mathcal {X}}}) = \sigma \left( w_{z} + \sum _{i=1}^{K}I_{i}\right) , \end{aligned}$$\end{document}</tex-math><mml:math id="M46" display="block"><mml:mrow><mml:mtable columnspacing="0.5ex"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mi>z</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="script">X</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mi mathvariant="italic">&#x003c3;</mml:mi><mml:mfenced close=")" open="(" separators=""><mml:msub><mml:mi>w</mml:mi><mml:mi>z</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:munderover><mml:mo>&#x02211;</mml:mo><mml:mrow><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>K</mml:mi></mml:munderover><mml:msub><mml:mi>I</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="13321_2015_110_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq22"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\mathcal {X}}}$$\end{document}</tex-math><mml:math id="M48"><mml:mi mathvariant="script">X</mml:mi></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq22.gif"/></alternatives></inline-formula> is the test molecule, <italic>i</italic> ranges from 1 to <italic>k</italic> over all <italic>k</italic> nearest neighbors, <inline-formula id="IEq23"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$I_{i}$$\end{document}</tex-math><mml:math id="M50"><mml:msub><mml:mi>I</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq23.gif"/></alternatives></inline-formula> is the &#x0201c;influence&#x0201d; of the <inline-formula id="IEq24"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i \hbox {th}$$\end{document}</tex-math><mml:math id="M52"><mml:mrow><mml:mi>i</mml:mi><mml:mtext>th</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq24.gif"/></alternatives></inline-formula> neighbor on the output, <inline-formula id="IEq25"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_{z}$$\end{document}</tex-math><mml:math id="M54"><mml:msub><mml:mi>w</mml:mi><mml:mi>z</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq25.gif"/></alternatives></inline-formula> is the bias of the output node, and <inline-formula id="IEq26"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\sigma (x)= 1/(1 + e^{-x})$$\end{document}</tex-math><mml:math id="M56"><mml:mrow><mml:mi mathvariant="italic">&#x003c3;</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo stretchy="false">/</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mo>-</mml:mo><mml:mi>x</mml:mi></mml:mrow></mml:msup><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq26.gif"/></alternatives></inline-formula> is the logistic function. These influences indicate exactly how much, and in which direction, each training example contributes to the predictions. The influence of the <inline-formula id="IEq27"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i \hbox {th}$$\end{document}</tex-math><mml:math id="M58"><mml:mrow><mml:mi>i</mml:mi><mml:mtext>th</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq27.gif"/></alternatives></inline-formula> node is defined by<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} I_{i} = R_{i}V_{i} \end{aligned}$$\end{document}</tex-math><mml:math id="M60" display="block"><mml:mrow><mml:mtable columnspacing="0.5ex"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>I</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:msub><mml:mi>V</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="13321_2015_110_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq28"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_{i}$$\end{document}</tex-math><mml:math id="M62"><mml:msub><mml:mi>R</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq28.gif"/></alternatives></inline-formula> is the relevance and <inline-formula id="IEq29"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$V_{i}$$\end{document}</tex-math><mml:math id="M64"><mml:msub><mml:mi>V</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq29.gif"/></alternatives></inline-formula> is the vote of the <inline-formula id="IEq30"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i \hbox {th}$$\end{document}</tex-math><mml:math id="M66"><mml:mrow><mml:mi>i</mml:mi><mml:mtext>th</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq30.gif"/></alternatives></inline-formula> neighbor. The relevance is defined as<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} R_{i} = \tanh (w_{y} + w_{s}s_{i} + w_{r}r_{i}) \end{aligned}$$\end{document}</tex-math><mml:math id="M68" display="block"><mml:mrow><mml:mtable columnspacing="0.5ex"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>R</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mo>tanh</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>w</mml:mi><mml:mi>y</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>w</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mi>w</mml:mi><mml:mi>r</mml:mi></mml:msub><mml:msub><mml:mi>r</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="13321_2015_110_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq31"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$s_{i}$$\end{document}</tex-math><mml:math id="M70"><mml:msub><mml:mi>s</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq31.gif"/></alternatives></inline-formula> is the similarity <inline-formula id="IEq32"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$S({{\mathcal {X}}}, N_i)$$\end{document}</tex-math><mml:math id="M72"><mml:mrow><mml:mi>S</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="script">X</mml:mi><mml:mo>,</mml:mo><mml:msub><mml:mi>N</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq32.gif"/></alternatives></inline-formula> of the <inline-formula id="IEq33"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i \hbox {th}$$\end{document}</tex-math><mml:math id="M74"><mml:mrow><mml:mi>i</mml:mi><mml:mtext>th</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq33.gif"/></alternatives></inline-formula> closest neighbor to the test molecule, <inline-formula id="IEq34"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$r_{i}$$\end{document}</tex-math><mml:math id="M76"><mml:msub><mml:mi>r</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq34.gif"/></alternatives></inline-formula> is the rank of the <inline-formula id="IEq35"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i \hbox {th}$$\end{document}</tex-math><mml:math id="M78"><mml:mrow><mml:mi>i</mml:mi><mml:mtext>th</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq35.gif"/></alternatives></inline-formula> neighbor in the similarity-sorted list of neighbors, <inline-formula id="IEq36"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_{s}$$\end{document}</tex-math><mml:math id="M80"><mml:msub><mml:mi>w</mml:mi><mml:mi>s</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq36.gif"/></alternatives></inline-formula> and <inline-formula id="IEq37"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_{r}$$\end{document}</tex-math><mml:math id="M82"><mml:msub><mml:mi>w</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq37.gif"/></alternatives></inline-formula> are parameters tuning the importance of different inputs, and <inline-formula id="IEq38"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_{y}$$\end{document}</tex-math><mml:math id="M84"><mml:msub><mml:mi>w</mml:mi><mml:mi>y</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq38.gif"/></alternatives></inline-formula> is the bias of the logistic unit.</p><p>The vote is defined by<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} V_{i} = \left\{ \begin{array}{ll} w_{0} &#x00026;{} \quad \text{ if } c_{i} = 0 \\ w_{1} &#x00026;{} \quad \text{ if } c_{i} = 1 \\ \end{array}\right. \end{aligned}$$\end{document}</tex-math><mml:math id="M86" display="block"><mml:mrow><mml:mtable columnspacing="0.5ex"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>V</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfenced close="" open="{" separators=""><mml:mrow><mml:mtable columnspacing="0.5ex"><mml:mtr><mml:mtd columnalign="left"><mml:msub><mml:mi>w</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mspace width="1em"/><mml:mspace width="0.333333em"/><mml:mtext>if</mml:mtext><mml:mspace width="0.333333em"/><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:msub><mml:mi>w</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mspace width="1em"/><mml:mspace width="0.333333em"/><mml:mtext>if</mml:mtext><mml:mspace width="0.333333em"/><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="13321_2015_110_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>where <inline-formula id="IEq39"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_{0}$$\end{document}</tex-math><mml:math id="M88"><mml:msub><mml:mi>w</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq39.gif"/></alternatives></inline-formula> is the weight associated with inactive neighbors, <inline-formula id="IEq40"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$w_{1}$$\end{document}</tex-math><mml:math id="M90"><mml:msub><mml:mi>w</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq40.gif"/></alternatives></inline-formula> is the weight associated with active neighbors, and <inline-formula id="IEq41"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$c_{i} \in$$\end{document}</tex-math><mml:math id="M92"><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02208;</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq41.gif"/></alternatives></inline-formula> 0,1 is the class of the <inline-formula id="IEq42"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$i \hbox {th}$$\end{document}</tex-math><mml:math id="M94"><mml:mrow><mml:mi>i</mml:mi><mml:mtext>th</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq42.gif"/></alternatives></inline-formula> neighbor.</p><p>The logistic output of the IRV can be interpreted as a probability and directly encodes the confidence of each prediction [<xref ref-type="bibr" rid="CR47">47</xref>, <xref ref-type="bibr" rid="CR48">48</xref>]</p><p><inline-formula id="IEq43"><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$z({{\mathcal {X}}}) \approx ( {{\mathcal {X}}}$$\end{document}</tex-math><mml:math id="M96"><mml:mrow><mml:mi>z</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="script">X</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>&#x02248;</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="script">X</mml:mi></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq43.gif"/></alternatives></inline-formula> is active &#x02014; <inline-formula id="IEq44"><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\mathcal {X}}}$$\end{document}</tex-math><mml:math id="M98"><mml:mi mathvariant="script">X</mml:mi></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq44.gif"/></alternatives></inline-formula>&#x02019;s structure, training data)</p><p>In other words, the output of the network on a test molecule is approximately equal to the probability of the test molecule being active given its structure and the training data. This is enforced by training the network to minimize the relative-entropy or Kullback-Leibler divergence between the true target distribution <inline-formula id="IEq45"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$t({{\mathcal {T}}} )$$\end{document}</tex-math><mml:math id="M100"><mml:mrow><mml:mi>t</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="script">T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq45.gif"/></alternatives></inline-formula> and the predicted distribution <inline-formula id="IEq46"><alternatives><tex-math id="M101">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$z({{\mathcal {T}}} )$$\end{document}</tex-math><mml:math id="M102"><mml:mrow><mml:mi>z</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="script">T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq46.gif"/></alternatives></inline-formula> across all molecules <inline-formula id="IEq47"><alternatives><tex-math id="M103">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\mathcal {T}}}$$\end{document}</tex-math><mml:math id="M104"><mml:mi mathvariant="script">T</mml:mi></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq47.gif"/></alternatives></inline-formula> in the training set. The IRV is trained by gradient descent to minimize the error, equivalently, the negative log-likelihood given by [<xref ref-type="bibr" rid="CR47">47</xref>]<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M105">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} - \sum t({{\mathcal {T}}})\log \left[ z({{\mathcal {T}}})\right] + (1-t({{\mathcal {T}}}))\log \left[ 1-z({{\mathcal {T}}})\right] , \end{aligned}$$\end{document}</tex-math><mml:math id="M106" display="block"><mml:mrow><mml:mtable columnspacing="0.5ex"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:mo>-</mml:mo><mml:mo>&#x02211;</mml:mo><mml:mi>t</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="script">T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>log</mml:mo><mml:mfenced close="]" open="[" separators=""><mml:mi>z</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="script">T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mfenced><mml:mo>+</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>t</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="script">T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>log</mml:mo><mml:mfenced close="]" open="[" separators=""><mml:mn>1</mml:mn><mml:mo>-</mml:mo><mml:mi>z</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="script">T</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mfenced><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="13321_2015_110_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula>where the summation is over the training instances, <inline-formula id="IEq48"><alternatives><tex-math id="M107">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\mathcal {T}}}$$\end{document}</tex-math><mml:math id="M108"><mml:mi mathvariant="script">T</mml:mi></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq48.gif"/></alternatives></inline-formula>. The IRV can be fine-tuned with several variations. In this study, setting the number of neighbors to 6 yielded a good compromise between total training time and accuracy of predictions.</p></sec><sec id="Sec13"><title>Potency-sensitive influence relevance voter (PS-IRV)</title><p>The IRV as we have defined it, along with most other machine learning approaches to target-prediction, completely ignores the potency of active and inactive molecules. However one may expect that potency is important to prediction and may contain useful information. Thus we also design a version of the IRV that is sensitive to potency, the Potency-Sensitive IRV (PS-IRV).</p><p>In this study, we use three different cutoff values to assign the class <inline-formula id="IEq49"><alternatives><tex-math id="M109">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$c_{i}$$\end{document}</tex-math><mml:math id="M110"><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq49.gif"/></alternatives></inline-formula> to a molecule <italic>i</italic> . If the activity of <italic>i</italic> (i.e., its EC50) is less than the cutoff, <inline-formula id="IEq50"><alternatives><tex-math id="M111">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$c_{i} = 1$$\end{document}</tex-math><mml:math id="M112"><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq50.gif"/></alternatives></inline-formula> (<inline-formula id="IEq51"><alternatives><tex-math id="M113">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$c_{i} = 0$$\end{document}</tex-math><mml:math id="M114"><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq51.gif"/></alternatives></inline-formula>, otherwise). In Eq. <xref rid="Equ5" ref-type="">5</xref>, we define the vote <inline-formula id="IEq52"><alternatives><tex-math id="M115">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$V_{i}$$\end{document}</tex-math><mml:math id="M116"><mml:msub><mml:mi>V</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq52.gif"/></alternatives></inline-formula> as a function of the class <inline-formula id="IEq53"><alternatives><tex-math id="M117">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$c_{i}$$\end{document}</tex-math><mml:math id="M118"><mml:msub><mml:mi>c</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq53.gif"/></alternatives></inline-formula>. Therefore, <inline-formula id="IEq54"><alternatives><tex-math id="M119">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$V_{i}$$\end{document}</tex-math><mml:math id="M120"><mml:msub><mml:mi>V</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq54.gif"/></alternatives></inline-formula> depends indirectly on the activity of the molecule. It would be interesting to change Eq. <xref rid="Equ5" ref-type="">5</xref> such that the vote depends directly on the activity of the molecule. There are obviously many ways to do this. Here we associate a weight to each cutoff, so that the vote is defined by<disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M121">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{aligned} V_{i} = \left\{ \begin{array}{ll} w_{0} &#x00026;{} \quad \text{ if } \;a_{i} &#x0003c; 1\,\upmu M \\ w_{1} &#x00026;{} \quad \text{ if } \;a_{i} &#x0003c; 5\,\upmu M \\ w_{2} &#x00026;{} \quad \text{ if } \;a_{i} &#x0003c; 10\,\upmu M \\ w_{3} &#x00026;{} \quad \text{ if } \;a_{i} \ge 10\,\upmu M \\ \end{array}\right. \end{aligned}$$\end{document}</tex-math><mml:math id="M122" display="block"><mml:mrow><mml:mtable columnspacing="0.5ex"><mml:mtr><mml:mtd columnalign="right"><mml:mrow><mml:msub><mml:mi>V</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfenced close="" open="{" separators=""><mml:mrow><mml:mtable columnspacing="0.5ex"><mml:mtr><mml:mtd columnalign="left"><mml:msub><mml:mi>w</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mspace width="1em"/><mml:mspace width="0.333333em"/><mml:mtext>if</mml:mtext><mml:mspace width="0.333333em"/><mml:mspace width="0.277778em"/><mml:msub><mml:mi>a</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x0003c;</mml:mo><mml:mn>1</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:msub><mml:mi>w</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mspace width="1em"/><mml:mspace width="0.333333em"/><mml:mtext>if</mml:mtext><mml:mspace width="0.333333em"/><mml:mspace width="0.277778em"/><mml:msub><mml:mi>a</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x0003c;</mml:mo><mml:mn>5</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:msub><mml:mi>w</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mspace width="1em"/><mml:mspace width="0.333333em"/><mml:mtext>if</mml:mtext><mml:mspace width="0.333333em"/><mml:mspace width="0.277778em"/><mml:msub><mml:mi>a</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x0003c;</mml:mo><mml:mn>10</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:msub><mml:mi>w</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:mrow></mml:mtd><mml:mtd columnalign="left"><mml:mrow><mml:mrow/><mml:mspace width="1em"/><mml:mspace width="0.333333em"/><mml:mtext>if</mml:mtext><mml:mspace width="0.333333em"/><mml:mspace width="0.277778em"/><mml:msub><mml:mi>a</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>&#x02265;</mml:mo><mml:mn>10</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mi>M</mml:mi></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:mfenced></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow></mml:math><graphic xlink:href="13321_2015_110_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula>We expect that in some cases this approach could outperform the standard IRV method, because its input includes the potencies of the neighbors.</p><p>In this formulation the uncertainty associated with each datapoint is not used by the model. However, uncertainty could be added in many ways. For example, the vote could be set to the average votes (computed using this formula) of all observed EC50s of a neighbor. In this way, the uncertainty inherent in conflicting measurements would be directly encoded in the IRV votes. We expect there could be performance gains from using this approach and others like it, but we leave that to future work.</p></sec><sec id="Sec14"><title>Performance metrics</title><p>Performance of different target-prediction methods is quantified using two standard metrics: the area under the ROC curve (AUC) [<xref ref-type="bibr" rid="CR49">49</xref>], and the enrichment of the prediction ranked test data [<xref ref-type="bibr" rid="CR50">50</xref>]. The ROC curve plots the fraction of correctly predicted actives, i.e. the true positive rate (TPR), versus the fraction of inactives incorrectly predicted as actives, i.e. the false positive rate (FPR). We calculate this for each chosen threshold. The enrichment metric gives the percentage of true actives found at the top of the ranked list of predictions. In the results, we use four different percentages to define the top list: 5, 10, 20, and 30&#x000a0;%. Whereas AUC quantifies the overall accuracy of separation between actives and inactives, enrichment rank quantifies the ability of a method to identify actives within specific top <italic>N</italic> &#x000a0;% cutoffs.</p></sec></sec><sec id="Sec15"><title>Results</title><p>In the following sections we present the performance of these approaches on the ChEMBL dataset. We first present the results obtained using a standard cross-validation approach. Second, we show similar performance using a simulated target-prediction experiment where negative molecules are used during the assessment. Third, we find that using random negatives during training improves the performance of the machine learning approaches in the simulated target-prediction experiments. Finally, confirming prior work, we show that the IRV yields readily interpretable models. The trends we observe in the incremental plots are consistent across all cutoffs, therefore we only include the figures referring to <inline-formula id="IEq55"><alternatives><tex-math id="M123">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M124"><mml:mrow><mml:mn>1</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq55.gif"/></alternatives></inline-formula> cutoff. The full list of figures is available in Additional file <xref rid="MOESM2" ref-type="media">2</xref>.</p><sec id="Sec16"><title>Cross-validation assessment</title><p>The computational models were first trained and tested using tenfold cross-validation. Each set of training molecules was randomly divided into 10 equally sized sets or folds. Each fold was used for testing once, while the remaining nine folds were combined into a training set. This was repeated ten times, the outputs of each fold were combined, and the performance assessed. The entire procedure was then repeated over each target whose corresponding set of molecules contained at least 10 molecules, corresponding to 2108 proteins. Note that there are some minor variations in the actual number of proteins used in some of the tests. For instance, it does not make sense to apply 31NN to a training set with 31 molecules or fewer, as the output would be constant.</p><p>We discarded all targets that did not meet the minimum requirement of having at least one example of both classes in each fold. Average performances are reported here: (Table&#x000a0;<xref rid="Tab1" ref-type="table">1</xref>; Figs. <xref rid="Fig2" ref-type="fig">2</xref>, <xref rid="Fig3" ref-type="fig">3</xref>). For brevity, only the best performing nearest neighbor method, 11NN, is included, since we observed that performance did not improve for greater values of <italic>k</italic> . Likewise, for brevity, we only show AUC performance. In Additional files (cf. Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Tables S1, S3), we also report enrichment at several cutoff values (5, 10, 20, and 30&#x000a0;%), as well as the results corresponding to 31NN and 51NN.</p><p>We note several trends. First, performance is related to dataset size. Proteins with the largest number of known ligands yield the best performance, and excluding the smallest datasets increases average performance. Second, machine learning methods, which tune their parameters to the data, (SVM, RF, IRV, and PS-IRV) on average outperform the methods that are not tuned to the data (MaxSim, MeanSim, and 11NN), and have similar performances amongst each other. The performance disparity between machine learning methods and the other methods was strongest for the largest datasets. Third, PS-IRV becomes the best performing method as the number of examples in the training set increases. Fourth, the MeanSim method is consistently the worst performing method. All four trends are robust and observed across all cutoffs and both assessment methods.</p><p>Many of the differences underlying these trends are small, but they are statistically significant. A paired t test of the AUC values (where AUC performances are paired by target) shows almost all of these average AUC differences to be significant at a conservative 0.005 p value cutoff (cf. Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Tables S4, S5).</p><p>One of the limitations of this assessment is that cross-validation estimates the prediction error on new test molecules as if these were drawn from a distribution over chemical space similar to that of the training set. Often the training sets used are small and potentially biased, containing, for instance, more active than inactive examples. For our data, the average percentage of positive examples was close to 50: 41, 57 and 63&#x000a0;%, for each of the three EC50 cutoffs respectively, so this is not a major concern.</p><p>We further assessed the machine learning methods PS-IRV, SVM, and RF, by measuring their performance at classifying external data obtained from a later version of ChEMBL (Table&#x000a0;<xref rid="Tab2" ref-type="table">2</xref>). For brevity, we only present the average AUC, but enrichment results are available in the Additional files section (cf. Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S3). Overall, the methods obtain similar results, although PS-IRV slightly outperforms the other methods. A paired t test of the AUC values (where AUC performance is paired by target) is available in Additional files (cf. Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Tables S6, S7). The results show a performance drop in comparison to the results of the tenfold cross-validation experiments. This drop is reasonable because the tested approaches, as they are based on fingerprint similarity, will fail at predicting active molecules that are not similar to known actives. This is a well known point of failure in similarity based approaches.</p></sec><sec id="Sec17"><title>Accuracy in simulated target-prediction</title><p>We address the inherent limitation to the use of cross-validation by simulating a more realistic target-prediction experiment as a proxy. To do so, we use the same trained models from the tenfold cross-validation procedure, but augment their test sets with a background dataset of 9000 molecules drawn at random from ChEMBL (the Test-RC dataset). Here we report the results only for the SVM, RF, and PS-IRV models (Table <xref rid="Tab3" ref-type="table">3</xref>; Fig. <xref rid="Fig4" ref-type="fig">4</xref>). For brevity, we only report the AUC results, but enrichment values are available in Additional file (cf. Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S8).</p><p>The simulated target-prediction results are on average similar to the corresponding cross-validation results. Model performances do not drop significantly, which is a sign of robustness. There are however some subtle differences between simulated target-prediction and cross-validation. A paired t test of the AUC values (where AUC performances are paired by target) is available in Additional files (cf. Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Tables S9, S10). For instance, the PS-IRV performs better for a <inline-formula id="IEq56"><alternatives><tex-math id="M125">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M126"><mml:mrow><mml:mn>1</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq56.gif"/></alternatives></inline-formula> cutoff and worse for 5 and <inline-formula id="IEq57"><alternatives><tex-math id="M127">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M128"><mml:mrow><mml:mn>10</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq57.gif"/></alternatives></inline-formula> cutoffs. RF shows a similar trend, but with a more significant degradation in performance. In contrast, SVM shows only slightly worse results for <inline-formula id="IEq58"><alternatives><tex-math id="M129">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M130"><mml:mrow><mml:mn>1</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq58.gif"/></alternatives></inline-formula>, and better ones for 5 and <inline-formula id="IEq59"><alternatives><tex-math id="M131">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M132"><mml:mrow><mml:mn>10</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq59.gif"/></alternatives></inline-formula>. Most importantly, PS-IRV has been confirmed to outperform the other methods on large sets at every cutoff. These same trends are observed when assessing methods by enrichment.</p></sec><sec id="Sec18"><title>Training with random negatives</title><p>In this section, we investigate an approach to further improve performance of the models in the simulated target-prediction assessment by adding a sample of random negative molecules to the training set, labeling them all inactive. Once again, we assess the trained models using the simulated target-prediction protocol described in the previous section. This approach proves to be quite effective (Tables <xref rid="Tab3" ref-type="table">3</xref>, <xref rid="Tab4" ref-type="table">4</xref>; Fig. <xref rid="Fig5" ref-type="fig">5</xref>), as both the AUC and the enrichment metrics are well above 0.90 and 90&#x000a0;%, respectively. This trend is observed across all cutoffs and dataset sizes, using both AUC and enrichment metrics. Finally, we assess the performance of the models trained with random negative molecules in a simulated target-prediction experiment, including the external data from a later version of ChEMBL (Table&#x000a0;<xref rid="Tab5" ref-type="table">5</xref>). For brevity, we only report the AUC results, but enrichment results are available in Additional files (cf. Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Table S11). Overall, the models achieve excellent results for both AUC and enrichment metrics. We observe a small performance drop in comparison to the simulated-target prediction experiment that did not include external ligands. Furthermore, PS-IRV outperforms the other methods at the <inline-formula id="IEq60"><alternatives><tex-math id="M133">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1 \upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M134"><mml:mrow><mml:mn>1</mml:mn><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq60.gif"/></alternatives></inline-formula> cutoff, and matches SVM at the 5 and <inline-formula id="IEq61"><alternatives><tex-math id="M135">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10\, \upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M136"><mml:mrow><mml:mn>10</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq61.gif"/></alternatives></inline-formula> cutoffs. In contrast, RF shows slightly worse performance than the other methods. A paired T-test of the AUC values (where AUC performances are paired by target) is available in Additional files (cf. Additional file <xref rid="MOESM2" ref-type="media">2</xref>: Tables S12, S13).</p></sec><sec id="Sec19"><title>Predictions and interpretability</title><p>Target-prediction methods can be used to screen chemical libraries containing millions of molecules for potential bioactivity and medical relevance. Given a target, one can use these techniques to rapidly screen for molecules with predicted activity against the target. Another approach is to use target-prediction methods to predict the bioactivity of a single molecule against many possible targets. We generally refer to this problem as target &#x0201c;deconvolution&#x0201d; [<xref ref-type="bibr" rid="CR28">28</xref>], which is used to identify novel targets for molecules that already have known target activity [<xref ref-type="bibr" rid="CR2">2</xref>, <xref ref-type="bibr" rid="CR51">51</xref>]. All the methods presented here can be applied to both problems. One of the major issues with target &#x0201c;deconvolution&#x0201d; is model comparability, i.e., comparing models that have been trained independently [<xref ref-type="bibr" rid="CR52">52</xref>]. It is common practice to train an independent model for each of several potential targets. Given a test molecule, each target&#x02019;s model is used to obtain a prediction score, and these scores are sorted to rank the targets. This method assumes that the scores obtained from the different models are directly comparable, a requirement that is not necessarily satisfied unless one imposes some constraints on the output of the models [<xref ref-type="bibr" rid="CR52">52</xref>]. In contrast, probabilistic predictions make direct comparison possible [<xref ref-type="bibr" rid="CR28">28</xref>]. More specifically, the output <italic>O</italic> of a model is a well tuned probability if, for example, a value <inline-formula id="IEq62"><alternatives><tex-math id="M137">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$O = 0.6$$\end{document}</tex-math><mml:math id="M138"><mml:mrow><mml:mi>O</mml:mi><mml:mo>=</mml:mo><mml:mn>0.6</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq62.gif"/></alternatives></inline-formula> means that approximately 60&#x000a0;% of the molecules with a score of 0.6 are true actives [<xref ref-type="bibr" rid="CR53">53</xref>].</p><p>Here we study this condition for the main machine learning methods included in this study: SVM, RF, and PS-IRV. To make sure that the learning process was successful for each model, we select only the targets for which each classifier scored an AUC greater than 0.90. We then sort the predictions in ascending order and partition them into bins of size 0.1. Then we compute the percentage of active molecules for each bin. We iterate this procedure over each of the methods for each cutoff. For SVM and RF, we scale the values to be within the range (0.0, 1.0). The results are shown in Fig. <xref rid="Fig6" ref-type="fig">6</xref>. For SVM, we see that the curve deviates from the ideal straight line. This is reasonable because the output of an SVM model is not directly interpretable as a probability. The curves for both PS-IRV and RF are fairly linear. However, we notice that RF fails to assign the correct probability to the outputs between 0.9 and 1.0.</p><p>Machine learning methods can produce good results in target prediction and other domains [<xref ref-type="bibr" rid="CR54">54</xref>&#x02013;<xref ref-type="bibr" rid="CR56">56</xref>], but they are sometimes criticized as being &#x0201c;black-box&#x0201d; methods, and therefore difficult to interpret. One of the advantages of the IRV over other machine learning methods is precisely its interpretability. Specifically, it exposes the data used to classify each test molecule in such a way that it can be readily visualized and understood. We demonstrate this in Fig. <xref rid="Fig7" ref-type="fig">7</xref> by showing an example taken from the tenfold cross-validation data and how the influence of the neighbors can be visualized. The molecule on the left side is inactive and the molecules on the right side are active (see the original IRV paper [<xref ref-type="bibr" rid="CR5">5</xref>] for additional details).</p></sec><sec id="Sec20"><title>Target-prediction web service</title><p>For more than 1500 proteins, the PS-IRV models achieve greater than 0.9 AUC performance in simulated target-prediction experiments. These models are available through a web server on our chemoinformatics portal (<ext-link ext-link-type="uri" xlink:href="http://chemdb.ics.uci.edu/">http://chemdb.ics.uci.edu/</ext-link>). Users may submit up to 50 molecules in SMILES format, and the request is processed offline. Once the computation is completed, the server sends the results file to a user-specified email address. Results are shown in three comma-separated value tables, each one corresponding to a different cutoff value. Independent tables are generated for each input molecule. In each table, the predicted activities of an input molecule are sorted in ascending order. The targets are identified by their corresponding ChEMBL IDs and preferred names. More information can be found at the chemoinformatics portal at <ext-link ext-link-type="uri" xlink:href="http://chemdb.ics.uci.edu/">http://chemdb.ics.uci.edu/</ext-link>.</p></sec></sec><sec id="Sec21"><title>Conclusion</title><p>In this study we conducted a large-scale assessment of several target-prediction methods using a large dataset of molecule-protein target pairs selected from the ChEMBL database. Methods were compared along several dimensions, by computing the corresponding average AUC and enrichment rank over all the targets. As expected, the more sophisticated machine learning methods outperformed simpler approaches like MaxSim, MeanSim, and kNN. IRV-based methods compared favorably with SVMs and RFs. Finally, we introduced a variant of the basic IRV method, the Potency-Sensitive IRV, which showed a small but statistically significant performance improvement over other methods by leveraging potency information. We also demonstrated that adding random negative molecules to the training sets dramatically improved the ability of the PS-IRV, SVM, and RF models to identify active molecules from a large set of inactive ones. Finally, we showed how IRV-based methods have the advantage of producing a probabilistic output which is easily interpreted visually. We leave for future work the application of even more complex methods, such as undirected graph recursive neural networks (UG-RNNs) [<xref ref-type="bibr" rid="CR57">57</xref>], to large-scale drug-target screening problems.<fig id="Fig1"><label>Fig. 1</label><caption><p>Distribution of the number of molecules associated with each protein. The <italic>x</italic> axis bins proteins by the number of small-molecule data-points with which they are associated. The <italic>y</italic> axis plots the number of proteins in each bin. There are 2108 protein targets. About 33&#x000a0;% of these datasets contain more than 100 molecules</p></caption><graphic xlink:href="13321_2015_110_Fig1_HTML" id="MO8"/></fig><fig id="Fig2"><label>Fig. 2</label><caption><p>Cross-validation experiment: AUC scores as dataset size grows. Average AUC (<italic>y</italic> axis) plotted as a function of the minimum number of training molecules on the <italic>x</italic> axis. Model performance (AUC) increases as datasets with fewer examples are excluded</p></caption><graphic xlink:href="13321_2015_110_Fig2_HTML" id="MO9"/></fig><fig id="Fig3"><label>Fig. 3</label><caption><p>Cross-validation experiment: best performing models as dataset size grows. The fraction of times each model achieves the best performance for a dataset is plotted on the <italic>vertical axis</italic>, excluding datasets containing a number of molecules smaller than a specified size. PS-IRV is more consistently the best performer as more of the smaller datasets are excluded</p></caption><graphic xlink:href="13321_2015_110_Fig3_HTML" id="MO10"/></fig><fig id="Fig4"><label>Fig. 4</label><caption><p>Simulated target-prediction experiment: AUC scores as dataset size grows. Average AUC (<italic>y</italic> axis) plotted as a function of the minimum number of training molecules (<italic>x</italic> axis). Each method&#x02019;s ability to separate known actives from a background set of 9000 random ChEMBL molecules, assumed to be inactive, is measured. Training sets are not augmented</p></caption><graphic xlink:href="13321_2015_110_Fig4_HTML" id="MO11"/></fig><fig id="Fig5"><label>Fig. 5</label><caption><p>Simulated target-prediction experiment when training with random negatives: AUC scores as dataset size grows. Average AUC (<italic>y</italic> axis) plotted as a function of the minimum number of training molecules (<italic>x</italic> axis). Each method&#x02019;s ability to separate known actives from a background set of 9000 random ChEMBL molecules, assumed to be inactive, is measured. 1000 random negative molecules are added to the original training sets. The extended training sets result in significant performance improvements</p></caption><graphic xlink:href="13321_2015_110_Fig5_HTML" id="MO12"/></fig><fig id="Fig6"><label>Fig. 6</label><caption><p>Probabilistic predictions. This reliability diagram plots the percentage of positive molecules (<italic>y</italic> axis) in the respective bins of molecules with similar prediction values (<italic>x</italic> axis). The data is collected from the outputs of the target-prediction models with AUC greater than 0.90. The PS-IRV and RF both produce lines that closely follow the <italic>y</italic> = <italic>x</italic>
+<italic>line</italic>, indicating that their output can be interpreted as a probability</p></caption><graphic xlink:href="13321_2015_110_Fig6_HTML" id="MO13"/></fig><fig id="Fig7"><label>Fig. 7</label><caption><p>IRV Interpretability. A test molecule is shown at center, along with its neighbors and their influences. Each neighbor&#x02019;s influence factors into the overall vote determining the predicted activity of the test molecule. This test molecule has been experimentally determined as active, and is predicted by IRV to be active given its neighbors and their influences</p></caption><graphic xlink:href="13321_2015_110_Fig7_HTML" id="MO14"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>AUC performance in the cross-validation experiment on the ChEMBL dataset</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Cutoff (<inline-formula id="IEq631"><alternatives><tex-math id="M139">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M140"><mml:mrow><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq631.gif"/></alternatives></inline-formula>)</th><th align="left">MaxSim</th><th align="left">MeanSim</th><th align="left">11NN</th><th align="left">IRV</th><th align="left">PS-IRV</th><th align="left">SVM</th><th align="left">RF</th></tr></thead><tbody><tr><td align="left" colspan="8">All datasets</td></tr><tr><td align="left"> &#x000a0;<inline-formula id="IEq63"><alternatives><tex-math id="M141">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1$$\end{document}</tex-math><mml:math id="M142"><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq63.gif"/></alternatives></inline-formula>
+</td><td align="left">0.79</td><td align="left">0.76</td><td align="left">0.81</td><td align="left">
+<italic>0</italic>.<italic>86</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>86</italic>
+</td><td align="left">0.84</td><td align="left">0.84</td></tr><tr><td align="left">&#x000a0;&#x000a0;<inline-formula id="IEq64"><alternatives><tex-math id="M143">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$5$$\end{document}</tex-math><mml:math id="M144"><mml:mrow><mml:mn>5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq64.gif"/></alternatives></inline-formula>
+</td><td align="left">0.76</td><td align="left">0.74</td><td align="left">0.82</td><td align="left">0.84</td><td align="left">
+<italic>0</italic>.<italic>85</italic>
+</td><td align="left">0.84</td><td align="left">0.82</td></tr><tr><td align="left">&#x000a0;&#x000a0;<inline-formula id="IEq65"><alternatives><tex-math id="M145">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10$$\end{document}</tex-math><mml:math id="M146"><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq65.gif"/></alternatives></inline-formula>
+</td><td align="left">0.75</td><td align="left">0.73</td><td align="left">0.81</td><td align="left">
+<italic>0</italic>.<italic>84</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>85</italic>
+</td><td align="left">0.84</td><td align="left">0.82</td></tr><tr><td align="left" colspan="8">Datasets with fewer than 100 molecules</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq66"><alternatives><tex-math id="M147">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1$$\end{document}</tex-math><mml:math id="M148"><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq66.gif"/></alternatives></inline-formula>
+</td><td align="left">0.75</td><td align="left">0.75</td><td align="left">0.75</td><td align="left">
+<italic>0</italic>.<italic>78</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>78</italic>
+</td><td align="left">0.77</td><td align="left">
+<italic>0</italic>.<italic>78</italic>
+</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq67"><alternatives><tex-math id="M149">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$5$$\end{document}</tex-math><mml:math id="M150"><mml:mrow><mml:mn>5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq67.gif"/></alternatives></inline-formula>
+</td><td align="left">0.72</td><td align="left">0.73</td><td align="left">0.74</td><td align="left">0.74</td><td align="left">0.76</td><td align="left">
+<italic>0</italic>.<italic>77</italic>
+</td><td align="left">0.76</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq68"><alternatives><tex-math id="M151">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10$$\end{document}</tex-math><mml:math id="M152"><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq68.gif"/></alternatives></inline-formula>
+</td><td align="left">0.71</td><td align="left">0.71</td><td align="left">0.74</td><td align="left">0.75</td><td align="left">0.75</td><td align="left">
+<italic>0</italic>.<italic>76</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>76</italic>
+</td></tr><tr><td align="left" colspan="8">Datasets with more than 100 molecules</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq69"><alternatives><tex-math id="M153">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1$$\end{document}</tex-math><mml:math id="M154"><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq69.gif"/></alternatives></inline-formula>
+</td><td align="left">0.80</td><td align="left">0.76</td><td align="left">0.73</td><td align="left">0.87</td><td align="left">
+<italic>0</italic>.<italic>88</italic>
+</td><td align="left">0.85</td><td align="left">0.85</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq70"><alternatives><tex-math id="M155">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$5$$\end{document}</tex-math><mml:math id="M156"><mml:mrow><mml:mn>5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq70.gif"/></alternatives></inline-formula>
+</td><td align="left">0.77</td><td align="left">0.74</td><td align="left">0.84</td><td align="left">0.87</td><td align="left">
+<italic>0</italic>.<italic>88</italic>
+</td><td align="left">0.86</td><td align="left">0.84</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq71"><alternatives><tex-math id="M157">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10$$\end{document}</tex-math><mml:math id="M158"><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq71.gif"/></alternatives></inline-formula>
+</td><td align="left">0.77</td><td align="left">0.73</td><td align="left">0.84</td><td align="left">0.87</td><td align="left">
+<italic>0</italic>.<italic>88</italic>
+</td><td align="left">0.86</td><td align="left">0.86</td></tr><tr><td align="left" colspan="8">Datasets with more than 200 molecules</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq72"><alternatives><tex-math id="M159">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1$$\end{document}</tex-math><mml:math id="M160"><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq72.gif"/></alternatives></inline-formula>
+</td><td align="left">0.81</td><td align="left">0.75</td><td align="left">0.84</td><td align="left">0.89</td><td align="left">
+<italic>0</italic>.<italic>89</italic>
+</td><td align="left">0.86</td><td align="left">0.86</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq73"><alternatives><tex-math id="M161">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$5$$\end{document}</tex-math><mml:math id="M162"><mml:mrow><mml:mn>5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq73.gif"/></alternatives></inline-formula>
+</td><td align="left">0.78</td><td align="left">0.74</td><td align="left">0.86</td><td align="left">0.89</td><td align="left">
+<italic>0</italic>.<italic>90</italic>
+</td><td align="left">0.87</td><td align="left">0.86</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq74"><alternatives><tex-math id="M163">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10$$\end{document}</tex-math><mml:math id="M164"><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq74.gif"/></alternatives></inline-formula>
+</td><td align="left">0.77</td><td align="left">0.73</td><td align="left">0.86</td><td align="left">0.88</td><td align="left">
+<italic>0</italic>.<italic>90</italic>
+</td><td align="left">0.87</td><td align="left">0.85</td></tr></tbody></table><table-wrap-foot><p>Each section of the table shows the average performance for datasets of different sizes</p><p>Best results within each group are in italics</p></table-wrap-foot></table-wrap><table-wrap id="Tab2"><label>Table 2</label><caption><p>AUC performance in the cross-validation experiment on the external validation (ChEMBL 19) dataset</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Cutoff (<inline-formula id="IEq632"><alternatives><tex-math id="M165">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M166"><mml:mrow><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq632.gif"/></alternatives></inline-formula>)</th><th align="left">PS-IRV</th><th align="left">SVM</th><th align="left">RF</th></tr></thead><tbody><tr><td align="left" colspan="4">All datasets</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq75"><alternatives><tex-math id="M167">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1$$\end{document}</tex-math><mml:math id="M168"><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq75.gif"/></alternatives></inline-formula>
+</td><td align="left">
+<italic>0</italic>.<italic>70</italic>
+</td><td align="left">0.69</td><td align="left">0.68</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq76"><alternatives><tex-math id="M169">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$5$$\end{document}</tex-math><mml:math id="M170"><mml:mrow><mml:mn>5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq76.gif"/></alternatives></inline-formula>
+</td><td align="left">
+<italic>0</italic>.<italic>69</italic>
+</td><td align="left">0.67</td><td align="left">0.67</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq77"><alternatives><tex-math id="M171">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10$$\end{document}</tex-math><mml:math id="M172"><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq77.gif"/></alternatives></inline-formula>
+</td><td align="left">
+<italic>0</italic>.<italic>69</italic>
+</td><td align="left">0.66</td><td align="left">0.67</td></tr><tr><td align="left" colspan="4">Datasets with more than 100 molecules</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq78"><alternatives><tex-math id="M173">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1$$\end{document}</tex-math><mml:math id="M174"><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq78.gif"/></alternatives></inline-formula>
+</td><td align="left">
+<italic>0</italic>.<italic>71</italic>
+</td><td align="left">0.70</td><td align="left">0.70</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq79"><alternatives><tex-math id="M175">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$5$$\end{document}</tex-math><mml:math id="M176"><mml:mrow><mml:mn>5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq79.gif"/></alternatives></inline-formula>
+</td><td align="left">
+<italic>0</italic>.<italic>70</italic>
+</td><td align="left">0.68</td><td align="left">0.69</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq80"><alternatives><tex-math id="M177">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10$$\end{document}</tex-math><mml:math id="M178"><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq80.gif"/></alternatives></inline-formula>
+</td><td align="left">
+<italic>0</italic>.<italic>70</italic>
+</td><td align="left">0.67</td><td align="left">0.67</td></tr><tr><td align="left" colspan="4">Datasets with more than 200 molecules</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq81"><alternatives><tex-math id="M179">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1$$\end{document}</tex-math><mml:math id="M180"><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq81.gif"/></alternatives></inline-formula>
+</td><td align="left">
+<italic>0</italic>.<italic>72</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>72</italic>
+</td><td align="left">0.71</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq82"><alternatives><tex-math id="M181">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$5$$\end{document}</tex-math><mml:math id="M182"><mml:mrow><mml:mn>5</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq82.gif"/></alternatives></inline-formula>
+</td><td align="left">
+<italic>0</italic>.<italic>71</italic>
+</td><td align="left">0.69</td><td align="left">0.70</td></tr><tr><td align="left">&#x000a0;<inline-formula id="IEq83"><alternatives><tex-math id="M183">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10$$\end{document}</tex-math><mml:math id="M184"><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq83.gif"/></alternatives></inline-formula>
+</td><td align="left">
+<italic>0</italic>.<italic>70</italic>
+</td><td align="left">0.68</td><td align="left">0.68</td></tr></tbody></table><table-wrap-foot><p>Models were trained on the ChEMBL 13 dataset</p><p>Each section of the table shows the average performance for datasets of different sizes</p><p>Best results within each group are in italics</p></table-wrap-foot></table-wrap><table-wrap id="Tab3"><label>Table 3</label><caption><p>AUC performance in the simulated target-prediction experiments</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Method</th><th align="left">Average AUC (<inline-formula id="IEq84"><alternatives><tex-math id="M185">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M186"><mml:mrow><mml:mn>1</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq84.gif"/></alternatives></inline-formula>)</th><th align="left">Average AUC (<inline-formula id="IEq85"><alternatives><tex-math id="M187">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$5\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M188"><mml:mrow><mml:mn>5</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq85.gif"/></alternatives></inline-formula>)</th><th align="left">Average AUC (<inline-formula id="IEq86"><alternatives><tex-math id="M189">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M190"><mml:mrow><mml:mn>10</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq86.gif"/></alternatives></inline-formula>)</th></tr></thead><tbody><tr><td align="left" colspan="4">Training without random negatives</td></tr><tr><td align="left">&#x000a0;PS-IRV</td><td align="left">
+<italic>0</italic>.<italic>88</italic>
+</td><td align="left">0.84</td><td align="left">0.83</td></tr><tr><td align="left">&#x000a0;SVM</td><td align="left">0.84</td><td align="left">
+<italic>0</italic>.<italic>85</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>85</italic>
+</td></tr><tr><td align="left">&#x000a0;RF</td><td align="left">0.84</td><td align="left">0.80</td><td align="left">0.79</td></tr><tr><td align="left" colspan="4">Training with random negatives</td></tr><tr><td align="left">&#x000a0;PS-IRV</td><td align="left">
+<italic>0</italic>.<italic>98</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>98</italic>
+</td><td align="left">0.97</td></tr><tr><td align="left">&#x000a0;SVM</td><td align="left">
+<italic>0</italic>.<italic>98</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>98</italic>
+</td><td align="left">0.98</td></tr><tr><td align="left">&#x000a0;RF</td><td align="left">
+<italic>0</italic>.<italic>98</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>98</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>98</italic>
+</td></tr></tbody></table><table-wrap-foot><p>Models were trained using a tenfold cross-validation protocol and tested on the corresponding test set augmented with 9000 randomly selected ChEMBL molecules</p><p>In the top panel, models were trained in the standard way, without random negatives. In the bottom panel, the training set was supplemented with 1000 random negatives</p><p>Adding random negatives dramatically improves the performance of all methods</p><p>Best results are in italics</p></table-wrap-foot></table-wrap><table-wrap id="Tab4"><label>Table 4</label><caption><p>Average enrichment in the simulated target-prediction experiment when training with random negatives</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Enrichment (%)</th><th align="left">PS-IRV</th><th align="left">SVM</th><th align="left">RF</th></tr></thead><tbody><tr><td align="left" colspan="4">
+<inline-formula id="IEq87"><alternatives><tex-math id="M191">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M192"><mml:mrow><mml:mn>1</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq87.gif"/></alternatives></inline-formula> cutoff</td></tr><tr><td align="left"> &#x000a0;5</td><td align="left">
+<italic>96</italic>
+</td><td align="left">92</td><td align="left">95</td></tr><tr><td align="left">&#x000a0;10</td><td align="left">
+<italic>98</italic>
+</td><td align="left">94</td><td align="left">96</td></tr><tr><td align="left">&#x000a0;20</td><td align="left">
+<italic>98</italic>
+</td><td align="left">97</td><td align="left">97</td></tr><tr><td align="left">&#x000a0;30</td><td align="left">
+<italic>99</italic>
+</td><td align="left">
+<italic>98</italic>
+</td><td align="left">97</td></tr><tr><td align="left" colspan="4">
+<inline-formula id="IEq88"><alternatives><tex-math id="M193">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$5\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M194"><mml:mrow><mml:mn>5</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq88.gif"/></alternatives></inline-formula> cutoff</td></tr><tr><td align="left">&#x000a0;5</td><td align="left">
+<italic>95</italic>
+</td><td align="left">92</td><td align="left">
+<italic>95</italic>
+</td></tr><tr><td align="left">&#x000a0;10</td><td align="left">
+<italic>97</italic>
+</td><td align="left">94</td><td align="left">96</td></tr><tr><td align="left">&#x000a0;20</td><td align="left">
+<italic>98</italic>
+</td><td align="left">97</td><td align="left">97</td></tr><tr><td align="left">&#x000a0;30</td><td align="left">98</td><td align="left">98</td><td align="left">97</td></tr><tr><td align="left" colspan="4">
+<inline-formula id="IEq89"><alternatives><tex-math id="M195">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M196"><mml:mrow><mml:mn>10</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq89.gif"/></alternatives></inline-formula> cutoff</td></tr><tr><td align="left">&#x000a0;5</td><td align="left">
+<italic>94</italic>
+</td><td align="left">
+<italic>94</italic>
+</td><td align="left">93</td></tr><tr><td align="left">&#x000a0;10</td><td align="left">
+<italic>96</italic>
+</td><td align="left">95</td><td align="left">
+<italic>96</italic>
+</td></tr><tr><td align="left">&#x000a0;20</td><td align="left">
+<italic>97</italic>
+</td><td align="left">
+<italic>97</italic>
+</td><td align="left">
+<italic>97</italic>
+</td></tr><tr><td align="left">&#x000a0;30</td><td align="left">97</td><td align="left">
+<italic>98</italic>
+</td><td align="left">97</td></tr></tbody></table><table-wrap-foot><p>Models are tested using 10-fold cross-validation. 9000 randomly selected ChEMBL molecules are added to the original test set as putative inactives. 1000 randomly selected ChEMBL molecules are added to the original training sets as putative inactives. Best results at each cutoff are in italics</p></table-wrap-foot></table-wrap><table-wrap id="Tab5"><label>Table 5</label><caption><p>AUC performance in the simulated target-prediction experiment including external validation molecules</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="left">Method</th><th align="left">
+<inline-formula id="IEq90"><alternatives><tex-math id="M197">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$1\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M198"><mml:mrow><mml:mn>1</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq90.gif"/></alternatives></inline-formula>
+</th><th align="left">
+<inline-formula id="IEq91"><alternatives><tex-math id="M199">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$5\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M200"><mml:mrow><mml:mn>5</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq91.gif"/></alternatives></inline-formula>
+</th><th align="left">
+<inline-formula id="IEq92"><alternatives><tex-math id="M201">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$10\,\upmu \hbox {M}$$\end{document}</tex-math><mml:math id="M202"><mml:mrow><mml:mn>10</mml:mn><mml:mspace width="0.166667em"/><mml:mi mathvariant="normal">&#x003bc;</mml:mi><mml:mtext>M</mml:mtext></mml:mrow></mml:math><inline-graphic xlink:href="13321_2015_110_Article_IEq92.gif"/></alternatives></inline-formula>
+</th></tr></thead><tbody><tr><td align="left" colspan="4">Average AUC</td></tr><tr><td align="left"> &#x000a0;PS-IRV</td><td align="left">
+<italic>0</italic>.<italic>90</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>87</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>86</italic>
+</td></tr><tr><td align="left">&#x000a0;SVM</td><td align="left">0.88</td><td align="left">0.86</td><td align="left">
+<italic>0</italic>.<italic>86</italic>
+</td></tr><tr><td align="left">&#x000a0;RF</td><td align="left">0.85</td><td align="left">0.84</td><td align="left">0.84</td></tr><tr><td align="left" colspan="4">Median AUC</td></tr><tr><td align="left">&#x000a0;PS-IRV</td><td align="left">
+<italic>0</italic>.<italic>96</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>94</italic>
+</td><td align="left">
+<italic>0</italic>.<italic>93</italic>
+</td></tr><tr><td align="left">&#x000a0;SVM</td><td align="left">0.94</td><td align="left">0.93</td><td align="left">
+<italic>0</italic>.<italic>93</italic>
+</td></tr><tr><td align="left">&#x000a0;RF</td><td align="left">0.93</td><td align="left">0.91</td><td align="left">0.90</td></tr></tbody></table><table-wrap-foot><p>Models are trained using 10-fold cross-validation and tested on the external validation set</p><p>Training and test sets are augmented with 1000 and 9000 random negative molecules respectively</p><p>Here, we report both average and median AUC as we find a significant difference between the two measures. The results suggest that if we exclude a few outliers, AUC performance is consistently above 0.90 for each method. Best results are in italics</p></table-wrap-foot></table-wrap></p></sec></body><back><app-group><app id="App1"><sec id="Sec22"><title>Additional files</title><p><media position="anchor" xlink:href="13321_2015_110_MOESM1_ESM.csv" id="MOESM1"><caption><p>
+10.1186/s13321-015-0110-6 Protein targets list.</p></caption></media><media position="anchor" xlink:href="13321_2015_110_MOESM2_ESM.pdf" id="MOESM2"><caption><p>
+10.1186/s13321-015-0110-6 Additional tables and figures.</p></caption></media></p></sec></app></app-group><ack><title>Authors&#x02019; contributions</title><p>AL implemented the algorithms, ran the simulations, and helped draft the manuscript. DF tested software, helped analyze the data, and helped draft and edit the manuscript. MB contributed data and data analysis. JS participated in the design of the study and provided feedback. PB participated in the design and coordination of the study, provided feedback, and helped draft and edit the manuscript. All authors read and approved the final manuscript.</p><sec id="FPar2"><title>Acknowledgements</title><p>AL, DF, and PB&#x02019;s research was supported by Grants NSF IIS-0513376, NIH LM010235, and NIH NLM T15 LM07443 and a Google Faculty Research award to PB. We acknowledge OpenEye Scientific Software for its academic software license, NVIDIA for a hardware donation, and Yuzo Kanomata for computing support.</p></sec><sec id="FPar1"><title>Competing interests</title><p>The authors declare that they have no competing interests.</p></sec></ack><ref-list id="Bib1"><title>References</title><ref id="CR1"><label>1.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lounkine</surname><given-names>E</given-names></name><name><surname>Keiser</surname><given-names>MJ</given-names></name><name><surname>Whitebread</surname><given-names>S</given-names></name><name><surname>Mikhailov</surname><given-names>D</given-names></name><name><surname>Hamon</surname><given-names>J</given-names></name><name><surname>Jenkins</surname><given-names>JL</given-names></name><name><surname>Lavan</surname><given-names>P</given-names></name><name><surname>Weber</surname><given-names>E</given-names></name><name><surname>Doak</surname><given-names>AK</given-names></name><name><surname>Cote</surname><given-names>S</given-names></name></person-group><article-title>Large-scale prediction and testing of drug activity on side-effect targets</article-title><source>Nature</source><year>2012</year><volume>486</volume><issue>7403</issue><fpage>361</fpage><lpage>367</lpage><pub-id pub-id-type="pmid">22722194</pub-id></element-citation></ref><ref id="CR2"><label>2.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Keiser</surname><given-names>MJ</given-names></name><name><surname>Setola</surname><given-names>V</given-names></name><name><surname>Irwin</surname><given-names>JJ</given-names></name><name><surname>Laggner</surname><given-names>C</given-names></name><name><surname>Abbas</surname><given-names>AI</given-names></name><name><surname>Hufeisen</surname><given-names>SJ</given-names></name><name><surname>Jensen</surname><given-names>NH</given-names></name><name><surname>Kuijer</surname><given-names>MB</given-names></name><name><surname>Matos</surname><given-names>RC</given-names></name><name><surname>Tran</surname><given-names>TB</given-names></name></person-group><article-title>Predicting new molecular targets for known drugs</article-title><source>Nature</source><year>2009</year><volume>462</volume><issue>7270</issue><fpage>175</fpage><lpage>181</lpage><pub-id pub-id-type="doi">10.1038/nature08506</pub-id><pub-id pub-id-type="pmid">19881490</pub-id></element-citation></ref><ref id="CR3"><label>3.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schwab</surname><given-names>CH</given-names></name></person-group><article-title>Conformations and 3d pharmacophore searching</article-title><source>Drug Discov Today Technol</source><year>2011</year><volume>7</volume><issue>4</issue><fpage>245</fpage><lpage>253</lpage><pub-id pub-id-type="doi">10.1016/j.ddtec.2010.10.003</pub-id></element-citation></ref><ref id="CR4"><label>4.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ripphausen</surname><given-names>P</given-names></name><name><surname>Nisius</surname><given-names>B</given-names></name><name><surname>Bajorath</surname><given-names>J</given-names></name></person-group><article-title>State-of-the-art in ligand-based virtual screening</article-title><source>Drug Discov Today</source><year>2011</year><volume>16</volume><issue>9</issue><fpage>372</fpage><lpage>376</lpage><pub-id pub-id-type="doi">10.1016/j.drudis.2011.02.011</pub-id><pub-id pub-id-type="pmid">21349346</pub-id></element-citation></ref><ref id="CR5"><label>5.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Swamidass</surname><given-names>SJ</given-names></name><name><surname>Azencott</surname><given-names>C-A</given-names></name><name><surname>Lin</surname><given-names>T-W</given-names></name><name><surname>Gramajo</surname><given-names>H</given-names></name><name><surname>Tsai</surname><given-names>S-C</given-names></name><name><surname>Baldi</surname><given-names>P</given-names></name></person-group><article-title>Influence relevance voting: an accurate and interpretable virtual high throughput screening method</article-title><source>J Chem Inf Model</source><year>2009</year><volume>49</volume><issue>4</issue><fpage>756</fpage><lpage>766</lpage><pub-id pub-id-type="doi">10.1021/ci8004379</pub-id><pub-id pub-id-type="pmid">19391629</pub-id></element-citation></ref><ref id="CR6"><label>6.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Simon</surname><given-names>Z</given-names></name><name><surname>Peragovics</surname><given-names>&#x000c1;</given-names></name><name><surname>Vigh-Smeller</surname><given-names>M</given-names></name><name><surname>Csukly</surname><given-names>G</given-names></name><name><surname>Tombor</surname><given-names>L</given-names></name><name><surname>Yang</surname><given-names>Z</given-names></name><name><surname>Zahor&#x000e1;nszky-K&#x00151;halmi</surname><given-names>G</given-names></name><name><surname>V&#x000e9;gner</surname><given-names>L</given-names></name><name><surname>Jelinek</surname><given-names>B</given-names></name><name><surname>H&#x000e1;ri</surname><given-names>P</given-names></name></person-group><article-title>Drug effect prediction by polypharmacology-based interaction profiling</article-title><source>J Chem Inf Model</source><year>2011</year><volume>52</volume><issue>1</issue><fpage>134</fpage><lpage>145</lpage><pub-id pub-id-type="doi">10.1021/ci2002022</pub-id><pub-id pub-id-type="pmid">22098080</pub-id></element-citation></ref><ref id="CR7"><label>7.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Meslamani</surname><given-names>J</given-names></name><name><surname>Bhajun</surname><given-names>R</given-names></name><name><surname>Martz</surname><given-names>F</given-names></name><name><surname>Rognan</surname><given-names>D</given-names></name></person-group><article-title>Computational profiling of bioactive compounds using a target-dependent composite workflow</article-title><source>J Chem Inf Model</source><year>2013</year><volume>53</volume><issue>9</issue><fpage>2322</fpage><lpage>2333</lpage><pub-id pub-id-type="doi">10.1021/ci400303n</pub-id><pub-id pub-id-type="pmid">23941602</pub-id></element-citation></ref><ref id="CR8"><label>8.</label><mixed-citation publication-type="other">Heikamp K, Bajorath J (2011) Large-scale similarity search profiling of chembl compound data sets. J Chem Inf Model 51(8):1831&#x02013;1839</mixed-citation></ref><ref id="CR9"><label>9.</label><mixed-citation publication-type="other">Vidal D, Mestres J (2010) In silico receptorome screening of antipsychotic drugs. Mol Inf 29(6-7):543&#x02013;551</mixed-citation></ref><ref id="CR10"><label>10.</label><mixed-citation publication-type="other">Sugaya N (2013) Training based on ligand efficiency improves prediction of bioactivities of ligands and drug target proteins in a machine learning approach. J Chem Inf Model 53(10):2525&#x02013;2537</mixed-citation></ref><ref id="CR11"><label>11.</label><mixed-citation publication-type="other">Sugaya N (2014) Ligand efficiency-based support vector regression models for predicting bioactivities of ligands to drug target proteins. J Chem Inf Model 54(10):2751&#x02013;2763</mixed-citation></ref><ref id="CR12"><label>12.</label><mixed-citation publication-type="other">Alvarsson J, Eklund M, Engkvist O, Spjuth O, Carlsson L, Wikberg JE, Noeske T (2014) Ligand-based target prediction with signature fingerprints. J Chem Inf Model 54(10):2647&#x02013;2653</mixed-citation></ref><ref id="CR13"><label>13.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Simmons</surname><given-names>KJ</given-names></name><name><surname>Chopra</surname><given-names>I</given-names></name><name><surname>Fishwick</surname><given-names>CW</given-names></name></person-group><article-title>Structure-based discovery of antibacterial drugs</article-title><source>Nat Rev Microbiol</source><year>2010</year><volume>8</volume><issue>7</issue><fpage>501</fpage><lpage>510</lpage><pub-id pub-id-type="doi">10.1038/nrmicro2349</pub-id><pub-id pub-id-type="pmid">20551974</pub-id></element-citation></ref><ref id="CR14"><label>14.</label><mixed-citation publication-type="other">Lill M (2013) Virtual screening in drug design. In: In Silico Models for Drug Discovery. Springer, New york, pp. 1&#x02013;12</mixed-citation></ref><ref id="CR15"><label>15.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Breault</surname><given-names>GA</given-names></name><name><surname>Comita-Prevoir</surname><given-names>J</given-names></name><name><surname>Eyermann</surname><given-names>CJ</given-names></name><name><surname>Geng</surname><given-names>B</given-names></name><name><surname>Petrichko</surname><given-names>R</given-names></name><name><surname>Doig</surname><given-names>P</given-names></name><name><surname>Gorseth</surname><given-names>E</given-names></name><name><surname>Noonan</surname><given-names>B</given-names></name></person-group><article-title>Exploring 8-benzyl pteridine-6, 7-diones as inhibitors of glutamate racemase (muri) in gram-positive bacteria</article-title><source>Bioorg Med Chem Lett</source><year>2008</year><volume>18</volume><issue>23</issue><fpage>6100</fpage><lpage>6103</lpage><pub-id pub-id-type="doi">10.1016/j.bmcl.2008.10.022</pub-id><pub-id pub-id-type="pmid">18947997</pub-id></element-citation></ref><ref id="CR16"><label>16.</label><mixed-citation publication-type="other">Baldi P, Nasr R (2010) When is chemical similarity significant? the statistical distribution of chemical similarity scores and its extreme values. J Chem Inf Model:1205&#x02013;1222 <bold>(in press)</bold></mixed-citation></ref><ref id="CR17"><label>17.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Nasr</surname><given-names>R</given-names></name><name><surname>Vernica</surname><given-names>R</given-names></name><name><surname>Li</surname><given-names>C</given-names></name><name><surname>Baldi</surname><given-names>P</given-names></name></person-group><article-title>Speeding up chemical searches using the inverted index: the convergence of chemoinformatics and text search methods</article-title><source>J Chem Inf Model</source><year>2012</year><volume>52</volume><issue>4</issue><fpage>891</fpage><lpage>900</lpage><pub-id pub-id-type="doi">10.1021/ci200552r</pub-id><pub-id pub-id-type="pmid">22462644</pub-id></element-citation></ref><ref id="CR18"><label>18.</label><mixed-citation publication-type="other">Chen J, Swamidass SJ, Dou Y, Bruand J, Baldi P (2005) ChemDB: a public database of small molecules and related chemoinformatics resources. Bioinformatics 21:4133&#x02013;4139</mixed-citation></ref><ref id="CR19"><label>19.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chen</surname><given-names>JH</given-names></name><name><surname>Linstead</surname><given-names>E</given-names></name><name><surname>Swamidass</surname><given-names>SJ</given-names></name><name><surname>Wang</surname><given-names>D</given-names></name><name><surname>Baldi</surname><given-names>P</given-names></name></person-group><article-title>ChemDB update-full-text search and virtual chemical space</article-title><source>Bioinformatics</source><year>2007</year><volume>23</volume><issue>17</issue><fpage>2348</fpage><lpage>2351</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/btm341</pub-id><pub-id pub-id-type="pmid">17599932</pub-id></element-citation></ref><ref id="CR20"><label>20.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hert</surname><given-names>J</given-names></name><name><surname>Keiser</surname><given-names>MJ</given-names></name><name><surname>Irwin</surname><given-names>JJ</given-names></name><name><surname>Oprea</surname><given-names>TI</given-names></name><name><surname>Shoichet</surname><given-names>BK</given-names></name></person-group><article-title>Quantifying the relationships among drug classes</article-title><source>J Chem Inf Model</source><year>2008</year><volume>48</volume><issue>4</issue><fpage>755</fpage><lpage>765</lpage><pub-id pub-id-type="doi">10.1021/ci8000259</pub-id><pub-id pub-id-type="pmid">18335977</pub-id></element-citation></ref><ref id="CR21"><label>21.</label><mixed-citation publication-type="other">Olah M, Mracec M, Ostopovici L, Rad R, Bora A, Hadaruga N, Olah I, Banda M, Simon Z (2004) Wombat: world of molecular bioactivity. Chemoinformatics Drug Discov 1</mixed-citation></ref><ref id="CR22"><label>22.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gregori-Puigjan&#x000e9;</surname><given-names>E</given-names></name><name><surname>Mestres</surname><given-names>J</given-names></name></person-group><article-title>A ligand-based approach to mining the chemogenomic space of drugs</article-title><source>Comb Chem High Throughput Screen</source><year>2008</year><volume>11</volume><issue>8</issue><fpage>669</fpage><lpage>676</lpage><pub-id pub-id-type="doi">10.2174/138620708785739952</pub-id><pub-id pub-id-type="pmid">18795886</pub-id></element-citation></ref><ref id="CR23"><label>23.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mestres</surname><given-names>J</given-names></name><name><surname>Gregori-Puigjan&#x000e9;</surname><given-names>E</given-names></name><name><surname>Valverde</surname><given-names>S</given-names></name><name><surname>Sol&#x000e9;</surname><given-names>RV</given-names></name></person-group><article-title>The topology of drug-target interaction networks: implicit dependence on drug properties and target families</article-title><source>Mol Biosyst</source><year>2009</year><volume>5</volume><issue>9</issue><fpage>1051</fpage><lpage>1057</lpage><pub-id pub-id-type="doi">10.1039/b905821b</pub-id><pub-id pub-id-type="pmid">19668871</pub-id></element-citation></ref><ref id="CR24"><label>24.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Nidhi</surname><given-names>GM</given-names></name><name><surname>Davies</surname><given-names>JW</given-names></name><name><surname>Jenkins</surname><given-names>JL</given-names></name></person-group><article-title>Prediction of biological targets for compounds using multiple-category bayesian models trained on chemogenomics databases</article-title><source>J Chem Inf Model</source><year>2006</year><volume>46</volume><issue>3</issue><fpage>1124</fpage><lpage>1133</lpage><pub-id pub-id-type="doi">10.1021/ci060003g</pub-id><pub-id pub-id-type="pmid">16711732</pub-id></element-citation></ref><ref id="CR25"><label>25.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Heikamp</surname><given-names>K</given-names></name><name><surname>Bajorath</surname><given-names>J</given-names></name></person-group><article-title>The future of virtual compound screening</article-title><source>Chem Biol Drug Des</source><year>2013</year><volume>81</volume><issue>1</issue><fpage>33</fpage><lpage>40</lpage><pub-id pub-id-type="doi">10.1111/cbdd.12054</pub-id><pub-id pub-id-type="pmid">23253129</pub-id></element-citation></ref><ref id="CR26"><label>26.</label><mixed-citation publication-type="other">ChEMBL (2014)</mixed-citation></ref><ref id="CR27"><label>27.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hausmann</surname><given-names>H</given-names></name><name><surname>Richters</surname><given-names>A</given-names></name><name><surname>Kreienkamp</surname><given-names>HJ</given-names></name><name><surname>Meyerhof</surname><given-names>W</given-names></name><name><surname>Mattes</surname><given-names>H</given-names></name><name><surname>Lederis</surname><given-names>K</given-names></name><name><surname>Zwiers</surname><given-names>H</given-names></name><name><surname>Richter</surname><given-names>D</given-names></name></person-group><article-title>Mutational analysis and molecular modeling of the nonapeptide hormone binding domains of the [arg8]vasotocin receptor</article-title><source>Proc Natl Acad Sci USA</source><year>1996</year><volume>93</volume><issue>14</issue><fpage>6907</fpage><lpage>6912</lpage><pub-id pub-id-type="doi">10.1073/pnas.93.14.6907</pub-id><pub-id pub-id-type="pmid">8692917</pub-id></element-citation></ref><ref id="CR28"><label>28.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Koutsoukas</surname><given-names>A</given-names></name><name><surname>Lowe</surname><given-names>R</given-names></name><name><surname>KalantarMotamedi</surname><given-names>Y</given-names></name><name><surname>Mussa</surname><given-names>HY</given-names></name><name><surname>Klaffke</surname><given-names>W</given-names></name><name><surname>Mitchell</surname><given-names>JB</given-names></name><name><surname>Glen</surname><given-names>RC</given-names></name><name><surname>Bender</surname><given-names>A</given-names></name></person-group><article-title>In silico target predictions: defining a benchmarking data set and comparison of performance of the multiclass naive bayes and parzen-rosenblatt window</article-title><source>J Chem Inf Model</source><year>2013</year><volume>53</volume><issue>8</issue><fpage>1957</fpage><lpage>1966</lpage><pub-id pub-id-type="doi">10.1021/ci300435j</pub-id><pub-id pub-id-type="pmid">23829430</pub-id></element-citation></ref><ref id="CR29"><label>29.</label><element-citation publication-type="book"><person-group person-group-type="author"><name><surname>Johnson</surname><given-names>MA</given-names></name><name><surname>Maggiora</surname><given-names>GM</given-names></name></person-group><source>Concepts and applications of molecular similarity</source><year>1990</year><publisher-loc>New York</publisher-loc><publisher-name>Wiley</publisher-name></element-citation></ref><ref id="CR30"><label>30.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rogers</surname><given-names>D</given-names></name><name><surname>Hahn</surname><given-names>M</given-names></name></person-group><article-title>Extended-connectivity fingerprints</article-title><source>J Chem Inf Model</source><year>2010</year><volume>50</volume><issue>5</issue><fpage>742</fpage><lpage>754</lpage><pub-id pub-id-type="doi">10.1021/ci100050t</pub-id><pub-id pub-id-type="pmid">20426451</pub-id></element-citation></ref><ref id="CR31"><label>31.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Brown</surname><given-names>MHRD</given-names></name><name><surname>Varma-O&#x02019;Brien</surname><given-names>S</given-names></name><name><surname>Rogers</surname><given-names>D</given-names></name></person-group><article-title>Cheminformatics analysis and learning in a data pipelining environment</article-title><source>Mol Drivers</source><year>2006</year><volume>10</volume><fpage>283</fpage><lpage>299</lpage><pub-id pub-id-type="doi">10.1007/s11030-006-9041-5</pub-id></element-citation></ref><ref id="CR32"><label>32.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Baldi</surname><given-names>P</given-names></name><name><surname>Benz</surname><given-names>RW</given-names></name><name><surname>Hirschberg</surname><given-names>D</given-names></name><name><surname>Swamidass</surname><given-names>SJ</given-names></name></person-group><article-title>Lossless compression of chemical fingerprints using integer entropy codes improves storage and retrieval</article-title><source>J Chem Inf Model</source><year>2007</year><volume>47</volume><issue>6</issue><fpage>2098</fpage><lpage>2109</lpage><pub-id pub-id-type="doi">10.1021/ci700200n</pub-id><pub-id pub-id-type="pmid">17967006</pub-id></element-citation></ref><ref id="CR33"><label>33.</label><mixed-citation publication-type="other">Tanimoto TT. IBM Internal Report 17th (November 1957)</mixed-citation></ref><ref id="CR34"><label>34.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hert</surname><given-names>J</given-names></name><name><surname>Willett</surname><given-names>P</given-names></name><name><surname>Wilton</surname><given-names>DJ</given-names></name><name><surname>Acklin</surname><given-names>P</given-names></name><name><surname>Azzaoui</surname><given-names>K</given-names></name><name><surname>Jacoby</surname><given-names>E</given-names></name><name><surname>Schuffenhauer</surname><given-names>A</given-names></name></person-group><article-title>A. comparison of fingerprint-based methods for virtual screening using multiple bioactive reference structures</article-title><source>J Chem Inf Model</source><year>2004</year><volume>44</volume><fpage>1177</fpage><lpage>1185</lpage><pub-id pub-id-type="doi">10.1021/ci034231b</pub-id></element-citation></ref><ref id="CR35"><label>35.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hert</surname><given-names>J</given-names></name><name><surname>Willett</surname><given-names>P</given-names></name><name><surname>Wilton</surname><given-names>DJ</given-names></name><name><surname>Acklin</surname><given-names>P</given-names></name><name><surname>Azzaoui</surname><given-names>K</given-names></name><name><surname>Jacoby</surname><given-names>E</given-names></name><name><surname>Schuffenhauer</surname><given-names>A</given-names></name></person-group><article-title>Enhancing the effectiveness of similarity-based virtual screening using nearest-neighbor information</article-title><source>J Med Chem</source><year>2005</year><volume>48</volume><fpage>7049</fpage><lpage>7054</lpage><pub-id pub-id-type="doi">10.1021/jm050316n</pub-id><pub-id pub-id-type="pmid">16250664</pub-id></element-citation></ref><ref id="CR36"><label>36.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Nasr</surname><given-names>RJ</given-names></name><name><surname>Swamidass</surname><given-names>SJ</given-names></name><name><surname>Baldi</surname><given-names>PF</given-names></name></person-group><article-title>Large scale study of multiple-molecule queries</article-title><source>J Cheminf</source><year>2009</year><volume>1</volume><fpage>7</fpage><pub-id pub-id-type="doi">10.1186/1758-2946-1-7</pub-id></element-citation></ref><ref id="CR37"><label>37.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Geppert</surname><given-names>H</given-names></name><name><surname>Horv&#x000e1;th</surname><given-names>T</given-names></name><name><surname>G&#x000e4;rtner</surname><given-names>T</given-names></name><name><surname>Wrobel</surname><given-names>S</given-names></name><name><surname>Bajorath</surname><given-names>J</given-names></name></person-group><article-title>Support-vector-machine-based ranking significantly improves the effectiveness of similarity searching using 2d fingerprints and multiple reference compounds</article-title><source>J Chem Inf Model</source><year>2008</year><volume>48</volume><issue>4</issue><fpage>742</fpage><lpage>746</lpage><pub-id pub-id-type="doi">10.1021/ci700461s</pub-id><pub-id pub-id-type="pmid">18318473</pub-id></element-citation></ref><ref id="CR38"><label>38.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mah&#x000e9;</surname><given-names>P</given-names></name><name><surname>Ralaivola</surname><given-names>L</given-names></name><name><surname>Stoven</surname><given-names>V</given-names></name><name><surname>Vert</surname><given-names>J-P</given-names></name></person-group><article-title>The pharmacophore kernel for virtual screening with support vector machines</article-title><source>J Chem Inf Model</source><year>2006</year><volume>46</volume><issue>5</issue><fpage>2003</fpage><lpage>2014</lpage><pub-id pub-id-type="doi">10.1021/ci060138m</pub-id><pub-id pub-id-type="pmid">16995731</pub-id></element-citation></ref><ref id="CR39"><label>39.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Swamidass</surname><given-names>SJ</given-names></name><name><surname>Chen</surname><given-names>J</given-names></name><name><surname>Bruand</surname><given-names>J</given-names></name><name><surname>Phung</surname><given-names>P</given-names></name><name><surname>Ralaivola</surname><given-names>L</given-names></name><name><surname>Baldi</surname><given-names>P</given-names></name></person-group><article-title>Kernels for small molecules and the prediction of mutagenicity, toxicity, and anti-cancer activity</article-title><source>Bioinformatics</source><year>2005</year><volume>21</volume><issue>Supplement 1</issue><fpage>359</fpage><lpage>368</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/bti1055</pub-id></element-citation></ref><ref id="CR40"><label>40.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Collobert</surname><given-names>R</given-names></name><name><surname>Bengio</surname><given-names>S</given-names></name></person-group><article-title>Svmtorch: support vector machines for large-scale regression problems</article-title><source>J Mach Learn Res</source><year>2001</year><volume>1</volume><fpage>143</fpage><lpage>160</lpage></element-citation></ref><ref id="CR41"><label>41.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Breiman</surname><given-names>L</given-names></name></person-group><article-title>Random forests</article-title><source>Mach Learn</source><year>2001</year><volume>45</volume><issue>1</issue><fpage>5</fpage><lpage>32</lpage><pub-id pub-id-type="doi">10.1023/A:1010933404324</pub-id></element-citation></ref><ref id="CR42"><label>42.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Palmer</surname><given-names>DS</given-names></name><name><surname>O&#x02019;Boyle</surname><given-names>NM</given-names></name><name><surname>Glen</surname><given-names>RC</given-names></name><name><surname>Mitchell</surname><given-names>JB</given-names></name></person-group><article-title>Random forest models to predict aqueous solubility</article-title><source>J Chem Inf Model</source><year>2007</year><volume>47</volume><issue>1</issue><fpage>150</fpage><lpage>158</lpage><pub-id pub-id-type="doi">10.1021/ci060164k</pub-id><pub-id pub-id-type="pmid">17238260</pub-id></element-citation></ref><ref id="CR43"><label>43.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Q-Y</given-names></name><name><surname>Aires-de-Sousa</surname><given-names>J</given-names></name></person-group><article-title>Random forest prediction of mutagenicity from empirical physicochemical descriptors</article-title><source>J Chem Inf Model</source><year>2007</year><volume>47</volume><issue>1</issue><fpage>1</fpage><lpage>8</lpage><pub-id pub-id-type="doi">10.1021/ci050520j</pub-id><pub-id pub-id-type="pmid">17238242</pub-id></element-citation></ref><ref id="CR44"><label>44.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Harvey</surname><given-names>AL</given-names></name></person-group><article-title>Natural products in drug discovery</article-title><source>Drug Discov Today</source><year>2008</year><volume>13</volume><issue>19</issue><fpage>894</fpage><lpage>901</lpage><pub-id pub-id-type="doi">10.1016/j.drudis.2008.07.004</pub-id><pub-id pub-id-type="pmid">18691670</pub-id></element-citation></ref><ref id="CR45"><label>45.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Svetnik</surname><given-names>V</given-names></name><name><surname>Liaw</surname><given-names>A</given-names></name><name><surname>Tong</surname><given-names>C</given-names></name><name><surname>Culberson</surname><given-names>JC</given-names></name><name><surname>Sheridan</surname><given-names>RP</given-names></name><name><surname>Feuston</surname><given-names>BP</given-names></name></person-group><article-title>Random forest: a classification and regression tool for compound classification and qsar modeling</article-title><source>J Chem Inf Model</source><year>2003</year><volume>43</volume><issue>6</issue><fpage>1947</fpage><lpage>1958</lpage><pub-id pub-id-type="doi">10.1021/ci034160g</pub-id></element-citation></ref><ref id="CR46"><label>46.</label><mixed-citation publication-type="other">Scikit-Learn (2013)</mixed-citation></ref><ref id="CR47"><label>47.</label><element-citation publication-type="book"><person-group person-group-type="author"><name><surname>Baldi</surname><given-names>P</given-names></name><name><surname>Brunak</surname><given-names>S</given-names></name></person-group><source>Bioinformatics: the machine learning approach</source><year>2001</year><edition>2</edition><publisher-loc>Cambridge</publisher-loc><publisher-name>MIT Press</publisher-name></element-citation></ref><ref id="CR48"><label>48.</label><mixed-citation publication-type="other">Dybowski R, Roberts SJ (2001) Confidence intervals and prediction intervals for feed-forward neural networks. Clin Appl Artif Neural Netw:298&#x02013;326</mixed-citation></ref><ref id="CR49"><label>49.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bradley</surname><given-names>AP</given-names></name></person-group><article-title>The use of the area under the ROC curve in the evaluation of machine learning algorithms</article-title><source>Pattern Recogn</source><year>1997</year><volume>30</volume><issue>7</issue><fpage>1145</fpage><lpage>1159</lpage><pub-id pub-id-type="doi">10.1016/S0031-3203(96)00142-2</pub-id></element-citation></ref><ref id="CR50"><label>50.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Parker</surname><given-names>CN</given-names></name></person-group><article-title>Mcmaster university data-mining and docking competition computational models on the catwalk</article-title><source>J Biomol Screen</source><year>2005</year><volume>10</volume><issue>7</issue><fpage>647</fpage><lpage>648</lpage><pub-id pub-id-type="doi">10.1177/1087057105281268</pub-id><pub-id pub-id-type="pmid">16170048</pub-id></element-citation></ref><ref id="CR51"><label>51.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Keiser</surname><given-names>MJ</given-names></name><name><surname>Roth</surname><given-names>BL</given-names></name><name><surname>Armbruster</surname><given-names>BN</given-names></name><name><surname>Ernsberger</surname><given-names>P</given-names></name><name><surname>Irwin</surname><given-names>JJ</given-names></name><name><surname>Shoichet</surname><given-names>BK</given-names></name></person-group><article-title>Relating protein pharmacology by ligand chemistry</article-title><source>Nat Biotechnol</source><year>2007</year><volume>25</volume><issue>2</issue><fpage>197</fpage><lpage>206</lpage><pub-id pub-id-type="doi">10.1038/nbt1284</pub-id><pub-id pub-id-type="pmid">17287757</pub-id></element-citation></ref><ref id="CR52"><label>52.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wale</surname><given-names>N</given-names></name><name><surname>Karypis</surname><given-names>G</given-names></name></person-group><article-title>Target fishing for chemical compounds using target-ligand activity data and ranking based methods</article-title><source>J Chem Inf Model</source><year>2009</year><volume>49</volume><issue>10</issue><fpage>2190</fpage><lpage>2201</lpage><pub-id pub-id-type="doi">10.1021/ci9000376</pub-id><pub-id pub-id-type="pmid">19764745</pub-id></element-citation></ref><ref id="CR53"><label>53.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zaretzki</surname><given-names>J</given-names></name><name><surname>Matlock</surname><given-names>M</given-names></name><name><surname>Swamidass</surname><given-names>SJ</given-names></name></person-group><article-title>Xenosite: accurately predicting cyp-mediated sites of metabolism with neural networks</article-title><source>J Chem Inf Model</source><year>2013</year><volume>53</volume><issue>12</issue><fpage>3373</fpage><lpage>3383</lpage><pub-id pub-id-type="doi">10.1021/ci400518g</pub-id><pub-id pub-id-type="pmid">24224933</pub-id></element-citation></ref><ref id="CR54"><label>54.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hinselmann</surname><given-names>G</given-names></name><name><surname>Rosenbaum</surname><given-names>L</given-names></name><name><surname>Jahn</surname><given-names>A</given-names></name><name><surname>Fechner</surname><given-names>N</given-names></name><name><surname>Ostermann</surname><given-names>C</given-names></name><name><surname>Zell</surname><given-names>A</given-names></name></person-group><article-title>Large-scale learning of structure- activity relationships using a linear support vector machine and problem-specific metrics</article-title><source>J Chem Inf Model</source><year>2011</year><volume>51</volume><issue>2</issue><fpage>203</fpage><lpage>213</lpage><pub-id pub-id-type="doi">10.1021/ci100073w</pub-id><pub-id pub-id-type="pmid">21207929</pub-id></element-citation></ref><ref id="CR55"><label>55.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Plewczynski</surname><given-names>D</given-names></name><name><surname>von Grotthuss</surname><given-names>M</given-names></name><name><surname>Spieser</surname><given-names>H</given-names></name><name><surname>Stephane</surname><given-names>A</given-names></name><name><surname>Rychewski</surname><given-names>L</given-names></name><name><surname>Wyrwicz</surname><given-names>LS</given-names></name><name><surname>Ginalski</surname><given-names>K</given-names></name><name><surname>Koch</surname><given-names>U</given-names></name></person-group><article-title>Target specific compound identification using a support vector machine</article-title><source>Comb Chem High Throughput Screen</source><year>2007</year><volume>10</volume><issue>3</issue><fpage>189</fpage><lpage>196</lpage><pub-id pub-id-type="doi">10.2174/138620707780126705</pub-id><pub-id pub-id-type="pmid">17346118</pub-id></element-citation></ref><ref id="CR56"><label>56.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Seifert</surname><given-names>M</given-names></name><name><surname>Kraus</surname><given-names>J</given-names></name><name><surname>Kramer</surname><given-names>B</given-names></name></person-group><article-title>Virtual high-throughput screening of molecular databases</article-title><source>Curr Opin Drug Discov Dev</source><year>2007</year><volume>10</volume><issue>3</issue><fpage>298</fpage><lpage>307</lpage></element-citation></ref><ref id="CR57"><label>57.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lusci</surname><given-names>A</given-names></name><name><surname>Pollastri</surname><given-names>G</given-names></name><name><surname>Baldi</surname><given-names>P</given-names></name></person-group><article-title>Deep architectures and deep learning in chemoinformatics: the prediction of aqueous solubility for drug-like molecules</article-title><source>J Chem Inf Model</source><year>2013</year><volume>53</volume><issue>7</issue><fpage>1563</fpage><lpage>1575</lpage><pub-id pub-id-type="doi">10.1021/ci400187y</pub-id><pub-id pub-id-type="pmid">23795551</pub-id></element-citation></ref></ref-list></back></article>

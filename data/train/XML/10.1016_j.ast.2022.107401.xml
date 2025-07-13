@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Numerical investigation of full helicopter with and without the ground effect</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2022-02-15">15 February 2022</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Paulo</forename><forename type="middle">A S F</forename><surname>Silva</surname></persname>
+<email>paulo.a.silva@cranfield.ac.uk</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Centre for Computational Engineering Sciences, Cranfield University, Cranfield MK43 0AL, United Kingdom</note>
+<orgname type="department">Centre for Computational Engineering Sciences</orgname>
+<orgname type="institution">Cranfield University</orgname>
+<address>
+<postcode>MK43 0AL</postcode>
+<settlement>Cranfield</settlement>
+<country key="GB">United Kingdom</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Federal Institute of Brasília, Brasília, Brazil</note>
+<orgname type="institution">Federal Institute of Brasília</orgname>
+<address>
+<settlement>Brasília</settlement>
+<country key="BR">Brazil</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Panagiotis</forename><surname>Tsoutsanis</surname></persname>
+<email>panagiotis.tsoutsanis@cranfield.ac.uk</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Centre for Computational Engineering Sciences, Cranfield University, Cranfield MK43 0AL, United Kingdom</note>
+<orgname type="department">Centre for Computational Engineering Sciences</orgname>
+<orgname type="institution">Cranfield University</orgname>
+<address>
+<postcode>MK43 0AL</postcode>
+<settlement>Cranfield</settlement>
+<country key="GB">United Kingdom</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Antonios</forename><forename type="middle">F</forename><surname>Antoniadis</surname></persname>
+<email>a.f.antoniadis@cranfield.ac.uk</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Centre for Computational Engineering Sciences, Cranfield University, Cranfield MK43 0AL, United Kingdom</note>
+<orgname type="department">Centre for Computational Engineering Sciences</orgname>
+<orgname type="institution">Cranfield University</orgname>
+<address>
+<postcode>MK43 0AL</postcode>
+<settlement>Cranfield</settlement>
+<country key="GB">United Kingdom</country>
+</address>
+</affiliation>
+</author>
+<author>
+<affiliation key="aff2">
+<note type="raw_affiliation">Centre for Computational Engineering Sciences, Cran-field University, Cranfield MK43 0AL, United Kingdom.</note>
+<orgname type="department">Centre for Computational Engineering Sciences</orgname>
+<orgname type="institution">Cran-field University</orgname>
+<address>
+<postcode>MK43 0AL</postcode>
+<settlement>Cranfield</settlement>
+<country key="GB">United Kingdom</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Numerical investigation of full helicopter with and without the ground effect</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2022-02-15">15 February 2022</date>
+</imprint>
+</monogr>
+<idno type="MD5">3E3E8AF60E7F0D1040CA042681AC7BDD</idno>
+<idno type="DOI">10.1016/j.ast.2022.107401</idno>
+<note type="submission">Received 21 October 2021 Received in revised form 7 January 2022 Accepted 5 February 2022</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-11-17T17:56+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>High-order methods Rotorcraft CFD IGE</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0">OGE Ground effect<p><s>In the present work, the aerodynamic performance of the full helicopter PSP in hover flight is investigated using a simplified concept of multiple reference frame (MRF) technique in the context of high-order Monotone Upstream Centred Scheme for Conservation Laws (MUSCL) cell-centred finite volume method.</s><s>The predictions were obtained for two ground distances and several collective pitch angle at tip Mach number of 0.585.</s><s>The calculations were made for both out-of-ground-effect (OGE) and in-ground-effect (IGE) cases and compared with experimental data in terms of pressure distribution and integrated thrust and torque and vortex system.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>The brownout phenomenon is often experienced in helicopters in ground effect (IGE) when landing, take-off or hovering in dusty environments, where the particles cloud obscure the pilot's vision of the terrain and consequently decreases substantially the safety.</s><s>This flight operation is usual on medical services on beaches and army operations on desert environments.</s><s>Understanding the rotor downwash wake is crucial to improve not only the safety of the surrounding but also the rotor performance.</s><s>Predicting helicopter aerodynamics and the surrounding flowfield challenges most Computational Fluid Dynamics (CFD) solvers as it requires a low numerical dissipation to accurate predict the blade forces and the vortex dominated flow.</s><s>Over the years, numerical simulation of the helicopter in ground effect has progressed from theoretical models <ref target="#b0" type="bibr">[1]</ref> and free wake models <ref target="#b1" type="bibr">[2]</ref> to full block structured CFD analysis <ref target="#b2" type="bibr">[3]</ref>.</s><s>The GOA-HEAD project conducted an extensive wind tunnel measurements of a fully instrumented 4-bladed helicopter model out of ground effect (OGE).</s><s>This database was used to compare with CFD simulations <ref target="#b3" type="bibr">[4]</ref><ref target="#b4" type="bibr">[5]</ref><ref target="#b5" type="bibr">[6]</ref>.</s><s>Kalra et al. <ref target="#b6" type="bibr">[7]</ref> studied the effect of different tip shapes on a hovering rotor near ground comparing the tip vortex trajectory and core size against experimental results.</s><s>Jacobson et al. <ref target="#b7" type="bibr">[8]</ref> presented a hybrid methodology with CFD and free wake models to predict the thrust and torque performance and vortex trajectory of the hovering S-76 scaled rotor.</s><s>Hwang et al. <ref target="#b8" type="bibr">[9]</ref> assessed the ground effect of the isolated rotor S-76 hovering for three blade tip geometries using overset unstructured meshes.</s><s>Hu et al. <ref target="#b9" type="bibr">[10]</ref> developed a hybrid CFD coupled with discrete element to study the dust and dispersion of sediments with the ground effect.</s><s>Pasquali et al. <ref target="#b10" type="bibr">[11]</ref> performed a numerical and experimental correlation to predict the tip vortex trajectories and rotor performance.</s><s>Rovere et al. <ref target="#b11" type="bibr">[12]</ref> carried out a numerical analysis of a micro rotor in ground effect and validated it with experimental data.</s><s>The results were used to assess several safety factors by using force estimators on ground personnel and particle tracking.</s><s>The AIAA Hover Prediction Workshop (HPW) has established a strong group with members from industry, government agencies, and academia to assess the current state-of-art of the numerical works on helicopter flows and identify the needs and future of hover prediction.</s><s>Jain <ref target="#b12" type="bibr">[13]</ref> studied the influence of the facility on the rotor aerodynamics.</s><s>Park et al. <ref target="#b13" type="bibr">[14]</ref> performed full rotor and isolated analysis of the Pressure Sensitive Paint (PSP) rotor using transitional turbulence modelling.</s><s>The wake breakdown has been extensively studied by Abras <ref target="#b14" type="bibr">[15]</ref><ref target="#b15" type="bibr">[16]</ref><ref target="#b16" type="bibr">[17]</ref>.</s><s>Carnes developed an Amplification Factor Transport model to study the effect of crossflow transition on hovering rotors.</s><s>Silva et al. <ref target="#b17" type="bibr">[18]</ref> presented the development of a new multiple reference frame domain decomposition to assess the IGE and OGE on isolated rotors.</s></p><p><s>In the present work, an unstructured hybrid mesh open-source CFD code is used to simulate the Pressure Sensitive Paint rotor with the Robin-Mod7 fuselage hovering near ground.</s><s>Solutions are obtained using the Spalart-Allmaras turbulence model with rotational correction.</s><s>The governing equations are discretised using the absolute velocity formulation, the Harten-Lax-van-Leer-Contact (HLLC) Riemann solver <ref target="#b18" type="bibr">[19]</ref>, the spatial discretisation employs the <ref target="#b19" type="bibr">[20]</ref> MUSCL-MOGE variant limiter of Tsoutsanis <ref target="#b20" type="bibr">[21]</ref>.</s><s>The solution is advanced in time is with the block Jacobi implicit backward Euler time integration.</s><s>The CFD solver labelled Unstructured Compressible Navier-Stokes 3D (UCNS3D) <ref target="#b21" type="bibr">[22]</ref> which is validated, assessed and evaluated across a wide range of flow conditions <ref target="#b17" type="bibr">[18,</ref><ref target="#b22" type="bibr">[23]</ref><ref target="#b23" type="bibr">[24]</ref><ref target="#b24" type="bibr">[25]</ref><ref target="#b25" type="bibr">[26]</ref><ref target="#b26" type="bibr">[27]</ref><ref target="#b27" type="bibr">[28]</ref><ref target="#b28" type="bibr">[29]</ref><ref target="#b29" type="bibr">[30]</ref><ref target="#b30" type="bibr">[31]</ref><ref target="#b31" type="bibr">[32]</ref><ref target="#b32" type="bibr">[33]</ref><ref target="#b33" type="bibr">[34]</ref>.</s><s>The out of ground case is used to validate the results of pressure distribution and integrated loads.</s><s>The ground effect is compared with the previous case using quantitative data of the aerodynamic performance and the qualitative analysis of the vortex system.</s><s>Isosurfaces of q criteria are also used to investigate the interaction between the disturbed flow with and ground and the fuselage.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Numerical methodology<p><s>The unstructured, compressible, Navier-Stokes and three-dimensional open source code UCNS3D <ref target="#b21" type="bibr">[22]</ref> is used as CFD solver this study.</s><s>It solves the governing equations with several high-order spatial discretisation schemes including several MUSCL and WENO variants across a wide range of flow conditions <ref target="#b22" type="bibr">[23]</ref><ref target="#b23" type="bibr">[24]</ref><ref target="#b24" type="bibr">[25]</ref><ref target="#b25" type="bibr">[26]</ref><ref target="#b26" type="bibr">[27]</ref><ref target="#b27" type="bibr">[28]</ref><ref target="#b28" type="bibr">[29]</ref><ref target="#b29" type="bibr">[30]</ref><ref target="#b30" type="bibr">[31]</ref><ref target="#b31" type="bibr">[32]</ref><ref target="#b34" type="bibr">35,</ref><ref target="#b35" type="bibr">36]</ref>.</s><s>The Reynolds Averaged Navier-stokes (RANS) governing equations is discretised by using cell-centred finite volume method where the Spalart-Allmaras turbulence model is employed.</s><s>The Monotone Upstream-centred Schemes for Conservation Laws (MUSCL) <ref target="#b36" type="bibr">[37,</ref><ref target="#b37" type="bibr">38]</ref> are used to provide 3rd order accuracy in space.</s><s>The governing equations are formulated in a multiple reference frame, the Harten-Lax-van-Leer-Contact (HLLC) Riemann solver <ref target="#b19" type="bibr">[20]</ref> with the MUSCL-MOGE variant limiter of Tsoutsanis <ref target="#b20" type="bibr">[21]</ref> computes the inviscid fluxes.</s><s>The frame of reference is defined at the solver level with no need of mesh-based interface.</s><s>The velocity components are computed in absolute formulation within the appropriate flux correction according to the element frame of reference, for a more detailed description of the implementation and validation of this technique the reader must refer to <ref target="#b17" type="bibr">[18]</ref>.</s><s>The solution advances in time with the implicit backward Euler time integration with a local time-stepping strategy.</s><s>The Block Jacobi relaxation method solves the linear system of equation in which the Jacobian on the non-inertial source terms are included on the lower and upper diagonalization pre-conditioning to improve the stability on high Courant-Friedricks-Lewy (CFL) numbers.</s><s>The flow solver is parallelized using the ParMeTis grid partitioning and hybrid MPI/OMP paradigm for improving the computational efficiency.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Geometries and grids<p><s>The four-bladed Pressure Sensitive Paint (PSP) rotor was simulated to investigate the ground effect on a full helicopter configuration.</s><s>The experiment for the PSP rotor was developed by NASA Langley Research center with the main purpose of investigating the rotor performance and the natural and forced transition of the flow over the blades <ref target="#b38" type="bibr">[39]</ref>.</s><s>The geometric information of the rotor and fuselage are summarized in Table <ref target="#tab_0" type="table">1</ref> and<ref type="table">2</ref>, respectively.</s><s>The model scaled PSP rotor consists of RC-series airfoil linearly twisted by -14 • with radius of 66.5 inches.</s><s>The blade has the reference chord of 5.45 inches and aspect ratio of 12.2.</s><s>The experiment was carried out with the blades operating at Mach tip number of 0.585.</s><s>The Robin-Mod7 geometry is defined by analytical shape functions given the experimental and numerical work carried out by NASA and ONERA <ref target="#b39" type="bibr">[40]</ref>.</s><s>In the present work, the geometry was collected on <ref target="#b40" type="bibr">[41]</ref> in which the shape coefficients were modified for the mod7 configuration.</s><s>The fuselage length is 123.931</s><s>inches with shaft angle of -3.5 • down with the rotor.</s><s>A detailed geometry description of the rotor and fuselage positioning can be found in <ref target="#b41" type="bibr">[42]</ref>.</s></p><p><s>The computational domain has a cylindrical shape with 10.6 m radius and 22.7 m length, similarly to the facility test setup.</s><s>The mesh sizes for the blade and fuselage for all cases are listed in Table <ref type="table">3</ref>.</s><s>The blade unstructured surface grid used in the present study was collected from the AIAA Rotorcraft Hover Prediction Workshop (HPW) <ref target="#b42" type="bibr">[43]</ref>.</s><s>To capture the boundary layer in detail, 44 prismatic layers were extruded on the normal direction with a 1.2 grown rate, the height of the first element is positioned at 1.6 × 10 -6 from the wall surface to insure y + &lt; 1.</s><s>The near-body mesh blocks for the four blades contain around 7.4 million elements for both IGE and OGE computations.</s><s>Local refinement with a mesh size of 10% of the reference chord was applied in the vicinity of the blade tips and in the near wake region between the rotor and the ground to better resolve the blade tip vortices, as can be seen in Fig. <ref target="#fig_0" type="figure">1</ref>.</s><s>The non-slip wall condition was applied on the blade's and fuselage surface The farfield boundary condition was used on the outer surfaces.</s><s>On IGE simulations, the ground was treated as free-slip wall to avoid an excessive number of elements at this location.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Results<p><s>The hover solutions near ground are highly unsteady with challenging convergence.</s><s>The set of equations is numerically stiff, as it has near-zero velocity on parts of domain in addition to strong source terms due to the non-inertial forces.</s><s>In all simulations, the steady state solutions are obtained with the implicit block Jacobi iteration algorithm based on local time-stepping, which is largely used for high-Reynolds flows on unstructured grids as it is free of matrix inversion and has moderate memory requirements at reasonable convergence rate <ref target="#b43" type="bibr">[44]</ref>.</s><s>The convergence solutions were achieved within at least 10 4 iteration steps using CFL number of 15.</s></p><p><s>In Fig. <ref type="figure">2</ref> the pressure coefficient C p along the chord are compared with experimental data at two radial stations (r/R = 0.93 -0.99) at three thrust coefficient: C t = 0.05, 0.07, 0.09.</s><s>Two experimental techniques were used to measured the C p distribution: kulite transducers and pressure sensitive paint.</s><s>Overall, for the OGE CFD predicts the C p curve at a reasonable level of agreement compared with both experimental techniques.</s><s>Small discrepancies are observed at leading edge at higher thrust.</s><s>Other works using high-order solutions under the same flow conditions present similar values <ref target="#b44" type="bibr">[45]</ref>.</s><s>Regarding the effect of the ground on the pressure coefficient distribution (blue and red lines), overall, the main difference is related to the pressure coefficient C p at the leading edge, in which large values are found on IGE results.</s><s>An exception is seen at C t = 0.09 at the tip blade, in which the ground proximity decreases the pressure coefficient peak.</s><s>In Fig. <ref type="figure">3</ref>, the predicted thrust coefficient (C t ), torque coefficient (C q ), and figure of merit (FoM) of the OGE case (solid black square)are compared with two experimental data: natural transition (open red circle) and forced transition (open square).</s><s>The main difference between this two experimental datasets is the installation of trip dots on the blade upper/lower surface at chosen locations to measure the boundary layer transition or blade aeroelastic deflection <ref target="#b12" type="bibr">[13]</ref>.</s><s>As there is no experimental and numerical data of the ground influence using this rotor, the IGE computations are only for comparative purpose.</s><s>It is shown that for the OGE, the predicted torque and thrust and figure of merit agrees well with the experiment.</s><s>At low C t , the present work overpredicts the FoM which may be due the turbulence modelling at this flow condition, as according to <ref target="#b41" type="bibr">[42]</ref> at this operational point the blades surface experiences a transitional turbulent flow.</s><s>It can also be seen that, the presence of the ground slightly changes the slope of the rotor performance curve.</s><s>This is also seen on other rotors such as S-76 <ref target="#b8" type="bibr">[9,</ref><ref target="#b45" type="bibr">46]</ref> which has similar geometry and flow condition.</s><s>To further investigate the effect of ground, the predicted results for the three collective pitch angles (θ c = 7, 9, 11 • ) are summarized in Table 4.</s><s>The results show that, the increment of thrust and torque on the rotor varies no only due to the ground presence but also with the pitch angle.</s><s>At θ c = 7 • and 9 • the rise is more substantial on thrust and torque calculations accordingly to the ground distance.</s></p><p><s>For θ c = 11 • the increment ratio is considerable lower in comparison with other collective pitch angles.</s><s>The FoM increases around 3% on Z/R=1.0 and 10% on Z/R=0.75 for all collective pitch angles, apart from θ c = 11 • in which experiences only a marginal rise of 1% at Z/R=1.0 and 3% at Z/R=0.75.</s><s>The change on the sign of the integrated thrust on the fuselage from OGE to IGE computations shows the effect of the fountain flow generated below the fuselage with the ground presence.</s></p><p><s>In Fig. <ref target="#fig_2" type="figure">4</ref>, the pressure coefficient contours, computed with the freestream velocity equal to the Mach tip, are shown with the range from -0.05 to 0.45.</s><s>Comparing the IGE and OGE simulations, the distribution of pressure at the noose and the tail of the fuselage presents similar patterns and locations.</s><s>The main difference is at the left/right side of the fuselage in which the pressure drop is smoother due to the fountain flow originated from the jet impingement on the ground.</s><s>This feature seems to be the main contributor for the sign change of the predicted net vertical forces acting on the fuselage previously shown in Table <ref type="table">4</ref>. On IGE is also seen larger pressure fluctuation at the upper surface which is related to the bigger recirculating flow at stronger downwash.</s></p><p><s>In Fig. <ref target="#fig_3" type="figure">5</ref>, the vorticity contours at the front and side planes are compared between IGE and OGE simulations at θ c = 9 • .</s><s>In Fig. <ref target="#fig_4" type="figure">6</ref>, these wake structures are represented in by isosurfaces of q-criterion coloured by vorticity magnitude.</s><s>The predicted wake structures are well resolved by the current solver for both near ground and off ground flow condition.</s><s>In the case of OGE, the effect of aspect ratio of the fuselage on the radial evolution of the tip vortex can be seen by a comparison of the side and front slices of vorticity contours seen in Fig. <ref target="#fig_3" type="figure">5</ref>.</s><s>The noose and tail of the fuselage slightly changes the tip vortex trajectory.</s><s>The q criteria isosurface seen in Fig. <ref target="#fig_4" type="figure">6</ref> shows ring vortex is seen downstream the rotor and it is also noticeable broken vortices structures originated from the interaction of the fuselage with the turbulent flow, especially on the tail.</s><s>On IGE, the tip vortex first experiences a ra-</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Table 4<p><s>Predicted aerodynamic parameter with Ground and without Ground effect.</s><s>dially contraction, as in the OGE case, and then it expands due to the ground and fuselage presence as can be seen in the curvature of the jet wake downstream the rotor in Fig. <ref target="#fig_3" type="figure">5</ref>.</s><s>The tip vortex rolls up radially due to the effect of the disturbed incoming flow from the fuselage and the ground.</s><s>Previous work on isolated rotors <ref target="#b8" type="bibr">[9]</ref> shows that the radial expansion on IGE occurs after 180 • wake age and is more evident when the rotor within close proximity to the ground <ref target="#b17" type="bibr">[18]</ref>.</s><s>On the close proximity of the ground it can be seen horse shoe vortices structures originated from upcoming flow, which promote the ground vortex roll-up spreading radially forming a ring-like vortex as depicted in Fig. <ref target="#fig_4" type="figure">6</ref>.</s><s>Since the ground surface is treated as free-slip it may also being artificially increasing this radial expansion.</s><s>On both IGE and OGE simulations, the fuselage interaction is more clear at the tail, especially with the tip vortex which breaks down in contact with the wall and eventually rolls up and embracing it as gets close to the end.</s></p><formula xml:id="formula_0">θ c = 7 • θ c = 9 • θ c =</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conclusion<p><s>In the present paper, full helicopter was studied with the ground and without ground effect in the ucns3d high-order unstructured CFD solver.</s><s>The governing equations were solved in multiple reference frame fashion in which the domain decomposition is performed at the solver level.</s><s>The calculations were made at a tip Mach number of 0.585 and for collective pitch angles from 7 to 11 degrees.</s><s>The numerical solutions were compared with experimental data such as pressure coefficient distribution, thrust and torque coefficients and figure of merit.</s><s>The wake structure for both IGE and OGE conditions were also analysed.</s><s>It was observed that the predicted thrust and torque of IGE is considerable higher on IGE, for the same collective pitch angle.</s><s>As a result, the rotor performance curve in terms of C t /σ and FoM changes its slope within the rotor distance from the ground.</s><s>It is also seen that on IGE, the fuselage present smoother pressure difference at left/right side.</s><s>The qualitative features of the wake were also well predicted to demonstrate the interaction with the tip vortex with the fuselage and the ground.</s><s>It was shown that MRF method coupled with the high-order spatial accuracy is well capable of predicting accurately the aerodynamic performance of full helicopter in hover with and without the ground effect.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Fig. 1 .<label>1</label><figdesc><div><p><s>Fig. 1.</s><s>Right figure depicts the spatial domain, highlighting the domain sizes; on the top left, a view of the blade and fuselage surface grid; on the bottom left, a cut section of the volume mesh is shown illustrating the local refinement configuration.</s></p></div></figdesc><graphic coords="3,112.10,144.99,185.84,95.33" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Fig. 2 .Fig. 3 .<label>23</label><figdesc><div><p><s>Fig. 2. Computed pressure coefficient (C p ) compared with experimental data by Watkins et al. [39].</s><s>Solutions are shown for three different Thrust coefficient (C t ) at two radial stations, left at r/R = 0.93 and right at r/R = 0.99.</s><s>(For interpretation of the colours in the figure(s), the reader is referred to the web version of this article.)</s></p></div></figdesc><graphic coords="4,77.17,56.20,440.40,433.60" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Fig. 4 .<label>4</label><figdesc><div><p><s>Fig. 4. Force affecting on the fuselage by the interaction effect of PSP rotor for solutions at θ c = 9 • : OGE (left), Z/R=0.1 (middle) and Z/R=0.75(right).</s></p></div></figdesc><graphic coords="5,38.33,174.65,518.64,115.44" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Fig. 5 .<label>5</label><figdesc><div><p><s>Fig. 5. Vorticity magnitude [s -1 ] contours on front (top) and side (bottom) plane section for all solutions at θ c = 9 • : OGE (left), Z/R=0.1 (middle) and Z/R=0.75(right).</s></p></div></figdesc><graphic coords="5,68.85,323.45,457.68,303.84" type="bitmap"></graphic></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Fig. 6 .<label>6</label><figdesc><div><p><s>Fig. 6.</s><s>Isosurfaces of Q-criterion coloured by vorticity magnitude [s -1 ] at isometric (top) and side (bottom) views for all solutions at θ c = 9 • : OGE (left), Z/R=0.1 (centre) and Z/R=0.75(right).</s></p></div></figdesc><graphic coords="6,38.33,56.07,518.64,265.20" type="bitmap"></graphic></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1<label>1</label><figdesc><div><p><s>[39]ifications and operating conditions of the PSP flow[39].</s></p></div></figdesc><table><row><cell>Parameter</cell><cell>Value</cell></row><row><cell>Number of blades</cell><cell>4</cell></row><row><cell>Radius (R)</cell><cell>1.69 m</cell></row><row><cell>Blade chord (c)</cell><cell>0.14 m</cell></row><row><cell>Rotor solidity</cell><cell>0.1033</cell></row><row><cell>linear twist angle</cell><cell>-14 •</cell></row><row><cell>Pitch angle</cell><cell>7 • , 9 • and 11 •</cell></row><row><cell>M tip</cell><cell>0.585</cell></row><row><cell>ρ ∞</cell><cell>1.2168 kg/m 3</cell></row><row><cell>T ∞</cell><cell>290 •</cell></row><row><cell>p ∞</cell><cell>101325 Pa</cell></row><row><cell>Table 2</cell><cell></cell></row><row><cell cols="2">Geometry specifications of the Robin-Mod7 Fuselage</cell></row><row><cell>[42].</cell><cell></cell></row><row><cell>Parameter</cell><cell>Value</cell></row><row><cell>FS dimension [in]</cell><cell>123.931</cell></row><row><cell>Rotor shaft angle [deg]</cell><cell>-3.5</cell></row><row><cell>Nose location [in]</cell><cell>FS 0.0, WL 0.0</cell></row><row><cell>Rotor hub centre [in]</cell><cell>FS 42.78, WL 24.98</cell></row><row><cell>Tail Location [in]</cell><cell>FS 123.931, WL 12.093</cell></row><row><cell>Table 3</cell><cell></cell></row><row><cell>Mesh information.</cell><cell></cell></row><row><cell>Region</cell><cell>Number of elements</cell></row><row><cell>Each Blade</cell><cell>7.4 × 10 6</cell></row><row><cell>Fuselage</cell><cell>1.5 × 10 6</cell></row><row><cell>Off-body OGE</cell><cell>17.4 × 10 6</cell></row><row><cell>Off-body Z /R = 1</cell><cell>1 9 .3 × 10 6</cell></row><row><cell>Off-body Z /R = 0.75</cell><cell>13.4 × 10 6</cell></row></table></figure>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgements<p><s>The authors acknowledge the computing time of high-performance computing service Delta of Cranfield University, the University of Cambridge Tier-2 national high-performance computing service Peta4 provided through the [EPSRC grant EP/P020259/1] and ARCHER through UK Turbulence Consortium [EPSRC grant number EP/L000261/1 and EP/R029326/1].</s><s>During this study, Paulo A. S. F. Silva was supported by the Coordenac ¸ão de Aperfeic ¸oamento de Pessoal de Nível Superior -Brasil (Capes) -Finance Code 001 (No 88881.128864/2016-01).</s></p></div>
+</div>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0">Data availability<p><s>Data underlying this study can be accessed through the Cranfield University repository at https://doi .org</s><s>/10 .17862</s><s>/cranfield .rd .</s><s>19146182 .v1</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">Declaration of competing interest<p><s>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">An analysis of partial ground effect on the aerodynamics of a helicopter rotor</title>
+<author>
+<persname><forename type="first">H</forename><surname>Xin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Prasad</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Peters</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">38th Aerospace Sciences Meeting and Exhibit</title>
+<imprint>
+<date type="published" when="2000">2000</date>
+<biblscope unit="page">262</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">H. Xin, J. Prasad, D. Peters, An analysis of partial ground effect on the aerody- namics of a helicopter rotor, in: 38th Aerospace Sciences Meeting and Exhibit, 2000, p. 262.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<monogr>
+<author>
+<persname><forename type="first">M</forename><surname>Gilad</surname></persname>
+</author>
+<title level="m">Evaluation of Flexible Rotor Hover Performance in Extreme Ground Effect</title>
+<meeting><address><addrline>College Park</addrline></address></meeting>
+<imprint>
+<date type="published" when="2011">2011</date>
+</imprint>
+<respstmt>
+<orgname>University of Maryland</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">M. Gilad, Evaluation of Flexible Rotor Hover Performance in Extreme Ground Effect, University of Maryland, College Park, 2011.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<monogr>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">M</forename><surname>Kutz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Bensing</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Keßler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Krämer</surname></persname>
+</author>
+<title level="m">CFD Calculation of a Helicopter Rotor Hovering in Ground Effect</title>
+<meeting><address><addrline>Berlin, Heidelberg</addrline></address></meeting>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="2013">2013</date>
+<biblscope from="297" to="304" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">B.M. Kutz, F. Bensing, M. Keßler, E. Krämer, CFD Calculation of a Helicopter Ro- tor Hovering in Ground Effect, Springer, Berlin, Heidelberg, 2013, pp. 297-304.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Assessment of an unstructured mesh approach for cfd predictions of the nh90 fuselage rotor</title>
+<author>
+<persname><forename type="first">A</forename><surname>Kyrkos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Ekaterinaris</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Aerosp. Sci. Technol</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="77" to="85" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Kyrkos, J.A. Ekaterinaris, Assessment of an unstructured mesh approach for cfd predictions of the nh90 fuselage rotor, Aerosp. Sci. Technol. 19 (1) (2012) 77-85.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">CFD analysis of complete helicopter configurationslessons learnt from the GOAHEAD project</title>
+<author>
+<persname><forename type="first">R</forename><surname>Steijl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">N</forename><surname>Barakos</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.ast.2011.01.007</idno>
+<ptr target="https://doi.org/10.1016/j.ast.2011.01.007"></ptr>
+</analytic>
+<monogr>
+<title level="j">Aerosp. Sci. Technol</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="58" to="71" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">R. Steijl, G.N. Barakos, CFD analysis of complete helicopter configurations - lessons learnt from the GOAHEAD project, Aerosp. Sci. Technol. 19 (1) (2012) 58-71, https://doi .org /10 .1016 /j .ast .2011.01.007.</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Assessment of cfd methods against experimental flow measurements for helicopter flows</title>
+<author>
+<persname><forename type="first">A</forename><surname>Antoniadis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Drikakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Zhong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Barakos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Steijl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Biava</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Vigevano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Brocklehurst</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><surname>Boelens</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Dietz</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.ast.2011.01.007</idno>
+</analytic>
+<monogr>
+<title level="j">Aerosp. Sci. Technol</title>
+<imprint>
+<biblscope unit="volume">19</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="86" to="100" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Antoniadis, D. Drikakis, B. Zhong, G. Barakos, R. Steijl, M. Biava, L. Vigevano, A. Brocklehurst, O. Boelens, M. Dietz, et al., Assessment of cfd methods against experimental flow measurements for helicopter flows, Aerosp. Sci. Technol. 19 (1) (2012) 86-100.</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Effect of tip geometry on a hovering rotor in ground effect: a computational study</title>
+<author>
+<persname><forename type="first">T</forename><surname>Kalra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">K</forename><surname>Lakshminarayan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Baeder</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">31st AIAA Applied Aerodynamics Conference</title>
+<imprint>
+<date type="published" when="2013">2013</date>
+<biblscope unit="page">2542</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Kalra, V.K. Lakshminarayan, J. Baeder, Effect of tip geometry on a hovering rotor in ground effect: a computational study, in: 31st AIAA Applied Aerody- namics Conference, 2013, p. 2542.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Carefree hybrid methodology for rotor hover performance analysis</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">E</forename><surname>Jacobson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Smith</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Aircr</title>
+<imprint>
+<biblscope unit="volume">55</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="52" to="65" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K.E. Jacobson, M.J. Smith, Carefree hybrid methodology for rotor hover perfor- mance analysis, J. Aircr. 55 (1) (2018) 52-65.</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Assessment of s-76 rotor hover performance in ground effect using an unstructured mixed mesh method</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">Y</forename><surname>Hwang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">J</forename><surname>Kwon</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Aerosp. Sci. Technol</title>
+<imprint>
+<biblscope unit="volume">84</biblscope>
+<biblscope from="223" to="236" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J.Y. Hwang, O.J. Kwon, Assessment of s-76 rotor hover performance in ground effect using an unstructured mixed mesh method, Aerosp. Sci. Technol. 84 (2019) 223-236.</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">A numerical simulation investigation of the influence of rotor wake on sediment particles by computational fluid dynamics coupling discrete element method</title>
+<author>
+<persname><forename type="first">J</forename><surname>Hu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Xu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Shi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Wu</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Aerosp. Sci. Technol</title>
+<imprint>
+<biblscope unit="page">106046</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. Hu, G. Xu, Y. Shi, L. Wu, A numerical simulation investigation of the influence of rotor wake on sediment particles by computational fluid dynamics coupling discrete element method, Aerosp. Sci. Technol. (2020) 106046.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Numericalexperimental correlation of hovering rotor aerodynamics in ground effect</title>
+<author>
+<persname><forename type="first">C</forename><surname>Pasquali</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Serafini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Bernardini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Milluzzo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Gennaretti</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Aerosp. Sci. Technol</title>
+<imprint>
+<biblscope unit="page">106079</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">C. Pasquali, J. Serafini, G. Bernardini, J. Milluzzo, M. Gennaretti, Numerical- experimental correlation of hovering rotor aerodynamics in ground effect, Aerosp. Sci. Technol. (2020) 106079.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<monogr>
+<title level="m" type="main">CFD Analysis of a Micro Rotor in Ground Effect</title>
+<author>
+<persname><forename type="first">F</forename><surname>Rovere</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Steijl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">N</forename><surname>Barakos</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2020">2020</date>
+<publisher>AIAA)</publisher>
+</imprint>
+<respstmt>
+<orgname>American Institute of Aeronautics and Astronautics</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">F. Rovere, R. Steijl, G.N. Barakos, CFD Analysis of a Micro Rotor in Ground Effect, American Institute of Aeronautics and Astronautics (AIAA), 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Effect of facility walls and blade aeroelasticity on psp rotor hover performance predictions</title>
+<author>
+<persname><forename type="first">R</forename><surname>Jain</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">AIAA Aerospace Sciences Meeting</title>
+<imprint>
+<date type="published" when="2018">2018. 2018</date>
+<biblscope unit="page">305</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">R. Jain, Effect of facility walls and blade aeroelasticity on psp rotor hover performance predictions, in: 2018 AIAA Aerospace Sciences Meeting, 2018, p. 0305.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<monogr>
+<title level="m" type="main">Numerical Study of Isolated and Full Configuration PSP Rotor Using a Mixed Mesh Flow Solver</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">H</forename><surname>Park</surname></persname>
+</author>
+<author>
+<persname><forename type="first">O</forename><forename type="middle">J</forename><surname>Kwon</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2020">2020</date>
+<publisher>AIAA)</publisher>
+</imprint>
+<respstmt>
+<orgname>American Institute of Aeronautics and Astronautics</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">S.H. Park, O.J. Kwon, Numerical Study of Isolated and Full Configuration PSP Rotor Using a Mixed Mesh Flow Solver, American Institute of Aeronautics and Astronautics (AIAA), 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Comparison of computational fluid dynamics hover predictions on the S-76 rotor</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">N</forename><surname>Abras</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Hariharan</surname></persname>
+</author>
+<idno type="DOI">10.2514/1.C034121</idno>
+<ptr target="https://doi.org/10.2514/1.C034121"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Aircr</title>
+<imprint>
+<biblscope unit="volume">55</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="12" to="22" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J.N. Abras, N. Hariharan, Comparison of computational fluid dynamics hover predictions on the S-76 rotor, J. Aircr. 55 (1) (2018) 12-22, https://doi .org /10 . 2514 /1.C034121.</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Wake breakdown of high-fidelity simulations of a rotor in hover</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">N</forename><surname>Abras</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Narducci</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Hariharan</surname></persname>
+</author>
+<idno type="DOI">10.2514/1.C034121</idno>
+</analytic>
+<monogr>
+<title level="m">AIAA Scitech 2019 Forum</title>
+<imprint>
+<publisher>AIAA</publisher>
+<date type="published" when="2019">2019</date>
+</imprint>
+<respstmt>
+<orgname>American Institute of Aeronautics and Astronautics Inc.</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">J.N. Abras, R. Narducci, N. Hariharan, Wake breakdown of high-fidelity simula- tions of a rotor in hover, in: AIAA Scitech 2019 Forum, American Institute of Aeronautics and Astronautics Inc., AIAA, 2019.</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<monogr>
+<title level="m" type="main">Impact of High-Fidelity Simulation Variations on Wake Breakdown of a Rotor in Hover</title>
+<author>
+<persname><forename type="first">J</forename><surname>Abras</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">P</forename><surname>Narducci</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">S</forename><surname>Hariharan</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2020">2020</date>
+<publisher>AIAA)</publisher>
+</imprint>
+<respstmt>
+<orgname>American Institute of Aeronautics and Astronautics</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">J. Abras, R.P. Narducci, N.S. Hariharan, Impact of High-Fidelity Simulation Vari- ations on Wake Breakdown of a Rotor in Hover, American Institute of Aeronau- tics and Astronautics (AIAA), 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Simple multiple reference frame for high-order solution of hovering rotors with and without ground effect</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Silva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">F</forename><surname>Antoniadis</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Aerosp. Sci. Technol</title>
+<imprint>
+<biblscope unit="volume">111</biblscope>
+<biblscope unit="page">106518</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P.A. Silva, P. Tsoutsanis, A.F. Antoniadis, Simple multiple reference frame for high-order solution of hovering rotors with and without ground effect, Aerosp. Sci. Technol. 111 (2021) 106518.</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Restoration of the contact surface in the hll-Riemann solver</title>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">F</forename><surname>Toro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Spruce</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Speares</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Shock Waves</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="25" to="34" unit="page"></biblscope>
+<date type="published" when="1994">1994</date>
+</imprint>
+</monogr>
+<note type="raw_reference">E.F. Toro, M. Spruce, W. Speares, Restoration of the contact surface in the hll- Riemann solver, Shock Waves 4 (1) (1994) 25-34.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">The HLLC Riemann solver</title>
+<author>
+<persname><forename type="first">E</forename><surname>Toro</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Shock Waves</title>
+<imprint>
+<biblscope unit="volume">29</biblscope>
+<biblscope from="1065" to="1082" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">E. Toro, The HLLC Riemann solver, Shock Waves 29 (2019) 1065-1082.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Extended bounds limiter for high-order finite-volume schemes on unstructured meshes</title>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Comput. Phys</title>
+<imprint>
+<biblscope unit="volume">362</biblscope>
+<biblscope from="69" to="94" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P. Tsoutsanis, Extended bounds limiter for high-order finite-volume schemes on unstructured meshes, J. Comput. Phys. 362 (2018) 69-94.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<monogr>
+<ptr target="http://www.ucns3d.com"></ptr>
+<title level="m">UCNS3D cfd code</title>
+<imprint>
+<date type="published" when="2019-10-30">30 October 2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">UCNS3D cfd code, http://www.ucns3d .com. (Accessed 30 October 2019).</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">WENO schemes on unstructured meshes using a relaxed a posteriori MOOD limiting approach</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">S</forename><surname>Farmakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Nogueira</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.cma.2020.112921</idno>
+<ptr target="https://linkinghub.elsevier.com/retrieve/pii/S0045782520301043"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput. Methods Appl. Mech. Eng</title>
+<imprint>
+<biblscope unit="volume">363</biblscope>
+<biblscope unit="page">112921</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P.S. Farmakis, P. Tsoutsanis, X. Nogueira, WENO schemes on unstructured meshes using a relaxed a posteriori MOOD limiting approach, Comput. Meth- ods Appl. Mech. Eng. 363 (2020) 112921, https://doi .org /10 .1016 /j .cma .2020 . 112921, https://linkinghub .elsevier.com /retrieve /pii /S0045782520301043.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">A high-order finite-volume method for atmospheric flows on unstructured grids</title>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Drikakis</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.cma.2020.112921</idno>
+<ptr target="https://doi.org/10.1166/jcsmd.2016.1104"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Coupled Syst. Multiscale Dyn</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope from="170" to="186" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P. Tsoutsanis, D. Drikakis, A high-order finite-volume method for atmospheric flows on unstructured grids, J. Coupled Syst. Multiscale Dyn. 4 (2016) 170-186, https://doi .org /10 .1166 /jcsmd .2016 .1104.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Stencil selection algorithms for weno schemes on unstructured meshes</title>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<idno type="DOI">10.1166/jcsmd.2016.1104</idno>
+<ptr target="https://doi.org/10.1016/j.jcpx.2019.100037"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Comput. Phys. X</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P. Tsoutsanis, Stencil selection algorithms for weno schemes on unstruc- tured meshes, J. Comput. Phys. X 4 (2019), https://doi .org /10 .1016 /j .jcpx .2019 . 100037.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">WENO schemes on arbitrary unstructured meshes for laminar, transitional and turbulent flows</title>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">F</forename><surname>Antoniadis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Drikakis</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jcpx.2019.100037</idno>
+<ptr target="https://doi.org/10.1016/j.jcp.2013.09.002"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Comput. Phys</title>
+<imprint>
+<biblscope unit="volume">256</biblscope>
+<biblscope from="254" to="276" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P. Tsoutsanis, A.F. Antoniadis, D. Drikakis, WENO schemes on arbitrary unstruc- tured meshes for laminar, transitional and turbulent flows, J. Comput. Phys. 256 (2014) 254-276, https://doi .org /10 .1016 /j .jcp .2013 .09 .002.</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Improvement of the computational performance of a parallel unstructured WENO finite volume CFD code for implicit large Eddy simulation</title>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">F</forename><surname>Antoniadis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">W</forename><surname>Jenkins</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jcp.2013.09.002</idno>
+<ptr target="https://doi.org/10.1016/J.COMPFLUID.2018.03.012"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput. Fluids</title>
+<imprint>
+<biblscope unit="volume">173</biblscope>
+<biblscope from="157" to="170" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P. Tsoutsanis, A.F. Antoniadis, K.W. Jenkins, Improvement of the computational performance of a parallel unstructured WENO finite volume CFD code for implicit large Eddy simulation, Comput. Fluids 173 (2018) 157-170, https:// doi .org /10 .1016 /J .COMPFLUID .2018 .03 .012.</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">High-order methods for hypersonic shock wave turbulent boundary layer interaction flow</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">F</forename><surname>Antoniadis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Drikakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">W</forename><surname>Kokkinakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><forename type="middle">A</forename><surname>Rana</surname></persname>
+</author>
+<idno type="DOI">10.1016/J.COMPFLUID.2018.03.012</idno>
+</analytic>
+<monogr>
+<title level="m">20th AIAA International Space Planes and Hypersonic Systems and Technologies Conference</title>
+<imprint>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A.F. Antoniadis, D. Drikakis, I.W. Kokkinakis, P. Tsoutsanis, Z.A. Rana, High-order methods for hypersonic shock wave turbulent boundary layer interaction flow, in: 20th AIAA International Space Planes and Hypersonic Systems and Tech- nologies Conference, 2015.</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Weno schemes on arbitrary mixedelement unstructured meshes in three space dimensions</title>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><forename type="middle">A</forename><surname>Titarev</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Drikakis</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Comput. Phys</title>
+<imprint>
+<biblscope unit="volume">230</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="1585" to="1601" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P. Tsoutsanis, V.A. Titarev, D. Drikakis, Weno schemes on arbitrary mixed- element unstructured meshes in three space dimensions, J. Comput. Phys. 230 (4) (2011) 1585-1601.</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Comparison of structured-and unstructured-grid, compressible and incompressible methods using the vortex pairing problem</title>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><forename type="middle">W</forename><surname>Kokkinakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Könözsy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Drikakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J</forename><surname>Williams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Youngs</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Comput. Methods Appl. Mech. Eng</title>
+<imprint>
+<biblscope unit="volume">293</biblscope>
+<biblscope from="207" to="231" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P. Tsoutsanis, I.W. Kokkinakis, L. Könözsy, D. Drikakis, R.J. Williams, D.L. Youngs, Comparison of structured-and unstructured-grid, compressible and incom- pressible methods using the vortex pairing problem, Comput. Methods Appl. Mech. Eng. 293 (2015) 207-231.</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">High-order schemes on mixed-element unstructured grids for aerodynamic flows</title>
+<author>
+<persname><forename type="first">A</forename><surname>Antoniadis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Drikakis</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">42nd AIAA Fluid Dynamics Conference and Exhibit</title>
+<imprint>
+<date type="published" when="2012">2012</date>
+<biblscope unit="page">2833</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Antoniadis, P. Tsoutsanis, D. Drikakis, High-order schemes on mixed-element unstructured grids for aerodynamic flows, in: 42nd AIAA Fluid Dynamics Con- ference and Exhibit, 2012, p. 2833.</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Hovering rotor solutions by high-order methods on unstructured grids</title>
+<author>
+<persname><forename type="first">F</forename><surname>Ricci</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Silva</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">F</forename><surname>Antoniadis</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Aerosp. Sci. Technol</title>
+<imprint>
+<biblscope unit="volume">97</biblscope>
+<biblscope unit="page">105648</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">F. Ricci, P.A. Silva, P. Tsoutsanis, A.F. Antoniadis, Hovering rotor solutions by high-order methods on unstructured grids, Aerosp. Sci. Technol. 97 (2020) 105648.</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Arbitrary high order central non-oscillatory schemes on mixed-element unstructured meshes</title>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Dumbser</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Comput. Fluids</title>
+<imprint>
+<biblscope unit="volume">225</biblscope>
+<biblscope unit="page">104961</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P. Tsoutsanis, M. Dumbser, Arbitrary high order central non-oscillatory schemes on mixed-element unstructured meshes, Comput. Fluids 225 (2021) 104961.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Cweno schemes for finite-volume diffuse interface method on unstructured meshes</title>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Mayowa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Merino</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Perez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Skote</surname></persname>
+</author>
+<idno type="DOI">10.1007/s10915-021-01673-y</idno>
+<ptr target="https://doi.org/10.1007/s10915-021-01673-y"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Sci. Comput</title>
+<imprint>
+<biblscope unit="volume">89</biblscope>
+<biblscope unit="page">64</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P. Tsoutsanis, E. Mayowa, A. Merino, A. Perez, M. Skote, Cweno schemes for finite-volume diffuse interface method on unstructured meshes, J. Sci. Comput. 89 (2021) 64, https://doi .org /10 .1007 /s10915 -021 -01673 -y.</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Low-Mach number treatment for finite-volume schemes on unstructured meshes</title>
+<author>
+<persname><forename type="first">N</forename><surname>Simmonds</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">F</forename><surname>Antoniadis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">W</forename><surname>Jenkins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gaylard</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.amc.2018.04.076</idno>
+<ptr target="http://linkinghub.elsevier.com/retrieve/pii/S0096300318304028"></ptr>
+</analytic>
+<monogr>
+<title level="j">Appl. Math. Comput</title>
+<imprint>
+<biblscope unit="volume">336</biblscope>
+<biblscope from="368" to="393" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">N. Simmonds, P. Tsoutsanis, A.F. Antoniadis, K.W. Jenkins, A. Gaylard, Low-Mach number treatment for finite-volume schemes on unstructured meshes, Appl. Math. Comput. 336 (2018) 368-393, https://doi .org /10 .1016 /j .amc .2018 .04 .076, http://linkinghub .elsevier.com /retrieve /pii /S0096300318304028.</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Azure: an advanced CFD software suite based on high-resolution and high-order methods</title>
+<author>
+<persname><forename type="first">D</forename><surname>Drikakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">F</forename><surname>Antoniadis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Kokkinakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Rana</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">53rd AIAA Aerospace Sciences Meeting</title>
+<imprint>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">D. Drikakis, A.F. Antoniadis, P. Tsoutsanis, I. Kokkinakis, Z. Rana, Azure: an ad- vanced CFD software suite based on high-resolution and high-order methods, in: 53rd AIAA Aerospace Sciences Meeting, 2015.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Application of the minimum-derivative principle in the construction of finite-difference schemes for numerical analysis of discontinuous solutions in gas dynamics</title>
+<author>
+<persname><forename type="first">V</forename><surname>Kolgan</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Trans. Central Aerohydrodyn. Inst</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="68" to="77" unit="page"></biblscope>
+<date type="published" when="1972">1972</date>
+</imprint>
+</monogr>
+<note>in Russian</note>
+<note type="raw_reference">V. Kolgan, Application of the minimum-derivative principle in the construction of finite-difference schemes for numerical analysis of discontinuous solutions in gas dynamics, Trans. Central Aerohydrodyn. Inst. 3 (6) (1972) 68-77 (in Rus- sian).</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Application of the principle of minimizing the derivative to the construction of finite-difference schemes for computing discontinuous solutions of gas dynamics</title>
+<author>
+<persname><forename type="first">V</forename><surname>Kolgan</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J. Comput. Phys</title>
+<imprint>
+<biblscope unit="volume">230</biblscope>
+<biblscope unit="issue">7</biblscope>
+<biblscope from="2384" to="2390" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">V. Kolgan, Application of the principle of minimizing the derivative to the con- struction of finite-difference schemes for computing discontinuous solutions of gas dynamics, J. Comput. Phys. 230 (7) (2011) 2384-2390.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Measuring surface pressures on rotor blades using pressure-sensitive paint</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">N</forename><surname>Watkins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">D</forename><surname>Leighty</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">E</forename><surname>Lipford</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">Z</forename><surname>Goodman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Crafton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Gregory</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">AIAA J</title>
+<imprint>
+<biblscope unit="volume">54</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="206" to="215" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A.N. Watkins, B.D. Leighty, W.E. Lipford, K.Z. Goodman, J. Crafton, J.W. Gregory, Measuring surface pressures on rotor blades using pressure-sensitive paint, AIAA J. 54 (1) (2015) 206-215.</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Progress Towards Fuselage Drag Reduction via Active Flow Control: A Combined CFD and Experimental Effort</title>
+<author>
+<persname><forename type="first">B</forename><surname>Allan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Langley</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Instrumentation</title>
+<imprint>
+<biblscope from="1" to="17" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">B. Allan, N. Langley, Progress Towards Fuselage Drag Reduction via Active Flow Control: A Combined CFD and Experimental Effort, Instrumentation, 2010, pp. 1-17.</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<monogr>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">B</forename><surname>Hillier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Stock</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gharakhani</surname></persname>
+</author>
+<ptr target="https://github.com/Applied-Scientific-Research/robin-surface-mesh"></ptr>
+<title level="m">Robin-surface-mesh: robust and corrected coefficients for the ROBIN body geometry</title>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">B.B. Hillier, M.J. Stock, A. Gharakhani, Robin-surface-mesh: robust and cor- rected coefficients for the ROBIN body geometry, https://github .com /Applied - Scientific -Research /robin -surface -mesh, 2020.</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Measured boundary layer transition and rotor hover performance at model scale</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Overmeyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Martin</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">55th AIAA Aerospace Sciences Meeting</title>
+<meeting><address><addrline>Reston, Virginia</addrline></address></meeting>
+<imprint>
+<date type="published" when="2017">2017</date>
+</imprint>
+<respstmt>
+<orgname>American Institute of Aeronautics and Astronautics</orgname>
+</respstmt>
+</monogr>
+<note type="raw_reference">A.D. Overmeyer, P.B. Martin, Measured boundary layer transition and rotor hover performance at model scale, in: 55th AIAA Aerospace Sciences Meeting, American Institute of Aeronautics and Astronautics, Reston, Virginia, 2017.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<monogr>
+<ptr target="https://www.aiaa-hpw.org/psp-rotor"></ptr>
+<title level="m">Aiaa rotorcraft hover prediction workshop (hpw)</title>
+<imprint>
+<date type="published" when="2021-09-09">9 September 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Aiaa rotorcraft hover prediction workshop (hpw), https://www.aiaa -hpw.org / psp -rotor. (Accessed 9 September 2021).</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">High-order methods for the Euler and Navier-Stokes equations on unstructured grids</title>
+<author>
+<persname><forename type="first">Z</forename><forename type="middle">J</forename><surname>Wang</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.paerosci.2007.05.001</idno>
+<ptr target="https://doi.org/10.1016/j.paerosci.2007.05.001"></ptr>
+</analytic>
+<monogr>
+<title level="j">Prog. Aerosp. Sci</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope from="1" to="41" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Z.J. Wang, High-order methods for the Euler and Navier-Stokes equations on unstructured grids, Prog. Aerosp. Sci. 43 (2007) 1-41, https://doi .org /10 .1016 /j . paerosci .2007.05 .001.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><surname>Jimenez-Garcia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Barakos</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.paerosci.2007.05.001</idno>
+<title level="m">Numerical simulations on the psp rotor using hmb</title>
+<imprint>
+<date type="published" when="2018">2018. 2018</date>
+<biblscope unit="volume">3</biblscope>
+<biblscope unit="page">306</biblscope>
+</imprint>
+</monogr>
+<note>AIAA Aerospace Sciences Meeting</note>
+<note type="raw_reference">A. Jimenez-Garcia, G. Barakos, Numerical simulations on the psp rotor using hmb3, in: 2018 AIAA Aerospace Sciences Meeting, 2018, p. 0306.</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">T</forename><surname>Balch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Lombardi</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.ast.2022.107401</idno>
+<ptr target="https://doi.org/10.1016/j.ast.2022.107401"></ptr>
+</analytic>
+<monogr>
+<title level="m">Experimental study of main rotor tip geometry and tail rotor interactions in hover</title>
+<editor>
+<persname><forename type="first">P</forename><surname>Tsoutsanis</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">A</forename><forename type="middle">F</forename><surname>Antoniadis</surname></persname>
+</editor>
+<imprint>
+<publisher>Elsevier Silva PASF</publisher>
+<date type="published" when="1985-02">Feb 1985. 2022. 2022. March</date>
+<biblscope unit="volume">2</biblscope>
+</imprint>
+<respstmt>
+<orgname>Cranfield University ; Cranfield Library Services E-Repository</orgname>
+</respstmt>
+</monogr>
+<note>Aerospace Science and Technology</note>
+<note type="raw_reference">D.T. Balch, J. Lombardi, Experimental study of main rotor tip geometry and tail rotor interactions in hover. Volume 2: run log and tabulated data, https:// ntrs .nasa .gov /search .jsp ?R =19850014035, Feb 1985. Cranfield University CERES https://dspace.lib.cranfield.ac.uk School of Aerospace, Transport and Manufacturing (SATM) Staff publications (SATM) 2022-02-15 Numerical investigation of full helicopter with and without the ground effect Silva, Paulo A. S. F. Elsevier Silva PASF, Tsoutsanis P, Antoniadis AF. (2022) Numerical Investigation of full helicopter with and without the ground effect, Aerospace Science and Technology, Volume 122, Issue March, Article number 107401 https://doi.org/10.1016/j.ast.2022.107401 Downloaded from Cranfield Library Services E-Repository</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

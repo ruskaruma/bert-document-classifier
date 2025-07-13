@@ -1,0 +1,598 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Ecol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Ecol Evol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2045-7758</journal-id><journal-id journal-id-type="publisher-id">ECE3</journal-id><journal-title-group><journal-title>Ecology and Evolution</journal-title></journal-title-group><issn pub-type="epub">2045-7758</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5938460</article-id><article-id pub-id-type="doi">10.1002/ece3.3985</article-id><article-id pub-id-type="publisher-id">ECE33985</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>High levels of polyandry, but limited evidence for multiple paternity, in wild populations of the western rock lobster (<italic>Panulirus cygnus</italic>)</article-title><alt-title alt-title-type="left-running-head">LOO et&#x000a0;al.</alt-title></title-group><contrib-group><contrib id="ece33985-cr-0001" contrib-type="author"><name><surname>Loo</surname><given-names>Jacqueline</given-names></name><xref ref-type="aff" rid="ece33985-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece33985-cr-0002" contrib-type="author"><name><surname>Kennington</surname><given-names>Winn Jason</given-names></name><xref ref-type="aff" rid="ece33985-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ece33985-cr-0003" contrib-type="author"><name><surname>de Lestang</surname><given-names>Simon</given-names></name><xref ref-type="aff" rid="ece33985-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece33985-cr-0004" contrib-type="author"><name><surname>How</surname><given-names>Jason</given-names></name><xref ref-type="aff" rid="ece33985-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ece33985-cr-0005" contrib-type="author" corresp="yes"><name><surname>Evans</surname><given-names>Jonathan P.</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2603-6832</contrib-id><address><email>jonathan.evans@uwa.edu.au</email></address><xref ref-type="aff" rid="ece33985-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="ece33985-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Centre for Evolutionary Biology</named-content>
+<named-content content-type="organisation-division">School of Biological Sciences</named-content>
+<institution>The University of Western Australia</institution>
+<named-content content-type="city">Crawley</named-content>
+<named-content content-type="country-part">WA</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="ece33985-aff-0002">
+<label><sup>2</sup></label>
+<institution>Western Australian Fisheries and Marine Research Laboratories</institution>
+<named-content content-type="city">North Beach</named-content>
+<named-content content-type="country-part">WA</named-content>
+<country country="AU">Australia</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+Jonathan P. Evans, Centre for Evolutionary Biology, School of Biological Sciences, The University of Western Australia, Crawley, WA, Australia.<break/>
+Email <email>jonathan.evans@uwa.edu.au</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>10</day><month>4</month><year>2018</year></pub-date><pub-date pub-type="collection"><month>5</month><year>2018</year></pub-date><volume>8</volume><issue>9</issue><issue-id pub-id-type="doi">10.1002/ece3.2018.8.issue-9</issue-id><fpage>4525</fpage><lpage>4533</lpage><history><date date-type="received"><day>21</day><month>1</month><year>2018</year></date><date date-type="rev-recd"><day>07</day><month>2</month><year>2018</year></date><date date-type="accepted"><day>09</day><month>2</month><year>2018</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2018 Published by John Wiley & Sons Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2018 The Authors. <italic>Ecology and Evolution</italic> published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:ECE3-8-4525.pdf"/><abstract id="ece33985-abs-0001"><title>Abstract</title><p>Polyandry, where multiple mating by females results in the temporal and spatial overlap of ejaculates from two or more males, is taxonomically widespread and occurs in varying frequencies within and among species. In decapods (crabs, lobsters, crayfish, and prawns), rates of polyandry are likely to be variable, but the extent to which patterns of multiple paternity reflect multiple mating, and thus are shaped by postmating processes that bias fertilization toward one or a subset of mated males, is unclear. Here, we use microsatellite markers to examine the frequency of multiple mating (the presence of spermatophores from two or more males) and patterns of paternity in wild populations of western rock lobster (<italic>Panulirus cygnus</italic>). Our data confirm that &#x0003e;45% of females had attached spermatophores arising from at least two males (i.e., confirming polyandry), but we found very limited evidence for multiple paternity; among 24 clutches sampled in this study, only two arose from fertilizations by two or more males. Single inferred paternal genotypes accounted for all remaining progeny genotypes in each clutch, including several instances when the mother had been shown to mate with two or more males. These findings highlight the need for further work to understand whether polyandry is adaptive and to uncover the mechanisms underlying postmating paternity biases in this system.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ece33985-kwd-0001">cryptic female choice</kwd><kwd id="ece33985-kwd-0002">postcopulatory sexual selection</kwd><kwd id="ece33985-kwd-0003">sexual selection</kwd><kwd id="ece33985-kwd-0004">spawning</kwd><kwd id="ece33985-kwd-0005">sperm competition</kwd></kwd-group><funding-group><award-group><funding-source>School of Biological Sciences, University of Western Australia</funding-source></award-group></funding-group><counts><fig-count count="2"/><table-count count="2"/><page-count count="9"/><word-count count="7320"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>ece33985</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>May 2018</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:version=5.3.7.2 mode:remove_FC converted:08.05.2018</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ece33985-cit-1001">
+<string-name>
+<surname>Loo</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kennington</surname>
+<given-names>WJ</given-names>
+</string-name>, <string-name>
+<surname>de Lestang</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>How</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Evans</surname>
+<given-names>JP</given-names>
+</string-name>. <article-title>High levels of polyandry, but limited evidence for multiple paternity, in wild populations of the western rock lobster (<italic>Panulirus cygnus</italic>)</article-title>. <source>Ecol Evol</source>. <year>2018</year>;<volume>8</volume>:<fpage>4525</fpage>&#x02013;<lpage>4533</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ece3.3985">https://doi.org/10.1002/ece3.3985</ext-link>
+</mixed-citation>
+</p></notes></front><body><sec id="ece33985-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Polyandry, where females mate with two or more males, is taxonomically widespread (Birkhead &#x00026; M&#x000f8;ller, <xref rid="ece33985-bib-0007" ref-type="ref">1998</xref>) despite potential costs to females, such as wasted time and energy (Watson, Arnqvist, &#x00026; Stallmann, <xref rid="ece33985-bib-0070" ref-type="ref">1998</xref>), increased predation risk (Rowe, <xref rid="ece33985-bib-0051" ref-type="ref">1994</xref>), exposure to disease (Thrall, Antonovics, &#x00026; Dobson, <xref rid="ece33985-bib-0062" ref-type="ref">2000</xref>), and risk of injuries (Crudgington &#x00026; Siva&#x02010;Jothy, <xref rid="ece33985-bib-0013" ref-type="ref">2000</xref>). The maintenance of polyandry has been attributed to material (direct) and genetic (indirect) benefits for females. Direct benefits include fertility assurance, provision of resources and parental care for the offspring (Sheldon <xref rid="ece33985-bib-0500" ref-type="ref">1994</xref>). Indirect benefits include genetic incompatibility avoidance, increased genetic diversity of offspring, and the enhanced survival and reproductive success of offspring (Jennions &#x00026; Petrie, <xref rid="ece33985-bib-0028" ref-type="ref">2000</xref>; Neff &#x00026; Pitcher, <xref rid="ece33985-bib-0040" ref-type="ref">2005</xref>; Tregenza &#x00026; Wedell, <xref rid="ece33985-bib-0063" ref-type="ref">2000</xref>). Polyandry may also occur in the absence of benefits to females in order to avoid the costs of male harassment (&#x0201c;convenience polyandry&#x0201d;; Thornhill &#x00026; Alcock, <xref rid="ece33985-bib-0061" ref-type="ref">1983</xref>).</p><p>A common assumption in the literature in sexual selection is that polyandry will inevitably lead to multiple paternity. Indeed, multiple paternity, as estimated by assigning parentage of offspring from putatively multiply mated females, is commonly used to estimate the level of polyandry in natural populations (Taylor, Price, &#x00026; Wedell, <xref rid="ece33985-bib-0058" ref-type="ref">2014</xref>). Yet, polyandry does not always translate into multiple paternity, as a number of postmating processes can ultimately determine which males are successful at fertilizing a female's eggs. For example, polyandry provides the scope for postmating episodes of sexual selection in the form of sperm competition (Parker, <xref rid="ece33985-bib-0042" ref-type="ref">1970</xref>) and/or cryptic choice (Eberhard, <xref rid="ece33985-bib-0018" ref-type="ref">1996</xref>; Thornhill, <xref rid="ece33985-bib-0060" ref-type="ref">1983</xref>), which have the potential to affect fertilization outcomes (Pizzari &#x00026; Wedell, <xref rid="ece33985-bib-0046" ref-type="ref">2013</xref>). Sperm competition is the competition between sperm of different males to fertilize a female's eggs (Parker, <xref rid="ece33985-bib-0042" ref-type="ref">1970</xref>), whereas cryptic choice occurs when females influence the outcome of sperm competition (Eberhard, <xref rid="ece33985-bib-0018" ref-type="ref">1996</xref>; Thornhill, <xref rid="ece33985-bib-0060" ref-type="ref">1983</xref>). Sperm competition and cryptic female choice play critical roles in postmating sexual selection and have important consequences at both population and individual levels (Birkhead &#x00026; Pizzari, <xref rid="ece33985-bib-0008" ref-type="ref">2002</xref>).</p><p>The mating systems of decapod crustaceans are highly diverse and complex (Duffy &#x00026; Thiel, <xref rid="ece33985-bib-0017" ref-type="ref">2007</xref>; Martin, Crandall, &#x00026; Felder, <xref rid="ece33985-bib-0036" ref-type="ref">2016</xref>). In many species, reproduction is synchronized with the molt cycle, with females being receptive only for a limited time after molting (Duffy &#x00026; Thiel, <xref rid="ece33985-bib-0017" ref-type="ref">2007</xref>). Females approaching their reproductive molt are often guarded by males for one to several days before copulation (Duffy &#x00026; Thiel, <xref rid="ece33985-bib-0017" ref-type="ref">2007</xref>; Subramoniam, <xref rid="ece33985-bib-0057" ref-type="ref">2013</xref>). Precopulatory male guarding is considered an evolutionary response to time&#x02010;limited opportunity for fertilization and to the need to protect recently molted females (Duffy &#x00026; Thiel, <xref rid="ece33985-bib-0017" ref-type="ref">2007</xref>). In species with external fertilization (e.g., lobsters), males attach their spermatophores on the sternal plates of the female's cephalothorax during mating (Phillips, Cobb, &#x00026; George, <xref rid="ece33985-bib-0045" ref-type="ref">2012</xref>). After mating, postmating guarding by the male occurs in some species, presumably to reduce the risk that females will mate with other males (Duffy &#x00026; Thiel, <xref rid="ece33985-bib-0017" ref-type="ref">2007</xref>).</p><p>Parentage studies have revealed that polyandry is widespread in decapods and that there is substantial variation in the extent of multiple paternity within and among species, ranging from zero in the European lobster, <italic>Homarus gammarus</italic> (Ellis et&#x000a0;al., <xref rid="ece33985-bib-0019" ref-type="ref">2015</xref>) to 100% in the squat lobster, <italic>Munida sarsi</italic> (Bailie, Hynes, &#x00026; Prodohl, <xref rid="ece33985-bib-0004" ref-type="ref">2011</xref>). For the most part, however, parentage studies on decapods have been conducted on crabs (Baggio et&#x000a0;al., <xref rid="ece33985-bib-0002" ref-type="ref">2011</xref>; Jensen &#x00026; Bentzen, <xref rid="ece33985-bib-0029" ref-type="ref">2012</xref>; Jossart et&#x000a0;al., <xref rid="ece33985-bib-0031" ref-type="ref">2014</xref>; Koga, Henmi, &#x00026; Murai, <xref rid="ece33985-bib-0033" ref-type="ref">1993</xref>; McKeown &#x00026; Shaw, <xref rid="ece33985-bib-0037" ref-type="ref">2008</xref>; Pardo, Riveros, Fuentes, Rojas&#x02010;Hernandez, &#x00026; Veliz, <xref rid="ece33985-bib-0041" ref-type="ref">2016</xref>; Reaney, Maurer, Backwell, &#x00026; Linde, <xref rid="ece33985-bib-0050" ref-type="ref">2012</xref>; Sainte&#x02010;Marie, Gosselin, Sevigny, &#x00026; Urbani, <xref rid="ece33985-bib-0053" ref-type="ref">2008</xref>). In some cases, where multiple paternity has been detected, considerable skews in fertilization success toward a single male have been reported (Bailie et&#x000a0;al., <xref rid="ece33985-bib-0004" ref-type="ref">2011</xref>, <xref rid="ece33985-bib-0003" ref-type="ref">2014</xref>; Gosselin, Sainte&#x02010;Marie, &#x00026; Bernatchez, <xref rid="ece33985-bib-0023" ref-type="ref">2005</xref>; Plough, Moran, &#x00026; Marko, <xref rid="ece33985-bib-0047" ref-type="ref">2014</xref>). Such skew may result from a range of postmating processes, including cryptic female choice (Thiel &#x00026; Hinojosa, <xref rid="ece33985-bib-0059" ref-type="ref">2003</xref>) and sperm competition (Diesel, <xref rid="ece33985-bib-0016" ref-type="ref">1990</xref>; S&#x000e9;vigny &#x00026; Sainte&#x02010;Marie, <xref rid="ece33985-bib-0055" ref-type="ref">1996</xref>; Urbani, Sainte&#x02010;Marie, S&#x000e9;vigny, Zadworny, &#x00026; Kuhnlein, <xref rid="ece33985-bib-0064" ref-type="ref">1998</xref>). For example, in crabs of the infraorder Brachyura, in which spatial segregation of multiple paternal ejaculates has been reported, the anatomical structure of the spermathecae increases the probability of fertilization for the last male, that is, last&#x02010;male precedence (Jensen &#x00026; Bentzen, <xref rid="ece33985-bib-0029" ref-type="ref">2012</xref>). Furthermore, in freshwater crayfish, males bias paternity in their favor by depositing sperm plugs (Holdich, Reeve, Holdich, &#x00026; Lowery, <xref rid="ece33985-bib-0026" ref-type="ref">1988</xref>) diluting sperm (Rubolini et&#x000a0;al., <xref rid="ece33985-bib-0052" ref-type="ref">2007</xref>) and removing or displacing sperm from previous males (Villanelli &#x00026; Gherardi, <xref rid="ece33985-bib-0067" ref-type="ref">1998</xref>). By comparison, we know little about the mating system of lobsters (Ellis et&#x000a0;al., <xref rid="ece33985-bib-0019" ref-type="ref">2015</xref>; Gosselin et&#x000a0;al., <xref rid="ece33985-bib-0023" ref-type="ref">2005</xref>; Melville&#x02010;Smith, de Lestang, Beale, Groth, &#x00026; Thompson, <xref rid="ece33985-bib-0039" ref-type="ref">2009</xref>; Streiff, Mira, Castro, &#x00026; Cancela, <xref rid="ece33985-bib-0056" ref-type="ref">2004</xref>), especially regarding female mating strategies and the prevalence of polyandry and multiple paternity in natural populations.</p><p>The western rock lobster (<italic>Panulirus cygnus</italic>) is endemic to the Indo&#x02010;West Pacific Ocean region (see Figure&#x000a0;<xref rid="ece33985-fig-0001" ref-type="fig">1</xref>). It is found in temperate to subtropical waters along the Western Australian coastline, ranging from Exmouth (21&#x000b0;55&#x02032;&#x000a0;59&#x02033;S, 114&#x000b0;7&#x02032;41&#x02033;E) in the north to Albany in the south (35&#x000b0;1&#x02032;22&#x02033;S, 117&#x000b0;52&#x02032;53&#x02033;E) (Phillips, <xref rid="ece33985-bib-0044" ref-type="ref">2013</xref>). The reproductive behavior and life cycle of <italic>P.&#x000a0;cygnus</italic> is described in detail elsewhere (Chittleborough, <xref rid="ece33985-bib-0011" ref-type="ref">1976</xref>; Phillips, <xref rid="ece33985-bib-0044" ref-type="ref">2013</xref>). Briefly, the spawning season commences in early spring, when males attach their spermatophores (sperm packets, typically termed &#x0201c;tar spots&#x0201d;) to the sternums of receptive females. Fertilization takes place when females extrude eggs and scratch the spermatophoric mass to release motile sperm. Remnants of the attached tar spots remain until they are either covered by a second mating or removed during molting. The life cycle of <italic>P. cygnus</italic> includes a long (~9&#x02013;11&#x000a0;months) oceanic larval phase, during which planktonic phyllosoma larvae disperse as far as 1,500&#x000a0;km offshore. Helped by favorable winds and currents, the larvae subsequently return to the continental shelf where the final&#x02010;stage larvae metamorphose into the puerulus (postlarvae) that swim toward the shore and settle in shallow reefs. The settled pueruli develop into juveniles and subsequently adults in 5&#x02013;6&#x000a0;years.</p><fig fig-type="Figure" xml:lang="en" id="ece33985-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>The western rock lobster (<italic>Panulirus cygnus</italic>). Photograph courtesy of the Western Australian Department of Primary Industry and Regional Development</p></caption><graphic id="nlm-graphic-3" xlink:href="ECE3-8-4525-g001"/></fig><p>Here we provide new insights into the mating systems and reproductive behavior of <italic>P.&#x000a0;cygnus</italic>, which until now has been limited mainly to observations conducted under laboratory controlled conditions (Chittleborough, <xref rid="ece33985-bib-0010" ref-type="ref">1974</xref>, <xref rid="ece33985-bib-0011" ref-type="ref">1976</xref>). Our recent work on wild populations of <italic>P.&#x000a0;cygnus</italic> (J. Loo et&#x000a0;al. unpubl. data) found evidence of high levels of polyandry in natural populations, with up to 52% of mated females at some locations carrying spermatophores from two or more males. However, this previous study did not genotype fertilized eggs and therefore was unable to confirm whether multiple mating translated into multiple paternity. In this study, we use microsatellite markers to examine patterns of paternity in two wild populations of <italic>P.&#x000a0;cygnus</italic>. By focusing on both singly and multiply mated females (i.e., females carrying spermatophores from one male or two or more males, respectively), we are able to test whether multiple mating leads to multiple paternity. In this way, our study combines data on multiple mating <italic>and</italic> offspring paternity to provide insights into the likely importance of postmating sexual selection in this system.</p></sec><sec id="ece33985-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="ece33985-sec-0003"><label>2.1</label><title>Sampling</title><p>The study was conducted in Rottnest Island, located 18&#x000a0;km west of Fremantle, in south&#x02010;west Western Australia (32&#x000b0;00&#x02032;S, 115&#x000b0;30&#x02032;E). Sampling was conducted over 16&#x000a0;days in February 2015 by the West Australian Department of Primary Industries and Regional Development; Fisheries Division as part of their regular monitoring program. Lobsters were sampled at two locations (Figure&#x000a0;<xref rid="ece33985-fig-0002" ref-type="fig">2</xref>), using dive and pot&#x02010;based survey techniques (Bellchambers et&#x000a0;al., <xref rid="ece33985-bib-0006" ref-type="ref">2009</xref>).</p><fig fig-type="Figure" xml:lang="en" id="ece33985-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Map showing the sampling sites at Rottnest Island. The areas shaded green represent marine protection zones</p></caption><graphic id="nlm-graphic-5" xlink:href="ECE3-8-4525-g002"/></fig><p>For each lobster captured during these collections, the sex and carapace length (CL, measured to the nearest 0.1&#x000a0;mm using a dial caliper) were recorded. Tissue samples from pleopods were collected from all males with a CL &#x0003e;64.5&#x000a0;mm (the minimum CL of a mature male reported at Lancelin; Melville&#x02010;Smith &#x00026; de Lestang, <xref rid="ece33985-bib-0038" ref-type="ref">2006</xref>) and from females carrying spermatophores and/or eggs. A small piece of spermatophore and a cluster of eggs were removed from females. All tissue samples were preserved in 100% ethanol.</p></sec><sec id="ece33985-sec-0004"><label>2.2</label><title>DNA extraction</title><p>Total genomic DNA was extracted from spermatophores using DNeasy Blood and Tissue kit (QIAGEN) following the manufacturer's protocol. Total genomic DNA was extracted from pleopods and individual eggs using proteinase K digestion followed by a DNA extraction method using DNA binding plates (Pall Corporation), as described in Ivanova, Dewaard, and Hebert (<xref rid="ece33985-bib-0027" ref-type="ref">2006</xref>). The concentration and quality of the DNA of each sample was quantified using a NanoDrop ND&#x02010;1000 spectrophotometer.</p><p>Samples were genotyped at seven microsatellite loci, which have proven to be polymorphic for <italic>P. cygnus</italic>: Pcyg03, Pcyg04, Pcyg05, Pcyg11, Pcyg15, Pcyg18 (Kennington et&#x000a0;al., <xref rid="ece33985-bib-0032" ref-type="ref">2010</xref>), and S28 (Groth, Lim, de Lestang, Beale, &#x00026; Melville&#x02010;Smith, <xref rid="ece33985-bib-0025" ref-type="ref">2009</xref>). The 5&#x02032;&#x02010;end of the forward primer from each locus was labeled with a fluorescent tag (FAM, NED, PET, VIC). PCRs were carried out in a 5&#x02010;&#x003bc;l volume with the following conditions: 1&#x000a0;&#x003bc;l of template DNA (10&#x000a0;ng), 1&#x000d7; Bioline MyTaq reaction buffer (containing 3&#x000a0;mmol/L MgCl<sub>2</sub>, 1&#x000a0;mmol/L of each dNTP, stabilizers and enhancers), 0.4&#x000a0;&#x003bc;mol/L of each primer, and 0.1&#x000a0;U/&#x003bc;l MyTaq DNA polymerase (Bioline). Amplifications were completed in an Eppendorf thermal cycler, after optimization of published annealing temperatures (Groth et&#x000a0;al., <xref rid="ece33985-bib-0025" ref-type="ref">2009</xref>; Kennington et&#x000a0;al., <xref rid="ece33985-bib-0032" ref-type="ref">2010</xref>). PCR products were analyzed on a 3700 Genetic Analyzer (Applied Biosystems, Inc), using an internal size standard (GS500 LIZ, ABI). Microsatellite alleles were identified by their sizes in base pairs using the software GENEMARKER v4.0 (SoftGenetics, State College, PA, USA). The genotypes of the males (<italic>n</italic>&#x000a0;=&#x000a0;489) were sourced from a previous study (J. Loo et&#x000a0;al., unpubl. data).</p></sec><sec id="ece33985-sec-0005"><label>2.3</label><title>Data analysis</title><p>The program MICRO&#x02010;CHECKER (Van Oosterhout, Hutchinson, Wills, &#x00026; Shipley, <xref rid="ece33985-bib-0065" ref-type="ref">2004</xref>) was used to detect genotyping or scoring errors, caused by null alleles, large allele dropout, or stutter peaks in the maternal genotypes. Duplicate samples were detected from the probability of genotype identity using GENALEX v. 6 (Peakall &#x00026; Smouse, <xref rid="ece33985-bib-0043" ref-type="ref">2006</xref>). The probability of identity (<italic>PI</italic>, the average probability of different random individuals sharing the same genotype by chance) and a more conservative estimate of <italic>PI</italic>,<italic> PIsibs</italic>, which takes into account the presence of relatives, were also calculated using GENALEX. The same software was used to estimate the number of alleles and observed and expected heterozygosity for each locus from the maternal genotypes. Deviations from random mating were characterized using the <italic>F</italic>
+<sub>IS</sub> statistic (inbreeding coefficient). Positive and negative <italic>F</italic>
+<sub>IS</sub> values indicate a deficit or excess of heterozygotes relative to random mating, respectively. Linkage disequilibrium between each pair of loci was evaluated by testing the significance of association between genotypes. Inbreeding coefficient estimates were performed using FSTAT version 2.9.3 software package (Goudet, <xref rid="ece33985-bib-0024" ref-type="ref">2001</xref>). The program GENEPOP 3.1 (Raymond &#x00026; Rousset, <xref rid="ece33985-bib-0049" ref-type="ref">1995</xref>) was used to assess conformity to Hardy&#x02010;Weinberg equilibrium (HWE). Probability values for deviation from HWE were estimated using the Markov chain method with 10,000 iterations.</p><p>Paternity was investigated by genotyping ~20 fertilized eggs obtained from each of the sampled females (see Table&#x000a0;<xref rid="ece33985-tbl-0002" ref-type="table-wrap">2</xref> for sample sizes). This level of sampling was based on analytical methods for calculating statistical power to detect multiple in highly fecund decapods (Veliz, Duchesne, Rojas&#x02010;Hernandez, &#x00026; Pardo, <xref rid="ece33985-bib-0066" ref-type="ref">2017</xref>), although the number of females sampled in our study was below the recommended 50 females in that analysis (see Section&#x000a0;<xref rid="ece33985-sec-0004" ref-type="sec">2.2</xref>). However, power analysis of sampling 20 eggs per female indicates that we had the ability to detect multiple spawning more than 99% of the time, if the contribution of sperm from two males was roughly equal. Even under the scenario of one male contributing the majority of sperm used to fertilize the egg mass (e.g., 90% of all sperm) our detection probability was still as high as 90%. Three different approaches were used to evaluate paternity: initial inference, the GERUD 2.0 software package (Jones, <xref rid="ece33985-bib-0030" ref-type="ref">2005</xref>), and the COLONY 2.0 software package (Wang, <xref rid="ece33985-bib-0068" ref-type="ref">2004</xref>; Wang &#x00026; Santure, <xref rid="ece33985-bib-0069" ref-type="ref">2009</xref>). For the initial inference approach, paternal genotypes were inferred from nonmaternal alleles observed in the offspring. Multiple paternity was assumed only if more than two nonmaternal alleles occurred in more than one locus in the offspring, to allow for the possibility of mutation at one locus. We analyzed paternity with GERUD using it to reconstruct the minimum number of possible paternal genotypes. GERUD uses an exhaustive algorithm that takes into account information from patterns of Mendelian segregation and genotypic frequencies in the population. As GERUD does not accept missing data, the number of loci used in this study varied from 4 to 7. The parameter for the maximum number of fathers was set to four, and the runs were conducted with known maternal genotypes. Initial inference and GERUD assume that males are heterozygotes and that there is no allele sharing among fathers or between mother and father(s) and, consequently, they may be underestimating the number of fathers. Lastly, we used COLONY to assign parentage based on a maximum&#x02010;likelihood model. Unlike GERUD, this program accepts missing data. We used the default setting and all runs were performed with known maternal genotypes. Inferred paternal genotypes were compared to the genotypes of all sampled males. Multiple paternity was inferred for a clutch if at least two of the three methods (initial inference, GERUD, COLONY) detected more than one father.</p><p>In addition to the paternity analysis, inferred paternal genotypes for each clutch were compared to the genotype of the spermatophore attached to the corresponding mother. Genotype matching was carried out using the genotype identity option in GENALEX.</p></sec></sec><sec id="ece33985-sec-0006"><label>3</label><title>RESULTS</title><p>A total of 25 females carrying eggs (15 from Armstrong Bay and 10 from Kingston Reef) were genotyped. Based on genotype identity, one female from Kingston Reef was sampled twice. Of the remaining 24 females, 11 (~46%) had attached spermatophores with genotypes consisting of more than two alleles at a locus, indicating the presence of DNA from more than one male. (Note that we have previously confirmed that spermatophores consisting of multiple genotypes are unlikely to result from genotyping errors or contamination of female DNA and are therefore likely to result from multiple mating; J. Loo et&#x000a0;al., unpubl. data.) A further five females had spermatophores with genotypes from a single male that did not match the genotype of the inferred sire, suggesting that these females had also mated with two or more males during the reproductive season. The maternal genotypes showed no evidence of null alleles, and there were no significant deviations from HWE at any locus (<italic>p&#x000a0;</italic>&#x0003e;<italic>&#x000a0;</italic>.05 in all cases). The probability of sampling identical maternal genotypes (<italic>PI</italic>) was 3.5&#x000a0;&#x000d7;&#x000a0;10<sup>&#x02212;7</sup>, and a more conservative estimate of PI, which takes into account the presence of relatives, <italic>PIsibs,</italic> was 5.2&#x000a0;&#x000d7;&#x000a0;10<sup>&#x02212;3</sup>. The number of alleles per locus ranged from 2 to 26, with observed heterozygosity ranging from 0.042 to 0.917 (Table&#x000a0;<xref rid="ece33985-tbl-0001" ref-type="table-wrap">1</xref>).</p><table-wrap id="ece33985-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Genetic variation at microsatellite loci used in this study</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Locus</th><th align="center" valign="top" rowspan="1" colspan="1">
+<italic>n</italic>
+</th><th align="center" valign="top" rowspan="1" colspan="1">
+<italic>N</italic>
+<sub>a</sub>
+</th><th align="center" valign="top" rowspan="1" colspan="1">
+<italic>H</italic>
+<sub>O</sub>
+</th><th align="center" valign="top" rowspan="1" colspan="1">
+<italic>H</italic>
+<sub>E</sub>
+</th><th align="center" valign="top" rowspan="1" colspan="1">
+<italic>F</italic>
+<sub>IS</sub>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Pcyg03</td><td align="char" char="." rowspan="1" colspan="1">24</td><td align="char" char="." rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">0.250</td><td align="char" char="." rowspan="1" colspan="1">0.323</td><td align="char" char="." rowspan="1" colspan="1">0.25</td></tr><tr><td align="left" rowspan="1" colspan="1">Pcyg04</td><td align="char" char="." rowspan="1" colspan="1">24</td><td align="char" char="." rowspan="1" colspan="1">26</td><td align="char" char="." rowspan="1" colspan="1">0.917</td><td align="char" char="." rowspan="1" colspan="1">0.953</td><td align="char" char="." rowspan="1" colspan="1">0.06</td></tr><tr><td align="left" rowspan="1" colspan="1">Pcyg05</td><td align="char" char="." rowspan="1" colspan="1">24</td><td align="char" char="." rowspan="1" colspan="1">7</td><td align="char" char="." rowspan="1" colspan="1">0.708</td><td align="char" char="." rowspan="1" colspan="1">0.710</td><td align="char" char="." rowspan="1" colspan="1">0.02</td></tr><tr><td align="left" rowspan="1" colspan="1">Pcyg11</td><td align="char" char="." rowspan="1" colspan="1">23</td><td align="char" char="." rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">0.826</td><td align="char" char="." rowspan="1" colspan="1">0.733</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;0.11</td></tr><tr><td align="left" rowspan="1" colspan="1">Pcyg15</td><td align="char" char="." rowspan="1" colspan="1">24</td><td align="char" char="." rowspan="1" colspan="1">2</td><td align="char" char="." rowspan="1" colspan="1">0.375</td><td align="char" char="." rowspan="1" colspan="1">0.430</td><td align="char" char="." rowspan="1" colspan="1">0.15</td></tr><tr><td align="left" rowspan="1" colspan="1">Pcyg18</td><td align="char" char="." rowspan="1" colspan="1">24</td><td align="char" char="." rowspan="1" colspan="1">2</td><td align="char" char="." rowspan="1" colspan="1">0.042</td><td align="char" char="." rowspan="1" colspan="1">0.041</td><td align="char" char="." rowspan="1" colspan="1">0.00</td></tr><tr><td align="left" rowspan="1" colspan="1">S28</td><td align="char" char="." rowspan="1" colspan="1">24</td><td align="char" char="." rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">0.625</td><td align="char" char="." rowspan="1" colspan="1">0.641</td><td align="char" char="." rowspan="1" colspan="1">0.05</td></tr><tr><td align="left" rowspan="1" colspan="1">W25</td><td align="char" char="." rowspan="1" colspan="1">22</td><td align="char" char="." rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">0.591</td><td align="char" char="." rowspan="1" colspan="1">0.543</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;0.06</td></tr></tbody></table><table-wrap-foot><fn id="ece33985-note-0001"><p>Estimates are based on maternal genotypes pooled across locations. <italic>n</italic>, sample size; <italic>N</italic>
+<sub>a</sub>, number of alleles; <italic>H</italic>
+<sub>O</sub>, observed heterozygosity; <italic>H</italic>
+<sub>E</sub>, expected heterozygosity; and <italic>F</italic>
+<sub>IS</sub> inbreeding coefficient (<italic>p</italic>&#x000a0;&#x0003e;&#x000a0;.05 for all).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>Based on initial inference, only one of 24 clutches showed multiple paternity. According to initial inference and GERUD, the minimum number of sires per clutch was one in 22 cases, with two cases of multiple paternity detected (minimum number of sires of two and three). The analysis in COLONY suggested three instances of multiple paternity (Table&#x000a0;<xref rid="ece33985-tbl-0002" ref-type="table-wrap">2</xref>). Following a consensus approach, multiple paternity was identified only in the two clutches where at least two of the three methods used detected more than one sire. Interestingly, none of the 489 males that were sampled in this study was identified by COLONY as being a putative father of the 24 clutches examined.</p><table-wrap id="ece33985-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Minimum number of sires per clutch as estimated by initial inference, GERUD 2.0 and COLONY 2.0 runs with known maternal genotype</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Clutch</th><th align="center" valign="top" rowspan="1" colspan="1">No. of embryos analyzed</th><th align="center" valign="top" rowspan="1" colspan="1">Initial inference</th><th align="center" valign="top" rowspan="1" colspan="1">GERUD 2.0</th><th align="center" valign="top" rowspan="1" colspan="1">COLONY 2.0</th><th align="left" valign="top" rowspan="1" colspan="1">Spermatophore matched inferred parent</th><th align="left" valign="top" rowspan="1" colspan="1">Multiple paternity</th></tr></thead><tbody><tr><td align="left" colspan="7" rowspan="1">Kingston Reef</td></tr><tr><td align="left" rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">POLY</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="char" char="." rowspan="1" colspan="1">40</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">4</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">6</td><td align="char" char="." rowspan="1" colspan="1">18</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">POLY</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">7</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">POLY</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">3</td><td align="char" char="." rowspan="1" colspan="1">3</td><td align="char" char="." rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">POLY</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" colspan="7" rowspan="1">Armstrong Bay</td></tr><tr><td align="left" rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">18</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">2</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">3</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">POLY</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">4</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">5</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">POLY</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">6</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">7</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">2</td><td align="char" char="." rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">POLY</td><td align="left" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">8</td><td align="char" char="." rowspan="1" colspan="1">18</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">9</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">POLY</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">10</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">11</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">Yes</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">12</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">No</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">13</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">POLY</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">14</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">POLY</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">15</td><td align="char" char="." rowspan="1" colspan="1">20</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="char" char="." rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">POLY</td><td align="left" rowspan="1" colspan="1">No</td></tr></tbody></table><table-wrap-foot><fn id="ece33985-note-0002"><p>POLY indicates cases of polyandry where the spermatophore consisted of more than one genotype (i.e., three or more alleles at least one locus). Criteria to determine multiple paternity: detection of a minimum of two sires per clutch by at least two of the three methods.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>Inferred paternal genotypes (from fertilized eggs) were compared with the genotypes of the spermatophores collected from the corresponding egg&#x02010;carrying females (Table&#x000a0;<xref rid="ece33985-tbl-0002" ref-type="table-wrap">2</xref>). Of these, eight (33%) matched the genotype of the spermatophore attached to the mother. The remaining inferred paternal genotypes did not match the genotype of the spermatophore attached to the mother (17%) or could not be compared to the genotype of the spermatophore attached to the mother because the spermatophore contained ejaculates from more than one male.</p></sec><sec id="ece33985-sec-0007"><label>4</label><title>DISCUSSION</title><p>Our study confirms that while multiple mating by female <italic>P.&#x000a0;cygnus</italic> is relatively common, incidences of multiple paternity are extremely rare. We found that spermatophores attached to females often came from two or more males, confirming our previous evidence that polyandry is widespread in natural populations of <italic>P.&#x000a0;cygnus</italic> (J. Loo et&#x000a0;al., unpubl. data). Despite this evidence for female multiple mating, however, we found limited evidence of multiple paternity.</p><p>One simple explanation for the disparity between patterns of female multiple mating and the incidence of multiple paternity is that our sampling protocol may have resulted in low statistical power. Recently, Veliz et&#x000a0;al. (<xref rid="ece33985-bib-0066" ref-type="ref">2017</xref>) developed an analytical method that assessed the statistical power to detect multiple paternity in crabs. According to their analysis, sampling 20 eggs from <italic>n&#x000a0;</italic>=<italic>&#x000a0;</italic>50 females yields very high statistical power to detect multiple paternity, even in highly fecund species with 1&#x000a0;&#x000d7;&#x000a0;10<sup>6</sup> eggs per clutch. In our study, we were restricted to approx. half this number of females, possibly restricting our ability to fully detect cases of multiple paternity. However, Veliz et&#x000a0;al. (<xref rid="ece33985-bib-0066" ref-type="ref">2017</xref>) also found that studies employing reduced levels of sampling (in terms of clutch size and number of females sampled) also had high power (~98%) to detect multiple paternity. In the present study, we suspect that even if we had improved our statistical power with greater levels of sampling, based on our power analysis, cases of multiple paternity would still have been rare and/or paternity would have been heavily skewed toward a single male in most cases.</p><p>A second possible explanation for the disparity between patterns of female multiple mating and the incidence of multiple paternity is that females mate consecutively with individual males each time they produce a batch of eggs, and that our observed patterns of (largely single) paternity reflect a pattern of serial monogamy over the course of the breeding season. As we note above, in <italic>P. cygnus</italic> mating entails the attachment of the male's spermatophore (tar spot) to the underside of the female, which is partially eroded by the female during fertilization and is only sloughed off in the following molting. Subsequent matings within the same reproductive season (molt cycle) involve a male depositing a fresh spermatophoric mass on top of the previously eroded (used) spermatophore (de Lestang &#x00026; Melville&#x02010;Smith, <xref rid="ece33985-bib-0015" ref-type="ref">2006</xref>). This can lead to the spermatophoric mass on a female being dominated by a single sire (by virtue of their positioning and numerical supremacy) while still containing the DNA from multiple sires. This is reflected by the high incidence of multiple mating and low occurrence of multiple paternity. However, when double spawning has been observed, it is more likely to occur in the larger females (Chittleborough, <xref rid="ece33985-bib-0011" ref-type="ref">1976</xref>; Chubb, <xref rid="ece33985-bib-0012" ref-type="ref">1991</xref>; de Lestang &#x00026; Melville&#x02010;Smith, <xref rid="ece33985-bib-0015" ref-type="ref">2006</xref>). This pattern of larger females spawning twice in a season has also been observed in other spiny lobsters (Briones&#x02010;Fourz&#x000e1;n &#x00026; Lozano&#x02010;Alvarez, <xref rid="ece33985-bib-0009" ref-type="ref">1992</xref>; Gomez, Junio, &#x00026; Bermas, <xref rid="ece33985-bib-0022" ref-type="ref">1994</xref>; Macfarlane &#x00026; Moore, <xref rid="ece33985-bib-0034" ref-type="ref">1986</xref>). While these observations support the idea of serial monogamous matings, we have confirmed elsewhere that females carrying spermatophores from more than one male had a wide range of body sizes (carapace length 69.5&#x02013;106.5&#x000a0;mm) and there was no evidence of higher rates of multiple mating in larger females (J. Loo et&#x000a0;al., unpubl. data).</p><p>A final explanation for the high levels of polyandry observed in this study is that females mate with multiple males between fertilization events and sperm competition and/or female cryptic choice function to refine fertilization success in favor of a subset of mated males. This explanation also accounts for the disparity between patterns of multiple mating (high incidence) and multiple paternity (low incidence). In species where females store spermatophores externally, sperm competition can occur when a male displaces or removes the spermatophore from the female. For example, in the freshwater crayfish <italic>Austropotamobius italicus</italic>, males remove and consume all (or most) of the spermatophores from previously mated males before releasing their own sperm (Galeotti et&#x000a0;al., <xref rid="ece33985-bib-0021" ref-type="ref">2007</xref>). The occurrence of cryptic female choice is often more difficult to infer due to the diversity of possible underlying mechanisms and their interactions with sperm competition (reviewed by Firman, Gasparini, Manier, &#x00026; Pizzari, <xref rid="ece33985-bib-0020" ref-type="ref">2017</xref>). Consequently, evidence of cryptic female choice in decapods is limited, but compelling examples of the phenomenon come from studies of other marine species with external sperm deposition (e.g., Japanese pygmy squid, <italic>Idiosepius paradoxus</italic>; Sato, Yoshida, &#x00026; Kasugai, <xref rid="ece33985-bib-0054" ref-type="ref">2017</xref>) and external fertilization (ocellated wrasse, <italic>Symphodus ocellatus</italic>; Alonzo, Stiver, &#x00026; Marsh&#x02010;Rollo, <xref rid="ece33985-bib-0001" ref-type="ref">2016</xref>). Cryptic female choice has been proposed in decapods based on behavioral observations, including failed copulations (Bauer, <xref rid="ece33985-bib-0005" ref-type="ref">1996</xref>; Diesel, <xref rid="ece33985-bib-0016" ref-type="ref">1990</xref>; Ra'anan &#x00026; Sagi, <xref rid="ece33985-bib-0048" ref-type="ref">1985</xref>) and delayed oviposition (Thiel &#x00026; Hinojosa, <xref rid="ece33985-bib-0059" ref-type="ref">2003</xref>). However, such observations do not demonstrate cryptic female choice by themselves. More direct evidence of cryptic female choice in decapods comes from observations of females removing or displacing spermatophores. For example, removal of sperm has been reported for rock shrimps, <italic>R. typus</italic> (Thiel &#x00026; Hinojosa, <xref rid="ece33985-bib-0059" ref-type="ref">2003</xref>) and anecdotally in the spiny lobster <italic>Panulirus guttatus</italic> (Magallon&#x02010;Gayon, Briones&#x02010;Fourzan, &#x00026; Lozano&#x02010;Alvarez, <xref rid="ece33985-bib-0035" ref-type="ref">2011</xref>). In <italic>P. cygnus</italic>, spermatophores are attached externally to the female and fertilization is temporally decoupled from mating, suggesting that there is some opportunity for cryptic female choice in this system. We clearly require further observational and/or experimental studies to identify the mechanisms that generate paternity biases in this system.</p><p>In summary, this study revealed limited evidence of multiple paternity in <italic>P. cygnus</italic>, despite the high frequency of multiple mating. This suggests that although females mated with more than one male, fertilization was attained by only a subset (one or two) of these males. We have yet to determine whether female multiple mating is adaptive (e.g., because it enables females to ensure that sperm from intrinsically &#x0201c;good&#x0201d; males win the race to fertilize their eggs; Curtsinger, <xref rid="ece33985-bib-0014" ref-type="ref">1991</xref>; Yasui, <xref rid="ece33985-bib-0071" ref-type="ref">1997</xref>) or is a by&#x02010;product of accumulated matings that take place throughout the breeding season. However, our observations of high levels of female multiple mating reveal the potential for postmating sexual selection to operate in this system. We eagerly await follow&#x02010;up studies designed to elucidate such mechanisms and test for possible reproductive benefits of polyandry.</p></sec><sec id="ece33985-sec-0009"><title>AUTHOR CONTRIBUTIONS</title><p>JL, WK, JE, JH, and SL conceptualized and planned the study; JL, JH, and SL were responsible for field collections; JL conducted molecular work and carried paternity analyses; JL and WK were principally responsible for statistical analyses, with input from all authors; all authors were involved in writing and editing the manuscript.</p></sec><sec id="ece33985-sec-0010"><title>CONFLICT OF INTEREST</title><p>The authors declare no conflicts of interest.</p></sec></body><back><ack id="ece33985-sec-0008"><title>ACKNOWLEDGMENTS</title><p>We thank the School of Biological Sciences for funding and the Rottnest Island Authority (Department of Biodiversity, Conservation, and Attractions) for their in&#x02010;kind support. We also thank Yvette Hitchen and Sherralee Lukehurst for technical advice in the laboratory and the Department of Primary Industries and Regional Development, Fisheries Division of Western Australia, for providing <italic>P. cygnus</italic> tissue samples.</p></ack><ref-list content-type="cited-references" id="ece33985-bibl-0001"><title>REFERENCES</title><ref id="ece33985-bib-0001"><mixed-citation publication-type="journal" id="ece33985-cit-0001">
+<string-name>
+<surname>Alonzo</surname>, <given-names>S. H.</given-names>
+</string-name>, <string-name>
+<surname>Stiver</surname>, <given-names>K. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Marsh&#x02010;Rollo</surname>, <given-names>S. E.</given-names>
+</string-name> (<year>2016</year>). <article-title>Ovarian fluid allows directional cryptic female choice despite external fertilization</article-title>. <source>Nature Communications</source>, <volume>7</volume>, <fpage>12452</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/ncomms12452">https://doi.org/10.1038/ncomms12452</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0002"><mixed-citation publication-type="journal" id="ece33985-cit-0002">
+<string-name>
+<surname>Baggio</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Pil</surname>, <given-names>M. W.</given-names>
+</string-name>, <string-name>
+<surname>Boeger</surname>, <given-names>W. A.</given-names>
+</string-name>, <string-name>
+<surname>Patella</surname>, <given-names>L. A.</given-names>
+</string-name>, <string-name>
+<surname>Ostrensky</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pie</surname>, <given-names>M. R.</given-names>
+</string-name> (<year>2011</year>). <article-title>Genetic evidence for multiple paternity in the mangrove land crab <italic>Ucides cordatus</italic> (Decapoda: Ocypodidae)</article-title>. <source>Marine Biology Research</source>, <volume>7</volume>, <fpage>520</fpage>&#x02013;<lpage>524</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/17451000.2010.528771">https://doi.org/10.1080/17451000.2010.528771</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0003"><mixed-citation publication-type="journal" id="ece33985-cit-0003">
+<string-name>
+<surname>Bailie</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name>
+<surname>Fitzpatrick</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Connolly</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Thiel</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Hynes</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Prodohl</surname>, <given-names>P. A.</given-names>
+</string-name> (<year>2014</year>). <article-title>Genetic assessment of parentage in the caridean rock shrimp <italic>Rhynchocinetes typus</italic> based on microsatellite markers</article-title>. <source>Journal of Crustacean Biology</source>, <volume>34</volume>, <fpage>658</fpage>&#x02013;<lpage>662</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1163/1937240X-00002254">https://doi.org/10.1163/1937240X-00002254</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0004"><mixed-citation publication-type="journal" id="ece33985-cit-0004">
+<string-name>
+<surname>Bailie</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name>
+<surname>Hynes</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Prodohl</surname>, <given-names>P. A.</given-names>
+</string-name> (<year>2011</year>). <article-title>Genetic parentage in the squat lobsters <italic>Munida rugosa</italic> and <italic>M. sarsi</italic> (Crustacea, Anomura, Galatheidae)</article-title>. <source>Marine Ecology Progress Series</source>, <volume>421</volume>, <fpage>173</fpage>&#x02013;<lpage>182</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3354/meps08895">https://doi.org/10.3354/meps08895</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0005"><mixed-citation publication-type="journal" id="ece33985-cit-0005">
+<string-name>
+<surname>Bauer</surname>, <given-names>R. T.</given-names>
+</string-name> (<year>1996</year>). <article-title>A test of hypotheses on male mating systems and female molting in decapod shrimp, using <italic>Sicyonia dorsalis</italic> (Decapoda: Penaeoidea)</article-title>. <source>Journal of Crustacean Biology</source>, <volume>16</volume>, <fpage>429</fpage>&#x02013;<lpage>436</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/1548731">https://doi.org/10.2307/1548731</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0006"><mixed-citation publication-type="book" id="ece33985-cit-0006">
+<string-name>
+<surname>Bellchambers</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Bridgwood</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>How</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Lewis</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>de Lestang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Mackie</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Coutts</surname>, <given-names>T.</given-names>
+</string-name> (<year>2009</year>). <source>Development of a long&#x02010;term program to monitor coastal communities within the Swan region&#x02019;</source>. <italic>Fisheries Research Report No. 183</italic> pp. <publisher-name>Department of Fisheries, Western Australia</publisher-name>.</mixed-citation></ref><ref id="ece33985-bib-0007"><mixed-citation publication-type="book" id="ece33985-cit-0007">
+<string-name>
+<surname>Birkhead</surname>, <given-names>T. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>M&#x000f8;ller</surname>, <given-names>A. P.</given-names>
+</string-name> (<year>1998</year>). <source>Sperm competition and sexual selection</source>. <publisher-loc>San Diego, CA</publisher-loc>: <publisher-name>Academic Press</publisher-name>.</mixed-citation></ref><ref id="ece33985-bib-0008"><mixed-citation publication-type="journal" id="ece33985-cit-0008">
+<string-name>
+<surname>Birkhead</surname>, <given-names>T. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pizzari</surname>, <given-names>T.</given-names>
+</string-name> (<year>2002</year>). <article-title>Postcopulatory sexual selection</article-title>. <source>Nature Rev. Gen.</source>, <volume>3</volume>, <fpage>262</fpage>&#x02013;<lpage>273</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nrg774">https://doi.org/10.1038/nrg774</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0009"><mixed-citation publication-type="journal" id="ece33985-cit-0009">
+<string-name>
+<surname>Briones&#x02010;Fourz&#x000e1;n</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lozano&#x02010;Alvarez</surname>, <given-names>E.</given-names>
+</string-name> (<year>1992</year>). <article-title>Aspects of the reproduction of <italic>Panulirus inflatus</italic> (Bouvier) and <italic>P. gracilis</italic> Streets (Decapoda, Palinuridae) from the Pacific coast of Mexico</article-title>. <source>Journal of Crustacean Biology</source>, <volume>12</volume>, <fpage>41</fpage>&#x02013;<lpage>50</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/1548717">https://doi.org/10.2307/1548717</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0010"><mixed-citation publication-type="journal" id="ece33985-cit-0010">
+<string-name>
+<surname>Chittleborough</surname>, <given-names>R. G.</given-names>
+</string-name> (<year>1974</year>). <article-title>Western rock lobster reared to maturity</article-title>. <source>Australian Journal of Marine and Freshwater Research</source>, <volume>25</volume>, <fpage>221</fpage>&#x02013;<lpage>225</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1071/MF9740221">https://doi.org/10.1071/MF9740221</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0011"><mixed-citation publication-type="journal" id="ece33985-cit-0011">
+<string-name>
+<surname>Chittleborough</surname>, <given-names>R. G.</given-names>
+</string-name> (<year>1976</year>). <article-title>Breeding of <italic>Panulirus longpipes cygnus</italic> George under natural and controlled conditions</article-title>. <source>Australian Journal of Marine and Freshwater Research</source>, <volume>27</volume>, <fpage>499</fpage>&#x02013;<lpage>516</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1071/MF9760499">https://doi.org/10.1071/MF9760499</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0012"><mixed-citation publication-type="journal" id="ece33985-cit-0012">
+<string-name>
+<surname>Chubb</surname>, <given-names>C. F.</given-names>
+</string-name> (<year>1991</year>). <article-title>Measurement of spawning stock levels for the western rock lobster, <italic>Panulirus cygnus</italic>
+</article-title>. <source>Revista de Investigaciones Marinas</source>, <volume>12</volume>, <fpage>223</fpage>&#x02013;<lpage>233</lpage>.</mixed-citation></ref><ref id="ece33985-bib-0013"><mixed-citation publication-type="journal" id="ece33985-cit-0013">
+<string-name>
+<surname>Crudgington</surname>, <given-names>H. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Siva&#x02010;Jothy</surname>, <given-names>M. T.</given-names>
+</string-name> (<year>2000</year>). <article-title>Genital damage, kicking and early death &#x02010; The battle of the sexes takes a sinister turn in the bean weevil</article-title>. <source>Nature</source>, <volume>407</volume>, <fpage>855</fpage>&#x02013;<lpage>856</lpage>.<pub-id pub-id-type="pmid">11057654</pub-id></mixed-citation></ref><ref id="ece33985-bib-0014"><mixed-citation publication-type="journal" id="ece33985-cit-0014">
+<string-name>
+<surname>Curtsinger</surname>, <given-names>J. W.</given-names>
+</string-name> (<year>1991</year>). <article-title>Sperm competition and the evolution of multiple mating</article-title>. <source>American Naturalist</source>, <volume>138</volume>, <fpage>93</fpage>&#x02013;<lpage>102</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/285206">https://doi.org/10.1086/285206</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0015"><mixed-citation publication-type="journal" id="ece33985-cit-0015">
+<string-name>
+<surname>de Lestang</surname>, <given-names>S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Melville&#x02010;Smith</surname>, <given-names>R.</given-names>
+</string-name> (<year>2006</year>). <article-title>Interannual variation in the moult cycle and size at double breeding of mature female western rock lobster (<italic>Panulirus cygnus</italic>)</article-title>. <source>Ices Journal of Marine Science</source>, <volume>63</volume>, <fpage>1631</fpage>&#x02013;<lpage>1639</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.icesjms.2006.06.006">https://doi.org/10.1016/j.icesjms.2006.06.006</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0016"><mixed-citation publication-type="journal" id="ece33985-cit-0016">
+<string-name>
+<surname>Diesel</surname>, <given-names>R.</given-names>
+</string-name> (<year>1990</year>). <article-title>Sperm competition and reproductive success in the decapod <italic>Inachus phalangium</italic> (Majidae) &#x02010; a male ghost spider crab that seals off rivals sperm</article-title>. <source>Journal of Zoology</source>, <volume>220</volume>, <fpage>213</fpage>&#x02013;<lpage>223</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1469-7998.1990.tb04304.x">https://doi.org/10.1111/j.1469-7998.1990.tb04304.x</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0017"><mixed-citation publication-type="book" id="ece33985-cit-0017">
+<person-group person-group-type="editor"><name><surname>Duffy</surname><given-names>J. E.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name><surname>Thiel</surname><given-names>M.</given-names></name></person-group> (Eds.) (<year>2007</year>). <source>Evolutionary ecology of social and sexual systems: Crustaceans as model organisms</source>. <publisher-loc>Oxford, UK</publisher-loc>: <publisher-name>Oxford University Press</publisher-name>.</mixed-citation></ref><ref id="ece33985-bib-0018"><mixed-citation publication-type="book" id="ece33985-cit-0018">
+<string-name>
+<surname>Eberhard</surname>, <given-names>W. G.</given-names>
+</string-name> (<year>1996</year>). <source>Female control: Sexual selection by cryptic female choice</source>. <publisher-loc>Princeton, NJ</publisher-loc>: <publisher-name>Princeton University Press</publisher-name>.</mixed-citation></ref><ref id="ece33985-bib-0019"><mixed-citation publication-type="journal" id="ece33985-cit-0019">
+<string-name>
+<surname>Ellis</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name>
+<surname>Hodgson</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<surname>Andre</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Sordalen</surname>, <given-names>T. K.</given-names>
+</string-name>, <string-name>
+<surname>Knutsen</surname>, <given-names>H.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Griffiths</surname>, <given-names>A. G. F.</given-names>
+</string-name> (<year>2015</year>). <article-title>Genotype reconstruction of paternity in European Lobsters (<italic>Homarus gammarus</italic>)</article-title>. <source>PLoS ONE</source>, <volume>10</volume>, <fpage>e0139585</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0139585">https://doi.org/10.1371/journal.pone.0139585</ext-link>
+<pub-id pub-id-type="pmid">26566271</pub-id></mixed-citation></ref><ref id="ece33985-bib-0020"><mixed-citation publication-type="journal" id="ece33985-cit-0020">
+<string-name>
+<surname>Firman</surname>, <given-names>R. C.</given-names>
+</string-name>, <string-name>
+<surname>Gasparini</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Manier</surname>, <given-names>M. K.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pizzari</surname>, <given-names>T.</given-names>
+</string-name> (<year>2017</year>). <article-title>Postmating female control: 20 years of cryptic female choice</article-title>. <source>Trends in Ecology &#x00026; Evolution</source>, <volume>32</volume>, <fpage>368</fpage>&#x02013;<lpage>382</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tree.2017.02.010">https://doi.org/10.1016/j.tree.2017.02.010</ext-link>
+<pub-id pub-id-type="pmid">28318651</pub-id></mixed-citation></ref><ref id="ece33985-bib-0021"><mixed-citation publication-type="journal" id="ece33985-cit-0021">
+<string-name>
+<surname>Galeotti</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Pupin</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Rubolini</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Sacchi</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Nardi</surname>, <given-names>P. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Fasola</surname>, <given-names>M.</given-names>
+</string-name> (<year>2007</year>). <article-title>Effects of female mating status on copulation behaviour and sperm expenditure in the freshwater crayfish <italic>Austropotamobius italicus</italic>
+</article-title>. <source>Behavioral Ecology and Sociobiology</source>, <volume>61</volume>, <fpage>711</fpage>&#x02013;<lpage>718</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00265-006-0301-2">https://doi.org/10.1007/s00265-006-0301-2</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0022"><mixed-citation publication-type="journal" id="ece33985-cit-0022">
+<string-name>
+<surname>Gomez</surname>, <given-names>E. D.</given-names>
+</string-name>, <string-name>
+<surname>Junio</surname>, <given-names>M. A. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bermas</surname>, <given-names>N. A.</given-names>
+</string-name> (<year>1994</year>). <article-title>Reproduction of <italic>Panulirus longpipes longpipes</italic> in Calatagan, Batangas, Philippines</article-title>. <source>Crustaceana</source>, <volume>67</volume>, <fpage>110</fpage>&#x02013;<lpage>120</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1163/156854094X00341">https://doi.org/10.1163/156854094X00341</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0023"><mixed-citation publication-type="journal" id="ece33985-cit-0023">
+<string-name>
+<surname>Gosselin</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Sainte&#x02010;Marie</surname>, <given-names>B.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bernatchez</surname>, <given-names>L.</given-names>
+</string-name> (<year>2005</year>). <article-title>Geographic variation of multiple paternity in the American lobster, <italic>Homarus americanus</italic>
+</article-title>. <source>Molecular Ecology</source>, <volume>14</volume>, <fpage>1517</fpage>&#x02013;<lpage>1525</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-294X.2005.02498.x">https://doi.org/10.1111/j.1365-294X.2005.02498.x</ext-link>
+<pub-id pub-id-type="pmid">15813789</pub-id></mixed-citation></ref><ref id="ece33985-bib-0024"><mixed-citation publication-type="miscellaneous" id="ece33985-cit-0024">
+<string-name>
+<surname>Goudet</surname>, <given-names>J.</given-names>
+</string-name> (<year>2001</year>). <article-title>FSTAT: a program to estimate and test gene diversities and fixation indices version 2.9.3</article-title>. <ext-link ext-link-type="uri" xlink:href="http://www">http://www</ext-link>. unil. ch/izea/softwares/fstat. html.</mixed-citation></ref><ref id="ece33985-bib-0025"><mixed-citation publication-type="journal" id="ece33985-cit-0025">
+<string-name>
+<surname>Groth</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Lim</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>de Lestang</surname>, <given-names>S. N.</given-names>
+</string-name>, <string-name>
+<surname>Beale</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Melville&#x02010;Smith</surname>, <given-names>R.</given-names>
+</string-name> (<year>2009</year>). <article-title>Characterization of polymorphic microsatellite loci in the western rock lobster (<italic>Panulirus cygnus</italic>)</article-title>. <source>Conservation Genetics Resources</source>, <volume>1</volume>, <fpage>163</fpage>&#x02013;<lpage>166</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s12686-009-9039-2">https://doi.org/10.1007/s12686-009-9039-2</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0026"><mixed-citation publication-type="book" id="ece33985-cit-0026">
+<string-name>
+<surname>Holdich</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Reeve</surname>, <given-names>I. D.</given-names>
+</string-name>, <string-name>
+<surname>Holdich</surname>, <given-names>D. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lowery</surname>, <given-names>R. S.</given-names>
+</string-name> (<year>1988</year>). <chapter-title>Functional morphology and anatomy</chapter-title> In <person-group person-group-type="editor"><name><surname>Holdich</surname><given-names>D. M.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name><surname>Lowery</surname><given-names>R. S.</given-names></name></person-group> (Eds.), <source>Freshwater crayfish: Biology, management and exploitation</source> (pp. <fpage>11</fpage>&#x02013;<lpage>51</lpage>). <publisher-loc>London, UK</publisher-loc>: <publisher-name>Croom Helm</publisher-name>.</mixed-citation></ref><ref id="ece33985-bib-0027"><mixed-citation publication-type="journal" id="ece33985-cit-0027">
+<string-name>
+<surname>Ivanova</surname>, <given-names>N. V.</given-names>
+</string-name>, <string-name>
+<surname>Dewaard</surname>, <given-names>J. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hebert</surname>, <given-names>P. D. N.</given-names>
+</string-name> (<year>2006</year>). <article-title>An inexpensive, automation&#x02010;friendly protocol for recovering high&#x02010;quality DNA</article-title>. <source>Molecular Ecology Notes</source>, <volume>6</volume>, <fpage>998</fpage>&#x02013;<lpage>1002</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1471-8286.2006.01428.x">https://doi.org/10.1111/j.1471-8286.2006.01428.x</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0028"><mixed-citation publication-type="journal" id="ece33985-cit-0028">
+<string-name>
+<surname>Jennions</surname>, <given-names>M. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Petrie</surname>, <given-names>M.</given-names>
+</string-name> (<year>2000</year>). <article-title>Why do females mate multiply? A review of the genetic benefits</article-title>. <source>Biological Review</source>, <volume>75</volume>, <fpage>21</fpage>&#x02013;<lpage>64</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S0006323199005423">https://doi.org/10.1017/S0006323199005423</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0029"><mixed-citation publication-type="journal" id="ece33985-cit-0029">
+<string-name>
+<surname>Jensen</surname>, <given-names>P. C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Bentzen</surname>, <given-names>P.</given-names>
+</string-name> (<year>2012</year>). <article-title>A molecular dissection of the mating system of the dungeness crab, <italic>metacarcinus magister</italic> (Brachyura: Cancridae)</article-title>. <source>Journal of Crustacean Biology</source>, <volume>32</volume>, <fpage>443</fpage>&#x02013;<lpage>456</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1163/193724012X626458">https://doi.org/10.1163/193724012X626458</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0030"><mixed-citation publication-type="journal" id="ece33985-cit-0030">
+<string-name>
+<surname>Jones</surname>, <given-names>A. G.</given-names>
+</string-name> (<year>2005</year>). <article-title>GERUD 2.0: A computer program for the reconstruction of parental genotypes from half&#x02010;sib progeny arrays with known or unknown parents</article-title>. <source>Molecular Ecology Notes</source>, <volume>5</volume>, <fpage>708</fpage>&#x02013;<lpage>711</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1471-8286.2005.01029.x">https://doi.org/10.1111/j.1471-8286.2005.01029.x</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0031"><mixed-citation publication-type="journal" id="ece33985-cit-0031">
+<string-name>
+<surname>Jossart</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name>
+<surname>Wattier</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Kastally</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Aron</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>David</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>De Ridder</surname>, <given-names>C.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rigaud</surname>, <given-names>T.</given-names>
+</string-name> (<year>2014</year>). <article-title>Genetic evidence confirms polygamous mating system in a crustacean parasite with multiple hosts</article-title>. <source>PLoS ONE</source>, <volume>9</volume>, <fpage>e90680</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0090680">https://doi.org/10.1371/journal.pone.0090680</ext-link>
+<pub-id pub-id-type="pmid">24609105</pub-id></mixed-citation></ref><ref id="ece33985-bib-0032"><mixed-citation publication-type="journal" id="ece33985-cit-0032">
+<string-name>
+<surname>Kennington</surname>, <given-names>W. J.</given-names>
+</string-name>, <string-name>
+<surname>Levy</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Berry</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Groth</surname>, <given-names>D. M.</given-names>
+</string-name>, <string-name>
+<surname>Waite</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Johnson</surname>, <given-names>M. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Melville&#x02010;Smith</surname>, <given-names>R.</given-names>
+</string-name> (<year>2010</year>). <article-title>Characterization of 18 polymorphic microsatellite loci for the western rock lobster <italic>Panulirus cygnus</italic>
+</article-title>. <source>Conservation Genetics Resources</source>, <volume>2</volume>, <fpage>388</fpage>&#x02013;<lpage>390</lpage>.</mixed-citation></ref><ref id="ece33985-bib-0033"><mixed-citation publication-type="journal" id="ece33985-cit-0033">
+<string-name>
+<surname>Koga</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Henmi</surname>, <given-names>Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Murai</surname>, <given-names>M.</given-names>
+</string-name> (<year>1993</year>). <article-title>Sperm competition and the assurance of underground copulation in the sand&#x02010;bubbler crab <italic>Scopimera globosa</italic> (Brachyura, Ocypodidae)</article-title>. <source>Journal of Crustacean Biology</source>, <volume>13</volume>, <fpage>134</fpage>&#x02013;<lpage>137</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/1549128">https://doi.org/10.2307/1549128</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0034"><mixed-citation publication-type="journal" id="ece33985-cit-0034">
+<string-name>
+<surname>Macfarlane</surname>, <given-names>J. W.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Moore</surname>, <given-names>R.</given-names>
+</string-name> (<year>1986</year>). <article-title>Reproduction of the ornate rock lobster, <italic>Panulirus ornatus</italic> (Fabricius), in Papua New Guinea</article-title>. <source>Australian Journal of Marine and Freshwater Research</source>, <volume>37</volume>, <fpage>55</fpage>&#x02013;<lpage>65</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1071/MF9860055">https://doi.org/10.1071/MF9860055</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0035"><mixed-citation publication-type="journal" id="ece33985-cit-0035">
+<string-name>
+<surname>Magallon&#x02010;Gayon</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Briones&#x02010;Fourzan</surname>, <given-names>P.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Lozano&#x02010;Alvarez</surname>, <given-names>E.</given-names>
+</string-name> (<year>2011</year>). <article-title>Does size always matter? Mate choice and sperm allocation in <italic>Panulirus guttatus</italic>, a highly sedentary, habitat&#x02010;specialist spiny lobster</article-title>. <source>Behaviour</source>, <volume>148</volume>, <fpage>1333</fpage>&#x02013;<lpage>1358</lpage>.</mixed-citation></ref><ref id="ece33985-bib-0036"><mixed-citation publication-type="book" id="ece33985-cit-0036">
+<person-group person-group-type="editor"><name><surname>Martin</surname><given-names>J. W.</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Crandall</surname><given-names>K. A.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name><surname>Felder</surname><given-names>D. L.</given-names></name></person-group> (Eds.) (<year>2016</year>). <source>Decapod crustacean phylogenetics</source>. <publisher-loc>Boca Raton, FL</publisher-loc>: <publisher-name>CRC Press</publisher-name>.</mixed-citation></ref><ref id="ece33985-bib-0037"><mixed-citation publication-type="journal" id="ece33985-cit-0037">
+<string-name>
+<surname>McKeown</surname>, <given-names>N. J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Shaw</surname>, <given-names>P. W.</given-names>
+</string-name> (<year>2008</year>). <article-title>Single paternity within broods of the brown crab <italic>Cancer pagurus</italic>: A highly fecund species with long&#x02010;term sperm storage</article-title>. <source>Marine Ecology Progress Series</source>, <volume>368</volume>, <fpage>209</fpage>&#x02013;<lpage>215</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3354/meps07634">https://doi.org/10.3354/meps07634</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0038"><mixed-citation publication-type="journal" id="ece33985-cit-0038">
+<string-name>
+<surname>Melville&#x02010;Smith</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>de Lestang</surname>, <given-names>S.</given-names>
+</string-name> (<year>2006</year>). <article-title>Spatial and temporal variation in the size or maturity of the western rock lobster <italic>Panulirus cygnus</italic> George</article-title>. <source>Marine Biology</source>, <volume>150</volume>, <fpage>183</fpage>&#x02013;<lpage>195</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00227-006-0349-6">https://doi.org/10.1007/s00227-006-0349-6</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0039"><mixed-citation publication-type="book" id="ece33985-cit-0039">
+<string-name>
+<surname>Melville&#x02010;Smith</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>de Lestang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Beale</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Groth</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Thompson</surname>, <given-names>A.</given-names>
+</string-name> (<year>2009</year>). <source>Investigating reproductive biology issues relevant to managing the Western rock lobster broodstock</source>. <italic>Fisheries Research Report No. 193</italic> pp. <publisher-name>Department of Fisheries, Western Australia</publisher-name>.</mixed-citation></ref><ref id="ece33985-bib-0040"><mixed-citation publication-type="journal" id="ece33985-cit-0040">
+<string-name>
+<surname>Neff</surname>, <given-names>B. D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pitcher</surname>, <given-names>T. E.</given-names>
+</string-name> (<year>2005</year>). <article-title>Genetic quality and sexual selection: An integrated framework for good genes and compatible genes</article-title>. <source>Molecular Ecology</source>, <volume>14</volume>, <fpage>19</fpage>&#x02013;<lpage>38</lpage>.<pub-id pub-id-type="pmid">15643948</pub-id></mixed-citation></ref><ref id="ece33985-bib-0041"><mixed-citation publication-type="journal" id="ece33985-cit-0041">
+<string-name>
+<surname>Pardo</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name>
+<surname>Riveros</surname>, <given-names>M. P.</given-names>
+</string-name>, <string-name>
+<surname>Fuentes</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name>
+<surname>Rojas&#x02010;Hernandez</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Veliz</surname>, <given-names>D.</given-names>
+</string-name> (<year>2016</year>). <article-title>An effective sperm competition avoidance strategy in crabs drives genetic monogamy despite evidence of polyandry</article-title>. <source>Behavioral Ecology and Sociobiology</source>, <volume>70</volume>, <fpage>73</fpage>&#x02013;<lpage>81</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00265-015-2026-6">https://doi.org/10.1007/s00265-015-2026-6</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0042"><mixed-citation publication-type="journal" id="ece33985-cit-0042">
+<string-name>
+<surname>Parker</surname>, <given-names>G. A.</given-names>
+</string-name> (<year>1970</year>). <article-title>Sperm competition and its evolutionary consequences in the insects</article-title>. <source>Biological Reviews</source>, <volume>45</volume>, <fpage>525</fpage>&#x02013;<lpage>567</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1469-185X.1970.tb01176.x">https://doi.org/10.1111/j.1469-185X.1970.tb01176.x</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0043"><mixed-citation publication-type="journal" id="ece33985-cit-0043">
+<string-name>
+<surname>Peakall</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Smouse</surname>, <given-names>P. E.</given-names>
+</string-name> (<year>2006</year>). <article-title>GENALEX 6: Genetic analysis in Excel. Population genetic software for teaching and research</article-title>. <source>Molecular Ecology Notes</source>, <volume>6</volume>, <fpage>288</fpage>&#x02013;<lpage>295</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1471-8286.2005.01155.x">https://doi.org/10.1111/j.1471-8286.2005.01155.x</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0044"><mixed-citation publication-type="book" id="ece33985-cit-0044">
+<person-group person-group-type="editor"><name><surname>Phillips</surname><given-names>B.</given-names></name></person-group> (Ed.) (<year>2013</year>). <source>Lobsters: Biology, management, aquaculture and fisheries</source>. <publisher-loc>West Sussex, UK</publisher-loc>: <publisher-name>Wiley&#x02010;Blackwell</publisher-name>.</mixed-citation></ref><ref id="ece33985-bib-0045"><mixed-citation publication-type="book" id="ece33985-cit-0045">
+<string-name>
+<surname>Phillips</surname>, <given-names>B. F.</given-names>
+</string-name>, <string-name>
+<surname>Cobb</surname>, <given-names>J. S.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>George</surname>, <given-names>R. W.</given-names>
+</string-name> (<year>2012</year>). <chapter-title>General biology</chapter-title> In <person-group person-group-type="editor"><name><surname>Cobb</surname><given-names>J. S.</given-names></name></person-group>, &#x00026; <person-group person-group-type="editor"><name><surname>Phillips</surname><given-names>B. F.</given-names></name></person-group> (Eds.), <source>The biology and management of lobsters: Physiology and behavior</source>. <publisher-loc>Amsterdam, The Netherlands</publisher-loc>: <publisher-name>Elsevier</publisher-name>.</mixed-citation></ref><ref id="ece33985-bib-0046"><mixed-citation publication-type="journal" id="ece33985-cit-0046">
+<string-name>
+<surname>Pizzari</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wedell</surname>, <given-names>N.</given-names>
+</string-name> (<year>2013</year>). <article-title>The polyandry revolution</article-title>. <source>Philosophical Transactions of the Royal Society of London. Series B</source>, <volume>368</volume>, <fpage>20120041</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rstb.2012.0041">https://doi.org/10.1098/rstb.2012.0041</ext-link>
+<pub-id pub-id-type="pmid">23339233</pub-id></mixed-citation></ref><ref id="ece33985-bib-0047"><mixed-citation publication-type="journal" id="ece33985-cit-0047">
+<string-name>
+<surname>Plough</surname>, <given-names>L. V.</given-names>
+</string-name>, <string-name>
+<surname>Moran</surname>, <given-names>A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Marko</surname>, <given-names>P.</given-names>
+</string-name> (<year>2014</year>). <article-title>Density drives polyandry and relatedness influences paternal success in the Pacific gooseneck barnacle</article-title>. <source>Pollicipes elegans. BMC Evol. Biol.</source>, <volume>14</volume>, <fpage>81</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2148-14-81">https://doi.org/10.1186/1471-2148-14-81</ext-link>
+<pub-id pub-id-type="pmid">24739102</pub-id></mixed-citation></ref><ref id="ece33985-bib-0048"><mixed-citation publication-type="journal" id="ece33985-cit-0048">
+<string-name>
+<surname>Ra'anan</surname>, <given-names>Z.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sagi</surname>, <given-names>A.</given-names>
+</string-name> (<year>1985</year>). <article-title>Alternative mating strategies in male morphotypes of the freshwater prawn <italic>Macrobrachium rosenbergii</italic> (Deman)</article-title>. <source>Biological Bulletin</source>, <volume>169</volume>, <fpage>592</fpage>&#x02013;<lpage>601</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/1541301">https://doi.org/10.2307/1541301</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0049"><mixed-citation publication-type="journal" id="ece33985-cit-0049">
+<string-name>
+<surname>Raymond</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Rousset</surname>, <given-names>F.</given-names>
+</string-name> (<year>1995</year>). <article-title>GENEPOP (Version 1.2) Population genetics software for exact tests and ecumenicism</article-title>. <source>Journal of Heredity</source>, <volume>86</volume>, <fpage>248</fpage>&#x02013;<lpage>249</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/oxfordjournals.jhered.a111573">https://doi.org/10.1093/oxfordjournals.jhered.a111573</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0050"><mixed-citation publication-type="journal" id="ece33985-cit-0050">
+<string-name>
+<surname>Reaney</surname>, <given-names>L. T.</given-names>
+</string-name>, <string-name>
+<surname>Maurer</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Backwell</surname>, <given-names>P. R. Y.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Linde</surname>, <given-names>C. C.</given-names>
+</string-name> (<year>2012</year>). <article-title>Paternity analysis of two male mating tactics in the fiddler crab, <italic>Uca mjoebergi</italic>
+</article-title>. <source>Behavioral Ecology and Sociobiology</source>, <volume>66</volume>, <fpage>1017</fpage>&#x02013;<lpage>1024</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00265-012-1349-9">https://doi.org/10.1007/s00265-012-1349-9</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0051"><mixed-citation publication-type="journal" id="ece33985-cit-0051">
+<string-name>
+<surname>Rowe</surname>, <given-names>L.</given-names>
+</string-name> (<year>1994</year>). <article-title>The costs of mating and mate choice in water striders</article-title>. <source>Animal Behavior</source>, <volume>48</volume>, <fpage>1049</fpage>&#x02013;<lpage>1056</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1006/anbe.1994.1338">https://doi.org/10.1006/anbe.1994.1338</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0052"><mixed-citation publication-type="journal" id="ece33985-cit-0052">
+<string-name>
+<surname>Rubolini</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Galeotti</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Pupin</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Sacchi</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Nardi</surname>, <given-names>P. A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Fasola</surname>, <given-names>M.</given-names>
+</string-name> (<year>2007</year>). <article-title>Repeated matings and sperm depletion in the freshwater crayfish <italic>Austropotamobius italicus</italic>
+</article-title>. <source>Freshwater Biology</source>, <volume>52</volume>, <fpage>1898</fpage>&#x02013;<lpage>1906</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2427.2007.01814.x">https://doi.org/10.1111/j.1365-2427.2007.01814.x</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0053"><mixed-citation publication-type="journal" id="ece33985-cit-0053">
+<string-name>
+<surname>Sainte&#x02010;Marie</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Gosselin</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Sevigny</surname>, <given-names>J. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Urbani</surname>, <given-names>N.</given-names>
+</string-name> (<year>2008</year>). <article-title>The snow crab mating system: Opportunity for natural and unnatural selection in a changing environment</article-title>. <source>Bulletin of Marine Science</source>, <volume>83</volume>, <fpage>131</fpage>&#x02013;<lpage>161</lpage>.</mixed-citation></ref><ref id="ece33985-bib-0054"><mixed-citation publication-type="journal" id="ece33985-cit-0054">
+<string-name>
+<surname>Sato</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Yoshida</surname>, <given-names>M.&#x02010;A.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kasugai</surname>, <given-names>T.</given-names>
+</string-name> (<year>2017</year>). <article-title>Impact of cryptic female choice on insemination success: Larger sized and longer copulating male squid ejaculate more, but females influence insemination success by removing spermatangia</article-title>. <source>Evolution</source>, <volume>71</volume>, <fpage>111</fpage>&#x02013;<lpage>120</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/evo.13108">https://doi.org/10.1111/evo.13108</ext-link>
+<pub-id pub-id-type="pmid">27805265</pub-id></mixed-citation></ref><ref id="ece33985-bib-0055"><mixed-citation publication-type="journal" id="ece33985-cit-0055">
+<string-name>
+<surname>S&#x000e9;vigny</surname>, <given-names>J. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Sainte&#x02010;Marie</surname>, <given-names>B.</given-names>
+</string-name> (<year>1996</year>). <article-title>Electrophoretic data support the last&#x02010;male sperm precedence hypothesis in the snow crab, <italic>Chionoecetes opilio</italic> (Brachyura: Majidae)</article-title>. <source>Journal of Shellfish Research</source>, <volume>15</volume>, <fpage>437</fpage>&#x02013;<lpage>440</lpage>.</mixed-citation></ref><ref id="ece33985-bib-0500"><mixed-citation publication-type="journal" id="ece33985-cit-0500">
+<string-name>
+<surname>Sheldon</surname>, <given-names>B. C.</given-names>
+</string-name> (<year>1994</year>). <article-title>Male phenotype, fertility, and the persuit of extra&#x02010;pair copulations by female birds</article-title>. <source>Proceedings of the Royal Society London B</source>, <volume>257</volume>, <fpage>25</fpage>&#x02013;<lpage>30</lpage>.</mixed-citation></ref><ref id="ece33985-bib-0056"><mixed-citation publication-type="journal" id="ece33985-cit-0056">
+<string-name>
+<surname>Streiff</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Mira</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Castro</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Cancela</surname>, <given-names>M. L.</given-names>
+</string-name> (<year>2004</year>). <article-title>Multiple paternity in Norway lobster (<italic>Nephrops norvegicus</italic> L.) assessed with microsatellite markers</article-title>. <source>Marine Biotechnology</source>, <volume>6</volume>, <fpage>60</fpage>&#x02013;<lpage>66</lpage>.<pub-id pub-id-type="pmid">14564537</pub-id></mixed-citation></ref><ref id="ece33985-bib-0057"><mixed-citation publication-type="journal" id="ece33985-cit-0057">
+<string-name>
+<surname>Subramoniam</surname>, <given-names>T.</given-names>
+</string-name> (<year>2013</year>). <article-title>Origin and occurrence of sexual and mating systems in Crustacea: A progression towards communal living and eusociality</article-title>. <source>Journal of Biosciences</source>, <volume>38</volume>, <fpage>951</fpage>&#x02013;<lpage>969</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s12038-013-9392-x">https://doi.org/10.1007/s12038-013-9392-x</ext-link>
+<pub-id pub-id-type="pmid">24296898</pub-id></mixed-citation></ref><ref id="ece33985-bib-0058"><mixed-citation publication-type="journal" id="ece33985-cit-0058">
+<string-name>
+<surname>Taylor</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name>
+<surname>Price</surname>, <given-names>T. A. R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wedell</surname>, <given-names>N.</given-names>
+</string-name> (<year>2014</year>). <article-title>Polyandry in nature: A global analysis</article-title>. <source>Trends in Ecology &#x00026; Evolution</source>, <volume>29</volume>, <fpage>376</fpage>&#x02013;<lpage>383</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tree.2014.04.005">https://doi.org/10.1016/j.tree.2014.04.005</ext-link>
+<pub-id pub-id-type="pmid">24831458</pub-id></mixed-citation></ref><ref id="ece33985-bib-0059"><mixed-citation publication-type="journal" id="ece33985-cit-0059">
+<string-name>
+<surname>Thiel</surname>, <given-names>M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Hinojosa</surname>, <given-names>I. A.</given-names>
+</string-name> (<year>2003</year>). <article-title>Mating behavior of female rock shrimp <italic>Rhynchocinetes typus</italic> (Decapoda: Caridea)&#x02014;Indication for convenience polyandry and cryptic female choice</article-title>. <source>Behavioral Ecology and Sociobiology</source>, <volume>55</volume>, <fpage>113</fpage>&#x02013;<lpage>121</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00265-003-0677-1">https://doi.org/10.1007/s00265-003-0677-1</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0060"><mixed-citation publication-type="journal" id="ece33985-cit-0060">
+<string-name>
+<surname>Thornhill</surname>, <given-names>R.</given-names>
+</string-name> (<year>1983</year>). <article-title>Cryptic female choice and its implications in the scorpionfly <italic>Harpobittacus nigricepts</italic>
+</article-title>. <source>American Naturalist</source>, <volume>122</volume>, <fpage>765</fpage>&#x02013;<lpage>788</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/284170">https://doi.org/10.1086/284170</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0061"><mixed-citation publication-type="book" id="ece33985-cit-0061">
+<string-name>
+<surname>Thornhill</surname>, <given-names>R.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Alcock</surname>, <given-names>J.</given-names>
+</string-name> (<year>1983</year>). <source>The evolution of insect mating systems</source>. <publisher-loc>Cambridge, UK</publisher-loc>: <publisher-name>Harvard University Press</publisher-name>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4159/harvard.9780674433960">https://doi.org/10.4159/harvard.9780674433960</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0062"><mixed-citation publication-type="journal" id="ece33985-cit-0062">
+<string-name>
+<surname>Thrall</surname>, <given-names>P. H.</given-names>
+</string-name>, <string-name>
+<surname>Antonovics</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Dobson</surname>, <given-names>A. P.</given-names>
+</string-name> (<year>2000</year>). <article-title>Sexually transmitted diseases in polygynous mating systems: Prevalence and impact on reproductive success</article-title>. <source>Proc. R. Soc. B&#x02010;Biol. Sci.</source>, <volume>267</volume>, <fpage>1555</fpage>&#x02013;<lpage>1563</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rspb.2000.1178">https://doi.org/10.1098/rspb.2000.1178</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0063"><mixed-citation publication-type="journal" id="ece33985-cit-0063">
+<string-name>
+<surname>Tregenza</surname>, <given-names>T.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Wedell</surname>, <given-names>N.</given-names>
+</string-name> (<year>2000</year>). <article-title>Genetic compatibility, mate choice and patterns of parentage: Invited review</article-title>. <source>Molecular Ecology</source>, <volume>9</volume>, <fpage>1013</fpage>&#x02013;<lpage>1027</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-294x.2000.00964.x">https://doi.org/10.1046/j.1365-294x.2000.00964.x</ext-link>
+<pub-id pub-id-type="pmid">10964221</pub-id></mixed-citation></ref><ref id="ece33985-bib-0064"><mixed-citation publication-type="journal" id="ece33985-cit-0064">
+<string-name>
+<surname>Urbani</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Sainte&#x02010;Marie</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>S&#x000e9;vigny</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Zadworny</surname>, <given-names>D.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Kuhnlein</surname>, <given-names>U.</given-names>
+</string-name> (<year>1998</year>). <article-title>Sperm competition and paternity assurance during the first breeding period of female snow crab (<italic>Chionoecetes opilio</italic>) (Brachyura: Majidae)</article-title>. <source>Canadian Journal of Fisheries and Aquatic Science</source>, <volume>55</volume>, <fpage>1104</fpage>&#x02013;<lpage>1113</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1139/f98-006">https://doi.org/10.1139/f98-006</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0065"><mixed-citation publication-type="journal" id="ece33985-cit-0065">
+<string-name>
+<surname>Van Oosterhout</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Hutchinson</surname>, <given-names>W. F.</given-names>
+</string-name>, <string-name>
+<surname>Wills</surname>, <given-names>D. P. M.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Shipley</surname>, <given-names>P.</given-names>
+</string-name> (<year>2004</year>). <article-title>MICRO&#x02010;CHECKER: Software for identifying and correcting genotyping errors in microsatellite data</article-title>. <source>Molecular Ecology Notes</source>, <volume>4</volume>, <fpage>535</fpage>&#x02013;<lpage>538</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1471-8286.2004.00684.x">https://doi.org/10.1111/j.1471-8286.2004.00684.x</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0066"><mixed-citation publication-type="journal" id="ece33985-cit-0066">
+<string-name>
+<surname>Veliz</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Duchesne</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Rojas&#x02010;Hernandez</surname>, <given-names>N.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Pardo</surname>, <given-names>L. M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Statistical power to detect multiple paternity in populations of highly fertile species: How many females and how many offspring should be sampled?</article-title>. <source>Behavioral Ecology and Sociobiology</source>, <volume>71</volume>, <fpage>12</fpage>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00265-016-2240-x">https://doi.org/10.1007/s00265-016-2240-x</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0067"><mixed-citation publication-type="journal" id="ece33985-cit-0067">
+<string-name>
+<surname>Villanelli</surname>, <given-names>F.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Gherardi</surname>, <given-names>F.</given-names>
+</string-name> (<year>1998</year>). <article-title>Breeding in the crayfish, <italic>Austropotamobius pallipes</italic>: Mating patterns, mate choice and intermale competition</article-title>. <source>Freshwater Biology</source>, <volume>40</volume>, <fpage>305</fpage>&#x02013;<lpage>315</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1365-2427.1998.00355.x">https://doi.org/10.1046/j.1365-2427.1998.00355.x</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0068"><mixed-citation publication-type="journal" id="ece33985-cit-0068">
+<string-name>
+<surname>Wang</surname>, <given-names>J. L.</given-names>
+</string-name> (<year>2004</year>). <article-title>Sibship reconstruction from genetic data with typing errors</article-title>. <source>Genetics</source>, <volume>166</volume>, <fpage>1963</fpage>&#x02013;<lpage>1979</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1534/genetics.166.4.1963">https://doi.org/10.1534/genetics.166.4.1963</ext-link>
+<pub-id pub-id-type="pmid">15126412</pub-id></mixed-citation></ref><ref id="ece33985-bib-0069"><mixed-citation publication-type="journal" id="ece33985-cit-0069">
+<string-name>
+<surname>Wang</surname>, <given-names>J.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Santure</surname>, <given-names>A. W.</given-names>
+</string-name> (<year>2009</year>). <article-title>Parentage and sibship inference from multilocus genotype data under polygamy</article-title>. <source>Genetics</source>, <volume>181</volume>, <fpage>1579</fpage>&#x02013;<lpage>1594</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1534/genetics.108.100214">https://doi.org/10.1534/genetics.108.100214</ext-link>
+<pub-id pub-id-type="pmid">19221199</pub-id></mixed-citation></ref><ref id="ece33985-bib-0070"><mixed-citation publication-type="journal" id="ece33985-cit-0070">
+<string-name>
+<surname>Watson</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name>
+<surname>Arnqvist</surname>, <given-names>G.</given-names>
+</string-name>, &#x00026; <string-name>
+<surname>Stallmann</surname>, <given-names>R. R.</given-names>
+</string-name> (<year>1998</year>). <article-title>Sexual conflict and the energetic costs of mating and mate choice in water striders</article-title>. <source>American Naturalist</source>, <volume>151</volume>, <fpage>46</fpage>&#x02013;<lpage>58</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/286101">https://doi.org/10.1086/286101</ext-link>
+</mixed-citation></ref><ref id="ece33985-bib-0071"><mixed-citation publication-type="journal" id="ece33985-cit-0071">
+<string-name>
+<surname>Yasui</surname>, <given-names>Y.</given-names>
+</string-name> (<year>1997</year>). <article-title>A &#x0201c;good&#x02010;sperm&#x0201d; model can explain the evolution of costly multiple mating by females</article-title>. <source>American Naturalist</source>, <volume>149</volume>, <fpage>573</fpage>&#x02013;<lpage>584</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/286006">https://doi.org/10.1086/286006</ext-link>
+</mixed-citation></ref></ref-list></back></article>

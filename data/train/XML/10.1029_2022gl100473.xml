@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Dynamic Full-Field Imaging of Rupture Radiation: Material Contrast Governs Source Mechanism</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">J</forename><surname>Aichele</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Latour</surname></persname>
+<idno type="ORCID">0000-0001-8019-9053</idno>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Catheline</surname></persname>
+<idno type="ORCID">0000-0002-5484-0334</idno>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<affiliation>
+<orgname>1 Laboratory of Therapeutic Applications of Ultrasound, INSERM &amp; University of Lyon, </orgname>
+<address><addrline>Lyon, France, Grenoble, France, Toulouse, France</addrline></address>
+</affiliation>
+</author>
+<author>
+<affiliation>
+<orgname> 2 ISTerre, University Grenoble Alpes, University Savoie Mont Blanc, CNRS, IRD, University Gustave Eiffel, </orgname>
+</affiliation>
+</author>
+<author>
+<affiliation>
+<orgname> 3 Institute of Astrophysics and Planetology, IRAP &amp; University of Toulouse III,</orgname>
+</affiliation>
+</author>
+<title level="a" type="main">Dynamic Full-Field Imaging of Rupture Radiation: Material Contrast Governs Source Mechanism</title>
+</analytic>
+<monogr>
+<imprint>
+<date></date>
+</imprint>
+</monogr>
+<idno type="MD5">F44B6C5FC59FB584F6EB464DD70D8DFB</idno>
+<idno type="DOI">10.1029/2022GL100473</idno>
+<note type="submission">Received 22 JUL 2022 Accepted 9 NOV 2022</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-10-26T17:06+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Inversion for earthquake sources is mostly done in the far-field and suffers from ambiguity.</s><s>With the exception of volcanic seismicity, where hypocenters are shallow <ref target="#b22" type="bibr">(Lokmer &amp; Bean, 2010)</ref>, the seismic near field (NF) suffers strong attenuation and is often concealed by ambient noise.</s><s>In contrast to real-world seismic data, laboratory rupture experiments allow for dense instrumentation and direct imaging of rupture propagation.</s><s>For example, the first unambiguous proof of supershear rupture was provided by strain imaging through photo-elastic experiments of sliding Homalite plates by <ref target="#b27" type="bibr">Rosakis and Coker (1999)</ref>.</s><s>Recently, the group retrieved wave motion displacements</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>For most earthquakes, the longstanding discussion on the appropriate representation of the earthquake source has been decided in favor of the double-couple (DC) source.</s><s>It is the body force equivalent to slip on a fault and consists of two force couples acting at the earthquake source <ref target="#b2" type="bibr">(Aki &amp; Richards, 2009;</ref><ref target="#b25" type="bibr">Pujol, 2003)</ref>.</s><s>However, other rupture observations such as icequakes, landslides, induced seismicity and deep earthquakes are not always well reproduced by a standard DC model.</s><s>For example, Ben-Zion and Ampuero (2009) theoretically show that brittle rupture is associated with a non-double-couple damage related source term.</s><s><ref target="#b19" type="bibr">Kwiatek et al. (2011)</ref>, <ref target="#b18" type="bibr">Kwiatek and Ben-Zion (2013)</ref> discuss the presence of tensile opening during induced seismicity and aftershocks of a Mw 1.9 earthquake.</s><s>In the case of glacial sliding, <ref target="#b12" type="bibr">Ekström et al. (2003)</ref> report that a single force centroïd inversion outperforms standard moment tensor inversion (Harvard-CMT).</s><s>In the laboratory, <ref target="#b23" type="bibr">Lykotrafitis and Rosakis (2006)</ref> found indications for wrinkle-like rupture and tensile opening in a Homalite-on-steel friction experiment.</s></p><p><s>Plain Language Summary Earthquakes, avalanches, icequakes and landslides originate from a common process: rupture at a material interface.</s><s>During a rupture, for example, when a landslide slips, a characteristic pattern of seismic waves is created.</s><s>This pattern differs at the earth's surface and the rupture interface, which is the source of the seismic waves inside the earth.</s><s>Usually scientists only measure the waves arriving at the surface and need to deduce the wave pattern inside the earth from the surface measurement.</s><s>We build a laboratory experiment which enables us to film wave propagation around the rupture surface, as if we had a camera inside the material.</s><s>We film waves emitted during and prior to a rupture.</s><s>For a soft material on a hard surface, such as encountered in icequakes or landslides, a single force model better explains the observed wave pattern than the commonly used model of four distributed forces.</s><s>The rupture moves faster than shear waves propagate which results in a supershear cone, the elastic equivalent to the acoustic Mach cone created by supersonic aircrafts.</s><s>For two materials of similar hardness, such as encountered in earthquakes, the classic model of four forces better explains the ruptures, which travel at sub-shear speed. of supershear ruptures through digital image correlation <ref target="#b29" type="bibr">(Rubino et al., 2020</ref><ref target="#b28" type="bibr">(Rubino et al., , 2022))</ref>.</s><s><ref target="#b20" type="bibr">Latour et al. (2011</ref><ref target="#b21" type="bibr">Latour et al. ( , 2013) )</ref> introduced a new direct rupture imaging method using ultrafast ultrasound (US) that allows for observation of shear wave radiation during rupture propagation in soft materials: the shear wave's particle velocity is retrieved through speckle tracking of subsequent US backscatter images.</s><s>In contrast to photo-elasticity, this method is not restricted to 2D setups.</s><s>They show that during hydrogel-on-sandpaper friction the depinning of the gel is well matched by a singular bell shaped (Gaussian) shear point force.</s><s>Furthermore, they observed the effects of barriers on rupture propagation on a hydrogel-glass interface with a granular inter-layer.</s><s>At first glance hydrogels might seem counter-intuitive as earth material equivalents.</s><s>However, they have been extensively used as geological analogs <ref target="#b33" type="bibr">(van Otterloo &amp; Cruden, 2016)</ref>.</s><s>An historic example is the jelly experiment of <ref target="#b26" type="bibr">Reid (1910)</ref>, that led to the elastic rebound theory.</s><s>More recent examples include a subduction-analog gelatin setup <ref target="#b7" type="bibr">(Corbi et al., 2011</ref><ref target="#b6" type="bibr">(Corbi et al., , 2017) )</ref> and volcanic modeling <ref target="#b17" type="bibr">(Kavanagh et al., 2018)</ref>.</s></p><p><s>Here we investigate the source mechanism of the failure of a granular asperity in a laboratory friction experiment using a new setup based on the methodology introduced by <ref target="#b20" type="bibr">Latour et al. (2011</ref><ref target="#b21" type="bibr">Latour et al. ( , 2013))</ref>.</s><s>Direct imaging of the NF of a propagating rupture allows us to compare the laboratory rupture to a kinematic rupture simulation using elastodynamic Green's functions.</s><s>We compare a strong and a weak bimaterial contrast and test single-force and DC source models for different events to find the source mechanism depending on the elastic contrast and type of slip event.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Experimental Setup<p><s>All results are derived from the dynamic wave field imaging of two experimental scenarios: sliding of an asperity along an interface with a strong or a weak bimaterial contrast (Figure <ref target="#fig_1" type="figure">1</ref>).</s><s>The strong contrast is constituted of a glass -hydrogel (Polyvinyl-alcohol -PVA) interface (Figures <ref target="#fig_1" type="figure">1a</ref> and<ref target="#fig_1" type="figure">1b</ref>) and the weak contrast by a hydrogel-hydrogel interface (Figure <ref target="#fig_1" type="figure">1d</ref>).</s><s>For the strong contrast the shear wave speed ratio is several orders of magnitude: 7 m s -1 (gel) versus &gt;3,000 m s -1 (glass) <ref target="#b3" type="bibr">(Alexander et al., 2007;</ref><ref target="#b9" type="bibr">Dandekar, 1996)</ref>.</s><s>The hydrogels are homemade and non-standardized, and an elasticity contrast of the same order of magnitude remains for the weak contrast.</s><s>The frictional behavior is ensured by a sand patch mimicking an asperity on a smooth surface.</s><s>The glass plate is moved by a Kollmorgen stepper motor, which induces the deformation and subsequent sliding of the partly blocked gel via the frictional contact of the sand asperity.</s><s>Seismic radiation is emitted upon failure of frictional contacts due to stick-slip ruptures, and is observed by ultrasonic speckle correlation imaging.</s><s>The observation plane is centered in the gel, perpendicular to the interface and reaches from the asperity to the gel surface.</s></p><p><s>The imaging methodology is exemplary shown in Figure <ref target="#fig_1" type="figure">1c</ref> for the weak interface experiment.</s><s>Ultrasound backscatter images show a zone of high reflectivity at the gel-gel interface at 4 cm depth.</s><s>It is caused by the sand layer in between the two hydrogels.</s><s>Imaging below the interface is feasible, but the speckle quality is deteriorated due to strong US backscattering.</s><s>In both gels, a 1 cm thick layer of intermediate reflectivity is observed next to the sand.</s><s>It is likely caused by increased deposition of the backscatter agent (graphite).</s><s>While graphite changes the ultrasonic impedance, shear wave propagation at the frequencies of interest remains unaffected.</s><s>The phase correlation of successive US speckle images allows to resolve the shear wave induced vertical particle displacement between two snapshots, which is the apparent particle velocity     <ref target="#b24" type="bibr">(Pinton et al., 2005)</ref>.</s><s>The dynamic observation is made possible by the high velocity contrast of the shear and compression waves in the hydrogel: while the compressional US travels at approximately 1,500 m s -1 , the rupture induced shear waves propagate at speeds below 10 m s -1 .</s><s>Plane US pulses at high frame rate allow for the shear wave particle velocity to be temporally well resolved (Δ t = 0.33 ms).</s><s>The US frequency (5 MHz) ensures the spatial resolution (λ US = 0.3 mm).</s><s>Hence, a shear wave propagating at 7 m s -1 and 250 Hz is sampled at 25 US-wavelengths per shear wavelength (λ shear = 7 mm).</s><s>Consequently, the z-component of the entire transverse displacement field, including NF terms, is observed.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Kinematic Modeling of the Radiated Wavefield<p><s>The observed wavefield radiation is compared to kinematic wavefield modeling of equivalent body-force models (see Sections S2.6-S2.8 in Supporting Information S1), namely the single-force and douple-couple solutions.</s><s>The source moves to simulate propagation of rupture fronts, and its velocity as well as the local source time functions are manually adjusted to obtain a good match to the data.</s><s>The displacement u ij (x, t) due to a unidirectional force (UF) in the x j -direction with a source time function X 0 (t) at the source position is the convolution of X 0 with the elastodynamic impulse response (Green's function G ij ).</s><s>It is the superposition of the compression and shear wave far-fields and the elastic NF:</s></p><formula xml:id="formula_0">𝑢𝑢𝑖𝑖 ( ⃗ 𝑥𝑥𝑥 𝑥𝑥 ) = 𝑋𝑋0 * 𝐺𝐺𝑖𝑖𝑖𝑖 = 𝑋𝑋0 * 𝐺𝐺𝑖𝑖𝑖𝑖 𝑁𝑁𝑁𝑁𝑁𝑁𝑁𝑁 + 𝑋𝑋0 * 𝐺𝐺𝑖𝑖𝑖𝑖 𝐹𝐹 𝑁𝑁𝑁𝑁-𝑃𝑃 + 𝑋𝑋0 * 𝐺𝐺𝑖𝑖𝑖𝑖 𝐹𝐹 𝑁𝑁𝑁𝑁-𝑆𝑆 (1)</formula><p><s>The full expression is given in Section S2.6 in Supporting Information S1 and a thorough derivation can be found in <ref target="#b2" type="bibr">Aki and Richards (2009)</ref> Chapter 3-4.</s></p><p><s>In contrast to the UF-solution in Equation <ref type="formula">1</ref>, the Green's function for a DC model can be separated into five physically meaningful terms: NF, intermediate S-field and P-field, and far S-field and P-field.</s><s>The full analytical solution for the displacement field of a DC source can be found in Section S2.7 in Supporting Information S1.</s></p><formula xml:id="formula_1">𝐺𝐺𝐷𝐷𝐷𝐷 = 𝐺𝐺 𝑁𝑁𝑁𝑁𝑁𝑁𝑁𝑁 + 𝐺𝐺 𝐼𝐼𝐼𝐼 + 𝐺𝐺 𝐼𝐼𝐼𝐼 + 𝐺𝐺 𝐹𝐹 𝐼𝐼 + 𝐺𝐺 𝐹𝐹 𝐼𝐼 (2)</formula><p><s>In the following, we first present the results on the strong and weak contrast bimaterial interface and then discuss their relevance for natural rupture processes.</s><s>Experiment and simulation are compared via wavefield snapshots that are normalized with respect to their time-series.</s><s>The only filter applied is a spatial median filter.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Strong Bimaterial Contrast<p><s>The wavefield observations for the strong bimaterial contrast (Movie S1) reveals two types of slip events at the asperity: strongly localized micro-slips, and global stick-slip (see Figure <ref type="figure">S6</ref> in Supporting Information S1) yielding propagating rupture fronts on asperity.</s><s>We analyze one event of each type, representative of the overall observations.</s></p><p><s>For the microslip event, depicted in Figure <ref target="#fig_2" type="figure">2a</ref>, a spherical wavefront is radiated from one location on the asperity.</s><s>No rupture propagation is observed and consequently we model the event with a local point source in Figure <ref target="#fig_2" type="figure">2b</ref>.</s></p><p><s>The experimental radiation pattern is well reproduced by a unidirectional single force with a ramp shaped source time function X 0 (t).</s><s>The first lobe represents the NF of the Green's function and is quickly attenuated.</s><s>The second lobe is of opposite polarity and represents the far-field shear wave.</s><s>The top 2 cm are artifacts of a previous event (see Figure <ref target="#fig_2" type="figure">S2</ref> in Supporting Information S1 event 2-3).</s><s>In contrast to the simulation, the experiment undergoes constant charging from the motor.</s><s>Thus, noise as well as aseismic displacement due to deformation are present in the snapshots.</s></p><p><s>The Gaussian source time function employed by <ref target="#b20" type="bibr">Latour et al. (2011)</ref> to model hydrogel-sandpaper depinning fails to reproduce the here observed wavefield.</s><s>Our ramp shaped source time function with a rise time of 0.1 ms  (see Figure <ref target="#fig_1" type="figure">S10</ref> in Supporting Information S1) results in a better match.</s><s>A likely physical explanation is a localized change from a high-to low-stress state due to gel deformation and relaxation, which we model by a rightward pointing force (see Figure <ref target="#fig_1" type="figure">S10</ref> in Supporting Information S1).</s><s>Dynamically, this is equivalent to the plate displacement applying a left-pointing loading force to the gel, which drops to zero value.</s><s>This localized shear friction drop on a micro-asperity might correspond to a highly localized inelastic dislocation or grain micro-slip in the granular layer.</s></p><p><s>The localized event of Figure <ref target="#fig_2" type="figure">2</ref> precedes a larger event, in which a rupture front traverses the entire visible interface (see Figure <ref target="#fig_4" type="figure">3a</ref>; Figures <ref target="#fig_4" type="figure">S3</ref> and<ref target="#fig_5" type="figure">S4</ref> in Supporting Information S1 for details).</s><s>The rupture propagation direction equals the sliding direction of the gel, that is, opposite to the plate movement.</s><s>This observation agrees with <ref target="#b10" type="bibr">Dedontney et al. (2011)</ref>, who found that for bimaterial interfaces, ruptures will preferentially propagate in slip direction of the compliant side.</s><s>The particle velocity  (</s></p><formula xml:id="formula_2">𝛿𝛿𝛿𝛿 𝑧𝑧 𝛿𝛿𝛿𝛿 )</formula><p><s>measurements in Figure <ref target="#fig_4" type="figure">3a</ref> are compared to two analytic, kinematic simulations: a moving UF Figure <ref target="#fig_4" type="figure">3b</ref>, and a moving DC Figure <ref target="#fig_4" type="figure">3c</ref>.</s><s>The simulations result from superposition of point sources along a decelerating speed profile, which is estimated roughly from the experimental data.</s><s>Through trial and error we qualitatively match the NF lobe, supershear-and rupture arrest front (RAF).</s><s>The source parameters are given in Figures S10-S14 in Supporting Information S1.</s></p><p><s>Key properties of the UF model, which are also present in the experimental observation, are indicated in Figure <ref target="#fig_4" type="figure">3b</ref>.</s><s>The first phase is an upwards polarized non-planar diffuse lobe.</s><s>It corresponds to the NF of the right-traveling and rightwards pointing shear force.</s><s>A sharp, downwards polarized large amplitude wave front follows, which is identified as a supershear front (SSF) in the simulation.</s><s>It is the result of a rupture that breaks the asperity faster than the medium's shear wave speed.</s><s>The front angle with the x-axis (β = 21.8°) at late observation times in Figure <ref target="#fig_4" type="figure">3a</ref> and the measured shear wave speed (c s ) of 6.9 ± 1 m s -1 (see Figure <ref target="#fig_6" type="figure">S15</ref> in Supporting Information S1) are used to calculate an average rupture propagation speed (c r ) of ≈18 m s -1 :</s></p><formula xml:id="formula_3">𝐴𝐴 𝐴𝐴𝑟𝑟 = 𝐴𝐴 𝑠𝑠</formula><p><s>sin() .</s><s>However, two front angles can be identified throughout the rupture (see Figure <ref target="#fig_1" type="figure">S17</ref> in Supporting Information S1).</s><s>Furthermore, a time of flight measurement of the SSF along the rupture surface (see Figure <ref target="#fig_1" type="figure">S16</ref> in Supporting Information S1) suggests a rupture speed above time resolution on 1 cm and below 12 m s -1 afterward, indicating that the rupture is decelerating.</s><s>Hence, we use a decreasing rupture velocity in the kinematic model.</s><s>A low amplitude, downwards polarized wedge is present above the SSF.</s><s>It corresponds to the imprint of the compressional (P) wave, which propagates at ≈1,500 m s -1 .</s><s>Finally, a leftwards propagating and upwards polarized wavefront can be observed in the last snapshots of Figure <ref target="#fig_4" type="figure">3a</ref>.</s><s>In the simulations it is identified as the RAF, emitted at the asperity border.</s></p><p><s>In comparison, the best moving DC solution (Figure <ref target="#fig_4" type="figure">3c</ref>) exhibits a high wavefield complexity which is absent in the experiment and the UF force simulation.</s><s>Furthermore, the experimental data lack the leading, downwards polarized polarity of the DC simulation.</s><s>However, at late times (7 ms), we can observe an upwards polarized front following the SSF, which has a counterpart in the DC solution (Figure <ref target="#fig_4" type="figure">3c</ref>), but is absent in the UF simulation Figure <ref target="#fig_4" type="figure">3b</ref>.</s><s>To conclude, we find that the moving UF best matches NF, the SSF and the RAF of the experimental data, but does not capture every detail of the wavefield.</s><s>The remaining mismatch could stem from an oversimplified source-time function or an off-plane component due to a non-smooth surface.</s><s>Such non-planar surfaces are encountered in real world ruptures as well.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Weak Bimaterial Contrast<p><s>The strong material contrast spanned three orders of magnitude.</s><s>Now, the S-wave velocities are on the same order of magnitude: 6.9 ± 1 m s -1 (lower gel) and 3.2 ± 1 m s -1 (upper gel).</s><s>However the effective speeds during the rupture might be different due to local heterogeneities and gel dehydration.</s><s>We observe two types of slip events on the weak bimaterial contrast interface: propagating ruptures and localized wave radiations (see Movie S2).</s></p><p><s>A rupture that appears to propagate below shear and Rayleigh wave speed is shown in Figure <ref target="#fig_5" type="figure">4a</ref>.</s><s>Figures <ref target="#fig_5" type="figure">4c</ref> and<ref target="#fig_5" type="figure">4d</ref> show the corresponding 1D waveforms at specified depth-and time-steps in the upper halfspace.</s><s>In both displays, the right-traveling front exhibits higher amplitudes than the left-traveling one.</s><s>This front also exposes a smaller angle to the vertical (inclination difference), indicating a speed difference between the fronts.</s><s>A straightforward explanation is a sub-Rayleigh rupture traveling in positive x-direction, the slip direction of the more compliant (upper) gel.</s><s>A wavefront of continuous polarity throughout both half-spaces exists in the rupture propagation direction.</s></p><p><s>We model the radiation with a rightwards moving DC of constant sub-Rayleigh velocity (Figure <ref target="#fig_4" type="figure">S13</ref> in Supporting Information S1).</s><s>The simulated wavefield (Figures <ref target="#fig_5" type="figure">4b, 4e,</ref> and<ref target="#fig_5" type="figure">4f</ref>) reproduces the continuous polarity across the interface.</s><s>In contrast, the radiation pattern of a UF exhibits alternating polarities (Figure <ref type="figure">S9</ref> in Supporting Information S1).</s><s>However, similar to the case of a strong bimaterial contrast, the leading NF lobe predicted by the DC solution is not identified in the experimental data.</s><s>Figure <ref target="#fig_5" type="figure">4a</ref>) reveals that a weak upwards polarized zone is present at interface depth, but quickly disappears elsewhere.</s><s>This could be an imprint of the NF getting masked by the continuous deformation of the gel (see Movie S2, (Figures <ref target="#fig_5" type="figure">4</ref> and<ref target="#fig_6" type="figure">5</ref> start at approximately 2,396 ms),).</s><s>Note that the amplitude increase in the rupture direction is more pronounced in the simulation than in the experiment.</s><s>Shear wave attenuation could mask the amplitude difference between the wave fronts in rupture and opposite rupture direction, but is neglected in the kinematic simulation.</s><s>Furthermore, the laboratory rupture might be shorter than the qualitatively simulated rupture of Figure <ref target="#fig_5" type="figure">4b</ref>.</s><s>For strong contrast experiments we as well as <ref target="#b20" type="bibr">(Latour et al., 2011</ref><ref target="#b21" type="bibr">(Latour et al., , 2013) )</ref> only observed supershear ruptures.</s><s>For homogeneous systems, rupture propagation at sub-Rayleigh speed is expected <ref target="#b30" type="bibr">(Shlomai &amp; Fineberg, 2016</ref>), but had not been observed by shear wave imaging prior to this experiment, which provides the first dynamic US observation of a gel-gel rupture <ref target="#b20" type="bibr">(Latour et al., 2011)</ref>.</s><s>However, we do not exclude the possibility that supershear ruptures may also exist in this case.</s><s>Situated 3 milliseconds after Figure <ref target="#fig_5" type="figure">4</ref> and 5a shows a localized event with a quadripolar radiation pattern.</s><s>The radiation is qualitatively reproduced as the NF lobe of a unidirectional point force model, which is shown in Figure <ref target="#fig_6" type="figure">5b</ref>.</s><s>The source rise time is several ms long (see Figure <ref target="#fig_4" type="figure">S13</ref> in Supporting Information S1).</s><s>Contrary to the localized event on the strong bimaterial contrast interface, the far-field part of the theoretical radiation is not observed.</s><s>Instead, the event is followed by a left-going rupture, shown in Figure <ref target="#fig_6" type="figure">5c</ref> (event 3 in Figure <ref type="figure">S8</ref> in Supporting Information S1).</s><s>A similar sequence occurs at 2,350 ms in Movie S2.</s><s>We hypothesize that the long rise-time localized event corresponds to the nucleation process of the subsequent rupture.</s><s>An apparent aseismic lateral displacement of the radiation pattern in the lower half space for the experimental data remains of unclear origin.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Relevance for Natural Rupture Processes<p><s>For the strong bimaterial contrast, we find that microslip as well as rupture radiations are better described by a unique force model than by a DC model.</s><s>This is intuitively understood as the consequence of the strong elasticity contrast at the interface: the UF corresponds to the relaxation of the gel's loading force when friction drops at the interface.</s></p><p><s>In nature, strong material contrasts are encountered in environmental seismology, that is, for landslides and glacier stick-slip.</s><s>Both processes exhibit a wet granular layer and a compliant mass sliding on a hard bedrock.</s><s>Our granular asperity is conceptually comparable to glacial till <ref target="#b13" type="bibr">(Gräff et al., 2021)</ref>, and the "sticky spot" encountered in alpine glacial stick-slip <ref target="#b32" type="bibr">(Umlauft et al., 2021)</ref>.</s><s>Unidirectional force models for strong material contrasts have been proposed for the 1980 Mt. St. Helens eruption <ref target="#b16" type="bibr">(Kanamori &amp; Given, 1982)</ref> and the 1975 Kalapana, Hawaii, earthquake, where a large landslide occurred on Kilauea volcano <ref target="#b11" type="bibr">(Eissler &amp; Kanamori, 1987)</ref>.</s><s>In a theoretical analysis <ref target="#b8" type="bibr">Dahlen (1993)</ref> showed that brecciation in the sliding block of shallow landslides results in mechanical decoupling of the two fault sides.</s><s>The decoupling leads to a single-force rupture source, pointing in the direction of the mass movement for decelerating sliding <ref target="#b15" type="bibr">(Julian et al., 1998)</ref>.</s><s><ref target="#b8" type="bibr">Dahlen (1993)</ref> calculated that the shear wave speed of the landslide tends toward zero and must have been below 300 m s -1 , compared to 3,500 m s -1 in the bedrock.</s><s><ref target="#b12" type="bibr">Ekström et al. (2003)</ref> found that for glacier stick-slip in Greenland, single force inversions perform better than standard moment tensor inversions.</s><s>Again, this could be explained by the lower shear wave speed in ice.</s><s>Lastly, <ref target="#b31" type="bibr">Trottet et al. (2022)</ref> very recently showed rupture propagation at supershear speed for snow avalanches, another case exposing low shear wave speeds of the sliding mass (&lt;120 m s -1 ) and high material contrasts (0.5-2 vs. 5-30 MPa Young's modulus).</s><s>Our direct experimental observation of the wavefield generation confirms, that unique force mechanisms are relevant for describing slip events between materials with strong wave velocity contrasts.</s></p><p><s>In global seismology, the earthquake source corresponds to slip on a planar fault and is widely modeled by a DC equivalent body source.</s><s>Our closest analog experiment is the propagating rupture on the asperity at the gel-gel interface.</s><s>We observe radiations best described by a moving DC, which indicates a coupling between both sides of the fault.</s><s>However, some ruptures are preceded by localized events, which are reproduced by the NF radiation of a slowly rising UF.</s><s>We hypothesize that one gel deforms preferentially during loading, as previously observed in rubber by <ref target="#b5" type="bibr">Brune et al. (1993)</ref>.</s><s>It then slowly initiates relaxation as a preparatory process before both gels release the remaining deformation during rupture propagation.</s><s>This non-symmetric process could be expedited by the sand layer that can locally decouple both sides of the fault through grain rearrangements.</s><s>The single force source mechanism may be relevant for slow processes on natural faults.</s><s>For example, shallow thrust faults expose an asymmetry in the fault loading, and fault gouge, damaged layers and fluids can constitute decoupling mechanisms.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Outlook<p><s>In the future the utilization of several imaging probes could allow the simultaneous measurement of fault-parallel and fault-orthogonal particle velocity <ref target="#b0" type="bibr">(Aichele, 2019)</ref>.</s><s>The dense spatial sampling achieved through phase correlation would then allow for the local recovery of displacement and strain in 3D observations of the rupture-borne in situ elastic wavefield of complex asperities <ref target="#b0" type="bibr">(Aichele, 2019)</ref>.</s><s>We are grateful to Christophe Voisin for discussions on rupture nucleation and Max Solazzo for finishing the friction bench.</s><s>Many thanks also to the three anonymous reviewers for their excellent comments which greatly improved the present paper.</s><s>The project has received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie Grant agreement No. 641943 (ITN WAVES) and resulted in the PHD thesis <ref target="#b0" type="bibr">Aichele (2019)</ref>.</s><s>ISterre is part of Labex OSUG@2020.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Visualization: J. Aichele, S. Latour Writing -original draft: J. Aichele Writing -review &amp; editing: J. Aichele, S. Latour, S. Catheline, P. Roux</s></p></div></figdesc></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 .<label>1</label><figdesc><div><p><s>Figure 1.</s><s>Experimental setup.</s><s>(a) Schematic view of the montage.</s><s>The gel is free at the interface and blocked above.</s><s>(b) Imaging methodology: Correlation of successive ultrasound reflection images results in retrieval of the vertical component of the shear wave's particle velocity.</s><s>Blue denotes upwards polarization (negative z) and red denotes downwards polarization.</s><s>(b, d) Schematic illustration of the imaging plane in the bimaterial setups: (b) Strong bimaterial contrast: A hydrogel-sand asperity-glass interface (d) Weak bimaterial contrast: A hydrogel-sand asperity-hydrogel interface A detailed acquisition and processing workflow is given in Figure S1 in Supporting Information S1.</s></p></div></figdesc><graphic coords="4,53.37,89.02,493.20,405.36" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 .<label>2</label><figdesc><div><p><s>Figure 2. Strong material contrast: Comparison of an experimental micro-slip and simulation.</s><s>Particle velocity polarization is indicated by the white arrows.</s><s>(a) Particle velocities     observed by shear wave imaging.</s><s>The stepper motor drives the plate in negative x-direction.</s><s>(b) Corresponding Green's function of a singular unidirectional shear force in positive x-direction.</s><s>The near field lobe and shear wave front are indicated in panels (b).</s></p></div></figdesc><graphic coords="5,212.76,239.35,76.34,111.50" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>19448007, 2023, 1, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022GL100473</s><s>by Cochrane France, Wiley Online Library on [11/01/2023].</s><s>See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions)</s><s>on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 .<label>3</label><figdesc><div><p><s>Figure 3. Strong material contrast: Comparison of an experimental supershear rupture and simulation.</s><s>(a)     as observed by shear wave imaging.</s><s>The first snapshot is located 6 ms after the first snapshot of Figure 2. The motor drives the plate in negative x-direction.</s><s>(b)     resulting from the superposition of unidirectional shear forces in x-direction.</s><s>Near field (NF), supershear front (SSF), P-wave imprint (P) and rupture arrest front (RAF) are indicated.</s><s>(c)     resulting from the superposition of double-couple point sources.</s><s>The point sources in (b, c) point in positive x-direction and are shifted in time and space, in order to simulate a propagating rupture front (see Section S2.8 in Supporting Information S1).</s><s>A higher time-resolution is given in Figures S4 and S5 in Supporting Information S1.</s><s>The source functions and rupture speed profiles can be found in Figures S11 and S12 in Supporting Information S1.</s></p></div></figdesc><graphic coords="6,94.76,346.23,68.18,112.22" type="bitmap"></graphic></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 .<label>4</label><figdesc><div><p><s>Figure 4. Weak material contrast: Comparison of sub-Rayleigh rupture observation and simulation.</s><s>(a) Experimental particle velocities for a gel-gel rupture.</s><s>(b) Right-traveling superposition of double-couple point sources at sub-Rayleigh speed with a ramp source function.</s><s>NF, Near field, IF, Intermediate field.</s><s>(c-f) Spatial Waveforms (x-direction) at fixed depth and time against distance to the presumed rupture nucleation point.</s><s>(c) Experimental waveforms during rupture initiation (0-0.7 ms) at the gel-gel interface.</s><s>The waveforms are a mean of 27 depthpoints (≈1 mm), just above the sand layer, which was identified from the ultrasound reflection images.</s><s>The sand-layer to probe distance varies about 1.5 mm due to gel deformation and sand thickness.</s><s>(d) Experimental waveforms of 0.7-2 ms ≈ 2 mm above the waveforms in (c).</s><s>(e and f) Simulated waveforms corresponding to (c) and (d).</s><s>Panel (e) is taken 0.2 mm and Panel (f) 3.8 mm above the simulated interface.</s></p></div></figdesc></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0">Figure 5 .<label>5</label><figdesc><div><p><s>Figure 5. Weak bimaterial contrast: Comparison of a local event and a UF-simulation.</s><s>(a) Experimental observation of an event 3 ms after the rupture of Figure 4. Decreased Signal-to-noise ratio below the indicated interface and the diagonal artifact at t = 3 ms are due to ultrasound diffraction at the sand.</s><s>(b) Green's function simulation of a localized unidirectional shear force in negative x-direction using a 2.16 ms long rise time.</s><s>NF, Near field.</s><s>(c) Consequent time evolution of (a).</s><s>The local event is followed or transforms into a rupture (see Movie S2 ≈2,400 ms).</s></p></div></figdesc><graphic coords="9,311.88,248.57,110.30,75.02" type="bitmap"></graphic></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>19448007, 2023, 1, Downloaded from https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022GL100473</s><s>by Cochrane France, Wiley Online Library on [11/01/2023].</s><s>See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions)</s><s>on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgments</div>
+</div>
+<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0">Data Availability Statement<p><s>The experimental data sets are available in Aichele (2022, https://zenodo.org/record/6886498)</s><s>as *.mat and can be read with Matlab or scipy (python).</s><s>The code to reproduce the simulations is available under Aichele (2022, https://zenodo.org/record/6886498)</s><s>and JoTrab (2022, https://zenodo.org/record/7092715). Codes are confirmed to run under MATLAB (2020).</s></p></div>
+</div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Elastic waves in complex conditions: From the onset of rupture to viscous dispersion in foams</title>
+<author>
+<persname><forename type="first">J</forename><surname>Aichele</surname></persname>
+</author>
+<ptr target="https://tel.archives-ouvertes.fr/tel-02481746"></ptr>
+</analytic>
+<monogr>
+<title level="s">Université de Lyon</title>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="report_type">Doctoral dissertation</note>
+<note type="raw_reference">Aichele, J. (2019). Elastic waves in complex conditions: From the onset of rupture to viscous dispersion in foams (Doctoral dissertation, Univer- sité de Lyon). Retrieved from https://tel.archives-ouvertes.fr/tel-02481746</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<monogr>
+<title level="m" type="main">Dynamic full-field imaging of rupture radiation: Material contrast governs source mechanism</title>
+<author>
+<persname><forename type="first">J</forename><surname>Aichele</surname></persname>
+</author>
+<ptr target="https://zenodo.org/record/6886498"></ptr>
+<imprint>
+<date type="published" when="2022">2022</date>
+<publisher>Zenodo</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Aichele, J. (2022). Dynamic full-field imaging of rupture radiation: Material contrast governs source mechanism. Zenodo. Retrieved from https:// zenodo.org/record/6886498</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<monogr>
+<title level="m" type="main">Quantitative seismology</title>
+<author>
+<persname><forename type="first">K</forename><surname>Aki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">G</forename><surname>Richards</surname></persname>
+</author>
+<imprint>
+<date type="published" when="2009">2009</date>
+<publisher>University Science Books</publisher>
+<biblscope unit="page">700</biblscope>
+</imprint>
+</monogr>
+<note>2nd ed.</note>
+<note type="raw_reference">Aki, K., &amp; Richards, P. G. (2009). Quantitative seismology. In Book (2nd ed., p. 700), University Science Books.</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">The Hugoniot elastic limit of soda-lime glass</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">S</forename><surname>Alexander</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">C</forename><surname>Chhabildas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Templeton</surname></persname>
+</author>
+<idno type="DOI">10.1063/1.2833222</idno>
+<ptr target="https://doi.org/10.1063/1.2833222"></ptr>
+</analytic>
+<monogr>
+<title level="m">AIP conference proceedings</title>
+<imprint>
+<date type="published" when="2007">2007</date>
+<biblscope unit="volume">955</biblscope>
+<biblscope from="733" to="738" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Alexander, C. S., Chhabildas, L. C., &amp; Templeton, D. W. (2007). The Hugoniot elastic limit of soda-lime glass. In AIP conference proceedings (Vol. 955, pp. 733-738). https://doi.org/10.1063/1.2833222</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Seismic radiation from regions sustaining material damage</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Ben-Zion</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-P</forename><surname>Ampuero</surname></persname>
+</author>
+<idno type="DOI">10.1111/j.1365-246x.2009.04285.x</idno>
+<ptr target="https://doi.org/10.1111/j.1365-246x.2009.04285.x"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Journal International</title>
+<imprint>
+<biblscope unit="volume">178</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="1351" to="1356" unit="page"></biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ben-Zion, Y., &amp; Ampuero, J.-P. (2009). Seismic radiation from regions sustaining material damage. Geophysical Journal International, 178(3), 1351-1356. https://doi.org/10.1111/j.1365-246x.2009.04285.x</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Rupture mechanism and interface separation in foam rubber models of earthquakes: A possible solution to the heat flow paradox and the paradox of large overthrusts</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">N</forename><surname>Brune</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Johnson</surname></persname>
+</author>
+<idno type="DOI">10.1016/0040-1951(93)90259-m</idno>
+<ptr target="https://doi.org/10.1016/0040-1951(93)90259-m"></ptr>
+</analytic>
+<monogr>
+<title level="j">Tectonophysics</title>
+<imprint>
+<biblscope unit="volume">218</biblscope>
+<biblscope unit="issue">1-3</biblscope>
+<biblscope from="59" to="67" unit="page"></biblscope>
+<date type="published" when="1993">1993</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brune, J. N., Brown, S., &amp; Johnson, P. A. (1993). Rupture mechanism and interface separation in foam rubber models of earthquakes: A possible solution to the heat flow paradox and the paradox of large overthrusts. Tectonophysics, 218(1-3), 59-67. https://doi. org/10.1016/0040-1951(93)90259-m</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Control of asperities size and spacing on seismic behavior of subduction megathrusts</title>
+<author>
+<persname><forename type="first">F</forename><surname>Corbi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Funiciello</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Brizzi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Lallemand</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Rosenau</surname></persname>
+</author>
+<idno type="DOI">10.1002/2017GL074182</idno>
+<ptr target="https://doi.org/10.1002/2017GL074182"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">44</biblscope>
+<biblscope unit="issue">16</biblscope>
+<biblscope from="8227" to="8235" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Corbi, F., Funiciello, F., Brizzi, S., Lallemand, S., &amp; Rosenau, M. (2017). Control of asperities size and spacing on seismic behavior of subduction megathrusts. Geophysical Research Letters, 44(16), 8227-8235. https://doi.org/10.1002/2017GL074182</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Seismic variability of subduction thrust faults: Insights from laboratory models</title>
+<author>
+<persname><forename type="first">F</forename><surname>Corbi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Funiciello</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Faccenna</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Ranalli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Heuret</surname></persname>
+</author>
+<idno type="DOI">10.1029/2010jb007993</idno>
+<ptr target="https://doi.org/10.1029/2010jb007993"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research</title>
+<imprint>
+<biblscope unit="volume">116</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope unit="page">6304</biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Corbi, F., Funiciello, F., Faccenna, C., Ranalli, G., &amp; Heuret, A. (2011). Seismic variability of subduction thrust faults: Insights from laboratory models. Journal of Geophysical Research, 116(B6), B06304. https://doi.org/10.1029/2010jb007993</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Single-force representation of shallow landslide sources</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">A</forename><surname>Dahlen</surname></persname>
+</author>
+<idno type="DOI">10.1785/BSSA0830010130</idno>
+<ptr target="https://doi.org/10.1785/BSSA0830010130"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bulletin of the Seismological Society of America</title>
+<imprint>
+<biblscope unit="volume">83</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="130" to="143" unit="page"></biblscope>
+<date type="published" when="1993">1993</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dahlen, F. A. (1993). Single-force representation of shallow landslide sources. Bulletin of the Seismological Society of America, 83(1), 130-143. https://doi.org/10.1785/BSSA0830010130</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Optical and mechanical properties of soda lime glass under shock compression and release</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">P</forename><surname>Dandekar</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">International conference on structures under shock and impact</title>
+<imprint>
+<date type="published" when="1996">1996</date>
+<biblscope unit="volume">22</biblscope>
+<biblscope from="439" to="448" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Dandekar, D. P. (1996). Optical and mechanical properties of soda lime glass under shock compression and release. In International conference on structures under shock and impact, SUSI (Vol. 22, pp. 439-448).</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Influence of plastic deformation on bimaterial fault rupture directivity</title>
+<author>
+<persname><forename type="first">N</forename><surname>Dedontney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">L</forename><surname>Templeton-Barrett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Rice</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Dmowska</surname></persname>
+</author>
+<idno type="DOI">10.1029/2011JB008417</idno>
+<ptr target="https://doi.org/10.1029/2011JB008417"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research</title>
+<imprint>
+<biblscope unit="volume">116</biblscope>
+<biblscope unit="issue">10</biblscope>
+<biblscope unit="page">10312</biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dedontney, N., Templeton-Barrett, E. L., Rice, J. R., &amp; Dmowska, R. (2011). Influence of plastic deformation on bimaterial fault rupture direc- tivity. Journal of Geophysical Research, 116(10), B10312. https://doi.org/10.1029/2011JB008417</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">A single-force model for the 1975 Kalapana, Hawaii, Earthquake</title>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">K</forename><surname>Eissler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Kanamori</surname></persname>
+</author>
+<idno type="DOI">10.1029/JB092iB06p04827</idno>
+<ptr target="https://doi.org/10.1029/JB092iB06p04827"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research</title>
+<imprint>
+<biblscope unit="volume">92</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="4827" to="4836" unit="page"></biblscope>
+<date type="published" when="1987">1987</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Eissler, H. K., &amp; Kanamori, H. (1987). A single-force model for the 1975 Kalapana, Hawaii, Earthquake. Journal of Geophysical Research, 92(B6), 4827-4836. https://doi.org/10.1029/JB092iB06p04827</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Glacial earthquakes</title>
+<author>
+<persname><forename type="first">G</forename><surname>Ekström</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Nettles</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Abers</surname></persname>
+</author>
+<idno type="DOI">10.1126/science.1088057</idno>
+<ptr target="https://doi.org/10.1126/science.1088057"></ptr>
+</analytic>
+<monogr>
+<title level="j">Science</title>
+<imprint>
+<biblscope unit="volume">302</biblscope>
+<biblscope unit="issue">5645</biblscope>
+<biblscope from="1088057" to="1088624" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ekström, G., Nettles, M., &amp; Abers, G. A. (2003). Glacial earthquakes. Science, 302(5645), 1088057-1088624. https://doi.org/10.1126/ science.1088057</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Fine structure of microseismic glacial stick-slip</title>
+<author>
+<persname><forename type="first">D</forename><surname>Gräff</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Köpfli</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">P</forename><surname>Lipovsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">A</forename><surname>Selvadurai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Farinotti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Walter</surname></persname>
+</author>
+<idno type="DOI">10.1029/2021gl096043</idno>
+<ptr target="https://doi.org/10.1029/2021gl096043"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">48</biblscope>
+<biblscope unit="issue">22</biblscope>
+<biblscope unit="page">96043</biblscope>
+<date type="published" when="2021">2021. 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gräff, D., Köpfli, M., Lipovsky, B. P., Selvadurai, P. A., Farinotti, D., &amp; Walter, F. (2021). Fine structure of microseismic glacial stick-slip. Geophysical Research Letters, 48(22), e2021GL096043. https://doi.org/10.1029/2021gl096043</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">JoTrab/analytic_rupture_radiation: Release Review round 1</title>
+<author>
+<persname><surname>Jotrab</surname></persname>
+</author>
+<idno type="DOI">10.5281/zenodo.7092715</idno>
+<ptr target="https://doi.org/10.5281/zenodo.7092715"></ptr>
+</analytic>
+<monogr>
+<title level="j">Zenodo</title>
+<imprint>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">JoTrab. (2022). JoTrab/analytic_rupture_radiation: Release Review round 1 (v). Zenodo. https://doi.org/10.5281/zenodo.7092715</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Non-double-couple earthquakes 1</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">R</forename><surname>Julian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">R</forename><surname>Foulger</surname></persname>
+</author>
+<idno type="DOI">10.1029/98rg00716</idno>
+<ptr target="https://doi.org/10.1029/98rg00716"></ptr>
+</analytic>
+<monogr>
+<title level="j">Theory. Reviews of Geophysics</title>
+<imprint>
+<biblscope unit="volume">36</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="525" to="549" unit="page"></biblscope>
+<date type="published" when="1998">1998</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Julian, B. R., Miller, A. D., &amp; Foulger, G. R. (1998). Non-double-couple earthquakes 1. Theory. Reviews of Geophysics, 36(4), 525-549. https:// doi.org/10.1029/98rg00716</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Analysis of long-period seismic waves excited by the May 18, 1980, eruption of Mount St. Helens-A terrestrial monopole</title>
+<author>
+<persname><forename type="first">H</forename><surname>Kanamori</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Given</surname></persname>
+</author>
+<idno type="DOI">10.1029/jb087ib07p05422</idno>
+<ptr target="https://doi.org/10.1029/jb087ib07p05422"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research</title>
+<imprint>
+<biblscope unit="volume">87</biblscope>
+<biblscope unit="issue">7</biblscope>
+<biblscope from="5422" to="5432" unit="page"></biblscope>
+<date type="published" when="1982">1982</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kanamori, H., &amp; Given, J. W. (1982). Analysis of long-period seismic waves excited by the May 18, 1980, eruption of Mount St. Helens-A terrestrial monopole? Journal of Geophysical Research, 87(B7), 5422-5432. https://doi.org/10.1029/jb087ib07p05422</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">A review of laboratory and numerical modelling in volcanology</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">L</forename><surname>Kavanagh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">L</forename><surname>Engwell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">A</forename><surname>Martin</surname></persname>
+</author>
+<idno type="DOI">10.5194/se-9-531-2018</idno>
+<ptr target="https://doi.org/10.5194/se-9-531-2018"></ptr>
+</analytic>
+<monogr>
+<title level="j">Solid Earth</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="531" to="571" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kavanagh, J. L., Engwell, S. L., &amp; Martin, S. A. (2018). A review of laboratory and numerical modelling in volcanology. Solid Earth, 9(2), 531-571. https://doi.org/10.5194/se-9-531-2018</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">Assessment of P and S wave energy radiated from very small shear-tensile seismic events in a Deep South African mine</title>
+<author>
+<persname><forename type="first">G</forename><surname>Kwiatek</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Ben-Zion</surname></persname>
+</author>
+<idno type="DOI">10.1002/jgrb.50274</idno>
+<ptr target="https://doi.org/10.1002/jgrb.50274"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Solid Earth</title>
+<imprint>
+<biblscope unit="volume">118</biblscope>
+<biblscope unit="issue">7</biblscope>
+<biblscope from="3630" to="3641" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kwiatek, G., &amp; Ben-Zion, Y. (2013). Assessment of P and S wave energy radiated from very small shear-tensile seismic events in a Deep South African mine. Journal of Geophysical Research: Solid Earth, 118(7), 3630-3641. https://doi.org/10.1002/jgrb.50274</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Source parameters of picoseismicity recorded at Mponeng deep gold mine, South Africa: Implications for scaling relations</title>
+<author>
+<persname><forename type="first">G</forename><surname>Kwiatek</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Plenkers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Dresen</surname></persname>
+</author>
+<author>
+<persname><surname>Jaguars Research</surname></persname>
+</author>
+<author>
+<persname><surname>Group</surname></persname>
+</author>
+<idno type="DOI">10.1785/0120110094</idno>
+<ptr target="https://doi.org/10.1785/0120110094"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bulletin of the Seismological Society of America</title>
+<imprint>
+<biblscope unit="volume">101</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="2592" to="2608" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kwiatek, G., Plenkers, K., Dresen, G., &amp; JAGUARS Research Group. (2011). Source parameters of picoseismicity recorded at Mponeng deep gold mine, South Africa: Implications for scaling relations. Bulletin of the Seismological Society of America, 101(6), 2592-2608. https://doi. org/10.1785/0120110094</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">Ultrafast ultrasonic imaging of dynamic sliding friction in soft solids: The slow slip and the super-shear regimes</title>
+<author>
+<persname><forename type="first">S</forename><surname>Latour</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Gallot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Catheline</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Voisin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Renard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Larose</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Campillo</surname></persname>
+</author>
+<idno type="DOI">10.1209/0295-5075/96/59003</idno>
+<ptr target="https://doi.org/10.1209/0295-5075/96/59003"></ptr>
+</analytic>
+<monogr>
+<title level="j">Europhysics Letters)</title>
+<imprint>
+<biblscope unit="volume">96</biblscope>
+<biblscope unit="page">59003</biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note>EPL</note>
+<note type="raw_reference">Latour, S., Gallot, T., Catheline, S., Voisin, C., Renard, F., Larose, E., &amp; Campillo, M. (2011). Ultrafast ultrasonic imaging of dynamic sliding friction in soft solids: The slow slip and the super-shear regimes. EPL (Europhysics Letters), 96, 59003. https://doi.org/10.1209/0295-5075/96/59003</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Effect of fault heterogeneity on rupture dynamics: An experimental approach using ultrafast ultrasonic imaging</title>
+<author>
+<persname><forename type="first">S</forename><surname>Latour</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Voisin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Renard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Larose</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Catheline</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Campillo</surname></persname>
+</author>
+<idno type="DOI">10.1002/2013jb010231</idno>
+<ptr target="https://doi.org/10.1002/2013jb010231"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Solid Earth</title>
+<imprint>
+<biblscope unit="volume">118</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope from="5888" to="5902" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Latour, S., Voisin, C., Renard, F., Larose, E., Catheline, S., &amp; Campillo, M. (2013). Effect of fault heterogeneity on rupture dynamics: An experimental approach using ultrafast ultrasonic imaging. Journal of Geophysical Research: Solid Earth, 118(11), 5888-5902. https://doi. org/10.1002/2013jb010231</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Properties of the near-field term and its effect on polarisation analysis and source locations of long-period (LP) and very-long-period (VLP) seismic events at volcanoes</title>
+<author>
+<persname><forename type="first">I</forename><surname>Lokmer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Bean</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.jvolgeores.2010.02.008</idno>
+<ptr target="https://doi.org/10.1016/j.jvolgeores.2010.02.008"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Volcanology and Geothermal Research</title>
+<imprint>
+<biblscope unit="volume">192</biblscope>
+<biblscope unit="issue">1-2</biblscope>
+<biblscope from="35" to="47" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lokmer, I., &amp; Bean, C. J. (2010). Properties of the near-field term and its effect on polarisation analysis and source locations of long-period (LP) and very-long-period (VLP) seismic events at volcanoes. Journal of Volcanology and Geothermal Research, 192(1-2), 35-47. https://doi. org/10.1016/j.jvolgeores.2010.02.008</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Dynamic sliding of frictionally held bimaterial interfaces subjected to impact shear loading</title>
+<author>
+<persname><forename type="first">G</forename><surname>Lykotrafitis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Rosakis</surname></persname>
+</author>
+<idno type="DOI">10.1098/rspa.2006.1703</idno>
+<idno>.0.1718557</idno>
+<ptr target="https://doi.org/10.1098/rspa.2006.1703MATLAB.(2020).9.9"></ptr>
+</analytic>
+<monogr>
+<title level="j">Proceedings of the Royal Society A: Mathematical, Physical &amp; Engineering Sciences</title>
+<imprint>
+<biblscope unit="volume">462</biblscope>
+<biblscope from="2997" to="3026" unit="page"></biblscope>
+<date type="published" when="2006">2006. 2074. R2020b</date>
+<publisher>The MathWorks Inc</publisher>
+</imprint>
+</monogr>
+<note type="raw_reference">Lykotrafitis, G., &amp; Rosakis, A. J. (2006). Dynamic sliding of frictionally held bimaterial interfaces subjected to impact shear loading. Proceed- ings of the Royal Society A: Mathematical, Physical &amp; Engineering Sciences, 462(2074), 2997-3026. https://doi.org/10.1098/rspa.2006.1703 MATLAB. (2020). 9.9.0.1718557 (R2020b). The MathWorks Inc.</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Rapid tracking of small displacements with ultrasound</title>
+<author>
+<persname><forename type="first">G</forename><surname>Pinton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Dahl</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Trahey</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">IEEE ultrasonics symposium</title>
+<imprint>
+<publisher>IEEE</publisher>
+<date type="published" when="2005">2005</date>
+<biblscope unit="volume">4</biblscope>
+<biblscope from="2062" to="2065" unit="page"></biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">Pinton, G., Dahl, J., &amp; Trahey, G. (2005). Rapid tracking of small displacements with ultrasound. In IEEE ultrasonics symposium (Vol. 4, pp. 2062-2065). IEEE.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">The body force equivalent to an earthquake: A tutorial</title>
+<author>
+<persname><forename type="first">J</forename><surname>Pujol</surname></persname>
+</author>
+<idno type="DOI">10.1785/gssrl.74.2.163</idno>
+<ptr target="https://doi.org/10.1785/gssrl.74.2.163"></ptr>
+</analytic>
+<monogr>
+<title level="j">Seismological Research Letters</title>
+<imprint>
+<biblscope unit="volume">74</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="163" to="168" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pujol, J. (2003). The body force equivalent to an earthquake: A tutorial. Seismological Research Letters, 74(2), 163-168. https://doi.org/10.1785/ gssrl.74.2.163</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">The California earthquake of April 18, 1906, report of the state earthquake investigation commission, the mechanism of the earthquake</title>
+<author>
+<persname><forename type="first">H</forename><surname>Reid</surname></persname>
+</author>
+<idno type="DOI">10.1038/084165a0</idno>
+<ptr target="https://doi.org/10.1038/084165a0"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="165" to="166" unit="page"></biblscope>
+<date type="published" when="1910">1910. 2128</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Reid, H. (1910). The California earthquake of April 18, 1906, report of the state earthquake investigation commission, the mechanism of the earthquake. Nature, 2(2128), 165-166. https://doi.org/10.1038/084165a0</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Cracks faster than the shear wave speed</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Rosakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Coker</surname></persname>
+</author>
+<idno type="DOI">10.1126/science.284.5418.1337</idno>
+<ptr target="https://doi.org/10.1126/science.284.5418.1337"></ptr>
+</analytic>
+<monogr>
+<title level="j">Science</title>
+<imprint>
+<biblscope unit="volume">284</biblscope>
+<biblscope from="1337" to="1340" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rosakis, A. J., &amp; Coker, D. (1999). Cracks faster than the shear wave speed. Science, 284, 1337-1340. https://doi.org/10.1126/science.284.5418.1337</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Intermittent lab earthquakes in dynamically weakening fault gouge</title>
+<author>
+<persname><forename type="first">V</forename><surname>Rubino</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Lapusta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Rosakis</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41586-022-04749-3</idno>
+<ptr target="https://doi.org/10.1038/s41586-022-04749-3"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope from="922" to="929" unit="page"></biblscope>
+<date type="published" when="2022">2022. 7916</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rubino, V., Lapusta, N., &amp; Rosakis, A. J. (2022). Intermittent lab earthquakes in dynamically weakening fault gouge. Nature, 1-8(7916), 922-929. https://doi.org/10.1038/s41586-022-04749-3</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Spatiotemporal properties of sub-Rayleigh and supershear ruptures inferred from full-field dynamic imaging of laboratory experiments</title>
+<author>
+<persname><forename type="first">V</forename><surname>Rubino</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Rosakis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Lapusta</surname></persname>
+</author>
+<idno type="DOI">10.1029/2019JB018922</idno>
+<ptr target="https://doi.org/10.1029/2019JB018922"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research: Solid Earth</title>
+<imprint>
+<biblscope unit="volume">125</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="1" to="25" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rubino, V., Rosakis, A. J., &amp; Lapusta, N. (2020). Spatiotemporal properties of sub-Rayleigh and supershear ruptures inferred from full-field dynamic imaging of laboratory experiments. Journal of Geophysical Research: Solid Earth, 125(2), 1-25. https://doi.org/10.1029/2019JB018922</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">The structure of slip-pulses and supershear ruptures driving slip in bimaterial friction</title>
+<author>
+<persname><forename type="first">H</forename><surname>Shlomai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Fineberg</surname></persname>
+</author>
+<idno type="DOI">10.1038/ncomms11787</idno>
+<ptr target="https://doi.org/10.1038/ncomms11787"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature Communications</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope from="1" to="7" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Shlomai, H., &amp; Fineberg, J. (2016). The structure of slip-pulses and supershear ruptures driving slip in bimaterial friction. Nature Communica- tions, 7, 1-7. https://doi.org/10.1038/ncomms11787</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Transition from sub-Rayleigh anticrack to supershear crack propagation in snow avalanches</title>
+<author>
+<persname><forename type="first">B</forename><surname>Trottet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Simenhois</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Bobillier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Bergfeld</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Van Herwijnen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Jiang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Gaume</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41567-022-01662-4</idno>
+<ptr target="https://doi.org/10.1038/s41567-022-01662-4"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature Physics</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="1094" to="1098" unit="page"></biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Trottet, B., Simenhois, R., Bobillier, G., Bergfeld, B., van Herwijnen, A., Jiang, C., &amp; Gaume, J. (2022). Transition from sub-Rayleigh anticrack to supershear crack propagation in snow avalanches. Nature Physics, 1-5(9), 1094-1098. https://doi.org/10.1038/s41567-022-01662-4</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Stick-slip tremor beneath an alpine glacier</title>
+<author>
+<persname><forename type="first">J</forename><surname>Umlauft</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Lindner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Roux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">D</forename><surname>Mikesell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">M</forename><surname>Haney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Korn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">T</forename><surname>Walter</surname></persname>
+</author>
+<idno type="DOI">10.1029/2020gl090528</idno>
+<ptr target="https://doi.org/10.1029/2020gl090528"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophysical Research Letters</title>
+<imprint>
+<biblscope unit="volume">48</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope unit="page">90528</biblscope>
+<date type="published" when="2020">2021. 2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Umlauft, J., Lindner, F., Roux, P., Mikesell, T. D., Haney, M. M., Korn, M., &amp; Walter, F. T. (2021). Stick-slip tremor beneath an alpine glacier. Geophysical Research Letters, 48(2), e2020GL090528. https://doi.org/10.1029/2020gl090528</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Rheology of pig skin gelatine: Defining the elastic domain and its thermal and mechanical properties for geological analogue experiment applications</title>
+<author>
+<persname><forename type="first">J</forename><surname>Van Otterloo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R</forename><surname>Cruden</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.tecto.2016.06.019</idno>
+<ptr target="https://doi.org/10.1016/j.tecto.2016.06.019"></ptr>
+</analytic>
+<monogr>
+<title level="j">Tectonophysics</title>
+<imprint>
+<biblscope unit="volume">683</biblscope>
+<biblscope from="86" to="97" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">van Otterloo, J., &amp; Cruden, A. R. (2016). Rheology of pig skin gelatine: Defining the elastic domain and its thermal and mechanical properties for geological analogue experiment applications. Tectonophysics, 683, 86-97. https://doi.org/10.1016/j.tecto.2016.06.019 References From the Supporting Information</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Wrinkle-like slip pulse on a fault between different materials</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Andrews</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Ben-Zion</surname></persname>
+</author>
+<idno type="DOI">10.1029/96JB02856</idno>
+<ptr target="https://doi.org/10.1029/96JB02856"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Geophysical Research</title>
+<imprint>
+<biblscope unit="volume">102</biblscope>
+<biblscope unit="issue">B1</biblscope>
+<biblscope from="553" to="571" unit="page"></biblscope>
+<date type="published" when="1997">1997</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Andrews, D. J., &amp; Ben-Zion, Y. (1997). Wrinkle-like slip pulse on a fault between different materials. Journal of Geophysical Research, 102(B1), 553-571. https://doi.org/10.1029/96JB02856</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Time-resolved pulsed elastography with ultrafast ultrasonic imaging</title>
+<author>
+<persname><forename type="first">L</forename><surname>Sandrin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Catheline</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Tanter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Hennequin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Fink</surname></persname>
+</author>
+<idno type="DOI">10.1177/016173469902100402</idno>
+<ptr target="https://doi.org/10.1177/016173469902100402"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ultrasonic Imaging</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="259" to="272" unit="page"></biblscope>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sandrin, L., Catheline, S., Tanter, M., Hennequin, X., &amp; Fink, M. (1999). Time-resolved pulsed elastography with ultrafast ultrasonic imaging. Ultrasonic Imaging, 21(4), 259-272. https://doi.org/10.1177/016173469902100402</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

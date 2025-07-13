@@ -1,0 +1,1755 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">H-wave -A Python package for the Hartree-Fock approximation and the random phase approximation</title>
+<funder ref="#_MvcKD23">
+<orgname type="full">State Physics, The University of Tokyo</orgname>
+</funder>
+<funder ref="#_AjhAFqb #_F8ZCg9A">
+<orgname type="full">JSPS KAK-ENHI</orgname>
+</funder>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2024-01-20">20 Jan 2024</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Tatsumi</forename><surname>Aoyama</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Institute for Solid State Physics, University of Tokyo, Chiba 277-8581, Japan</note>
+<orgname type="department">Institute for Solid State Physics</orgname>
+<orgname type="institution">University of Tokyo</orgname>
+<address>
+<postcode>277-8581</postcode>
+<settlement>Chiba</settlement>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author role="corresp">
+<persname><forename type="first">Kazuyoshi</forename><surname>Yoshimi</surname></persname>
+<email>k-yoshimi@issp.u-tokyo.ac.jp</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Institute for Solid State Physics, University of Tokyo, Chiba 277-8581, Japan</note>
+<orgname type="department">Institute for Solid State Physics</orgname>
+<orgname type="institution">University of Tokyo</orgname>
+<address>
+<postcode>277-8581</postcode>
+<settlement>Chiba</settlement>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Kota</forename><surname>Ido</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Institute for Solid State Physics, University of Tokyo, Chiba 277-8581, Japan</note>
+<orgname type="department">Institute for Solid State Physics</orgname>
+<orgname type="institution">University of Tokyo</orgname>
+<address>
+<postcode>277-8581</postcode>
+<settlement>Chiba</settlement>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Yuichi</forename><surname>Motoyama</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Institute for Solid State Physics, University of Tokyo, Chiba 277-8581, Japan</note>
+<orgname type="department">Institute for Solid State Physics</orgname>
+<orgname type="institution">University of Tokyo</orgname>
+<address>
+<postcode>277-8581</postcode>
+<settlement>Chiba</settlement>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Taiki</forename><surname>Kawamura</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Department of Physics, Nagoya University, Nagoya 464-8602, Japan</note>
+<orgname type="department">Department of Physics</orgname>
+<orgname type="institution">Nagoya University</orgname>
+<address>
+<postcode>464-8602</postcode>
+<settlement>Nagoya</settlement>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Takahiro</forename><surname>Misawa</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Institute for Solid State Physics, University of Tokyo, Chiba 277-8581, Japan</note>
+<orgname type="department">Institute for Solid State Physics</orgname>
+<orgname type="institution">University of Tokyo</orgname>
+<address>
+<postcode>277-8581</postcode>
+<settlement>Chiba</settlement>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Takeo</forename><surname>Kato</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Institute for Solid State Physics, University of Tokyo, Chiba 277-8581, Japan</note>
+<orgname type="department">Institute for Solid State Physics</orgname>
+<orgname type="institution">University of Tokyo</orgname>
+<address>
+<postcode>277-8581</postcode>
+<settlement>Chiba</settlement>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Akito</forename><surname>Kobayashi</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Department of Physics, Nagoya University, Nagoya 464-8602, Japan</note>
+<orgname type="department">Department of Physics</orgname>
+<orgname type="institution">Nagoya University</orgname>
+<address>
+<postcode>464-8602</postcode>
+<settlement>Nagoya</settlement>
+<country key="JP">Japan</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">H-wave -A Python package for the Hartree-Fock approximation and the random phase approximation</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2024-01-20">20 Jan 2024</date>
+</imprint>
+</monogr>
+<idno type="MD5">A55BE8216DD0F7805133F7847CE77175</idno>
+<idno type="arXiv">arXiv:2308.00324v2[cond-mat.str-el]</idno>
+<note type="submission">Preprint submitted to Computer Physics Communications January 23, 2024</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.8.0" when="2024-03-31T01:36+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>Quantum lattice models</term>
+<term>Mean field approximation</term>
+<term>Random phase approximation</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>H-wave is an open-source software package for performing the Hartree-Fock approximation (HFA) and random phase approximation (RPA) for a wide range of Hamiltonians of interacting fermionic systems.</s><s>In HFA calculations, H-wave examines the stability of several symmetry-broken phases, such as anti-ferromagnetic and charge-ordered phases, in the given Hamiltonians at zero and finite temperatures.</s><s>Furthermore, H-wave calculates the dynamical susceptibilities using RPA to examine the instability toward the symmetry-broken phases.</s><s>By preparing a simple input file for specifying the Hamiltonians, users can perform HFA and RPA for standard Hamiltonians in condensed matter physics, such as the Hubbard model and its extensions.</s><s>Additionally, users can use a Wannier90-like format to specify fermionic Hamiltonians.</s><s>A Wannier90 format is implemented in RESPACK to derive ab initio Hamiltonians for solids.</s><s>HFA and RPA for the ab initio Hamiltonians can be easily performed using H-wave.</s><s>In this paper, we first explain the basis of HFA and RPA, and the basic usage of H-wave, including download and installation.</s><s>Thereafter, the input file formats implemented in H-wave, including the Wannier90-like format for specifying the interacting fermionic Hamiltonians, are discussed.</s><s>Finally, we present several examples of H-wave such as zero-temperature HFA calculations for the extended Hubbard model on a square lattice, finite-temperature HFA calculations for the Hubbard model on a cubic lattice, and RPA in the extended Hubbard model on a square lattice.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">PROGRAM SUMMARY<p><s>Program Title: H-wave CPC Library link to program files: Developer's repository link: https://github.com/</s><s>issp-center-dev/H-wave Code Ocean capsule: Licensing provisions: GNU General Public License version 3 Programming language: Python3 External routines/libraries: NumPy, SciPy, Tomli, Requests.</s><s>Nature of problem: Physical properties of strongly correlated electrons are examined such as ground state phase structure and response functions at zero and</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Clarifying how electron correlations in solids induce several symmetry-broken phases has long been a crucial issue in the field of condensed matter physics <ref target="#b0" type="bibr">[1,</ref><ref target="#b1" type="bibr">2]</ref>.</s><s>Although deriving tight-binding models from ab initio calculations is now a standard daily procedure <ref target="#b2" type="bibr">[3]</ref><ref target="#b3" type="bibr">[4]</ref><ref target="#b4" type="bibr">[5]</ref>, solving the obtained effective models by considering the effects of Coulomb interactions remains as a non-trivial problem.</s><s>To solve effective models numerically, various numerical algorithms such as the exact diagonalization <ref target="#b5" type="bibr">[6]</ref>, quantum Monte Carlo <ref target="#b6" type="bibr">[7]</ref>, and tensor network <ref target="#b7" type="bibr">[8]</ref><ref target="#b8" type="bibr">[9]</ref><ref target="#b9" type="bibr">[10]</ref> methods have been developed to date <ref target="#b10" type="bibr">[11,</ref><ref target="#b11" type="bibr">12]</ref>.</s><s>However, these algorithms frequently incur high computational cost because they consume a significant amount of memory or execution time.</s></p><p><s>Numerical algorithms based on the Hartree-Fock approximation (HFA) have long been used in condensed matter physics <ref target="#b12" type="bibr">[13,</ref><ref target="#b13" type="bibr">14]</ref>.</s><s>Unrestricted HFA (UHFA), which is a simple and fundamental method for treating electronic states in molecules and solids, is used to examine the stability of ordered phases.</s><s>For example, the HFA has been used for analyzing the ordered phases in the Hubbard model <ref target="#b14" type="bibr">[15,</ref><ref target="#b15" type="bibr">16]</ref>, spin and orbital orderings in 3d transition-metal oxides <ref target="#b16" type="bibr">[17]</ref>, and the spin and charge ordered phases in organic compounds <ref target="#b17" type="bibr">[18]</ref>.</s><s>Similarly, random phase approximation (RPA), which is an algorithm for calculating response functions consistent with the UHFA <ref target="#b12" type="bibr">[13,</ref><ref target="#b18" type="bibr">19,</ref><ref target="#b19" type="bibr">20]</ref>, is used for detecting instability toward ordered phases through the divergence of susceptibility.</s><s>In comparison with other sophisticated algorithms, the main advantage of the UHFA and the RPA is low numerical cost.</s><s>Therefore, they are suitable for clarifying general trends in ordered phases in correlated electron systems.</s></p><p><s>Program codes for UHFA and RPA have been implemented and maintained by researchers for specific lattice models.</s><s>To our knowledge, there are no widely used packages for UHFA and RPA, except for a supplementary RPA package included in triqs <ref target="#b20" type="bibr">[21,</ref><ref target="#b21" type="bibr">22]</ref> and the supplementary real-space UHF package included in mVMC <ref type="bibr">[23]</ref>.</s><s>Recently, HF and RPA analyses combined with first-principles calculations have become popular in treating real materials.</s><s>When handling such complex models derived from the first-principles calculations, it will take much time to modify existing packages or to newly implement programs.</s><s>For an easy application of the UHFA and RPA to such complex models, the development of a software package that treats various effective models of solids in a simple format is desirable.</s><s>Recently, H-wave was released as an opensource Python package with a simple and flexible user interface <ref target="#b22" type="bibr">[24]</ref>.</s><s>Using H-wave, users can perform calculations by applying UHFA and RPA to widely studied quantum lattice models by preparing only one input file with less than ten lines.</s><s>H-wave can treat the Wannier90-like format and has interfaces for smooth connection with mVMC [23] and HΦ [25], which are program packages for more accurate calculation taking into account electron correlations.</s></p><p><s>In this paper, we introduce H-wave version 1.0.0.</s><s>The remainder of this paper is organized as follows.</s><s>Models that can be treated using H-wave are explained in Sec.</s><s>2.1.</s><s>The basis of the UHFA and RPA is discussed in Secs.</s><s>2.2 and 2.3, respectively.</s><s>In Sec. 3, the basic usage of H-wave, for example, downloading, installing, and running operations, is explained.</s><s>The formats of the input files, including the Wannier90-like format for specifying the Hamiltonians, are elaborated.</s><s>Three applications of H-wave are demonstrated in Sec. 4, such as the ground-state UHFA calculations of the extended Hubbard model on a square lattice, finitetemperature UHFA calculations of the Hubbard model on a cubic lattice, and RPA calculations of the extended Hubbard model on a square lattice.</s><s>Section 5 presents a summary of the study.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Model and Algorithm</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Model<p><s>In H-wave, the following extended Hubbard model can be treated:</s></p><formula xml:id="formula_0">H = H 0 + H int ,<label>(1)</label></formula><formula xml:id="formula_1">H 0 = ⟨iα;jβ⟩ t αβ ij c † iα c jβ + H.c. ,<label>(2)</label></formula><formula xml:id="formula_2">H Int = i,j,k,l α,α ′ ,β,β ′ I αα ′ ββ ′ ijkl c † iα c jα ′ c † kβ c lβ ′ , (<label>3</label></formula><formula xml:id="formula_3">)</formula><p><s>where i, j, k, and l (∈ 0, • • • , N site -1) denote the lattice points with N site being the number of lattice sites, and α, α ′ , β, and β ′ specify the general orbitals including the orbitals and spins in a unit cell.</s><s>c † iα (c iα ) is the creation (annihilation) operator for an electron with a general orbital α at the ith site.</s><s>⟨iα; jβ⟩ and t αβ ij represent the bond pair and the hopping integral between sites (i, α) and (j, β), respectively.</s><s>H Int is a general two-body Hamiltonian and the two-body interaction satisfies</s></p><formula xml:id="formula_4">I αα ′ ββ ′ ijkl = I β ′ βα ′ α lkji *</formula><p><s>for satisfying the Hermiticity.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Unrestricted Hartree-Fock approximation<p><s>In the unrestricted Hartree-Fock approximation (UHFA), we can decouple the general two-body in-teractions as</s></p><formula xml:id="formula_5">c † I c J c † K c L = -c † I c † K c J c L + c † I c L δ J,K ∼ -⟨c † I c L ⟩c † K c J -c † I c L ⟨c † K c J ⟩ + ⟨c † I c J ⟩c † K c L + c † I c J ⟨c † K c L ⟩ + ⟨c † I c L ⟩⟨c † K c J ⟩ -⟨c † I c J ⟩⟨c † K c L ⟩ + c † I c L δ J,K , (<label>4</label></formula><formula xml:id="formula_6">)</formula><p><s>where we adopt I ≡ (i, α), J ≡ (j, α ′ ), K ≡ (k, β ′ ), and L ≡ (l, β) as notations for brevity, and the Kronecker's delta is denoted as δ J,K .</s><s>Using the UHFA, the Hamiltonian is generally denoted as</s></p><formula xml:id="formula_7">H UHFA = I,J c † I H IJ c J = c † Hc,<label>(5)</label></formula><p><s>where H denotes a matrix with elements represented as H IJ , and c (c † ) represents a column (row) vector with elements denoted as c I (c † I ).</s><s>Since H is an Hermite matrix, the Hamiltonian can be diagonalized by the unitary matrix U as</s></p><formula xml:id="formula_8">H UHFA = U ΛU † , Λ = diag(λ 0 , λ 1 , . . . ) (6)</formula><p><s>where λ n represents the nth eigenvalue of H.</s><s>By defining d = U † c, H UHFA can be rewritten as</s></p><formula xml:id="formula_9">H UHFA = d † Λd = n λ n d † n d n . (<label>7</label></formula><formula xml:id="formula_10">)</formula><p><s>Thus, the free energy from the UHFA can be expressed as</s></p><formula xml:id="formula_11">F = µN e - 1 β n ln [1 + exp(-β(λ n -µ))] + I,J,K,L I IJKL ⟨c † I c L ⟩⟨c † K c J ⟩-⟨c † I c J ⟩⟨c † K c L ⟩ ,<label>(8)</label></formula><p><s>where β denotes the inverse temperature, N e is the total number of particles, and µ represents the chemical potential.</s></p><p><s>In the UHFA calculations, we start from the initial one-body Green's functions, which are then updated as</s></p><formula xml:id="formula_12">⟨c † I c J ⟩ = n U * In U Jn ⟨d † n d n ⟩ = n U * In U Jn 1 + e β(λn-µ) . (<label>9</label></formula><formula xml:id="formula_13">)</formula><p><s>In the canonical calculation in which the number of particles is fixed to N e , µ is determined to satisfy the relation N e = I ⟨c † I c I ⟩ at every step.</s><s>In Hwave, the simple-mixing algorithm is employed to update the one-body Green's functions, which are defined as</s></p><formula xml:id="formula_14">⟨c † I c J ⟩ (n+1) ← (1-α mix ) ⟨c † I c J ⟩ (n) +α mix ⟨c † I c J ⟩ (n+1) , (<label>10</label></formula><formula xml:id="formula_15">)</formula><p><s>where ⟨c † I c J ⟩ (n) represents the Green's functions at the nth step and α mix denotes a parameter between 0 and 1.</s><s>The iterations are repeated until the convergence condition is satisfied in which the residue R becomes smaller than a given criterion ε, such that</s></p><formula xml:id="formula_16">R = 1 2N 2 site IJ ⟨c † I c J ⟩ (n+1) -⟨c † I c J ⟩ (n) 2 &lt; ε. (<label>11</label></formula><formula xml:id="formula_17">)</formula><p><s>The calculation is unsuccessful or fails if the convergence condition is not met within a specified number of iterations.</s><s>In Fig. <ref target="#fig_0" type="figure">1</ref>, a schematic flow of the calculation of the UHFA calculation is shown for convenience.</s></p><p><s>At the 1st step, Set initial one-body Green's functions.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Hartree-Fock approximation in the momentum space<p><s>When a two-body Hamiltonian satisfies the translational symmetry, we can efficiently perform the HFA calculation in the momentum space.</s><s>In the following, the translational-invariant two-body Hamiltonian below is considered instead of Eq. ( <ref target="#formula_2" type="formula">3</ref>)</s></p><formula xml:id="formula_18">H Int ≡ ij α,α ′ ,β,β ′ W αα ′ ββ ′ ij c † iα c iα ′ c † jβ c jβ ′ , (<label>12</label></formula><formula xml:id="formula_19">)</formula><p><s>where a two-body interactions satisfies</s></p><formula xml:id="formula_20">W αα ′ ββ ′ ij = W β ′ βα ′ α ji *</formula><p><s>for the Hermiticity.</s><s>The Fourier transformations of the operator are defined as</s></p><formula xml:id="formula_21">c riα = 1 √ N site k e ik•ri c kα , (<label>13</label></formula><formula xml:id="formula_22">)</formula><formula xml:id="formula_23">c † riα = 1 √ N site k e -ik•ri c † kα , (<label>14</label></formula><formula xml:id="formula_24">)</formula><p><s>where N site denotes the number of the sites and r i is a position vector at the ith site.</s><s>The one-body Hamiltonian in the real space is rewritten as</s></p><formula xml:id="formula_25">h 0 = k,α,β c † kα h αβ (k)c kβ . (<label>15</label></formula><formula xml:id="formula_26">)</formula><p><s>Since the system has a translational symmetry, the coefficients depend only on the translation vectors, r ij = r j -r i and h αβ (k) = j tαβ 0j e -ik•r0j , where tαβ 0j includes t αβ 0j and the decoupled two-body interaction terms.</s><s>As the Hamiltonian is diagonal with respect to the wave number k, the eigenvalue and eigenvector calculations are simplified from the diagonalization of the matrix of the size N site N orbit × N site N orbit to that of N site matrices of the size N orbit × N orbit , where N orbit denotes the number of orbitals, including the spin degrees of freedom.</s><s>Thus, the calculation costs are reduced.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Random Phase Approximation<p><s>The random phase approximation (RPA) is used for calculating the response functions, such as charge/spin susceptibility.</s><s>By examining the temperature dependence of the charge/spin susceptibility, the instability of charge/spin ordered phases can be detected.</s><s>In H-wave, RPA can be implemented in momentum space and users can obtain the dynamical susceptibility χ(q, iν n ), where ν n represents the bosonic Matsubara frequency,</s></p><formula xml:id="formula_27">ν n = 2nπk B T (n = -N ω /2, • • • , N ω /2 -1)</formula><p><s>with the even cutoff integer N ω .</s><s>Here, T is the temperature and k B is the Boltzmann constant, and for simplicity, we set k B = 1 in the following.</s><s>We note that it is necessary to perform the analytical continuation to obtaining the real-frequency dynamical susceptibility χ(q, ω), which can be measured by experiments.</s><s>In this section, we briefly introduce the method for calculating the dynamical susceptibility using the RPA.</s></p><p><s>By applying Fourier transformation to the twobody Hamiltonian H Int defined in Eq. ( <ref target="#formula_18" type="formula">12</ref>), the Hamiltonian can be rewritten as</s></p><formula xml:id="formula_28">H Int = 1 2N site k,k ′ ,q α,α ′ ,β,β ′ W αα ′ ββ ′ q × c † k+q,α c k,α ′ c † k ′ -q,β c k ′ ,β ′ . (<label>16</label></formula><formula xml:id="formula_29">)</formula><p><s>In the RPA, the scattering processes by the interaction are considered on the basis of eigenvectors of the non-interacting Hamiltonian H 0 .</s><s>On this basis, the two-body interaction operator can be approximated as</s></p><formula xml:id="formula_30">c † k+q,α c k,α ′ c † k ′ -q,β c k ′ ,β ′ ∼ γ,γ ′ u * αγ,k+q u α ′ γ,k u * βγ ′ ,k ′ -q u β ′ γ ′ ,k ′ × d † k+q,γ d k,γ d † k ′ -q,γ ′ d k ′ ,γ ′ , (<label>17</label></formula><formula xml:id="formula_31">)</formula><p><s>where c k,α = γ u αγ,k d k,γ , and d k,γ denotes the annihilation operator that diagonalizes H 0 .</s><s>(γ denotes the eigenvalue index.)</s><s>Then, the irreducible one-body Green's function can be expressed as</s></p><formula xml:id="formula_32">G (0)αβ γ (k, iω n ) = u αγ (k)u * βγ (k) iω n -ξ γ (k) + µ , (<label>18</label></formula><formula xml:id="formula_33">)</formula><p><s>where ω n represents the fermionic Matsubara frequency ω n = (2n + 1)πT .</s><s>Generally, the irreducible susceptibility in non-interacting systems can be expressed as</s></p><formula xml:id="formula_34">χ (0)αα ′ ,β ′ β (q, iν n ) = - T N site N orbit γ=1 k,m G (0)αβ γ (k + q, iω m + iν n ) × G (0)β ′ α ′ γ (k, iω m ). (<label>19</label></formula><formula xml:id="formula_35">)</formula><p><s>By using the irreducible susceptibility, the dynamical susceptibility from the RPA, χ αα ′ ,β ′ β (q, iν n ), can be obtained as</s></p><formula xml:id="formula_36">χ αα ′ ,β ′ β (q) = χ (0)αα ′ ,β ′ β (q) - α ′ 1 β ′ 1 χ (0)αα ′ ,β ′ 1 β1 (q) W α1α ′ 1 β ′ 1 β1 q χ α1α ′ 1 ,β ′ β (q),<label>(20)</label></formula><p><s>where we define q ≡ (q, iν n ) for simplicity.</s><s>Here, the index α includes the orbital and spin degrees of freedom.</s><s>By combining indices into one index, for example, a = α × α ′ , Eq. ( <ref target="#formula_36" type="formula">20</ref>) can be rewritten in a matrix form as</s></p><formula xml:id="formula_37">χ(q) = χ (0) (q) -χ (0) (q)W (q)χ(q) = I + χ (0) (q)W (q) -1 χ (0) (q),<label>(21)</label></formula><p><s>where I denotes the identity matrix.</s><s>Here, for describing the equation in matrix notation, we define the two-body interaction [W (q)] ab ≡ W ba q .</s><s>The dimensions of the susceptibilities χ (0)αα ′ β ′ β (q, iν n ) and χ αα ′ ,β ′ β (q, iν n ) are given by N 4  orbit N site N ω .</s><s>The size of the multidimensional array of susceptibilities can be reduced by separating orbitals and spins.</s><s>When the spin-orbital coupling does not exist and H does not include terms that mix spin and orbital, the orbital and spin Hilbert spaces become independent.</s><s>In this case, the two-body interaction can be rewritten as</s></p><formula xml:id="formula_38">W α σσ ′ β σ 1 σ ′ 1 q c † k+q,ασ c k,ασ ′ c † k ′ -q,βσ1 c k ′ ,βσ ′ 1 ,<label>(22)</label></formula><p><s>where α σσ ′ ≡ ασασ ′ and β σ1σ ′ 1 ≡ βσ 1 βσ ′ 1 .</s><s>Since the scattering processes occur only on the same diagonalized general orbitals, the irreducible susceptibility can be expressed as</s></p><formula xml:id="formula_39">χ (0)α,β σσ ′ σ ′ 1 σ1 (q, iν n ) = - T N site N orb γ=1 k,m G (0)αβ σσ ′ 1 ,γ (k + q, iω m + iν n ) × G (0)βα σ1σ ′ ,γ (k, iω m ). (23)</formula><p><s>Here, the array size can be reduced to N 2 orb N 4 spin N site N ω where N orb and N spin denote the number of the orbital and spin degrees of freedom, respectively.</s><s>Then, the susceptibility can be obtained as</s></p><formula xml:id="formula_40">χ α,β σσ ′ σ ′ 1 σ1 (q) = χ (0)α,β σ σ ′ σ ′ 1 σ 1 (q) - α 2 α 3 σ 2 ,σ ′ 2 σ 3 ,σ ′ 3 χ (0)α,α2 σσ ′ σ ′ 2 σ2 (q) × W α3 σ 3 σ ′ 3 α2 σ ′ 2 σ 2 q χ α3,β σ 3 σ ′ 3 ,σ ′ 1 σ 1 (q). (<label>24</label></formula><formula xml:id="formula_41">)</formula><p><s>Like as deriving Eq. ( <ref target="#formula_36" type="formula">20</ref>), if α σσ ′ is represented as a single index, it can be inserted into a matrix form, and for generalized orbitals it can be denoted as</s></p><formula xml:id="formula_42">χ(q) = χ (0) (q) -χ (0) (q)W (q)χ(q) = I + χ (0) (q)W (q) -1 χ (0) (q). (<label>25</label></formula><formula xml:id="formula_43">)</formula><p><s>In the above formula, it is necessary to store G (0)βα σ1σ ′ ,γ (k, iω n ) and align the indices of γ for G (0)βα σ1σ ′ ,γ (k, iω n ) before the summation of γ.</s><s>However, these procedures increase the numerical cost.</s><s>To reduce the numerical cost, in previous studies <ref target="#b23" type="bibr">[26]</ref><ref target="#b24" type="bibr">[27]</ref><ref target="#b25" type="bibr">[28]</ref><ref target="#b26" type="bibr">[29]</ref><ref target="#b27" type="bibr">[30]</ref><ref target="#b28" type="bibr">[31]</ref><ref target="#b29" type="bibr">[32]</ref><ref target="#b30" type="bibr">[33]</ref> the one-body Green's function is simply calculated as</s></p><formula xml:id="formula_44">G (0)αβ σσ ′ (k, iω n ) = N orb γ=1 G (0)αβ σσ ′ ,γ (k, iω n ).</formula><p><s>Therefore, the irreducible susceptibility is calculated as</s></p><formula xml:id="formula_45">χ (0)α,β σσ ′ σ1σ ′ 1 (q, iν n ) = - T N site k,m G (0)αβ σσ ′ 1 (k + q, iν n + iω m ) × G (0)βα σ1σ ′ (k, iω m ). (<label>26</label></formula><formula xml:id="formula_46">)</formula><p><s>Since additional terms,</s></p><formula xml:id="formula_47">G (0)αβ σσ ′ 1 ,γ (k + q, iν m + iω n )G (0)βα σ1σ ′ ,γ ′ (k, iω n ) for γ ̸ = γ ′</formula><p><s>are included, it can lead to quantitatively different results.</s><s>Although this treatment is an approximation of the original RPA equations defined in Eq. ( <ref target="#formula_42" type="formula">25</ref>), we adopted this approach.</s><s>We note that when this approximation is applied to orbitals that are clearly independent, a qualitative difference appears because it takes into account the hybridization of orbitals that do not originally exist.</s><s>After performing the block diagonalization, it is expected to closely agree with the exact RPA when only specific modes are essential, such as near the transition point.</s><s>However, quantitative deviations will occur away from the transition point.</s><s>In the next version of the software, a mode for the correct handling of the Green's functions and susceptibilities to examine the accuracy of the approximation method will be implemented.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Usage</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Installing H-wave<p><s>H-wave is implemented in Python3 and requires several external libraries, such as NumPy <ref target="#b31" type="bibr">[34,</ref><ref type="bibr">35]</ref>, SciPy <ref target="#b32" type="bibr">[36,</ref><ref type="bibr">37]</ref>, tomli [38], and requests [39].</s><s>Since H-wave is registered to the Python Package Index (PyPI) repository <ref type="bibr">[40]</ref>, users can install Hwave using the command-line tool pip as $ python3 -m pip install h-wave Additionally, the required libraries are installed.</s></p><p><s>The source code for H-wave is available in the GitHub repository <ref type="bibr">[41]</ref>.</s><s>The users can download the zipped file from the release page, or clone the repository to obtain the latest version.</s><s>After unpacking the zipped source files and changing the current directory to the top of the source tree, users can install H-wave by executing the following command.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">$ python3 -m pip install .<p><s>Subsequently, H-wave and the required libraries are installed, and the executable file hwave is placed in the specified installation path.</s><s>Further details are provided in the installation section of the manual <ref type="bibr">[42]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Using H-wave<p><s>To use H-wave, a toml-format file (e.g., input.toml)</s><s>and input files that specify the parameters in the Hamiltonians have to be prepared.</s><s>Figure <ref target="#fig_4" type="figure">3</ref> shows the schematic flow of the calculations.</s><s>In the toml file, the calculation parameters and the names of the input files for the Hamiltonian are specified.</s><s>For standard models such as the Hubbard model on a square lattice, users can use the StdFace library [44] to generate the input files that specify the Hamiltonians.</s><s>Users can run H-wave by executing the following command.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">$ hwave input.toml<p><s>When the calculations are complete, the results are provided as outputs to the files, which are specified by input.toml.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Input parameter file<p><s>The input parameter file is written in the tomlformat [45] text file.</s><s>In the toml format, the value of a parameter is specified in the form parameter = value, where the value can be a string, number, Boolean value, array, or table (associative array).</s><s>A set of parameters can be classified into a toml table structure and labeled by a name within a square bracket, which we call a section hereafter.</s><s>An example of input.toml is presented below: [mode]-In the mode section, the calculation mode is specified as [mode] mode = "UHFk" As aforementioned, H-wave implements three methods, UHFA in real space (mode="UHFr"), UHFA in wave-number space (mode="UHFk"), and RPA (mode="RPA").</s><s>During the UHFA calculations, decision to include the Fock term can be specified using flag fock.</s><s>In the wave-number space UHFA and RPA calculations, enable spin orbital can be used to allow the hopping integrals that break the total S z conservation.</s><s>If the total S z is conserved, the calculation cost of RPA can be significantly reduced.</s><s>See Sec.</s><s>4.2.2 of the H-wave manual for the index rule of the orbitals and spins when the enable spin orbital is set to true.</s></p><p><s>[mode.param]-In the mode.param</s><s>section, the parameters concerning the calculation conditions can be specified.</s><s>The lattice size (the number of sites) is specified using CellShape (Nsite).</s><s>For the wave-number space UHFA and RPA calculations, a sub-lattice structure can be introduced using SubShape, as depicted in Fig. <ref target="#fig_6" type="figure">4</ref>. The temperature is denoted by T. The number of electrons is specified using Ncond or by filling ratio to the total number of states.</s><s>In the UHFA calculations, the total spin can be specified using 2Sz, or it can be left free.</s></p><p><s>The mean-field approximation is iteratively solved using the convergence criterion given by the EPS parameter.</s><s>For the RPA calculations, the number of Matsubara frequencies is specified using Nmat.</s><s>For sufficiently large Matsubara frequency, the Green's function behaves like 1/iω n .</s><s>The highenergy tail of the Green's functions along the Matsubara frequencies can be improved by subtracting a/iω n , which can be treated analytically.</s><s>The coefficient of the subtraction term a can be specified through coeff tail.</s><s>Basically, the default value a = 1 works well, but for more precise work, it may be better to select a as iω nmax G(iω nmax ).</s></p><p><s>[log]-In the log section, the conditions of calculation logs can be specified.</s><s>print level is used to specify the verbosity of the log outputs.</s><s>In the UHFA calculations, the interval between the residue outputs during the iterations can be set using print step.</s><s>When specified, the residues are written to the files given by print check.</s></p><p><s>[file.input]-In the file.input</s><s>section, the input files can be specified.</s><s>The files that define the Hamiltonians are specified in a separate subsection [file.input.interaction],</s><s>as described in Sec.</s><s>3.2.2.</s><s>In this section, the file name of the initial Green's function can be specified using initial parameter.</s><s>In the RPA calculations, the interaction term approximated using the UHFA can be considered for the initial configuration.</s><s>The coefficient of the modified hopping term H 0 = t αβ ij c † iα c jβ + H.c., where</s></p><formula xml:id="formula_48">t αβ ij = t αβ ij + k,γ,γ ′ W γγ ′ ,αβ ik ⟨c † kγ ′ c kγ ⟩ δ ij , (<label>27</label></formula><formula xml:id="formula_49">)</formula><p><s>can be read from a file specified by trans mod.</s><s>The input file can be generated through a wave-number space UHFA calculation using the rpa output option.</s><s>An option for using the irreducible susceptibility χ (0) (q) specified by chi0q, which is obtained from the former calculation, is available for the calculation of the susceptibility matrix.</s></p><p><s>[file.output]-In the file.output</s><s>section, the output files for the calculation results can be specified.</s><s>The items as output for each calculation mode are described in Sec.</s><s>3.2.3.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Interaction definition files<p><s>H-wave supports a set of interaction definition files that define the Hamiltonian.</s><s>They are specified in the [file.input.interaction]</s><s>section of the parameter file with keywords and associated file names.</s><s>These files consist of geometry information (labeled as Geometry), transfer integral (labeled as Trans for UHFr or Transfer for UHFk and RPA), and two-body interaction terms with names based on the convention adopted in other software for quantum lattice models, HΦ <ref target="#b34" type="bibr">[46,</ref><ref target="#b35" type="bibr">47]</ref> and mVMC <ref target="#b36" type="bibr">[48]</ref>, as listed in Table <ref type="table">1</ref>.</s><s>For the RPA calculations, an external field to the one-body interaction term can be introduced using the keyword Extern.</s><s>The form of the term added to the transfer term T ασ,βσ ′ (r) reads <ref target="#b25" type="bibr">(28)</ref> where B αβ (r) is the external field given in the file specified by Extern keyword, h is the coefficient specified by extern coeff parameter, and σ z is the z-component of the Pauli matrix.</s></p><formula xml:id="formula_50">T ασ,βσ ′ (r) → T ασ,βσ ′ (r) + h(σ z ) σσ ′ B αβ (r),</formula><p><s>The file format of the interaction definition files for the UHFr calculations follows the Expert-mode format of HΦ, which is a text-based format with header lines, followed by content in which the indices i and j and the value of the coefficient, for example, J ij , are listed for the interaction term.</s></p><p><s>Table <ref type="table">1</ref>: Keywords for the interaction types and their descriptions are summarized.</s><s>c † iα↑(↓) and c iα↑(↓) denote the creation and annihilation operators, respectively, of electrons at site i and orbital α with spin-up (spin-down).</s></p><formula xml:id="formula_51">N iα↑(↓) = c † iα↑(↓) c iα↑(↓)</formula><p><s>, and</s></p><formula xml:id="formula_52">N iα = N iα↑ + N iα↓ . S ν iα = 1 2 σ,σ ′ c † iασ σ ν σσ ′ c iασ ′</formula><p><s>where σ k is the Pauli matrix, and</s></p><formula xml:id="formula_53">σ ± = 1 2 (σ x ± iσ y ).</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Keyword Description<p><s>Transfer (or Trans)</s></p><formula xml:id="formula_54">Transfer term denoted by T iαjβ c † iασ c jβσ (spin orbital = False), or T i(α,σ)j(β,σ ′ ) c † i(α,σ) c j(β,σ ′ ) (spin orbital = True)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">InterAll<p><s>A general two-body interaction term of the form Further details have been provided in the manuals of HΦ [25] and mVMC <ref type="bibr">[23]</ref>.</s></p><formula xml:id="formula_55">I ijklσ 1 σ 2 σ 3 σ 4 c † iσ 1 c jσ 2 c † kσ 3 c</formula><p><s>For the UHFk and RPA calculations, a Wan-nier90-like format <ref target="#b2" type="bibr">[3]</ref> is adopted for the interaction definition because translational symmetry is assumed in these methods.</s><s>In this format, the coefficient of the interaction term J iαjβ = J αβ (r ij ) can be expressed by the components of the threedimensional translation vector r ij , the orbital indices α and β, and the value in each line.</s><s>H-wave allows zero components to be omitted.</s><s>A few examples of the interaction definition files for the UHFk calculations are presented in the following.</s><s>The Transfer term can be expressed as Transfer in Wannier90-like format for uhfk</s></p><p><s>• energy: The total energy and its components for each interaction term, the number of electrons, and the value of S z are written to a text file in the item=value format.</s></p><p><s>• eigen: The eigenvalues and eigenvectors are provided as outputs in NumPy zip files <ref type="bibr">[49]</ref>.</s></p><p><s>For a fixed S z , the spin-up and spin-down components are stored in separate files with spin-up or spin-down prefix.</s><s>Otherwise, the eigenvalues and eigenvectors are provided as outputs in a single file with a prefix sz-free.</s></p><p><s>• green: The Green's function is provided as an output in a text file with indices specified in the OnebodyG file.</s></p><p><s>• fij: In real-space UHFA calculations, the coefficients of the pair-product wave functions f ij , which are equivalent to the converged onebody wave functions, are provided as outputs.</s></p><p><s>They are written to a text-format file specified by fij.</s><s>Further details on the relationship between the HFA solutions and the pair-product wave functions have been provided in Ref. <ref target="#b36" type="bibr">[48]</ref>.</s></p><p><s>In the UHFk calculations, the following keywords can be used.</s></p><p><s>• energy: The value of the total energy and its components for each interaction term, the number of electrons, and the value of S z are written to a text file in the item=value format.</s><s>An example output of energy is shown below.</s><s>• eigen: The eigenvalues and eigenvectors are provided as outputs in a NumPy zip file.</s></p><p><s>• green: The Green's function is provided as an output in a NumPy zip file.</s></p><p><s>• rpa: The modified Transfer term representing the approximated one-body Hamiltonian is provided as an output in a NumPy zip file for an initial value of the RPA calculation.</s></p><p><s>In the RPA calculations, the following keywords can be used.</s></p><p><s>• chi0q: The irreducible susceptibility matrix χ (0) (q, iν n ) is provided as an output in a NumPy zip file.</s></p><p><s>• chiq: The susceptibility matrix χ(q, iν n ) is provided as an output in a NumPy zip file.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Applications<p><s>In this section, three examples of H-wave have been introduced, which include methods to calculate a ground-state phase diagram at zero temperature (zero-temperature UHFk), finite-temperature physical quantities (finite-temperature UHFk), and charge and spin susceptibilities at finite temperatures (RPA).</s><s>Tutorials on H-wave have been uploaded to a repository <ref type="bibr">[50]</ref>, which includes several other samples of H-wave and examples presented in this paper.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Ground state of the extended Hubbard model<p><s>on a square lattice As a simple application of the UHFk calculation at zero temperature, the ground states of the extended Hubbard model on a square lattice at halffilling were considered.</s><s>In the extended Hubbard model, a first-order quantum phase transition is expected from the antiferromagnetic (AF) phase to the charge-ordered (CO) phase by changing the offsite Coulomb interactions.</s><s>The extended Hubbard model is defined as</s></p><formula xml:id="formula_56">H = -t ⟨i,j⟩ σ=↑↓ c † iσ c jσ + c † jσ c iσ + U i N i↑ N i↓ + V ⟨i,j⟩ N i N j , (<label>29</label></formula><formula xml:id="formula_57">)</formula><p><s>where ⟨i, j⟩ means the nearest neighbor pairs on the square lattice, N iσ = c † iσ c iσ represents the number operator of the spin σ at the site i, N i = N i↑ + N i↓ , and U and V denote the onsite and offsite Coulomb repulsion.</s><s>The hopping constant t was used as the unit of energy.</s><s>(Hereafter, t = 1.)</s><s>The case of half-filling was considered, in which the number of electrons was taken to be equal to the number of sites.</s><s>Two phases are expected to appear as the ground states (Fig. <ref target="#fig_9" type="figure">5(a)</ref>).</s><s>For V /U ≲ 1/4, the AF phase where the neighboring spins align in opposite directions to each other emerges.</s><s>The AF phase is characterized by the staggered magnetization defined as S(Q) = i S z i exp(-iQ • r i )/N cell with Q = (π, π), where S z i = (N i↑ -N i↓ )/2 and the summation runs over sites in the unit cell, and N cell is the number of sites in the unit cell.</s><s>For V /U ≳ 1/4, the CO phase becomes the ground state where the doubly occupied sites are arranged in a checkerboard pattern.</s><s>The CO phase is characterized by the staggered density defined as  shows the V dependence of S(π, π) and N (π, π).</s><s>As expected, the first-order phase transition between the AF and the CO phases was observed at V /t = 1(= U/4t).</s><s>A sample script is available in samples/UHFk/CDW SDW directory of the tutorial repository.</s><s>By executing the script run.py, the results shown in Figure <ref target="#fig_8" type="figure">5</ref> (b) can be reproduced.</s></p><formula xml:id="formula_58">N (Q) = i (N i↑ + N i↓ ) exp(-iQ • r i )/N cell .</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Finite-temperature properties of the Hubbard model on a cubic lattice<p><s>H-wave supports finite-temperature mean-field calculations.</s><s>In this section, a typical simple example involving the estimation of Néel temperature for the Hubbard model on a cubic lattice at half-filling has been discussed.</s><s>The model was defined as</s></p><formula xml:id="formula_59">H = r -t ν,σ δ=±aν c † rσ c r+δ,σ + U N r↑ N r↓ , (<label>30</label></formula><formula xml:id="formula_60">)</formula><p><s>where a ν denotes the translation vector along the α-axis, and ν = x, y, and z.</s></p><p><s>Figure <ref target="#fig_10" type="figure">6</ref>(a) shows the dependency of magnetization on temperature for the Hubbard model on a cubic lattice at half-filling.</s><s>The magnetization presented along the z axis was defined as</s></p><formula xml:id="formula_61">m z = 1 2N site r | ⟨n r↑ -n r↓ ⟩| . (<label>31</label></formula><formula xml:id="formula_62">)</formula><p><s>The number of sites N site was denoted as N site = L 3 , where L denotes the linear dimensions of a cubic structure.</s><s>The magnetization was observed to be finite at the critical temperature T Néel .</s><s>For this study, T Néel was regarded as the lowest temperature at which m z had a value lesser than 10 -4 .</s><s>Figure <ref target="#fig_10" type="figure">6</ref> (b) shows the interaction dependence of Néel temperature T Néel .</s><s>The results suggested that T Néel monotonically increased with the interaction U/t.</s><s>However, this tendency was a well-known artifact of the HFA.</s><s>For a strong-coupling limit, T Néel is expected to decrease with increase in U/t <ref target="#b37" type="bibr">[51]</ref><ref target="#b38" type="bibr">[52]</ref><ref target="#b39" type="bibr">[53]</ref> because it is governed by super-exchange interactions J = 4t 2 /U .</s><s>To correctly reproduce such a tendency, many-body correlations beyond the HFA must necessarily be included.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Charge and spin susceptibilities of the extended<p><s>Hubbard model on a square lattice In this sub-section, charge and spin susceptibilities of the extended Hubbard model on a square lattice defined in Eq. ( <ref target="#formula_56" type="formula">29</ref>) using the RPA are discussed.</s><s>In order to reproduce the numerical results shown in Fig. <ref target="#fig_0" type="figure">1</ref> of Ref. <ref target="#b40" type="bibr">[54]</ref>, the electron filling was set as 3/4 and T = 0.01.</s><s>The cell size was set to L x = L y = 128.</s><s>Sample files and scripts were used from the samples/RPA/kobayashi_2004 directory of the tutorial repository.</s></p><p><s>Figure <ref target="#fig_12" type="figure">7</ref> shows spin and charge susceptibilities χ s (q, 0), χ c (q, 0) at (U, V ) = (3.7,</s><s>0) and (0, 0.8), respectively, where χ s (q, 0) and χ c (q, 0) are defined as 1/2 σσ ′ σσ ′ χ σσ ′ (q, 0) with σ = +(-) for ↑ (↓) and 1/2 σσ ′ χ σσ ′ (q, 0), respectively.</s><s>At (U, V ) = (3.7,</s><s>0), χ s (q, 0) showed a sharp peak around Q nest = (π, π/2) due to the nesting condition as shown in the inset of Fig. <ref target="#fig_12" type="figure">7</ref>.</s><s>This peak developed with increasing U and diverged when the spin-density-wave transition occurred.</s><s>At (U, V ) = (0, 0.8), χ c (q, 0) exhibited sharp peaks around (π, π/2) and (π/2, π/2).</s><s>The first peak originated from the nesting condition, whereas the second peak originated from the anisotropy of V q , which had a negative peak at (π, π), in addition to the nesting conditions.</s><s>The latter peak developed with an increase in V and diverged when a charge-density wave (or charge ordering) transition occurred.</s><s>The obtained results aligned with those shown in Fig. <ref target="#fig_0" type="figure">1</ref> of Ref. <ref target="#b40" type="bibr">[54]</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Summary<p><s>In this paper, we introduced H-wave, which can perform the unrestricted Hartree-Fock approximation (UHFA) and the random phase approximation (RPA).</s><s>UHFA and RPA in wave-number space enable numerical analyses of electron correlation effects in periodic electron systems within fluctuations up to the first order at a low computational 0 0.5 1 1.5 (0, 0) (π, 0) (π, π) (0, 0) q χ s (q, 0) χ c (q, 0) χ s (q, 0) χ c (q, 0)  cost.</s><s>H-wave is open-source software with simple and flexible user interface.</s><s>Users can execute UHFA and RPA for widely studied quantum lattice models such as the Hubbard model by preparing only one input file with less than ten lines.</s><s>Furthermore, the input files of one-and two-body interactions describing effective models can be imported from first principles calculations using the Wannier90 format such as RESPACK.</s><s>This enables a highthroughput connection between the first principles calculations and H-wave.</s><s>The resulting files can be used as input files for softwares that handle strong correlation effects, such as mVMC <ref target="#b36" type="bibr">[48]</ref>.</s><s>H-wave is included in MateriApps LIVE! <ref target="#b41" type="bibr">[55,</ref><ref target="#b42" type="bibr">56]</ref>, an environment for computational materials science, and Ma-teriApps Installer <ref target="#b42" type="bibr">[56,</ref><ref target="#b43" type="bibr">57]</ref>, a collection of scripts for installing materials science calculation software.</s><s>These provide the environment to easy application of H-wave.</s></p><p><s>In the future, we plan to develop the following functions based on the experience gained from our previous works; (a) function to calculate the quantities corresponding to the experimentally measured dynamic susceptibilities, such as magnetic susceptibility and spin-lattice relaxation rate for nuclear magnetic resonance and conductivity <ref target="#b44" type="bibr">[58]</ref><ref target="#b45" type="bibr">[59]</ref><ref target="#b46" type="bibr">[60]</ref><ref target="#b47" type="bibr">[61]</ref>, (b) function to solve the linear Eliashberg equation evaluating the superconducting transition temperature and order parameters by considering pairing interactions mediated by charge and spin fluctua-tions <ref target="#b23" type="bibr">[26,</ref><ref target="#b26" type="bibr">29,</ref><ref target="#b40" type="bibr">54,</ref><ref target="#b48" type="bibr">62]</ref>, and (c) function to treat approximations beyond RPA such as fluctuation exchange approximation (FLEX) and vertex corrections <ref target="#b49" type="bibr">[63]</ref><ref target="#b50" type="bibr">[64]</ref><ref target="#b51" type="bibr">[65]</ref><ref target="#b52" type="bibr">[66]</ref><ref target="#b53" type="bibr">[67]</ref>.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 :<label>1</label><figdesc><div><p><s>Figure 1: Schematic flow of the UHFA calculation.</s></p></div></figdesc></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Finally, for<label></label><figdesc><div><p><s>convenience, a schematic flow of the RPA calculation is presented in Fig.2.</s><s>(Option) Set one-body Green's functions Calculate and diagonalize a one-body Hamiltonian Determine a chemical potential [using Eq. (9)] Calculate one-body Green's function [Eq.</s><s>(18)] Calculate irreducible susceptibility [Eq.</s><s>(19)] Calculate susceptibility matrix [Eq.</s><s>(21)]</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 :<label>2</label><figdesc><div><p><s>Figure 2: Schematic flow of the RPA calculation.</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 :<label>3</label><figdesc><div><p><s>Figure 3: Schematic flow of calculations.</s><s>First, the users prepare an input parameter file (input.toml)</s><s>and a set of interaction definition files.</s><s>The interaction definition files can be generated by StdFace from a simple definition file (stan.in),</s><s>or the output of other software such as RESPACK[43] can be used.</s><s>Then, H-wave is run in a chosen mode.</s><s>The results are provided as output in the files according to the input parameters.</s></p></div></figdesc></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>[file.input] path_to_input = "" [file.input.interaction]</s><s>path_to_input = "./"</s><s>Geometry = "geom.dat"</s><s>Transfer = "transfer.dat"</s><s>CoulombIntra = "coulombintra.dat"</s><s>[file.output]</s><s>path_to_output = "output" energy = "energy.dat"</s><s>eigen = "eigen" green = "green" Important sections used in input.toml,</s><s>such as [mode], [mode.param],</s><s>[log], [file.input],</s><s>and [file.output]</s><s>are discussed in this paper.</s><s>Further details have been provided in the manual of H-wave [42].</s></p></div></figdesc></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 :<label>4</label><figdesc><div><p><s>Figure 4: The definitions of the overall lattice (CellShape) and the sublattice structure (SubShape) are depicted with examples.</s></p></div></figdesc></figure>
+<figure xml:id="fig_8" xmlns="http://www.tei-c.org/ns/1.0">Figure 5 :<label>5</label><figdesc><div><p><s>Figure 5: (a) Expected phase diagram of the extended Hubbard model on the square lattice at half-filling in the strong coupling limit.</s><s>(b) V dependencies of the staggered magnetization S(π, π) (green circles) and the staggered charge density N (π, π) (blue squares) of the extended Hubbard model on the square lattice with U = 4 at half-filling calculated by the UHFk mode of H-wave.</s><s>A first-order phase transition between the AF phase and the CO phase occurs around V /U = 1/4.</s></p></div></figdesc></figure>
+<figure xml:id="fig_9" xmlns="http://www.tei-c.org/ns/1.0">Figure 5 (<label>5</label><figdesc><div><p><s>Figure 5 (b) shows the V dependence of S(π, π)and N (π, π).</s><s>As expected, the first-order phase transition between the AF and the CO phases was observed at V /t = 1(= U/4t).</s><s>A sample script is available in samples/UHFk/CDW SDW directory of the tutorial repository.</s><s>By executing the script run.py, the results shown in Figure5(b) can be reproduced.</s></p></div></figdesc></figure>
+<figure xml:id="fig_10" xmlns="http://www.tei-c.org/ns/1.0">Figure 6 :<label>6</label><figdesc><div><p><s>Figure 6: Magnetic properties of the Hubbard model on the cubic lattice at half-filling for L = 12.</s><s>(a) Temperature dependence of the magnetic moment along the z-axis.</s><s>Red circles, green squares, blue triangles, and purple diamonds denote the mean-field results for U/t = 4, 8, 12, and 16, respectively.</s><s>(b) Interaction dependence of the Néel temperature T Néel .</s><s>Red circles denote the mean-field results.</s><s>Insets represent schematics of paramagnetic (PM) and antiferromagnetic (AF) states.</s></p></div></figdesc></figure>
+<figure xml:id="fig_11" xmlns="http://www.tei-c.org/ns/1.0">(<label></label><figdesc><div><p></p></div></figdesc></figure>
+<figure xml:id="fig_12" xmlns="http://www.tei-c.org/ns/1.0">Figure 7 :<label>7</label><figdesc><div><p><s>Figure 7: Spin and charge susceptibilities of the extended Hubbard model at T = 0.01.</s><s>The interaction parameters are set as (U, V ) = (3.7,</s><s>0) and (0, 0.8), respectively.</s><s>The inset shows the Fermi surface (solid line) and the nesting vector Qnest ≡ (π, π/2).</s></p></div></figdesc></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>lσ 4 (only for UHFr), CoulombIntra On-site Coulomb interaction denoted by Uiα N iα↑ N iα↓ CoulombInter Off-site Coulomb interaction denoted by V iαjβ NiαN jβ Hund Hund coupling interaction denoted by J Hund iαjβ (N iα↑ N jβ↑ + N iα↓ N jβ↓ )</s></p></div></figdesc><table><row><cell>Ising</cell><cell>Ising</cell><cell>interaction</cell><cell>denoted</cell><cell>by</cell></row><row><cell></cell><cell cols="2">J Ising iαjβ S z iα S z jβ</cell><cell></cell><cell></cell></row><row><cell>Exchange</cell><cell cols="4">Exchange interaction denoted by</cell></row><row><cell></cell><cell cols="2">J Ex iαjβ S + iα S -jβ</cell><cell></cell><cell></cell></row><row><cell>PairLift</cell><cell>The</cell><cell>interaction</cell><cell>denoted</cell><cell>by</cell></row><row><cell></cell><cell>J PairLift iαjβ</cell><cell cols="2">c  † iα↑ c iα↓ c  † jβ↑ c jβ↓</cell><cell></cell></row><row><cell>PairHop</cell><cell>The</cell><cell>interaction</cell><cell>denoted</cell><cell>by</cell></row><row><cell></cell><cell>J PairHop iαjβ</cell><cell cols="3">c  † iα↑ c jβ↑ c  † iα↓ c jβ↓ (only for</cell></row><row><cell></cell><cell cols="2">UHFr mode)</cell><cell></cell><cell></cell></row></table></figure>
+<back>
+<div type="acknowledgement">
+<div>Acknowledgments<p>H-wave is developed under the support of "<rs type="projectName">Project for Advancement of Software Usability in Materials Science</rs>" in the fiscal year 2022 by The <rs type="institution">Institute for Solid</rs> <rs type="funder">State Physics, The University of Tokyo</rs>.This work was supported by <rs type="funder">JSPS KAK-ENHI</rs> Grant Numbers <rs type="grantNumber">21H01041</rs> and <rs type="grantNumber">22K03526</rs>.</p></div>
+</div>
+<listorg type="funding">
+<org type="funded-project" xml:id="_MvcKD23">
+<orgname subtype="full" type="project">Project for Advancement of Software Usability in Materials Science</orgname>
+</org>
+<org type="funding" xml:id="_AjhAFqb">
+<idno type="grant-number">21H01041</idno>
+</org>
+<org type="funding" xml:id="_F8ZCg9A">
+<idno type="grant-number">22K03526</idno>
+</org>
+</listorg>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>The geometry definition (Geometry) can be expressed as</s></p><p><s>1.000 0.000 0.000 0.000 1.000 0.000 0.000 0.000 1.000 1 0.000e+00 0.000e+00 0.000e+00</s></p><p><s>The file specifications section of the H-wave manual <ref type="bibr">[42]</ref> can be referred to for details on the file formats.</s><s>Such files can be generated from a simple input using the StdFace library [44].</s><s>An example of the input file (stan.in)</s><s>has been provided</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Output<p><s>H-wave outputs the calculation results to the files according to the settings specified in the [file.output]</s><s>section of the input parameter file.</s><s>A brief overview of the main parameters in [file.output] is discussed.</s></p><p><s>In real space UHFA calculations, the following keywords can be used.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Metal-insulator transitions</title>
+<author>
+<persname><forename type="first">M</forename><surname>Imada</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Fujimori</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Tokura</surname></persname>
+</author>
+<idno type="DOI">10.1103/RevModPhys.70.1039</idno>
+<ptr target="https://link.aps.org/doi/10.1103/RevModPhys.70.1039"></ptr>
+</analytic>
+<monogr>
+<title level="j">Rev. Mod. Phys</title>
+<imprint>
+<biblscope unit="volume">70</biblscope>
+<biblscope from="1039" to="1263" unit="page"></biblscope>
+<date type="published" when="1998">1998</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Imada, A. Fujimori, Y. Tokura, Metal-insulator transitions, Rev. Mod. Phys. 70 (1998) 1039-1263. doi:10.1103/RevModPhys.70.1039. URL https://link.aps.org/doi/10.1103/ RevModPhys.70.1039</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<monogr>
+<author>
+<persname><forename type="first">P</forename><surname>Fazekas</surname></persname>
+</author>
+<idno type="DOI">10.1142/2945</idno>
+<ptr target="https://www.worldscientific.com/doi/abs/10.1142/2945"></ptr>
+<title level="m">Lecture Notes on Electron Correlation and Magnetism (Series in Modern Condensed Matter Physics)</title>
+<imprint>
+<publisher>World Scientific</publisher>
+<date type="published" when="1999">1999</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P. Fazekas (Ed.), Lecture Notes on Electron Correlation and Magnetism (Series in Modern Condensed Matter Physics), World Scientific, 1999. doi:10.1142/2945. URL https://www.worldscientific.com/doi/abs/10. 1142/2945</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Wannier90 as a community code: new features and applications</title>
+<author>
+<persname><forename type="first">G</forename><surname>Pizzi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Vitale</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Arita</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Blügel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Freimuth</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Géranton</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Gibertini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Gresch</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Johnson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Koretsune</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Ibañez-Azpiroz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Lee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-M</forename><surname>Lihm</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Marchand</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Marrazzo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Mokrousov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">I</forename><surname>Mustafa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Nohara</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Nomura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Paulatto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Poncé</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Ponweiser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Qiao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Thöle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">S</forename><surname>Tsirkin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Wierzbowska</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Marzari</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Vanderbilt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Souza</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Mostofi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">R</forename><surname>Yates</surname></persname>
+</author>
+<idno type="DOI">10.1088/1361-648X/ab51ff</idno>
+<ptr target="https://dx.doi.org/10.1088/1361-648X/ab51ff"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Phys. Condens. Matter</title>
+<imprint>
+<biblscope unit="volume">32</biblscope>
+<biblscope unit="page">165902</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">G. Pizzi, V. Vitale, R. Arita, S. Blügel, F. Freimuth, G. Géranton, M. Gibertini, D. Gresch, C. John- son, T. Koretsune, J. Ibañez-Azpiroz, H. Lee, J.-M. Lihm, D. Marchand, A. Marrazzo, Y. Mokrousov, J. I. Mustafa, Y. Nohara, Y. Nomura, L. Paulatto, S. Poncé, T. Ponweiser, J. Qiao, F. Thöle, S. S. Tsirkin, M. Wierzbowska, N. Marzari, D. Vanderbilt, I. Souza, A. A. Mostofi, J. R. Yates, Wannier90 as a community code: new features and applications, J. Phys. Condens. Matter 32 (2020) 165902. doi:10.1088/1361-648X/ ab51ff. URL https://dx.doi.org/10.1088/1361-648X/ab51ff</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Frequency-dependent local interactions and low-energy effective models from electronic structure calculations</title>
+<author>
+<persname><forename type="first">F</forename><surname>Aryasetiawan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Imada</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Georges</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Kotliar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Biermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">I</forename><surname>Lichtenstein</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.70.195104</idno>
+<ptr target="https://link.aps.org/doi/10.1103/PhysRevB.70.195104"></ptr>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">70</biblscope>
+<biblscope unit="page">195104</biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">F. Aryasetiawan, M. Imada, A. Georges, G. Kotliar, S. Biermann, A. I. Lichtenstein, Frequency-dependent local interactions and low-energy effective models from electronic structure calculations, Phys. Rev. B 70 (2004) 195104. doi:10.1103/PhysRevB.70.195104. URL https://link.aps.org/doi/10.1103/PhysRevB. 70.195104</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Electronic structure calculation by first principles for strongly correlated electron systems</title>
+<author>
+<persname><forename type="first">M</forename><surname>Imada</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Miyake</surname></persname>
+</author>
+<idno type="DOI">10.1143/JPSJ.79.112001</idno>
+<idno>doi:10.1143/JPSJ.79.112001</idno>
+<ptr target="https://doi.org/10.1143/JPSJ.79.112001"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Physical Society of Japan</title>
+<imprint>
+<biblscope unit="volume">79</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope unit="page">112001</biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Imada, T. Miyake, Electronic structure calcula- tion by first principles for strongly correlated elec- tron systems, Journal of the Physical Society of Japan 79 (11) (2010) 112001. arXiv:https://doi.org/10. 1143/JPSJ.79.112001, doi:10.1143/JPSJ.79.112001. URL https://doi.org/10.1143/JPSJ.79.112001</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Correlated electrons in high-temperature superconductors</title>
+<author>
+<persname><forename type="first">E</forename><surname>Dagotto</surname></persname>
+</author>
+<idno type="DOI">10.1103/RevModPhys.66.763</idno>
+<ptr target="https://link.aps.org/doi/10.1103/RevModPhys.66.763"></ptr>
+</analytic>
+<monogr>
+<title level="j">Rev. Mod. Phys</title>
+<imprint>
+<biblscope unit="volume">66</biblscope>
+<biblscope from="763" to="840" unit="page"></biblscope>
+<date type="published" when="1994">1994</date>
+</imprint>
+</monogr>
+<note type="raw_reference">E. Dagotto, Correlated electrons in high-temperature superconductors, Rev. Mod. Phys. 66 (1994) 763-840. doi:10.1103/RevModPhys.66.763. URL https://link.aps.org/doi/10.1103/ RevModPhys.66.763</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<monogr>
+<idno type="DOI">10.1017/CBO9780511902581</idno>
+<title level="m">Quantum Monte Carlo Methods</title>
+<editor>
+<persname><forename type="first">J</forename><surname>Gubernatis</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">N</forename><surname>Kawashima</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">P</forename><surname>Werner</surname></persname>
+</editor>
+<imprint>
+<publisher>Cambridge University Press</publisher>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. Gubernatis, N. Kawashima, P. Werner (Eds.), Quan- tum Monte Carlo Methods, Cambridge University Press, 2016. doi:10.1017/CBO9780511902581.</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">The density-matrix renormalization group</title>
+<author>
+<persname><forename type="first">U</forename><surname>Schollwöck</surname></persname>
+</author>
+<idno type="DOI">10.1103/RevModPhys.77.259</idno>
+<ptr target="https://link.aps.org/doi/10.1103/RevModPhys.77.259"></ptr>
+</analytic>
+<monogr>
+<title level="j">Rev. Mod. Phys</title>
+<imprint>
+<biblscope unit="volume">77</biblscope>
+<biblscope from="259" to="315" unit="page"></biblscope>
+<date type="published" when="2005">2005</date>
+</imprint>
+</monogr>
+<note type="raw_reference">U. Schollwöck, The density-matrix renormaliza- tion group, Rev. Mod. Phys. 77 (2005) 259-315. doi:10.1103/RevModPhys.77.259. URL https://link.aps.org/doi/10.1103/ RevModPhys.77.259</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">A practical introduction to tensor networks: Matrix product states and projected entangled pair states</title>
+<author>
+<persname><forename type="first">Román</forename><surname>Orús</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.aop.2014.06.013</idno>
+<ptr target="https://www.sciencedirect.com/science/article/pii/S0003491614001596"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ann. Phys</title>
+<imprint>
+<biblscope unit="volume">349</biblscope>
+<biblscope from="117" to="158" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Román Orús, A practical introduction to tensor networks: Matrix product states and projected en- tangled pair states, Ann. Phys. 349 (2014) 117-158. doi:10.1016/j.aop.2014.06.013. URL https://www.sciencedirect.com/science/ article/pii/S0003491614001596</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Tensor networks for complex quantum systems</title>
+<author>
+<persname><forename type="first">R</forename><surname>Orús</surname></persname>
+</author>
+<idno type="DOI">10.1038/s42254-019-0086-7</idno>
+</analytic>
+<monogr>
+<title level="j">Nature Reviews Physics</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<biblscope unit="issue">9</biblscope>
+<biblscope from="538" to="550" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">R. Orús, Tensor networks for complex quantum sys- tems, Nature Reviews Physics 1 (9) (2019) 538-550. doi:10.1038/s42254-019-0086-7.</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<monogr>
+<idno type="DOI">10.1007/978-3-540-74686-7</idno>
+<title level="m">Computational Many-Particle Physics</title>
+<editor>
+<persname><forename type="first">H</forename><surname>Fehske</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">R</forename><surname>Schneider</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">Weiße</forename></persname>
+</editor>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">H. Fehske, R. Schneider, Weiße (Eds.), Computational Many-Particle Physics, Springer, 2008. doi:10.1007/ 978-3-540-74686-7.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<monogr>
+<idno type="DOI">10.1007/978-3-642-35106-8</idno>
+<ptr target="https://doi.org/10.1007/978-3-642-35106-8"></ptr>
+<title level="m">Strongly Correlated Systems</title>
+<editor>
+<persname><forename type="first">A</forename><surname>Avella</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">F</forename><surname>Mancini</surname></persname>
+</editor>
+<meeting><address><addrline>Berlin Heidelberg</addrline></address></meeting>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Avella, F. Mancini (Eds.), Strongly Correlated Sys- tems, Springer Berlin Heidelberg, 2013. doi:10.1007/ 978-3-642-35106-8. URL https://doi.org/10.1007/978-3-642-35106-8</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<monogr>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">D</forename><surname>Mahan</surname></persname>
+</author>
+<idno type="DOI">10.1007/978-1-4757-5714-9</idno>
+<title level="m">Many-Particle Physics</title>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note>3rd Edition</note>
+<note type="raw_reference">G. D. Mahan (Ed.), Many-Particle Physics, 3rd Edition, Springer, 2000. doi:10.1007/978-1-4757-5714-9.</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<monogr>
+<author>
+<persname><forename type="first">P</forename><surname>Ring</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Schuck</surname></persname>
+</author>
+<title level="m">The nuclear many-body problem</title>
+<meeting><address><addrline>Berlin, Heidelberg</addrline></address></meeting>
+<imprint>
+<publisher>Springer</publisher>
+<date type="published" when="1980">1980</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P. Ring, P. Schuck, The nuclear many-body problem, Springer Berlin, Heidelberg, 1980.</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Two-dimensional Hubbard model: Numerical simulation study</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename><surname>Hirsch</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.31.4403</idno>
+<ptr target="https://link.aps.org/doi/10.1103/PhysRevB.31.4403"></ptr>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">31</biblscope>
+<biblscope from="4403" to="4419" unit="page"></biblscope>
+<date type="published" when="1985">1985</date>
+</imprint>
+</monogr>
+<note type="raw_reference">J. E. Hirsch, Two-dimensional Hubbard model: Numer- ical simulation study, Phys. Rev. B 31 (1985) 4403- 4419. doi:10.1103/PhysRevB.31.4403. URL https://link.aps.org/doi/10.1103/PhysRevB. 31.4403</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Stability theory of the magnetic phases for a simple model of the transition metals</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Penn</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRev.142.350</idno>
+<ptr target="https://link.aps.org/doi/10.1103/PhysRev.142.350"></ptr>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev</title>
+<imprint>
+<biblscope unit="volume">142</biblscope>
+<biblscope from="350" to="365" unit="page"></biblscope>
+<date type="published" when="1966">1966</date>
+</imprint>
+</monogr>
+<note type="raw_reference">D. R. Penn, Stability theory of the magnetic phases for a simple model of the transition metals, Phys. Rev. 142 (1966) 350-365. doi:10.1103/PhysRev.142.350. URL https://link.aps.org/doi/10.1103/PhysRev. 142.350</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Electronic structure and orbital ordering in perovskite-type 3d transition-metal oxides studied by Hartree-Fock band-structure calculations</title>
+<author>
+<persname><forename type="first">T</forename><surname>Mizokawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Fujimori</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.54.5368</idno>
+<ptr target="https://link.aps.org/doi/10.1103/PhysRevB.54.5368"></ptr>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">54</biblscope>
+<biblscope from="5368" to="5380" unit="page"></biblscope>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Mizokawa, A. Fujimori, Electronic structure and orbital ordering in perovskite-type 3d transition-metal oxides studied by Hartree-Fock band-structure calcula- tions, Phys. Rev. B 54 (1996) 5368-5380. doi:10.1103/ PhysRevB.54.5368. URL https://link.aps.org/doi/10.1103/PhysRevB. 54.5368</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Toward Systematic Understanding of Diversity of Electronic Properties in Low-Dimensional Molecular Solids</title>
+<author>
+<persname><forename type="first">H</forename><surname>Seo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Hotta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Fukuyama</surname></persname>
+</author>
+<idno type="DOI">10.1021/cr030646k</idno>
+<ptr target="https://doi.org/10.1021/cr030646k"></ptr>
+</analytic>
+<monogr>
+<title level="j">Chem. Rev</title>
+<imprint>
+<biblscope unit="volume">104</biblscope>
+<biblscope from="5005" to="5036" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">H. Seo, C. Hotta, H. Fukuyama, Toward Systematic Understanding of Diversity of Electronic Properties in Low-Dimensional Molecular Solids, Chem. Rev. 104 (2004) 5005-5036, pMID: 15535640. doi:10.1021/ cr030646k. URL https://doi.org/10.1021/cr030646k</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<monogr>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">L</forename><surname>Fetter</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Walecka</surname></persname>
+</author>
+<title level="m">Quantum Theory of Many-Particle Systems</title>
+<meeting><address><addrline>Boston</addrline></address></meeting>
+<imprint>
+<publisher>McGraw-Hill</publisher>
+<date type="published" when="1971">1971</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. L. Fetter, J. D. Walecka, Quantum Theory of Many- Particle Systems, McGraw-Hill, Boston, 1971.</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<monogr>
+<title level="m">Quantum Statistical Mechanics: Green's Function Methods in Equilibrium and Nonequilibrium Problems</title>
+<editor>
+<persname><forename type="first">L</forename><forename type="middle">P</forename><surname>Kadanoff</surname></persname>
+</editor>
+<editor>
+<persname><forename type="first">G</forename><surname>Baym</surname></persname>
+</editor>
+<imprint>
+<publisher>Westview Press</publisher>
+<date type="published" when="1994">1994</date>
+</imprint>
+</monogr>
+<note type="raw_reference">L. P. Kadanoff, G. Baym (Eds.), Quantum Statistical Mechanics: Green's Function Methods in Equilibrium and Nonequilibrium Problems, Westview Press, 1994.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<monogr>
+<author>
+<persname><surname>Triqs</surname></persname>
+</author>
+<ptr target="https://triqs.github.io/triqs/latest/"></ptr>
+<title level="m">Toolbox for Research on Interacting Quantum Systems</title>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">TRIQS (Toolbox for Research on Interacting Quantum Systems), https://triqs.github.io/triqs/latest/.</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Triqs: A toolbox for research on interacting quantum systems</title>
+<author>
+<persname><forename type="first">O</forename><surname>Parcollet</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ferrero</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Ayral</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Hafermann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Krivenko</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Messio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Seth</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.cpc.2015.04.023</idno>
+<ptr target="http://dx.doi.org/10.1016/j.cpc.2015.04.023"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput. Phys. Commun</title>
+<imprint>
+<biblscope unit="volume">196</biblscope>
+<biblscope from="398" to="415" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">O. Parcollet, M. Ferrero, T. Ayral, H. Hafermann, I. Krivenko, L. Messio, P. Seth, Triqs: A toolbox for re- search on interacting quantum systems, Comput. Phys. Commun. 196 (2015) 398 -415. doi:http://dx.doi. org/10.1016/j.cpc.2015.04.023.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<monogr>
+<ptr target="https://www.pasums.issp.u-tokyo.ac.jp/h-wave/en"></ptr>
+<title level="m">H-wave: a Python package for performing unrestricted Hartree-Fock calculations and random phase approximation calculations for itinerant electron systems</title>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">H-wave: a Python package for performing unrestricted Hartree-Fock calculations and random phase approx- imation calculations for itinerant electron systems, https://www.pasums.issp.u-tokyo.ac.jp/h-wave/en.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Superconductivity in Charge Ordered Organic Conductor -α-(ET) 2 I 3 Salt</title>
+<author>
+<persname><forename type="first">A</forename><surname>Kobayashi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Katayama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Noguchi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Suzumura</surname></persname>
+</author>
+<idno type="DOI">10.1143/JPSJ.73.3135</idno>
+<ptr target="https://doi.org/10.1143/JPSJ.73.3135"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Physical Society of Japan</title>
+<imprint>
+<biblscope unit="volume">73</biblscope>
+<biblscope unit="issue">11</biblscope>
+<biblscope from="3135" to="3148" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Kobayashi, S. Katayama, K. Noguchi, Y. Suzu- mura, Superconductivity in Charge Ordered Organic Conductor -α-(ET) 2 I 3 Salt-, Journal of the Physi- cal Society of Japan 73 (11) (2004) 3135-3148. doi: 10.1143/JPSJ.73.3135. URL https://doi.org/10.1143/JPSJ.73.3135</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Strong-coupling theory of superconductivity in a degenerate Hubbard model</title>
+<author>
+<persname><forename type="first">T</forename><surname>Takimoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Hotta</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Ueda</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.69.104504</idno>
+<ptr target="https://link.aps.org/doi/10.1103/PhysRevB.69.104504"></ptr>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">69</biblscope>
+<biblscope unit="page">104504</biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Takimoto, T. Hotta, K. Ueda, Strong-coupling theory of superconductivity in a degenerate Hubbard model, Phys. Rev. B 69 (2004) 104504. doi:10.1103/ PhysRevB.69.104504. URL https://link.aps.org/doi/10.1103/PhysRevB. 69.104504</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Orbital-controlled superconductivity in f -electron systems</title>
+<author>
+<persname><forename type="first">K</forename><surname>Kubo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Hotta</surname></persname>
+</author>
+<idno type="DOI">10.1143/JPSJ.75.083702</idno>
+<idno>doi:10.1143/JPSJ.75. 083702</idno>
+<ptr target="https://doi.org/10.1143/JPSJ.75.083702"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Physical Society of Japan</title>
+<imprint>
+<biblscope unit="volume">75</biblscope>
+<biblscope unit="issue">8</biblscope>
+<biblscope unit="page">83702</biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Kubo, T. Hotta, Orbital-controlled superconductiv- ity in f -electron systems, Journal of the Physical Soci- ety of Japan 75 (8) (2006) 083702. arXiv:https://doi. org/10.1143/JPSJ.75.083702, doi:10.1143/JPSJ.75. 083702. URL https://doi.org/10.1143/JPSJ.75.083702</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Superconductivity in the vicinity of charge ordered state in organic conductor β-(meso-DMBEDT-TTF) 2 PF 6</title>
+<author>
+<persname><forename type="first">K</forename><surname>Yoshimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Nakamura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Mori</surname></persname>
+</author>
+<idno type="DOI">10.1143/JPSJ.76.024706</idno>
+<idno>doi:10.1143/JPSJ.76.024706</idno>
+<ptr target="https://doi.org/10.1143/JPSJ.76.024706"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Physical Society of Japan</title>
+<imprint>
+<biblscope unit="volume">76</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope unit="page">24706</biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Yoshimi, M. Nakamura, H. Mori, Superconduc- tivity in the vicinity of charge ordered state in or- ganic conductor β-(meso-DMBEDT-TTF) 2 PF 6 , Jour- nal of the Physical Society of Japan 76 (2) (2007) 024706. arXiv:https://doi.org/10.1143/JPSJ.76. 024706, doi:10.1143/JPSJ.76.024706. URL https://doi.org/10.1143/JPSJ.76.024706</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Charge ordered metal and pressure-induced superconductivity in the twodimensional organic conductor β ′′ -(DODHT) 2 PF 6</title>
+<author>
+<persname><forename type="first">A</forename><surname>Kobayashi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Suzumura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Higa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kondo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Kagoshima</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Nishikawa</surname></persname>
+</author>
+<idno type="DOI">10.1088/0953-8984/20/12/125205</idno>
+<ptr target="https://dx.doi.org/10.1088/0953-8984/20/12/125205"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Physics: Condensed Matter</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope unit="page">125205</biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Kobayashi, Y. Suzumura, M. Higa, R. Kondo, S. Kagoshima, H. Nishikawa, Charge ordered metal and pressure-induced superconductivity in the two- dimensional organic conductor β ′′ -(DODHT) 2 PF 6 , Journal of Physics: Condensed Matter 20 (12) (2008) 125205. doi:10.1088/0953-8984/20/12/125205. URL https://dx.doi.org/10.1088/0953-8984/20/12/ 125205</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Near-degeneracy of several pairing channels in multiorbital models for the Fe pnictides</title>
+<author>
+<persname><forename type="first">S</forename><surname>Graser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">A</forename><surname>Maier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Hirschfeld</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Scalapino</surname></persname>
+</author>
+<idno type="DOI">10.1088/1367-2630/11/2/025016</idno>
+<ptr target="https://dx.doi.org/10.1088/1367-2630/11/2/025016"></ptr>
+</analytic>
+<monogr>
+<title level="j">New Journal of Physics</title>
+<imprint>
+<biblscope unit="volume">11</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope unit="page">25016</biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">S. Graser, T. A. Maier, P. J. Hirschfeld, D. J. Scalapino, Near-degeneracy of several pairing channels in multi- orbital models for the Fe pnictides, New Journal of Physics 11 (2) (2009) 025016. doi:10.1088/1367-2630/ 11/2/025016. URL https://dx.doi.org/10.1088/1367-2630/11/2/ 025016</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Origin of orthorhombic transition, magnetic transition, and shear-modulus softening in iron pnictide superconductors: Analysis based on the orbital fluctuations theory</title>
+<author>
+<persname><forename type="first">H</forename><surname>Kontani</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Saito</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Onari</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.84.024528</idno>
+<ptr target="https://link.aps.org/doi/10.1103/PhysRevB.84.024528"></ptr>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">84</biblscope>
+<biblscope unit="page">24528</biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">H. Kontani, T. Saito, S. Onari, Origin of orthorhom- bic transition, magnetic transition, and shear-modulus softening in iron pnictide superconductors: Analysis based on the orbital fluctuations theory, Phys. Rev. B 84 (2011) 024528. doi:10.1103/PhysRevB.84.024528. URL https://link.aps.org/doi/10.1103/PhysRevB. 84.024528</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Role of vertex corrections in the matrix formulation of the random phase approximation for the multiorbital Hubbard model</title>
+<author>
+<persname><forename type="first">M</forename><surname>Altmeyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Guterding</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Hirschfeld</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">A</forename><surname>Maier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Valentí</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Scalapino</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.94.214515</idno>
+<ptr target="https://link.aps.org/doi/10.1103/PhysRevB.94.214515"></ptr>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">94</biblscope>
+<biblscope unit="page">214515</biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Altmeyer, D. Guterding, P. J. Hirschfeld, T. A. Maier, R. Valentí, D. J. Scalapino, Role of vertex correc- tions in the matrix formulation of the random phase ap- proximation for the multiorbital Hubbard model, Phys. Rev. B 94 (2016) 214515. doi:10.1103/PhysRevB.94. 214515. URL https://link.aps.org/doi/10.1103/PhysRevB. 94.214515</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Array programming with NumPy</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">R</forename><surname>Harris</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Millman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Van Der Walt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Gommers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Virtanen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Cournapeau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Wieser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Taylor</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Berg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">J</forename><surname>Smith</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kern</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Picus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Hoyer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">H</forename><surname>Van Kerkwijk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Brett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Haldane</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">F</forename><surname>Del Río</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Wiebe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Peterson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Gérard-Marchant</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Sheppard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Reddy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Weckesser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Abbasi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Gohlke</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">E</forename><surname>Oliphant</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41586-020-2649-2</idno>
+<ptr target="https://doi.org/10.1038/s41586-020-2649-2"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">585</biblscope>
+<biblscope unit="issue">7825</biblscope>
+<biblscope from="357" to="362" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">C. R. Harris, K. J. Millman, S. J. van der Walt, R. Gom- mers, P. Virtanen, D. Cournapeau, E. Wieser, J. Tay- lor, S. Berg, N. J. Smith, R. Kern, M. Picus, S. Hoyer, M. H. van Kerkwijk, M. Brett, A. Haldane, J. F. del Río, M. Wiebe, P. Peterson, P. Gérard-Marchant, K. Sheppard, T. Reddy, W. Weckesser, H. Abbasi, C. Gohlke, T. E. Oliphant, Array programming with NumPy, Nature 585 (7825) (2020) 357-362. doi:10. 1038/s41586-020-2649-2. URL https://doi.org/10.1038/s41586-020-2649-2</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">SciPy 1.0 Contributors, SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python</title>
+<author>
+<persname><forename type="first">P</forename><surname>Virtanen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Gommers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">E</forename><surname>Oliphant</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Haberland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Reddy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Cournapeau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Burovski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Peterson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Weckesser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Bright</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">J</forename><surname>Van Der Walt</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Brett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">J</forename><surname>Millman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Mayorov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">R J</forename><surname>Nelson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kern</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Larson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Carey</surname></persname>
+</author>
+<author>
+<persname><forename type="first">İ</forename><surname>Polat</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Feng</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">W</forename><surname>Moore</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Vander-Plas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Laxalde</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Perktold</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Cimrman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Henriksen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Quintero</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">R</forename><surname>Harris</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Archibald</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">H</forename><surname>Ribeiro</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Pedregosa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Van Mulbregt</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41592-019-0686-2</idno>
+</analytic>
+<monogr>
+<title level="j">Nature Methods</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope from="261" to="272" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">P. Virtanen, R. Gommers, T. E. Oliphant, M. Haber- land, T. Reddy, D. Cournapeau, E. Burovski, P. Pe- terson, W. Weckesser, J. Bright, S. J. van der Walt, M. Brett, J. Wilson, K. J. Millman, N. Mayorov, A. R. J. Nelson, E. Jones, R. Kern, E. Larson, C. J. Carey, İ. Polat, Y. Feng, E. W. Moore, J. Vander- Plas, D. Laxalde, J. Perktold, R. Cimrman, I. Hen- riksen, E. A. Quintero, C. R. Harris, A. M. Archibald, A. H. Ribeiro, F. Pedregosa, P. van Mulbregt, SciPy 1.0 Contributors, SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python, Nature Methods 17 (2020) 261-272. doi:10.1038/s41592-019-0686-2.</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Respack: An ab initio tool for derivation of effective low-energy model of material</title>
+<author>
+<persname><forename type="first">K</forename><surname>Nakamura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Yoshimoto</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Nomura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Tadano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kawamura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kosugi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Yoshimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Misawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Motoyama</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.cpc.2020.107781</idno>
+<ptr target="https://www.sciencedirect.com/science/article/pii/S001046552030391X"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput. Phys. Commun</title>
+<imprint>
+<biblscope unit="volume">261</biblscope>
+<biblscope unit="page">107781</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Nakamura, Y. Yoshimoto, Y. Nomura, T. Tadano, M. Kawamura, T. Kosugi, K. Yoshimi, T. Mis- awa, Y. Motoyama, Respack: An ab initio tool for derivation of effective low-energy model of mate- rial, Comput. Phys. Commun. 261 (2021) 107781. doi:https://doi.org/10.1016/j.cpc.2020.107781. URL https://www.sciencedirect.com/science/ article/pii/S001046552030391X</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Quantum lattice model solver HΦ</title>
+<author>
+<persname><forename type="first">M</forename><surname>Kawamura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Yoshimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Misawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Yamaji</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Todo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Kawashima</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.cpc.2017.04.006</idno>
+<ptr target="https://www.sciencedirect.com/science/article/pii/S0010465517301200"></ptr>
+</analytic>
+<monogr>
+<title level="j">Computer Physics Communications</title>
+<imprint>
+<biblscope unit="volume">217</biblscope>
+<biblscope from="180" to="192" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">M. Kawamura, K. Yoshimi, T. Misawa, Y. Yamaji, S. Todo, N. Kawashima, Quantum lattice model solver HΦ, Computer Physics Communications 217 (2017) 180-192. doi:10.1016/j.cpc.2017.04.006. URL https://www.sciencedirect.com/science/ article/pii/S0010465517301200</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<monogr>
+<title level="m" type="main">Update of HΦ: Newly added functions and methods in versions 2 and</title>
+<author>
+<persname><forename type="first">K</forename><surname>Ido</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kawamura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Motoyama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Yoshimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Yamaji</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Todo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Kawashima</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Misawa</surname></persname>
+</author>
+<idno type="arXiv">arXiv:2307.13222</idno>
+<imprint>
+<date type="published" when="2023">2023</date>
+<biblscope unit="volume">3</biblscope>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Ido, M. Kawamura, Y. Motoyama, K. Yoshimi, Y. Yamaji, S. Todo, N. Kawashima, T. Misawa, Up- date of HΦ: Newly added functions and methods in versions 2 and 3 (2023). arXiv:2307.13222.</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">mVMC-Open-source software for many-variable variational Monte Carlo method</title>
+<author>
+<persname><forename type="first">T</forename><surname>Misawa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Morita</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Yoshimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kawamura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Motoyama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Ido</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Ohgoe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Imada</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kato</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.cpc.2018.08.014</idno>
+<ptr target="https://www.sciencedirect.com/science/article/pii/S0010465518303102"></ptr>
+</analytic>
+<monogr>
+<title level="j">Comput. Phys. Commun</title>
+<imprint>
+<biblscope unit="volume">235</biblscope>
+<biblscope from="447" to="462" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Misawa, S. Morita, K. Yoshimi, M. Kawamura, Y. Motoyama, K. Ido, T. Ohgoe, M. Imada, T. Kato, mVMC-Open-source software for many-variable vari- ational Monte Carlo method, Comput. Phys. Commun. 235 (2019) 447-462. doi:10.1016/j.cpc.2018.08.014. URL https://www.sciencedirect.com/science/ article/pii/S0010465518303102</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Magnetic phase diagram of the half-filled Hubbard model for a simple cubic lattice</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Kakehashi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Hasegawa</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.36.4066</idno>
+<ptr target="https://link.aps.org/doi/10.1103/PhysRevB.36.4066"></ptr>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">36</biblscope>
+<biblscope from="4066" to="4069" unit="page"></biblscope>
+<date type="published" when="1987">1987</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y. Kakehashi, H. Hasegawa, Magnetic phase diagram of the half-filled Hubbard model for a simple cubic lat- tice, Phys. Rev. B 36 (1987) 4066-4069. doi:10.1103/ PhysRevB.36.4066. URL https://link.aps.org/doi/10.1103/PhysRevB. 36.4066</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Critical properties of the half-filled Hubbard model in three dimensions</title>
+<author>
+<persname><forename type="first">G</forename><surname>Rohringer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Toschi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Katanin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Held</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevLett.107.256402</idno>
+<ptr target="https://link.aps.org/doi/10.1103/PhysRevLett.107.256402"></ptr>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. Lett</title>
+<imprint>
+<biblscope unit="volume">107</biblscope>
+<biblscope unit="page">256402</biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">G. Rohringer, A. Toschi, A. Katanin, K. Held, Critical properties of the half-filled Hubbard model in three dimensions, Phys. Rev. Lett. 107 (2011) 256402. doi:10.1103/PhysRevLett.107.256402. URL https://link.aps.org/doi/10.1103/ PhysRevLett.107.256402</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">Testing the Monte Carlomean field approximation in the one-band Hubbard model</title>
+<author>
+<persname><forename type="first">A</forename><surname>Mukherjee</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">D</forename><surname>Patel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Dong</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Johnston</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Moreo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Dagotto</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.90.205133</idno>
+<ptr target="https://link.aps.org/doi/10.1103/PhysRevB.90.205133"></ptr>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">90</biblscope>
+<biblscope unit="page">205133</biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Mukherjee, N. D. Patel, S. Dong, S. Johnston, A. Moreo, E. Dagotto, Testing the Monte Carlo- mean field approximation in the one-band Hubbard model, Phys. Rev. B 90 (2014) 205133. doi:10.1103/ PhysRevB.90.205133. URL https://link.aps.org/doi/10.1103/PhysRevB. 90.205133</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">Charge-Fluctuation-Induced Superconducting State in Two-Dimensional Quarter-Filled Electron Systems</title>
+<author>
+<persname><forename type="first">A</forename><surname>Kobayashi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Tanaka</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Ogata</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Suzumura</surname></persname>
+</author>
+<idno type="DOI">10.1143/JPSJ.73.1115</idno>
+<ptr target="https://doi.org/10.1143/JPSJ.73.1115"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Physical Society of Japan</title>
+<imprint>
+<biblscope unit="volume">73</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="1115" to="1118" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">A. Kobayashi, Y. Tanaka, M. Ogata, Y. Suzu- mura, Charge-Fluctuation-Induced Superconducting State in Two-Dimensional Quarter-Filled Electron Sys- tems, Journal of the Physical Society of Japan 73 (5) (2004) 1115-1118. doi:10.1143/JPSJ.73.1115. URL https://doi.org/10.1143/JPSJ.73.1115</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<monogr>
+<ptr target="http://cmsi.github.io/MateriAppsLive/"></ptr>
+<title level="m">MateriApps LIVE!: an environment for computational materials science</title>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">MateriApps LIVE!: an environment for compu- tational materials science., http://cmsi.github.io/ MateriAppsLive/.</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">MateriApps LIVE! and MateriApps Installer: Environment for starting and scaling up materials science simulations</title>
+<author>
+<persname><forename type="first">Y</forename><surname>Motoyama</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Yoshimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kato</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Todo</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.softx.2022.101210</idno>
+<ptr target="https://www.sciencedirect.com/science/article/pii/S2352711022001285"></ptr>
+</analytic>
+<monogr>
+<title level="j">SoftwareX</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope unit="page">101210</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Y. Motoyama, K. Yoshimi, T. Kato, S. Todo, MateriApps LIVE! and MateriApps Installer: En- vironment for starting and scaling up materials science simulations, SoftwareX 20 (2022) 101210. doi:10.1016/j.softx.2022.101210. URL https://www.sciencedirect.com/science/ article/pii/S2352711022001285</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<monogr>
+<ptr target="https://github.com/wistaria/MateriAppsInstaller"></ptr>
+<title level="m">MateriApps Installer: a script collection for installation of computational materials science programs</title>
+<imprint></imprint>
+</monogr>
+<note type="raw_reference">MateriApps Installer: a script collection for installation of computational materials science programs., https: //github.com/wistaria/MateriAppsInstaller.</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Statistical-mechanical theory of irreversible processes. I. General theory and simple applications to magnetic and conduction problems</title>
+<author>
+<persname><forename type="first">R</forename><surname>Kubo</surname></persname>
+</author>
+<idno type="DOI">10.1143/JPSJ.12.570</idno>
+<idno>doi:</idno>
+<ptr target="https://doi.org/10.1143/JPSJ.12.570"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Physical Society of Japan</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="570" to="586" unit="page"></biblscope>
+<date type="published" when="1957">1957</date>
+</imprint>
+</monogr>
+<note type="raw_reference">R. Kubo, Statistical-mechanical theory of irreversible processes. I. General theory and simple applications to magnetic and conduction problems, Journal of the Physical Society of Japan 12 (6) (1957) 570- 586. arXiv:https://doi.org/10.1143/JPSJ.12.570, doi:10.1143/JPSJ.12.570. URL https://doi.org/10.1143/JPSJ.12.570</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">The effect of electron-electron interaction on the nuclear spin relaxation in metals</title>
+<author>
+<persname><forename type="first">T</forename><surname>Moriya</surname></persname>
+</author>
+<idno type="DOI">10.1143/JPSJ.18.516</idno>
+<idno>doi:</idno>
+<ptr target="https://doi.org/10.1143/JPSJ.18.516"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Physical Society of Japan</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="516" to="520" unit="page"></biblscope>
+<date type="published" when="1963">1963</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Moriya, The effect of electron-electron interaction on the nuclear spin relaxation in metals, Journal of the Physical Society of Japan 18 (4) (1963) 516- 520. arXiv:https://doi.org/10.1143/JPSJ.18.516, doi:10.1143/JPSJ.18.516. URL https://doi.org/10.1143/JPSJ.18.516</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">Analysis of nuclear relaxation experiments in high Tc oxides based on Mila-Rice Hamiltonian</title>
+<author>
+<persname><forename type="first">T</forename><surname>Imai</surname></persname>
+</author>
+<idno type="DOI">10.1143/JPSJ.59.2508</idno>
+<idno>doi:</idno>
+<ptr target="https://doi.org/10.1143/JPSJ.59.2508"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Physical Society of Japan</title>
+<imprint>
+<biblscope unit="volume">59</biblscope>
+<biblscope unit="issue">7</biblscope>
+<biblscope from="2508" to="2521" unit="page"></biblscope>
+<date type="published" when="1990">1990</date>
+</imprint>
+</monogr>
+<note type="raw_reference">T. Imai, Analysis of nuclear relaxation experiments in high Tc oxides based on Mila-Rice Hamiltonian, Journal of the Physical Society of Japan 59 (7) (1990) 2508- 2521. arXiv:https://doi.org/10.1143/JPSJ.59.2508, doi:10.1143/JPSJ.59.2508. URL https://doi.org/10.1143/JPSJ.59.2508</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">Interactioninduced quantum spin Hall insulator in the organic Dirac electron system α-(BEDT-TSeF) 2 I 3</title>
+<author>
+<persname><forename type="first">D</forename><surname>Ohki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Yoshimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Kobayashi</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevB.105.205123</idno>
+<ptr target="https://link.aps.org/doi/10.1103/PhysRevB.105.205123"></ptr>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. B</title>
+<imprint>
+<biblscope unit="volume">105</biblscope>
+<biblscope unit="page">205123</biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">D. Ohki, K. Yoshimi, A. Kobayashi, Interaction- induced quantum spin Hall insulator in the organic Dirac electron system α-(BEDT-TSeF) 2 I 3 , Phys. Rev. B 105 (2022) 205123. doi:10.1103/PhysRevB.105. 205123. URL https://link.aps.org/doi/10.1103/PhysRevB. 105.205123</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Solving the Eliashberg equations by means of N -point Padé approximants</title>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">J</forename><surname>Vidberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">W</forename><surname>Serene</surname></persname>
+</author>
+<idno type="DOI">10.1007/BF00655090</idno>
+<ptr target="https://doi.org/10.1007/BF00655090"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Low Temperature Physics</title>
+<imprint>
+<biblscope unit="volume">29</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="179" to="192" unit="page"></biblscope>
+<date type="published" when="1977">1977</date>
+</imprint>
+</monogr>
+<note type="raw_reference">H. J. Vidberg, J. W. Serene, Solving the Eliashberg equations by means of N -point Padé approximants, Journal of Low Temperature Physics 29 (3) (1977) 179- 192. doi:10.1007/BF00655090. URL https://doi.org/10.1007/BF00655090</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Conserving approximations for strongly fluctuating electron systems. I. Formalism and calculational approach</title>
+<author>
+<persname><forename type="first">N</forename><surname>Bickers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Scalapino</surname></persname>
+</author>
+<idno type="DOI">10.1016/0003-4916(89)90359-X</idno>
+<ptr target="https://www.sciencedirect.com/science/article/pii/000349168990359X"></ptr>
+</analytic>
+<monogr>
+<title level="j">Annals of Physics</title>
+<imprint>
+<biblscope unit="volume">193</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="206" to="251" unit="page"></biblscope>
+<date type="published" when="1989">1989</date>
+</imprint>
+</monogr>
+<note type="raw_reference">N. Bickers, D. Scalapino, Conserving approxima- tions for strongly fluctuating electron systems. I. Formalism and calculational approach, Annals of Physics 193 (1) (1989) 206-251. doi:https: //doi.org/10.1016/0003-4916(89)90359-X. URL https://www.sciencedirect.com/science/ article/pii/000349168990359X</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<analytic>
+<title level="a" type="main">Conserving approximations for strongly correlated electron systems: Bethe-Salpeter equation and dynamics for the two-dimensional Hubbard model</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">E</forename><surname>Bickers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Scalapino</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">R</forename><surname>White</surname></persname>
+</author>
+<idno type="DOI">10.1103/PhysRevLett.62.961</idno>
+<ptr target="https://link.aps.org/doi/10.1103/PhysRevLett.62.961"></ptr>
+</analytic>
+<monogr>
+<title level="j">Phys. Rev. Lett</title>
+<imprint>
+<biblscope unit="volume">62</biblscope>
+<biblscope from="961" to="964" unit="page"></biblscope>
+<date type="published" when="1989">1989</date>
+</imprint>
+</monogr>
+<note type="raw_reference">N. E. Bickers, D. J. Scalapino, S. R. White, Conserving approximations for strongly correlated electron sys- tems: Bethe-Salpeter equation and dynamics for the two-dimensional Hubbard model, Phys. Rev. Lett. 62 (1989) 961-964. doi:10.1103/PhysRevLett.62.961. URL https://link.aps.org/doi/10.1103/ PhysRevLett.62.961</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">Enhanced spin susceptibility toward the charge-ordering transition in a two-dimensional extended Hubbard model</title>
+<author>
+<persname><forename type="first">K</forename><surname>Yoshimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kato</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Maebashi</surname></persname>
+</author>
+<idno type="DOI">10.1143/JPSJ.78.104002</idno>
+<idno>doi:10.1143/JPSJ.78.104002</idno>
+<ptr target="https://doi.org/10.1143/JPSJ.78.104002"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Physical Society of Japan</title>
+<imprint>
+<biblscope unit="volume">78</biblscope>
+<biblscope unit="issue">10</biblscope>
+<biblscope unit="page">104002</biblscope>
+<date type="published" when="2009">2009</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Yoshimi, T. Kato, H. Maebashi, Enhanced spin susceptibility toward the charge-ordering transition in a two-dimensional extended Hubbard model, Jour- nal of the Physical Society of Japan 78 (10) (2009) 104002. arXiv:https://doi.org/10.1143/JPSJ.78. 104002, doi:10.1143/JPSJ.78.104002. URL https://doi.org/10.1143/JPSJ.78.104002</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">Fermi surface deformation near charge-ordering transition</title>
+<author>
+<persname><forename type="first">K</forename><surname>Yoshimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Kato</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Maebashi</surname></persname>
+</author>
+<idno type="DOI">10.1143/JPSJ.80.123707</idno>
+<idno>doi:10.1143/JPSJ.80.123707</idno>
+<ptr target="https://doi.org/10.1143/JPSJ.80.123707"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Physical Society of Japan</title>
+<imprint>
+<biblscope unit="volume">80</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope unit="page">123707</biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Yoshimi, T. Kato, H. Maebashi, Fermi surface deformation near charge-ordering transition, Journal of the Physical Society of Japan 80 (12) (2011) 123707. arXiv:https://doi.org/10.1143/JPSJ.80. 123707, doi:10.1143/JPSJ.80.123707. URL https://doi.org/10.1143/JPSJ.80.123707</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">Coulomb frustrated phase separation in quasi-two-dimensional organic conductors on the verge of charge ordering</title>
+<author>
+<persname><forename type="first">K</forename><surname>Yoshimi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Maebashi</surname></persname>
+</author>
+<idno type="DOI">10.1143/JPSJ.81.063003</idno>
+<idno>doi:10.1143/JPSJ.81.063003</idno>
+<ptr target="https://doi.org/10.1143/JPSJ.81.063003"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of the Physical Society of Japan</title>
+<imprint>
+<biblscope unit="volume">81</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope unit="page">63003</biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">K. Yoshimi, H. Maebashi, Coulomb frustrated phase separation in quasi-two-dimensional organic conduc- tors on the verge of charge ordering, Journal of the Physical Society of Japan 81 (6) (2012) 063003. arXiv:https://doi.org/10.1143/JPSJ.81. 063003, doi:10.1143/JPSJ.81.063003. URL https://doi.org/10.1143/JPSJ.81.063003</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

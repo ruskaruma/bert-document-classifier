@@ -1,0 +1,2639 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Winter wet-dry weather patterns driving atmospheric rivers and Santa Ana winds provide evidence for increasing wildfire hazard in California</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2022-07-17">17 July 2022</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author role="corresp">
+<persname><forename type="first">Kristen</forename><surname>Guirguis</surname></persname>
+<email>kguirguis@ucsd.edu</email>
+<idno type="ORCID">0000-0002-5274-0225</idno>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, University of California, San Diego, 9500 Gilman Drive, 0224, La Jolla, CA 92093, USA</note>
+<orgname type="department">Scripps Institution of Oceanography</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>San Diego, 9500 Gilman Drive, 0224, La Jolla</addrline>
+<postcode>92093</postcode>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Alexander</forename><surname>Gershunov</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, University of California, San Diego, 9500 Gilman Drive, 0224, La Jolla, CA 92093, USA</note>
+<orgname type="department">Scripps Institution of Oceanography</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>San Diego, 9500 Gilman Drive, 0224, La Jolla</addrline>
+<postcode>92093</postcode>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Benjamin</forename><surname>Hatchett</surname></persname>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Desert Research Institute, Reno, NV, USA</note>
+<orgname type="institution">Desert Research Institute</orgname>
+<address>
+<settlement>Reno</settlement>
+<region>NV</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Tamara</forename><surname>Shulgina</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, University of California, San Diego, 9500 Gilman Drive, 0224, La Jolla, CA 92093, USA</note>
+<orgname type="department">Scripps Institution of Oceanography</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>San Diego, 9500 Gilman Drive, 0224, La Jolla</addrline>
+<postcode>92093</postcode>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Michael</forename><forename type="middle">J</forename><surname>Deflorio</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, University of California, San Diego, 9500 Gilman Drive, 0224, La Jolla, CA 92093, USA</note>
+<orgname type="department">Scripps Institution of Oceanography</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>San Diego, 9500 Gilman Drive, 0224, La Jolla</addrline>
+<postcode>92093</postcode>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Aneesh</forename><forename type="middle">C</forename><surname>Subramanian</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> University of Colorado Boulder, Boulder, CO, USA</note>
+<orgname type="institution">University of Colorado Boulder</orgname>
+<address>
+<settlement>Boulder</settlement>
+<region>CO</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Janin</forename><surname>Guzman-Morales</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, University of California, San Diego, 9500 Gilman Drive, 0224, La Jolla, CA 92093, USA</note>
+<orgname type="department">Scripps Institution of Oceanography</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>San Diego, 9500 Gilman Drive, 0224, La Jolla</addrline>
+<postcode>92093</postcode>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Rosana</forename><surname>Aguilera</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, University of California, San Diego, 9500 Gilman Drive, 0224, La Jolla, CA 92093, USA</note>
+<orgname type="department">Scripps Institution of Oceanography</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>San Diego, 9500 Gilman Drive, 0224, La Jolla</addrline>
+<postcode>92093</postcode>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Rachel</forename><surname>Clemesha</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, University of California, San Diego, 9500 Gilman Drive, 0224, La Jolla, CA 92093, USA</note>
+<orgname type="department">Scripps Institution of Oceanography</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>San Diego, 9500 Gilman Drive, 0224, La Jolla</addrline>
+<postcode>92093</postcode>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Thomas</forename><forename type="middle">W</forename><surname>Corringham</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, University of California, San Diego, 9500 Gilman Drive, 0224, La Jolla, CA 92093, USA</note>
+<orgname type="department">Scripps Institution of Oceanography</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>San Diego, 9500 Gilman Drive, 0224, La Jolla</addrline>
+<postcode>92093</postcode>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Luca</forename><surname>Delle Monache</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, University of California, San Diego, 9500 Gilman Drive, 0224, La Jolla, CA 92093, USA</note>
+<orgname type="department">Scripps Institution of Oceanography</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>San Diego, 9500 Gilman Drive, 0224, La Jolla</addrline>
+<postcode>92093</postcode>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">David</forename><surname>Reynolds</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> University of Colorado Boulder, Boulder, CO, USA</note>
+<orgname type="institution">University of Colorado Boulder</orgname>
+<address>
+<settlement>Boulder</settlement>
+<region>CO</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Alex</forename><surname>Tardy</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> U.S. National Weather Service, San Diego, CA, USA</note>
+<orgname type="institution">U.S. National Weather Service</orgname>
+<address>
+<settlement>San Diego</settlement>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Ivory</forename><surname>Small</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> U.S. National Weather Service, San Diego, CA, USA</note>
+<orgname type="institution">U.S. National Weather Service</orgname>
+<address>
+<settlement>San Diego</settlement>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">Martin</forename><surname>Ralph</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> Scripps Institution of Oceanography, University of California, San Diego, 9500 Gilman Drive, 0224, La Jolla, CA 92093, USA</note>
+<orgname type="department">Scripps Institution of Oceanography</orgname>
+<orgname type="institution">University of California</orgname>
+<address>
+<addrline>San Diego, 9500 Gilman Drive, 0224, La Jolla</addrline>
+<postcode>92093</postcode>
+<region>CA</region>
+<country key="US">USA</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Winter wet-dry weather patterns driving atmospheric rivers and Santa Ana winds provide evidence for increasing wildfire hazard in California</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2022-07-17">17 July 2022</date>
+</imprint>
+</monogr>
+<idno type="MD5">FE34644B8D57C0A90E95D3148DF3604C</idno>
+<idno type="DOI">10.1007/s00382-022-06361-7</idno>
+<note type="submission">Received: 7 September 2021 / Accepted: 25 May 2022 /</note>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-08-30T11:49+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>Floods caused by atmospheric rivers and wildfires fanned by Santa Ana winds are common occurrences in California with devastating societal impacts.</s><s>In this work, we show that winter weather variability in California, including the occurrence of extreme and impactful events, is linked to four atmospheric circulation regimes over the North Pacific Ocean previously named and identified as the "NP4 modes".</s><s>These modes come in and out of phase with each other during the season, resulting in distinct weather patterns that recur throughout the historical record.</s><s>Some phase combinations favor atmospheric river landfalls and extreme daily or multi-day precipitation, while other phase combinations favor anomalously hot weather and drying Santa Ana wind conditions over Southern California.</s><s>This historical perspective of atmospheric circulation and impacts over 70 years reveals that weather patterns are changing in a way that enhances wildfire hazard in California, while the frequency of weather patterns linked to historical floods is not diminishing.</s><s>These changes highlight the rising hazards of cascading weather extremes in California's present and future.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Extreme winter weather variability in California is largely driven by the interplay between onshore landfalling atmospheric rivers and offshore downslope winds that bring desiccating desert conditions often associated with coastal heat and sometimes spreading wildfire.</s><s>Atmospheric rivers (ARs) are narrow filaments of concentrated atmospheric water vapor that can bring extreme orographically-enhanced precipitation during fall and winter.</s><s>While critical for California's water resources, ARs are also the major cause of historical riverine floods <ref target="#b59" type="bibr">(Ralph et al. 2006</ref><ref target="#b60" type="bibr">(Ralph et al. , 2011;;</ref><ref target="#b12" type="bibr">Corringham et al. 2019)</ref>.</s><s>Downslope Santa Ana winds (SAWs) are characteristically hot, dry, offshore winds that bring fire weather to coastal and inland Southern California <ref target="#b2" type="bibr">(Abatzoglou et al. 2021)</ref>.</s><s>SAWs are linked with Southern California's most destructive wildfires <ref target="#b78" type="bibr">(Westerling et al. 2004;</ref><ref target="#b48" type="bibr">Moritz et al. 2010;</ref><ref target="#b42" type="bibr">Kolden and Abatzoglou 2018;</ref><ref target="#b23" type="bibr">Gershunov et al. 2021)</ref>.</s><s>Typically, the SAW season begins in fall and peaks in December (Guzman <ref target="#b32" type="bibr">Morales et al. 2016)</ref>.</s><s>The timing of offshore winds relative to ARs is an important factor for hazardous wildfires in California, where the risk of a destructive wildfire is enhanced if a strong offshore wind event such as a SAW-or their northern California counterpart the Diablo wind <ref target="#b2" type="bibr">(Abatzoglou et al. 2021</ref>)-occurs before the first fall or winter rains when fuel moisture is at its climatological minimum.</s><s>ARs and downslope winds are driven by certain recurring weather patterns over and offshore of western North America that favor onshore or offshore flow over California, respectively (e.g.</s><s><ref target="#b58" type="bibr">Ralph et al. 2004;</ref><ref target="#b51" type="bibr">Neiman et al 2008;</ref><ref target="#b26" type="bibr">Guirguis et al. 2018;</ref><ref target="#b38" type="bibr">Hughes and Hall 2010;</ref><ref target="#b0" type="bibr">Abatzoglou et al. 2013;</ref><ref target="#b32" type="bibr">Guzman Morales et al. 2016)</ref>.</s><s>Both flow regimes have important implications for California's land and water resources and pose hazards to life and property.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">3<p><s>Previous studies have demonstrated the importance of certain atmospheric circulation patterns in driving AR landfalls over California and western North America.</s><s>AR landfalls are often associated with a ridge situated over/near Alaska (~ 160°W) with a trough to the southeast and a strong pressure gradient that channels marine moisture toward the coast (e.g.</s><s><ref target="#b77" type="bibr">Weaver 1962;</ref><ref target="#b70" type="bibr">Strobin and Reynolds 1995;</ref><ref target="#b58" type="bibr">Ralph et al. 2004;</ref><ref target="#b51" type="bibr">Neiman et al 2008;</ref><ref target="#b26" type="bibr">Guirguis et al. 2018</ref><ref target="#b27" type="bibr">Guirguis et al. , 2019</ref><ref type="bibr">Guirguis et al. , 2020a))</ref>.</s><s>The position, strength, and orientation of these circulation features relative to coastal topography modulate the landfall location as well as the amount and spatial distribution of moisture transport and precipitation <ref target="#b51" type="bibr">(Neiman et al. 2008;</ref><ref target="#b49" type="bibr">Mundhenk et al. 2016;</ref><ref target="#b73" type="bibr">Swales et al. 2016;</ref><ref target="#b35" type="bibr">Hecht and Cordeira 2017;</ref><ref target="#b37" type="bibr">Hu et al.. 2017;</ref><ref target="#b27" type="bibr">Guirguis et al. 2019)</ref>.</s><s>ARs have also been linked to extratropical cyclones and closed low pressure systems <ref target="#b53" type="bibr">(Oakley et al. 2017;</ref><ref target="#b79" type="bibr">Zhang et al. 2019)</ref>.</s></p><p><s>SAWs are associated with anomalous surface high pressure centered over the interior Great Basin driving anticyclonic flow through complex terrain bringing strong, dry easterly/northeasterly downslope winds to Southern California <ref target="#b38" type="bibr">(Hughes and Hall 2010;</ref><ref target="#b0" type="bibr">Abatzoglou et al. 2013;</ref><ref target="#b32" type="bibr">Guzman Morales et al. 2016</ref>).</s><s>These winds warm by adiabatic compression as air flows from above the elevated Great Basin, ascends over the 3000 m high Transverse and Peninsular Ranges or is funneled through mountain passes and ultimately descends down to sea level.</s><s>This warming leads to coastal heat waves in the fall, winter and spring <ref target="#b23" type="bibr">(Gershunov et al. 2021</ref>).</s><s>The associated hot, dry, and windy conditions during periods of low fuel moisture in fire-prone ecosystems creates substantial fire hazard in wildland and adjacent communities.</s><s>Harmful health impacts associated with SAWdriven heat waves <ref target="#b66" type="bibr">(Schwarz et al. 2020</ref>) and wildfire smoke <ref target="#b3" type="bibr">(Aguilera et al. 2020</ref><ref target="#b4" type="bibr">(Aguilera et al. , 2021) )</ref> have also been reported.</s><s>While all SAWs warm adiabatically, they do not always produce heat waves at the coast.</s><s>Hot and cold SAWs result from distinctly different synoptic dynamics and Great Basin land surface conditions <ref target="#b23" type="bibr">(Gershunov et al. 2021)</ref>.</s><s>All SAWs involve a surface high pressure over the northeastern Great Basin, which develops in association with a blocking high aloft in the case of hot SAWs and with Rossby wave breaking in the wake of transient cold frontal cyclones in the case of cold SAWs; the latter are also associated with anomalous positive snow cover in the Great Basin <ref target="#b23" type="bibr">(Gershunov et al. 2021)</ref>.</s><s>Southern California wildfires are preferentially spread by hot SAWs <ref target="#b23" type="bibr">(Gershunov et al. 2021)</ref>.</s></p><p><s>Typically, the interplay between ARs, SAWs, extreme precipitation, and wildfires is thought of as a situation where one extreme (ARs) is the remedy or prevention of the other extreme (wildfires).</s><s>However, when ARs occur following wildfires, they can cause deadly and damaging post-fire debris flows or flash flooding over burn scars if short-duration, high intensity rainfall occurs <ref target="#b53" type="bibr">(Oakley et al. 2017</ref><ref target="#b54" type="bibr">(Oakley et al. , 2018))</ref>, compounding the original impacts of wildfire.</s><s>Here, we show that ARs and SAWs are more closely linked than previously discovered through interacting synoptic-scale atmospheric circulation regimes.</s><s>Specifically, we demonstrate how four key circulation regimes over the North Pacific Ocean ("North Pacific Modes" or "NP4 modes"), identified and described in previous work <ref type="bibr">(Guirguis et al. 2020a, hereinafter GGR'20)</ref>, interact on daily timescales to produce recurring, regionally-important weather patterns responsible for impactful weather in California and along the West Coast.</s><s>These four circulation regimes (shown in Fig. <ref type="figure">1a</ref>) are known as the Baja-Pacific (BP), Alaskan-Pacific (AP) Canadian-Pacific (CP), and Offshore-California (OC) modes.</s><s>The NP4 modes share characteristics with established, well-known teleconnections identified in previous work.</s><s>For example, the Alaskan-Pacific and Canadian-Pacific modes are related to the well-known East Pacific Oscillation (EPO) and Pacific North American (PNA) Pattern, respectively (GGR'20), which were first identified in <ref target="#b8" type="bibr">Barnston and Livezey (1987)</ref>.</s><s>Other studies aiming to identify circulation regimes over this region have found similar patterns (e.g.</s><s><ref target="#b69" type="bibr">Straus et al. 2007;</ref><ref type="bibr">Amini and Strauss 2019;</ref><ref target="#b25" type="bibr">Gibson et al. 2020)</ref>.</s></p><p><s>The NP4 modes represent four winter teleconnections identified by the preferred position of atmospheric ridges and troughs over the North Pacific Ocean and along the West Coast.</s><s>As these modes fluctuate, they can shift in-or out-of-phase with each other on a given day, and seasonally they exhibit a strong tendency to persist in one phase over the other (GGR'20).</s><s>The joint phase combination of the NP4 modes has been shown to strongly modulate coastal water vapor transport, AR landfalls, and California precipitation, and has been linked to historical floods <ref type="bibr">(GGR'20)</ref>.</s><s>In this study, we extend the relevance of the NP4 mode interactions to other types of extreme weather events and their consequences, including SAWs and historical wildfires, and show how these interactions produce distinct weather patterns that recur throughout the historical record.</s><s>We focus mostly on the interplay between ARs and SAWs (and associated floods and wildfires), but also discuss heat waves, cold extremes, and snowpack accumulation.</s></p><p><s>We first classify and describe the dominant, recurring weather patterns impacting California and the western US during the extended winter season (Nov-Feb; Sect.</s><s>3).</s><s>We then identify those weather patterns associated with ARs, extreme precipitation, and historical floods (Sect.</s><s>4) and those associated with Santa Ana winds and wildfires (Sect.</s><s>5).</s><s>In Sect.</s><s>6, we diagnose and explain observed trends in weather pattern frequency and discuss the implications for wildfire hazard and water resources.</s><s>Finally, we provide a summary and discuss the implications for resource and emergency management, subseasonal-to-seasonal (S2S) forecasting, and climate change (Sect.</s><s>7).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">3 2 Data and methods</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Time period of study<p><s>Our time period of study spans 1949-2021.</s><s>However, some variables have shorter records due to data availability.</s><s>The season of focus is extended winter (November-February; hereafter winter) to coincide with the NP4 dataset (described in Sect.</s><s>2.8), and which is also the part of the season most active with respect to both AR activity and SAW activity in California <ref target="#b21" type="bibr">(Gershunov et al. 2017, and</ref><ref type="bibr">Guzman-Morales and</ref><ref type="bibr">Gershunov 2019, respectively)</ref>.</s><s>We note the focus on extended winter omits many of the most destructive SAW events occurring in the early fall.</s><s>However, winter SAWs do pose substantial fire hazard when they occur before the first seasonal rain or during drought years.</s><s>For example, the Thomas Fire, fanned by successive SAWs, burned through most of December of 2017 and into January 2018 to become (for a time) the biggest wildfire in California history.</s></p><p><s>Fig. <ref type="figure">1</ref> a The four North Pacific atmospheric teleconnection patterns (NP4 modes) defined and described in GGR'20 shown here in the phase most associated with wet conditions over California (defined as the positive phase as in GGR'20).</s><s>The color scale gives the temporal correlation (r) between each teleconnection pattern and the standard-ized Z500 anomalies at each grid cell (b) locations where more than 50% of Z500 variance is explained by one of the NP4 modes using linear regression with r 2 &gt; 0.5, c total Z500 variance explained by the joint NP4 modes using multiple linear regression.</s><s><ref type="figure">Figures (a,</ref><ref type="figure">c</ref>) are adapted from GGR'20</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Atmospheric variables<p><s>Daily 500 mb geopotential height (Z500) and wind fields for the period spanning Nov-Feb 1949-2021 are from NCEP/NCAR 2.5° global reanalysis <ref target="#b40" type="bibr">(Kalnay et al. 1996)</ref>.</s><s>Daily anomalies were calculated relative to the annual/semiannual seasonal cycle fit using least squares regression.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Atmospheric river detection and AR intensity scale<p><s>The SIO-R1 catalog of <ref target="#b21" type="bibr">Gershunov et al. (2017)</ref> is used to identify landfalling ARs along the coast of western North America.</s><s>The detection method uses threshold criteria for 6-hourly integrated water vapor (IWV &gt; 15 mm) and integrated vapor transport (IVT &gt; 250 kg m -1 s -1 ) to identify elongated objects of high moisture content that intersect the coast.</s><s>The AR scale of <ref target="#b61" type="bibr">Ralph et al. (2019)</ref> is used to categorize the magnitude of storms.</s><s>This 5-scale classification is based on IVT magnitude and duration where the scale 1-5 describes ARs as weak, moderate, strong, extreme, and exceptional, respectively.</s><s>AR scales 1-2 are mostly beneficial providing needed precipitation without damage, whereas AR scales 4-5 are mostly hazardous with peak IVT in the range of 750 to more than 1250 kg m -1 s -1 .</s><s>Flood damages in the western U.S. increase exponentially with the AR scale <ref target="#b12" type="bibr">(Corringham et al. 2019)</ref>.</s><s>The SIO-RI AR catalog is available at https:// wecli ma.</s><s>ucsd.</s><s>edu/ data-produ cts/.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Santa Ana winds<p><s>Historical SAW events are identified using the daily Santa Ana Winds Regional Index (SAWRI) of Guzman <ref target="#b32" type="bibr">Morales et al. 2016</ref>.</s><s>This data product is based on 65 years of hourly data from the dynamically downscaled CaRD10 dataset (Kanamitsu and Kanamaru 2007) and validated against station observations.</s><s>This study uses the updated daily version of Guzman- <ref target="#b31" type="bibr">Morales and Gershunov (2019)</ref>.</s><s>The SAWRI methodology identifies SAWs at each grid cell if certain surface wind conditions are met (wind speeds exceeding the local 75th percentile with a northerly to easterly direction).</s><s>Then, a regional SAW index is provided by averaging local SAW conditions over a region of concurrent northeasterly strong winds that expands from the leeside of the transversal and peninsular mountain ranges to the low-elevation coastal region of Southern California.</s><s>The SAWRI dataset is available at https:// wecli ma.</s><s>ucsd.</s><s>edu/ data-produ cts/.</s><s>In this study we define moderate (extreme) SAWs as those exceeding the 50th (90 th ) percentile in the SAWRI record.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Historical temperature and precipitation<p><s>Daily precipitation and maximum temperature (Tmax) data are from <ref target="#b46" type="bibr">Livneh et al. (2013</ref><ref target="#b47" type="bibr">Livneh et al. ( , 2015))</ref>, which is a gridded data product available at a 1/16° spatial resolution over the period 1950-2015 (available at https:// clima tedat aguide.</s><s>ucar.</s><s>edu/ clima te-data).</s><s>The source data are from approximately 20,000 stations in the Global Historical Climatology Network (GHCN).</s><s>Extreme precipitation is defined as daily accumulation above the 95th percentile.</s><s>Heat waves (cold extremes) are defined following <ref target="#b20" type="bibr">Gershunov and Guirguis (2012)</ref> as daily temperatures persisting for at least one day above the 95th (below the 5th) percentile after removing the seasonal cycle.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Sierra Nevada snowpack<p><s>We use monthly snow water equivalent data from a single snow course in the Northern Sierra Nevada.</s><s>Specifically, we selected Donner Summit (39.3°</s><s>N, -120.3°</s><s>W, elevation 2100 m, station ID 20K10) from the Natural Resources Conservation Service (https:// wcc.</s><s>sc.</s><s>egov.</s><s>usda.</s><s>gov/ nwcc/ rgrpt?</s><s>report= snowc ourse &amp; state= CA).</s><s>This location sits at the intersection of three key headwater regions (Yuba, Truckee, and American Rivers) involved in managing California and Nevada water resources.</s><s>The Donner Summit snow course has a long (1913-2021) and complete record.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Wildfire<p><s>Wildfire information is from the California Fire Protection's Fire and Resource Assessment Program (FRAP) fire perimeters database (https:// frap.</s><s>fire.</s><s>ca.</s><s>gov/ frap-proje cts/ fireperim eters/).</s><s>We focus on fire start dates for historical wildfires with burn sizes exceeding 1000 acres in the Southern California (SoCal) counties of Santa Barbara, Ventura, Los Angeles, Orange, Riverside, San Bernardino, and San Diego.</s></p><p><s>Our sample includes 76 wildfires spanning 1949-2018, with most occurring in November (n = 40) or December (n = 21).</s></p><p><s>As mentioned above, most wildfires in California occur in October, which is outside of our extended winter focus season.</s><s>However, the wildfire season can and does extend into winter during drought years or when delayed rains extend dry vegetation into the peak of SAW season.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">North Pacific atmospheric circulation regimes<p><s>We use daily amplitudes of four North Pacific atmospheric circulation regimes (NP4 modes), which were identified and shown to be essential drivers of vapor transport and AR activity along the coast of western North America by <ref type="bibr">Guirguis et al. (2018, hereinafter GGR'18)</ref> and GGR'20.</s><s>These four modes are named according to their geographic centers of action: Baja-Pacific (BP), Alaskan-Pacific (AP), Canadian-Pacific (CP), and Offshore-California (OC) modes.</s><s>The NP4 modes were identified using rotated Empirical Orthogonal Function (EOF) analysis applied to Z500 anomaly fields over a large domain spanning the northern Pacific Ocean and western North America.</s><s>While the NP4 modes are not the most important in terms of field variance (i.e., they correspond to higher-order rotated principal components), they were found to be the most important modes for coastal IVT, AR landfalls, and extreme precipitation in California <ref type="bibr">(GGR'18,</ref><ref type="bibr">GGR'20)</ref>.</s><s>The EOF loading patterns (maps) associated with the positive phase of each mode are shown in Fig. <ref type="figure">1a</ref>.</s><s>The portion of the domain where these modes are most influential is shown in Fig. <ref type="figure">1b,</ref><ref type="figure">c</ref>.</s><s>Specifically, Fig. <ref type="figure">1b</ref> shows the locations where one of the four modes is by itself responsible for more than 50% of the Z500 variance.</s><s>Figure <ref type="figure">1c</ref> shows the collective influence of the four modes, where we see that together these modes explain 25-90% variance in the portion of the domain most relevant for west coast weather.</s><s>The NP4 dataset used in this study is described in <ref target="#b29" type="bibr">Guirguis et al. (2020b)</ref> and is available at https:// doi.</s><s>org/ 10. 6075/ J0154 FJJ.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Weather regime classification<p><s>Daily weather regimes are classified based on the joint phase combination of the NP4 modes.</s><s>As the NP4 modes oscillate over the North Pacific, their daily interactions determine the position and strength of ridges and troughs along the coast of western North America.</s><s>Unique NP4 phase combinations result in distinct weather patterns that drive extreme weather in California (GGR'18 GGR'20).</s><s>On a given day, each of the four NP4 modes can be positive or negative, which yields 16 possible phase combinations, and 16 corresponding weather regimes (introduced and described in Sect.</s><s>3).</s><s>We use the terminology "weather pattern" and "weather regime" somewhat interchangeably.</s><s>"Weather pattern" is taken to mean the Z500 anomaly field itself while "weather regime" refers to the classification of that pattern.</s><s>A catalog of historical weather regimes observed over 1949-2017 is developed as an accompaniment to this publication <ref target="#b30" type="bibr">(Guirguis et al. 2022)</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">How the NP4 modes interact to produce distinct weather patterns<p><s>Examples of how the NP4 modes interact to produce distinct weather patterns are provided in Figs. <ref target="#fig_1" type="figure">3</ref> and<ref type="figure">4</ref> for 2016-2017 (a wet year) and 2020-2021 (a dry year), respectively (e.g.</s><s><ref target="#b1" type="bibr">Abatzoglou et al. 2017</ref>, https:// wrcc.</s><s>dri.</s><s>edu/ wwdt/).</s><s>Figure <ref target="#fig_1" type="figure">3</ref> shows the daily NP4 amplitudes (Fig. <ref target="#fig_1" type="figure">3a</ref>) and daily interactions (Fig. <ref target="#fig_1" type="figure">3b</ref>) for water year 2016-2017 (WY2017).</s><s>We highlight three events (December 7-16, January 3-11, and February 1-8) when the NP4 modes exhibited the same joint phase configuration (labeled E1, E2, and E3; Fig. <ref target="#fig_1" type="figure">3</ref>).</s><s>Specifically, during these three events the BP mode was positive (which favors a ridge over Baja California, c.f. Fig. <ref type="figure">1a</ref>), the AP mode was negative (favoring high pressure over Alaska), and the OC and CP modes were positive (favoring low pressure over western Canada and offshore from California, respectively).</s><s>This mode configuration results in the atmospheric circulation and IVT patterns shown in Fig. <ref target="#fig_1" type="figure">3c,</ref><ref type="figure">d</ref>, respectively.</s><s>This type of pattern (classified as WR10, see Fig. <ref target="#fig_0" type="figure">2</ref>) is associated with strong onshore flow, AR landfalls, and wet conditions over Central and Southern California with heavy precipitation over the Sierra Nevada.</s><s>In this example, the February 1-8 event highlights the Oroville Dam crisis <ref target="#b76" type="bibr">(Vahedifard et al. 2017</ref>) that resulted in the evacuation of over 180,000 people due to spillway damage from extreme runoff during intense and prolonged AR precipitation with high snow levels causing rain-on-snow.</s><s>These three events also produced flooding on the leeside of the Sierra Nevada <ref target="#b36" type="bibr">(Henn et al. 2020;</ref><ref target="#b68" type="bibr">Sterle et al. 2019)</ref>.</s></p><p><s>The second example is for WY 2021 (Fig. <ref type="figure">4</ref>).</s><s>Here we highlight three different events (November 1-4, November 27-December 8, and January 9-17) sharing a common NP4 phase combination.</s><s>For these events (labeled E4-E6), the BP and AP modes were positive (favoring a ridge over Baja California and a trough over Alaska, respectively, c.f. Fig. <ref type="figure">1a</ref>) and the CP and OC modes were negative (favoring high pressure over western Canada and offshore California, respectively).</s><s>This combination results in the atmospheric circulation (Fig. <ref type="figure">4c</ref>) and IVT patterns (Fig. <ref type="figure">4d</ref>), featuring anomalous onshore flow over British Columbia/Pacific Northwest and offshore flow over Southern California.</s><s>This pattern of circulation (classified as WR5, see Fig. <ref target="#fig_0" type="figure">2</ref>) is associated with ARs in the northern latitudes (Pacific Northwest/ British Columbia) and SAW conditions over Southern California.</s><s>The two longer events (E5 and E6) prompted Red Flag Warnings in Southern California along with large-scale public safety power shutoffs initiated by electric companies to prevent accidental ignitions by utility equipment <ref target="#b50" type="bibr">(Murphy 2021;</ref><ref target="#b11" type="bibr">Chediak and Sullivan 2021)</ref>.</s></p><p><s>Within a weather regime class, defined by the joint NP4 phase, the mode amplitudes can vary from nearly zero to very extreme.</s><s>These amplitude differences cause variability in the orientation and strength of influential circulation anomaly features, which directly affects the location and magnitude of associated impacts.</s><s>It follows that the impacts associated with each weather regime are considered in a probabilistic sense to account for this variability.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Impacts and circulation characteristics associated with each weather regime<p><s>Impacts associated with each weather regime are shown in Fig. <ref target="#fig_2" type="figure">5</ref> for AR landfall probabilities (a), precipitation anomalies (b), probability of extreme precipitation (c), and percent of total historical precipitation (d).</s><s>Additional impacts are shown in Fig. <ref target="#fig_3" type="figure">6</ref> for SAW probabilities (a), temperature anomalies (b), heat wave probabilities (c), and cold extreme probabilities (d).</s><s>The specific NP4 phase combination associated with each weather regime is shown in Figure <ref type="figure">S1</ref> and is also displayed as highlighted text in the lower left of each map in Fig. <ref target="#fig_0" type="figure">2</ref>. For all weather regimes shown in Fig. <ref target="#fig_0" type="figure">2</ref>, the salient ridge/trough features are well represented by the vast majority of days within each weather regime class.</s><s>For example, Figure <ref target="#fig_0" type="figure">S2</ref> shows the percent agreement among days within each sample in the sign of the Z500 anomaly, which reaches 94-100% for ridge/trough positions at the point of maximum overlap.</s></p><p><s>Weather regimes 1-6 feature a strong ridge positioned over/offshore western North America (Fig. <ref target="#fig_0" type="figure">2</ref>), creating atmospheric blocking conditions that produce dry weather over much of the western US, especially California (Fig. <ref target="#fig_2" type="figure">5b-d</ref>).</s><s>Offshore flow occurs over Southern California along the eastern boundary of the ridge, bringing elevated chances of SAW conditions (Fig. <ref target="#fig_3" type="figure">6a</ref>).</s><s>Four of these patterns (WR1, WR4, WR5 and WR6) favor warm temperatures, with an elevated chance of heat wave occurrence, whereas two patterns (WR2&amp;WR3) bring cold conditions (Fig. <ref target="#fig_3" type="figure">6b-d</ref>).</s><s>These warm and cold flavors of SAWs are consistent with <ref target="#b23" type="bibr">Gershunov et al. (2021)</ref>.</s><s>In the northern latitudes, WR 2-6 result in enhanced onshore flow along the northern/northwestern boundary of the ridge, bringing elevated AR probabilities for British Columbia and the Pacific Northwest (Fig. <ref target="#fig_2" type="figure">5a</ref>).</s><s>Weather regimes 7-12 bring wetter conditions to the western US coast (Fig. <ref target="#fig_2" type="figure">5</ref>) due to the position of an offshore trough that enhances transport of oceanic moisture over land (Fig. <ref target="#fig_0" type="figure">2</ref>).</s><s>Weather regimes 7-8 feature a trough positioned near the Pacific Northwest coastline.</s><s>The location of this trough is favorable to precipitation and AR landfalls over Oregon and Washington and into Northern California.</s><s>Weather regimes 9-10 feature a trough offshore California, which brings precipitation and AR landfalls over Central and Northern California.</s><s>For weather regimes 11-12, the trough is further equatorward, favoring a more southerly AR track with wet conditions centered over Southern California and penetrating into the interior Southwest.</s></p><p><s>Weather regimes 15-16 bring anomalous onshore flow over Baja California (Fig. <ref target="#fig_0" type="figure">2</ref>), with wet conditions into the Sonoran Desert region (Fig. <ref target="#fig_2" type="figure">5</ref>).</s><s>Concurrently, these weather patterns bring strong easterly/northeasterly flow to Northern California/Pacific Northwest along the eastern boundary of a ridge posited over Alaska or British Columbia.</s><s>Previous work has noted the link between ARs over Baja and inland penetration of moisture into the Desert Southwest <ref target="#b63" type="bibr">(Rutz and Steenburgh 2012;</ref><ref target="#b52" type="bibr">Neiman et al. 2013;</ref><ref target="#b39" type="bibr">Hughes et al. 2014;</ref><ref target="#b64" type="bibr">Rutz et al. 2014</ref><ref type="bibr">, Rutz et al. 2021;</ref><ref target="#b73" type="bibr">Swales et al. 2016;</ref><ref target="#b21" type="bibr">Gershunov et al. 2017)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Atmospheric rivers, extreme precipitation, and California water resources<p><s>The weather regimes responsible for most of California's total and extreme precipitation are WR9-12 (Fig. <ref target="#fig_2" type="figure">5c,</ref><ref type="figure">d</ref>).</s></p><p><s>WR9 is characterized by a deep and expansive trough centered over the Gulf of Alaska, with a ridge positioned over Southern California that helps to channel moisture towards Central and Northern California (Fig. <ref target="#fig_0" type="figure">2</ref>).</s><s>This weather pattern elevates AR probability threefold along the coast from Central California to the Pacific Northwest (Fig. <ref target="#fig_2" type="figure">5a</ref>) and brings a high probability of extreme precipitation (Fig. <ref target="#fig_2" type="figure">5c</ref>).</s><s>In Central and Northern California, by contributing upwards of 30% of annual precipitation, WR9 is the most important source of precipitation (Fig. <ref target="#fig_2" type="figure">5d</ref>).</s><s>WR10 is also vital for California water resources (Fig. <ref target="#fig_2" type="figure">5d</ref>) and is an important driver of AR landfalls (Fig. <ref target="#fig_2" type="figure">5a</ref>) and extreme precipitation (Fig. <ref target="#fig_2" type="figure">5c</ref>).</s><s>It is similar to WR9 in the position of the high and low pressure centers along the West Coast (Fig. <ref target="#fig_0" type="figure">2</ref>).</s><s>However, WR10 is characterized by a ridge over Alaska (negative phase of the Alaska-Pacific Mode) and a positively tilted trough that extends towards the tropics.</s><s>WR12 is similar to WR10, except it lacks the ridge over Southern California, which is an important distinction as its absence allows the trough to expand equatorward (Fig. <ref target="#fig_0" type="figure">2</ref>) bringing more AR activity and precipitation to Southern California (Fig. <ref target="#fig_2" type="figure">5</ref>).</s><s>WR11 is also impactful for Southern California, bringing a high probability of extreme precipitation when it occurs (Fig. <ref target="#fig_2" type="figure">5c</ref>), but it accounts for a smaller proportion of total SoCal precipitation (Fig. <ref target="#fig_2" type="figure">5d</ref>) due to the lower frequency of occurrence (i.e., WR11 is more transitory and is observed on 2% of days compared to 9% for WR12).</s></p><p><s>Figure <ref type="figure">7</ref> summarizes just how critical these weather patterns are to California precipitation extremes and water resources.</s><s>Collectively, while they account for only 25% of November-February days, they account for up to 72% of total precipitation and up to 80% of extreme precipitation for some locations in California (Fig. <ref type="figure">7a,</ref><ref type="figure">b</ref>).</s><s>Using the AR intensity scale of <ref target="#b61" type="bibr">Ralph et al. (2019)</ref>, we find that WR9 and WR10 are the primary synoptic weather patterns for the most intense and destructive ARs (AR scale 4 &amp; 5, Fig. <ref type="figure">7c</ref>).</s><s>WR9 and WR10 collectively account for approximately 50% of AR category 4 storms and more than 80% of AR category 5 storms impacting California.</s><s>Median flood damages associated with AR category 4 and 5 events are on the order of $20 million and $260 million, respectively <ref target="#b12" type="bibr">(Corringham et al. 2019)</ref>.</s></p><p><s>Previous work has shown how the presence or absence of one-to-three intense storms can make-or-break a water year <ref target="#b14" type="bibr">(Dettinger et al. 2011)</ref> or terminate a drought <ref target="#b13" type="bibr">(Dettinger 2013)</ref>, or prevent the onset of a megadrought <ref type="bibr">(Hatchett Fig. 4</ref> As in Fig. <ref target="#fig_1" type="figure">3</ref> but for WY2021.</s><s>Three events are identified (E4-E6) when the joint phase combination was the same: The Alaskan-Pacific and Baja-Pacific modes were positive and the Canadian-Pacific and Offshore-California modes were negative et al. 2016).</s><s>Our findings suggest that these make-or-break storms most likely carry synoptic signatures similar to WR9-12.</s><s>These few but large storms are important in building the Sierra Nevada snowpack that later melts and provides beneficial warm season water resources to meet human and ecological demands.</s><s>Figure <ref target="#fig_4" type="figure">8</ref> shows the relationship between the seasonal frequency of WR9-12 and interannual snowpack variability in the Northern Sierra Nevada, which demonstrates a very strong relationship between the number of days in a season that WR 9-12 were present and snow water equivalent (SWE) at Donner Summit on March 1.</s><s>The relationship is strong (p &lt; 0.001, r = 0.61) even though important details including precipitation itself or snowmelt events are not considered.</s><s>This analysis used only one in-situ  <ref type="figure">(c,</ref><ref type="figure">d</ref>) where some weather regimes bring high probabilities of extreme precipitation but are less common and thus do not contribute substantially to the total historical precipitation (e.g.</s><s>WR7 and WR11, see sample sizes in Fig. <ref target="#fig_0" type="figure">2</ref>) location and a stronger relationship could emerge using a more robust SWE dataset.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Historic California floods<p><s>We selected eight flood events to investigate from a weather regime perspective.</s><s>These historic events were selected because they have achieved notoriety for the amount of destruction they caused.</s><s>These are the floods of <ref type="bibr">December 1955</ref><ref type="bibr">, December 1964</ref><ref type="bibr">, January 1969</ref><ref type="bibr">, February 1986</ref><ref type="bibr">, January 1995</ref><ref type="bibr">, December/January 1996</ref><ref type="bibr">-97, February 2017</ref><ref type="bibr">, and February 2019.</ref></s><s>Figure <ref type="figure">9</ref> shows the IVT magnitude during AR landfalls at different latitudes along the coast during Nov-Feb for the eight seasons when these floods occurred, classified by weather regime.</s><s>For California latitudes (32.3-42º</s><s>N) we see that the most intense ARs, including the historic floods (labeled F1-F8), are associated with WR9 and WR10 (See also Fig. <ref target="#fig_2" type="figure">5</ref>).</s><s>Often, the historic floods follow on the tails of one or more ARs, which prime the soil moisture, groundwater, and streamflow conditions for subsequent flooding  <ref target="#b5" type="bibr">(Albano et al. 2020</ref>).</s><s>Evidence of "AR Families", as defined by <ref target="#b19" type="bibr">Fish et al. (2019)</ref>, whereby successive AR landfalls occur at the same location, are also seen (e.g.</s><s>repeated ARs hitting California during 1996-97 and 2016-17 classified as WR9/10).</s><s>Such "AR Families" impacting California have been linked to certain semi-stationary atmospheric circulation patterns over the North Pacific <ref target="#b19" type="bibr">(Fish et al. 2019)</ref>, which are similar in their ridge/trough positions to WR9-12.</s></p><p><s>Figure <ref target="#fig_5" type="figure">10</ref> shows Z500 anomalies on the peak day of each event along with the weather regime classification, where we see that all peak days are classified as either WR9 or WR10.</s><s>These patterns favor very strong vapor transport over California (Fig. <ref type="figure">11</ref>).</s><s>While the patterns are similar, there are distinctions in the position of the ridge located over/near Alaska and the position/orientation of the trough relative to the coast.</s><s>The positioning of these synoptic features modulates the location of the AR track as it intersects the coast, which is critical from a local impacts perspective (e.g.</s><s>note the latitudinal differences in the AR landfall location in Fig. <ref type="figure">11</ref>).</s><s>While there are slight variations in the synoptic signatures, the weather patterns represent a recurring type of atmospheric circulation linked to extreme precipitation in California, which is consistent with many studies in the literature investigating these or other extreme AR events (e.g.</s><s><ref target="#b77" type="bibr">Weaver 1962;</ref><ref target="#b16" type="bibr">Estes 1994;</ref><ref target="#b7" type="bibr">Baker and Estes 1994;</ref><ref target="#b70" type="bibr">Strobin and Reynolds 1995;</ref><ref target="#b58" type="bibr">Ralph et al. 2004;</ref><ref target="#b51" type="bibr">Neiman et al. 2008;</ref><ref target="#b26" type="bibr">Guirguis et al. 2018</ref><ref target="#b27" type="bibr">Guirguis et al. , 2019</ref><ref type="bibr">Guirguis et al. , 2020a;;</ref><ref target="#b34" type="bibr">Hatchett et al. 2020)</ref>, including hypothetical cases <ref target="#b57" type="bibr">(Porter 2011)</ref>.</s></p><p><s>Fig. <ref type="figure">7</ref> The importance of weather regimes 9-12 for California water resources.</s><s>a Shows the percent of total historical precipitation that occurred during WR9-12 and b shows the percent of historical extreme precipitation that occurred during WR9-12.</s><s>c Gives the weather regime distribution for the most extreme ARs (scales 4 &amp; 5) that made landfall along the west coast</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Santa Ana winds and fire weather<p><s>We next investigate the role of the sixteen weather patterns in driving the opposite regional weather phenomena: Santa Ana winds and wildfire.</s><s>Wildfires in California are of increasing concern as recent years have brought extremely destructive and widespread wildfires with devastating loss of life and property and long periods of unhealthy air quality.</s><s>The largest Southern California wildfires are typically associated with anomalously hot temperatures, dry vegetation, and persistent Santa Ana winds.</s><s>Here we discuss the types of weather patterns most conducive to wildfire in California during winter.</s></p><p><s>Weather regimes 1-6 all support offshore flow over Southern California (Fig. <ref target="#fig_0" type="figure">2</ref>) and SAW probabilities in the range of 39-65%, or 20-100% above average (Fig. <ref target="#fig_3" type="figure">6a</ref>).</s><s>These six patterns are also anomalously dry for California generally (Fig. <ref target="#fig_2" type="figure">5</ref>), although WR6 can produce AR impacts in Northern California (Fig. <ref target="#fig_2" type="figure">5a</ref>) in cases when the offshore trough (Fig. <ref target="#fig_0" type="figure">2</ref>) moves closer to shore.</s></p><p><s>Two of these patterns are associated with cold SAWs (WR2&amp;3), and the rest are hot SAW patterns with elevated chances of a heat wave (Fig. <ref target="#fig_3" type="figure">6</ref>).</s><s>Hot SAWs are associated with a ridge centered over the Great Basin, while cold SAWs feature a trough over the interior Southwest and a positively tilted offshore ridge that brings northeasterly flow to coastal California (Figure <ref target="#fig_1" type="figure">S3</ref>).</s><s>The synoptic signatures associated with hot and cold flavors of SAWs are consistent with recent findings <ref target="#b23" type="bibr">(Gershunov et al. 2021)</ref>.</s></p><p><s>Figure <ref target="#fig_6" type="figure">12</ref> shows the weather regime distribution for start dates of the largest Southern California wildfires.</s><s>As expected, the weather regimes associated with SAWs (WR1-6) are those responsible for most (78%) large wildfire starts, and the hot SAW patterns are responsible for more than twice as many starts (58%) as cold SAWs (24%).</s><s><ref target="#b23" type="bibr">Gershunov et al. (2021)</ref> found hot SAWs to be responsible for the largest wildfire acreages burned in Southern California, partly because hot SAWs tend to last longer and their high temperatures support enhanced drying of vegetation and lower relative humidity, but also because cold SAWs tend to be preceded by precipitation.</s><s>Weather regime 5 is associated with the largest number of wildfire ignitions (30%), which results from strong offshore flow (Fig. <ref target="#fig_0" type="figure">2</ref>) favoring fire weather: hot, dry, SAW conditions (Figs. <ref target="#fig_2" type="figure">5,</ref><ref target="#fig_3" type="figure">6</ref>).</s><s>The WR5 pattern also occurs more frequently than other hot, dry, SAW patterns (i.e.</s><s>WR5 occurs on 10% of days compared to 3% for each WR1 and WR4).</s><s>Composites of atmospheric circulation associated with Southern California wildfire start days classified as WR1-6 (Figure <ref type="figure">S4</ref>) highlight the similarity between synoptic circulation on specific wildfire start days and the defined weather regimes (Fig. <ref target="#fig_0" type="figure">2</ref>).</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">The California Thomas Fire of 2017<p><s>In addition to hot, dry, and windy conditions needed for a wildfire to grow, the largest wildfires are associated with the persistence of these conditions over a period of time without rain.</s><s>The Thomas Fire of 2017-2018 burned for over a month, igniting December 4 before being fully contained on January 12. Figure <ref target="#fig_1" type="figure">13a</ref> shows atmospheric river activity during 2017-2018, highlighting ARs hitting land between 22.5 and 57.7° N. We see that AR landfalls occurred along the West Coast in November of 2017 (seen as green circles mostly north of 35°), but these storms primarily impacted the Pacific Northwest and Northern California, while Southern and Central California remained dry.</s><s>December is typically the most active month for ARs in Northern California and the second most active month for ARs in Southern California <ref target="#b21" type="bibr">(Gershunov et al. 2017)</ref>.</s><s>However, in December 2017 no ARs made landfall in the State.</s><s>Following ignitions by downed power lines on and around December 4, the dominant weather patterns were those associated with hot, dry, SAW conditions.</s><s>From Fig. <ref target="#fig_1" type="figure">13b</ref>, the most common weather regimes during December 4-January 12 were WR1 (11 days), WR4 (6 days), WR5 (6 days), and WR6 (5 days).</s><s>Containment of the fire was aided by a weak atmospheric river on January 9-10 (classified as WR8, Fig. <ref target="#fig_1" type="figure">13a</ref>).</s><s>While this storm finally brought rainfall, it also brought tragedy as it included short-duration, high intensity precipitation 6 Observed trends in weather regime frequency and implications for California water resources and fire hazard</s></p><p><s>In the past decade, California has endured two extreme and persistent droughts, ongoing extreme heat, and eight of the ten largest wildfires in over a century of records (Krishnakumar and Kannan 2020).</s><s>Here, we investigate if and how winter weather patterns are changing across the western US, and how these changes might affect winter weather variability and extremes in California.</s><s>Figure <ref target="#fig_7" type="figure">14</ref> gives the seasonal frequency of each weather regime over the historical record, along with statistically significant (p &lt; 0.05) increasing (red) and decreasing (blue) trends.</s><s>The weather patterns found to be increasing in frequency are WR1, WR4, WR5, and WR7.</s><s>While WR7 is not linked to extreme California weather in our analysis, the other three weather regimes <ref type="bibr">(1, 4 &amp;5</ref>) are major contributors to historical wildfires (Figs. <ref target="#fig_6" type="figure">12</ref> and<ref target="#fig_1" type="figure">13b</ref>) and are associated with heat waves in California and the western US (Fig. <ref target="#fig_3" type="figure">6c</ref>).</s><s>The combined seasonal frequency of these three weather regimes is provided in Fig. <ref target="#fig_2" type="figure">15b</ref>, which shows a strong increase in the frequency of these impactful weather patterns (slope = 0.21% per year, p &lt; 0.001).</s><s>During the 2021 water year, which was the second driest statewide in 125 years (California Department of Water Resources 2021), these weather patterns accounted for 41% of days in the season.</s><s>This anomaly was exceeded only once previously in 2015, also a critically dry year in California and Nevada <ref target="#b68" type="bibr">(Sterle et al. 2019;</ref><ref type="bibr">Western Regional Climate Center 2021)</ref>.</s><s>Along with increasing fire hazard due to the rising frequency of hot, dry, SAW patterns, we also find evidence of decreasing frequency of weather patterns associated with cold SAWs (WR3; see also <ref target="#b23" type="bibr">Gershunov et al. 2021</ref>) and precipitation in the Southwest (WR11, WR12, and WR14).</s><s>Figure <ref target="#fig_2" type="figure">15a</ref> shows the combined frequency of the patterns associated with southwest precipitation (WR11, WR12, and WR14, slope = -0.18%</s><s>per year, p &lt; 0.001).</s><s>These are all associated with a deep trough over and offshore from western North America (Fig. <ref target="#fig_0" type="figure">2</ref>) with moisture transport along a southern track bringing precipitation to Southern California and the Desert Southwest (Fig. <ref target="#fig_2" type="figure">5</ref>).</s><s>These weather regimes also tend to be colder (Fig. <ref target="#fig_3" type="figure">6b,</ref><ref type="figure">d</ref>), therefore this decreasing trend could mean less precipitation in general, but also less cold precipitation which has implications for snow accumulation and storage.</s><s>We find no long-term trends for the weather patterns associated with the strongest ARs and the most destructive California floods (WR9 and WR10).</s><s>This suggests that atmospheric circulation is changing to favor fire weather at the expense of precipitation in Southern California, but the hazard of extreme precipitation and flooding caused by the strongest ARs is not diminishing.</s></p><p><s>The observed trends in the frequency of certain weather patterns is related to the rising frequency of ridging over land along the west coast.</s><s>Specifically, we observe a positive trend in the Baja-Pacific mode, which makes ridging over Baja California more likely, and a negative trend in the Canadian-Pacific mode, which corresponds to an increase in ridging over the Pacific Northwest and western Canada (Figs. <ref target="#fig_2" type="figure">S5</ref> and<ref type="figure">1a</ref>).</s><s>These geospatial differences in trends of height anomalies over land relative to those over the Pacific Ocean favor atmospheric blocking conditions associated with dry weather in California.</s><s>Persistent ridging has been implicated in recent California droughts (e.g., <ref target="#b71" type="bibr">Swain et al. 2014;</ref><ref target="#b9" type="bibr">Bond et al. 2015;</ref><ref target="#b24" type="bibr">Gibson et al. 2020a)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Discussion<p><s>In this study, we demonstrate how four modes of atmospheric circulation over the North Pacific Ocean interact to produce distinct weather patterns that recur throughout the historical record.</s><s>These recurring weather patterns drive AR landfalls, extreme precipitation, historic floods, Santa Ana winds, wildfires, and temperature extremes during California winters.</s><s>Relationships between the driving NP4 modes and climate-scale teleconnections like ENSO have already been discovered (GGR'20) and the results presented here provide a method for exploring important linkages between seasonal-and weather-scale processes that could help to improve predictability of extreme events.</s><s>This methodology can easily be applied to dynamical weather forecast models to investigate the predictability of extreme weather impacts at S2S lead times.</s><s>Predicting the phase of one or more NP4 modes, using dynamical, statistical, or hybrid methods, would be highly useful for situational awareness regarding the likelihood of extreme weather events.</s><s>Dynamical models have been shown capable of producing skillful forecasts of large-scale circulation features at lead times of 2.5 weeks (e.g.</s><s><ref target="#b17" type="bibr">Ferranti et al. 2018</ref><ref target="#b18" type="bibr">Ferranti et al. , 2019) )</ref> to several weeks <ref type="bibr">(Gibson et al. 2020b</ref>).</s><s>Additional lead time and higher confidence in long-lead forecasts can be translated by forecasters into improved impact-based decision support (Uccellini and Hoeve 2019) to partner agencies and used to provide earlier warning to the public before extreme events (e.g., <ref target="#b44" type="bibr">Lambrecht et al. 2019</ref><ref target="#b45" type="bibr">Lambrecht et al. , 2021))</ref>.</s></p><p><s>An important outcome of this work is the generation of a catalog of daily weather patterns spanning 73-years <ref target="#b30" type="bibr">(Guirguis et al. 2022)</ref>, which can be used for monitoring and predictability studies.</s><s>Our weather regime classification has been shown to be skillful at representing important circulation features associated with impactful events, including destructive floods and Southern California wildfires.</s><s>Using this approach, we find that the seasonal frequency of weather patterns associated with wildfire is increasing while other patterns that bring precipitation to southern California and the Desert Southwest are decreasing in frequency.</s><s>This is an unsettling set of trends, as during 2020 California suffered its worst wildfire season on record, causing extensive impacts to ecosystems, property, and public health (e.g.</s><s><ref target="#b3" type="bibr">Aguilera et al. 2020</ref><ref target="#b4" type="bibr">Aguilera et al. , 2021))</ref>.</s><s>The continued dry conditions experienced during winter 2020-2021 exacerbated already extreme fire hazards throughout California.</s><s>Significant wildfire activity occurred in the Sierra Nevada and northern Coastal Ranges during the summer and fall of 2021, however two early-winter precipitation events largely reduced Southern California fire hazard and luckily no major fires occurred during the SAWs that did occur.</s></p><p><s>Importantly, while circulation changes appear to be reducing the likelihood of some types of precipitation events (WR11, WR12, WR14), there is no observed change in the weather patterns responsible for the most intense ARs and destructive floods (WR9 and WR10).</s><s>With warming due to anthropogenic climate change, these patterns could potentially be even more destructive as the atmosphere can more effectively transport larger quantities of water vapor <ref target="#b62" type="bibr">(Rhoades et al. 2021)</ref>.</s><s>This is consistent with recent work focused on precipitation regime changes in California using climate model projections <ref target="#b55" type="bibr">(Pierce et al. 2013;</ref><ref target="#b56" type="bibr">Polade et al. 2017;</ref><ref target="#b15" type="bibr">Espinoza et al. 2018;</ref><ref target="#b72" type="bibr">Swain et al. 2018;</ref><ref target="#b22" type="bibr">Gershunov et al. 2019)</ref>, which suggest that future California precipitation will come by way of fewer, more intense storms with longer dry spells in between.</s><s>While the trends detected in this study are sensitive to the record length of the observations, the methodology could be applied to climate model projections to evaluate the roles of natural variability versus climate change in driving the recent changes in weather regime frequency.</s></p><p><s>There are many research questions that could be explored using this methodology and data catalog.</s><s>While we provided only a cursory look at the relationships with snowpack, the role of different weather patterns in driving snow accumulation and depletion throughout the western United States, would be valuable knowledge from a water resource perspective, particularly as snowpack continues to decline <ref target="#b67" type="bibr">(Siirila-Woodburn et al. 2021)</ref>.</s><s>In this work, we explicitly focused on Southern California's SAWs while recognizing the importance of Diablo winds in Northern California.</s><s>Recent work suggests that Northern California's Diablo winds are dynamically related and tend to co-occur with SAWs <ref target="#b23" type="bibr">(Gershunov et al. 2021)</ref>.</s><s>This weather regime approach and catalog would be useful for exploring the coordination of California's downslope wind systems in detail.</s></p><p><s>Further investigation on the timing and transition of different weather patterns could provide insight for S2S predictability.</s><s>While this analysis focused on the California winter season, the methodology could be applied to other seasons to study warm season heat waves and/or fire weather, as well as to other regions.</s><s>Improving our understanding of the linkages between climate change, seasonal-scale teleconnections, and extreme weather will be critical for effective emergency planning, resource management, and climate change adaptation efforts at local, regional, and state levels.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0">Fig. 2<label>2</label><figdesc><div><p><s>Fig. 2 Composites of 500 mb geopotential height anomalies for the sixteen recurring winter weather patterns impacting West Coast.</s><s>The sample size of each weather regime (n) is given in the title as a per-</s></p></div></figdesc><graphic coords="6,56.68,57.76,481.92,310.32" type="bitmap"></graphic></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Fig. 3<label>3</label><figdesc><div><p><s>Fig. 3 Example showing the relationship between the NP4 modes and weather patterns over the North Pacific/western US during WY2017.</s><s>Daily amplitudes of each mode are shown in (a).</s><s>These modes can be in-or out-of-phase with each other on a given day, resulting in different phase combinations (b).</s><s>Three events are identified (E1-E3) when the joint phase combination was the same: The Alaskan-Pacific mode</s></p></div></figdesc><graphic coords="7,56.68,57.76,481.92,331.44" type="bitmap"></graphic></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0">Fig. 5<label>5</label><figdesc><div><p><s>Fig. 5 Impacts associated with each weather regime showing a AR landfall probability, b precipitation anomaly, c probability of extreme precipitation, d percent of total historical precipitation.</s><s>Precipitation extremes are daily accumulations above the local 95th percentile.</s></p></div></figdesc><graphic coords="9,56.68,57.76,481.92,499.68" type="bitmap"></graphic></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Fig. 6<label>6</label><figdesc><div><p><s>Fig. 6 Additional impacts associated with each weather regime showing a Santa Ana wind probabilities, b temperature anomalies, c heat wave probability, and d extreme cold probability.</s><s>The temperature plots use daily maximum temperatures.</s><s>Heat waves (cold extremes)</s></p></div></figdesc><graphic coords="10,70.84,57.76,453.60,442.80" type="bitmap"></graphic></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Fig. 8<label>8</label><figdesc><div><p><s>Fig.8The relationship (r = 0.61) between snow water equivalent on March 1 at Donner Summit in the Northern Sierra and the frequency of weather regimes 9-12 during November-February</s></p></div></figdesc><graphic coords="12,204.05,57.76,340.20,201.24" type="bitmap"></graphic></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0">Fig. 10<label>10</label><figdesc><div><p><s>Fig. 10 Observed Z500 anomalies for the day with the most intense AR footprint over California for each flood event, defined by the summed IVT over California.</s><s>The weather regime classification for each day is given as highlighted text in the lower left corner of each map</s></p></div></figdesc><graphic coords="14,56.68,57.76,481.92,230.04" type="bitmap"></graphic></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0">Fig. 12<label>12</label><figdesc><div><p><s>Fig.12The weather regime distribution of Southern California wildfire starts</s></p></div></figdesc><graphic coords="15,56.68,57.76,226.80,194.52" type="bitmap"></graphic></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0">Fig. 14<label>14</label><figdesc><div><p><s>Fig. 14 Observed frequency of each weather regime during Nov-Feb (black) and statistically significant (p &lt; 0.05) trends colored red for increasing trends or blue for decreasing trends</s></p></div></figdesc><graphic coords="16,56.68,57.76,481.92,266.52" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="8,56.68,57.76,481.92,330.48" type="bitmap"></graphic></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p></p></div></figdesc><graphic coords="11,204.05,57.76,340.20,450.12" type="bitmap"></graphic></figure>
+<back>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">Supplementary Information<p><s>The online version contains supplementary material available at https:// doi.</s><s>org/ 10. 1007/ s00382-022-06361-7.</s></p><p><s>Funding This research was funded by the U.S. Department of the Interior via the Bureau of Reclamation (USBR-R15AC00003), the California Department of Water Resources (4600010378 UCOP2-11), and by the Regional Integrated Sciences and Assessments (RISA) California-</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Availability of data and material<p><s>The winter weather regimes catalog developed for this study is available from the UC San Diego Library Digital Collections at https:// doi.</s><s>org/ 10. 6075/ J0891 61B <ref target="#b30" type="bibr">(Guirguis et al. 2022)</ref>.</s><s>The NP4 dataset is available at https:// doi.</s><s>org/ 10. 6075/ J0154 FJJ <ref target="#b29" type="bibr">(Guirguis et al. 2020b</ref>).</s><s>The Santa Ana winds regional index and the SIO-R1 AR catalog are available at https:// wecli ma.</s><s>ucsd.</s><s>edu/ data-produ cts/.</s><s>The Livneh temperature and precipitation data are available at https:// clima tedat aguide.</s><s>ucar.</s><s>edu/ clima te-data.</s><s>Wildfire information is from the California Fire Protection's Fire and Resource Assessment Program (FRAP) fire perimeters database available at https:// frap.</s><s>fire.</s><s>ca.</s><s>gov/ frap-proje cts/ fire-perim eters/.</s><s>Snow water equivalent for the Sierra Nevada are from the Natural Resources Conservation Service available at https:// wcc.</s><s>sc.</s><s>egov.</s><s>usda.</s><s>gov/ nwcc/ rgrpt?</s><s>report= snowc ourse &amp; state= CA.Code availability Code developed for this study will be made available upon request.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Declarations</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Conflict of interest<p><s>The authors declare no competing interests.</s></p><p><s>Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made.</s><s>The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material.</s><s>If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder.</s><s>To view a copy of this licence, visit http:// creat iveco mmons.</s><s>org/ licen ses/ by/4.</s><s>0/.</s></p><p><s>Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</s></p></div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<analytic>
+<title level="a" type="main">Diagnosing Santa Ana winds in Southern California with synoptic-scale analysis</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">T</forename><surname>Abatzoglou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Barbero</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">J</forename><surname>Nauslar</surname></persname>
+</author>
+<idno type="DOI">10.1175/WAF-D-13-00002.1</idno>
+<ptr target="https://doi.org/10.1175/WAF-D-13-00002"></ptr>
+</analytic>
+<monogr>
+<title level="j">Wea Forecast</title>
+<imprint>
+<biblscope unit="volume">28</biblscope>
+<biblscope from="704" to="710" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Abatzoglou JT, Barbero R, Nauslar NJ (2013) Diagnosing Santa Ana winds in Southern California with synoptic-scale analysis. Wea Forecast 28:704-710. https:// doi. org/ 10. 1175/ WAF-D-13-00002.</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<analytic>
+<title level="a" type="main">The west wide drought monitoring at fine spatial scales</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">T</forename><surname>Abatzoglou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">J</forename><surname>Mcevoy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">T</forename><surname>Redmond</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">BAMS</title>
+<imprint>
+<biblscope unit="volume">98</biblscope>
+<biblscope unit="issue">9</biblscope>
+<biblscope from="1815" to="1820" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Abatzoglou JT, McEvoy DJ, Redmond KT (2017) The west wide drought monitoring at fine spatial scales. BAMS 98(9):1815-1820</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Global climatology of synoptically-forced downslope winds</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">T</forename><surname>Abatzoglou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Hatchett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Fox-Hughes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">J</forename><surname>Nauslar</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Int J Climatol</title>
+<imprint>
+<biblscope unit="volume">41</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="31" to="50" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Abatzoglou JT, Hatchett BJ, Fox-Hughes P, Gershunov A, Nauslar NJ (2021) Global climatology of synoptically-forced downslope winds. Int J Climatol 41(1):31-50</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">Respiratory Hospitalizations and Wildfire Smoke: a spatio-temporal analysis of an extreme firestorm in San Diego County, California</title>
+<author>
+<persname><forename type="first">R</forename><surname>Aguilera</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Hansen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ilango</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Sheridan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Benmarhnia</surname></persname>
+</author>
+<idno type="DOI">10.1097/EE9.0000000000000114</idno>
+<ptr target="https://doi.org/10.1097/EE9.0000000000000114"></ptr>
+</analytic>
+<monogr>
+<title level="j">Environ Epidemiol</title>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Aguilera R, Hansen K, Gershunov A, Ilango S, Sheridan P, Benmarh- nia T (2020) Respiratory Hospitalizations and Wildfire Smoke: a spatio-temporal analysis of an extreme firestorm in San Diego County, California. Environ Epidemiol. https:// doi. org/ 10. 1097/ EE9. 00000 00000 000114</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Wildfire smoke impacts respiratory health much more than fine particles from other sources: observational evidence from Southern California</title>
+<author>
+<persname><forename type="first">R</forename><surname>Aguilera</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Corringham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Benmarhnia</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41467-021-21708</idno>
+<ptr target="https://doi.org/10.1038/s41467-021-21708"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Commun</title>
+<imprint>
+<biblscope unit="volume">12</biblscope>
+<biblscope unit="page">1493</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Aguilera R, Corringham T, Gershunov A, Benmarhnia T (2021) Wildfire smoke impacts respiratory health much more than fine particles from other sources: observational evidence from South- ern California. Nat Commun 12:1493. https:// doi. org/ 10. 1038/ s41467-021-21708</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">Patterns and Drivers of Atmospheric River Precipitation and Hydrologic Impacts across the Western United States</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">M</forename><surname>Albano</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Dettinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">A</forename><surname>Harpold</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J Hydrometeorol</title>
+<imprint>
+<biblscope unit="volume">21</biblscope>
+<biblscope unit="issue">1</biblscope>
+<biblscope from="143" to="159" unit="page"></biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Albano CM, Dettinger MD, Harpold AA (2020) Patterns and Drivers of Atmospheric River Precipitation and Hydrologic Impacts across the Western United States. J Hydrometeorol 21(1):143-159</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Control of storminess over the pacific and North America by circulation regimes</title>
+<author>
+<persname><forename type="first">S</forename><surname>Amini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Straus</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00382-018-4409-7</idno>
+<ptr target="https://doi.org/10.1007/s00382-018-4409-7"></ptr>
+</analytic>
+<monogr>
+<title level="j">Clim Dyn</title>
+<imprint>
+<biblscope unit="volume">52</biblscope>
+<biblscope from="4749" to="4770" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Amini S, Straus DM (2019) Control of storminess over the pacific and North America by circulation regimes. Clim Dyn 52:4749-4770. https:// doi. org/ 10. 1007/ s00382-018-4409-7</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Using the TEREC Pattern to Predict Heavy Rainfall in California</title>
+<author>
+<persname><forename type="first">D</forename><surname>Baker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Estes</surname></persname>
+</author>
+<ptr target="https://cepsym.org/Sympro1994/Baker.pdf"></ptr>
+</analytic>
+<monogr>
+<title level="m">Proceedings of 1994 California Weather Symposium</title>
+<meeting>1994 California Weather Symposium</meeting>
+<imprint>
+<date type="published" when="1994-01">1994. 1 Sept 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Baker D, Estes G (1994) Using the TEREC Pattern to Predict Heavy Rainfall in California. Proceedings of 1994 California Weather Symposium. https:// cepsym. org/ Sympr o1994/ Baker. pdf. Accessed 1 Sept 2021</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Classifications, seasonality, and persistence of low-frequency atmospheric circulation patterns</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">G</forename><surname>Barnston</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">E</forename><surname>Livezey</surname></persname>
+</author>
+<idno type="DOI">10.1175/1520-0493(1987)115%3c1083:CSAPOL%3e2.0.CO;2</idno>
+<ptr target="https://doi.org/10.1175/1520-0493(1987)115%3c1083:CSAPOL%3e2.0"></ptr>
+</analytic>
+<monogr>
+<title level="j">Mon Weather Rev</title>
+<imprint>
+<biblscope unit="volume">115</biblscope>
+<biblscope from="1083" to="1126" unit="page"></biblscope>
+<date type="published" when="1987">1987</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Barnston AG, Livezey RE (1987) Classifications, seasonality, and persistence of low-frequency atmospheric circulation patterns. Mon Weather Rev 115:1083-1126. https:// doi. org/ 10. 1175/ 1520- 0493(1987) 115% 3c1083: CSAPOL% 3e2.0. CO;2</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">Causes and impacts of the 2014 warm anomaly in the NE Pacific</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">A</forename><surname>Bond</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">F</forename><surname>Corin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Freeland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Mantua</surname></persname>
+</author>
+<idno type="DOI">10.1002/2015GL063306</idno>
+<ptr target="https://doi.org/10.1002/2015GL063306"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<biblscope unit="volume">42</biblscope>
+<biblscope from="3414" to="3420" unit="page"></biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Bond NA, Corin MF, Freeland H, Mantua N (2015) Causes and impacts of the 2014 warm anomaly in the NE Pacific. Geophys Res Lett 42:3414-3420. https:// doi. org/ 10. 1002/ 2015G L0633 06</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<monogr>
+<ptr target="https://water.ca.gov/-/media/DWR-Website/Web-Pages/Water-Basics/Drought/Files/Publications-And-Reports/091521-Water-Year-2021-broch_v2.pdf"></ptr>
+<title level="m">Water Year 2021: An Extreme Year</title>
+<imprint>
+<publisher>California Department of Water Resources</publisher>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">California Department of Water Resources (2021) Water Year 2021: An Extreme Year. [Available online at https:// water. ca. gov/-/ media/ DWR-Websi te/ Web-Pages/ Water-Basics/ Droug ht/ Files/ Publi catio ns-And-Repor ts/ 091521-Water-Year-2021-broch_ v2. pdf</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Californians Suffer Unprecedented Fire Blackouts in January</title>
+<author>
+<persname><forename type="first">M</forename><surname>Chediak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">K</forename><surname>Sullivan</surname></persname>
+</author>
+<ptr target="https://www.bloomberg.com/news/articles/2021-01-17/parched-california-braces-for-winter-fire-season-blackouts"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bloomberg Green</title>
+<imprint>
+<date type="published" when="2021-01-16">2021. 16 January, 2021. 19 July 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chediak M, Sullivan BK (2021) Californians Suffer Unprecedented Fire Blackouts in January. Bloomberg Green, 16 January, 2021, https:// www. bloom berg. com/ news/ artic les/ 2021-01-17/ parch ed- calif ornia-braces-for-winter-fire-season-black outs. Accessed 19 July 2021</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<analytic>
+<title level="a" type="main">Atmospheric Rivers drive flood damages in the western United States</title>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">W</forename><surname>Corringham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Cayan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">A</forename><surname>Talbot</surname></persname>
+</author>
+<idno type="DOI">10.1126/sciadv.aax4631</idno>
+<ptr target="https://doi.org/10.1126/sciadv.aax4631"></ptr>
+</analytic>
+<monogr>
+<title level="j">Sci Adv</title>
+<imprint>
+<biblscope unit="volume">5</biblscope>
+<biblscope unit="issue">12</biblscope>
+<biblscope unit="page">631</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Corringham TW, Ralph FM, Gershunov A, Cayan DR, Talbot CA (2019) Atmospheric Rivers drive flood damages in the western United States. Sci Adv 5(12):eaaz631. https:// doi. org/ 10. 1126/ sciadv. aax46 31</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Atmospheric Rivers as Drought Busters on the U.S. West Coast</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Dettinger</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J Hydrometeorol</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="1721" to="1732" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dettinger MD (2013) Atmospheric Rivers as Drought Busters on the U.S. West Coast. J Hydrometeorol 14(6):1721-1732</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">Atmospheric rivers, floods and the water resources of California</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Dettinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Das</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Neiman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Cayan</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Water</title>
+<imprint>
+<biblscope unit="volume">3</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="445" to="478" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Dettinger MD, Ralph FM, Das T, Neiman PJ, Cayan DR (2011) Atmos- pheric rivers, floods and the water resources of California. Water 3(2):445-478</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<analytic>
+<title level="a" type="main">Global analysis of climate change projection effects on atmospheric rivers</title>
+<author>
+<persname><forename type="first">V</forename><surname>Espinoza</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">E</forename><surname>Waliser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Guan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Lavers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<idno type="DOI">10.1029/2017GL076968</idno>
+<ptr target="https://doi.org/10.1029/2017GL076968"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Espinoza V, Waliser DE, Guan B, Lavers DA, Ralph FM (2018) Global analysis of climate change projection effects on atmospheric riv- ers. Geophys Res Lett. https:// doi. org/ 10. 1029/ 2017G L0769 68</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<monogr>
+<title level="m" type="main">Weather patterns and American River Floods</title>
+<author>
+<persname><forename type="first">G</forename><surname>Estes</surname></persname>
+</author>
+<ptr target="https://cepsym.org/Sympro1998/Estes.pdf"></ptr>
+<imprint>
+<date type="published" when="1994-01">1994. 1 Sept 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Estes G (1994) Weather patterns and American River Floods. https:// cepsym. org/ Sympr o1998/ Estes. pdf. Accessed 1 Sept 2021</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">How far in advance can we predict changes in large-scale flow leading to severe cold conditions over Europe?</title>
+<author>
+<persname><forename type="first">L</forename><surname>Ferranti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Magnusson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Vitart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">S</forename><surname>Richardson</surname></persname>
+</author>
+<idno type="DOI">10.1002/qj.3341</idno>
+<ptr target="https://doi.org/10.1002/qj.3341"></ptr>
+</analytic>
+<monogr>
+<title level="j">QJRMS</title>
+<imprint>
+<biblscope unit="volume">144</biblscope>
+<biblscope from="1788" to="1802" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ferranti L, Magnusson L, Vitart F, Richardson DS (2018) How far in advance can we predict changes in large-scale flow leading to severe cold conditions over Europe? QJRMS 144:1788-1802. https:// doi. org/ 10. 1002/ qj. 3341</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<analytic>
+<title level="a" type="main">A new product to flag up the risk of cold spells in Europe weeks ahead</title>
+<author>
+<persname><forename type="first">L</forename><surname>Ferranti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Magnusson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Vitart</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Richardson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">ECMWF Newsletter</title>
+<imprint>
+<biblscope unit="volume">158</biblscope>
+<biblscope from="15" to="20" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ferranti L, Magnusson L, Vitart F, Richardson DA (2019) A new product to flag up the risk of cold spells in Europe weeks ahead. ECMWF Newsletter No. 158, pp 15-20</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Atmospheric river families: definition and associated synoptic conditions</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Fish</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Wilson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<idno type="DOI">10.1175/JHM-D-18-0217.1</idno>
+<ptr target="https://doi.org/10.1175/JHM-D-18-0217"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Hydrometeor</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="2091" to="2108" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Fish MA, Wilson AM, Ralph FM (2019) Atmospheric river families: definition and associated synoptic conditions. J Hydrometeor 20:2091-2108. https:// doi. org/ 10. 1175/ JHM-D-18-0217.</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">California heat waves in the present and future</title>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Guirguis</surname></persname>
+</author>
+<idno type="DOI">10.1029/2012GL052979</idno>
+<ptr target="https://doi.org/10.1029/2012GL052979"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<biblscope unit="volume">39</biblscope>
+<biblscope unit="page">18710</biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gershunov A, Guirguis K (2012) California heat waves in the present and future. Geophys Res Lett 39:L18710. https:// doi. org/ 10. 1029/ 2012G L0529 79</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">Assessing the climate-scale variability of Atmospheric Rivers affecting the west coast of North America</title>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Shulgina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Lavers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Rutz</surname></persname>
+</author>
+<idno type="DOI">10.1002/2017GRL074175</idno>
+<ptr target="https://doi.org/10.1002/2017GRL074175"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gershunov A, Shulgina T, Ralph FM, Lavers D, Rutz JJ (2017) Assess- ing the climate-scale variability of Atmospheric Rivers affecting the west coast of North America. Geophys Res Lett. https:// doi. org/ 10. 1002/ 2017G RL074 175</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Precipitation regime change in Western North America: The role of Atmospheric Rivers</title>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">M</forename><surname>Shulgina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Res</forename><surname>Clemesha</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Guirguis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Pierce</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Dettinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Lavers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Cayan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">D</forename><surname>Polade</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Kalansky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41598-019-46169-w</idno>
+<ptr target="https://doi.org/10.1038/s41598-019-46169-w"></ptr>
+</analytic>
+<monogr>
+<title level="j">Sci Rep</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<date type="published" when="2019">2019. 2019. 9944</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gershunov A, Shulgina TM, Clemesha RES, Guirguis K, Pierce DW, Dettinger MD, Lavers DA, Cayan DR, Polade SD, Kalansky J, Ralph FM (2019) 2019: Precipitation regime change in Western North America: The role of Atmospheric Rivers. Sci Rep 9:9944. https:// doi. org/ 10. 1038/ s41598-019-46169-w</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Hot and cold flavors of southern California's Santa Ana winds: their causes, trends, and links with wildfire</title>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Guzman</forename><surname>Morales</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Hatchett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Aguilera</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Shulgina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Guirguis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Abatzoglou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Cayan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Pierce</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Williams</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Small</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Clemesha</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Schwarz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Benmarhnia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Tardy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename></persname>
+</author>
+<idno type="DOI">10.1007/s00382-021-05802-z</idno>
+<ptr target="https://doi.org/10.1007/s00382-021-05802-z"></ptr>
+</analytic>
+<monogr>
+<title level="j">Clim Dyn</title>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gershunov A, Guzman Morales J, Hatchett B, Aguilera R, Shulgina T, Guirguis K, Abatzoglou J, Cayan D, Pierce D, Williams P, Small I, Clemesha R, Schwarz L, Benmarhnia T, Tardy A (2021) Hot and cold flavors of southern California's Santa Ana winds: their causes, trends, and links with wildfire. Clim Dyn. https:// doi. org/ 10. 1007/ s00382-021-05802-z</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Ridging associated with drought in the Western and Southwestern United States: characteristics, trends, and predictability sources</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Gibson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">E</forename><surname>Waliser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Guan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Deflorio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Swain</surname></persname>
+</author>
+<idno type="DOI">10.1175/JCLI-D-19-0439.1</idno>
+<ptr target="https://doi.org/10.1175/JCLI-D-19-0439"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Clim</title>
+<imprint>
+<date type="published" when="2020">2020a</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gibson PB, Waliser DE, Guan B, DeFlorio MJ, Ralph FM, Swain DL (2020a) Ridging associated with drought in the Western and Southwestern United States: characteristics, trends, and predict- ability sources. J Clim. https:// doi. org/ 10. 1175/ JCLI-D-19-0439.</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Subseasonal-to-seasonal hindcast skill assessment of ridging events related to drought over the Western United States</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Gibson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">E</forename><surname>Waliser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Goodman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Deflorio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Delle</forename><surname>Monache</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Molod</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename></persname>
+</author>
+<idno type="DOI">10.1029/2020JD033655</idno>
+<ptr target="https://doi.org/10.1029/2020JD0336"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Geophys Res Atmos</title>
+<imprint>
+<biblscope unit="volume">125</biblscope>
+<biblscope unit="page">55</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gibson PB, Waliser DE, Goodman A, DeFlorio MJ, Delle Monache L, Molod A (2020b) Subseasonal-to-seasonal hindcast skill assess- ment of ridging events related to drought over the Western United States. J Geophys Res Atmos 125:55. https:// doi. org/ 10. 1029/ 2020J D0336</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Circulation drivers of atmospheric rivers at the North American West Coast</title>
+<author>
+<persname><forename type="first">K</forename><surname>Guirguis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Res</forename><surname>Clemesha</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Shulgina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Subramanian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<idno type="DOI">10.1029/2018GL079249</idno>
+<ptr target="https://doi.org/10.1029/2018GL079249"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope from="12" to="576" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Guirguis K, Gershunov A, Clemesha RES, Shulgina T, Subramanian AC, Ralph FM (2018) Circulation drivers of atmospheric rivers at the North American West Coast. Geophys Res Lett 45:12-576. https:// doi. org/ 10. 1029/ 2018G L0792 49</note>
+</biblstruct>
+<biblstruct xml:id="b27">
+<analytic>
+<title level="a" type="main">Atmospheric Rivers impacting Northern California and their modulation by a variable climate</title>
+<author>
+<persname><forename type="first">K</forename><surname>Guirguis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">M</forename><surname>Shulgina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Res</forename><surname>Clemesha</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00382-018-4532-5</idno>
+<ptr target="https://doi.org/10.1007/s00382-018-4532-5"></ptr>
+</analytic>
+<monogr>
+<title level="j">Clim Dyn</title>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Guirguis K, Gershunov A, Shulgina TM, Clemesha RES, Ralph FM (2019) Atmospheric Rivers impacting Northern California and their modulation by a variable climate. Clim Dyn. https:// doi. org/ 10. 1007/ s00382-018-4532-5</note>
+</biblstruct>
+<biblstruct xml:id="b28">
+<analytic>
+<title level="a" type="main">Four atmospheric circulation regimes over the North Pacific and their relationship to California precipitation on daily to seasonal timescales</title>
+<author>
+<persname><forename type="first">K</forename><surname>Guirguis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Deflorio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Shulgina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Delle</forename><surname>Monache</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Subramanian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Corringham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">W</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename></persname>
+</author>
+<idno type="DOI">10.1029/2020GL087609</idno>
+<ptr target="https://doi.org/10.1029/2020GL087609"></ptr>
+</analytic>
+<monogr>
+<title level="j">GRL</title>
+<imprint>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Guirguis K, Gershunov A, DeFlorio MJ, Shulgina T, Delle Monache L, Subramanian AC, Corringham TW, Ralph FM (2020a) Four atmospheric circulation regimes over the North Pacific and their relationship to California precipitation on daily to seasonal time- scales. GRL. https:// doi. org/ 10. 1029/ 2020G L0876 09</note>
+</biblstruct>
+<biblstruct xml:id="b29">
+<analytic>
+<title level="a" type="main">Data from: Four atmospheric circulation regimes over the North Pacific and their relationship to California precipitation on daily to seasonal timescales</title>
+<author>
+<persname><forename type="first">K</forename><surname>Guirguis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Deflorio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Shulgina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Delle</forename><surname>Monache</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Subramanian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename></persname>
+</author>
+<idno type="DOI">10.6075/J0154FJJ</idno>
+<ptr target="https://doi.org/10.6075/J0154FJJ"></ptr>
+</analytic>
+<monogr>
+<title level="j">UC San Diego Library Digital Collections</title>
+<imprint>
+<date type="published" when="2020">2020b</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Guirguis K, Gershunov A, DeFlorio MJ, Shulgina T, Delle Monache L, Subramanian AC et al (2020b) Data from: Four atmospheric circulation regimes over the North Pacific and their relationship to California precipitation on daily to seasonal timescales. UC San Diego Library Digital Collections. https:// doi. org/ 10. 6075/ J0154 FJJ</note>
+</biblstruct>
+<biblstruct xml:id="b30">
+<analytic>
+<title level="a" type="main">Historical catalog of winter weather regimes impacting California, 1949-2017</title>
+<author>
+<persname><forename type="first">K</forename><surname>Guirguis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Hatchett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Shulgina</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">J</forename><surname>Deflorio</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">C</forename><surname>Subramanian</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Guzman-Morales</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Aguilera</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Clemesha</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">W</forename><surname>Corringham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Delle</forename><surname>Monache</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Reynolds</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Tardy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Small</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename></persname>
+</author>
+<idno type="DOI">10.6075/J089161B</idno>
+<ptr target="https://doi.org/10.6075/J089161B"></ptr>
+</analytic>
+<monogr>
+<title level="s">UC San Diego Library Digital Collections</title>
+<imprint>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Guirguis K, Gershunov A, Hatchett B, Shulgina T, DeFlorio MJ, Sub- ramanian AC, Guzman-Morales J, Aguilera R, Clemesha R, Cor- ringham TW, Delle Monache L, Reynolds D, Tardy A, Small I, Ralph FM (2022) Historical catalog of winter weather regimes impacting California, 1949-2017. UC San Diego Library Digital Collections. https:// doi. org/ 10. 6075/ J0891 61B</note>
+</biblstruct>
+<biblstruct xml:id="b31">
+<analytic>
+<title level="a" type="main">Climate change suppresses Santa Ana Winds of Southern California and sharpens their seasonality</title>
+<author>
+<persname><forename type="first">Guzman</forename><surname>Morales</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename></persname>
+</author>
+<idno type="DOI">10.1029/2018GL080261</idno>
+<ptr target="https://doi.org/10.1029/2018GL080261"></ptr>
+</analytic>
+<monogr>
+<title level="j">GRL</title>
+<imprint>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Guzman Morales J, Gershunov A (2019) Climate change suppresses Santa Ana Winds of Southern California and sharpens their sea- sonality. GRL. https:// doi. org/ 10. 1029/ 2018G L0802 61</note>
+</biblstruct>
+<biblstruct xml:id="b32">
+<analytic>
+<title level="a" type="main">Santa Ana Winds of southern California: their climatology, extremes, and behavior spanning six and a half decades</title>
+<author>
+<persname><forename type="first">Guzman</forename><surname>Morales</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Theiss</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Li</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Cayan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename></persname>
+</author>
+<idno type="DOI">10.1002/2016GL067887</idno>
+<ptr target="https://doi.org/10.1002/2016GL067887"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Guzman Morales J, Gershunov A, Theiss J, Li H, Cayan DR (2016) Santa Ana Winds of southern California: their climatology, extremes, and behavior spanning six and a half decades. Geophys Res Lett. https:// doi. org/ 10. 1002/ 2016G L0678 87</note>
+</biblstruct>
+<biblstruct xml:id="b33">
+<analytic>
+<title level="a" type="main">Magnitude and frequency of wet years under a megadrought climate in the western Great Basin, USA</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Hatchett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">P</forename><surname>Boyle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">B</forename><surname>Garner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Kaplan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">E</forename><surname>Putnam</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Bassett</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.quascirev.2016.09.017</idno>
+<ptr target="https://doi.org/10.1016/j.quascirev.2016.09.017"></ptr>
+</analytic>
+<monogr>
+<title level="j">Quatern Sci Rev</title>
+<imprint>
+<biblscope unit="volume">152</biblscope>
+<biblscope from="197" to="202" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hatchett BJ, Boyle DP, Garner CB, Kaplan ML, Putnam AE, Bassett S (2016) Magnitude and frequency of wet years under a mega- drought climate in the western Great Basin, USA. Quatern Sci Rev 152:197-202. https:// doi. org/ 10. 1016/j. quasc irev. 2016. 09. 017</note>
+</biblstruct>
+<biblstruct xml:id="b34">
+<analytic>
+<title level="a" type="main">Observations of an extreme atmospheric river storm with a diverse sensor network</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Hatchett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Q</forename><surname>Cao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">B</forename><surname>Dawson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">J</forename><surname>Ellis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">W</forename><surname>Hecht</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Kawzenuk</surname></persname>
+</author>
+<idno type="DOI">10.1029/2020EA001129</idno>
+<ptr target="https://doi.org/10.1029/2020EA001129"></ptr>
+</analytic>
+<monogr>
+<title level="j">Earth Sp Sci</title>
+<imprint>
+<biblscope unit="volume">7</biblscope>
+<biblscope unit="page">1129</biblscope>
+<date type="published" when="2020">2020. 2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hatchett BJ, Cao Q, Dawson PB, Ellis CJ, Hecht CW, Kawzenuk B et al (2020) Observations of an extreme atmospheric river storm with a diverse sensor network. Earth Sp Sci 7:e2020EA001129. https:// doi. org/ 10. 1029/ 2020E A0011 29</note>
+</biblstruct>
+<biblstruct xml:id="b35">
+<analytic>
+<title level="a" type="main">Characterizing the influence of atmospheric river orientation and intensity on precipitation distributions over North Coastal California</title>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">W</forename><surname>Hecht</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Cordeira</surname></persname>
+</author>
+<idno type="DOI">10.1002/2017GL074179</idno>
+<ptr target="https://doi.org/10.1002/2017GL0741"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<biblscope unit="volume">44</biblscope>
+<biblscope from="9048" to="9058" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hecht CW, Cordeira JM (2017) Characterizing the influence of atmos- pheric river orientation and intensity on precipitation distributions over North Coastal California. Geophys Res Lett 44:9048-9058. https:// doi. org/ 10. 1002/ 2017G L0741</note>
+</biblstruct>
+<biblstruct xml:id="b36">
+<analytic>
+<title level="a" type="main">Extreme runoff generation from atmospheric river driven snowmelt during the 2017 Oroville Dam spillways incident</title>
+<author>
+<persname><forename type="first">B</forename><surname>Henn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">N</forename><surname>Musselman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Lestak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">P</forename><surname>Molotch</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<biblscope unit="volume">47</biblscope>
+<biblscope unit="issue">14</biblscope>
+<biblscope unit="page">88189</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Henn B, Musselman KN, Lestak L, Ralph FM, Molotch NP (2020) Extreme runoff generation from atmospheric river driven snow- melt during the 2017 Oroville Dam spillways incident. Geophys Res Lett 47(14):e2020GL088189</note>
+</biblstruct>
+<biblstruct xml:id="b37">
+<analytic>
+<title level="a" type="main">Linking atmospheric river hydrological impacts on the U.S. West coast to Rossby wave breaking</title>
+<author>
+<persname><forename type="first">H</forename><surname>Hu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Dominguez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">A</forename><surname>Lavers</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Ralph</surname></persname>
+</author>
+<idno type="DOI">10.1175/JCLI-D-16-0386.1</idno>
+<ptr target="https://doi.org/10.1175/JCLI-D-16-0386"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Clim</title>
+<imprint>
+<biblscope unit="volume">30</biblscope>
+<biblscope from="3381" to="3399" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hu H, Dominguez F, Wang Z, Lavers DA, Zhang G, Ralph F (2017) Linking atmospheric river hydrological impacts on the U.S. West coast to Rossby wave breaking. J Clim 30:3381-3399. https:// doi. org/ 10. 1175/ JCLI-D-16-0386.</note>
+</biblstruct>
+<biblstruct xml:id="b38">
+<analytic>
+<title level="a" type="main">Local and synoptic mechanisms causing Southern California's Santa Ana winds</title>
+<author>
+<persname><forename type="first">M</forename><surname>Hughes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Hall</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Clim Dyn</title>
+<imprint>
+<biblscope unit="volume">34</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="847" to="857" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hughes M, Hall A (2010) Local and synoptic mechanisms causing Southern California's Santa Ana winds. Clim Dyn 34(6):847-857</note>
+</biblstruct>
+<biblstruct xml:id="b39">
+<analytic>
+<title level="a" type="main">The landfall and inland penetration of a flood-producing atmospheric river in Arizona. Part II: sensitivity of modeled precipitation to terrain height and atmospheric river orientation</title>
+<author>
+<persname><forename type="first">M</forename><surname>Hughes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Mahoney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Neiman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Moore</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Alexander</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J Hydrometeorol</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="1954" to="1974" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Hughes M, Mahoney KM, Neiman PJ, Moore BJ, Alexander M, Ralph FM (2014) The landfall and inland penetration of a flood-produc- ing atmospheric river in Arizona. Part II: sensitivity of modeled precipitation to terrain height and atmospheric river orientation. J Hydrometeorol 15(5):1954-1974</note>
+</biblstruct>
+<biblstruct xml:id="b40">
+<analytic>
+<title level="a" type="main">The NCEP/NCAR 40-year reanalysis project</title>
+<author>
+<persname><forename type="first">E</forename><surname>Kalnay</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kanamitsu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Kistler</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Deaven</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Gandin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Iredell</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Saha</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>White</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Woollen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Zhu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Chelliah</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Ebisuzaki</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Higgins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Janowiak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">C</forename><surname>Mo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Ropelewski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Wang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Leetmaa</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Reynolds</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Jenne</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Joseph</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bull Am Meteorol Soc</title>
+<imprint>
+<biblscope unit="volume">77</biblscope>
+<biblscope unit="issue">3</biblscope>
+<biblscope from="437" to="472" unit="page"></biblscope>
+<date type="published" when="1996">1996</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kalnay E, Kanamitsu M, Kistler R, Collins W, Deaven D, Gandin L, Iredell M, Saha S, White G, Woollen J, Zhu Y, Chelliah M, Ebisuzaki W, Higgins W, Janowiak J, Mo KC, Ropelewski C, Wang J, Leetmaa A, Reynolds R, Jenne R, Joseph D (1996) The NCEP/NCAR 40-year reanalysis project. Bull Am Meteorol Soc 77(3):437-472</note>
+</biblstruct>
+<biblstruct xml:id="b41">
+<analytic>
+<title level="a" type="main">Fifty-seven-year California reanalysis downscaling at 10 km (CaRD10). Part II: comparison with North American Regional Reanalysis</title>
+<author>
+<persname><forename type="first">H</forename><surname>Kanamaru</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kanamitsu</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J Clim</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope unit="issue">22</biblscope>
+<biblscope from="5572" to="5592" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kanamaru H, Kanamitsu M (2007) Fifty-seven-year California rea- nalysis downscaling at 10 km (CaRD10). Part II: comparison with North American Regional Reanalysis. J Clim 20(22):5572-5592</note>
+</biblstruct>
+<biblstruct xml:id="b42">
+<analytic>
+<title level="a" type="main">Spatial distribution of wildfires ignited under katabatic versus non-katabatic winds in Mediterranean Southern California USA</title>
+<author>
+<persname><forename type="first">C</forename><surname>Kolden</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Abatzoglou</surname></persname>
+</author>
+<idno type="DOI">10.3390/fire1020019</idno>
+<ptr target="https://doi.org/10.3390/fire1020019"></ptr>
+</analytic>
+<monogr>
+<title level="j">Fire</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope unit="page">19</biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Kolden C, Abatzoglou J (2018) Spatial distribution of wildfires ignited under katabatic versus non-katabatic winds in Mediterranean Southern California USA. Fire 1(2):19. https:// doi. org/ 10. 3390/ fire1 020019</note>
+</biblstruct>
+<biblstruct xml:id="b43">
+<analytic>
+<title level="a" type="main">The worst fire season ever. Again</title>
+<author>
+<persname><forename type="first">P</forename><surname>Krishnakumar</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Kannan</surname></persname>
+</author>
+<ptr target="https://www.latimes.com/projects/california-fires-damage-climate-change-analysis"></ptr>
+</analytic>
+<monogr>
+<title level="j">New York Times</title>
+<imprint>
+<date type="published" when="2020-07-19">2020. 15 September 2020. 19 July 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Krishnakumar P, Kannan S (2020) The worst fire season ever. Again. New York Times, 15 September 2020. https:// www. latim es. com/ proje cts/ calif ornia-fires-damage-clima te-change-analy sis. Accessed 19 July 2021</note>
+</biblstruct>
+<biblstruct xml:id="b44">
+<analytic>
+<title level="a" type="main">Improving visual communication of weather forecasts with rhetoric</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Lambrecht</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Hatchett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">C</forename><surname>Walsh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Z</forename><surname>Tolby</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bull Am Meteorol Soc</title>
+<imprint>
+<biblscope unit="volume">100</biblscope>
+<biblscope unit="issue">4</biblscope>
+<biblscope from="557" to="563" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lambrecht KM, Hatchett BJ, Walsh LC, Collins M, Tolby Z (2019) Improving visual communication of weather forecasts with rheto- ric. Bull Am Meteorol Soc 100(4):557-563</note>
+</biblstruct>
+<biblstruct xml:id="b45">
+<analytic>
+<title level="a" type="main">Identifying community values related to heat: recommendations for forecast and health risk communication</title>
+<author>
+<persname><forename type="first">K</forename><surname>Lambrecht</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Hatchett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Vandermolen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Feldkircher</surname></persname>
+</author>
+<idno type="DOI">10.5194/gc-4-517-2021</idno>
+<ptr target="https://doi.org/10.5194/gc-4-517-2021"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geosci Commun</title>
+<imprint>
+<biblscope unit="volume">4</biblscope>
+<biblscope from="517" to="525" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Lambrecht K, Hatchett BJ, VanderMolen K, Feldkircher B (2021) Identifying community values related to heat: recommendations for forecast and health risk communication. Geosci Commun 4:517-525. https:// doi. org/ 10. 5194/ gc-4-517-2021</note>
+</biblstruct>
+<biblstruct xml:id="b46">
+<analytic>
+<title level="a" type="main">A long-term hydrologically based dataset of land surface fluxes and states for the conterminous United States: update and extensions</title>
+<author>
+<persname><forename type="first">B</forename><surname>Livneh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Rosenberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Lin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Nijssen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">V</forename><surname>Mishra</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Andreadis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">P</forename><surname>Maurer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">P</forename><surname>Lettenmaier</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J Clim</title>
+<imprint>
+<biblscope unit="volume">26</biblscope>
+<biblscope from="9384" to="9392" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Livneh B, Rosenberg EA, Lin C, Nijssen B, Mishra V, Andreadis KM, Maurer EP, Lettenmaier DP (2013) A long-term hydrologically based dataset of land surface fluxes and states for the contermi- nous United States: update and extensions. J Clim 26:9384-9392</note>
+</biblstruct>
+<biblstruct xml:id="b47">
+<analytic>
+<title level="a" type="main">A spatially comprehensive, hydrometeorological data set for Mexico, the U.S., and Southern Canada 1950-2013</title>
+<author>
+<persname><forename type="first">B</forename><surname>Livneh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Bohn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Pierce</surname></persname>
+</author>
+<idno type="DOI">10.1038/sdata.2015.42</idno>
+<ptr target="https://doi.org/10.1038/sdata.2015"></ptr>
+</analytic>
+<monogr>
+<title level="j">Sci Data</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope unit="page">150042</biblscope>
+<date type="published" when="2015">2015</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Livneh B, Bohn T, Pierce D et al (2015) A spatially comprehensive, hydrometeorological data set for Mexico, the U.S., and Southern Canada 1950-2013. Sci Data 2:150042. https:// doi. org/ 10. 1038/ sdata. 2015.</note>
+</biblstruct>
+<biblstruct xml:id="b48">
+<analytic>
+<title level="a" type="main">Spatial variation in extreme winds predicts large wildfire locations in chaparral ecosystems</title>
+<author>
+<persname><forename type="first">M</forename><surname>Moritz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Moody</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Krawchuk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Hughes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Hall</surname></persname>
+</author>
+<idno type="DOI">10.1029/2009GL041735.1</idno>
+<ptr target="https://doi.org/10.1029/2009GL041735"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<biblscope unit="volume">37</biblscope>
+<biblscope unit="page">4801</biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Moritz M, Moody TJ, Krawchuk M, Hughes M, Hall A (2010) Spa- tial variation in extreme winds predicts large wildfire locations in chaparral ecosystems. Geophys Res Lett 37:L04801. https:// doi. org/ 10. 1029/ 2009G L0417 35.</note>
+</biblstruct>
+<biblstruct xml:id="b49">
+<analytic>
+<title level="a" type="main">Modulation of atmospheric rivers near Alaska and the US West Coast by northeast Pacific height anomalies</title>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">D</forename><surname>Mundhenk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">A</forename><surname>Barnes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">D</forename><surname>Maloney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Nardi</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J Geophys Res-Atmos</title>
+<imprint>
+<biblscope unit="volume">121</biblscope>
+<biblscope from="12751" to="12765" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Mundhenk BD, Barnes EA, Maloney ED, Nardi KM (2016) Modula- tion of atmospheric rivers near Alaska and the US West Coast by northeast Pacific height anomalies. J Geophys Res-Atmos 121:12751-12765</note>
+</biblstruct>
+<biblstruct xml:id="b50">
+<monogr>
+<author>
+<persname><forename type="first">P</forename><surname>Murphy</surname></persname>
+</author>
+<ptr target="https://www.psehealthyenergy.org/news/blog-posts//"></ptr>
+<title level="m">Preventing wildfires with power outages: the growing impacts of California's Public Safety Power Shutoffs. Physicians, Scientists, and Engineers for Healthy Energy Blog</title>
+<imprint>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Murphy P (2021) Preventing wildfires with power outages: the growing impacts of California's Public Safety Power Shutoffs. Physicians, Scientists, and Engineers for Healthy Energy Blog. https:// www. psehe althy energy. org/ news/ blog-posts//</note>
+</biblstruct>
+<biblstruct xml:id="b51">
+<analytic>
+<title level="a" type="main">Meteorological characteristics and overland precipitation impacts of atmospheric rivers affecting the West Coast of North America based on eight years of SSM/I satellite observations</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Neiman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Wick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Lundquist</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Dettinger</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J Hydrometeorol</title>
+<imprint>
+<biblscope unit="volume">9</biblscope>
+<biblscope from="22" to="47" unit="page"></biblscope>
+<date type="published" when="2008">2008</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Neiman PJ, Ralph FM, Wick GA, Lundquist JD, Dettinger MD (2008) Meteorological characteristics and overland precipitation impacts of atmospheric rivers affecting the West Coast of North America based on eight years of SSM/I satellite observations. J Hydrome- teorol 9:22-47</note>
+</biblstruct>
+<biblstruct xml:id="b52">
+<analytic>
+<title level="a" type="main">The landfall and inland penetration of a flood-producing atmospheric river in Arizona. Part I: observed synoptic-scale, orographic, and hydrometeorological characteristics</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Neiman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Moore</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Hughes</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Mahoney</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Cordeira</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Dettinger</surname></persname>
+</author>
+<ptr target="https://journals.ametsoc.org/view/journals/hydr/14/2/jhm-d-12-0101_1.xml"></ptr>
+</analytic>
+<monogr>
+<title level="j">J Hydrometeorol</title>
+<imprint>
+<biblscope unit="volume">14</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="460" to="484" unit="page"></biblscope>
+<date type="published" when="2013-11-24">2013. Nov 24, 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Neiman PJ, Ralph FM, Moore BJ, Hughes M, Mahoney KM, Cordeira JM, Dettinger MD (2013) The landfall and inland penetration of a flood-producing atmospheric river in Arizona. Part I: observed synoptic-scale, orographic, and hydrometeorological character- istics. J Hydrometeorol 14(2): 460-484. Retrieved Nov 24, 2021, https:// journ als. amets oc. org/ view/ journ als/ hydr/ 14/2/ jhm-d-12- 0101_1. xml</note>
+</biblstruct>
+<biblstruct xml:id="b53">
+<analytic>
+<title level="a" type="main">Synoptic conditions associated with cool season post-fire debris flows in the Transverse Ranges of southern California</title>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">S</forename><surname>Oakley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">T</forename><surname>Lancaster</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">L</forename><surname>Kaplan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<idno type="DOI">10.1007/s11069-017-2867-6</idno>
+<ptr target="https://doi.org/10.1007/s11069-017-2867-6"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Hazards</title>
+<imprint>
+<biblscope unit="volume">88</biblscope>
+<biblscope from="327" to="354" unit="page"></biblscope>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Oakley NS, Lancaster JT, Kaplan ML, Ralph FM (2017) Synoptic con- ditions associated with cool season post-fire debris flows in the Transverse Ranges of southern California. Nat Hazards 88:327- 354. https:// doi. org/ 10. 1007/ s11069-017-2867-6</note>
+</biblstruct>
+<biblstruct xml:id="b54">
+<analytic>
+<title level="a" type="main">Brief communication: Meterological and climatological conditions associated with the 9 January 2018 post-fire debris flows in Montecito and Carppinteria, California, USA</title>
+<author>
+<persname><forename type="first">N</forename><surname>Oakley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">F</forename><surname>Cannon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Munroe</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Lancaster</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Gomberg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<idno type="DOI">10.5194/nhess-18-3037-2018</idno>
+<ptr target="https://doi.org/10.5194/nhess-18-3037-2018"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Hazards Earth Syst Sci</title>
+<imprint>
+<biblscope unit="volume">18</biblscope>
+<biblscope from="3037" to="3043" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Oakley N, Cannon JF, Munroe R, Lancaster J, Gomberg D, Ralph FM (2018) Brief communication: Meterological and climato- logical conditions associated with the 9 January 2018 post-fire debris flows in Montecito and Carppinteria, California, USA. Nat Hazards Earth Syst Sci 18:3037-3043. https:// doi. org/ 10. 5194/ nhess-18-3037-2018</note>
+</biblstruct>
+<biblstruct xml:id="b55">
+<analytic>
+<title level="a" type="main">Probabilistic estimates of future changes in California temperature and precipitation using statistical and dynamical downscaling</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Pierce</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><surname>Das</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Cayan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">P</forename><surname>Maurer</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">L</forename><surname>Miller</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Y</forename><surname>Bao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Kanamitsu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Yoshimura</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">A</forename><surname>Snyder</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">C</forename><surname>Sloan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Franco</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Tyree</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Clim Dyn</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope from="839" to="856" unit="page"></biblscope>
+<date type="published" when="2013">2013</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Pierce DW, Das T, Cayan DR, Maurer EP, Miller NL, Bao Y, Kan- amitsu M, Yoshimura K, Snyder MA, Sloan LC, Franco G, Tyree M (2013) Probabilistic estimates of future changes in California temperature and precipitation using statistical and dynamical downscaling. Clim Dyn 40:839-856</note>
+</biblstruct>
+<biblstruct xml:id="b56">
+<analytic>
+<title level="a" type="main">Precipitation in a warming world: assessing projected hydroclimate changes in California and other Mediterranean climate regions</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">D</forename><surname>Polade</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Cayan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Dettinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Pierce</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41598-017-11285-y</idno>
+<ptr target="https://doi.org/10.1038/s41598-017-11285-y"></ptr>
+</analytic>
+<monogr>
+<title level="j">Sci Rep</title>
+<imprint>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Polade SD, Gershunov A, Cayan DR, Dettinger MD, Pierce DW (2017) Precipitation in a warming world: assessing projected hydro- climate changes in California and other Mediterranean climate regions. Sci Rep. https:// doi. org/ 10. 1038/ s41598-017-11285-y</note>
+</biblstruct>
+<biblstruct xml:id="b57">
+<analytic>
+<title level="a" type="main">Overview of the ARkStorm Scenario</title>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">A</forename><surname>Porter</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="m">Prepared for the U.S. Geological Survey Multihazards Demonstration Project</title>
+<editor>et al.</editor>
+<meeting><address><addrline>Reston, Va</addrline></address></meeting>
+<imprint>
+<publisher>Dept. of the Interior, U.S. Geological Survey</publisher>
+<date type="published" when="2011">2011. 2011</date>
+</imprint>
+</monogr>
+<note>electronic Resource. Print</note>
+<note type="raw_reference">Porter KA (2011) Overview of the ARkStorm Scenario [electronic Resource]/by Keith Porter ... [et al.]; Prepared for the U.S. Geo- logical Survey Multihazards Demonstration Project. Reston, Va: Dept. of the Interior, U.S. Geological Survey, 2011. Print.</note>
+</biblstruct>
+<biblstruct xml:id="b58">
+<analytic>
+<title level="a" type="main">Satellite and CALJET aircraft observations of atmospheric rivers over the eastern North-Pacific Ocean during the El Niño winter of 1997/98</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Neiman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Wick</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mon Weather Rev</title>
+<imprint>
+<biblscope unit="volume">132</biblscope>
+<biblscope from="1721" to="1745" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ralph FM, Neiman PJ, Wick GA (2004) Satellite and CALJET aircraft observations of atmospheric rivers over the eastern North-Pacific Ocean during the El Niño winter of 1997/98. Mon Weather Rev 132:1721-1745</note>
+</biblstruct>
+<biblstruct xml:id="b59">
+<analytic>
+<title level="a" type="main">Flooding on California's Russian River: role of atmospheric rivers</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Neiman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">A</forename><surname>Wick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">I</forename><surname>Gutman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Dettinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Cayan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">B</forename><surname>White</surname></persname>
+</author>
+<idno type="DOI">10.1029/2006GL026689</idno>
+<ptr target="https://doi.org/10.1029/2006GL026689"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<biblscope unit="volume">33</biblscope>
+<biblscope unit="page">13801</biblscope>
+<date type="published" when="2006">2006</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ralph FM, Neiman PJ, Wick GA, Gutman SI, Dettinger MD, Cayan DR, White AB (2006) Flooding on California's Russian River: role of atmospheric rivers. Geophys Res Lett 33:L13801. https:// doi. org/ 10. 1029/ 2006G L0266 89</note>
+</biblstruct>
+<biblstruct xml:id="b60">
+<analytic>
+<title level="a" type="main">A multiscale observational case study of a Pacific atmospheric river exhibiting tropical-extratropical connections and a mesoscale frontal wave</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">J</forename><surname>Neiman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><forename type="middle">N</forename><surname>Kiladis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Weickman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Reynolds</surname></persname>
+</author>
+<idno type="DOI">10.1175/2010MWR3596.1</idno>
+<ptr target="https://doi.org/10.1175/2010MWR3596"></ptr>
+</analytic>
+<monogr>
+<title level="j">Mon Weather Rev</title>
+<imprint>
+<biblscope unit="volume">139</biblscope>
+<biblscope from="1169" to="1189" unit="page"></biblscope>
+<date type="published" when="2011">2011</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ralph FM, Neiman PJ, Kiladis GN, Weickman K, Reynolds DW (2011) A multiscale observational case study of a Pacific atmospheric river exhibiting tropical-extratropical connections and a mesoscale frontal wave. Mon Weather Rev 139:1169-1189. https:// doi. org/ 10. 1175/ 2010M WR3596.</note>
+</biblstruct>
+<biblstruct xml:id="b61">
+<analytic>
+<title level="a" type="main">A scale to characterize the strength and impacts of atmospheric rivers</title>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Rutz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">M</forename><surname>Cordeira</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Dettinger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Anderson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Reynolds</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">J</forename><surname>Schick</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Smallcomb</surname></persname>
+</author>
+<ptr target="https://journals.ametsoc.org/view/journals/bams/100/2/bams-d-18-0023"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bull Am Meteorol Soc</title>
+<imprint>
+<biblscope unit="volume">100</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="269" to="289" unit="page"></biblscope>
+<date type="published" when="2019-06-01">2019. Jun 1, 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ralph FM, Rutz JJ, Cordeira JM, Dettinger M, Anderson M, Reynolds D, Schick LJ, Smallcomb C (2019) A scale to characterize the strength and impacts of atmospheric rivers. Bull Am Meteorol Soc 100(2): 269-289. Retrieved Jun 1, 2021, https:// journ als. amets oc. org/ view/ journ als/ bams/ 100/2/ bams-d-18-0023.</note>
+</biblstruct>
+<biblstruct xml:id="b62">
+<analytic>
+<title level="a" type="main">Implications of warming on western United States landfalling atmospheric rivers and their flood damages</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Rhoades</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Risser</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">S</forename><surname>Dáithí</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">F</forename><surname>Wehner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Jones</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Weather Clim Extremes</title>
+<idno type="ISSN">2212-0947</idno>
+<imprint>
+<biblscope unit="volume">32</biblscope>
+<biblscope unit="page">100326</biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">xml Rhoades AM, Risser MD, Dáithí AS, Wehner MF, Jones AD (2021) Implications of warming on western United States landfall- ing atmospheric rivers and their flood damages. Weather Clim Extremes 32:100326 (ISSN 2212-0947)</note>
+</biblstruct>
+<biblstruct xml:id="b63">
+<analytic>
+<title level="a" type="main">Quantifying the role of atmospheric rivers in the interior western United States</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Rutz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">J</forename><surname>Steenburgh</surname></persname>
+</author>
+<idno type="DOI">10.1002/asl.392</idno>
+<ptr target="https://doi.org/10.1002/asl.392"></ptr>
+</analytic>
+<monogr>
+<title level="j">Atmos Sci Lett</title>
+<imprint>
+<biblscope unit="volume">13</biblscope>
+<biblscope from="257" to="261" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rutz JJ, Steenburgh WJ (2012) Quantifying the role of atmospheric riv- ers in the interior western United States. Atmos Sci Lett 13:257- 261. https:// doi. org/ 10. 1002/ asl. 392</note>
+</biblstruct>
+<biblstruct xml:id="b64">
+<analytic>
+<title level="a" type="main">Climatological characteristics of atmospheric rivers and their inland penetration over the Western United States</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Rutz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">J</forename><surname>Steenburgh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Mon Weather Rev</title>
+<imprint>
+<biblscope unit="volume">142</biblscope>
+<biblscope from="905" to="921" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rutz JJ, Steenburgh WJ, Ralph FM (2014) Climatological character- istics of atmospheric rivers and their inland penetration over the Western United States. Mon Weather Rev 142:905-921</note>
+</biblstruct>
+<biblstruct xml:id="b65">
+<analytic>
+<title level="a" type="main">The inland penetration of atmospheric rivers over Western North America: a Lagrangian analysis</title>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">J</forename><surname>Rutz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">J</forename><surname>Steenburgh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<ptr target="https://journals.ametsoc.org/view/journals/mwre/143/5/mwr-d-14-00288"></ptr>
+</analytic>
+<monogr>
+<title level="j">Mon Weather Rev</title>
+<imprint>
+<biblscope unit="volume">143</biblscope>
+<biblscope unit="issue">5</biblscope>
+<biblscope from="1924" to="1944" unit="page"></biblscope>
+<date type="published" when="2015-08-11">2015. Aug 11, 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Rutz JJ, Steenburgh WJ, Ralph FM (2015) The inland penetration of atmospheric rivers over Western North America: a Lagrangian analysis. Mon Weather Rev 143(5), 1924-1944. Retrieved Aug 11, 2021. https:// journ als. amets oc. org/ view/ journ als/ mwre/ 143/5/ mwr-d-14-00288.</note>
+</biblstruct>
+<biblstruct xml:id="b66">
+<analytic>
+<title level="a" type="main">The health burden of fall, winter and spring heat waves in Southern California and contribution of Santa Ana Winds</title>
+<author>
+<persname><forename type="first">L</forename><surname>Schwarz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Malig</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Guzman</forename><surname>Morales</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Guirguis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><surname>Gershunov</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Basu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Benmarhnia</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Environ Res Lett</title>
+<imprint>
+<biblscope unit="volume">15</biblscope>
+<biblscope unit="page">54017</biblscope>
+<date type="published" when="2020">2020</date>
+</imprint>
+</monogr>
+<note type="raw_reference">xml Schwarz L, Malig BJ, Guzman Morales J, Guirguis K, Gershunov A, Basu R, Benmarhnia T (2020) The health burden of fall, winter and spring heat waves in Southern California and contribution of Santa Ana Winds. Environ Res Lett 15:054017</note>
+</biblstruct>
+<biblstruct xml:id="b67">
+<analytic>
+<title level="a" type="main">Evidence of a low-to-no snow future and its impacts on water resources in the western United States</title>
+<author>
+<persname><forename type="first">E</forename><surname>Siirila-Woodburn</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">M</forename><surname>Rhoades</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Hatchett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Huning</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Szinai</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Tague</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">S</forename><surname>Nico</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Feldman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">D</forename><surname>Jones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><forename type="middle">D</forename><surname>Collins</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Kaatz</surname></persname>
+</author>
+<idno type="DOI">10.1038/s43017-021-00219-y</idno>
+<ptr target="https://doi.org/10.1038/s43017-021-00219-y"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Rev Earth Environ</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="800" to="819" unit="page"></biblscope>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Siirila-Woodburn E, Rhoades AM, Hatchett BJ, Huning L, Szinai J, Tague C, Nico PS, Feldman D, Jones AD, Collins WD, Kaatz L (2021) Evidence of a low-to-no snow future and its impacts on water resources in the western United States. Nat Rev Earth Environ 2:800-819. https:// doi. org/ 10. 1038/ s43017-021-00219-y</note>
+</biblstruct>
+<biblstruct xml:id="b68">
+<analytic>
+<title level="a" type="main">Hydroclimate variability in snow-fed river systems: local water managers' perspectives on adapting to the new normal</title>
+<author>
+<persname><forename type="first">K</forename><surname>Sterle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">J</forename><surname>Hatchett</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Singletary</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Pohll</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bull Am Meteor Soc</title>
+<imprint>
+<biblscope unit="volume">100</biblscope>
+<biblscope unit="issue">6</biblscope>
+<biblscope from="1031" to="1048" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Sterle K, Hatchett BJ, Singletary L, Pohll G (2019) Hydroclimate variability in snow-fed river systems: local water managers' per- spectives on adapting to the new normal. Bull Am Meteor Soc 100(6):1031-1048</note>
+</biblstruct>
+<biblstruct xml:id="b69">
+<analytic>
+<title level="a" type="main">Circulation regimes: chaotic variability versus SST-forced predictability</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">M</forename><surname>Straus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Corti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Molteni</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">J Clim</title>
+<imprint>
+<biblscope unit="volume">20</biblscope>
+<biblscope from="2251" to="2272" unit="page"></biblscope>
+<date type="published" when="2007">2007</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Straus DM, Corti S, Molteni F (2007) Circulation regimes: chaotic variability versus SST-forced predictability. J Clim 20:2251-2272</note>
+</biblstruct>
+<biblstruct xml:id="b70">
+<analytic>
+<title level="a" type="main">Forecasting hydrologically critical storms in Northern and Central California</title>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">H</forename><surname>Strobin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">W</forename><surname>Reynolds</surname></persname>
+</author>
+<ptr target="https://www.weather.gov/media/wrh/online_publications/TAs/ta9522.pdf"></ptr>
+</analytic>
+<monogr>
+<title level="m">Western Region Technical attachment 95-22</title>
+<imprint>
+<publisher>National Weather Service</publisher>
+<date type="published" when="1995-01">1995. 1 Sept 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Strobin MH, Reynolds DW (1995) Forecasting hydrologically criti- cal storms in Northern and Central California. Western Region Technical attachment 95-22, National Weather Service https:// www. weath er. gov/ media/ wrh/ online_ publi catio ns/ TAs/ ta9522. pdf. Accessed 1 Sept 2021</note>
+</biblstruct>
+<biblstruct xml:id="b71">
+<analytic>
+<title level="a" type="main">The extraordinary California drought of 2013/2014: Character, context, and the role of climate change</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Swain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Tsiang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Haugen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Singh</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Charland</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Rajaratnam</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><forename type="middle">S</forename><surname>Diffenbaugh</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Bull Am Meteorol Soc</title>
+<imprint>
+<biblscope unit="volume">95</biblscope>
+<biblscope from="3" to="S7" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Swain DL, Tsiang M, Haugen M, Singh D, Charland A, Rajaratnam B, Diffenbaugh NS (2014) The extraordinary California drought of 2013/2014: Character, context, and the role of climate change. Bull Am Meteorol Soc 95:S3-S7</note>
+</biblstruct>
+<biblstruct xml:id="b72">
+<analytic>
+<title level="a" type="main">Increasing precipitation volatility in twenty-first-century California</title>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">L</forename><surname>Swain</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Langenbrunner</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">D</forename><surname>Neelin</surname></persname>
+</author>
+<idno type="DOI">10.1038/s41558-018-0140-y</idno>
+<ptr target="https://doi.org/10.1038/s41558-018-0140-y"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nat Clim Change</title>
+<imprint>
+<biblscope unit="volume">8</biblscope>
+<biblscope from="427" to="433" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Swain DL, Langenbrunner B, Neelin JD et al (2018) Increasing pre- cipitation volatility in twenty-first-century California. Nat Clim Change 8:427-433. https:// doi. org/ 10. 1038/ s41558-018-0140-y</note>
+</biblstruct>
+<biblstruct xml:id="b73">
+<analytic>
+<title level="a" type="main">Examining moisture pathways and extreme precipitation in the U.S. Intermountain West using self-organizing maps</title>
+<author>
+<persname><forename type="first">D</forename><surname>Swales</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Alexander</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Hughes</surname></persname>
+</author>
+<idno type="DOI">10.1002/2015GL067478</idno>
+<ptr target="https://doi.org/10.1002/2015GL067478"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<biblscope unit="volume">43</biblscope>
+<biblscope from="1727" to="1735" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Swales D, Alexander M, Hughes M (2016) Examining moisture path- ways and extreme precipitation in the U.S. Intermountain West using self-organizing maps. Geophys Res Lett 43:1727-1735. https:// doi. org/ 10. 1002/ 2015G L0674 78</note>
+</biblstruct>
+<biblstruct xml:id="b74">
+<monogr>
+<ptr target="https://wrcc.dri.edu/Climate/Monthly_Summaries/"></ptr>
+<title level="m">Monthly Climate Summaries</title>
+<imprint>
+<publisher>Western RegionalClimate Center (WRCC</publisher>
+<date type="published" when="2021">2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Western RegionalClimate Center (WRCC) (2021) Monthly Climate Summaries. Available onlineat https:// wrcc. dri. edu/ Clima te/ Month ly_ Summa ries/</note>
+</biblstruct>
+<biblstruct xml:id="b75">
+<analytic>
+<title level="a" type="main">Evolving the National Weather Service to Build a Weather-Ready Nation: connecting observations, forecasts, and warnings to decision-makers through impactbased decision support services</title>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">W</forename><surname>Uccellini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Ten</forename><surname>Hoeve</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">E</forename></persname>
+</author>
+<ptr target="https://journals.ametsoc.org/view/journals/bams/100/10/bams-d-18-0159"></ptr>
+</analytic>
+<monogr>
+<title level="j">Bull Am Meteorol Soci</title>
+<imprint>
+<biblscope unit="volume">100</biblscope>
+<biblscope unit="issue">10</biblscope>
+<biblscope from="1923" to="1942" unit="page"></biblscope>
+<date type="published" when="2019-08-30">2019. Aug 30, 2021</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Uccellini LW, Ten Hoeve JE (2019) Evolving the National Weather Service to Build a Weather-Ready Nation: connecting observa- tions, forecasts, and warnings to decision-makers through impact- based decision support services. Bull Am Meteorol Soci 100(10): 1923-1942. Retrieved Aug 30, 2021, https:// journ als. amets oc. org/ view/ journ als/ bams/ 100/ 10/ bams-d-18-0159.</note>
+</biblstruct>
+<biblstruct xml:id="b76">
+<analytic>
+<title level="a" type="main">lessons from the Oroville dam</title>
+<author>
+<persname><forename type="first">F</forename><surname>Vahedifard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Aghakouchak</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Ragno</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Shahrokhabadi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">I</forename><surname>Mallakpour</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Science</title>
+<imprint>
+<biblscope unit="volume">17</biblscope>
+<biblscope from="1139" to="1140" unit="page"></biblscope>
+<date type="published" when="2017">2017. 2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">xml Vahedifard F, Aghakouchak A, Ragno E, Shahrokhabadi S, Mal- lakpour I (2017) 2017: lessons from the Oroville dam. Science 17:1139-1140</note>
+</biblstruct>
+<biblstruct xml:id="b77">
+<monogr>
+<title level="m" type="main">Meteorology of hydrologically Critical Storms in California</title>
+<author>
+<persname><forename type="first">R</forename><surname>Weaver</surname></persname>
+</author>
+<idno>No. 37</idno>
+<ptr target="https://cepsym.org/history/HMR-37.pdf"></ptr>
+<imprint>
+<date type="published" when="1962-01">1962. 1 Sept 2021</date>
+</imprint>
+<respstmt>
+<orgname>U.S. Dept. of Commerce, Weather Bureau (now the National Weather Service</orgname>
+</respstmt>
+</monogr>
+<note type="report_type">Hydrometeorological Report</note>
+<note type="raw_reference">Weaver R (1962) Meteorology of hydrologically Critical Storms in California. Hydrometeorological Report No. 37, U.S. Dept. of Commerce, Weather Bureau (now the National Weather Service) https:// cepsym. org/ histo ry/ HMR-37. pdf. Accessed 1 Sept 2021</note>
+</biblstruct>
+<biblstruct xml:id="b78">
+<analytic>
+<title level="a" type="main">Climate, Santa Ana winds and autumn wildfires in southern California</title>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">L</forename><surname>Westerling</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><forename type="middle">R</forename><surname>Cayan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">T</forename><forename type="middle">J</forename><surname>Brown</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><forename type="middle">L</forename><surname>Hall</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">G</forename><surname>Riddle</surname></persname>
+</author>
+<idno type="DOI">10.1029/2004EO310001</idno>
+<ptr target="https://doi.org/10.1029/2004EO310001"></ptr>
+</analytic>
+<monogr>
+<title level="j">Eos Trans Amer Geophys Union</title>
+<imprint>
+<biblscope unit="volume">85</biblscope>
+<biblscope from="289" to="296" unit="page"></biblscope>
+<date type="published" when="2004">2004</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Westerling AL, Cayan DR, Brown TJ, Hall BL, Riddle LG (2004) Climate, Santa Ana winds and autumn wildfires in southern Cali- fornia. Eos Trans Amer Geophys Union 85:289-296. https:// doi. org/ 10. 1029/ 2004E O3100 01</note>
+</biblstruct>
+<biblstruct xml:id="b79">
+<analytic>
+<title level="a" type="main">The relationship between extratropical cyclone strength and atmospheric river intensity and position</title>
+<author>
+<persname><forename type="first">Z</forename><surname>Zhang</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><forename type="middle">M</forename><surname>Ralph</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Zheng</surname></persname>
+</author>
+<idno type="DOI">10.1029/2018GL079071</idno>
+<ptr target="https://doi.org/10.1029/2018GL079071"></ptr>
+</analytic>
+<monogr>
+<title level="j">Geophys Res Lett</title>
+<imprint>
+<biblscope unit="volume">46</biblscope>
+<biblscope from="1814" to="1823" unit="page"></biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Zhang Z, Ralph FM, Zheng M (2019) The relationship between extrat- ropical cyclone strength and atmospheric river intensity and posi- tion. Geophys Res Lett 46:1814-1823. https:// doi. org/ 10. 1029/ 2018G L0790 71</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

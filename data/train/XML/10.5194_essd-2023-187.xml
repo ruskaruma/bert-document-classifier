@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?><html><body><tei xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+<teiheader xml:lang="en">
+<filedesc>
+<titlestmt>
+<title level="a" type="main">Metazoan zooplankton in the Bay of Biscay: 16 years of individual sizes and abundances from the ZooScan and ZooCAM imaging systems</title>
+</titlestmt>
+<publicationstmt>
+<publisher></publisher>
+<availability status="unknown"><licence></licence></availability>
+<date type="published" when="2023-06-01">1 June 2023</date>
+</publicationstmt>
+<sourcedesc>
+<biblstruct>
+<analytic>
+<author>
+<persname><forename type="first">Grandremy</forename><surname>Nina</surname></persname>
+<email>grandremy.n@gmail.com</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> DECOD (Ecosystem Dynamics and Sustainability), IFREMER, INRAE, Institut Agro, Nantes, Centre Atlantique -Rue de l'Ile d'Yeu -BP 21105 -44311 Nantes Cedex 03, France.</note>
+<orgname type="department">Institut Agro</orgname>
+<orgname key="lab1" type="laboratory">DECOD (Ecosystem Dynamics and Sustainability)</orgname>
+<orgname key="lab2" type="laboratory">IFREMER</orgname>
+<orgname key="lab3" type="laboratory">INRAE</orgname>
+<address>
+<addrline>Centre Atlantique -Rue de l'Ile d'Yeu -BP</addrline>
+<postcode>21105 -44311</postcode>
+<settlement>Nantes, Nantes Cedex 03</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Bourriau</forename><surname>Paul</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> DECOD (Ecosystem Dynamics and Sustainability), IFREMER, INRAE, Institut Agro, Nantes, Centre Atlantique -Rue de l'Ile d'Yeu -BP 21105 -44311 Nantes Cedex 03, France.</note>
+<orgname type="department">Institut Agro</orgname>
+<orgname key="lab1" type="laboratory">DECOD (Ecosystem Dynamics and Sustainability)</orgname>
+<orgname key="lab2" type="laboratory">IFREMER</orgname>
+<orgname key="lab3" type="laboratory">INRAE</orgname>
+<address>
+<addrline>Centre Atlantique -Rue de l'Ile d'Yeu -BP</addrline>
+<postcode>21105 -44311</postcode>
+<settlement>Nantes, Nantes Cedex 03</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+<affiliation key="aff1">
+<note type="raw_affiliation"> Unité Biologie et Ecologie des Ecosystèmes marins Profonds, Laboratoire Environnement Profond, Ifremer Centre Bretagne -ZI de la Pointe du Diable -CS 10070 -29280 Plouzané, France.</note>
+<orgname key="lab1" type="laboratory">Unité Biologie et Ecologie des Ecosystèmes marins Profonds</orgname>
+<orgname key="lab2" type="laboratory">Laboratoire Environnement Profond</orgname>
+<orgname type="institution">Ifremer Centre Bretagne</orgname>
+<address>
+<addrline>ZI de la Pointe du Diable</addrline>
+<postcode>CS, 10070 -29280</postcode>
+<settlement>Plouzané</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Danielou</forename><surname>Marie-Madeleine</surname></persname>
+<affiliation key="aff2">
+<note type="raw_affiliation"> Unité DYNECO-PELAGOS, Laboratoire d'Ecologie Pélagique, Ifremer Centre Bretagne -ZI de la Pointe du Diable -CS 10070 -29280 Plouzané, France.</note>
+<orgname key="lab1" type="laboratory">Unité DYNECO-PELAGOS</orgname>
+<orgname key="lab2" type="laboratory">Laboratoire d'Ecologie Pélagique</orgname>
+<orgname type="institution">Ifremer Centre BretagneCS</orgname>
+<address>
+<addrline>ZI de la Pointe du, Diable</addrline>
+<postcode>10070 -29280</postcode>
+<settlement>Plouzané</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Doray</forename><surname>Mathieu</surname></persname>
+<affiliation key="aff0">
+<note type="raw_affiliation"> DECOD (Ecosystem Dynamics and Sustainability), IFREMER, INRAE, Institut Agro, Nantes, Centre Atlantique -Rue de l'Ile d'Yeu -BP 21105 -44311 Nantes Cedex 03, France.</note>
+<orgname type="department">Institut Agro</orgname>
+<orgname key="lab1" type="laboratory">DECOD (Ecosystem Dynamics and Sustainability)</orgname>
+<orgname key="lab2" type="laboratory">IFREMER</orgname>
+<orgname key="lab3" type="laboratory">INRAE</orgname>
+<address>
+<addrline>Centre Atlantique -Rue de l'Ile d'Yeu -BP</addrline>
+<postcode>21105 -44311</postcode>
+<settlement>Nantes, Nantes Cedex 03</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Christine</forename><surname>Dupuy</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> BIOFEEL, UMRi LIENSs, La Rochelle University / CNRS, 2, rue Olympe de Gouges, 17000 La Rochelle, France.</note>
+<orgname key="lab1" type="laboratory">BIOFEEL</orgname>
+<orgname key="lab2" type="laboratory">UMRi LIENSs</orgname>
+<orgname type="institution">La Rochelle University / CNRS</orgname>
+<address>
+<addrline>2, rue Olympe de Gouges</addrline>
+<postcode>17000</postcode>
+<settlement>La Rochelle</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Forest</forename><surname>Bertrand</surname></persname>
+<affiliation key="aff4">
+<note type="raw_affiliation"> Laboratoire Hydrodynamique Marine, Unité RDT, Ifremer Centre Bretagne -ZI de la Pointe du Diable -CS 10070 -29280 Plouzané, France.</note>
+<orgname key="lab1" type="laboratory">Laboratoire Hydrodynamique Marine</orgname>
+<orgname key="lab2" type="laboratory">Unité RDT</orgname>
+<orgname type="institution">Ifremer Centre Bretagne</orgname>
+<address>
+<addrline>ZI de la Pointe du Diable</addrline>
+<postcode>CS, 10070 -29280</postcode>
+<settlement>Plouzané</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Jalabert</forename><surname>Laetitia</surname></persname>
+<affiliation key="aff5">
+<note type="raw_affiliation"> Sorbonne Université, Institut de la Mer de Villefranche, 06230 Villefranche-sur-mer, France.</note>
+<orgname key="instit1" type="institution">Sorbonne Université</orgname>
+<orgname key="instit2" type="institution">Institut de la Mer de Villefranche</orgname>
+<address>
+<postcode>06230</postcode>
+<settlement>Villefranche-sur-mer</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Huret</forename><surname>Martin</surname></persname>
+<affiliation key="aff6">
+<note type="raw_affiliation"> DECOD (Ecosystem Dynamics and Sustainability), IFREMER, INRAE, Institut Agro, Centre Bretagne -ZI de la Pointe du Diable -CS 10070 -29280 Plouzané, France.</note>
+<orgname type="department">Institut Agro</orgname>
+<orgname key="lab1" type="laboratory">DECOD (Ecosystem Dynamics and Sustainability)</orgname>
+<orgname key="lab2" type="laboratory">IFREMER</orgname>
+<orgname key="lab3" type="laboratory">INRAE</orgname>
+<address>
+<addrline>Centre Bretagne -ZI de la Pointe du Diable</addrline>
+<postcode>CS, 10070 -29280</postcode>
+<settlement>Plouzané</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Mestre</forename><surname>Le</surname></persname>
+</author>
+<author>
+<persname><surname>Sophie</surname></persname>
+<affiliation key="aff6">
+<note type="raw_affiliation"> DECOD (Ecosystem Dynamics and Sustainability), IFREMER, INRAE, Institut Agro, Centre Bretagne -ZI de la Pointe du Diable -CS 10070 -29280 Plouzané, France.</note>
+<orgname type="department">Institut Agro</orgname>
+<orgname key="lab1" type="laboratory">DECOD (Ecosystem Dynamics and Sustainability)</orgname>
+<orgname key="lab2" type="laboratory">IFREMER</orgname>
+<orgname key="lab3" type="laboratory">INRAE</orgname>
+<address>
+<addrline>Centre Bretagne -ZI de la Pointe du Diable</addrline>
+<postcode>CS, 10070 -29280</postcode>
+<settlement>Plouzané</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Nowaczyk</forename><surname>Antoine</surname></persname>
+<affiliation key="aff7">
+<note type="raw_affiliation"> UMR CNRS 5805 EPOC -OASU, Station Marine d'Arcachon, Université de Bordeaux, 2 Rue du Professeur Jolyet, 33120 Arcachon, France.</note>
+<orgname key="lab1" type="laboratory">UMR CNRS 5805 EPOC -OASU</orgname>
+<orgname key="lab2" type="laboratory">Station Marine d'Arcachon</orgname>
+<orgname type="institution">Université de Bordeaux</orgname>
+<address>
+<addrline>2 Rue du Professeur Jolyet</addrline>
+<postcode>33120</postcode>
+<settlement>Arcachon</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Petitgas</forename><surname>Pierre</surname></persname>
+<affiliation key="aff8">
+<note type="raw_affiliation"> Departement Ressources Biologiques et Environnement, Ifremer Centre Atlantique -Rue de l'Ile d'Yeu -BP 21105 -44311 Nantes Cedex 03, France.</note>
+<orgname type="department">Departement Ressources Biologiques et Environnement</orgname>
+<orgname type="institution">Ifremer Centre Atlantique</orgname>
+<address>
+<addrline>Rue de l'Ile d'Yeu -BP</addrline>
+<postcode>21105 -44311</postcode>
+<settlement>Nantes Cedex 03</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Pineau</forename><surname>Philippe</surname></persname>
+<affiliation key="aff3">
+<note type="raw_affiliation"> BIOFEEL, UMRi LIENSs, La Rochelle University / CNRS, 2, rue Olympe de Gouges, 17000 La Rochelle, France.</note>
+<orgname key="lab1" type="laboratory">BIOFEEL</orgname>
+<orgname key="lab2" type="laboratory">UMRi LIENSs</orgname>
+<orgname type="institution">La Rochelle University / CNRS</orgname>
+<address>
+<addrline>2, rue Olympe de Gouges</addrline>
+<postcode>17000</postcode>
+<settlement>La Rochelle</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Rouxel</forename><surname>Justin</surname></persname>
+<affiliation key="aff9">
+<note type="raw_affiliation"> Laboratoire Détection, Capteurs et Mesures, Unité RDT, Ifremer Centre Bretagne -ZI de la Pointe du Diable -CS 10070 -29280 Plouzané, France.</note>
+<orgname key="lab1" type="laboratory">Laboratoire Détection</orgname>
+<orgname key="lab2" type="laboratory">Capteurs et Mesures</orgname>
+<orgname key="lab3" type="laboratory">Unité RDT</orgname>
+<orgname type="institution">Ifremer Centre Bretagne</orgname>
+<address>
+<addrline>ZI de la Pointe du Diable</addrline>
+<postcode>10070 -29280</postcode>
+<settlement>CS, Plouzané</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Tardivel</forename><surname>Morgan</surname></persname>
+<affiliation key="aff9">
+<note type="raw_affiliation"> Laboratoire Détection, Capteurs et Mesures, Unité RDT, Ifremer Centre Bretagne -ZI de la Pointe du Diable -CS 10070 -29280 Plouzané, France.</note>
+<orgname key="lab1" type="laboratory">Laboratoire Détection</orgname>
+<orgname key="lab2" type="laboratory">Capteurs et Mesures</orgname>
+<orgname key="lab3" type="laboratory">Unité RDT</orgname>
+<orgname type="institution">Ifremer Centre Bretagne</orgname>
+<address>
+<addrline>ZI de la Pointe du Diable</addrline>
+<postcode>10070 -29280</postcode>
+<settlement>CS, Plouzané</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<author>
+<persname><forename type="first">Romagnan</forename><surname>Jean-Baptiste</surname></persname>
+<email>jean.baptiste.romagnan@ifremer.fr</email>
+<affiliation key="aff0">
+<note type="raw_affiliation"> DECOD (Ecosystem Dynamics and Sustainability), IFREMER, INRAE, Institut Agro, Nantes, Centre Atlantique -Rue de l'Ile d'Yeu -BP 21105 -44311 Nantes Cedex 03, France.</note>
+<orgname type="department">Institut Agro</orgname>
+<orgname key="lab1" type="laboratory">DECOD (Ecosystem Dynamics and Sustainability)</orgname>
+<orgname key="lab2" type="laboratory">IFREMER</orgname>
+<orgname key="lab3" type="laboratory">INRAE</orgname>
+<address>
+<addrline>Centre Atlantique -Rue de l'Ile d'Yeu -BP</addrline>
+<postcode>21105 -44311</postcode>
+<settlement>Nantes, Nantes Cedex 03</settlement>
+<country key="FR">France</country>
+</address>
+</affiliation>
+</author>
+<title level="a" type="main">Metazoan zooplankton in the Bay of Biscay: 16 years of individual sizes and abundances from the ZooScan and ZooCAM imaging systems</title>
+</analytic>
+<monogr>
+<imprint>
+<date type="published" when="2023-06-01">1 June 2023</date>
+</imprint>
+</monogr>
+<idno type="MD5">3AC1C7A3D4AC5F04B592CCCC94ADB4E4</idno>
+<idno type="DOI">10.5194/essd-2023-187</idno>
+</biblstruct>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<appinfo>
+<application ident="GROBID" version="0.7.3" when="2023-09-29T01:52+0000">
+<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+<ref target="https://github.com/kermitt2/grobid"></ref>
+</application>
+</appinfo>
+</encodingdesc>
+<profiledesc>
+<textclass>
+<keywords>
+<term>Zooplankton</term>
+<term>ZooCAM</term>
+<term>ZooScan</term>
+<term>Bay of Biscay</term>
+<term>imaging</term>
+<term>PELGAS surveys</term>
+</keywords>
+</textclass>
+<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p><s>This paper presents two metazoan zooplankton datasets obtained by imaging samples collected on the Bay of Biscay continental shelf in spring during the PELGAS integrated surveys, over the 2004-2019 period.</s><s>The samples were collected at night, with a WP2 200 µm mesh size fitted with a Hydrobios (back-run stop) mechanical flowmeter, hauled vertically from the sea floor to the surface with a maximum depth set at 100 m when the bathymetry is deeper.</s><s>The first dataset originates from samples collected from 2004 to 2016, imaged on land with the ZooScan and is composed of 1,153,507 imaged and measured objects.</s><s>The second dataset originates from samples collected from 2016 to 2019, imaged on board the R/V Thalassa with the ZooCAM and is composed of 702,111 imaged and measured objects.</s><s>The imaged objects is composed of zooplankton individuals, zooplankton pieces, non-living particles and imaging artefacts, ranging from 300 µm to 3.39 mm Equivalent Spherical Diameter, individually imaged, measured and identified.</s><s>Each imaged object is geolocated, associated to a station, a survey, a year and other metadata.</s><s>Each object is described by a set of morphological and grey level based features (8 bits encoding, 0 = black, 255 = white), including size, automatically extracted on each individual image.</s></p><p><s>Each object was taxonomically identified using the web based application Ecotaxa with built-in, random forest and CNN based, semi-automatic sorting tools followed by expert validation or correction.</s><s>The objects were sorted in 172 taxonomic and morphological groups.</s><s>Each dataset features a table combining metadata and data, at the individual object granularity, from which one can easily derive quantitative population and communities descriptors such as abundances, mean sizes, biovolumes, biomasses, and size structure.</s><s>Each object's individual image is provided along with the data.</s><s>These two datasets can be used combined together for ecological studies as the two instruments are interoperable, or as training sets for ZooScan and ZooCAM users.</s></p></div>
+</abstract>
+</profiledesc>
+</teiheader>
+<text xml:lang="en">
+<div xmlns="http://www.tei-c.org/ns/1.0">Introduction<p><s>Metazoan heterotrophic planktonic organisms, hereafter referred to as zooplankton, encompass an immense diversity of life forms, which have successfully colonized the entire ocean, from eutrophic estuarine shallow areas to oligotrophic open ocean, from sunlit ocean to hadal depth.</s><s>Their body sizes span five to six orders of magnitude in length, from µm to tens of meters <ref type="bibr">(Sieburth &amp; Smetacek, 1978)</ref>.</s><s>Zooplankton plays a pivotal role in marine ecosystem <ref target="#b2" type="bibr">(Banse, 1995)</ref>.</s><s>It transfers the organic matter produced in the epipelagic domain by photosynthesis to the deeper layers of the ocean <ref type="bibr">(Siegel et al., 2016)</ref>, by producing fast sinking aggregates <ref type="bibr">(Turner, 2015)</ref>, and by diel vertical migration <ref type="bibr">(Steinberg et al., 2000;</ref><ref type="bibr">Ohman &amp; Romagnan, 2016)</ref>.</s><s>Zooplankton therefore participates in mitigating the anthropogenic carbon dioxide build up in the atmosphere responsible for climate change.</s><s>Moreover, zooplankton is an exclusive trophic resource for commercially important fish during their larval stage, where a shift in zooplankton species or phenology can have dramatic effects on recruitment (i.e.</s><s>North Sea cod, <ref target="#b4" type="bibr">Beaugrand et al., 2003)</ref>.</s><s>In addition, it is a major trophic resource for adult planktivorous small pelagic fish, known as forage fishes ( <ref type="bibr">Van der Lingen, 2006)</ref>.</s><s>Recent studies suggest that zooplankton dynamics may have a significant effect on small pelagic fish population dynamics and individual body condition <ref target="#b7" type="bibr">(Brosset et al., 2016;</ref><ref type="bibr">Menu et al., 2023)</ref>, and therefore impact wasp-waist ecosystem based fisheries and fisheries dependent socioecosystems, worldwide <ref target="#b11" type="bibr">(Cury et al., 2000)</ref>.</s></p><p><s>Despite zooplankton being of such global importance in both climate change effects on ecosystems and management of fisheries <ref target="#b8" type="bibr">(Chiba et al., 2018;</ref><ref target="#b5" type="bibr">Lombard et al., 2019)</ref>, it is still technically difficult to monitor, with respect to other marine ecological compartments.</s><s>Zooplankton biomass, diversity and spatio-temporal distributions cannot be estimated from spaceborne sensors as phytoplankton's does <ref target="#b22" type="bibr">(Uitz et al., 2010)</ref>, and zooplankton commercial exploitation data do not exist yet, as fish data does.</s><s>One noticeable exception is the CPR surveys network that enables zooplankton data generation at decent spatio-temporal scales <ref target="#b3" type="bibr">(Batten et al., 2019)</ref>.</s></p><p><s>Yet, generating zooplankton data often requires dedicated surveys at sea, specific sampling instruments and trained analysts.</s><s>Moreover, besides actual observation, modelling zooplankton remains a challenging task due to the diversity of traits such as life forms, life cycles, body sizes and physiological processes exhibited by zooplankton <ref type="bibr">(Mitra &amp; Davis 2010;</ref><ref type="bibr">Mitra et al., 2014)</ref>.</s><s>However, over the past two decades the development of imaging and associated machine learning semi-automatic identification tools <ref target="#b16" type="bibr">(Irisson et al., 2022)</ref> have greatly improved the capability of scientists to analyse long <ref target="#b16" type="bibr">(Feuilloley et al., 2022)</ref>, high frequency <ref type="bibr">(Romagnan et al., 2016)</ref>, or spatially resolved <ref type="bibr">(Grandremy et al., 2023a)</ref> zooplankton time series, as well as trait based data <ref type="bibr">(Orenstein et al., 2022)</ref>.</s></p><p><s>Imaging and machine learning have particularly enabled the increased development of combined size and taxonomy zooplankton ecological studies (i.e.</s><s><ref target="#b24" type="bibr">Vandromme et al., 2014;</ref><ref type="bibr">Romagnan et al., 2016;</ref><ref target="#b5" type="bibr">Benedetti et al., 2019</ref>).</s><s>Yet, use of these machine learning tools is not trivial because those often require abundant, scientifically qualified, sensor specific, training image data (i.e.</s><s>learning set and test set, <ref target="#b16" type="bibr">Irisson et al., 2022)</ref>, and complex hardware and software setups <ref type="bibr">(Panaïotis et al., 2022)</ref>.</s><s>One good example of such image dataset is the ZooScanNet dataset <ref target="#b15" type="bibr">(Elineau et al., 2018)</ref>, which features an extensive ZooScan <ref target="#b17" type="bibr">(Gorsky et al., 2010)</ref> imaging dataset usable as a training set for ecologists as well as for imaging and machine learning scientists.</s></p><p><s>The objective of this paper is to present two open zooplankton imaging datasets, originating from two different instruments, the ZooScan <ref target="#b17" type="bibr">(Gorsky et al., 2010)</ref>, and the ZooCAM <ref target="#b9" type="bibr">(Colas et al., 2018)</ref>.</s><s>These datasets originate from the PELGAS integrated survey in the Bay of Biscay <ref type="bibr">(Doray et al., 2018)</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Digitization with the ZooCAM<p><s>The ZooCAM is an in-flow imaging instrument, designed to digitize preserved as well as live zooplankton samples, on board, immediately after collection <ref target="#b9" type="bibr">(Colas et al., 2018)</ref>.</s><s>The ZooCAM features a cylindrical transparent tank in which the zooplankton sample is mixed with filtered seawater.</s><s>Depending on the richness of the sample, and the subsampling (if necessary), the volume of seawater can be adjusted between 2-7 litres.</s><s>The organisms were pumped at a 1L.min -1 from the tank to a flowcell inserted between a CCD camera (pixel size: 10.3 µm) and a red LED flashing device where they were imaged at 16 fps.</s><s>Given the flowcell volume, the size of the field of view, the imaging frequency and the flowrate, all the seawater volume containing the organisms was imaged <ref target="#b9" type="bibr">(Colas et al., 2018)</ref>.</s><s>Before all the initial volume was imaged, the tank and the tubing were carefully and thoroughly rinsed with filtered seawater to ensure the imaging of all the organisms poured in the tank.</s><s>For each sample, the ZooCAM generates a stack of small size (~1 Mo) raw images that are subsequently analysed with the ZooCAM software.</s><s>Depending on the initial water content of the tank and the rinsing, a ZooCAM run can generate up to 10k raw images from which the individual organism vignettes will be extracted.</s><s>A ZooCAM run on a live sample often generates up to 5000-10000 vignettes of individual organisms.</s><s>It is very important to subsample the initial samples with a dichotomic splitter (here a Motoda splitter), to get subsamples with a quantity of objects that reduce the risk of imaging overlapping objects, and to break free from the dependency to the water volume imaged to reconstruct quantitative estimates of zooplankton as the initial and rinsing volume are variable.</s><s><ref type="bibr">Overall,</ref><ref type="bibr">190</ref> samples were digitized live on-board with the ZooCAM.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Images processing<p><s>Both instruments generate grey level working images (8 bit encoding, 0 = black, 255 = white).</s><s>In both cases, image processing consisted in (i) a "physical" background homogenization by subtracting an empty background image to each sample image (1 for ZooScan, and as many as raw images for ZooCAM), (ii) a thresholding of each raw image (threshold value: 243 for ZooScan, 240 for ZooCAM), (iii) the segmentation of each object imaged.</s><s>The ZooProcess software was set to detect and segment objects with an area equal or larger than 631 pixels, whereas the ZooCAM software was set to detect objects with an area equal or larger than 667 pixels, which in both cases equals 300 µm ESD, or a biovolume of 0.014 mm 3 (using a spherical biovolume model, <ref target="#b25" type="bibr">Vandromme et al., 2012)</ref>.</s></p><p><s>Morphological features were then extracted on each detected object.</s><s>Features generated by the ZooScan are defined in <ref target="#b17" type="bibr">Gorsky et al. (2010)</ref> and those generated by the ZooCAM are defined in <ref target="#b9" type="bibr">Colas et al. (2018)</ref>.</s><s>ZooScan images were processed with ZooProcess v7.39 (04/10/2020) open source software.</s><s>ZooCAM images were processed with the proprietary ZooCAM custom made software which uses the MIL (Matrox Imaging Library, Dorval, Québec, Canada) as the individual object processing kernel.</s><s>Each detected object was finally cropped from the working sample images, and saved as a unique, labelled vignette, in a sample specific folder along with a sample specific single text file containing the objects features arranged as a table with objects arranged in lines and features in columns.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Touching objects<p><s>The ZooProcess features a tool that enable the digital separation of possible touching objects in the final image dataset, for each sample.</s><s>As touching objects may impair the estimations of abundances and size structure https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s><s><ref target="#b25" type="bibr">(Vandromme et al., 2012)</ref>, remaining touching objects were searched for on the individual vignettes from the ZooScan and digitally manually separated with the ZooProcess separation tool to improve the quality of further identifications, counts and size structure of zooplankton.</s><s>ZooCAM does not offer such a tool.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Taxonomic identification of individual images<p><s>All individual vignettes from both instruments were sorted and identified with the help of the online application Ecotaxa <ref type="bibr">(Picheral et al., 2017)</ref>, as two instrument-specific separated sets.</s><s>Ecotaxa features a Random Forest algorithm <ref target="#b6" type="bibr">(Breiman, 2001)</ref> and a series of instruments specific tuned spatially sparse Convolutional Neural Networks <ref target="#b18" type="bibr">(Graham, 2014)</ref> that were used in a combined approach to predict identifications of unidentified objects.</s></p><p><s>First, an automatic classification of non-identified individual vignettes into coarse zooplankton and nonzooplankton categories was carried out.</s><s>In both cases (ZooScan and ZooCAM), Ecotaxa hosted instrument specific image datasets, previously curated and freely available, were used as initial learning sets.</s><s>These initial classifications were then visually inspected, manually validated or corrected when necessary, and taxonomically refined when possible.</s><s>After a few thousand images were validated in each project, they were used as dataset specific learning sets to improve the initial coarse automatic identifications.</s><s>This process was iterated until all the individual vignettes were classified into their maximum reachable taxonomical detail.</s><s>It is worth mentioning here that only a handful of taxonomists worked on identification of the two images sets.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Intercalibration of the two instruments<p><s>The two datasets are usable separately.</s><s>However, considered together they build a 16 years long spatiotemporal time series.</s><s>To ensure they are homogeneous and can thus be used together for ecological studies, we conducted a comparison study using samples from year 2016 (61 stations over the whole Bay of Biscay continental shelf, <ref type="bibr">Grandremy et al., under review)</ref>.</s><s>In brief, all non-zooplankton and touching objects images were removed from the initial datasets.</s><s>Then, the interoperable size range was determined with an assessment based on the comparison of Normalized Biovolume -Size Spectra (NB-SS) for each instrument.</s><s>This size interval ranges between [0.3-3.39]</s><s>mm ESD.</s><s>Finally, the zooplankton communities as seen by the ZooScan and the ZooCAM were compared by taxa and by station using 27 taxonomic groups.</s><s>Poorly represented taxa as well as nontaxonomically identified objects were not taken into account in the zooplankton variables computation and in community structure analyses.</s><s>Both instruments showed similar NB-SS slopes for 58 out of 61 stations; depicted comparable abundances, biovolumes and mean organisms' sizes, as well as similar community composition for a majority of sampling stations.</s><s>They also estimated similar spatial patterns of the zooplankton community at the scale of the Bay of Biscay.</s><s>We therefore assume that the two presented datasets build a single, 16 years long spatiotemporal time series of abundances (Fig. <ref target="#fig_3" type="figure">2</ref>) and sizes of zooplanktonic organisms (Fig. <ref target="#fig_4" type="figure">3</ref>), from which biovolumes, biomasses, Shannon index (Fig. <ref target="#fig_8" type="figure">4</ref>), and zooplankton community size structure can be derived <ref target="#b25" type="bibr">(Vandromme et al., 2012)</ref>.</s><s>The total number of different groups identified with both instruments combined is 170, among which 84 are in common (Table <ref target="#tab_0" type="table">1</ref>), 43 belong to the ZooScan dataset only and 43 others belong to the ZooCAM dataset only (Table <ref type="table">2</ref>).</s><s>The identified groups were divided into actual taxa and Operational Taxonomic Units (OTUs).</s></p><p><s>Typically, OTUs are either non-adult life stages of taxa, aggregated morphological groups, or non-living groups (see Tables <ref target="#tab_0" type="table">1</ref> and<ref type="table">2</ref>).</s><s>Among the groups common to both instruments, 45 are actual taxa, and 39 are OTUs (Table <ref target="#tab_0" type="table">1</ref>).</s><s>Among the ZooScan only groups, 22 are taxa, and 21 are OTUs, and among the ZooCAM only groups, 18 are taxa, and 25 are OTUs (Table <ref type="table">2</ref>).</s></p><p><s>The differences in identified groups, in the ratio taxa/OTUs, and in the associated counts arose from several aspects of the data generation.</s><s>Firstly, the two imaging methods differ in their technical set-up.</s><s>The main difference is that, on the one hand, fixed organisms are laid down and arranged manually on the imaging sensor and digitized in a lab, steady 2-D, set-up when using the ZooScan.</s><s>On the other hand, organisms are imaged live, in a moving fluid, in a 3-D environment (the flowcell), on-board when digitized with the ZooCAM.</s><s>Their position in front of the camera may not enable an identification as precise as when they are laid on the scanner tray <ref type="bibr">(Grandremy et al., under review;</ref><ref target="#b9" type="bibr">Colas et al., 2018)</ref>.</s><s>Secondly, the dataset are sequential in time, the ZooCAM dataset follows the ZooScan's.</s><s>Zooplankton communities in the Bay of Biscay may have changed over time, even if their biomass as aggregated groups show a remarkable space-time stability <ref type="bibr">(Grandremy et al., 2023a)</ref>.</s><s>Thirdly, we cannot guaranty that there is no adverse effect on taxonomic identification, as validation involved several experts <ref target="#b10" type="bibr">(Culverhouse, 2007)</ref>.</s><s>Although we paid great attention to homogenize the final detailed datasets, we recommend to aggregate taxa and OTUs and reduce the biological resolution for ecological studies <ref type="bibr">(Grandremy et al., 2023a, under review)</ref>.</s><s>Additionally, numerous identified and sorted taxa and OTUs do not belong to the metazoan zooplankton, or are non-adult life stages, or parts of organisms.</s><s>Those were included in the presented datasets because they are always found in natural samples.</s><s>They need to be separated from entire organisms to ensure as accurate as possible abundances estimations, as well as taken into account to ensure accurate biovolumes or biomasses estimations.</s><s>A good example is the siphonophore issue: numerous swimming bells of degraded siphonophores individuals can be found and imaged in a sample.</s><s>Determining an accurate siphonophore abundance may not be easy, but this could be overcome by considering the biovolume or biomass of siphonophores by adding up the numerous parts' biovolumes or biomass of the organisms imaged.</s><s>OTUs' names are mainly in the form of two words separated by a "&lt;" character.</s><s>Although we tried to name them as most explicitly as possible, a few potentially needed clarifications can be found in Table <ref type="table">3</ref>.</s></p><p><s>Table <ref type="table">3</ref>: Non-exhaustive list of prefixes, their types (morphological, developmental stage, taxonomical, non-living and imaging artefact), and content.</s><s>* clupeids fish embryo developmental stages according to <ref target="#b1" type="bibr">Ahlstrom (1943) and</ref><ref type="bibr">Moser &amp;</ref><ref type="bibr">Ahlstrom (1985)</ref>.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data and images</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data<p><s>The data is divided into two datasets available as tab separated files, one for each instrument.</s><s>Within each dataset the data is organized as a table containing text data as well as numerical data.</s><s>Each dataset combines together actual data and metadata at the individual object granularity.</s><s>For each object, the user will be able to find descriptors originating from the image processing (i.e.</s><s>features), and sampling metadata (i.e.</s><s>latitude and longitude of sampling station, date and time of sampling, sampling device, etc.) and sample processing metadata (i.e.</s><s>subsampling factor, seawater sampled volume, pixel size), in columns, and individual objects in lines.</s><s>The columns headers are defined in Tables <ref target="#tab_0" type="table">A1</ref> and<ref type="table">A2</ref> for ZooCAM and ZooScan datasets respectively.</s><s>The following prefixes enable the segregation of types of data and metadata: (i) "object_", which identifies variables assigned to each object individually; (ii) "sample_", which identifies variables assigned to each sample; (iii) "acq_", which identifies variables assigned to each data acquisition for the same sample (note here that this type of variable is found only in the ZooScan dataset as ZooScan samples were splitted in two size fractions corresponding to two acquisitions); (iv) "process_", which identifies variables describing key image processing features (i.e.</s><s>pixel size).</s></p><p><s>Those prefixes originate from the use of the Ecotaxa web application to sort and identify the images <ref type="bibr">(Picheral et al., 2017)</ref> that promote this specific formatting.</s><s>The ZooCAM dataset is shaped as a 72 columns (variables) x 702,111 rows (individual imaged objects) matrix and the ZooScan dataset is shaped as a 71 columns (variables) x 1,153,507 rows (individual imaged objects) matrix.</s></p><p><s>Among the 70+ variables it is worth noticing the following ones:</s></p><p><s>(i) objid: it is a unique individual object numerical identifier that enables to link single data line to a corresponding single image in the image dataset;</s></p><p><s>(ii) taxon: it is the taxonomic or OTU identification of the imaged objects written as they appear in the Tables <ref target="#tab_0" type="table">1</ref> and<ref type="table">2;</ref> (iii) lineage: it is the full taxonomic lineage of the taxon.</s><s>Lineage may be used to aggregate taxa at a higher taxonomic levels, respecting taxonomic lineages;</s></p><p><s>(iv) classif_id: it is a unique, numerical, taxon identifier;</s></p><p><s>(v) sample_sub_part / acq_sub_part: those are the subsampling ratios, for ZooCAM and ZooScan respectively, needed to reconstruct the quantitative estimates of the samples' abundances;</s></p><p><s>(vi) sample_fishingvolume / sample_tot_vol: those are the total seawater sampled volumes for ZooCAM and ZooScan respectively, needed to normalize the samples' concentrations by seawater volume.</s></p><p><s>One can therefore calculate quantitative abundances estimates for a taxon in a sample as follow:</s></p><formula xml:id="formula_0">ZooCAM: 𝐴𝑏 𝑡𝑎𝑥𝑜𝑛 = 𝑛 𝑡𝑎𝑥𝑜𝑛 ×𝑠𝑎𝑚𝑝𝑙𝑒_𝑠𝑢𝑏_𝑝𝑎𝑟𝑡 𝑠𝑎𝑚𝑝𝑙𝑒_𝑓𝑖𝑠ℎ𝑖𝑛𝑔𝑣𝑜𝑙𝑢𝑚𝑒<label>(1)</label></formula><p><s>ZooScan:</s></p><formula xml:id="formula_1">𝐴𝑏 𝑡𝑎𝑥𝑜𝑛 = (𝑛 𝑡𝑎𝑥𝑜𝑛 𝑎𝑐𝑞1 ×𝑎𝑐𝑞_𝑠𝑢𝑏_𝑝𝑎𝑟𝑡 𝑎𝑐𝑞1 )+(𝑛 𝑡𝑎𝑥𝑜𝑛 𝑎𝑐𝑞2 ×𝑎𝑐𝑞_𝑠𝑢𝑏_𝑝𝑎𝑟𝑡 𝑎𝑐𝑞2 ) 𝑠𝑎𝑚𝑝𝑙𝑒_𝑡𝑜𝑡_𝑣𝑜𝑙 (<label>2</label></formula><formula xml:id="formula_2">)</formula><p><s>Where Ab is the abundance in ind.m -3 and n is the number of individuals for "taxon".</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Images<p><s>Two sets of individual images sorted into folders by categories (Tables <ref target="#tab_0" type="table">1</ref> and<ref type="table">2</ref></s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Data availability<p><s>The ZooScan dataset can be found as the PELGAS Bay of Biscay ZooScan zooplankton <ref type="bibr">Dataset (2004</ref><ref type="bibr">Dataset ( -2016) )</ref> in the SEANOE dataportal following the link: https://www.seanoe.org/data/00829/94052/</s><s><ref type="bibr">(Grandremy et al., 2023b)</ref>.</s></p><p><s>The ZooCAM dataset can be found as the PELGAS Bay of Biscay ZooCAM zooplankton Dataset (2016-2019) in the SEANOE dataportal https://www.seanoe.org/data/00828/94040/</s><s><ref type="bibr">(Grandremy et al., 2023c)</ref>.</s></p><p><s>Each dataset comes as a .zip</s><s>archive that contains:</s></p><p><s> One tab separated file containing all data and metadata associated to each imaged and identified object.</s></p><p><s> One comma separated file containing the name, type, definition and unit of each field (column)</s></p><p><s> One comma separated file containing the taxonomic list of the dataset, with counts and nature of the content of the category  A directory "individual_images" containing images of each object, named according to the object id objid and sorted in subdirectories according to their taxonomic identification, across years and sampling stations.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Concluding remarks<p><s>Recent studies showed that the small pelagic fish (SPF) communities have suffered from a drastic decrease of condition in the Mediterranean Sea and in the Bay of Biscay <ref target="#b23" type="bibr">(Van Beveren et al., 2014;</ref><ref type="bibr">Doray et al., 2018b;</ref><ref type="bibr">Saraux et al., 2019)</ref> over the last 20 years.</s><s>This loss of condition was especially expressed by the constant decrease of SPF size-and weight-at-age <ref type="bibr">(Doray et al., 2018b;</ref><ref type="bibr">Veron et al. 2020)</ref>, and possibly explained by a change in SPF trophic resource composition, size and quality <ref target="#b7" type="bibr">(Brosset et al., 2016;</ref><ref type="bibr">Queiros et al., 2019;</ref><ref type="bibr">Menu et al., 2023)</ref>.</s><s>Identifying and measuring zooplankton at appropriate temporal and spatial scales is not an easy task, but can be addressed with imaging.</s><s>These datasets were assembled as an effort to make possible the exploration of the relationship between SPF observed dynamics in the Bay of Biscay and their main food resource's dynamics, the metazoan zooplankton.</s><s>This zooplankton imaging data series is a significant output of <ref type="bibr">Nina Grandremy PhD (2019</ref><ref target="#b10" type="bibr">-2023)</ref>, that is currently being exploited <ref type="bibr">(Grandremy et al., 2023a)</ref>, and is intended to be continued and updated on a yearly basis in the framework of the PELGAS program, to better understand the underlying processes presiding to long-term SPF dynamics.</s><s>Moreover, those two zooplankton datasets can be associated with the PELGAS survey datasets previously published in 2018, also in the SEANOE dataportal, featuring hydrological, primary producers, fish and megafauna data arranged as gridded data <ref type="bibr">(Doray et al., 2018a)</ref>.</s><s>Together, all these between years (Fig. <ref target="#fig_1" type="figure">1</ref>), within and between each pelagic ecosystem compartment.</s><s>A procedure for such batch data spatial smoothing is presented e.g. in <ref type="bibr">Petitgas et al. (2009</ref><ref target="#b24" type="bibr">Petitgas et al. ( , 2014))</ref>.</s><s>See also <ref type="bibr">Doray et al. (2018b)</ref> and <ref type="bibr">Grandremy et al. (2023a)</ref> for application examples.</s><s>As several descriptors of the spring zooplankton community (abundances, sizes, biovolumes, biomass) can be derived from this 16 years long spatially resolved time series at several taxonomic levels, these datasets are intended to be used in various ecological studies including the zooplankton compartment, especially modelling studies, where zooplankton is usually underrepresented <ref type="bibr">(Mitra, 2010;</ref><ref type="bibr">Mitra et al., 2014)</ref>.</s><s>Finally, these datasets can also be used for machine learning applied to plankton studies serving, for example, as consequent learning sets.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Disclaimer<p><s>Data are published without any warranty, express or implied.</s><s>The user assumes all risk arising from his/her use of data.</s><s>Data are intended to be research-quality, but it is possible that the data themselves contain errors.</s><s>It is the sole responsibility of the user to assess if the data are appropriate for his/her use, and to interpret the data accordingly.</s><s>Authors welcome users to ask questions and report problems.</s></p></div><figure xml:id="fig_0" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>, a continental shelf https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s><s>https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_1" xmlns="http://www.tei-c.org/ns/1.0">Figure 1 :<label>1</label><figdesc><div><p><s>Figure 1: Metazoan zooplankton sampling locations during the PELGAS cruises in the Bay of Biscay from 2004 133 to 2019.</s><s>The years with the poorest coverage are 2005 and 2006 with 41 and 43 sampling stations respectively; 134 and the years with the best coverage are 2015, 2017 and 2019 with 64, 64 and 65 sampling stations respectively.</s><s>135</s></p></div></figdesc></figure>
+<figure xml:id="fig_2" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_3" xmlns="http://www.tei-c.org/ns/1.0">Figure 2 :<label>2</label><figdesc><div><p><s>Figure 2: Gridded maps of total zooplankton abundances expressed as individuals per cubic meters of sampled seawater, during the PELGAS cruises in the Bay of Biscay from 2004 to 2019.</s><s>The abundances are well within the range of zooplankton abundances seen over other temperate continental shelves.</s><s>They exhibit a marked coastal to offshore gradient, abundances being higher at the coast.</s><s>Abundances also show an overall increase over the years.</s></p></div></figdesc></figure>
+<figure xml:id="fig_4" xmlns="http://www.tei-c.org/ns/1.0">Figure 3 :<label>3</label><figdesc><div><p><s>Figure 3: Gridded maps of total zooplankton mean sizes expressed as mm Equivalent Spherical Diameter during 214 the PELGAS cruise in the Bay of Biscay from 2004 to 2019.</s><s>They exhibit a coastal to offshore gradient as well as 215</s></p></div></figdesc></figure>
+<figure xml:id="fig_5" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_6" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Numbers next to each taxa and OTU are the counts for each category for each instrument in the whole datasets.</s><s>254 Non-zooplanktonic OTUs are highlighted in bold.</s><s>255 256 https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s><s>Table 2: ZooScan and ZooCAM not common taxa and OTU.</s><s>Taxa and OTUs appearing exclusively in the ZooCAM dataset are listed in the left column, those appearing exclusively in the ZooScan dataset are listed in the right column.</s><s>For both instruments, taxa are written in italics and OTUs are listed below them in non-italics.</s><s>OTUs names are spelled as they appear in the dataset.</s><s>Numbers next to each taxa and OTU are the counts for each category for each instrument in the whole datasets.</s><s>Non-zooplanktonic taxa and OTUs are highlighted in bold.</s><s>https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_7" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_8" xmlns="http://www.tei-c.org/ns/1.0">Figure 4 :<label>4</label><figdesc><div><p><s>Figure 4: Gridded maps of total zooplankton Shannon index (calculated on spherical biovolumes) during the 270 PELGAS cruise in the Bay of Biscay from 2004 to 2019.</s><s>Shannon index exhibit a coastal to offshore gradient as 271 well as a north-south gradient.</s><s>Shannon index is larger at the coast and in the south, except in 2014 where it is 272 smaller in the south, offshore.</s><s>273</s></p></div></figdesc></figure>
+<figure xml:id="fig_9" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure xml:id="fig_10" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>) come along with each dataset.</s><s>For the ZooCAM only, the associated images from years 2016 and 2017 contain printed Region Of Interest (ROI) bounding box limits and text at the bottom of each image, and non-homogenised background within and around the ROI bounding box; images from year 2018 contain non-homogenised background within the ROI bounding box only; images from 2019 have a completely homogeneous and thresholded background around the object.</s><s>The differences arose from successive ZooCAM software updates that do not modify the calculation of object's features.</s><s>The ZooScan images have all a completely homogeneous and thresholded background around the object, no bounding box limits nor text printed in the images.</s><s>All images for the two instruments datasets have a 1 mm scale bar printed at the bottom left corner.</s></p></div></figdesc></figure>
+<figure xml:id="fig_11" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s><s>datasets allow to study simultaneously all the pelagic ecosystem compartments, with coherent spatial domain (the Bay of Biscay continental shelf), resolution and time series.</s><s>Nevertheless, a spatial gridding of the data is highly recommended (as represented in the Fig. 2, 3 and 4), since the spatial coverage of the sampling protocols can vary</s></p></div></figdesc></figure>
+<figure xml:id="fig_12" xmlns="http://www.tei-c.org/ns/1.0"><label></label><figdesc><div><p><s>Table A2: ZooScan dataset columns headerdefinition of data and metadata fields https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div></figdesc></figure>
+<figure type="table" xml:id="tab_0" xmlns="http://www.tei-c.org/ns/1.0">Table 1 :<label>1</label><figdesc><div><p><s>ZooScan and ZooCAM common taxa and OTU.</s><s>Taxa are listed in the left column of the table, in italics; 252 OTU are listed in the right column of the table in non-italics.</s><s>OTUs names are spelled as they appear in the dataset.</s><s>253</s></p></div></figdesc><table></table></figure>
+<note place="foot" xml:id="foot_0" xmlns="http://www.tei-c.org/ns/1.0"><p><s>a north-south gradient.</s><s>Mean body sizes are smaller at the coast and usually smaller in the south.</s><s>In general, mean</s></p></note>
+<note place="foot" xml:id="foot_1" xmlns="http://www.tei-c.org/ns/1.0"><p><s>body sizes show an overall decrease over the years.</s></p></note>
+<back>
+<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0">Acknowledgements<p><s>The authors acknowledge receiving funding from the 'France Filière Pêche' DEFIPEL project.</s><s>NG acknowledges the funding of her PhD by Region Pays de la Loire, FR and Ifremer.</s><s>The authors wish to thank Jean-Yves Coail, Gérard Guyader and Patrick Berriet (Ifremer -REM-RDT-SIIM) for their contribution to the hardware assembly of the ZooCAM.</s><s>The authors acknowledge the work of Elio Raphalen for scanning year 2005 samples.</s><s>The authors https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s><s>thank the EMBRC platform PIQs for image analysis.</s><s>This work was supported by EMBRC-France, whose French state funds are managed by the ANR within the Investments of the Future program under reference ANR-10-INBS-02.</s><s>Finally, the authors wish also to thank the many other students, technicians and scientists who participated in the sampling and samples imaging on board, and the successive crews of the R/V Thalassa involved in the PELGAS surveys from 2004 to 2019.</s><s>Grandremy N., Dupuy C., Petitgas P., Le Mestre S., Bourriau P., Nowaczyk A., Forest B., Romagnan J-B.</s><s>The ZooScan and the ZooCAM zooplankton imaging systems are intercomparable: A benchmark on the Bay of Biscay</s></p><p><s>zooplankton.</s><s>Limnology and Oceanography: Methods.</s><s>Under review.</s><s>Ho, J.S., 2001.</s><s>Why do symbiotic copepods matter?</s><s>Hydrobiologia 453, 1-7.</s><s>https://doi.org/10.1023/A:1013139212227</s><s>ICES, 2021.</s><s>Bay of Biscay and Iberian Coast ecoregion -Fisheries overview (report).</s><s>ICES Advice: Fisheries Overviews.</s><s>https://doi.org/10.17895/ices.advice.9100</s><s>Irisson, J.-O., Ayata, S.-D., Lindsay, D.J., Karp-Boss, L., Stemmann, L., 2022.</s><s>Machine Learning for the Study of Plankton and Marine Snow from Images.</s><s>Annual Review of Marine Science 14, 277-301.</s><s>https://doi.org/10.1146/annurev-marine-041921-013023</s><s>Lombard, F., Boss, E., Waite, A.M., Vogt, M., Uitz, J., Stemmann, L., Sosik, H.M., Schulz, J., Romagnan, J.-B., Picheral, M., Pearlman, J., Ohman, M.D., Niehoff, B., Möller, K.O., Miloslavich, P., Lara-Lpez, A., Kudela, R., Lopes, R.M., Kiko, R., Karp-Boss, L., Jaffe, J.S., Iversen, M.H., Irisson, J.-O., Fennel, K., Hauss, H., Guidi, L., Gorsky, G., Giering, S.L.C., Gaube, P., Gallager, S., Dubelaar, G., Cowen, R.K., Carlotti, F., Briseño-Avena, C., Berline, L., Benoit-Bird, K., Bax, N., Batten, S., Ayata, S.D., Artigas, L.F., Appeltans, W., 2019.</s><s>Globally Consistent Quantitative Observations of Planktonic Ecosystems.</s><s>Front.</s><s>Mar.</s><s>Sci. 6. https://doi.org/10.3389/fmars.2019.00196</s><s>Menu, C., Pecquerie, L., Bacher, C., Doray, M., Hattab, T., van der Kooij, J., Huret, M., 2023.</s><s>Testing the bottomup hypothesis for the decline in size of anchovy and sardine across European waters through a bioenergetic modeling approach.</s><s>Progress in Oceanography 210, 102943.</s><s>https://doi.org/10.1016/j.pocean.2022.102943</s><s>Mitra, A., Castellani, C., Gentleman, W.C., Jonasdottir, S.H., Flynn, K.J., Bode, A., Halsband, C., Kuhn, P., Licandro, P., Agersted, M.D., Calbet, A., Lindeque, P.K., Koppelmann, R., Moller, E.F., Gislason, A., Nielsen, T.G., John, M.S., 2014.</s><s>Bridging the gap between marine biogeochemical and fisheries sciences; configuring the zooplankton link.</s><s>Prog.</s><s>Oceanogr.</s><s>129, 176-199.</s><s>https://doi.org/10.1016/j.pocean.2014.04.025</s><s>Mitra, A., Davis, C., 2010.</s><s>Defining the "to" in end-to-end models.</s><s>Prog.</s><s>Oceanogr.</s><s>84, 39-42.</s><s>https://doi.org/10.1016/j.pocean.2009.09.004</s><s>Moser, H.G., Ahlstrom, E.H., 1985.</s><s>Staging anchovy eggs.</s><s>Southwest Fisheries Center, National Marine Fisheries Service, NOM, PO.</s><s>Box 271, La Jolla, CA 92038.</s><s>Ohman, M.D., Romagnan, J.-B., 2016.</s><s>Nonlinear effects of body size and optical attenuation on Diel Vertical Migration by zooplankton.</s><s>Limnology and Oceanography 61, 765-770.</s><s>https://doi.org/10.1002/lno.10251</s><s>Orenstein, E.C., Ayata, S.-D., Maps, F., Becker, É.C., Benedetti, F., Biard, T., de Garidel-Thoron, T., Ellen, J.S., Ferrario, F., Giering, S.L.C., Guy-Haim, T., Hoebeke, L., Iversen, M.H., Kiørboe, T., Lalonde, J.-F., Lana, A., Laviale, M., Lombard, F., Lorimer, T., Martini, S., Meyer, A., Möller, K.O., Niehoff, B., Ohman, M.D., Pradalier, C., Romagnan, J.-B., Schröder, S.-M., Sonnet, V., Sosik, H.M., Stemmann, L.S., Stock, M., Terbiyik-Kurt, T., Valcárcel-Pérez, N., Vilgrain, L., Wacquet, G., Waite, A.M., Irisson, J.-O., 2022.</s><s>Machine learning techniques to https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s><s>characterize functional traits of plankton from image data.</s><s>Limnology and Oceanography 67, 1647-1669.</s><s>https://doi.org/10.1002/lno.12101</s><s>Panaïotis, T., Caray-Counil, L., Woodward, B., Schmid, M.S., Daprano, D., Tsai, S.T., Sullivan, C.M., Cowen, R.K., Irisson, J.-O., 2022.</s><s>Content-Aware Segmentation of Objects Spanning a Large Size Range: Application to Plankton Images.</s><s>Frontiers in Marine Science 9. Petitgas, P., Goarant, A., Masse, J., and Bourriau, P., 2009.</s><s>Combining acoustic and CUFES data for the quality control of fish-stock survey estimates.</s><s>ICES Journal of Marine Science, 66: 1384-1390.</s><s>https://doi.org/10.1093/icesjms/fsp007</s><s>Petitgas, P., Doray, M., Huret, M., Masse´, J., and Woillez, M., 2014.</s><s>Modelling the variability in fish spatial distributions over time with empirical orthogonal functions: anchovy in the Bay of Biscay.</s><s>ICES Journal of Marine Science, 71: 2379-2389.</s><s>https://doi.org/10.1093/icesjms/fsu111</s><s>Queiros, Q., Fromentin, J.-M., Gasset, E., Dutto, G., Huiban, C., Metral, L., Leclerc, L., Schull, Q., McKenzie, D.J., Saraux, C., 2019.</s><s>Food in the Sea: Size Also Matters for Pelagic Fish.</s><s>Frontiers in Marine Science 6. https://doi.org/10.3389/fmars.2019.00385</s><s>Romagnan, J.B., Aldamman, L., Gasparini, S., Nival, P., Aubert, A., Jamet, J.L., Stemmann, L., 2016.</s><s>High frequency mesozooplankton monitoring: Can imaging systems and automated sample analysis help us describe and interpret changes in zooplankton community composition and size structure -An example from a coastal site.</s><s>Journal of Marine Systems 162, 18-28.</s><s>https://doi.org/10.1016/j.jmarsys.2016.03.013</s><s>Saraux, C., Beveren, E.V., Brosset, P., Queiros, Q., Bourdeix, J.-H., Dutto, G., Gasset, E., Jac, C., Bonhommeau, S., Fromentin, J.-M., 2019.</s><s>Small pelagic fish dynamics: A review of mechanisms in the Gulf of Lions.</s><s>Deep Sea Research Part II: Topical Studies in Oceanography 159, 52-61.</s><s>https://doi.org/10.1016/j.dsr2.2018.02.010</s><s>Sieburth, J., Smetacek, V., Lenz, J., 1978.</s><s>Pelagic Ecosystem Structure -Heterotrophic Compartments of Plankton and Their Relationship to Plankton Size Fractions -Comment.</s><s>Limnol.</s><s>Oceanogr.</s><s>23, 1256-1263.</s><s>https://doi.org/10.4319/lo.1978.23.6.1256</s><s>Siegel, D.A., Buesseler, K.O., Behrenfeld, M.J., Benitez-Nelson, C.R., Boss, E., Brzezinski, M.A., Burd, A., Carlson, C.A., D'Asaro, E.A., Doney, S.C., Perry, M.J., Stanley, R.H.R., Steinberg, D.K., 2016.</s><s>Prediction of the Export and Fate of Global Ocean Net Primary Production: The EXPORTS Science Plan.</s><s>Frontiers in Marine Science 3. Steinberg, D.K., Carlson, C.A., Bates, N.R., Goldthwait, S.A., Madin, L.P., Michaels, A.F., 2000.</s><s>Zooplankton vertical migration and the active transport of dissolved organic and inorganic carbon in the Sargasso Sea.</s><s>Deep Sea Research Part I: Oceanographic Research Papers 47, 137-158.</s><s>https://doi.org/10.1016/S0967-0637(99)00052-7</s><s>Turner, J.T., 2015.</s><s>Zooplankton fecal pellets, marine snow, phytodetritus and the ocean's biological pump.</s><s>Progress in Oceanography 130, 205-248.</s><s>https://doi.org/10.1016/j.pocean.2014.08.005 https://doi.org/10.5194/essd-2023-187</s><s>Preprint.</s><s>Discussion started: 1 June 2023 c Author(s) 2023.</s><s>CC BY 4.0 License.</s></p></div>
+</div>
+<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0">Authors' contributions</div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Competing interests<p><s>The authors declare that they have no conflict of interest.</s></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0">Appendix A</div> </div>
+<div type="references">
+<listbibl>
+<biblstruct xml:id="b0">
+<monogr>
+<title></title>
+<idno type="DOI">10.5194/essd-2023-187Preprint</idno>
+<ptr target="https://doi.org/10.5194/essd-2023-187Preprint"></ptr>
+<imprint>
+<date type="published" when="2023-06-01">1 June 2023 c</date>
+</imprint>
+</monogr>
+<note>Author(s) 2023. CC BY 4.0 License</note>
+<note type="raw_reference">https://doi.org/10.5194/essd-2023-187 Preprint. Discussion started: 1 June 2023 c Author(s) 2023. CC BY 4.0 License. References</note>
+</biblstruct>
+<biblstruct xml:id="b1">
+<monogr>
+<author>
+<persname><forename type="first">E</forename><forename type="middle">H</forename><surname>Ahlstrom</surname></persname>
+</author>
+<title level="m">Studies on the Pacific Pilchard Or Sardine (Sardinops Caerulea): Influence of Temperature on the Rate of Development of Pilchard Eggs in Nature</title>
+<imprint>
+<publisher>United States Department of the Interior, Fish and Wildlife Service</publisher>
+<date type="published" when="1943">1943</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Ahlstrom, E.H., 1943. Studies on the Pacific Pilchard Or Sardine (Sardinops Caerulea): Influence of Temperature on the Rate of Development of Pilchard Eggs in Nature. United States Department of the Interior, Fish and Wildlife Service.</note>
+</biblstruct>
+<biblstruct xml:id="b2">
+<analytic>
+<title level="a" type="main">Zooplankton: Pivotal role in the control of ocean production: I. Biomass and production</title>
+<author>
+<persname><forename type="first">K</forename><surname>Banse</surname></persname>
+</author>
+<idno type="DOI">10.1016/1054-3139(95)80043-3</idno>
+<ptr target="https://doi.org/10.1016/1054-3139(95)80043-3"></ptr>
+</analytic>
+<monogr>
+<title level="j">ICES Journal of Marine Science</title>
+<imprint>
+<biblscope unit="volume">52</biblscope>
+<biblscope from="265" to="277" unit="page"></biblscope>
+<date type="published" when="1995">1995</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Banse, K., 1995. Zooplankton: Pivotal role in the control of ocean production: I. Biomass and production. ICES Journal of Marine Science 52, 265-277. https://doi.org/10.1016/1054-3139(95)80043-3</note>
+</biblstruct>
+<biblstruct xml:id="b3">
+<analytic>
+<title level="a" type="main">A Global Plankton Diversity Monitoring Program</title>
+<author>
+<persname><forename type="first">S</forename><forename type="middle">D</forename><surname>Batten</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Abu-Alhaija</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Chiba</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Edwards</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Graham</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><surname>Jyothibabu</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Kitchener</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Koubbi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Mcquatters-Gollop</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Muxagata</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Ostle</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><forename type="middle">J</forename><surname>Richardson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">V</forename><surname>Robinson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">T</forename><surname>Takahashi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">M</forename><surname>Verheye</surname></persname>
+</author>
+<author>
+<persname><forename type="first">W</forename><surname>Wilson</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Frontiers in Marine Science</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Batten, S.D., Abu-Alhaija, R., Chiba, S., Edwards, M., Graham, G., Jyothibabu, R., Kitchener, J.A., Koubbi, P., McQuatters-Gollop, A., Muxagata, E., Ostle, C., Richardson, A.J., Robinson, K.V., Takahashi, K.T., Verheye, H.M., Wilson, W., 2019. A Global Plankton Diversity Monitoring Program. Frontiers in Marine Science 6.</note>
+</biblstruct>
+<biblstruct xml:id="b4">
+<analytic>
+<title level="a" type="main">Plankton effect on cod recruitment in the North Sea</title>
+<author>
+<persname><forename type="first">G</forename><surname>Beaugrand</surname></persname>
+</author>
+<author>
+<persname><forename type="first">K</forename><forename type="middle">M</forename><surname>Brander</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">A</forename><surname>Lindley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Souissi</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">C</forename><surname>Reid</surname></persname>
+</author>
+<idno type="DOI">10.1038/nature02164</idno>
+<ptr target="https://doi.org/10.1038/nature02164"></ptr>
+</analytic>
+<monogr>
+<title level="j">Nature</title>
+<imprint>
+<biblscope unit="volume">426</biblscope>
+<biblscope from="661" to="664" unit="page"></biblscope>
+<date type="published" when="2003">2003</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Beaugrand, G., Brander, K.M., Lindley, J.A., Souissi, S., Reid, P.C., 2003. Plankton effect on cod recruitment in the North Sea. Nature 426, 661-664. https://doi.org/10.1038/nature02164</note>
+</biblstruct>
+<biblstruct xml:id="b5">
+<analytic>
+<title level="a" type="main">The Seasonal and Inter-Annual Fluctuations of Plankton Abundance and Community Structure in a North Atlantic Marine Protected Area</title>
+<author>
+<persname><forename type="first">F</forename><surname>Benedetti</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Jalabert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Sourisseau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Becker</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Cailliau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Desnos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Elineau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-O</forename><surname>Irisson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Lombard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Picheral</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Stemmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Pouline</surname></persname>
+</author>
+<idno type="DOI">10.3389/fmars.2019.00214</idno>
+<ptr target="https://doi.org/10.3389/fmars.2019.00214"></ptr>
+</analytic>
+<monogr>
+<title level="j">Front. Mar. Sci</title>
+<imprint>
+<biblscope unit="volume">6</biblscope>
+<date type="published" when="2019">2019</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Benedetti, F., Jalabert, L., Sourisseau, M., Becker, B., Cailliau, C., Desnos, C., Elineau, A., Irisson, J.-O., Lombard, F., Picheral, M., Stemmann, L., Pouline, P., 2019. The Seasonal and Inter-Annual Fluctuations of Plankton Abundance and Community Structure in a North Atlantic Marine Protected Area. Front. Mar. Sci. 6. https://doi.org/10.3389/fmars.2019.00214</note>
+</biblstruct>
+<biblstruct xml:id="b6">
+<analytic>
+<title level="a" type="main">Random forests</title>
+<author>
+<persname><forename type="first">L</forename><surname>Breiman</surname></persname>
+</author>
+<idno type="DOI">10.1023/A:1010933404324</idno>
+<ptr target="https://doi.org/10.1023/A:1010933404324"></ptr>
+</analytic>
+<monogr>
+<title level="j">Mach. Learn</title>
+<imprint>
+<biblscope unit="volume">45</biblscope>
+<biblscope from="5" to="32" unit="page"></biblscope>
+<date type="published" when="2001">2001</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Breiman, L., 2001. Random forests. Mach. Learn. 45, 5-32. https://doi.org/10.1023/A:1010933404324</note>
+</biblstruct>
+<biblstruct xml:id="b7">
+<analytic>
+<title level="a" type="main">Linking small pelagic dietary shifts with ecosystem changes in the Gulf of Lions</title>
+<author>
+<persname><forename type="first">P</forename><surname>Brosset</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Le Bourg</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Costalago</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Banaru</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Van Beveren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-H</forename><surname>Bourdeix</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-M</forename><surname>Fromentin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Menard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Saraux</surname></persname>
+</author>
+<idno type="DOI">10.3354/meps11796</idno>
+<ptr target="https://doi.org/10.3354/meps11796"></ptr>
+</analytic>
+<monogr>
+<title level="j">Mar. Ecol.-Prog. Ser</title>
+<imprint>
+<biblscope unit="volume">554</biblscope>
+<biblscope from="157" to="171" unit="page"></biblscope>
+<date type="published" when="2016">2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Brosset, P., Le Bourg, B., Costalago, D., Banaru, D., Van Beveren, E., Bourdeix, J.-H., Fromentin, J.-M., Menard, F., Saraux, C., 2016. Linking small pelagic dietary shifts with ecosystem changes in the Gulf of Lions. Mar. Ecol.- Prog. Ser. 554, 157-171. https://doi.org/10.3354/meps11796</note>
+</biblstruct>
+<biblstruct xml:id="b8">
+<analytic>
+<title level="a" type="main">Zooplankton monitoring to contribute towards addressing global biodiversity conservation challenges</title>
+<author>
+<persname><forename type="first">S</forename><surname>Chiba</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Batten</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><forename type="middle">S</forename><surname>Martin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Ivory</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Miloslavich</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">V</forename><surname>Weatherdon</surname></persname>
+</author>
+<idno type="DOI">10.1093/plankt/fby030</idno>
+<ptr target="https://doi.org/10.1093/plankt/fby030"></ptr>
+</analytic>
+<monogr>
+<title level="j">Journal of Plankton Research</title>
+<imprint>
+<biblscope unit="volume">40</biblscope>
+<biblscope from="509" to="518" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Chiba, S., Batten, S., Martin, C.S., Ivory, S., Miloslavich, P., Weatherdon, L.V., 2018. Zooplankton monitoring to contribute towards addressing global biodiversity conservation challenges. Journal of Plankton Research 40, 509- 518. https://doi.org/10.1093/plankt/fby030</note>
+</biblstruct>
+<biblstruct xml:id="b9">
+<analytic>
+<title level="a" type="main">The ZooCAM, a new in-flow imaging system for fast onboard counting, sizing and classification of fish eggs and metazooplankton</title>
+<author>
+<persname><forename type="first">F</forename><surname>Colas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Tardivel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Perchoc</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Lunven</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Forest</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Guyader</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">M</forename><surname>Danielou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Le Mestre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Bourriau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Antajan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Sourisseau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Huret</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Petitgas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Romagnan</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.pocean.2017.10.014</idno>
+<ptr target="https://doi.org/10.1016/j.pocean.2017.10.014"></ptr>
+</analytic>
+<monogr>
+<title level="j">Progress in Oceanography, Multidisciplinary integrated surveys</title>
+<imprint>
+<biblscope unit="volume">166</biblscope>
+<biblscope from="54" to="65" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Colas, F., Tardivel, M., Perchoc, J., Lunven, M., Forest, B., Guyader, G., Danielou, M.M., Le Mestre, S., Bourriau, P., Antajan, E., Sourisseau, M., Huret, M., Petitgas, P., Romagnan, J.B., 2018. The ZooCAM, a new in-flow imaging system for fast onboard counting, sizing and classification of fish eggs and metazooplankton. Progress in Oceanography, Multidisciplinary integrated surveys 166, 54-65. https://doi.org/10.1016/j.pocean.2017.10.014</note>
+</biblstruct>
+<biblstruct xml:id="b10">
+<analytic>
+<title level="a" type="main">Human and machine factors in algae monitoring performance</title>
+<author>
+<persname><forename type="first">P</forename><forename type="middle">F</forename><surname>Culverhouse</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.ecoinf.2007.07.001</idno>
+<ptr target="https://doi.org/10.5194/essd-2023-187Preprint"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ecol. Inform</title>
+<imprint>
+<biblscope unit="volume">2</biblscope>
+<biblscope from="361" to="366" unit="page"></biblscope>
+<date type="published" when="2007-06-01">2007. 1 June 2023 c</date>
+</imprint>
+</monogr>
+<note>Author(s) 2023. CC BY 4.0 License</note>
+<note type="raw_reference">Culverhouse, P.F., 2007. Human and machine factors in algae monitoring performance. Ecol. Inform. 2, 361-366. https://doi.org/10.1016/j.ecoinf.2007.07.001 https://doi.org/10.5194/essd-2023-187 Preprint. Discussion started: 1 June 2023 c Author(s) 2023. CC BY 4.0 License.</note>
+</biblstruct>
+<biblstruct xml:id="b11">
+<analytic>
+<title level="a" type="main">Small pelagics in upwelling systems: patterns of interaction and structural changes in "wasp-waist" ecosystems</title>
+<author>
+<persname><forename type="first">P</forename><surname>Cury</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Bakun</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">J M</forename><surname>Crawford</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Jarre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">R</forename><forename type="middle">A</forename><surname>Quiñones</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><forename type="middle">J</forename><surname>Shannon</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><forename type="middle">M</forename><surname>Verheye</surname></persname>
+</author>
+<idno type="DOI">10.1006/jmsc.2000.0712</idno>
+<ptr target="https://doi.org/10.1006/jmsc.2000.0712"></ptr>
+</analytic>
+<monogr>
+<title level="j">ICES Journal of Marine Science</title>
+<imprint>
+<biblscope unit="volume">57</biblscope>
+<biblscope from="603" to="618" unit="page"></biblscope>
+<date type="published" when="2000">2000</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Cury, P., Bakun, A., Crawford, R.J.M., Jarre, A., Quiñones, R.A., Shannon, L.J., Verheye, H.M., 2000. Small pelagics in upwelling systems: patterns of interaction and structural changes in "wasp-waist" ecosystems. ICES Journal of Marine Science 57, 603-618. https://doi.org/10.1006/jmsc.2000.0712</note>
+</biblstruct>
+<biblstruct xml:id="b12">
+<monogr>
+<title level="m" type="main">Gridded maps of pelagic ecosystem parameters collected in the Bay of Biscay during the PELGAS integrated survey</title>
+<author>
+<persname><forename type="first">M</forename><surname>Doray</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Huret</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Authier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Duhamel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-B</forename><surname>Romagnan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dupuy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Spitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Sanchez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Berger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Dorémus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Bourriau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Grellier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Pennors</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Masse</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Petitgas</surname></persname>
+</author>
+<idno type="DOI">10.17882/53389</idno>
+<ptr target="https://doi.org/10.17882/53389"></ptr>
+<imprint>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note>a</note>
+<note type="raw_reference">Doray, M., Huret, M., Authier, M., Duhamel, E., Romagnan, J.-B., Dupuy, C., Spitz, J., Sanchez, F., Berger, L., Dorémus, G., Bourriau, P., Grellier, P., Pennors, L., Masse, J., Petitgas, P., 2018a. Gridded maps of pelagic ecosystem parameters collected in the Bay of Biscay during the PELGAS integrated survey. https://doi.org/10.17882/53389</note>
+</biblstruct>
+<biblstruct xml:id="b13">
+<analytic>
+<title level="a" type="main">Monitoring small pelagic fish in the Bay of Biscay ecosystem, using indicators from an integrated survey</title>
+<author>
+<persname><forename type="first">M</forename><surname>Doray</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Petitgas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Huret</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Duhamel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Romagnan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Authier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dupuy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Spitz</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.pocean.2017.12.004</idno>
+<ptr target="https://doi.org/10.1016/j.pocean.2017.12.004"></ptr>
+</analytic>
+<monogr>
+<title level="j">Progress in Oceanography</title>
+<imprint>
+<biblscope unit="volume">166</biblscope>
+<biblscope from="168" to="188" unit="page"></biblscope>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Doray, M., Petitgas, P., Huret, M., Duhamel, E., Romagnan, J.B., Authier, M., Dupuy, C., Spitz, J., 2018b. Monitoring small pelagic fish in the Bay of Biscay ecosystem, using indicators from an integrated survey. Progress in Oceanography 166, 168-188. https://doi.org/10.1016/j.pocean.2017.12.004</note>
+</biblstruct>
+<biblstruct xml:id="b14">
+<analytic>
+<title level="a" type="main">The PELGAS survey: Ship-based integrated monitoring of the Bay of Biscay pelagic ecosystem</title>
+<author>
+<persname><forename type="first">M</forename><surname>Doray</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Petitgas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><forename type="middle">B</forename><surname>Romagnan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Huret</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Duhamel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dupuy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Spitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Authier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Sanchez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Berger</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Dorémus</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Bourriau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Grellier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Massé</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.pocean.2017.09.015</idno>
+<ptr target="https://doi.org/10.1016/j.pocean.2017.09.015"></ptr>
+</analytic>
+<monogr>
+<title level="j">Progress in Oceanography</title>
+<imprint>
+<date type="published" when="2017">2017</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Doray, M., Petitgas, P., Romagnan, J.B., Huret, M., Duhamel, E., Dupuy, C., Spitz, J., Authier, M., Sanchez, F., Berger, L., Dorémus, G., Bourriau, P., Grellier, P., Massé, J., 2017. The PELGAS survey: Ship-based integrated monitoring of the Bay of Biscay pelagic ecosystem. Progress in Oceanography. https://doi.org/10.1016/j.pocean.2017.09.015</note>
+</biblstruct>
+<biblstruct xml:id="b15">
+<monogr>
+<title level="m" type="main">ZooScanNet: plankton images captured with the ZooScan</title>
+<author>
+<persname><forename type="first">A</forename><surname>Elineau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Desnos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Jalabert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Olivier</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-B</forename><surname>Romagnan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Costa Brandao</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Lombard</surname></persname>
+</author>
+<author>
+<persname><forename type="first">N</forename><surname>Llopis</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Courboulès</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Caray-Counil</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Serranito</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-O</forename><surname>Irisson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Picheral</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Gorsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Stemmann</surname></persname>
+</author>
+<idno type="DOI">10.17882/55741</idno>
+<ptr target="https://doi.org/10.17882/55741"></ptr>
+<imprint>
+<date type="published" when="2018">2018</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Elineau, A., Desnos, C., Jalabert, L., Olivier, M., Romagnan, J.-B., Costa Brandao, M., Lombard, F., Llopis, N., Courboulès, J., Caray-Counil, L., Serranito, B., Irisson, J.-O., Picheral, M., Gorsky, G., Stemmann, L., 2018. ZooScanNet: plankton images captured with the ZooScan. https://doi.org/10.17882/55741</note>
+</biblstruct>
+<biblstruct xml:id="b16">
+<analytic>
+<title level="a" type="main">Temporal fluctuations in zooplankton size, abundance, and taxonomic composition since 1995 in the North Western Mediterranean Sea</title>
+<author>
+<persname><forename type="first">G</forename><surname>Feuilloley</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-M</forename><surname>Fromentin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Saraux</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-O</forename><surname>Irisson</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Jalabert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Stemmann</surname></persname>
+</author>
+<idno type="DOI">10.1093/icesjms/fsab190</idno>
+<ptr target="https://doi.org/10.1093/icesjms/fsab190"></ptr>
+</analytic>
+<monogr>
+<title level="j">ICES J. Mar. Sci</title>
+<imprint>
+<biblscope unit="volume">79</biblscope>
+<biblscope from="882" to="900" unit="page"></biblscope>
+<date type="published" when="2022">2022</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Feuilloley, G., Fromentin, J.-M., Saraux, C., Irisson, J.-O., Jalabert, L., Stemmann, L., 2022. Temporal fluctuations in zooplankton size, abundance, and taxonomic composition since 1995 in the North Western Mediterranean Sea. ICES J. Mar. Sci. 79, 882-900. https://doi.org/10.1093/icesjms/fsab190</note>
+</biblstruct>
+<biblstruct xml:id="b17">
+<analytic>
+<title level="a" type="main">Digital zooplankton image analysis using the ZooScan integrated system</title>
+<author>
+<persname><forename type="first">G</forename><surname>Gorsky</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><forename type="middle">D</forename><surname>Ohman</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Picheral</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Gasparini</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Stemmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-B</forename><surname>Romagnan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Cawood</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Pesant</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Garcia-Comas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">F</forename><surname>Prejger</surname></persname>
+</author>
+<idno type="DOI">10.1093/plankt/fbp124</idno>
+<ptr target="https://doi.org/10.1093/plankt/fbp124"></ptr>
+</analytic>
+<monogr>
+<title level="j">J. Plankton Res</title>
+<imprint>
+<biblscope unit="volume">32</biblscope>
+<biblscope from="285" to="303" unit="page"></biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Gorsky, G., Ohman, M.D., Picheral, M., Gasparini, S., Stemmann, L., Romagnan, J.-B., Cawood, A., Pesant, S., Garcia-Comas, C., Prejger, F., 2010. Digital zooplankton image analysis using the ZooScan integrated system. J. Plankton Res. 32, 285-303. https://doi.org/10.1093/plankt/fbp124</note>
+</biblstruct>
+<biblstruct xml:id="b18">
+<monogr>
+<title level="m" type="main">Spatially-sparse convolutional neural networks</title>
+<author>
+<persname><forename type="first">B</forename><surname>Graham</surname></persname>
+</author>
+<idno type="DOI">10.48550/arXiv.1409.6070</idno>
+<ptr target="https://doi.org/10.48550/arXiv.1409.6070"></ptr>
+<imprint>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Graham, B., 2014. Spatially-sparse convolutional neural networks. https://doi.org/10.48550/arXiv.1409.6070</note>
+</biblstruct>
+<biblstruct xml:id="b19">
+<analytic>
+<title level="a" type="main">Hydrology and small pelagic fish drive the spatio-temporal dynamics of springtime zooplankton assemblages over the Bay of Biscay continental shelf</title>
+<author>
+<persname><forename type="first">N</forename><surname>Grandremy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-B</forename><surname>Romagnan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dupuy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Doray</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Huret</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Petitgas</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.pocean.2022.102949</idno>
+<ptr target="https://doi.org/10.1016/j.pocean.2022.102949"></ptr>
+</analytic>
+<monogr>
+<title level="j">Progress in Oceanography</title>
+<imprint>
+<biblscope unit="volume">210</biblscope>
+<biblscope unit="page">102949</biblscope>
+<date type="published" when="2023">2023</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Grandremy, N., Romagnan, J.-B., Dupuy, C., Doray, M., Huret, M., Petitgas, P., 2023a. Hydrology and small pelagic fish drive the spatio-temporal dynamics of springtime zooplankton assemblages over the Bay of Biscay continental shelf. Progress in Oceanography 210, 102949. https://doi.org/10.1016/j.pocean.2022.102949</note>
+</biblstruct>
+<biblstruct xml:id="b20">
+<analytic>
+<title level="a" type="main">PELGAS Bay of Biscay ZooScan zooplankton Dataset</title>
+<author>
+<persname><forename type="first">N</forename><surname>Grandremy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Bourriau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Daché</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M-M</forename><surname>Danielou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Doray</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dupuy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Huret</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Jalabert</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Mestre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Nowaczyk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Petitgas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Pineau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Raphalen</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Romagnan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J-B</forename></persname>
+</author>
+<idno type="DOI">10.17882/94052</idno>
+<ptr target="https://doi.org/10.17882/94052"></ptr>
+</analytic>
+<monogr>
+<title level="j">SEANOE</title>
+<imprint>
+<date type="published" when="2004">2023. 2004-2016</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Grandremy N., Bourriau P., Daché E., Danielou M-M., Doray M., Dupuy C., Huret M., Jalabert L., Le Mestre S., Nowaczyk A., Petitgas P., Pineau P., Raphalen E., Romagnan J-B., 2023b. PELGAS Bay of Biscay ZooScan zooplankton Dataset (2004-2016). SEANOE. https://doi.org/10.17882/94052</note>
+</biblstruct>
+<biblstruct xml:id="b21">
+<analytic>
+<title level="a" type="main">PELGAS Bay of Biscay ZooCAM zooplankton Dataset</title>
+<author>
+<persname><forename type="first">N</forename><surname>Grandremy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Bourriau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M-M</forename><surname>Danielou</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Doray</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Dupuy</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Forest</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Huret</surname></persname>
+</author>
+<author>
+<persname><forename type="first">Le</forename><surname>Mestre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Nowaczyk</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Petitgas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Pineau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Rouxel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J</forename><surname>Tardivel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Romagnan</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J-B</forename></persname>
+</author>
+<idno type="DOI">10.17882/9404010.5194/essd-2023-187Preprint</idno>
+<ptr target="https://doi.org/10.17882/94040https://doi.org/10.5194/essd-2023-187Preprint"></ptr>
+</analytic>
+<monogr>
+<title level="j">SEANOE</title>
+<imprint>
+<date type="published" when="2016">2023. 2016-2019. 1 June 2023</date>
+</imprint>
+</monogr>
+<note>c Author(s) 2023. CC BY 4.0 License</note>
+<note type="raw_reference">Grandremy N., Bourriau P., Danielou M-M., Doray M., Dupuy C., Forest B., Huret M., Le Mestre S., Nowaczyk A., Petitgas P., Pineau P., Rouxel J., Tardivel M., Romagnan J-B., 2023c. PELGAS Bay of Biscay ZooCAM zooplankton Dataset (2016-2019). SEANOE. https://doi.org/10.17882/94040 https://doi.org/10.5194/essd-2023-187 Preprint. Discussion started: 1 June 2023 c Author(s) 2023. CC BY 4.0 License.</note>
+</biblstruct>
+<biblstruct xml:id="b22">
+<analytic>
+<title level="a" type="main">Phytoplankton class-specific primary production in the world's oceans: Seasonal and interannual variability from satellite observations</title>
+<author>
+<persname><forename type="first">J</forename><surname>Uitz</surname></persname>
+</author>
+<author>
+<persname><forename type="first">H</forename><surname>Claustre</surname></persname>
+</author>
+<author>
+<persname><forename type="first">B</forename><surname>Gentili</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Stramski</surname></persname>
+</author>
+</analytic>
+<monogr>
+<title level="j">Global Biogeochemical Cycles</title>
+<imprint>
+<biblscope unit="volume">24</biblscope>
+<date type="published" when="2010">2010</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Uitz, J., Claustre, H., Gentili, B., Stramski, D., 2010. Phytoplankton class-specific primary production in the world's oceans: Seasonal and interannual variability from satellite observations. Global Biogeochemical Cycles 24.</note>
+</biblstruct>
+<biblstruct xml:id="b23">
+<analytic>
+<title level="a" type="main">Rapid changes in growth, condition, size and age of small pelagic fish in the Mediterranean</title>
+<author>
+<persname><forename type="first">E</forename><surname>Van Beveren</surname></persname>
+</author>
+<author>
+<persname><forename type="first">S</forename><surname>Bonhommeau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-M</forename><surname>Fromentin</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-L</forename><surname>Bigot</surname></persname>
+</author>
+<author>
+<persname><forename type="first">J.-H</forename><surname>Bourdeix</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Brosset</surname></persname>
+</author>
+<author>
+<persname><forename type="first">D</forename><surname>Roos</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Saraux</surname></persname>
+</author>
+<idno type="DOI">10.1007/s00227-014-2463-1</idno>
+<ptr target="https://doi.org/10.1007/s00227-014-2463-1"></ptr>
+</analytic>
+<monogr>
+<title level="j">Mar Biol</title>
+<imprint>
+<biblscope unit="volume">161</biblscope>
+<biblscope from="1809" to="1822" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Van Beveren, E., Bonhommeau, S., Fromentin, J.-M., Bigot, J.-L., Bourdeix, J.-H., Brosset, P., Roos, D., Saraux, C., 2014. Rapid changes in growth, condition, size and age of small pelagic fish in the Mediterranean. Mar Biol 161, 1809-1822. https://doi.org/10.1007/s00227-014-2463-1</note>
+</biblstruct>
+<biblstruct xml:id="b24">
+<analytic>
+<title level="a" type="main">Springtime zooplankton size structure over the continental shelf of the Bay of Biscay</title>
+<author>
+<persname><forename type="first">P</forename><surname>Vandromme</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Nogueira</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Huret</surname></persname>
+</author>
+<author>
+<persname><forename type="first">A</forename><surname>Lopez-Urrutia</surname></persname>
+</author>
+<author>
+<persname><surname>Gonzalez-Nuevo</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Gonzalez</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Sourisseau</surname></persname>
+</author>
+<author>
+<persname><forename type="first">P</forename><surname>Petitgas</surname></persname>
+</author>
+<idno type="DOI">10.5194/os-10-821-2014</idno>
+<ptr target="https://doi.org/10.5194/os-10-821-2014"></ptr>
+</analytic>
+<monogr>
+<title level="j">Ocean Sci</title>
+<imprint>
+<biblscope unit="volume">10</biblscope>
+<biblscope from="821" to="835" unit="page"></biblscope>
+<date type="published" when="2014">2014</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vandromme, P., Nogueira, E., Huret, M., Lopez-Urrutia, A., Gonzalez-Nuevo Gonzalez, G., Sourisseau, M., Petitgas, P., 2014. Springtime zooplankton size structure over the continental shelf of the Bay of Biscay. Ocean Sci. 10, 821-835. https://doi.org/10.5194/os-10-821-2014</note>
+</biblstruct>
+<biblstruct xml:id="b25">
+<analytic>
+<title level="a" type="main">Assessing biases in computing size spectra of automatically classified zooplankton from imaging systems: A case study with the ZooScan integrated system</title>
+<author>
+<persname><forename type="first">P</forename><surname>Vandromme</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Stemmann</surname></persname>
+</author>
+<author>
+<persname><forename type="first">C</forename><surname>Garcìa-Comas</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Berline</surname></persname>
+</author>
+<author>
+<persname><forename type="first">X</forename><surname>Sun</surname></persname>
+</author>
+<author>
+<persname><forename type="first">G</forename><surname>Gorsky</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.mio.2012.06.001</idno>
+<ptr target="https://doi.org/10.1016/j.mio.2012.06.001"></ptr>
+</analytic>
+<monogr>
+<title level="j">Methods in Oceanography</title>
+<imprint>
+<biblscope unit="volume">1</biblscope>
+<biblscope unit="issue">2</biblscope>
+<biblscope from="3" to="21" unit="page"></biblscope>
+<date type="published" when="2012">2012</date>
+</imprint>
+</monogr>
+<note type="raw_reference">Vandromme, P., Stemmann, L., Garcìa-Comas, C., Berline, L., Sun, X., Gorsky, G., 2012. Assessing biases in computing size spectra of automatically classified zooplankton from imaging systems: A case study with the ZooScan integrated system. Methods in Oceanography 1-2, 3-21. https://doi.org/10.1016/j.mio.2012.06.001</note>
+</biblstruct>
+<biblstruct xml:id="b26">
+<analytic>
+<title level="a" type="main">Major changes in sardine growth and body condition in the Bay of Biscay between 2003 and 2016: Temporal trends and drivers</title>
+<author>
+<persname><forename type="first">M</forename><surname>Véron</surname></persname>
+</author>
+<author>
+<persname><forename type="first">E</forename><surname>Duhamel</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Bertignac</surname></persname>
+</author>
+<author>
+<persname><forename type="first">L</forename><surname>Pawlowski</surname></persname>
+</author>
+<author>
+<persname><forename type="first">M</forename><surname>Huret</surname></persname>
+</author>
+<idno type="DOI">10.1016/j.pocean.2020.102274</idno>
+<ptr target="https://doi.org/10.5194/essd-2023-187Preprint"></ptr>
+</analytic>
+<monogr>
+<title level="j">Progress in Oceanography</title>
+<imprint>
+<biblscope unit="volume">182</biblscope>
+<biblscope unit="page">102274</biblscope>
+<date type="published" when="2020-06-01">2020. 1 June 2023 c</date>
+</imprint>
+</monogr>
+<note>Author(s) 2023. CC BY 4.0 License</note>
+<note type="raw_reference">Véron, M., Duhamel, E., Bertignac, M., Pawlowski, L., Huret, M., 2020. Major changes in sardine growth and body condition in the Bay of Biscay between 2003 and 2016: Temporal trends and drivers. Progress in Oceanography 182, 102274. https://doi.org/10.1016/j.pocean.2020.102274 https://doi.org/10.5194/essd-2023-187 Preprint. Discussion started: 1 June 2023 c Author(s) 2023. CC BY 4.0 License.</note>
+</biblstruct>
+</listbibl>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

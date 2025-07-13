@@ -1,0 +1,399 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "JATS-archivearticle1-3-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="brief-report"><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.2 20190208//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.2?><?ConverterInfo.XSLTName jats2jats3.xsl?><?ConverterInfo.Version 1?><?properties open_access?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Chem Commun (Camb)</journal-id><journal-id journal-id-type="iso-abbrev">Chem Commun (Camb)</journal-id><journal-id journal-id-type="publisher-id">CC</journal-id><journal-id journal-id-type="coden">CHCOFS</journal-id><journal-title-group><journal-title>Chemical Communications (Cambridge, England)</journal-title></journal-title-group><issn pub-type="ppub">1359-7345</issn><issn pub-type="epub">1364-548X</issn><publisher><publisher-name>The Royal Society of Chemistry</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">9128489</article-id><article-id pub-id-type="pmid">35521967</article-id><article-id pub-id-type="publisher-id">d2cc00847e</article-id><article-id pub-id-type="doi">10.1039/d2cc00847e</article-id><article-categories><subj-group subj-group-type="heading"><subject>Chemistry</subject></subj-group></article-categories><title-group><article-title>Calix[6]arenes with halogen bond donor groups as selective and efficient anion transporters<xref rid="fn1" ref-type="fn">&#x02020;</xref></article-title><fn-group><fn id="fn1"><label>&#x02020;</label><p>Electronic supplementary information (ESI) available: Synthetic procedures and full characterization of 1-3, details for the binding and transport studies, and the XRD structure of 1a. CCDC <uri>2125602</uri>. For ESI and crystallographic data in CIF or other electronic format see DOI: <uri xlink:href="https://doi.org/10.1039/d2cc00847e">https://doi.org/10.1039/d2cc00847e</uri></p></fn></fn-group></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9801-646X</contrib-id><name><surname>Singh</surname><given-names>Anurag</given-names></name><xref rid="affa" ref-type="aff"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3251-1855</contrib-id><name><surname>Torres-Huerta</surname><given-names>Aaron</given-names></name><xref rid="affa" ref-type="aff"/></contrib><contrib contrib-type="author"><name><surname>Vanderlinden</surname><given-names>Tom</given-names></name><xref rid="affa" ref-type="aff"/><xref rid="affb" ref-type="aff"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2557-6116</contrib-id><name><surname>Renier</surname><given-names>Nathan</given-names></name><xref rid="affa" ref-type="aff"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5395-5562</contrib-id><contrib-id contrib-id-type="resid" authenticated="false">AAZ-5322-2021</contrib-id><name><surname>Mart&#x000ed;nez-Crespo</surname><given-names>Luis</given-names></name><xref rid="affa" ref-type="aff"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6898-9036</contrib-id><contrib-id contrib-id-type="resid" authenticated="false">O-5866-2015</contrib-id><name><surname>Tumanov</surname><given-names>Nikolay</given-names></name><xref rid="affc" ref-type="aff"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4920-6857</contrib-id><name><surname>Wouters</surname><given-names>Johan</given-names></name><xref rid="affc" ref-type="aff"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9945-3813</contrib-id><name><surname>Bartik</surname><given-names>Kristin</given-names></name><xref rid="affa" ref-type="aff"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2493-2497</contrib-id><contrib-id contrib-id-type="resid" authenticated="false">F-5497-2014</contrib-id><name><surname>Jabin</surname><given-names>Ivan</given-names></name><xref rid="affb" ref-type="aff"/></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4409-0154</contrib-id><contrib-id contrib-id-type="resid" authenticated="false">F-8826-2015</contrib-id><name><surname>Valkenier</surname><given-names>Hennie</given-names></name><xref rid="affa" ref-type="aff"/></contrib><aff id="affa">
+<institution>Universit&#x000e9; libre de Bruxelles (ULB), Ecole polytechnique de Bruxelles, Engineering Molecular NanoSystems</institution>
+<addr-line>Avenue Franklin Roosevelt 50</addr-line>
+<city>1050 Brussels</city>
+<country>Belgium</country>
+<email>hennie.valkenier@ulb.be</email>
+</aff><aff id="affb">
+<institution>Universit&#x000e9; libre de Bruxelles (ULB), Faculty of science, Laboratoire de Chimie Organique</institution>
+<addr-line>Avenue Franklin Roosevelt 50</addr-line>
+<city>1050 Brussels</city>
+<country>Belgium</country>
+</aff><aff id="affc">
+<institution>Namur Institute of Structured Matter and Namur Research Institute for Life Sciences, Department of Chemistry, University of Namur</institution>
+<addr-line>61 rue de Bruxelles</addr-line>
+<city>B-5000 Namur</city>
+<country>Belgium</country>
+</aff></contrib-group><pub-date publication-format="electronic" date-type="pub" iso-8601-date="2022-05-06"><day>6</day><month>5</month><year>2022</year></pub-date><pub-date publication-format="electronic" date-type="collection" iso-8601-date="2022-05-24"><day>24</day><month>5</month><year>2022</year></pub-date><pub-date pub-type="pmc-release"><day>6</day><month>5</month><year>2022</year></pub-date><!--PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>.--><volume>58</volume><issue>42</issue><fpage>6255</fpage><lpage>6258</lpage><history><date date-type="received" iso-8601-date="2022-02-10"><day>10</day><month>2</month><year>2022</year></date><date date-type="accepted" iso-8601-date="2022-04-05"><day>5</day><month>4</month><year>2022</year></date></history><permissions><copyright-statement>This journal is &#x000a9; The Royal Society of Chemistry</copyright-statement><copyright-year>2022</copyright-year><copyright-holder>The Royal Society of Chemistry</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense" start_date="2022-05-06">https://creativecommons.org/licenses/by/3.0/</ali:license_ref></license></permissions><abstract><p>Here we present the anion binding and anion transport properties of a series of calix[6]arenes decorated on their small rim with either halogen bond or hydrogen bond donating groups. We show that the halogen bond donating iodotriazole groups enable highly selective transport of chloride and nitrate anions, without transport of protons or hydroxide, at rates similar to those observed with thiourea or squaramide groups.</p></abstract><abstract abstract-type="toc"><p>A calix[6]arene with three preorganised halogen bond donating groups gives &#x0003e;100-fold selectivity for Cl<sup>&#x02212;</sup>&#x000a0;uniport over HCl symport, in contrast to analogous compounds with strong hydrogen bond donating groups.<graphic xlink:href="d2cc00847e-ga.jpg" id="ga" position="float"/></p></abstract><funding-group><award-group><funding-source>
+<institution-wrap><institution>H2020 European Research Council</institution><institution-id institution-id-type="doi">10.13039/100010663</institution-id></institution-wrap>
+</funding-source><award-id>802727</award-id></award-group><award-group><funding-source>
+<institution-wrap><institution>Fonds De La Recherche Scientifique - FNRS</institution><institution-id institution-id-type="doi">10.13039/501100002661</institution-id></institution-wrap>
+</funding-source><award-id>Unassigned</award-id></award-group></funding-group><counts><page-count count="4"/></counts><custom-meta-group><custom-meta><meta-name>pubstatus</meta-name><meta-value>Paginated Article</meta-value></custom-meta></custom-meta-group></article-meta></front><body><p>Synthetic ion transporters have potential for the treatment of channelopathies, such as cystic fibrosis, linked to deficient ion transport.<sup><xref rid="cit1" ref-type="bibr">1,2</xref></sup> Most anion transporters described in the literature rely on hydrogen bonding (HB) between relatively acidic hydrogen atoms and the anion.<sup><xref rid="cit3" ref-type="bibr">3</xref></sup> However, deprotonation of these acidic HB donors can lead to a net transport of protons along with the anions.<sup><xref rid="cit4" ref-type="bibr">4,5</xref></sup> Proton transport is linked to an increasing risk of toxicity,<sup><xref rid="cit6" ref-type="bibr">6</xref></sup> which is interesting in the context of anti-cancer activity, but undesirable for treatment of channelopathies. Selectivity for (i) anion transport without dissipation of pH gradients and (ii) certain anions over others represent major challenges in anion transport.<sup><xref rid="cit7" ref-type="bibr">7</xref></sup></p><p>A strategy to achieve selective transport of anions is the use of less acidic H-bond donors,<sup><xref rid="cit4" ref-type="bibr">4,8,9</xref></sup> or interactions based on Sigma holes.<sup><xref rid="cit10" ref-type="bibr">10</xref></sup> A Sigma hole is an electron deficient region on a bound halogen, chalcogen, pnictogen, or tetrel atom, which can interact with electron rich entities, such as anions.<sup><xref rid="cit11" ref-type="bibr">11&#x02013;13</xref></sup> This interaction is referred to as halogen bond (XB) if it involves a halogen atom, which are typically less toxic than the other atoms which can bear a Sigma hole. The use of XBs in transport has been pioneered by Matile and co-workers.<sup><xref rid="cit14" ref-type="bibr">14</xref></sup> Various XB-based transporters have been studied<sup><xref rid="cit15" ref-type="bibr">15&#x02013;18</xref></sup> and a 5-fold selectivity for transport of chloride over HCl transport by an XB donor was recently reported by Langton, Beer, and co-workers.<sup><xref rid="cit19" ref-type="bibr">19</xref></sup> However, published studies compare transporters with XB donors to those with an H atom in the place of the halogen atom, rather than comparing XB donors to powerful HB donating motifs, such as (thio)ureas and squaramides.<sup><xref rid="cit20" ref-type="bibr">20&#x02013;22</xref></sup></p><p>Here we present a comparison between XB and HB donating compounds in terms of anion binding, transport activity, and selectivity, using receptors with (<xref rid="fig1" ref-type="fig">Fig. 1</xref>): iodotriazoles as XB donors (1a), regular triazoles as control (2), and squaramides or (thio)ureas as strong HB donors (3&#x02013;5). Three of these groups were attached to the small rim of a calix[6]arene to effectively bind the anion and shield its charge from the apolar interior of the membrane. The value of this calix[6]arene-based design was demonstrated previously by the activity of tris-urea 4 and tris-thiourea 5 as anion receptors<sup><xref rid="cit23" ref-type="bibr">23</xref></sup> and carriers.<sup><xref rid="cit24" ref-type="bibr">24</xref></sup> The larger iodotriazole binding groups are also readily accommodated by the calix[6]arene platform.<sup><xref rid="cit25" ref-type="bibr">25</xref></sup> Electron-poor bis(CF<sub>3</sub>)phenyl rings were used to increase the binding strength of the various motifs.<sup><xref rid="cit20" ref-type="bibr">20&#x02013;24</xref></sup> These groups and the calix[6]arene skeleton also ensure that the overall lipophilicity and lipophilic balance<sup><xref rid="cit26" ref-type="bibr">26</xref></sup> of the studied receptors is similar (see <xref rid="tab1" ref-type="table">Table 1</xref> for c&#x02009;log&#x02009;<italic toggle="yes">P</italic> values). Two additional calix[6]arenes bearing iodotriazole units with <italic toggle="yes">p</italic>NO<sub>2</sub>phenyl (1b) and phenyl groups (1c) were prepared to evaluate the effect of the electron withdrawing substituents on binding and transport by XB donors.</p><fig position="float" id="fig1"><label>Fig. 1</label><caption><title>Structure of calix[6]arene-based transporters 1a&#x02013;c, 2&#x02013;5.</title></caption><graphic xlink:href="d2cc00847e-f1" position="float"/></fig><table-wrap position="float" id="tab1"><caption><title>Calculated log&#x02009;<italic toggle="yes">P</italic> values, affinity constants for Cl<sup>&#x02212;</sup>, and anion transport results for compounds 1&#x02013;5</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Receptor</th><th rowspan="1" colspan="1">c&#x02009;log&#x02009;<italic toggle="yes">P</italic><xref rid="tab1fna" ref-type="table-fn">a</xref></th><th rowspan="1" colspan="1">
+<italic toggle="yes">K</italic>
+<sub>a</sub> in acetone (M<sup>&#x02212;1</sup>)</th><th rowspan="1" colspan="1">
+<italic toggle="yes">K</italic>
+<sub>a</sub> in CHCl<sub>3</sub> (M<sup>&#x02212;1</sup>)</th><th rowspan="1" colspan="1">Transport rate [<italic toggle="yes">I</italic>] (s<sup>&#x02212;1</sup>) <xref rid="tab1fnc" ref-type="table-fn">c</xref></th><th rowspan="1" colspan="1">Transport selectivity<xref rid="tab1fnd" ref-type="table-fn">d</xref></th></tr></thead><tbody><tr><td rowspan="1" colspan="1">1a</td><td rowspan="1" colspan="1">34</td><td rowspan="1" colspan="1">&#x0003e;10<sup>5</sup></td><td rowspan="1" colspan="1">7.7&#x000b7;10<sup>2</sup></td><td rowspan="1" colspan="1">34</td><td rowspan="1" colspan="1">&#x0003e;100</td></tr><tr><td rowspan="1" colspan="1">1b</td><td rowspan="1" colspan="1">29</td><td rowspan="1" colspan="1">n.d.<xref rid="tab1fnb" ref-type="table-fn">b</xref></td><td rowspan="1" colspan="1">1.3&#x000b7;10<sup>2</sup></td><td rowspan="1" colspan="1">&#x0003c; 1</td><td rowspan="1" colspan="1">&#x02014;</td></tr><tr><td rowspan="1" colspan="1">1c</td><td rowspan="1" colspan="1">29</td><td rowspan="1" colspan="1">8.9&#x000b7;10<sup>3</sup></td><td rowspan="1" colspan="1">&#x0003c;10</td><td rowspan="1" colspan="1">&#x0003c; 1</td><td rowspan="1" colspan="1">&#x02014;</td></tr><tr><td rowspan="1" colspan="1">2</td><td rowspan="1" colspan="1">32</td><td rowspan="1" colspan="1">58</td><td rowspan="1" colspan="1">&#x0003c;10</td><td rowspan="1" colspan="1">&#x0003c; 1</td><td rowspan="1" colspan="1">&#x02014;</td></tr><tr><td rowspan="1" colspan="1">3</td><td rowspan="1" colspan="1">29</td><td rowspan="1" colspan="1">8.7&#x000b7;10<sup>2</sup></td><td rowspan="1" colspan="1">n.d.<xref rid="tab1fnb" ref-type="table-fn">b</xref></td><td rowspan="1" colspan="1">45</td><td rowspan="1" colspan="1">1</td></tr><tr><td rowspan="1" colspan="1">4</td><td rowspan="1" colspan="1">29</td><td rowspan="1" colspan="1">1.4&#x000b7;10<sup>3</sup></td><td rowspan="1" colspan="1">1.8&#x000b7;10<sup>4</sup></td><td rowspan="1" colspan="1">12</td><td rowspan="1" colspan="1">1</td></tr><tr><td rowspan="1" colspan="1">5</td><td rowspan="1" colspan="1">32</td><td rowspan="1" colspan="1">1.4&#x000b7;10<sup>3</sup></td><td rowspan="1" colspan="1">2.9&#x000b7;10<sup>4</sup></td><td rowspan="1" colspan="1">25</td><td rowspan="1" colspan="1">1</td></tr></tbody></table><table-wrap-foot><fn id="tab1fna"><label>a</label><p>Calculated using MarvinSketch 19.25.</p></fn><fn id="tab1fnb"><label>b</label><p>Not determined due the low solubility.</p></fn><fn id="tab1fnc"><label>c</label><p>Initial rate of Cl<sup>&#x02212;</sup>/NO<sub>3</sub><sup>&#x02212;</sup> antiport in the lucigenin assay divided by the transporter to lipid ratio.</p></fn><fn id="tab1fnd"><label>d</label><p>Selectivity of Cl<sup>&#x02212;</sup> uniport/HCl symport, based on results from the HPTS assay in NMDGHCl.</p></fn></table-wrap-foot></table-wrap><p>Iodotriazole-based receptors 1a-c were prepared in 70&#x02013;80% isolated yield from the reported calix[6]arene tris-azide 6,<sup><xref rid="cit27" ref-type="bibr">27</xref></sup><italic toggle="yes">via</italic> a cycloaddition reaction with the corresponding iodoalkynes 8a-c, in the presence of copper(<sc>i</sc>) and tris(benzyltriazolyl-methyl)amine (TBTA) as catalyst in THF<sup><xref rid="cit18" ref-type="bibr">18</xref></sup> (<xref rid="sch1" ref-type="fig">Scheme 1</xref>, see ESI<xref rid="fn1" ref-type="fn">&#x02020;</xref> for details<sup><xref rid="cit28" ref-type="bibr">28</xref></sup>). Triazole-based receptor 2 was prepared from calix[6]arene tris-azide 6 in 97% yield <italic toggle="yes">via</italic> a cycloaddition with alkyne 9 in the presence of 2,6-lutidine and a catalytic amount of copper(<sc>i</sc>) in DCM.<sup><xref rid="cit27" ref-type="bibr">27</xref></sup> The squaramide containing receptor 3 was isolated in 45% yield from the reaction of calix[6]arene tris-amine 7<sup><xref rid="cit27" ref-type="bibr">27</xref></sup> and compound 10 in methanol&#x02009;:&#x02009;DCM (9&#x02009;:&#x02009;1), using DIPEA as base.<sup><xref rid="cit29" ref-type="bibr">29</xref></sup> Receptors 4 and 5 were prepared following previously reported procedures.<sup><xref rid="cit23" ref-type="bibr">23,24</xref></sup></p><fig position="float" id="sch1" fig-type="scheme"><label>Scheme 1</label><caption><title>Synthesis of receptors 1-3 from precursor calix[6]arenes 6 and 7. Conditions: (i) CuI, TBTA, THF; (ii) [Cu(CH<sub>3</sub>CN)<sub>6</sub>]PF<sub>6</sub>, TBTA, THF; (iii) [Cu(CH<sub>3</sub>CN)<sub>6</sub>]PF<sub>6</sub>, 2,6-lutidine, DCM; (iv) DIPEA, MeOH, DCM.</title></caption><graphic xlink:href="d2cc00847e-s1" position="float"/></fig><p>The anion binding properties of receptors 1&#x02013;5 were studied <italic toggle="yes">via</italic><sup>1</sup>H-NMR titrations with tetrabutylammonium chloride (TBACl) in acetone-d<sub>6</sub> or CDCl<sub>3</sub>. Binding constants were determined by fitting the shift of the signals of the protons closest to the binding site to a 1&#x02009;:&#x02009;1 model<sup><xref rid="cit30" ref-type="bibr">30</xref></sup> (see <xref rid="tab1" ref-type="table">Table 1</xref> and ESI<xref rid="fn1" ref-type="fn">&#x02020;</xref>).<sup><xref rid="cit28" ref-type="bibr">28</xref></sup> For receptor 1a in acetone, the signals show a linear shift during the addition of a first eq. of TBACl, while no further changes are observed when adding up to 5 eq. TBACl, supporting a 1&#x02009;:&#x02009;1 binding mode in solution and indicating that the affinity is too high to be quantified. A <italic toggle="yes">K</italic><sub>a</sub> of 770 M<sup>&#x02212;1</sup> was found for 1a in chloroform and lower affinities were found for receptors 1b and 1c, which have fewer or no electron withdrawing groups on the aryl rings. Compound 2, which only has triazole groups, showed the weakest binding of Cl<sup>&#x02212;</sup>. When comparing XB-based receptor 1a to HB-based receptors 3&#x02013;5, which have the same aryl groups, we observe that, in acetone, 1a has an affinity which is at least two orders of magnitude higher than those of 3&#x02013;5 (<xref rid="tab1" ref-type="table">Table 1</xref>).<sup><xref rid="cit31" ref-type="bibr">31</xref></sup> This trend is inverted in CDCl<sub>3</sub>, in line with previous observations that XB donors show lower anion affinities in chloroform than in acetone.<sup><xref rid="cit32" ref-type="bibr">32</xref></sup> Titrations of 1a with various other anions revealed the following trend in affinities: Cl<sup>&#x02212;</sup> &#x0003e; Br<sup>&#x02212;</sup> &#x0226b; H<sub>2</sub>PO<sub>4</sub><sup>&#x02212;</sup> &#x0003e; NO<sub>3</sub><sup>&#x02212;</sup>, AcO<sup>&#x02212;</sup> (Table S1, ESI<xref rid="fn1" ref-type="fn">&#x02020;</xref>), indicating selectivity for halides over oxoanions.</p><p>The molecular structure of receptor 1a determined by single-crystal X-ray diffraction (SCXRD, <xref rid="fig2" ref-type="fig">Fig. 2</xref>) shows that the methoxy groups of the calix[6]arene are oriented into the cavity and the arms oriented outward. The three XB donor iodotriazole groups coordinate one molecule of water by O&#x022ef;I interactions with a distance of 3.179(2) &#x000c5;. The coordination sphere of the water molecule is completed by a second molecule of 1a to afford an octahedral geometry around the oxygen atom (<xref rid="fig2" ref-type="fig">Fig. 2c</xref> and Fig. S63, ESI<xref rid="fn1" ref-type="fn">&#x02020;</xref>). This structural analysis shows that the three XB donor groups of 1a can indeed cooperate to act as an efficient receptor towards electronegative atoms, in agreement with the high affinity observed for chloride.</p><fig position="float" id="fig2"><label>Fig. 2</label><caption><title>Molecular crystal structure of compound 1a, (a) side view and (b) top view. (c) O&#x022ef;I interactions between iodotriazole groups and the oxygen atom of a molecule of water. The iodotriazole groups are coloured in pink and bis(CF<sub>3</sub>)phenyl rings in blue and the hydrogen atoms and minor parts of the disorder are omitted for the sake of clarity.</title></caption><graphic xlink:href="d2cc00847e-f2" position="float"/></fig><p>Receptors 1&#x02013;5 were studied as transmembrane transporters for Cl<sup>&#x02212;</sup> and NO<sub>3</sub><sup>&#x02212;</sup> using the lucigenin assay.<sup><xref rid="cit20" ref-type="bibr">20</xref></sup> They were preincorporated in the lipid bilayer of large unilamellar vesicles (LUVs) that contained the chloride sensitive dye lucigenin in a NaNO<sub>3</sub> solution. A NaCl pulse was added to create a chloride concentration gradient and the quenching of the fluorescence of lucigenin was monitored to assess Cl<sup>&#x02212;</sup> influx. The transport of Cl<sup>&#x02212;</sup> into the vesicles is compensated by the transport of NO<sub>3</sub><sup>&#x02212;</sup> out of the vesicles, ensuring the charge balance (Cl<sup>&#x02212;</sup>/NO<sub>3</sub><sup>&#x02212;</sup> antiport). XB-based receptor 1a shows clear transport activity at concentrations down to 1 transporter per 25&#x02009;000 lipid molecules (0.004 mol%, 16 nM), 1b showed poor activity (too low to quantify), and 1c and 2 were inactive at 1&#x02009;:&#x02009;1000 transporter to lipid ratio (<xref rid="fig3" ref-type="fig">Fig. 3a</xref>). The decrease in activity with a decreasing number of electron withdrawing substituents on the aryl group and the absence of transport by 2 confirm the role of the Sigma hole in anion transport.</p><fig position="float" id="fig3"><label>Fig. 3</label><caption><title>Anion transport studies by receptors 1-5 (preincorporated at the indicated transporter&#x02009;:&#x02009;lipid ratio) in LUVs of POPC/cholesterol (7&#x02009;:&#x02009;3 ratio). (a and b) Dissipation of a chloride gradient as monitored by the quenching of encapsulated lucigenin. (c and d) Dissipation of a pH gradient as monitored by changes in the fluorescence of HPTS; the protonophore CCCP (1&#x02009;:&#x02009;1000) was added prior to the start of the indicated experiments and the LUVs were lysed at 230 s.</title></caption><graphic xlink:href="d2cc00847e-f3" position="float"/></fig><p>When comparing XB-based receptor 1a to HB-based receptors 3&#x02013;5, all with bisCF<sub>3</sub>phenyl groups, the highest transport rates were observed with tris-squaramide 3, followed by 1a and previously reported tris-thiourea 5, and the lowest rate was given by tris-urea 4 (<xref rid="fig3" ref-type="fig">Fig. 3b</xref> and <xref rid="tab1" ref-type="table">Table 1</xref>). This demonstrates that receptors with XB donor groups can achieve similar transport activities as related receptors with powerful HB donor groups.</p><p>Having established the good activity of 1a, the transport selectivity of this compound in comparison to transporters 3-5 was studied. For this, the pH sensitive dye 8-hydroxypyrene-1,3,6-trisulfonic acid trisodium (HPTS) was encapsulated and a buffer solution with <italic toggle="yes">N</italic>-methyl-<sc>d</sc>-glucosamine hydrochloride (NMDGH<sup>+</sup>Cl<sup>&#x02212;</sup>) and HEPES at pH 6.8 was used inside and outside the vesicles. Transport was initiated by addition of a base pulse (NMDG) giving an exterior pH of 7.7. In this assay, the dissipation of the pH gradient (by transport of H<sup>+</sup> or OH<sup>&#x02212;</sup>) can only be balanced by the transport of Cl<sup>&#x02212;</sup>, as NMDGH<sup>+</sup> is a membrane impermeable cation.<sup><xref rid="cit4" ref-type="bibr">4</xref></sup></p><p>Receptors 3&#x02013;5 gave efficient transport, while no significant activity was observed with 1a even at a transporter:lipid ratio of 1&#x02009;:&#x02009;1000 (<xref rid="fig3" ref-type="fig">Fig. 3c and d</xref>). This shows that 1a is incapable of dissipating a pH gradient <italic toggle="yes">via</italic> either H<sup>+</sup>Cl<sup>&#x02212;</sup> symport or OH<sup>&#x02212;</sup>/Cl<sup>&#x02212;</sup> antiport. Transport of HCl by 3&#x02013;5 follows the same order as for Cl<sup>&#x02212;</sup>/NO<sub>3</sub><sup>&#x02212;</sup> antiport, with tris-squaramide 3 giving the highest rates, followed by tris-thiourea 5 and tris-urea 4. The experiments were also run in the presence of the H<sup>+</sup> transporter carbonyl cyanide 3-chlorophenylhydrazone (CCCP). No impact was observed on the rates of transport by 3&#x02013;5, indicating that transport of H<sup>+</sup> is not rate limiting for these transporters with acidic H-bond donors. In contrast, the addition of CCCP clearly switched on the transport of 1a, even when present at concentrations as low as 1&#x02009;:&#x02009;100&#x02009;000. This can be attributed to Cl<sup>&#x02212;</sup> uniport by 1a coupled to H<sup>+</sup> transport by CCCP and shows that 1a has &#x0003e;100-fold selectivity for electrogenic Cl<sup>&#x02212;</sup> transport over H<sup>+</sup>Cl<sup>&#x02212;</sup> symport or OH<sup>&#x02212;</sup>/Cl<sup>&#x02212;</sup> antiport. As 1a has no acidic protons, net transport of HCl by a mechanism involving deprotonation of a binding group upon anion release<sup><xref rid="cit4" ref-type="bibr">4</xref></sup> is indeed impossible. Furthermore, 1a has &#x0223c;20-fold higher selectivity compared to the recently reported transporter with two XB donor groups,<sup><xref rid="cit19" ref-type="bibr">19</xref></sup> which is likely to originate from the efficient encapsulation of Cl<sup>&#x02212;</sup> anions by the three XB donor groups on the calix[6]arene. These experiments demonstrate that transporter 1a has an unprecedented selectivity in combination with a good activity (EC<sub>50</sub> of &#x0223c;0.007 mol%).</p><p>Similar experiments were performed, replacing Cl<sup>&#x02212;</sup> by NO<sub>3</sub><sup>&#x02212;</sup> (NMDGH<sup>+</sup>NO<sub>3</sub><sup>&#x02212;</sup> buffer), and selectivity of 1a for electrogenic NO<sub>3</sub><sup>&#x02212;</sup> transport over H<sup>+</sup>NO<sub>3</sub><sup>&#x02212;</sup> symport (or OH<sup>&#x02212;</sup>/NO<sub>3</sub><sup>&#x02212;</sup> antiport) was observed (Fig. S60, ESI<xref rid="fn1" ref-type="fn">&#x02020;</xref>). The rate of NO<sub>3</sub><sup>&#x02212;</sup> uniport by 1a was lower than that of Cl<sup>&#x02212;</sup> uniport. HB-based transporters 3&#x02013;5 showed again hardly any selectivity. In contrast to 3&#x02013;5, 1a was also found incapable of transporting OH<sup>&#x02212;</sup> or H<sup>+</sup> in absence of transportable anions such as Cl<sup>&#x02212;</sup> and NO<sub>3</sub><sup>&#x02212;</sup> (Fig. S61, ESI<xref rid="fn1" ref-type="fn">&#x02020;</xref>). This remarkable selectivity of 1a was further highlighted using the lucigenin assay in NaHCO<sub>3</sub> or NaOAc solutions to test for Cl<sup>&#x02212;</sup>/HCO<sub>3</sub><sup>&#x02212;</sup> and Cl<sup>&#x02212;</sup>/AcO<sup>&#x02212;</sup> antiport (Fig. S57 and S58, ESI<xref rid="fn1" ref-type="fn">&#x02020;</xref>). In both experiments clear activity was observed for transporter 3, but not for 1a. This shows that 1a is not only highly selective for Cl<sup>&#x02212;</sup> compared to HCl transport, but also for Cl<sup>&#x02212;</sup> compared to other anions. The anion transport selectivity of 1a follows the order: Cl<sup>&#x02212;</sup> &#x0003e; NO<sub>3</sub><sup>&#x02212;</sup> &#x022d9; HCO<sub>3</sub><sup>&#x02212;</sup>, AcO<sup>&#x02212;</sup>, OH<sup>&#x02212;</sup> and is correlated to its selectivity in anion binding.</p><p>In contrast, HB donors commonly show anion binding selectivities that correlate with the hydration energy or hydrogen bond accepting ability of the anions.<sup><xref rid="cit33" ref-type="bibr">33,34</xref></sup> As a result, HB-based receptors are very general transporters and only a slight selectivity of 5 for transport of NO<sub>3</sub><sup>&#x02212;</sup> &#x0003e; Cl<sup>&#x02212;</sup> was observed.<sup><xref rid="cit35" ref-type="bibr">35</xref></sup> We note that, despite the poor selectivity, tris-squaramide 3 showed the highest transport activity of the series of compounds tested in all the transport assays used. This is in agreement with previous reports on squaramides with a single binding unit which outperformed ureas and thioureas,<sup><xref rid="cit21" ref-type="bibr">21</xref></sup> while attempts to achieve similar results in structures with two or three binding units often failed due to too strong binding or poor solubility of the squaramides.<sup><xref rid="cit29" ref-type="bibr">29,36</xref></sup></p><p>In conclusion, this study of transport activity and selectivity of lipophilic calix[6]arenes with different anion binding groups has revealed the remarkable selectivity of halogen bond donor 1a to transport Cl<sup>&#x02212;</sup> and NO<sub>3</sub><sup>&#x02212;</sup>, compared to the transport of other anions and to the dissipation of pH gradients. This high selectivity is accompanied by a transport activity on par with the analogous tris-thiourea 5 and close to tris-squaramide 3. This demonstrates that XB donor groups connected to a platform can achieve transport rates similar to those of powerful HB donors, while providing a superior selectivity for Cl<sup>&#x02212;</sup>, which opens the way to therapeutic applications of XB donors for treatment of channelopathies such as cystic fibrosis, where Cl<sup>&#x02212;</sup> transport is required but dissipation of pH gradients could lead to undesired side effects.</p><p>We thank Koen Robeyns for his help with crystal structure refinement and Frank Meyer for discussions. The results reported here are part of a project that has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (Grant agreement No. 802727). HV is a research associate of the Fonds de la Recherche Scientifique &#x02013; FNRS. We thank the PC<sup>2</sup> technological platform at the University of Namur for access to the single-crystal X-ray diffractometer.</p><sec sec-type="COI-statement"><title>Conflicts of interest</title><p>There are no conflicts to declare.</p></sec><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material id="CC-058-D2CC00847E-s001" position="float" content-type="local-data"><label>CC-058-D2CC00847E-s001</label><media xlink:href="CC-058-D2CC00847E-s001.pdf" id="d64e895" position="anchor"/></supplementary-material><supplementary-material id="CC-058-D2CC00847E-s002" position="float" content-type="local-data"><label>CC-058-D2CC00847E-s002</label><media xlink:href="CC-058-D2CC00847E-s002.cif" id="d64e898" position="anchor"/></supplementary-material></sec></body><back><ref-list><ref id="cit1"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Valkenier</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Judd</surname><given-names>L. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Brotherhood</surname><given-names>P. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Hussain</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Cooper</surname><given-names>J. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jur&#x0010d;ek</surname><given-names>O.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sparkes</surname><given-names>H. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sheppard</surname><given-names>D. N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Davis</surname><given-names>A. P.</given-names></name>
+</person-group><source>Nat. Chem.</source><year>2016</year><volume>8</volume><fpage>24</fpage><lpage>32</lpage><pub-id pub-id-type="doi">10.1038/nchem.2384</pub-id><?supplied-pmid 26673261?><pub-id pub-id-type="pmid">26673261</pub-id></element-citation></ref><ref id="cit2"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Roy</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Talukdar</surname><given-names>P.</given-names></name>
+</person-group><source>ChemBioChem</source><year>2021</year><volume>22</volume><fpage>2925</fpage><lpage>2940</lpage><pub-id pub-id-type="doi">10.1002/cbic.202100112</pub-id><?supplied-pmid 34043277?><pub-id pub-id-type="pmid">34043277</pub-id></element-citation></ref><ref id="cit3"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Davis</surname><given-names>J. T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gale</surname><given-names>P. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Quesada</surname><given-names>R.</given-names></name>
+</person-group><source>Chem. Soc. Rev.</source><year>2020</year><volume>49</volume><fpage>6056</fpage><lpage>6086</lpage><pub-id pub-id-type="doi">10.1039/C9CS00662A</pub-id><?supplied-pmid 32692794?><pub-id pub-id-type="pmid">32692794</pub-id></element-citation></ref><ref id="cit4"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wu</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Judd</surname><given-names>L. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Howe</surname><given-names>E. N. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Withecombe</surname><given-names>A. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Soto-Cerrato</surname><given-names>V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Busschaert</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Valkenier</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>P&#x000e9;rez-Tom&#x000e1;s</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sheppard</surname><given-names>D. N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jiang</surname><given-names>Y.-B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Davis</surname><given-names>A. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gale</surname><given-names>P. A.</given-names></name>
+</person-group><source>Chem</source><year>2016</year><volume>1</volume><fpage>127</fpage><lpage>146</lpage></element-citation></ref><ref id="cit5"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Shinde</surname><given-names>S. V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Talukdar</surname><given-names>P.</given-names></name>
+</person-group><source>Chem. Commun.</source><year>2018</year><volume>54</volume><fpage>10351</fpage><lpage>10354</lpage><pub-id pub-id-type="doi">10.1039/C8CC04044C</pub-id><?supplied-pmid 30151528?><pub-id pub-id-type="pmid">30151528</pub-id></element-citation></ref><ref id="cit6"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Gale</surname><given-names>P. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>P&#x000e9;rez-Tom&#x000e1;s</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Quesada</surname><given-names>R.</given-names></name>
+</person-group><source>Acc. Chem. Res.</source><year>2013</year><volume>46</volume><fpage>2801</fpage><lpage>2813</lpage><pub-id pub-id-type="doi">10.1021/ar400019p</pub-id><?supplied-pmid 23551251?><pub-id pub-id-type="pmid">23551251</pub-id></element-citation></ref><ref id="cit7"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Wu</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gilchrist</surname><given-names>A. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gale</surname><given-names>P. A.</given-names></name>
+</person-group><source>Chem</source><year>2020</year><volume>6</volume><fpage>1296</fpage><lpage>1309</lpage></element-citation></ref><ref id="cit8"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Shang</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Si</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhao</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Che</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Hou</surname><given-names>J.-L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jiang</surname><given-names>H.</given-names></name>
+</person-group><source>Org. Lett.</source><year>2014</year><volume>16</volume><fpage>4008</fpage><lpage>4011</lpage><pub-id pub-id-type="doi">10.1021/ol501772v</pub-id><?supplied-pmid 25036618?><pub-id pub-id-type="pmid">25036618</pub-id></element-citation></ref><ref id="cit9"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Valkenier</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Akrawi</surname><given-names>O.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jur&#x0010d;ek</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sleziakov&#x000e1;</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>L&#x000ed;zal</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bartik</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>&#x00160;indel&#x000e1;&#x00159;</surname><given-names>V.</given-names></name>
+</person-group><source>Chem</source><year>2019</year><volume>5</volume><fpage>429</fpage><lpage>444</lpage></element-citation></ref><ref id="cit10"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Lee</surname><given-names>L. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tsemperouli</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Poblador-Bahamonde</surname><given-names>A. I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Benz</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sakai</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sugihara</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Matile</surname><given-names>S.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2019</year><volume>141</volume><fpage>810</fpage><lpage>814</lpage><pub-id pub-id-type="doi">10.1021/jacs.8b12554</pub-id><?supplied-pmid 30618243?><pub-id pub-id-type="pmid">30618243</pub-id></element-citation></ref><ref id="cit11"><mixed-citation publication-type="book">
+<source>Halogen Bonding in Solution</source>, ed. <person-group person-group-type="editor"><string-name>S. Huber</string-name></person-group>, <publisher-name>Wiley</publisher-name>, 1st edn, <year>2021</year></mixed-citation></ref><ref id="cit12"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Taylor</surname><given-names>M. S.</given-names></name>
+</person-group><source>Coord. Chem. Rev.</source><year>2020</year><volume>413</volume><fpage>213270</fpage><pub-id pub-id-type="doi">10.1016/j.ccr.2020.213270</pub-id></element-citation></ref><ref id="cit13"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Humeniuk</surname><given-names>H. V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gini</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Hao</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Coelho</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sakai</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Matile</surname><given-names>S.</given-names></name>
+</person-group><source>JACS Au</source><year>2021</year><volume>1</volume><fpage>1588</fpage><lpage>1593</lpage><pub-id pub-id-type="doi">10.1021/jacsau.1c00345</pub-id><?supplied-pmid 34723261?><pub-id pub-id-type="pmid">34723261</pub-id></element-citation></ref><ref id="cit14"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Vargas Jentzsch</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Hennig</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mareda</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Matile</surname><given-names>S.</given-names></name>
+</person-group><source>Acc. Chem. Res.</source><year>2013</year><volume>46</volume><fpage>2791</fpage><lpage>2800</lpage><pub-id pub-id-type="doi">10.1021/ar400014r</pub-id><?supplied-pmid 23547885?><pub-id pub-id-type="pmid">23547885</pub-id></element-citation></ref><ref id="cit15"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Vargas Jentzsch</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Emery</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Mareda</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Nayak</surname><given-names>S. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Metrangolo</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Resnati</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sakai</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Matile</surname><given-names>S.</given-names></name>
+</person-group><source>Nat. Commun.</source><year>2012</year><volume>3</volume><fpage>905</fpage><pub-id pub-id-type="doi">10.1038/ncomms1902</pub-id><?supplied-pmid 22713747?><pub-id pub-id-type="pmid">22713747</pub-id></element-citation></ref><ref id="cit16"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ren</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ding</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Roy</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Shen</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhou</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Chen</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>S. F. Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ren</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Yang</surname><given-names>Y. Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zeng</surname><given-names>H.</given-names></name>
+</person-group><source>Chem. Sci.</source><year>2018</year><volume>9</volume><fpage>4044</fpage><lpage>4051</lpage><pub-id pub-id-type="doi">10.1039/C8SC00602D</pub-id><?supplied-pmid 29780533?><pub-id pub-id-type="pmid">29780533</pub-id></element-citation></ref><ref id="cit17"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Huang</surname><given-names>W.-L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>X.-D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Zhang</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Ao</surname><given-names>Y.-F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Tang</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>Q.-Q.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wang</surname><given-names>D.-X.</given-names></name>
+</person-group><source>J. Org. Chem.</source><year>2019</year><volume>84</volume><fpage>8859</fpage><lpage>8869</lpage><pub-id pub-id-type="doi">10.1021/acs.joc.9b00561</pub-id><?supplied-pmid 31203616?><pub-id pub-id-type="pmid">31203616</pub-id></element-citation></ref><ref id="cit18"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bickerton</surname><given-names>L. E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sterling</surname><given-names>A. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Beer</surname><given-names>P. D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Duarte</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Langton</surname><given-names>M. J.</given-names></name>
+</person-group><source>Chem. Sci.</source><year>2020</year><volume>11</volume><fpage>4722</fpage><lpage>4729</lpage><pub-id pub-id-type="doi">10.1039/D0SC01467B</pub-id><?supplied-pmid 34122927?><pub-id pub-id-type="pmid">34122927</pub-id></element-citation></ref><ref id="cit19"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Bickerton</surname><given-names>L. E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Docker</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sterling</surname><given-names>A. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kuhn</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Duarte</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Beer</surname><given-names>P. D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Langton</surname><given-names>M.</given-names></name>
+</person-group><source>Chem. &#x02013; Eur. J.</source><year>2021</year><volume>27</volume><fpage>11738</fpage><lpage>11745</lpage><pub-id pub-id-type="doi">10.1002/chem.202101681</pub-id><?supplied-pmid 34014001?><pub-id pub-id-type="pmid">34014001</pub-id></element-citation></ref><ref id="cit20"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Valkenier</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Judd</surname><given-names>L. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Hussain</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sheppard</surname><given-names>D. N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Davis</surname><given-names>A. P.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2014</year><volume>136</volume><fpage>12507</fpage><lpage>12512</lpage><pub-id pub-id-type="doi">10.1021/ja507551z</pub-id><?supplied-pmid 25122590?><pub-id pub-id-type="pmid">25122590</pub-id></element-citation></ref><ref id="cit21"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Busschaert</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kirby</surname><given-names>I. L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Young</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Coles</surname><given-names>S. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Horton</surname><given-names>P. N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Light</surname><given-names>M. E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gale</surname><given-names>P. A.</given-names></name>
+</person-group><source>Angew. Chem., Int. Ed.</source><year>2012</year><volume>51</volume><fpage>4426</fpage><lpage>4430</lpage><pub-id pub-id-type="doi">10.1002/anie.201200729</pub-id><?supplied-pmid 22461434?><pub-id pub-id-type="pmid">22461434</pub-id></element-citation></ref><ref id="cit22"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Li</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Valkenier</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Thorne</surname><given-names>A. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Dias</surname><given-names>C. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Cooper</surname><given-names>J. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kieffer</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Busschaert</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gale</surname><given-names>P. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sheppard</surname><given-names>D. N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Davis</surname><given-names>A. P.</given-names></name>
+</person-group><source>Chem. Sci.</source><year>2019</year><volume>10</volume><fpage>9663</fpage><lpage>9672</lpage><pub-id pub-id-type="doi">10.1039/C9SC04242C</pub-id><?supplied-pmid 32055336?><pub-id pub-id-type="pmid">32055336</pub-id></element-citation></ref><ref id="cit23"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Hamon</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>M&#x000e9;nand</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Le Gac</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Luhmer</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Dalla</surname><given-names>V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jabin</surname><given-names>I.</given-names></name>
+</person-group><source>J. Org. Chem.</source><year>2008</year><volume>73</volume><fpage>7067</fpage><lpage>7071</lpage><pub-id pub-id-type="doi">10.1021/jo800712q</pub-id><?supplied-pmid 18712925?><pub-id pub-id-type="pmid">18712925</pub-id></element-citation></ref><ref id="cit24"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Grauwels</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Valkenier</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Davis</surname><given-names>A. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jabin</surname><given-names>I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Bartik</surname><given-names>K.</given-names></name>
+</person-group><source>Angew. Chem., Int. Ed.</source><year>2019</year><volume>58</volume><fpage>6921</fpage><lpage>6925</lpage><pub-id pub-id-type="doi">10.1002/anie.201900818</pub-id><?supplied-pmid 30925004?><pub-id pub-id-type="pmid">30925004</pub-id></element-citation></ref><ref id="cit25"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Ikeda</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Shinkai</surname><given-names>S.</given-names></name>
+</person-group><source>Chem. Rev.</source><year>1997</year><volume>97</volume><fpage>1713</fpage><lpage>1734</lpage><pub-id pub-id-type="doi">10.1021/cr960385x</pub-id><?supplied-pmid 11851464?><pub-id pub-id-type="pmid">11851464</pub-id></element-citation></ref><ref id="cit26"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Valkenier</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Haynes</surname><given-names>C. J. E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Herniman</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gale</surname><given-names>P. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Davis</surname><given-names>A. P.</given-names></name>
+</person-group><source>Chem. Sci.</source><year>2014</year><volume>5</volume><fpage>1128</fpage><lpage>1134</lpage><pub-id pub-id-type="doi">10.1039/C3SC52962B</pub-id></element-citation></ref><ref id="cit27"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>M&#x000e9;nand</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Jabin</surname><given-names>I.</given-names></name>
+</person-group><source>Org. Lett.</source><year>2009</year><volume>11</volume><fpage>673</fpage><lpage>676</lpage><pub-id pub-id-type="doi">10.1021/ol8027384</pub-id><?supplied-pmid 19138121?><pub-id pub-id-type="pmid">19138121</pub-id></element-citation></ref><ref id="cit28"><mixed-citation publication-type="other">Datasets (NMR spectra and transport curves) are available at Zenodo<pub-id pub-id-type="doi">10.5281/zenodo.6010342</pub-id></mixed-citation></ref><ref id="cit29"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Edwards</surname><given-names>S. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Valkenier</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Busschaert</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gale</surname><given-names>P. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Davis</surname><given-names>A. P.</given-names></name>
+</person-group><source>Angew. Chem., Int. Ed.</source><year>2015</year><volume>54</volume><fpage>4592</fpage><lpage>4596</lpage><pub-id pub-id-type="doi">10.1002/anie.201411805</pub-id><?supplied-pmid 25690527?><pub-id pub-id-type="pmid">25690527</pub-id></element-citation></ref><ref id="cit30"><mixed-citation publication-type="other">
+<uri xlink:href="https://supramolecular.org">https://supramolecular.org</uri>
+</mixed-citation></ref><ref id="cit31"><note><p>See ESI<xref rid="fn1" ref-type="fn">&#x02020;</xref> for chloride biding data of 3 in DMSO-d<sub>6</sub>/0.5%H<sub>2</sub>O and a comparison between 3&#x02013;5</p></note></ref><ref id="cit32"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Sarwar</surname><given-names>M. G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Dragisi&#x00107;</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Dimitrijevi&#x00107;</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Taylor</surname><given-names>M. S.</given-names></name>
+</person-group><source>Chem. &#x02013; Eur. J.</source><year>2013</year><volume>19</volume><fpage>2050</fpage><lpage>2058</lpage><pub-id pub-id-type="doi">10.1002/chem.201202689</pub-id><?supplied-pmid 23280995?><pub-id pub-id-type="pmid">23280995</pub-id></element-citation></ref><ref id="cit33"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Pike</surname><given-names>S. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Hutchinson</surname><given-names>J. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Hunter</surname><given-names>C. A.</given-names></name>
+</person-group><source>J. Am. Chem. Soc.</source><year>2017</year><volume>139</volume><fpage>6700</fpage><lpage>6706</lpage><pub-id pub-id-type="doi">10.1021/jacs.7b02008</pub-id><?supplied-pmid 28471173?><pub-id pub-id-type="pmid">28471173</pub-id></element-citation></ref><ref id="cit34"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Jur&#x0010d;ek</surname><given-names>O.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Valkenier</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Puttreddy</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Nov&#x000e1;k</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Sparkes</surname><given-names>H. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Marek</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rissanen</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Davis</surname><given-names>A. P.</given-names></name>
+</person-group><source>Chem. &#x02013; Eur. J.</source><year>2018</year><volume>24</volume><fpage>8178</fpage><lpage>8185</lpage><pub-id pub-id-type="doi">10.1002/chem.201800537</pub-id><?supplied-pmid 29603485?><pub-id pub-id-type="pmid">29603485</pub-id></element-citation></ref><ref id="cit35"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Yang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Wu</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Busschaert</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Furuta</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gale</surname><given-names>P. A.</given-names></name>
+</person-group><source>Chem. Commun.</source><year>2017</year><volume>53</volume><fpage>9230</fpage><lpage>9233</lpage><pub-id pub-id-type="doi">10.1039/C7CC04912A</pub-id><?supplied-pmid 28766598?><pub-id pub-id-type="pmid">28766598</pub-id></element-citation></ref><ref id="cit36"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name><surname>Marques</surname><given-names>I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Costa</surname><given-names>P. M. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Miranda</surname><given-names>M. Q.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Busschaert</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Howe</surname><given-names>E. N. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Clarke</surname><given-names>H. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Haynes</surname><given-names>C. J. E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Kirby</surname><given-names>I. L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Rodilla</surname><given-names>A. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>P&#x000e9;rez-Tom&#x000e1;s</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>Gale</surname><given-names>P. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name><surname>F&#x000e9;lix</surname><given-names>V.</given-names></name>
+</person-group><source>Phys. Chem. Chem. Phys.</source><year>2018</year><volume>20</volume><fpage>20796</fpage><lpage>20811</lpage><pub-id pub-id-type="doi">10.1039/C8CP02576B</pub-id><?supplied-pmid 29978159?><pub-id pub-id-type="pmid">29978159</pub-id></element-citation></ref></ref-list></back></article>
