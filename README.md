@@ -97,4 +97,6 @@ You’re productionizing your ML—exactly how ML engineers grow.
 
 ## The dataset for training in the directory named data.
 
+The dataset was picked from the Make Data Count - Finding Data References competition on Kaggle. 
+
 
