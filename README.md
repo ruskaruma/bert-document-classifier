@@ -47,7 +47,7 @@ bert-document-classifier/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/<your-username>/bert-document-classifier.git
+   git clone https://github.com/ruskaruma/bert-document-classifier.git
    cd bert-document-classifier
    ```
 
