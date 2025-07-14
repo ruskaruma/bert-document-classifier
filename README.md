@@ -85,16 +85,7 @@ bert-document-classifier/
 
 This project is licensed under the MIT License.
 
-
 ---
-
-Let me know if you'd like to include:
-- API request/response examples  
-- Screenshots of Swagger UI or cURL usage  
-- Deployment steps (Docker, cloud, etc.)
-
-You’re productionizing your ML—exactly how ML engineers grow.
-
 ## The dataset for training in the directory named data.
 
 The dataset was picked from the Make Data Count - Finding Data References competition on Kaggle. 
