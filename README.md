@@ -94,6 +94,53 @@ bert-document-classifier/
 
 ---
 
+## Docker Deployment
+
+### Quick Start with Docker
+
+1. Start the service:
+
+   ```bash
+   docker-compose up --build -d
+   ```
+
+2. API available at `http://localhost:8000`
+
+3. Stop the service:
+
+   ```bash
+   docker-compose down
+   ```
+
+### Manual Docker Build
+
+1. Build the image:
+
+   ```bash
+   docker build -t bert-classifier .
+   ```
+
+2. Run the container:
+
+   ```bash
+   docker run -p 8000:8000 -v $(pwd)/saved_model:/app/saved_model:ro bert-classifier
+   ```
+
+### Requirements for Docker
+
+- Trained model files must exist in `saved_model/` directory
+- Docker and docker-compose installed on your system
+
+### Docker Cleanup
+
+To free up resources and remove all Docker artifacts:
+
+```bash
+docker system prune -a --volumes
+```
+
+---
+
 ## Notes
 
 - The model must be trained before serving. After training, save the `model.pt` and `label_encoder.joblib` into the `saved_model/` directory.
