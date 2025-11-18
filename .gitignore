@@ -4,5 +4,9 @@ __pycache__/
 .env
 *.ipynb_checkpoints
 *.pdf
-saved_model/
+
+# Ignore model files but keep the directory structure
+saved_model/*.pt
+saved_model/*.joblib
+!saved_model/README.md
 
