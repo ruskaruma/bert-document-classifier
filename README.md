@@ -60,17 +60,29 @@ bert-document-classifier/
 
 3. Install the dependencies:
 
+   For running the API only:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Run the FastAPI server:
+   For training the model:
+   ```bash
+   pip install -r requirements-train.txt
+   ```
+
+4. Train the model (if not already trained):
+
+   ```bash
+   jupyter notebook experiment_01_document_classifier.ipynb
+   ```
+
+5. Run the FastAPI server:
 
    ```bash
    uvicorn api.app:app --reload
    ```
 
-5. Visit `http://127.0.0.1:8000/docs` to access the interactive Swagger UI.
+6. Visit `http://127.0.0.1:8000/docs` to access the interactive Swagger UI.
 
 ---
 
