@@ -51,14 +51,16 @@ bert-document-classifier/
    cd bert-document-classifier
    ```
 
-2. Create and activate your virtual environment:
+2. Download the dataset from Kaggle (Make Data Count competition) and place in `data/` directory
+
+3. Create and activate your virtual environment:
 
    ```bash
    python -m venv venv
    source venv/bin/activate
    ```
 
-3. Install the dependencies:
+4. Install the dependencies:
 
    For running the API only:
    ```bash
@@ -70,19 +72,25 @@ bert-document-classifier/
    pip install -r requirements-train.txt
    ```
 
-4. Train the model (if not already trained):
+5. Verify setup:
+
+   ```bash
+   python check_setup.py
+   ```
+
+6. Train the model (if not already trained):
 
    ```bash
    jupyter notebook experiment_01_document_classifier.ipynb
    ```
 
-5. Run the FastAPI server:
+7. Run the FastAPI server:
 
    ```bash
    uvicorn api.app:app --reload
    ```
 
-6. Visit `http://127.0.0.1:8000/docs` to access the interactive Swagger UI.
+8. Visit `http://127.0.0.1:8000/docs` to access the interactive Swagger UI.
 
 ---
 

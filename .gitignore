@@ -1,12 +1,21 @@
 __pycache__/
+*.pyc
+*.pyo
 *.pt
 *.joblib
 .env
 *.ipynb_checkpoints
 *.pdf
 
-# Ignore model files but keep the directory structure
 saved_model/*.pt
 saved_model/*.joblib
 !saved_model/README.md
 
+data/
+test/
+train/
+
+.DS_Store
+*.log
+.vscode/
+.idea/
