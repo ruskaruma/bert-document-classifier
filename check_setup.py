@@ -76,7 +76,7 @@ def main():
     else:
         print("Some checks failed. Please address the issues above.")
         print("\nIf model files are missing:")
-        print("  Run: experiment_01_document_classifier.ipynb")
+        print("  Run: train_bert_classifier.ipynb")
         print("\nIf packages are missing:")
         print("  pip install -r requirements.txt")
         sys.exit(1)

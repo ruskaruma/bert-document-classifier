@@ -35,7 +35,7 @@ bert-document-classifier/
 ├── saved_model/
 │   ├── model.pt                  # Trained model weights
 │   ├── label_encoder.joblib      # Fitted label encoder
-├── experiment_01_document_classifier.ipynb  # Initial training and experimentation
+├── train_bert_classifier.ipynb  # Initial training and experimentation
 ├── README.md
 └── .gitignore
 ```
@@ -81,7 +81,7 @@ bert-document-classifier/
 6. Train the model (if not already trained):
 
    ```bash
-   jupyter notebook experiment_01_document_classifier.ipynb
+   jupyter notebook train_bert_classifier.ipynb
    ```
 
 7. Run the FastAPI server:

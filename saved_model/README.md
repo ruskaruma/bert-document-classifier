@@ -8,7 +8,7 @@ This directory should contain the trained BERT model files:
 ## How to Get the Model Files
 
 ### Option 1: Train the Model
-Run the Jupyter notebook `experiment_01_document_classifier.ipynb` to train the model. The training process will:
+Run the Jupyter notebook `train_bert_classifier.ipynb` to train the model. The training process will:
 1. Load and preprocess the training data
 2. Train the BERT classifier for 3 epochs
 3. Save the trained model to this directory

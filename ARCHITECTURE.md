@@ -124,7 +124,7 @@ graph TB
     A --> C[api/]
     A --> D[saved_model/]
     A --> E[data/]
-    A --> F[experiment_01_document_classifier.ipynb]
+    A --> F[train_bert_classifier.ipynb]
     
     B --> B1[bert_classifier.py]
     B --> B2[inference.py]
